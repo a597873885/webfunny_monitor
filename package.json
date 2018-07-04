@@ -1,0 +1,18 @@
+{
+  "name": "webmonitor",
+  "version": "1.0.0",
+  "description": "前端性能监控",
+  "main": "webmonitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "root@101.132.96.139:/home/git_store/resources.git"
+  },
+  "author": "jeffery",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
