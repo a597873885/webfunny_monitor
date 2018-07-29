@@ -6,3 +6,5 @@
 需重写fetch的代码，以保证http请求监控生效，fetch代码分开在 fetchCode.js 中
 
 执行命令 webpack 可得压缩版监控代码
+
+webmonitor.js 为监控源码
