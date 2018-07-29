@@ -192,7 +192,7 @@
     // });
     // 启动测试
     recordPV();
-    recordBehavior({record: 1});
+    // recordBehavior({record: 1});
     recordJavaScriptError();
 
     /**
