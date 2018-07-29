@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "root@101.132.96.139:/home/git_store/resources.git"
+    "url": "git@github.com:a597873885/webfunny_monitor.git"
   },
   "author": "jeffery",
   "license": "ISC",
