@@ -212,9 +212,9 @@
       }
       // 循环5后次进行一次上传
       if (timeCount >= 5) {
-        var logInfo = localStorage[ELE_BEHAVIOR] || "" +
-          localStorage[JS_ERROR] || "" +
-          localStorage[CUSTOMER_PV] || "";
+        var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
+          (localStorage[JS_ERROR] || "") +
+          (localStorage[CUSTOMER_PV] || "");
         if (logInfo) {
           utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {
             // 上传完成后，清空本地记录
