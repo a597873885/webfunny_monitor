@@ -37,10 +37,10 @@
     , WEB_MONITOR_IP = 'www.webfunny.cn'
 
     // 上传数据的uri, 区分了本地和生产环境
-    , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_MONITOR_IP) == -1 ? WEB_HTTP_TYPE + WEB_LOCAL_IP + ':3000' : WEB_HTTP_TYPE + WEB_MONITOR_IP
+    , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':3000'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
-    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/server/common/uploadLogInfo'
+    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/api/v1/uploadLog'
 
     // 上传数据的接口
     , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + '/api/v1/uploadLog'
