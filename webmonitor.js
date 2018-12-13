@@ -3,6 +3,7 @@
   if (!localStorage) {
     window.localStorage = new Object();
   }
+  localStorage.wmUserInfo = "";
   var
     // 用fetch方式请求接口时，暂存接口url
     fetchHttpUrl = null
@@ -125,9 +126,10 @@
     this.province = "";  // 用户所在省份
     this.city = "";  // 用户所在城市
     // 用户自定义信息， 由开发者主动传入， 便于对线上进行准确定位
-    this.userId = localStorage.wmUserInfo.userId;
-    this.firstUserParam = localStorage.wmUserInfo.firstUserParam;
-    this.secondUserParam = localStorage.wmUserInfo.secondUserParam;
+    var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
+    this.userId = wmUserInfo.userId || "";
+    this.firstUserParam = wmUserInfo.firstUserParam || "";
+    this.secondUserParam = wmUserInfo.secondUserParam || "";
   }
   // 用户访问行为日志(PV)
   function CustomerPV(uploadType, loadType, loadTime) {
@@ -203,7 +205,7 @@
 
     /**
      * 添加一个定时器，进行数据的上传
-     * 3秒钟进行一次URL是否变化的检测
+     * 2秒钟进行一次URL是否变化的检测
      * 10秒钟进行一次数据的检查并上传
      */
     var timeCount = 0;
@@ -231,7 +233,7 @@
         timeCount = 0;
       }
       timeCount ++;
-    }, 2000);
+    }, 1000);
   }
   /**
    * 用户访问记录监控
@@ -312,15 +314,20 @@
       checkUrlChange();
       // 记录用户点击元素的行为数据
       document.onclick = function (e) {
-        var className = e.target.className ? e.target.className.replace(/\s/g, '') : "";
-        var placeholder = encodeURIComponent(e.target.placeholder || "");
-        var inputValue = encodeURIComponent(e.target.value || "");
+        var className = "";
+        var placeholder = "";
+        var inputValue = "";
         var tagName = e.target.tagName;
-        var innerText = encodeURIComponent(e.target.innerText.replace(/\s*/g, ""));
-        // 如果点击的内容过长，就截取上传
-        if (innerText.length > 200) innerText = innerText.substring(0, 100) + "... ..." + innerText.substring(innerText.length - 99, innerText.length - 1);
-        innerText = innerText.replace(/\s/g, '');
-
+        var innerText = "";
+        if (e.target.tagName != "svg" && e.target.tagName != "use") {
+          className = e.target.className ? e.target.className.replace(/\s/g, '') : "";
+          placeholder = encodeURIComponent(e.target.placeholder || "");
+          inputValue = encodeURIComponent(e.target.value || "");
+          innerText = encodeURIComponent(e.target.innerText.replace(/\s*/g, ""));
+          // 如果点击的内容过长，就截取上传
+          if (innerText.length > 200) innerText = innerText.substring(0, 100) + "... ..." + innerText.substring(innerText.length - 99, innerText.length - 1);
+          innerText = innerText.replace(/\s/g, '');
+        }
         var behaviorInfo = new BehaviorInfo(ELE_BEHAVIOR, "click", className, placeholder, inputValue, tagName, innerText);
         behaviorInfo.handleLogInfo(ELE_BEHAVIOR, behaviorInfo);
       }
@@ -463,25 +470,25 @@
         if(agent.indexOf("msie") > 0) {
           var browserInfo = agent.match(regStr_ie)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
+          device.browserVersion = agent;
         }
         //firefox
         if(agent.indexOf("firefox") > 0) {
           var browserInfo = agent.match(regStr_ff)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
+          device.browserVersion = agent;
         }
         //Safari
         if(agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0) {
           var browserInfo = agent.match(regStr_saf)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
+          device.browserVersion = agent;
         }
         //Chrome
         if(agent.indexOf("chrome") > 0) {
           var browserInfo = agent.match(regStr_chrome)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
+          device.browserVersion = agent;
         }
       }
 
@@ -549,8 +556,8 @@
       if (!secondUserParam) console.warn('secondParam 初始化值为0(不推荐) 或者 未初始化');
       localStorage.wmUserInfo = JSON.stringify({
         userId: userId,
-        firstParam: firstUserParam,
-        secondParam: secondUserParam
+        firstUserParam: firstUserParam,
+        secondUserParam: secondUserParam
       });
     }
   };
