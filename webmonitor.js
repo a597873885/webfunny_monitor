@@ -24,6 +24,9 @@ var Base64String={compressToUTF16:function(input){var output=[],i,c,current,stat
     // 判断html2canvas是否加载完成
     , html2CanvasLoaded = false
 
+    // 保存已经发生错误的errorMsg, 同一个错误，只保存一次截图
+    , screenShotErrorMsgs = []
+
     // 屏幕截图字符串
     , tempScreenShot = "";
 
@@ -108,6 +111,8 @@ var Base64String={compressToUTF16:function(input){var output=[],i,c,current,stat
           break;
         default: break;
       }
+      console.log(logInfo)
+      console.log(localStorage[JS_ERROR])
     };
   }
   // 设置日志对象类的通用属性
@@ -162,6 +167,14 @@ var Base64String={compressToUTF16:function(input){var output=[],i,c,current,stat
   }
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
+  // JS错误截图，，继承于日志基类MonitorBaseInfo
+  function ScreenShotInfo(uploadType, errorMsg, screenInfo) {
+    setCommonProperty.apply(this);
+    this.uploadType = uploadType;
+    this.errorMessage = encodeURIComponent(errorMsg);
+    this.screenInfo = screenInfo;
+  }
+  JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
   /**
    * 监控初始化配置, 以及启动的方法
    */
@@ -296,14 +309,16 @@ var Base64String={compressToUTF16:function(input){var output=[],i,c,current,stat
       }
       var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, errorType + ": " + errorMsg, errorObj);
       if (html2CanvasLoaded) {
-        utils.screenShot(document.body, function (dataUrl) {
-          tempScreenShot = dataUrl;
-          javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
-        });
+        setTimeout(function () {
+          utils.screenShot(document.body, function (dataUrl) {
+            document.getElementById("testImg").src = "data:image/png;base64," + Base64String.decompress(dataUrl)
+            javaScriptErrorInfo.screenShot = dataUrl;
+            javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
+          });
+        }, 200)
       } else {
         javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
       }
-
     };
   };
   /**
@@ -326,9 +341,6 @@ var Base64String={compressToUTF16:function(input){var output=[],i,c,current,stat
 
         var behaviorInfo = new BehaviorInfo(ELE_BEHAVIOR, "click", className, placeholder, inputValue, tagName, innerText);
         behaviorInfo.handleLogInfo(ELE_BEHAVIOR, behaviorInfo);
-
-        utils.screenShot(document.body, function (dataUrl) {
-        });
       }
     }
   };
