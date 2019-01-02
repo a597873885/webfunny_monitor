@@ -2,7 +2,7 @@
 监控系统日志收集代码
 
 线上Demo:
-    https://www.webfunny.cn/webfunny/javascriptError
+    http://www.webfunny.cn/
     
 博客讲解：
     https://www.cnblogs.com/warm-stranger/p/9417084.html
