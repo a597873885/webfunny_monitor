@@ -1,15 +1,43 @@
-# webfunny_monitor
-监控系统日志收集代码
+# 阅读须知
+webmonitor.js 为探针的源码
+fetchCode.js 为fetch的源码
+html2canvas0.js 为截图插件的源码
+执行命令 webpack 可得压缩版监控代码 - monitor.fetch.html2.min.js 
 
+
+# 讲解须知
+监控系统的探针代码
 线上Demo:
-    http://www.webfunny.cn/
-    
+    http://www.webfunny.cn/ 
 博客讲解：
     https://www.cnblogs.com/warm-stranger/p/10209990.html
 
 
-# 注意事项
+# 探针部署方式：
 
-执行命令 webpack 可得压缩版监控代码， 压缩代码会在最后加入fetch的源码，原因我会在知乎的讲解中介绍
+1. 根目录下执行命令$: webpack
+   得到一个压缩js文件(探针)  monitor.fetch.html2.min.js 
+   
+2. 将探针代码插入到html页面head的最顶部   
+   <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <meta name="format-detection" content="telephone=no">
+        <title></title>
+        <!-- 判断生产环境加载监控代码 开始 -->
+        <script type="text/javascript" src="http://localhost:8000/monitor.fetch.html2.min.js"></script>
+        <!-- 判断生产环境加载监控代码 结束 -->
+    </head>
+    <body></body>
+   </html>
+   
+3. 启动mysql数据库，如果使用远程数据库可以参考教程：
+    搭建前端监控系统（一）阿里云服务器搭建篇：https://www.cnblogs.com/warm-stranger/p/8837784.html
+    
+4. 启动node服务器，可以参考教程： 
+    搭建前端监控系统（三）NodeJs服务器部署篇：https://www.cnblogs.com/warm-stranger/p/9556442.html
+    源码： https://github.com/a597873885/webfunny_servers
+    
+如果有问题，欢迎提问。
 
-webmonitor.js 为监控源码
