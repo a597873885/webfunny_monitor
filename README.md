@@ -5,7 +5,7 @@
 
 3. html2canvas0.js 为截图插件的源码
 
-执行命令 webpack 可得压缩版监控代码 - monitor.fetch.html2.min.js 
+4. 执行命令 webpack 可得压缩版监控代码 - monitor.fetch.html2.min.js 
 
 
 # 讲解须知
@@ -24,18 +24,17 @@
    得到一个压缩js文件(探针)  monitor.fetch.html2.min.js 
    
 2. 将探针代码插入到html页面head的最顶部   
-   <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport">
-        <meta name="format-detection" content="telephone=no">
-        <title></title>
+   '<html>'
+    
+    '<head>'
         <!-- 判断生产环境加载监控代码 开始 -->
         <script type="text/javascript" src="http://localhost:8000/monitor.fetch.html2.min.js"></script>
         <!-- 判断生产环境加载监控代码 结束 -->
-    </head>
-    <body></body>
-   </html>
+    '</head>'
+    
+    '<body></body>'
+    
+   '</html>'
    
 3. 启动mysql数据库，如果使用远程数据库可以参考教程：
     搭建前端监控系统（一）阿里云服务器搭建篇：https://www.cnblogs.com/warm-stranger/p/8837784.html
