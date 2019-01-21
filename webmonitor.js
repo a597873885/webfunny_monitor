@@ -20,11 +20,8 @@
     // 上传日志的开关，如果为false，则不再上传
     , uploadRemoteServer = true
 
-    // 判断html2canvas是否加载完成
-    , html2CanvasLoaded = false
-
-    // 保存已经发生错误的errorMsg, 同一个错误，只保存一次截图
-    , screenShotErrorMsgs = []
+    // 保存图片对应的描述，同一个描述只保存一次
+    , screenShotDescriptions = []
 
     // 屏幕截图字符串
     , tempScreenShot = ""
@@ -50,6 +47,9 @@
 
     // 上传数据的uri, 区分了本地和生产环境
     , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
+
+    // 上传数据的接口API
+    , HTTP_UPLOAD_LOG_API = '/api/v1/uploadLog'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
     , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/api/v1/uploadLog'
@@ -110,6 +110,9 @@
         case JS_ERROR:
           localStorage[JS_ERROR] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
+        case HTTP_LOG:
+          localStorage[HTTP_LOG] = tempString + JSON.stringify(logInfo) + '$$$';
+          break;
         case SCREEN_SHOT:
           localStorage[SCREEN_SHOT] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
@@ -118,8 +121,6 @@
           break;
         default: break;
       }
-      console.log(logInfo)
-      console.log(localStorage[JS_ERROR])
     };
   }
   // 设置日志对象类的通用属性
@@ -127,6 +128,7 @@
     this.happenTime = new Date().getTime(); // 日志发生时间
     this.webMonitorId = WEB_MONITOR_ID;     // 用于区分应用的唯一标识（一个项目对应一个）
     this.simpleUrl =  window.location.href.split('?')[0].replace('#', ''); // 页面的url
+    this.completeUrl =  encodeURIComponent(window.location.href); // 页面的完整url
     this.customerKey = utils.getCustomerKey(); // 用于区分用户，所对应唯一的标识，清理本地数据后失效，
     this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
     this.deviceName = DEVICE_INFO.deviceName;
@@ -140,9 +142,9 @@
     this.city = "";  // 用户所在城市
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
-    this.userId = wmUserInfo.userId || "";
-    this.firstUserParam = wmUserInfo.firstUserParam || "";
-    this.secondUserParam = wmUserInfo.secondUserParam || "";
+    this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "0");
+    this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "0");
+    this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "0");
   }
   // 用户访问行为日志(PV)
   function CustomerPV(uploadType, loadType, loadTime) {
@@ -157,11 +159,11 @@
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
     this.behaviorType = behaviorType;
-    this.className = className;
-    this.placeholder = placeholder;
-    this.inputValue = inputValue;
+    this.className = utils.b64EncodeUnicode(className);
+    this.placeholder = utils.b64EncodeUnicode(placeholder);
+    this.inputValue = utils.b64EncodeUnicode(inputValue);
     this.tagName = tagName;
-    this.innerText = innerText;
+    this.innerText = utils.b64EncodeUnicode(encodeURIComponent(innerText));
   }
   BehaviorInfo.prototype = new MonitorBaseInfo();
 
@@ -169,17 +171,29 @@
   function JavaScriptErrorInfo(uploadType, errorMsg, errorStack) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
-    this.errorMessage = encodeURIComponent(errorMsg);
-    this.errorStack = errorStack;
+    this.errorMessage = utils.b64EncodeUnicode(errorMsg)
+    this.errorStack = utils.b64EncodeUnicode(errorStack);
     this.browserInfo = BROWSER_INFO;
   }
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
-  // JS错误截图，继承于日志基类MonitorBaseInfo
-  function ScreenShotInfo(uploadType, errorMsg, screenInfo) {
+  // 接口请求日志，继承于日志基类MonitorBaseInfo
+  function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
-    this.errorMessage = encodeURIComponent(errorMsg);
+    this.httpUrl = utils.b64EncodeUnicode(url);
+    this.status = status;
+    this.statusText = statusText;
+    this.statusResult = statusResult;
+    this.happenTime = currentTime;
+  }
+  HttpLogInfo.prototype = new MonitorBaseInfo();
+
+  // JS错误截图，继承于日志基类MonitorBaseInfo
+  function ScreenShotInfo(uploadType, des, screenInfo) {
+    setCommonProperty.apply(this);
+    this.uploadType = uploadType;
+    this.description = utils.b64EncodeUnicode(des);
     this.screenInfo = screenInfo;
   }
   ScreenShotInfo.prototype = new MonitorBaseInfo();
@@ -223,6 +237,7 @@
     recordPV();
     recordBehavior({record: 1});
     recordJavaScriptError();
+    recordHttpLog();
 
     /**
      * 添加一个定时器，进行数据的上传
@@ -233,28 +248,24 @@
     setInterval(function () {
       checkUrlChange();
       // 循环5后次进行一次上传
-      if (timeCount >= 5) {
+      if (timeCount >= 25) {
         var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
           (localStorage[JS_ERROR] || "") +
+          (localStorage[HTTP_LOG] || "") +
+          (localStorage[SCREEN_SHOT] || "") +
           (localStorage[CUSTOMER_PV] || "");
         if (logInfo) {
-          utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {
-            // 上传完成后，清空本地记录
-            if (res.code === 200) {
-              localStorage[ELE_BEHAVIOR] = "";
-              localStorage[JS_ERROR] = "";
-              localStorage[CUSTOMER_PV] = "";
-            }
-          }, function () {
-            localStorage[ELE_BEHAVIOR] = "";
-            localStorage[JS_ERROR] = "";
-            localStorage[CUSTOMER_PV] = "";
-          })
+          localStorage[ELE_BEHAVIOR] = "";
+          localStorage[JS_ERROR] = "";
+          localStorage[HTTP_LOG] = "";
+          localStorage[SCREEN_SHOT] = "";
+          localStorage[CUSTOMER_PV] = "";
+          utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
         }
         timeCount = 0;
       }
       timeCount ++;
-    }, 1000);
+    }, 200);
   }
   /**
    * 用户访问记录监控
@@ -316,22 +327,72 @@
       var errorMsg = origin_errorMsg ? origin_errorMsg : '';
       var errorObj = origin_errorObj ? origin_errorObj : '';
       var errorType = "";
+
+      var lowerErrorMsg = ": Script error.".toLowerCase();
+      if (lowerErrorMsg.indexOf("script error") != -1) return;
       if (errorMsg) {
         var errorStackStr = JSON.stringify(errorObj)
         errorType = errorStackStr.split(": ")[0].replace('"', "");
       }
       var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, errorType + ": " + errorMsg, errorObj);
       javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
-
       setTimeout(function () {
-        utils.screenShot(document.body, function (screenInfo) {
-          //document.getElementById("testImg").src = "data:image/png;base64," + Base64String.decompress(dataUrl)
-          var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, errorMsg, screenInfo);
-          screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
-        });
-      }, 200)
+        // 保存该错误相关的截图信息， 并存入历史
+        if (screenShotDescriptions.indexOf(errorMsg) != -1) return
+        screenShotDescriptions.push(errorMsg)
+        utils.screenShot(document.body, errorMsg);
+      }, 500)
     };
   };
+  /**
+   * 页面接口请求监控
+   */
+  function recordHttpLog() {
+
+    // 监听ajax的状态
+    function ajaxEventTrigger(event) {
+      var ajaxEvent = new CustomEvent(event, {
+        detail: this
+      });
+      window.dispatchEvent(ajaxEvent);
+    }
+    var oldXHR = window.XMLHttpRequest;
+    function newXHR() {
+      var realXHR = new oldXHR();
+      realXHR.addEventListener('abort', function () { ajaxEventTrigger.call(this, 'ajaxAbort'); }, false);
+      realXHR.addEventListener('error', function () { ajaxEventTrigger.call(this, 'ajaxError'); }, false);
+      realXHR.addEventListener('load', function () { ajaxEventTrigger.call(this, 'ajaxLoad'); }, false);
+      realXHR.addEventListener('loadstart', function () { ajaxEventTrigger.call(this, 'ajaxLoadStart'); }, false);
+      realXHR.addEventListener('progress', function () { ajaxEventTrigger.call(this, 'ajaxProgress'); }, false);
+      realXHR.addEventListener('timeout', function () { ajaxEventTrigger.call(this, 'ajaxTimeout'); }, false);
+      realXHR.addEventListener('loadend', function () { ajaxEventTrigger.call(this, 'ajaxLoadEnd'); }, false);
+      realXHR.addEventListener('readystatechange', function() { ajaxEventTrigger.call(this, 'ajaxReadyStateChange'); }, false);
+      return realXHR;
+    }
+
+    window.XMLHttpRequest = newXHR;
+    window.addEventListener('ajaxLoadStart', function(e) {
+      var currentTime = new Date().getTime()
+      setTimeout(function () {
+        var url = e.detail.responseURL;
+        var status = e.detail.status;
+        var statusText = e.detail.statusText;
+        if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
+        var httpLogInfo = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", currentTime);
+        httpLogInfo.handleLogInfo(HTTP_LOG, httpLogInfo);
+      }, 2000)
+    });
+    window.addEventListener('ajaxLoadEnd', function(e) {
+      var currentTime = new Date().getTime()
+      var url = e.detail.responseURL;
+      var status = e.detail.status;
+      var statusText = e.detail.statusText;
+      if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
+      var httpLogInfo = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", currentTime);
+      httpLogInfo.handleLogInfo(HTTP_LOG, httpLogInfo);
+    });
+
+  }
   /**
    * 用户行为记录监控
    * @param project 项目详情
@@ -349,10 +410,10 @@
         var tagName = e.target.tagName;
         var innerText = "";
         if (e.target.tagName != "svg" && e.target.tagName != "use") {
-          className = e.target.className ? e.target.className.replace(/\s/g, '') : "";
-          placeholder = encodeURIComponent(e.target.placeholder || "");
-          inputValue = encodeURIComponent(e.target.value || "");
-          innerText = encodeURIComponent(e.target.innerText.replace(/\s*/g, ""));
+          className = e.target.className;
+          placeholder = e.target.placeholder || "";
+          inputValue = e.target.value || "";
+          innerText = e.target.innerText.replace(/\s*/g, "");
           // 如果点击的内容过长，就截取上传
           if (innerText.length > 200) innerText = innerText.substring(0, 100) + "... ..." + innerText.substring(innerText.length - 99, innerText.length - 1);
           innerText = innerText.replace(/\s/g, '');
@@ -418,6 +479,36 @@
         }
       };
       xmlHttp.send("data=" + JSON.stringify(param));
+    }
+    /**
+     * js处理截图
+     */
+    this.screenShot = function (cntElem, description) {
+      var shareContent = cntElem;//需要截图的包裹的（原生的）DOM 对象
+      var width = shareContent.offsetWidth; //获取dom 宽度
+      var height = shareContent.offsetHeight; //获取dom 高度
+      var canvas = document.createElement("canvas"); //创建一个canvas节点
+      var scale = 0.3; //定义任意放大倍数 支持小数
+      canvas.style.display = "none";
+      canvas.width = width * scale; //定义canvas 宽度 * 缩放
+      canvas.height = height * scale; //定义canvas高度 *缩放
+      canvas.getContext("2d").scale(scale, scale); //获取context,设置scale
+      var opts = {
+        scale: scale, // 添加的scale 参数
+        canvas: canvas, //自定义 canvas
+        logging: false, //日志开关，便于查看html2canvas的内部执行流程
+        width: width, //dom 原始宽度
+        height: height,
+        useCORS: true // 【重要】开启跨域配置
+      };
+      console.log(window.html2canvas);
+      window.html2canvas && window.html2canvas(cntElem, opts).then(function(canvas) {
+        var dataURL = canvas.toDataURL("image/webp");
+        var tempCompress = dataURL.replace("data:image/webp;base64,", "");
+        var compressedDataURL = utils.b64EncodeUnicode(tempCompress);
+        var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, description, compressedDataURL)
+        screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
+      });
     }
     this.getDevice = function() {
       var device = {};
@@ -499,25 +590,25 @@
         if(agent.indexOf("msie") > 0) {
           var browserInfo = agent.match(regStr_ie)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = agent;
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //firefox
         if(agent.indexOf("firefox") > 0) {
           var browserInfo = agent.match(regStr_ff)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = agent;
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //Safari
         if(agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0) {
           var browserInfo = agent.match(regStr_saf)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = agent;
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //Chrome
         if(agent.indexOf("chrome") > 0) {
           var browserInfo = agent.match(regStr_chrome)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = agent;
+          device.browserVersion = browserInfo.split('/')[1];
         }
       }
 
@@ -536,14 +627,17 @@
       dom.parentNode.insertBefore(script, dom);
       return dom;
     }
+    this.b64EncodeUnicode = function(str) {
+      try {
+        return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+          return String.fromCharCode("0x" + p1);
+        }));
+      } catch (e) {
+        return str;
+      }
+    }
   }
 
-
-  // if (!window.WebMonitor) {
-  //   window.WebMonitor = WebMonitor;
-  // } else {
-  //   console.error("webMonitor 这个变量名已经被占用，初始化失败!");
-  // }
   init();
 
   window.webfunny = {
@@ -588,6 +682,16 @@
         firstUserParam: firstUserParam,
         secondUserParam: secondUserParam
       });
+    },
+    /**
+     * 使用者传入的自定义截屏指令
+     *
+     * @param description  截屏描述
+     */
+    wm_screen_shot: function (description) {
+      setTimeout(function () {
+        utils.screenShot(document.body, description)
+      }, 500)
     }
   };
 
@@ -609,4 +713,3 @@
 
 
 })(window);
-
