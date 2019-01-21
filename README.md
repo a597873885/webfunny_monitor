@@ -24,23 +24,19 @@
    得到一个压缩js文件(探针)  monitor.fetch.html2.min.js 
    
 2. 将探针代码插入到html页面head的最顶部   
-   '<html>'
-    
-    '<head>'
-        <!-- 判断生产环境加载监控代码 开始 -->
-        <script type="text/javascript" src="http://localhost:8000/monitor.fetch.html2.min.js"></script>
-        <!-- 判断生产环境加载监控代码 结束 -->
-    '</head>'
-    
-    '<body></body>'
-    
-   '</html>'
+   
+   <!-- 判断生产环境加载监控代码 开始 -->
+    <script type="text/javascript" src="http://localhost:8000/monitor.fetch.html2.min.js"></script>
+   <!-- 判断生产环境加载监控代码 结束 -->
    
 3. 启动mysql数据库，如果使用远程数据库可以参考教程：
+
     搭建前端监控系统（一）阿里云服务器搭建篇：https://www.cnblogs.com/warm-stranger/p/8837784.html
     
 4. 启动node服务器，可以参考教程： 
+
     搭建前端监控系统（三）NodeJs服务器部署篇：https://www.cnblogs.com/warm-stranger/p/9556442.html
+    
     源码： https://github.com/a597873885/webfunny_servers
     
 如果有问题，欢迎提问。
