@@ -39,5 +39,9 @@
     
     源码： https://github.com/a597873885/webfunny_servers
     
+5. 启动分析平台界面，可以参考教程（README.md）：
+    
+    源码： https://github.com/a597873885/webfunny_admin
+    
 如果有问题，欢迎提问。
 
