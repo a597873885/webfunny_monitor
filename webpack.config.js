@@ -38,7 +38,7 @@ module.exports = [
         compress: {
           warnings: false
         },
-        except: ['$super', '$', 'exports', 'require']    //排除关键字
+        except: ['$super', '$', 'exports', 'require', 'html2canvas']    //排除关键字
       })
     ]
   }

@@ -3349,7 +3349,7 @@ var _Window = __webpack_require__(28);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var html2canvas = function html2canvas(element, conf) {
+window.html2canvas = function html2canvas(element, conf) {
     var config = conf || {};
     var logger = new _Logger2.default(typeof config.logging === 'boolean' ? config.logging : true);
     logger.log('html2canvas ' + "1.0.0-alpha.11");

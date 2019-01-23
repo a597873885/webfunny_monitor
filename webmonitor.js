@@ -31,7 +31,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'mcl_webmonitor'
+    WEB_MONITOR_ID = 'omega_webmonitor'
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -49,13 +49,13 @@
     , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
 
     // 上传数据的接口API
-    , HTTP_UPLOAD_LOG_API = '/api/v1/uploadLog'
+    , HTTP_UPLOAD_LOG_API = '/api/v1/upLg'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
-    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/api/v1/uploadLog'
+    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/api/v1/upLg'
 
     // 上传数据的接口
-    , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + '/api/v1/uploadLog'
+    , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + '/api/v1/upLg'
 
     // 获取当前项目的参数信息的接口
     , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/project/getProject'
@@ -130,16 +130,6 @@
     this.simpleUrl =  window.location.href.split('?')[0].replace('#', ''); // 页面的url
     this.completeUrl =  encodeURIComponent(window.location.href); // 页面的完整url
     this.customerKey = utils.getCustomerKey(); // 用于区分用户，所对应唯一的标识，清理本地数据后失效，
-    this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
-    this.deviceName = DEVICE_INFO.deviceName;
-    this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
-    this.browserName = DEVICE_INFO.browserName;
-    this.browserVersion = DEVICE_INFO.browserVersion;
-    // TODO 位置信息, 待处理
-    this.monitorIp = "";  // 用户的IP地址
-    this.country = "china";  // 用户所在国家
-    this.province = "";  // 用户所在省份
-    this.city = "";  // 用户所在城市
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
     this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "0");
@@ -150,6 +140,16 @@
   function CustomerPV(uploadType, loadType, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
+    this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
+    this.deviceName = DEVICE_INFO.deviceName;
+    this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
+    this.browserName = DEVICE_INFO.browserName;
+    this.browserVersion = DEVICE_INFO.browserVersion;
+    // TODO 位置信息, 待处理
+    this.monitorIp = "";  // 用户的IP地址
+    this.country = "china";  // 用户所在国家
+    this.province = "";  // 用户所在省份
+    this.city = "";  // 用户所在城市
     this.loadType = loadType;  // 用以区分首次加载
     this.loadTime = loadTime; // 加载时间
   }
@@ -171,6 +171,16 @@
   function JavaScriptErrorInfo(uploadType, errorMsg, errorStack) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
+    this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
+    this.deviceName = DEVICE_INFO.deviceName;
+    this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
+    this.browserName = DEVICE_INFO.browserName;
+    this.browserVersion = DEVICE_INFO.browserVersion;
+    // TODO 位置信息, 待处理
+    this.monitorIp = "";  // 用户的IP地址
+    this.country = "china";  // 用户所在国家
+    this.province = "";  // 用户所在省份
+    this.city = "";  // 用户所在城市
     this.errorMessage = utils.b64EncodeUnicode(errorMsg)
     this.errorStack = utils.b64EncodeUnicode(errorStack);
     this.browserInfo = BROWSER_INFO;
@@ -306,16 +316,12 @@
       var errorObj = arguments[0] && arguments[0].stack;
       if (!errorObj) errorObj = arguments[0];
       // 如果onerror重写成功，就无需在这里进行上报了
-      // console.log("--------------------")
-      // console.log(errorMsg, url, lineNumber, columnNumber, errorObj)
       !jsMonitorStarted && siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorObj);
       return oldError.apply(console, arguments);
     };
     // 重写 onerror 进行jsError的监听
     window.onerror = function(errorMsg, url, lineNumber, columnNumber, errorObj)
     {
-      // console.log("===================")
-      // console.log(errorMsg, url, lineNumber, columnNumber, errorObj)
       jsMonitorStarted = true;
       var errorStack = errorObj ? errorObj.stack : null;
       siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorStack);
@@ -328,7 +334,7 @@
       var errorObj = origin_errorObj ? origin_errorObj : '';
       var errorType = "";
 
-      var lowerErrorMsg = ": Script error.".toLowerCase();
+      var lowerErrorMsg = errorMsg.toLowerCase();
       if (lowerErrorMsg.indexOf("script error") != -1) return;
       if (errorMsg) {
         var errorStackStr = JSON.stringify(errorObj)
@@ -501,7 +507,6 @@
         height: height,
         useCORS: true // 【重要】开启跨域配置
       };
-      console.log(window.html2canvas);
       window.html2canvas && window.html2canvas(cntElem, opts).then(function(canvas) {
         var dataURL = canvas.toDataURL("image/webp");
         var tempCompress = dataURL.replace("data:image/webp;base64,", "");
