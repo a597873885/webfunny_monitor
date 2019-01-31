@@ -1,8 +1,3 @@
-/*!
- * html2canvas 1.0.0-alpha.11 <https://html2canvas.hertzen.com>
- * Copyright (c) 2018 Niklas von Hertzen <https://hertzen.com>
- * Released under MIT License
- */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();

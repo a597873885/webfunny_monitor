@@ -26,7 +26,18 @@
     // 屏幕截图字符串
     , tempScreenShot = ""
     // 获取当前url
-    , defaultLocation = window.location.href.split('?')[0].replace('#', '');
+    , defaultLocation = window.location.href.split('?')[0].replace('#', '')
+
+    // 页面加载对象属性
+    , timingObj = performance && performance.timing
+
+    // 获取页面加载的具体属性
+    , resourcesObj = (function() {
+      if (performance && typeof performance.getEntries === 'function') {
+        return performance.getEntries();
+      }
+      return null;
+    })();
 
   /** 常量 **/
   var
@@ -65,6 +76,9 @@
 
     // 用户访问日志类型
     , CUSTOMER_PV = 'CUSTOMER_PV'
+
+    // 用户加载页面信息类型
+    , LOAD_PAGE = 'LOAD_PAGE'
 
     // 接口日志类型
     , HTTP_LOG = 'HTTP_LOG'
@@ -119,6 +133,9 @@
         case CUSTOMER_PV:
           localStorage[CUSTOMER_PV] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
+        case LOAD_PAGE:
+          localStorage[LOAD_PAGE] = tempString + JSON.stringify(logInfo) + '$$$';
+          break;
         default: break;
       }
     };
@@ -132,9 +149,9 @@
     this.customerKey = utils.getCustomerKey(); // 用于区分用户，所对应唯一的标识，清理本地数据后失效，
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
-    this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "0");
-    this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "0");
-    this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "0");
+    this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "");
+    this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "");
+    this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
   // 用户访问行为日志(PV)
   function CustomerPV(uploadType, loadType, loadTime) {
@@ -154,6 +171,23 @@
     this.loadTime = loadTime; // 加载时间
   }
   CustomerPV.prototype = new MonitorBaseInfo();
+  // 用户加载页面的信息日志
+  function LoadPageInfo(uploadType, loadType, loadPage, domReady, redirect, lookupDomain, ttfb, request, loadEvent, appcache, unloadEvent, connect) {
+    setCommonProperty.apply(this);
+    this.uploadType = uploadType;
+    this.loadType = loadType;
+    this.loadPage = loadPage;
+    this.domReady = domReady;
+    this.redirect = redirect;
+    this.lookupDomain = lookupDomain;
+    this.ttfb = ttfb;
+    this.request = request;
+    this.loadEvent = loadEvent;
+    this.appcache = appcache;
+    this.unloadEvent = unloadEvent;
+    this.connect = connect;
+  }
+  LoadPageInfo.prototype = new MonitorBaseInfo();
   // 用户行为日志，继承于日志基类MonitorBaseInfo
   function BehaviorInfo(uploadType, behaviorType, className, placeholder, inputValue, tagName, innerText) {
     setCommonProperty.apply(this);
@@ -245,6 +279,7 @@
     // });
     // 启动测试
     recordPV();
+    recordLoadPage();
     recordBehavior({record: 1});
     recordJavaScriptError();
     recordHttpLog();
@@ -263,13 +298,15 @@
           (localStorage[JS_ERROR] || "") +
           (localStorage[HTTP_LOG] || "") +
           (localStorage[SCREEN_SHOT] || "") +
-          (localStorage[CUSTOMER_PV] || "");
+          (localStorage[CUSTOMER_PV] || "") +
+          (localStorage[LOAD_PAGE] || "");
         if (logInfo) {
           localStorage[ELE_BEHAVIOR] = "";
           localStorage[JS_ERROR] = "";
           localStorage[HTTP_LOG] = "";
           localStorage[SCREEN_SHOT] = "";
           localStorage[CUSTOMER_PV] = "";
+          localStorage[LOAD_PAGE] = "";
           utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
         }
         timeCount = 0;
@@ -297,9 +334,77 @@
    */
   function recordPV() {
     utils.setPageKey();
-    const customerPv = new CustomerPV(CUSTOMER_PV, "none", 0);
+    var customerPv = new CustomerPV(CUSTOMER_PV, "none", 0);
     customerPv.handleLogInfo(CUSTOMER_PV, customerPv);
   }
+
+  /**
+   * 用户加载页面信息监控
+   * @param project 项目详情
+   */
+  function recordLoadPage() {
+    utils.addLoadEvent(function () {
+      setTimeout(function () {
+        if (resourcesObj) {
+          var loadType = "load";
+          if (resourcesObj[0] && resourcesObj[0].type === 'navigate') {
+            loadType = "load";
+          } else {
+            loadType = "reload";
+          }
+
+          var t = timingObj;
+          var loadPageInfo = new LoadPageInfo(LOAD_PAGE);
+          // 页面加载类型， 区分第一次load还是reload
+          loadPageInfo.loadType = loadType;
+
+          //【重要】页面加载完成的时间
+          //【原因】这几乎代表了用户等待页面可用的时间
+          loadPageInfo.loadPage = t.loadEventEnd - t.navigationStart;
+
+          //【重要】解析 DOM 树结构的时间
+          //【原因】反省下你的 DOM 树嵌套是不是太多了！
+          loadPageInfo.domReady = t.domComplete - t.responseEnd;
+
+          //【重要】重定向的时间
+          //【原因】拒绝重定向！比如，http://example.com/ 就不该写成 http://example.com
+          loadPageInfo.redirect = t.redirectEnd - t.redirectStart;
+
+          //【重要】DNS 查询时间
+          //【原因】DNS 预加载做了么？页面内是不是使用了太多不同的域名导致域名查询的时间太长？
+          // 可使用 HTML5 Prefetch 预查询 DNS ，见：[HTML5 prefetch](http://segmentfault.com/a/1190000000633364)
+          loadPageInfo.lookupDomain = t.domainLookupEnd - t.domainLookupStart;
+
+          //【重要】读取页面第一个字节的时间
+          //【原因】这可以理解为用户拿到你的资源占用的时间，加异地机房了么，加CDN 处理了么？加带宽了么？加 CPU 运算速度了么？
+          // TTFB 即 Time To First Byte 的意思
+          // 维基百科：https://en.wikipedia.org/wiki/Time_To_First_Byte
+          loadPageInfo.ttfb = t.responseStart - t.navigationStart;
+
+          //【重要】内容加载完成的时间
+          //【原因】页面内容经过 gzip 压缩了么，静态资源 css/js 等压缩了么？
+          loadPageInfo.request = t.responseEnd - t.requestStart;
+
+          //【重要】执行 onload 回调函数的时间
+          //【原因】是否太多不必要的操作都放到 onload 回调函数里执行了，考虑过延迟加载、按需加载的策略么？
+          loadPageInfo.loadEvent = t.loadEventEnd - t.loadEventStart;
+
+          // DNS 缓存时间
+          loadPageInfo.appcache = t.domainLookupStart - t.fetchStart;
+
+          // 卸载页面的时间
+          loadPageInfo.unloadEvent = t.unloadEventEnd - t.unloadEventStart;
+
+          // TCP 建立连接完成握手的时间
+          loadPageInfo.connect = t.connectEnd - t.connectStart;
+
+          loadPageInfo.handleLogInfo(LOAD_PAGE, loadPageInfo);
+        }
+      }, 1000);
+
+    })
+  }
+
   /**
    * 页面JS错误监控
    */
@@ -386,7 +491,7 @@
         if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
         var httpLogInfo = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", currentTime);
         httpLogInfo.handleLogInfo(HTTP_LOG, httpLogInfo);
-      }, 2000)
+      }, 200)
     });
     window.addEventListener('ajaxLoadEnd', function(e) {
       var currentTime = new Date().getTime()
@@ -464,6 +569,20 @@
     this.setPageKey = function () {
       localStorage.monitorPageKey = this.getUuid();
     };
+    /**
+     * 重写页面的onload事件
+     */
+    this.addLoadEvent = function(func){
+      var oldonload = window.onload; //把现在有window.onload事件处理函数的值存入变量oldonload。
+      if(typeof window.onload != 'function'){ //如果这个处理函数还没有绑定任何函数，就像平时那样把新函数添加给它
+        window.onload = func;
+      } else { //如果在这个处理函数上已经绑定了一些函数。就把新函数追加到现有指令的末尾
+        window.onload = function(){
+          oldonload();
+          func();
+        }
+      }
+    }
     /**
      * 封装简易的ajax请求
      * @param method  请求类型(大写)  GET/POST
