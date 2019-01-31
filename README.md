@@ -12,7 +12,7 @@
 监控系统的探针代码
 
 线上Demo:
-    http://www.webfunny.cn/ 
+    https://www.webfunny.cn/ 
     
 博客讲解：
     https://www.cnblogs.com/warm-stranger/p/10209990.html
@@ -26,7 +26,7 @@
 2. 将探针代码插入到html页面head的最顶部   
    
    <!-- 判断生产环境加载监控代码 开始 -->
-    <script type="text/javascript" src="http://localhost:8000/monitor.fetch.html2.min.js"></script>
+    <script type="text/javascript" src="//localhost:8000/monitor.fetch.html2.min.js"></script>
    <!-- 判断生产环境加载监控代码 结束 -->
    
 3. 启动mysql数据库，如果使用远程数据库可以参考教程：
