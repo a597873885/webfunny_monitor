@@ -42,8 +42,11 @@
     
 如果有问题，欢迎提问。
 
-##系统简介
-
-![这个括号里写的在图片加载失败时显示](图片网址)
-
+## 系统简介
+### 前端错误统计
+![前端错误统计](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E9%94%99%E8%AF%AF%E7%BB%9F%E8%AE%A1.png)
+### 错误详情分析
+![错误详情分析](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E9%94%99%E8%AF%AF%E8%AF%A6%E6%83%85.png)
+### 用户行为检索
+![用户行为检索](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E8%A1%8C%E4%B8%BA%E6%A3%80%E7%B4%A2.png)
 
