@@ -42,7 +42,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'omega_webmonitor'
+    WEB_MONITOR_ID = 'mcl_webmonitor'
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -222,7 +222,7 @@
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
   // 接口请求日志，继承于日志基类MonitorBaseInfo
-  function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime) {
+  function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
     this.httpUrl = utils.b64EncodeUnicode(url);
@@ -230,6 +230,7 @@
     this.statusText = statusText;
     this.statusResult = statusResult;
     this.happenTime = currentTime;
+    this.loadTime = loadTime;
   }
   HttpLogInfo.prototype = new MonitorBaseInfo();
 
@@ -481,26 +482,33 @@
       return realXHR;
     }
 
+    var timeRecordArray = [];
     window.XMLHttpRequest = newXHR;
     window.addEventListener('ajaxLoadStart', function(e) {
-      var currentTime = new Date().getTime()
-      setTimeout(function () {
-        var url = e.detail.responseURL;
-        var status = e.detail.status;
-        var statusText = e.detail.statusText;
-        if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
-        var httpLogInfo = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", currentTime);
-        httpLogInfo.handleLogInfo(HTTP_LOG, httpLogInfo);
-      }, 200)
+      var tempObj = {
+        timeStamp: new Date().getTime(),
+        event: e
+      }
+      timeRecordArray.push(tempObj)
     });
-    window.addEventListener('ajaxLoadEnd', function(e) {
-      var currentTime = new Date().getTime()
-      var url = e.detail.responseURL;
-      var status = e.detail.status;
-      var statusText = e.detail.statusText;
-      if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
-      var httpLogInfo = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", currentTime);
-      httpLogInfo.handleLogInfo(HTTP_LOG, httpLogInfo);
+
+    window.addEventListener('ajaxLoadEnd', function() {
+      for (var i = 0; i < timeRecordArray.length; i ++) {
+        if (timeRecordArray[i].event.detail.status > 0) {
+          var currentTime = new Date().getTime()
+          var url = timeRecordArray[i].event.detail.responseURL;
+          var status = timeRecordArray[i].event.detail.status;
+          var statusText = timeRecordArray[i].event.detail.statusText;
+          var loadTime = currentTime - timeRecordArray[i].timeStamp;
+          if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
+          var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", timeRecordArray[i].timeStamp, 0);
+          httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
+          var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", currentTime, loadTime);
+          httpLogInfoEnd.handleLogInfo(HTTP_LOG, httpLogInfoEnd);
+          // 当前请求成功后就在数组中移除掉
+          timeRecordArray.splice(i, 1);
+        }
+      }
     });
 
   }

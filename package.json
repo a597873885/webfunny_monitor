@@ -4,7 +4,7 @@
   "description": "前端性能监控",
   "main": "webmonitor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node config/webpack.config.js"
   },
   "repository": {
     "type": "git",

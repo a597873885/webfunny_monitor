@@ -6,13 +6,11 @@ var ROOT_PATH = path.resolve(__dirname);
 module.exports = [
   {
     entry: {
-      'monitor' : ROOT_PATH + "/webmonitor.js",
-      'fetch' : ROOT_PATH + "/fetchCode.js",
-      'import' : ROOT_PATH + "/import.path.js",
+      'monitor' : ROOT_PATH + "/webmonitor.js"
     },
     //输出的文件名 合并以后的js会命名为index.js
     output: {
-      path: ROOT_PATH ,
+      path: ROOT_PATH + "/lib/",
       filename: '[name].min.js'
     },
     //添加我们的插件 会自动生成一个html文件
@@ -26,10 +24,10 @@ module.exports = [
     ]
   },
   {
-    entry: [ROOT_PATH + "/html2canvas0.js", ROOT_PATH + "/webmonitor.js", ROOT_PATH + "/fetchCode.js"],
+    entry: [ROOT_PATH + "/resource/html2canvas0.js", ROOT_PATH + "/webmonitor.js", ROOT_PATH + "/resource/fetchCode.js"],
     //输出的文件名 合并以后的js会命名为monitor.fetch.min.js
     output: {
-      path: ROOT_PATH ,
+      path: ROOT_PATH + "/lib/",
       filename: 'monitor.fetch.html2.min.js'
     },
     //添加我们的插件 会自动生成一个html文件
