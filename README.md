@@ -1,11 +1,11 @@
 # 阅读须知
 1. webmonitor.js 为探针的源码
 
-2. fetchCode.js 为fetch的源码
+2. /resource/fetchCode.js 为fetch的源码
 
-3. html2canvas0.js 为截图插件的源码
+3. /resource/html2canvas0.js 为截图插件的源码
 
-4. 执行命令 webpack 可得压缩版监控代码 - monitor.fetch.html2.min.js 
+4. 执行命令 webpack 可得压缩版监控代码 - /lib/monitor.fetch.html2.min.js 
 
 
 # 讲解须知
@@ -44,4 +44,5 @@
     源码： https://github.com/a597873885/webfunny_admin
     
 如果有问题，欢迎提问。
+
 
