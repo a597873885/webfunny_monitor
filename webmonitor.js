@@ -42,7 +42,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'mcl_webmonitor'
+    WEB_MONITOR_ID = 'OMEGA_webmonitor'
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -95,6 +95,9 @@
     // 用户的行为类型
     , ELE_BEHAVIOR = 'ELE_BEHAVIOR'
 
+    // 静态资源类型
+    , RESOURCE_LOAD = 'RESOURCE_LOAD'
+
     // 浏览器信息
     , BROWSER_INFO = window.navigator.userAgent
 
@@ -135,6 +138,9 @@
           break;
         case LOAD_PAGE:
           localStorage[LOAD_PAGE] = tempString + JSON.stringify(logInfo) + '$$$';
+          break;
+        case RESOURCE_LOAD:
+          localStorage[RESOURCE_LOAD] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
         default: break;
       }
@@ -235,85 +241,72 @@
   HttpLogInfo.prototype = new MonitorBaseInfo();
 
   // JS错误截图，继承于日志基类MonitorBaseInfo
-  function ScreenShotInfo(uploadType, des, screenInfo) {
+  function ScreenShotInfo(uploadType, des, screenInfo, imgType) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
     this.description = utils.b64EncodeUnicode(des);
     this.screenInfo = screenInfo;
+    this.imgType = imgType || "jpeg";
   }
   ScreenShotInfo.prototype = new MonitorBaseInfo();
+
+  // 页面静态资源加载错误统计，继承于日志基类MonitorBaseInfo
+  function ResourceLoadInfo(uploadType, url, elementType, status) {
+    setCommonProperty.apply(this);
+    this.uploadType = uploadType;
+    this.elementType = elementType;
+    this.sourceUrl = utils.b64EncodeUnicode(url);
+    this.status = status;  // 资源加载状态： 0/失败、1/成功
+  }
+  ResourceLoadInfo.prototype = new MonitorBaseInfo();
   /**
    * 监控初始化配置, 以及启动的方法
    */
   function init() {
+    try {
+      // 启动监控
+      recordResourceError();
+      recordPV();
+      recordLoadPage();
+      recordBehavior({record: 1});
+      recordJavaScriptError();
+      recordHttpLog();
 
-    // TODO 获取项目信息， 用于获取过滤域名，判断是否开启测试模式
-    // utils.ajax("POST", HTTP_PROJECT_INFO, {webMonitorId: WEB_MONITOR_ID}, function (res) {
-    //   if (res.status === 0) {
-    //     var project = res.data.project;
-    //     // 总开关，判断是否开启记录功能 1记录/0不记录
-    //     if (!project || !project.recording || project.recording != 1) {
-    //       uploadRemoteServer = false;
-    //       return;
-    //     }
-    //     // 通过项目配置的过滤域名，决定是否开启监控
-    //     var FILTER_TYPE = project.filterType;
-    //     var FILTER_DOMAIN = project.filterDomain;
-    //     if (FILTER_TYPE === "include" && WEB_LOCATION.indexOf(FILTER_DOMAIN) != -1) {
-    //       uploadRemoteServer = true;
-    //     } else if (FILTER_TYPE === "exclude" && WEB_LOCATION.indexOf(FILTER_DOMAIN) == -1) {
-    //       uploadRemoteServer = true;
-    //     }
-    //     // 如果开关为关闭状态，则不启动记录监控
-    //     if (uploadRemoteServer === false) return;
-    //     // 启动PV记录监控
-    //     recordPV();
-    //     // 启动行为记录监控
-    //     recordBehavior(project);
-    //     // 启动接口日志记录监控
-    //
-    //     // 启动JS错误记录监控
-    //
-    //   } else {
-    //     console.error("未获取到项目信息");
-    //   }
-    // });
-    // 启动测试
-    recordPV();
-    recordLoadPage();
-    recordBehavior({record: 1});
-    recordJavaScriptError();
-    recordHttpLog();
+      /**
+       * 添加一个定时器，进行数据的上传
+       * 2秒钟进行一次URL是否变化的检测
+       * 10秒钟进行一次数据的检查并上传
+       */
+      var timeCount = 0;
+      setInterval(function () {
+        checkUrlChange();
+        // 循环5后次进行一次上传
+        if (timeCount >= 25) {
+          var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
+            (localStorage[JS_ERROR] || "") +
+            (localStorage[HTTP_LOG] || "") +
+            (localStorage[SCREEN_SHOT] || "") +
+            (localStorage[CUSTOMER_PV] || "") +
+            (localStorage[LOAD_PAGE] || "") +
+            (localStorage[RESOURCE_LOAD] || "");
 
-    /**
-     * 添加一个定时器，进行数据的上传
-     * 2秒钟进行一次URL是否变化的检测
-     * 10秒钟进行一次数据的检查并上传
-     */
-    var timeCount = 0;
-    setInterval(function () {
-      checkUrlChange();
-      // 循环5后次进行一次上传
-      if (timeCount >= 25) {
-        var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
-          (localStorage[JS_ERROR] || "") +
-          (localStorage[HTTP_LOG] || "") +
-          (localStorage[SCREEN_SHOT] || "") +
-          (localStorage[CUSTOMER_PV] || "") +
-          (localStorage[LOAD_PAGE] || "");
-        if (logInfo) {
-          localStorage[ELE_BEHAVIOR] = "";
-          localStorage[JS_ERROR] = "";
-          localStorage[HTTP_LOG] = "";
-          localStorage[SCREEN_SHOT] = "";
-          localStorage[CUSTOMER_PV] = "";
-          localStorage[LOAD_PAGE] = "";
-          utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
+          if (logInfo) {
+            localStorage[ELE_BEHAVIOR] = "";
+            localStorage[JS_ERROR] = "";
+            localStorage[HTTP_LOG] = "";
+            localStorage[SCREEN_SHOT] = "";
+            localStorage[CUSTOMER_PV] = "";
+            localStorage[LOAD_PAGE] = "";
+            localStorage[RESOURCE_LOAD] = "";
+            utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
+          }
+          timeCount = 0;
         }
-        timeCount = 0;
-      }
-      timeCount ++;
-    }, 200);
+        timeCount ++;
+      }, 200);
+    } catch (e) {
+      console.error("监控代码异常，捕获", e);
+    }
   }
   /**
    * 用户访问记录监控
@@ -401,9 +394,93 @@
 
           loadPageInfo.handleLogInfo(LOAD_PAGE, loadPageInfo);
         }
+        // 此方法有漏洞，暂时先注释掉
+        // performanceGetEntries();
       }, 1000);
-
     })
+  }
+
+  /**
+   * 监控页面静态资源加载报错
+   */
+  function recordResourceError() {
+    // 当浏览器不支持 window.performance.getEntries 的时候，用下边这种方式
+    window.addEventListener('error',function(e){
+      var typeName = e.target.localName;
+      var sourceUrl = "";
+      if (typeName === "link") {
+        sourceUrl = e.target.href;
+      } else if (typeName === "script") {
+        sourceUrl = e.target.src;
+      }
+      var resourceLoadInfo = new ResourceLoadInfo(RESOURCE_LOAD, sourceUrl, typeName, "0");
+      resourceLoadInfo.handleLogInfo(RESOURCE_LOAD, resourceLoadInfo);
+    }, true);
+  }
+
+  /**
+   * 利用window.performance.getEntries来对比静态资源是否加载成功
+   */
+  function performanceGetEntries() {
+    /**
+     * 判断静态资源是否加载成功, 将没有成功加载的资源文件作为js错误上报
+     */
+    if (window.performance && typeof window.performance.getEntries === "function") {
+      // 获取所有的静态资源文件加载列表
+      var entries = window.performance.getEntries();
+      var scriptArray = entries.filter(function (entry) {
+        return entry.initiatorType === "script";
+      });
+      var linkArray = entries.filter(function (entry) {
+        return entry.initiatorType === "link";
+      });
+
+      // 获取页面上所有的script标签, 并筛选出没有成功加载的静态资源
+      var scripts = [];
+      var scriptObjects = document.getElementsByTagName("script");
+      for (var i = 0; i < scriptObjects.length; i ++) {
+        if (scriptObjects[i].src) {
+          scripts.push(scriptObjects[i].src);
+        }
+      }
+      var errorScripts = scripts.filter(function (script) {
+        var flag = true;
+        for (var i = 0; i < scriptArray.length; i ++) {
+          if (scriptArray[i].name === script) {
+            flag = false;
+            break;
+          }
+        }
+        return flag;
+      });
+
+      // 获取所有的link标签
+      var links = [];
+      var linkObjects = document.getElementsByTagName("link");
+      for (var i = 0; i < linkObjects.length; i ++) {
+        if (linkObjects[i].href) {
+          links.push(linkObjects[i].href);
+        }
+      }
+      var errorLinks = links.filter(function (link) {
+        var flag = true;
+        for (var i = 0; i < linkArray.length; i ++) {
+          if (linkArray[i].name === link) {
+            flag = false;
+            break;
+          }
+        }
+        return flag;
+      });
+      for (var m = 0; m < errorScripts.length; m ++) {
+        var resourceLoadInfo = new ResourceLoadInfo(RESOURCE_LOAD, errorScripts[m], "script", "0");
+        resourceLoadInfo.handleLogInfo(RESOURCE_LOAD, resourceLoadInfo);
+      }
+      for (var m = 0; m < errorLinks.length; m ++) {
+        var resourceLoadInfo = new ResourceLoadInfo(RESOURCE_LOAD, errorLinks[m], "link", "0");
+        resourceLoadInfo.handleLogInfo(RESOURCE_LOAD, resourceLoadInfo);
+      }
+    }
   }
 
   /**
@@ -448,12 +525,6 @@
       }
       var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, errorType + ": " + errorMsg, errorObj);
       javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
-      setTimeout(function () {
-        // 保存该错误相关的截图信息， 并存入历史
-        if (screenShotDescriptions.indexOf(errorMsg) != -1) return
-        screenShotDescriptions.push(errorMsg)
-        utils.screenShot(document.body, errorMsg);
-      }, 500)
     };
   };
   /**
@@ -805,25 +876,37 @@
      * @param userName
      * @param userTpye
      */
-    wm_init_user: function (userId, firstUserParam, secondUserParam) {
+    wm_init_user: function (userId, userTag, secondUserParam) {
       if (!userId) console.warn('userId 初始化值为0(不推荐) 或者 未初始化');
-      if (!firstUserParam) console.warn('firstParam 初始化值为0(不推荐) 或者 未初始化');
+      if (!userTag) console.warn('userTag 初始化值为0(不推荐) 或者 未初始化');
       if (!secondUserParam) console.warn('secondParam 初始化值为0(不推荐) 或者 未初始化');
+      // 如果用户传入了userTag值，重新定义WEB_MONITOR_ID
+      if (userTag) {
+        WEB_MONITOR_ID = userTag + "_webmonitor";
+      }
       localStorage.wmUserInfo = JSON.stringify({
         userId: userId,
-        firstUserParam: firstUserParam,
+        userTag: userTag,
         secondUserParam: secondUserParam
       });
+      return 1;
     },
     /**
-     * 使用者传入的自定义截屏指令
-     *
+     * 使用者传入的自定义截屏指令, 由探针代码截图
      * @param description  截屏描述
      */
     wm_screen_shot: function (description) {
       setTimeout(function () {
         utils.screenShot(document.body, description)
-      }, 500)
+      }, 500);
+    },
+    /**
+     * 使用者传入图片进行上传
+     * @param compressedDataURL 图片的base64编码字符串，description 图片描述
+     */
+    wm_upload_picture: function (compressedDataURL, description, imgType) {
+      var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, description, compressedDataURL, imgType || "jpeg");
+      screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
     }
   };
 
