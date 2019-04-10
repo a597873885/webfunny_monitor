@@ -1,5 +1,11 @@
+/**
+ * 简介
+ *
+ *
+ */
+
 (function (window) {
-  /** 全局变量 **/
+  /** globe variable **/
   if (!localStorage) {
     window.localStorage = new Object();
   }
@@ -42,7 +48,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'OMEGA_webmonitor'
+    WEB_MONITOR_ID = 'DEGAO_webmonitor'
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
