@@ -8,8 +8,8 @@
 
 3. /resource/html2canvas0.js 为截图插件的源码
 
-4. 执行命令 webpack 可得压缩版监控代码 - /lib/monitor.fetch.screen.min.js
-
+4. 执行命令 webpack 可得压缩版监控代码（有截图版） - /lib/monitor.fetch.html2.min.js 
+   执行命令 webpack 可得压缩版监控代码（无截图版） - /lib/monitor.fetch.min.js
 
 # 讲解须知
 监控系统的探针代码
