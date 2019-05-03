@@ -48,7 +48,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'DEGAO_webmonitor'
+    WEB_MONITOR_ID = 'jeffery_webmonitor'
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -334,7 +334,15 @@
    */
   function recordPV() {
     utils.setPageKey();
-    var customerPv = new CustomerPV(CUSTOMER_PV, "none", 0);
+    var loadType = "load";
+    if (resourcesObj) {
+      if (resourcesObj[0] && resourcesObj[0].type === 'navigate') {
+        loadType = "load";
+      } else {
+        loadType = "reload";
+      }
+    }
+    var customerPv = new CustomerPV(CUSTOMER_PV, loadType, 0);
     customerPv.handleLogInfo(CUSTOMER_PV, customerPv);
   }
 
