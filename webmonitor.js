@@ -617,7 +617,7 @@
           className = e.target.className;
           placeholder = e.target.placeholder || "";
           inputValue = e.target.value || "";
-          innerText = e.target.innerText.replace(/\s*/g, "");
+          innerText = e.target.innerText ? e.target.innerText.replace(/\s*/g, "") : "";
           // 如果点击的内容过长，就截取上传
           if (innerText.length > 200) innerText = innerText.substring(0, 100) + "... ..." + innerText.substring(innerText.length - 99, innerText.length - 1);
           innerText = innerText.replace(/\s/g, '');
