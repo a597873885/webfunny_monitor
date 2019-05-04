@@ -288,6 +288,9 @@
         checkUrlChange();
         // 循环5后次进行一次上传
         if (timeCount >= 25) {
+          // 如果是本地的localhost, 就忽略，不进行上传
+          if (HTTP_UPLOAD_LOG_INFO.indexOf("localhost") != -1) return
+
           var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
             (localStorage[JS_ERROR] || "") +
             (localStorage[HTTP_LOG] || "") +
