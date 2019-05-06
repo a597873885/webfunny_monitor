@@ -5,9 +5,6 @@
 
 3. /resource/html2canvas0.js 为截图插件的源码
 
-4. 执行命令 webpack 可得压缩版监控代码（有截图版） - /lib/monitor.fetch.html2.min.js 
-   执行命令 webpack 可得压缩版监控代码（无截图版） - /lib/monitor.fetch.min.js
-
 # 讲解须知
 监控系统的探针代码
 
@@ -20,7 +17,7 @@
 # 探针部署方式：
 
 1. 根目录下执行命令$: webpack
-   得到一个压缩js文件(探针)  monitor.fetch.html2.min.js， monitor.fetch.min.js
+   得到一个压缩js文件(探针)  lib/monitor.fetch.html2.min.js， lib/monitor.fetch.min.js
    
 2. 将探针代码插入到html页面head的最顶部   
    
