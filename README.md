@@ -15,6 +15,8 @@
 
 [点击前往博客讲解](https://www.cnblogs.com/warm-stranger/p/10209990.html)    
 
+[如果实在嫌部署麻烦，Demo系统可以提供7天的监控量，我会长期维护](https://www.webfunny.cn/webfunny/createProject)
+
 # 探针部署方式：
 
 1. 根目录下执行命令$: webpack
