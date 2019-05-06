@@ -23,12 +23,19 @@
 2. 将探针代码插入到html页面head的最顶部   
    
    <head>
+   
     ...
+    
     <script type="text/javascript">
+   
        ...此处放置监控代码...
+       
     </script>
+    
     ...
+    
    </head>
+   
    
 3. 启动mysql数据库，如果使用远程数据库可以参考教程：
 
