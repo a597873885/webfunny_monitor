@@ -39,7 +39,7 @@
    
 3. 启动mysql数据库，如果使用远程数据库可以参考教程：
 
-    搭建前端监控系统（一）阿里云服务器搭建篇：https://www.cnblogs.com/warm-stranger/p/8837784.html
+    [Mysql数据库的安装和使用](https://www.cnblogs.com/warm-stranger/p/10333348.html)
     
 4. 启动node服务器，可以参考教程： 
 
