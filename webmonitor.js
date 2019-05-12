@@ -104,6 +104,9 @@
     // 静态资源类型
     , RESOURCE_LOAD = 'RESOURCE_LOAD'
 
+    // 用户自定义行为类型
+    , CUSTOMIZE_BEHAVIOR = 'CUSTOMIZE_BEHAVIOR'
+
     // 浏览器信息
     , BROWSER_INFO = window.navigator.userAgent
 
@@ -148,6 +151,9 @@
         case RESOURCE_LOAD:
           localStorage[RESOURCE_LOAD] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
+        case CUSTOMIZE_BEHAVIOR:
+          localStorage[CUSTOMIZE_BEHAVIOR] = tempString + JSON.stringify(logInfo) + '$$$';
+          break;
         default: break;
       }
     };
@@ -157,7 +163,7 @@
     this.happenTime = new Date().getTime(); // 日志发生时间
     this.webMonitorId = WEB_MONITOR_ID;     // 用于区分应用的唯一标识（一个项目对应一个）
     this.simpleUrl =  window.location.href.split('?')[0].replace('#', ''); // 页面的url
-    this.completeUrl =  encodeURIComponent(window.location.href); // 页面的完整url
+    this.completeUrl =  utils.b64EncodeUnicode(encodeURIComponent(window.location.href)); // 页面的完整url
     this.customerKey = utils.getCustomerKey(); // 用于区分用户，所对应唯一的标识，清理本地数据后失效，
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
@@ -214,9 +220,10 @@
   BehaviorInfo.prototype = new MonitorBaseInfo();
 
   // JS错误日志，继承于日志基类MonitorBaseInfo
-  function JavaScriptErrorInfo(uploadType, errorMsg, errorStack) {
+  function JavaScriptErrorInfo(uploadType, infoType, errorMsg, errorStack) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
+    this.infoType = infoType;
     this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
     this.deviceName = DEVICE_INFO.deviceName;
     this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
@@ -265,6 +272,17 @@
     this.status = status;  // 资源加载状态： 0/失败、1/成功
   }
   ResourceLoadInfo.prototype = new MonitorBaseInfo();
+
+  // 上传拓展日志信息的入口
+  function ExtendBehaviorInfo(userId, behaviorType, behaviorResult, uploadType, description) {
+    this.userId = userId;
+    this.behaviorType = behaviorType;
+    this.behaviorResult = behaviorResult;
+    this.uploadType = uploadType;
+    this.description = description;
+    this.happenTime = new Date().getTime(); // 日志发生时间
+  }
+  ExtendBehaviorInfo.prototype = new MonitorBaseInfo();
   /**
    * 监控初始化配置, 以及启动的方法
    */
@@ -289,7 +307,6 @@
         // 循环5后次进行一次上传
         if (timeCount >= 25) {
           // 如果是本地的localhost, 就忽略，不进行上传
-          if (HTTP_UPLOAD_LOG_INFO.indexOf("localhost") != -1) return
 
           var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
             (localStorage[JS_ERROR] || "") +
@@ -297,7 +314,8 @@
             (localStorage[SCREEN_SHOT] || "") +
             (localStorage[CUSTOMER_PV] || "") +
             (localStorage[LOAD_PAGE] || "") +
-            (localStorage[RESOURCE_LOAD] || "");
+            (localStorage[RESOURCE_LOAD] || "")+
+            (localStorage[CUSTOMIZE_BEHAVIOR] || "");
 
           if (logInfo) {
             localStorage[ELE_BEHAVIOR] = "";
@@ -307,6 +325,7 @@
             localStorage[CUSTOMER_PV] = "";
             localStorage[LOAD_PAGE] = "";
             localStorage[RESOURCE_LOAD] = "";
+            localStorage[CUSTOMIZE_BEHAVIOR] = "";
             utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
           }
           timeCount = 0;
@@ -500,49 +519,47 @@
     }
   }
 
+  function siftAndMakeUpMessage(infoType, origin_errorMsg, origin_url, origin_lineNumber, origin_columnNumber, origin_errorObj) {
+    // 记录js错误前，检查一下url记录是否变化
+    checkUrlChange();
+    var errorMsg = origin_errorMsg ? origin_errorMsg : '';
+    var errorObj = origin_errorObj ? origin_errorObj : '';
+    var errorType = "";
+
+    var lowerErrorMsg = errorMsg.toLowerCase();
+    if (lowerErrorMsg.indexOf("script error") != -1) return;
+    if (errorMsg) {
+      var errorStackStr = JSON.stringify(errorObj)
+      errorType = errorStackStr.split(": ")[0].replace('"', "");
+    }
+    var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, infoType, errorType + ": " + errorMsg, errorObj);
+    javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
+  };
   /**
    * 页面JS错误监控
    */
   function recordJavaScriptError() {
     // 重写console.error, 可以捕获更全面的报错信息
     var oldError = console.error;
-    console.error = function () {
-      // arguments的长度为2时，才是error上报的时机
-      // if (arguments.length < 2) return;
-      var errorMsg = arguments[0] && arguments[0].message;
-      var url = WEB_LOCATION;
-      var lineNumber = 0;
-      var columnNumber = 0;
-      var errorObj = arguments[0] && arguments[0].stack;
-      if (!errorObj) errorObj = arguments[0];
-      // 如果onerror重写成功，就无需在这里进行上报了
-      !jsMonitorStarted && siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorObj);
+    console.error = function (errorMsg) {
+      siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, 0, 0, "CustomizeError: " + errorMsg);
       return oldError.apply(console, arguments);
     };
     // 重写 onerror 进行jsError的监听
-    window.onerror = function(errorMsg, url, lineNumber, columnNumber, errorObj)
-    {
+    window.onerror = function(errorMsg, url, lineNumber, columnNumber, errorObj) {
       jsMonitorStarted = true;
       var errorStack = errorObj ? errorObj.stack : null;
-      siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorStack);
+      siftAndMakeUpMessage("on_error", errorMsg, url, lineNumber, columnNumber, errorStack);
     };
-
-    function siftAndMakeUpMessage(origin_errorMsg, origin_url, origin_lineNumber, origin_columnNumber, origin_errorObj) {
-      // 记录js错误前，检查一下url记录是否变化
-      checkUrlChange();
-      var errorMsg = origin_errorMsg ? origin_errorMsg : '';
-      var errorObj = origin_errorObj ? origin_errorObj : '';
-      var errorType = "";
-
-      var lowerErrorMsg = errorMsg.toLowerCase();
-      if (lowerErrorMsg.indexOf("script error") != -1) return;
-      if (errorMsg) {
-        var errorStackStr = JSON.stringify(errorObj)
-        errorType = errorStackStr.split(": ")[0].replace('"', "");
+    window.onunhandledrejection = function(e) {
+      var errorMsg = "";
+      if (typeof e.reason === "object") {
+        errorMsg = JSON.stringify(e.reason);
+      } else {
+        errorMsg = e.reason;
       }
-      var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, errorType + ": " + errorMsg, errorObj);
-      javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
-    };
+      siftAndMakeUpMessage("unhandled_rejection", errorMsg, WEB_LOCATION, 0, 0, "CustomizeError: " + errorMsg);
+    }
   };
   /**
    * 页面接口请求监控
@@ -567,6 +584,10 @@
       realXHR.addEventListener('timeout', function () { ajaxEventTrigger.call(this, 'ajaxTimeout'); }, false);
       realXHR.addEventListener('loadend', function () { ajaxEventTrigger.call(this, 'ajaxLoadEnd'); }, false);
       realXHR.addEventListener('readystatechange', function() { ajaxEventTrigger.call(this, 'ajaxReadyStateChange'); }, false);
+      // 此处的捕获的异常会连日志接口也一起捕获，如果日志上报接口异常了，就会导致死循环了。
+      // realXHR.onerror = function () {
+      //   siftAndMakeUpMessage("Uncaught FetchError: Failed to ajax", WEB_LOCATION, 0, 0, {});
+      // }
       return realXHR;
     }
 
@@ -598,7 +619,6 @@
         }
       }
     });
-
   }
   /**
    * 用户行为记录监控
@@ -669,12 +689,12 @@
      * 重写页面的onload事件
      */
     this.addLoadEvent = function(func){
-      var oldonload = window.onload; //把现在有window.onload事件处理函数的值存入变量oldonload。
+      var oldOnload = window.onload; //把现在有window.onload事件处理函数的值存入变量oldonload。
       if(typeof window.onload != 'function'){ //如果这个处理函数还没有绑定任何函数，就像平时那样把新函数添加给它
         window.onload = func;
       } else { //如果在这个处理函数上已经绑定了一些函数。就把新函数追加到现有指令的末尾
         window.onload = function(){
-          oldonload();
+          oldOnload();
           func();
         }
       }
@@ -787,7 +807,7 @@
         } else if (screenWidth === 414 && screenHeight === 736) {
           device.deviceName = "iphone 6/7/8 Plus";
         } else if (screenWidth === 375 && screenHeight === 812) {
-          device.deviceName = "iphone X";
+          device.deviceName = "iphone X/S/Max";
         }
       } else if (device.ipad) {
         device.deviceName = "ipad";
@@ -810,28 +830,24 @@
         if(agent.indexOf("msie") > 0) {
           var browserInfo = agent.match(regStr_ie)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
         }
         //firefox
         if(agent.indexOf("firefox") > 0) {
           var browserInfo = agent.match(regStr_ff)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
         }
         //Safari
         if(agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0) {
           var browserInfo = agent.match(regStr_saf)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
         }
         //Chrome
         if(agent.indexOf("chrome") > 0) {
           var browserInfo = agent.match(regStr_chrome)[0];
           device.browserName = browserInfo.split('/')[0];
-          device.browserVersion = browserInfo.split('/')[1];
         }
       }
-
+      device.browserVersion = ua;
       // Webview
       device.webView = (iphone || ipad || ipod) && ua.match(/.*AppleWebKit(?!.*Safari)/i);
 
@@ -924,6 +940,18 @@
     wm_upload_picture: function (compressedDataURL, description, imgType) {
       var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, description, compressedDataURL, imgType || "jpeg");
       screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
+    },
+    /**
+     * 使用者自行上传的行为日志
+     * @param userId 用户唯一标识
+     * @param behaviorType 行为类型
+     * @param behaviorResult 行为结果（成功、失败等）
+     * @param uploadType 日志类型（分类）
+     * @param description 行为描述
+     */
+    wm_upload_extend_behavior: function (userId, behaviorType, behaviorResult, uploadType, description) {
+      var extendBehaviorInfo = new ExtendBehaviorInfo(userId, behaviorType, behaviorResult, uploadType, description)
+      extendBehaviorInfo.handleLogInfo(CUSTOMIZE_BEHAVIOR, extendBehaviorInfo);
     }
   };
 

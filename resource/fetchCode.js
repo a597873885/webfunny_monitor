@@ -428,6 +428,7 @@
       }
 
       xhr.onerror = function() {
+        console.error('Network request failed')
         reject(new TypeError('Network request failed'))
       }
 
