@@ -236,7 +236,7 @@
     this.city = "";  // 用户所在城市
     this.errorMessage = utils.b64EncodeUnicode(errorMsg)
     this.errorStack = utils.b64EncodeUnicode(errorStack);
-    this.browserInfo = BROWSER_INFO;
+    this.browserInfo = "";
   }
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
@@ -244,7 +244,7 @@
   function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
-    this.httpUrl = utils.b64EncodeUnicode(url);
+    this.httpUrl = utils.b64EncodeUnicode(encodeURIComponent(url));
     this.status = status;
     this.statusText = statusText;
     this.statusResult = statusResult;
@@ -268,7 +268,7 @@
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
     this.elementType = elementType;
-    this.sourceUrl = utils.b64EncodeUnicode(url);
+    this.sourceUrl = utils.b64EncodeUnicode(encodeURIComponent(url));
     this.status = status;  // 资源加载状态： 0/失败、1/成功
   }
   ResourceLoadInfo.prototype = new MonitorBaseInfo();
@@ -525,12 +525,13 @@
     var errorMsg = origin_errorMsg ? origin_errorMsg : '';
     var errorObj = origin_errorObj ? origin_errorObj : '';
     var errorType = "";
-
-    var lowerErrorMsg = errorMsg.toLowerCase();
-    if (lowerErrorMsg.indexOf("script error") != -1) return;
     if (errorMsg) {
-      var errorStackStr = JSON.stringify(errorObj)
-      errorType = errorStackStr.split(": ")[0].replace('"', "");
+      if (typeof errorObj === 'string') {
+        errorType = errorObj.split(": ")[0].replace('"', "");
+      } else {
+        var errorStackStr = JSON.stringify(errorObj)
+        errorType = errorStackStr.split(": ")[0].replace('"', "");
+      }
     }
     var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, infoType, errorType + ": " + errorMsg, errorObj);
     javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
@@ -541,8 +542,16 @@
   function recordJavaScriptError() {
     // 重写console.error, 可以捕获更全面的报错信息
     var oldError = console.error;
-    console.error = function (errorMsg) {
-      siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, 0, 0, "CustomizeError: " + errorMsg);
+    console.error = function (tempErrorMsg) {
+      var errorMsg = (arguments[0] && arguments[0].message) || tempErrorMsg;
+      var lineNumber = 0;
+      var columnNumber = 0;
+      var errorObj = arguments[0] && arguments[0].stack;
+      if (!errorObj) {
+        siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, "CustomizeError: " + errorMsg);
+      } else {
+        siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, errorObj);
+      }
       return oldError.apply(console, arguments);
     };
     // 重写 onerror 进行jsError的监听
@@ -553,12 +562,15 @@
     };
     window.onunhandledrejection = function(e) {
       var errorMsg = "";
+      var errorStack = "";
       if (typeof e.reason === "object") {
-        errorMsg = JSON.stringify(e.reason);
+        errorMsg = e.reason.message;
+        errorStack = e.reason.stack;
       } else {
         errorMsg = e.reason;
+        errorStack = "";
       }
-      siftAndMakeUpMessage("unhandled_rejection", errorMsg, WEB_LOCATION, 0, 0, "CustomizeError: " + errorMsg);
+      siftAndMakeUpMessage("on_error", errorMsg, WEB_LOCATION, 0, 0, "UncaughtInPromiseError: " + errorStack);
     }
   };
   /**
@@ -830,24 +842,27 @@
         if(agent.indexOf("msie") > 0) {
           var browserInfo = agent.match(regStr_ie)[0];
           device.browserName = browserInfo.split('/')[0];
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //firefox
         if(agent.indexOf("firefox") > 0) {
           var browserInfo = agent.match(regStr_ff)[0];
           device.browserName = browserInfo.split('/')[0];
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //Safari
         if(agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0) {
           var browserInfo = agent.match(regStr_saf)[0];
           device.browserName = browserInfo.split('/')[0];
+          device.browserVersion = browserInfo.split('/')[1];
         }
         //Chrome
         if(agent.indexOf("chrome") > 0) {
           var browserInfo = agent.match(regStr_chrome)[0];
           device.browserName = browserInfo.split('/')[0];
+          device.browserVersion = browserInfo.split('/')[1];
         }
       }
-      device.browserVersion = ua;
       // Webview
       device.webView = (iphone || ipad || ipod) && ua.match(/.*AppleWebKit(?!.*Safari)/i);
 
@@ -890,7 +905,7 @@
         createTime: encodeURIComponent(createTime),
         happenTime: new Date().getTime(),
         uploadType: 'WM_UPLOAD',
-        simpleUrl: encodeURIComponent(url),
+        simpleUrl: encodeURIComponent(encodeURIComponent(url)),
         webMonitorId: WEB_MONITOR_ID,
         recordType: type,
         recordIndex: index,
