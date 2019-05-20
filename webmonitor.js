@@ -122,8 +122,17 @@
     // 获取用户自定义信息
     , USER_INFO = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
 
+  // 判断探针引入的方式
+  if (WEB_MONITOR_ID === 'jeffery_webmonitor') {
+    try {
+      var srcUrl = document.getElementById('web_monitor').getAttribute('src');
+      var urlId = srcUrl.split("?")[1].split("=")[1];
+      WEB_MONITOR_ID = urlId;
+    } catch (e) {
+      console.warn("应用标识初始化未完成");
+    }
 
-
+  }
 
   // 日志基类, 用于其他日志的继承
   function MonitorBaseInfo() {
