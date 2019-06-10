@@ -10,17 +10,17 @@
 9. 自定义日志上传【完成】
 
 # 分析功能列表
-1. js报错实时监控【完成】
+1. js报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/javascriptError)
 2. js报错的统计分析【完成】
 3. js报错的详情分析和代码定位【完成】
-4. 静态资源加载异常实时监控【完成】
+4. 静态资源加载异常实时监控【完成】[前往](https://www.webfunny.cn/webfunny/resourceError)
 5. 静态资源加载异常的统计分析【完成】
-6. 接口请求报错实时监控【完成】
+6. 接口请求报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/httpError)
 7. 接口请求报错的统计分析【完成】
 8. 用户pv/uv实时统计【完成】
-9. 记录回放功能（详细记录用户使用的足迹）【完成】
+9. 记录回放功能（详细记录用户使用的足迹）【完成】[前往](https://www.webfunny.cn/webfunny/behaviors)
 
-具体内容：[请移步线上Demo](https://www.webfunny.cn/)
+具体内容：[请移步线上监控系统](https://www.webfunny.cn/)
 
 
 # 讲解须知
@@ -32,7 +32,7 @@
 
 # 探针部署方式：
 
-1. 前往 [新建应用](http://www.webfunny.cn/webfunny/createProject)  
+1. 前往 [新建应用](https://www.webfunny.cn/webfunny/createProject)  
 
 2. 根目录下执行命令$: webpack
    得到一个压缩js文件(探针) lib/monitor.fetch.min.js
