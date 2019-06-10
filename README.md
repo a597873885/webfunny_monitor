@@ -28,7 +28,7 @@
 
 [监控系统地址](https://www.webfunny.cn/)
 
-[监控系统介绍](https://zhuanlan.zhihu.com/webfunny)    
+[介绍](https://zhuanlan.zhihu.com/webfunny)    
 
 # 探针部署方式：
 
