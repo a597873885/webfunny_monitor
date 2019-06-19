@@ -1,54 +1,48 @@
-# 阅读须知
-1. webmonitor.js 为探针的源码
+怎样定位前端线上问题，一直以来，都是很头疼的问题，因为它发生于用户的一系列操作之后。错误的原因可能源于机型，网络环境，复杂的操作行为等等，在我们想要去解决的时候很难复现出来，自然也就无法解决。 当然，这些问题并非不能克服，让我们来一起看看如何去监控并定位线上的问题吧。
 
-2. /resource/fetchCode.js 为fetch的源码
+背景：市面上的监控系统有很多，大多收费，对于小型前端项目来说，必然是痛点。另一点主要原因是，功能通用，却未必能够满足我们自己的需求。
 
-3. /resource/html2canvas0.js 为截图插件的源码
+这是搭建前端监控系统的第一章，主要是搭建环境，跟着我一步步做，你也能搭建出一个属于自己的前端监控系统。
+
+# 上报功能列表
+1. 前端异常上报（window.onerror, console.error）【完成】
+2. 用户PV/UV统计（pageKey, customerKey）【完成】
+3. 页面加载时间统计【完成】
+4. 用户点击行为统计【完成】
+5. 接口请求日志统计【完成】
+6. 接口请求耗时统计【完成】
+7. 静态资源加载异常统计【完成】
+8. 实现JS页面截图【完成】
+9. 自定义日志上传【完成】
+
+# 分析功能列表
+1. js报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/javascriptError)
+2. js报错的统计分析【完成】
+3. js报错的详情分析和代码定位【完成】
+4. 静态资源加载异常实时监控【完成】[前往](https://www.webfunny.cn/webfunny/resourceError)
+5. 静态资源加载异常的统计分析【完成】
+6. 接口请求报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/httpError)
+7. 接口请求报错的统计分析【完成】
+8. 用户pv/uv实时统计【完成】
+9. 记录回放功能（详细记录用户使用的足迹）【完成】[前往](https://www.webfunny.cn/webfunny/behaviors)
+
+具体内容：[请移步线上监控系统](https://www.webfunny.cn/)
+
 
 # 讲解须知
 监控系统的探针代码
 
-[点击前往线上Demo](https://www.webfunny.cn/)
+[监控系统地址](https://www.webfunny.cn/)
 
-[点击前往博客讲解](https://www.cnblogs.com/warm-stranger/p/10209990.html)    
-
-[如果实在嫌部署麻烦，Demo系统可以提供7天的监控量，我会长期维护，点击跳转](https://www.webfunny.cn/webfunny/createProject)
+[介绍](https://zhuanlan.zhihu.com/webfunny)    
 
 # 探针部署方式：
 
-1. 根目录下执行命令$: webpack
-   得到一个压缩js文件(探针)  lib/monitor.fetch.html2.min.js， lib/monitor.fetch.min.js
-   
-2. 将探针代码插入到html页面head的最顶部   
-   
-   <head>
-   
-    ...
-    
-    <script type="text/javascript">
-   
-       ...此处放置监控代码...
-       
-    </script>
-    
-    ...
-    
-   </head>
-   
-   
-3. 启动mysql数据库，如果使用远程数据库可以参考教程：
+1. 前往 [新建应用](https://www.webfunny.cn/webfunny/createProject)  
 
-    [Mysql数据库的安装和使用](https://www.cnblogs.com/warm-stranger/p/10333348.html)
-    
-4. 启动node服务器，可以参考教程： 
-
-    [搭建前端监控系统（三）NodeJs服务器部署篇](https://www.cnblogs.com/warm-stranger/p/9556442.html) 
-    
-     源码：[NodeJs后台服务](https://github.com/a597873885/webfunny_servers)
-    
-5. 启动分析平台界面，可以参考教程（README.md）：
-    
-    源码：[React数据可视化](https://github.com/a597873885/webfunny_admin)
+2. 根目录下执行命令$: webpack
+   得到一个压缩js文件(探针) lib/monitor.fetch.min.js
+  
     
 如果有问题，欢迎提问。
 
