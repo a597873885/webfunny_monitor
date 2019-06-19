@@ -252,13 +252,13 @@
   // 接口请求日志，继承于日志基类MonitorBaseInfo
   function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime, loadTime) {
     setCommonProperty.apply(this);
-    this.uploadType = uploadType;
-    this.httpUrl = utils.b64EncodeUnicode(encodeURIComponent(url));
-    this.status = status;
-    this.statusText = statusText;
-    this.statusResult = statusResult;
-    this.happenTime = currentTime;
-    this.loadTime = loadTime;
+    this.uploadType = uploadType;  // 上传类型
+    this.httpUrl = utils.b64EncodeUnicode(encodeURIComponent(url)); // 请求地址
+    this.status = status; // 接口状态
+    this.statusText = statusText; // 状态描述
+    this.statusResult = statusResult; // 区分发起和返回状态
+    this.happenTime = currentTime;  // 客户端发送时间
+    this.loadTime = loadTime; // 接口请求耗时
   }
   HttpLogInfo.prototype = new MonitorBaseInfo();
 
@@ -311,32 +311,21 @@
        * 10秒钟进行一次数据的检查并上传
        */
       var timeCount = 0;
+      var typeList = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR]
       setInterval(function () {
         checkUrlChange();
-        // 循环5后次进行一次上传
-        if (timeCount >= 25) {
+        // 进行一次上传
+        if (timeCount >= 30) {
           // 如果是本地的localhost, 就忽略，不进行上传
-
-          var logInfo = (localStorage[ELE_BEHAVIOR] || "") +
-            (localStorage[JS_ERROR] || "") +
-            (localStorage[HTTP_LOG] || "") +
-            (localStorage[SCREEN_SHOT] || "") +
-            (localStorage[CUSTOMER_PV] || "") +
-            (localStorage[LOAD_PAGE] || "") +
-            (localStorage[RESOURCE_LOAD] || "")+
-            (localStorage[CUSTOMIZE_BEHAVIOR] || "");
-
-          if (logInfo) {
-            localStorage[ELE_BEHAVIOR] = "";
-            localStorage[JS_ERROR] = "";
-            localStorage[HTTP_LOG] = "";
-            localStorage[SCREEN_SHOT] = "";
-            localStorage[CUSTOMER_PV] = "";
-            localStorage[LOAD_PAGE] = "";
-            localStorage[RESOURCE_LOAD] = "";
-            localStorage[CUSTOMIZE_BEHAVIOR] = "";
-            utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {}, function () {})
+          var logInfo = "";
+          for (var i = 0; i < typeList.length; i ++) {
+            logInfo += (localStorage[typeList[i]] || "");
           }
+          logInfo.length > 0 && utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {
+            for (var i = 0; i < typeList.length; i ++) {
+              localStorage[typeList[i]] = "";
+            }
+          }, function () { })
           timeCount = 0;
         }
         timeCount ++;
@@ -679,9 +668,10 @@
    */
   function MonitorUtils() {
     this.getUuid = function() {
+      var timeStamp = new Date().getTime()
       return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
-        return v.toString(16);
+        return v.toString(16) + "-" + timeStamp;
       });
     };
     /**
@@ -973,7 +963,7 @@
      * @param uploadType 日志类型（分类）
      * @param description 行为描述
      */
-    wm_upload_extend_behavior: function (userId, behaviorType, behaviorResult, uploadType, description) {
+    wm_upload_extend_log: function (userId, behaviorType, behaviorResult, uploadType, description) {
       var extendBehaviorInfo = new ExtendBehaviorInfo(userId, behaviorType, behaviorResult, uploadType, description)
       extendBehaviorInfo.handleLogInfo(CUSTOMIZE_BEHAVIOR, extendBehaviorInfo);
     }
