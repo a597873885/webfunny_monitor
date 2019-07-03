@@ -4,12 +4,11 @@
  *
  */
 
-(function (window) {
+(function (window, wm_id, wm_version) {
   /** globe variable **/
   if (!localStorage) {
     window.localStorage = new Object();
   }
-  localStorage.wmUserInfo = "";
   var
     // 用fetch方式请求接口时，暂存接口url
     fetchHttpUrl = null
@@ -48,7 +47,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = 'jeffery_webmonitor'
+    WEB_MONITOR_ID = wm_id || "jeffery_webmonitor"
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -177,7 +176,7 @@
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
     this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "");
-    this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "");
+    this.firstUserParam = utils.b64EncodeUnicode(wm_version || "");
     this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
   // 用户访问行为日志(PV)
@@ -671,15 +670,20 @@
       var timeStamp = new Date().getTime()
       return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
-        return v.toString(16) + "-" + timeStamp;
-      });
+        return v.toString(16);
+      }) + "-" + timeStamp;
     };
     /**
      * 获取用户的唯一标识
      */
     this.getCustomerKey = function () {
       var customerKey = this.getUuid();
-      if (!localStorage.monitorCustomerKey) localStorage.monitorCustomerKey = customerKey;
+      var reg = /[0-9a-z]{8}(-[0-9a-z]{4}){3}-[0-9a-z]{12}-\d{13}/g
+      if (!localStorage.monitorCustomerKey) {
+        localStorage.monitorCustomerKey = customerKey;
+      } else if (localStorage.monitorCustomerKey.length > 50 || !reg.test(localStorage.monitorCustomerKey)) {
+        localStorage.monitorCustomerKey = customerKey;
+      }
       return localStorage.monitorCustomerKey;
     };
     /**
@@ -925,7 +929,6 @@
      */
     wm_init_user: function (userId, userTag, secondUserParam) {
       if (!userId) console.warn('userId 初始化值为0(不推荐) 或者 未初始化');
-      if (!userTag) console.warn('userTag 初始化值为0(不推荐) 或者 未初始化');
       if (!secondUserParam) console.warn('secondParam 初始化值为0(不推荐) 或者 未初始化');
       // 如果用户传入了userTag值，重新定义WEB_MONITOR_ID
       if (userTag) {
@@ -986,4 +989,4 @@
   })();
 
 
-})(window);
+})(window, wm_id, wm_version);

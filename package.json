@@ -1,7 +1,7 @@
 {
   "name": "webmonitor",
   "version": "1.0.0",
-  "description": "前端性能监控",
+  "description": "前端错误监控探针",
   "main": "webmonitor.js",
   "scripts": {
     "build": "node config/webpack.config.js"
