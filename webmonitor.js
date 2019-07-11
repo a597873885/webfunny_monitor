@@ -3,8 +3,7 @@
  *
  *
  */
-
-(function (window, wm_id, wm_version) {
+(function (window) {
   /** globe variable **/
   if (!localStorage) {
     window.localStorage = new Object();
@@ -47,7 +46,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = wm_id || "jeffery_webmonitor"
+    WEB_MONITOR_ID = localStorage.CUSTOMER_WEB_MONITOR_ID || "jeffery_webmonitor"
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -176,7 +175,7 @@
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
     this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "");
-    this.firstUserParam = utils.b64EncodeUnicode(wm_version || "");
+    this.firstUserParam = utils.b64EncodeUnicode(localStorage.CUSTOMER_WEB_MONITOR_VERSION || "");
     this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
   // 用户访问行为日志(PV)
@@ -249,13 +248,14 @@
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
   // 接口请求日志，继承于日志基类MonitorBaseInfo
-  function HttpLogInfo(uploadType, url, status, statusText, statusResult, currentTime, loadTime) {
+  function HttpLogInfo(uploadType, url, status, statusText, statusResult, responseText, currentTime, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;  // 上传类型
     this.httpUrl = utils.b64EncodeUnicode(encodeURIComponent(url)); // 请求地址
     this.status = status; // 接口状态
     this.statusText = statusText; // 状态描述
     this.statusResult = statusResult; // 区分发起和返回状态
+    this.responseText = responseText;
     this.happenTime = currentTime;  // 客户端发送时间
     this.loadTime = loadTime; // 接口请求耗时
   }
@@ -324,7 +324,11 @@
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
             }
-          }, function () { })
+          }, function () { // 如果失败了， 也需要清理掉本地缓存， 否则会积累太多
+            for (var i = 0; i < typeList.length; i ++) {
+              localStorage[typeList[i]] = "";
+            }
+          })
           timeCount = 0;
         }
         timeCount ++;
@@ -599,6 +603,20 @@
       // }
       return realXHR;
     }
+    function handleHttpResult(i, responseText) {
+      var currentTime = new Date().getTime()
+      var url = timeRecordArray[i].event.detail.responseURL;
+      var status = timeRecordArray[i].event.detail.status;
+      var statusText = timeRecordArray[i].event.detail.statusText;
+      var loadTime = currentTime - timeRecordArray[i].timeStamp;
+      if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
+      var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", responseText, timeRecordArray[i].timeStamp, 0);
+      httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
+      var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", responseText, currentTime, loadTime);
+      httpLogInfoEnd.handleLogInfo(HTTP_LOG, httpLogInfoEnd);
+      // 当前请求成功后就在数组中移除掉
+      timeRecordArray.splice(i, 1);
+    }
 
     var timeRecordArray = [];
     window.XMLHttpRequest = newXHR;
@@ -609,22 +627,21 @@
       }
       timeRecordArray.push(tempObj)
     });
-
+    
     window.addEventListener('ajaxLoadEnd', function() {
       for (var i = 0; i < timeRecordArray.length; i ++) {
         if (timeRecordArray[i].event.detail.status > 0) {
-          var currentTime = new Date().getTime()
-          var url = timeRecordArray[i].event.detail.responseURL;
-          var status = timeRecordArray[i].event.detail.status;
-          var statusText = timeRecordArray[i].event.detail.statusText;
-          var loadTime = currentTime - timeRecordArray[i].timeStamp;
-          if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
-          var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", timeRecordArray[i].timeStamp, 0);
-          httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
-          var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", currentTime, loadTime);
-          httpLogInfoEnd.handleLogInfo(HTTP_LOG, httpLogInfoEnd);
-          // 当前请求成功后就在数组中移除掉
-          timeRecordArray.splice(i, 1);
+          if (timeRecordArray[i].event.detail.responseType === "blob") {
+            var reader = new FileReader();
+            reader.onload = function() {
+              var responseText = reader.result;//内容就在这里
+              handleHttpResult(i, responseText);
+            }
+            reader.readAsText(timeRecordArray[i].event.detail.response, 'utf-8');
+          } else {
+            var responseText = timeRecordArray[i].event.detail.responseText;
+            handleHttpResult(i, responseText);
+          }
         }
       }
     });
@@ -678,10 +695,10 @@
      */
     this.getCustomerKey = function () {
       var customerKey = this.getUuid();
-      var reg = /[0-9a-z]{8}(-[0-9a-z]{4}){3}-[0-9a-z]{12}-\d{13}/g
+      var reg = /^[0-9a-z]{8}(-[0-9a-z]{4}){3}-[0-9a-z]{12}-\d{13}$/
       if (!localStorage.monitorCustomerKey) {
         localStorage.monitorCustomerKey = customerKey;
-      } else if (localStorage.monitorCustomerKey.length > 50 || !reg.test(localStorage.monitorCustomerKey)) {
+      } else if (!reg.test(localStorage.monitorCustomerKey)) {
         localStorage.monitorCustomerKey = customerKey;
       }
       return localStorage.monitorCustomerKey;
@@ -691,7 +708,12 @@
      */
     this.getPageKey = function () {
       var pageKey = this.getUuid();
-      if (!localStorage.monitorPageKey) localStorage.monitorPageKey = pageKey;
+      var reg = /^[0-9a-z]{8}(-[0-9a-z]{4}){3}-[0-9a-z]{12}-\d{13}$/
+      if (!localStorage.monitorPageKey) {
+        localStorage.monitorPageKey = pageKey;
+      } else if (!reg.test(localStorage.monitorPageKey)) {
+        localStorage.monitorPageKey = pageKey;
+      }
       return localStorage.monitorPageKey;
     };
     /**
@@ -989,4 +1011,4 @@
   })();
 
 
-})(window, wm_id, wm_version);
+})(window);
