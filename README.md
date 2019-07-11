@@ -25,23 +25,21 @@
 具体内容：[请移步线上监控系统](https://www.webfunny.cn/)
 
 
-# 讲解须知
-监控系统的探针代码
-
-[监控系统地址](https://www.webfunny.cn/)
-
-[介绍](https://zhuanlan.zhihu.com/webfunny)    
-
 # 探针部署方式：
 
 1. 前往 [新建应用](https://www.webfunny.cn/webfunny/createProject)  
 
-2. $ npm install webfunny-monitor --save-dev
+2. 命令行：$ npm install webfunny-monitor --save-dev
 
 3. var wm = require("webfunny-monitor");
    wm.initMonitor("应用ID", "userId", "1.0.0");
   
 如果有问题，欢迎提问。
+
+# 讲解须知
+监控系统的探针代码
+
+[细节讲解](https://zhuanlan.zhihu.com/webfunny)
 
 ## 系统简介
 ### 概览
