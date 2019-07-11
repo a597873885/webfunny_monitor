@@ -43,6 +43,12 @@
 如果有问题，欢迎提问。
 
 ## 系统简介
+### 概览
+![概览](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E6%A6%82%E8%A7%88.jpg)
+### 错误预览
+![报错统计看板](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E6%8A%A5%E9%94%99%E7%BB%9F%E8%AE%A1.jpg)
+### 实时变化
+![实时变化](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E5%AE%9E%E6%97%B6%E5%8F%98%E5%8C%96.jpg)
 ### 前端错误统计
 ![前端错误统计](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E9%94%99%E8%AF%AF%E7%BB%9F%E8%AE%A1.png)
 ### 错误详情分析
