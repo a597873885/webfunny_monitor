@@ -63,6 +63,13 @@
 
 [细节讲解](https://zhuanlan.zhihu.com/webfunny)
 
+## 贡献者支持
+小小的star, 小小的支持，都是我们最大的前进动力。
+
+微信：
+
+![二维码](https://github.com/a597873885/webfunny_monitor/blob/master/img/qr_code.jpeg)
+
 ## 系统简介
 ### 概览
 ![概览](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E6%A6%82%E8%A7%88.jpg)
