@@ -36,10 +36,11 @@
 
 1. 前往 [新建应用](https://www.webfunny.cn/webfunny/createProject)  
 
-2. 根目录下执行命令$: webpack
-   得到一个压缩js文件(探针) lib/monitor.fetch.min.js
+2. $ npm install webfunny-monitor --save-dev
+
+3. var wm = require("webfunny-monitor");
+   wm.initMonitor("应用ID", "userId", "1.0.0");
   
-    
 如果有问题，欢迎提问。
 
 ## 系统简介
