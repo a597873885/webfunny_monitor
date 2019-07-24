@@ -64,13 +64,13 @@
     , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
 
     // 上传数据的接口API
-    , HTTP_UPLOAD_LOG_API = '/api/v1/upLg'
+    , HTTP_UPLOAD_LOG_API = '/api/v1/upLgb'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
-    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + '/api/v1/upLg'
+    , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 上传数据的接口
-    , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + '/api/v1/upLg'
+    , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 获取当前项目的参数信息的接口
     , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/project/getProject'
@@ -175,13 +175,14 @@
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
     var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
     this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "");
-    this.firstUserParam = utils.b64EncodeUnicode(localStorage.CUSTOMER_WEB_MONITOR_VERSION || "");
+    this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "");
     this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
   // 用户访问行为日志(PV)
   function CustomerPV(uploadType, loadType, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
+    this.projectVersion = utils.b64EncodeUnicode(localStorage.CUSTOMER_WEB_MONITOR_VERSION || ""); // 版本号， 用来区分监控应用的版本，更有利于排查问题
     this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
     this.deviceName = DEVICE_INFO.deviceName;
     this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
@@ -248,14 +249,16 @@
   JavaScriptErrorInfo.prototype = new MonitorBaseInfo();
 
   // 接口请求日志，继承于日志基类MonitorBaseInfo
-  function HttpLogInfo(uploadType, url, status, statusText, statusResult, responseText, currentTime, loadTime) {
+  function HttpLogInfo(uploadType, simpleUrl, url, status, statusText, statusResult, responseText, currentTime, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;  // 上传类型
+    this.simpleUrl = simpleUrl;
     this.httpUrl = utils.b64EncodeUnicode(encodeURIComponent(url)); // 请求地址
     this.status = status; // 接口状态
     this.statusText = statusText; // 状态描述
     this.statusResult = statusResult; // 区分发起和返回状态
-    this.responseText = responseText;
+    this.requestText = ""; // 请求参数的JSON字符串
+    this.responseText = utils.b64EncodeUnicode(responseText); // 返回的结果JSON字符串
     this.happenTime = currentTime;  // 客户端发送时间
     this.loadTime = loadTime; // 接口请求耗时
   }
@@ -306,20 +309,34 @@
 
       /**
        * 添加一个定时器，进行数据的上传
-       * 2秒钟进行一次URL是否变化的检测
-       * 10秒钟进行一次数据的检查并上传
+       * 200毫秒钟进行一次URL是否变化的检测
+       * 8秒钟进行一次数据的检查并上传; PS: 这个时间有可能跟后台服务的并发量有着直接，谨慎设置
        */
       var timeCount = 0;
+      var waitTimes = 0;
       var typeList = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR]
       setInterval(function () {
         checkUrlChange();
         // 进行一次上传
-        if (timeCount >= 30) {
+        if (timeCount >= 40) {
           // 如果是本地的localhost, 就忽略，不进行上传
+          if (window.location.href.indexOf("localhost") != -1) return;
           var logInfo = "";
           for (var i = 0; i < typeList.length; i ++) {
             logInfo += (localStorage[typeList[i]] || "");
           }
+          // 收集到日志的数量如果小于10，则不进行上传，减少后台服务短时间内的并发量。
+          // 如果，经过3次判断还没有收集到10个日志，则进行上传
+          // 风险：有可能会丢失掉用户最后一段时间的操作信息，如果，最后几步操作信息很重要，可以选择删除这段逻辑
+          var logInfoCount = logInfo.split("$$$").length;
+          if (logInfoCount < 10 && waitTimes < 3) {
+            waitTimes ++;
+            timeCount = 0;
+            return;
+          }
+          waitTimes = 0;
+          // 结束
+
           logInfo.length > 0 && utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
@@ -603,19 +620,27 @@
       // }
       return realXHR;
     }
-    function handleHttpResult(i, responseText) {
-      var currentTime = new Date().getTime()
+    function handleHttpResult(i, tempResponseText) {
+      if (!timeRecordArray[i]) return;
+      var responseText = "";
+      try {
+        responseText = tempResponseText ? JSON.stringify(utils.encryptObj(JSON.parse(tempResponseText))) : "";
+      } catch (e) {
+        responseText = "";
+      }
+      var simpleUrl = timeRecordArray[i].simpleUrl;
+      var currentTime = new Date().getTime();
       var url = timeRecordArray[i].event.detail.responseURL;
       var status = timeRecordArray[i].event.detail.status;
       var statusText = timeRecordArray[i].event.detail.statusText;
       var loadTime = currentTime - timeRecordArray[i].timeStamp;
       if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
-      var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, url, status, statusText, "发起请求", responseText, timeRecordArray[i].timeStamp, 0);
+      var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "发起请求", responseText, timeRecordArray[i].timeStamp, 0);
       httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
-      var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, url, status, statusText, "请求返回", responseText, currentTime, loadTime);
+      var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "请求返回", responseText, currentTime, loadTime);
       httpLogInfoEnd.handleLogInfo(HTTP_LOG, httpLogInfoEnd);
-      // 当前请求成功后就在数组中移除掉
-      timeRecordArray.splice(i, 1);
+      // 当前请求成功后就，就将该对象的uploadFlag设置为true, 代表已经上传了
+      timeRecordArray[i].uploadFlag = true;
     }
 
     var timeRecordArray = [];
@@ -623,21 +648,27 @@
     window.addEventListener('ajaxLoadStart', function(e) {
       var tempObj = {
         timeStamp: new Date().getTime(),
-        event: e
+        event: e,
+        simpleUrl: window.location.href.split('?')[0].replace('#', ''),
+        uploadFlag: false,
       }
       timeRecordArray.push(tempObj)
     });
     
     window.addEventListener('ajaxLoadEnd', function() {
       for (var i = 0; i < timeRecordArray.length; i ++) {
+        // uploadFlag == true 代表这个请求已经被上传过了
+        if (timeRecordArray[i].uploadFlag === true) continue;
         if (timeRecordArray[i].event.detail.status > 0) {
           if (timeRecordArray[i].event.detail.responseType === "blob") {
-            var reader = new FileReader();
-            reader.onload = function() {
-              var responseText = reader.result;//内容就在这里
-              handleHttpResult(i, responseText);
-            }
-            reader.readAsText(timeRecordArray[i].event.detail.response, 'utf-8');
+            (function(index) {
+              var reader = new FileReader();
+              reader.onload = function() {
+                var responseText = reader.result;//内容就在这里
+                handleHttpResult(index, responseText);
+              }
+              reader.readAsText(timeRecordArray[i].event.detail.response, 'utf-8');
+            })(i)
           } else {
             var responseText = timeRecordArray[i].event.detail.responseText;
             handleHttpResult(i, responseText);
@@ -786,6 +817,27 @@
         var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, description, compressedDataURL)
         screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
       });
+    }
+    // 深拷贝方法. 注意: 如果对象里边包含function, 则对function的拷贝依然是浅拷贝
+    this.encryptObj = function(o) {
+      if (o instanceof Array) {
+        var n = []
+        for (var i = 0; i < o.length; ++i) {
+          n[i] = this.encryptObj(o[i])
+        }
+        return n
+      } else if (o instanceof Object) {
+        var n = {}
+        for (var i in o) {
+          n[i] = this.encryptObj(o[i])
+        }
+        return n
+      }
+      o = o + ""
+      if (o.length > 8) {
+        o = o.substring(0, 4) + "****" + o.substring(o.length - 3, o.length)
+      }
+      return o
     }
     this.getDevice = function() {
       var device = {};
