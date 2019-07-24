@@ -13,6 +13,8 @@
   "author": "jeffery",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   }
 }
