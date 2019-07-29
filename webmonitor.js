@@ -5,8 +5,8 @@
  */
 (function (window) {
   /** globe variable **/
-  if (!localStorage) {
-    window.localStorage = new Object();
+  if (!sessionStorage) {
+    window.sessionStorage = new Object();
   }
   var
     // 用fetch方式请求接口时，暂存接口url
@@ -46,7 +46,7 @@
   /** 常量 **/
   var
     // 所属项目ID, 用于替换成相应项目的UUID，生成监控代码的时候搜索替换
-    WEB_MONITOR_ID = localStorage.CUSTOMER_WEB_MONITOR_ID || "jeffery_webmonitor"
+    WEB_MONITOR_ID = sessionStorage.CUSTOMER_WEB_MONITOR_ID || "jeffery_webmonitor"
 
     // 判断是http或是https的项目
     , WEB_HTTP_TYPE = window.location.href.indexOf('https') === -1 ? 'http://' : 'https://'
@@ -64,7 +64,7 @@
     , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
 
     // 上传数据的接口API
-    , HTTP_UPLOAD_LOG_API = '/api/v1/upLgb'
+    , HTTP_UPLOAD_LOG_API = '/api/v1/upLog'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
     , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
@@ -120,18 +120,6 @@
     // 获取用户自定义信息
     , USER_INFO = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
 
-  // 判断探针引入的方式
-  var scriptDom = document.getElementById('web_monitor');
-  if (scriptDom) {
-    try {
-      var srcUrl = scriptDom.getAttribute('src');
-      var urlId = srcUrl.split("?")[1].split("=")[1];
-      WEB_MONITOR_ID = urlId;
-    } catch (e) {
-      console.warn("应用初始化标识未完成");
-    }
-
-  }
   // 日志基类, 用于其他日志的继承
   function MonitorBaseInfo() {
     this.handleLogInfo = function (type, logInfo) {
@@ -182,7 +170,7 @@
   function CustomerPV(uploadType, loadType, loadTime) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
-    this.projectVersion = utils.b64EncodeUnicode(localStorage.CUSTOMER_WEB_MONITOR_VERSION || ""); // 版本号， 用来区分监控应用的版本，更有利于排查问题
+    this.projectVersion = utils.b64EncodeUnicode(USER_INFO.projectVersion || ""); // 版本号， 用来区分监控应用的版本，更有利于排查问题
     this.pageKey = utils.getPageKey();  // 用于区分页面，所对应唯一的标识，每个新页面对应一个值
     this.deviceName = DEVICE_INFO.deviceName;
     this.os = DEVICE_INFO.os + (DEVICE_INFO.osVersion ? " " + DEVICE_INFO.osVersion : "");
@@ -335,7 +323,6 @@
             return;
           }
           waitTimes = 0;
-          // 结束
 
           logInfo.length > 0 && utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {
             for (var i = 0; i < typeList.length; i ++) {
@@ -598,9 +585,7 @@
 
     // 监听ajax的状态
     function ajaxEventTrigger(event) {
-      var ajaxEvent = new CustomEvent(event, {
-        detail: this
-      });
+      var ajaxEvent = new CustomEvent(event, { detail: this });
       window.dispatchEvent(ajaxEvent);
     }
     var oldXHR = window.XMLHttpRequest;
@@ -621,7 +606,9 @@
       return realXHR;
     }
     function handleHttpResult(i, tempResponseText) {
-      if (!timeRecordArray[i]) return;
+      if (!timeRecordArray[i] || timeRecordArray[i].uploadFlag === true) {
+        return;
+      }
       var responseText = "";
       try {
         responseText = tempResponseText ? JSON.stringify(utils.encryptObj(JSON.parse(tempResponseText))) : "";
@@ -635,7 +622,7 @@
       var statusText = timeRecordArray[i].event.detail.statusText;
       var loadTime = currentTime - timeRecordArray[i].timeStamp;
       if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
-      var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "发起请求", responseText, timeRecordArray[i].timeStamp, 0);
+      var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "发起请求", "", timeRecordArray[i].timeStamp, 0);
       httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
       var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "请求返回", responseText, currentTime, loadTime);
       httpLogInfoEnd.handleLogInfo(HTTP_LOG, httpLogInfoEnd);
@@ -660,15 +647,20 @@
         // uploadFlag == true 代表这个请求已经被上传过了
         if (timeRecordArray[i].uploadFlag === true) continue;
         if (timeRecordArray[i].event.detail.status > 0) {
-          if (timeRecordArray[i].event.detail.responseType === "blob") {
+          var rType = (timeRecordArray[i].event.detail.responseType + "").toLowerCase()
+          if (rType === "blob") {
             (function(index) {
               var reader = new FileReader();
               reader.onload = function() {
                 var responseText = reader.result;//内容就在这里
                 handleHttpResult(index, responseText);
               }
-              reader.readAsText(timeRecordArray[i].event.detail.response, 'utf-8');
-            })(i)
+              try {
+                reader.readAsText(timeRecordArray[i].event.detail.response, 'utf-8');
+              } catch (e) {
+                handleHttpResult(index, timeRecordArray[i].event.detail.response + "");
+              }
+            })(i);
           } else {
             var responseText = timeRecordArray[i].event.detail.responseText;
             handleHttpResult(i, responseText);
@@ -1012,6 +1004,22 @@
         userId: userId,
         userTag: userTag,
         secondUserParam: secondUserParam
+      });
+      return 1;
+    },
+    /**
+     * 使用者传入的自定义信息
+     *
+     * @param userId 用户唯一标识
+     * @param projectVersion 应用版本号
+     */
+    wmInitUser: function (userId, projectVersion) {
+      if (!userId) console.warn('userId(用户唯一标识) 初始化值为0(不推荐) 或者 未传值, 探针可能无法生效');
+      if (!projectVersion) console.warn('projectVersion(应用版本号) 初始化值为0(不推荐) 或者 未传值, 探针可能无法生效');
+
+      localStorage.wmUserInfo = JSON.stringify({
+        userId: userId,
+        appVersion: projectVersion
       });
       return 1;
     },
