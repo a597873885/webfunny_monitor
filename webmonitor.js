@@ -1019,7 +1019,7 @@
 
       localStorage.wmUserInfo = JSON.stringify({
         userId: userId,
-        appVersion: projectVersion
+        projectVersion: projectVersion
       });
       return 1;
     },
