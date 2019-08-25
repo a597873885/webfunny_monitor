@@ -8,6 +8,6 @@
 
 2. 完成后台服务系统的搭建 [教程](https://github.com/a597873885/webfunny-servers)
 
-3. 生成探针代码，植入到项目中 [教程](http://www.webfunny.cn/webfunny/createProject)
+3. 在你搭建好的 可视化管理系统中 生成探针代码，植入到项目中 [教程](http://www.webfunny.cn/webfunny/createProject)
 
 完成上边上边三大步骤之后，就可以监控你的应用了。
