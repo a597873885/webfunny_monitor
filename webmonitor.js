@@ -57,6 +57,9 @@
     // 本地IP, 用于区分本地开发环境
     , WEB_LOCAL_IP = 'localhost'
 
+    // 应用的主域名, 用于主域名下共享customerKey
+    , MAIN_DOMAIN = 'webfunny.cn'
+
     // 监控平台地址
     , WEB_MONITOR_IP = 'www.webfunny.cn'
 
@@ -317,7 +320,7 @@
           // 如果，经过3次判断还没有收集到10个日志，则进行上传
           // 风险：有可能会丢失掉用户最后一段时间的操作信息，如果，最后几步操作信息很重要，可以选择删除这段逻辑
           var logInfoCount = logInfo.split("$$$").length;
-          if (logInfoCount < 10 && waitTimes < 3) {
+          if (logInfoCount < 10 && waitTimes < 2) {
             waitTimes ++;
             timeCount = 0;
             return;
@@ -718,14 +721,27 @@
      */
     this.getCustomerKey = function () {
       var customerKey = this.getUuid();
-      var reg = /^[0-9a-z]{8}(-[0-9a-z]{4}){3}-[0-9a-z]{12}-\d{13}$/
-      if (!localStorage.monitorCustomerKey) {
-        localStorage.monitorCustomerKey = customerKey;
-      } else if (!reg.test(localStorage.monitorCustomerKey)) {
-        localStorage.monitorCustomerKey = customerKey;
+      var monitorCustomerKey = utils.getCookie("monitorCustomerKey");
+      if (!monitorCustomerKey) {
+        var extraTime = 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
+        var exp = new Date()
+        exp.setTime(exp.getTime() + extraTime)
+        document.cookie = "monitorCustomerKey=" + customerKey + ";Path=/;domain=" + MAIN_DOMAIN + ";expires=" + exp.toGMTString()
       }
-      return localStorage.monitorCustomerKey;
+      return monitorCustomerKey;
     };
+    /**
+     * 获取cookie
+     */
+    this.getCookie = function(name) {
+      var arr
+      var reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)")
+      if (document.cookie.match(reg)) {
+        arr = document.cookie.match(reg)
+        return unescape(arr[2])
+      }
+      return ""
+    }
     /**
      * 获取页面的唯一标识
      */
@@ -1028,9 +1044,7 @@
      * @param description  截屏描述
      */
     wm_screen_shot: function (description) {
-      setTimeout(function () {
-        utils.screenShot(document.body, description)
-      }, 500);
+      utils.screenShot(document.body, description)
     },
     /**
      * 使用者传入图片进行上传
