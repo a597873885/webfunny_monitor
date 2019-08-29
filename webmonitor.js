@@ -726,7 +726,11 @@
         var extraTime = 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
         var exp = new Date()
         exp.setTime(exp.getTime() + extraTime)
-        document.cookie = "monitorCustomerKey=" + customerKey + ";Path=/;domain=" + MAIN_DOMAIN + ";expires=" + exp.toGMTString()
+        if (MAIN_DOMAIN) {
+          document.cookie = "monitorCustomerKey=" + customerKey + ";Path=/;domain=" + MAIN_DOMAIN + ";expires=" + exp.toGMTString()
+        } else {
+          document.cookie = "monitorCustomerKey=" + customerKey + ";Path=/;expires=" + exp.toGMTString()
+        }
       }
       return monitorCustomerKey;
     };
