@@ -58,10 +58,10 @@
     , WEB_LOCAL_IP = 'localhost'
 
     // 应用的主域名, 用于主域名下共享customerKey
-    , MAIN_DOMAIN = 'webfunny.cn'
+    , MAIN_DOMAIN = '&&&webfunny.cn&&&'
 
     // 监控平台地址
-    , WEB_MONITOR_IP = 'www.webfunny.cn'
+    , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
     , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
