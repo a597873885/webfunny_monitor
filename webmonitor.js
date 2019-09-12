@@ -731,6 +731,7 @@
         } else {
           document.cookie = "monitorCustomerKey=" + customerKey + ";Path=/;expires=" + exp.toGMTString()
         }
+        monitorCustomerKey = customerKey
       }
       return monitorCustomerKey;
     };
