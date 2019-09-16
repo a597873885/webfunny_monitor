@@ -1,13 +1,11 @@
 ## 搭建教程
 
 
-搭建整套服务需要三大步骤，说实话，真的会有点麻烦，需要多点耐心。😂
+搭建教程已经简化了很多，自己试试吧 😊
 
-1. 完成可视化管理系统的搭建 [去完成](https://github.com/a597873885/webfunny-admin)
+1. 完成后台服务系统的搭建 [去完成](https://github.com/a597873885/webfunny-servers)
 
-2. 完成后台服务系统的搭建 [去完成](https://github.com/a597873885/webfunny-servers)
-
-3. 在你搭建好的 可视化管理系统中 生成探针代码，植入到项目中 [去完成](http://www.webfunny.cn/webfunny/createProject)
+2. 在你搭建好的 可视化管理系统中 生成探针代码，植入到项目中 [去完成](http://www.webfunny.cn/webfunny/createProject)
 
 完成上边上边三大步骤之后，就可以监控你的应用了。
 
