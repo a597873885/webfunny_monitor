@@ -37,15 +37,15 @@
          4）即将增加录屏功能测试
 
 ## 分析功能列表
-      1. js报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny_multi/javascriptError.html)
+      1. js报错实时监控【完成】
       2. js报错的统计分析【完成】
       3. js报错的详情分析和代码定位【完成】
-      4. 静态资源加载异常实时监控【完成】[前往](https://www.webfunny.cn/webfunny_multi/resourceError.html)
+      4. 静态资源加载异常实时监控【完成】
       5. 静态资源加载异常的统计分析【完成】
-      6. 接口请求报错实时监控【完成】[前往](http://www.webfunny.cn/webfunny_multi/httpError.html)
+      6. 接口请求报错实时监控【完成】
       7. 接口请求报错的统计分析【完成】
       8. 用户pv/uv实时统计【完成】
-      9. 记录回放功能（详细记录用户使用的足迹）【完成】[前往](http://www.webfunny.cn/webfunny_multi/behaviors.html)
+      9. 记录回放功能（详细记录用户使用的足迹）【完成】
 
          将要增加的分析功能：
 
