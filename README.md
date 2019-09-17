@@ -24,6 +24,7 @@
 7. 静态资源加载异常统计【完成】
 8. 实现JS页面截图【完成】
 9. 自定义日志上传【完成】
+10.日志数据分表分库【完成】
 
    将要增加的上报功能：
    
@@ -36,15 +37,15 @@
    4）即将增加录屏功能测试
 
 ## 分析功能列表
-1. js报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/javascriptError)
+1. js报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny_multi/javascriptError.html)
 2. js报错的统计分析【完成】
 3. js报错的详情分析和代码定位【完成】
-4. 静态资源加载异常实时监控【完成】[前往](https://www.webfunny.cn/webfunny/resourceError)
+4. 静态资源加载异常实时监控【完成】[前往](https://www.webfunny.cn/webfunny_multi/resourceError.html)
 5. 静态资源加载异常的统计分析【完成】
-6. 接口请求报错实时监控【完成】[前往](https://www.webfunny.cn/webfunny/httpError)
+6. 接口请求报错实时监控【完成】[前往](http://www.webfunny.cn/webfunny_multi/httpError.html)
 7. 接口请求报错的统计分析【完成】
 8. 用户pv/uv实时统计【完成】
-9. 记录回放功能（详细记录用户使用的足迹）【完成】[前往](https://www.webfunny.cn/webfunny/behaviors)
+9. 记录回放功能（详细记录用户使用的足迹）【完成】[前往](http://www.webfunny.cn/webfunny_multi/behaviors.html)
 
    将要增加的分析功能：
    
@@ -54,12 +55,12 @@
    
    3）分析页面加载性能数据
    
-具体内容：[请移步线上监控系统](https://www.webfunny.cn/)
+具体内容：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
 
 
 ## 探针部署方式：
 
-1. 前往 [新建应用](https://www.webfunny.cn/webfunny/createProject)  
+1. 前往 [新建应用](http://www.webfunny.cn/webfunny_multi/createProject.html)  
 
 2. 命令行：$ npm install webfunny-monitor --save-dev
 
