@@ -58,16 +58,16 @@
     , WEB_LOCAL_IP = 'localhost'
 
     // 应用的主域名, 用于主域名下共享customerKey
-    , MAIN_DOMAIN = '&&&webfunny.cn&&&'
+    , MAIN_DOMAIN = 'www.webfunny.cn' //'&&&webfunny.cn&&&'
 
     // 监控平台地址
-    , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
+    , WEB_MONITOR_IP = 'localhost:8011' //'&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
-    , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8010'
+    , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8011'
 
     // 上传数据的接口API
-    , HTTP_UPLOAD_LOG_API = '/api/v1/upLog'
+    , HTTP_UPLOAD_LOG_API = '/server/upLog' // '/api/v1/upLog'
 
     // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
     , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
@@ -108,6 +108,9 @@
     // 用户自定义行为类型
     , CUSTOMIZE_BEHAVIOR = 'CUSTOMIZE_BEHAVIOR'
 
+    // 用户录屏事件类型
+    , VIDEOS_EVENT = 'VIDEOS_EVENT'
+
     // 浏览器信息
     , BROWSER_INFO = window.navigator.userAgent
 
@@ -121,7 +124,14 @@
     , WebMonitor = {}
 
     // 获取用户自定义信息
-    , USER_INFO = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
+    , USER_INFO = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {}
+
+    // 录屏JSON字符简化
+    , JSON_KEY = {"type":"≠","childNodes":"ā","name":"á","id":"ǎ","tagName":"à","attributes":"ē","style":"é","textContent":"ě","isStyle":"è","isSVG":"ī","content":"í","href":"ǐ","src":"ì","class":"ō","tabindex":"ó","aria-label":"ǒ","viewBox":"ò","focusable":"ū","data-icon":"ú","width":"ǔ","height":"ù","fill":"ǖ","aria-hidden":"ǘ","stroke":"ǚ","stroke-width":"ǜ","paint-order":"ü","stroke-opacity":"ê","stroke-dasharray":"ɑ","stroke-linecap":"?","stroke-linejoin":"ń","stroke-miterlimit":"ň","clip-path":"Γ","alignment-baseline":"Δ","fill-opacity":"Θ","transform":"Ξ","text-anchor":"Π","offset":"Σ","stop-color":"Υ","stop-opacity":"Φ"}
+    , JSON_CSS_KEY = {"background":"≠","background-attachment":"ā","background-color":"á","background-image":"ǎ","background-position":"à","background-repeat":"ē","background-clip":"é","background-origin":"ě","background-size":"è","border":"Г","border-bottom":"η","color":"┯","style":"Υ","width":"б","border-color":"ū","border-left":"ǚ","border-right":"ň","border-style":"Δ","border-top":"З","border-width":"Ω","outline":"α","outline-color":"β","outline-style":"γ","outline-width":"δ","left-radius":"Ж","right-radius":"И","border-image":"ω","outset":"μ","repeat":"ξ","repeated":"π","rounded":"ρ","stretched":"σ","slice":"υ","source":"ψ","border-radius":"Б","radius":"Д","box-decoration":"Й","break":"К","box-shadow":"Л","overflow-x":"Ф","overflow-y":"У","overflow-style":"Ц","rotation":"Ч","rotation-point":"Щ","opacity":"Ъ","height":"Ы","max-height":"Э","max-width":"Ю","min-height":"Я","min-width":"а","font":"в","font-family":"г","font-size":"ж","adjust":"з","aspect":"и","font-stretch":"й","font-style":"к","font-variant":"л","font-weight":"ф","content":"ц","before":"ч","after":"ш","counter-increment":"щ","counter-reset":"ъ","quotes":"ы","list-style":"+","image":"－","position":"|","type":"┌","margin":"┍","margin-bottom":"┎","margin-left":"┏","margin-right":"┐","margin-top":"┑","padding":"┒","padding-bottom":"┓","padding-left":"—","padding-right":"┄","padding-top":"┈","bottom":"├","clear":"┝","clip":"┞","cursor":"┟","display":"┠","float":"┡","left":"┢","overflow":"┣","right":"┆","top":"┊","vertical-align":"┬","visibility":"┭","z-index":"┮","direction":"┰","letter-spacing":"┱","line-height":"┲","text-align":"6","text-decoration":"┼","text-indent":"┽","text-shadow":"10","text-transform":"┿","unicode-bidi":"╀","white-space":"╂","word-spacing":"╁","hanging-punctuation":"╃","punctuation-trim":"1","last":"3","text-emphasis":"4","text-justify":"5","justify":"7","text-outline":"8","text-overflow":"9","text-wrap":"11","word-break":"12","word-wrap":"13"}
+
+    // LZString 加载标识
+    , LZStringFlag = false;
 
   // 日志基类, 用于其他日志的继承
   function MonitorBaseInfo() {
@@ -151,6 +161,9 @@
           break;
         case CUSTOMIZE_BEHAVIOR:
           localStorage[CUSTOMIZE_BEHAVIOR] = tempString + JSON.stringify(logInfo) + '$$$';
+          break;
+        case VIDEOS_EVENT:
+          localStorage[VIDEOS_EVENT] = tempString + JSON.stringify(logInfo) + '$$$';
           break;
         default: break;
       }
@@ -285,6 +298,14 @@
     this.happenTime = new Date().getTime(); // 日志发生时间
   }
   ExtendBehaviorInfo.prototype = new MonitorBaseInfo();
+
+  // 上传拓展日志信息的入口
+  function VideosInfo(uploadType, event) {
+    setCommonProperty.apply(this);
+    this.uploadType = uploadType;
+    this.event = event;
+  }
+  VideosInfo.prototype = new MonitorBaseInfo();
   /**
    * 监控初始化配置, 以及启动的方法
    */
@@ -297,7 +318,38 @@
       recordBehavior({record: 1});
       recordJavaScriptError();
       recordHttpLog();
-
+      // // 加载js压缩工具
+      // utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
+      //   LZStringFlag = true
+      //   // 加载录屏机制
+      //   utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
+      //     var stopFn = rrweb.record({
+      //       emit(event) {
+      //         // var newEvent = utils.compressJson(event);
+      //         var newEventStr = JSON.stringify(event);
+      //         if (LZStringFlag) {
+      //           newEventStr = LZString.compressToBase64(newEventStr);
+      //           var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
+      //           if (newEventStr.length) { // 如果数据过长，直接上传
+      //             // videosInfo.uploadType = VIDEOS_EVENT
+      //             // var logInfo = JSON.stringify(videosInfo)
+      //             // utils.ajax("POST", "//localhost:8011/servers/upLog_long", newEventStr, function () {})
+      //             var userId = "test_home"
+      //             newEventStr = WEB_MONITOR_ID + "---" + VIDEOS_EVENT + "---" + utils.getCustomerKey() + "---" + userId + "$$$" + newEventStr
+      //             var blob = new Blob([newEventStr], {type: 'text/plain'})
+      //             var xmlHttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+      //             xmlHttp.open("post", "//localhost:8011/server/upLog_long", true);
+      //             xmlHttp.setRequestHeader('Content-Type','text/plain');
+      //             xmlHttp.send(blob);
+      //           } else {
+      //             // videosInfo.handleLogInfo(VIDEOS_EVENT, videosInfo);
+      //           }
+      //         }
+      //       }
+      //     })
+      //   })
+      // })
+      
       /**
        * 添加一个定时器，进行数据的上传
        * 200毫秒钟进行一次URL是否变化的检测
@@ -305,13 +357,13 @@
        */
       var timeCount = 0;
       var waitTimes = 0;
-      var typeList = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR]
+      var typeList = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR, VIDEOS_EVENT]
       setInterval(function () {
         checkUrlChange();
         // 进行一次上传
         if (timeCount >= 40) {
           // 如果是本地的localhost, 就忽略，不进行上传
-          if (window.location.href.indexOf("localhost") != -1) return;
+          // if (window.location.href.indexOf("localhost") != -1) return;
           var logInfo = "";
           for (var i = 0; i < typeList.length; i ++) {
             logInfo += (localStorage[typeList[i]] || "");
@@ -852,6 +904,161 @@
       }
       return o
     }
+    // 压缩JSON字符串, 对key进行压缩
+    // window.keyArray = localStorage.keyArray ? JSON.parse(localStorage.keyArray) : []
+    // window.keyCountArray = window.keyCountArray ? JSON.parse(localStorage.keyArray) : []
+    this.compressJson = function(o) {
+      if (o instanceof Array) {
+        var n = []
+        for (var i = 0; i < o.length; ++i) {
+          n[i] = this.compressJson(o[i])
+        }
+        return n
+      } else if (o instanceof Object) {
+        var n = {}
+        for (var i in o) {
+          // if (window.keyArray.indexOf(i) == -1) {
+          //   window.keyArray.push(i)
+          // }
+
+          // if (window.keyCountArray.length) {
+          //   for (var m = 0; m < window.keyCountArray.length; m ++) {
+          //     if (window.keyCountArray[m][i]) {
+          //       window.keyCountArray[m][i] = window.keyCountArray[m][i] + 1
+          //     } else {
+          //       window.keyCountArray[m][i] = 1
+          //     }
+          //   }
+          // } else {
+          //   var obj = {}
+          //   obj[i] = 1
+          //   window.keyCountArray.push(obj)
+          // }
+          if (i == "_cssText") {
+            o[i]= o[i].replace(/ {/g, "{").replace(/; /g, ";").replace(/: /g, ":").replace(/, /g, ",").replace(/{ /g, "{")
+            for (var key in JSON_CSS_KEY) {
+              var cssAttr = JSON_CSS_KEY[key]
+              var cssReg = new RegExp(key, "g");
+              o[i]= o[i].replace(cssReg, cssAttr)
+            }
+          }
+
+          if (JSON_KEY[i]) {
+            n[JSON_KEY[i]] = this.compressJson(o[i])
+            delete n[i]
+          } else {
+            n[i] = this.compressJson(o[i])
+          }
+        }
+        return n
+      }
+      return o
+    }
+
+    this.Compress = function(strNormalString) {
+      var strCompressedString = "";
+  
+      var ht = new Array();
+      for(i = 0; i < 128; i++) {
+          ht[i] = i;
+      }
+  
+      var used = 128;
+      var intLeftOver = 0;
+      var intOutputCode = 0;
+      var pcode = 0;
+      var ccode = 0;
+      var k = 0;
+  
+      for(var i=0; i<strNormalString.length; i++) {
+          ccode = strNormalString.charCodeAt(i);
+          k = (pcode << 8) | ccode;
+          if(ht[k] != null) {
+              pcode = ht[k];
+          } else {
+              intLeftOver += 12;
+              intOutputCode <<= 12;
+              intOutputCode |= pcode;
+              pcode = ccode;
+              if(intLeftOver >= 16) {
+                  strCompressedString += String.fromCharCode( intOutputCode >> ( intLeftOver - 16 ) );
+                  intOutputCode &= (Math.pow(2, (intLeftOver - 16)) - 1);
+                  intLeftOver -= 16;
+              }
+              if(used < 4096) {
+                  used ++;
+                  ht[k] = used - 1;
+              }
+          }
+      }
+  
+      if(pcode != 0) {
+          intLeftOver += 12;
+          intOutputCode <<= 12;
+          intOutputCode |= pcode;
+      }
+  
+      if(intLeftOver >= 16) {
+          strCompressedString += String.fromCharCode( intOutputCode >> ( intLeftOver - 16 ) );
+          intOutputCode &= (Math.pow(2,(intLeftOver - 16)) - 1);
+          intLeftOver -= 16;
+      }
+  
+      if( intLeftOver > 0) {
+          intOutputCode <<= (16 - intLeftOver);
+          strCompressedString += String.fromCharCode( intOutputCode );
+      }
+  
+      return strCompressedString;
+  }
+
+  this.Decompress = function(strCompressedString) {
+        var strNormalString = "";
+        var ht = new Array();
+
+        for(i = 0; i < 128; i++) {
+            ht[i] = String.fromCharCode(i);
+        }
+
+        var used = 128;
+        var intLeftOver = 0;
+        var intOutputCode = 0;
+        var ccode = 0;
+        var pcode = 0;
+        var key = 0;
+
+        for(var i=0; i<strCompressedString.length; i++) {
+            intLeftOver += 16;
+            intOutputCode <<= 16;
+            intOutputCode |= strCompressedString.charCodeAt(i);
+
+            while(1) {
+                if(intLeftOver >= 12) {
+                    ccode = intOutputCode >> (intLeftOver - 12);
+                    if( typeof( key = ht[ccode] ) != "undefined" ) {
+                        strNormalString += key;
+                        if(used > 128) {
+                            ht[ht.length] = ht[pcode] + key.substr(0, 1);
+                        }
+                        pcode = ccode;
+                    } else {
+                        key = ht[pcode] + ht[pcode].substr(0, 1);
+                        strNormalString += key;
+                        ht[ht.length] = ht[pcode] + key.substr(0, 1);
+                        pcode = ht.length - 1;
+                    }
+
+                    used ++;
+                    intLeftOver -= 12;
+                    intOutputCode &= (Math.pow(2,intLeftOver) - 1);
+                } else {
+                    break;
+                }
+            }
+        }
+        return strNormalString;
+    }
+
     this.getDevice = function() {
       var device = {};
       var ua = navigator.userAgent;
@@ -977,6 +1184,16 @@
         return str;
       }
     }
+    // 字符串转换成二进制流
+    this.char2buf = function(str) {
+      var out = new ArrayBuffer(str.length*2);
+      var u16a= new Uint16Array(out);
+      var strs = str.split("");
+      for(var i =0 ; i<strs.length;i++){
+          u16a[i]=strs[i].charCodeAt();
+      }
+      return out;
+  }
   }
 
   init();
