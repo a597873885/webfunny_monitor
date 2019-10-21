@@ -38,7 +38,7 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
   
   【小提示】：项目错误日志都在更目下 logs/ 目录里，方便小伙伴们排查错误
   
-  4. 在项目根目录下，进入 config/db.js ，配置mysql数据库的连接配置 （mysql必须先安装好）
+  4. 在项目根目录下，进入 config/db.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并创建一个数据库）
   
   5. 在项目根目录下，config.js文件中，进行如下配置：
   
@@ -54,9 +54,11 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
           */
           const default_assets_url = "//localhost:8010"
 
-  6. 配置完成后，再一次执行命令$: node config.js  等待完成后，在根目录下执行命令$: npm run start, 本地服务完成启动。
+  6. 配置完成后，再一次执行命令$: node config.js  等待完成后，服务所有的配置都配置好了，还差最后一步。
   
-  7. 生成你的探针代码 [http://localhost:8010/createProject.html](http://localhost:8010/createProject.html)
+  7. 创建数据库表，执行命令$: npm run table_config 【提示】这个步骤需要耗费一些时间5-10分钟，请耐心等待。 数据库表生成后，在根目录下执行命令$:  npm run start, 本地服务完成启动。
+  
+  8. 生成你的探针代码，进入首页，点击 "新建" 按钮进入创建页面，探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
   
   访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
   
