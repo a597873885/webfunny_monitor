@@ -7,7 +7,7 @@
 
 // Demo数据
 // 如果是本地部署： const default_api_server_url = "//localhost:8011"  
-const default_api_server_url = "//localhost:8011"  // 本地可以使用："//localhost:8011"
+const default_api_server_url = "//www.webfunny.cn"  // 本地可以使用："//localhost:8011"
 
 /**
  * 静态资源域名 webfunny-admin 的部署域名
