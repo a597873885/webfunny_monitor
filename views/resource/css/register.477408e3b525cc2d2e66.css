@@ -1,0 +1,131 @@
+.register-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #fff; }
+  .register-container header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.6rem;
+    border-bottom: 0.01rem solid #ededed;
+    text-align: center;
+    background-color: #ffffff;
+    z-index: 2;
+    text-align: center; }
+    .register-container header .home-icon {
+      width: 2rem;
+      font-size: 0.22rem;
+      font-weight: bold;
+      font-family: monospace;
+      letter-spacing: -0.02rem;
+      cursor: pointer;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin: auto;
+      margin-top: 0.15rem; }
+      .register-container header .home-icon b {
+        font-size: 0.38rem;
+        color: #ea6947;
+        line-height: 0.22rem;
+        margin-left: 0.06rem; }
+      .register-container header .home-icon label {
+        float: left;
+        font-size: 0.24rem;
+        line-height: 0.13rem; }
+  .register-container .signup-content {
+    width: 100%;
+    max-width: 7.2rem;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto; }
+    .register-container .signup-content h1 {
+      font-size: 0.32rem;
+      font-weight: normal;
+      color: #383963;
+      text-align: center;
+      line-height: 140%;
+      margin-top: 0;
+      margin-bottom: 0.1rem; }
+    .register-container .signup-content h3 {
+      font-size: 0.16rem;
+      font-weight: normal;
+      color: #a0a4af;
+      line-height: 150%;
+      text-align: center;
+      margin-top: 0; }
+    .register-container .signup-content .input-set {
+      width: 3.2rem;
+      margin-left: auto;
+      margin-right: auto; }
+      .register-container .signup-content .input-set .input-title {
+        color: #393939;
+        font-size: 0.14rem;
+        margin-bottom: 0.08rem;
+        display: block;
+        line-height: 150%; }
+      .register-container .signup-content .input-set input {
+        box-sizing: border-box;
+        font-size: 0.15rem;
+        line-height: 0.2rem;
+        width: 100%;
+        max-width: 3.6rem;
+        height: 0.45rem;
+        outline: none;
+        padding: 0.13rem 0.1rem 0.12rem 0.1rem;
+        border: 0.01rem solid #cccccc;
+        border-radius: 0.02rem; }
+      .register-container .signup-content .input-set .emessage {
+        display: block;
+        font-size: 0.12rem;
+        color: #fc5f3a;
+        line-height: 0.17rem;
+        height: 0.17rem;
+        margin-top: 0.02rem; }
+      .register-container .signup-content .input-set .captcha {
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: 0.18rem;
+        color: #fc5f3a;
+        line-height: 0.38rem;
+        text-align: center;
+        width: 1.45rem;
+        height: 0.45rem;
+        background-color: #ffffff;
+        border: 0.01rem solid #fc5f3a;
+        transition: all ease-in 0.1s;
+        width: 1.1rem;
+        border-radius: 0.02rem;
+        border: 0.01rem solid #FC5F3A;
+        font-size: 18px;
+        float: right; }
+    .register-container .signup-content .login-btn {
+      display: block;
+      font-size: 0.2rem;
+      color: #ffffff;
+      line-height: 0.55rem;
+      width: 3.6rem;
+      height: 0.53rem;
+      border: 0;
+      border-radius: 0.02rem;
+      background-color: #ff9981;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+      background-color: #fc5f3a;
+      transition: all ease-in 0.1s;
+      width: 3.2rem;
+      font-size: 0.18rem; }
+    .register-container .signup-content .form-other {
+      display: block;
+      font-size: 0.14rem;
+      color: #a0a4af;
+      width: 100%;
+      margin-top: 0.1rem;
+      text-align: center; }
+

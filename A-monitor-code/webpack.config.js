@@ -1,6 +1,6 @@
 var path = require('path');
-var webpack = require("webpack");
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+var webpack = require("./node_modules/webpack/lib/webpack");
+const UglifyJSPlugin = require('./node_modules/uglifyjs-webpack-plugin/dist/cjs');
 //定义了一些文件夹的路径
 var ROOT_PATH = path.resolve(__dirname);
 

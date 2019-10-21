@@ -8,3 +8,17 @@ dist
 .idea/
 .vscode/
 log
+.DS_Store
+npm-debug.*
+package-lock.json
+node_modules
+dist
+*.swp
+*.swo
+.idea/
+.vscode/
+logs/
+webfunny/
+schema_temp/
+config/local_db.js
+.eslintrc
