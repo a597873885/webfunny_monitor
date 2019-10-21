@@ -11,6 +11,14 @@
 2. 定期维护，保证数据准确率。
 3. 敏感信息加密，功能不断升级。
 
+### 目录结构
+         ./A-monitor-code   探针代码
+         ./schema  数据库建表结构
+         ./views/ 前端展示代码
+         ./config  数据库配置目录
+         ./logs  运行报错日志目录
+         ./config.js 自动化配置文件
+
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
