@@ -58,17 +58,6 @@
 具体内容：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
 
 
-## 探针部署方式：
-
-1. 前往 [新建应用](http://www.webfunny.cn/webfunny_multi/createProject.html)  
-
-2. 命令行：$ npm install webfunny-monitor --save-dev
-
-3. var wm = require("webfunny-monitor");
-   wm.initMonitor("应用ID", "userId", "1.0.0");
-  
-如果有问题，欢迎提问。
-
 ### 讲解须知
 监控系统的探针代码
 
