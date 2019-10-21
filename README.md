@@ -74,17 +74,3 @@
 
 [细节讲解](https://zhuanlan.zhihu.com/webfunny)
 
-## 系统简介
-### 概览
-![概览](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E6%A6%82%E8%A7%88.jpg)
-### 错误预览
-![报错统计看板](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E6%8A%A5%E9%94%99%E7%BB%9F%E8%AE%A1.jpg)
-### 实时变化
-![实时变化](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E5%AE%9E%E6%97%B6%E5%8F%98%E5%8C%96.jpg)
-### 前端错误统计
-![前端错误统计](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E9%94%99%E8%AF%AF%E7%BB%9F%E8%AE%A1.png)
-### 错误详情分析
-![错误详情分析](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E9%94%99%E8%AF%AF%E8%AF%A6%E6%83%85.png)
-### 用户行为检索
-![用户行为检索](https://github.com/a597873885/webfunny_monitor/blob/master/img/%E8%A1%8C%E4%B8%BA%E6%A3%80%E7%B4%A2.png)
-
