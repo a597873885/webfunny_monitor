@@ -8,6 +8,7 @@
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www -i 1",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test_start": "npm install && node config.js && npm run start",
     "table_config": "node table_config.js && npm run table_create",
     "table_create": "table_create_command       "
   },
