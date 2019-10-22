@@ -20,7 +20,7 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
   
   3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到官网数据。
   
-  ###那么如何展示自己的数据呢？
+  #### 那么如何展示自己的数据呢？
   
   【小提示】：项目错误日志都在更目下 logs/ 目录里，方便小伙伴们排查错误
   
