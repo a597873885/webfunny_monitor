@@ -3,6 +3,8 @@ const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,Htt
 const router = new Router({
     prefix: '/server'
 })
+global.monitorInfo = {}
+global.tableTimeStamp = new Date().Format("yyyyMMdd")
 // 定时计算每小时的数据量结果
 Common.calculateCountByHour()
 
