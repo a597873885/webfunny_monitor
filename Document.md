@@ -8,6 +8,8 @@ node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](htt
 
 mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
 
+#### 部署步骤
+
   1. 下载或者克隆代码到本地
   
   2. 安装程序的依赖包，执行命令$: npm install
