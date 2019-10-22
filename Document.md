@@ -16,11 +16,7 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
 
   1. 下载或者克隆代码到本地
   
-  2. 安装程序的依赖包，执行命令$: npm install
-  
-     在根目录下执行命令$: node config.js 
-     
-     等待配置完成，然后执行命令$: npm run start
+  2. 执行测试命令(稍微耗时)$: npm run test_start
   
   3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到官网数据。
   
