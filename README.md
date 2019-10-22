@@ -23,7 +23,7 @@
          ./logs  运行报错日志目录
          ./config.js 自动化配置文件
 
-[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
+更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
 
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
