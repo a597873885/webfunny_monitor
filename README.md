@@ -26,7 +26,7 @@
 更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
 
 ### 开源说明
-本项目是开源的，除了controllers.js 和 models.js 两部分属于业务代码，不便开源，但是并不影响对项目本身的理解（原理），带来不便，请见谅。
+本项目是开源的，除了controllers.js 和 models.js 两部分属于业务代码，不便开源，但是并不影响对项目本身（原理）的理解，带来不便，请见谅。
 
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
