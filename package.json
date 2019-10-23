@@ -4,7 +4,7 @@
   "description": "这是webmonitor对应的后台",
   "main": "app.js",
   "scripts": {
-    "start": "bin/www",
+    "start": "./bin/www.js",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www -i 1",
     "test": "echo \"Error: no test specified\" && exit 1",
