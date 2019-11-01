@@ -10,7 +10,7 @@
 
 具体内容：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
 
-## 系统特点
+### 系统特点
 1. 切实解决工作中遇到的问题。
 2. 定期维护，保证数据准确率。
 3. 敏感信息加密，功能不断升级。
@@ -24,6 +24,10 @@
          ./config.js 自动化配置文件
 
 更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
+
+### 开源说明
+本项目是开源的，除了部分属于业务代码，不便开源，但是并不影响对项目本身（原理）的理解，也不会影响你的部署。
+带来不便，请予以理解和见谅。
 
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
