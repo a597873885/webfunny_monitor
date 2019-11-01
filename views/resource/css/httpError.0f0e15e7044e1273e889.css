@@ -30,6 +30,28 @@
       .httpError-container .ant-row .info-box .anticon {
         color: #727082;
         font-weight: bold; }
+  .httpError-container .red {
+    color: red; }
+  .httpError-container .gray {
+    color: gray; }
+  .httpError-container .status-box {
+    font-size: 0.14rem;
+    margin-right: 0.1rem;
+    padding: 0.05rem 0.1rem;
+    background: #eff0f1;
+    height: 0.3rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0.04rem; }
+  .httpError-container .right-icon {
+    float: right;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #333; }
   .httpError-container .click-export {
     font-size: 0.16rem;
     margin-left: 0.1rem;

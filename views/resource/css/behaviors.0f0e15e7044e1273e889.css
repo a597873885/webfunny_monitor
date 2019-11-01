@@ -166,6 +166,8 @@
       height: 5.8rem;
       overflow: auto;
       padding: 0.1rem 0.06rem; }
+      .behaviors-container .footprint-container .behaviors-box .time-old-status {
+        color: #aaa; }
     .behaviors-container .footprint-container .chose-behavior-type {
       background: rgba(234, 103, 71, 0.8);
       border: 0.01rem solid rgba(234, 103, 71, 0.8);
