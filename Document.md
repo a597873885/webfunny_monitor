@@ -4,8 +4,9 @@
 
 [【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
-[【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
 [【常见问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+[【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+
 
 #### 环境要求：
 
@@ -67,3 +68,38 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
     4）数据库表都是程序自动创建的，但是（数据库）需要你手动创建
 
   #### API方法调用
+    
+    1. 配置用户信息
+    /**
+     * 使用者传入的自定义信息
+     * @param userId 用户唯一标识,不一定是userId
+     * @param projectVersion 你自己应用的版本号
+     */
+    window.webfunny && webfunny.wmInitUser("userId", "projectVersion")
+    
+    2. 截屏指令
+    /**
+     * 使用者传入的自定义截屏指令, 由探针代码截图
+     * @param description  对截屏的描述信息
+     */
+    window.webfunny && webfunny.wm_screen_shot(description)
+    
+    3. 自定义上传图片
+    /**
+     * 使用者可以将其他图片上传到用户的使用流程中（比如使用app的截图功能等）
+     * @param compressedDataURL 图片的base64编码字符串，
+     * @param description 图片描述
+     * @param imgType 图片类型（png/jpg/jpeg）
+     */
+    window.webfunny && webfunny.wm_upload_picture(compressedDataURL, description, imgType)
+    
+    4. 上传自定义日志
+    /**
+     * 使用者自行上传的行为日志
+     * @param userId 用户唯一标识
+     * @param behaviorType 行为类型
+     * @param behaviorResult 行为结果（成功、失败等）
+     * @param uploadType 日志类型（分类）
+     * @param description 行为描述
+     */
+    window.webfunny && webfunny.wm_upload_extend_log(userId, behaviorType, behaviorResult, uploadType, description)
