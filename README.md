@@ -8,7 +8,7 @@
 
 
 
-具体内容：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
+具体效果：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
 
 ### 系统特点
 1. 切实解决工作中遇到的问题。
