@@ -77,7 +77,7 @@ mysql版本号. 5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](http
      */
     window.webfunny && webfunny.wmInitUser("userId", "projectVersion")
     
-    2. 截屏指令
+    2. 截屏指令（前提：部署截屏版探针）
     /**
      * 使用者传入的自定义截屏指令, 由探针代码截图
      * @param description  对截屏的描述信息
