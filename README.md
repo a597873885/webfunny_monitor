@@ -20,7 +20,7 @@
 3. 敏感信息加密，功能不断升级。
 
 ### 目录结构
-         ./A-monitor-code   探针代码
+         ./A-monitor-code/webmonitor.js   探针代码
          ./schema  数据库建表结构
          ./views/ 前端展示代码
          ./config  数据库配置目录
@@ -36,7 +36,7 @@
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
-同时也感谢伙伴们给予的额外支持，在此表示由衷感谢。
+同时也感谢伙伴们给予的额外支持，在此表示由衷感谢，我会继续将服务完善。
 
 #### 某信                                            
 
@@ -44,6 +44,7 @@
 
 #### 某宝
 ![某宝](https://www.webfunny.cn/resource/zfb.jpg)
+<img src="https://www.webfunny.cn/resource/zfb.jpg" width="50"/>
 
 ### 讲解须知
 
