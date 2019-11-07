@@ -36,7 +36,7 @@
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
-![微信](https://www.webfunny.cn/resource/wx.jpg)
+微信 ![微信](https://www.webfunny.cn/resource/wx.jpg) 支 ![微信](https://www.webfunny.cn/resource/zfb.jpg)
 
 ### 讲解须知
 
