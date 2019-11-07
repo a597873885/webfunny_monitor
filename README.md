@@ -39,12 +39,10 @@
 同时也感谢伙伴们给予的额外支持，在此表示由衷感谢，我会继续将服务完善。
 
 #### 某信                                            
-
-![某信](https://www.webfunny.cn/resource/wx.jpg)      
-
+<img src="https://www.webfunny.cn/resource/wx.jpg" width="100"/>
+==============================================================
 #### 某宝
-![某宝](https://www.webfunny.cn/resource/zfb.jpg)
-<img src="https://www.webfunny.cn/resource/zfb.jpg" width="50"/>
+<img src="https://www.webfunny.cn/resource/zfb.jpg" width="100"/>
 
 ### 讲解须知
 
