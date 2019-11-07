@@ -36,9 +36,14 @@
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
-#### 微信                                            #### 支
+同时也感谢伙伴们给予的额外支持，在此表示由衷感谢。
 
-![微信](https://www.webfunny.cn/resource/wx.jpg)       ![微信](https://www.webfunny.cn/resource/zfb.jpg)
+#### 某信                                            
+
+![某信](https://www.webfunny.cn/resource/wx.jpg)      
+
+#### 某宝
+![某宝](https://www.webfunny.cn/resource/zfb.jpg)
 
 ### 讲解须知
 
