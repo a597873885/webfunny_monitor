@@ -7,10 +7,12 @@
    开发了这么久，也是颇有一番感慨。 一叹，前辈高人技艺之精湛；二叹，开源世界心胸之广阔；正是有这些无私奉献的大牛们，才让这技术的世界多姿多彩。
    
    
-### 部署教程
-[**📚 想要自己部署一套监控系统，请看这里。 📚**](./Document.md)
+   
+[【**📚 部署教程 📚**】](./Document.md)
+   
+   
 
-
+---------------------------------------------------------
 
 具体效果：[请移步线上监控系统](http://www.webfunny.cn/webfunny_multi/home.html)
 
@@ -36,17 +38,9 @@
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
-同时也感谢伙伴们给予的额外支持，在此表示由衷感谢，我会继续将服务完善。
+同时也感谢伙伴们给予的[额外支持](https://github.com/a597873885/webfunny_monitor/blob/master/Support.md)，在此表示由衷感谢，我会继续将服务完善。
 
-#### 某信                                            
-<img src="https://www.webfunny.cn/resource/wx.jpg" width="100"/>
-
----------------------------------
-
-#### 某宝
-<img src="https://www.webfunny.cn/resource/zfb.jpg" width="100"/>
 
 ### 讲解须知
 
 [细节讲解](https://zhuanlan.zhihu.com/webfunny)
-
