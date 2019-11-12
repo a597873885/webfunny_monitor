@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.httpError-container {
+.resourceError-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,97 +7,77 @@
   min-height: 100%;
   padding-top: 0.62rem;
   background: #fff; }
-  .httpError-container .ant-tabs-nav .ant-tabs-tab .anticon {
+  .resourceError-container .ant-tabs-nav .ant-tabs-tab .anticon {
     font-weight: bold; }
-  .httpError-container .ant-tabs-nav .ant-tabs-tab-active {
+  .resourceError-container .ant-tabs-nav .ant-tabs-tab-active {
     color: #5d5cb6; }
-  .httpError-container .ant-tabs-ink-bar {
+  .resourceError-container .ant-tabs-ink-bar {
     background-color: #5d5cb6; }
-  .httpError-container .ant-row {
-    padding: 0 0.2rem;
-    margin: 0.2rem 0; }
-    .httpError-container .ant-row .info-box {
-      width: 25%;
+  .resourceError-container .ant-row {
+    padding: 0 0.2rem; }
+    .resourceError-container .ant-row .info-box {
+      width: 50%;
       min-height: 1rem;
       text-align: center;
       float: left; }
-      .httpError-container .ant-row .info-box span:first-child {
+      .resourceError-container .ant-row .info-box span:first-child {
         display: block;
         font-size: 0.4rem; }
-      .httpError-container .ant-row .info-box label {
+      .resourceError-container .ant-row .info-box label {
         font-size: 0.12rem;
         display: block; }
-      .httpError-container .ant-row .info-box .anticon {
+      .resourceError-container .ant-row .info-box .anticon {
         color: #727082;
         font-weight: bold; }
-  .httpError-container .red {
-    color: red; }
-  .httpError-container .gray {
-    color: gray; }
-  .httpError-container .status-box {
-    font-size: 0.14rem;
-    margin-right: 0.1rem;
-    padding: 0.05rem 0.1rem;
-    background: #eff0f1;
-    height: 0.3rem;
-    line-height: 0.4rem;
-    margin-top: 0.1rem;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 0.04rem; }
-  .httpError-container .right-icon {
-    float: right;
-    font-size: 0.14rem;
-    font-weight: bold;
-    color: #333; }
-  .httpError-container .click-export {
+  .resourceError-container .click-export {
     font-size: 0.16rem;
     margin-left: 0.1rem;
     font-weight: bold;
     color: #aaa; }
-  .httpError-container .ant-pagination {
+  .resourceError-container .ant-pagination {
     text-align: right;
     padding-right: 0.3rem;
     padding-bottom: 0.3rem; }
-  .httpError-container .chart-box {
+  .resourceError-container .chart-box {
     width: 100%;
     height: 2rem; }
-  .httpError-container .main-info-container {
+  .resourceError-container .main-info-container {
     padding-bottom: 0.2rem; }
-  .httpError-container .error-list-container p {
+  .resourceError-container .error-list-container p {
     height: 0.5rem;
     line-height: 0.5rem;
-    border-bottom: 0.01rem solid #e8e8e8;
     margin: 0;
     padding: 0 0.2rem;
     font-size: 0.12rem;
     cursor: pointer;
     overflow-x: auto;
     overflow-y: hidden; }
-    .httpError-container .error-list-container p:last-child {
+    .resourceError-container .error-list-container p:last-child {
       border-bottom: 0; }
-  .httpError-container .error-list-container .error-scope {
+  .resourceError-container .error-list-container p:nth-child(2n) {
+    background-color: #fff; }
+  .resourceError-container .error-list-container p:nth-child(2n + 1) {
+    background-color: #f6f6f6; }
+  .resourceError-container .error-list-container .error-scope {
     color: #1890ff; }
-  .httpError-container .error-list-container span {
+  .resourceError-container .error-list-container span {
     float: left; }
-  .httpError-container .error-list-container span:nth-child(2) {
+  .resourceError-container .error-list-container span:nth-child(2) {
     margin-left: 0.2rem;
     font-size: 0.16rem;
     color: #1890ff; }
-  .httpError-container .error-list-container span:nth-child(3) {
+  .resourceError-container .error-list-container span:nth-child(3) {
     margin-left: 0.2rem;
     color: #666; }
-  .httpError-container .error-list-container span:nth-child(4) {
+  .resourceError-container .error-list-container span:nth-child(4) {
     margin-left: 0.2rem;
     color: #333; }
-  .httpError-container .error-list-container span:last-child {
+  .resourceError-container .error-list-container span:last-child {
     float: right;
     font-size: 0.12rem;
     margin-right: 0.15rem;
     font-weight: bold; }
-  .httpError-container .error-list-container .ignore-state {
+  .resourceError-container .error-list-container .ignore-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -116,7 +96,7 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .httpError-container .error-list-container .resolve-state {
+  .resourceError-container .error-list-container .resolve-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -136,44 +116,44 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .httpError-container .error-list-container .loading-box {
+  .resourceError-container .error-list-container .loading-box {
     display: block;
     width: 100%;
     text-align: center; }
-  .httpError-container .error-list-container .loading-icon {
+  .resourceError-container .error-list-container .loading-icon {
     font-size: 0.4rem;
     color: #b2b1f5;
     margin: 0.4rem auto; }
-  .httpError-container .error-list-container .right-icon {
+  .resourceError-container .error-list-container .right-icon {
     float: right;
     font-size: 0.14rem;
     font-weight: bold; }
-  .httpError-container .error-list-container .not-today {
+  .resourceError-container .error-list-container .not-today {
     color: #aaa; }
-  .httpError-container .error-list-container .status-icon {
+  .resourceError-container .error-list-container .status-icon {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #e67482; }
-  .httpError-container .error-list-container .status-icon-ignore {
+  .resourceError-container .error-list-container .status-icon-ignore {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #ddd; }
-  .httpError-container .error-list-container .status-icon-resolve {
+  .resourceError-container .error-list-container .status-icon-resolve {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #06bf06; }
-  .httpError-container .ant-card-body {
+  .resourceError-container .ant-card-body {
     padding: 0; }
-  .httpError-container .page-container {
+  .resourceError-container .page-container {
     padding-top: 0.05rem;
     padding-right: 0.1rem; }
-    .httpError-container .page-container .url-box {
+    .resourceError-container .page-container .url-box {
       margin-bottom: 0;
       height: 0.4rem;
       line-height: 0.4rem;
@@ -186,22 +166,22 @@
       width: 90%;
       margin-left: 5%;
       cursor: pointer; }
-      .httpError-container .page-container .url-box span {
+      .resourceError-container .page-container .url-box span {
         float: left; }
-      .httpError-container .page-container .url-box span:first-child {
+      .resourceError-container .page-container .url-box span:first-child {
         width: 60%;
         display: block;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-    .httpError-container .page-container .url-box-active {
+    .resourceError-container .page-container .url-box-active {
       background: url(src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%; }
-  .httpError-container .page-error-container {
+  .resourceError-container .page-error-container {
     padding-top: 0.05rem;
     padding-left: 0.1rem; }
-  .httpError-container .chart-loading {
+  .resourceError-container .chart-loading {
     width: 100%;
     height: 2rem;
     text-align: center;
@@ -222,7 +202,7 @@
   .header-container .message-box {
     position: fixed;
     width: 0.24rem;
-    height: 1rem;
+    height: 0.6rem;
     right: 0.2rem;
     bottom: 0.2rem;
     font-size: 0.36rem;
@@ -444,6 +424,42 @@
         font-size: 0.12rem;
         color: #979797;
         float: left; }
+
+.ant-select-dropdown.certain-category-search-dropdown.ant-select-dropdown--single.ant-select-dropdown-placement-bottomLeft > div {
+  padding-bottom: 0.55rem; }
+
+.create-new-project {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 0.06rem;
+  height: 0.42rem;
+  background: #ea6847;
+  cursor: pointer;
+  border-radius: 0.04rem !important; }
+  .create-new-project a {
+    color: #fff;
+    float: left;
+    width: 100%;
+    height: 100%;
+    line-height: 0.35rem;
+    text-align: center; }
+
+.support-container {
+  width: 4rem;
+  height: 4.2rem; }
+  .support-container ul, .support-container li {
+    list-style: none; }
+  .support-container li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0.05rem 0;
+    font-size: 0.12rem; }
+  .support-container img {
+    width: 1.5rem; }
 
 .chart-content {
   width: 100%;
