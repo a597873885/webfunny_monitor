@@ -169,6 +169,9 @@
       }
     };
   }
+  /**
+   * 日志对象的key都跟monitorKeys的缩短key值一一对应，以达到减少日志长度的目的
+   */
   // 设置日志对象类的通用属性
   function setCommonProperty() {
     this.happenTime = new Date().getTime(); // 日志发生时间
@@ -665,10 +668,14 @@
         return;
       }
       var responseText = "";
-      try {
-        responseText = tempResponseText ? JSON.stringify(utils.encryptObj(JSON.parse(tempResponseText))) : "";
-      } catch (e) {
-        responseText = "";
+      if (tempResponseText && responseText.length < 300) {
+        try {
+          responseText = tempResponseText ? JSON.stringify(utils.encryptObj(JSON.parse(tempResponseText))) : "";
+        } catch (e) {
+          responseText = "";
+        }
+      } else {
+        responseText = "data is too long";
       }
       var simpleUrl = timeRecordArray[i].simpleUrl;
       var currentTime = new Date().getTime();

@@ -4,7 +4,7 @@
   "description": "前端错误监控探针",
   "main": "webmonitor.js",
   "scripts": {
-    "build": "node config/webpack.config.js"
+    "build": "node shortKeys.js && webpack"
   },
   "repository": {
     "type": "git",

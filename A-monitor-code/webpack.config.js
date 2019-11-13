@@ -25,7 +25,7 @@ module.exports = [
   //   ]
   // },
   {
-    entry: [ROOT_PATH + "/resource/html2canvas0.js", ROOT_PATH + "/webmonitor.js", ROOT_PATH + "/resource/fetchCode.js"],
+    entry: [ROOT_PATH + "/resource/html2canvas0.js", ROOT_PATH + "/webmonitor_short.js", ROOT_PATH + "/resource/fetchCode.js"],
     //输出的文件名 合并以后的js会命名为monitor.fetch.min.js
     output: {
       path: ROOT_PATH + "/lib/",
@@ -59,7 +59,7 @@ module.exports = [
     ]
   },
   {
-    entry: [ROOT_PATH + "/webmonitor.js", ROOT_PATH + "/resource/fetchCode.js"],
+    entry: [ROOT_PATH + "/webmonitor_short.js", ROOT_PATH + "/resource/fetchCode.js"],
     //输出的文件名 合并以后的js会命名为monitor.fetch.min.js
     output: {
       path: ROOT_PATH + "/lib/",
