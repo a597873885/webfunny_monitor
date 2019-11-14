@@ -1,8 +1,9 @@
 var fs = require('fs');
 const utils = require('./util/utils')
+var argv = process.argv
 var commandLine = ""
-var start = -7
-var end = 10
+var start = 0
+var end = argv[2]
 for (var i = start; i < end; i ++) {
     var dataStr = utils.addDays(i).replace(/-/g, "")
     if (i == end - 1) {
