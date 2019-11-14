@@ -95,6 +95,12 @@ const CustomerPV = function (sequelize, DataTypes) {
       type: DataTypes.STRING(3),
       allowNull: true,
       field: 'newStatus'
+    },
+    // 创建日期，用于查询留存数据
+    customerKeyCreatedDate: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'customerKeyCreatedDate'
     }
   }, {
     // 如果为 true 则表的名称和 model 相同，即 user

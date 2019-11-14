@@ -5,6 +5,9 @@ const router = new Router({
 })
 global.monitorInfo = {}
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
+global.web_monitor_version = "1.0.0"
+global.BUILD_ENV = process.argv[3]
+
 // 定时计算每小时的数据量结果
 Common.calculateCountByHour()
 
@@ -12,17 +15,17 @@ Common.calculateCountByHour()
 Common.calculateCountByDay()
 
 // 定时检查检查mysql的连接报错数量
-Common.checkMysqlConnectErrors()
+// Common.checkMysqlConnectErrors()
 // Common.calculateCountByHourTest()
 
 // 定时删除过期日志
 Common.startDelete();
+
 /**
  * 日志相关处理
  */
 // 用户上传日志
 router.post('/uploadLog', Common.uploadLog);
-router.post('/upLg', Common.upLg);
 router.post('/upLog', Common.upLog);
 router.post('/upLog_long', Common.upLog_long);
 
@@ -37,7 +40,7 @@ router.get('/data', Common.liBangData);
  *
  */
 // 查询用户的行为列表
-router.post('/searchUserBehaviors', Common.searchBehaviorsRecord);
+router.post('/searchCustomerBehaviors', Common.searchBehaviorsRecord);
 // 查询用户的基本信息
 router.post('/searchCustomerInfo', Common.searchCustomerInfo);
 
@@ -61,12 +64,18 @@ router.delete('/user/:id', UserController.delete);
  */
 // 添加应用
 router.post('/project', ProjectController.create);
+// 删除应用
+router.get('/deleteProject', ProjectController.deleteProject);
 // 获取应用详细信息
 router.get('/projectDetail', ProjectController.detail);
 // 获取应用列表
 router.get('/project/list', ProjectController.getProjectList);
+// 获取所有应用列表
+router.get('/project/list/all', ProjectController.getAllProjectList);
 // 创建新的监控项目
 router.post('/createNewProject', ProjectController.createNewProject);
+// 创建新的监控项目
+router.get('/checkProjectCount', ProjectController.checkProjectCount);
 
 /**
  * 行为信息接口
@@ -240,6 +249,9 @@ router.post('/getHttpErrorListByDay', HttpErrorInfoController.getHttpErrorListBy
 router.post('/getHttpErrorListByUrl', HttpErrorInfoController.getHttpErrorListByUrl);
 
 
+// 获取服务器状态数据
+// router.get('/getServerStatus', Common.getServerStatus);
+
 /**
  * 用户访问录屏信息
  */
@@ -251,6 +263,10 @@ router.post('/getHttpErrorListByUrl', HttpErrorInfoController.getHttpErrorListBy
 
 // 生成验证码
 router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
+
+router.get('/searchUserBehaviorsForExample', Common.searchUserBehaviorsForExample)
+
+router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
 
 
 /**
@@ -267,9 +283,19 @@ router.get('/pushInfo', Common.pushInfo);
  */
 router.get('/monitorVersion', Common.monitorVersion);
 
+/**
+ * mysql状态
+ */
+router.get('/mysqlStatus', Common.checkMysqlStatus);
+
 // 测试接口
 router.get('/testBehaviors', BehaviorInfoController.testBehavior);
 
+
+/**
+ * 废弃接口
+ */
+router.post('/searchUserBehaviors', Common.abortApis);
 
 
 
