@@ -25,6 +25,20 @@ log.printInfo = function (msg, err) {
   }
   resLog.info(logText)
 }
+
+log.printError = function (msg, err) {
+  var errorText = "msg: " + msg + "\n";
+  if (err) {
+    //错误名称
+    errorText += "err name: " + err.name + "\n";
+    //错误信息
+    errorText += "err message: " + err.message + "\n";
+    //错误详情
+    errorText += "err stack: " + err.stack + "\n";
+  }
+  errorLog.error(errorText)
+}
+
 log.errorDetail = function(param, err) {
   if (param && err) {
     var logText = "param: " + param + "\n";
