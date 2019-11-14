@@ -54,6 +54,7 @@
     "util": "^0.11.0"
   },
   "devDependencies": {
+    "fs": "0.0.1-security",
     "nodemon": "^1.8.1",
     "single-line-log": "^1.1.2",
     "uglify-js": "^3.6.0",
