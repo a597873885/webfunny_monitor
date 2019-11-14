@@ -4,8 +4,9 @@
 
 [【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
-[【常见问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+[【常见部署问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+[【关于数据库表创建的问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
 
 
 #### 环境要求：
@@ -47,10 +48,8 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      服务所有的配置都配置好了，还差最后一步。
   
   7. 创建数据库表，执行命令$: npm run table_config
-  
-    【提示1】执行此命令后，会从当日起，生成往后20天的数据表，每隔20天，执行一下此命令即可。
     
-    【提示2】这个步骤需要耗费一些时间5-10分钟，请耐心等待。 
+    【小提示】这个步骤需要耗费一些时间5-10分钟，请耐心等待。 
             数据库表生成后，在根目录下执行命令$:  npm run start, 本地服务完成启动。
   
   8. 生成你的探针代码，进入首页，点击 "新建" 按钮进入创建页面，探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
@@ -108,3 +107,12 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      * @param description 行为描述
      */
     window.webfunny && webfunny.wm_upload_extend_log(userId, behaviorType, behaviorResult, uploadType, description)
+    
+ ### 数据库表的创建
+    
+    【提示】由于代码无法做到实时创建数据库表，所以本项目采用以下方式解决这个问题
+ 
+   【方法一】执行命令$: npm run table_config 后，会从当日起，生成往后20天的数据表，每隔20天，执行一下此命令即可。
+    
+   【方法二】如果你使用的是生产环境，可以使用[Jenkins](https://jingyan.baidu.com/article/36d6ed1f6928b51bcf4883ee.html)来做自动化重启服务，以此来生成每天的数据库表。
+ 
