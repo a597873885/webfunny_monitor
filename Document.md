@@ -111,7 +111,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
     
     【提示】由于代码无法做到实时创建数据库表，所以本项目采用以下方式解决这个问题
  
-    【方法一】执行命令$: npm run table_config 后，会从当日起，生成往后20天的数据表，每隔20天，执行一下此命令即可。
+   【方法一】执行命令$: npm run table_config 后，会从当日起，生成往后20天的数据表，每隔20天，执行一下此命令即可。
     
-    【方法二】如果你使用的是生产环境，可以使用[Jenkins](https://jingyan.baidu.com/article/36d6ed1f6928b51bcf4883ee.html)来做自动化重启服务，以此来生成每天的数据库表。
+   【方法二】如果你使用的是生产环境，可以使用[Jenkins](https://jingyan.baidu.com/article/36d6ed1f6928b51bcf4883ee.html)来做自动化重启服务，以此来生成每天的数据库表。
  
