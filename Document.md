@@ -6,6 +6,7 @@
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
 [【常见问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+[【关于数据库表创建的问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
 
 
 #### 环境要求：
