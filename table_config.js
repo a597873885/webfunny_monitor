@@ -1,5 +1,6 @@
 var fs = require('fs');
 const utils = require('./util/utils')
+const log = require("./config/log");
 var argv = process.argv
 var commandLine = ""
 var start = 0
@@ -16,6 +17,6 @@ fs.readFile('./package.json', function(err, data){
   let newString = data.toString().replace(/table_create_command/g, commandLine)
   fs.writeFile('./package.json', newString, (err) => {
     if (err) throw err;
-    console.log("命令配置完成, 请执行命令: npm run table_create");
+    log.printInfo("命令配置完成, 请执行命令: npm run table_create");
   });
 })

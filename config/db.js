@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize('数据库名', '登录名', '密码', {
   host: 'ip地址',
   dialect: 'mysql',
-  operatorsAliases: false,
   dialectOptions: {
     charset: "utf8mb4",
     supportBigNumbers: true,
