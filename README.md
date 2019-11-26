@@ -41,8 +41,6 @@
 ### 贡献者支持
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
-同时也感谢伙伴们给予的[额外支持](https://github.com/a597873885/webfunny_monitor/blob/master/Support.md)，在此表示由衷感谢，我会继续将服务完善。
-
 
 ### 讲解须知
 
