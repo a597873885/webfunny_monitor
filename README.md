@@ -39,5 +39,5 @@
 带来不便，请予以理解和见谅。
 
 ### 贡献者支持
-一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
+一颗star, 一份[关注](https://www.toutiao.com/c/user/105123468724/#mid=1651276811334670), 都将是我前进的动力  :)
 
