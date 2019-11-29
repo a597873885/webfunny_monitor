@@ -40,12 +40,12 @@
 
 更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
 
+### 贡献者支持
+一颗star, 一份[关注](https://www.toutiao.com/c/user/105123468724/#mid=1651276811334670), 都将是我前进的动力  :)
+
 ### 开源说明
 本项目是开源的，除了部分属于业务代码，不便开源，但是并不影响对项目本身（原理）的理解，也不会影响你的部署。
 带来不便，请予以理解和见谅。
 
-### 贡献者支持
-一颗star, 一份[关注](https://www.toutiao.com/c/user/105123468724/#mid=1651276811334670), 都将是我前进的动力  :)
-
-
+#### 效果预览
 ![首页简介](https://github.com/a597873885/image_list/blob/master/home.gif)
