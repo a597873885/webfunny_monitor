@@ -44,4 +44,3 @@
 
 #### 效果预览
 ![首页简介](https://github.com/a597873885/image_list/blob/master/home.gif)
-![jserror](https://github.com/a597873885/image_list/blob/master/jserror.gif)
