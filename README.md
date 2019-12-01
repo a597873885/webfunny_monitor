@@ -42,6 +42,8 @@
 本项目是开源的，除了部分属于业务代码，不便开源，但是并不影响对项目本身（原理）的理解，也不会影响你的部署。
 带来不便，请予以理解和见谅。
 
+未来将会发布controller、model的demo文件，以方便大家去拓展自己的业务代码。
+
 #### 效果预览
 ![首页简介](https://github.com/a597873885/image_list/blob/master/home.gif)
 ![错误简介](https://github.com/a597873885/image_list/blob/master/jserror.gif)
