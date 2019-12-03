@@ -1,5 +1,6 @@
 const Router = require('koa-router')
 const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,HttpErrorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,ProjectController,ResourceLoadInfoController,UserController,VideosInfoController,CustomerPVController,JavascriptErrorInfoController,Common} = require("../controllers/controllers.js")
+const monitorKeys = require('../config/monitorKeys')
 const log = require("../config/log");
 const callFile = require('child_process');
 const router = new Router({
@@ -12,18 +13,13 @@ global.BUILD_ENV = process.argv[3]
 
 // 定时计算每小时的数据量结果
 Common.calculateCountByHour()
-
 // 定时计算每天的数据量
 Common.calculateCountByDay()
-
 // 定时检查检查mysql的连接报错数量
 // Common.checkMysqlConnectErrors()
 // Common.calculateCountByHourTest()
-
 // 定时删除过期日志
 Common.startDelete();
-
-
 
 
 
@@ -64,8 +60,6 @@ setInterval(() => {
     
 }, 24 * 60 * 60 * 1000)
 /*** 数据库创建程序结束 */
-
-
 /**
  * 日志相关处理
  */
@@ -149,6 +143,8 @@ router.get('/customerPV/:id', CustomerPVController.detail);
 router.delete('/customerPV/:id', CustomerPVController.delete);
 // 更改PV
 router.put('/customerPV/:id', CustomerPVController.update);
+// 获取每天的流量数据 
+router.post('/getTodayFlowData', CustomerPVController.getTodayFlowData);
 // 获取日活量
 router.post('/getCustomerCountByTime', CustomerPVController.getCustomerCountByTime);
 // 获取24小时内每小时PV量
@@ -323,10 +319,21 @@ router.get('/gitStars', Common.gitStars);
  * 推送信息相关
  */
 router.get('/pushInfo', Common.pushInfo);
+
+/**
+ * 更新信息相关
+ */
+router.get('/updateInfo', Common.updateInfo);
+
 /**
  * 版本校验
  */
 router.get('/monitorVersion', Common.monitorVersion);
+
+/**
+ * 获取项目版本号
+ */
+router.get('/projectVersion', Common.projectVersion);
 
 /**
  * mysql状态
@@ -341,8 +348,6 @@ router.get('/testBehaviors', BehaviorInfoController.testBehavior);
  * 废弃接口
  */
 router.post('/searchUserBehaviors', Common.abortApis);
-
-
 
 
 module.exports = router

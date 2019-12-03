@@ -1,18 +1,23 @@
 const Koa = require('koa')
-const app = new Koa()
+// 路由
 const views = require('koa-views')
 const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
-const index = require('./routes/index')
+const jwt = require('koa-jwt')
+const logger = require('koa-logger')
+const cors = require('koa2-cors');
+const httpRoute = require('./routes/http')
+const wsRoute = require('./routes/ws')
+const secret = require('./config/secret')
 const err = require('./middlreware/error')
 const log = require("./config/log")
-
+let WebSocket = require("koa-websocket");
+const app = WebSocket(new Koa())
 // error handler
 onerror(app)
 
 app.use(err())
-
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", "*")
     ctx.set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
@@ -22,13 +27,6 @@ app.use(async (ctx, next) => {
     ctx.set("Content-Type", "application/json;charset=utf-8")
     await next()
 })
-// app.use(cors())
-// 过滤不用jwt验证
-// app.use(jwt({secret: secret.sign}).unless({
-//     path: [
-//         /^\/api\/v1\/*/,
-//     ]
-// }))
 
 // middlewares
 app.use(bodyparser({
@@ -39,13 +37,7 @@ app.use(bodyparser({
 }))
 app.use(json())
 // app.use(logger())
-app.use(require('koa-static')(__dirname + '/public'))
 
-app.use(views(__dirname + '/views', {
-    extension: 'pug'
-}))
-
-// logger
 app.use(async (ctx, next) => {
     const start = new Date()
     // await next()
@@ -66,8 +58,8 @@ app.use(async (ctx, next) => {
 })
 
 // routes
-app.use(index.routes())
-app.use(index.allowedMethods())
+app.use(httpRoute.routes(), httpRoute.allowedMethods())
+app.ws.use(wsRoute.routes(), wsRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {

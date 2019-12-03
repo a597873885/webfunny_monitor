@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize('monitor_db_test', 'jeffery', 'a321657216', {
   host: '47.101.196.168',
   dialect: 'mysql',
-  operatorsAliases: false,
   dialectOptions: {
     charset: "utf8mb4",
     supportBigNumbers: true,

@@ -1,5 +1,6 @@
 var fs = require('fs');
 require('./util/extension')
+const log = require("./config/log");
 const db = require('./config/db')
 const Sequelize = db.sequelize;
 var stat = fs.stat;
@@ -44,7 +45,7 @@ function createTable() {
     const VideosInfo = Sequelize.import('./schema_temp/videosInfo');
     VideosInfo.sync({force: false});
     setTimeout(function() {
-        console.log("即将启动下一轮创建程序，请不要关闭，等待程序自动停止...")
+        log.printInfo("即将启动下一轮创建程序，请不要关闭，等待程序自动停止...")
     }, 2000)
 }
 /*
@@ -95,7 +96,7 @@ function replaceDate(dateString) {
             let newString = data.toString().replace(/date-tail/g, dateString)
             fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
               if (err) throw err;
-              console.log(files[i] + "  关键信息替换！" + i);
+              log.printInfo(files[i] + "  重置数据库表名！" + i);
               replaceCount ++
             });
           }
@@ -114,14 +115,14 @@ function replaceDate(dateString) {
  * 启动程序
  */
 function startProgram() {
-    console.log("===============================================")
-    console.log("= 即将启动创建程序，时间比较长，请耐心等待... =")
-    console.log("===============================================")
+    log.printInfo("===============================================")
+    log.printInfo("= 即将启动创建程序，时间比较长，请耐心等待... =")
+    log.printInfo("===============================================")
     fs.mkdir( "./schema_temp", function(err){
         if ( err ) { 
-            console.log("文件夹 /schema_temp 已经存在")
+            log.printInfo("文件夹 /schema_temp 已经存在")
         } else {
-            console.log("新建文件夹 /schema_temp")
+            log.printInfo("新建文件夹 /schema_temp")
         }
         copy("./schema_base/", "./schema_temp/")
     });
@@ -134,7 +135,7 @@ function startProgram() {
         let newString = data.toString().replace(/node .* \d{8}/g, "table_create_command")
         fs.writeFile('./package.json', newString, (err) => {
             if (err) throw err;
-            console.log("命令配置已经恢复");
+            log.printInfo("命令配置已经恢复");
         });
     })
 }

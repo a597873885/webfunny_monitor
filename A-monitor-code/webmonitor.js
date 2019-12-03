@@ -186,7 +186,7 @@
     this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
   // 用户访问行为日志(PV)
-  function CustomerPV(uploadType, loadType, loadTime) {
+  function CustomerPV(uploadType, loadType, loadTime, newStatus) {
     setCommonProperty.apply(this);
     this.uploadType = uploadType;
     this.projectVersion = utils.b64EncodeUnicode(USER_INFO.projectVersion || ""); // 版本号， 用来区分监控应用的版本，更有利于排查问题
@@ -202,6 +202,7 @@
     this.city = "";  // 用户所在城市
     this.loadType = loadType;  // 用以区分首次加载
     this.loadTime = loadTime; // 加载时间
+    this.newStatus = newStatus; // 是否为新用户
   }
   CustomerPV.prototype = new MonitorBaseInfo();
   // 用户加载页面的信息日志
@@ -315,8 +316,8 @@
   function init() {
     try {
       // 启动监控
-      recordResourceError();
       recordPV();
+      recordResourceError();
       recordLoadPage();
       recordBehavior({record: 1});
       recordJavaScriptError();
@@ -427,7 +428,21 @@
         loadType = "reload";
       }
     }
-    var customerPv = new CustomerPV(CUSTOMER_PV, loadType, 0);
+    // 判断是否是新用户  开始
+    var customerKey = utils.getCustomerKey();
+    var newStatus = "new";
+    var customerKeyArr = customerKey ? customerKey.match(/\d{13}/g) : [];
+    if (customerKeyArr && customerKeyArr.length > 0) {
+      var tempTime = parseInt(customerKeyArr[0], 10);
+      var currentTime = new Date().getTime();
+      if (currentTime - tempTime > 1000) {
+        newStatus = "new";
+      } else {
+        newStatus = "old";
+      }
+    }
+    // 判断是否是新用户  结束
+    var customerPv = new CustomerPV(CUSTOMER_PV, loadType, 0, newStatus);
     customerPv.handleLogInfo(CUSTOMER_PV, customerPv);
   }
 
@@ -782,7 +797,7 @@
       var customerKey = this.getUuid();
       var monitorCustomerKey = utils.getCookie("monitorCustomerKey");
       if (!monitorCustomerKey) {
-        var extraTime = 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
+        var extraTime = 60 * 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
         var exp = new Date()
         exp.setTime(exp.getTime() + extraTime)
         if (MAIN_DOMAIN) {

@@ -9,8 +9,8 @@
     "prd": "pm2 start bin/www -i 1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test_start": "npm install && node config.js && npm run start",
-    "table_config": "node table_config.js && npm run table_create",
-    "table_create": "table_create_command       "
+    "table_config": "node table_config.js 2 && npm run table_create",
+    "table_create": "table_create_command                            "
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "koa-router": "^7.1.1",
     "koa-static": "^3.0.0",
     "koa-views": "^5.2.1",
+    "koa-websocket": "^6.0.0",
     "koa2-cors": "^2.0.6",
     "log4js": "^3.0.6",
     "lz-string": "^1.4.4",
@@ -54,6 +55,7 @@
     "util": "^0.11.0"
   },
   "devDependencies": {
+    "child_process": "^1.0.2",
     "fs": "0.0.1-security",
     "nodemon": "^1.8.1",
     "single-line-log": "^1.1.2",
