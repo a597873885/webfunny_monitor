@@ -6,5 +6,12 @@ const UPLOAD_TYPE = {
     NEW_CUSTOMER: "new_customer",
     INSTALL_COUNT: "install_count"
 }
+const PROJECT_INFO = {
+    PROJECT_VERSION: "",
+    MONITOR_VERSION: ""
+}
 
-module.exports = UPLOAD_TYPE
+module.exports = {
+    ...UPLOAD_TYPE,
+    ...PROJECT_INFO
+}
