@@ -60,7 +60,15 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
      本项目的数据库是做分表了，至于如何生成最新的数据表，请参考[【数据库表创建方法】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
   
-  
+  #### 更新代码
+       1. 在根目录下执行$: git pull origin master 命令，拉取最新代码
+       
+       2. 在根目录下执行$: node config.js 命令，重新配置
+       
+       3. 在根目录下执行$: npm run start 命令启动服务
+       
+       即可完成更新。
+       
   #### 常见问题
   
     0）正常情况下，更新后需要重新执行 node config 命令才能够正常运行，如果还是不行，请检查一下 config/db.js、config.js的内容是否被覆盖。
