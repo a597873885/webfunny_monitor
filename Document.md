@@ -60,8 +60,11 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
      本项目的数据库是做分表了，至于如何生成最新的数据表，请参考[【数据库表创建方法】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
   
-  #### 更新代码
-       1. 在根目录下执行$: git pull origin master 命令，拉取最新代码
+  #### 更新代码方式
+  
+       提示：如果不会使用git命令，就把代码删除，重新部署吧。
+  
+       1. 先保存本地变更，然后在根目录下执行$: git pull origin master 命令，拉取最新代码
        
        2. 在根目录下执行$: node config.js 命令，重新配置
        
