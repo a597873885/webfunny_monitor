@@ -31,7 +31,7 @@
          ./views/ 前端展示代码
          ./config  数据库配置目录
          ./logs  运行报错日志目录
-         ./config.js 自动化配置文件
+         ./config.js 接口配置文件
 
 更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
 
