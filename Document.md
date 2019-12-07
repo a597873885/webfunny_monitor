@@ -49,7 +49,7 @@
  
  4. 根目录下执行命令 $: npm run prd
   
- 5. 访问链接地址： [http://10.10.1.125:8010/home.html](http://localhost:8010/home.html) 。
+ 5. 访问链接地址（这只是个demo地址）： [http://10.10.1.125:8010/home.html](http://localhost:8010/home.html) 。
  
  6. 新建应用，在你的项目插入探针, 就可以看到生产环境的日志了。
 
