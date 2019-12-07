@@ -1,6 +1,5 @@
 const Router = require('koa-router')
 const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,HttpErrorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,ProjectController,ResourceLoadInfoController,UserController,VideosInfoController,CustomerPVController,JavascriptErrorInfoController,Common} = require("../controllers/controllers.js")
-const monitorKeys = require('../config/monitorKeys')
 const log = require("../config/log");
 const callFile = require('child_process');
 const router = new Router({
