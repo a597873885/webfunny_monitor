@@ -1,16 +1,19 @@
 
-#### 环境要求：
-
-node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
-
-mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
-
-
 ## 基础版
+        基础版的部署非常简单，只需要运行一行命令即可
+#### 部署步骤
+
+ 1. 下载或者克隆代码到本地
+  
+ 2. 执行测试命令(稍微耗时)$: npm run easy_start
+  
+ 3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 
+ 
+ 4. 新建应用，在你的项目插入探针就行了。
 
 ----------------------------
 
-## 监控后台部署教程
+## 部署教程进阶版
 
 友情声明：部署后的版本难免会出现一些问题，希望大家及时提出来，我会尽快修复。
 
@@ -20,12 +23,18 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
 [【关于数据库表创建的问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
 
+#### 环境要求：
+
+node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
+
+mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
+
 
 #### 部署步骤
 
   1. 下载或者克隆代码到本地
   
-  2. 执行测试命令(稍微耗时)$: npm run test_start
+  2. 执行测试命令(稍微耗时)$: npm run local_start
   
   3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到官网数据。
   
@@ -33,7 +42,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
     【小提示】：项目错误日志都在更目下 logs/ 目录里，方便小伙伴们排查错误
   
-  4. 在项目根目录下，进入 config/db.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并手动[创建一个数据库](https://www.cnblogs.com/neuedu/p/5876874.html)）
+  4. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并手动[创建一个数据库](https://www.cnblogs.com/neuedu/p/5876874.html)）
   
   5. 在项目根目录下，config.js文件中，进行如下配置：
   
