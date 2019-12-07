@@ -1,27 +1,27 @@
 {
-  "name": "webfunny-servers",
+  "name": "webfunny_monitor",
   "version": "1.0.0",
   "description": "这是webmonitor对应的后台",
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www.js",
     "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "pm2 start bin/www -i 1",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test_start": "npm install && node config.js && npm run start",
+    "prd": "npm install -g pm2 && pm2 start bin/www",
+    "easy_start": "npm install && node config_db_easy.js && node config.js && npm run start",
+    "local_start": "npm install && node config_db_local.js && node config.js && npm run start",
     "table_config": "node table_config.js 2 && npm run table_create",
-    "table_create": "table_create_command                            "
+    "table_create": "table_create_command                                     "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a597873885/webfunny-servers.git"
+    "url": "git+https://github.com/a597873885/webfunny_monitor"
   },
   "author": "jeffery",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a597873885/webfunny-servers/issues"
+    "url": "https://github.com/a597873885/webfunny_monitor/issues"
   },
-  "homepage": "https://github.com/a597873885/webfunny-servers#readme",
+  "homepage": "https://github.com/a597873885/webfunny_monitor#readme",
   "dependencies": {
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
@@ -52,7 +52,8 @@
     "pug": "^2.0.0-rc.1",
     "sequelize": "^5.19.6",
     "serve-static": "^1.14.1",
-    "util": "^0.11.0"
+    "util": "^0.11.0",
+    "webfunny-monitor": "^1.1.3"
   },
   "devDependencies": {
     "child_process": "^1.0.2",
