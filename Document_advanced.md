@@ -50,7 +50,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
   7. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
   
-  访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
+     访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
   
   8. 恭喜你，你已经成功部署了自己的监控系统，还有一点需要你注意：
   
@@ -64,7 +64,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
        
        2. 在根目录下执行$: node config.js 命令，重新配置
        
-       3. 在根目录下执行$: npm run start 命令启动服务
+       3. 在根目录下执行$: npm run local_start 命令启动服务
        
        即可完成更新。
        
