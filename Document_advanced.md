@@ -34,7 +34,12 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
           */
           const default_assets_url = "//localhost:8010"
           
-  3. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并手动[创建一个数据库](https://www.cnblogs.com/neuedu/p/5876874.html)）  
+  3. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置
+  
+  [Mysql安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html) 
+  
+  [Mysql忘记密码](https://www.linuxidc.com/Linux/2018-05/152586.htm)
+  
   
   4. 创建数据库表，执行命令$: npm run table_config 
     
