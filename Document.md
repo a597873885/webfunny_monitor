@@ -18,7 +18,7 @@
   
  3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 。
  
- 4. 新建应用，在你的项目插入探针就行了。
+ 4. 新建应用，在你的项目插入探针, 就可以在本地测试上报情况了。
  
  
 ----------------------------
@@ -41,13 +41,13 @@
      */
      const default_assets_url = "//localhost:8010"
   
- 2. 根目录下执行命令(稍微耗时)$: npm run easy_start   测试程序是否运行正常。
+ 3. 根目录下执行命令(稍微耗时) $: npm run easy_start   测试程序是否运行正常。
  
- 3. 根目录下执行命令(稍微耗时)$: npm run prd
+ 4. 根目录下执行命令 $: npm run prd
   
- 4. 访问链接地址： [http://10.10.1.125:8010/home.html](http://localhost:8010/home.html) 。
+ 5. 访问链接地址： [http://10.10.1.125:8010/home.html](http://localhost:8010/home.html) 。
  
- 5. 新建应用，在你的项目插入探针就行了。
+ 6. 新建应用，在你的项目插入探针, 就可以看到生产环境的日志了。
 
 
 
