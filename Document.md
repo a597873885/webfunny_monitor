@@ -1,7 +1,9 @@
 
 ## 基础版
 
-如果你是一位前端小白，你可以使用基础版的部署教程，非常简单。 如果你对服务器和数据库有所了解，可以去[**【部署教程进阶版】**](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md) 部署自己的监控系统
+如果你是一位前端小白，你可以使用基础版的部署教程，非常简单。 
+
+如果你对服务器和数据库有所了解，建议去[**【部署教程进阶版】**](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md) 部署自己的监控系统
 
 
     【提示：】这个部署版本使用的是我的数据库存储，会自己搭建数据库的，请点击下方进阶版部署教程
