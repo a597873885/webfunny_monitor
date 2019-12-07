@@ -36,15 +36,13 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
           
   3. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置
   
-  [Mysql安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html) 
-  
-  [Mysql忘记密码](https://www.linuxidc.com/Linux/2018-05/152586.htm)
+     [Mysql安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html) 
+     [Mysql忘记密码](https://www.linuxidc.com/Linux/2018-05/152586.htm)
   
   
   4. 创建数据库表，执行命令$: npm run table_config 
     
     【小提示】这个步骤需要耗费一些时间2-3分钟，请耐心等待。 
-            数据库表生成后，在根目录下执行命令$:  npm run start, 本地服务完成启动。
   
   5. 执行本地运行命令(稍微耗时)$: npm run local_start
   
