@@ -1,4 +1,11 @@
 
+#### 环境要求：
+
+node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
+
+mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
+
+
 ## 基础版
 
 ----------------------------
@@ -13,12 +20,6 @@
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
 [【关于数据库表创建的问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
 
-
-#### 环境要求：
-
-node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
-
-mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
 
 #### 部署步骤
 
