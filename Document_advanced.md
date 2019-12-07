@@ -44,7 +44,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
     
     【小提示】这个步骤需要耗费一些时间2-3分钟，请耐心等待。 
   
-  5. 执行本地运行命令(稍微耗时)$: npm run local_start
+  5. 执行本地运行命令(稍微耗时)$: npm run local_start  (如果你部署在云服务器上了，执行：npm run prd)
   
   6. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就部署好了。
   
