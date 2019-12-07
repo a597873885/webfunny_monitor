@@ -54,6 +54,7 @@
  6. 新建应用，在你的项目插入探针, 就可以看到生产环境的日志了。
 
 
+------------------------
 
 [**【部署教程进阶版】**](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md)
 
