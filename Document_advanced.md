@@ -1,7 +1,7 @@
 
 ## 进阶版
 
-友情声明：部署后的版本难免会出现一些问题，希望大家及时提出来，我会尽快修复。
+如果你觉得这种方式有些复杂，可以去看 [【部署教程基础版】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md)
 
 [【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
