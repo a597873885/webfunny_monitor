@@ -20,44 +20,36 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
 
   1. 下载或者克隆代码到本地
   
-  2. 执行测试命令(稍微耗时)$: npm run local_start
-  
-  3. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到官网数据。
-  
-  #### 那么如何展示自己的数据呢？
-  
-    【小提示】：项目错误日志都在更目下 logs/ 目录里，方便小伙伴们排查错误
-  
-  4. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并手动[创建一个数据库](https://www.cnblogs.com/neuedu/p/5876874.html)）
-  
-  5. 在项目根目录下，config.js文件中，进行如下配置：
+  2. 在项目根目录下，config.js文件中，进行如下配置：
   
           /**
            * 请求接口域名 webfunny-servers 的服务的部署域名
-           * 本地请使用 "//localhost:8011"
+           * 本地请使用 "//localhost:8011"，生产环境就把localhost换成服务器的ip
            */
           const default_api_server_url = "//localhost:8011"
 
          /**
           * 静态资源域名 webfunny-admin 的部署域名
-          * 本地请使用 "//localhost:8010"
+          * 本地请使用 "//localhost:8010"，生产环境就把localhost换成服务器的ip
           */
           const default_assets_url = "//localhost:8010"
-
-  6. 配置完成后，再一次执行命令$: node config.js  来完成自定义配置
+          
+  3. 在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置 （mysql必须先安装好,并手动[创建一个数据库](https://www.cnblogs.com/neuedu/p/5876874.html)）  
   
-     服务所有的配置都配置好了，还差最后一步。
-  
-  7. 创建数据库表，执行命令$: npm run table_config 
+  4. 创建数据库表，执行命令$: npm run table_config 
     
     【小提示】这个步骤需要耗费一些时间2-3分钟，请耐心等待。 
             数据库表生成后，在根目录下执行命令$:  npm run start, 本地服务完成启动。
   
-  8. 生成你的探针代码: 进入首页，点击 "新建" 按钮进入创建页面，探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
+  5. 执行本地运行命令(稍微耗时)$: npm run local_start
+  
+  6. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就部署好了。
+  
+  7. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
   
   访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
   
-  9. 恭喜你，你已经成功部署了自己的监控系统，还有一点需要你注意：
+  8. 恭喜你，你已经成功部署了自己的监控系统，还有一点需要你注意：
   
      本项目的数据库是做分表了，至于如何生成最新的数据表，请参考[【数据库表创建方法】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
   
