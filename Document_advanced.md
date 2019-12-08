@@ -127,7 +127,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
    
    PS: 以下方法都要求你们的数据库都安装配置好了为前提的。
  
-【方法一, 适合后端小白】
+【方法一, 适合前端小白】
 
     1. 在根目录下，package.json文件中，有一行命令如：
        "table_config": "node table_config.js 2 && npm run table_create"
