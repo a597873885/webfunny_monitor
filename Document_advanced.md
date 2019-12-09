@@ -54,7 +54,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
   8. 恭喜你，你已经成功部署了自己的监控系统，还有一点需要你注意：
   
-     本项目的数据库是做分表了，至于如何生成最新的数据表，请参考[【数据库表创建方法】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
+     本项目的数据库是做分表了，至于如何生成最新的数据表，请参考[【数据库表创建方法】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
   
   #### 更新代码方式
   
@@ -127,7 +127,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
    
    PS: 以下方法都要求你们的数据库都安装配置好了为前提的。
  
-【方法一, 适合后端小白】
+【方法一, 适合前端小白】
 
     1. 在根目录下，package.json文件中，有一行命令如：
        "table_config": "node table_config.js 2 && npm run table_create"
@@ -135,15 +135,19 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
     2. 命令中的数字 2 代表天数。如果你想直接生成未来一个月的数据库表，只需要把这行命令改为：
        "table_config": "node table_config.js 30 && npm run table_create"   就可以了。
        
-    3. 然后执行命令$: npm run table_config 后，会从当日起，生成往后30天的数据表，每隔30天，执行一下此命令即可。
+    3. 然后执行命令$: npm run table_config 后，会从当日起，生成往后30天的数据表，
+       创建可能需要比较长的时间，请耐心等待哦。每隔30或20或者10天，手动执行一下此命令即可。
      
 【方法二, 适合对shell脚本有了解的攻城狮】
 
-    小提示：因为我的开发环境是macOs、linux环境，所以这个方法我只能保证在这两种环境下运行正常，其他操作系统可以搜索一下如何配置，原理都一样。
+    小提示：因为我的开发环境是macOs、linux环境，所以这个方法我只能保证在这两种环境下运行正常，
+           其他操作系统可以搜索一下如何配置，原理都一样。
+           
+    1. 在根目录下有一个脚本文件 create_table.sh，正常情况下，它是没有执行权限的，
+       所以需要在根目录下执行命令：chmod 755 create_table.sh
     
-    1. 在根目录下有一个脚本文件 create_table.sh，正常情况下，它是没有执行权限的，所以需要在根目录下执行命令：chmod 755 create_table.sh
-    
-    2. 执行运行命令：npm run start ，10s之后，数据库的创建程序就会启动，创建日志就在logs/info 目录下。可以使用 'tail -f 文件名'命令实时查看
+    2. 执行运行命令：npm run start ，10s之后，数据库的创建程序就会启动，
+       创建日志就在logs/info 目录下。可以使用 'tail -f 文件名'命令实时查看
     
     3. 如果最终都无法成功创建表，就只能选择方法一或者方法三了
     
@@ -151,7 +155,8 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
 
     如果你对Jenkins有所了解，或是对其他自动化部署方式有了解，其中应该都包含’定时构建‘这种功能
     
-    可以使用[Jenkins](https://jingyan.baidu.com/article/36d6ed1f6928b51bcf4883ee.html)在每天凌晨12：00的时候来做自动化重启服务，以此来     生成每天的数据库表。
+    可以使用[Jenkins](https://jingyan.baidu.com/article/36d6ed1f6928b51bcf4883ee.html)
+    在每天凌晨12：00的时候来做自动化重启服务，以此来生成每天的数据库表。
     
     不会配置可以私聊我。
  
