@@ -51,7 +51,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
     1. 在项目更目录执行：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限 (linux、macOs环境下)
     2. 在根目录下执行：npm run prd ,即可启动生产环境服务 （执行 pm2 log 可查看启动日志）
   
-  5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就部署好了。
+  5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就可以访问了。
   
   6. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
   
