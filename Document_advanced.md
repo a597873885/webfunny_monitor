@@ -7,7 +7,6 @@
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
 [【常见部署问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
-[【关于数据库表创建的问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA)
 
 #### 环境要求：
 
@@ -45,7 +44,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      [Mysql忘记密码](https://www.linuxidc.com/Linux/2018-05/152586.htm)
   
   
-  4. 执行本地运行命令$: npm run local_start  
+  4. 执行本地部署命令$: npm run local_start  
        
     【部署生产环境提示：】 如果你部署在云服务器(生产环境)上了，你需要注意：
     1. 在项目更目录执行：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限 (linux、macOs环境下)
