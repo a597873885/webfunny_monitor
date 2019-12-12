@@ -38,7 +38,7 @@ setTimeout(() => {
             var nextTime = 1000 - offset;
             if (nextTime < 0) nextTime = 0;
             const timeStr = tempDate.Format("hh:mm:ss")
-            if (timeStr !== "15:23:59") {
+            if (timeStr !== "00:00:00") {
                 setTimeout(fixed, nextTime);
             } else {
                 log.printInfo("当前时间：" + timeStr)
