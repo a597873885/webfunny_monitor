@@ -48,7 +48,13 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
        
     【部署生产环境提示：】 如果你部署在云服务器(生产环境)上了，你需要注意：
     1. 在项目更目录执行：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限 (linux、macOs环境下)
-    2. 在根目录下执行：npm run prd ,即可启动生产环境服务 （执行 pm2 log 可查看启动日志）
+    2. 在根目录下执行：npm run prd ,即可启动生产环境服务 
+    
+    3. 常用命令如下：
+       执行命令： pm2 log 可查看启动日志
+       执行命令： pm2 list 可查已经启动的列表
+       执行命令： pm2 stop www 停止当前服务
+       执行命令： pm2 delete www 删除当前服务
   
   5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就可以访问了。
   
