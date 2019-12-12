@@ -15,26 +15,51 @@ Common.calculateCountByDay()
 Common.startDelete();
 
 /** * 定时执行程序，重启服务  开始 */
-if (global.BUILD_ENV != "local") {
-    const hours = new Date().getHours()
-    const minutes = new Date().getMinutes()
-    const seconds = new Date().getSeconds()
-    const leftTime = 24 * 60 * 60 * 1000 - (hours * 3600 + minutes * 60 + seconds) * 1000 + 1000
-    setTimeout(() => {
-        setInterval(() => {
-            try {
-                callFile.execFile('./restart.sh', [], null, function (err, stdout, stderr) {
-                    log.printError(JSON.stringify(err))
-                    log.printError(stdout)
-                    log.printError(stderr)
-                });
-            } catch(e) {
-                log.printError(e)
-                log.printError(errorStr)
+setTimeout(() => {
+    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
+    console.log("= ")
+    console.log("= 作者：一步一个脚印一个坑 ")
+    console.log("= ")
+    console.log("= 网站：www.webfunny.cn ")
+    console.log("= ")
+    console.log("= 系统还在不断完善中，欢迎Star，你的关注会让我们做得更好！")
+    console.log("= ")
+    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
+    
+    if (global.BUILD_ENV != "local") {
+        const startTime = new Date().getTime();
+        let count = 0;
+        function fixed() {
+            count++;
+            const tempDate = new Date()
+            const tempTime = new Date().getTime()
+            const wrongTime = startTime + count * 1000
+            var offset = tempTime - wrongTime;
+            var nextTime = 1000 - offset;
+            if (nextTime < 0) nextTime = 0;
+            const timeStr = tempDate.Format("hh:mm:ss")
+            if (timeStr !== "15:23:59") {
+                setTimeout(fixed, nextTime);
+            } else {
+                log.printInfo("当前时间：" + timeStr)
+                console.log("当前时间：" + timeStr)
+                log.printInfo("即将重启服务....")
+                console.log("即将重启服务....")
+                try {
+                    callFile.execFile('./restart.sh', [], null, function (err, stdout, stderr) {
+                        log.printError(JSON.stringify(err))
+                        log.printError(stdout)
+                        log.printError(stderr)
+                    });
+                } catch(e) {
+                    log.printError(e)
+                    log.printError(errorStr)
+                }
             }
-        }, 24 * 60 * 60 * 1000)
-    }, leftTime)
-}
+        }
+        setTimeout(fixed, 1000);
+    }
+}, 12000)
 /** * 定时执行程序，重启服务  结束 */
 
 /**
