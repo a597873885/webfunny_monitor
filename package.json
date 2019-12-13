@@ -4,13 +4,18 @@
   "description": "这是webmonitor对应的后台",
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www.js",
-    "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "npm install -g pm2 && pm2 start bin/www",
+    "install_packages": "npm install && npm install -g pm2",
+    "start": "node ./bin/www.js --BUILD_ENV local",
+    "prd": "node config_db_local.js && node config.js && pm2 start bin/www.js",
+    "prd_restart": "pm2 restart www",
     "easy_start": "npm install && node config_db_easy.js && node config.js && npm run start",
+<<<<<<< HEAD
     "local_start": "npm install && node config_db_local.js && node config.js && npm run start",
     "table_config": "node table_config.js 2 && npm run table_create",
     "table_create": "table_create_command                                      "
+=======
+    "local_start": "npm install && node config_db_local.js && node config.js && npm run start"
+>>>>>>> 0872ae460cab59795fe153a57de4ea375d794be1
   },
   "repository": {
     "type": "git",
