@@ -53,8 +53,8 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
     3. 常用命令如下：
        执行命令： pm2 log 可查看启动日志
        执行命令： pm2 list 可查已经启动的列表
-       执行命令： pm2 stop www 停止当前服务
-       执行命令： pm2 delete www 删除当前服务
+       执行命令： pm2 stop webfunny 停止当前服务
+       执行命令： pm2 delete webfunny 删除当前服务
   
   5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就可以访问了。
   
