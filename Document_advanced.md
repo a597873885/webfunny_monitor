@@ -11,6 +11,8 @@
 
 #### 环境要求：
 
+操作系统：linux(Ubantu 16.0 64位)、MacOs操作系统。 windows系统目前还没有尝试。
+
 node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
 
 mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html))
