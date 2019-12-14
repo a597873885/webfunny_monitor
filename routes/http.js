@@ -10,78 +10,44 @@ global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
 
-// 定时计算每小时的数据量结果
 Common.calculateCountByHour()
-// 定时计算每天的数据量
 Common.calculateCountByDay()
-// 定时检查检查mysql的连接报错数量
-// Common.checkMysqlConnectErrors()
-// Common.calculateCountByHourTest()
-// 定时删除过期日志
 Common.startDelete();
 
+/** * 定时执行程序，重启服务  开始 */
+if (global.BUILD_ENV != "local") {
+    const leftTime = 24 * 60 * 60 * 1000 - new Date().getTime() + 1000
+    setTimeout(() => {
+        setInterval(() => {
+            try {
+                callFile.execFile('./restart.sh', [], null, function (err, stdout, stderr) {
+                    log.printError(JSON.stringify(err))
+                    log.printError(stdout)
+                    log.printError(stderr)
+                });
+            } catch(e) {
+                log.printError(e)
+                log.printError(errorStr)
+            }
+        }, 24 * 60 * 60 * 1000)
+    }, leftTime)
+}
+/** * 定时执行程序，重启服务  结束 */
 
-
-/*** 数据库创建程序开始 */
-// 启动程序，10分钟之后执行一次数据库表的创建
-setTimeout(() => {
-    console.log("10s钟之后，将启动数据库表创建程序, 创建日志存放在 logs/info/info-" + new Date().Format("yyyy-MM-dd") + ".log" + "文件中")
-    console.log("执行命令：tail -f logs/info/info-" + new Date().Format("yyyy-MM-dd") + ".log" +  " , 查看创建日志。")
-}, 3000)
-setTimeout(() => {
-    log.printInfo("即将启动创建程序")
-    const errorStr = "自动化脚本异常, 如果数据库表已经创建完成，可以忽略这个异常。 如果数据库表没有创建请手动执行 npm run table_config 创建数据库表"
-    try {
-        callFile.execFile('./create_table.sh', [], null, function (err, stdout, stderr) {
-            log.printInfo(JSON.stringify(err))
-            log.printInfo(stdout)
-            log.printInfo(stderr)
-            log.printInfo(errorStr)
-        });
-    } catch(e) {
-        log.printInfo(e)
-        log.printInfo(errorStr)
-    }
-}, 10 * 1000)
-// 每隔24小时，定时创建一次第二天的数据库表
-setInterval(() => {
-    try {
-        callFile.execFile('./create_table.sh', [], null, function (err, stdout, stderr) {
-            log.printInfo(JSON.stringify(err))
-            log.printInfo(stdout)
-            log.printInfo(stderr)
-            log.printInfo(errorStr)
-        });
-    } catch(e) {
-        log.printInfo(e)
-        log.printInfo(errorStr)
-    }
-    
-}, 24 * 60 * 60 * 1000)
-/*** 数据库创建程序结束 */
 /**
  * 日志相关处理
  */
 // 用户上传日志
-router.post('/uploadLog', Common.uploadLog);
 router.post('/upLog', Common.upLog);
-router.post('/upLog_long', Common.upLog_long);
 
 // 上传拓展日志
 router.post('/uploadExtendLog', Common.uploadExtendLog);
 router.post('/extendBehavior', ExtendBehaviorInfoController.create);
 
-// 立邦的开关逻辑
-router.get('/data', Common.liBangData);
-
-/**
- *
- */
 // 查询用户的行为列表
 router.post('/searchCustomerBehaviors', Common.searchBehaviorsRecord);
 // 查询用户的基本信息
 router.post('/searchCustomerInfo', Common.searchCustomerInfo);
-
 
 /**
  * 用户接口
@@ -172,10 +138,6 @@ router.post('/getDeviceCountOrderByCount', CustomerPVController.getDeviceCountOr
 router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
 // 获取七天留存数量
 router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
-
-
-
-
 
 /**
  * 用户加载页面信息接口
@@ -272,7 +234,6 @@ router.post('/getResourceLoadInfoListByDay', ResourceLoadInfoController.getResou
 // 获取最近24小时内，静态资源加载错误发生数量
 router.get('/getResourceErrorCountByHour', ResourceLoadInfoController.getResourceErrorCountByHour);
 
-
 // 获取每分钟的http量
 router.post('/getHttpCountByMinute', HttpLogInfoController.getHttpCountByMinute);
 
@@ -288,24 +249,9 @@ router.post('/getHttpErrorListByDay', HttpErrorInfoController.getHttpErrorListBy
 // 根据url获取的出错的接口请求列表
 router.post('/getHttpErrorListByUrl', HttpErrorInfoController.getHttpErrorListByUrl);
 
-
-// 获取服务器状态数据
-// router.get('/getServerStatus', Common.getServerStatus);
-
-/**
- * 用户访问录屏信息
- */
-// 创建录屏信息
-// router.post('/videosInfo', VideosInfoController.create);
-// 
-// router.post('/getVideosEvent', VideosInfoController.getVideosEvent)
-
-
 // 生成验证码
 router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
-
 router.get('/searchUserBehaviorsForExample', Common.searchUserBehaviorsForExample)
-
 router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
 
 
