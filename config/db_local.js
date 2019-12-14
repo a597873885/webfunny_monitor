@@ -2,8 +2,8 @@
  * 你可以在这个文件里配置你自己的数据库
  */
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('monitor_db_test', 'jeffery', 'a321657216', {
-  host: '47.101.196.168',
+const sequelize = new Sequelize('数据库名', '用户名', '密码', {
+  host: 'ip',
   dialect: 'mysql',
   dialectOptions: {
     charset: "utf8mb4",
