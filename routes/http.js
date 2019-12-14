@@ -16,7 +16,10 @@ Common.startDelete();
 
 /** * 定时执行程序，重启服务  开始 */
 if (global.BUILD_ENV != "local") {
-    const leftTime = 24 * 60 * 60 * 1000 - new Date().getTime() + 1000
+    const hours = new Date().getHours()
+    const minutes = new Date().getMinutes()
+    const seconds = new Date().getSeconds()
+    const leftTime = 24 * 60 * 60 * 1000 - (hours * 3600 + minutes * 60 + seconds) * 1000 + 1000
     setTimeout(() => {
         setInterval(() => {
             try {
