@@ -5,6 +5,8 @@
 
 如果你对服务器和数据库有所了解，建议去看[**【部署教程进阶版】**](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md) 部署自己的监控系统
 
+如果你想部署更专业、独立的版本，可以去支持我，购买[【众筹版】](http://www.webfunny.cn/webfunny_multi/purchase.html)
+
 
     1. 基础版连接的是我提供的数据库，可能无法保证十分稳定。
     
