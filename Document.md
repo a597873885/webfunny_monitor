@@ -32,7 +32,7 @@
 
 #### 部署步骤（生产环境） 
 
-[【服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
+[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
 
     要求：node版本号： 10.6.0
 
