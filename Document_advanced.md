@@ -10,6 +10,8 @@
 
 #### 环境要求：
 
+[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
+
 操作系统： Linux(Ubantu 16.0 64位)、MacOs操作系统。 windows系统目前还没有尝试。
 
 node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
