@@ -107,6 +107,27 @@ module.exports = {
     let hash = crypto.createHash('md5');
     return hash.update(encryptString).digest('base64');
   },
+  sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
+    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    if (!reg.test(sourceEmail) || !reg.test(toEmail)) return
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: {
+        user: sourceEmail, // generated ethereal user
+        pass: password // generated ethereal password
+      }
+    });
+    // send mail with defined transport object
+    transporter.sendMail({
+      from: '"邮箱报警服务" <' + sourceEmail + '>', // sender address
+      to: toEmail, // list of receivers
+      subject: subject, // Subject line
+      text: html, // plain text body
+      html: html // html body
+    });
+  },
   sendEmail: (email, subject, html) => {
     let transporter = nodemailer.createTransport({
       host: "smtp.163.com",
