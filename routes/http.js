@@ -10,56 +10,54 @@ global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
 
-Common.calculateCountByHour()
-Common.calculateCountByDay()
-Common.startDelete();
-
+if (global.BUILD_ENV != "local"){
+    setTimeout(() => {
+        Common.calculateCountByHour(1)
+    }, 20000)
+}
 /** * 定时执行程序，重启服务  开始 */
 setTimeout(() => {
-    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
-    console.log("= ")
-    console.log("= 作者：一步一个脚印一个坑 ")
-    console.log("= ")
-    console.log("= 网站：www.webfunny.cn ")
-    console.log("= ")
-    console.log("= 系统还在不断完善中，欢迎Star，你的关注会让我们做得更好！")
-    console.log("= ")
-    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
-    
-    if (global.BUILD_ENV != "local") {
-        const startTime = new Date().getTime();
-        let count = 0;
-        function fixed() {
-            count++;
-            const tempDate = new Date()
-            const tempTime = new Date().getTime()
-            const wrongTime = startTime + count * 1000
-            var offset = tempTime - wrongTime;
-            var nextTime = 1000 - offset;
-            if (nextTime < 0) nextTime = 0;
-            const timeStr = tempDate.Format("hh:mm:ss")
-            if (timeStr !== "00:00:00") {
-                setTimeout(fixed, nextTime);
-            } else {
-                log.printInfo("当前时间：" + timeStr)
-                console.log("当前时间：" + timeStr)
+    Common.consoleInfo()
+    const startTime = new Date().getTime();
+    let count = 0;
+    const fixed = () => {
+        count++;
+        const tempDate = new Date()
+        const tempTime = new Date().getTime()
+        const wrongTime = startTime + count * 1000
+        var offset = tempTime - wrongTime;
+        var nextTime = 1000 - offset;
+        if (nextTime < 0) nextTime = 0;
+        const hourTimeStr = tempDate.Format("hh:mm:ss")
+        const minuteTimeStr = tempDate.Format("mm:ss")
+        try {
+            if (hourTimeStr == "00:00:00") {
+                // 每天凌晨零点执行重启服务
+                log.printInfo("当前时间：" + hourTimeStr)
+                console.log("当前时间：" + hourTimeStr)
                 log.printInfo("即将重启服务....")
                 console.log("即将重启服务....")
-                try {
-                    callFile.execFile('./restart.sh', [], null, function (err, stdout, stderr) {
-                        log.printError(JSON.stringify(err))
-                        log.printError(stdout)
-                        log.printError(stderr)
-                    });
-                } catch(e) {
-                    log.printError(e)
-                    log.printError(errorStr)
-                }
+                Common.restartServer()
+            } else if (hourTimeStr == "00:10:00") {
+                // 凌晨0点10分重新计算昨天的分析数据
+                Common.calculateCountByDay(-1)
+            } else if (hourTimeStr == "02:00:00") {
+                // 凌晨2点开始删除过期的数据库表
+                Common.startDelete()
+            } else if (minuteTimeStr == "01:00") {
+                // 每小时的第一分钟，开始执行小时分析结果
+                Common.calculateCountByHour(1)
+            } else if (minuteTimeStr == "05:00") {
+                // 每小时的第5分钟，计算一次今天的分析结果
+                Common.calculateCountByDay(0)
             }
+        } catch(e) {
+            log.printError("定时器执行报错：", e)
         }
-        setTimeout(fixed, 1000);
+        setTimeout(fixed, nextTime);
     }
-}, 12000)
+    setTimeout(fixed, 1000);
+}, 8000)
 /** * 定时执行程序，重启服务  结束 */
 
 /**
@@ -76,7 +74,10 @@ router.post('/extendBehavior', ExtendBehaviorInfoController.create);
 router.post('/searchCustomerBehaviors', Common.searchBehaviorsRecord);
 // 查询用户的基本信息
 router.post('/searchCustomerInfo', Common.searchCustomerInfo);
-
+// 查询报错情况
+router.post('/getErrorInfo', Common.getErrorInfo);
+// 获取警报信息
+router.post('/getWarningMsg', Common.getWarningMsg);
 /**
  * 用户接口
  */

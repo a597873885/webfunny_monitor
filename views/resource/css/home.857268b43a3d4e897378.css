@@ -352,9 +352,44 @@ body {
     .home-container .panel-box .panel:hover {
       box-shadow: 0 0 0.05rem #504f4f;
       color: #EA7657; }
+    .home-container .panel-box .future-panel {
+      color: #999; }
     .home-container .panel-box .active {
       color: #EA7657;
       font-weight: 500; }
+    .home-container .panel-box .login-info-box:hover .left-msg {
+      display: block;
+      color: #ea6847; }
+    .home-container .panel-box .login-info-box {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 0.8rem;
+      background: #fff;
+      border-top: 0.01rem solid #ebebeb;
+      box-sizing: border-box; }
+      .home-container .panel-box .login-info-box .left-msg {
+        display: none; }
+      .home-container .panel-box .login-info-box .msg-box {
+        display: block;
+        width: 0.8rem;
+        margin: 0 0.05rem; }
+        .home-container .panel-box .login-info-box .msg-box .email {
+          display: block;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      .home-container .panel-box .login-info-box img {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 0.5rem; }
   .home-container .data-refresh {
     position: absolute;
     z-index: 9;
@@ -378,6 +413,21 @@ body {
       height: 1.6rem; }
       .home-container .home-content .ant-card.users-info-box .ant-card-head {
         height: 0.3rem; }
+    .home-container .home-content .ant-card.health-info-box {
+      height: 2.6rem; }
+      .home-container .home-content .ant-card.health-info-box .ant-card-head {
+        height: 0.3rem; }
+      .home-container .home-content .ant-card.health-info-box .health-chart-box {
+        float: left;
+        width: 25%;
+        height: 2rem;
+        margin-top: 0.1rem;
+        border-right: 0.01rem solid #eaeaea; }
+      .home-container .home-content .ant-card.health-info-box .data-chart-box {
+        width: 75%;
+        float: left;
+        height: 2rem;
+        margin-top: -0.1rem; }
     .home-container .home-content .pv-info-line {
       padding: 0.01rem 0;
       margin: 0;
@@ -650,16 +700,15 @@ body {
       float: left;
       margin: 0.05rem 0; }
   .header-container .home-icon {
-    width: 2rem;
+    width: 1.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
     font-size: 0.22rem;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: -0.02rem;
     cursor: pointer;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: end;
-    align-items: flex-end; }
+    float: left; }
     .header-container .home-icon b {
       font-size: 0.28rem;
       color: #ea6947;
@@ -669,10 +718,6 @@ body {
       float: left;
       font-size: 0.14rem; }
   .header-container .sub-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
     padding-left: 0.1rem;
     padding-right: 0.3rem;
     color: #493e54;
@@ -684,7 +729,9 @@ body {
     min-height: 0.62rem;
     box-shadow: 0 0.02rem 0 rgba(37, 11, 54, 0.04); }
     .header-container .sub-header .project-select-box {
-      width: 70%; }
+      height: 0.6rem;
+      line-height: 0.6rem;
+      float: left; }
       .header-container .sub-header .project-select-box .ant-dropdown-link {
         color: #2f2936; }
     .header-container .sub-header .search-icon {
@@ -704,11 +751,11 @@ body {
       color: #a9c282;
       margin-left: -0.02rem; }
     .header-container .sub-header .github-container {
-      width: 2rem;
-      height: 0.32rem;
+      width: 1.3rem;
+      height: 0.6rem;
+      font-size: 0.16rem;
       font-weight: bold;
       text-align: right;
-      margin-left: 0.1rem;
       color: #000;
       cursor: pointer; }
       .header-container .sub-header .github-container .ant-radio-button-wrapper {
@@ -774,28 +821,46 @@ body {
       font-size: 0.32rem;
       cursor: pointer;
       z-index: 1; }
-    .header-container .sub-header .menu-right {
-      width: 2rem;
-      text-align: center;
-      cursor: pointer; }
-      .header-container .sub-header .menu-right .ant-dropdown-link {
-        color: #2f2936; }
-      .header-container .sub-header .menu-right .new-flag {
-        position: absolute;
-        font-size: 0.2rem;
-        margin-top: -0.2rem;
-        margin-left: -0.2rem; }
-      .header-container .sub-header .menu-right .not {
-        position: absolute;
-        background: #aaa;
-        color: #fff;
-        font-size: 0.12rem;
-        padding: 0.02rem 0.04rem;
-        border-radius: 0.04rem;
-        margin-top: -0.14rem;
-        margin-left: -0.2rem;
-        -ms-transform: scale(0.7);
-        transform: scale(0.7); }
+    .header-container .sub-header .menu-choose {
+      font-weight: bold;
+      color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .ant-dropdown-link {
+        color: #ea6947 !important; }
+    .header-container .sub-header .menu-container {
+      float: right;
+      height: 0.6rem;
+      line-height: 0.6rem; }
+      .header-container .sub-header .menu-container .care-me {
+        position: fixed;
+        font-size: 0.1rem;
+        line-height: 0.2rem;
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); }
+      .header-container .sub-header .menu-container .care1 {
+        top: 0.15rem;
+        right: 0.07rem; }
+      .header-container .sub-header .menu-container .care2 {
+        top: 0.25rem;
+        right: 0.07rem; }
+      .header-container .sub-header .menu-container .menu-short {
+        width: 0.6rem !important; }
+      .header-container .sub-header .menu-container .menu-right {
+        float: left;
+        width: 1rem;
+        height: 0.2rem;
+        line-height: 0.2rem;
+        margin-top: 0.22rem;
+        text-align: center;
+        cursor: pointer;
+        border-right: 0.01rem solid #eaeaea;
+        font-size: 0.16rem; }
+        .header-container .sub-header .menu-container .menu-right .ant-dropdown-link {
+          color: #2f2936; }
+        .header-container .sub-header .menu-container .menu-right .new-flag {
+          position: absolute;
+          font-size: 0.2rem;
+          margin-top: -0.2rem;
+          margin-left: -0.2rem; }
   .header-container .github-box {
     font-size: 0.32rem;
     color: #727082; }

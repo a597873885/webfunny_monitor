@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.javascriptError-container {
+.httpError-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,62 +7,74 @@
   min-height: 100%;
   padding-top: 0.62rem;
   background: #fff; }
-  .javascriptError-container .ant-card-bordered {
-    border: 0; }
-  .javascriptError-container .ant-tabs-nav .ant-tabs-tab .anticon {
+  .httpError-container .ant-tabs-nav .ant-tabs-tab .anticon {
     font-weight: bold; }
-  .javascriptError-container .ant-tabs-nav .ant-tabs-tab-active {
+  .httpError-container .ant-tabs-nav .ant-tabs-tab-active {
     color: #5d5cb6; }
-  .javascriptError-container .ant-tabs-ink-bar {
+  .httpError-container .ant-tabs-ink-bar {
     background-color: #5d5cb6; }
-  .javascriptError-container .ant-row {
+  .httpError-container .ant-row {
     padding: 0 0.2rem; }
-    .javascriptError-container .ant-row .info-box {
-      width: 50%;
+    .httpError-container .ant-row .info-box {
+      width: 25%;
       min-height: 1rem;
       text-align: center;
       float: left; }
-      .javascriptError-container .ant-row .info-box span:first-child {
+      .httpError-container .ant-row .info-box span:first-child {
         display: block;
         font-size: 0.4rem; }
-      .javascriptError-container .ant-row .info-box label {
+      .httpError-container .ant-row .info-box label {
         font-size: 0.12rem;
         display: block; }
-      .javascriptError-container .ant-row .info-box .anticon {
+      .httpError-container .ant-row .info-box .anticon {
         color: #727082;
         font-weight: bold; }
-  .javascriptError-container .current-date {
+  .httpError-container .ant-card-bordered {
+    border: 0; }
+  .httpError-container .red {
+    color: red; }
+  .httpError-container .gray {
+    color: gray; }
+  .httpError-container .current-date {
     position: absolute;
-    right: 0.7rem;
+    right: 0.9rem;
     margin-top: 0.15rem;
     font-weight: bold;
     color: #5d5cb6;
     z-index: 1; }
-  .javascriptError-container .time-icon {
-    position: absolute;
-    right: 0.7rem;
-    margin-top: 0.05rem;
-    font-size: 0.3rem;
-    color: #ea6847;
-    z-index: 2;
-    cursor: pointer; }
-  .javascriptError-container .click-export {
+  .httpError-container .status-box {
+    font-size: 0.14rem;
+    margin-right: 0.1rem;
+    padding: 0.05rem 0.1rem;
+    background: #e1e1e1;
+    height: 0.3rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0.04rem; }
+  .httpError-container .right-icon {
+    float: right;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #333; }
+  .httpError-container .click-export {
     font-size: 0.16rem;
     margin-left: 0.1rem;
     font-weight: bold;
-    color: #777; }
-  .javascriptError-container .more-info {
-    font-size: 0.14rem; }
-  .javascriptError-container .ant-pagination {
+    color: #aaa; }
+  .httpError-container .ant-pagination {
     text-align: right;
     padding-right: 0.3rem;
     padding-bottom: 0.3rem; }
-  .javascriptError-container .chart-box {
+  .httpError-container .chart-box {
     width: 100%;
     height: 2rem; }
-  .javascriptError-container .main-info-container {
-    padding-bottom: 0.1rem; }
-  .javascriptError-container .error-list-container p {
+  .httpError-container .main-info-container {
+    padding-bottom: 0.05rem; }
+  .httpError-container .error-list-container p {
     height: 0.5rem;
     line-height: 0.5rem;
     margin: 0;
@@ -71,28 +83,32 @@
     cursor: pointer;
     overflow-x: auto;
     overflow-y: hidden; }
-    .javascriptError-container .error-list-container p:last-child {
+    .httpError-container .error-list-container p:last-child {
       border-bottom: 0; }
-  .javascriptError-container .error-list-container p:nth-child(2n) {
+  .httpError-container .error-list-container p:nth-child(2n) {
     background-color: #fff; }
-  .javascriptError-container .error-list-container p:nth-child(2n + 1) {
+  .httpError-container .error-list-container p:nth-child(2n + 1) {
     background-color: #f6f6f6; }
-  .javascriptError-container .error-list-container span:nth-child(2) {
+  .httpError-container .error-list-container .error-scope {
+    color: #1890ff; }
+  .httpError-container .error-list-container span {
+    float: left; }
+  .httpError-container .error-list-container span:nth-child(2) {
     margin-left: 0.2rem;
     font-size: 0.16rem;
     color: #1890ff; }
-  .javascriptError-container .error-list-container span:nth-child(3) {
+  .httpError-container .error-list-container span:nth-child(3) {
     margin-left: 0.2rem;
     color: #666; }
-  .javascriptError-container .error-list-container span:nth-child(4) {
+  .httpError-container .error-list-container span:nth-child(4) {
     margin-left: 0.2rem;
     color: #333; }
-  .javascriptError-container .error-list-container span:last-child {
+  .httpError-container .error-list-container span:last-child {
     float: right;
     font-size: 0.12rem;
     margin-right: 0.15rem;
     font-weight: bold; }
-  .javascriptError-container .error-list-container .ignore-state {
+  .httpError-container .error-list-container .ignore-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -111,7 +127,7 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .javascriptError-container .error-list-container .resolve-state {
+  .httpError-container .error-list-container .resolve-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -131,44 +147,44 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .javascriptError-container .error-list-container .loading-box {
+  .httpError-container .error-list-container .loading-box {
     display: block;
     width: 100%;
     text-align: center; }
-  .javascriptError-container .error-list-container .loading-icon {
+  .httpError-container .error-list-container .loading-icon {
     font-size: 0.4rem;
     color: #b2b1f5;
     margin: 0.4rem auto; }
-  .javascriptError-container .error-list-container .right-icon {
+  .httpError-container .error-list-container .right-icon {
     float: right;
     font-size: 0.14rem;
     font-weight: bold; }
-  .javascriptError-container .error-list-container .not-today {
+  .httpError-container .error-list-container .not-today {
     color: #aaa; }
-  .javascriptError-container .error-list-container .status-icon {
+  .httpError-container .error-list-container .status-icon {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #e67482; }
-  .javascriptError-container .error-list-container .status-icon-ignore {
+  .httpError-container .error-list-container .status-icon-ignore {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #ddd; }
-  .javascriptError-container .error-list-container .status-icon-resolve {
+  .httpError-container .error-list-container .status-icon-resolve {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #06bf06; }
-  .javascriptError-container .ant-card-body {
+  .httpError-container .ant-card-body {
     padding: 0; }
-  .javascriptError-container .page-container {
+  .httpError-container .page-container {
     padding-top: 0.05rem;
     padding-right: 0.1rem; }
-    .javascriptError-container .page-container .url-box {
+    .httpError-container .page-container .url-box {
       margin-bottom: 0;
       height: 0.4rem;
       line-height: 0.4rem;
@@ -181,24 +197,31 @@
       width: 90%;
       margin-left: 5%;
       cursor: pointer; }
-      .javascriptError-container .page-container .url-box span {
+      .httpError-container .page-container .url-box span {
         float: left; }
-      .javascriptError-container .page-container .url-box span:first-child {
+      .httpError-container .page-container .url-box span:first-child {
         width: 60%;
         display: block;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-    .javascriptError-container .page-container .url-box-active {
+    .httpError-container .page-container .url-box-active {
       background: url(src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%; }
-  .javascriptError-container .page-error-container {
+  .httpError-container .page-error-container {
     padding-top: 0.05rem;
     padding-left: 0.1rem; }
-
-.jsError-time-chart {
-  width: 80% !important; }
+  .httpError-container .chart-loading {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
 
 .header-container {
   width: 100%;
@@ -220,16 +243,15 @@
       float: left;
       margin: 0.05rem 0; }
   .header-container .home-icon {
-    width: 2rem;
+    width: 1.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
     font-size: 0.22rem;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: -0.02rem;
     cursor: pointer;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: end;
-    align-items: flex-end; }
+    float: left; }
     .header-container .home-icon b {
       font-size: 0.28rem;
       color: #ea6947;
@@ -239,10 +261,6 @@
       float: left;
       font-size: 0.14rem; }
   .header-container .sub-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
     padding-left: 0.1rem;
     padding-right: 0.3rem;
     color: #493e54;
@@ -254,7 +272,9 @@
     min-height: 0.62rem;
     box-shadow: 0 0.02rem 0 rgba(37, 11, 54, 0.04); }
     .header-container .sub-header .project-select-box {
-      width: 70%; }
+      height: 0.6rem;
+      line-height: 0.6rem;
+      float: left; }
       .header-container .sub-header .project-select-box .ant-dropdown-link {
         color: #2f2936; }
     .header-container .sub-header .search-icon {
@@ -274,11 +294,11 @@
       color: #a9c282;
       margin-left: -0.02rem; }
     .header-container .sub-header .github-container {
-      width: 2rem;
-      height: 0.32rem;
+      width: 1.3rem;
+      height: 0.6rem;
+      font-size: 0.16rem;
       font-weight: bold;
       text-align: right;
-      margin-left: 0.1rem;
       color: #000;
       cursor: pointer; }
       .header-container .sub-header .github-container .ant-radio-button-wrapper {
@@ -344,28 +364,46 @@
       font-size: 0.32rem;
       cursor: pointer;
       z-index: 1; }
-    .header-container .sub-header .menu-right {
-      width: 2rem;
-      text-align: center;
-      cursor: pointer; }
-      .header-container .sub-header .menu-right .ant-dropdown-link {
-        color: #2f2936; }
-      .header-container .sub-header .menu-right .new-flag {
-        position: absolute;
-        font-size: 0.2rem;
-        margin-top: -0.2rem;
-        margin-left: -0.2rem; }
-      .header-container .sub-header .menu-right .not {
-        position: absolute;
-        background: #aaa;
-        color: #fff;
-        font-size: 0.12rem;
-        padding: 0.02rem 0.04rem;
-        border-radius: 0.04rem;
-        margin-top: -0.14rem;
-        margin-left: -0.2rem;
-        -ms-transform: scale(0.7);
-        transform: scale(0.7); }
+    .header-container .sub-header .menu-choose {
+      font-weight: bold;
+      color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .ant-dropdown-link {
+        color: #ea6947 !important; }
+    .header-container .sub-header .menu-container {
+      float: right;
+      height: 0.6rem;
+      line-height: 0.6rem; }
+      .header-container .sub-header .menu-container .care-me {
+        position: fixed;
+        font-size: 0.1rem;
+        line-height: 0.2rem;
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); }
+      .header-container .sub-header .menu-container .care1 {
+        top: 0.15rem;
+        right: 0.07rem; }
+      .header-container .sub-header .menu-container .care2 {
+        top: 0.25rem;
+        right: 0.07rem; }
+      .header-container .sub-header .menu-container .menu-short {
+        width: 0.6rem !important; }
+      .header-container .sub-header .menu-container .menu-right {
+        float: left;
+        width: 1rem;
+        height: 0.2rem;
+        line-height: 0.2rem;
+        margin-top: 0.22rem;
+        text-align: center;
+        cursor: pointer;
+        border-right: 0.01rem solid #eaeaea;
+        font-size: 0.16rem; }
+        .header-container .sub-header .menu-container .menu-right .ant-dropdown-link {
+          color: #2f2936; }
+        .header-container .sub-header .menu-container .menu-right .new-flag {
+          position: absolute;
+          font-size: 0.2rem;
+          margin-top: -0.2rem;
+          margin-left: -0.2rem; }
   .header-container .github-box {
     font-size: 0.32rem;
     color: #727082; }

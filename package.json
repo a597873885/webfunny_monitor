@@ -5,11 +5,11 @@
   "main": "app.js",
   "scripts": {
     "install_packages": "npm install && npm install -g pm2",
-    "start": "node ./bin/www.js --BUILD_ENV local",
+    "pre_start": "node ./bin/www.js --BUILD_ENV local",
     "prd": "node config_db_local.js && node config.js && pm2 start bin/www.js",
     "prd_restart": "pm2 restart www",
-    "easy_start": "npm install && node config_db_easy.js && node config.js && npm run start",
-    "local_start": "npm install && node config_db_local.js && node config.js && npm run start"
+    "easy_start": "npm install && node config_db_easy.js && node config.js && npm run pre_start",
+    "local_start": "npm install && node config_db_local.js && node config.js && npm run pre_start"
   },
   "repository": {
     "type": "git",
