@@ -626,6 +626,13 @@
       var columnNumber = 0;
       var errorObj = arguments[0] && arguments[0].stack;
       if (!errorObj) {
+        if (typeof errorMsg == "object") {
+          try {
+            errorMsg = JSON.stringify(errorMsg)
+          } catch(e) {
+            errorMsg = "错误无法解析"
+          }
+        }
         siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, "CustomizeError: " + errorMsg);
       } else {
         siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, errorObj);
