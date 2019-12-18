@@ -5,19 +5,11 @@
   "main": "app.js",
   "scripts": {
     "install_packages": "npm install && npm install -g pm2",
-<<<<<<< HEAD
     "pre_start": "node ./bin/www.js --BUILD_ENV local",
     "prd": "node config_db_local.js && node config.js && pm2 start bin/www.js",
     "prd_restart": "pm2 restart www",
     "easy_start": "npm install && node config_db_easy.js && node config.js && npm run pre_start",
     "local_start": "npm install && node config_db_local.js && node config.js && npm run pre_start"
-=======
-    "start": "node ./bin/webfunny.js --BUILD_ENV local",
-    "prd": "node config_db_local.js && node config.js && pm2 start bin/webfunny.js",
-    "prd_restart": "pm2 restart webfunny",
-    "easy_start": "npm install && node config_db_easy.js && node config.js && npm run start",
-    "local_start": "npm install && node config_db_local.js && node config.js && npm run start"
->>>>>>> 527029c2403da76b0b119c69f519dc2b0a7bd90e
   },
   "repository": {
     "type": "git",
