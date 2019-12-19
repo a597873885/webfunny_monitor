@@ -64,7 +64,9 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
      访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
   
-  7. 恭喜你，你已经成功部署了自己的监控系统。
+  7. 进入config/AccountConfig.js 文件，设置你自己的报警邮箱和报警参数，目前仅支持163邮箱。
+  
+  8. 恭喜你，你已经成功部署了自己的监控系统。
   
   #### 更新代码方式
   
@@ -102,30 +104,4 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      */
     window.webfunny && webfunny.wmInitUser("userId", "projectVersion")
     
-    2. 截屏指令（前提：部署截屏版探针）
-    /**
-     * 使用者传入的自定义截屏指令, 由探针代码截图
-     * @param description  对截屏的描述信息
-     */
-    window.webfunny && webfunny.wm_screen_shot(description)
-    
-    3. 自定义上传图片
-    /**
-     * 使用者可以将其他图片上传到用户的使用流程中（比如使用app的截图功能等）
-     * @param compressedDataURL 图片的base64编码字符串，
-     * @param description 图片描述
-     * @param imgType 图片类型（png/jpg/jpeg）
-     */
-    window.webfunny && webfunny.wm_upload_picture(compressedDataURL, description, imgType)
-    
-    4. 上传自定义日志
-    /**
-     * 使用者自行上传的行为日志
-     * @param userId 用户唯一标识
-     * @param behaviorType 行为类型
-     * @param behaviorResult 行为结果（成功、失败等）
-     * @param uploadType 日志类型（分类）
-     * @param description 行为描述
-     */
-    window.webfunny && webfunny.wm_upload_extend_log(userId, behaviorType, behaviorResult, uploadType, description)
     
