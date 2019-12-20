@@ -175,7 +175,7 @@
       border-radius: 0.05rem;
       margin-top: 0.15rem;
       font-weight: bold;
-      background: url(src/assets/img/javascriptErrorDetail/url-bg.jpg);
+      background: url(./src/assets/img/javascriptErrorDetail/url-bg.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       width: 90%;
@@ -190,7 +190,7 @@
         overflow: hidden;
         text-overflow: ellipsis; }
     .javascriptError-container .page-container .url-box-active {
-      background: url(src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
+      background: url(./src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%; }
   .javascriptError-container .page-error-container {

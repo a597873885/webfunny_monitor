@@ -54,7 +54,7 @@
     height: 100%;
     background: red;
     padding-bottom: 0;
-    background: url(src/assets/img/login/bg.jpg) no-repeat;
+    background: url(./src/assets/img/login/bg.jpg) no-repeat;
     background-size: cover; }
   .login-container .box {
     width: 3.1rem;

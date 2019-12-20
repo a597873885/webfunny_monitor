@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.resourceError-container {
+.httpError-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,43 +7,74 @@
   min-height: 100%;
   padding-top: 0.62rem;
   background: #fff; }
-  .resourceError-container .ant-tabs-nav .ant-tabs-tab .anticon {
+  .httpError-container .ant-tabs-nav .ant-tabs-tab .anticon {
     font-weight: bold; }
-  .resourceError-container .ant-tabs-nav .ant-tabs-tab-active {
+  .httpError-container .ant-tabs-nav .ant-tabs-tab-active {
     color: #5d5cb6; }
-  .resourceError-container .ant-tabs-ink-bar {
+  .httpError-container .ant-tabs-ink-bar {
     background-color: #5d5cb6; }
-  .resourceError-container .ant-row {
+  .httpError-container .ant-row {
     padding: 0 0.2rem; }
-    .resourceError-container .ant-row .info-box {
-      width: 50%;
+    .httpError-container .ant-row .info-box {
+      width: 25%;
       min-height: 1rem;
       text-align: center;
       float: left; }
-      .resourceError-container .ant-row .info-box span:first-child {
+      .httpError-container .ant-row .info-box span:first-child {
         display: block;
         font-size: 0.4rem; }
-      .resourceError-container .ant-row .info-box label {
+      .httpError-container .ant-row .info-box label {
         font-size: 0.12rem;
         display: block; }
-      .resourceError-container .ant-row .info-box .anticon {
+      .httpError-container .ant-row .info-box .anticon {
         color: #727082;
         font-weight: bold; }
-  .resourceError-container .click-export {
+  .httpError-container .ant-card-bordered {
+    border: 0; }
+  .httpError-container .red {
+    color: red; }
+  .httpError-container .gray {
+    color: gray; }
+  .httpError-container .current-date {
+    position: absolute;
+    right: 0.9rem;
+    margin-top: 0.15rem;
+    font-weight: bold;
+    color: #5d5cb6;
+    z-index: 1; }
+  .httpError-container .status-box {
+    font-size: 0.14rem;
+    margin-right: 0.1rem;
+    padding: 0.05rem 0.1rem;
+    background: #e1e1e1;
+    height: 0.3rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0.04rem; }
+  .httpError-container .right-icon {
+    float: right;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #333; }
+  .httpError-container .click-export {
     font-size: 0.16rem;
     margin-left: 0.1rem;
     font-weight: bold;
     color: #aaa; }
-  .resourceError-container .ant-pagination {
+  .httpError-container .ant-pagination {
     text-align: right;
     padding-right: 0.3rem;
     padding-bottom: 0.3rem; }
-  .resourceError-container .chart-box {
+  .httpError-container .chart-box {
     width: 100%;
     height: 2rem; }
-  .resourceError-container .main-info-container {
-    padding-bottom: 0.2rem; }
-  .resourceError-container .error-list-container p {
+  .httpError-container .main-info-container {
+    padding-bottom: 0.05rem; }
+  .httpError-container .error-list-container p {
     height: 0.5rem;
     line-height: 0.5rem;
     margin: 0;
@@ -52,32 +83,32 @@
     cursor: pointer;
     overflow-x: auto;
     overflow-y: hidden; }
-    .resourceError-container .error-list-container p:last-child {
+    .httpError-container .error-list-container p:last-child {
       border-bottom: 0; }
-  .resourceError-container .error-list-container p:nth-child(2n) {
+  .httpError-container .error-list-container p:nth-child(2n) {
     background-color: #fff; }
-  .resourceError-container .error-list-container p:nth-child(2n + 1) {
+  .httpError-container .error-list-container p:nth-child(2n + 1) {
     background-color: #f6f6f6; }
-  .resourceError-container .error-list-container .error-scope {
+  .httpError-container .error-list-container .error-scope {
     color: #1890ff; }
-  .resourceError-container .error-list-container span {
+  .httpError-container .error-list-container span {
     float: left; }
-  .resourceError-container .error-list-container span:nth-child(2) {
+  .httpError-container .error-list-container span:nth-child(2) {
     margin-left: 0.2rem;
     font-size: 0.16rem;
     color: #1890ff; }
-  .resourceError-container .error-list-container span:nth-child(3) {
+  .httpError-container .error-list-container span:nth-child(3) {
     margin-left: 0.2rem;
     color: #666; }
-  .resourceError-container .error-list-container span:nth-child(4) {
+  .httpError-container .error-list-container span:nth-child(4) {
     margin-left: 0.2rem;
     color: #333; }
-  .resourceError-container .error-list-container span:last-child {
+  .httpError-container .error-list-container span:last-child {
     float: right;
     font-size: 0.12rem;
     margin-right: 0.15rem;
     font-weight: bold; }
-  .resourceError-container .error-list-container .ignore-state {
+  .httpError-container .error-list-container .ignore-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -96,7 +127,7 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .resourceError-container .error-list-container .resolve-state {
+  .httpError-container .error-list-container .resolve-state {
     width: 0.5rem;
     line-height: 0.26rem;
     text-align: center;
@@ -116,72 +147,72 @@
     /* Safari 和 Chrome */
     -o-transform: rotate(-14deg);
     /* Opera */ }
-  .resourceError-container .error-list-container .loading-box {
+  .httpError-container .error-list-container .loading-box {
     display: block;
     width: 100%;
     text-align: center; }
-  .resourceError-container .error-list-container .loading-icon {
+  .httpError-container .error-list-container .loading-icon {
     font-size: 0.4rem;
     color: #b2b1f5;
     margin: 0.4rem auto; }
-  .resourceError-container .error-list-container .right-icon {
+  .httpError-container .error-list-container .right-icon {
     float: right;
     font-size: 0.14rem;
     font-weight: bold; }
-  .resourceError-container .error-list-container .not-today {
+  .httpError-container .error-list-container .not-today {
     color: #aaa; }
-  .resourceError-container .error-list-container .status-icon {
+  .httpError-container .error-list-container .status-icon {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #e67482; }
-  .resourceError-container .error-list-container .status-icon-ignore {
+  .httpError-container .error-list-container .status-icon-ignore {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #ddd; }
-  .resourceError-container .error-list-container .status-icon-resolve {
+  .httpError-container .error-list-container .status-icon-resolve {
     display: inline-block;
     width: 0.12rem;
     height: 0.12rem;
     border-radius: 50%;
     background: #06bf06; }
-  .resourceError-container .ant-card-body {
+  .httpError-container .ant-card-body {
     padding: 0; }
-  .resourceError-container .page-container {
+  .httpError-container .page-container {
     padding-top: 0.05rem;
     padding-right: 0.1rem; }
-    .resourceError-container .page-container .url-box {
+    .httpError-container .page-container .url-box {
       margin-bottom: 0;
       height: 0.4rem;
       line-height: 0.4rem;
       border-radius: 0.05rem;
       margin-top: 0.15rem;
       font-weight: bold;
-      background: url(src/assets/img/javascriptErrorDetail/url-bg.jpg);
+      background: url(./src/assets/img/javascriptErrorDetail/url-bg.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       width: 90%;
       margin-left: 5%;
       cursor: pointer; }
-      .resourceError-container .page-container .url-box span {
+      .httpError-container .page-container .url-box span {
         float: left; }
-      .resourceError-container .page-container .url-box span:first-child {
+      .httpError-container .page-container .url-box span:first-child {
         width: 60%;
         display: block;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-    .resourceError-container .page-container .url-box-active {
-      background: url(src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
+    .httpError-container .page-container .url-box-active {
+      background: url(./src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%; }
-  .resourceError-container .page-error-container {
+  .httpError-container .page-error-container {
     padding-top: 0.05rem;
     padding-left: 0.1rem; }
-  .resourceError-container .chart-loading {
+  .httpError-container .chart-loading {
     width: 100%;
     height: 2rem;
     text-align: center;
