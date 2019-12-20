@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
+const {exec} = require("child_process")
 
 /**
  * Get port from environment and store in Express.
@@ -95,4 +96,17 @@ var serveStatic = require("serve-static");
 var app = connect();
 app.use(serveStatic("./views/webfunny"));
 app.listen(8010);
+
+const openUrl = "http://localhost:8010/home.html"
+switch (process.platform) {
+  //mac系统使用 一下命令打开url在浏览器
+  case "darwin":
+      exec(`open ${openUrl}`);
+  //win系统使用 一下命令打开url在浏览器
+  case "win32":
+      exec(`start ${openUrl}`);
+      // 默认mac系统
+  default:
+      exec(`open ${openUrl}`);
+}
 
