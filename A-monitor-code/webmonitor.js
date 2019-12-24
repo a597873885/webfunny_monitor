@@ -863,7 +863,7 @@
       }
     }
     /**
-     * 封装简易的ajax请求
+     * 封装简易的ajax请求, 只用于上传日志
      * @param method  请求类型(大写)  GET/POST
      * @param url     请求URL
      * @param param   请求参数
@@ -876,12 +876,7 @@
       xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
       xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4) {
-          try {
-            var res = JSON.parse(xmlHttp.responseText);
-            typeof successCallback == 'function' && successCallback(res);
-          } catch(e) {
-            failCallback();
-          }
+          typeof successCallback == 'function' && successCallback();
         } else {
           typeof failCallback == 'function' && failCallback();
         }
