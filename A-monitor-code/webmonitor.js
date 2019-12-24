@@ -635,7 +635,8 @@
         }
         siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, "CustomizeError: " + errorMsg);
       } else {
-        siftAndMakeUpMessage("console_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, errorObj);
+        // 如果报错中包含错误堆栈，可以认为是JS报错，而非自定义报错
+        siftAndMakeUpMessage("on_error", errorMsg, WEB_LOCATION, lineNumber, columnNumber, errorObj);
       }
       return oldError.apply(console, arguments);
     };
@@ -874,9 +875,13 @@
       xmlHttp.open(method, url, true);
       xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
       xmlHttp.onreadystatechange = function () {
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-          var res = JSON.parse(xmlHttp.responseText);
-          typeof successCallback == 'function' && successCallback(res);
+        if (xmlHttp.readyState == 4) {
+          try {
+            var res = JSON.parse(xmlHttp.responseText);
+            typeof successCallback == 'function' && successCallback(res);
+          } catch(e) {
+            failCallback();
+          }
         } else {
           typeof failCallback == 'function' && failCallback();
         }
