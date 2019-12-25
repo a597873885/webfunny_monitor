@@ -24,7 +24,7 @@
   .header-container .message-box {
     position: fixed;
     width: 0.24rem;
-    height: 0.6rem;
+    height: 0.8rem;
     right: 0.2rem;
     bottom: 0.2rem;
     font-size: 0.36rem;
@@ -278,15 +278,21 @@
 
 .support-container {
   width: 4rem;
-  height: 4.2rem; }
+  height: 4.8rem;
+  background: #fafafc;
+  font-size: 0.18rem; }
   .support-container ul, .support-container li {
     list-style: none; }
   .support-container li {
     float: left;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 0.05rem 0;
-    font-size: 0.12rem; }
+    font-size: 0.14rem;
+    color: #333; }
   .support-container img {
-    width: 1.5rem; }
+    width: 1.8rem;
+    opacity: 0.05; }
+  .support-container .zs-img:hover img, .support-container .jq-img:hover img {
+    opacity: 1; }
 
