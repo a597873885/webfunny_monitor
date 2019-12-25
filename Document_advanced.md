@@ -104,4 +104,16 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      */
     window.webfunny && webfunny.wmInitUser("userId", "projectVersion")
     
+    2. 自定上传日志
+    /**
+     * 使用者自行上传的行为日志
+     * @param userId 用户唯一标识
+     * @param behaviorType 行为类型
+     * @param behaviorResult 行为结果（成功、失败等）
+     * @param uploadType 日志类型（分类）
+     * @param description 行为描述
+     */
+    window.webfunny && webfunny.wm_upload_extend_log(userId, behaviorType, behaviorResult, uploadType, description)
+    
+    
     
