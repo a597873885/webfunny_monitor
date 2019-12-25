@@ -66,7 +66,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
   7. 进入config/AccountConfig.js 文件，设置你自己的报警邮箱和报警参数，目前仅支持163邮箱。
   
-  8. 恭喜你，你已经成功部署了自己的监控系统。
+  8. 恭喜你，你已经成功部署了自己的监控系统。[API调用方法](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
   
   #### 更新代码方式
   
@@ -103,5 +103,17 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
      * @param projectVersion 你自己应用的版本号
      */
     window.webfunny && webfunny.wmInitUser("userId", "projectVersion")
+    
+    2. 自定上传日志
+    /**
+     * 使用者自行上传的行为日志
+     * @param userId 用户唯一标识
+     * @param behaviorType 行为类型
+     * @param behaviorResult 行为结果（成功、失败等）
+     * @param uploadType 日志类型（分类）
+     * @param description 行为描述
+     */
+    window.webfunny && webfunny.wm_upload_extend_log(userId, behaviorType, behaviorResult, uploadType, description)
+    
     
     
