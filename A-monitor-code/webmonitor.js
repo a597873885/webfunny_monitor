@@ -429,16 +429,18 @@
       }
     }
     // 判断是否是新用户  开始
-    var customerKey = utils.getCustomerKey();
-    var newStatus = "";
-    var customerKeyArr = customerKey ? customerKey.match(/\d{13}/g) : [];
-    if (customerKeyArr && customerKeyArr.length > 0) {
-      var tempTime = parseInt(customerKeyArr[0], 10);
-      var currentTime = new Date().getTime();
-      if (currentTime - tempTime > 1000) {
-        newStatus = "old";
-      } else {
-        newStatus = "new";
+    var customerKey = utils.getCookie("monitorCustomerKey");
+    if (customerKey) {
+      var newStatus = "";
+      var customerKeyArr = customerKey ? customerKey.match(/\d{13}/g) : [];
+      if (customerKeyArr && customerKeyArr.length > 0) {
+        var tempTime = parseInt(customerKeyArr[0], 10);
+        var currentTime = new Date().getTime();
+        if (currentTime - tempTime > 1000) {
+          newStatus = "old";
+        } else {
+          newStatus = "new";
+        }
       }
     }
     // 判断是否是新用户  结束
