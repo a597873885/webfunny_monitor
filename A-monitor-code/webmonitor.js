@@ -64,7 +64,7 @@
     , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
-    , HTTP_UPLOAD_URI =  WEB_LOCATION.indexOf(WEB_LOCAL_IP) == -1 ? WEB_HTTP_TYPE + WEB_MONITOR_IP : WEB_HTTP_TYPE + WEB_LOCAL_IP + ':8011'
+    , HTTP_UPLOAD_URI =  WEB_HTTP_TYPE + WEB_MONITOR_IP
 
     // 上传数据的接口API
     , HTTP_UPLOAD_LOG_API = '/server/upLog' // '/api/v1/upLog'

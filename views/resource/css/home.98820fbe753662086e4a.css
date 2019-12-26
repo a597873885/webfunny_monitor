@@ -354,7 +354,14 @@ body {
       color: #EA7657; }
     .home-container .panel-box .time-controller {
       margin-top: 0.2rem;
-      margin-left: 0.2rem; }
+      margin-left: 0.15rem; }
+    .home-container .panel-box .setting-container {
+      height: 0.5rem;
+      line-height: 0.5rem;
+      margin: 0.2rem 0.15rem;
+      color: #666; }
+      .home-container .panel-box .setting-container button {
+        line-height: 0.32rem; }
     .home-container .panel-box .future-panel {
       color: #999; }
     .home-container .panel-box .active {
