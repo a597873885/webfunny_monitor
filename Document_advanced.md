@@ -64,7 +64,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
      访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
      
-          在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息
+          在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息是否正确。
   
   7. 进入config/AccountConfig.js 文件，设置你自己的报警邮箱和报警参数，目前仅支持163邮箱。
   
