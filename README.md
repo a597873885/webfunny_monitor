@@ -4,7 +4,7 @@
  ### 部署
     
 ---------------------------------------------------------
-
+![recorder gzip size](https://img.badgesize.io/https://www.webfunny.cn/resource/monitor.fetch.min.js?compression=gzip&label=recorder%20gzip%20size)
    
 只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
