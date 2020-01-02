@@ -123,6 +123,15 @@
     // 监控代码空构造函数
     , WebMonitor = {}
 
+    // 
+    , PV_MSG = ""
+    , JSERROR_MSG = ""
+    , HTTP_MSG = ""
+    , RESOURCE_MSG = ""
+    , BEHAVIOR_MSG = ""
+    , PAGELOAD_MSG = ""
+    , INITUSER_MSG = ""
+
     // 获取用户自定义信息
     , USER_INFO = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {}
 
@@ -317,11 +326,17 @@
     try {
       // 启动监控
       recordPV();
+      PV_MSG = "启动...";
       recordResourceError();
+      RESOURCE_MSG = "启动...";
       recordLoadPage();
+      PAGELOAD_MSG = "启动...";
       recordBehavior({record: 1});
+      BEHAVIOR_MSG = "启动...";
       recordJavaScriptError();
+      JSERROR_MSG = "启动...";
       recordHttpLog();
+      HTTP_MSG = "启动...";
       // // 加载js压缩工具
       // utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
       //   LZStringFlag = true
@@ -1231,6 +1246,25 @@
 
   window.webfunny = {
     /**
+     * 检查配置信息
+     */
+    wm_check: function() {
+      var errorStatus = "未启动！"
+      console.log("================================配置检查===============================");
+      console.log("=【探针标识】：" + WEB_MONITOR_ID);
+      console.log("=【上报接口】：" + HTTP_UPLOAD_LOG_INFO);
+      console.log("......................................................................");
+      console.log("= PVUV监控状态：" + (PV_MSG || errorStatus));
+      console.log("= 静态资源监控状态：" + (PAGELOAD_MSG || errorStatus));
+      console.log("= JS错误监控状态：" + (JSERROR_MSG || errorStatus));
+      console.log("= 接口请求监控状态：" + (HTTP_MSG || errorStatus));
+      console.log("= 静态资源监控状态：" + (RESOURCE_MSG || errorStatus));
+      console.log("= 用户行为监控状态：" + (BEHAVIOR_MSG || errorStatus));
+      console.log("= 用户信息初始化状态：" + (INITUSER_MSG || "未初始化！部分功能将无法使用，请查看文档(API方法调用)，执行webfunny.wmInitUser方法进行初始化！"));
+      console.log("======================================================================");
+      return "结束";
+    },
+    /**
      * 埋点上传数据
      * @param url 当前页面的url
      * @param type 埋点类型
@@ -1290,6 +1324,7 @@
         userId: userId,
         projectVersion: projectVersion
       });
+      INITUSER_MSG = "用户信息初始化：userId=" + userId + "，版本号：" + projectVersion
       return 1;
     },
     /**
