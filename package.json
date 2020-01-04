@@ -4,7 +4,7 @@
   "description": "这是webmonitor对应的后台",
   "main": "app.js",
   "scripts": {
-    "install_packages": "npm install && npm install -g pm2",
+    "install_packages": "npm install && npm install -g pm2@4.2.1",
     "pre_start": "node ./bin/webfunny.js --BUILD_ENV local",
     "prd": "node config_db_local.js && node config.js && pm2 start bin/webfunny.js",
     "prd_restart": "pm2 restart webfunny",
