@@ -417,13 +417,18 @@
       var xhr = new XMLHttpRequest()
 
       xhr.onload = function() {
+        var resType = xhr.responseType
+        var resTxt = ""
         var options = {
           status: xhr.status,
           statusText: xhr.statusText,
           headers: parseHeaders(xhr.getAllResponseHeaders() || '')
         }
         options.url = 'responseURL' in xhr ? xhr.responseURL : options.headers.get('X-Request-URL')
-        var body = 'response' in xhr ? xhr.response : xhr.responseText
+
+        if (resType === '' || resType === 'text') resTxt = xhr.responseText
+        if (resType === 'json') resTxt = xhr.response
+        var body = 'response' in xhr ? xhr.response : resTxt
         resolve(new Response(body, options))
       }
 

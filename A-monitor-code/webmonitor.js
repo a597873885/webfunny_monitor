@@ -139,9 +139,6 @@
     , JSON_KEY = {"type":"≠","childNodes":"ā","name":"á","id":"ǎ","tagName":"à","attributes":"ē","style":"é","textContent":"ě","isStyle":"è","isSVG":"ī","content":"í","href":"ǐ","src":"ì","class":"ō","tabindex":"ó","aria-label":"ǒ","viewBox":"ò","focusable":"ū","data-icon":"ú","width":"ǔ","height":"ù","fill":"ǖ","aria-hidden":"ǘ","stroke":"ǚ","stroke-width":"ǜ","paint-order":"ü","stroke-opacity":"ê","stroke-dasharray":"ɑ","stroke-linecap":"?","stroke-linejoin":"ń","stroke-miterlimit":"ň","clip-path":"Γ","alignment-baseline":"Δ","fill-opacity":"Θ","transform":"Ξ","text-anchor":"Π","offset":"Σ","stop-color":"Υ","stop-opacity":"Φ"}
     , JSON_CSS_KEY = {"background":"≠","background-attachment":"ā","background-color":"á","background-image":"ǎ","background-position":"à","background-repeat":"ē","background-clip":"é","background-origin":"ě","background-size":"è","border":"Г","border-bottom":"η","color":"┯","style":"Υ","width":"б","border-color":"ū","border-left":"ǚ","border-right":"ň","border-style":"Δ","border-top":"З","border-width":"Ω","outline":"α","outline-color":"β","outline-style":"γ","outline-width":"δ","left-radius":"Ж","right-radius":"И","border-image":"ω","outset":"μ","repeat":"ξ","repeated":"π","rounded":"ρ","stretched":"σ","slice":"υ","source":"ψ","border-radius":"Б","radius":"Д","box-decoration":"Й","break":"К","box-shadow":"Л","overflow-x":"Ф","overflow-y":"У","overflow-style":"Ц","rotation":"Ч","rotation-point":"Щ","opacity":"Ъ","height":"Ы","max-height":"Э","max-width":"Ю","min-height":"Я","min-width":"а","font":"в","font-family":"г","font-size":"ж","adjust":"з","aspect":"и","font-stretch":"й","font-style":"к","font-variant":"л","font-weight":"ф","content":"ц","before":"ч","after":"ш","counter-increment":"щ","counter-reset":"ъ","quotes":"ы","list-style":"+","image":"－","position":"|","type":"┌","margin":"┍","margin-bottom":"┎","margin-left":"┏","margin-right":"┐","margin-top":"┑","padding":"┒","padding-bottom":"┓","padding-left":"—","padding-right":"┄","padding-top":"┈","bottom":"├","clear":"┝","clip":"┞","cursor":"┟","display":"┠","float":"┡","left":"┢","overflow":"┣","right":"┆","top":"┊","vertical-align":"┬","visibility":"┭","z-index":"┮","direction":"┰","letter-spacing":"┱","line-height":"┲","text-align":"6","text-decoration":"┼","text-indent":"┽","text-shadow":"10","text-transform":"┿","unicode-bidi":"╀","white-space":"╂","word-spacing":"╁","hanging-punctuation":"╃","punctuation-trim":"1","last":"3","text-emphasis":"4","text-justify":"5","justify":"7","text-outline":"8","text-overflow":"9","text-wrap":"11","word-break":"12","word-wrap":"13"}
 
-    // LZString 加载标识
-    , LZStringFlag = false;
-
   // 日志基类, 用于其他日志的继承
   function MonitorBaseInfo() {
     this.handleLogInfo = function (type, logInfo) {
@@ -337,38 +334,6 @@
       JSERROR_MSG = "启动...";
       recordHttpLog();
       HTTP_MSG = "启动...";
-      // // 加载js压缩工具
-      // utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
-      //   LZStringFlag = true
-      //   // 加载录屏机制
-      //   utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
-      //     var stopFn = rrweb.record({
-      //       emit(event) {
-      //         // var newEvent = utils.compressJson(event);
-      //         var newEventStr = JSON.stringify(event);
-      //         if (LZStringFlag) {
-      //           newEventStr = LZString.compressToBase64(newEventStr);
-      //           var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
-      //           if (newEventStr.length) { // 如果数据过长，直接上传
-      //             // videosInfo.uploadType = VIDEOS_EVENT
-      //             // var logInfo = JSON.stringify(videosInfo)
-      //             // utils.ajax("POST", "//localhost:8011/servers/upLog_long", newEventStr, function () {})
-      //             var userId = "test_home"
-      //             newEventStr = WEB_MONITOR_ID + "---" + VIDEOS_EVENT + "---" + utils.getCustomerKey() + "---" + userId + "$$$" + newEventStr
-      //             var blob = new Blob([newEventStr], {type: 'text/plain'})
-      //             var xmlHttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-      //             xmlHttp.open("post", "//localhost:8011/server/upLog_long", true);
-      //             xmlHttp.setRequestHeader('Content-Type','text/plain');
-      //             xmlHttp.send(blob);
-      //           } else {
-      //             // videosInfo.handleLogInfo(VIDEOS_EVENT, videosInfo);
-      //           }
-      //         }
-      //       }
-      //     })
-      //   })
-      // })
-      
       /**
        * 添加一个定时器，进行数据的上传
        * 200毫秒钟进行一次URL是否变化的检测
@@ -708,7 +673,7 @@
         return;
       }
       var responseText = "";
-      if (tempResponseText && responseText.length < 300) {
+      if (tempResponseText && responseText.length < 500) {
         try {
           responseText = tempResponseText ? JSON.stringify(utils.encryptObj(JSON.parse(tempResponseText))) : "";
         } catch (e) {
@@ -764,8 +729,15 @@
               }
             })(i);
           } else {
-            var responseText = timeRecordArray[i].event.detail.responseText;
-            handleHttpResult(i, responseText);
+            try {
+              var xhr = timeRecordArray[i] && timeRecordArray[i].event && timeRecordArray[i].event.detail;
+              if (!xhr) return;
+              var resType = xhr.responseType
+              var resTxt = "";
+              if (resType === '' || resType === 'text') resTxt = xhr.responseText;
+              if (resType === 'json') resTxt = JSON.stringify(xhr.response);
+              handleHttpResult(i, resTxt);
+            } catch(e) {}
           }
         }
       }
@@ -1263,6 +1235,64 @@
       console.log("= 用户信息初始化状态：" + (INITUSER_MSG || "未初始化！部分功能将无法使用，请查看文档(API方法调用)，执行webfunny.wmInitUser方法进行初始化！"));
       console.log("======================================================================");
       return "结束";
+    },
+    /**
+     * 初始化调试工具
+     * 【注意：】请勿在生产环境使用！！！
+     */
+    initDebugTool: function() {
+      console.log("= 调试工具即将初始化...");
+      // 加载js压缩工具
+      utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
+        console.log("= 字符串压缩工具加载成功...");
+        // 加载录屏机制
+        utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
+          console.log("= 录屏工具加载成功...");
+          console.log("= 调试工具初始化完成。");
+          // 在页面上生成一个连接按钮
+          // var connect = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEUAAAAAjwAAkgEAkgEAkQEAkQIAkQIAkAAAkgAAkwAAjwAAkAIAkgIAkQIAkQAAkgAAkgAAkgIAkQIAkQAAkQAAkQEAkAAAkAAAkQGUpamIAAAAGHRSTlMAgKrA56KNVEYWQKaelHtnHJiISyvfdWoca+CuAAAAvElEQVQ4y4WT6Q6EIAwGWwEFPHfd43v/J93ErHI0lfllMhObFKBb2PK9B9DyTJLg+TtE1XuHA6v4HifCv8xOYdQ9vYGPQY4tgwmCmP3fzjSKYEiBATpyqFjLnchiobqY1BHB4CgeyNlS0AGycMX+zmJOgU/7ByCLni4c8qI/Py42QBYmpGBAVTyrk1rQKFaIggFTjpAFpyBCMFGBLaRhcVc492MgNqz7Xnkf/ynOq+8nDuuyb6R6nZYnbvgfM0koRi82zDIAAAAASUVORK5CYII=";
+          // var disconnect = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEUAAADYHgbYHQbZHgXZHgXaHQbXHQjYHgbYHgbYHwbZHQXYHgXXHwTZGwXVHAXYGgDQLwDYHgbYHgbXHgXZHwbYHgbYHgbYHwfZHwfZHwfXHATbJADYHgbzmcBTAAAAHHRSTlMAqoFdMSgfx/i3imQ5LjcNBe7tknhVuZZrSUAOeayD+AAAAM1JREFUOMuFk1kSgyAQBUEFXIhrzPruf85oSelMGLQ/9KPbpRhQp2TIlETf2uABQeeuBEr3NKu/R9pXILyous3LpRmI5s9bQKsaDM9egKUARyuKRkx3VdigjEkUt80XgJaLzxbM4EX8DzpRuOCTRX5MDVJR7eMBpGLwwbcjxKJRgQqQipp/gBdsDg7nRV8iUTT7OosFGYRcGHvspLigdLgqHv8WgKHBm/tMaR7wnTyuA2wK6ifqq/YQZNK116stXa5iAEzL7WuLok+e8DN+81YzagDKqQwAAAAASUVORK5CYII="
+          // var img = document.createElement('img');
+          // img.id = "debug_connect";
+          // img.src = disconnect;
+          // img.style = "position: fixed; z-index: 9999; bottom: 20px; right: 20px; width: 60px;";
+          // document.body.appendChild(img);
+          // img.onclick = function() {
+          //   webfunny.startDebugMode(function() {
+          //     // 连接后代表开启debug模式，存放在cookie里边。这样共享域名的项目可以共用
+          //     var extraTime = 60 * 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
+          //     var exp = new Date()
+          //     exp.setTime(exp.getTime() + extraTime)
+          //     if (MAIN_DOMAIN) {
+          //       document.cookie = "debugMode=open;Path=/;domain=" + MAIN_DOMAIN + ";expires=" + exp.toGMTString()
+          //     } else {
+          //       document.cookie = "debugMode=open;Path=/;expires=" + exp.toGMTString()
+          //     }
+          //     img.src = connect;
+          //     setTimeout(function() {
+          //       img.remove();
+          //     }, 20 * 1000);
+          //   })
+          // }
+        });
+      });
+    },
+    /**
+     * 开启debug模式
+     */
+    startDebugMode: function(callback) {
+      console.log("= 开启debug模式...");
+      callback();
+      // var stopFn = rrweb.record({
+      //   emit: function(event) {
+      //     var newEventStr = JSON.stringify(event);
+      //     console.log(event, newEventStr.length);
+      //     var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
+      //     videosInfo.uploadType = VIDEOS_EVENT;
+      //     var logInfo = JSON.stringify(videosInfo);
+      //     utils.ajax("POST", "//localhost:8011/server/upLog", {logInfo: logInfo}, function () {});
+      //   },
+      // });
     },
     /**
      * 埋点上传数据
