@@ -7,7 +7,7 @@
 只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
-[【**📚 部署教程 📚**】](./Document.md) |  [【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
+[【**📚 部署教程 📚**】](./Document_advanced.md) |  [【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
    
    
 ---------------------------------------------------------
