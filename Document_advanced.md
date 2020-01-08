@@ -1,8 +1,6 @@
 
 #### 环境要求：
 
-[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
-
 操作系统： Linux(Ubantu 16.0 64位)、MacOs操作系统。 windows系统目前还没有尝试。
 
 node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
@@ -63,6 +61,7 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
 [【常见部署问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 [【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
   
   #### 更新代码方式
   
