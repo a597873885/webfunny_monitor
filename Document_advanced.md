@@ -23,26 +23,19 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
 
   1. 下载或者克隆代码到本地，并在根目录执行：npm run install_packages 安装依赖包
   
-          【小提示】：由于内容比较多，克隆的时间比较长，请耐心一点等待。 
-                  也有可能出现克隆失败的情况，重新尝试即可，我也表示很无奈。
+          【小提示】：内容较多，有可能出现克隆失败的情况，重新尝试即可，我也表示很无奈。
   
   2. 在项目根目录下，config.js文件中，进行如下配置：
   
-          /**
-           * 请求接口域名 webfunny-servers 的服务的部署域名
-           * 本地请使用 "//localhost:8011"，生产环境就把localhost换成服务器的ip
-           */
           const default_api_server_url = "//localhost:8011"
 
-         /**
-          * 静态资源域名 webfunny-admin 的部署域名
-          * 本地请使用 "//localhost:8010"，生产环境就把localhost换成服务器的ip
-          */
           const default_assets_url = "//localhost:8010"
           
-  3. 先安装好mysql数据库, 创建数据库的时候，字符集选择utf-8，在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置
+  3. 先安装好mysql数据库, 然后创建数据库, 命名webfunny_db，字符集选择utf-8;
   
-     [Mysql安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html) 
+     在项目根目录下，进入 config/db_local.js ，配置mysql数据库的连接配置
+  
+     [Mysql安装教程](https://www.cnblogs.com/warm-stranger/p/10333348.html)  | 
      [Mysql忘记密码](https://www.linuxidc.com/Linux/2018-05/152586.htm)
   
   
