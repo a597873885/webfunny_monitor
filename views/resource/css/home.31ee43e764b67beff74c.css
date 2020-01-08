@@ -739,7 +739,7 @@ body {
       font-size: 0.14rem; }
   .header-container .sub-header {
     padding-left: 0.1rem;
-    padding-right: 0.3rem;
+    padding-right: 0.2rem;
     color: #493e54;
     border-bottom: 0;
     position: relative;
@@ -846,6 +846,10 @@ body {
       color: #ea6947 !important; }
       .header-container .sub-header .menu-choose .ant-dropdown-link {
         color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .debug-icon {
+        box-shadow: 0.01rem 0.01rem 0.06rem #ea6847 !important;
+        border-radius: 0.04rem;
+        font-size: 0.18rem; }
     .header-container .sub-header .menu-container {
       float: right;
       height: 0.6rem;

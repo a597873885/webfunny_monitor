@@ -1,226 +1,23 @@
-.javascriptErrorDetail-container {
+.httpErrorDetail-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
-  padding-top: 0.62rem;
-  background: #fff; }
-  .javascriptErrorDetail-container .detail-container span {
-    float: left; }
-  .javascriptErrorDetail-container .detail-container .error-type {
-    height: 0.5rem;
-    line-height: 0.5rem;
-    font-size: 0.22rem;
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    max-width: 70%; }
-  .javascriptErrorDetail-container .detail-container .error-url {
-    height: 0.5rem;
-    line-height: 0.55rem;
-    font-size: 0.16rem;
-    padding-left: 0.2rem;
-    color: #727082; }
-  .javascriptErrorDetail-container .detail-container .error-msg {
-    width: 100%; }
-    .javascriptErrorDetail-container .detail-container .error-msg label {
-      float: left; }
-    .javascriptErrorDetail-container .detail-container .error-msg label:first-child {
-      width: 0.18rem;
-      height: 0.18rem;
-      border-radius: 0.09rem;
-      background: #e67482;
-      margin-top: 0.05rem; }
-    .javascriptErrorDetail-container .detail-container .error-msg label:nth-child(2) {
-      font-size: 0.12rem;
-      display: block;
-      width: 90%;
-      padding: 0.06rem; }
-    .javascriptErrorDetail-container .detail-container .error-msg label:nth-child(3) {
-      margin-left: 0.2rem;
-      margin-top: 0.04rem;
-      color: #949090; }
-  .javascriptErrorDetail-container .detail-container .error-page-link {
-    margin-top: 0.08rem; }
-    .javascriptErrorDetail-container .detail-container .error-page-link .anticon {
-      font-size: 0.17rem;
-      font-weight: bold;
-      color: #5d74b9; }
-    .javascriptErrorDetail-container .detail-container .error-page-link a {
-      margin-left: 0.1rem; }
-  .javascriptErrorDetail-container .detail-container .info-box {
-    width: 48%;
-    height: 0.74rem;
-    margin-left: 1%;
-    float: left; }
-    .javascriptErrorDetail-container .detail-container .info-box:first-child {
-      margin-left: 0; }
-    .javascriptErrorDetail-container .detail-container .info-box span {
-      display: block;
-      width: 100%;
-      text-align: center; }
-    .javascriptErrorDetail-container .detail-container .info-box span:first-child {
-      font-size: 0.16rem;
-      margin-top: 0.1rem;
-      font-weight: bold;
-      color: #c1bdbd; }
-    .javascriptErrorDetail-container .detail-container .info-box span:last-child {
-      font-size: 0.26rem;
-      color: #556eba; }
-  .javascriptErrorDetail-container .detail-container .device-box {
-    width: 32%;
-    height: 0.74rem;
-    margin-left: 1%;
-    float: left; }
-    .javascriptErrorDetail-container .detail-container .device-box:first-child {
-      margin-left: 0; }
-    .javascriptErrorDetail-container .detail-container .device-box span {
-      display: block;
-      width: 100%;
-      text-align: center; }
-    .javascriptErrorDetail-container .detail-container .device-box span:first-child {
-      font-size: 0.16rem;
-      margin-top: 0.1rem;
-      font-weight: bold;
-      color: #777; }
-    .javascriptErrorDetail-container .detail-container .device-box span:last-child {
-      font-size: 0.2rem;
-      color: #556eba; }
-  .javascriptErrorDetail-container .detail-container .operation-container {
-    margin-top: 0.1rem; }
-    .javascriptErrorDetail-container .detail-container .operation-container .check-timeChart {
-      margin-left: 0.2rem;
-      color: #ffffff;
-      border: 0.01rem solid #5d5cb6;
-      background: #5d5cb6; }
-    .javascriptErrorDetail-container .detail-container .operation-container .check-footprint {
-      margin-left: 0.2rem;
-      color: #ffffff;
-      border: 0.01rem solid #ea6947;
-      background: #ea6947; }
-    .javascriptErrorDetail-container .detail-container .operation-container .ant-btn {
-      font-size: 0.12rem;
-      height: 0.24rem; }
-    .javascriptErrorDetail-container .detail-container .operation-container .ant-btn span {
-      float: right; }
-    .javascriptErrorDetail-container .detail-container .operation-container .ant-btn i {
-      margin-left: 0;
-      margin-right: 0.08rem;
-      font-weight: bold; }
-    .javascriptErrorDetail-container .detail-container .operation-container .ant-btn:nth-child(2), .javascriptErrorDetail-container .detail-container .operation-container .ant-btn:nth-child(3), .javascriptErrorDetail-container .detail-container .operation-container .ant-btn:nth-child(5) {
-      margin-left: 0.15rem; }
-    .javascriptErrorDetail-container .detail-container .operation-container .ant-btn:nth-child(4) {
-      margin-left: 0.25rem; }
-  .javascriptErrorDetail-container .ant-row.device-container {
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    color: #727082; }
-    .javascriptErrorDetail-container .ant-row.device-container .anticon {
-      font-size: 0.5rem;
-      float: left; }
-    .javascriptErrorDetail-container .ant-row.device-container .ip-address-icon {
-      color: #5d74b9; }
-    .javascriptErrorDetail-container .ant-row.device-container .device-info-box {
-      float: left;
-      padding: 0.05rem 0.1rem; }
-      .javascriptErrorDetail-container .ant-row.device-container .device-info-box span {
-        display: block; }
-      .javascriptErrorDetail-container .ant-row.device-container .device-info-box span:first-child {
-        font-weight: bold;
-        height: 0.25rem; }
-        .javascriptErrorDetail-container .ant-row.device-container .device-info-box span:first-child .customer-key {
-          width: 0.8rem;
-          display: block;
-          float: left; }
-        .javascriptErrorDetail-container .ant-row.device-container .device-info-box span:first-child .copy-key {
-          font-size: 0.18rem;
-          color: #7a7979; }
-    .javascriptErrorDetail-container .ant-row.device-container .browser-icon {
-      width: 0.5rem;
-      float: left; }
-  .javascriptErrorDetail-container .ant-row {
-    padding: 0.1rem 0.2rem 0.2rem 0.2rem;
-    border-bottom: 0.01rem solid #eaeaea; }
-  .javascriptErrorDetail-container .table-container {
+  background: #f5f5f9; }
+  .httpErrorDetail-container .table-container {
+    margin-top: 0.6rem;
     padding: 0.2rem; }
-    .javascriptErrorDetail-container .table-container h4 {
+    .httpErrorDetail-container .table-container h4 {
       color: #727082; }
-    .javascriptErrorDetail-container .table-container .ant-table-thead {
+    .httpErrorDetail-container .table-container .ant-table-thead {
       font-size: 0.12rem;
       color: #727082; }
-    .javascriptErrorDetail-container .table-container .ant-table-thead > tr > th {
+    .httpErrorDetail-container .table-container .ant-table-thead > tr > th {
       background: #f9fafd; }
-    .javascriptErrorDetail-container .table-container .ant-table-thead > tr > th, .javascriptErrorDetail-container .table-container .ant-table-tbody > tr > td {
+    .httpErrorDetail-container .table-container .ant-table-thead > tr > th, .httpErrorDetail-container .table-container .ant-table-tbody > tr > td {
       font-size: 0.12rem;
       color: #727082; }
-  .javascriptErrorDetail-container .stack-container {
-    padding: 0.2rem; }
-    .javascriptErrorDetail-container .stack-container .source-code-list {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .javascriptErrorDetail-container .stack-container .source-code-list li {
-        list-style: none;
-        padding: 0.04rem 0; }
-      .javascriptErrorDetail-container .stack-container .source-code-list .code-location {
-        background: #556eba;
-        color: #fff; }
-    .javascriptErrorDetail-container .stack-container h4 {
-      color: #727082; }
-    .javascriptErrorDetail-container .stack-container .error-msg {
-      display: block;
-      margin: 0.1rem 0; }
-    .javascriptErrorDetail-container .stack-container .ant-collapse-header {
-      background: #f9fafd;
-      font-size: 0.12rem;
-      font-weight: bold; }
-    .javascriptErrorDetail-container .stack-container .ant-collapse-content {
-      border-top: 0;
-      font-size: 0.14rem; }
-    .javascriptErrorDetail-container .stack-container .ant-collapse {
-      border: 0; }
-    .javascriptErrorDetail-container .stack-container .ant-collapse > .ant-collapse-item {
-      border-bottom: 0; }
-  .javascriptErrorDetail-container .footprint-container {
-    padding-left: 0.05rem;
-    padding-bottom: 0.1rem; }
-    .javascriptErrorDetail-container .footprint-container .ant-timeline-item {
-      font-size: 0.12rem;
-      padding-bottom: 0; }
-    .javascriptErrorDetail-container .footprint-container .ant-timeline-item-content {
-      padding: 0.05rem 0; }
-    .javascriptErrorDetail-container .footprint-container .ant-collapse-item {
-      border-bottom: 0; }
-    .javascriptErrorDetail-container .footprint-container .ant-collapse-header {
-      color: #727082;
-      font-weight: bold; }
-
-.jsError-time-chart {
-  width: 80% !important; }
-
-.errorDetail-chart-container {
-  padding-bottom: 0.3rem;
-  color: #727082;
-  height: 3.2rem; }
-  .errorDetail-chart-container .ant-card-head {
-    min-height: 0.3rem;
-    font-size: 0.14rem;
-    color: #666;
-    border-bottom: 0; }
-  .errorDetail-chart-container .ant-card-head-title {
-    padding: 0.05rem 0; }
-  .errorDetail-chart-container .ant-card-body {
-    padding: 0; }
-
-.chart-content {
-  width: 100%;
-  height: 2.6rem; }
-  .chart-content .ct-chart {
-    width: 100%;
-    height: 100%; }
 
 .header-container {
   width: 100%;
@@ -261,7 +58,7 @@
       font-size: 0.14rem; }
   .header-container .sub-header {
     padding-left: 0.1rem;
-    padding-right: 0.3rem;
+    padding-right: 0.2rem;
     color: #493e54;
     border-bottom: 0;
     position: relative;
@@ -368,6 +165,10 @@
       color: #ea6947 !important; }
       .header-container .sub-header .menu-choose .ant-dropdown-link {
         color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .debug-icon {
+        box-shadow: 0.01rem 0.01rem 0.06rem #ea6847 !important;
+        border-radius: 0.04rem;
+        font-size: 0.18rem; }
     .header-container .sub-header .menu-container {
       float: right;
       height: 0.6rem;

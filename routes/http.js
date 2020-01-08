@@ -1,7 +1,6 @@
 const Router = require('koa-router')
 const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,HttpErrorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,ProjectController,ResourceLoadInfoController,UserController,VideosInfoController,CustomerPVController,JavascriptErrorInfoController,Common} = require("../controllers/controllers.js")
 const log = require("../config/log");
-const callFile = require('child_process');
 const router = new Router({
     prefix: '/server'
 })
@@ -10,11 +9,9 @@ global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
 
-if (global.BUILD_ENV != "local"){
-    setTimeout(() => {
-        Common.calculateCountByHour(1)
-    }, 20000)
-}
+setTimeout(() => {
+    Common.calculateCountByHour(1)
+}, 20000)
 /** * 定时执行程序，重启服务  开始 */
 setTimeout(() => {
     Common.consoleInfo()

@@ -1,25 +1,19 @@
-.createProject-container {
+.projectList-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
-  background: #f5f5f9;
+  background: #ffffff;
   padding-top: 0.82rem; }
-  .createProject-container .code-box {
-    width: 100%;
-    border: 0.01rem solid #d2d2d2;
-    height: 2.2rem; }
-  .createProject-container .form-box li {
-    float: left;
-    width: 100%;
-    margin: 0.12rem 0;
-    list-style: none; }
-  .createProject-container .form-box span {
-    float: left; }
-  .createProject-container .form-box input {
-    float: left;
-    width: 3rem; }
+  .projectList-container .table-container {
+    margin-left: 0.15rem;
+    margin-right: 0.15rem; }
+
+.projectList-code-box {
+  width: 100%;
+  border: 0.01rem solid #d2d2d2;
+  height: 2.2rem; }
 
 .header-container {
   width: 100%;
@@ -60,7 +54,7 @@
       font-size: 0.14rem; }
   .header-container .sub-header {
     padding-left: 0.1rem;
-    padding-right: 0.3rem;
+    padding-right: 0.2rem;
     color: #493e54;
     border-bottom: 0;
     position: relative;
@@ -167,6 +161,10 @@
       color: #ea6947 !important; }
       .header-container .sub-header .menu-choose .ant-dropdown-link {
         color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .debug-icon {
+        box-shadow: 0.01rem 0.01rem 0.06rem #ea6847 !important;
+        border-radius: 0.04rem;
+        font-size: 0.18rem; }
     .header-container .sub-header .menu-container {
       float: right;
       height: 0.6rem;

@@ -1,204 +1,24 @@
-@charset "UTF-8";
-.javascriptError-container {
+.debugTool-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
-  padding-top: 0.62rem;
-  background: #fff; }
-  .javascriptError-container .ant-card-bordered {
-    border: 0; }
-  .javascriptError-container .ant-tabs-nav .ant-tabs-tab .anticon {
-    font-weight: bold; }
-  .javascriptError-container .ant-tabs-nav .ant-tabs-tab-active {
-    color: #5d5cb6; }
-  .javascriptError-container .ant-tabs-ink-bar {
-    background-color: #5d5cb6; }
-  .javascriptError-container .ant-row {
-    padding: 0 0.2rem; }
-    .javascriptError-container .ant-row .info-box {
-      width: 50%;
-      min-height: 1rem;
-      text-align: center;
-      float: left; }
-      .javascriptError-container .ant-row .info-box span:first-child {
-        display: block;
-        font-size: 0.4rem; }
-      .javascriptError-container .ant-row .info-box label {
-        font-size: 0.12rem;
-        display: block; }
-      .javascriptError-container .ant-row .info-box .anticon {
-        color: #727082;
-        font-weight: bold; }
-  .javascriptError-container .current-date {
-    position: absolute;
-    right: 0.7rem;
-    margin-top: 0.15rem;
-    font-weight: bold;
-    color: #5d5cb6;
-    z-index: 1; }
-  .javascriptError-container .time-icon {
-    position: absolute;
-    right: 0.7rem;
-    margin-top: 0.05rem;
-    font-size: 0.3rem;
-    color: #ea6847;
-    z-index: 2;
-    cursor: pointer; }
-  .javascriptError-container .click-export {
-    font-size: 0.16rem;
-    margin-left: 0.1rem;
-    font-weight: bold;
-    color: #777; }
-  .javascriptError-container .more-info {
-    font-size: 0.14rem; }
-  .javascriptError-container .ant-pagination {
-    text-align: right;
-    padding-right: 0.3rem;
-    padding-bottom: 0.3rem; }
-  .javascriptError-container .chart-box {
-    width: 100%;
-    height: 2rem; }
-  .javascriptError-container .main-info-container {
-    padding-bottom: 0.1rem; }
-  .javascriptError-container .error-list-container p {
-    height: 0.5rem;
-    line-height: 0.5rem;
-    margin: 0;
-    padding: 0 0.2rem;
-    font-size: 0.12rem;
-    cursor: pointer;
-    overflow-x: auto;
-    overflow-y: hidden; }
-    .javascriptError-container .error-list-container p:last-child {
-      border-bottom: 0; }
-  .javascriptError-container .error-list-container p:nth-child(2n) {
-    background-color: #fff; }
-  .javascriptError-container .error-list-container p:nth-child(2n + 1) {
-    background-color: #f6f6f6; }
-  .javascriptError-container .error-list-container span:nth-child(2) {
-    margin-left: 0.2rem;
-    font-size: 0.16rem;
-    color: #1890ff; }
-  .javascriptError-container .error-list-container span:nth-child(3) {
-    margin-left: 0.2rem;
-    color: #666; }
-  .javascriptError-container .error-list-container span:nth-child(4) {
-    margin-left: 0.2rem;
-    color: #333; }
-  .javascriptError-container .error-list-container span:last-child {
-    float: right;
-    font-size: 0.12rem;
-    margin-right: 0.15rem;
-    font-weight: bold; }
-  .javascriptError-container .error-list-container .ignore-state {
-    width: 0.5rem;
-    line-height: 0.26rem;
-    text-align: center;
-    position: absolute;
-    color: #ddd;
-    margin-top: 0.1rem;
-    margin-left: 0.3rem;
-    border: 0.01rem solid #ddd;
-    border-radius: 0.04rem;
-    transform: rotate(-14deg);
-    -ms-transform: rotate(-14deg);
-    /* IE 9 */
-    -moz-transform: rotate(-14deg);
-    /* Firefox */
-    -webkit-transform: rotate(-14deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-14deg);
-    /* Opera */ }
-  .javascriptError-container .error-list-container .resolve-state {
-    width: 0.5rem;
-    line-height: 0.26rem;
-    text-align: center;
-    position: absolute;
-    color: #06bf06;
-    margin-top: 0.1rem;
-    margin-left: 0.3rem;
-    border: 0.01rem solid #06bf06;
-    border-radius: 0.04rem;
-    box-shadow: 0.03rem 0.04rem 0.12rem 0;
-    transform: rotate(-14deg);
-    -ms-transform: rotate(-14deg);
-    /* IE 9 */
-    -moz-transform: rotate(-14deg);
-    /* Firefox */
-    -webkit-transform: rotate(-14deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-14deg);
-    /* Opera */ }
-  .javascriptError-container .error-list-container .loading-box {
-    display: block;
-    width: 100%;
-    text-align: center; }
-  .javascriptError-container .error-list-container .loading-icon {
-    font-size: 0.4rem;
-    color: #b2b1f5;
-    margin: 0.4rem auto; }
-  .javascriptError-container .error-list-container .right-icon {
-    float: right;
-    font-size: 0.14rem;
-    font-weight: bold; }
-  .javascriptError-container .error-list-container .not-today {
-    color: #aaa; }
-  .javascriptError-container .error-list-container .status-icon {
-    display: inline-block;
-    width: 0.12rem;
-    height: 0.12rem;
-    border-radius: 50%;
-    background: #e67482; }
-  .javascriptError-container .error-list-container .status-icon-ignore {
-    display: inline-block;
-    width: 0.12rem;
-    height: 0.12rem;
-    border-radius: 50%;
-    background: #ddd; }
-  .javascriptError-container .error-list-container .status-icon-resolve {
-    display: inline-block;
-    width: 0.12rem;
-    height: 0.12rem;
-    border-radius: 50%;
-    background: #06bf06; }
-  .javascriptError-container .ant-card-body {
-    padding: 0; }
-  .javascriptError-container .page-container {
-    padding-top: 0.05rem;
-    padding-right: 0.1rem; }
-    .javascriptError-container .page-container .url-box {
-      margin-bottom: 0;
-      height: 0.4rem;
-      line-height: 0.4rem;
-      border-radius: 0.05rem;
-      margin-top: 0.15rem;
-      font-weight: bold;
-      background: url(./src/assets/img/javascriptErrorDetail/url-bg.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      width: 90%;
-      margin-left: 5%;
-      cursor: pointer; }
-      .javascriptError-container .page-container .url-box span {
-        float: left; }
-      .javascriptError-container .page-container .url-box span:first-child {
-        width: 60%;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-    .javascriptError-container .page-container .url-box-active {
-      background: url(./src/assets/img/javascriptErrorDetail/url-bg-active.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% 100%; }
-  .javascriptError-container .page-error-container {
-    padding-top: 0.05rem;
-    padding-left: 0.1rem; }
+  background: #b5b5c1;
+  padding-top: 0.82rem; }
 
-.jsError-time-chart {
-  width: 80% !important; }
+.debug-video-box {
+  width: 100%;
+  min-width: 6rem;
+  overflow: auto; }
+  .debug-video-box .rr-player.svelte-1wetjm2 {
+    width: 100% !important; }
+  .debug-video-box .rr-player__frame.svelte-1wetjm2 {
+    width: 100% !important; }
+
+.debug-behavior-box {
+  width: 100%;
+  min-width: 6rem; }
 
 .header-container {
   width: 100%;
@@ -239,7 +59,7 @@
       font-size: 0.14rem; }
   .header-container .sub-header {
     padding-left: 0.1rem;
-    padding-right: 0.3rem;
+    padding-right: 0.2rem;
     color: #493e54;
     border-bottom: 0;
     position: relative;
@@ -346,6 +166,10 @@
       color: #ea6947 !important; }
       .header-container .sub-header .menu-choose .ant-dropdown-link {
         color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .debug-icon {
+        box-shadow: 0.01rem 0.01rem 0.06rem #ea6847 !important;
+        border-radius: 0.04rem;
+        font-size: 0.18rem; }
     .header-container .sub-header .menu-container {
       float: right;
       height: 0.6rem;
@@ -481,11 +305,4 @@
     opacity: 0.05; }
   .support-container .zs-img:hover img, .support-container .jq-img:hover img {
     opacity: 1; }
-
-.chart-content {
-  width: 100%;
-  height: 2.6rem; }
-  .chart-content .ct-chart {
-    width: 100%;
-    height: 100%; }
 

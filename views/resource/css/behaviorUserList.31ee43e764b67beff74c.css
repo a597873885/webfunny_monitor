@@ -1,40 +1,18 @@
-.function-container {
+.behaviorUserList-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
-  background: #4b5c6b;
-  padding-top: 0.82rem; }
-  .function-container .title {
-    color: #fff;
-    margin-top: 0.5rem;
-    text-indent: 0.35rem; }
-  .function-container .des-img {
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 20%; }
-  .function-container .function-list {
-    list-style: none;
-    margin-top: 0.2rem;
-    color: #fff;
-    text-align: left; }
-    .function-container .function-list h2 {
-      color: #fff;
-      font-weight: 400; }
-    .function-container .function-list li {
-      list-style: none; }
-    .function-container .function-list .list-item span {
-      font-size: 0.16rem;
-      font-weight: 300;
-      margin-left: 0.3rem;
-      border-bottom: 0.01rem solid #aaa;
-      padding-bottom: 0.02rem;
-      cursor: pointer; }
-
-.function-prev-container {
-  width: 7.8rem !important;
-  height: 7rem !important; }
+  padding-top: 0.62rem;
+  background: #f5f5f9;
+  color: #666; }
+  .behaviorUserList-container .ant-card-head-title {
+    padding: 0.05rem 0; }
+  .behaviorUserList-container .ant-card-head {
+    min-height: 0.3rem;
+    font-size: 0.14rem;
+    color: #666; }
 
 .header-container {
   width: 100%;
@@ -75,7 +53,7 @@
       font-size: 0.14rem; }
   .header-container .sub-header {
     padding-left: 0.1rem;
-    padding-right: 0.3rem;
+    padding-right: 0.2rem;
     color: #493e54;
     border-bottom: 0;
     position: relative;
@@ -182,6 +160,10 @@
       color: #ea6947 !important; }
       .header-container .sub-header .menu-choose .ant-dropdown-link {
         color: #ea6947 !important; }
+      .header-container .sub-header .menu-choose .debug-icon {
+        box-shadow: 0.01rem 0.01rem 0.06rem #ea6847 !important;
+        border-radius: 0.04rem;
+        font-size: 0.18rem; }
     .header-container .sub-header .menu-container {
       float: right;
       height: 0.6rem;

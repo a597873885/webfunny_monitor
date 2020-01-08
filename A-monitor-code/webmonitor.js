@@ -32,6 +32,9 @@
     // 获取当前url
     , defaultLocation = window.location.href.split('?')[0].replace('#', '')
 
+    // 停止录屏的方法
+    , stopTheVideo = null
+
     // 页面加载对象属性
     , timingObj = performance && performance.timing
 
@@ -76,7 +79,7 @@
     , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 获取当前项目的参数信息的接口
-    , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/project/getProject'
+    , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/projectConfig'
 
     // 上传埋点数据接口
     , HTTP_UPLOAD_RECORD_DATA = HTTP_UPLOAD_URI + ''
@@ -334,10 +337,12 @@
       JSERROR_MSG = "启动...";
       recordHttpLog();
       HTTP_MSG = "启动...";
+      checkTheVideo();
+
       /**
        * 添加一个定时器，进行数据的上传
        * 200毫秒钟进行一次URL是否变化的检测
-       * 8秒钟进行一次数据的检查并上传; PS: 这个时间有可能跟后台服务的并发量有着直接，谨慎设置
+       * 8秒钟进行一次数据的检查并上传; PS: 这个时间有可能跟后台服务的并发量有着直接关系，谨慎设置
        */
       var timeCount = 0;
       var waitTimes = 0;
@@ -356,17 +361,18 @@
           // 如果，经过3次判断还没有收集到10个日志，则进行上传
           // 风险：有可能会丢失掉用户最后一段时间的操作信息，如果，最后几步操作信息很重要，可以选择删除这段逻辑
           var logInfoCount = logInfo.split("$$$").length;
-          if (logInfoCount < 10 && waitTimes < 2) {
+          if (logInfoCount < 10 && waitTimes < 1) {
             waitTimes ++;
             timeCount = 0;
             return;
           }
           waitTimes = 0;
 
-          logInfo.length > 0 && utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {
+          logInfo.length > 0 && utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function (res) {
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
             }
+            localStorage.debugConnectStatus = res.data == "c" ? "connected" : "disconnect";
           }, function () { // 如果失败了， 也需要清理掉本地缓存， 否则会积累太多
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
@@ -512,6 +518,39 @@
       var resourceLoadInfo = new ResourceLoadInfo(RESOURCE_LOAD, sourceUrl, typeName, "0");
       resourceLoadInfo.handleLogInfo(RESOURCE_LOAD, resourceLoadInfo);
     }, true);
+  }
+
+  /**
+   * 启动屏幕录制
+   */
+  function checkTheVideo() {
+      /**
+       * 如果localStorage里边没有debug的连接状态，则发送一条请求获取连线状态
+       * 如果localStorage里边有debug的连接状态，则无需发送请求获取连线状态，
+       * 后续根据upLog的返回值来获取连线状态
+       */
+      var debugConnectStatus = localStorage.debugConnectStatus
+      if (!debugConnectStatus) {
+        // 如果没有这个值，发送一条请求，确定连线状态, 并确定是否启动
+        var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
+        utils.ajax("GET", HTTP_PROJECT_INFO, {userId: wmUserInfo.userId}, function (res) {
+          localStorage.debugConnectStatus = res.data
+          if (res.data == "connected") {
+            if (stopTheVideo) return
+            utils.initDebugTool();
+          }
+        });
+      } else if (debugConnectStatus === "connected") {
+        // debug连线状态，允许上传录屏信息
+        if (stopTheVideo) return
+        utils.initDebugTool();
+      } else if (debugConnectStatus === "disconnect") {
+        // debug连线状态断开，停止上传录屏信息
+        if (stopTheVideo) { 
+          stopTheVideo(); 
+          stopTheVideo = null;
+        }
+      }
   }
 
   /**
@@ -865,7 +904,8 @@
       xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
       xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4) {
-          typeof successCallback == 'function' && successCallback();
+          var response = xmlHttp.responseText ? JSON.parse(xmlHttp.responseText) : {}
+          typeof successCallback == 'function' && successCallback(response);
         } else {
           typeof failCallback == 'function' && failCallback();
         }
@@ -899,6 +939,34 @@
         var compressedDataURL = utils.b64EncodeUnicode(tempCompress);
         var screenShotInfo = new ScreenShotInfo(SCREEN_SHOT, description, compressedDataURL)
         screenShotInfo.handleLogInfo(SCREEN_SHOT, screenShotInfo);
+      });
+    }
+    /**
+     * 初始化调试工具
+     */
+    this.initDebugTool = function() {
+      console.log("= 调试工具即将初始化...");
+      // 加载js压缩工具
+      utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
+        console.log("= 字符串压缩工具加载成功...");
+        // 加载录屏机制
+        utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
+          console.log("= 录屏工具加载成功...");
+          console.log("= 调试工具初始化完成, 开始录屏...");
+          stopTheVideo = rrweb.record({
+            emit: function(event) {
+              var newEventStr = JSON.stringify(event);
+              var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
+              videosInfo.uploadType = VIDEOS_EVENT;
+              var logInfo = JSON.stringify(videosInfo);
+              if (logInfo.length > 1000) {
+                utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {});
+              } else {
+                videosInfo.handleLogInfo(VIDEOS_EVENT, videosInfo);
+              }
+            },
+          });
+        });
       });
     }
     // 深拷贝方法. 注意: 如果对象里边包含function, 则对function的拷贝依然是浅拷贝
@@ -1217,6 +1285,7 @@
   init();
 
   window.webfunny = {
+    
     /**
      * 检查配置信息
      */
@@ -1235,64 +1304,6 @@
       console.log("= 用户信息初始化状态：" + (INITUSER_MSG || "未初始化！部分功能将无法使用，请查看文档(API方法调用)，执行webfunny.wmInitUser方法进行初始化！"));
       console.log("======================================================================");
       return "结束";
-    },
-    /**
-     * 初始化调试工具
-     * 【注意：】请勿在生产环境使用！！！
-     */
-    initDebugTool: function() {
-      console.log("= 调试工具即将初始化...");
-      // 加载js压缩工具
-      utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
-        console.log("= 字符串压缩工具加载成功...");
-        // 加载录屏机制
-        utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
-          console.log("= 录屏工具加载成功...");
-          console.log("= 调试工具初始化完成。");
-          // 在页面上生成一个连接按钮
-          // var connect = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEUAAAAAjwAAkgEAkgEAkQEAkQIAkQIAkAAAkgAAkwAAjwAAkAIAkgIAkQIAkQAAkgAAkgAAkgIAkQIAkQAAkQAAkQEAkAAAkAAAkQGUpamIAAAAGHRSTlMAgKrA56KNVEYWQKaelHtnHJiISyvfdWoca+CuAAAAvElEQVQ4y4WT6Q6EIAwGWwEFPHfd43v/J93ErHI0lfllMhObFKBb2PK9B9DyTJLg+TtE1XuHA6v4HifCv8xOYdQ9vYGPQY4tgwmCmP3fzjSKYEiBATpyqFjLnchiobqY1BHB4CgeyNlS0AGycMX+zmJOgU/7ByCLni4c8qI/Py42QBYmpGBAVTyrk1rQKFaIggFTjpAFpyBCMFGBLaRhcVc492MgNqz7Xnkf/ynOq+8nDuuyb6R6nZYnbvgfM0koRi82zDIAAAAASUVORK5CYII=";
-          // var disconnect = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEUAAADYHgbYHQbZHgXZHgXaHQbXHQjYHgbYHgbYHwbZHQXYHgXXHwTZGwXVHAXYGgDQLwDYHgbYHgbXHgXZHwbYHgbYHgbYHwfZHwfZHwfXHATbJADYHgbzmcBTAAAAHHRSTlMAqoFdMSgfx/i3imQ5LjcNBe7tknhVuZZrSUAOeayD+AAAAM1JREFUOMuFk1kSgyAQBUEFXIhrzPruf85oSelMGLQ/9KPbpRhQp2TIlETf2uABQeeuBEr3NKu/R9pXILyous3LpRmI5s9bQKsaDM9egKUARyuKRkx3VdigjEkUt80XgJaLzxbM4EX8DzpRuOCTRX5MDVJR7eMBpGLwwbcjxKJRgQqQipp/gBdsDg7nRV8iUTT7OosFGYRcGHvspLigdLgqHv8WgKHBm/tMaR7wnTyuA2wK6ifqq/YQZNK116stXa5iAEzL7WuLok+e8DN+81YzagDKqQwAAAAASUVORK5CYII="
-          // var img = document.createElement('img');
-          // img.id = "debug_connect";
-          // img.src = disconnect;
-          // img.style = "position: fixed; z-index: 9999; bottom: 20px; right: 20px; width: 60px;";
-          // document.body.appendChild(img);
-          // img.onclick = function() {
-          //   webfunny.startDebugMode(function() {
-          //     // 连接后代表开启debug模式，存放在cookie里边。这样共享域名的项目可以共用
-          //     var extraTime = 60 * 30 * 24 * 3600 * 1000 // cookie 30天后过期时间
-          //     var exp = new Date()
-          //     exp.setTime(exp.getTime() + extraTime)
-          //     if (MAIN_DOMAIN) {
-          //       document.cookie = "debugMode=open;Path=/;domain=" + MAIN_DOMAIN + ";expires=" + exp.toGMTString()
-          //     } else {
-          //       document.cookie = "debugMode=open;Path=/;expires=" + exp.toGMTString()
-          //     }
-          //     img.src = connect;
-          //     setTimeout(function() {
-          //       img.remove();
-          //     }, 20 * 1000);
-          //   })
-          // }
-        });
-      });
-    },
-    /**
-     * 开启debug模式
-     */
-    startDebugMode: function(callback) {
-      console.log("= 开启debug模式...");
-      callback();
-      // var stopFn = rrweb.record({
-      //   emit: function(event) {
-      //     var newEventStr = JSON.stringify(event);
-      //     console.log(event, newEventStr.length);
-      //     var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
-      //     videosInfo.uploadType = VIDEOS_EVENT;
-      //     var logInfo = JSON.stringify(videosInfo);
-      //     utils.ajax("POST", "//localhost:8011/server/upLog", {logInfo: logInfo}, function () {});
-      //   },
-      // });
     },
     /**
      * 埋点上传数据

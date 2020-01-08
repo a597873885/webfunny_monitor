@@ -1,1 +1,4077 @@
-var _0x31a8=['c0trVVY=','RGpob2c=','WGRweU0=','Z2V0SnNFcnJvclVzZXJDb3VudFRvZGF5','Z2V0Q29uc29sZUVycm9yVXNlckNvdW50VG9kYXk=','Z2V0UmVzb3VyY2VFcnJvclVzZXJDb3VudFRvZGF5','Z2V0SHR0cEVycm9yVXNlckNvdW50VG9kYXk=','d1dXYnQ=','Z2V0V2FybmluZ01zZw==','cXdCT3k=','Q3pTYWs=','bmxZZWg=','Y2hlY2tNeXNxbENvbm5lY3RFcnJvcnM=','NTk3ODczODg1QHFxLmNvbQ==','TXlzcWzplJnor6/ov57mjqXmlbDmiqXoraY=','TXlzcWzplJnor6/ov57mjqXmlbDvvJo=','R2x1ckk=','VFFUR1U=','c2VuZEVtYWls','QVBOblA=','bGVyaVM=','Q21TUUE=','V3R6RkY=','dWZNQ1g=','Y2hlY2tNeXNxbFN0YXR1cw==','Y2hlY2tNeXNxbENvbm5lY3Rz','WXhRQUM=','bGlCYW5nRGF0YQ==','RFhFZEg=','c3RhcnREZWxldGU=','5oiQ5Yqf5Yig6Zmk5pWw5o2u5bqT6KGoIA==','5byA5aeL5Yig6Zmk5pWw5o2u5bqT6KGoIA==','Li4u','44CQ5Y2z5bCG5byA5aeL6KGo5Yig6Zmk56iL5bqPLi4u','QmVoYXZpb3JJbmZv','Q3VzdG9tZXJQVg==','RXh0ZW5kQmVoYXZpb3JJbmZv','SHR0cEVycm9ySW5mbw==','SHR0cExvZ0luZm8=','SmF2YXNjcmlwdEVycm9ySW5mbw==','TG9hZFBhZ2VJbmZv','UmVzb3VyY2VMb2FkSW5mbw==','U2NyZWVuU2hvdEluZm8=','RW1haWxDb2Rl','VmlkZW9zSW5mbw==','5Yig6Zmk6KGo5pON5L2c5oql6ZSZ','6KGo5Yig6Zmk56iL5bqP57uT5p2f44CR','aW1qdnk=','dE1xamc=','bGdLQWw=','TUJ1dFY=','QXNUSEI=','cldYdVg=','Ym9LQVQ=','RmxEZkc=','U3NNdXQ=','YVNVa2U=','VGhnT3o=','SWdCR3g=','emN1a24=','c0RlYWM=','WkhXaVg=','ZHJvcFNjaGVtYQ==','b0JTTkw=','WFJRSmY=','a1p6Q2Q=','ZHVtZ3Q=','aWdLbFg=','cmVzdGFydFNlcnZlcg==','Li9yZXN0YXJ0LnNo','ZXhlY0ZpbGU=','YnltYkU=','c3RyaW5naWZ5','Z2l0U3RhcnM=','aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9hNTk3ODczODg1L3dlYmZ1bm55X21vbml0b3Ivc3RhcmdhemVycz9wZXJfcGFnZT0xMDAmcGFnZT04','ckNPS0o=','ck92Qk0=','QWNWZm0=','RGdwaXI=','anpISWQ=','bGJhZW4=','cHVzaEluZm8=','MjAyMC0wMS0wMw==','MS4g5rOo5oSP77yMMeaciDPml6XkuYvliY3pg6jnvbLnmoTnlKjmiLfvvIznrKzkuozlpKnlj6/og73ml6Dms5Xoh6rliqjnlJ/miJDmlbDmja7lupPooajvvIzor7fmi4nlj5bmnIDmlrDku6PnoIEsIOmXrumimOW3suS/ruWkjeOAgg==','c3hPdGc=','bmFHaHM=','Z1hQWmk=','dXBkYXRlSW5mbw==','MjAxOS0xMi0xOA==','MS4g5aKe5Yqg5LqG5aSa5pe26Ze057u05bqm77yM5ZKM6K6+572u5Yqf6IO944CC','aHR0cDovLzQ3LjEwNS4xMzIuNzM6ODAwMC91cGRhdGVJbWFnZXMvNS5qcGc=','Mi4g5L+u5aSN5LqGVVbnu5/orqHkuI3lh4bnoa7nmoTpl67popjjgII=','aHR0cDovLzQ3LjEwNS4xMzIuNzM6ODAwMC91cGRhdGVJbWFnZXMvNi5qcGc=','bFZETEo=','UFJPSkVDVF9WRVJTSU9O','T1lQYkQ=','SnZaRlE=','Smhkdlg=','dFBtY0Y=','TFJKQ08=','dG5Gc2M=','bW9uaXRvclZlcnNpb24=','cmZaaXA=','TU9OSVRPUl9WRVJTSU9O','c2VhcmNoVXNlckJlaGF2aW9yc0ZvckV4YW1wbGU=','ckN1bHg=','c2VhcmNoQ3VzdG9tZXJJbmZvRm9yRXhhbXBsZQ==','TXVSZW0=','YWJvcnRBcGlz','5oqx5q2J77yM5L2g5pqC5pe25rKh5pyJ5p2D6ZmQ6K6/6Zeu5q2k5o6l5Y+j','cEVDalg=','R3haV0k=','ZXhwb3J0cw==','c3RyaW5n','d2hpbGUgKHRydWUpIHt9','Y291bnRlcg==','ZGVidQ==','Z2dlcg==','YWN0aW9u','c3RhdGVPYmplY3Q=','ckhEWlM=','VUpTT2o=','Y29uc3RydWN0b3I=','VVBRd3Q=','WFdpWWc=','cW5Md0c=','RkdzT3o=','cmxHTW4=','eHdGS0M=','dGtYUW0=','Y0Z0QlI=','c1VsbkM=','Q2lEV2I=','Y2FsbA==','ZE9vVng=','UXJLcGE=','TG1yYkY=','YXBwbHk=','ZnVuY3Rpb24gKlwoICpcKQ==','XCtcKyAqKD86XzB4KD86W2EtZjAtOV0pezQsNn18KD86XGJ8XGQpW2EtejAtOV17MSw0fSg/OlxifFxkKSk=','aW5pdA==','Y2hhaW4=','aW5wdXQ=','cXFjaFY=','TXdYS1o=','UEpKeXI=','UVRzeGE=','bVlsZUg=','dGVzdA==','eWlJY2s=','R1VLZWo=','SXF2SmU=','d1duUkQ=','a3NrU2c=','Li4vY29uZmlnL2Ri','c2VxdWVsaXpl','Li4vdXRpbC91dGlscw==','Z2VvaXAtbGl0ZQ==','Li4vY29uZmlnL2xvZw==','Li4vdXRpbC9zdGF0dXMtY29kZQ==','cEdIcms=','Li4vY29uZmlnL2NvbnN0cw==','bm9kZS1mZXRjaA==','Li4vY29uZmlnL2N1c3RvbWVySW5mbw==','Li4vY29uZmlnL3VzZXJCZWhhdmlvcnM=','Li4vY29uZmlnL2NpdHk=','Li4vY29uZmlnL3Byb3ZpbmNl','Y2hpbGRfcHJvY2Vzcw==','Li4vY29uZmlnL0FjY291bnRDb25maWc=','Li4vY29uZmlnL21vbml0b3JLZXlz','Li4vbW9kdWxlcy9tb2RlbHMuanM=','Y3JlYXRl','5Yib5bu65L+h5oGv5oiQ5Yqf','5Yib5bu65L+h5oGv5aSx6LSl77yM6K+35rGC5Y+C5pWw5LiN6IO95Li656m677yB','cmVxdWVzdA==','Ym9keQ==','cGFyc2U=','ZGF0YQ==','aGFwcGVuVGltZQ==','Y3JlYXRlSHR0cExvZ0luZm8=','Z2V0SHR0cExvZ0luZm9EZXRhaWw=','cmVzcG9uc2U=','c3RhdHVz','U1VDQ0VTU18yMDA=','c2dLVXI=','RVJST1JfNDEy','TFlIelA=','Z2V0SHR0cExvZ0luZm9MaXN0','5p+l6K+i5L+h5oGv5YiX6KGo5oiQ5Yqf77yB','5p+l6K+i5L+h5oGv5YiX6KGo5aSx6LSl77yB','ZVhIZHE=','aWp5dkg=','ZGV0YWls','5p+l6K+i5oiQ5Yqf77yB','5L+h5oGvSUTlv4XpobvkvKA=','cGFyYW1z','VUZFUWo=','bmxmSWg=','ZGVsZXRl','5Yig6Zmk5L+h5oGv5oiQ5Yqf77yB','5L+h5oGvSUTlv4XpobvkvKDvvIE=','VHdRdVY=','ZGVsZXRlSHR0cExvZ0luZm8=','R0tSUnc=','dEVibVk=','dXBkYXRl','5pu05paw5L+h5oGv5oiQ5Yqf77yB','5pu05paw5L+h5oGv5aSx6LSl77yB','dXBkYXRlSHR0cExvZ0luZm8=','dVloaFU=','S3N5aVM=','Z2V0SHR0cEVycm9ySW5mb0xpc3RCeUhvdXI=','cGFyc2VRcw==','dXJs','dGhlbg==','Z2V0SHR0cEVycm9ySW5mb0xpc3RTZXZlbkRheUFnb0J5SG91cg==','U2NVQ3I=','Z2V0SHR0cEVycm9yQ291bnRCeURheQ==','cWlUc3I=','VG9ITE4=','Z2V0SHR0cEVycm9yTGlzdEJ5RGF5','Z2V0UmVzb3VyY2VMb2FkSW5mb0xpc3RCeURheQ==','SlFZdWc=','bGVuZ3Ro','Z2V0UmVzb3VyY2VFcnJvckxhdGVzdFRpbWU=','c291cmNlVXJs','Y3JlYXRlZEF0','Z2V0UGFnZUNvdW50QnlSZXNvdXJjZUVycm9y','cGFnZUNvdW50','cGl6Snc=','Z2V0SHR0cENvdW50QnlNaW51dGU=','TGVQbmo=','Y3JlYXRlSHR0cEVycm9ySW5mbw==','Z2V0SHR0cEVycm9ySW5mb0RldGFpbA==','T0xoY2c=','b25zQXM=','Z2V0SHR0cEVycm9ySW5mb0xpc3Q=','V0tudWM=','RHFadmQ=','SHJmZ0M=','UmdpcGo=','ZGNCdmU=','ZGVsZXRlSHR0cEVycm9ySW5mbw==','cWhabU0=','WWtJZlQ=','dXBkYXRlSHR0cEVycm9ySW5mbw==','aUZHdWE=','RktmcUU=','aW5mb1R5cGU=','SFRUUF9FUlJPUg==','RlVOY2g=','bWZKT0Q=','aGFuZGxlRGF0ZVJlc3VsdA==','TW50ZWM=','Z2V0SHR0cEVycm9ySW5mb0xpc3RCeURheQ==','Uk90c0g=','Z2V0SHR0cEVycm9yTGF0ZXN0VGltZQ==','c2ltcGxlSHR0cFVybA==','Z2V0U3RhdHVzQ291bnRCeVNpbXBsZUh0dHBVcmw=','c3RhdHVzQXJyYXk=','Z2V0Q3VzdG9tZXJDb3VudEZvckh0dHBVcmw=','Y3VzdG9tZXJDb3VudA==','Y291bnQ=','VHhaTUQ=','Z2V0SHR0cEVycm9yTGlzdEJ5VXJs','QXV0ZGU=','Y3JlYXRlU2NyZWVuU2hvdEluZm8=','Z2V0U2NyZWVuU2hvdEluZm9EZXRhaWw=','SVZVR0E=','V1RyVmc=','Z2V0U2NyZWVuU2hvdEluZm9MaXN0','S1hyS0I=','TUdRdko=','Z2V0U2NyZWVuU2hvdEluZm9MaXN0QnlQYWdl','Zm9yRWFjaA==','c2NyZWVuSW5mbw==','dG9TdHJpbmc=','d3BLUVU=','UEhScU0=','RENhZVo=','Q2pKR2o=','ekdyRHA=','ZGVsZXRlU2NyZWVuU2hvdEluZm8=','YVdhTUM=','Z1BnaHA=','dXBkYXRlU2NyZWVuU2hvdEluZm8=','WFJ4Yno=','blBlcXU=','5Yib5bu66KGM5Li65L+h5oGv5oiQ5Yqf','5Yib5bu66KGM5Li65L+h5oGv5aSx6LSl77yM6K+35rGC5Y+C5pWw5LiN6IO95Li656m677yB','Y3JlYXRlQmVoYXZpb3JJbmZv','Z2V0QmVoYXZpb3JJbmZvRGV0YWls','eG1ZY1I=','WnJtZWQ=','Z2V0QmVoYXZpb3JJbmZvTGlzdA==','5p+l6K+i6KGM5Li65L+h5oGv5YiX6KGo5oiQ5Yqf77yB','5p+l6K+i6KGM5Li65L+h5oGv5YiX6KGo5aSx6LSl77yB','RkpndWg=','ZEtwT2s=','6KGM5Li65L+h5oGvSUTlv4XpobvkvKA=','ZU9ZdVc=','QlhZRXA=','5Yig6Zmk6KGM5Li65L+h5oGv5oiQ5Yqf77yB','6KGM5Li65L+h5oGvSUTlv4XpobvkvKDvvIE=','QUVJb0Y=','ZGVsZXRlQmVoYXZpb3JJbmZv','Z0t0TVI=','VVZUTGs=','5pu05paw6KGM5Li65L+h5oGv5oiQ5Yqf77yB','5pu05paw6KGM5Li65L+h5oGv5aSx6LSl77yB','dXBkYXRlQmVoYXZpb3JJbmZv','a3RZRXU=','SmxhcVU=','dGVzdEJlaGF2aW9y','eUFLRWU=','RkdDcks=','Y3JlYXRlRGFpbHlBY3Rpdml0eQ==','Z2V0RGFpbHlBY3Rpdml0eURldGFpbA==','UE1wSng=','bXZsdXg=','Z2V0RGFpbHlBY3Rpdml0eUxpc3Q=','RWR5SGE=','Z2tuTXo=','eWdXQVo=','dERDc0I=','SU1lZkk=','ZGVsZXRlRGFpbHlBY3Rpdml0eQ==','Q2lzaUo=','QUVRVlI=','dXBkYXRlRGFpbHlBY3Rpdml0eQ==','aVZhUUI=','TE12aUY=','dXNlcklk','Y3JlYXRlRXh0ZW5kQmVoYXZpb3JJbmZv','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvRGV0YWls','aFdxaGU=','RURzVk0=','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvTGlzdA==','VHF6YlM=','R3hBbW8=','ZUhDWWo=','UmFjRWY=','Q3RjS2k=','ZGVsZXRlRXh0ZW5kQmVoYXZpb3JJbmZv','aWhrbHo=','YWRJWHc=','dXBkYXRlRXh0ZW5kQmVoYXZpb3JJbmZv','ZVNscUE=','bnlaVUk=','Y3JlYXRlRW1haWxDb2Rl','Z2V0RW1haWxDb2RlRGV0YWls','ZEZhb0c=','YU54elQ=','Z2V0RW1haWxDb2RlTGlzdA==','dkVrelo=','VkNjTUc=','UGh2YUs=','c05jdEU=','WWdKeVA=','ZGVsZXRlRW1haWxDb2Rl','dHBrc0s=','WVlYd2I=','dXBkYXRlRW1haWxDb2Rl','cllOZkE=','Ym53ek4=','c2VuZEVtYWlsQ29kZQ==','c3VjY2Vzcw==','6aqM6K+B56CB5LiA5aSp5YaF5pyJ5pWI77yM5peg6ZyA6YeN5aSN5Y+R6YCB','c210cC4xNjMuY29t','amlhbmcxMTI1NzEyQDE2My5jb20=','amlhbmd5aW5nd2VpQGZpcg==','IumCrueusemqjOivgeeggSIgPGppYW5nMTEyNTcxMkAxNjMuY29tPg==','6aqM6K+B56CBOiA=','5oKo5aW977yM5oKo55qE6aqM6K+B56CB5piv77ya','PGI+5oKo5aW977yM5oKo55qE6aqM6K+B56CB5piv77ya','PC9iPg==','ZW1haWw=','aXNTZW5kRW1haWxDb2RlVG9kYXk=','b3Z5U0M=','TEZ3VWE=','ellWZk8=','Y2VpbA==','dlN5SHQ=','cmFuZG9t','aW9ua3Y=','Y3JlYXRlVHJhbnNwb3J0','V0RPU2o=','Z29sWXM=','TVpSam0=','c2VuZE1haWw=','aWx0TXc=','YlNYWGE=','bVN2R3I=','ZmloRGs=','Tm9hS2M=','TWlVUmQ=','V2xhRWw=','VGJpV2w=','bmRvRUo=','c2F2ZUVtYWlsQ29kZQ==','Z2V0VGVzdE1lc3NhZ2VVcmw=','TU1mTnU=','aWdub3JlRXJyb3JNZXNzYWdl','d2ViTW9uaXRvcklk','Y3JlYXRlSWdub3JlRXJyb3I=','Z2V0SWdub3JlRXJyb3JEZXRhaWw=','aXdFTWg=','aWl1VWo=','Z2V0SWdub3JlRXJyb3JMaXN0','SlVPWW0=','WVBqamY=','aWdub3JlRXJyb3JCeUFwcGxpY2F0aW9u','Qkx6Y1U=','THhUU28=','cHdRcFM=','Y0N4cHk=','U2Vzb0c=','ZGVsZXRlSWdub3JlRXJyb3I=','RFdoRmg=','eW1XTGQ=','dXBkYXRlSWdub3JlRXJyb3I=','UUVqU2w=','SmhQVXM=','Y3JlYXRlSW5mb0NvdW50QnlIb3Vy','Z2V0SW5mb0NvdW50QnlIb3VyRGV0YWls','V05NZE0=','ck9PVnU=','Z2V0SW5mb0NvdW50QnlIb3VyTGlzdA==','dG5RVmk=','Z0FlQUs=','UVpFdVg=','ZVdFRks=','d2JVZkQ=','ZGVsZXRlSW5mb0NvdW50QnlIb3Vy','SHhvSGY=','THZyVnE=','dXBkYXRlSW5mb0NvdW50QnlIb3Vy','Z0dTaWc=','TktoV0o=','Y3JlYXRlTG9hZFBhZ2VJbmZv','Z2V0TG9hZFBhZ2VJbmZvRGV0YWls','V3RIc0Y=','cWJsUWw=','Z2V0TG9hZFBhZ2VJbmZvTGlzdA==','emhrdlE=','UXRQd2E=','WFFkYWQ=','YmpUS0I=','YXF2VnI=','ZGVsZXRlTG9hZFBhZ2VJbmZv','VExNVkQ=','Ym12T3c=','dXBkYXRlTG9hZFBhZ2VJbmZv','c3VJeVQ=','VHJncU4=','Z2V0UGFnZUxvYWRUaW1lQnlEYXRl','VHFuQnU=','RFNKdmE=','dGl0bGU=','YXV0aG9y','Y29udGVudA==','Y2F0ZWdvcnk=','Y3JlYXRlUHJvamVjdA==','Z2V0UHJvamVjdERldGFpbA==','QUxpR0w=','Z1JBcUY=','Z2V0UHJvamVjdExpc3Q=','aVhzT2Y=','TU95T2I=','Z2V0QWxsUHJvamVjdExpc3Q=','UUlMS1A=','WFhmWmg=','Z2V0UHJvamVjdERldGFpbExpc3Q=','TnJ3UWw=','TURDa0w=','Sm9FcGs=','RVpIcks=','ZGVsZXRlUHJvamVjdA==','VW51S1g=','Z3FXUFY=','SVdBV3E=','cGZXR0E=','Z2lPb0c=','dXBkYXRlUHJvamVjdA==','SVBNcWU=','R2RzQkw=','Y3JlYXRlTmV3UHJvamVjdA==','Y3VzdG9tZXI=','Ly93d3cud2ViZnVubnkuY24vcmVzb3VyY2UvbW9uaXRvci5mZXRjaC5taW4uanM/aWQ9','aHR0cDovL3d3dy53ZWJmdW5ueS5jbi9yZXNvdXJjZS9tb25pdG9yLmZldGNoLm1pbi5qcw==','6aG555uu5Yib5bu65oiQ5Yqf','6aG555uu5ZCN6YeN5aSN77yM5Yib5bu66aG555uu5aSx6LSl','ZG9tYWlu','bWFpbkRvbWFpbg==','Y2hlY2tQcm9qZWN0TmFtZQ==','cHJvamVjdE5hbWU=','blNNdEE=','ZnpSV3I=','bW9uaXRvckNvZGU=','cHJvamVjdFR5cGU=','aXlXVEw=','cmVtb3RlUGF0aA==','a3Z0Umg=','Tm1NWFg=','Y1RFV0U=','dGV4dA==','cmVwbGFjZQ==','b3lXcGM=','TlZBZlY=','a3RhTVY=','Y2hlY2tQcm9qZWN0Q291bnQ=','b0tURnc=','TXVjbFM=','Y3JlYXRlUmVzb3VyY2VMb2FkSW5mbw==','Z2V0UmVzb3VyY2VMb2FkSW5mb0RldGFpbA==','b0ppYlg=','ck5wT2o=','Z2V0UmVzb3VyY2VMb2FkSW5mb0xpc3Q=','Z2hQTlE=','RENpYm4=','U0FrT24=','bG5rc2c=','empIUWY=','ZGVsZXRlUmVzb3VyY2VMb2FkSW5mbw==','T0tJaG0=','bVJnY1g=','dXBkYXRlUmVzb3VyY2VMb2FkSW5mbw==','SUV1Q0M=','dkVkTGQ=','QmZzemg=','Z2V0Q3VzdG9tZXJDb3VudEJ5UmVzb3VyY2VFcnJvcg==','bVBWbHo=','Z2V0UmVzb3VyY2VFcnJvckNvdW50QnlEYXk=','UkVTT1VSQ0VfRVJST1I=','bU5HV2Q=','S3plTUY=','Z2V0UmVzb3VyY2VFcnJvckNvdW50QnlIb3Vy','Z2V0UmVzb3VyY2VMb2FkRXJyb3JJbmZvTGlzdEJ5SG91cg==','Z2V0UmVzb3VyY2VMb2FkRXJyb3JJbmZvTGlzdFNldmVuRGF5QWdvQnlIb3Vy','b0x5dFQ=','55So5oi35bey57uP5a2Y5Zyo','6YKu566x5bey57uP5a2Y5Zyo','6YKu566x6aqM6K+B56CB5pyJ6K+vLCDor7fph43mlrDovpPlhaU=','5Yib5bu655So5oi35oiQ5Yqf','5Yib5bu65aSx6LSl77yM5Y+C5pWw6ZSZ6K+v','dXNlcm5hbWU=','ZW1haWxQd2Q=','cGFzc3dvcmQ=','ZmluZFVzZXJCeU5hbWU=','ckNZTVU=','ZmluZFVzZXJCeUVtYWls','TUlMQXA=','Y2hlY2tFbWFpbENvZGU=','QkV2ekE=','VnVTS0M=','TVl5Zk0=','dXN6dms=','cXlrdVI=','Z2V0VXNlckluZm8=','5p+l6K+i5oiQ5Yqf','5p+l6K+i5aSx6LSl77yMYXV0aG9yaXphdGlvbiBlcnJvciE=','aGVhZGVy','YXV0aG9yaXphdGlvbg==','ZUJqQ2Q=','c3BsaXQ=','c2lnbg==','UHVQblE=','WUNvc24=','5Yig6Zmk55So5oi35oiQ5Yqf','55So5oi3SUTlv4XpobvkvKA=','T0Zybkk=','SmtjaEE=','Y1NqblI=','bG9naW4=','55m75b2V5oiQ5Yqf','55m75b2V5aSx6LSl','ZmluZFVzZXJCeUxvZ2lu','SVZsY1c=','cWpCc0Y=','Z2V0VXNlckxpc3Q=','6I635Y+W5aSx6LSl','ZmluZEFsbFVzZXJMaXN0','eFNLTGw=','ZURHWE4=','Y3JlYXRlVmlkZW9z','Z2V0VmlkZW9zRGV0YWls','aFVxSU8=','dXFwTks=','Z2V0VmlkZW9zTGlzdA==','R29zZGY=','d1dOd3k=','Q2NoYW8=','WHN2aFk=','YXdraFk=','ZGVsZXRlVmlkZW9z','WHZRekg=','U25FZE4=','dXBkYXRlVmlkZW9z','aklpR3k=','ekxYUHA=','Z2V0VmlkZW9zRXZlbnQ=','ZXZlbnQ=','cHVzaA==','dnh3Vkc=','Y3JlYXRlQ3VzdG9tZXJQVg==','Z2V0Q3VzdG9tZXJQVkRldGFpbA==','SktUaHo=','Z0N0c2w=','Z2V0Q3VzdG9tZXJQVkxpc3Q=','cHhjQU0=','cFVrZ24=','VVV4dE8=','d0FUSWE=','V1hEQlQ=','ZGVsZXRlQ3VzdG9tZXJQVg==','UXhkc1U=','WUZCYkw=','dXBkYXRlQ3VzdG9tZXJQVg==','Y25tZU4=','SExkV1A=','Z2V0VG9kYXlGbG93RGF0YQ==','dG9kYXlGbG93S2V5LS0=','RHlKSlQ=','aUdWSkE=','bW9uaXRvckluZm8=','Z2V0VGltZQ==','clRlSk0=','R2JabVE=','TmxST3U=','bHBPcnQ=','Z2V0UFZDb3VudEZvckRheQ==','Z2V0VVZDb3VudEZvckRheQ==','Z2V0SXBDb3VudEZvckRheQ==','WnR6b0E=','dG9GaXhlZA==','Yk9jRVg=','Z2V0Q3VzdG9tZXJDb3VudEJ5VGltZQ==','cFVMd0g=','dGltZVNjb3Bl','aUhsdE4=','Z2V0VXNlckNvdW50QnlIb3Vy','Z2V0VXNlckNvdW50U2V2ZW5EYXlBZ29CeUhvdXI=','c2tCcnM=','Z2V0VXZDb3VudEJ5SG91cg==','Z2V0VXZDb3VudFNldmVuRGF5QWdvQnlIb3Vy','cEF5d00=','Z2V0UHZDb3VudEJ5SG91cg==','Z2V0UHZDb3VudEJ5VGltZQ==','Z2V0UHZDb3VudFNldmVuRGF5QWdvQnlIb3Vy','SHRqekk=','Z2V0TmV3Q3VzdG9tZXJDb3VudEJ5SG91cg==','Z2V0TmV3Q3VzdG9tZXJDb3VudEJ5VGltZQ==','Z2V0TmV3Q3VzdG9tZXJDb3VudFNldmVuRGF5QWdvQnlIb3Vy','Z2V0TmV3Q3VzdG9tZXJDb3VudEJ5VG9kYXk=','ZVlyeHM=','Z2V0SW5zdGFsbENvdW50QnlIb3Vy','Z2V0SW5zdGFsbENvdW50QnlUaW1l','Z2V0SW5zdGFsbENvdW50U2V2ZW5EYXlBZ29CeUhvdXI=','Q2tkQUs=','Z2V0UHZVdkNvdW50QnlTZWNvbmQ=','Z2V0UHZDb3VudEJ5U2Vjb25k','Z2V0VXZDb3VudEJ5U2Vjb25k','VnlnQ2g=','Z2V0UHZDb3VudEJ5TWludXRl','Z2V0VXZDb3VudEJ5TWludXRl','d2l2aHI=','Z2V0UHJvdmluY2VDb3VudEJ5U2Vjb25kcw==','5pyq55+l5Zyw5Yy6','Z2V0UHZzSW5mb0J5VGVuU2Vjb25kcw==','TWxNV0o=','bmFtZQ==','WkN1aXI=','cHJvdmluY2U=','ZnlrT0I=','aEZlb1M=','Z2V0VmVyc2lvbkNvdW50T3JkZXJCeUNvdW50','cHJvamVjdFZlcnNpb24=','YjY0RGVjb2RlVW5pY29kZQ==','Z3F2UWE=','Z2V0Q2l0eUNvdW50T3JkZXJCeUNvdW50','R0JGcVE=','Y2l0eQ==','RmRzdWI=','Z2V0RGV2aWNlQ291bnRPcmRlckJ5Q291bnQ=','TEVlQWo=','Z2V0UHZMaXN0QnlQYWdl','RGhEWm8=','Z2V0U2V2ZW5EYXlzTGVmdENvdW50','c2V2ZW5EYXlMZWZ0QXJyYXk=','eXl5eU1NZGQ=','ZGF5MQ==','ZGF5Mg==','ZGF5Mw==','ZGF5NA==','ZGF5NQ==','ZGF5Ng==','ZGF5Nw==','bWhBdmw=','V255UHo=','WnByR1E=','Rm9ybWF0','WlNLWXY=','bXJ3eHU=','ZGF5','V3FveHM=','TUxEV0E=','YWRkRGF5cw==','V2xPalY=','SHBFTUk=','cXh4RXQ=','TlNHQWg=','aFhSTXc=','Zm9nSHU=','aEVPeEo=','dFBlYVA=','WUFmUGI=','Z2V0T3NBbmFseXNpcw==','bGJZVlE=','dXlmUGY=','Rldha3A=','SG9BV0E=','Y3JlYXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0RldGFpbA==','RlJzbmk=','aXFuVWo=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3Q=','SmVzYUw=','aHVqRFg=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeU1pbnV0ZQ==','c3VjY2Vzc++8gQ==','VVB5ZE0=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3RCeURheQ==','T05fRVJST1I=','WmNaZEs=','UWhjdXE=','Z2V0Q29uc29sZUVycm9ySW5mb0xpc3RCeURheQ==','Q09OU09MRV9FUlJPUg==','V2ZGQXU=','SHlDYXU=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3RCeUhvdXI=','Z2V0RXJyb3JDb3VudEJ5SG91cg==','Z2V0RXJyb3JDb3VudFNldmVuRGF5QWdvQnlIb3Vy','Y0NRUmk=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRMaXN0QnlIb3Vy','ckhYc0M=','Vmd4YUQ=','Z2V0SnNFcnJvckNvdW50QnlIb3Vy','a2dCWUU=','Z2V0SmF2YXNjcmlwdENvbnNvbGVFcnJvckluZm9MaXN0QnlIb3Vy','QXpDRlQ=','Z2V0SmF2YXNjcmlwdEVycm9yU29ydA==','dXJaWWU=','Z2V0SmF2YXNjcmlwdEVycm9yTGF0ZXN0VGltZQ==','ZXJyb3JNZXNzYWdl','Z2V0SmF2YXNjcmlwdEVycm9yQWZmZWN0Q291bnQ=','Z2V0UGVySmF2YXNjcmlwdEVycm9yQ291bnRCeU9z','b3NJbmZv','SWJVS0s=','Z2V0Q29uc29sZUVycm9yU29ydA==','Q2RqaEI=','Z2V0UGVySmF2YXNjcmlwdENvbnNvbGVFcnJvckNvdW50','WFlhaVI=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeUhvdXI=','V2FvcGY=','Z0xMZ2M=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeU9z','IDAwOjAwOjAw','aE92Smk=','UW1ZZGU=','R1R4TmY=','Z2V0SmF2YXNjcmlwdEVycm9yUGNDb3VudA==','cGNFcnJvcg==','Z2V0SmF2YXNjcmlwdEVycm9ySW9zQ291bnQ=','aW9zRXJyb3I=','Z2V0SmF2YXNjcmlwdEVycm9yQW5kcm9pZENvdW50','YW5kcm9pZEVycm9y','Z2V0Q3VzdG9tZXJQdlBjQ291bnQ=','cGNQdg==','Z2V0Q3VzdG9tZXJQdklvc0NvdW50','aW9zUHY=','Z2V0Q3VzdG9tZXJQdkFuZHJvaWRDb3VudA==','YW5kcm9pZFB2','b0laS0M=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeVR5cGU=','5p+l6K+i5L+h5oGv5oiQ5Yqf77yB','U1ZxWVQ=','bUNZUUI=','anp5ZkQ=','U3hVSEw=','Z2V0SmF2YXNjcmlwdEVycm9yTGlzdEJ5TXNn','R3l3ZG4=','ZXJyb3JNc2c=','cGN0Y3A=','Z2V0SmF2YXNjcmlwdEVycm9yQWJvdXRJbmZv','TXpnQnM=','Z2V0SmF2YXNjcmlwdEVycm9yT2NjdXJDb3VudEJ5Q3VzdG9tZXJLZXk=','b2NjdXJDb3VudA==','Z2V0QWxsSmF2YXNjcmlwdEVycm9yQ291bnRCeU9z','eVZVb3A=','U3pmY2s=','Z2V0SmF2YXNjcmlwdEVycm9yTGlzdEJ5UGFnZQ==','SnhwZmM=','Z2V0SmF2YXNjcmlwdEVycm9yU3RhY2tDb2Rl','c3RhY2tMaXN0','WWNLRFg=','UXRET2s=','cmJtVnc=','a2VsenQ=','ZGVsZXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','bUtnbXg=','UWtGU3I=','dXBkYXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','TXJHWmg=','VkZEelA=','Y29uc29sZUluZm8=','OXw2fDd8M3w4fDV8MTB8MHwyfDF8NA==','PeOAkOW+ruS/oeWPtzog44CRd2ViZnVubnlfMjAyMA==','G1szM20lcxtbMG0=','PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0=','PSDkvZzogIXvvJrkuIDmraXkuIDkuKrohJrljbDkuIDkuKrlnZEg','PSDnvZHnq5nvvJp3d3cud2ViZnVubnkuY24g','PSDns7vnu5/ov5jlnKjkuI3mlq3lrozlloTkuK3vvIzmrKLov45TdGFy77yM5L2g55qE5YWz5rOo5Lya6K6p5oiR5Lus5YGa5b6X5pu05aW977yB','Z1ZKeGo=','bG9n','bHl3bVc=','cFZyZkU=','ZkVybUM=','R2dmTm8=','bG5RU1M=','eFR2Skc=','dXBMb2c=','MS4wLjA=','54mI5pys5Y+35LiN5q2j56Gu77yM6K+35pu05paw5pyA5paw5Luj56CBIC0g','eC1mb3J3YXJkZWQtZm9y','c2NyaXB0IGVycm9y','JCQk','RUxFX0JFSEFWSU9S','SlNfRVJST1I=','SFRUUF9MT0c=','5YaF5a655aSq6ZW/','U0NSRUVOX1NIT1Q=','Q1VTVE9NRVJfUFY=','eXl5eS1NTS1kZA==','b2xk','bmV3','TE9BRF9QQUdF','UkVTT1VSQ0VfTE9BRA==','VklERU9TX0VWRU5U','Q1VTVE9NSVpFX0JFSEFWSU9S','IC0tIA==','dXVIU0k=','d2ViX21vbml0b3JfdmVyc2lvbg==','UU5nQkY=','REpQQ3I=','U1ZCcFg=','cmVx','aGVhZGVycw==','WUNrcGc=','Y29ubmVjdGlvbg==','cmVtb3RlQWRkcmVzcw==','c29ja2V0','c1BiZUY=','bG9nSW5mbw==','TEVsZng=','aEtlalk=','bW9uaXRvcklw','bWQ1RW5jcnlwdA==','Y29tcGxldGVVcmw=','ZW5jcnlwdFVybA==','dXBsb2FkVHlwZQ==','aVpXV2E=','WmFrdFM=','YlNUT3U=','cmVzcG9uc2VUZXh0','Wllkb0k=','VHBZaGE=','ckhoQks=','RHN5TUs=','cUlORUU=','bG9va3Vw','cmVnaW9u','Y3VzdG9tZXJLZXk=','bWF0Y2g=','QXBrQmg=','cmFndGo=','WGFUSnk=','WG95QXQ=','SnNMWU4=','UGhrU0I=','Y3VzdG9tZXJLZXlDcmVhdGVkRGF0ZQ==','bGJQcHg=','RkpkaVM=','VmhpVFU=','bmV3U3RhdHVz','cHZtTGs=','Q2FiS0I=','RHNzZ0E=','cW9VYkE=','cHJpbnRFcnJvcg==','aG1UUW8=','dXBEZWJ1Z0xvZw==','eXZFYmE=','c2hmeUQ=','VHBIVW8=','UXVXZ1U=','VU5Oem8=','eFNSUXc=','ZVBmeU8=','ZkhETkE=','aFhPVU0=','UkF5VVM=','Tnh0Smo=','R05yYUg=','aU1NZFg=','TUtvT2U=','cm1FUno=','aEp6UGw=','dkRrRkg=','S3pkaUo=','T0RUdHM=','UFJnUG8=','cG5GeEU=','TURkcnE=','b1FCZVE=','UFNUc2E=','dmtVTmE=','WmJpV3c=','R3NDbUM=','QWtyUkM=','dkZ1QXg=','VEFJbXY=','aGdGSlk=','c21oYkw=','alZXWFE=','aGFuZGxlTG9uZ0V2ZW50cw==','Y29uY2F0','ZXZlbnRz','TFZSdE8=','RVpxSU4=','V2JaUno=','THBTUlM=','R3phVHY=','VEJJbHg=','c2ltcGxlVXJs','dUx4Z3E=','b2pnWko=','aHR0cFVybA==','d2xKSVk=','WEtzdEc=','Y0h1SFA=','bWxRdW4=','aWlnS3I=','WkJZQ0I=','eFhuelM=','TnhyenA=','TlZubG8=','aXJHTFM=','anNzWEo=','U3FwWG8=','Qk1pc2w=','dXBsb2FkRXh0ZW5kTG9n','b2JqZWN0','em9BYk8=','WklGT1o=','REJlako=','dXBkYXRlVGFibGVOYW1l','MHw5fDF8NXw2fDd8Mnw0fDN8OA==','UEh3RnU=','c2VhcmNoQmVoYXZpb3JzUmVjb3Jk','Y3VzdG9tZXJLZXnojrflj5bml7bpl7TvvJo=','IGN1c3RvbWVyS2V5PSc=','JyBvciA=','IDE9MSA=','IHVzZXJJZD0n','MTExMTEx','c2VhcmNoVmFsdWU=','aGFwcGVuVGltZVNjb3Bl','cmdaYkM=','dXBCWFE=','dm9yWHA=','aGFwcGVuVGltZVNjb3BlRW5k','Z2V0Q3VzdG9tZXJLZXlCeVVzZXJJZA==','S2NzWnI=','QVVFUVE=','QkJhY1o=','enlzU28=','dnhvcm0=','YnV0UWw=','TXprTUE=','UXBkVWM=','dlFNUUE=','TFJEdmc=','QlFoTUM=','aFJaUkM=','V1lDQkY=','ZGFOSUg=','SGh3bk0=','Y0xFdnA=','Z2V0UHJvamVjdEJ5VXNlckFuZFBOYW1l','bEh0VkU=','eHZpVGo=','Z2V0QmVoYXZpb3JzQnlVc2Vy','Z2V0SHR0cExvZ3NCeVVzZXI=','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvQnlVc2VySWQ=','cFJ4VVE=','Z2V0UmVzb3VyY2VMb2FkSW5mb0J5VXNlcklk','Z2V0SHR0cEVycm9yc0J5VXNlcg==','ZVltREc=','c2VhcmNoQ3VzdG9tZXJJbmZv','YnJvd3NlckluZm8=','5oqx5q2J77yM5L2g5rKh5pyJ5p+l55yL5p2D6ZmQ','VEttZXc=','ZmJqY2c=','WmNWY0Q=','Q295bnM=','SHJkRnk=','UkxSQXo=','Ukx3TG8=','Zm5ma0o=','Umt0TkM=','T29DTUc=','U3hQR0k=','b09Na2Q=','T3JtUEw=','Y2FsY3VsYXRlUHZDb3VudEJ5Q3VzdG9tZXJLZXlGb3JNb250aA==','Z2V0Q3VzdG9tZXJQVkRldGFpbEJ5Q3VzdG9tZXJLZXk=','Z2V0UFZzQnlDdXN0b21lcktleQ==','Z2V0UGFnZUxvYWRUaW1lQnlDdXN0b21lcktleQ==','Z2V0TG9hZFBhZ2VJbmZvQnlDdXN0b21lcktleQ==','c3F0RUM=','YXJ6dWs=','Y2FsY3VsYXRlQ291bnRCeUhvdXI=','6I635Y+W5pyA5paw54mI5pys5Y+3','aHR0cDovL3d3dy53ZWJmdW5ueS5jbi9zZXJ2ZXIvbW9uaXRvclZlcnNpb24=','44CQ5byA5aeL5omn6KGM6K6h566X5q+P5bCP5pe255qEcHbph4/vvIx1dumHj++8jGpz6ZSZ6K+v6YeP77yMaHR0cOmUmeivr+mHj++8jCByZXNvdXJjZemUmeivr+mHjy4uLg==','UUlxdXQ=','R0FJVlA=','Z0p2U00=','cHJpbnRJbmZv','eXFQYlY=','Y2FsY3VsYXRlQ291bnRCeUhvdXJGb3JEZXRhaWxIb3Vy','5piv5LiK5ZGo5ZCM5LiA5pe26Ze055qEIA==','5pe277yMSlPplJnor6/ph4/ovr7liLAg','IOS4qu+8mw==','5pe277yM6Ieq5a6a5LmJ6ZSZ6K+v6YeP6L6+5YiwIA==','5pe277yM6Z2Z5oCB6LWE5rqQ6ZSZ6K+v6YeP6L6+5YiwIA==','5pe277yM5o6l5Y+j6K+35rGC6ZSZ6K+v6YeP6L6+5YiwIA==','eXl5eS1NTS1kZCBoaA==','OjAwOjAw','TU0tZGQgaGg=','IOaJp+ihjOaXtumXtO+8miA=','d2FybmluZ01zZw==','SlPplJnor6/miqXorabvvJo=','6Ieq5a6a5LmJ6ZSZ6K+v5oql6K2m77ya','6Z2Z5oCB6LWE5rqQ6ZSZ6K+v5oql6K2m77ya','5o6l5Y+j6K+35rGC6ZSZ6K+v5oql6K2m77ya','6ZSZ6K+v6K2m5oql77yB','44CQ6K6h566X5q+P5bCP5pe255qEcHbph4/vvIx1dumHj++8jGpz6ZSZ6K+v6YeP77yMaHR0cOmUmeivr+mHj++8jCByZXNvdXJjZemUmeivr+mHj+e7k+adn+OAkQ==','TUtVVlk=','RUNBRkU=','cE5iYWo=','bEtrUW0=','bHBDZ1A=','RVJSdGE=','bWF1QWw=','RnNRS1M=','Q3R1cFc=','Y2NjbE0=','VXFGbmo=','dW94WGo=','WFBQYVk=','eXpTa28=','c3Vic3RyaW5n','TVRwaEM=','aG91ck5hbWU=','Y2FsY3VsYXRlVXZDb3VudEJ5SG91cg==','aG91ckNvdW50','Z2V0SW5mb0NvdW50QnlJZEJ5SG91ck5hbWU=','Q2FRTFQ=','Y2FsY3VsYXRlUHZDb3VudEJ5SG91cg==','bmdQYXk=','Y2FsY3VsYXRlTmV3Q3VzdG9tZXJDb3VudEJ5SG91cg==','TkVXX0NVU1RPTUVS','Q2RyeHM=','Y2FsY3VsYXRlSW5zdGFsbENvdW50QnlIb3Vy','SU5TVEFMTF9DT1VOVA==','enJsVlk=','Y2FsY3VsYXRlSnNFcnJvckNvdW50QnlIb3Vy','VndDR3U=','Z2V0SW5mb0NvdW50QnlIb3VyRGV0YWlsQnlIb3VyTmFtZQ==','akl1b3g=','dHllYlQ=','U1ByV24=','RmpteUo=','ZmFZUm4=','T3ZLam8=','VXFja0E=','UUNlQ0Q=','c3VTVVg=','RG9Dc2c=','SFpycnI=','Y09JUWg=','cHVFRXY=','bFJEZG8=','ZWRBeGE=','U2daQmQ=','Y2FsY3VsYXRlQ29uc29sZUVycm9yQ291bnRCeUhvdXI=','bEtRZmw=','eWVLVms=','b1J2cWo=','Rm9xZXk=','enpDZEQ=','eEJhSGU=','eU9hUG4=','V0xYREg=','bkhpWXg=','WkdPdWY=','eEJxRXI=','ZGlNQ2Y=','Y2FsY3VsYXRlUmVzb3VyY2VFcnJvckNvdW50QnlIb3Vy','VFdFSE8=','alBmVEw=','Q0pNaXI=','VktSWkg=','SFZxdGs=','b0dsR3o=','TWdVa0s=','WkxvWXA=','UENrT2w=','VU1jYlU=','T3Z0YmI=','Y2FsY3VsYXRlSHR0cEVycm9yQ291bnRCeUhvdXI=','ZkJPbkg=','alRrTWs=','RnZodUE=','SVZBb3c=','bFlnUVc=','a3dpbEg=','YnFBa1I=','R3RJTkg=','eW5tRVU=','bWFJSlo=','Z2V0UHJvamVjdEJ5V2ViTW9uaXRvcklk','VXZKWWs=','eVZEdWE=','dnp3Z3o=','dk13eUU=','PHA+PGI+6aG555uu5ZCN56ew77yaPC9iPg==','PC9wPjxwPjxiPg==','PC9wPjxwPuivt+WPiuaXtuWkhOeQhu+8gTwvcD4=','c2VuZEVtYWlsRnJvbUN1c3RvbWVy','Rk1xVGU=','VWRpVWE=','Y2FsY3VsYXRlQ291bnRCeURheQ==','44CQ5Y2z5bCG5byA5aeLcHbph4/vvIx1dumHj++8jGpz6ZSZ6K+v6YeP77yMaHR0cOmUmeivr+mHj++8jHJlc291cmNl6ZSZ6K+v6YeP55qE6K6h566XLi4u','dFVsbUI=','Y2FsY3VsYXRlQ291bnRCeURheUZvckRheXM=','cHbph4/vvIx1dumHj++8jGpz6ZSZ6K+v6YeP77yMaHR0cOmUmeivr+mHj++8jHJlc291cmNl6ZSZ6K+v6YeP55qE6K6h566X57uT5p2f44CR','bm9iaEI=','ZGF5TmFtZQ==','Y2FsY3VsYXRlSnNFcnJvckNvdW50QnlEYXk=','ZGF5Q291bnQ=','Z2V0SW5mb0NvdW50QnlEYXlEZXRhaWxCeURheU5hbWU=','ZkFpV2M=','Y3JlYXRlSW5mb0NvdW50QnlEYXk=','dXBkYXRlSW5mb0NvdW50QnlEYXk=','Y2FsY3VsYXRlQ29uc29sZUVycm9yQ291bnRCeURheQ==','dGlzdmE=','Y2FsY3VsYXRlSHR0cEVycm9yQ291bnRCeURheQ==','Y2FsY3VsYXRlUmVzb3VyY2VFcnJvckNvdW50QnlEYXk=','QkdvdW8=','Z2V0RXJyb3JJbmZv','dG9kYXlFcnJvckluZm9LZXktLQ==','R1dySUI=','bWdLR0M=','dVVIaGc=','UUVxc3A='];(function(_0x5d4598,_0x36151e){var _0x431f56=function(_0x5c868a){while(--_0x5c868a){_0x5d4598['push'](_0x5d4598['shift']());}};var _0x1d5a5c=function(){var _0x1462a5={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x53370d,_0x3457ed,_0x3e420e,_0x5db167){_0x5db167=_0x5db167||{};var _0xe81325=_0x3457ed+'='+_0x3e420e;var _0x4f3811=0x0;for(var _0x4f3811=0x0,_0x144444=_0x53370d['length'];_0x4f3811<_0x144444;_0x4f3811++){var _0x36dfa1=_0x53370d[_0x4f3811];_0xe81325+=';\x20'+_0x36dfa1;var _0x43aead=_0x53370d[_0x36dfa1];_0x53370d['push'](_0x43aead);_0x144444=_0x53370d['length'];if(_0x43aead!==!![]){_0xe81325+='='+_0x43aead;}}_0x5db167['cookie']=_0xe81325;},'removeCookie':function(){return'dev';},'getCookie':function(_0x5061ea,_0x23dcbb){_0x5061ea=_0x5061ea||function(_0x1429df){return _0x1429df;};var _0x4903fb=_0x5061ea(new RegExp('(?:^|;\x20)'+_0x23dcbb['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x315897=function(_0x5a80c9,_0x59c218){_0x5a80c9(++_0x59c218);};_0x315897(_0x431f56,_0x36151e);return _0x4903fb?decodeURIComponent(_0x4903fb[0x1]):undefined;}};var _0xae7a2e=function(){var _0x53af8b=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x53af8b['test'](_0x1462a5['removeCookie']['toString']());};_0x1462a5['updateCookie']=_0xae7a2e;var _0x41e871='';var _0x30cbc6=_0x1462a5['updateCookie']();if(!_0x30cbc6){_0x1462a5['setCookie'](['*'],'counter',0x1);}else if(_0x30cbc6){_0x41e871=_0x1462a5['getCookie'](null,'counter');}else{_0x1462a5['removeCookie']();}};_0x1d5a5c();}(_0x31a8,0x89));var _0xc401=function(_0x1f0b96,_0x29efdb){_0x1f0b96=_0x1f0b96-0x0;var _0x18947b=_0x31a8[_0x1f0b96];if(_0xc401['nprcNi']===undefined){(function(){var _0x58ee70=function(){var _0x4162f1;try{_0x4162f1=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x20a011){_0x4162f1=window;}return _0x4162f1;};var _0x298e0b=_0x58ee70();var _0x1f3ffe='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x298e0b['atob']||(_0x298e0b['atob']=function(_0x24f394){var _0x4d66a7=String(_0x24f394)['replace'](/=+$/,'');for(var _0x182826=0x0,_0x294f05,_0x38e15a,_0x201970=0x0,_0xc1e0ef='';_0x38e15a=_0x4d66a7['charAt'](_0x201970++);~_0x38e15a&&(_0x294f05=_0x182826%0x4?_0x294f05*0x40+_0x38e15a:_0x38e15a,_0x182826++%0x4)?_0xc1e0ef+=String['fromCharCode'](0xff&_0x294f05>>(-0x2*_0x182826&0x6)):0x0){_0x38e15a=_0x1f3ffe['indexOf'](_0x38e15a);}return _0xc1e0ef;});}());_0xc401['OCimTl']=function(_0x2ed91b){var _0x5027b1=atob(_0x2ed91b);var _0x25207f=[];for(var _0x1956d7=0x0,_0x145791=_0x5027b1['length'];_0x1956d7<_0x145791;_0x1956d7++){_0x25207f+='%'+('00'+_0x5027b1['charCodeAt'](_0x1956d7)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x25207f);};_0xc401['sMtKut']={};_0xc401['nprcNi']=!![];}var _0x54c338=_0xc401['sMtKut'][_0x1f0b96];if(_0x54c338===undefined){var _0x419086=function(_0x24ecae){this['XCvILw']=_0x24ecae;this['xwPiPy']=[0x1,0x0,0x0];this['TlpAyO']=function(){return'newState';};this['WLtgpH']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*';this['DfpsvP']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x419086['prototype']['RJYsNQ']=function(){var _0x4911b3=new RegExp(this['WLtgpH']+this['DfpsvP']);var _0x163110=_0x4911b3['test'](this['TlpAyO']['toString']())?--this['xwPiPy'][0x1]:--this['xwPiPy'][0x0];return this['qFWqpg'](_0x163110);};_0x419086['prototype']['qFWqpg']=function(_0x3ed2f9){if(!Boolean(~_0x3ed2f9)){return _0x3ed2f9;}return this['VSrwQV'](this['XCvILw']);};_0x419086['prototype']['VSrwQV']=function(_0x6159d1){for(var _0x5e833d=0x0,_0x3135f2=this['xwPiPy']['length'];_0x5e833d<_0x3135f2;_0x5e833d++){this['xwPiPy']['push'](Math['round'](Math['random']()));_0x3135f2=this['xwPiPy']['length'];}return _0x6159d1(this['xwPiPy'][0x0]);};new _0x419086(_0xc401)['RJYsNQ']();_0x18947b=_0xc401['OCimTl'](_0x18947b);_0xc401['sMtKut'][_0x1f0b96]=_0x18947b;}else{_0x18947b=_0x54c338;}return _0x18947b;};var _0x4d564f=function(){var _0x31b263=!![];return function(_0x2be5f7,_0x3a0541){var _0x188e0f=_0x31b263?function(){if(_0x3a0541){var _0xdcc4d9=_0x3a0541['apply'](_0x2be5f7,arguments);_0x3a0541=null;return _0xdcc4d9;}}:function(){};_0x31b263=![];return _0x188e0f;};}();var _0x20e8fa=_0x4d564f(this,function(){var _0x56601=function(){return'\x64\x65\x76';},_0x31736b=function(){return'\x77\x69\x6e\x64\x6f\x77';};var _0x2ce91b=function(){var _0x2e7d00=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!_0x2e7d00['\x74\x65\x73\x74'](_0x56601['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x13f8ea=function(){var _0x41e0c9=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return _0x41e0c9['\x74\x65\x73\x74'](_0x31736b['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x288d02=function(_0x389810){var _0x3ae8d7=~-0x1>>0x1+0xff%0x0;if(_0x389810['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===_0x3ae8d7)){_0x482385(_0x389810);}};var _0x482385=function(_0x2d97d3){var _0x31018b=~-0x4>>0x1+0xff%0x0;if(_0x2d97d3['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==_0x31018b){_0x288d02(_0x2d97d3);}};if(!_0x2ce91b()){if(!_0x13f8ea()){_0x288d02('\x69\x6e\x64\u0435\x78\x4f\x66');}else{_0x288d02('\x69\x6e\x64\x65\x78\x4f\x66');}}else{_0x288d02('\x69\x6e\x64\u0435\x78\x4f\x66');}});_0x20e8fa();var _0x4ac45f=function(){var _0x4919e8=!![];return function(_0x29ab6e,_0x9bd69e){var _0x32e838=_0x4919e8?function(){if(_0x9bd69e){var _0x2419d1=_0x9bd69e[_0xc401('0x0')](_0x29ab6e,arguments);_0x9bd69e=null;return _0x2419d1;}}:function(){};_0x4919e8=![];return _0x32e838;};}();(function(){var _0x218770={'MwXKZ':_0xc401('0x1'),'PJJyr':_0xc401('0x2'),'QTsxa':function(_0x109e80,_0x9c4fe8){return _0x109e80(_0x9c4fe8);},'mYleH':_0xc401('0x3'),'yiIck':function(_0x3e3b82,_0x56c407){return _0x3e3b82+_0x56c407;},'GUKej':_0xc401('0x4'),'IqvJe':_0xc401('0x5'),'wWnRD':function(_0x2ed6f8,_0x59fa9a){return _0x2ed6f8(_0x59fa9a);},'kskSg':function(_0x598621){return _0x598621();},'qqchV':function(_0x3213e1,_0x1467e6,_0x1cea4c){return _0x3213e1(_0x1467e6,_0x1cea4c);}};_0x218770[_0xc401('0x6')](_0x4ac45f,this,function(){var _0x233ca8=new RegExp(_0x218770[_0xc401('0x7')]);var _0x38e6ec=new RegExp(_0x218770[_0xc401('0x8')],'i');var _0x119d84=_0x218770[_0xc401('0x9')](_0x575b8a,_0x218770[_0xc401('0xa')]);if(!_0x233ca8[_0xc401('0xb')](_0x218770[_0xc401('0xc')](_0x119d84,_0x218770[_0xc401('0xd')]))||!_0x38e6ec[_0xc401('0xb')](_0x218770[_0xc401('0xc')](_0x119d84,_0x218770[_0xc401('0xe')]))){_0x218770[_0xc401('0xf')](_0x119d84,'0');}else{_0x218770[_0xc401('0x10')](_0x575b8a);}})();}());const db=require(_0xc401('0x11'));const Sequelize=db[_0xc401('0x12')];const Utils=require(_0xc401('0x13'));const utils=require(_0xc401('0x13'));const geoip=require(_0xc401('0x14'));const log=require(_0xc401('0x15'));const statusCode=require(_0xc401('0x16'));setInterval(function(){var _0x23c42a={'pGHrk':function(_0x55c079){return _0x55c079();}};_0x23c42a[_0xc401('0x17')](_0x575b8a);},0xfa0);const UPLOAD_TYPE=require(_0xc401('0x18'));const fetch=require(_0xc401('0x19'));const fs=require('fs');const customerInfo=require(_0xc401('0x1a'));const userBehaviors=require(_0xc401('0x1b'));const citys=require(_0xc401('0x1c'));const provinces=require(_0xc401('0x1d'));const callFile=require(_0xc401('0x1e'));const AccountConfig=require(_0xc401('0x1f'));const monitorKeys=require(_0xc401('0x20'));const {ScreenShotInfoModel,HttpLogInfoModel,CommonModel,EmailCodeModel,DailyActivityModel,InfoCountByHourModel,IgnoreErrorModel,InfoCountByDayModel,ExtendBehaviorInfoModel,BehaviorInfoModel,ProjectModel,LoadPageInfoModel,VideosInfoModel,UserModel,HttpErrorInfoModel,ResourceLoadInfoModel,JavascriptErrorInfoModel,CustomerPVModel}=require(_0xc401('0x21'));class HttpLogInfoController{static async[_0xc401('0x22')](_0x176845){var _0x33506a={'sgKUr':_0xc401('0x23'),'LYHzP':_0xc401('0x24')};const _0x2c638a=_0x176845[_0xc401('0x25')][_0xc401('0x26')];const _0x285c84=JSON[_0xc401('0x27')](_0x2c638a[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x2c82b5=await HttpLogInfoModel[_0xc401('0x2a')](_0x285c84);let _0xe3d947=await HttpLogInfoModel[_0xc401('0x2b')](_0x2c82b5['id']);_0x176845[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x176845[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x33506a[_0xc401('0x2f')],_0xe3d947);}else{_0x176845[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x176845[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x33506a[_0xc401('0x31')]);}}static async[_0xc401('0x32')](_0x3f0e35){var _0x3b82c5={'eXHdq':_0xc401('0x33'),'ijyvH':_0xc401('0x34')};let _0x1abb6e=_0x3f0e35[_0xc401('0x25')][_0xc401('0x26')];if(_0x1abb6e){const _0x2039ba=await HttpLogInfoModel[_0xc401('0x32')]();_0x3f0e35[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3f0e35[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3b82c5[_0xc401('0x35')],_0x2039ba);}else{_0x3f0e35[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3f0e35[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x3b82c5[_0xc401('0x36')]);}}static async[_0xc401('0x37')](_0x4a0e05){var _0x5112a4={'UFEQj':_0xc401('0x38'),'nlfIh':_0xc401('0x39')};let _0x1991c6=_0x4a0e05[_0xc401('0x3a')]['id'];if(_0x1991c6){let _0x16f9c0=await HttpLogInfoModel[_0xc401('0x2b')](_0x1991c6);_0x4a0e05[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4a0e05[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5112a4[_0xc401('0x3b')],_0x16f9c0);}else{_0x4a0e05[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4a0e05[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x5112a4[_0xc401('0x3c')]);}}static async[_0xc401('0x3d')](_0xb80308){var _0x37e442={'TwQuV':function(_0x3632e4,_0x21f2fd){return _0x3632e4(_0x21f2fd);},'GKRRw':_0xc401('0x3e'),'tEbmY':_0xc401('0x3f')};let _0x46cd29=_0xb80308[_0xc401('0x3a')]['id'];if(_0x46cd29&&!_0x37e442[_0xc401('0x40')](isNaN,_0x46cd29)){await HttpLogInfoModel[_0xc401('0x41')](_0x46cd29);_0xb80308[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xb80308[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x37e442[_0xc401('0x42')]);}else{_0xb80308[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xb80308[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x37e442[_0xc401('0x43')]);}}static async[_0xc401('0x44')](_0x39e33c){var _0x2016c7={'uYhhU':_0xc401('0x45'),'KsyiS':_0xc401('0x46')};let _0x5f51e2=_0x39e33c[_0xc401('0x25')][_0xc401('0x26')];let _0x30a0d3=_0x39e33c[_0xc401('0x3a')]['id'];if(_0x5f51e2){await HttpLogInfoModel[_0xc401('0x47')](_0x30a0d3,_0x5f51e2);let _0xdd1b80=await HttpLogInfoModel[_0xc401('0x2b')](_0x30a0d3);_0x39e33c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x39e33c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2016c7[_0xc401('0x48')],_0xdd1b80);}else{_0x39e33c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x39e33c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2016c7[_0xc401('0x49')]);}}static async[_0xc401('0x4a')](_0x2ec245){var _0x49f602={'ScUCr':_0xc401('0x33')};const _0x5760d4=utils[_0xc401('0x4b')](_0x2ec245[_0xc401('0x25')][_0xc401('0x4c')]);let _0xfded60=[];await HttpLogInfoModel[_0xc401('0x4a')](_0x5760d4)[_0xc401('0x4d')](_0x2818c7=>{_0xfded60=_0x2818c7;});let _0x9d8285=[];await HttpLogInfoModel[_0xc401('0x4e')](_0x5760d4)[_0xc401('0x4d')](_0x275f03=>{_0x9d8285=_0x275f03;});_0x2ec245[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2ec245[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x49f602[_0xc401('0x4f')],{'today':_0xfded60,'seven':_0x9d8285});}static async[_0xc401('0x50')](_0x39d8bf){var _0x4efc9a={'qiTsr':_0xc401('0x33'),'ToHLN':_0xc401('0x34')};const _0x1d917f=utils[_0xc401('0x4b')](_0x39d8bf[_0xc401('0x25')][_0xc401('0x4c')]);await HttpLogInfoModel[_0xc401('0x50')](_0x1d917f)[_0xc401('0x4d')](_0x2d2db0=>{if(_0x2d2db0){_0x39d8bf[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x39d8bf[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4efc9a[_0xc401('0x51')],_0x2d2db0);}else{_0x39d8bf[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x39d8bf[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4efc9a[_0xc401('0x52')]);}});}static async[_0xc401('0x53')](_0x46ed7c){var _0x5874b8={'JQYug':function(_0x26403a,_0x28f67b){return _0x26403a<_0x28f67b;},'pizJw':_0xc401('0x33')};const _0x5ac898=JSON[_0xc401('0x27')](_0x46ed7c[_0xc401('0x25')][_0xc401('0x26')]);let _0x2873a7=null;await HttpLogInfoModel[_0xc401('0x54')](_0x5ac898)[_0xc401('0x4d')](_0x4db000=>{_0x2873a7=_0x4db000;});for(let _0xc3413=0x0;_0x5874b8[_0xc401('0x55')](_0xc3413,_0x2873a7[_0xc401('0x56')]);_0xc3413++){await HttpLogInfoModel[_0xc401('0x57')](_0x2873a7[_0xc3413][_0xc401('0x58')],_0x5ac898)[_0xc401('0x4d')](_0x3aad5a=>{_0x2873a7[_0xc3413][_0xc401('0x59')]=_0x3aad5a[0x0][_0xc401('0x59')];_0x2873a7[_0xc3413][_0xc401('0x29')]=_0x3aad5a[0x0][_0xc401('0x29')];});await HttpLogInfoModel[_0xc401('0x5a')](_0x2873a7[_0xc3413][_0xc401('0x58')],_0x5ac898)[_0xc401('0x4d')](_0x19b8c1=>{_0x2873a7[_0xc3413][_0xc401('0x5b')]=_0x19b8c1[0x0][_0xc401('0x5b')];});}_0x46ed7c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x46ed7c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5874b8[_0xc401('0x5c')],_0x2873a7);}static async[_0xc401('0x5d')](_0x273fa5){var _0x22bae9={'LePnj':_0xc401('0x33')};let _0x45b282=_0x273fa5[_0xc401('0x25')][_0xc401('0x26')];const _0x47c3a7=JSON[_0xc401('0x27')](_0x45b282);let _0x491072=[];await HttpLogInfoModel[_0xc401('0x5d')](_0x47c3a7)[_0xc401('0x4d')](_0x4d5baf=>{_0x491072=_0x4d5baf;});_0x273fa5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x273fa5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x22bae9[_0xc401('0x5e')],{'http':_0x491072});}}class HttpErrorInfoController{static async[_0xc401('0x22')](_0x402bfc){var _0x34204e={'OLhcg':_0xc401('0x23'),'onsAs':_0xc401('0x24')};const _0x2cb184=_0x402bfc[_0xc401('0x25')][_0xc401('0x26')];const _0x34b00d=JSON[_0xc401('0x27')](_0x2cb184[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x15d0b2=await HttpErrorInfoModel[_0xc401('0x5f')](_0x34b00d);let _0x2a8521=await HttpErrorInfoModel[_0xc401('0x60')](_0x15d0b2['id']);_0x402bfc[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x402bfc[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x34204e[_0xc401('0x61')],_0x2a8521);}else{_0x402bfc[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x402bfc[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x34204e[_0xc401('0x62')]);}}static async[_0xc401('0x63')](_0x3ef0b6){var _0x206af4={'WKnuc':_0xc401('0x33'),'DqZvd':_0xc401('0x34')};let _0x560f57=_0x3ef0b6[_0xc401('0x25')][_0xc401('0x26')];if(_0x560f57){const _0x48aa40=await HttpErrorInfoModel[_0xc401('0x63')]();_0x3ef0b6[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3ef0b6[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x206af4[_0xc401('0x64')],_0x48aa40);}else{_0x3ef0b6[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3ef0b6[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x206af4[_0xc401('0x65')]);}}static async[_0xc401('0x37')](_0x4341c7){var _0x2b6eb3={'HrfgC':_0xc401('0x38'),'Rgipj':_0xc401('0x39')};let _0x134b84=_0x4341c7[_0xc401('0x3a')]['id'];if(_0x134b84){let _0x46c17c=await HttpErrorInfoModel[_0xc401('0x60')](_0x134b84);_0x4341c7[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4341c7[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2b6eb3[_0xc401('0x66')],_0x46c17c);}else{_0x4341c7[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4341c7[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2b6eb3[_0xc401('0x67')]);}}static async[_0xc401('0x3d')](_0x58f4f7){var _0x2ab44b={'dcBve':function(_0x4a7553,_0x49a7e8){return _0x4a7553(_0x49a7e8);},'qhZmM':_0xc401('0x3e'),'YkIfT':_0xc401('0x3f')};let _0x265692=_0x58f4f7[_0xc401('0x3a')]['id'];if(_0x265692&&!_0x2ab44b[_0xc401('0x68')](isNaN,_0x265692)){await HttpErrorInfoModel[_0xc401('0x69')](_0x265692);_0x58f4f7[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x58f4f7[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2ab44b[_0xc401('0x6a')]);}else{_0x58f4f7[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x58f4f7[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2ab44b[_0xc401('0x6b')]);}}static async[_0xc401('0x44')](_0x2af4cf){var _0x22e12d={'iFGua':_0xc401('0x45'),'FKfqE':_0xc401('0x46')};let _0x4852c7=_0x2af4cf[_0xc401('0x25')][_0xc401('0x26')];let _0x49c744=_0x2af4cf[_0xc401('0x3a')]['id'];if(_0x4852c7){await HttpErrorInfoModel[_0xc401('0x6c')](_0x49c744,_0x4852c7);let _0x50f01e=await HttpErrorInfoModel[_0xc401('0x60')](_0x49c744);_0x2af4cf[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2af4cf[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x22e12d[_0xc401('0x6d')],_0x50f01e);}else{_0x2af4cf[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2af4cf[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x22e12d[_0xc401('0x6e')]);}}static async[_0xc401('0x4a')](_0x56f49d){var _0x50cd9c={'FUNch':_0xc401('0x33')};const _0x55523f=Utils[_0xc401('0x4b')](_0x56f49d[_0xc401('0x25')][_0xc401('0x4c')]);_0x55523f[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x70')];let _0x29faf3=[];await HttpErrorInfoModel[_0xc401('0x4a')](_0x55523f)[_0xc401('0x4d')](_0x49ae2b=>{_0x29faf3=_0x49ae2b;});let _0x51754f=[];await HttpErrorInfoModel[_0xc401('0x4e')](_0x55523f)[_0xc401('0x4d')](_0x3c694f=>{_0x51754f=_0x3c694f;});_0x56f49d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x56f49d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x50cd9c[_0xc401('0x71')],{'today':_0x29faf3,'seven':_0x51754f});}static async[_0xc401('0x50')](_0xf5405e){var _0x4cce9c={'mfJOD':_0xc401('0x33'),'Mntec':_0xc401('0x34')};const _0x25ff16=Utils[_0xc401('0x4b')](_0xf5405e[_0xc401('0x25')][_0xc401('0x4c')]);_0x25ff16[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x70')];await HttpErrorInfoModel[_0xc401('0x50')](_0x25ff16)[_0xc401('0x4d')](_0x1fcf9a=>{if(_0x1fcf9a){_0xf5405e[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xf5405e[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4cce9c[_0xc401('0x72')],Utils[_0xc401('0x73')](_0x1fcf9a));}else{_0xf5405e[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xf5405e[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4cce9c[_0xc401('0x74')]);}});}static async[_0xc401('0x53')](_0x3a743b){var _0x3220e5={'ROtsH':function(_0x5326ab,_0x2b1fea){return _0x5326ab<_0x2b1fea;},'TxZMD':_0xc401('0x33')};const _0xfa0192=JSON[_0xc401('0x27')](_0x3a743b[_0xc401('0x25')][_0xc401('0x26')]);let _0xda346c=null;await HttpErrorInfoModel[_0xc401('0x75')](_0xfa0192)[_0xc401('0x4d')](_0x312768=>{_0xda346c=_0x312768;});for(let _0x296fca=0x0;_0x3220e5[_0xc401('0x76')](_0x296fca,_0xda346c[_0xc401('0x56')]);_0x296fca++){await HttpErrorInfoModel[_0xc401('0x77')](_0xda346c[_0x296fca][_0xc401('0x78')],_0xfa0192)[_0xc401('0x4d')](_0x97b839=>{_0xda346c[_0x296fca][_0xc401('0x59')]=_0x97b839[0x0][_0xc401('0x59')];_0xda346c[_0x296fca][_0xc401('0x29')]=_0x97b839[0x0][_0xc401('0x29')];});await HttpErrorInfoModel[_0xc401('0x79')](_0xda346c[_0x296fca][_0xc401('0x78')],_0xfa0192)[_0xc401('0x4d')](_0x1b59b9=>{_0xda346c[_0x296fca][_0xc401('0x7a')]=_0x1b59b9;});await HttpErrorInfoModel[_0xc401('0x7b')](_0xda346c[_0x296fca][_0xc401('0x78')],_0xfa0192)[_0xc401('0x4d')](_0x54ce59=>{_0xda346c[_0x296fca][_0xc401('0x7c')]=_0x54ce59[0x0][_0xc401('0x7d')];});}_0x3a743b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3a743b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3220e5[_0xc401('0x7e')],_0xda346c);}static async[_0xc401('0x7f')](_0x38caf4){var _0x556d9b={'Autde':_0xc401('0x33')};const _0xe8d0b=JSON[_0xc401('0x27')](_0x38caf4[_0xc401('0x25')][_0xc401('0x26')]);let _0x14281c=[];await HttpErrorInfoModel[_0xc401('0x7f')](_0xe8d0b)[_0xc401('0x4d')](_0x28c0a5=>{_0x14281c=_0x28c0a5;});_0x38caf4[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x38caf4[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x556d9b[_0xc401('0x80')],_0x14281c);}}class ScreenShotInfoController{static async[_0xc401('0x22')](_0x27b75d){var _0xce2d9b={'IVUGA':_0xc401('0x23'),'WTrVg':_0xc401('0x24')};const _0x5a8ab2=_0x27b75d[_0xc401('0x25')][_0xc401('0x26')];const _0x5169fe=JSON[_0xc401('0x27')](_0x5a8ab2[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x500442=await ScreenShotInfoModel[_0xc401('0x81')](_0x5169fe);let _0x533de4=await ScreenShotInfoModel[_0xc401('0x82')](_0x500442['id']);_0x27b75d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x27b75d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xce2d9b[_0xc401('0x83')],_0x533de4);}else{_0x27b75d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x27b75d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0xce2d9b[_0xc401('0x84')]);}}static async[_0xc401('0x85')](_0x3910a8){var _0x4d847d={'KXrKB':_0xc401('0x33'),'MGQvJ':_0xc401('0x34')};let _0x52acd2=_0x3910a8[_0xc401('0x25')][_0xc401('0x26')];if(_0x52acd2){const _0x4a17f1=await ScreenShotInfoModel[_0xc401('0x85')]();_0x3910a8[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3910a8[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4d847d[_0xc401('0x86')],_0x4a17f1);}else{_0x3910a8[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3910a8[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4d847d[_0xc401('0x87')]);}}static async[_0xc401('0x88')](_0x4cdb4c){var _0x36191c={'wpKQU':_0xc401('0x33'),'PHRqM':_0xc401('0x34')};let _0x82387e=_0x4cdb4c[_0xc401('0x25')];if(_0x82387e){const _0x27803a=await ScreenShotInfoModel[_0xc401('0x88')]();_0x27803a[_0xc401('0x89')](_0x1b69cc=>{_0x1b69cc[_0xc401('0x8a')]=_0x1b69cc[_0xc401('0x8a')][_0xc401('0x8b')]();});_0x4cdb4c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4cdb4c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x36191c[_0xc401('0x8c')],_0x27803a);}else{_0x4cdb4c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4cdb4c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x36191c[_0xc401('0x8d')]);}}static async[_0xc401('0x37')](_0x121417){var _0x2a303e={'DCaeZ':_0xc401('0x38'),'CjJGj':_0xc401('0x39')};let _0x3bc42c=_0x121417[_0xc401('0x3a')]['id'];if(_0x3bc42c){let _0x44f63d=await ScreenShotInfoModel[_0xc401('0x82')](_0x3bc42c);_0x121417[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x121417[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2a303e[_0xc401('0x8e')],_0x44f63d);}else{_0x121417[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x121417[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2a303e[_0xc401('0x8f')]);}}static async[_0xc401('0x3d')](_0x1c454b){var _0x15104e={'zGrDp':function(_0x1d6ac2,_0x43e23c){return _0x1d6ac2(_0x43e23c);},'aWaMC':_0xc401('0x3e'),'gPghp':_0xc401('0x3f')};let _0x266f06=_0x1c454b[_0xc401('0x3a')]['id'];if(_0x266f06&&!_0x15104e[_0xc401('0x90')](isNaN,_0x266f06)){await ScreenShotInfoModel[_0xc401('0x91')](_0x266f06);_0x1c454b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1c454b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x15104e[_0xc401('0x92')]);}else{_0x1c454b[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1c454b[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x15104e[_0xc401('0x93')]);}}static async[_0xc401('0x44')](_0x15d387){var _0x49c51b={'XRxbz':_0xc401('0x45'),'nPequ':_0xc401('0x46')};let _0xd76704=_0x15d387[_0xc401('0x25')][_0xc401('0x26')];let _0x399981=_0x15d387[_0xc401('0x3a')]['id'];if(_0xd76704){await ScreenShotInfoModel[_0xc401('0x94')](_0x399981,_0xd76704);let _0x59b6bf=await ScreenShotInfoModel[_0xc401('0x82')](_0x399981);_0x15d387[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x15d387[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x49c51b[_0xc401('0x95')],_0x59b6bf);}else{_0x15d387[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x15d387[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x49c51b[_0xc401('0x96')]);}}}class BehaviorInfoController{static async[_0xc401('0x22')](_0x57ef01){var _0x4f1290={'xmYcR':_0xc401('0x97'),'Zrmed':_0xc401('0x98')};const _0x3a2caf=_0x57ef01[_0xc401('0x25')][_0xc401('0x26')];const _0x541c71=JSON[_0xc401('0x27')](_0x3a2caf[_0xc401('0x28')]);if(_0x541c71[_0xc401('0x29')]){let _0xcfef0e=await BehaviorInfoModel[_0xc401('0x99')](_0x541c71);let _0x400297=await BehaviorInfoModel[_0xc401('0x9a')](_0xcfef0e['id']);_0x57ef01[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x57ef01[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4f1290[_0xc401('0x9b')],_0x400297);}else{_0x57ef01[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x57ef01[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4f1290[_0xc401('0x9c')]);}}static async[_0xc401('0x9d')](_0x305ba9){var _0x1f53d3={'FJguh':_0xc401('0x9e'),'dKpOk':_0xc401('0x9f')};let _0x13555a=_0x305ba9[_0xc401('0x25')][_0xc401('0x26')];if(_0x13555a){const _0x467492=await BehaviorInfoModel[_0xc401('0x9d')]();_0x305ba9[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x305ba9[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1f53d3[_0xc401('0xa0')],_0x467492);}else{_0x305ba9[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x305ba9[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1f53d3[_0xc401('0xa1')]);}}static async[_0xc401('0x37')](_0x481535){var _0x1780cc={'eOYuW':_0xc401('0x38'),'BXYEp':_0xc401('0xa2')};let _0x4de1c0=_0x481535[_0xc401('0x3a')]['id'];if(_0x4de1c0){let _0x11457d=await BehaviorInfoModel[_0xc401('0x9a')](_0x4de1c0);_0x481535[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x481535[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1780cc[_0xc401('0xa3')],_0x11457d);}else{_0x481535[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x481535[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1780cc[_0xc401('0xa4')]);}}static async[_0xc401('0x3d')](_0x4655b4){var _0x65b916={'AEIoF':function(_0x10bd01,_0x4a618f){return _0x10bd01(_0x4a618f);},'gKtMR':_0xc401('0xa5'),'UVTLk':_0xc401('0xa6')};let _0x1ca036=_0x4655b4[_0xc401('0x3a')]['id'];if(_0x1ca036&&!_0x65b916[_0xc401('0xa7')](isNaN,_0x1ca036)){await BehaviorInfoModel[_0xc401('0xa8')](_0x1ca036);_0x4655b4[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4655b4[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x65b916[_0xc401('0xa9')]);}else{_0x4655b4[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4655b4[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x65b916[_0xc401('0xaa')]);}}static async[_0xc401('0x44')](_0x3eea7f){var _0xe32760={'ktYEu':_0xc401('0xab'),'JlaqU':_0xc401('0xac')};let _0x40b3b5=_0x3eea7f[_0xc401('0x25')][_0xc401('0x26')];let _0x15463a=_0x3eea7f[_0xc401('0x3a')]['id'];if(_0x40b3b5){await BehaviorInfoModel[_0xc401('0xad')](_0x15463a,_0x40b3b5);let _0x2e50c2=await BehaviorInfoModel[_0xc401('0x9a')](_0x15463a);_0x3eea7f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3eea7f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xe32760[_0xc401('0xae')],_0x2e50c2);}else{_0x3eea7f[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3eea7f[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0xe32760[_0xc401('0xaf')]);}}static async[_0xc401('0xb0')](_0x24001f){var _0x598941={'yAKEe':_0xc401('0x9e'),'FGCrK':_0xc401('0x9f')};let _0x32445e=_0x24001f[_0xc401('0x25')][_0xc401('0x26')];if(_0x32445e){const _0x334305=await BehaviorInfoModel[_0xc401('0xb0')]();_0x24001f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x24001f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x598941[_0xc401('0xb1')],_0x334305);}else{_0x24001f[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x24001f[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x598941[_0xc401('0xb2')]);}}}class DailyActivityController{static async[_0xc401('0x22')](_0x3e2583){var _0x264848={'PMpJx':_0xc401('0x23'),'mvlux':_0xc401('0x24')};const _0x24db06=_0x3e2583[_0xc401('0x25')][_0xc401('0x26')];const _0x2b1dc4=JSON[_0xc401('0x27')](_0x24db06[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0xcc5f1a=await DailyActivityModel[_0xc401('0xb3')](_0x2b1dc4);let _0x1e30ed=await DailyActivityModel[_0xc401('0xb4')](_0xcc5f1a['id']);_0x3e2583[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3e2583[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x264848[_0xc401('0xb5')],_0x1e30ed);}else{_0x3e2583[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3e2583[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x264848[_0xc401('0xb6')]);}}static async[_0xc401('0xb7')](_0x3004d6){var _0x31ffb6={'EdyHa':_0xc401('0x33'),'gknMz':_0xc401('0x34')};let _0x20bc39=_0x3004d6[_0xc401('0x25')][_0xc401('0x26')];if(_0x20bc39){const _0x360049=await DailyActivityModel[_0xc401('0xb7')]();_0x3004d6[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3004d6[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x31ffb6[_0xc401('0xb8')],_0x360049);}else{_0x3004d6[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3004d6[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x31ffb6[_0xc401('0xb9')]);}}static async[_0xc401('0x37')](_0x217f37){var _0x51bc5d={'ygWAZ':_0xc401('0x38'),'tDCsB':_0xc401('0x39')};let _0xf6b48f=_0x217f37[_0xc401('0x3a')]['id'];if(_0xf6b48f){let _0x3f2373=await DailyActivityModel[_0xc401('0xb4')](_0xf6b48f);_0x217f37[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x217f37[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x51bc5d[_0xc401('0xba')],_0x3f2373);}else{_0x217f37[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x217f37[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x51bc5d[_0xc401('0xbb')]);}}static async[_0xc401('0x3d')](_0x38ba82){var _0x1b4c68={'IMefI':function(_0x4d52c6,_0x41ab99){return _0x4d52c6(_0x41ab99);},'CisiJ':_0xc401('0x3e'),'AEQVR':_0xc401('0x3f')};let _0x2e7293=_0x38ba82[_0xc401('0x3a')]['id'];if(_0x2e7293&&!_0x1b4c68[_0xc401('0xbc')](isNaN,_0x2e7293)){await DailyActivityModel[_0xc401('0xbd')](_0x2e7293);_0x38ba82[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x38ba82[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1b4c68[_0xc401('0xbe')]);}else{_0x38ba82[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x38ba82[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1b4c68[_0xc401('0xbf')]);}}static async[_0xc401('0x44')](_0x35af15){var _0x48c653={'iVaQB':_0xc401('0x45'),'LMviF':_0xc401('0x46')};let _0x30150e=_0x35af15[_0xc401('0x25')][_0xc401('0x26')];let _0x52dafc=_0x35af15[_0xc401('0x3a')]['id'];if(_0x30150e){await DailyActivityModel[_0xc401('0xc0')](_0x52dafc,_0x30150e);let _0x379ce3=await DailyActivityModel[_0xc401('0xb4')](_0x52dafc);_0x35af15[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x35af15[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x48c653[_0xc401('0xc1')],_0x379ce3);}else{_0x35af15[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x35af15[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x48c653[_0xc401('0xc2')]);}}}class ExtendBehaviorInfoController{static async[_0xc401('0x22')](_0x55a223){var _0x5a1c24={'hWqhe':_0xc401('0x23'),'EDsVM':_0xc401('0x24')};const _0x3f4f4e=_0x55a223[_0xc401('0x25')][_0xc401('0x26')];const _0x202dfd=JSON[_0xc401('0x27')](_0x3f4f4e[_0xc401('0x28')]);if(req[_0xc401('0xc3')]){let _0x4a28de=await ExtendBehaviorInfoModel[_0xc401('0xc4')](_0x202dfd);let _0x445db0=await ExtendBehaviorInfoModel[_0xc401('0xc5')](_0x4a28de['id']);_0x55a223[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x55a223[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5a1c24[_0xc401('0xc6')],_0x445db0);}else{_0x55a223[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x55a223[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x5a1c24[_0xc401('0xc7')]);}}static async[_0xc401('0xc8')](_0x4374fd){var _0x4b1432={'TqzbS':_0xc401('0x33'),'GxAmo':_0xc401('0x34')};let _0x1a4bef=_0x4374fd[_0xc401('0x25')][_0xc401('0x26')];if(_0x1a4bef){const _0x2cb296=await ExtendBehaviorInfoModel[_0xc401('0xc8')]();_0x4374fd[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4374fd[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4b1432[_0xc401('0xc9')],_0x2cb296);}else{_0x4374fd[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4374fd[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4b1432[_0xc401('0xca')]);}}static async[_0xc401('0x37')](_0x29db8d){var _0x16a79c={'eHCYj':_0xc401('0x38'),'RacEf':_0xc401('0x39')};let _0x13739e=_0x29db8d[_0xc401('0x3a')]['id'];if(_0x13739e){let _0x221412=await ExtendBehaviorInfoModel[_0xc401('0xc5')](_0x13739e);_0x29db8d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x29db8d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x16a79c[_0xc401('0xcb')],_0x221412);}else{_0x29db8d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x29db8d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x16a79c[_0xc401('0xcc')]);}}static async[_0xc401('0x3d')](_0x34a02c){var _0x28ec7a={'CtcKi':function(_0x1bc77e,_0x49a854){return _0x1bc77e(_0x49a854);},'ihklz':_0xc401('0x3e'),'adIXw':_0xc401('0x3f')};let _0x4b4860=_0x34a02c[_0xc401('0x3a')]['id'];if(_0x4b4860&&!_0x28ec7a[_0xc401('0xcd')](isNaN,_0x4b4860)){await ExtendBehaviorInfoModel[_0xc401('0xce')](_0x4b4860);_0x34a02c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x34a02c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x28ec7a[_0xc401('0xcf')]);}else{_0x34a02c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x34a02c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x28ec7a[_0xc401('0xd0')]);}}static async[_0xc401('0x44')](_0x4dbede){var _0x52dab0={'eSlqA':_0xc401('0x45'),'nyZUI':_0xc401('0x46')};let _0x377c43=_0x4dbede[_0xc401('0x25')][_0xc401('0x26')];let _0x131c8f=_0x4dbede[_0xc401('0x3a')]['id'];if(_0x377c43){await ExtendBehaviorInfoModel[_0xc401('0xd1')](_0x131c8f,_0x377c43);let _0xcfb465=await ExtendBehaviorInfoModel[_0xc401('0xc5')](_0x131c8f);_0x4dbede[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4dbede[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x52dab0[_0xc401('0xd2')],_0xcfb465);}else{_0x4dbede[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4dbede[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x52dab0[_0xc401('0xd3')]);}}}class EmailCodeController{static async[_0xc401('0x22')](_0x1046ac){var _0x5e227e={'dFaoG':_0xc401('0x23'),'aNxzT':_0xc401('0x24')};const _0x527b3c=_0x1046ac[_0xc401('0x25')][_0xc401('0x26')];const _0x1dc296=JSON[_0xc401('0x27')](_0x527b3c[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x356112=await EmailCodeModel[_0xc401('0xd4')](_0x1dc296);let _0x17e135=await EmailCodeModel[_0xc401('0xd5')](_0x356112['id']);_0x1046ac[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1046ac[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5e227e[_0xc401('0xd6')],_0x17e135);}else{_0x1046ac[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1046ac[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x5e227e[_0xc401('0xd7')]);}}static async[_0xc401('0xd8')](_0x18e285){var _0x243c48={'vEkzZ':_0xc401('0x33'),'VCcMG':_0xc401('0x34')};let _0x4c9143=_0x18e285[_0xc401('0x25')][_0xc401('0x26')];if(_0x4c9143){const _0x450174=await EmailCodeModel[_0xc401('0xd8')]();_0x18e285[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x18e285[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x243c48[_0xc401('0xd9')],_0x450174);}else{_0x18e285[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x18e285[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x243c48[_0xc401('0xda')]);}}static async[_0xc401('0x37')](_0x31ac36){var _0x7cf4f5={'PhvaK':_0xc401('0x38'),'sNctE':_0xc401('0x39')};let _0x32122e=_0x31ac36[_0xc401('0x3a')]['id'];if(_0x32122e){let _0x30f36c=await EmailCodeModel[_0xc401('0xd5')](_0x32122e);_0x31ac36[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x31ac36[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x7cf4f5[_0xc401('0xdb')],_0x30f36c);}else{_0x31ac36[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x31ac36[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x7cf4f5[_0xc401('0xdc')]);}}static async[_0xc401('0x3d')](_0x1437d6){var _0x25a370={'YgJyP':function(_0xf3bf46,_0x26e087){return _0xf3bf46(_0x26e087);},'tpksK':_0xc401('0x3e'),'YYXwb':_0xc401('0x3f')};let _0x41a971=_0x1437d6[_0xc401('0x3a')]['id'];if(_0x41a971&&!_0x25a370[_0xc401('0xdd')](isNaN,_0x41a971)){await EmailCodeModel[_0xc401('0xde')](_0x41a971);_0x1437d6[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1437d6[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x25a370[_0xc401('0xdf')]);}else{_0x1437d6[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1437d6[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x25a370[_0xc401('0xe0')]);}}static async[_0xc401('0x44')](_0x1faf8a){var _0x30d294={'rYNfA':_0xc401('0x45'),'bnwzN':_0xc401('0x46')};let _0x2a27b3=_0x1faf8a[_0xc401('0x25')][_0xc401('0x26')];let _0x44e808=_0x1faf8a[_0xc401('0x3a')]['id'];if(_0x2a27b3){await EmailCodeModel[_0xc401('0xe1')](_0x44e808,_0x2a27b3);let _0xcf001a=await EmailCodeModel[_0xc401('0xd5')](_0x44e808);_0x1faf8a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1faf8a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x30d294[_0xc401('0xe2')],_0xcf001a);}else{_0x1faf8a[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1faf8a[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x30d294[_0xc401('0xe3')]);}}static async[_0xc401('0xe4')](_0x161c57){var _0x45254b={'zYVfO':function(_0x2ed6c4,_0x587f0e){return _0x2ed6c4<_0x587f0e;},'vSyHt':function(_0x21b0c7,_0x83d796){return _0x21b0c7*_0x83d796;},'MMfNu':_0xc401('0xe5'),'ovySC':function(_0x4733ab,_0x4cab90){return _0x4733ab>_0x4cab90;},'LFwUa':_0xc401('0xe6'),'ionkv':function(_0x55a9c3,_0x5a577e){return _0x55a9c3(_0x5a577e);},'WDOSj':_0xc401('0xe7'),'golYs':_0xc401('0xe8'),'MZRjm':_0xc401('0xe9'),'iltMw':_0xc401('0xea'),'bSXXa':function(_0x4a2f42,_0x19a88a){return _0x4a2f42+_0x19a88a;},'mSvGr':_0xc401('0xeb'),'fihDk':function(_0x50c7b3,_0x4f7e2e){return _0x50c7b3+_0x4f7e2e;},'NoaKc':_0xc401('0xec'),'MiURd':function(_0x434071,_0x1aab16){return _0x434071+_0x1aab16;},'WlaEl':function(_0x19ddd7,_0x333f60){return _0x19ddd7+_0x333f60;},'TbiWl':_0xc401('0xed'),'ndoEJ':_0xc401('0xee')};const _0x2858e7=JSON[_0xc401('0x27')](_0x161c57[_0xc401('0x25')][_0xc401('0x26')]);const _0x5b7276=_0x2858e7[_0xc401('0xef')];let _0x10777c=null;_0x10777c=await EmailCodeModel[_0xc401('0xf0')](_0x5b7276);if(_0x45254b[_0xc401('0xf1')](_0x10777c[_0xc401('0x56')],0x0)){_0x161c57[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x161c57[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x45254b[_0xc401('0xf2')],0x1);return;}const _0x3a5a04=['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];function _0x2ad6e1(_0x1e3fd8){let _0x3fc79a='';for(let _0x4bf711=0x0;_0x45254b[_0xc401('0xf3')](_0x4bf711,_0x1e3fd8);_0x4bf711++){let _0x4be9a8=Math[_0xc401('0xf4')](_0x45254b[_0xc401('0xf5')](Math[_0xc401('0xf6')](),0x23));_0x3fc79a+=_0x3a5a04[_0x4be9a8];}return _0x3fc79a;}const _0x164c56=_0x45254b[_0xc401('0xf7')](_0x2ad6e1,0x4);let _0x299a26=nodemailer[_0xc401('0xf8')]({'host':_0x45254b[_0xc401('0xf9')],'port':0x1d1,'secure':!![],'auth':{'user':_0x45254b[_0xc401('0xfa')],'pass':_0x45254b[_0xc401('0xfb')]}});let _0x4154a9=await _0x299a26[_0xc401('0xfc')]({'from':_0x45254b[_0xc401('0xfd')],'to':_0x5b7276,'subject':_0x45254b[_0xc401('0xfe')](_0x45254b[_0xc401('0xff')],_0x164c56),'text':_0x45254b[_0xc401('0x100')](_0x45254b[_0xc401('0x101')],_0x164c56),'html':_0x45254b[_0xc401('0x102')](_0x45254b[_0xc401('0x103')](_0x45254b[_0xc401('0x104')],_0x164c56),_0x45254b[_0xc401('0x105')])});await EmailCodeModel[_0xc401('0x106')]({'email':_0x5b7276,'emailCode':_0x164c56})[_0xc401('0x4d')](_0x45cc5f=>{if(_0x45cc5f){nodemailer[_0xc401('0x107')](_0x4154a9);_0x161c57[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x161c57[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x45254b[_0xc401('0x108')],!![]);}});}}class IgnoreErrorController{static async[_0xc401('0x22')](_0x1776b5){var _0x370349={'iwEMh':_0xc401('0x23'),'iiuUj':_0xc401('0x24')};const _0x3a021d=_0x1776b5[_0xc401('0x25')][_0xc401('0x26')];const _0x38ed3c=JSON[_0xc401('0x27')](_0x3a021d);if(_0x38ed3c[_0xc401('0x109')]&&_0x38ed3c[_0xc401('0x10a')]){let _0x25df10=await IgnoreErrorModel[_0xc401('0x10b')](_0x38ed3c);let _0x4e8483=await IgnoreErrorModel[_0xc401('0x10c')](_0x25df10['id']);_0x1776b5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1776b5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x370349[_0xc401('0x10d')],_0x4e8483);}else{_0x1776b5[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1776b5[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x370349[_0xc401('0x10e')]);}}static async[_0xc401('0x10f')](_0x26d5f4){var _0x162050={'JUOYm':_0xc401('0x33'),'YPjjf':_0xc401('0x34')};let _0x3c27dd=_0x26d5f4[_0xc401('0x25')][_0xc401('0x26')];if(_0x3c27dd){const _0x537c05=await IgnoreErrorModel[_0xc401('0x10f')]();_0x26d5f4[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x26d5f4[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x162050[_0xc401('0x110')],_0x537c05);}else{_0x26d5f4[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x26d5f4[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x162050[_0xc401('0x111')]);}}static async[_0xc401('0x112')](_0x38ed8a){var _0x5278c8={'BLzcU':_0xc401('0x33'),'LxTSo':_0xc401('0x34')};const _0x582ccc=utils[_0xc401('0x4b')](_0x38ed8a[_0xc401('0x25')][_0xc401('0x4c')]);if(_0x582ccc){const _0x385781=await IgnoreErrorModel[_0xc401('0x112')](_0x582ccc);_0x38ed8a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x38ed8a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5278c8[_0xc401('0x113')],_0x385781);}else{_0x38ed8a[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x38ed8a[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x5278c8[_0xc401('0x114')]);}}static async[_0xc401('0x37')](_0x3b10a5){var _0x20d89a={'pwQpS':_0xc401('0x38'),'cCxpy':_0xc401('0x39')};let _0x6f37a3=_0x3b10a5[_0xc401('0x3a')]['id'];if(_0x6f37a3){let _0x38544c=await IgnoreErrorModel[_0xc401('0x10c')](_0x6f37a3);_0x3b10a5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3b10a5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x20d89a[_0xc401('0x115')],_0x38544c);}else{_0x3b10a5[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3b10a5[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x20d89a[_0xc401('0x116')]);}}static async[_0xc401('0x3d')](_0x5ddffa){var _0x3e0c21={'SesoG':function(_0x93c5dc,_0x582997){return _0x93c5dc(_0x582997);},'DWhFh':_0xc401('0x3e'),'ymWLd':_0xc401('0x3f')};let _0x4c8bae=_0x5ddffa[_0xc401('0x3a')]['id'];if(_0x4c8bae&&!_0x3e0c21[_0xc401('0x117')](isNaN,_0x4c8bae)){await IgnoreErrorModel[_0xc401('0x118')](_0x4c8bae);_0x5ddffa[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5ddffa[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3e0c21[_0xc401('0x119')]);}else{_0x5ddffa[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x5ddffa[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x3e0c21[_0xc401('0x11a')]);}}static async[_0xc401('0x44')](_0x23a450){var _0x3e48fb={'QEjSl':_0xc401('0x45'),'JhPUs':_0xc401('0x46')};let _0x3d9b4d=_0x23a450[_0xc401('0x25')][_0xc401('0x26')];let _0x891a7d=_0x23a450[_0xc401('0x3a')]['id'];if(_0x3d9b4d){await IgnoreErrorModel[_0xc401('0x11b')](_0x891a7d,_0x3d9b4d);let _0xe0fcd8=await IgnoreErrorModel[_0xc401('0x10c')](_0x891a7d);_0x23a450[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x23a450[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3e48fb[_0xc401('0x11c')],_0xe0fcd8);}else{_0x23a450[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x23a450[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x3e48fb[_0xc401('0x11d')]);}}}class InfoCountByHourController{static async[_0xc401('0x22')](_0x1b367e){var _0x143d8f={'WNMdM':_0xc401('0x23'),'rOOVu':_0xc401('0x24')};const _0x2eabdc=_0x1b367e[_0xc401('0x25')][_0xc401('0x26')];const _0x335c51=JSON[_0xc401('0x27')](_0x2eabdc[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x2eac89=await InfoCountByHourModel[_0xc401('0x11e')](_0x335c51);let _0x46444d=await InfoCountByHourModel[_0xc401('0x11f')](_0x2eac89['id']);_0x1b367e[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1b367e[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x143d8f[_0xc401('0x120')],_0x46444d);}else{_0x1b367e[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1b367e[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x143d8f[_0xc401('0x121')]);}}static async[_0xc401('0x122')](_0x45ef05){var _0x4e7a85={'tnQVi':_0xc401('0x33'),'gAeAK':_0xc401('0x34')};let _0x176310=_0x45ef05[_0xc401('0x25')][_0xc401('0x26')];if(_0x176310){const _0x4ccf3a=await InfoCountByHourModel[_0xc401('0x122')]();_0x45ef05[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x45ef05[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4e7a85[_0xc401('0x123')],_0x4ccf3a);}else{_0x45ef05[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x45ef05[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4e7a85[_0xc401('0x124')]);}}static async[_0xc401('0x37')](_0x55aca2){var _0x2f7658={'QZEuX':_0xc401('0x38'),'eWEFK':_0xc401('0x39')};let _0x29a5c0=_0x55aca2[_0xc401('0x3a')]['id'];if(_0x29a5c0){let _0x177081=await InfoCountByHourModel[_0xc401('0x11f')](_0x29a5c0);_0x55aca2[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x55aca2[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2f7658[_0xc401('0x125')],_0x177081);}else{_0x55aca2[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x55aca2[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2f7658[_0xc401('0x126')]);}}static async[_0xc401('0x3d')](_0xb795d5){var _0x1aa18d={'wbUfD':function(_0x580124,_0x352235){return _0x580124(_0x352235);},'HxoHf':_0xc401('0x3e'),'LvrVq':_0xc401('0x3f')};let _0x3d540e=_0xb795d5[_0xc401('0x3a')]['id'];if(_0x3d540e&&!_0x1aa18d[_0xc401('0x127')](isNaN,_0x3d540e)){await InfoCountByHourModel[_0xc401('0x128')](_0x3d540e);_0xb795d5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xb795d5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1aa18d[_0xc401('0x129')]);}else{_0xb795d5[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xb795d5[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1aa18d[_0xc401('0x12a')]);}}static async[_0xc401('0x44')](_0x27cf9a){var _0x1742ba={'gGSig':_0xc401('0x45'),'NKhWJ':_0xc401('0x46')};let _0x442a49=_0x27cf9a[_0xc401('0x25')][_0xc401('0x26')];let _0x476cf6=_0x27cf9a[_0xc401('0x3a')]['id'];if(_0x442a49){await InfoCountByHourModel[_0xc401('0x12b')](_0x476cf6,_0x442a49);let _0x4c3dfc=await InfoCountByHourModel[_0xc401('0x11f')](_0x476cf6);_0x27cf9a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x27cf9a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1742ba[_0xc401('0x12c')],_0x4c3dfc);}else{_0x27cf9a[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x27cf9a[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1742ba[_0xc401('0x12d')]);}}}class LoadPageInfoController{static async[_0xc401('0x22')](_0x306921){var _0x489d63={'WtHsF':_0xc401('0x23'),'qblQl':_0xc401('0x24')};const _0x45b9f5=_0x306921[_0xc401('0x25')][_0xc401('0x26')];const _0x196095=JSON[_0xc401('0x27')](_0x45b9f5[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x5b1fa7=await LoadPageInfoModel[_0xc401('0x12e')](_0x196095);let _0x56d355=await LoadPageInfoModel[_0xc401('0x12f')](_0x5b1fa7['id']);_0x306921[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x306921[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x489d63[_0xc401('0x130')],_0x56d355);}else{_0x306921[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x306921[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x489d63[_0xc401('0x131')]);}}static async[_0xc401('0x132')](_0xa63659){var _0x50a32b={'zhkvQ':_0xc401('0x33'),'QtPwa':_0xc401('0x34')};let _0x5e1788=_0xa63659[_0xc401('0x25')][_0xc401('0x26')];if(_0x5e1788){const _0xfcaff1=await LoadPageInfoModel[_0xc401('0x132')]();_0xa63659[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xa63659[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x50a32b[_0xc401('0x133')],_0xfcaff1);}else{_0xa63659[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xa63659[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x50a32b[_0xc401('0x134')]);}}static async[_0xc401('0x37')](_0x5ef1f3){var _0x4948c7={'XQdad':_0xc401('0x38'),'bjTKB':_0xc401('0x39')};let _0x2faee1=_0x5ef1f3[_0xc401('0x3a')]['id'];if(_0x2faee1){let _0x93d06=await LoadPageInfoModel[_0xc401('0x12f')](_0x2faee1);_0x5ef1f3[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5ef1f3[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4948c7[_0xc401('0x135')],_0x93d06);}else{_0x5ef1f3[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x5ef1f3[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4948c7[_0xc401('0x136')]);}}static async[_0xc401('0x3d')](_0x20d4a5){var _0x2c2c8f={'aqvVr':function(_0x4166b0,_0x8c849){return _0x4166b0(_0x8c849);},'TLMVD':_0xc401('0x3e'),'bmvOw':_0xc401('0x3f')};let _0x46950f=_0x20d4a5[_0xc401('0x3a')]['id'];if(_0x46950f&&!_0x2c2c8f[_0xc401('0x137')](isNaN,_0x46950f)){await LoadPageInfoModel[_0xc401('0x138')](_0x46950f);_0x20d4a5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x20d4a5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2c2c8f[_0xc401('0x139')]);}else{_0x20d4a5[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x20d4a5[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2c2c8f[_0xc401('0x13a')]);}}static async[_0xc401('0x44')](_0x3712a9){var _0x1e1d14={'suIyT':_0xc401('0x45'),'TrgqN':_0xc401('0x46')};let _0x2234ab=_0x3712a9[_0xc401('0x25')][_0xc401('0x26')];let _0x18738a=_0x3712a9[_0xc401('0x3a')]['id'];if(_0x2234ab){await LoadPageInfoModel[_0xc401('0x13b')](_0x18738a,_0x2234ab);let _0x3feef3=await LoadPageInfoModel[_0xc401('0x12f')](_0x18738a);_0x3712a9[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3712a9[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1e1d14[_0xc401('0x13c')],_0x3feef3);}else{_0x3712a9[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3712a9[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1e1d14[_0xc401('0x13d')]);}}static async[_0xc401('0x13e')](_0x410dc8){var _0x3e9063={'TqnBu':_0xc401('0x33'),'DSJva':_0xc401('0x34')};let _0x15ffed=_0x410dc8[_0xc401('0x25')][_0xc401('0x26')];const _0x29255b=JSON[_0xc401('0x27')](_0x15ffed);if(_0x15ffed){const _0x44c240=await LoadPageInfoModel[_0xc401('0x13e')](_0x29255b);_0x410dc8[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x410dc8[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3e9063[_0xc401('0x13f')],_0x44c240);}else{_0x410dc8[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x410dc8[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x3e9063[_0xc401('0x140')]);}}}class ProjectController{static async[_0xc401('0x22')](_0x34de67){var _0x59ca40={'ALiGL':_0xc401('0x23'),'gRAqF':_0xc401('0x24')};let _0x5cb961=_0x34de67[_0xc401('0x25')][_0xc401('0x26')];if(_0x5cb961[_0xc401('0x141')]&&_0x5cb961[_0xc401('0x142')]&&_0x5cb961[_0xc401('0x143')]&&_0x5cb961[_0xc401('0x144')]){let _0x34338d=await ProjectModel[_0xc401('0x145')](_0x5cb961);let _0x4ddeb1=await ProjectModel[_0xc401('0x146')](_0x34338d['id']);_0x34de67[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x34de67[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x59ca40[_0xc401('0x147')],_0x4ddeb1);}else{_0x34de67[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x34de67[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x59ca40[_0xc401('0x148')]);}}static async[_0xc401('0x149')](_0x24209c){var _0x4cc365={'iXsOf':_0xc401('0x33'),'MOyOb':_0xc401('0x34')};let _0x487948=_0x24209c[_0xc401('0x25')][_0xc401('0x26')];const _0x2b3073=Utils[_0xc401('0x4b')](_0x24209c[_0xc401('0x25')][_0xc401('0x4c')]);if(_0x487948){const _0x3c2a87=await ProjectModel[_0xc401('0x149')](_0x2b3073);_0x24209c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x24209c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4cc365[_0xc401('0x14a')],_0x3c2a87);}else{_0x24209c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x24209c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4cc365[_0xc401('0x14b')]);}}static async[_0xc401('0x14c')](_0x2934d1){var _0x18f675={'QILKP':_0xc401('0x33'),'XXfZh':_0xc401('0x34')};let _0x28323b=_0x2934d1[_0xc401('0x25')][_0xc401('0x26')];const _0xd31049=Utils[_0xc401('0x4b')](_0x2934d1[_0xc401('0x25')][_0xc401('0x4c')]);if(_0x28323b){const _0x56fd62=await ProjectModel[_0xc401('0x14c')](_0xd31049);_0x2934d1[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2934d1[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x18f675[_0xc401('0x14d')],_0x56fd62);}else{_0x2934d1[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2934d1[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x18f675[_0xc401('0x14e')]);}}static async[_0xc401('0x14f')](_0x354cb9){var _0x16d172={'NrwQl':_0xc401('0x33')};const _0x8e2e04=Utils[_0xc401('0x4b')](_0x354cb9[_0xc401('0x25')][_0xc401('0x4c')]);const _0xa55bf2=await ProjectModel[_0xc401('0x14f')](_0x8e2e04);_0x354cb9[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x354cb9[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x16d172[_0xc401('0x150')],_0xa55bf2);}static async[_0xc401('0x37')](_0x4052da){var _0x56909b={'MDCkL':_0xc401('0x38'),'JoEpk':_0xc401('0x39')};let _0x205606=_0x4052da[_0xc401('0x3a')]['id'];if(_0x205606){let _0xcc29f5=await ProjectModel[_0xc401('0x146')](_0x205606);_0x4052da[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4052da[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x56909b[_0xc401('0x151')],_0xcc29f5);}else{_0x4052da[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4052da[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x56909b[_0xc401('0x152')]);}}static async[_0xc401('0x3d')](_0x4ef67c){var _0xb16608={'EZHrK':function(_0x244d8b,_0x5bbfb9){return _0x244d8b(_0x5bbfb9);},'UnuKX':_0xc401('0x3e'),'gqWPV':_0xc401('0x3f')};let _0x5a0c06=_0x4ef67c[_0xc401('0x3a')]['id'];if(_0x5a0c06&&!_0xb16608[_0xc401('0x153')](isNaN,_0x5a0c06)){await ProjectModel[_0xc401('0x154')](_0x5a0c06);_0x4ef67c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4ef67c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xb16608[_0xc401('0x155')]);}else{_0x4ef67c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4ef67c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0xb16608[_0xc401('0x156')]);}}static async[_0xc401('0x154')](_0x1c8dac){var _0x4ec8ce={'IWAWq':function(_0x2795ef,_0x528e88){return _0x2795ef(_0x528e88);},'pfWGA':_0xc401('0x3e'),'giOoG':_0xc401('0x3f')};const _0x91b544=Utils[_0xc401('0x4b')](_0x1c8dac[_0xc401('0x25')][_0xc401('0x4c')]);let _0x2f5829=_0x91b544['id'];if(_0x2f5829&&!_0x4ec8ce[_0xc401('0x157')](isNaN,_0x2f5829)){await ProjectModel[_0xc401('0x154')](_0x2f5829);_0x1c8dac[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1c8dac[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4ec8ce[_0xc401('0x158')]);}else{_0x1c8dac[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1c8dac[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4ec8ce[_0xc401('0x159')]);}}static async[_0xc401('0x44')](_0x5287c2){var _0x331f97={'IPMqe':_0xc401('0x45'),'GdsBL':_0xc401('0x46')};let _0x4ec2a8=_0x5287c2[_0xc401('0x25')][_0xc401('0x26')];let _0x24ac71=_0x5287c2[_0xc401('0x3a')]['id'];if(_0x4ec2a8){await ProjectModel[_0xc401('0x15a')](_0x24ac71,_0x4ec2a8);let _0x54b52c=await ProjectModel[_0xc401('0x146')](_0x24ac71);_0x5287c2[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5287c2[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x331f97[_0xc401('0x15b')],_0x54b52c);}else{_0x5287c2[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x5287c2[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x331f97[_0xc401('0x15c')]);}}static async[_0xc401('0x15d')](_0x3d21d9){var _0x2c14ec={'nSMtA':function(_0x38f8a6,_0x442c73){return _0x38f8a6(_0x442c73);},'fzRWr':function(_0x36144f,_0x428517){return _0x36144f<=_0x428517;},'iyWTL':_0xc401('0x15e'),'kvtRh':function(_0x4094a1,_0x563c3a){return _0x4094a1+_0x563c3a;},'NmMXX':_0xc401('0x15f'),'cTEWE':_0xc401('0x160'),'oyWpc':_0xc401('0x161'),'NVAfV':_0xc401('0x162'),'ktaMV':_0xc401('0x24')};const _0x23cc70=JSON[_0xc401('0x27')](_0x3d21d9[_0xc401('0x25')][_0xc401('0x26')]);const _0x52b2f0=_0x23cc70[_0xc401('0x10a')];const _0x325fda=_0x23cc70[_0xc401('0x163')];const _0x479a68=_0x23cc70[_0xc401('0x164')]||'';if(_0x23cc70){let _0xfedbb9=await ProjectModel[_0xc401('0x165')](_0x23cc70[_0xc401('0x166')]);const _0x2b27a4=_0x2c14ec[_0xc401('0x167')](parseInt,_0xfedbb9[0x0][_0xc401('0x7d')]);if(_0x2c14ec[_0xc401('0x168')](_0x2b27a4,0x0)){let _0x4b00ac='';_0x23cc70[_0xc401('0x169')]=_0x4b00ac;_0x23cc70[_0xc401('0x16a')]=_0x2c14ec[_0xc401('0x16b')];_0x23cc70[_0xc401('0x16c')]=_0x2c14ec[_0xc401('0x16d')](_0x2c14ec[_0xc401('0x16e')],_0x52b2f0);await _0x2c14ec[_0xc401('0x167')](fetch,_0x2c14ec[_0xc401('0x16f')])[_0xc401('0x4d')](_0x2a018b=>_0x2a018b[_0xc401('0x170')]())[_0xc401('0x4d')](_0x185bd5=>{_0x4b00ac=_0x2c14ec[_0xc401('0x167')](encodeURIComponent,_0x185bd5[_0xc401('0x8b')]()[_0xc401('0x171')](/jeffery_webmonitor/g,_0x52b2f0)[_0xc401('0x171')](/&&&www.webfunny.cn&&&/g,_0x325fda)[_0xc401('0x171')](/&&&webfunny.cn&&&/g,_0x479a68));});_0x23cc70[_0xc401('0x169')]=_0x4b00ac;await ProjectModel[_0xc401('0x145')](_0x23cc70);_0x3d21d9[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3d21d9[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2c14ec[_0xc401('0x172')],_0x23cc70);}else{_0x3d21d9[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3d21d9[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2c14ec[_0xc401('0x173')],_0x2b27a4);}}else{_0x3d21d9[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3d21d9[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2c14ec[_0xc401('0x174')]);}}static async[_0xc401('0x175')](_0xaff67d){var _0x43647d={'oKTFw':_0xc401('0x33'),'MuclS':_0xc401('0x34')};let _0x28d759=_0xaff67d[_0xc401('0x25')][_0xc401('0x26')];const _0x2240fc=Utils[_0xc401('0x4b')](_0xaff67d[_0xc401('0x25')][_0xc401('0x4c')]);if(_0x28d759){const _0x188818=await ProjectModel[_0xc401('0x175')](_0x2240fc);_0xaff67d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xaff67d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x43647d[_0xc401('0x176')],_0x188818);}else{_0xaff67d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xaff67d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x43647d[_0xc401('0x177')]);}}}class ResourceLoadInfoController{static async[_0xc401('0x22')](_0x5eb30d){var _0x1b5dc7={'oJibX':_0xc401('0x23'),'rNpOj':_0xc401('0x24')};const _0x11c9db=_0x5eb30d[_0xc401('0x25')][_0xc401('0x26')];const _0x5c826d=JSON[_0xc401('0x27')](_0x11c9db[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x21e7e2=await ResourceLoadInfoModel[_0xc401('0x178')](_0x5c826d);let _0x2fb49a=await ResourceLoadInfoModel[_0xc401('0x179')](_0x21e7e2['id']);_0x5eb30d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5eb30d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1b5dc7[_0xc401('0x17a')],_0x2fb49a);}else{_0x5eb30d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x5eb30d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1b5dc7[_0xc401('0x17b')]);}}static async[_0xc401('0x17c')](_0x3bd4e7){var _0x23a7c8={'ghPNQ':_0xc401('0x33'),'DCibn':_0xc401('0x34')};let _0x431736=_0x3bd4e7[_0xc401('0x25')][_0xc401('0x26')];if(_0x431736){const _0x4e3eda=await ResourceLoadInfoModel[_0xc401('0x17c')]();_0x3bd4e7[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3bd4e7[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x23a7c8[_0xc401('0x17d')],_0x4e3eda);}else{_0x3bd4e7[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3bd4e7[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x23a7c8[_0xc401('0x17e')]);}}static async[_0xc401('0x37')](_0x53f013){var _0x26396b={'SAkOn':_0xc401('0x38'),'lnksg':_0xc401('0x39')};let _0x2acdaa=_0x53f013[_0xc401('0x3a')]['id'];if(_0x2acdaa){let _0xd4f848=await ResourceLoadInfoModel[_0xc401('0x179')](_0x2acdaa);_0x53f013[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x53f013[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x26396b[_0xc401('0x17f')],_0xd4f848);}else{_0x53f013[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x53f013[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x26396b[_0xc401('0x180')]);}}static async[_0xc401('0x3d')](_0x2c8d4d){var _0x462503={'zjHQf':function(_0x7e4fa9,_0x5cc096){return _0x7e4fa9(_0x5cc096);},'OKIhm':_0xc401('0x3e'),'mRgcX':_0xc401('0x3f')};let _0x564ccc=_0x2c8d4d[_0xc401('0x3a')]['id'];if(_0x564ccc&&!_0x462503[_0xc401('0x181')](isNaN,_0x564ccc)){await ResourceLoadInfoModel[_0xc401('0x182')](_0x564ccc);_0x2c8d4d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2c8d4d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x462503[_0xc401('0x183')]);}else{_0x2c8d4d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2c8d4d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x462503[_0xc401('0x184')]);}}static async[_0xc401('0x44')](_0x1f016c){var _0x54fff6={'IEuCC':_0xc401('0x45'),'vEdLd':_0xc401('0x46')};let _0x2dec18=_0x1f016c[_0xc401('0x25')][_0xc401('0x26')];let _0x1a5b5c=_0x1f016c[_0xc401('0x3a')]['id'];if(_0x2dec18){await ResourceLoadInfoModel[_0xc401('0x185')](_0x1a5b5c,_0x2dec18);let _0x21c786=await ResourceLoadInfoModel[_0xc401('0x179')](_0x1a5b5c);_0x1f016c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1f016c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x54fff6[_0xc401('0x186')],_0x21c786);}else{_0x1f016c[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x1f016c[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x54fff6[_0xc401('0x187')]);}}static async[_0xc401('0x54')](_0x38d817){var _0x3e4d55={'Bfszh':function(_0x867fd9,_0x23b468){return _0x867fd9<_0x23b468;},'mPVlz':_0xc401('0x33')};const _0x36215c=JSON[_0xc401('0x27')](_0x38d817[_0xc401('0x25')][_0xc401('0x26')]);let _0x14ea17=null;await ResourceLoadInfoModel[_0xc401('0x54')](_0x36215c)[_0xc401('0x4d')](_0x5069a6=>{_0x14ea17=_0x5069a6;});for(let _0x858edd=0x0;_0x3e4d55[_0xc401('0x188')](_0x858edd,_0x14ea17[_0xc401('0x56')]);_0x858edd++){await ResourceLoadInfoModel[_0xc401('0x57')](_0x14ea17[_0x858edd][_0xc401('0x58')],_0x36215c)[_0xc401('0x4d')](_0x369ada=>{_0x14ea17[_0x858edd][_0xc401('0x59')]=_0x369ada[0x0][_0xc401('0x59')];_0x14ea17[_0x858edd][_0xc401('0x29')]=_0x369ada[0x0][_0xc401('0x29')];});await ResourceLoadInfoModel[_0xc401('0x5a')](_0x14ea17[_0x858edd][_0xc401('0x58')],_0x36215c)[_0xc401('0x4d')](_0x4f5b92=>{_0x14ea17[_0x858edd][_0xc401('0x5b')]=_0x4f5b92[0x0][_0xc401('0x5b')];});await ResourceLoadInfoModel[_0xc401('0x189')](_0x14ea17[_0x858edd][_0xc401('0x58')],_0x36215c)[_0xc401('0x4d')](_0x29b3c2=>{_0x14ea17[_0x858edd][_0xc401('0x7c')]=_0x29b3c2[0x0][_0xc401('0x7c')];});}_0x38d817[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x38d817[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3e4d55[_0xc401('0x18a')],_0x14ea17);}static async[_0xc401('0x18b')](_0x3ba9d5){var _0xb1a6f6={'mNGWd':_0xc401('0x33'),'KzeMF':_0xc401('0x34')};const _0x306546=utils[_0xc401('0x4b')](_0x3ba9d5[_0xc401('0x25')][_0xc401('0x4c')]);_0x306546[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x18c')];await ResourceLoadInfoModel[_0xc401('0x18b')](_0x306546)[_0xc401('0x4d')](_0x5305ce=>{if(_0x5305ce){_0x3ba9d5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3ba9d5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xb1a6f6[_0xc401('0x18d')],utils[_0xc401('0x73')](_0x5305ce));}else{_0x3ba9d5[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3ba9d5[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0xb1a6f6[_0xc401('0x18e')]);}});}static async[_0xc401('0x18f')](_0x29629b){var _0x3dc8a8={'oLytT':_0xc401('0x33')};const _0x36655e=utils[_0xc401('0x4b')](_0x29629b[_0xc401('0x25')][_0xc401('0x4c')]);_0x36655e[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x18c')];let _0x92e2bf=[];await ResourceLoadInfoModel[_0xc401('0x190')](_0x36655e)[_0xc401('0x4d')](_0x377610=>{_0x92e2bf=_0x377610;});let _0x1b7cfd=[];await ResourceLoadInfoModel[_0xc401('0x191')](_0x36655e)[_0xc401('0x4d')](_0x26e316=>{_0x1b7cfd=_0x26e316;});_0x29629b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x29629b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3dc8a8[_0xc401('0x192')],{'today':_0x92e2bf,'seven':_0x1b7cfd});}}class UserController{static async[_0xc401('0x22')](_0x4fcd1b){var _0x2322da={'rCYMU':_0xc401('0x193'),'MILAp':_0xc401('0x194'),'BEvzA':function(_0x4b7a8c,_0x5c7cca,_0x14ecf0){return _0x4b7a8c(_0x5c7cca,_0x14ecf0);},'VuSKC':function(_0xc63451,_0x1b0889){return _0xc63451===_0x1b0889;},'MYyfM':_0xc401('0x195'),'uszvk':_0xc401('0x196'),'qykuR':_0xc401('0x197')};const _0x5e0135=_0x4fcd1b[_0xc401('0x25')][_0xc401('0x26')];const _0x3eb18b=JSON[_0xc401('0x27')](_0x5e0135);if(_0x3eb18b[_0xc401('0x198')]&&_0x3eb18b[_0xc401('0xef')]&&_0x3eb18b[_0xc401('0x199')]&&_0x3eb18b[_0xc401('0x19a')]){const _0x5077ff=await userModel[_0xc401('0x19b')](_0x3eb18b[_0xc401('0x198')]);if(_0x5077ff){_0x4fcd1b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4fcd1b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2322da[_0xc401('0x19c')],0x1);return;}const _0x2f9622=await userModel[_0xc401('0x19d')](_0x3eb18b[_0xc401('0xef')]);if(_0x2f9622){_0x4fcd1b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4fcd1b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2322da[_0xc401('0x19e')],0x1);return;}const _0x20e918=await EmailCodeModel[_0xc401('0x19f')](_0x3eb18b[_0xc401('0xef')],_0x3eb18b[_0xc401('0x199')]);const _0x193834=_0x2322da[_0xc401('0x1a0')](parseInt,_0x20e918[0x0][_0xc401('0x7d')],0xa);if(_0x2322da[_0xc401('0x1a1')](_0x193834,0x0)){_0x4fcd1b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4fcd1b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2322da[_0xc401('0x1a2')],0x1);return;}await userModel[_0xc401('0x22')](_0x3eb18b);_0x4fcd1b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4fcd1b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2322da[_0xc401('0x1a3')]);}else{_0x4fcd1b[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4fcd1b[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2322da[_0xc401('0x1a4')]);}}static async[_0xc401('0x1a5')](_0x2b73ba){var _0x4149e4={'eBjCd':function(_0x5dd021,_0x420dab,_0x2e96c4){return _0x5dd021(_0x420dab,_0x2e96c4);},'PuPnQ':_0xc401('0x1a6'),'YCosn':_0xc401('0x1a7')};const _0x3e7cb6=_0x2b73ba[_0xc401('0x1a8')][_0xc401('0x1a9')];if(_0x3e7cb6){let _0x4699eb;try{_0x4699eb=await _0x4149e4[_0xc401('0x1aa')](verify,_0x3e7cb6[_0xc401('0x1ab')]('\x20')[0x1],secret[_0xc401('0x1ac')]);const _0x375b65={'id':_0x4699eb['id'],'username':_0x4699eb[_0xc401('0x198')]};_0x2b73ba[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2b73ba[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4149e4[_0xc401('0x1ad')],_0x375b65);}catch(_0x312a00){_0x2b73ba[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2b73ba[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4149e4[_0xc401('0x1ae')]);}}}static async[_0xc401('0x3d')](_0x292e0b){var _0x1dc982={'OFrnI':function(_0x8203ab,_0x191ed2){return _0x8203ab(_0x191ed2);},'JkchA':_0xc401('0x1af'),'cSjnR':_0xc401('0x1b0')};let _0x43db61=_0x292e0b[_0xc401('0x3a')]['id'];if(_0x43db61&&!_0x1dc982[_0xc401('0x1b1')](isNaN,_0x43db61)){await userModel[_0xc401('0x3d')](_0x43db61);_0x292e0b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x292e0b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1dc982[_0xc401('0x1b2')]);}else{_0x292e0b[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x292e0b[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x1dc982[_0xc401('0x1b3')]);}}static async[_0xc401('0x1b4')](_0x5e2f03){var _0x572b55={'IVlcW':_0xc401('0x1b5'),'qjBsF':_0xc401('0x1b6')};const _0x15c71b=_0x5e2f03[_0xc401('0x25')][_0xc401('0x26')];const _0x17918a=JSON[_0xc401('0x27')](_0x15c71b);const _0x4fce20=await userModel[_0xc401('0x1b7')](_0x17918a[_0xc401('0xef')],_0x17918a[_0xc401('0x19a')]);if(_0x4fce20){_0x5e2f03[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5e2f03[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x572b55[_0xc401('0x1b8')],_0x17918a);}else{_0x5e2f03[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5e2f03[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x572b55[_0xc401('0x1b9')],0x1);}}static async[_0xc401('0x1ba')](_0x357312){var _0x4a284b={'xSKLl':_0xc401('0x1a6'),'eDGXN':_0xc401('0x1bb')};let _0x37469f=_0x357312[_0xc401('0x25')][_0xc401('0x26')];if(_0x37469f){const _0x42dbc6=await userModel[_0xc401('0x1bc')]();_0x357312[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x357312[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4a284b[_0xc401('0x1bd')],_0x42dbc6);}else{_0x357312[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x357312[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4a284b[_0xc401('0x1be')]);}}}class VideosInfoController{static async[_0xc401('0x22')](_0x546528){var _0x3db395={'hUqIO':_0xc401('0x23'),'uqpNK':_0xc401('0x24')};const _0x40b737=_0x546528[_0xc401('0x25')][_0xc401('0x26')];const _0x6aab65=JSON[_0xc401('0x27')](_0x40b737[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0x3f6900=await VideosInfoModel[_0xc401('0x1bf')](_0x6aab65);let _0x29d64d=await VideosInfoModel[_0xc401('0x1c0')](_0x3f6900['id']);_0x546528[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x546528[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3db395[_0xc401('0x1c1')],_0x29d64d);}else{_0x546528[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x546528[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x3db395[_0xc401('0x1c2')]);}}static async[_0xc401('0x1c3')](_0x16e52b){var _0x353076={'Gosdf':_0xc401('0x33'),'wWNwy':_0xc401('0x34')};let _0x5395fb=_0x16e52b[_0xc401('0x25')][_0xc401('0x26')];if(_0x5395fb){const _0x43d0bd=await VideosInfoModel[_0xc401('0x1c3')]();_0x16e52b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x16e52b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x353076[_0xc401('0x1c4')],_0x43d0bd);}else{_0x16e52b[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x16e52b[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x353076[_0xc401('0x1c5')]);}}static async[_0xc401('0x37')](_0x2aab02){var _0x814397={'Cchao':_0xc401('0x38'),'XsvhY':_0xc401('0x39')};let _0x5b9a36=_0x2aab02[_0xc401('0x3a')]['id'];if(_0x5b9a36){let _0x2b09bc=await VideosInfoModel[_0xc401('0x1c0')](_0x5b9a36);_0x2aab02[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2aab02[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x814397[_0xc401('0x1c6')],_0x2b09bc);}else{_0x2aab02[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2aab02[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x814397[_0xc401('0x1c7')]);}}static async[_0xc401('0x3d')](_0x25c551){var _0x2b98f4={'awkhY':function(_0x393d66,_0x2c5210){return _0x393d66(_0x2c5210);},'XvQzH':_0xc401('0x3e'),'SnEdN':_0xc401('0x3f')};let _0x4f5e9b=_0x25c551[_0xc401('0x3a')]['id'];if(_0x4f5e9b&&!_0x2b98f4[_0xc401('0x1c8')](isNaN,_0x4f5e9b)){await VideosInfoModel[_0xc401('0x1c9')](_0x4f5e9b);_0x25c551[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x25c551[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2b98f4[_0xc401('0x1ca')]);}else{_0x25c551[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x25c551[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x2b98f4[_0xc401('0x1cb')]);}}static async[_0xc401('0x44')](_0x26101d){var _0x469be4={'jIiGy':_0xc401('0x45'),'zLXPp':_0xc401('0x46')};let _0x48f9c2=_0x26101d[_0xc401('0x25')][_0xc401('0x26')];let _0x46f07e=_0x26101d[_0xc401('0x3a')]['id'];if(_0x48f9c2){await VideosInfoModel[_0xc401('0x1cc')](_0x46f07e,_0x48f9c2);let _0x3617d3=await VideosInfoModel[_0xc401('0x1c0')](_0x46f07e);_0x26101d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x26101d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x469be4[_0xc401('0x1cd')],_0x3617d3);}else{_0x26101d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x26101d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x469be4[_0xc401('0x1ce')]);}}static async[_0xc401('0x1cf')](_0x1f463a){var _0x26b0df={'vxwVG':_0xc401('0x33')};let _0x1f395d=_0x1f463a[_0xc401('0x25')][_0xc401('0x26')];const _0x46915c=JSON[_0xc401('0x27')](_0x1f395d);await VideosInfoModel[_0xc401('0x1cf')](_0x46915c)[_0xc401('0x4d')](_0x16167d=>{const _0x3ea233=[];_0x16167d[_0xc401('0x89')](_0x667a3a=>{_0x667a3a[_0xc401('0x1d0')]=(_0x667a3a[_0xc401('0x1d0')]||'')[_0xc401('0x8b')]();_0x3ea233[_0xc401('0x1d1')](_0x667a3a);});_0x1f463a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1f463a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x26b0df[_0xc401('0x1d2')],_0x3ea233);});}}class CustomerPVController{static async[_0xc401('0x22')](_0x5ccdad){var _0x508109={'JKThz':_0xc401('0x23'),'gCtsl':_0xc401('0x24')};const _0x4c32eb=_0x5ccdad[_0xc401('0x25')][_0xc401('0x26')];const _0x161f79=JSON[_0xc401('0x27')](_0x4c32eb[_0xc401('0x28')]);if(req[_0xc401('0x29')]){let _0xca3844=await CustomerPVModel[_0xc401('0x1d3')](_0x161f79);let _0x4ee6e8=await CustomerPVModel[_0xc401('0x1d4')](_0xca3844['id']);_0x5ccdad[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5ccdad[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x508109[_0xc401('0x1d5')],_0x4ee6e8);}else{_0x5ccdad[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x5ccdad[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x508109[_0xc401('0x1d6')]);}}static async[_0xc401('0x1d7')](_0x25dd53){var _0x420393={'pxcAM':_0xc401('0x33'),'pUkgn':_0xc401('0x34')};let _0x17c21b=_0x25dd53[_0xc401('0x25')][_0xc401('0x26')];if(_0x17c21b){const _0x45a4d0=await CustomerPVModel[_0xc401('0x1d7')]();_0x25dd53[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x25dd53[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x420393[_0xc401('0x1d8')],_0x45a4d0);}else{_0x25dd53[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x25dd53[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x420393[_0xc401('0x1d9')]);}}static async[_0xc401('0x37')](_0x38869b){var _0x332d25={'UUxtO':_0xc401('0x38'),'wATIa':_0xc401('0x39')};let _0x33fbb5=_0x38869b[_0xc401('0x3a')]['id'];if(_0x33fbb5){let _0x18a17c=await CustomerPVModel[_0xc401('0x1d4')](_0x33fbb5);_0x38869b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x38869b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x332d25[_0xc401('0x1da')],_0x18a17c);}else{_0x38869b[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x38869b[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x332d25[_0xc401('0x1db')]);}}static async[_0xc401('0x3d')](_0xc60caf){var _0x56ef31={'WXDBT':function(_0x1645aa,_0x299fca){return _0x1645aa(_0x299fca);},'QxdsU':_0xc401('0x3e'),'YFBbL':_0xc401('0x3f')};let _0x3603d8=_0xc60caf[_0xc401('0x3a')]['id'];if(_0x3603d8&&!_0x56ef31[_0xc401('0x1dc')](isNaN,_0x3603d8)){await CustomerPVModel[_0xc401('0x1dd')](_0x3603d8);_0xc60caf[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xc60caf[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x56ef31[_0xc401('0x1de')]);}else{_0xc60caf[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xc60caf[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x56ef31[_0xc401('0x1df')]);}}static async[_0xc401('0x44')](_0x37c5ab){var _0x55ffff={'cnmeN':_0xc401('0x45'),'HLdWP':_0xc401('0x46')};let _0x2c0cb6=_0x37c5ab[_0xc401('0x25')][_0xc401('0x26')];let _0x1927ca=_0x37c5ab[_0xc401('0x3a')]['id'];if(_0x2c0cb6){await CustomerPVModel[_0xc401('0x1e0')](_0x1927ca,_0x2c0cb6);let _0x21925d=await CustomerPVModel[_0xc401('0x1d4')](_0x1927ca);_0x37c5ab[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x37c5ab[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x55ffff[_0xc401('0x1e1')],_0x21925d);}else{_0x37c5ab[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x37c5ab[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x55ffff[_0xc401('0x1e2')]);}}static async[_0xc401('0x1e3')](_0x172655){var _0x3df164={'DyJJT':function(_0x2e47a3,_0x1b0dde){return _0x2e47a3+_0x1b0dde;},'iGVJA':_0xc401('0x1e4'),'rTeJM':function(_0x2fe62f,_0x50dff3){return _0x2fe62f<_0x50dff3;},'GbZmQ':function(_0x404d37,_0x4af79e){return _0x404d37-_0x4af79e;},'NlROu':function(_0x49f07c,_0x2affe7){return _0x49f07c*_0x2affe7;},'lpOrt':_0xc401('0x45'),'ZtzoA':function(_0x5dd306,_0x19ad35){return _0x5dd306/_0x19ad35;},'bOcEX':function(_0x53ee79,_0x2c8e13){return _0x53ee79/_0x2c8e13;}};let _0x417666=_0x172655[_0xc401('0x25')][_0xc401('0x26')];const _0x21f109=JSON[_0xc401('0x27')](_0x417666);const _0x1bad92=_0x3df164[_0xc401('0x1e5')](_0x3df164[_0xc401('0x1e6')],_0x21f109[_0xc401('0x10a')]);const _0xa4b306=global[_0xc401('0x1e7')][_0x1bad92];const _0xc3a2b5=new Date()[_0xc401('0x1e8')]();if(_0xa4b306&&_0x3df164[_0xc401('0x1e9')](_0x3df164[_0xc401('0x1ea')](_0xc3a2b5,_0xa4b306[_0xc401('0x29')]),_0x3df164[_0xc401('0x1eb')](_0x3df164[_0xc401('0x1eb')](0xa,0x3c),0x3e8))){const {today,yesterday}=_0xa4b306;const _0x317f3e={'today':today,'yesterday':yesterday};_0x172655[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x172655[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3df164[_0xc401('0x1ec')],_0x317f3e);}else{const _0x47d670=await CustomerPVModel[_0xc401('0x1ed')](_0x21f109,0x0);const _0x5b5e9c=await CustomerPVModel[_0xc401('0x1ee')](_0x21f109,0x0);const _0x6f9a5a=await CustomerPVModel[_0xc401('0x1ef')](_0x21f109,0x0);const _0x5e5a10={'pv':_0x47d670[0x0][_0xc401('0x7d')],'uv':_0x5b5e9c[0x0][_0xc401('0x7d')],'ip':_0x6f9a5a[0x0][_0xc401('0x7d')],'per':_0x3df164[_0xc401('0x1f0')](_0x47d670[0x0][_0xc401('0x7d')],_0x5b5e9c[0x0][_0xc401('0x7d')])[_0xc401('0x1f1')](0x2)};let _0x14844c=null;let _0xe9246b=null;let _0x2373a3=null;let _0x232d70=null;try{_0x14844c=await CustomerPVModel[_0xc401('0x1ed')](_0x21f109,0x1);_0xe9246b=await CustomerPVModel[_0xc401('0x1ee')](_0x21f109,0x1);_0x2373a3=await CustomerPVModel[_0xc401('0x1ef')](_0x21f109,0x1);_0x232d70={'pv':_0x14844c[0x0][_0xc401('0x7d')],'uv':_0xe9246b[0x0][_0xc401('0x7d')],'ip':_0x2373a3[0x0][_0xc401('0x7d')],'per':_0x3df164[_0xc401('0x1f2')](_0x14844c[0x0][_0xc401('0x7d')],_0xe9246b[0x0][_0xc401('0x7d')])[_0xc401('0x1f1')](0x2)};}catch(_0x1ce477){_0x232d70={'pv':0x0,'uv':0x0,'ip':0x0,'per':0x0};}const _0x317f3e={'today':_0x5e5a10,'yesterday':_0x232d70};const _0xa4b306={'today':_0x5e5a10,'yesterday':_0x232d70,'happenTime':new Date()[_0xc401('0x1e8')]()};global[_0xc401('0x1e7')][_0x1bad92]=_0xa4b306;_0x172655[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x172655[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3df164[_0xc401('0x1ec')],_0x317f3e);}}static async[_0xc401('0x1f3')](_0x146509){var _0x6ee42b={'pULwH':_0xc401('0x33'),'iHltN':_0xc401('0x34')};let _0x5e1edb=_0x146509[_0xc401('0x25')][_0xc401('0x26')];const _0x5a7a91=JSON[_0xc401('0x27')](_0x5e1edb);if(_0x5e1edb){const _0x543633=await CustomerPVModel[_0xc401('0x1f3')](_0x5a7a91);_0x146509[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x146509[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x6ee42b[_0xc401('0x1f4')],utils[_0xc401('0x73')](_0x543633,_0x5a7a91[_0xc401('0x1f5')]));}else{_0x146509[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x146509[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x6ee42b[_0xc401('0x1f6')]);}}static async[_0xc401('0x1f7')](_0xc903de){var _0x3a2b84={'skBrs':_0xc401('0x33')};let _0x220dcb=_0xc903de[_0xc401('0x25')][_0xc401('0x26')];const _0x49cf77=JSON[_0xc401('0x27')](_0x220dcb);let _0x34676a=[];await CustomerPVModel[_0xc401('0x1f7')](_0x49cf77)[_0xc401('0x4d')](_0x27318e=>{_0x34676a=_0x27318e;});let _0x110086=[];await CustomerPVModel[_0xc401('0x1f8')](_0x49cf77)[_0xc401('0x4d')](_0x965d36=>{_0x110086=_0x965d36;});_0xc903de[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xc903de[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3a2b84[_0xc401('0x1f9')],{'today':_0x34676a,'seven':_0x110086});}static async[_0xc401('0x1fa')](_0x1da6d6){var _0x4c6eb7={'pAywM':_0xc401('0x33')};let _0x69e39f=_0x1da6d6[_0xc401('0x25')][_0xc401('0x26')];const _0x92a2f8=JSON[_0xc401('0x27')](_0x69e39f);let _0x3cb05b=[];await CustomerPVModel[_0xc401('0x1fa')](_0x92a2f8)[_0xc401('0x4d')](_0x346809=>{_0x3cb05b=_0x346809;});let _0x49723d=[];await CustomerPVModel[_0xc401('0x1fb')](_0x92a2f8)[_0xc401('0x4d')](_0x5c40ad=>{_0x49723d=_0x5c40ad;});_0x1da6d6[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1da6d6[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4c6eb7[_0xc401('0x1fc')],{'today':_0x3cb05b,'seven':_0x49723d});}static async[_0xc401('0x1fd')](_0x968d22){var _0x5f160={'HtjzI':_0xc401('0x33')};let _0x3def0e=_0x968d22[_0xc401('0x25')][_0xc401('0x26')];const _0x5f23ea=JSON[_0xc401('0x27')](_0x3def0e);let _0x5eb997=[];await CustomerPVModel[_0xc401('0x1fe')](_0x5f23ea)[_0xc401('0x4d')](_0x25dcf3=>{_0x5eb997=_0x25dcf3;});let _0x52b76e=[];await CustomerPVModel[_0xc401('0x1ff')](_0x5f23ea)[_0xc401('0x4d')](_0x3568c2=>{_0x52b76e=_0x3568c2;});_0x968d22[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x968d22[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5f160[_0xc401('0x200')],{'today':_0x5eb997,'seven':_0x52b76e});}static async[_0xc401('0x201')](_0x268899){var _0x367e8c={'eYrxs':_0xc401('0x33')};let _0x23aef0=_0x268899[_0xc401('0x25')][_0xc401('0x26')];const _0x82bf73=JSON[_0xc401('0x27')](_0x23aef0);let _0x2e1d92=[];await CustomerPVModel[_0xc401('0x202')](_0x82bf73)[_0xc401('0x4d')](_0x51e1de=>{_0x2e1d92=_0x51e1de;});let _0x5d8188=[];await CustomerPVModel[_0xc401('0x203')](_0x82bf73)[_0xc401('0x4d')](_0x42596e=>{_0x5d8188=_0x42596e;});let _0x4a26c2=0x0;await CustomerPVModel[_0xc401('0x204')](_0x82bf73)[_0xc401('0x4d')](_0x595bf7=>{_0x4a26c2=_0x595bf7[0x0][_0xc401('0x7d')];});_0x268899[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x268899[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x367e8c[_0xc401('0x205')],{'today':_0x2e1d92,'seven':_0x5d8188,'total':_0x4a26c2});}static async[_0xc401('0x206')](_0xfb20c1){var _0x72d36b={'CkdAK':_0xc401('0x33')};let _0x2b682f=_0xfb20c1[_0xc401('0x25')][_0xc401('0x26')];const _0x170eaf=JSON[_0xc401('0x27')](_0x2b682f);let _0x3ddfab=[];await CustomerPVModel[_0xc401('0x207')](_0x170eaf)[_0xc401('0x4d')](_0x397d0a=>{_0x3ddfab=_0x397d0a;});let _0x2cc02a=[];await CustomerPVModel[_0xc401('0x208')](_0x170eaf)[_0xc401('0x4d')](_0x3f2a43=>{_0x2cc02a=_0x3f2a43;});_0xfb20c1[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xfb20c1[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x72d36b[_0xc401('0x209')],{'today':_0x3ddfab,'seven':_0x2cc02a});}static async[_0xc401('0x20a')](_0x457e6b){var _0x5e8d25={'VygCh':_0xc401('0x33')};let _0x29247b=_0x457e6b[_0xc401('0x25')][_0xc401('0x26')];const _0x58e215=JSON[_0xc401('0x27')](_0x29247b);let _0x245257=[];await CustomerPVModel[_0xc401('0x20b')](_0x58e215)[_0xc401('0x4d')](_0x2629f2=>{_0x245257=_0x2629f2;});let _0x2fd058=[];await CustomerPVModel[_0xc401('0x20c')](_0x58e215)[_0xc401('0x4d')](_0x17f3d0=>{_0x2fd058=_0x17f3d0;});_0x457e6b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x457e6b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5e8d25[_0xc401('0x20d')],{'pv':_0x245257,'uv':_0x2fd058});}static async[_0xc401('0x20e')](_0x10474d){var _0x918a0b={'wivhr':_0xc401('0x33')};let _0xf71fe9=_0x10474d[_0xc401('0x25')][_0xc401('0x26')];const _0x4d8087=JSON[_0xc401('0x27')](_0xf71fe9);let _0x420907=[];await CustomerPVModel[_0xc401('0x20f')](_0x4d8087)[_0xc401('0x4d')](_0x40d439=>{_0x420907=_0x40d439;});_0x10474d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x10474d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x918a0b[_0xc401('0x210')],{'uv':_0x420907});}static async[_0xc401('0x211')](_0x4c2c3d){var _0x46c29e={'MlMWJ':function(_0x103f06,_0x2be025){return _0x103f06<_0x2be025;},'ZCuir':function(_0x466759,_0x24ee41){return _0x466759<_0x24ee41;},'fykOB':_0xc401('0x212'),'hFeoS':_0xc401('0x33')};let _0x7f958f=_0x4c2c3d[_0xc401('0x25')][_0xc401('0x26')];const _0xf7e303=JSON[_0xc401('0x27')](_0x7f958f);const _0x2c48c8=await CustomerPVModel[_0xc401('0x213')](_0xf7e303);const _0x475814=await CustomerPVModel[_0xc401('0x211')](_0xf7e303);for(let _0xe4bca5=0x0;_0x46c29e[_0xc401('0x214')](_0xe4bca5,_0x475814[_0xc401('0x56')]);_0xe4bca5++){let _0x2af549=_0x475814[_0xe4bca5][_0xc401('0x215')];_0x475814[_0xe4bca5][_0xc401('0x215')]=provinces[_0x2af549]?provinces[_0x2af549]:'其他';}for(let _0x51b0f0=0x0;_0x46c29e[_0xc401('0x216')](_0x51b0f0,_0x2c48c8[_0xc401('0x56')]);_0x51b0f0++){let _0x2af549=_0x2c48c8[_0x51b0f0][_0xc401('0x217')];_0x2c48c8[_0x51b0f0][_0xc401('0x217')]=provinces[_0x2af549]?provinces[_0x2af549]:_0x46c29e[_0xc401('0x218')];}_0x4c2c3d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4c2c3d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x46c29e[_0xc401('0x219')],{'pvList':_0x2c48c8,'provinceData':_0x475814});}static async[_0xc401('0x21a')](_0x356833){var _0x2e2867={'gqvQa':_0xc401('0x33')};let _0x495276=_0x356833[_0xc401('0x25')][_0xc401('0x26')];const _0x3854e6=JSON[_0xc401('0x27')](_0x495276);const _0x3b594d=await CustomerPVModel[_0xc401('0x21a')](_0x3854e6);_0x3b594d[_0xc401('0x89')]((_0x3a940b,_0x15eee2)=>{if(_0x3a940b[_0xc401('0x21b')]){_0x3b594d[_0x15eee2][_0xc401('0x21b')]=utils[_0xc401('0x21c')](_0x3a940b[_0xc401('0x21b')]);}});_0x356833[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x356833[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2e2867[_0xc401('0x21d')],_0x3b594d);}static async[_0xc401('0x21e')](_0x4e3f83){var _0x146a54={'GBFqQ':function(_0x3fd570,_0x4a5881){return _0x3fd570<_0x4a5881;},'Fdsub':_0xc401('0x33')};let _0x1799f3=_0x4e3f83[_0xc401('0x25')][_0xc401('0x26')];const _0x33ab6c=JSON[_0xc401('0x27')](_0x1799f3);const _0x137e69=await CustomerPVModel[_0xc401('0x21e')](_0x33ab6c);for(let _0x5017b1=0x0;_0x146a54[_0xc401('0x21f')](_0x5017b1,_0x137e69[_0xc401('0x56')]);_0x5017b1++){let _0x21acab=_0x137e69[_0x5017b1][_0xc401('0x220')][_0xc401('0x171')]('\x27','');_0x137e69[_0x5017b1][_0xc401('0x220')]=citys[_0x21acab]||_0x21acab;}_0x4e3f83[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4e3f83[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x146a54[_0xc401('0x221')],_0x137e69);}static async[_0xc401('0x222')](_0xb32782){var _0x9a11b8={'LEeAj':_0xc401('0x33')};let _0x1ac1a8=_0xb32782[_0xc401('0x25')][_0xc401('0x26')];const _0x295598=JSON[_0xc401('0x27')](_0x1ac1a8);const _0x1bdde8=await CustomerPVModel[_0xc401('0x222')](_0x295598);_0xb32782[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xb32782[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x9a11b8[_0xc401('0x223')],_0x1bdde8);}static async[_0xc401('0x224')](_0x25328c){var _0x2791cb={'DhDZo':_0xc401('0x33')};let _0x15dbd8=_0x25328c[_0xc401('0x25')][_0xc401('0x26')];const _0x9aafad=JSON[_0xc401('0x27')](_0x15dbd8);const _0x3ce364=await CustomerPVModel[_0xc401('0x224')](_0x9aafad);_0x25328c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x25328c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2791cb[_0xc401('0x225')],_0x3ce364);}static async[_0xc401('0x226')](_0x34bc90){var _0x1d7f75={'mhAvl':function(_0x7c0ddb,_0x11ad04){return _0x7c0ddb+_0x11ad04;},'WnyPz':function(_0x3b1dd9,_0x2fc7ba){return _0x3b1dd9+_0x2fc7ba;},'ZprGQ':_0xc401('0x227'),'ZSKYv':_0xc401('0x228'),'mrwxu':function(_0x54c80f,_0xf41778,_0x1f3b77){return _0x54c80f(_0xf41778,_0x1f3b77);},'Wqoxs':function(_0x41860c,_0x425db5){return _0x41860c-_0x425db5;},'MLDWA':function(_0x48fa56,_0x4775dc){return _0x48fa56>_0x4775dc;},'WlOjV':function(_0x37124f,_0x58cdb9){return _0x37124f-_0x58cdb9;},'HpEMI':_0xc401('0x229'),'qxxEt':_0xc401('0x22a'),'NSGAh':_0xc401('0x22b'),'hXRMw':_0xc401('0x22c'),'fogHu':_0xc401('0x22d'),'hEOxJ':_0xc401('0x22e'),'tPeaP':_0xc401('0x22f'),'YAfPb':_0xc401('0x33')};let _0x4cbaec=_0x34bc90[_0xc401('0x25')][_0xc401('0x26')];const _0x1fd096=JSON[_0xc401('0x27')](_0x4cbaec);const _0x4fcf26=_0x1d7f75[_0xc401('0x230')](_0x1d7f75[_0xc401('0x231')](_0x1d7f75[_0xc401('0x232')],_0x1fd096[_0xc401('0x10a')]),new Date()[_0xc401('0x233')](_0x1d7f75[_0xc401('0x234')]));let _0x3a20f3=null;try{if(global[_0xc401('0x1e7')][_0x4fcf26]){_0x3a20f3=global[_0xc401('0x1e7')][_0x4fcf26];}else{const _0x40a1e0=_0x1d7f75[_0xc401('0x235')](parseInt,_0x1fd096[_0xc401('0x236')],0xa);const _0x4b736f=[];for(let _0x42a175=_0x1d7f75[_0xc401('0x237')](_0x40a1e0,0x1);_0x1d7f75[_0xc401('0x238')](_0x42a175,0x0);_0x42a175--){const _0x33bc38=utils[_0xc401('0x239')](_0x1d7f75[_0xc401('0x23a')](0x0,_0x42a175));_0x4b736f[_0xc401('0x1d1')](_0x33bc38);}const _0x1ddd54=[];const _0x3e7538=await CustomerPVModel[_0xc401('0x226')](_0x1fd096);_0x3e7538[_0xc401('0x89')]((_0x48209d,_0x2cdd94)=>{let _0x40deac={'date':_0x4b736f[_0x2cdd94],'count':_0x48209d[_0xc401('0x7d')]};_0x1ddd54[_0xc401('0x1d1')](_0x40deac);});_0x3a20f3=_0x1ddd54;global[_0xc401('0x1e7')][_0x4fcf26]=_0x1ddd54;}}catch(_0x5eaf67){_0x3a20f3=[{'date':_0x1d7f75[_0xc401('0x23b')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x23c')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x23d')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x23e')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x23f')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x240')],'count':'0'},{'date':_0x1d7f75[_0xc401('0x241')],'count':'0'}];}_0x34bc90[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x34bc90[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1d7f75[_0xc401('0x242')],_0x3a20f3);}static async[_0xc401('0x243')](_0x36394a){var _0x68f3cd={'lbYVQ':_0xc401('0x33'),'uyfPf':_0xc401('0x34')};let _0x3bf924=_0x36394a[_0xc401('0x25')][_0xc401('0x26')];const _0x4670aa=JSON[_0xc401('0x27')](_0x3bf924);if(_0x3bf924){const _0x3c9f3f=await CustomerPVModel[_0xc401('0x1f3')](_0x4670aa);_0x36394a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x36394a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x68f3cd[_0xc401('0x244')],utils[_0xc401('0x73')](_0x3c9f3f,_0x4670aa[_0xc401('0x1f5')]));}else{_0x36394a[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x36394a[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x68f3cd[_0xc401('0x245')]);}}static async[_0xc401('0x243')](_0x486c04){var _0x10e889={'FWakp':_0xc401('0x33'),'HoAWA':_0xc401('0x34')};let _0xa8c05f=_0x486c04[_0xc401('0x25')][_0xc401('0x26')];const _0x4553f1=JSON[_0xc401('0x27')](_0xa8c05f);if(_0xa8c05f){const _0x28b29b=await CustomerPVModel[_0xc401('0x1f3')](_0x4553f1);_0x486c04[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x486c04[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x10e889[_0xc401('0x246')],utils[_0xc401('0x73')](_0x28b29b,_0x4553f1[_0xc401('0x1f5')]));}else{_0x486c04[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x486c04[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x10e889[_0xc401('0x247')]);}}}class JavascriptErrorInfoController{static async[_0xc401('0x22')](_0x4d3fd6){var _0x49e199={'FRsni':_0xc401('0x23'),'iqnUj':_0xc401('0x24')};const _0x4792f7=_0x4d3fd6[_0xc401('0x25')][_0xc401('0x26')];const _0x3e3bef=JSON[_0xc401('0x27')](_0x4792f7[_0xc401('0x28')]);if(_0x3e3bef[_0xc401('0x29')]){let _0x52811b=await JavascriptErrorInfoModel[_0xc401('0x248')](_0x3e3bef);let _0x134ec7=await JavascriptErrorInfoModel[_0xc401('0x249')](_0x52811b['id']);_0x4d3fd6[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4d3fd6[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x49e199[_0xc401('0x24a')],_0x134ec7);}else{_0x4d3fd6[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x4d3fd6[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x49e199[_0xc401('0x24b')]);}}static async[_0xc401('0x24c')](_0x3cb1ed){var _0x272332={'JesaL':_0xc401('0x33'),'hujDX':_0xc401('0x34')};let _0x4c6b5d=_0x3cb1ed[_0xc401('0x25')][_0xc401('0x26')];if(_0x4c6b5d){const _0x2a2d8f=await JavascriptErrorInfoModel[_0xc401('0x24c')]();_0x3cb1ed[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3cb1ed[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x272332[_0xc401('0x24d')],_0x2a2d8f);}else{_0x3cb1ed[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3cb1ed[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x272332[_0xc401('0x24e')]);}}static async[_0xc401('0x24f')](_0x87fffd){var _0x5345d6={'UPydM':_0xc401('0x250')};let _0x169072=_0x87fffd[_0xc401('0x25')][_0xc401('0x26')];const _0x3f2bef=JSON[_0xc401('0x27')](_0x169072);let _0x5396a0=[];await JavascriptErrorInfoModel[_0xc401('0x24f')](_0x3f2bef)[_0xc401('0x4d')](_0x492173=>{_0x5396a0=_0x492173;});_0x87fffd[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x87fffd[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5345d6[_0xc401('0x251')],{'jsError':_0x5396a0});}static async[_0xc401('0x252')](_0x3c9afa){var _0xd0fb13={'ZcZdK':_0xc401('0x33'),'Qhcuq':_0xc401('0x34')};const _0x5b5ec2=utils[_0xc401('0x4b')](_0x3c9afa[_0xc401('0x25')][_0xc401('0x4c')]);_0x5b5ec2[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x253')];await JavascriptErrorInfoModel[_0xc401('0x252')](_0x5b5ec2)[_0xc401('0x4d')](_0x30c24f=>{if(_0x30c24f){_0x3c9afa[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3c9afa[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xd0fb13[_0xc401('0x254')],utils[_0xc401('0x73')](_0x30c24f));}else{_0x3c9afa[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x3c9afa[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0xd0fb13[_0xc401('0x255')]);}});}static async[_0xc401('0x256')](_0x2521ab){var _0x4c08e4={'WfFAu':_0xc401('0x33'),'HyCau':_0xc401('0x34')};const _0x251ede=utils[_0xc401('0x4b')](_0x2521ab[_0xc401('0x25')][_0xc401('0x4c')]);_0x251ede[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x257')];await JavascriptErrorInfoModel[_0xc401('0x256')](_0x251ede)[_0xc401('0x4d')](_0x26ac66=>{if(_0x26ac66){_0x2521ab[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2521ab[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4c08e4[_0xc401('0x258')],utils[_0xc401('0x73')](_0x26ac66));}else{_0x2521ab[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x2521ab[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4c08e4[_0xc401('0x259')]);}});}static async[_0xc401('0x25a')](_0x90487f){var _0x4f0132={'cCQRi':_0xc401('0x33')};const _0x344a9c=utils[_0xc401('0x4b')](_0x90487f[_0xc401('0x25')][_0xc401('0x4c')]);_0x344a9c[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x253')];let _0x1d2063=[];await JavascriptErrorInfoModel[_0xc401('0x25b')](_0x344a9c)[_0xc401('0x4d')](_0x4b83c8=>{_0x1d2063=_0x4b83c8;});let _0x4c2623=[];await JavascriptErrorInfoModel[_0xc401('0x25c')](_0x344a9c)[_0xc401('0x4d')](_0xb11697=>{_0x4c2623=_0xb11697;});_0x90487f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x90487f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4f0132[_0xc401('0x25d')],{'today':_0x1d2063,'seven':_0x4c2623});}static async[_0xc401('0x25e')](_0x458e81){var _0x52ed38={'rHXsC':_0xc401('0x33'),'VgxaD':_0xc401('0x34')};const _0x223f29=utils[_0xc401('0x4b')](_0x458e81[_0xc401('0x25')][_0xc401('0x4c')]);await JavascriptErrorInfoModel[_0xc401('0x25e')](_0x223f29)[_0xc401('0x4d')](_0x16b4a9=>{if(_0x16b4a9){_0x458e81[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x458e81[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x52ed38[_0xc401('0x25f')],_0x16b4a9);}else{_0x458e81[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x458e81[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x52ed38[_0xc401('0x260')]);}});}static async[_0xc401('0x261')](_0x3cab9d){var _0xc5aa99={'kgBYE':_0xc401('0x33')};const _0x6f48dd=utils[_0xc401('0x4b')](_0x3cab9d[_0xc401('0x25')][_0xc401('0x4c')]);_0x6f48dd[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x253')];let _0x45f482=[];await JavascriptErrorInfoModel[_0xc401('0x25b')](_0x6f48dd)[_0xc401('0x4d')](_0x7694c=>{_0x45f482=_0x7694c;});let _0x2cff75=[];await JavascriptErrorInfoModel[_0xc401('0x25c')](_0x6f48dd)[_0xc401('0x4d')](_0x57e83c=>{_0x2cff75=_0x57e83c;});_0x3cab9d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3cab9d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xc5aa99[_0xc401('0x262')],{'today':_0x45f482,'seven':_0x2cff75});}static async[_0xc401('0x263')](_0x339fe3){var _0x103268={'AzCFT':_0xc401('0x33')};const _0x3759e6=utils[_0xc401('0x4b')](_0x339fe3[_0xc401('0x25')][_0xc401('0x4c')]);_0x3759e6[_0xc401('0x6f')]=UPLOAD_TYPE[_0xc401('0x257')];let _0x43b50a=[];await JavascriptErrorInfoModel[_0xc401('0x25b')](_0x3759e6)[_0xc401('0x4d')](_0x3a16f0=>{_0x43b50a=_0x3a16f0;});let _0x301d36=[];await JavascriptErrorInfoModel[_0xc401('0x25c')](_0x3759e6)[_0xc401('0x4d')](_0x40c5c8=>{_0x301d36=_0x40c5c8;});_0x339fe3[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x339fe3[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x103268[_0xc401('0x264')],{'today':_0x43b50a,'seven':_0x301d36});}static async[_0xc401('0x265')](_0x4d3d52){var _0x26469f={'urZYe':function(_0x5a40e8,_0x1f614f){return _0x5a40e8<_0x1f614f;},'IbUKK':_0xc401('0x33')};const _0x255dbf=JSON[_0xc401('0x27')](_0x4d3d52[_0xc401('0x25')][_0xc401('0x26')]);let _0x49133c=[];await JavascriptErrorInfoModel[_0xc401('0x265')](_0x255dbf)[_0xc401('0x4d')](_0x573a50=>{_0x49133c=_0x573a50;});for(let _0xc54546=0x0;_0x26469f[_0xc401('0x266')](_0xc54546,_0x49133c[_0xc401('0x56')]);_0xc54546++){await JavascriptErrorInfoModel[_0xc401('0x267')](_0x49133c[_0xc54546][_0xc401('0x268')],_0x255dbf)[_0xc401('0x4d')](_0x540aa2=>{_0x49133c[_0xc54546][_0xc401('0x59')]=_0x540aa2[0x0][_0xc401('0x59')];_0x49133c[_0xc54546][_0xc401('0x29')]=_0x540aa2[0x0][_0xc401('0x29')];});await JavascriptErrorInfoModel[_0xc401('0x269')](_0x49133c[_0xc54546][_0xc401('0x268')],_0x255dbf)[_0xc401('0x4d')](_0x71ace=>{_0x49133c[_0xc54546][_0xc401('0x7c')]=_0x71ace[0x0][_0xc401('0x7d')];});await JavascriptErrorInfoModel[_0xc401('0x26a')](_0x49133c[_0xc54546][_0xc401('0x268')],_0x255dbf)[_0xc401('0x4d')](_0xd7013c=>{_0x49133c[_0xc54546][_0xc401('0x26b')]=_0xd7013c;});}_0x4d3d52[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x4d3d52[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x26469f[_0xc401('0x26c')],_0x49133c);}static async[_0xc401('0x26d')](_0x3c1c70){var _0x33cd35={'CdjhB':function(_0xb0601b,_0x1ecd43){return _0xb0601b<_0x1ecd43;},'XYaiR':_0xc401('0x33')};const _0x2d75cd=JSON[_0xc401('0x27')](_0x3c1c70[_0xc401('0x25')][_0xc401('0x26')]);let _0x4e1131=[];await JavascriptErrorInfoModel[_0xc401('0x26d')](_0x2d75cd)[_0xc401('0x4d')](_0x405423=>{_0x4e1131=_0x405423;});for(let _0x623133=0x0;_0x33cd35[_0xc401('0x26e')](_0x623133,_0x4e1131[_0xc401('0x56')]);_0x623133++){await JavascriptErrorInfoModel[_0xc401('0x267')](_0x4e1131[_0x623133][_0xc401('0x268')],_0x2d75cd)[_0xc401('0x4d')](_0x469a5b=>{_0x4e1131[_0x623133][_0xc401('0x59')]=_0x469a5b[0x0][_0xc401('0x59')];_0x4e1131[_0x623133][_0xc401('0x29')]=_0x469a5b[0x0][_0xc401('0x29')];});await JavascriptErrorInfoModel[_0xc401('0x26f')](_0x4e1131[_0x623133][_0xc401('0x268')],_0x2d75cd)[_0xc401('0x4d')](_0x2a721e=>{_0x4e1131[_0x623133][_0xc401('0x26b')]=_0x2a721e;});}_0x3c1c70[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3c1c70[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x33cd35[_0xc401('0x270')],_0x4e1131);}static async[_0xc401('0x271')](_0x301842){var _0x660665={'Waopf':_0xc401('0x33'),'gLLgc':_0xc401('0x34')};const _0x4f570d=utils[_0xc401('0x4b')](_0x301842[_0xc401('0x25')][_0xc401('0x4c')]);await JavascriptErrorInfoModel[_0xc401('0x271')](_0x4f570d)[_0xc401('0x4d')](_0x47cdb9=>{if(_0x47cdb9){_0x301842[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x301842[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x660665[_0xc401('0x272')],utils[_0xc401('0x73')](_0x47cdb9));}else{_0x301842[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x301842[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x660665[_0xc401('0x273')]);}});}static async[_0xc401('0x274')](_0x42134b){var _0x3af15d={'oIZKC':_0xc401('0x33'),'hOvJi':function(_0x5a0566,_0x56a58a){return _0x5a0566+_0x56a58a;},'QmYde':function(_0x478973,_0x290aa5){return _0x478973-_0x290aa5;},'GTxNf':_0xc401('0x275')};const _0x58d89b=utils[_0xc401('0x4b')](_0x42134b[_0xc401('0x25')][_0xc401('0x4c')]);const _0x24fe60={};const {day}=_0x58d89b;_0x58d89b[_0xc401('0x236')]=_0x3af15d[_0xc401('0x276')](utils[_0xc401('0x239')](_0x3af15d[_0xc401('0x277')](0x0,day)),_0x3af15d[_0xc401('0x278')]);await JavascriptErrorInfoModel[_0xc401('0x279')](_0x58d89b)[_0xc401('0x4d')](_0x90276b=>{_0x24fe60[_0xc401('0x27a')]=_0x90276b[_0xc401('0x56')]?_0x90276b[0x0]:0x0;});await JavascriptErrorInfoModel[_0xc401('0x27b')](_0x58d89b)[_0xc401('0x4d')](_0x3dec1e=>{_0x24fe60[_0xc401('0x27c')]=_0x3dec1e[_0xc401('0x56')]?_0x3dec1e[0x0]:0x0;});await JavascriptErrorInfoModel[_0xc401('0x27d')](_0x58d89b)[_0xc401('0x4d')](_0x441a92=>{_0x24fe60[_0xc401('0x27e')]=_0x441a92[_0xc401('0x56')]?_0x441a92[0x0]:0x0;});await CustomerPVModel[_0xc401('0x27f')](_0x58d89b)[_0xc401('0x4d')](_0x297444=>{_0x24fe60[_0xc401('0x280')]=_0x297444[_0xc401('0x56')]?_0x297444[0x0]:0x0;});await CustomerPVModel[_0xc401('0x281')](_0x58d89b)[_0xc401('0x4d')](_0xaa2287=>{_0x24fe60[_0xc401('0x282')]=_0xaa2287[_0xc401('0x56')]?_0xaa2287[0x0]:0x0;});await CustomerPVModel[_0xc401('0x283')](_0x58d89b)[_0xc401('0x4d')](_0x2d10be=>{_0x24fe60[_0xc401('0x284')]=_0x2d10be[_0xc401('0x56')]?_0x2d10be[0x0]:0x0;_0x42134b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x42134b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x3af15d[_0xc401('0x285')],_0x24fe60);});}static async[_0xc401('0x286')](_0x3f4b12){var _0x490ab0={'SxUHL':_0xc401('0x287'),'SVqYT':function(_0x302c03,_0x10c207){return _0x302c03+_0x10c207;},'mCYQB':function(_0x1e44d8,_0x3f7e59){return _0x1e44d8-_0x3f7e59;},'jzyfD':_0xc401('0x275')};const _0x49f798=utils[_0xc401('0x4b')](_0x3f4b12[_0xc401('0x25')][_0xc401('0x4c')]);const {day}=_0x49f798;_0x49f798[_0xc401('0x236')]=_0x490ab0[_0xc401('0x288')](utils[_0xc401('0x239')](_0x490ab0[_0xc401('0x289')](0x0,day)),_0x490ab0[_0xc401('0x28a')]);await JavascriptErrorInfoModel[_0xc401('0x286')](_0x49f798)[_0xc401('0x4d')](_0x2131af=>{_0x3f4b12[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x3f4b12[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x490ab0[_0xc401('0x28b')],_0x2131af);});}static async[_0xc401('0x28c')](_0x44ff79){var _0xe32c23={'pctcp':_0xc401('0x33'),'Gywdn':function(_0x1eee2d,_0x1ac2b3){return _0x1eee2d(_0x1ac2b3);}};const _0x875b8c=_0x44ff79[_0xc401('0x25')][_0xc401('0x26')];const _0x5b7b1e=JSON[_0xc401('0x27')](_0x875b8c);await JavascriptErrorInfoModel[_0xc401('0x28c')](_0xe32c23[_0xc401('0x28d')](decodeURIComponent,_0x5b7b1e[_0xc401('0x28e')]),_0x5b7b1e)[_0xc401('0x4d')](_0x2494c1=>{_0x44ff79[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x44ff79[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xe32c23[_0xc401('0x28f')],_0x2494c1);});}static async[_0xc401('0x290')](_0xc7c760){var _0xac90f5={'Szfck':_0xc401('0x33'),'MzgBs':function(_0x1c805b,_0x5e814d){return _0x1c805b(_0x5e814d);},'yVUop':function(_0x431bb3,_0x54c225){return _0x431bb3(_0x54c225);}};const _0x34ec2f=_0xc7c760[_0xc401('0x25')][_0xc401('0x26')];const _0xa3bdad=JSON[_0xc401('0x27')](_0x34ec2f);const _0xef034b={};await JavascriptErrorInfoModel[_0xc401('0x269')](_0xac90f5[_0xc401('0x291')](decodeURIComponent,_0xa3bdad[_0xc401('0x28e')]),_0xa3bdad)[_0xc401('0x4d')](_0x4c913e=>{_0xef034b[_0xc401('0x7c')]=_0x4c913e[0x0][_0xc401('0x7d')];});await JavascriptErrorInfoModel[_0xc401('0x292')](_0xac90f5[_0xc401('0x291')](decodeURIComponent,_0xa3bdad[_0xc401('0x28e')]),_0xa3bdad)[_0xc401('0x4d')](_0x137a3f=>{_0xef034b[_0xc401('0x293')]=_0x137a3f[0x0][_0xc401('0x7d')];});await JavascriptErrorInfoModel[_0xc401('0x294')](_0xac90f5[_0xc401('0x295')](decodeURIComponent,_0xa3bdad[_0xc401('0x28e')]),_0xa3bdad)[_0xc401('0x4d')](_0x3d909e=>{_0xef034b[_0xc401('0x26b')]={};_0x3d909e[_0xc401('0x89')](_0x4e2425=>{_0xef034b[_0xc401('0x26b')][_0x4e2425['os']]=_0x4e2425[_0xc401('0x7d')];});_0xc7c760[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xc7c760[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0xac90f5[_0xc401('0x296')],_0xef034b);});}static async[_0xc401('0x297')](_0xbe626f){var _0x18c0f4={'Jxpfc':_0xc401('0x33')};const _0x379ea8=utils[_0xc401('0x4b')](_0xbe626f[_0xc401('0x25')][_0xc401('0x4c')]);await JavascriptErrorInfoModel[_0xc401('0x297')](_0x379ea8)[_0xc401('0x4d')](_0x4cd799=>{_0xbe626f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xbe626f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x18c0f4[_0xc401('0x298')],_0x4cd799);});}static async[_0xc401('0x299')](_0x581fab){var _0x578ea7={'YcKDX':_0xc401('0x33')};const _0xc012cc=_0x581fab[_0xc401('0x25')][_0xc401('0x26')];const _0x840aa2=JSON[_0xc401('0x27')](_0xc012cc);await JavascriptErrorInfoModel[_0xc401('0x299')](_0x840aa2[_0xc401('0x29a')])[_0xc401('0x4d')](_0x51f3bf=>{_0x581fab[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x581fab[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x578ea7[_0xc401('0x29b')],_0x51f3bf);});}static async[_0xc401('0x37')](_0x574bb7){var _0x361dfc={'QtDOk':_0xc401('0x38'),'rbmVw':_0xc401('0x39')};let _0x190bfc=_0x574bb7[_0xc401('0x3a')]['id'];if(_0x190bfc){let _0x5a8b0b=await JavascriptErrorInfoModel[_0xc401('0x249')](_0x190bfc);_0x574bb7[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x574bb7[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x361dfc[_0xc401('0x29c')],_0x5a8b0b);}else{_0x574bb7[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x574bb7[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x361dfc[_0xc401('0x29d')]);}}static async[_0xc401('0x3d')](_0xbdec2a){var _0x11c0e0={'kelzt':function(_0x92a816,_0x34d12c){return _0x92a816(_0x34d12c);},'mKgmx':_0xc401('0x3e'),'QkFSr':_0xc401('0x3f')};let _0x2de934=_0xbdec2a[_0xc401('0x3a')]['id'];if(_0x2de934&&!_0x11c0e0[_0xc401('0x29e')](isNaN,_0x2de934)){await JavascriptErrorInfoModel[_0xc401('0x29f')](_0x2de934);_0xbdec2a[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xbdec2a[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x11c0e0[_0xc401('0x2a0')]);}else{_0xbdec2a[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0xbdec2a[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x11c0e0[_0xc401('0x2a1')]);}}static async[_0xc401('0x44')](_0x40945d){var _0x4bd061={'MrGZh':_0xc401('0x45'),'VFDzP':_0xc401('0x46')};let _0x18c2fd=_0x40945d[_0xc401('0x25')][_0xc401('0x26')];let _0x5e2d06=_0x40945d[_0xc401('0x3a')]['id'];if(_0x18c2fd){await JavascriptErrorInfoModel[_0xc401('0x2a2')](_0x5e2d06,_0x18c2fd);let _0x5b9591=await JavascriptErrorInfoModel[_0xc401('0x249')](_0x5e2d06);_0x40945d[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x40945d[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4bd061[_0xc401('0x2a3')],_0x5b9591);}else{_0x40945d[_0xc401('0x2c')][_0xc401('0x2d')]=0x19c;_0x40945d[_0xc401('0x26')]=statusCode[_0xc401('0x30')](_0x4bd061[_0xc401('0x2a4')]);}}}class Common{static async[_0xc401('0x2a5')](){var _0x5cedba={'gVJxj':_0xc401('0x2a6'),'lywmW':_0xc401('0x2a7'),'pVrfE':_0xc401('0x2a8'),'fErmC':_0xc401('0x2a9'),'GgfNo':_0xc401('0x2aa'),'lnQSS':_0xc401('0x2ab'),'xTvJG':_0xc401('0x2ac')};var _0xe2e894=_0x5cedba[_0xc401('0x2ad')][_0xc401('0x1ab')]('|'),_0xfa1e65=0x0;while(!![]){switch(_0xe2e894[_0xfa1e65++]){case'0':console[_0xc401('0x2ae')]('=\x20');continue;case'1':console[_0xc401('0x2ae')]('=\x20');continue;case'2':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2af')]);continue;case'3':console[_0xc401('0x2ae')]('=\x20');continue;case'4':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2b0')],_0x5cedba[_0xc401('0x2b1')]);continue;case'5':console[_0xc401('0x2ae')]('=\x20');continue;case'6':console[_0xc401('0x2ae')]('=\x20');continue;case'7':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2b2')]);continue;case'8':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2b3')]);continue;case'9':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2b0')],_0x5cedba[_0xc401('0x2b1')]);continue;case'10':console[_0xc401('0x2ae')](_0x5cedba[_0xc401('0x2b4')]);continue;}break;}}static async[_0xc401('0x2b5')](_0x17b704){var _0x45e35c={'uuHSI':_0xc401('0x2b6'),'QNgBF':function(_0x3a8690,_0x4895cd){return _0x3a8690==_0x4895cd;},'DJPCr':function(_0x305acb,_0x264b6e){return _0x305acb+_0x264b6e;},'SVBpX':_0xc401('0x2b7'),'YCkpg':_0xc401('0x2b8'),'sPbeF':_0xc401('0x2b9'),'LElfx':_0xc401('0x2ba'),'hKejY':function(_0x34a206,_0x1f4b89){return _0x34a206<_0x1f4b89;},'iZWWa':_0xc401('0x2bb'),'ZaktS':_0xc401('0x2bc'),'bSTOu':_0xc401('0x2bd'),'ZYdoI':function(_0xad7a0c,_0x1e9ef8){return _0xad7a0c>_0x1e9ef8;},'TpYha':_0xc401('0x2be'),'rHhBK':function(_0x490b0c,_0xefcd53){return _0x490b0c(_0xefcd53);},'DsyMK':_0xc401('0x2bf'),'qINEE':_0xc401('0x2c0'),'ApkBh':function(_0x356bf7,_0x4edb2d){return _0x356bf7>_0x4edb2d;},'ragtj':function(_0x514851,_0x2806d8){return _0x514851+_0x2806d8;},'XaTJy':function(_0xd3c224,_0x1bbdb8,_0x14be22){return _0xd3c224(_0x1bbdb8,_0x14be22);},'XoyAt':function(_0x16654a,_0x4b5797){return _0x16654a*_0x4b5797;},'JsLYN':function(_0x2dcab4,_0x405014){return _0x2dcab4*_0x405014;},'PhkSB':_0xc401('0x2c1'),'lbPpx':function(_0xbc4c16,_0x4c6367){return _0xbc4c16-_0x4c6367;},'FJdiS':_0xc401('0x2c2'),'VhiTU':_0xc401('0x2c3'),'pvmLk':_0xc401('0x2c4'),'CabKB':_0xc401('0x2c5'),'DssgA':_0xc401('0x2c6'),'qoUbA':_0xc401('0x2c7'),'hmTQo':_0xc401('0x2c8')};_0x17b704[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x17b704[_0xc401('0x26')]=statusCode[_0xc401('0x2e')]('1');let _0x551fd8='';try{const _0x1f522d=_0x45e35c[_0xc401('0x2c9')];if(!(global[_0xc401('0x2ca')]&&_0x45e35c[_0xc401('0x2cb')](global[_0xc401('0x2ca')],_0x1f522d))){_0x17b704[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x17b704[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x45e35c[_0xc401('0x2cc')](_0x45e35c[_0xc401('0x2cd')],global[_0xc401('0x2ca')]));return;}var _0x928d13=_0x17b704[_0xc401('0x2ce')];const _0x1ca8d5=_0x928d13[_0xc401('0x2cf')][_0x45e35c[_0xc401('0x2d0')]]||_0x928d13[_0xc401('0x2d1')][_0xc401('0x2d2')]||_0x928d13[_0xc401('0x2d3')][_0xc401('0x2d2')]||_0x928d13[_0xc401('0x2d1')][_0xc401('0x2d3')][_0xc401('0x2d2')];let _0x4df32c='';let _0x15acb8='';const _0x228824=_0x17b704[_0xc401('0x25')][_0xc401('0x26')][_0xc401('0x28')][_0xc401('0x171')](/": Script error\./g,_0x45e35c[_0xc401('0x2d4')]);const _0x56a54a=JSON[_0xc401('0x27')](_0x228824);const _0x93758c=_0x56a54a[_0xc401('0x2d5')][_0xc401('0x1ab')](_0x45e35c[_0xc401('0x2d6')]);for(var _0x21c532=0x0;_0x45e35c[_0xc401('0x2d7')](_0x21c532,_0x93758c[_0xc401('0x56')]);_0x21c532++){if(!_0x93758c[_0x21c532])continue;const _0x4c2b6b=JSON[_0xc401('0x27')](_0x93758c[_0x21c532]);for(let _0x29c201 in _0x4c2b6b){if(monitorKeys[_0x29c201]){_0x4c2b6b[monitorKeys[_0x29c201]]=_0x4c2b6b[_0x29c201];delete _0x4c2b6b[_0x29c201];}}_0x4c2b6b[_0xc401('0x2d8')]=_0x1ca8d5;_0x4c2b6b[_0xc401('0xc3')]=Utils[_0xc401('0x2d9')](_0x4c2b6b[_0xc401('0xc3')]||'');_0x4c2b6b[_0xc401('0x29')]=_0x45e35c[_0xc401('0x2cc')](_0x4c2b6b[_0xc401('0x29')],'');_0x4c2b6b[_0xc401('0x2da')]=Utils[_0xc401('0x21c')](_0x4c2b6b[_0xc401('0x2da')]);Common[_0xc401('0x2db')](_0x4c2b6b);_0x551fd8=_0x4c2b6b[_0xc401('0x2dc')];switch(_0x4c2b6b[_0xc401('0x2dc')]){case _0x45e35c[_0xc401('0x2dd')]:await BehaviorInfoModel[_0xc401('0x99')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2de')]:await JavascriptErrorInfoModel[_0xc401('0x248')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2df')]:if(_0x4c2b6b[_0xc401('0x2e0')]){_0x4c2b6b[_0xc401('0x2e0')]=_0x45e35c[_0xc401('0x2e1')](_0x4c2b6b[_0xc401('0x2e0')][_0xc401('0x56')],0x12c)?_0x45e35c[_0xc401('0x2e2')]:_0x4c2b6b[_0xc401('0x2e0')];}const _0x314be6=_0x45e35c[_0xc401('0x2e3')](parseInt,_0x4c2b6b[_0xc401('0x2d')]||0x0);if(_0x45e35c[_0xc401('0x2e1')](_0x314be6,0x12b)){await HttpErrorInfoModel[_0xc401('0x5f')](_0x4c2b6b,Sequelize);}else{await HttpLogInfoModel[_0xc401('0x2a')](_0x4c2b6b,Sequelize);}break;case _0x45e35c[_0xc401('0x2e4')]:await ScreenShotInfoModel[_0xc401('0x81')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2e5')]:const _0x110d16=_0x4c2b6b[_0xc401('0x2d8')];var _0xd30410=geoip[_0xc401('0x2e6')](_0x110d16);if(_0xd30410){_0x4c2b6b[_0xc401('0x217')]=provinces[_0xd30410[_0xc401('0x2e7')]]?_0xd30410[_0xc401('0x2e7')]:'其他';_0x4c2b6b[_0xc401('0x220')]=citys[_0xd30410[_0xc401('0x220')]]||_0xd30410[_0xc401('0x220')];}let _0x4c1357='';const _0x1af28b=_0x4c2b6b[_0xc401('0x2e8')]?_0x4c2b6b[_0xc401('0x2e8')][_0xc401('0x2e9')](/\d{13}/g):[];if(_0x1af28b&&_0x45e35c[_0xc401('0x2ea')](_0x1af28b[_0xc401('0x56')],0x0)){const _0x4cc9d0=_0x45e35c[_0xc401('0x2eb')](_0x45e35c[_0xc401('0x2ec')](parseInt,_0x1af28b[0x0],0xa),_0x45e35c[_0xc401('0x2ed')](_0x45e35c[_0xc401('0x2ee')](_0x45e35c[_0xc401('0x2ee')](0x8,0x3c),0x3c),0x3e8));const _0x52491d=new Date(_0x4cc9d0)[_0xc401('0x233')](_0x45e35c[_0xc401('0x2ef')]);const _0x4d442e=new Date()[_0xc401('0x1e8')]();_0x4c2b6b[_0xc401('0x2f0')]=_0x52491d;_0x4c1357=_0x45e35c[_0xc401('0x2ea')](_0x45e35c[_0xc401('0x2f1')](_0x4d442e,_0x4cc9d0),_0x45e35c[_0xc401('0x2ee')](0x3c,0x3e8))?_0x45e35c[_0xc401('0x2f2')]:_0x45e35c[_0xc401('0x2f3')];}if(!_0x4c2b6b[_0xc401('0x2f4')]){_0x4c2b6b[_0xc401('0x2f4')]=_0x4c1357;}await CustomerPVModel[_0xc401('0x1d3')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2f5')]:await LoadPageInfoModel[_0xc401('0x12e')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2f6')]:if(_0x4c2b6b[_0xc401('0x58')]){await ResourceLoadInfoModel[_0xc401('0x178')](_0x4c2b6b,Sequelize);}break;case _0x45e35c[_0xc401('0x2f7')]:await VideosInfoModel[_0xc401('0x1bf')](_0x4c2b6b,Sequelize);break;case _0x45e35c[_0xc401('0x2f8')]:default:await ExtendBehaviorInfoModel[_0xc401('0xc4')](_0x4c2b6b,Sequelize);break;}}}catch(_0x4c00f4){log[_0xc401('0x2f9')](_0x45e35c[_0xc401('0x2eb')](_0x45e35c[_0xc401('0x2eb')](_0x4c00f4,_0x45e35c[_0xc401('0x2fa')]),_0x551fd8));}}static async[_0xc401('0x2fb')](_0x41c8b5){var _0x469204={'yvEba':_0xc401('0x2b6'),'shfyD':function(_0x4a1221,_0x1e38c5){return _0x4a1221==_0x1e38c5;},'TpHUo':function(_0x3b1c8c,_0x40036e){return _0x3b1c8c+_0x40036e;},'QuWgU':_0xc401('0x2b7'),'UNNzo':_0xc401('0x2b8'),'xSRQw':_0xc401('0x2b9'),'ePfyO':_0xc401('0x2ba'),'fHDNA':function(_0x5cdc36,_0x3d251c){return _0x5cdc36<_0x3d251c;},'hXOUM':function(_0x825f8,_0x27a82f){return _0x825f8+_0x27a82f;},'RAyUS':_0xc401('0x2bb'),'NxtJj':_0xc401('0x2bc'),'GNraH':_0xc401('0x2bd'),'iMMdX':function(_0xfdba07,_0x3b9a67){return _0xfdba07>_0x3b9a67;},'MKoOe':_0xc401('0x2be'),'rmERz':function(_0x3547aa,_0x4c45b1){return _0x3547aa(_0x4c45b1);},'hJzPl':_0xc401('0x2bf'),'vDkFH':_0xc401('0x2c0'),'KzdiJ':function(_0x3f3bd2,_0x37e75b){return _0x3f3bd2>_0x37e75b;},'ODTts':function(_0x16f31a,_0x376ce5){return _0x16f31a+_0x376ce5;},'PRgPo':function(_0x1f96da,_0x3dca31,_0x2da273){return _0x1f96da(_0x3dca31,_0x2da273);},'pnFxE':function(_0xac7eb,_0xb072bc){return _0xac7eb*_0xb072bc;},'MDdrq':function(_0x20d14f,_0x1e0a3b){return _0x20d14f*_0x1e0a3b;},'oQBeQ':_0xc401('0x2c1'),'PSTsa':function(_0x38b66f,_0x221f68){return _0x38b66f>_0x221f68;},'vkUNa':function(_0x1ba60f,_0x262ac1){return _0x1ba60f-_0x262ac1;},'ZbiWw':_0xc401('0x2c2'),'GsCmC':_0xc401('0x2c3'),'AkrRC':_0xc401('0x2c4'),'vFuAx':_0xc401('0x2c5'),'TAImv':_0xc401('0x2c6'),'hgFJY':_0xc401('0x2c7'),'smhbL':function(_0x22cfae,_0x21b13c){return _0x22cfae+_0x21b13c;},'jVWXQ':_0xc401('0x2c8')};_0x41c8b5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x41c8b5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')]('1');let _0x3d9e95='';try{const _0x5d0ae9=_0x469204[_0xc401('0x2fc')];if(!(global[_0xc401('0x2ca')]&&_0x469204[_0xc401('0x2fd')](global[_0xc401('0x2ca')],_0x5d0ae9))){_0x41c8b5[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x41c8b5[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x469204[_0xc401('0x2fe')](_0x469204[_0xc401('0x2ff')],global[_0xc401('0x2ca')]));return;}var _0x26f044=_0x41c8b5[_0xc401('0x2ce')];const _0x432914=_0x26f044[_0xc401('0x2cf')][_0x469204[_0xc401('0x300')]]||_0x26f044[_0xc401('0x2d1')][_0xc401('0x2d2')]||_0x26f044[_0xc401('0x2d3')][_0xc401('0x2d2')]||_0x26f044[_0xc401('0x2d1')][_0xc401('0x2d3')][_0xc401('0x2d2')];let _0x573ca1='';let _0x4b86d0='';const _0x4419f6=_0x41c8b5[_0xc401('0x25')][_0xc401('0x26')][_0xc401('0x28')][_0xc401('0x171')](/": Script error\./g,_0x469204[_0xc401('0x301')]);const _0x1de02e=JSON[_0xc401('0x27')](_0x4419f6);const _0x2aeac9=_0x1de02e[_0xc401('0x2d5')][_0xc401('0x1ab')](_0x469204[_0xc401('0x302')]);for(var _0x26c32d=0x0;_0x469204[_0xc401('0x303')](_0x26c32d,_0x2aeac9[_0xc401('0x56')]);_0x26c32d++){if(!_0x2aeac9[_0x26c32d])continue;const _0x37a627=JSON[_0xc401('0x27')](_0x2aeac9[_0x26c32d]);for(let _0x5f3338 in _0x37a627){if(monitorKeys[_0x5f3338]){_0x37a627[monitorKeys[_0x5f3338]]=_0x37a627[_0x5f3338];delete _0x37a627[_0x5f3338];}}_0x37a627[_0xc401('0x2d8')]=_0x432914;_0x37a627[_0xc401('0xc3')]=Utils[_0xc401('0x2d9')](_0x37a627[_0xc401('0xc3')]||'');_0x37a627[_0xc401('0x29')]=_0x469204[_0xc401('0x304')](_0x37a627[_0xc401('0x29')],'');_0x37a627[_0xc401('0x2da')]=Utils[_0xc401('0x21c')](_0x37a627[_0xc401('0x2da')]);Common[_0xc401('0x2db')](_0x37a627);_0x3d9e95=_0x37a627[_0xc401('0x2dc')];switch(_0x37a627[_0xc401('0x2dc')]){case _0x469204[_0xc401('0x305')]:await BehaviorInfoModel[_0xc401('0x99')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x306')]:await JavascriptErrorInfoModel[_0xc401('0x248')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x307')]:if(_0x37a627[_0xc401('0x2e0')]){_0x37a627[_0xc401('0x2e0')]=_0x469204[_0xc401('0x308')](_0x37a627[_0xc401('0x2e0')][_0xc401('0x56')],0x12c)?_0x469204[_0xc401('0x309')]:_0x37a627[_0xc401('0x2e0')];}const _0x404914=_0x469204[_0xc401('0x30a')](parseInt,_0x37a627[_0xc401('0x2d')]||0x0);if(_0x469204[_0xc401('0x308')](_0x404914,0x12b)){await HttpErrorInfoModel[_0xc401('0x5f')](_0x37a627,Sequelize);}else{await HttpLogInfoModel[_0xc401('0x2a')](_0x37a627,Sequelize);}break;case _0x469204[_0xc401('0x30b')]:await ScreenShotInfoModel[_0xc401('0x81')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x30c')]:const _0x45d51d=_0x37a627[_0xc401('0x2d8')];var _0x17bb29=geoip[_0xc401('0x2e6')](_0x45d51d);if(_0x17bb29){_0x37a627[_0xc401('0x217')]=provinces[_0x17bb29[_0xc401('0x2e7')]]?_0x17bb29[_0xc401('0x2e7')]:'其他';_0x37a627[_0xc401('0x220')]=citys[_0x17bb29[_0xc401('0x220')]]||_0x17bb29[_0xc401('0x220')];}let _0x511082='';const _0xd76451=_0x37a627[_0xc401('0x2e8')]?_0x37a627[_0xc401('0x2e8')][_0xc401('0x2e9')](/\d{13}/g):[];if(_0xd76451&&_0x469204[_0xc401('0x30d')](_0xd76451[_0xc401('0x56')],0x0)){const _0x57d831=_0x469204[_0xc401('0x30e')](_0x469204[_0xc401('0x30f')](parseInt,_0xd76451[0x0],0xa),_0x469204[_0xc401('0x310')](_0x469204[_0xc401('0x310')](_0x469204[_0xc401('0x311')](0x8,0x3c),0x3c),0x3e8));const _0x31843b=new Date(_0x57d831)[_0xc401('0x233')](_0x469204[_0xc401('0x312')]);const _0x4dbe61=new Date()[_0xc401('0x1e8')]();_0x37a627[_0xc401('0x2f0')]=_0x31843b;_0x511082=_0x469204[_0xc401('0x313')](_0x469204[_0xc401('0x314')](_0x4dbe61,_0x57d831),_0x469204[_0xc401('0x311')](0x3c,0x3e8))?_0x469204[_0xc401('0x315')]:_0x469204[_0xc401('0x316')];}if(!_0x37a627[_0xc401('0x2f4')]){_0x37a627[_0xc401('0x2f4')]=_0x511082;}await CustomerPVModel[_0xc401('0x1d3')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x317')]:await LoadPageInfoModel[_0xc401('0x12e')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x318')]:if(_0x37a627[_0xc401('0x58')]){await ResourceLoadInfoModel[_0xc401('0x178')](_0x37a627,Sequelize);}break;case _0x469204[_0xc401('0x319')]:await VideosInfoModel[_0xc401('0x1bf')](_0x37a627,Sequelize);break;case _0x469204[_0xc401('0x31a')]:default:await ExtendBehaviorInfoModel[_0xc401('0xc4')](_0x37a627,Sequelize);break;}}}catch(_0x520a3f){log[_0xc401('0x2f9')](_0x469204[_0xc401('0x30e')](_0x469204[_0xc401('0x31b')](_0x520a3f,_0x469204[_0xc401('0x31c')]),_0x3d9e95));}}static[_0xc401('0x31d')](_0x1db88f){let _0x13ec40=Buffer[_0xc401('0x31e')](JSON[_0xc401('0x27')](_0x1db88f)[_0xc401('0x31f')]);}static[_0xc401('0x2db')](_0x539dc6){var _0x409891={'LVRtO':function(_0x168c7a,_0x32e25f){return _0x168c7a(_0x32e25f);},'EZqIN':function(_0x266c28,_0x50e232){return _0x266c28(_0x50e232);},'WbZRz':function(_0x24596f,_0x489c4d){return _0x24596f+_0x489c4d;},'LpSRS':function(_0x2d8fa5,_0x550712){return _0x2d8fa5+_0x550712;},'GzaTv':function(_0x336cdb,_0x318b01){return _0x336cdb+_0x318b01;},'TBIlx':function(_0x351f39,_0x13559d){return _0x351f39-_0x13559d;},'uLxgq':function(_0x11ee67,_0x147245){return _0x11ee67(_0x147245);},'ojgZJ':function(_0x3973f9,_0x1b87d4){return _0x3973f9(_0x1b87d4);},'wlJIY':function(_0x5db5a1,_0x34e19d){return _0x5db5a1(_0x34e19d);},'XKstG':function(_0x4e5428,_0x1c71b0){return _0x4e5428(_0x1c71b0);},'cHuHP':function(_0x4316ad,_0x398213){return _0x4316ad+_0x398213;},'mlQun':function(_0x45bb78,_0x11b4dc){return _0x45bb78(_0x11b4dc);},'iigKr':function(_0x2f9d6c,_0x5bf3ee){return _0x2f9d6c(_0x5bf3ee);},'ZBYCB':function(_0xefc3b5,_0x2c3fed){return _0xefc3b5+_0x2c3fed;},'xXnzS':function(_0xb19a8e,_0x572275){return _0xb19a8e-_0x572275;},'Nxrzp':function(_0x55e11b,_0x3a5755){return _0x55e11b(_0x3a5755);},'NVnlo':function(_0x1312ba,_0x5af256){return _0x1312ba(_0x5af256);},'irGLS':function(_0x3598e6,_0x2b9fde){return _0x3598e6(_0x2b9fde);},'jssXJ':function(_0x3abf6b,_0x5a2cb6){return _0x3abf6b+_0x5a2cb6;},'SqpXo':function(_0x4144be,_0x29e839){return _0x4144be+_0x29e839;},'BMisl':function(_0x30283b,_0x1b926b){return _0x30283b(_0x1b926b);}};const _0x12d10d=/https?:\/\/\S+[\.\:]([a-zA-Z0-9]+\/){1}/g;if(_0x539dc6[_0xc401('0x2da')]){try{const _0x3a28c1=_0x409891[_0xc401('0x320')](decodeURIComponent,_0x539dc6[_0xc401('0x2da')])[_0xc401('0x171')](_0x12d10d,'');const _0x2b3f31=_0x409891[_0xc401('0x321')](decodeURIComponent,_0x539dc6[_0xc401('0x2da')])[_0xc401('0x2e9')](_0x12d10d)[0x0][_0xc401('0x1ab')]('.');const _0x452941=_0x2b3f31[_0xc401('0x56')];const _0x18eb4d=_0x409891[_0xc401('0x322')](_0x409891[_0xc401('0x323')](_0x409891[_0xc401('0x324')](_0x2b3f31[0x0],'**'),_0x2b3f31[_0x409891[_0xc401('0x325')](_0x452941,0x1)]),_0x3a28c1);_0x539dc6[_0xc401('0x2da')]=_0x409891[_0xc401('0x321')](encodeURIComponent,_0x18eb4d);}catch(_0x13c71e){_0x539dc6[_0xc401('0x2da')]=_0x539dc6[_0xc401('0x2da')];}}if(_0x539dc6[_0xc401('0x326')]){try{const _0x353346=_0x409891[_0xc401('0x327')](decodeURIComponent,_0x539dc6[_0xc401('0x326')])[_0xc401('0x171')](_0x12d10d,'');const _0x2b3f31=_0x409891[_0xc401('0x328')](decodeURIComponent,_0x539dc6[_0xc401('0x326')])[_0xc401('0x2e9')](_0x12d10d)[0x0][_0xc401('0x1ab')]('.');const _0x452941=_0x2b3f31[_0xc401('0x56')];const _0x18eb4d=_0x409891[_0xc401('0x324')](_0x409891[_0xc401('0x324')](_0x409891[_0xc401('0x324')](_0x2b3f31[0x0],'**'),_0x2b3f31[_0x409891[_0xc401('0x325')](_0x452941,0x1)]),_0x353346);_0x539dc6[_0xc401('0x326')]=_0x409891[_0xc401('0x328')](encodeURIComponent,_0x18eb4d);}catch(_0xee4881){_0x539dc6[_0xc401('0x326')]=_0x539dc6[_0xc401('0x326')];}}if(_0x539dc6[_0xc401('0x329')]){try{const _0x48eebc=_0x409891[_0xc401('0x32a')](decodeURIComponent,Utils[_0xc401('0x21c')](_0x539dc6[_0xc401('0x329')]))[_0xc401('0x171')](_0x12d10d,'');const _0x2b3f31=_0x409891[_0xc401('0x32b')](decodeURIComponent,Utils[_0xc401('0x21c')](_0x539dc6[_0xc401('0x329')]))[_0xc401('0x2e9')](_0x12d10d)[0x0][_0xc401('0x1ab')]('.');const _0x452941=_0x2b3f31[_0xc401('0x56')];const _0x18eb4d=_0x409891[_0xc401('0x324')](_0x409891[_0xc401('0x324')](_0x409891[_0xc401('0x32c')](_0x2b3f31[0x0],'**'),_0x2b3f31[_0x409891[_0xc401('0x325')](_0x452941,0x1)]),_0x48eebc);_0x539dc6[_0xc401('0x329')]=Utils[_0xc401('0x21c')](_0x409891[_0xc401('0x32b')](encodeURIComponent,_0x18eb4d));}catch(_0x2f41ab){_0x539dc6[_0xc401('0x329')]=_0x539dc6[_0xc401('0x329')];}}if(_0x539dc6[_0xc401('0x78')]){try{const _0x1ddb0d=_0x409891[_0xc401('0x32d')](decodeURIComponent,_0x539dc6[_0xc401('0x78')])[_0xc401('0x171')](_0x12d10d,'');const _0x2b3f31=_0x409891[_0xc401('0x32e')](decodeURIComponent,_0x539dc6[_0xc401('0x78')])[_0xc401('0x2e9')](_0x12d10d)[0x0][_0xc401('0x1ab')]('.');const _0x452941=_0x2b3f31[_0xc401('0x56')];const _0x18eb4d=_0x409891[_0xc401('0x32c')](_0x409891[_0xc401('0x32c')](_0x409891[_0xc401('0x32f')](_0x2b3f31[0x0],'**'),_0x2b3f31[_0x409891[_0xc401('0x330')](_0x452941,0x1)]),_0x1ddb0d);_0x539dc6[_0xc401('0x78')]=_0x409891[_0xc401('0x331')](encodeURIComponent,_0x18eb4d);}catch(_0x21ac2f){_0x539dc6[_0xc401('0x78')]=_0x539dc6[_0xc401('0x78')];}}if(_0x539dc6[_0xc401('0x58')]){try{const _0x36ace9=_0x409891[_0xc401('0x332')](decodeURIComponent,Utils[_0xc401('0x21c')](_0x539dc6[_0xc401('0x58')]))[_0xc401('0x171')](_0x12d10d,'');const _0x2b3f31=_0x409891[_0xc401('0x333')](decodeURIComponent,Utils[_0xc401('0x21c')](_0x539dc6[_0xc401('0x58')]))[_0xc401('0x2e9')](_0x12d10d)[0x0][_0xc401('0x1ab')]('.');const _0x452941=_0x2b3f31[_0xc401('0x56')];const _0x18eb4d=_0x409891[_0xc401('0x32f')](_0x409891[_0xc401('0x334')](_0x409891[_0xc401('0x335')](_0x2b3f31[0x0],'**'),_0x2b3f31[_0x409891[_0xc401('0x330')](_0x452941,0x1)]),_0x36ace9);_0x539dc6[_0xc401('0x58')]=Utils[_0xc401('0x21c')](_0x409891[_0xc401('0x336')](encodeURIComponent,_0x18eb4d));}catch(_0xb1bd7b){_0x539dc6[_0xc401('0x58')]=_0x539dc6[_0xc401('0x58')];}}}static async[_0xc401('0x337')](_0x1ff5cb){var _0x26d205={'zoAbO':function(_0x55f7d9,_0x5e27dd){return _0x55f7d9!==_0x5e27dd;},'ZIFOZ':_0xc401('0x338'),'DBejJ':_0xc401('0x23')};let _0x5c605d={};if(_0x26d205[_0xc401('0x339')](typeof _0x1ff5cb[_0xc401('0x25')][_0xc401('0x26')],_0x26d205[_0xc401('0x33a')])){_0x5c605d=JSON[_0xc401('0x27')](_0x1ff5cb[_0xc401('0x25')][_0xc401('0x26')]);}else{_0x5c605d=_0x1ff5cb[_0xc401('0x25')][_0xc401('0x26')];}ExtendBehaviorInfoModel[_0xc401('0xc4')](_0x5c605d);_0x1ff5cb[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x1ff5cb[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x26d205[_0xc401('0x33b')]);}static async[_0xc401('0x33c')](){var _0x731010={'PHwFu':_0xc401('0x33d')};var _0x1cf297=_0x731010[_0xc401('0x33e')][_0xc401('0x1ab')]('|'),_0x253fb4=0x0;while(!![]){switch(_0x1cf297[_0x253fb4++]){case'0':BehaviorInfoModel[_0xc401('0x33c')]();continue;case'1':ExtendBehaviorInfoModel[_0xc401('0x33c')]();continue;case'2':LoadPageInfoModel[_0xc401('0x33c')]();continue;case'3':ScreenShotInfoModel[_0xc401('0x33c')]();continue;case'4':ResourceLoadInfoModel[_0xc401('0x33c')]();continue;case'5':HttpErrorInfoModel[_0xc401('0x33c')]();continue;case'6':HttpLogInfoModel[_0xc401('0x33c')]();continue;case'7':JavascriptErrorInfoModel[_0xc401('0x33c')]();continue;case'8':VideosInfoModel[_0xc401('0x33c')]();continue;case'9':CustomerPVModel[_0xc401('0x33c')]();continue;}break;}}static async[_0xc401('0x33f')](_0xd1f019){var _0x1d5f89={'KcsZr':function(_0x31ec29,_0x2a0fef){return _0x31ec29>_0x2a0fef;},'BBacZ':_0xc401('0x340'),'upBXQ':function(_0x185246,_0x5e1b85){return _0x185246-_0x5e1b85;},'vQMQA':function(_0x19e8e9,_0x3ff7fe){return _0x19e8e9===_0x3ff7fe;},'LRDvg':function(_0x58d5a3,_0x4d182e){return _0x58d5a3+_0x4d182e;},'BQhMC':function(_0x2e468d,_0x4aeb36){return _0x2e468d+_0x4aeb36;},'hRZRC':_0xc401('0x341'),'WYCBF':function(_0xfebce6,_0x3f7eeb){return _0xfebce6+_0x3f7eeb;},'daNIH':function(_0x2c4d58,_0x2e81bb){return _0x2c4d58+_0x2e81bb;},'HhwnM':_0xc401('0x342'),'pRxUQ':function(_0x55afd4,_0x12926b){return _0x55afd4<_0x12926b;},'rgZbC':function(_0x1b0106,_0x538cdd){return _0x1b0106+_0x538cdd;},'vorXp':_0xc401('0x275'),'zysSo':_0xc401('0x343'),'vxorm':function(_0x567ac6,_0x5cf23f){return _0x567ac6+_0x5cf23f;},'butQl':_0xc401('0x344'),'MzkMA':function(_0x4c376e,_0x46f882){return _0x4c376e+_0x46f882;},'QpdUc':function(_0x4003ac,_0x19c63f){return _0x4003ac+_0x19c63f;},'cLEvp':function(_0xbf8a88,_0x560564){return _0xbf8a88+_0x560564;},'lHtVE':_0xc401('0x345'),'xviTj':function(_0x13c5b2,_0x45f438){return _0x13c5b2+_0x45f438;},'eYmDG':_0xc401('0x23')};const _0x27b6e3=JSON[_0xc401('0x27')](_0xd1f019[_0xc401('0x25')][_0xc401('0x26')]);_0x27b6e3[_0xc401('0xc3')]=Utils[_0xc401('0x2d9')](_0x27b6e3[_0xc401('0x346')]);_0x27b6e3[_0xc401('0x347')]=new Date(_0x1d5f89[_0xc401('0x348')](Utils[_0xc401('0x239')](_0x1d5f89[_0xc401('0x349')](0x0,_0x27b6e3[_0xc401('0x1f5')])),_0x1d5f89[_0xc401('0x34a')]))[_0xc401('0x1e8')]();_0x27b6e3[_0xc401('0x34b')]=new Date(_0x1d5f89[_0xc401('0x348')](Utils[_0xc401('0x239')](_0x1d5f89[_0xc401('0x348')](_0x1d5f89[_0xc401('0x349')](0x0,_0x27b6e3[_0xc401('0x1f5')]),0x1)),_0x1d5f89[_0xc401('0x34a')]))[_0xc401('0x1e8')]();let _0xefb40f=[];let _0x352b8b=[];let _0xd81a13=[];let _0x3438ad=[];let _0x59586b=[];let _0x33ca65=[];let _0x56e59e=[];let _0x5c6e8f=[];let _0x108d29=[];let _0x46bad9=[];let _0x2a5283=new Date()[_0xc401('0x1e8')]();await CustomerPVModel[_0xc401('0x34c')](_0x27b6e3)[_0xc401('0x4d')](_0x5f2001=>{var _0x577d13={'AUEQQ':function(_0x1afc11,_0x3e48a0){return _0x1d5f89[_0xc401('0x34d')](_0x1afc11,_0x3e48a0);}};_0x5f2001[_0xc401('0x89')](_0x5dc003=>{if(_0x5dc003[_0xc401('0x2e8')],_0x577d13[_0xc401('0x34e')](_0x5dc003[_0xc401('0x2e8')][_0xc401('0x56')],0xa)){_0xefb40f[_0xc401('0x1d1')](_0x5dc003[_0xc401('0x2e8')]);}});let _0x3a8856=new Date()[_0xc401('0x1e8')]();console[_0xc401('0x2ae')](_0x1d5f89[_0xc401('0x34f')],_0x1d5f89[_0xc401('0x349')](_0x3a8856,_0x2a5283));_0x2a5283=_0x3a8856;});let _0x35a4ff='';let _0x378f15=_0x1d5f89[_0xc401('0x350')];let _0x591d27=_0x1d5f89[_0xc401('0x350')];let _0x9b78b6=_0x1d5f89[_0xc401('0x351')](_0x1d5f89[_0xc401('0x351')](_0x1d5f89[_0xc401('0x352')],Utils[_0xc401('0x2d9')](Utils[_0xc401('0x21c')](_0x27b6e3[_0xc401('0x346')]))),'\x27\x20');let _0x2baca3=_0x1d5f89[_0xc401('0x353')](_0x1d5f89[_0xc401('0x354')](_0x1d5f89[_0xc401('0x352')],Utils[_0xc401('0x2d9')](_0x27b6e3[_0xc401('0x346')])),'\x27\x20');if(_0xefb40f[_0xc401('0x56')]){_0xefb40f[_0xc401('0x89')]((_0x2c9bc3,_0x395cfc)=>{if(_0x1d5f89[_0xc401('0x355')](_0x395cfc,_0x1d5f89[_0xc401('0x349')](_0xefb40f[_0xc401('0x56')],0x1))){_0x35a4ff+=_0x1d5f89[_0xc401('0x356')](_0x1d5f89[_0xc401('0x357')](_0x1d5f89[_0xc401('0x358')],_0x2c9bc3),'\x27\x20');}else{_0x35a4ff+=_0x1d5f89[_0xc401('0x359')](_0x1d5f89[_0xc401('0x35a')](_0x1d5f89[_0xc401('0x358')],_0x2c9bc3),_0x1d5f89[_0xc401('0x35b')]);}});_0x35a4ff=_0x1d5f89[_0xc401('0x354')](_0x1d5f89[_0xc401('0x35c')]('\x20(',_0x35a4ff),')\x20');}else{let _0x487329='';const _0x336385=await ProjectModel[_0xc401('0x35d')](_0x27b6e3[_0xc401('0xef')],_0x27b6e3[_0xc401('0x10a')]);if(_0x1d5f89[_0xc401('0x34d')](_0x336385[_0xc401('0x56')],0x0)){_0x487329=Utils[_0xc401('0x21c')](_0x27b6e3[_0xc401('0x346')]);}else{_0x487329=_0x1d5f89[_0xc401('0x35e')];}_0x35a4ff+=_0x1d5f89[_0xc401('0x35f')](_0x1d5f89[_0xc401('0x35f')](_0x1d5f89[_0xc401('0x358')],_0x487329),'\x27\x20');}await BehaviorInfoModel[_0xc401('0x360')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x330df9=>{_0x352b8b=_0x330df9;});await CustomerPVModel[_0xc401('0x360')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x248d06=>{_0xd81a13=_0x248d06;});await JavascriptErrorInfoModel[_0xc401('0x360')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x197504=>{_0x3438ad=_0x197504;});await ScreenShotInfoModel[_0xc401('0x360')](_0x378f15,_0x591d27,_0x2baca3,_0x27b6e3)[_0xc401('0x4d')](_0x27e7ff=>{_0x59586b=_0x27e7ff;});await HttpLogInfoModel[_0xc401('0x361')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x138e24=>{_0x33ca65=_0x138e24;});await ExtendBehaviorInfoModel[_0xc401('0x362')](_0x591d27,_0x9b78b6,_0x27b6e3)[_0xc401('0x4d')](_0x345aea=>{for(let _0x5b9946=0x0;_0x1d5f89[_0xc401('0x363')](_0x5b9946,_0x345aea[_0xc401('0x56')]);_0x5b9946++){_0x345aea[_0x5b9946][_0xc401('0x29')]=new Date(_0x345aea[_0x5b9946][_0xc401('0x59')])[_0xc401('0x1e8')]();}_0x56e59e=_0x345aea;});await ResourceLoadInfoModel[_0xc401('0x364')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x4ebf29=>{_0x5c6e8f=_0x4ebf29;});await HttpErrorInfoModel[_0xc401('0x365')](_0x378f15,_0x35a4ff,_0x591d27,_0x27b6e3)[_0xc401('0x4d')](_0x26881c=>{_0x108d29=_0x26881c;});_0x46bad9=_0x46bad9[_0xc401('0x31e')](_0x352b8b,_0xd81a13,_0x3438ad,_0x33ca65,_0x56e59e,_0x5c6e8f,_0x108d29);_0x59586b[_0xc401('0x89')](_0x5610b8=>{_0x5610b8[_0xc401('0x8a')]=(_0x5610b8[_0xc401('0x8a')]||'')[_0xc401('0x8b')]();_0x46bad9[_0xc401('0x1d1')](_0x5610b8);});_0xd1f019[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xd1f019[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x1d5f89[_0xc401('0x366')],{'behaviorList':_0x46bad9});}static async[_0xc401('0x367')](_0x2f78bf){var _0x4cb836={'RLRAz':function(_0x3cc95f,_0x3b74d8){return _0x3cc95f>_0x3b74d8;},'fnfkJ':function(_0x2bffce,_0x276592){return _0x2bffce===_0x276592;},'fbjcg':function(_0x33b069,_0xa820fb){return _0x33b069-_0xa820fb;},'RktNC':function(_0x528324,_0x84d46c){return _0x528324+_0x84d46c;},'OoCMG':_0xc401('0x341'),'TKmew':function(_0x2c5de2,_0x267d06){return _0x2c5de2+_0x267d06;},'SxPGI':_0xc401('0x342'),'sqtEC':_0xc401('0x368'),'ZcVcD':_0xc401('0x275'),'Coyns':function(_0x2b27ec,_0x4c9358){return _0x2b27ec+_0x4c9358;},'HrdFy':function(_0x4dcf3a,_0x536ec3){return _0x4dcf3a+_0x536ec3;},'RLwLo':_0xc401('0x343'),'oOMkd':_0xc401('0x345'),'OrmPL':_0xc401('0x369'),'arzuk':_0xc401('0x23')};const _0x5bb1bd=JSON[_0xc401('0x27')](_0x2f78bf[_0xc401('0x25')][_0xc401('0x26')]);_0x5bb1bd[_0xc401('0xc3')]=Utils[_0xc401('0x2d9')](_0x5bb1bd[_0xc401('0x346')]);_0x5bb1bd[_0xc401('0x347')]=new Date(_0x4cb836[_0xc401('0x36a')](Utils[_0xc401('0x239')](_0x4cb836[_0xc401('0x36b')](0x0,_0x5bb1bd[_0xc401('0x1f5')])),_0x4cb836[_0xc401('0x36c')]))[_0xc401('0x1e8')]();_0x5bb1bd[_0xc401('0x34b')]=new Date(_0x4cb836[_0xc401('0x36d')](Utils[_0xc401('0x239')](_0x4cb836[_0xc401('0x36e')](_0x4cb836[_0xc401('0x36b')](0x0,_0x5bb1bd[_0xc401('0x1f5')]),0x1)),_0x4cb836[_0xc401('0x36c')]))[_0xc401('0x1e8')]();let _0x4bdea0=[];let _0x3ed22e=null;let _0x59214f=null;let _0x114ec=null;let _0x3ba7a4='';let _0x11c870=null;let _0x29c320=new Date()[_0xc401('0x1e8')]();let _0x21855c='';await CustomerPVModel[_0xc401('0x34c')](_0x5bb1bd)[_0xc401('0x4d')](_0x587e33=>{_0x587e33[_0xc401('0x89')](_0x1efccd=>{if(_0x1efccd[_0xc401('0x2e8')]&&_0x4cb836[_0xc401('0x36f')](_0x1efccd[_0xc401('0x2e8')][_0xc401('0x56')],0xa)){_0x4bdea0[_0xc401('0x1d1')](_0x1efccd[_0xc401('0x2e8')]);}});});let _0x3a66e6='';let _0xb17dcb=_0x4cb836[_0xc401('0x370')];let _0x46524e=_0x4cb836[_0xc401('0x370')];if(_0x4bdea0[_0xc401('0x56')]){_0x4bdea0[_0xc401('0x89')]((_0x4dfe29,_0x2ed98f)=>{if(_0x4cb836[_0xc401('0x371')](_0x2ed98f,_0x4cb836[_0xc401('0x36b')](_0x4bdea0[_0xc401('0x56')],0x1))){_0x3a66e6+=_0x4cb836[_0xc401('0x372')](_0x4cb836[_0xc401('0x372')](_0x4cb836[_0xc401('0x373')],_0x4dfe29),'\x27\x20');}else{_0x3a66e6+=_0x4cb836[_0xc401('0x372')](_0x4cb836[_0xc401('0x36a')](_0x4cb836[_0xc401('0x373')],_0x4dfe29),_0x4cb836[_0xc401('0x374')]);}});_0x3a66e6=_0x4cb836[_0xc401('0x36e')](_0x4cb836[_0xc401('0x36e')]('\x20(',_0x3a66e6),')\x20');}else{const _0x29258c=await ProjectModel[_0xc401('0x35d')](_0x5bb1bd[_0xc401('0xef')],_0x5bb1bd[_0xc401('0x10a')]);if(_0x4cb836[_0xc401('0x36f')](_0x29258c[_0xc401('0x56')],0x0)){_0x21855c=Utils[_0xc401('0x21c')](_0x5bb1bd[_0xc401('0x346')]);}else{_0x21855c=_0x4cb836[_0xc401('0x375')];}_0x3a66e6+=_0x4cb836[_0xc401('0x36e')](_0x4cb836[_0xc401('0x36e')](_0x4cb836[_0xc401('0x373')],_0x21855c),'\x27\x20');}if(_0x4cb836[_0xc401('0x371')](_0x21855c,_0x4cb836[_0xc401('0x375')])){_0x2f78bf[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2f78bf[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4cb836[_0xc401('0x376')],null);return;}await CustomerPVModel[_0xc401('0x377')](_0x3a66e6)[_0xc401('0x4d')](_0x2ceb33=>{_0x59214f=Utils[_0xc401('0x73')](_0x2ceb33);});await CustomerPVModel[_0xc401('0x378')](_0xb17dcb,_0x3a66e6,_0x46524e,_0x5bb1bd)[_0xc401('0x4d')](_0x1a0628=>{_0x11c870=_0x1a0628[0x0]||{};});await CustomerPVModel[_0xc401('0x379')](_0xb17dcb,_0x3a66e6,_0x46524e,_0x5bb1bd)[_0xc401('0x4d')](_0x114c2c=>{_0x3ed22e=_0x114c2c;});await LoadPageInfoModel[_0xc401('0x37a')](_0xb17dcb,_0x3a66e6,_0x46524e,_0x5bb1bd)[_0xc401('0x4d')](async _0x509225=>{_0x114ec=_0x509225;});await LoadPageInfoModel[_0xc401('0x37b')](_0xb17dcb,_0x3a66e6,_0x5bb1bd)[_0xc401('0x4d')](_0x26caf7=>{_0x26caf7[_0xc401('0x89')](_0x229a30=>{if(_0x229a30[_0xc401('0x368')]){_0x11c870[_0x4cb836[_0xc401('0x37c')]]=_0x229a30[_0xc401('0x368')];}});});_0x2f78bf[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2f78bf[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4cb836[_0xc401('0x37d')],{'pvCountList':_0x3ed22e,'loadPageTimeList':_0x114ec,'cusDetail':_0x11c870,'pvChartList':_0x59214f});}static async[_0xc401('0x37e')](_0x5d78c0){var _0x4a747e={'gJvSM':_0xc401('0x37f'),'QIqut':function(_0x598f0b,_0x5f162e){return _0x598f0b(_0x5f162e);},'GAIVP':_0xc401('0x380'),'yqPbV':_0xc401('0x381')};await _0x4a747e[_0xc401('0x382')](fetch,_0x4a747e[_0xc401('0x383')])[_0xc401('0x4d')](_0x21c8b3=>_0x21c8b3[_0xc401('0x170')]())[_0xc401('0x4d')](_0x35bb84=>{const _0x321fb9=JSON[_0xc401('0x27')](_0x35bb84);global[_0xc401('0x2ca')]=_0x321fb9[_0xc401('0x28')];console[_0xc401('0x2ae')](_0x4a747e[_0xc401('0x384')],global[_0xc401('0x2ca')]);});log[_0xc401('0x385')](_0x4a747e[_0xc401('0x386')]);Common[_0xc401('0x387')](_0x5d78c0);}static async[_0xc401('0x387')](_0x893b1c){var _0x1372f0={'CaQLT':function(_0x5c7e88,_0x2bbbdb){return _0x5c7e88<=_0x2bbbdb;},'ngPay':function(_0x4f4990,_0xe8fe1d){return _0x4f4990<=_0xe8fe1d;},'Cdrxs':function(_0x3992ab,_0x3e241a){return _0x3992ab<=_0x3e241a;},'zrlVY':function(_0x1ee676,_0x31c434){return _0x1ee676<=_0x31c434;},'VwCGu':function(_0x362006,_0x4320be){return _0x362006<=_0x4320be;},'jIuox':function(_0x5e2440,_0x39c1e9){return _0x5e2440*_0x39c1e9;},'tyebT':function(_0xacd30f,_0x3d37a0){return _0xacd30f*_0x3d37a0;},'SPrWn':function(_0x14f077,_0x27454f){return _0x14f077>_0x27454f;},'FjmyJ':function(_0x510103,_0x2da9dd){return _0x510103>_0x2da9dd;},'faYRn':function(_0x44ed10,_0x18be5d){return _0x44ed10>=_0x18be5d;},'OvKjo':function(_0x2b7fa5,_0x54a74c){return _0x2b7fa5==_0x54a74c;},'UqckA':function(_0x38023d,_0x3db253){return _0x38023d/_0x3db253;},'QCeCD':function(_0x1104ad,_0x49ed9c){return _0x1104ad+_0x49ed9c;},'suSUX':_0xc401('0x388'),'DoCsg':function(_0x4959be,_0x1ec88b){return _0x4959be/_0x1ec88b;},'HZrrr':function(_0x5a02a8,_0x757f67){return _0x5a02a8+_0x757f67;},'cOIQh':function(_0xf5ae6,_0xbbd562){return _0xf5ae6+_0xbbd562;},'puEEv':function(_0x47b388,_0x11a695){return _0x47b388+_0x11a695;},'lRDdo':function(_0xd95da5,_0x4eb360){return _0xd95da5+_0x4eb360;},'edAxa':_0xc401('0x389'),'SgZBd':_0xc401('0x38a'),'lKQfl':function(_0x5d0df1,_0x54e943){return _0x5d0df1<=_0x54e943;},'yeKVk':function(_0x43af1f,_0x574a45){return _0x43af1f*_0x574a45;},'oRvqj':function(_0x56f5ee,_0x55436f){return _0x56f5ee>_0x55436f;},'Foqey':function(_0x282143,_0x1c1d42){return _0x282143>=_0x1c1d42;},'zzCdD':function(_0x12a795,_0x2f7764){return _0x12a795==_0x2f7764;},'xBaHe':function(_0xcb91aa,_0x402934){return _0xcb91aa>=_0x402934;},'yOaPn':function(_0x23c375,_0x1f76ad){return _0x23c375+_0x1f76ad;},'WLXDH':function(_0xa2164d,_0x19436b){return _0xa2164d+_0x19436b;},'nHiYx':function(_0x121517,_0x290927){return _0x121517/_0x290927;},'ZGOuf':function(_0x969753,_0x2f0774){return _0x969753+_0x2f0774;},'xBqEr':function(_0x3b596e,_0x31a9c1){return _0x3b596e+_0x31a9c1;},'diMCf':_0xc401('0x38b'),'TWEHO':function(_0x212bd3,_0x1994d2){return _0x212bd3<=_0x1994d2;},'jPfTL':function(_0x3d42b5,_0x1c8003){return _0x3d42b5*_0x1c8003;},'CJMir':function(_0x2d334a,_0x2945b9){return _0x2d334a>=_0x2945b9;},'VKRZH':function(_0x17b223,_0xd60c7a){return _0x17b223==_0xd60c7a;},'HVqtk':function(_0x547c20,_0x2e2794){return _0x547c20>=_0x2e2794;},'oGlGz':function(_0x227ef1,_0x45a74b){return _0x227ef1/_0x45a74b;},'MgUkK':function(_0x38644d,_0x1d096f){return _0x38644d>_0x1d096f;},'ZLoYp':function(_0x1d18e1,_0x3013a6){return _0x1d18e1+_0x3013a6;},'PCkOl':function(_0x5b522d,_0x358347){return _0x5b522d/_0x358347;},'UMcbU':function(_0xfd75c5,_0x5f54b4){return _0xfd75c5+_0x5f54b4;},'Ovtbb':_0xc401('0x38c'),'ECAFE':function(_0x538895,_0x28804f){return _0x538895*_0x28804f;},'fBOnH':function(_0x5b8803,_0x1fe8e5){return _0x5b8803>_0x1fe8e5;},'jTkMk':function(_0x37ee84,_0x11e58d){return _0x37ee84>=_0x11e58d;},'FvhuA':function(_0x4f95d4,_0x3b78ea){return _0x4f95d4>=_0x3b78ea;},'IVAow':function(_0x2bf5a1,_0x300e9f){return _0x2bf5a1/_0x300e9f;},'lYgQW':function(_0x197c8c,_0x10394d){return _0x197c8c>_0x10394d;},'kwilH':function(_0x2c3c78,_0x489113){return _0x2c3c78/_0x489113;},'bqAkR':function(_0x46b476,_0x3a3f65){return _0x46b476+_0x3a3f65;},'pNbaj':function(_0x31fe4e,_0x1712c3){return _0x31fe4e+_0x1712c3;},'GtINH':_0xc401('0x38d'),'MKUVY':function(_0x2d803e,_0x44733f){return _0x2d803e-_0x44733f;},'lKkQm':_0xc401('0x38e'),'lpCgP':_0xc401('0x38f'),'ERRta':function(_0x4cf35,_0x444d75){return _0x4cf35+_0x444d75;},'mauAl':function(_0x5aa27a,_0x5c2e40){return _0x5aa27a*_0x5c2e40;},'FsQKS':function(_0x298df4,_0x3da533){return _0x298df4-_0x3da533;},'CtupW':function(_0xf27c59,_0x16f01a){return _0xf27c59*_0x16f01a;},'ccclM':function(_0x40efde,_0x440d4f){return _0x40efde*_0x440d4f;},'UqFnj':function(_0x22103a,_0x471fc4){return _0x22103a*_0x471fc4;},'uoxXj':_0xc401('0x390'),'XPPaY':function(_0xe85df6,_0x5b3df0){return _0xe85df6+_0x5b3df0;},'yzSko':_0xc401('0x391'),'MTphC':function(_0x103c57,_0x4e713c){return _0x103c57<_0x4e713c;},'ynmEU':_0xc401('0x392'),'maIJZ':function(_0x38d69a,_0x3418b1){return _0x38d69a||_0x3418b1;},'UvJYk':_0xc401('0x393'),'yVDua':_0xc401('0x394'),'vzwgz':_0xc401('0x395'),'vMwyE':_0xc401('0x396'),'FMqTe':_0xc401('0x397'),'UdiUa':_0xc401('0x398')};const _0x3f8038=_0x1372f0[_0xc401('0x399')](new Date()[_0xc401('0x1e8')](),_0x1372f0[_0xc401('0x39a')](_0x1372f0[_0xc401('0x39a')](_0x893b1c,0xe10),0x3e8));const _0x4988cf=_0x1372f0[_0xc401('0x39b')](new Date(_0x3f8038)[_0xc401('0x233')](_0x1372f0[_0xc401('0x39c')]),_0x1372f0[_0xc401('0x39d')]);const _0x3041a8=_0x1372f0[_0xc401('0x39e')](new Date(_0x1372f0[_0xc401('0x39e')](_0x3f8038,_0x1372f0[_0xc401('0x39f')](0xe10,0x3e8)))[_0xc401('0x233')](_0x1372f0[_0xc401('0x39c')]),_0x1372f0[_0xc401('0x39d')]);const _0x5900a8=new Date(_0x1372f0[_0xc401('0x3a0')](_0x1372f0[_0xc401('0x3a0')](new Date()[_0xc401('0x1e8')](),_0x1372f0[_0xc401('0x3a1')](_0x1372f0[_0xc401('0x3a2')](_0x1372f0[_0xc401('0x3a2')](_0x1372f0[_0xc401('0x3a3')](0x7,0x18),0x3c),0x3c),0x3e8)),_0x1372f0[_0xc401('0x3a3')](_0x1372f0[_0xc401('0x3a3')](_0x893b1c,0xe10),0x3e8)))[_0xc401('0x233')](_0x1372f0[_0xc401('0x3a4')]);log[_0xc401('0x385')](_0x1372f0[_0xc401('0x39e')](_0x1372f0[_0xc401('0x39e')](_0x1372f0[_0xc401('0x3a5')](_0x1372f0[_0xc401('0x3a6')],_0x4988cf),',\x20'),_0x3041a8));const _0x104c6a=_0x4988cf[_0xc401('0x3a7')](0x5,0xd);const _0x58c597={'uploadType':'','webMonitorId':'','hourName':'','hourCount':''};const {accountInfo,warningSetting}=AccountConfig;const {sourceEmail,sourcePassword,targetEmail}=accountInfo;const _0x4747a9=await ProjectModel[_0xc401('0x14c')]();for(let _0x5f498c=0x0;_0x1372f0[_0xc401('0x3a8')](_0x5f498c,_0x4747a9[_0xc401('0x56')]);_0x5f498c++){let _0x3b5bc6='';let _0x37f0bd='';let _0x3415ca='';let _0x31044c='';const _0x5e147a=_0x4747a9[_0x5f498c][_0xc401('0x10a')];_0x58c597[_0xc401('0x10a')]=_0x5e147a;_0x58c597[_0xc401('0x3a9')]=_0x104c6a;await CustomerPVModel[_0xc401('0x3aa')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x45c1cb=>{_0x58c597[_0xc401('0x2dc')]='uv';_0x58c597[_0xc401('0x3ab')]=_0x45c1cb[0x0][_0xc401('0x7d')];const _0x3e7329=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,'uv');if(_0x1372f0[_0xc401('0x3ad')](_0x3e7329[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x53ba6e=_0x3e7329[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x53ba6e,_0x58c597);}});await CustomerPVModel[_0xc401('0x3ae')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x303fe5=>{_0x58c597[_0xc401('0x2dc')]='pv';_0x58c597[_0xc401('0x3ab')]=_0x303fe5[0x0][_0xc401('0x7d')];const _0x511603=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,'pv');if(_0x1372f0[_0xc401('0x3af')](_0x511603[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x66096=_0x511603[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x66096,_0x58c597);}});await CustomerPVModel[_0xc401('0x3b0')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x106014=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x3b1')];_0x58c597[_0xc401('0x3ab')]=_0x106014[0x0][_0xc401('0x7d')];const _0x192bc2=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x3b1')]);if(_0x1372f0[_0xc401('0x3b2')](_0x192bc2[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0xd7a951=_0x192bc2[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0xd7a951,_0x58c597);}});await CustomerPVModel[_0xc401('0x3b3')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0xdd97f3=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x3b4')];_0x58c597[_0xc401('0x3ab')]=_0xdd97f3;const _0x1e1b70=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x3b4')]);if(_0x1372f0[_0xc401('0x3b5')](_0x1e1b70[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x2bbe54=_0x1e1b70[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x2bbe54,_0x58c597);}});await JavascriptErrorInfoModel[_0xc401('0x3b6')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x2bdc1e=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x253')];_0x58c597[_0xc401('0x3ab')]=_0x2bdc1e[0x0][_0xc401('0x7d')];const _0x35240a=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x253')]);if(_0x1372f0[_0xc401('0x3b7')](_0x35240a[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x355d15=_0x35240a[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x355d15,_0x58c597);}const _0xbad7f1=await InfoCountByHourModel[_0xc401('0x3b8')](_0x5900a8,_0x5e147a,UPLOAD_TYPE[_0xc401('0x253')]);const {minJsErrorCount,jsErrorDividedBySevenDayAgo}=warningSetting;const _0x5a6a8a=_0x1372f0[_0xc401('0x3b9')](_0x58c597[_0xc401('0x3ab')],0x1);const _0x36abe4=_0x1372f0[_0xc401('0x3ba')](_0xbad7f1[0x0][_0xc401('0x3ab')],0x1);if(_0x1372f0[_0xc401('0x3bb')](_0x5a6a8a,0x0)&&_0x1372f0[_0xc401('0x3bc')](_0x5a6a8a,_0x36abe4)&&_0x1372f0[_0xc401('0x3bd')](_0x5a6a8a,minJsErrorCount)&&(_0x1372f0[_0xc401('0x3be')](jsErrorDividedBySevenDayAgo,0x0)||_0x1372f0[_0xc401('0x3bd')](_0x1372f0[_0xc401('0x3bf')](_0x5a6a8a,_0x36abe4),jsErrorDividedBySevenDayAgo))){let _0x3ae016='';if(_0x1372f0[_0xc401('0x3bc')](_0x36abe4,0x0)){_0x3ae016=_0x1372f0[_0xc401('0x3c0')](_0x1372f0[_0xc401('0x3c0')](_0x1372f0[_0xc401('0x3c1')],_0x1372f0[_0xc401('0x3c2')](_0x5a6a8a,_0x36abe4)[_0xc401('0x1f1')](0x2)),'\x20倍');}_0x3b5bc6=_0x1372f0[_0xc401('0x3c3')](_0x1372f0[_0xc401('0x3c4')](_0x1372f0[_0xc401('0x3c5')](_0x1372f0[_0xc401('0x3c6')](_0x104c6a,_0x1372f0[_0xc401('0x3c7')]),_0x5a6a8a),_0x1372f0[_0xc401('0x3c8')]),_0x3ae016);}});await JavascriptErrorInfoModel[_0xc401('0x3c9')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x5e1109=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x257')];_0x58c597[_0xc401('0x3ab')]=_0x5e1109[0x0][_0xc401('0x7d')];const _0x566b51=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x257')]);if(_0x1372f0[_0xc401('0x3ca')](_0x566b51[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x48d16a=_0x566b51[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x48d16a,_0x58c597);}const _0x5425b3=await InfoCountByHourModel[_0xc401('0x3b8')](_0x5900a8,_0x5e147a,UPLOAD_TYPE[_0xc401('0x257')]);const {minConsoleErrorCount,consoleErrorDividedBySevenDayAgo}=warningSetting;const _0x5ded94=_0x1372f0[_0xc401('0x3ba')](_0x58c597[_0xc401('0x3ab')],0x1);const _0x1999bc=_0x1372f0[_0xc401('0x3cb')](_0x5425b3[0x0][_0xc401('0x3ab')],0x1);if(_0x1372f0[_0xc401('0x3cc')](_0x5ded94,0x0)&&_0x1372f0[_0xc401('0x3cc')](_0x5ded94,_0x1999bc)&&_0x1372f0[_0xc401('0x3cd')](_0x5ded94,minConsoleErrorCount)&&(_0x1372f0[_0xc401('0x3ce')](consoleErrorDividedBySevenDayAgo,0x0)||_0x1372f0[_0xc401('0x3cf')](_0x1372f0[_0xc401('0x3c2')](_0x5ded94,_0x1999bc),consoleErrorDividedBySevenDayAgo))){let _0x2939a3='';if(_0x1372f0[_0xc401('0x3cc')](_0x1999bc,0x0)){_0x2939a3=_0x1372f0[_0xc401('0x3d0')](_0x1372f0[_0xc401('0x3d1')](_0x1372f0[_0xc401('0x3c1')],_0x1372f0[_0xc401('0x3d2')](_0x5ded94,_0x1999bc)[_0xc401('0x1f1')](0x2)),'\x20倍');}_0x37f0bd=_0x1372f0[_0xc401('0x3d1')](_0x1372f0[_0xc401('0x3d3')](_0x1372f0[_0xc401('0x3d3')](_0x1372f0[_0xc401('0x3d4')](_0x104c6a,_0x1372f0[_0xc401('0x3d5')]),_0x5ded94),_0x1372f0[_0xc401('0x3c8')]),_0x2939a3);}});await ResourceLoadInfoModel[_0xc401('0x3d6')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0x2d59c8=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x18c')];_0x58c597[_0xc401('0x3ab')]=_0x2d59c8[0x0][_0xc401('0x7d')];const _0x344b02=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x18c')]);if(_0x1372f0[_0xc401('0x3d7')](_0x344b02[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x432587=_0x344b02[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x432587,_0x58c597);}const _0x54cbcf=await InfoCountByHourModel[_0xc401('0x3b8')](_0x5900a8,_0x5e147a,UPLOAD_TYPE[_0xc401('0x18c')]);const {minResourceErrorCount,resourceErrorDividedBySevenDayAgo}=warningSetting;const _0x1de790=_0x1372f0[_0xc401('0x3d8')](_0x58c597[_0xc401('0x3ab')],0x1);const _0x4b6946=_0x1372f0[_0xc401('0x3d8')](_0x54cbcf[0x0][_0xc401('0x3ab')],0x1);if(_0x1372f0[_0xc401('0x3cc')](_0x1de790,0x0)&&_0x1372f0[_0xc401('0x3cc')](_0x1de790,_0x4b6946)&&_0x1372f0[_0xc401('0x3d9')](_0x1de790,minResourceErrorCount)&&(_0x1372f0[_0xc401('0x3da')](resourceErrorDividedBySevenDayAgo,0x0)||_0x1372f0[_0xc401('0x3db')](_0x1372f0[_0xc401('0x3dc')](_0x1de790,_0x4b6946),resourceErrorDividedBySevenDayAgo))){let _0x480a4d='';if(_0x1372f0[_0xc401('0x3dd')](_0x4b6946,0x0)){_0x480a4d=_0x1372f0[_0xc401('0x3de')](_0x1372f0[_0xc401('0x3de')](_0x1372f0[_0xc401('0x3c1')],_0x1372f0[_0xc401('0x3df')](_0x1de790,_0x4b6946)[_0xc401('0x1f1')](0x2)),'\x20倍');}_0x3415ca=_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3e0')](_0x104c6a,_0x1372f0[_0xc401('0x3e1')]),_0x1de790),_0x1372f0[_0xc401('0x3c8')]),_0x480a4d);}});await HttpErrorInfoModel[_0xc401('0x3e2')](_0x5e147a,_0x4988cf,_0x3041a8)[_0xc401('0x4d')](async _0xdbce92=>{_0x58c597[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x70')];_0x58c597[_0xc401('0x3ab')]=_0xdbce92[0x0][_0xc401('0x7d')];const _0x447969=await InfoCountByHourModel[_0xc401('0x3ac')](_0x104c6a,_0x5e147a,UPLOAD_TYPE[_0xc401('0x70')]);if(_0x1372f0[_0xc401('0x3d7')](_0x447969[_0xc401('0x56')],0x0)){await InfoCountByHourModel[_0xc401('0x11e')](_0x58c597);}else{const _0x26386b=_0x447969[0x0]['id'];await InfoCountByHourModel[_0xc401('0x12b')](_0x26386b,_0x58c597);}const _0x107b01=await InfoCountByHourModel[_0xc401('0x3b8')](_0x5900a8,_0x5e147a,UPLOAD_TYPE[_0xc401('0x70')]);const {minHttpErrorCount,HttpErrorDividedBySevenDayAgo}=warningSetting;const _0x1a88fb=_0x1372f0[_0xc401('0x3d8')](_0x58c597[_0xc401('0x3ab')],0x1);const _0x3ca780=_0x1372f0[_0xc401('0x39a')](_0x107b01[0x0][_0xc401('0x3ab')],0x1);if(_0x1372f0[_0xc401('0x3e3')](_0x1a88fb,_0x3ca780)&&_0x1372f0[_0xc401('0x3e4')](_0x1a88fb,minHttpErrorCount)&&_0x1372f0[_0xc401('0x3e5')](_0x1372f0[_0xc401('0x3e6')](_0x1a88fb,_0x3ca780),HttpErrorDividedBySevenDayAgo)){let _0x389a88='';if(_0x1372f0[_0xc401('0x3e7')](_0x3ca780,0x0)){_0x389a88=_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3c1')],_0x1372f0[_0xc401('0x3e8')](_0x1a88fb,_0x3ca780)[_0xc401('0x1f1')](0x2)),'\x20倍');}_0x31044c=_0x1372f0[_0xc401('0x3e0')](_0x1372f0[_0xc401('0x3e9')](_0x1372f0[_0xc401('0x3e9')](_0x1372f0[_0xc401('0x39b')](_0x104c6a,_0x1372f0[_0xc401('0x3ea')]),_0x1a88fb),_0x1372f0[_0xc401('0x3c8')]),_0x389a88);}});const _0x5c46c5=_0x1372f0[_0xc401('0x3a5')](_0x5e147a,_0x1372f0[_0xc401('0x3eb')]);global[_0xc401('0x1e7')][_0x5c46c5]={'jsErrorWarningMsg':_0x3b5bc6,'consoleErrorWarningMsg':_0x37f0bd,'resourceErrorWarningMsg':_0x3415ca,'httpErrorWarningMsg':_0x31044c};if(_0x1372f0[_0xc401('0x3ec')](_0x3b5bc6,_0x37f0bd)||_0x3415ca||_0x31044c){const _0x4e939d=await ProjectModel[_0xc401('0x3ed')](_0x5e147a);const _0x589d52=_0x4e939d[0x0][_0xc401('0x166')];const _0x363268=_0x3b5bc6?_0x1372f0[_0xc401('0x3ee')]:'';const _0x2e3c04=_0x37f0bd?_0x1372f0[_0xc401('0x3ef')]:'';const _0x50e88f=_0x3415ca?_0x1372f0[_0xc401('0x3f0')]:'';const _0x5072cd=_0x31044c?_0x1372f0[_0xc401('0x3f1')]:'';const _0x2fab2f=_0xc401('0x3f2')+_0x589d52+_0xc401('0x3f3')+_0x363268+_0xc401('0xee')+_0x3b5bc6+_0xc401('0x3f3')+_0x2e3c04+_0xc401('0xee')+_0x37f0bd+_0xc401('0x3f3')+_0x50e88f+_0xc401('0xee')+_0x3415ca+_0xc401('0x3f3')+_0x5072cd+_0xc401('0xee')+_0x31044c+_0xc401('0x3f4');Utils[_0xc401('0x3f5')](sourceEmail,sourcePassword,_0x1372f0[_0xc401('0x3f6')],_0x2fab2f,targetEmail);}log[_0xc401('0x385')](_0x1372f0[_0xc401('0x3f7')]);}}static async[_0xc401('0x3f8')](_0x345324){var _0x5a0f00={'tUlmB':_0xc401('0x3f9')};log[_0xc401('0x385')](_0x5a0f00[_0xc401('0x3fa')]);Common[_0xc401('0x3fb')](_0x345324);}static async[_0xc401('0x3fb')](_0x159ad2){var _0x3b8b01={'fAiWc':function(_0x27d203,_0x3d4b74){return _0x27d203<=_0x3d4b74;},'tisva':function(_0xf1808d,_0x5b264a){return _0xf1808d<=_0x5b264a;},'nobhB':function(_0xf242bb,_0x11c234){return _0xf242bb<_0x11c234;},'BGouo':_0xc401('0x3fc')};const _0xe0a0d3=Utils[_0xc401('0x239')](_0x159ad2);const _0x1d9412={'uploadType':'','webMonitorId':'','dayName':'','dayCount':''};const _0xc18a66=await ProjectModel[_0xc401('0x14c')]();for(let _0x5e80bb=0x0;_0x3b8b01[_0xc401('0x3fd')](_0x5e80bb,_0xc18a66[_0xc401('0x56')]);_0x5e80bb++){const _0x5ee10c=_0xc18a66[_0x5e80bb][_0xc401('0x10a')];_0x1d9412[_0xc401('0x10a')]=_0x5ee10c;_0x1d9412[_0xc401('0x3fe')]=_0xe0a0d3;await JavascriptErrorInfoModel[_0xc401('0x3ff')](_0x5ee10c,_0xe0a0d3)[_0xc401('0x4d')](async _0x323154=>{_0x1d9412[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x253')];_0x1d9412[_0xc401('0x400')]=_0x323154[0x0][_0xc401('0x7d')];const _0x1fd747=await InfoCountByDayModel[_0xc401('0x401')](_0xe0a0d3,_0x5ee10c,UPLOAD_TYPE[_0xc401('0x253')]);if(_0x3b8b01[_0xc401('0x402')](_0x1fd747[_0xc401('0x56')],0x0)){await InfoCountByDayModel[_0xc401('0x403')](_0x1d9412);}else{const _0x5c944b=_0x1fd747[0x0]['id'];await InfoCountByDayModel[_0xc401('0x404')](_0x5c944b,_0x1d9412);}});await JavascriptErrorInfoModel[_0xc401('0x405')](_0x5ee10c,_0xe0a0d3)[_0xc401('0x4d')](async _0x4a75c9=>{_0x1d9412[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x257')];_0x1d9412[_0xc401('0x400')]=_0x4a75c9[0x0][_0xc401('0x7d')];const _0x406d14=await InfoCountByDayModel[_0xc401('0x401')](_0xe0a0d3,_0x5ee10c,UPLOAD_TYPE[_0xc401('0x257')]);if(_0x3b8b01[_0xc401('0x406')](_0x406d14[_0xc401('0x56')],0x0)){await InfoCountByDayModel[_0xc401('0x403')](_0x1d9412);}else{const _0x1ba1fd=_0x406d14[0x0]['id'];await InfoCountByDayModel[_0xc401('0x404')](_0x1ba1fd,_0x1d9412);}});await HttpErrorInfoModel[_0xc401('0x407')](_0x5ee10c,_0xe0a0d3)[_0xc401('0x4d')](async _0x4dd5b0=>{_0x1d9412[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x70')];_0x1d9412[_0xc401('0x400')]=_0x4dd5b0[0x0][_0xc401('0x7d')];const _0x43f2a5=await InfoCountByDayModel[_0xc401('0x401')](_0xe0a0d3,_0x5ee10c,UPLOAD_TYPE[_0xc401('0x70')]);if(_0x3b8b01[_0xc401('0x406')](_0x43f2a5[_0xc401('0x56')],0x0)){await InfoCountByDayModel[_0xc401('0x403')](_0x1d9412);}else{const _0x82e276=_0x43f2a5[0x0]['id'];await InfoCountByDayModel[_0xc401('0x404')](_0x82e276,_0x1d9412);}});await ResourceLoadInfoModel[_0xc401('0x408')](_0x5ee10c,_0xe0a0d3)[_0xc401('0x4d')](async _0x55874a=>{_0x1d9412[_0xc401('0x2dc')]=UPLOAD_TYPE[_0xc401('0x18c')];_0x1d9412[_0xc401('0x400')]=_0x55874a[0x0][_0xc401('0x7d')];const _0x182f57=await InfoCountByDayModel[_0xc401('0x401')](_0xe0a0d3,_0x5ee10c,UPLOAD_TYPE[_0xc401('0x18c')]);if(_0x3b8b01[_0xc401('0x406')](_0x182f57[_0xc401('0x56')],0x0)){await InfoCountByDayModel[_0xc401('0x403')](_0x1d9412);}else{const _0x1918ff=_0x182f57[0x0]['id'];await InfoCountByDayModel[_0xc401('0x404')](_0x1918ff,_0x1d9412);}});log[_0xc401('0x385')](_0x3b8b01[_0xc401('0x409')]);}}static async[_0xc401('0x40a')](_0x528a40){var _0x298c2d={'GWrIB':function(_0x1cefe4,_0x563334){return _0x1cefe4+_0x563334;},'mgKGC':_0xc401('0x40b'),'uUHhg':function(_0x48e85a,_0x36456b){return _0x48e85a<_0x36456b;},'QEqsp':function(_0x4ddc00,_0x4cb07c){return _0x4ddc00-_0x4cb07c;},'sKkUV':function(_0x102ead,_0xac678e){return _0x102ead*_0xac678e;},'Djhog':function(_0x553a6e,_0x40e38c){return _0x553a6e*_0x40e38c;},'XdpyM':_0xc401('0x45'),'wWWbt':_0xc401('0xe5')};let _0x36bd2c=_0x528a40[_0xc401('0x25')][_0xc401('0x26')];const _0x88b640=JSON[_0xc401('0x27')](_0x36bd2c);const _0xc8b095=_0x298c2d[_0xc401('0x40c')](_0x298c2d[_0xc401('0x40d')],_0x88b640[_0xc401('0x10a')]);const _0x53a99d=global[_0xc401('0x1e7')][_0xc8b095];const _0x8daccd=new Date()[_0xc401('0x1e8')]();if(_0x53a99d&&_0x298c2d[_0xc401('0x40e')](_0x298c2d[_0xc401('0x40f')](_0x8daccd,todayFlow[_0xc401('0x29')]),_0x298c2d[_0xc401('0x410')](_0x298c2d[_0xc401('0x411')](0x3c,0x3c),0x3e8))){_0x528a40[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x528a40[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x298c2d[_0xc401('0x412')],_0x53a99d);return;}const _0x49e8ed=await CustomerPVModel[_0xc401('0x1ee')](_0x88b640,0x0);const _0x3b042a=await JavascriptErrorInfoModel[_0xc401('0x413')](_0x88b640[_0xc401('0x10a')],0x0);const _0x2df877=await JavascriptErrorInfoModel[_0xc401('0x414')](_0x88b640[_0xc401('0x10a')],0x0);const _0x2d7194=await ResourceLoadInfoModel[_0xc401('0x415')](_0x88b640[_0xc401('0x10a')],0x0);const _0x51e4dd=await HttpErrorInfoModel[_0xc401('0x416')](_0x88b640[_0xc401('0x10a')],0x0);const _0xa1104e={'todayUvCount':_0x49e8ed[0x0][_0xc401('0x7d')],'jsErrorTotalCount':_0x3b042a[0x0][_0xc401('0x7d')],'jsConsoleErrorTotalCount':_0x2df877[0x0][_0xc401('0x7d')],'resourceErrorTotalCount':_0x2d7194[0x0][_0xc401('0x7d')],'httpErrorTotalCount':_0x51e4dd[0x0][_0xc401('0x7d')]};_0x528a40[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x528a40[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x298c2d[_0xc401('0x417')],_0xa1104e);}static async[_0xc401('0x418')](_0xfa295c){var _0x126a01={'qwBOy':function(_0x5b068f,_0x53874b){return _0x5b068f+_0x53874b;},'CzSak':_0xc401('0x392'),'nlYeh':_0xc401('0xe5')};let _0x56d055=_0xfa295c[_0xc401('0x25')][_0xc401('0x26')];const _0x18b125=JSON[_0xc401('0x27')](_0x56d055);const _0x2c037a=_0x126a01[_0xc401('0x419')](_0x18b125[_0xc401('0x10a')],_0x126a01[_0xc401('0x41a')]);console[_0xc401('0x2ae')](_0x2c037a);const _0x4a51f5=global[_0xc401('0x1e7')][_0x2c037a];console[_0xc401('0x2ae')](global[_0xc401('0x1e7')]);_0xfa295c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0xfa295c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x126a01[_0xc401('0x41b')],_0x4a51f5);}static async[_0xc401('0x41c')](){var _0x4e868a={'TQTGU':function(_0x5b91f7,_0x382d29){return _0x5b91f7>=_0x382d29;},'APNnP':_0xc401('0x41d'),'leriS':_0xc401('0x41e'),'CmSQA':function(_0x2f05c3,_0x4bcf63){return _0x2f05c3+_0x4bcf63;},'WtzFF':_0xc401('0x41f'),'GlurI':function(_0x18eaee,_0x81ecc8,_0x4b52a1){return _0x18eaee(_0x81ecc8,_0x4b52a1);},'ufMCX':function(_0x3cef92,_0xfef2c7){return _0x3cef92*_0xfef2c7;}};_0x4e868a[_0xc401('0x420')](setInterval,async()=>{const _0x152aff=await CommonModel[_0xc401('0x41c')]();const _0xe34b61=_0x152aff[0x0][_0xc401('0x7d')];if(_0x4e868a[_0xc401('0x421')](_0xe34b61,0x32)){Utils[_0xc401('0x422')](_0x4e868a[_0xc401('0x423')],_0x4e868a[_0xc401('0x424')],_0x4e868a[_0xc401('0x425')](_0x4e868a[_0xc401('0x426')],_0xe34b61));}},_0x4e868a[_0xc401('0x427')](0x258,0x3e8));}static async[_0xc401('0x428')](_0x45c0a4){var _0x317e2d={'YxQAC':_0xc401('0xe5')};const _0x5b9c2d=await CommonModel[_0xc401('0x41c')]();const _0x3fa843=await CommonModel[_0xc401('0x429')]();_0x45c0a4[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x45c0a4[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x317e2d[_0xc401('0x42a')],{'errorListData':_0x5b9c2d,'connectionData':_0x3fa843});}static async[_0xc401('0x42b')](_0x57742b){var _0x5bb07f={'DXEdH':_0xc401('0xe5')};_0x57742b[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x57742b[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x5bb07f[_0xc401('0x42c')],0x1);}static async[_0xc401('0x42d')](){var _0x1ebe35={'XRQJf':function(_0x3ccd39,_0x27235f){return _0x3ccd39+_0x27235f;},'kZzCd':_0xc401('0x42e'),'zcukn':function(_0x1c615e,_0x34fd19){return _0x1c615e+_0x34fd19;},'sDeac':_0xc401('0x42f'),'ZHWiX':_0xc401('0x430'),'oBSNL':function(_0x365224,_0xa07192){return _0x365224+_0xa07192;},'imjvy':_0xc401('0x431'),'tMqjg':_0xc401('0x432'),'lgKAl':_0xc401('0x433'),'MButV':_0xc401('0x434'),'AsTHB':_0xc401('0x435'),'rWXuX':_0xc401('0x436'),'boKAT':_0xc401('0x437'),'FlDfG':_0xc401('0x438'),'SsMut':_0xc401('0x439'),'aSUke':_0xc401('0x43a'),'ThgOz':_0xc401('0x43b'),'IgBGx':_0xc401('0x43c'),'dumgt':_0xc401('0x43d'),'igKlX':_0xc401('0x43e')};log[_0xc401('0x385')](_0x1ebe35[_0xc401('0x43f')]);const _0x4cea58=Utils[_0xc401('0x239')](-0x10)[_0xc401('0x171')](/-/g,'');const _0x1acc9c=[_0x1ebe35[_0xc401('0x440')],_0x1ebe35[_0xc401('0x441')],_0x1ebe35[_0xc401('0x442')],_0x1ebe35[_0xc401('0x443')],_0x1ebe35[_0xc401('0x444')],_0x1ebe35[_0xc401('0x445')],_0x1ebe35[_0xc401('0x446')],_0x1ebe35[_0xc401('0x447')],_0x1ebe35[_0xc401('0x448')],_0x1ebe35[_0xc401('0x449')],_0x1ebe35[_0xc401('0x44a')]];try{_0x1acc9c[_0xc401('0x89')](async _0x31ce4f=>{log[_0xc401('0x385')](_0x1ebe35[_0xc401('0x44b')](_0x1ebe35[_0xc401('0x44b')](_0x1ebe35[_0xc401('0x44b')](_0x1ebe35[_0xc401('0x44c')],_0x31ce4f),_0x4cea58),_0x1ebe35[_0xc401('0x44d')]));await Sequelize[_0xc401('0x44e')](_0x1ebe35[_0xc401('0x44f')](_0x31ce4f,_0x4cea58))[_0xc401('0x4d')](()=>{log[_0xc401('0x385')](_0x1ebe35[_0xc401('0x450')](_0x1ebe35[_0xc401('0x451')],_0x31ce4f));});});}catch(_0x71d329){log[_0xc401('0x2f9')](_0x1ebe35[_0xc401('0x452')],_0x71d329);}log[_0xc401('0x385')](_0x1ebe35[_0xc401('0x453')]);}static async[_0xc401('0x454')](){var _0x463860={'bymbE':_0xc401('0x455')};try{callFile[_0xc401('0x456')](_0x463860[_0xc401('0x457')],[],null,function(_0x28a9a0,_0x1880b0,_0xaf5afd){log[_0xc401('0x2f9')](JSON[_0xc401('0x458')](_0x28a9a0));log[_0xc401('0x2f9')](_0x1880b0);log[_0xc401('0x2f9')](_0xaf5afd);});}catch(_0x4a9655){log[_0xc401('0x2f9')](_0x4a9655);log[_0xc401('0x2f9')](errorStr);}}static async[_0xc401('0x459')](_0x441bc2){var _0x517759={'rCOKJ':function(_0xcff94e,_0x313a00){return _0xcff94e+_0x313a00;},'rOvBM':_0xc401('0x459'),'AcVfm':_0xc401('0x228'),'Dgpir':function(_0x2bfcba,_0xfdfb97){return _0x2bfcba(_0xfdfb97);},'jzHId':_0xc401('0x45a'),'lbaen':_0xc401('0xe5')};let _0x534715=0x0;const _0x1d6609=_0x517759[_0xc401('0x45b')](_0x517759[_0xc401('0x45c')],new Date()[_0xc401('0x233')](_0x517759[_0xc401('0x45d')]));if(global[_0xc401('0x1e7')][_0x1d6609]){_0x534715=global[_0xc401('0x1e7')][_0x1d6609];}else{await _0x517759[_0xc401('0x45e')](fetch,_0x517759[_0xc401('0x45f')])[_0xc401('0x4d')](_0x40e21d=>_0x40e21d[_0xc401('0x170')]())[_0xc401('0x4d')](_0x10dbec=>{_0x534715=_0x517759[_0xc401('0x45b')](JSON[_0xc401('0x27')](_0x10dbec)[_0xc401('0x56')],0x2bc);global[_0xc401('0x1e7')][_0x1d6609]=_0x534715;});}_0x441bc2[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x441bc2[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x517759[_0xc401('0x460')],_0x534715);}static async[_0xc401('0x461')](_0x191012){var _0x121aa2={'sxOtg':_0xc401('0x462'),'naGhs':_0xc401('0x463'),'gXPZi':_0xc401('0xe5')};const _0x1ff833={'activeDate':_0x121aa2[_0xc401('0x464')],'messageList':[_0x121aa2[_0xc401('0x465')]],'futureMessageList':[_0x121aa2[_0xc401('0x465')]]};_0x191012[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x191012[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x121aa2[_0xc401('0x466')],_0x1ff833);}static async[_0xc401('0x467')](_0x49037c){var _0x23543e={'lVDLJ':_0xc401('0x468'),'OYPbD':_0xc401('0x469'),'JvZFQ':_0xc401('0x46a'),'JhdvX':_0xc401('0x46b'),'tPmcF':_0xc401('0x46c'),'LRJCO':_0xc401('0xe5')};const _0x28bcc6={'delay':0xa,'activeDate':_0x23543e[_0xc401('0x46d')],'projectVersion':PROJECT_INFO[_0xc401('0x46e')],'updateList':[{'des':_0x23543e[_0xc401('0x46f')],'img':_0x23543e[_0xc401('0x470')]},{'des':_0x23543e[_0xc401('0x471')],'img':_0x23543e[_0xc401('0x472')]}]};_0x49037c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x49037c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x23543e[_0xc401('0x473')],_0x28bcc6);}static async[_0xc401('0x21b')](_0x281e0f){var _0x251c27={'tnFsc':_0xc401('0xe5')};_0x281e0f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x281e0f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x251c27[_0xc401('0x474')],PROJECT_INFO[_0xc401('0x46e')]);}static async[_0xc401('0x475')](_0x59d72f){var _0x51e37b={'rfZip':_0xc401('0xe5')};_0x59d72f[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x59d72f[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x51e37b[_0xc401('0x476')],PROJECT_INFO[_0xc401('0x477')]);}static async[_0xc401('0x478')](_0x5e29df){var _0x4ec575={'rCulx':_0xc401('0xe5')};_0x5e29df[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x5e29df[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x4ec575[_0xc401('0x479')],userBehaviors);}static async[_0xc401('0x47a')](_0x12114c){var _0x2580da={'MuRem':_0xc401('0xe5')};_0x12114c[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x12114c[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x2580da[_0xc401('0x47b')],customerInfo);}static async[_0xc401('0x47c')](_0x2cfc08){var _0x12093c={'pECjX':_0xc401('0xe5'),'GxZWI':_0xc401('0x47d')};_0x2cfc08[_0xc401('0x2c')][_0xc401('0x2d')]=0xc8;_0x2cfc08[_0xc401('0x26')]=statusCode[_0xc401('0x2e')](_0x12093c[_0xc401('0x47e')],_0x12093c[_0xc401('0x47f')]);}}module[_0xc401('0x480')]={'HttpLogInfoController':HttpLogInfoController,'HttpErrorInfoController':HttpErrorInfoController,'ScreenShotInfoController':ScreenShotInfoController,'BehaviorInfoController':BehaviorInfoController,'DailyActivityController':DailyActivityController,'ExtendBehaviorInfoController':ExtendBehaviorInfoController,'EmailCodeController':EmailCodeController,'IgnoreErrorController':IgnoreErrorController,'InfoCountByHourController':InfoCountByHourController,'LoadPageInfoController':LoadPageInfoController,'ProjectController':ProjectController,'ResourceLoadInfoController':ResourceLoadInfoController,'UserController':UserController,'VideosInfoController':VideosInfoController,'CustomerPVController':CustomerPVController,'JavascriptErrorInfoController':JavascriptErrorInfoController,'Common':Common};function _0x575b8a(_0x557623){var _0x343b57={'rHDZS':function(_0x2e513a,_0x1dea55){return _0x2e513a===_0x1dea55;},'UJSOj':_0xc401('0x481'),'UPQwt':_0xc401('0x482'),'XWiYg':_0xc401('0x483'),'qnLwG':function(_0xa4be40,_0x463fea){return _0xa4be40!==_0x463fea;},'FGsOz':function(_0x48a5fe,_0x52b0bf){return _0x48a5fe+_0x52b0bf;},'rlGMn':function(_0x5cda3d,_0x139527){return _0x5cda3d/_0x139527;},'xwFKC':_0xc401('0x56'),'tkXQm':function(_0x20ed44,_0x4e0e43){return _0x20ed44===_0x4e0e43;},'cFtBR':function(_0x19ee0b,_0x96bd8a){return _0x19ee0b%_0x96bd8a;},'sUlnC':_0xc401('0x484'),'CiDWb':_0xc401('0x485'),'dOoVx':_0xc401('0x486'),'QrKpa':_0xc401('0x487'),'LmrbF':function(_0x2939f9,_0x219e05){return _0x2939f9(_0x219e05);}};function _0x54518b(_0x20322d){if(_0x343b57[_0xc401('0x488')](typeof _0x20322d,_0x343b57[_0xc401('0x489')])){return function(_0x3691ba){}[_0xc401('0x48a')](_0x343b57[_0xc401('0x48b')])[_0xc401('0x0')](_0x343b57[_0xc401('0x48c')]);}else{if(_0x343b57[_0xc401('0x48d')](_0x343b57[_0xc401('0x48e')]('',_0x343b57[_0xc401('0x48f')](_0x20322d,_0x20322d))[_0x343b57[_0xc401('0x490')]],0x1)||_0x343b57[_0xc401('0x491')](_0x343b57[_0xc401('0x492')](_0x20322d,0x14),0x0)){(function(){return!![];}[_0xc401('0x48a')](_0x343b57[_0xc401('0x48e')](_0x343b57[_0xc401('0x493')],_0x343b57[_0xc401('0x494')]))[_0xc401('0x495')](_0x343b57[_0xc401('0x496')]));}else{(function(){return![];}[_0xc401('0x48a')](_0x343b57[_0xc401('0x48e')](_0x343b57[_0xc401('0x493')],_0x343b57[_0xc401('0x494')]))[_0xc401('0x0')](_0x343b57[_0xc401('0x497')]));}}_0x343b57[_0xc401('0x498')](_0x54518b,++_0x20322d);}try{if(_0x557623){return _0x54518b;}else{_0x343b57[_0xc401('0x498')](_0x54518b,0x0);}}catch(_0x3d07a1){}}
+const db = require('../config/db');
+                                    const Sequelize = db.sequelize;
+                                    const Utils = require('../util/utils');
+                                    const utils = require('../util/utils');
+                                    const geoip = require('geoip-lite');
+                                    const log = require("../config/log");
+                                    const statusCode = require('../util/status-code');
+                                    const UPLOAD_TYPE = require('../config/consts');
+                                    const fetch = require('node-fetch');
+                                    const fs = require('fs');
+                                    const customerInfo = require('../config/customerInfo');
+                                    const userBehaviors = require('../config/userBehaviors');
+                                    const citys = require("../config/city");
+                                    const provinces = require("../config/province");
+                                    const callFile = require('child_process');
+                                    const nodemailer = require('nodemailer');
+                                    const AccountConfig = require('../config/AccountConfig')
+                                    const monitorKeys = require("../config/monitorKeys");
+const {CommonModel,HttpLogInfoModel,BehaviorInfoModel,ScreenShotInfoModel,EmailCodeModel,ExtendBehaviorInfoModel,DailyActivityModel,InfoCountByHourModel,IgnoreErrorModel,InfoCountByDayModel,ProjectModel,LoadPageInfoModel,VideosInfoModel,HttpErrorInfoModel,PurchaseCodeModel,UserModel,ResourceLoadInfoModel,CustomerPVModel,JavascriptErrorInfoModel,} = require('../modules/models.js');
+class HttpErrorInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await HttpErrorInfoModel.createHttpErrorInfo(data);
+      let res = await HttpErrorInfoModel.getHttpErrorInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await HttpErrorInfoModel.getHttpErrorInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await HttpErrorInfoModel.getHttpErrorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await HttpErrorInfoModel.deleteHttpErrorInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await HttpErrorInfoModel.updateHttpErrorInfo(id, req);
+      let data = await HttpErrorInfoModel.getHttpErrorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+
+  /**
+   * 根据时间获取一天内http请求错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorInfoListByHour(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.HTTP_ERROR
+    let result1 = []
+    await HttpErrorInfoModel.getHttpErrorInfoListByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await HttpErrorInfoModel.getHttpErrorInfoListSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+
+  /**
+   * 获取每天接口请求错误数量列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorCountByDay(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.HTTP_ERROR
+    await HttpErrorInfoModel.getHttpErrorCountByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', Utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 获取每天接口请求错误列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorListByDay(ctx) {
+
+    const param = JSON.parse(ctx.request.body)
+    let httpErrorSortList = null
+    await HttpErrorInfoModel.getHttpErrorInfoListByDay(param).then(data => {
+      httpErrorSortList = data
+    })
+    for (let i = 0; i < httpErrorSortList.length; i ++) {
+      // 查询最近发生时间
+      await HttpErrorInfoModel.getHttpErrorLatestTime(httpErrorSortList[i].simpleHttpUrl, param).then(data => {
+        httpErrorSortList[i].createdAt = data[0].createdAt
+        httpErrorSortList[i].happenTime = data[0].happenTime
+      })
+      // 查询不同状态的次数
+      await HttpErrorInfoModel.getStatusCountBySimpleHttpUrl(httpErrorSortList[i].simpleHttpUrl, param).then(data => {
+        httpErrorSortList[i].statusArray = data
+      })
+      // 查询影响用户数量
+      await HttpErrorInfoModel.getCustomerCountForHttpUrl(httpErrorSortList[i].simpleHttpUrl, param).then(data => {
+        httpErrorSortList[i].customerCount = data[0].count
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', httpErrorSortList)
+  }
+
+  static async getHttpErrorListByUrl(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    let httpErrorList = []
+    // 查询影响用户数量
+    await HttpErrorInfoModel.getHttpErrorListByUrl(param).then(data => {
+      httpErrorList = data
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', httpErrorList)
+  }
+}
+
+class ScreenShotInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await ScreenShotInfoModel.createScreenShotInfo(data);
+      let res = await ScreenShotInfoModel.getScreenShotInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getScreenShotInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await ScreenShotInfoModel.getScreenShotInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getScreenShotInfoListByPage(ctx) {
+    let req = ctx.request
+
+    if (req) {
+      const data = await ScreenShotInfoModel.getScreenShotInfoListByPage();
+      data.forEach((item) => {
+        item.screenInfo = item.screenInfo.toString()
+      })
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await ScreenShotInfoModel.getScreenShotInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await ScreenShotInfoModel.deleteScreenShotInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await ScreenShotInfoModel.updateScreenShotInfo(id, req);
+      let data = await ScreenShotInfoModel.getScreenShotInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class HttpLogInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await HttpLogInfoModel.createHttpLogInfo(data);
+      let res = await HttpLogInfoModel.getHttpLogInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getHttpLogInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await HttpLogInfoModel.getHttpLogInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await HttpLogInfoModel.deleteHttpLogInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await HttpLogInfoModel.updateHttpLogInfo(id, req);
+      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 根据时间获取一天内http请求错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    let result1 = []
+    await HttpLogInfoModel.getHttpErrorInfoListByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await HttpLogInfoModel.getHttpErrorInfoListSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+
+  /**
+   * 获取每天接口请求错误数量列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorCountByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await HttpLogInfoModel.getHttpErrorCountByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 获取每天接口请求错误列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorListByDay(ctx) {
+
+    const param = JSON.parse(ctx.request.body)
+    let resourceErrorSortList = null
+    await HttpLogInfoModel.getResourceLoadInfoListByDay(param).then(data => {
+      resourceErrorSortList = data
+    })
+    for (let i = 0; i < resourceErrorSortList.length; i ++) {
+      // 查询最近发生时间
+      await HttpLogInfoModel.getResourceErrorLatestTime(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].createdAt = data[0].createdAt
+        resourceErrorSortList[i].happenTime = data[0].happenTime
+      })
+      // 查询不同状态的次数
+      await HttpLogInfoModel.getPageCountByResourceError(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].pageCount = data[0].pageCount
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', resourceErrorSortList)
+  }
+
+  // 实时获取http请求数量
+  static async getHttpCountByMinute(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await HttpLogInfoModel.getHttpCountByMinute(param).then(data => {
+      result1 = data
+    })
+    // let result2 = []
+    // await CustomerPVModel.getUvCountByMinute(param).then(data => {
+    //   result2 = data
+    // })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {http: result1})
+  }
+}
+
+class DailyActivityController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await DailyActivityModel.createDailyActivity(data);
+      let res = await DailyActivityModel.getDailyActivityDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getDailyActivityList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await DailyActivityModel.getDailyActivityList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await DailyActivityModel.getDailyActivityDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await DailyActivityModel.deleteDailyActivity(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await DailyActivityModel.updateDailyActivity(id, req);
+      let data = await DailyActivityModel.getDailyActivityDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class BehaviorInfoController {
+  /**
+   * 创建行为信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    if (data.happenTime) {
+      let ret = await BehaviorInfoModel.createBehaviorInfo(data);
+      let res = await BehaviorInfoModel.getBehaviorInfoDetail(ret.id);
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建行为信息成功', res)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建行为信息失败，请求参数不能为空！')
+    }
+  }
+
+  /**
+   * 获取行为信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getBehaviorInfoList(ctx) {
+    let req = ctx.request.body
+
+    if (req) {
+      const data = await BehaviorInfoModel.getBehaviorInfoList();
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询行为信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询行为信息列表失败！');
+    }
+
+  }
+
+  /**
+   * 查询单条行为信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+
+    if (id) {
+      let data = await BehaviorInfoModel.getBehaviorInfoDetail(id);
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('行为信息ID必须传');
+    }
+  }
+
+
+  /**
+   * 删除行为信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+
+    if (id && !isNaN(id)) {
+      await BehaviorInfoModel.deleteBehaviorInfo(id);
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除行为信息成功！')
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('行为信息ID必须传！');
+    }
+  }
+
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+
+    if (req) {
+      await BehaviorInfoModel.updateBehaviorInfo(id, req);
+      let data = await BehaviorInfoModel.getBehaviorInfoDetail(id);
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新行为信息成功！', data);
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新行为信息失败！')
+    }
+  }
+
+  /**
+   * 测试接口
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async testBehavior(ctx) {
+    let req = ctx.request.body
+
+    if (req) {
+      const data = await BehaviorInfoModel.testBehavior();
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询行为信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询行为信息列表失败！');
+    }
+
+  }
+}
+
+class ExtendBehaviorInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.userId) {
+      let ret = await ExtendBehaviorInfoModel.createExtendBehaviorInfo(data);
+      let res = await ExtendBehaviorInfoModel.getExtendBehaviorInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getExtendBehaviorInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await ExtendBehaviorInfoModel.getExtendBehaviorInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await ExtendBehaviorInfoModel.getExtendBehaviorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await ExtendBehaviorInfoModel.deleteExtendBehaviorInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await ExtendBehaviorInfoModel.updateExtendBehaviorInfo(id, req);
+      let data = await ExtendBehaviorInfoModel.getExtendBehaviorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class IgnoreErrorController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    /* 判断参数是否合法 */
+    if (data.ignoreErrorMessage && data.webMonitorId) {
+      let ret = await IgnoreErrorModel.createIgnoreError(data);
+      let res = await IgnoreErrorModel.getIgnoreErrorDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getIgnoreErrorList(ctx) {
+    let req = ctx.request.body
+
+    if (req) {
+      const data = await IgnoreErrorModel.getIgnoreErrorList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+
+  /**
+   * 根据应用ID获取已经忽略的错误列表列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async ignoreErrorByApplication(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    if (param) {
+      const data = await IgnoreErrorModel.ignoreErrorByApplication(param);
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+
+  }
+
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await IgnoreErrorModel.getIgnoreErrorDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await IgnoreErrorModel.deleteIgnoreError(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await IgnoreErrorModel.updateIgnoreError(id, req);
+      let data = await IgnoreErrorModel.getIgnoreErrorDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class InfoCountByHourController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await InfoCountByHourModel.createInfoCountByHour(data);
+      let res = await InfoCountByHourModel.getInfoCountByHourDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getInfoCountByHourList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await InfoCountByHourModel.getInfoCountByHourList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await InfoCountByHourModel.deleteInfoCountByHour(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await InfoCountByHourModel.updateInfoCountByHour(id, req);
+      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class ProjectController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await ProjectModel.createProject(req);
+            let data = await ProjectModel.getProjectDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    /**
+     * 获取信息列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getProjectList(ctx) {
+        let req = ctx.request.body
+        const param = Utils.parseQs(ctx.request.url)
+        if (req) {
+            const data = await ProjectModel.getProjectList(param);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+        }
+
+    }
+
+    /**
+     * 获取信息列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getAllProjectList(ctx) {
+        let req = ctx.request.body
+        const param = Utils.parseQs(ctx.request.url)
+        if (req) {
+            const data = await ProjectModel.getAllProjectList(param);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+        }
+
+    }
+    /**
+     * 获取详细信息列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getProjectDetailList(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        const data = await ProjectModel.getProjectDetailList(param);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    }
+    
+    /**
+     * 查询单条信息数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async detail(ctx) {
+        let id = ctx.params.id;
+
+        if (id) {
+            let data = await ProjectModel.getProjectDetail(id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('信息ID必须传');
+        }
+    }
+
+
+    /**
+     * 删除信息数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async delete(ctx) {
+        let id = ctx.params.id;
+
+        if (id && !isNaN(id)) {
+            await ProjectModel.deleteProject(id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('信息ID必须传！');
+        }
+    }
+    /**
+     * 删除信息数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async deleteProject(ctx) {
+        const params = Utils.parseQs(ctx.request.url)
+        let id = params.id;
+        if (id && !isNaN(id)) {
+            await ProjectModel.deleteProject(id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('信息ID必须传！');
+        }
+    }
+
+    /**
+     * 更新导航条数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async update(ctx) {
+        let req = ctx.request.body;
+        let id = ctx.params.id;
+
+        if (req) {
+            await ProjectModel.updateProject(id, req);
+            let data = await ProjectModel.getProjectDetail(id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('更新信息失败！')
+        }
+    }
+
+    /**
+     * 创建新项目
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async createNewProject(ctx) {
+        const data = JSON.parse(ctx.request.body)
+        const webMonitorId = data.webMonitorId
+        const domain = data.domain
+        const mainDomain = data.mainDomain || ""
+        if (data) {
+            let result = await ProjectModel.checkProjectName(data.projectName)
+            const count = parseInt(result[0].count)
+            if (count <= 0) {
+                let monitorCode = ""
+                
+                data.monitorCode = monitorCode
+                data.projectType = "customer"
+                data.remotePath = "//www.webfunny.cn/resource/monitor.fetch.min.js?id=" + webMonitorId
+                await fetch("http://www.webfunny.cn/resource/monitor.fetch.min.js")
+                    .then( res => res.text())
+                    .then( body => {
+                        monitorCode = encodeURIComponent(body.toString().replace(/jeffery_webmonitor/g, webMonitorId)
+                                        .replace(/&&&www.webfunny.cn&&&/g, domain)
+                                        .replace(/&&&webfunny.cn&&&/g, mainDomain));
+                    });
+                data.monitorCode = monitorCode
+                await ProjectModel.createProject(data);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('项目创建成功', data)
+            } else {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('项目名重复，创建项目失败', count)
+            }
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async checkProjectCount(ctx) {
+        let req = ctx.request.body
+        const param = Utils.parseQs(ctx.request.url)
+        if (req) {
+            const data = await ProjectModel.checkProjectCount(param);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+        }
+
+    }
+}
+
+class LoadPageInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await LoadPageInfoModel.createLoadPageInfo(data);
+      let res = await LoadPageInfoModel.getLoadPageInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getLoadPageInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await LoadPageInfoModel.getLoadPageInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await LoadPageInfoModel.deleteLoadPageInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await LoadPageInfoModel.updateLoadPageInfo(id, req);
+      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 根据时间获取每天的日活量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getPageLoadTimeByDate(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const data = await LoadPageInfoModel.getPageLoadTimeByDate(params);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  }
+}
+
+class UserController {
+    /**
+     * 创建用户
+     * @param ctx
+     * @returns {Promise<void>}
+     */
+    static async create(ctx) {
+        const param = ctx.request.body;
+        const user = JSON.parse(param)
+        if (user.username && user.email && user.emailPwd && user.password) {
+            // 查询用户名是否重复
+            const existUser = await UserModel.findUserByName(user.username)
+            if (existUser) {
+                // 反馈存在用户名
+                // ctx.response.status = 403;
+                // ctx.body = statusCode.ERROR_403('用户已经存在')
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('用户已经存在', 1)
+                return
+            }
+            
+            const existEmail = await UserModel.findUserByEmail(user.email)
+            if (existEmail) {
+                // 反馈存在用户名
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('邮箱已经存在', 1)
+                return
+            }
+            const emailCode = await EmailCodeModel.checkEmailCode(user.email, user.emailPwd)
+            const emailCodeCount = parseInt(emailCode[0].count, 10)
+            if (emailCodeCount === 0) {
+                // 反馈存在用户名
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('邮箱验证码有误, 请重新输入', 1)
+                return
+            }
+            await UserModel.create(user)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建用户成功')
+        } else {
+            // 参数错误
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建失败，参数错误');
+        }
+    }
+
+    /**
+     * 查询用户信息
+     * @param ctx
+     * @returns {Promise<void>}
+     */
+    static async getUserInfo(ctx) {
+        // 获取jwt
+        const token = ctx.header.authorization;
+
+        if (token) {
+            let payload
+            try {
+                // 解密payload，获取用户名和ID
+                payload = await verify(token.split(' ')[1], secret.sign)
+
+                const user = {
+                    id: payload.id,
+                    username: payload.username,
+                }
+
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('查询成功', user)
+            } catch (err) {
+
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('查询失败，authorization error!')
+            }
+        }
+    }
+
+    /**
+     * 删除用户
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async delete(ctx) {
+        let id = ctx.params.id;
+
+        if (id && !isNaN(id)) {
+            await UserModel.delete(id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('删除用户成功')
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('用户ID必须传')
+        }
+    }
+
+    /**
+     * 登录
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async login(ctx) {
+        const param = ctx.request.body
+        const data = JSON.parse(param)
+        // 查询用户
+        const user = await UserModel.findUserByLogin(data.email, data.password)
+        if (user) {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('登录成功', data)
+        } else {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('登录失败', 1)
+        }
+    }
+
+    /**
+     * 获取用户列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getUserList(ctx) {
+        let userList = ctx.request.body;
+
+        if (userList) {
+            const data = await UserModel.findAllUserList();
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('查询成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('获取失败')
+        }
+    }
+}
+
+class PurchaseCodeController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await PurchaseCodeModel.createPurchaseCode(data);
+      let res = await PurchaseCodeModel.getPurchaseCodeDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getPurchaseCodeList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await PurchaseCodeModel.getPurchaseCodeList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await PurchaseCodeModel.deletePurchaseCode(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await PurchaseCodeModel.updatePurchaseCode(id, req);
+      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 获取注册码详情
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getPurchaseCodeDetailByCode(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const res = await PurchaseCodeModel.getPurchaseCodeDetailByCode(params.purchaseCode);
+      const data = res.dataValues
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('参数不正确！');
+    }
+  }
+}
+
+class ResourceLoadInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await ResourceLoadInfoModel.createResourceLoadInfo(data);
+      let res = await ResourceLoadInfoModel.getResourceLoadInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getResourceLoadInfoList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await ResourceLoadInfoModel.getResourceLoadInfoList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await ResourceLoadInfoModel.getResourceLoadInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await ResourceLoadInfoModel.deleteResourceLoadInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await ResourceLoadInfoModel.updateResourceLoadInfo(id, req);
+      let data = await ResourceLoadInfoModel.getResourceLoadInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 获取当天静态资源加载错误列表
+   * @returns {Promise.<void>}
+   */
+  static async getResourceLoadInfoListByDay(ctx) {
+
+    const param = JSON.parse(ctx.request.body)
+    let resourceErrorSortList = null
+    await ResourceLoadInfoModel.getResourceLoadInfoListByDay(param).then(data => {
+      resourceErrorSortList = data
+    })
+    for (let i = 0; i < resourceErrorSortList.length; i ++) {
+      // 查询最近发生时间
+      await ResourceLoadInfoModel.getResourceErrorLatestTime(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].createdAt = data[0].createdAt
+        resourceErrorSortList[i].happenTime = data[0].happenTime
+      })
+      // 查询影响页面
+      await ResourceLoadInfoModel.getPageCountByResourceError(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].pageCount = data[0].pageCount
+      })
+      // 查询影响用户
+      await ResourceLoadInfoModel.getCustomerCountByResourceError(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].customerCount = data[0].customerCount
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', resourceErrorSortList)
+  }
+
+  /**
+   * 获取每天静态资源加载错误数量列表
+   * @returns {Promise.<void>}
+   */
+  static async getResourceErrorCountByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.RESOURCE_ERROR
+    await ResourceLoadInfoModel.getResourceErrorCountByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 根据时间获取一天内静态资源加载错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getResourceErrorCountByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.RESOURCE_ERROR
+    let result1 = []
+    await ResourceLoadInfoModel.getResourceLoadErrorInfoListByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await ResourceLoadInfoModel.getResourceLoadErrorInfoListSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+}
+
+class VideosInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await VideosInfoModel.createVideos(data);
+      let res = await VideosInfoModel.getVideosDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getVideosList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await VideosInfoModel.getVideosList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await VideosInfoModel.getVideosDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await VideosInfoModel.deleteVideos(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await VideosInfoModel.updateVideos(id, req);
+      let data = await VideosInfoModel.getVideosDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getVideosEvent(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    await VideosInfoModel.getVideosEvent(param).then(data => {
+      const result = []
+      data.forEach((item) => {
+        item.event = (item.event || "").toString()
+        result.push(item)
+      })
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
+    })
+    
+  }
+}
+
+class EmailCodeController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await EmailCodeModel.createEmailCode(data);
+      let res = await EmailCodeModel.getEmailCodeDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getEmailCodeList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await EmailCodeModel.getEmailCodeList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await EmailCodeModel.getEmailCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await EmailCodeModel.deleteEmailCode(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await EmailCodeModel.updateEmailCode(id, req);
+      let data = await EmailCodeModel.getEmailCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 生成验证码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async sendEmailCode(ctx) {
+    const data = JSON.parse(ctx.request.body)
+    const email = data.email
+    let lastEmail = null
+    // 检查今天这个邮箱是否已经发送了验证码
+    lastEmail = await EmailCodeModel.isSendEmailCodeToday(email)
+    if (lastEmail.length > 0) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码一天内有效，无需重复发送', 1);
+      return
+    }
+    const chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    function generateMixed(n) {
+      let resStr = "";
+      for(let i = 0; i < n ; i ++) {
+        let id = Math.ceil(Math.random()*35);
+        resStr += chars[id];
+      }
+      return resStr;
+    }
+    const code = generateMixed(4)
+    const { accountInfo } = AccountConfig
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: {
+        user: accountInfo.sourceEmail, // generated ethereal user
+        pass: accountInfo.sourcePassword // generated ethereal password
+      }
+    });
+
+    // send mail with defined transport object
+    let info = await transporter.sendMail({
+      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
+      to: email, // list of receivers
+      subject: "验证码: " + code, // Subject line
+      text: "您好，您的验证码是：" + code, // plain text body
+      html: "<b>您好，您的验证码是：" + code + "</b>" // html body
+    });
+    await EmailCodeModel.saveEmailCode({email, emailCode: code}).then((data) => {
+      if (data) {
+        nodemailer.getTestMessageUrl(info)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', true);
+      }
+    });
+  }
+}
+
+class CustomerPVController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await CustomerPVModel.createCustomerPV(data);
+      let res = await CustomerPVModel.getCustomerPVDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getCustomerPVList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await CustomerPVModel.getCustomerPVList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await CustomerPVModel.getCustomerPVDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await CustomerPVModel.deleteCustomerPV(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await CustomerPVModel.updateCustomerPV(id, req);
+      let data = await CustomerPVModel.getCustomerPVDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+  
+  /**
+   * 根据时间获取每天的流量数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getTodayFlowData(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+
+    const todayFlowKey = "todayFlowKey--" + params.webMonitorId
+    const todayFlow = global.monitorInfo[todayFlowKey]
+    const currentTime = new Date().getTime()
+    if (todayFlow && (currentTime - todayFlow.happenTime < 10 * 60 * 1000)) {
+      const { today, yesterday } = todayFlow
+      const result = { today, yesterday }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', result);
+    } else {
+      const todayPvData = await CustomerPVModel.getPVCountForDay(params, 0);
+      const todayUvData = await CustomerPVModel.getUVCountForDay(params, 0);
+      const todayIpData = await CustomerPVModel.getIpCountForDay(params, 0);
+      const today = {
+        pv: todayPvData[0].count,
+        uv: todayUvData[0].count,
+        ip: todayIpData[0].count,
+        per: (todayPvData[0].count/todayUvData[0].count).toFixed(2)
+      }
+      let yesterdayPvData = null
+      let yesterdayUvData = null
+      let yesterdayIpData = null
+      let yesterday = null
+      try {
+        yesterdayPvData = await CustomerPVModel.getPVCountForDay(params, 1);
+        yesterdayUvData = await CustomerPVModel.getUVCountForDay(params, 1);
+        yesterdayIpData = await CustomerPVModel.getIpCountForDay(params, 1);
+        yesterday = {
+          pv: yesterdayPvData[0].count,
+          uv: yesterdayUvData[0].count,
+          ip: yesterdayIpData[0].count,
+          per: (yesterdayPvData[0].count/yesterdayUvData[0].count).toFixed(2)
+        }
+      } catch(e) {
+        yesterday = {
+          pv: 0,
+          uv: 0,
+          ip: 0,
+          per: 0
+        }
+      }
+      const result = { today, yesterday }
+      const todayFlow = { today, yesterday, happenTime: new Date().getTime()}
+      global.monitorInfo[todayFlowKey] = todayFlow
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', result);
+    }
+  }
+  /**
+   * 根据时间获取每天的日活量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getCustomerCountByTime(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const data = await CustomerPVModel.getCustomerCountByTime(params);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data, params.timeScope))
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  }
+  /**
+   * 获取24小时内每小时user数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserCountByHour(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getUserCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await CustomerPVModel.getUserCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+  /**
+   * 获取24小时内每小时UV量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUvCountByHour(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getUvCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await CustomerPVModel.getUvCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+  /**
+   * 获取24小时内每小时PV量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getPvCountByHour(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getPvCountByTime(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await CustomerPVModel.getPvCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+  /**
+   * 获取24小时内每小时新用户量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getNewCustomerCountByHour(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getNewCustomerCountByTime(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await CustomerPVModel.getNewCustomerCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    let total = 0
+    await CustomerPVModel.getNewCustomerCountByToday(param).then(data => {
+      total = data[0].count;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2, total})
+  }
+  /**
+   * 获取24小时内每小时平均安装量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getInstallCountByHour(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getInstallCountByTime(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await CustomerPVModel.getInstallCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+  static async getPvUvCountBySecond(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await CustomerPVModel.getPvCountBySecond(param).then(data => {
+      result1 = data
+    })
+    let result2 = []
+    await CustomerPVModel.getUvCountBySecond(param).then(data => {
+      result2 = data
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {pv: result1, uv: result2})
+  }
+  static async getPvCountByMinute(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    // let result1 = []
+    // await CustomerPVModel.getPvCountByMinute(param).then(data => {
+    //   result1 = data
+    // })
+    let result2 = []
+    await CustomerPVModel.getUvCountByMinute(param).then(data => {
+      result2 = data
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {uv: result2})
+  }
+
+  static async getProvinceCountBySeconds(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    const pvList = await CustomerPVModel.getPvsInfoByTenSeconds(param)
+    const provinceData = await CustomerPVModel.getProvinceCountBySeconds(param)
+    for (let i = 0; i < provinceData.length; i ++) {
+      let key = provinceData[i].name
+      provinceData[i].name = provinces[key] ? provinces[key] : "其他"
+    }
+    for (let i = 0; i < pvList.length; i ++) {
+      let key = pvList[i].province
+      pvList[i].province = provinces[key] ? provinces[key] : "未知地区"
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {pvList, provinceData})
+  }
+
+  static async getVersionCountOrderByCount(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const data = await CustomerPVModel.getVersionCountOrderByCount(params);
+    data.forEach((item, index) => {
+      if (item.projectVersion) {
+        data[index].projectVersion = utils.b64DecodeUnicode(item.projectVersion)
+      }
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+
+  static async getCityCountOrderByCount(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const data = await CustomerPVModel.getCityCountOrderByCount(params);
+    for (let i = 0; i < data.length; i ++) {
+      let cityKey = data[i].city.replace("'", "")
+      data[i].city = citys[cityKey] || cityKey
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+
+  static async getDeviceCountOrderByCount(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const data = await CustomerPVModel.getDeviceCountOrderByCount(params);
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+
+  static async getPvListByPage(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const data = await CustomerPVModel.getPvListByPage(params);
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+
+  }
+  static async getSevenDaysLeftCount(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const sevenDayLeftKey = "sevenDayLeftArray" + params.webMonitorId + new Date().Format("yyyyMMdd")
+    let data = null
+    try {
+      if (global.monitorInfo[sevenDayLeftKey]) {
+        data = global.monitorInfo[sevenDayLeftKey]
+      } else {
+        const day = parseInt(params.day, 10)
+        const dateArray = []
+        for (let i = day - 1; i > 0; i --) {
+          const currentDay = utils.addDays(0 - i)
+          dateArray.push(currentDay)
+        }
+        const result = []
+        const tempData = await CustomerPVModel.getSevenDaysLeftCount(params);
+        tempData.forEach((item, index) => {
+          let obj = {date: dateArray[index], count: item.count}
+          result.push(obj)
+        })
+        data = result
+        global.monitorInfo[sevenDayLeftKey] = result
+      }
+    } catch(e) {
+      data = [ 
+        { date: 'day1', count: '0' },
+        { date: 'day2', count: '0' },
+        { date: 'day3', count: '0' },
+        { date: 'day4', count: '0' },
+        { date: 'day5', count: '0' },
+        { date: 'day6', count: '0' },
+        { date: 'day7', count: '0' }
+      ]
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+  /**
+   * 根据平台类型，获取设备分类
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getOsAnalysis(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const data = await CustomerPVModel.getCustomerCountByTime(params);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data, params.timeScope))
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  }
+
+  /**
+   * 根据平台类型，获取设备分类
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getOsAnalysis(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const data = await CustomerPVModel.getCustomerCountByTime(params);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data, params.timeScope))
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  }
+}
+
+class JavascriptErrorInfoController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (data.happenTime) {
+      let ret = await JavascriptErrorInfoModel.createJavascriptErrorInfo(data);
+      let res = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorInfoList(ctx) {
+    let req = ctx.request.body
+
+    if (req) {
+      const data = await JavascriptErrorInfoModel.getJavascriptErrorInfoList();
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+
+  /**
+   * 获取每分钟JS错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByMinute(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByMinute(param).then(data => {
+      result1 = data
+    })
+    // let result2 = []
+    // await CustomerPVModel.getUvCountByMinute(param).then(data => {
+    //   result2 = data
+    // })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success！', {jsError: result1})
+  }
+
+  /**
+   * 根据时间获取JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorInfoListByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    await JavascriptErrorInfoModel.getJavascriptErrorInfoListByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+  /**
+   * 根据时间获取自定义JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getConsoleErrorInfoListByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
+    await JavascriptErrorInfoModel.getConsoleErrorInfoListByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 根据时间获取一天内JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+  /**
+   * 根据时间获取一天内某个JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorCountListByHour(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+  /**
+   * 根据时间获取一天内某个JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJsErrorCountByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+  /**
+   * 根据时间获取一天内自定义JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptConsoleErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+  /**
+   * 根据JS错误的数量进行排序
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorSort(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    let errorSortList = []
+    await JavascriptErrorInfoModel.getJavascriptErrorSort(param).then(data => {
+      errorSortList = data
+    })
+    for (let i = 0; i < errorSortList.length; i ++) {
+      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].createdAt = data[0].createdAt
+        errorSortList[i].happenTime = data[0].happenTime
+      })
+      await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].customerCount = data[0].count
+      })
+      await JavascriptErrorInfoModel.getPerJavascriptErrorCountByOs(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].osInfo = data
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
+  }
+
+  /**
+   * 根据JS错误的数量进行排序
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getConsoleErrorSort(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    let errorSortList = []
+    await JavascriptErrorInfoModel.getConsoleErrorSort(param).then(data => {
+      errorSortList = data
+    })
+    for (let i = 0; i < errorSortList.length; i ++) {
+      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].createdAt = data[0].createdAt
+        errorSortList[i].happenTime = data[0].happenTime
+      })
+      await JavascriptErrorInfoModel.getPerJavascriptConsoleErrorCount(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].osInfo = data
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
+  }
+
+  /**
+   * 查询最近六小时内JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByHour(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 查询对应平台js错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByOs(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    const result = {};
+    const {day} = param;
+    param.day = utils.addDays(0 - day) + " 00:00:00"
+    await JavascriptErrorInfoModel.getJavascriptErrorPcCount(param).then(data => {
+      result.pcError = data.length ? data[0] : 0;
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorIosCount(param).then(data => {
+      result.iosError = data.length ? data[0] : 0;
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorAndroidCount(param).then(data => {
+      result.androidError = data.length ? data[0] : 0;
+    })
+
+    await CustomerPVModel.getCustomerPvPcCount(param).then(data => {
+      result.pcPv = data.length ? data[0] : 0;
+    })
+    await CustomerPVModel.getCustomerPvIosCount(param).then(data => {
+      result.iosPv = data.length ? data[0] : 0;
+    })
+    await CustomerPVModel.getCustomerPvAndroidCount(param).then(data => {
+      result.androidPv = data.length ? data[0] : 0;
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
+    })
+  }
+  /**
+   * 查询分类js错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByType(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    const {day} = param;
+    param.day = utils.addDays(0 - day) + " 00:00:00"
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByType(param).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data);
+    })
+
+  }
+  /**
+   * 根据errorMsg查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorListByMsg(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    await JavascriptErrorInfoModel.getJavascriptErrorListByMsg(decodeURIComponent(data.errorMsg), data).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
+  static async getJavascriptErrorAboutInfo(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    const result = {}
+    await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.customerCount = data[0].count
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorOccurCountByCustomerKey(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.occurCount = data[0].count
+    })
+    await JavascriptErrorInfoModel.getAllJavascriptErrorCountByOs(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.osInfo = {}
+      data.forEach((item) => {
+        result.osInfo[item.os] = item.count
+      })
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
+    })
+  }
+
+  /**
+   * 根据页面查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorListByPage(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorListByPage(param).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
+  /**
+   * 根据errorMsg查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorStackCode(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    await JavascriptErrorInfoModel.getJavascriptErrorStackCode(data.stackList).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await JavascriptErrorInfoModel.deleteJavascriptErrorInfo(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await JavascriptErrorInfoModel.updateJavascriptErrorInfo(id, req);
+      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class Common {
+  static async consoleInfo() {
+    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
+    console.log("= ")
+    console.log("= 作者：一步一个脚印一个坑 ")
+    console.log("= ")
+    console.log("= 网站：www.webfunny.cn ")
+    console.log("= ")
+    console.log("= 系统还在不断完善中，欢迎Star，你的关注会让我们做得更好！")
+    console.log("= ")
+    console.log("=【微信号: 】webfunny_2020")
+    console.log("= ")
+    console.log("\x1B[33m%s\x1b[0m", "==============================================================")
+  }
+  /**
+   * 接受并分类处理上传的日志
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async upLog(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('1')
+    let infoType = ""
+    try {
+      const monitorVersion = "1.0.0"
+      if (!(global.web_monitor_version && global.web_monitor_version == monitorVersion)) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('版本号不正确，请更新最新代码 - ' + global.web_monitor_version)
+        return
+      }
+      var req = ctx.req
+      const clientIpString = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+      let province = ""
+      let city = ""
+      // 暂时先把线上的日志记录过滤掉
+      // Common.handleLongEvents(ctx.request.body.data)
+      const paramStr = ctx.request.body.data.replace(/": Script error\./g, "script error")
+      const param = JSON.parse(paramStr)
+      const logArray = param.logInfo.split("$$$")
+      for(var i = 0; i < logArray.length; i ++) {
+        if (!logArray[i]) continue;
+        const logInfo = JSON.parse(logArray[i]);
+        for( let key in logInfo) {
+          if (monitorKeys[key]) {
+            logInfo[monitorKeys[key]] = logInfo[key]
+            delete logInfo[key]
+          }
+        }
+        logInfo.monitorIp = clientIpString
+        logInfo.userId = Utils.md5Encrypt(logInfo.userId || "")
+        logInfo.happenTime = logInfo.happenTime + ""
+        // 敏感信息加密处理
+        // try {
+        //   let completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
+        //   logInfo.completeUrl = completeUrl ? completeUrl.replace(/([0-9a-zA-Z]{4}-){2,4}[0-9a-zA-Z]{1,4}/g, "****-") : completeUrl
+        // } catch (e) {
+        //   logInfo.completeUrl = logInfo.completeUrl
+        // }
+        logInfo.completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
+        // 对url进行加密处理
+        Common.encryptUrl(logInfo)
+        infoType = logInfo.uploadType
+        switch (logInfo.uploadType) {
+          case "ELE_BEHAVIOR":
+            await BehaviorInfoModel.createBehaviorInfo(logInfo, Sequelize);
+            break;
+          case "JS_ERROR":
+            await JavascriptErrorInfoModel.createJavascriptErrorInfo(logInfo, Sequelize);
+            break;
+          case "HTTP_LOG":
+            if (logInfo.responseText) {
+              logInfo.responseText = logInfo.responseText.length > 300 ? "内容太长" : logInfo.responseText
+            }
+            const status = parseInt(logInfo.status || 0)
+            if (status > 299) {
+              await HttpErrorInfoModel.createHttpErrorInfo(logInfo, Sequelize);
+            } else {
+              await HttpLogInfoModel.createHttpLogInfo(logInfo, Sequelize);
+            }
+            break;
+          case "SCREEN_SHOT":
+            await ScreenShotInfoModel.createScreenShotInfo(logInfo, Sequelize);
+            break;
+          case "CUSTOMER_PV":
+            // 根据IP地址获取位置
+            const monitorIp = logInfo.monitorIp
+            var geo = geoip.lookup(monitorIp);
+            if (geo) {
+              logInfo.province =  provinces[geo.region] ? geo.region : "其他"
+              logInfo.city = citys[geo.city] || geo.city
+            }
+            // 根据customerKey来判断是否为新用户
+            let newStatus = ""
+            const customerKeyArr = logInfo.customerKey ? logInfo.customerKey.match(/\d{13}/g) : []
+            if (customerKeyArr && customerKeyArr.length > 0) {
+              const tempTime = parseInt(customerKeyArr[0], 10) + 8 * 60 * 60 * 1000
+              const dateStr = new Date(tempTime).Format("yyyy-MM-dd")
+              const currentTime = new Date().getTime()
+              logInfo.customerKeyCreatedDate = dateStr;
+              newStatus = currentTime - tempTime > 60 * 1000 ? "old" : "new"
+            }
+            if (!logInfo.newStatus) {
+              logInfo.newStatus = newStatus
+            }
+            await CustomerPVModel.createCustomerPV(logInfo, Sequelize);
+            break;
+          case "LOAD_PAGE":
+            await LoadPageInfoModel.createLoadPageInfo(logInfo, Sequelize);
+            break;
+          case "RESOURCE_LOAD":
+            if (logInfo.sourceUrl) {
+              await ResourceLoadInfoModel.createResourceLoadInfo(logInfo, Sequelize);
+            }
+            break;
+          case "VIDEOS_EVENT":
+            await VideosInfoModel.createVideos(logInfo, Sequelize);
+            break;
+          case "CUSTOMIZE_BEHAVIOR":
+          default:
+            await ExtendBehaviorInfoModel.createExtendBehaviorInfo(logInfo, Sequelize);
+            break;
+        }
+      }
+    } catch(e) {
+      log.printError(e + " -- " + infoType)
+    }
+  }
+  /**
+   * debug模式：接受并分类处理上传的日志
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async upDebugLog(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('1')
+    let infoType = ""
+    try {
+      const monitorVersion = "1.0.0"
+      if (!(global.web_monitor_version && global.web_monitor_version == monitorVersion)) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('版本号不正确，请更新最新代码 - ' + global.web_monitor_version)
+        return
+      }
+      var req = ctx.req
+      const clientIpString = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+      let province = ""
+      let city = ""
+      // 暂时先把线上的日志记录过滤掉
+      // Common.handleLongEvents(ctx.request.body.data)
+      const paramStr = ctx.request.body.data.replace(/": Script error\./g, "script error")
+      const param = JSON.parse(paramStr)
+      const logArray = param.logInfo.split("$$$")
+      for(var i = 0; i < logArray.length; i ++) {
+        if (!logArray[i]) continue;
+        const logInfo = JSON.parse(logArray[i]);
+        for( let key in logInfo) {
+          if (monitorKeys[key]) {
+            logInfo[monitorKeys[key]] = logInfo[key]
+            delete logInfo[key]
+          }
+        }
+        logInfo.monitorIp = clientIpString
+        logInfo.userId = Utils.md5Encrypt(logInfo.userId || "")
+        logInfo.happenTime = logInfo.happenTime + ""
+        // 敏感信息加密处理
+        // try {
+        //   let completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
+        //   logInfo.completeUrl = completeUrl ? completeUrl.replace(/([0-9a-zA-Z]{4}-){2,4}[0-9a-zA-Z]{1,4}/g, "****-") : completeUrl
+        // } catch (e) {
+        //   logInfo.completeUrl = logInfo.completeUrl
+        // }
+        logInfo.completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
+        // 对url进行加密处理
+        Common.encryptUrl(logInfo)
+        infoType = logInfo.uploadType
+        switch (logInfo.uploadType) {
+          case "ELE_BEHAVIOR":
+            await BehaviorInfoModel.createBehaviorInfo(logInfo, Sequelize);
+            break;
+          case "JS_ERROR":
+            await JavascriptErrorInfoModel.createJavascriptErrorInfo(logInfo, Sequelize);
+            break;
+          case "HTTP_LOG":
+            if (logInfo.responseText) {
+              logInfo.responseText = logInfo.responseText.length > 300 ? "内容太长" : logInfo.responseText
+            }
+            const status = parseInt(logInfo.status || 0)
+            if (status > 299) {
+              await HttpErrorInfoModel.createHttpErrorInfo(logInfo, Sequelize);
+            } else {
+              await HttpLogInfoModel.createHttpLogInfo(logInfo, Sequelize);
+            }
+            break;
+          case "SCREEN_SHOT":
+            await ScreenShotInfoModel.createScreenShotInfo(logInfo, Sequelize);
+            break;
+          case "CUSTOMER_PV":
+            // 根据IP地址获取位置
+            const monitorIp = logInfo.monitorIp
+            var geo = geoip.lookup(monitorIp);
+            if (geo) {
+              logInfo.province =  provinces[geo.region] ? geo.region : "其他"
+              logInfo.city = citys[geo.city] || geo.city
+            }
+            // 根据customerKey来判断是否为新用户
+            let newStatus = ""
+            const customerKeyArr = logInfo.customerKey ? logInfo.customerKey.match(/\d{13}/g) : []
+            if (customerKeyArr && customerKeyArr.length > 0) {
+              const tempTime = parseInt(customerKeyArr[0], 10) + 8 * 60 * 60 * 1000
+              const dateStr = new Date(tempTime).Format("yyyy-MM-dd")
+              const currentTime = new Date().getTime()
+              logInfo.customerKeyCreatedDate = dateStr;
+              newStatus = currentTime - tempTime > 60 * 1000 ? "old" : "new"
+            }
+            if (!logInfo.newStatus) {
+              logInfo.newStatus = newStatus
+            }
+            await CustomerPVModel.createCustomerPV(logInfo, Sequelize);
+            break;
+          case "LOAD_PAGE":
+            await LoadPageInfoModel.createLoadPageInfo(logInfo, Sequelize);
+            break;
+          case "RESOURCE_LOAD":
+            if (logInfo.sourceUrl) {
+              await ResourceLoadInfoModel.createResourceLoadInfo(logInfo, Sequelize);
+            }
+            break;
+          case "VIDEOS_EVENT":
+            await VideosInfoModel.createVideos(logInfo, Sequelize);
+            break;
+          case "CUSTOMIZE_BEHAVIOR":
+          default:
+            await ExtendBehaviorInfoModel.createExtendBehaviorInfo(logInfo, Sequelize);
+            break;
+        }
+      }
+    } catch(e) {
+      log.printError(e + " -- " + infoType)
+    }
+  }
+  // 处理超长的录屏信息
+  static handleLongEvents(data) {
+    let buf = Buffer.concat(JSON.parse(data).events);
+  }
+
+  static encryptUrl(logInfo) {
+    const reg = /https?:\/\/\S+[\.\:]([a-zA-Z0-9]+\/){1}/g
+    if (logInfo.completeUrl) {
+      try {
+        const pathName = decodeURIComponent(logInfo.completeUrl).replace(reg, "")
+        const urlArray = decodeURIComponent(logInfo.completeUrl).match(reg)[0].split(".")
+        const len = urlArray.length
+        const tempUrl = urlArray[0] + "**" + urlArray[len - 1] + pathName
+        logInfo.completeUrl = encodeURIComponent(tempUrl)
+      } catch(e) {
+        logInfo.completeUrl = logInfo.completeUrl
+      }
+    }
+    if (logInfo.simpleUrl) {
+      try {
+        const pathName = decodeURIComponent(logInfo.simpleUrl).replace(reg, "")
+        const urlArray = decodeURIComponent(logInfo.simpleUrl).match(reg)[0].split(".")
+        const len = urlArray.length
+        const tempUrl = urlArray[0] + "**" + urlArray[len - 1] + pathName
+        logInfo.simpleUrl = encodeURIComponent(tempUrl)
+      } catch(e) {
+        logInfo.simpleUrl = logInfo.simpleUrl
+      }
+    } 
+    if (logInfo.httpUrl) {
+      try {
+        const pathName = decodeURIComponent(Utils.b64DecodeUnicode(logInfo.httpUrl)).replace(reg, "")
+        const urlArray = decodeURIComponent(Utils.b64DecodeUnicode(logInfo.httpUrl)).match(reg)[0].split(".")
+        const len = urlArray.length
+        const tempUrl = urlArray[0] + "**" + urlArray[len - 1] + pathName
+        logInfo.httpUrl = Utils.b64DecodeUnicode(encodeURIComponent(tempUrl))
+      } catch(e) {
+        logInfo.httpUrl = logInfo.httpUrl
+      }
+    }
+    if (logInfo.simpleHttpUrl) {
+      try {
+        const pathName = decodeURIComponent(logInfo.simpleHttpUrl).replace(reg, "")
+        const urlArray = decodeURIComponent(logInfo.simpleHttpUrl).match(reg)[0].split(".")
+        const len = urlArray.length
+        const tempUrl = urlArray[0] + "**" + urlArray[len - 1] + pathName
+        logInfo.simpleHttpUrl = encodeURIComponent(tempUrl)
+      } catch(e) {
+        logInfo.simpleHttpUrl = logInfo.simpleHttpUrl
+      }
+    }
+    if (logInfo.sourceUrl) {
+      try {
+        const pathName = decodeURIComponent(Utils.b64DecodeUnicode(logInfo.sourceUrl)).replace(reg, "")
+        const urlArray = decodeURIComponent(Utils.b64DecodeUnicode(logInfo.sourceUrl)).match(reg)[0].split(".")
+        const len = urlArray.length
+        const tempUrl = urlArray[0] + "**" + urlArray[len - 1] + pathName
+        logInfo.sourceUrl = Utils.b64DecodeUnicode(encodeURIComponent(tempUrl))
+      } catch(e) {
+        logInfo.sourceUrl = logInfo.sourceUrl
+      }
+    }
+  }
+  /**
+   * 接受并分类处理上传的拓展日志
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async uploadExtendLog(ctx) {
+    let param = {}
+    if (typeof ctx.request.body !== 'object') {
+      param = JSON.parse(ctx.request.body)
+    } else {
+      param = ctx.request.body
+    }
+    ExtendBehaviorInfoModel.createExtendBehaviorInfo(param)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('创建信息成功')
+  }
+
+  /**
+   * 更新数据库表名
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async updateTableName() {
+    BehaviorInfoModel.updateTableName()
+    CustomerPVModel.updateTableName()
+    ExtendBehaviorInfoModel.updateTableName()
+    HttpErrorInfoModel.updateTableName()
+    HttpLogInfoModel.updateTableName()
+    JavascriptErrorInfoModel.updateTableName()
+    LoadPageInfoModel.updateTableName()
+    ResourceLoadInfoModel.updateTableName()
+    ScreenShotInfoModel.updateTableName()
+    VideosInfoModel.updateTableName()
+  }
+
+  /**
+   * 根据查询参数，查询出该用户所有的行为记录
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async searchBehaviorsRecord(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    param.userId = Utils.md5Encrypt(param.searchValue)
+    param.happenTimeScope = new Date(Utils.addDays(0 - param.timeScope) + " 00:00:00").getTime()
+    param.happenTimeScopeEnd = new Date(Utils.addDays(0 - param.timeScope + 1) + " 00:00:00").getTime()
+    let customerKeyList = []
+    let result1 = []
+    let result2 = []
+    let result3 = []
+    let result4 = []
+    let result5 = []
+    let result6 = []
+    let result7 = []
+    let result8 = []
+    let result = []
+    let startDateTime = new Date().getTime()
+    // 查询当前用户的customerKey列表
+    await CustomerPVModel.getCustomerKeyByUserId(param).then((res) => {
+      res.forEach((customerKeyInfo) => {
+        if (customerKeyInfo.customerKey, customerKeyInfo.customerKey.length > 10) {
+          customerKeyList.push(customerKeyInfo.customerKey)
+        }
+      })
+      let currentDateTime = new Date().getTime()
+      console.log("customerKey获取时间：", currentDateTime - startDateTime)
+      startDateTime = currentDateTime
+    })
+    let customerKeySql = ""
+    let webMonitorIdSql =  " 1=1 " // " webMonitorId='" + param.webMonitorId + "' "
+    let happenTimeSql = " 1=1 " // " happenTime>" + param.happenTimeScope + " and happenTime<=" + param.happenTimeScopeEnd + " "
+    let userIdSql = " userId='" + Utils.md5Encrypt(Utils.b64DecodeUnicode(param.searchValue)) + "' "
+    let base64UserIdSql = " userId='" + Utils.md5Encrypt(param.searchValue) + "' "
+    if (customerKeyList.length) {
+      customerKeyList.forEach((customerKey, index) => {
+        if (index === customerKeyList.length -1) {
+          customerKeySql += " customerKey='" + customerKey + "' "
+        } else {
+          customerKeySql += " customerKey='" + customerKey + "' or "
+        }
+      })
+      customerKeySql = " (" + customerKeySql + ") "
+    } else {
+      // 如果userId查不到，则用customerKey来进行查询
+      // 前提：必须是自己的项目，如果不是则不能查询
+      let customerKey = ""
+      const selfProject = await ProjectModel.getProjectByUserAndPName(param.email, param.webMonitorId)
+      if (selfProject.length > 0) {
+        customerKey = Utils.b64DecodeUnicode(param.searchValue)
+      } else {
+        customerKey = "111111"
+      }
+      customerKeySql += " customerKey='" + customerKey + "' "
+    }
+    await BehaviorInfoModel.getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result1 = res
+    })
+    await CustomerPVModel.getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result2 = res
+    })
+    await JavascriptErrorInfoModel.getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result3 = res
+    })
+    await ScreenShotInfoModel.getBehaviorsByUser(webMonitorIdSql, happenTimeSql, base64UserIdSql, param).then((res) => {
+      result4 = res
+    })
+    await HttpLogInfoModel.getHttpLogsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result5 = res
+    })
+    await ExtendBehaviorInfoModel.getExtendBehaviorInfoByUserId(happenTimeSql, userIdSql, param).then((res) => {
+      for (let i = 0; i < res.length; i ++) {
+        res[i].happenTime = new Date(res[i].createdAt).getTime()
+      }
+      result6 = res
+    })
+    await ResourceLoadInfoModel.getResourceLoadInfoByUserId(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result7 = res
+    })
+    await HttpErrorInfoModel.getHttpErrorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      result8 = res
+    })
+
+    result = result.concat(result1, result2, result3, result5, result6, result7, result8)
+    result4.forEach((item) => {
+      item.screenInfo = (item.screenInfo || "").toString()
+      result.push(item)
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('创建信息成功', {behaviorList: result})
+  }
+
+  /**
+   * 根据userId，查询出该用户详细信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async searchCustomerInfo(ctx) {
+    
+    const param = JSON.parse(ctx.request.body)
+    param.userId = Utils.md5Encrypt(param.searchValue)
+    param.happenTimeScope = new Date(Utils.addDays(0 - param.timeScope) + " 00:00:00").getTime()
+    param.happenTimeScopeEnd = new Date(Utils.addDays(0 - param.timeScope + 1) + " 00:00:00").getTime()
+    let customerKeyList = []
+    let pvCountList = null
+    let pvChartList = null
+    let loadPageTimeList = null
+    let ipPath = ""
+    let cusDetail = null
+    let startDateTime = new Date().getTime()
+    let customerKey = ""
+    // 查询当前用户的customerKey列表
+    await CustomerPVModel.getCustomerKeyByUserId(param).then((res) => {
+      res.forEach((customerKeyInfo) => {
+        if (customerKeyInfo.customerKey && customerKeyInfo.customerKey.length > 10) {
+          customerKeyList.push(customerKeyInfo.customerKey)
+        }
+      })
+    })
+    let customerKeySql = ""
+    let webMonitorIdSql = " 1=1 "
+    let happenTimeSql = " 1=1 " // " happenTime>" + param.happenTimeScope + " and happenTime<=" + param.happenTimeScopeEnd + " "
+    if (customerKeyList.length) {
+      customerKeyList.forEach((customerKey, index) => {
+        if (index === customerKeyList.length -1) {
+          customerKeySql += " customerKey='" + customerKey + "' "
+        } else {
+          customerKeySql += " customerKey='" + customerKey + "' or "
+        }
+      })
+      customerKeySql = " (" + customerKeySql + ") "
+    } else {
+      // 如果userId查不到，则用customerKey来进行查询
+      // 前提：必须是自己的项目，如果不是则不能查询
+      const selfProject = await ProjectModel.getProjectByUserAndPName(param.email, param.webMonitorId)
+      if (selfProject.length > 0) {
+        customerKey = Utils.b64DecodeUnicode(param.searchValue)
+      } else {
+        customerKey = "111111"
+      }
+      customerKeySql += " customerKey='" + customerKey + "' "
+    }
+    if (customerKey === "111111") {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('抱歉，你没有查看权限', null)
+      return
+    }
+    await CustomerPVModel.calculatePvCountByCustomerKeyForMonth(customerKeySql).then((res) => {
+      pvChartList = Utils.handleDateResult(res)
+    })
+    await CustomerPVModel.getCustomerPVDetailByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      cusDetail = res[0] || {}
+    })
+    await CustomerPVModel.getPVsByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql, param).then((res) => {
+      pvCountList = res
+    })
+    await LoadPageInfoModel.getPageLoadTimeByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql, param).then(async (res) => {
+      loadPageTimeList = res
+    })
+    // 获取浏览器信息
+    await LoadPageInfoModel.getLoadPageInfoByCustomerKey(webMonitorIdSql, customerKeySql, param).then((res) => {
+      res.forEach((item) => {
+        if (item.browserInfo) {
+          cusDetail["browserInfo"] = item.browserInfo
+        }   
+      })
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('创建信息成功', {pvCountList, loadPageTimeList, cusDetail, pvChartList})
+  }
+  /**
+   * 定时计算每小时的pv量，uv量，js错误量，http错误量， resource错误量
+   */
+  static async calculateCountByHour(index) {
+    await fetch("http://www.webfunny.cn/server/monitorVersion")
+          .then( res => res.text())
+          .then( body => {
+            const result = JSON.parse(body)
+            global.web_monitor_version = result.data
+            console.log("获取最新版本号", global.web_monitor_version)
+          });
+    log.printInfo("【开始执行计算每小时的pv量，uv量，js错误量，http错误量， resource错误量...")      
+    Common.calculateCountByHourForDetailHour(index)
+  }
+  static async calculateCountByHourForDetailHour(hourIndex) {
+    const lastHourTime = new Date().getTime() - hourIndex * 3600 * 1000
+    const lastHour = new Date(lastHourTime).Format("yyyy-MM-dd hh") + ":00:00"
+    const hour = new Date(lastHourTime + 3600 * 1000).Format("yyyy-MM-dd hh") + ":00:00"
+    const sevenDayHour = new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000 - hourIndex * 3600 * 1000).Format("MM-dd hh")
+    log.printInfo(" 执行时间： " + lastHour + ", " + hour)
+    const useHour = lastHour.substring(5, 13)
+    const infoCountByHourInfo = {
+      uploadType: "",
+      webMonitorId: "",
+      hourName: "",
+      hourCount: ""
+    }
+    const { accountInfo, warningSetting } = AccountConfig
+    const { sourceEmail, sourcePassword, targetEmail } = accountInfo
+    const projectList = await ProjectModel.getAllProjectList();
+    for (let i = 0; i < projectList.length; i ++) {
+      let jsErrorWarningMsg = ""
+      let consoleErrorWarningMsg = ""
+      let resourceErrorWarningMsg = ""
+      let httpErrorWarningMsg = ""
+      const webMonitorId = projectList[i].webMonitorId
+      infoCountByHourInfo.webMonitorId = webMonitorId
+      infoCountByHourInfo.hourName = useHour
+      //========================PVUV相关==========================//
+      // 计算UV量
+      await CustomerPVModel.calculateUvCountByHour(webMonitorId, lastHour, hour).then( async(uvData) => {
+        infoCountByHourInfo.uploadType = "uv"
+        infoCountByHourInfo.hourCount = uvData[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, "uv")
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+      })
+      // 计算PV量
+      await CustomerPVModel.calculatePvCountByHour(webMonitorId, lastHour, hour).then( async(pvData) => {
+        infoCountByHourInfo.uploadType = "pv"
+        infoCountByHourInfo.hourCount = pvData[0].count
+        // 如果数据为0，需要发送email警报
+        // if (infoCountByHourInfo.hourCount == 0) {
+        //   Utils.sendEmail()
+        // }
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, "pv")
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+      })
+      // 计算新用户量
+      await CustomerPVModel.calculateNewCustomerCountByHour(webMonitorId, lastHour, hour).then( async(newCustomerData) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.NEW_CUSTOMER
+        infoCountByHourInfo.hourCount = newCustomerData[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.NEW_CUSTOMER)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+      })
+      // 计算用户安装频次，清理缓存后也算重新安装
+      await CustomerPVModel.calculateInstallCountByHour(webMonitorId, lastHour, hour).then( async(count) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.INSTALL_COUNT
+        infoCountByHourInfo.hourCount = count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.INSTALL_COUNT)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+      })
+      //========================PVUV相关==========================//
+
+      //========================js错误相关==========================//
+      // 计算js每小时的报错量 on_error
+      await JavascriptErrorInfoModel.calculateJsErrorCountByHour(webMonitorId, lastHour, hour).then( async(data) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.ON_ERROR
+        infoCountByHourInfo.hourCount = data[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.ON_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+
+        const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.ON_ERROR)
+        const { minJsErrorCount, jsErrorDividedBySevenDayAgo } = warningSetting
+        const todayCount = infoCountByHourInfo.hourCount * 1
+        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minJsErrorCount && (jsErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= jsErrorDividedBySevenDayAgo)) {
+          let sevenDayAgoMsg = ""
+          if (sevenDayAgoCount > 0) {
+            sevenDayAgoMsg = "是上周同一时间的 " + (todayCount / sevenDayAgoCount).toFixed(2) + " 倍"
+          }
+          jsErrorWarningMsg = useHour + "时，JS错误量达到 " + todayCount + " 个；" + sevenDayAgoMsg
+        }
+      })
+      // 计算js每小时的报错量 console_error
+      await JavascriptErrorInfoModel.calculateConsoleErrorCountByHour(webMonitorId, lastHour, hour).then( async(data) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.CONSOLE_ERROR
+        infoCountByHourInfo.hourCount = data[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.CONSOLE_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+
+        const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.CONSOLE_ERROR)
+        const { minConsoleErrorCount, consoleErrorDividedBySevenDayAgo } = warningSetting
+        const todayCount = infoCountByHourInfo.hourCount * 1
+        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minConsoleErrorCount && (consoleErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= consoleErrorDividedBySevenDayAgo)) {
+          let sevenDayAgoMsg = ""
+          if (sevenDayAgoCount > 0) {
+            sevenDayAgoMsg = "是上周同一时间的 " + (todayCount / sevenDayAgoCount).toFixed(2) + " 倍"
+          }
+          consoleErrorWarningMsg = useHour + "时，自定义错误量达到 " + todayCount + " 个；" + sevenDayAgoMsg
+        }
+      })
+      //========================js错误相关==========================//
+
+      //========================静态资源错误相关==========================//
+      // 计算静态资源每小时的报错量
+      await ResourceLoadInfoModel.calculateResourceErrorCountByHour(webMonitorId, lastHour, hour).then( async(data) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.RESOURCE_ERROR
+        infoCountByHourInfo.hourCount = data[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.RESOURCE_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+
+        const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.RESOURCE_ERROR)
+        const { minResourceErrorCount, resourceErrorDividedBySevenDayAgo } = warningSetting
+        const todayCount = infoCountByHourInfo.hourCount * 1
+        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minResourceErrorCount && (resourceErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= resourceErrorDividedBySevenDayAgo)) {
+          let sevenDayAgoMsg = ""
+          if (sevenDayAgoCount > 0) {
+            sevenDayAgoMsg = "是上周同一时间的 " + (todayCount / sevenDayAgoCount).toFixed(2) + " 倍"
+          }
+          resourceErrorWarningMsg = useHour + "时，静态资源错误量达到 " + todayCount + " 个；" + sevenDayAgoMsg
+        }
+      })
+      //========================静态资源错误相关==========================//
+
+      //========================接口请求错误相关==========================//
+      // 接口请求每小时的报错量
+      await HttpErrorInfoModel.calculateHttpErrorCountByHour(webMonitorId, lastHour, hour).then( async(data) => {
+        infoCountByHourInfo.uploadType = UPLOAD_TYPE.HTTP_ERROR
+        infoCountByHourInfo.hourCount = data[0].count
+        const result = await InfoCountByHourModel.getInfoCountByIdByHourName(useHour, webMonitorId, UPLOAD_TYPE.HTTP_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByHourModel.createInfoCountByHour(infoCountByHourInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByHourModel.updateInfoCountByHour(id, infoCountByHourInfo)
+        }
+
+        const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.HTTP_ERROR)
+        const { minHttpErrorCount, HttpErrorDividedBySevenDayAgo } = warningSetting
+        const todayCount = infoCountByHourInfo.hourCount * 1
+        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        if (todayCount > sevenDayAgoCount && todayCount >= minHttpErrorCount && todayCount / sevenDayAgoCount >= HttpErrorDividedBySevenDayAgo) {
+          let sevenDayAgoMsg = ""
+          if (sevenDayAgoCount > 0) {
+            sevenDayAgoMsg = "是上周同一时间的 " + (todayCount / sevenDayAgoCount).toFixed(2) + " 倍"
+          }
+          httpErrorWarningMsg = useHour + "时，接口请求错误量达到 " + todayCount + " 个；" + sevenDayAgoMsg
+        }
+      })
+      
+      const warningMsgKey = webMonitorId + "warningMsg"
+      // console.log("=====================", warningMsgKey)
+      // console.log(jsErrorWarningMsg, consoleErrorWarningMsg, resourceErrorWarningMsg, httpErrorWarningMsg)
+      global.monitorInfo[warningMsgKey] = {jsErrorWarningMsg, consoleErrorWarningMsg, resourceErrorWarningMsg, httpErrorWarningMsg}
+      if (jsErrorWarningMsg || consoleErrorWarningMsg || resourceErrorWarningMsg || httpErrorWarningMsg) {
+        const projectResult = await ProjectModel.getProjectByWebMonitorId(webMonitorId)
+        const projectName = projectResult[0].projectName
+        // console.log(projectResult, warningMsgKey, global.monitorInfo[warningMsgKey])
+        // return
+        const jsWarningName = jsErrorWarningMsg ? "JS错误报警：" : ""
+        const consoleWarningName = consoleErrorWarningMsg ? "自定义错误报警：" : ""
+        const resourceWarningName = resourceErrorWarningMsg ? "静态资源错误报警：" : ""
+        const httpWarningName = httpErrorWarningMsg ? "接口请求错误报警：" : ""
+        const html = `<p><b>项目名称：</b>${projectName}</p><p><b>${jsWarningName}</b>${jsErrorWarningMsg}</p><p><b>${consoleWarningName}</b>${consoleErrorWarningMsg}</p><p><b>${resourceWarningName}</b>${resourceErrorWarningMsg}</p><p><b>${httpWarningName}</b>${httpErrorWarningMsg}</p><p>请及时处理！</p>`
+        Utils.sendEmailFromCustomer(sourceEmail, sourcePassword, "错误警报！", html, targetEmail)
+      }
+      log.printInfo("【计算每小时的pv量，uv量，js错误量，http错误量， resource错误量结束】")
+      //========================接口请求错误相关==========================//
+    }
+  }
+
+
+  /**
+   * 定时计算每天的pv量，uv量，js错误量，http错误量，resource错误量
+   */
+  static async calculateCountByDay(dayIndex) {
+    log.printInfo("【即将开始pv量，uv量，js错误量，http错误量，resource错误量的计算...")
+    Common.calculateCountByDayForDays(dayIndex)
+    // setTimeout(async () => {
+    //   Common.calculateCountByDayForDays()
+    // }, 20 * 1000)
+    // Common.calculateCountByDayForDays(0)
+    // setInterval(async () => {
+    //   Common.calculateCountByDayForDays(0)
+    //   setTimeout(() => {
+    //     Common.calculateCountByDayForDays(-1)
+    //   }, 5 * 60 * 1000)
+    // }, 60 * 60 * 1000)
+  }
+  static async calculateCountByDayForDays(index) {
+    const useDay = Utils.addDays(index)
+    const infoCountByDayInfo = {
+      uploadType: "",
+      webMonitorId: "",
+      dayName: "",
+      dayCount: ""
+    }
+    const projectList = await ProjectModel.getAllProjectList();
+    for (let i = 0; i < projectList.length; i ++) {
+      const webMonitorId = projectList[i].webMonitorId
+      infoCountByDayInfo.webMonitorId = webMonitorId
+      infoCountByDayInfo.dayName = useDay
+      //========================js错误相关==========================//
+      // 计算js每天的报错量 on_error
+      await JavascriptErrorInfoModel.calculateJsErrorCountByDay(webMonitorId, useDay).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.ON_ERROR
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.ON_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      // 计算js每小时的报错量 console_error
+      await JavascriptErrorInfoModel.calculateConsoleErrorCountByDay(webMonitorId, useDay).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.CONSOLE_ERROR
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.CONSOLE_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      //========================js错误相关==========================//
+
+      //========================接口错误相关==========================//
+      // 计算接口每天的报错量
+      await HttpErrorInfoModel.calculateHttpErrorCountByDay(webMonitorId, useDay).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_ERROR
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      //========================接口错误相关==========================//
+
+      //========================静态资源错误相关==========================//
+      // 计算静态资源每天的报错量 
+      await ResourceLoadInfoModel.calculateResourceErrorCountByDay(webMonitorId, useDay).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.RESOURCE_ERROR
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.RESOURCE_ERROR)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      log.printInfo("pv量，uv量，js错误量，http错误量，resource错误量的计算结束】")
+      //========================静态资源错误相关==========================//
+    }
+
+  }
+
+  /**
+   * 获取所有的错误影响人数
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getErrorInfo(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+
+    const todayErrorInfoName = "todayErrorInfoKey--" + params.webMonitorId
+    const todayErrorInfo = global.monitorInfo[todayErrorInfoName]
+    const currentTime = new Date().getTime()
+    if (todayErrorInfo && (currentTime - todayFlow.happenTime < 60 * 60 * 1000)) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', todayErrorInfo);
+      return
+    }
+    const todayUvData = await CustomerPVModel.getUVCountForDay(params, 0);
+    const jsErrorData = await JavascriptErrorInfoModel.getJsErrorUserCountToday(params.webMonitorId, 0)
+    const consoleErrorData = await JavascriptErrorInfoModel.getConsoleErrorUserCountToday(params.webMonitorId, 0)
+    const resourceErrorData = await ResourceLoadInfoModel.getResourceErrorUserCountToday(params.webMonitorId, 0)
+    const httpErrorData = await HttpErrorInfoModel.getHttpErrorUserCountToday(params.webMonitorId, 0)
+    const result = {
+      todayUvCount: todayUvData[0].count, 
+      jsErrorTotalCount: jsErrorData[0].count, 
+      jsConsoleErrorTotalCount: consoleErrorData[0].count, 
+      resourceErrorTotalCount: resourceErrorData[0].count, 
+      httpErrorTotalCount: httpErrorData[0].count
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', result)
+  }
+  /**
+   * 获取警报信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getWarningMsg(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    const warningMsgKey = params.webMonitorId + "warningMsg"
+    console.log(warningMsgKey)
+    const result = global.monitorInfo[warningMsgKey]
+    console.log(global.monitorInfo)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', result)
+  }
+  /**
+   * 每5分钟检查一下mysql的最大错误连接数，并发送邮件报警
+   */
+  static async checkMysqlConnectErrors() {
+    setInterval(async () => {
+      const data = await CommonModel.checkMysqlConnectErrors()
+      const count = data[0].count
+      if (count >= 50) { // 发送警报邮件
+        Utils.sendEmail("597873885@qq.com", "Mysql错误连接数报警", "Mysql错误连接数：" + count)
+      }
+    }, 600 * 1000)
+  }
+   /**
+   */
+  static async checkMysqlStatus(ctx) {
+    const errorListData = await CommonModel.checkMysqlConnectErrors()
+    const connectionData = await CommonModel.checkMysqlConnects()
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', {errorListData, connectionData})
+  }
+  /**
+   * 立邦开关
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async liBangData(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', 1)
+  }
+
+
+  /**
+   * 启动数据删除， 只记录最近15天的数据
+   */
+  static async startDelete() {
+    log.printInfo("【即将开始表删除程序...")
+    const dateStr = Utils.addDays(-16).replace(/-/g, "")
+    const tables = [
+      "BehaviorInfo", "CustomerPV", "ExtendBehaviorInfo", "HttpErrorInfo",
+      "HttpLogInfo", "JavascriptErrorInfo", "LoadPageInfo", "ResourceLoadInfo", 
+      "ScreenShotInfo", "EmailCode", "VideosInfo"
+    ]
+    try {
+      tables.forEach(async (tableName) => {
+        log.printInfo("开始删除数据库表 " + tableName + dateStr + "...")
+        await Sequelize.dropSchema(tableName + dateStr).then(() => {
+          log.printInfo("成功删除数据库表 " + tableName)
+        })
+      })
+    } catch (e) {
+      log.printError("删除表操作报错", e)
+    }
+    log.printInfo("表删除程序结束】")
+  }
+
+  /**
+   * 重启服务
+   */
+  static async restartServer() {
+    try {
+        callFile.execFile('./restart.sh', [], null, function (err, stdout, stderr) {
+            log.printError(JSON.stringify(err))
+            log.printError(stdout)
+            log.printError(stderr)
+        });
+    } catch(e) {
+        log.printError(e)
+        log.printError(errorStr)
+    }
+  }
+
+   /**
+   * 获取git star数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async gitStars(ctx) {
+    let stars = 0
+    const gitStarsKey = "gitStars" + new Date().Format("yyyyMMdd")
+    if (global.monitorInfo[gitStarsKey]) {
+      stars = global.monitorInfo[gitStarsKey]
+    } else {
+      await fetch("https://api.github.com/repos/a597873885/webfunny_monitor/stargazers?per_page=100&page=8")
+      .then( res => res.text())
+      .then( body => {
+        stars = JSON.parse(body).length + 700
+        global.monitorInfo[gitStarsKey] = stars
+      });
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', stars)
+  }
+
+  /**
+   * 推送信息配置
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async pushInfo(ctx) {
+    const pushInfo = {
+      activeDate: "2020-01-03",
+      messageList: [
+        "1. 注意，1月3日之前部署的用户，第二天可能无法自动生成数据库表，请拉取最新代码, 问题已修复。"
+      ],
+      futureMessageList: [
+        "1. 注意，1月3日之前部署的用户，第二天可能无法自动生成数据库表，请拉取最新代码, 问题已修复。",
+      ]
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', pushInfo)
+  }
+
+  /**
+   * 推送信息配置
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async updateInfo(ctx) {
+    const pushInfo = {
+      delay: 10,
+      activeDate: "2019-12-18",
+      projectVersion: PROJECT_INFO.PROJECT_VERSION,
+      updateList: [
+        {
+          des: "1. 增加了多时间维度，和设置功能。",
+          img: "http://47.105.132.73:8000/updateImages/5.jpg"
+        },
+        {
+          des: "2. 修复了UV统计不准确的问题。",
+          img: "http://47.105.132.73:8000/updateImages/6.jpg"
+        }
+      ]
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', pushInfo)
+  }
+
+  /**
+   * 获取项目版本号
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async projectVersion(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', PROJECT_INFO.PROJECT_VERSION)
+  }
+  /**
+   * 版本信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async monitorVersion(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', PROJECT_INFO.MONITOR_VERSION)
+  }
+
+  static async searchUserBehaviorsForExample(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', userBehaviors)
+  }
+  static async searchCustomerInfoForExample(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', customerInfo)
+  }
+
+
+  static async abortApis(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', "抱歉，你暂时没有权限访问此接口")
+  }
+}
+
+module.exports = {HttpErrorInfoController,HttpLogInfoController,ScreenShotInfoController,DailyActivityController,BehaviorInfoController,ExtendBehaviorInfoController,IgnoreErrorController,InfoCountByHourController,ProjectController,LoadPageInfoController,UserController,PurchaseCodeController,ResourceLoadInfoController,VideosInfoController,EmailCodeController,CustomerPVController,JavascriptErrorInfoController,Common}
