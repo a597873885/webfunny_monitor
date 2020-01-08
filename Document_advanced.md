@@ -34,11 +34,11 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
   6. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
        
-    在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息是否正确。
+         插入探针后，你就可以在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息是否正确。
      
-   访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
+     访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
 
-  7. 进入config/AccountConfig.js 文件，设置你自己的报警邮箱和报警参数，目前仅支持163邮箱。
+  7. 配置你自己的报警邮箱和报警参数：进入config/AccountConfig.js 文件进行设置，目前仅支持163邮箱。
   
   8. 恭喜你，你已经成功部署了自己的监控系统。[API调用方法](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
   
