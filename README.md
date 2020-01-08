@@ -2,19 +2,15 @@
    怎样定位前端线上问题，一直以来，都是很头疼的问题，因为它发生于用户的一系列操作之后。错误的原因可能源于机型，网络环境，复杂的操作行为等等，在我们想要去解决的时候很难复现出来，自然也就无法解决。 当然，这些问题并非不能克服，让我们来一起看看如何去监控并定位线上的问题吧。
    
  ### 部署
-    
----------------------------------------------------------
 ![total gzip size](https://img.badgesize.io/https://www.webfunny.cn/resource/monitor.fetch.min.js?compression=gzip&label=total%20gzip%20size)
    
 只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
-[【**📚 部署教程 📚**】](./Document.md) |  [【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
+[【**📚 部署教程 📚**】](./Document_advanced.md) |  [【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
    
    
 ---------------------------------------------------------
-
-目前对服务端渲染支持不是很友好，这个会在未来版本中解决。
 
 ### 主体功能
 1. 监控JS报错、http接口报错、静态资源加载报错等；记录页面访问、点击事件、接口请求等行为日志；
