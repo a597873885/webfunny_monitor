@@ -1,18 +1,13 @@
+#### 鼓励语
+1. 部署方法很简单，就是部署环境比较繁琐，需要一点点耐心，简单却不轻松。
 
-## 进阶版
+2. 如果你能够将这套系统部署成功，那么你将会对【前端-后端-服务器-运维】都有一个整体的了解，是不是棒呢。
 
-如果你觉得这种方式有些复杂，可以去看 [【部署教程基础版】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md)
-
-[【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
-[【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
-[【常见部署问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
-[【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+3. 这是我为前端开发者量身订做的一套监控系统（因为我自己就是前端开发:smirk:）相信我，当你成功部署，并拥有了自己的监控系统，解决问题就能够事半功倍，前端的问题对你来说，简直易如反掌。
 
 #### 环境要求：
 
-[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
-
-操作系统： Linux(Ubantu 16.0 64位)、MacOs操作系统。 windows系统目前还没有尝试。
+操作系统： Linux(Ubantu 16.0 64位)、MacOs操作系统。 windows系统目前无法自动创建数据库表，下版本更新。
 
 node版本号： 10.6.0  (node安装教程自行搜索, 建议先安装[nvm](https://www.jianshu.com/p/d0e0935b150a), 这样切换node版本会方便很多)
 
@@ -40,9 +35,23 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
   
   4. 执行本地部署命令$: npm run local_start  
+  
+  5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就可以访问了。
+  
+  6. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
        
+         插入探针后，你就可以在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息是否正确。
+     
+     访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
+
+  7. 配置你自己的报警邮箱和报警参数：进入config/AccountConfig.js 文件进行设置，目前仅支持163邮箱。
+  
+  8. 恭喜你，你已经成功部署了自己的监控系统。[API调用方法](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+  
+  9. 然后你就可以尝试部署到阿里云服务器了
+  
     【部署生产环境提示：】 如果你部署在云服务器(生产环境)上了，你需要注意：
-    1. 在项目更目录执行：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限 (linux、macOs环境下)
+    1. 在根目录下执行：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限 (linux、macOs环境下)
     2. 在根目录下执行：npm run prd ,即可启动生产环境服务 
     
     3. 常用命令如下：
@@ -51,18 +60,15 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
        执行命令： pm2 stop webfunny 停止当前服务
        执行命令： pm2 delete webfunny 删除当前服务
   
-  5. 访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 本地版的监控系统就可以访问了。
+----------------------
   
-  6. 生成你的探针代码: 进入首页，点击搜索框🔍，创建新项目（当然你需要简单注册一下），探针生成后，将其插入到你的前端页面中，OK, 所有的部署都已经完成了。
-       
-          在浏览器控制台执行：webfunny.wm_check()，即可检查配置信息是否正确。
-     
-     访问链接地址： [http://localhost:8010/home.html](http://localhost:8010/home.html) 即可看到你自己mysql里边的数据了（如果你的探针已经在上传数据了）。
+如果你觉得这种方式有些复杂，可以去看 [【部署教程基础版】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md)
 
-  
-  7. 进入config/AccountConfig.js 文件，设置你自己的报警邮箱和报警参数，目前仅支持163邮箱。
-  
-  8. 恭喜你，你已经成功部署了自己的监控系统。[API调用方法](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+[【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
+[【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
+[【常见部署问题】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+[【API方法调用】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#api%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+[【云服务器配置教程】](https://www.cnblogs.com/warm-stranger/p/8837784.html)
   
   #### 更新代码方式
   
