@@ -108,7 +108,7 @@ module.exports = {
     return hash.update(encryptString).digest('base64');
   },
   sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
-    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
     if (!reg.test(sourceEmail) || !reg.test(toEmail)) return
     let transporter = nodemailer.createTransport({
       host: "smtp.163.com",
