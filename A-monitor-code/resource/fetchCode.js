@@ -415,7 +415,7 @@
     return new Promise(function(resolve, reject) {
       var request = new Request(input, init)
       var xhr = new XMLHttpRequest()
-      console.log(input, init)
+      // console.log(input, init)
       xhr.onload = function() {
         var resType = xhr.responseType
         var resTxt = ""

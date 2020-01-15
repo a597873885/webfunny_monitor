@@ -1,1 +1,2946 @@
-var _0x3dbf=['VGx6Q20=','ZUpWQ2E=','WGNqVEo=','RG5Hd0M=','Z2V0UGVySmF2YXNjcmlwdEVycm9yQ291bnRCeU9z','U0VMRUNUIHRhYi5vcyBhcyBvcywgY291bnQodGFiLm9zKSBhcyBjb3VudCBmcm9tIChzZWxlY3QgU1VCU1RSSU5HKG9zLDEsMykgYXMgb3MgZnJvbSA=','IHdoZXJlICB3ZWJNb25pdG9ySWQ9Jw==','JyAgYW5kIGluZm9UeXBlPSdvbl9lcnJvcic=','IGFuZCBlcnJvck1lc3NhZ2UgbGlrZSAnJQ==','JScpIGFzIHRhYiBHUk9VUCBCWSBvcyBvcmRlciBieSBjb3VudCBkZXNj','ZXZNRHg=','V3paaUg=','eUVrbVI=','TFFsZGM=','TWhRdkk=','YnBMb1Q=','QmR1TFg=','U0ZCb2g=','YUpydkM=','SWZCRVI=','a2Rkam4=','RkZjWUU=','S3psdmY=','Z2V0QWxsSmF2YXNjcmlwdEVycm9yQ291bnRCeU9z','ekFUd3Q=','RnBIUEM=','QkdXTGU=','WW9SUGk=','cklScFU=','VFd0anc=','YlVUZXc=','dW1vc3Q=','Q05PWW8=','cnlrTHc=','YkhKbkc=','QnZQU2s=','Zkx5cW4=','SlJpVFM=','VGVPTmM=','cU1wRng=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeVR5cGU=','c2VsZWN0IGluZm9UeXBlLCBjb3VudChpbmZvVHlwZSkgYXMgY291bnQgZnJvbSA=','IEdST1VQIEJZIGluZm9UeXBl','SFVXam8=','Q3NYaXY=','aEpwU1E=','V29uSks=','VG9OSHc=','aG5MV0w=','dGZwS2c=','Z2V0SmF2YXNjcmlwdEVycm9yTGF0ZXN0VGltZQ==','IGFuZCAgZXJyb3JNZXNzYWdlIGxpa2UgJyU=','JScgT1JERVIgQlkgY3JlYXRlZEF0IGRlc2MgbGltaXQgMQ==','aHVVUG4=','SmtsTEs=','Z3ltbFM=','aEVIRkc=','aXNUaUI=','a3VZdHA=','bVZBdGI=','ZHphbkU=','ZllLQUs=','TFBTaVE=','QXBFcm0=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeUhvdXI=','eXl5eS1NTS1kZA==','c2VsZWN0IERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQnKSBhcyBkYXksIGNvdW50KGlkKSBhcyBjb3VudCBmcm9tIEphdmFzY3JpcHRFcnJvckluZm8gV0hFUkUgd2ViTW9uaXRvcklkPSc=','JyBhbmQgIERBVEVfU1VCKENVUkRBVEUoKSxJTlRFUlZBTCAzMCBEQVkpIDw9IGNyZWF0ZWRBdCBHUk9VUCBCWSBkYXk=','ZXVLZkk=','ZVNMUkY=','UHNUZ1Y=','dXdORng=','c0R6YXU=','VE9SdEg=','cWlDcEo=','d2JCVHA=','Z2V0SmF2YXNjcmlwdEVycm9yTGlzdEJ5TXNn','JyBhbmQgIGVycm9yTWVzc2FnZSBsaWtlICcl','JScgb3JkZXIgYnkgaGFwcGVuVGltZSBkZXNjIGxpbWl0IDEwMA==','ak51Y0U=','SGxUQVc=','VnZadUQ=','UmtES1A=','UGhQVmU=','RHF1Q3k=','RlpPelM=','SkNNRXk=','aFNZbHA=','Z2V0SmF2YXNjcmlwdEVycm9yQWZmZWN0Q291bnQ=','RW1TU3g=','SEJwU3o=','dldGYWU=','bFNpVFk=','T0VhTUI=','TU9wYkg=','QUJVRnE=','Z2V0SmF2YXNjcmlwdEVycm9yT2NjdXJDb3VudEJ5Q3VzdG9tZXJLZXk=','c2VsZWN0IGNvdW50KCopIGFzIGNvdW50IGZyb20g','JScgYW5kIGN1c3RvbWVyS2V5PSc=','YXRRWlI=','UHpnVkE=','UnJ6a1U=','SVpuSGc=','aU50dkg=','TUpaT1k=','akJNTFA=','RGdpYXE=','Z2V0SmF2YXNjcmlwdEVycm9yTGlzdEJ5UGFnZQ==','c2VsZWN0IHNpbXBsZVVybCwgQ09VTlQoc2ltcGxlVXJsKSBhcyBjb3VudCBmcm9tIA==','IEdST1VQIEJZIHNpbXBsZVVybCBPUkRFUiBCWSBjb3VudCBkZXNjIGxpbWl0IDIw','Q1pzVUU=','bWZmcXA=','d3BiTFU=','WHZ0Z2k=','alpoZmg=','aU5WaFg=','VkFHaXM=','RGN1SWw=','WVRDWWg=','Z2V0SmF2YXNjcmlwdEVycm9yU3RhY2tDb2Rl','IOaKseatie+8jOacquiDveiOt+WPluWIsOmdmeaAgei1hOa6kO+8jOaXoOazleWumuS9jeS7o+eggeS9jee9riDvvJrvvIk=','44CQ6ZSZ6K+v5L2N572u77ya44CR','bW5xeGY=','SE9xV08=','dGhlbg==','dGV4dA==','c3BsaXQ=','QmFkclY=','TkppQUg=','TGdiU3I=','ZEtrZ2g=','c3Vic3RyaW5n','UmticVY=','WnplekI=','QVZ0c2E=','Y2FPZ24=','UnR4SkQ=','aGFuZGxlU291cmNlTWFw','Y2F0Y2g=','Lm1hcA==','Rk9rbHA=','dXZDVmE=','QmJCako=','U291cmNlTWFwQ29uc3VtZXI=','b3JpZ2luYWxQb3NpdGlvbkZvcg==','THVmVUs=','eVpXSWQ=','c291cmNlcw==','aW5kZXhPZg==','c291cmNl','c291cmNlc0NvbnRlbnQ=','aEpSRWI=','bGluZQ==','dnlVWmk=','TFFEa1I=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0RldGFpbA==','ZGVsZXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','Z2V0SmF2YXNjcmlwdEVycm9yUGNDb3VudA==','U0VMRUNUIENPVU5UKERJU1RJTkNUIHBhZ2VLZXkpIGFzIGNvdW50IEZST00gSmF2YXNjcmlwdEVycm9ySW5mbyBXSEVSRSB3ZWJNb25pdG9ySWQ9Jw==','T0VxTGc=','RmRIQXc=','TnNBdEk=','aHdRbXU=','ZmRRaWs=','Z2V0SmF2YXNjcmlwdEVycm9ySW9zQ291bnQ=','aG53TFE=','emhhWWY=','a1NXclQ=','Y25iaWw=','WVRHUXY=','eUFDTE4=','Z2V0SmF2YXNjcmlwdEVycm9yQW5kcm9pZENvdW50','YUl1RHY=','UXRhQkw=','Y2RSWkc=','b25Yd3k=','U3VuTHg=','YUxheUg=','elBScVM=','UWxlUUE=','c29Xd2s=','VnJGUWg=','dlFwYUE=','VW9QbXE=','Z1N5eUI=','TUZJdGw=','Z2V0RXJyb3JDb3VudEJ5SG91cg==','YnVKZmM=','V1BxeEg=','WWZCYXo=','blJVYWE=','ckJPZnI=','ckNieWw=','Qk1UTWk=','RkhySlQ=','YndoTmo=','ekNEa2Q=','d1VNenU=','TE50eEw=','Ykp6bXo=','cW9rYUs=','Z2V0RXJyb3JDb3VudFNldmVuRGF5QWdvQnlIb3Vy','cU1qd2s=','S21wUm4=','UmtscVk=','eWxKSHE=','Q25zTFE=','SWlEWUw=','aWVOeEk=','WGRodm0=','cE56RXY=','RmhSSk0=','ZVNmeFc=','ZktXbms=','Z3dueUY=','ZlNjeVM=','Z2xCS2Q=','SHZJTEY=','Y2FsY3VsYXRlSnNFcnJvckNvdW50QnlIb3Vy','JyBBTkQgaW5mb1R5cGU9J29uX2Vycm9yJw==','VWduQVE=','RWJKU0g=','emdjY08=','a2p4UWk=','TWhyYlU=','aFZSc2Y=','RWdTZ20=','UGhwdnQ=','cFJvekU=','YmNpZEc=','ZWdRblg=','cGlTTHY=','TEpHRlE=','SGltYVU=','ZGtlaUE=','Y2FsY3VsYXRlQ29uc29sZUVycm9yQ291bnRCeUhvdXI=','JyBBTkQgaW5mb1R5cGU9J2NvbnNvbGVfZXJyb3In','T2NIWk0=','UnJ5ZWI=','TEVieHA=','T2VWV0Q=','R1F2dlo=','U0RxTkQ=','SmF5UkE=','ZVNKa3I=','Yld1YUM=','dUp5bGo=','UVV4YUk=','WWpCU0U=','c0VFYXE=','QWthcmE=','ZXFMV20=','Y2FsY3VsYXRlSnNFcnJvckNvdW50QnlEYXk=','IFdIRVJFIHdlYk1vbml0b3JJZCA9ICc=','R1pJUVc=','YmVQUUo=','R0RDUng=','SnZMb20=','cnpneVQ=','cG9xU0E=','c1BzaW0=','UXdDZUw=','Y2FsY3VsYXRlQ29uc29sZUVycm9yQ291bnRCeURheQ==','Ym1Ga3Q=','SWhFSms=','a1R1WkE=','cmdPSW0=','cmRSSmo=','akFncXA=','dk9DTEI=','Z2V0SnNFcnJvclVzZXJDb3VudFRvZGF5','bmdNU1I=','VXBPeUE=','REl4SEI=','a2JMcFI=','REdkYWc=','ellWZFg=','ZUVlbHc=','Z2V0Q29uc29sZUVycm9yVXNlckNvdW50VG9kYXk=','T3JNd3A=','c2VVQ3I=','emFZdFY=','S2Z5TVk=','Uk5kUE0=','RWxNZkI=','ZXhwb3J0cw==','c3RyaW5n','d2hpbGUgKHRydWUpIHt9','Y291bnRlcg==','ZGVidQ==','Z2dlcg==','YWN0aW9u','c3RhdGVPYmplY3Q=','cXV4VnM=','dVlwdFU=','Y29uc3RydWN0b3I=','aFJRZVk=','TEt0a3g=','VVV3Y1I=','QVNMSFI=','Rk1ZaG8=','elRpY1A=','a2ZUZ28=','ZVJsUXQ=','dUpFYm4=','R3lLWFA=','Y2FsbA==','aWp1YnI=','blVjSkU=','SVRpcFg=','YlVVS0o=','YXBwbHk=','ZnVuY3Rpb24gKlwoICpcKQ==','XCtcKyAqKD86XzB4KD86W2EtZjAtOV0pezQsNn18KD86XGJ8XGQpW2EtejAtOV17MSw0fSg/OlxifFxkKSk=','aW5pdA==','Y2hhaW4=','aW5wdXQ=','V0V5Q1g=','Umxwd0I=','bVdERGo=','aWtheU4=','WmdIekM=','dGVzdA==','Qk5Tckc=','SmxOS0U=','eURadFY=','YVlQd1g=','Li4vY29uZmlnL2Ri','c2VxdWVsaXpl','Li4vdXRpbC91dGlscw==','Z2VvaXAtbGl0ZQ==','Li4vY29uZmlnL2xvZw==','Li4vdXRpbC9jb21tb25TcWw=','Li4vY29uZmlnL2NvbnN0cw==','bm9kZS1mZXRjaA==','aW1wb3J0','Li4vc2NoZW1hL1NjcmVlblNob3RJbmZv','c3luYw==','Y3JlYXRlU2NyZWVuU2hvdEluZm8=','Y3JlYXRl','dXBkYXRlU2NyZWVuU2hvdEluZm8=','dXBkYXRl','a2V5cw==','Z2V0U2NyZWVuU2hvdEluZm9MaXN0','ZmluZEFuZENvdW50QWxs','Z2V0U2NyZWVuU2hvdEluZm9MaXN0QnlQYWdl','c2VsZWN0ICogZnJvbSBTY3JlZW5TaG90SW5mbyBXSEVSRSB3ZWJNb25pdG9ySWQ9J21jbF93ZWJtb25pdG9yJyBsaW1pdCAyMDAsIDMwMA==','elNxang=','cXVlcnk=','UXVlcnlUeXBlcw==','U0VMRUNU','Z2V0U2NyZWVuU2hvdEluZm9EZXRhaWw=','ZmluZE9uZQ==','ZGVsZXRlU2NyZWVuU2hvdEluZm8=','ZGVzdHJveQ==','Z2V0QmVoYXZpb3JzQnlVc2Vy','c2VsZWN0ICogZnJvbSA=','U2NyZWVuU2hvdEluZm8=','IHdoZXJlIA==','YW5k','IGFuZCA=','dU9vQnY=','YWpuZUg=','U0tKdlY=','UGxubEU=','c2V0VGFibGVOYW1l','Qmd6dUk=','T1BqbGY=','cEtKaG0=','a0FDSXY=','ZGVsZXRlU2NyZWVuU2hvdEluZm9GaWZ0ZWVuRGF5c0Fnbw==','IDAwOjAwOjAw','ZGVsZXRlIGZyb20gU2NyZWVuU2hvdEluZm8gd2hlcmUgY3JlYXRlZEF0PCc=','cHVzVWc=','YWRkRGF5cw==','WnhkQm0=','ZXFWck0=','VXBRWmg=','UnJwelk=','REVMRVRF','Li4vc2NoZW1hL0h0dHBMb2dJbmZv','Y3JlYXRlSHR0cExvZ0luZm8=','dXBkYXRlSHR0cExvZ0luZm8=','Z2V0SHR0cExvZ0luZm9MaXN0','Z2V0SHR0cExvZ0luZm9EZXRhaWw=','ZGVsZXRlSHR0cExvZ0luZm8=','Z2V0SHR0cExvZ3NCeVVzZXI=','SHR0cExvZ0luZm8=','V1dHV20=','dkxvT1E=','UUVUb2k=','b0VpcmU=','amxvUEc=','cHdWcWw=','SlB4cU0=','ZGVsZXRlSHR0cExvZ0luZm9GaWZ0ZWVuRGF5c0Fnbw==','ZGVsZXRlIGZyb20gSHR0cExvZ0luZm8gd2hlcmUgY3JlYXRlZEF0PCc=','dU5ORmQ=','QXNoc0g=','WVp1dVU=','SE9Md1A=','Z2V0SHR0cENvdW50QnlNaW51dGU=','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWknKSBBUyBtaW51dGVzLCBDT1VOVChpZCkgQVMgY291bnQgRlJPTSBIdHRwTG9nSW5mbyA=','V0hFUkUgd2ViTW9uaXRvcklkPSc=','JyBhbmQgREFURV9GT1JNQVQoTk9XKCkgLSBJTlRFUlZBTCAzMCBNSU5VVEUsICclWS0lbS0lZCAlVCcpIDw9IGNyZWF0ZWRBdCBHUk9VUCBCWSBtaW51dGVz','Z0JjY0w=','bVBicVE=','cUZ4T3Q=','UWJlbUk=','d2ViTW9uaXRvcklk','ZFFPQ08=','Li4vc2NoZW1hL2RhaWx5QWN0aXZpdHk=','Y3JlYXRlRGFpbHlBY3Rpdml0eQ==','dXBkYXRlRGFpbHlBY3Rpdml0eQ==','Z2V0RGFpbHlBY3Rpdml0eUxpc3Q=','Z2V0RGFpbHlBY3Rpdml0eURldGFpbA==','ZGVsZXRlRGFpbHlBY3Rpdml0eQ==','Li4vc2NoZW1hL2JlaGF2aW9ySW5mbw==','Y3JlYXRlQmVoYXZpb3JJbmZv','dXBkYXRlQmVoYXZpb3JJbmZv','Z2V0QmVoYXZpb3JJbmZvTGlzdA==','Z2V0QmVoYXZpb3JJbmZvRGV0YWls','ZGVsZXRlQmVoYXZpb3JJbmZv','ZGVsZXRlQmVoYXZpb3JJbmZvRmlmdGVlbkRheXNBZ28=','ZGVsZXRlIGZyb20g','QmVoYXZpb3JJbmZv','IHdoZXJlIGNyZWF0ZWRBdDwn','aGdCd1Q=','cGNKeko=','R3BNQVg=','T3hXWW0=','YUV6Y3I=','dG9Gdkk=','bHp0dng=','QUNLaEM=','V0tjU24=','c2VjVVQ=','bndwZnQ=','Q050RU0=','SExWVnc=','QmlGcng=','aldvZlg=','a3dJYks=','dGVzdEJlaGF2aW9y','c2VsZWN0IENBU1QoaW5uZXJUZXh0IEFTIGNoYXIpIGFzIGlubmVyVGV4dCwgY291bnQoaW5uZXJUZXh0KSBhcyBjb3VudCBmcm9tIA==','IHdoZXJlIHdlYk1vbml0b3JJZD0nMTU1ODUzODkwODYxOScgYW5kIGNyZWF0ZWRBdD4nMjAxOS0wNy0xNyAwMDowMDowMCcgR1JPVVAgQlkgaW5uZXJUZXh0IE9SREVSIEJZIGNvdW50IGRlc2MgTElNSVQgMjA=','d25qaVM=','Sll5Y0I=','b2FPd3Y=','dE1Tc1Y=','Li4vc2NoZW1hL2VtYWlsQ29kZQ==','Y3JlYXRlRW1haWxDb2Rl','dXBkYXRlRW1haWxDb2Rl','Z2V0RW1haWxDb2RlTGlzdA==','Z2V0RW1haWxDb2RlRGV0YWls','ZGVsZXRlRW1haWxDb2Rl','c2F2ZUVtYWlsQ29kZQ==','eXl5eS1NTS1kZCBoaDptbTpzcw==','RW1haWxDb2Rl','SU5TRVJUIElOVE8gYA==','YCAoYGVtYWlsYCxgZW1haWxDb2RlYCxgY3JlYXRlZEF0YCxgdXBkYXRlZEF0YCwgYGlkYCkgVkFMVUVTICgn','Jywn','JyxERUZBVUxUKQ==','Rm9ybWF0','YkdnVVU=','RmNvVU0=','Y25TV3U=','cVBHWGE=','QkNCckg=','a0FrRHk=','YU9lRlo=','cFpsem0=','blpZUmw=','Z01CbHI=','Q0NkaGg=','d29hREk=','UEpKRVY=','aXNTZW5kRW1haWxDb2RlVG9kYXk=','IHdoZXJlIGVtYWlsPSc=','T0FKa28=','bW11V1I=','bXpLY1k=','WHFnSGE=','Z3JobEw=','Y2hlY2tFbWFpbENvZGU=','c2VsZWN0IGNvdW50KGlkKSBhcyBjb3VudCBmcm9tIA==','JyBhbmQgZW1haWxDb2RlPSc=','VlF2Smk=','V2lpVXA=','YXRaYms=','RENkQmw=','TlFTaVU=','c3lIaFY=','cmpOTUQ=','Li4vc2NoZW1hL2V4dGVuZEJlaGF2aW9ySW5mbw==','Y3JlYXRlRXh0ZW5kQmVoYXZpb3JJbmZv','dXBkYXRlRXh0ZW5kQmVoYXZpb3JJbmZv','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvTGlzdA==','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvRGV0YWls','ZGVsZXRlRXh0ZW5kQmVoYXZpb3JJbmZv','Z2V0RXh0ZW5kQmVoYXZpb3JJbmZvQnlVc2VySWQ=','RXh0ZW5kQmVoYXZpb3JJbmZv','YWlJQnI=','SWpHZ2I=','UEZEc20=','d0N3c1I=','WnpQaXA=','UGFwVm4=','RlhqZFc=','aXl5enY=','Q1Z6a2k=','Li4vc2NoZW1hL2luZm9Db3VudEJ5RGF5','Y3JlYXRlSW5mb0NvdW50QnlEYXk=','dXBkYXRlSW5mb0NvdW50QnlEYXk=','Z2V0SW5mb0NvdW50QnlEYXlMaXN0','Z2V0SW5mb0NvdW50QnlEYXlEZXRhaWw=','Z2V0SW5mb0NvdW50QnlEYXlEZXRhaWxCeURheU5hbWU=','c2VsZWN0IGlkIGZyb20gSW5mb0NvdW50QnlEYXkgV0hFUkUgZGF5TmFtZT0n','JyBBTkQgd2ViTW9uaXRvcklkID0gJw==','JyBhbmQgdXBsb2FkVHlwZT0n','RG15dlo=','UERKcnc=','VEZzbXc=','WVVzeE0=','allqQUo=','RFJnaVY=','cVVLWVc=','Q2VIZWU=','ZGVsZXRlSW5mb0NvdW50QnlEYXk=','Li4vc2NoZW1hL3Byb2plY3Q=','Y3JlYXRlUHJvamVjdA==','dXBkYXRlUHJvamVjdA==','Z2V0UHJvamVjdExpc3Q=','c2VsZWN0IGlkLCB3ZWJNb25pdG9ySWQsIHByb2plY3ROYW1lLCBwcm9qZWN0VHlwZSBmcm9tIFByb2plY3Qgd2hlcmUgZW1haWw9Jw==','c2VsZWN0IGlkLCB3ZWJNb25pdG9ySWQsIHByb2plY3ROYW1lLCBwcm9qZWN0VHlwZSBmcm9tIFByb2plY3Qgd2hlcmUgZW1haWw9JzU5Nzg3Mzg4NUBxcS5jb20n','dXNlckVtYWls','a1VxcHE=','VU1hS0c=','YnFKV0k=','RFRlbUI=','Z2V0QWxsUHJvamVjdExpc3Q=','c2VsZWN0IGlkLCB3ZWJNb25pdG9ySWQsIHByb2plY3ROYW1lLCBwcm9qZWN0VHlwZSwgY3JlYXRlZEF0IGZyb20gUHJvamVjdA==','TEZOQ2U=','dGVicFI=','S210d1o=','Z2V0UHJvamVjdERldGFpbExpc3Q=','c2VsZWN0ICogZnJvbSBQcm9qZWN0IHdoZXJlIGVtYWlsPSc=','U05qZks=','ZldUa2c=','SG1Pb20=','Z2V0UHJvamVjdEJ5VXNlckFuZFBOYW1l','c2VsZWN0IGlkIGZyb20gUHJvamVjdCB3aGVyZSBlbWFpbD0n','JyBhbmQgd2ViTW9uaXRvcklkPSc=','VlBoTnQ=','Q3hlT0Q=','SERSdEQ=','SnhpVGU=','Z2V0UHJvamVjdERldGFpbA==','ZGVsZXRlUHJvamVjdA==','Z2V0UHJvamVjdEJ5V2ViTW9uaXRvcklk','c2VsZWN0ICogZnJvbSBQcm9qZWN0IHdoZXJlIHdlYk1vbml0b3JJZD0n','WGZseUw=','bVJVS3g=','Y2hlY2tQcm9qZWN0TmFtZQ==','c2VsZWN0IGNvdW50KCopIGFzIGNvdW50IGZyb20gUHJvamVjdCB3aGVyZSBwcm9qZWN0TmFtZT0n','eFZDaXk=','Q2JCRUw=','dXdnb3Q=','Y2hlY2tQcm9qZWN0Q291bnQ=','c2VsZWN0IGNvdW50KHdlYk1vbml0b3JJZCkgYXMgY291bnQgZnJvbSA=','Q3VzdG9tZXJQVg==','IHdoZXJlIHdlYk1vbml0b3JJZD0n','JyBHUk9VUCBCWSB3ZWJNb25pdG9ySWQ=','IFVOSU9OIA==','ZGdId0Y=','SHNOc3A=','T1VjdWw=','SmhPZ1A=','dFd4T3M=','cnNPR1E=','Z2l0eno=','TU5HakM=','RGdHQW4=','S3JSYVk=','b21Ockw=','Li4vc2NoZW1hL2lnbm9yZUVycm9y','Y3JlYXRlSWdub3JlRXJyb3I=','dXBkYXRlSWdub3JlRXJyb3I=','Z2V0SWdub3JlRXJyb3JMaXN0','aWdub3JlRXJyb3JCeUFwcGxpY2F0aW9u','c2VsZWN0ICogZnJvbSBJZ25vcmVFcnJvciBXSEVSRSB3ZWJNb25pdG9ySWQ9Jw==','Y1lkaVo=','WkFrcVQ=','Z2V0SWdub3JlRXJyb3JEZXRhaWw=','Z2V0SWdub3JlRXJyb3JCeU1zZw==','c2VsZWN0IGNvdW50KCopIGFzIGNvdW50IGZyb20gSWdub3JlRXJyb3IgV0hFUkUgd2ViTW9uaXRvcklkPSc=','JyBhbmQgaWdub3JlRXJyb3JNZXNzYWdlPSc=','c0djVlU=','UVRIaHM=','ZnJWblM=','b2pXSHM=','emlta24=','ZXJyb3JNZXNzYWdl','ZGVsZXRlSWdub3JlRXJyb3I=','Li4vc2NoZW1hL2luZm9Db3VudEJ5SG91cg==','Y3JlYXRlSW5mb0NvdW50QnlIb3Vy','dXBkYXRlSW5mb0NvdW50QnlIb3Vy','Z2V0SW5mb0NvdW50QnlIb3VyTGlzdA==','Z2V0SW5mb0NvdW50QnlIb3VyRGV0YWls','Z2V0SW5mb0NvdW50QnlJZEJ5SG91ck5hbWU=','c2VsZWN0IGlkIGZyb20gSW5mb0NvdW50QnlIb3VyIFdIRVJFIGhvdXJOYW1lPSc=','R2RiZ2w=','Sm9XWEk=','a1JMdGw=','eVJxRFo=','dENKSUc=','RHpxZWM=','d2J0dVU=','Z2V0SW5mb0NvdW50QnlIb3VyRGV0YWlsQnlIb3VyTmFtZQ==','c2VsZWN0ICogZnJvbSBJbmZvQ291bnRCeUhvdXIgV0hFUkUgaG91ck5hbWU9Jw==','Q29EY1c=','aVdoU2s=','aGJkdGQ=','U1ZuUlY=','UERHZmk=','aWlpQ00=','dktVd3c=','ZGVsZXRlSW5mb0NvdW50QnlIb3Vy','Y2hlY2tNeXNxbENvbm5lY3RFcnJvcnM=','c2VsZWN0IGlwLCBTVU1fQ09OTkVDVF9FUlJPUlMgYXMgY291bnQgZnJvbSBwZXJmb3JtYW5jZV9zY2hlbWEuaG9zdF9jYWNoZQ==','bEZQc3o=','Y2hlY2tNeXNxbENvbm5lY3Rz','U0VMRUNUICogZnJvbSBpbmZvcm1hdGlvbl9zY2hlbWEuR0xPQkFMX1NUQVRVUyBXSEVSRSBWQVJJQUJMRV9OQU1FPSdNQVhfVVNFRF9DT05ORUNUSU9OUyc=','eHFjbWw=','ZGVsZXRlVGFibGVCeU5hbWU=','ZHJvcCB0YWJsZSA=','UVRaYlg=','T1lweVA=','bG9n','Li4vc2NoZW1hL2xvYWRQYWdlSW5mbw==','Y3JlYXRlTG9hZFBhZ2VJbmZv','dXBkYXRlTG9hZFBhZ2VJbmZv','Z2V0TG9hZFBhZ2VJbmZvTGlzdA==','Z2V0TG9hZFBhZ2VJbmZvRGV0YWls','ZGVsZXRlTG9hZFBhZ2VJbmZv','Z2V0UGFnZUxvYWRUaW1lQnlDdXN0b21lcktleQ==','U0VMRUNUIENBU1Qoc2ltcGxlVXJsIEFTIGNoYXIpIGFzIHNpbXBsZVVybCwgQ09VTlQoc2ltcGxlVXJsKSBhcyB1cmxDb3VudCwgQVZHKGxvYWRQYWdlKSBhcyBsb2FkUGFnZSwgQVZHKGRvbVJlYWR5KSBhcyBkb21SZWFkeSwgQVZHKHJlcXVlc3QpIGFzIHJlc291cmNlLCBBVkcobG9va3VwRG9tYWluKSBhcyBETlMgZnJvbSA=','TG9hZFBhZ2VJbmZv','IHdoZXJlIGxvYWRQYWdlPjAgYW5kIGxvYWRQYWdlPDMwMDAwIGFuZCA=','IEdST1VQIEJZIHNpbXBsZVVybCBPUkRFUiBCWSB1cmxDb3VudCBkZXNj','dmdGZnc=','SlZmVkE=','c1BkWmY=','T3pHSEI=','amtCS2k=','eHREWFM=','UFNEanA=','bEFPSGo=','TW5jSkw=','RlBEenI=','Z2V0TG9hZFBhZ2VJbmZvQnlDdXN0b21lcktleQ==','U0VMRUNUICogZnJvbSA=','SUpVQkU=','cUVTbWE=','d1h6SWU=','Z0R5UEM=','TXFIY0c=','YVhjc1g=','TWxsWWc=','Z2V0UGFnZUxvYWRUaW1lQnlEYXRl','U0VMRUNUIENBU1Qoc2ltcGxlVXJsIEFTIGNoYXIpIGFzIHNpbXBsZVVybCwgQ09VTlQoc2ltcGxlVXJsKSBhcyB1cmxDb3VudCwgQVZHKGxvYWRQYWdlKSBhcyBsb2FkUGFnZSwgQVZHKGRvbVJlYWR5KSBhcyBkb21SZWFkeSwgQVZHKHJlcXVlc3QpIGFzIHJlc291cmNlLCBBVkcobG9va3VwRG9tYWluKSBhcyBETlMgZnJvbSBMb2FkUGFnZUluZm8gd2hlcmUgY3JlYXRlZEF0Pic=','JyBhbmQgbG9hZFBhZ2U+MSBhbmQgbG9hZFBhZ2U8MTUwMDAgYW5kIHdlYk1vbml0b3JJZD0n','JyBHUk9VUCBCWSBzaW1wbGVVcmwgaGF2aW5nIHVybENvdW50PjUwIE9SREVSIEJZIGxvYWRQYWdlIGRlc2MgbGltaXQgMTU=','TFlUb0Q=','dGltZVNjb3Bl','enNrU2w=','S1FZVmM=','QlREdlY=','T3BCZ20=','aEVDU2Q=','aVhqVW8=','RWNiV08=','Li4vc2NoZW1hL3VzZXIuanM=','ZGVsZXRl','ZmluZEFsbFVzZXJMaXN0','dXNlcm5hbWU=','ZmluZEFsbA==','Y2tCV3U=','ZmluZFVzZXJCeU5hbWU=','ZmluZFVzZXJCeUVtYWls','ZmluZFVzZXJCeUxvZ2lu','Li4vc2NoZW1hL0h0dHBFcnJvckluZm8=','Y3JlYXRlSHR0cEVycm9ySW5mbw==','dXBkYXRlSHR0cEVycm9ySW5mbw==','Z2V0SHR0cEVycm9ySW5mb0xpc3Q=','Z2V0SHR0cEVycm9ySW5mb0RldGFpbA==','ZGVsZXRlSHR0cEVycm9ySW5mbw==','Z2V0SHR0cEVycm9yc0J5VXNlcg==','SHR0cEVycm9ySW5mbw==','Zk1zd2s=','cHhOT2k=','RlRvUXM=','b3dYb0c=','ZFN4b04=','Y0tuc1U=','RkpuQ2E=','YnNqcXA=','Z2V0SHR0cEVycm9ySW5mb0xpc3RCeUhvdXI=','TU0tZGQgaGg=','U0VMRUNUIGhvdXJOYW1lIGFzIGhvdXIsIGhvdXJDb3VudCBhcyBjb3VudCBmcm9tIEluZm9Db3VudEJ5SG91ciB3aGVyZSB3ZWJNb25pdG9ySWQ9Jw==','JyBhbmQgaG91ck5hbWU+PSc=','JyBhbmQgaG91ck5hbWU8PSc=','JyBvcmRlciBieSBob3VyTmFtZQ==','Z2V0VGltZQ==','WUloRUc=','dFFhaG4=','cFpLTmg=','SlN6WnI=','aWlFb0g=','TlByc2w=','b1dsd3Y=','WnBhQWc=','UVNRR1c=','em9USWo=','aW5mb1R5cGU=','bGthaU0=','SXpWUFk=','QW9IbmI=','Z2V0SHR0cEVycm9ySW5mb0xpc3RTZXZlbkRheUFnb0J5SG91cg==','aVppV2o=','SmR6SVE=','b0p2cFo=','a05mQ1c=','c2NIRWo=','SFBYY3g=','UUNDblY=','WHlsT1Q=','REdNQkg=','ZktZUXA=','cmt4QkI=','ZU5yelo=','cHpVbGc=','TGF6QkU=','eEhhZU4=','ZG51TG4=','VVdQa1c=','Z2V0SHR0cEVycm9yQ291bnRCeURheQ==','U0VMRUNUIGRheU5hbWUgYXMgZGF5LCBkYXlDb3VudCBhcyBjb3VudCBmcm9tIEluZm9Db3VudEJ5RGF5IHdoZXJlIHdlYk1vbml0b3JJZD0n','alJMcEw=','YXNBaFM=','bXhRZlE=','am91Z1k=','S0NlbEk=','Z2V0SHR0cEVycm9ySW5mb0xpc3RCeURheQ==','c2VsZWN0IHNpbXBsZUh0dHBVcmwsIENPVU5UKHNpbXBsZUh0dHBVcmwpIGFzIGNvdW50IGZyb20g','IEdST1VQIEJZIHNpbXBsZUh0dHBVcmwgb3JkZXIgYnkgY291bnQgZGVzYyBsaW1pdCAyMA==','TGJBTnc=','dmVFc0Y=','V0pwZlo=','amFFb2w=','dWhLTWE=','a3JxQ2k=','ZHFCUkQ=','Z2V0SHR0cEVycm9yTGF0ZXN0VGltZQ==','c2VsZWN0IGNyZWF0ZWRBdCwgaGFwcGVuVGltZSBmcm9tIA==','IGFuZCAgc2ltcGxlSHR0cFVybD0gJw==','JyBPUkRFUiBCWSBoYXBwZW5UaW1lIGRlc2MgbGltaXQgMQ==','THpZdUE=','SkF1dk8=','Vm5VSXg=','aWtxbHg=','bUNZRnk=','elJyZUg=','T0RTd3M=','aW1zT1Q=','Z2V0U3RhdHVzQ291bnRCeVNpbXBsZUh0dHBVcmw=','c2VsZWN0IGBzdGF0dXNgLCBjb3VudChgc3RhdHVzYCkgYXMgY291bnQgZnJvbSA=','JyBHUk9VUCBCWSBgc3RhdHVzYA==','YUZJa0w=','UHJOamM=','d3BJcGI=','d21vTUU=','V2NsT00=','c3hiQk8=','ZmJWWUQ=','UGtjSlA=','Z2V0Q3VzdG9tZXJDb3VudEZvckh0dHBVcmw=','c2VsZWN0IGNvdW50KGRpc3RpbmN0IGN1c3RvbWVyS2V5KSBhcyBjb3VudCBmcm9tIA==','UkNuQ3A=','Skl0Q0o=','dXdhekM=','eGpvbWI=','Zmljakk=','SXJKZEY=','TGRsS1Y=','S2ZxcmY=','eEpLS2I=','RWp5TkM=','Z2V0SHR0cEVycm9yTGlzdEJ5TXNn','c2VsZWN0IGNvdW50KGRpc3RpbmN0IGN1c3RvbWVyS2V5KSBhcyBjb3VudCBmcm9tIEh0dHBFcnJvckluZm8gd2hlcmUgd2ViTW9uaXRvcklkPSc=','Y3JlYXRlVGltZVNjb3BlU3Fs','TUVub3c=','TUZSWEo=','VFJKTkU=','a0tCbFk=','WFpFbnQ=','Z1Fkb0o=','RUxNaEY=','Z2V0SHR0cEVycm9yTGlzdEJ5VXJs','JyBhbmQgIHNpbXBsZUh0dHBVcmw9Jw==','JyBsaW1pdCAyMDA=','RWhRZVU=','bnJkQks=','TmZLcWg=','R1ZwanA=','RmRNdlI=','Qlp4UWY=','TUJ4SUI=','QUhDRFA=','c1J2dk0=','U0lQUE0=','Y2FsY3VsYXRlSHR0cEVycm9yQ291bnRCeUhvdXI=','IDIzOjAwOjAw','IFdIRVJFIGNyZWF0ZWRBdD49Jw==','JyBBTkQgY3JlYXRlZEF0PCc=','JyAgQU5EIHdlYk1vbml0b3JJZCA9ICc=','ZXlnaUE=','TFZoUkQ=','anpmcnA=','bXliS1M=','R2ZPRmQ=','aHVwd0o=','Z05TaWo=','WGZkWVE=','RFNkTE8=','bERrdmQ=','ZEp2T3I=','bnlGZnQ=','SUl1eGM=','Y2FsY3VsYXRlSHR0cEVycm9yQ291bnRCeURheQ==','IFdIRVJFICB3ZWJNb25pdG9ySWQgPSAn','amFYSU8=','SmZIa3U=','VGxkVWM=','SUZNb04=','U3V1TXo=','cmVwbGFjZQ==','WGhmTEs=','Z2V0SHR0cEVycm9yVXNlckNvdW50VG9kYXk=','Snh0VVQ=','cnhNT1c=','TGpVZ0Y=','VlJSSW8=','VVNCV2c=','S2ljcXM=','Li4vc2NoZW1hL3ZpZGVvc0luZm8=','Y3JlYXRlVmlkZW9z','dXBkYXRlVmlkZW9z','Z2V0VmlkZW9zTGlzdA==','Z2V0VmlkZW9zRGV0YWls','ZGVsZXRlVmlkZW9z','Z2V0VmlkZW9zRXZlbnQ=','c2VsZWN0ICogZnJvbSBWaWRlb3NJbmZvMjAxOTA5Mjg=','WEZjYUQ=','Li4vc2NoZW1hL3Jlc291cmNlTG9hZEluZm8=','Y3JlYXRlUmVzb3VyY2VMb2FkSW5mbw==','dXBkYXRlUmVzb3VyY2VMb2FkSW5mbw==','Z2V0UmVzb3VyY2VMb2FkSW5mb0xpc3Q=','Z2V0UmVzb3VyY2VMb2FkSW5mb0RldGFpbA==','ZGVsZXRlUmVzb3VyY2VMb2FkSW5mbw==','Z2V0UmVzb3VyY2VMb2FkSW5mb0J5VXNlcklk','UmVzb3VyY2VMb2FkSW5mbw==','a1pnUXQ=','cWZjdmg=','T2RiV2g=','cVVYQlM=','TEhXUWo=','anFoam8=','cHVwWXQ=','Z2V0UmVzb3VyY2VMb2FkSW5mb0xpc3RCeURheQ==','IGFuZCBzaW1wbGVVcmw9Jw==','c2VsZWN0IHNvdXJjZVVybCwgQ09VTlQoc291cmNlVXJsKSBhcyBjb3VudCBmcm9tIA==','IEdST1VQIEJZIHNvdXJjZVVybCBvcmRlciBieSBjb3VudCBkZXNjIGxpbWl0IDIw','ZWxnUGI=','elhyY2g=','TkNkWXo=','ZG50TEs=','QnZ6amQ=','c3BkS1Y=','SHRkc3I=','ZGRvdWo=','blBqbFY=','Z2V0UmVzb3VyY2VFcnJvckxhdGVzdFRpbWU=','IGFuZCAgc291cmNlVXJsPSAn','cmRiT2o=','dGdGYmc=','TXZWTFA=','QVVYdGM=','TFpUZWc=','SUxqWU4=','YkhFZ0o=','WUpHc3M=','Rm1VU0s=','emliZVM=','aXZQbE8=','Z2V0UGFnZUNvdW50QnlSZXNvdXJjZUVycm9y','U0VMRUNUIGNvdW50KERJU1RJTkNUIHNpbXBsZVVybCkgYXMgcGFnZUNvdW50IGZyb20g','IGFuZCBzb3VyY2VVcmw9Jw==','UWxEd0s=','SkxSTmo=','TlpvRUI=','SEhQdGE=','aFRETXc=','QWl6Zmo=','UE5Wa1c=','R3hTQXM=','YXFjYVI=','a0JZTVA=','SERpZVg=','UEdSbHE=','Z2V0Q3VzdG9tZXJDb3VudEJ5UmVzb3VyY2VFcnJvcg==','U0VMRUNUIGNvdW50KERJU1RJTkNUIChjdXN0b21lcktleSkpIGFzIGN1c3RvbWVyQ291bnQgZnJvbSA=','R3N5RUQ=','TkRoSGk=','cnRRcnU=','ckxrZnM=','aVpUUXg=','dG5SV2s=','SEdOQk0=','Z2V0UmVzb3VyY2VFcnJvckNvdW50QnlEYXk=','ZnBWWG4=','YWhqVHM=','Vm9Jano=','Z2V0UmVzb3VyY2VFcnJvckluZm9MaXN0QnlIb3Vy','U0VMRUNUIENPVU5UKCopIGFzIGNvdW50IGZyb20gUmVzb3VyY2VMb2FkSW5mbyB3aGVyZSAgd2ViTW9uaXRvcklkPSc=','JyBhbmQgIGNyZWF0ZWRBdCA+ICc=','JyBhbmQgY3JlYXRlZEF0IDwgJw==','UmtzZXk=','UlNvYWc=','WENqUmI=','S1JLSGg=','anlZRUw=','Z3pJWHc=','bkx2TUY=','RWt5UGs=','Z2V0UmVzb3VyY2VMb2FkRXJyb3JJbmZvTGlzdEJ5SG91cg==','S05PcHg=','SkdWVng=','b1dpY2U=','aGJvd3U=','ZVdvYUk=','cGtUVXM=','ZmdvRUM=','QlRvbU4=','ZWpoQWU=','QkNFZmI=','b2l5cmk=','SXlsU3c=','V3lMeHI=','clhZRFc=','QWtCS1E=','WXZpdnE=','Z2V0UmVzb3VyY2VMb2FkRXJyb3JJbmZvTGlzdFNldmVuRGF5QWdvQnlIb3Vy','dEttU2Y=','aFp6UlU=','ZkFlblI=','RWtuWkQ=','SHZSbFI=','TVVESUQ=','V3lEZG8=','ZEJmd0c=','eFdYQVQ=','c3pBa2s=','cmVWdHA=','R05VWmE=','RkxpcGw=','dVdsTUs=','TVVaWkw=','dFNnY2g=','Y2FsY3VsYXRlUmVzb3VyY2VFcnJvckNvdW50QnlIb3Vy','a01wcE4=','TktYU08=','U2JDVWk=','akJ6UVE=','Q3BNZ3g=','WFVEaGU=','dk5ZVE8=','bnNaRHU=','a0FpdlQ=','blpyQlE=','U0pheFQ=','SE9DT0I=','R2xObkw=','Y2FsY3VsYXRlUmVzb3VyY2VFcnJvckNvdW50QnlEYXk=','bmtLYWk=','c1Z3ckE=','YWNkekM=','aGxocVU=','cHRYTHQ=','Z2V0UmVzb3VyY2VFcnJvclVzZXJDb3VudFRvZGF5','VXJHSUk=','TGxRbmk=','V0NnYWU=','TU5OREo=','Li4vc2NoZW1hL2N1c3RvbWVyUFY=','Y3JlYXRlQ3VzdG9tZXJQVg==','dXBkYXRlQ3VzdG9tZXJQVg==','Z2V0Q3VzdG9tZXJQVkxpc3Q=','Z2V0Q3VzdG9tZXJQVkRldGFpbA==','ZGVsZXRlQ3VzdG9tZXJQVg==','ZGVsZXRlQ3VzdG9tZXJQVnNGaWZ0ZWVuRGF5c0Fnbw==','RkFhc3Q=','dklVUnE=','SHpCaUo=','Q2RJV2M=','d0FNUXY=','ZVBpYnI=','WU96am4=','bUtjcnM=','REx6bWk=','Z2V0UFZDb3VudEZvckRheQ==','UklTcXg=','aHJ0c2U=','SklObEw=','SWhBSnI=','Z2V0VVZDb3VudEZvckRheQ==','Rnhmb00=','S0NWcEo=','ZnhTaFk=','elpNQ1Q=','elhRelA=','Z2V0SXBDb3VudEZvckRheQ==','c2VsZWN0IGNvdW50KGRpc3RpbmN0IG1vbml0b3JJcCkgYXMgY291bnQgZnJvbSA=','S0hEaUI=','amdMS2g=','ZmdRY2E=','THhMYnk=','b2lreUE=','SnFvVUY=','Z2V0Q3VzdG9tZXJQdlBjQ291bnQ=','U0VMRUNUIENPVU5UKERJU1RJTkNUIHBhZ2VLZXkpIGFzIGNvdW50IEZST00g','IFdIRVJFIHdlYk1vbml0b3JJZD0n','JyBhbmQgb3MgTElLRSAnd2ViJSc=','cGRWU3M=','aFhHZVU=','a09yelU=','SkxaWGM=','c1RxdHo=','YXlaelk=','ZGF5','R1FPaVc=','Z2V0Q3VzdG9tZXJQdklvc0NvdW50','JyBhbmQgb3MgTElLRSAnaW9zJSc=','eXNJYlI=','VGVob2o=','cnJ4d1E=','RlpCcnE=','eGZueWs=','eGJETFc=','d0VBVXM=','VUhDZnQ=','Z2V0Q3VzdG9tZXJQdkFuZHJvaWRDb3VudA==','JyBhbmQgb3MgTElLRSAnYW5kcm9pZCUn','Y1NBZUc=','TWRjQ3o=','ZG1vckI=','bHVYdHg=','S0xDcFE=','YklMcXo=','RGpZRUU=','clhwVWs=','ZlBpYVY=','dHFOVXg=','Q1hJTXk=','TUdzS2M=','WnpQbGI=','dXJ2SHc=','Z2V0Q3VzdG9tZXJLZXlCeVVzZXJJZA==','c2VsZWN0IERJU1RJTkNUKGN1c3RvbWVyS2V5KSBmcm9tIA==','IHdoZXJlIHVzZXJJZD0n','UGppREc=','TFBKY0k=','bUh0ZXk=','SWN5SFI=','dnF6aVA=','WmllQUc=','Y09sU1U=','VHFrbk0=','dXNlcklk','Y3J3aEQ=','bVdiZHE=','QUhraW0=','Z2V0Q3VzdG9tZXJQVkRldGFpbEJ5Q3VzdG9tZXJLZXk=','IGxpbWl0IDE=','c0liWFA=','Z3JETlo=','UWhMSlU=','WVdrYVM=','cE96cmc=','cUZKbWo=','eWNkZWs=','emRvclI=','eUZhd2k=','c1VJYW4=','Z2V0UFZzQnlDdXN0b21lcktleQ==','c2VsZWN0IENBU1Qoc2ltcGxlVXJsIEFTIGNoYXIpIGFzIHNpbXBsZVVybCwgY291bnQoc2ltcGxlVXJsKSBmcm9tIA==','IEdST1VQIEJZIHNpbXBsZVVybCA=','S0hmZXY=','aVdsVU0=','Q3VIZHk=','ZEJaaEE=','aHpRZmg=','aXVmVXM=','eEFkZ0Y=','WGRpYm8=','UHRTZWs=','VFlDaEg=','REVNUkk=','S3RBcXk=','Z2V0UHJvdmluY2VDb3VudEJ5U2Vjb25kcw==','U0VMRUNUIHByb3ZpbmNlIGFzIG5hbWUsIGNvdW50KGRpc3RpbmN0IGN1c3RvbWVyS2V5KSBhcyB2YWx1ZSBmcm9tIA==','JyBhbmQgY3JlYXRlZEF0Pic=','JyBHUk9VUCBCWSBwcm92aW5jZQ==','Qk9hQ1g=','UGVMTHk=','dXBMUVM=','YW1rS3A=','VUJxY08=','VXZXT3E=','TVZCa1Q=','RndTYk8=','Y0RuYko=','dVdQT3g=','eExoQ20=','Z2V0UHZzSW5mb0J5VGVuU2Vjb25kcw==','U0VMRUNUIGN1c3RvbWVyS2V5LCBwcm92aW5jZSwgY2l0eSwgbmV3U3RhdHVzLCBoYXBwZW5UaW1lLCBzaW1wbGVVcmwsIG1vbml0b3JJcCBmcm9tIA==','R1pDSnI=','YW1BelY=','blFPeGU=','Y3VIbkg=','RkN5Z1A=','bGd5d1M=','VlBXRWI=','WHVpR2U=','TXZFV3U=','Z2V0UHZDb3VudEJ5U2Vjb25k','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWk6JXMnKSBBUyBzZWNvbmRzLCBDT1VOVChwYWdlS2V5KSBBUyBjb3VudCBGUk9NIA==','JyBhbmQgREFURV9GT1JNQVQoTk9XKCkgLSBJTlRFUlZBTCAzMCBTRUNPTkQsICclWS0lbS0lZCAlVCcpIDw9IGNyZWF0ZWRBdCBHUk9VUCBCWSBzZWNvbmRz','WHloYmY=','SEVGZmY=','WnlucFg=','VmhzTmc=','THpxaUw=','Z3d6ZWo=','SHVsUWg=','amNuWk0=','UGFIVWo=','Z2V0VXZDb3VudEJ5U2Vjb25k','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWk6JXMnKSBBUyBzZWNvbmRzLCBDT1VOVChESVNUSU5DVCBjdXN0b21lcktleSkgQVMgY291bnQgRlJPTSA=','U29Qam0=','bUtEV3I=','V294ZHY=','ckNVT2g=','UHFxZ3U=','U09Sckw=','Z2V0UHZDb3VudEJ5TWludXRl','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWknKSBBUyBtaW51dGVzLCBDT1VOVChwYWdlS2V5KSBBUyBjb3VudCBGUk9NIA==','eUZVcFQ=','dFdTd3c=','amNEQUE=','WURPZFM=','RWVBZW0=','aE5lUHE=','dE5PRXE=','cWdqZW0=','Z2V0VXZDb3VudEJ5TWludXRl','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWknKSBBUyBtaW51dGVzLCBDT1VOVChESVNUSU5DVCBjdXN0b21lcktleSkgQVMgY291bnQgRlJPTSA=','VU1VRU0=','RXRzREg=','aEx5VHU=','RnFXdFg=','UlZqSU0=','dnJ3a1Y=','dnpVTVk=','Z2V0VXNlckNvdW50QnlIb3Vy','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJW0tJWQgJUgnKSBBUyBob3VyLCBDT1VOVChESVNUSU5DVCB1c2VySWQpIEFTIGNvdW50IA==','RlJPTSA=','IFdIRVJFIA==','d2ViTW9uaXRvcklkPSc=','JyBhbmQgREFURV9GT1JNQVQoTk9XKCkgLSBJTlRFUlZBTCAyMyBIT1VSLCAnJVktJW0tJWQgJUgnKSA8PSBjcmVhdGVkQXQgR1JPVVAgQlkgSE9VUg==','YXNHSUc=','Y2VKZEw=','UU9vV28=','S0t1akU=','d09RTXA=','ZGVkS2k=','TnFOaGI=','U0lsamo=','Y3J1dG8=','eXdFZWE=','Z2V0VXNlckNvdW50U2V2ZW5EYXlBZ29CeUhvdXI=','OjAwOjAw','JyBhbmQgY3JlYXRlZEF0PCc=','JyBhbmQgREFURV9GT1JNQVQoREFURV9TVUIoTk9XKCksSU5URVJWQUwgNyBEQVkpIC0gSU5URVJWQUwgMjMgSE9VUiwgJyVZLSVtLSVkICVIJykgPD0gY3JlYXRlZEF0IA==','R1JPVVAgQlkgSE9VUg==','Z2V0SG91cnM=','anByTUw=','ZGpVUlQ=','U2lnc0Q=','dlN0VHg=','Y0J2ZFQ=','ekdwY3I=','WGx2ZkQ=','UlJIZFY=','aG56ZHY=','S0RtRGo=','T1ZGVVI=','cGpOUmU=','UXdxTmU=','dW9hRUE=','QVNCdlU=','eVpWaGw=','dElHQlQ=','SkN5VXU=','Z2V0VXZDb3VudEJ5SG91cg==','U0VMRUNUIGRpc3RpbmN0IGhvdXJOYW1lIGFzIGhvdXIsIGhvdXJDb3VudCBhcyBjb3VudCBmcm9tIEluZm9Db3VudEJ5SG91ciB3aGVyZSB3ZWJNb25pdG9ySWQ9Jw==','JyBhbmQgdXBsb2FkVHlwZT0ndXYnIGFuZCBob3VyTmFtZT49Jw==','anVHSng=','dGltZVNpemU=','aHF1Rkg=','VkJEWk4=','TEdBekU=','VEtiWWo=','REtIcG4=','UmZsS0w=','UE56ZGE=','eFJqU0g=','cXh4Z0Y=','T2ZrYnk=','RHJFTGI=','alpQUko=','Y2daZ00=','Z2V0VXZDb3VudFNldmVuRGF5QWdvQnlIb3Vy','R2VFbXM=','V0FhVE0=','WkJGWlU=','blZNUFg=','TXlsV0I=','dVJCWm8=','dWZITXI=','Ym9MSmw=','RkxKaUk=','QmtoZGI=','em1FaVM=','WllYUHQ=','bmtpUGk=','WFpkS1Y=','UW9jemM=','b1VPTHM=','Z2V0Q3VzdG9tZXJDb3VudEJ5VGltZQ==','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJW0tJWQgJUgnKSBBUyBob3VyLCBDT1VOVChwYWdlS2V5KSBBUyBjb3VudCA=','U0t3WHk=','VnVldlo=','bndscXc=','Ump2Y0U=','enF6cFI=','dUx1Q0I=','eERHQXc=','dU5kcnI=','b2xiSEg=','Z2V0UHZDb3VudEJ5VGltZQ==','JyBhbmQgdXBsb2FkVHlwZT0ncHYnIGFuZCBob3VyTmFtZT49Jw==','QmVncXA=','ZWhqcWQ=','T0NoRlc=','d2dYUlU=','cHZQbGo=','ekhLSU4=','WlBjRFE=','RVVkQ2E=','Q1ZlaUc=','aFVoRWc=','dFZoZ3k=','ckpLaXM=','cHhsbU8=','Z2V0UHZDb3VudFNldmVuRGF5QWdvQnlIb3Vy','Wmtpd3E=','Tk5LWVU=','T0VzbWc=','c25wQng=','RmNvWnQ=','S2VXU2Q=','eGRwSWU=','amprTUU=','TXNMc3o=','UnNydHk=','S2ZHT1g=','QXlRbGY=','UHNHVW0=','bkZTR24=','aXJHd2Y=','UmtUTEY=','ZWZiVmc=','RUxWbFo=','Z2V0TmV3Q3VzdG9tZXJDb3VudEJ5VG9kYXk=','U0VMRUNUICBjb3VudChkaXN0aW5jdCBjdXN0b21lcktleSkgYXMgY291bnQgZnJvbSA=','JyBhbmQgbmV3U3RhdHVzPSduZXcnIA==','ZXlZelI=','UXNXWUE=','UUd2RnI=','eWdmQ3k=','WG5xUWM=','VFh4cnk=','Z2V0TmV3Q3VzdG9tZXJDb3VudEJ5VGltZQ==','c1dIUWo=','Y1ROcGg=','eFh5dnQ=','SktYZkM=','bnBodmM=','Qk9oeEM=','TUNxbGY=','b3FzVXA=','Z2xnT0Q=','bHBRdmM=','VmhZbWE=','WmdUa0E=','YVBXUFo=','RmlVbnE=','TkVXX0NVU1RPTUVS','eHVPaUc=','a1pTZ0Q=','VWZoYmo=','Z2V0TmV3Q3VzdG9tZXJDb3VudFNldmVuRGF5QWdvQnlIb3Vy','akhhcXQ=','YWt4bW8=','ektuQmw=','TVlNb2g=','ckpFbFk=','aWFSZWg=','UUR1Qk0=','WXVLQ1g=','aXBDcXo=','RFlRUnY=','TU9ZdXg=','WWpEalk=','bmh4Smg=','b05aanU=','TERCR2w=','RnVMamQ=','eklGTkE=','U2lDS2M=','TW9mcGY=','WmxpeXI=','d3ZTeE0=','WlpSelQ=','Z2V0SW5zdGFsbENvdW50QnlUaW1l','b1ZSa3Y=','am5Vdms=','SEhYVHU=','S1NnQ3Y=','ZHF3Snk=','UktLUkg=','SWxGSEk=','TnhCQ04=','cldERGQ=','R0RRR1E=','R29tR0E=','R3Rka28=','Sk5qcWs=','b2RuSXU=','b0FIWkw=','Y1hBQXg=','SU5TVEFMTF9DT1VOVA==','aVdEelg=','Z2ZrRWE=','VUxMTnk=','Z2V0SW5zdGFsbENvdW50U2V2ZW5EYXlBZ29CeUhvdXI=','V2NheEQ=','QnFCbGM=','VGp5dXM=','dnhFRm0=','dk5CU3Y=','YW52YnE=','SkxBQ3Y=','R1FEb1g=','bkFhdE8=','UmtqcWw=','R1ZjWEY=','Q0t2WE0=','UmFZclo=','ZVlweGg=','cnlXb1Y=','Q0dTcUY=','Z2V0VmVyc2lvbkNvdW50T3JkZXJCeUNvdW50','U0VMRUNUIHByb2plY3RWZXJzaW9uLCBjb3VudChkaXN0aW5jdCBjdXN0b21lcktleSkgYXMgY291bnQgZnJvbSA=','JyBhbmQgIHdlYk1vbml0b3JJZD0n','JyBHUk9VUCBCWSBwcm9qZWN0VmVyc2lvbiBvcmRlciBieSBjb3VudCBkZXNjIGxpbWl0IDEw','Q1lHQ2k=','d3VQRmE=','VW12T2I=','UnRMaXI=','WWdOb2Y=','WHVxeGw=','c0hLb1c=','U09uTlU=','WUpLb3Y=','TlduVng=','VUlmZ1c=','Z2V0Q2l0eUNvdW50T3JkZXJCeUNvdW50','U0VMRUNUIGNpdHksIGNvdW50KERJU1RJTkNUIGN1c3RvbWVyS2V5KSBhcyBjb3VudCBmcm9tIA==','JyBHUk9VUCBCWSBjaXR5IG9yZGVyIGJ5IGNvdW50IGRlc2MgbGltaXQgMTA=','QmRYZXI=','U0xXRW4=','Qkh6aWM=','bmVUd1I=','bHhJYVA=','bnZubU4=','WnJySUg=','U1JBbEk=','a1RKZ0w=','bm94YWs=','V0dEbU4=','akVaT0w=','T2Nrd2o=','Z2V0RGV2aWNlQ291bnRPcmRlckJ5Q291bnQ=','U0VMRUNUIGRldmljZU5hbWUsIGNvdW50KERJU1RJTkNUIGN1c3RvbWVyS2V5KSBhcyBjb3VudCBmcm9tIA==','JyBHUk9VUCBCWSBkZXZpY2VOYW1lIG9yZGVyIGJ5IGNvdW50IGRlc2MgbGltaXQgMTA=','ZGJCUHg=','UEV2Uk0=','YUR3ZEU=','Qm9IQlY=','Z010Y2Q=','a2VCZUM=','Q3B5ZlA=','RUhhSVU=','VVFkdGk=','b2VJYkQ=','bXRJSWE=','UnpjTUU=','YVNEcnU=','U2hvSVc=','Z2V0UHZMaXN0QnlQYWdl','IGFuZCBtb25pdG9ySXA9Jw==','Smh0UXE=','YmtLV0I=','SnZlSVE=','WHlwT0o=','c2VsZWN0IGN1c3RvbWVyS2V5LCBzaW1wbGVVcmwsIGRldmljZU5hbWUsIG1vbml0b3JJcCwgaGFwcGVuVGltZSBmcm9tIA==','ekpMVXU=','JyBhbmQgY3JlYXRlZEF0Pj0n','JyBhbmQgY3JlYXRlZEF0PD0n','Z2V0U2V2ZW5EYXlzTGVmdENvdW50','c2VsZWN0IGNvdW50KERJU1RJTkNUIGN1c3RvbWVyS2V5KSBhcyBjb3VudCBmcm9tIA==','JyBhbmQgY3VzdG9tZXJLZXlDcmVhdGVkRGF0ZT0n','RndIVEo=','QVlzank=','UlFmb2k=','amVGYkM=','VlBwTmc=','WHNrRG4=','ZmdlakU=','cE12YUg=','WVRqQXM=','VEFucWg=','cWdSc1M=','SFhaZ0Y=','U1poQ1E=','WlVFbFM=','T0dUTUg=','Z2V0T3NBbmFseXNpcw==','U0VMRUNUIG9zLCBjb3VudChvcykgZnJvbSA=','IHdoZXJlIGNyZWF0ZWRBdD4n','JyBHUk9VUCBCWSBvcw==','Z1JaRXc=','aFRyd3A=','ZHlSVVM=','bUxYTHU=','TU5nQ1E=','eGRDblk=','bFdXZEM=','c3dPR1k=','UHp6WFk=','anFFZmo=','ZVZQUW8=','Z2V0Q3VzdG9tZXJDb3VudEJ5RGF5VGltZQ==','c2VsZWN0IGNvdW50KERJU1RJTkNUKGN1c3RvbWVyS2V5KSkgYXMgY291bnQgZnJvbSA=','IFdIRVJFIGNyZWF0ZWRBdD4n','JyBBTkQgY3JlYXRlZEF0Pic=','eVNiR1g=','QlRNYlQ=','SUFUeWI=','R09pRGo=','dHVnbk0=','WnJ5RGo=','blZGcUY=','TUxhb3U=','TFp4c28=','Y2FsY3VsYXRlUHZDb3VudEJ5SG91cg==','Wm1NTXo=','cU5KVnQ=','Q0RZbHQ=','b0VmQW8=','R2lxeks=','Y1l5bWg=','dkdjSGE=','b3ZvVnM=','TGlhbWg=','dUdLY1k=','QklhblU=','Y2FsY3VsYXRlTmV3Q3VzdG9tZXJDb3VudEJ5SG91cg==','JyBhbmQgbmV3U3RhdHVzPSduZXcn','YndsQ3M=','UkxiZ2w=','cFVobGQ=','VFV3Vnk=','UFZTc2s=','dENCcXA=','WkJwSm8=','emdjb28=','SVpqa0Y=','TVpTang=','WnZZblM=','Q1BQTEs=','Z0lPbWc=','S0laV00=','Y2FsY3VsYXRlSW5zdGFsbENvdW50QnlIb3Vy','c2VsZWN0IGNvdW50KGRpc3RpbmN0IHVzZXJJZCkgYXMgY291bnQgZnJvbSA=','bHFRV1k=','bEdCSlU=','T1hpb3Y=','bVBwc2s=','TXpvT2Y=','Q0ZFakw=','ZXJ6VEI=','eU54UUo=','Q1hLUmM=','dmRqR1c=','U3R0a1Q=','SUlCeXo=','S0loUEQ=','Tlp3UGk=','dWJFU3M=','UlZHV0k=','a3BqT3I=','QUhWckM=','SkVCVmk=','bGVuZ3Ro','Y291bnQ=','YVBGTW8=','VlVEeGo=','aFd6YXQ=','dG9GaXhlZA==','Y2FsY3VsYXRlVXZDb3VudEJ5SG91cg==','PT09PT09PT09PT09PT09PT09','eFVEcFk=','cU55bVY=','cXRlTkw=','WHhKeUU=','c0h2SHM=','bmRkRG8=','VXRNREY=','cG13VHQ=','WndTZFQ=','SEtuVEc=','ZVVxRms=','dXllVE0=','Y2FsY3VsYXRlUHZDb3VudEJ5Q3VzdG9tZXJLZXlGb3JNb250aA==','VW9veGE=','VEhQeUI=','V1JNWU4=','cVBuYlY=','cFZoYXo=','U3RLT28=','b3dZV2U=','S1Fxb0k=','eHVBSFM=','cHVzaA==','Li4vc2NoZW1hL2phdmFzY3JpcHRFcnJvckluZm8=','Y3JlYXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','dXBkYXRlSmF2YXNjcmlwdEVycm9ySW5mbw==','ZGVsZXRlSmF2YXNjcmlwdEVycm9ySW5mb3NGaWZ0ZWVuRGF5c0Fnbw==','ZGVsZXRlIGZyb20gSmF2YXNjcmlwdEVycm9ySW5mbyB3aGVyZSBjcmVhdGVkQXQ8Jw==','bVhSZnM=','UVh3UFM=','dUZjdVk=','aWtPS1g=','Rm9sZUs=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3Q=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3RCeURheQ==','V1BTeVY=','RW52cnM=','aktWbW8=','TGtVWmY=','dFpGUXk=','Z2V0Q29uc29sZUVycm9ySW5mb0xpc3RCeURheQ==','RkFhV3A=','TUFyV1c=','ekpDVFk=','WkpwT2c=','Q2hTS0I=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeU1pbnV0ZQ==','SmF2YXNjcmlwdEVycm9ySW5mbw==','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJVktJW0tJWQgJUg6JWknKSBBUyBtaW51dGVzLCBDT1VOVChpZCkgQVMgY291bnQgRlJPTSA=','JyBhbmQgaW5mb1R5cGU9Jw==','JyBhbmQgZXJyb3JNZXNzYWdlIGxpa2UgJyU=','JScgYW5kIERBVEVfRk9STUFUKE5PVygpIC0gSU5URVJWQUwgNjAgTUlOVVRFLCAnJVktJW0tJWQgJVQnKSA8PSBjcmVhdGVkQXQgR1JPVVAgQlkgbWludXRlcw==','WGpxem4=','Y2p0RFE=','eWZQeUE=','WkREY2g=','a3FpblQ=','SlRKWWc=','SFl5Z3U=','YWdGUEI=','UmRMZHo=','bklEdGY=','TGpqTG4=','R2xNZUU=','eFhkR0c=','d1Fpdkg=','SGVucHY=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRMaXN0QnlIb3Vy','U0VMRUNUIERBVEVfRk9STUFUKGNyZWF0ZWRBdCwnJW0tJWQgJUgnKSBBUyBob3VyLCBDT1VOVChpZCkgQVMgY291bnQg','JScgYW5kIERBVEVfRk9STUFUKE5PVygpIC0gSU5URVJWQUwgMjMgSE9VUiwgJyVZLSVtLSVkICVIJykgPD0gY3JlYXRlZEF0IA==','ZGlGYlc=','YklzQmY=','Z2JZYXQ=','UWFNelc=','SXljR1k=','Rkp4eXU=','VVJZaXE=','eEd3VHo=','aE1WZUE=','SU92U3o=','Y3VhWkw=','YUZTT28=','Z2V0SmF2YXNjcmlwdEVycm9ySW5mb0xpc3RTZXZlbkRheUFnb0J5SG91cg==','RlJPTSBKYXZhc2NyaXB0RXJyb3JJbmZvIA==','elBKYnk=','dVl4V0M=','SU5jQVA=','YkRUbXA=','S1VuY2E=','dFZjQWU=','UVlmUXM=','Q0lLTG0=','V3NsYnk=','SHdzR2M=','a0toZXI=','UXNqeXo=','RXZ2bVk=','QkNVY3g=','bnNRQWE=','U1RMaUk=','Z2V0SmF2YXNjcmlwdEVycm9yQ291bnRCeURheQ==','U0VMRUNUIENPVU5UKCopIGFzIGNvdW50IGZyb20gSmF2YXNjcmlwdEVycm9ySW5mbyB3aGVyZSB3ZWJNb25pdG9ySWQ9Jw==','JyBhbmQgY3JlYXRlZEF0ID4gJw==','dWhxSVI=','VWlIaUE=','WVhjeHk=','ZWZiY0g=','VFZSY0Y=','Z2V0SmF2YXNjcmlwdEVycm9yU29ydA==','c2VsZWN0IGVycm9yTWVzc2FnZSwgY291bnQoZXJyb3JNZXNzYWdlKSBhcyBjb3VudCBmcm9tIA==','JyBhbmQgaW5mb1R5cGU9J29uX2Vycm9yJyA=','IEdST1VQIEJZIGVycm9yTWVzc2FnZSBvcmRlciBieSBjb3VudCBkZXNjIGxpbWl0IDEw','cWRDVHY=','cnFqQkc=','WnBaRmw=','anh1Q2o=','S0lzZGU=','RXBtYnc=','VlN1V0Q=','b0hheFg=','VXRncEs=','dVJQS08=','YXFuVGs=','Z2V0Q29uc29sZUVycm9yU29ydA==','JyBhbmQgaW5mb1R5cGU9J2NvbnNvbGVfZXJyb3InIA==','RmVDVks=','b1RrSlY=','R3ptWXg=','VVBXdEE=','RU9aVUo=','cWtZcFg=','RG52bWo=','SFF3ZlE=','V2pjZ2I=','eEtKV2Y=','bVlzY1k=','Z2V0UGVySmF2YXNjcmlwdENvbnNvbGVFcnJvckNvdW50','U0VMRUNUIGNvdW50KGlkKSBhcyBjb3VudCBmcm9tIA==','IGFuZCBlcnJvck1lc3NhZ2UgPSAn','JyBvcmRlciBieSBjb3VudCBkZXNj','ZW9TSkc=','TmVBclE=','TGprRlQ=','VnBuRE8=','eUtRdWc=','bXB4TVQ=','VmtEcU4=','eUtOaEg=','TXZzSGQ=','dXB0aHc=','WnZ4V3o='];(function(_0x1ef852,_0x2553f0){var _0x59217f=function(_0x21ab2e){while(--_0x21ab2e){_0x1ef852['push'](_0x1ef852['shift']());}};var _0x3d2e8b=function(){var _0x2ef64b={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x5bdd10,_0x4dbb82,_0x20ab64,_0x22900d){_0x22900d=_0x22900d||{};var _0x18949a=_0x4dbb82+'='+_0x20ab64;var _0x38ece9=0x0;for(var _0x38ece9=0x0,_0x44a1b4=_0x5bdd10['length'];_0x38ece9<_0x44a1b4;_0x38ece9++){var _0x29f233=_0x5bdd10[_0x38ece9];_0x18949a+=';\x20'+_0x29f233;var _0x38b273=_0x5bdd10[_0x29f233];_0x5bdd10['push'](_0x38b273);_0x44a1b4=_0x5bdd10['length'];if(_0x38b273!==!![]){_0x18949a+='='+_0x38b273;}}_0x22900d['cookie']=_0x18949a;},'removeCookie':function(){return'dev';},'getCookie':function(_0x51175c,_0x1d6c2e){_0x51175c=_0x51175c||function(_0xa54c6){return _0xa54c6;};var _0x9267f4=_0x51175c(new RegExp('(?:^|;\x20)'+_0x1d6c2e['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x4003b8=function(_0x311671,_0x3d57d7){_0x311671(++_0x3d57d7);};_0x4003b8(_0x59217f,_0x2553f0);return _0x9267f4?decodeURIComponent(_0x9267f4[0x1]):undefined;}};var _0x2bcc68=function(){var _0xc0234d=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0xc0234d['test'](_0x2ef64b['removeCookie']['toString']());};_0x2ef64b['updateCookie']=_0x2bcc68;var _0x439ccc='';var _0x418837=_0x2ef64b['updateCookie']();if(!_0x418837){_0x2ef64b['setCookie'](['*'],'counter',0x1);}else if(_0x418837){_0x439ccc=_0x2ef64b['getCookie'](null,'counter');}else{_0x2ef64b['removeCookie']();}};_0x3d2e8b();}(_0x3dbf,0x137));var _0x1f01=function(_0x2f3e31,_0x3a89c9){_0x2f3e31=_0x2f3e31-0x0;var _0x2c6db2=_0x3dbf[_0x2f3e31];if(_0x1f01['AFuOqH']===undefined){(function(){var _0x2d0e6a=function(){var _0x6e77c2;try{_0x6e77c2=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x230109){_0x6e77c2=window;}return _0x6e77c2;};var _0x4c9db8=_0x2d0e6a();var _0x439300='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x4c9db8['atob']||(_0x4c9db8['atob']=function(_0x1a9870){var _0x16d43f=String(_0x1a9870)['replace'](/=+$/,'');for(var _0x3e08c5=0x0,_0x296519,_0x3db635,_0x306cc8=0x0,_0x4bb7bb='';_0x3db635=_0x16d43f['charAt'](_0x306cc8++);~_0x3db635&&(_0x296519=_0x3e08c5%0x4?_0x296519*0x40+_0x3db635:_0x3db635,_0x3e08c5++%0x4)?_0x4bb7bb+=String['fromCharCode'](0xff&_0x296519>>(-0x2*_0x3e08c5&0x6)):0x0){_0x3db635=_0x439300['indexOf'](_0x3db635);}return _0x4bb7bb;});}());_0x1f01['fTjVPI']=function(_0x390ae2){var _0x35bc5f=atob(_0x390ae2);var _0x1dcb08=[];for(var _0x4d688c=0x0,_0x4541ae=_0x35bc5f['length'];_0x4d688c<_0x4541ae;_0x4d688c++){_0x1dcb08+='%'+('00'+_0x35bc5f['charCodeAt'](_0x4d688c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1dcb08);};_0x1f01['SDBAGH']={};_0x1f01['AFuOqH']=!![];}var _0x9bbed=_0x1f01['SDBAGH'][_0x2f3e31];if(_0x9bbed===undefined){var _0x460981=function(_0x22320e){this['pUshdX']=_0x22320e;this['FnsHjl']=[0x1,0x0,0x0];this['DFdTdT']=function(){return'newState';};this['basxjP']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*';this['kMpMrP']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x460981['prototype']['iKHXbs']=function(){var _0x49baf4=new RegExp(this['basxjP']+this['kMpMrP']);var _0x312b72=_0x49baf4['test'](this['DFdTdT']['toString']())?--this['FnsHjl'][0x1]:--this['FnsHjl'][0x0];return this['eMGDbR'](_0x312b72);};_0x460981['prototype']['eMGDbR']=function(_0x481979){if(!Boolean(~_0x481979)){return _0x481979;}return this['WeNIWt'](this['pUshdX']);};_0x460981['prototype']['WeNIWt']=function(_0x328583){for(var _0x3cdd53=0x0,_0x513741=this['FnsHjl']['length'];_0x3cdd53<_0x513741;_0x3cdd53++){this['FnsHjl']['push'](Math['round'](Math['random']()));_0x513741=this['FnsHjl']['length'];}return _0x328583(this['FnsHjl'][0x0]);};new _0x460981(_0x1f01)['iKHXbs']();_0x2c6db2=_0x1f01['fTjVPI'](_0x2c6db2);_0x1f01['SDBAGH'][_0x2f3e31]=_0x2c6db2;}else{_0x2c6db2=_0x9bbed;}return _0x2c6db2;};var _0x42227a=function(){var _0x159bba=!![];return function(_0x276a03,_0x4382f5){var _0x213dcb=_0x159bba?function(){if(_0x4382f5){var _0x30761c=_0x4382f5['apply'](_0x276a03,arguments);_0x4382f5=null;return _0x30761c;}}:function(){};_0x159bba=![];return _0x213dcb;};}();var _0x38b479=_0x42227a(this,function(){var _0x114985=function(){return'\x64\x65\x76';},_0x467712=function(){return'\x77\x69\x6e\x64\x6f\x77';};var _0x57fb0f=function(){var _0x5739a1=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!_0x5739a1['\x74\x65\x73\x74'](_0x114985['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x2b02f8=function(){var _0x3a341b=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return _0x3a341b['\x74\x65\x73\x74'](_0x467712['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x1a6ea5=function(_0x345b11){var _0x44e53c=~-0x1>>0x1+0xff%0x0;if(_0x345b11['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===_0x44e53c)){_0x47cbdb(_0x345b11);}};var _0x47cbdb=function(_0x34d5e1){var _0x2b7558=~-0x4>>0x1+0xff%0x0;if(_0x34d5e1['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==_0x2b7558){_0x1a6ea5(_0x34d5e1);}};if(!_0x57fb0f()){if(!_0x2b02f8()){_0x1a6ea5('\x69\x6e\x64\u0435\x78\x4f\x66');}else{_0x1a6ea5('\x69\x6e\x64\x65\x78\x4f\x66');}}else{_0x1a6ea5('\x69\x6e\x64\u0435\x78\x4f\x66');}});_0x38b479();var _0x40c407=function(){var _0x57ebd6=!![];return function(_0x2396f4,_0x530e0e){var _0x2024e5=_0x57ebd6?function(){if(_0x530e0e){var _0x45605c=_0x530e0e[_0x1f01('0x0')](_0x2396f4,arguments);_0x530e0e=null;return _0x45605c;}}:function(){};_0x57ebd6=![];return _0x2024e5;};}();(function(){var _0x3c3a96={'RlpwB':_0x1f01('0x1'),'mWDDj':_0x1f01('0x2'),'ikayN':function(_0x157510,_0x4f31b9){return _0x157510(_0x4f31b9);},'ZgHzC':_0x1f01('0x3'),'BNSrG':function(_0x365d75,_0x1649fd){return _0x365d75+_0x1649fd;},'JlNKE':_0x1f01('0x4'),'yDZtV':_0x1f01('0x5'),'aYPwX':function(_0x11a727){return _0x11a727();},'WEyCX':function(_0x514159,_0x1abd39,_0xb14e6d){return _0x514159(_0x1abd39,_0xb14e6d);}};_0x3c3a96[_0x1f01('0x6')](_0x40c407,this,function(){var _0x4e14d8=new RegExp(_0x3c3a96[_0x1f01('0x7')]);var _0x3ef1ed=new RegExp(_0x3c3a96[_0x1f01('0x8')],'i');var _0xbca9bf=_0x3c3a96[_0x1f01('0x9')](_0x3377ce,_0x3c3a96[_0x1f01('0xa')]);if(!_0x4e14d8[_0x1f01('0xb')](_0x3c3a96[_0x1f01('0xc')](_0xbca9bf,_0x3c3a96[_0x1f01('0xd')]))||!_0x3ef1ed[_0x1f01('0xb')](_0x3c3a96[_0x1f01('0xc')](_0xbca9bf,_0x3c3a96[_0x1f01('0xe')]))){_0x3c3a96[_0x1f01('0x9')](_0xbca9bf,'0');}else{_0x3c3a96[_0x1f01('0xf')](_0x3377ce);}})();}());const db=require(_0x1f01('0x10'));const Sequelize=db[_0x1f01('0x11')];const Utils=require(_0x1f01('0x12'));const utils=require(_0x1f01('0x12'));const geoip=require(_0x1f01('0x13'));const log=require(_0x1f01('0x14'));const CommonSql=require(_0x1f01('0x15'));const UPLOAD_TYPE=require(_0x1f01('0x16'));const fetch=require(_0x1f01('0x17'));const ScreenShotInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x19'));ScreenShotInfo[_0x1f01('0x1a')]({'force':![]});class ScreenShotInfoModel{static async[_0x1f01('0x1b')](_0x4eca0d){return await ScreenShotInfo[_0x1f01('0x1c')]({..._0x4eca0d});}static async[_0x1f01('0x1d')](_0x82121d,_0xa94af2){await ScreenShotInfo[_0x1f01('0x1e')]({..._0xa94af2},{'where':{'id':_0x82121d},'fields':Object[_0x1f01('0x1f')](_0xa94af2)});return!![];}static async[_0x1f01('0x20')](){return await ScreenShotInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x22')](){var _0x3b8757={'zSqjx':_0x1f01('0x23')};let _0x5418b7=_0x3b8757[_0x1f01('0x24')];return await Sequelize[_0x1f01('0x25')](_0x5418b7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x28')](_0x4d16bf){return await ScreenShotInfo[_0x1f01('0x29')]({'where':{'id':_0x4d16bf}});}static async[_0x1f01('0x2a')](_0x416d62){await ScreenShotInfo[_0x1f01('0x2b')]({'where':{'id':_0x416d62}});return!![];}static async[_0x1f01('0x2c')](_0x549891,_0x1b327a,_0x3a155c,_0x4b8951){var _0x3de1c7={'uOoBv':function(_0x4a7ed6,_0x13930a){return _0x4a7ed6+_0x13930a;},'ajneH':function(_0x44fc45,_0x29fbb8){return _0x44fc45+_0x29fbb8;},'SKJvV':function(_0x2697a6,_0xb92341){return _0x2697a6+_0xb92341;},'PlnlE':_0x1f01('0x2d'),'BgzuI':_0x1f01('0x2e'),'OPjlf':_0x1f01('0x2f'),'pKJhm':_0x1f01('0x30'),'kACIv':_0x1f01('0x31')};const {timeScope}=_0x4b8951;let _0x318482=_0x3de1c7[_0x1f01('0x32')](_0x3de1c7[_0x1f01('0x32')](_0x3de1c7[_0x1f01('0x33')](_0x3de1c7[_0x1f01('0x33')](_0x3de1c7[_0x1f01('0x34')](_0x3de1c7[_0x1f01('0x34')](_0x3de1c7[_0x1f01('0x34')](_0x3de1c7[_0x1f01('0x35')],CommonSql[_0x1f01('0x36')](_0x3de1c7[_0x1f01('0x37')],timeScope)),_0x3de1c7[_0x1f01('0x38')]),_0x1b327a),_0x3de1c7[_0x1f01('0x39')]),_0x3a155c),_0x3de1c7[_0x1f01('0x3a')]),_0x549891);return await Sequelize[_0x1f01('0x25')](_0x318482,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3b')](_0x4ba0fd){var _0x5afd92={'pusUg':function(_0x2af961,_0x391c78){return _0x2af961+_0x391c78;},'ZxdBm':function(_0x401b9c,_0x4290d4){return _0x401b9c-_0x4290d4;},'eqVrM':_0x1f01('0x3c'),'UpQZh':function(_0x623ab7,_0x97ad86){return _0x623ab7+_0x97ad86;},'RrpzY':_0x1f01('0x3d')};const _0x493094=_0x5afd92[_0x1f01('0x3e')](Utils[_0x1f01('0x3f')](_0x5afd92[_0x1f01('0x40')](0x0,_0x4ba0fd)),_0x5afd92[_0x1f01('0x41')]);var _0x386fec=_0x5afd92[_0x1f01('0x42')](_0x5afd92[_0x1f01('0x42')](_0x5afd92[_0x1f01('0x43')],_0x493094),'\x27');return await Sequelize[_0x1f01('0x25')](_0x386fec,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x44')]});}}const HttpLogInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x45'));HttpLogInfo[_0x1f01('0x1a')]({'force':![]});class HttpLogInfoModel{static async[_0x1f01('0x46')](_0x4644c7){return await HttpLogInfo[_0x1f01('0x1c')]({..._0x4644c7});}static async[_0x1f01('0x47')](_0x3590e9,_0x4c53e2){await HttpLogInfo[_0x1f01('0x1e')]({..._0x4c53e2},{'where':{'id':_0x3590e9},'fields':Object[_0x1f01('0x1f')](_0x4c53e2)});return!![];}static async[_0x1f01('0x48')](){return await HttpLogInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x49')](_0x23b0bb){return await HttpLogInfo[_0x1f01('0x29')]({'where':{'id':_0x23b0bb}});}static async[_0x1f01('0x4a')](_0x3f3ad5){await HttpLogInfo[_0x1f01('0x2b')]({'where':{'id':_0x3f3ad5}});return!![];}static async[_0x1f01('0x4b')](_0x2d1f26,_0x1634df,_0x2f5194,_0x3dcd2e){var _0x2ea92e={'WWGWm':function(_0x2720f3,_0x14d05e){return _0x2720f3+_0x14d05e;},'vLoOQ':function(_0x1f5df8,_0x98e5e3){return _0x1f5df8+_0x98e5e3;},'QEToi':function(_0x4715e4,_0x17de8c){return _0x4715e4+_0x17de8c;},'oEire':_0x1f01('0x2d'),'jloPG':_0x1f01('0x4c'),'pwVql':_0x1f01('0x2f'),'JPxqM':_0x1f01('0x31')};const {timeScope}=_0x3dcd2e;let _0x367c30=_0x2ea92e[_0x1f01('0x4d')](_0x2ea92e[_0x1f01('0x4e')](_0x2ea92e[_0x1f01('0x4e')](_0x2ea92e[_0x1f01('0x4e')](_0x2ea92e[_0x1f01('0x4f')](_0x2ea92e[_0x1f01('0x4f')](_0x2ea92e[_0x1f01('0x4f')](_0x2ea92e[_0x1f01('0x50')],CommonSql[_0x1f01('0x36')](_0x2ea92e[_0x1f01('0x51')],timeScope)),_0x2ea92e[_0x1f01('0x52')]),_0x1634df),_0x2ea92e[_0x1f01('0x53')]),_0x2f5194),_0x2ea92e[_0x1f01('0x53')]),_0x2d1f26);return await Sequelize[_0x1f01('0x25')](_0x367c30,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x54')](_0x217395){var _0x4fc977={'uNNFd':function(_0x32fdc2,_0x177360){return _0x32fdc2+_0x177360;},'AshsH':function(_0x5593a8,_0x1123d0){return _0x5593a8-_0x1123d0;},'YZuuU':_0x1f01('0x3c'),'HOLwP':_0x1f01('0x55')};const _0x32f704=_0x4fc977[_0x1f01('0x56')](Utils[_0x1f01('0x3f')](_0x4fc977[_0x1f01('0x57')](0x0,_0x217395)),_0x4fc977[_0x1f01('0x58')]);var _0x46d661=_0x4fc977[_0x1f01('0x56')](_0x4fc977[_0x1f01('0x56')](_0x4fc977[_0x1f01('0x59')],_0x32f704),'\x27');return await Sequelize[_0x1f01('0x25')](_0x46d661,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x44')]});}static async[_0x1f01('0x5a')](_0x55df88){var _0x10bd68={'gBccL':function(_0x1e9eb2,_0x3b8133){return _0x1e9eb2+_0x3b8133;},'mPbqQ':function(_0x6f74a7,_0x9195fc){return _0x6f74a7+_0x9195fc;},'qFxOt':_0x1f01('0x5b'),'QbemI':_0x1f01('0x5c'),'dQOCO':_0x1f01('0x5d')};let _0x1bd64d=_0x10bd68[_0x1f01('0x5e')](_0x10bd68[_0x1f01('0x5e')](_0x10bd68[_0x1f01('0x5f')](_0x10bd68[_0x1f01('0x60')],_0x10bd68[_0x1f01('0x61')]),_0x55df88[_0x1f01('0x62')]),_0x10bd68[_0x1f01('0x63')]);return await Sequelize[_0x1f01('0x25')](_0x1bd64d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const DailyActivity=Sequelize[_0x1f01('0x18')](_0x1f01('0x64'));DailyActivity[_0x1f01('0x1a')]({'force':![]});class DailyActivityModel{static async[_0x1f01('0x65')](_0x1e0be3){return await DailyActivity[_0x1f01('0x1c')]({..._0x1e0be3});}static async[_0x1f01('0x66')](_0x2744f7,_0x294f45){await DailyActivity[_0x1f01('0x1e')]({..._0x294f45},{'where':{'id':_0x2744f7},'fields':Object[_0x1f01('0x1f')](_0x294f45)});return!![];}static async[_0x1f01('0x67')](){return await DailyActivity[_0x1f01('0x21')]();}static async[_0x1f01('0x68')](_0x352150){return await DailyActivity[_0x1f01('0x29')]({'where':{'id':_0x352150}});}static async[_0x1f01('0x69')](_0x514a06){await DailyActivity[_0x1f01('0x2b')]({'where':{'id':_0x514a06}});return!![];}}const BehaviorInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x6a'));BehaviorInfo[_0x1f01('0x1a')]({'force':![]});class BehaviorInfoModel{static async[_0x1f01('0x6b')](_0x244c95){return await BehaviorInfo[_0x1f01('0x1c')]({..._0x244c95});}static async[_0x1f01('0x6c')](_0x310b62,_0x48f7e2){await BehaviorInfo[_0x1f01('0x1e')]({..._0x48f7e2},{'where':{'id':_0x310b62},'fields':Object[_0x1f01('0x1f')](_0x48f7e2)});return!![];}static async[_0x1f01('0x6d')](){return await BehaviorInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x6e')](_0x4fef05){return await BehaviorInfo[_0x1f01('0x29')]({'where':{'id':_0x4fef05}});}static async[_0x1f01('0x6f')](_0x3608bb){await BehaviorInfo[_0x1f01('0x2b')]({'where':{'id':_0x3608bb}});return!![];}static async[_0x1f01('0x70')](_0xdbc1ef){var _0xb3c110={'hgBwT':function(_0x46e032,_0x4aa383){return _0x46e032+_0x4aa383;},'pcJzJ':function(_0x30d48e,_0x7f5214){return _0x30d48e-_0x7f5214;},'GpMAX':_0x1f01('0x3c'),'OxWYm':function(_0x2371b7,_0x4e1195){return _0x2371b7+_0x4e1195;},'aEzcr':_0x1f01('0x71'),'toFvI':_0x1f01('0x72'),'lztvx':_0x1f01('0x73')};const _0x2d61af=_0xb3c110[_0x1f01('0x74')](Utils[_0x1f01('0x3f')](_0xb3c110[_0x1f01('0x75')](0x0,_0xdbc1ef)),_0xb3c110[_0x1f01('0x76')]);var _0x572188=_0xb3c110[_0x1f01('0x77')](_0xb3c110[_0x1f01('0x77')](_0xb3c110[_0x1f01('0x77')](_0xb3c110[_0x1f01('0x77')](_0xb3c110[_0x1f01('0x78')],Utils[_0x1f01('0x36')](_0xb3c110[_0x1f01('0x79')])),_0xb3c110[_0x1f01('0x7a')]),_0x2d61af),'\x27');return await Sequelize[_0x1f01('0x25')](_0x572188,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x44')]});}static async[_0x1f01('0x2c')](_0x25b0ef,_0x23259a,_0x56493e,_0x5ebd4f){var _0x5d7233={'ACKhC':function(_0x454036,_0x3dce58){return _0x454036+_0x3dce58;},'WKcSn':function(_0x18ef9b,_0xcd1a3e){return _0x18ef9b+_0xcd1a3e;},'secUT':function(_0x1874f6,_0x5c599b){return _0x1874f6+_0x5c599b;},'nwpft':function(_0x1e498e,_0x5d57e4){return _0x1e498e+_0x5d57e4;},'CNtEM':function(_0x2a2c7c,_0x21c9ac){return _0x2a2c7c+_0x21c9ac;},'HLVVw':_0x1f01('0x2d'),'BiFrx':_0x1f01('0x72'),'jWofX':_0x1f01('0x2f'),'kwIbK':_0x1f01('0x31')};const {timeScope}=_0x5ebd4f;let _0x52b4e0=_0x5d7233[_0x1f01('0x7b')](_0x5d7233[_0x1f01('0x7c')](_0x5d7233[_0x1f01('0x7c')](_0x5d7233[_0x1f01('0x7c')](_0x5d7233[_0x1f01('0x7d')](_0x5d7233[_0x1f01('0x7e')](_0x5d7233[_0x1f01('0x7f')](_0x5d7233[_0x1f01('0x80')],CommonSql[_0x1f01('0x36')](_0x5d7233[_0x1f01('0x81')],timeScope)),_0x5d7233[_0x1f01('0x82')]),_0x56493e),_0x5d7233[_0x1f01('0x83')]),_0x23259a),_0x5d7233[_0x1f01('0x83')]),_0x25b0ef);return await Sequelize[_0x1f01('0x25')](_0x52b4e0,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x84')](_0x58c268){var _0xe6f463={'wnjiS':function(_0x1fe5b6,_0x58fd7f){return _0x1fe5b6+_0x58fd7f;},'JYycB':_0x1f01('0x85'),'oaOwv':_0x1f01('0x72'),'tMSsV':_0x1f01('0x86')};let _0x4e1bfa=_0xe6f463[_0x1f01('0x87')](_0xe6f463[_0x1f01('0x87')](_0xe6f463[_0x1f01('0x88')],Utils[_0x1f01('0x36')](_0xe6f463[_0x1f01('0x89')])),_0xe6f463[_0x1f01('0x8a')]);return await Sequelize[_0x1f01('0x25')](_0x4e1bfa,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const EmailCode=Sequelize[_0x1f01('0x18')](_0x1f01('0x8b'));EmailCode[_0x1f01('0x1a')]({'force':![]});class EmailCodeModel{static async[_0x1f01('0x8c')](_0x5c5a31){return await EmailCode[_0x1f01('0x1c')]({..._0x5c5a31});}static async[_0x1f01('0x8d')](_0x4bc11,_0x2006ef){await EmailCode[_0x1f01('0x1e')]({..._0x2006ef},{'where':{'id':_0x4bc11},'fields':Object[_0x1f01('0x1f')](_0x2006ef)});return!![];}static async[_0x1f01('0x8e')](){return await EmailCode[_0x1f01('0x21')]();}static async[_0x1f01('0x8f')](_0x2538d1){return await EmailCode[_0x1f01('0x29')]({'where':{'id':_0x2538d1}});}static async[_0x1f01('0x90')](_0x5a7e03){await EmailCode[_0x1f01('0x2b')]({'where':{'id':_0x5a7e03}});return!![];}static async[_0x1f01('0x91')](_0x3ba172){var _0x4cfbf9={'bGgUU':_0x1f01('0x92'),'FcoUM':_0x1f01('0x93'),'cnSWu':function(_0x1ed5ad,_0x4006fc){return _0x1ed5ad+_0x4006fc;},'qPGXa':function(_0x4ac921,_0x468674){return _0x4ac921+_0x468674;},'BCBrH':function(_0x172e53,_0x5e6e7d){return _0x172e53+_0x5e6e7d;},'kAkDy':function(_0x2b1459,_0xb5f21){return _0x2b1459+_0xb5f21;},'aOeFZ':function(_0x4348de,_0xd4fdec){return _0x4348de+_0xd4fdec;},'pZlzm':function(_0x449a50,_0x55d237){return _0x449a50+_0x55d237;},'nZYRl':function(_0x4fdcb3,_0x29f206){return _0x4fdcb3+_0x29f206;},'gMBlr':_0x1f01('0x94'),'CCdhh':_0x1f01('0x95'),'woaDI':_0x1f01('0x96'),'PJJEV':_0x1f01('0x97')};const {email,emailCode,createdAt=new Date()[_0x1f01('0x98')](_0x4cfbf9[_0x1f01('0x99')]),updatedAt=new Date()[_0x1f01('0x98')](_0x4cfbf9[_0x1f01('0x99')])}=_0x3ba172;const _0x442e56=utils[_0x1f01('0x36')](_0x4cfbf9[_0x1f01('0x9a')]);let _0x470b06=_0x4cfbf9[_0x1f01('0x9b')](_0x4cfbf9[_0x1f01('0x9b')](_0x4cfbf9[_0x1f01('0x9b')](_0x4cfbf9[_0x1f01('0x9c')](_0x4cfbf9[_0x1f01('0x9d')](_0x4cfbf9[_0x1f01('0x9e')](_0x4cfbf9[_0x1f01('0x9e')](_0x4cfbf9[_0x1f01('0x9f')](_0x4cfbf9[_0x1f01('0xa0')](_0x4cfbf9[_0x1f01('0xa1')](_0x4cfbf9[_0x1f01('0xa2')],_0x442e56),_0x4cfbf9[_0x1f01('0xa3')]),email),_0x4cfbf9[_0x1f01('0xa4')]),emailCode),_0x4cfbf9[_0x1f01('0xa4')]),createdAt),_0x4cfbf9[_0x1f01('0xa4')]),updatedAt),_0x4cfbf9[_0x1f01('0xa5')]);return await Sequelize[_0x1f01('0x25')](_0x470b06,{'type':Sequelize[_0x1f01('0x26')]['In']});}static async[_0x1f01('0xa6')](_0x355579){var _0x18b84e={'OAJko':function(_0xcdd91c,_0x3d9b06){return _0xcdd91c+_0x3d9b06;},'mmuWR':function(_0x301914,_0x250a34){return _0x301914+_0x250a34;},'mzKcY':_0x1f01('0x2d'),'XqgHa':_0x1f01('0x93'),'grhlL':_0x1f01('0xa7')};let _0x52b9fe=_0x18b84e[_0x1f01('0xa8')](_0x18b84e[_0x1f01('0xa8')](_0x18b84e[_0x1f01('0xa9')](_0x18b84e[_0x1f01('0xa9')](_0x18b84e[_0x1f01('0xaa')],utils[_0x1f01('0x36')](_0x18b84e[_0x1f01('0xab')])),_0x18b84e[_0x1f01('0xac')]),_0x355579),'\x27');return await Sequelize[_0x1f01('0x25')](_0x52b9fe,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xad')](_0x5814e0,_0x26b1ac){var _0x1c7226={'VQvJi':function(_0x299c42,_0x499151){return _0x299c42+_0x499151;},'WiiUp':function(_0x385c9b,_0xfdceb8){return _0x385c9b+_0xfdceb8;},'atZbk':function(_0x142198,_0x28692d){return _0x142198+_0x28692d;},'DCdBl':_0x1f01('0xae'),'NQSiU':_0x1f01('0x93'),'syHhV':_0x1f01('0xa7'),'rjNMD':_0x1f01('0xaf')};let _0x2520c3=_0x1c7226[_0x1f01('0xb0')](_0x1c7226[_0x1f01('0xb1')](_0x1c7226[_0x1f01('0xb1')](_0x1c7226[_0x1f01('0xb2')](_0x1c7226[_0x1f01('0xb2')](_0x1c7226[_0x1f01('0xb2')](_0x1c7226[_0x1f01('0xb3')],utils[_0x1f01('0x36')](_0x1c7226[_0x1f01('0xb4')])),_0x1c7226[_0x1f01('0xb5')]),_0x5814e0),_0x1c7226[_0x1f01('0xb6')]),_0x26b1ac),'\x27');return await Sequelize[_0x1f01('0x25')](_0x2520c3,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const ExtendBehaviorInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0xb7'));ExtendBehaviorInfo[_0x1f01('0x1a')]({'force':![]});class ExtendBehaviorInfoModel{static async[_0x1f01('0xb8')](_0x293ac2){return await ExtendBehaviorInfo[_0x1f01('0x1c')]({..._0x293ac2});}static async[_0x1f01('0xb9')](_0x205076,_0x3859e6){await ExtendBehaviorInfo[_0x1f01('0x1e')]({..._0x3859e6},{'where':{'id':_0x205076},'fields':Object[_0x1f01('0x1f')](_0x3859e6)});return!![];}static async[_0x1f01('0xba')](){return await ExtendBehaviorInfo[_0x1f01('0x21')]();}static async[_0x1f01('0xbb')](_0xd3d46e){return await ExtendBehaviorInfo[_0x1f01('0x29')]({'where':{'id':_0xd3d46e}});}static async[_0x1f01('0xbc')](_0x1f8c39){await ExtendBehaviorInfo[_0x1f01('0x2b')]({'where':{'id':_0x1f8c39}});return!![];}static async[_0x1f01('0xbd')](_0x33b37d,_0x130c6e,_0x1a7aa7){var _0x1a77b8={'aiIBr':function(_0x2cea1d,_0x10f872){return _0x2cea1d+_0x10f872;},'IjGgb':function(_0x348289,_0x5128e1){return _0x348289+_0x5128e1;},'PFDsm':function(_0x2c37ee,_0x3da7c6){return _0x2c37ee+_0x3da7c6;},'wCwsR':function(_0x3c52e0,_0x58347b){return _0x3c52e0+_0x58347b;},'ZzPip':function(_0x350247,_0x27f8f5){return _0x350247+_0x27f8f5;},'PapVn':_0x1f01('0x2d'),'FXjdW':_0x1f01('0xbe'),'iyyzv':_0x1f01('0x2f'),'CVzki':_0x1f01('0x30')};const {timeScope}=_0x1a7aa7;let _0x4fe631=_0x1a77b8[_0x1f01('0xbf')](_0x1a77b8[_0x1f01('0xc0')](_0x1a77b8[_0x1f01('0xc1')](_0x1a77b8[_0x1f01('0xc2')](_0x1a77b8[_0x1f01('0xc3')](_0x1a77b8[_0x1f01('0xc4')],CommonSql[_0x1f01('0x36')](_0x1a77b8[_0x1f01('0xc5')],timeScope)),_0x1a77b8[_0x1f01('0xc6')]),_0x33b37d),_0x1a77b8[_0x1f01('0xc7')]),_0x130c6e);return await Sequelize[_0x1f01('0x25')](_0x4fe631,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const InfoCountByDay=Sequelize[_0x1f01('0x18')](_0x1f01('0xc8'));InfoCountByDay[_0x1f01('0x1a')]({'force':![]});class InfoCountByDayModel{static async[_0x1f01('0xc9')](_0x34ff8e){return await InfoCountByDay[_0x1f01('0x1c')]({..._0x34ff8e});}static async[_0x1f01('0xca')](_0x175f75,_0x1a9b15){await InfoCountByDay[_0x1f01('0x1e')]({..._0x1a9b15},{'where':{'id':_0x175f75},'fields':Object[_0x1f01('0x1f')](_0x1a9b15)});return!![];}static async[_0x1f01('0xcb')](){return await InfoCountByDay[_0x1f01('0x21')]();}static async[_0x1f01('0xcc')](_0x221b71){return await InfoCountByDay[_0x1f01('0x29')]({'where':{'id':_0x221b71}});}static async[_0x1f01('0xcd')](_0x174a69,_0xffc643,_0x2732fe){var _0x132a5a={'DmyvZ':function(_0x4b278b,_0x12d31f){return _0x4b278b+_0x12d31f;},'PDJrw':function(_0x3840bd,_0x434a5a){return _0x3840bd+_0x434a5a;},'TFsmw':function(_0x2094a4,_0x4bd5b8){return _0x2094a4+_0x4bd5b8;},'YUsxM':function(_0x47252a,_0x40672e){return _0x47252a+_0x40672e;},'jYjAJ':function(_0x4ae35c,_0x363357){return _0x4ae35c+_0x363357;},'DRgiV':_0x1f01('0xce'),'qUKYW':_0x1f01('0xcf'),'CeHee':_0x1f01('0xd0')};let _0x5a240e=_0x132a5a[_0x1f01('0xd1')](_0x132a5a[_0x1f01('0xd2')](_0x132a5a[_0x1f01('0xd2')](_0x132a5a[_0x1f01('0xd3')](_0x132a5a[_0x1f01('0xd4')](_0x132a5a[_0x1f01('0xd5')](_0x132a5a[_0x1f01('0xd6')],_0x174a69),_0x132a5a[_0x1f01('0xd7')]),_0xffc643),_0x132a5a[_0x1f01('0xd8')]),_0x2732fe),'\x27');return await Sequelize[_0x1f01('0x25')](_0x5a240e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xd9')](_0x344d4d){await InfoCountByDay[_0x1f01('0x2b')]({'where':{'id':_0x344d4d}});return!![];}}const Project=Sequelize[_0x1f01('0x18')](_0x1f01('0xda'));Project[_0x1f01('0x1a')]({'force':![]});class ProjectModel{static async[_0x1f01('0xdb')](_0x3aa709){return await Project[_0x1f01('0x1c')]({..._0x3aa709});}static async[_0x1f01('0xdc')](_0x311bfe,_0xd6b3d6){await Project[_0x1f01('0x1e')]({..._0xd6b3d6},{'where':{'id':_0x311bfe},'fields':Object[_0x1f01('0x1f')](_0xd6b3d6)});return!![];}static async[_0x1f01('0xdd')](_0x2ebf7e){var _0x43287b={'kUqpq':function(_0x108c09,_0x152b42){return _0x108c09+_0x152b42;},'UMaKG':function(_0x1debfd,_0x34f3ba){return _0x1debfd+_0x34f3ba;},'bqJWI':_0x1f01('0xde'),'DTemB':_0x1f01('0xdf')};let _0x219896=_0x2ebf7e[_0x1f01('0xe0')]?_0x43287b[_0x1f01('0xe1')](_0x43287b[_0x1f01('0xe2')](_0x43287b[_0x1f01('0xe3')],_0x2ebf7e[_0x1f01('0xe0')]),'\x27'):_0x43287b[_0x1f01('0xe4')];return await Sequelize[_0x1f01('0x25')](_0x219896,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xe5')](_0x4d8d49){var _0x2e8f69={'LFNCe':function(_0x4a8d1e,_0x12fdf8){return _0x4a8d1e+_0x12fdf8;},'tebpR':_0x1f01('0xa7'),'KmtwZ':_0x1f01('0xe6')};const _0x3312a1=_0x4d8d49?_0x2e8f69[_0x1f01('0xe7')](_0x2e8f69[_0x1f01('0xe7')](_0x2e8f69[_0x1f01('0xe8')],_0x4d8d49[_0x1f01('0xe0')]),'\x27'):'';let _0x1dbf39=_0x2e8f69[_0x1f01('0xe7')](_0x2e8f69[_0x1f01('0xe9')],_0x3312a1);return await Sequelize[_0x1f01('0x25')](_0x1dbf39,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xea')](_0x2350f1){var _0x4ed720={'SNjfK':function(_0x2e3866,_0x5623a4){return _0x2e3866+_0x5623a4;},'fWTkg':function(_0x38f9b1,_0x26ea01){return _0x38f9b1+_0x26ea01;},'HmOom':_0x1f01('0xeb')};const {userEmail}=_0x2350f1;let _0x57e091=_0x4ed720[_0x1f01('0xec')](_0x4ed720[_0x1f01('0xed')](_0x4ed720[_0x1f01('0xee')],userEmail),'\x27');return await Sequelize[_0x1f01('0x25')](_0x57e091,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xef')](_0x5ec8e1,_0x4eb7c5){var _0x525f12={'VPhNt':function(_0x3bac9b,_0x49ddbb){return _0x3bac9b+_0x49ddbb;},'CxeOD':function(_0x30576c,_0x538624){return _0x30576c+_0x538624;},'HDRtD':_0x1f01('0xf0'),'JxiTe':_0x1f01('0xf1')};let _0x1a5bab=_0x525f12[_0x1f01('0xf2')](_0x525f12[_0x1f01('0xf2')](_0x525f12[_0x1f01('0xf3')](_0x525f12[_0x1f01('0xf3')](_0x525f12[_0x1f01('0xf4')],_0x5ec8e1),_0x525f12[_0x1f01('0xf5')]),_0x4eb7c5),'\x27');return await Sequelize[_0x1f01('0x25')](_0x1a5bab,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xf6')](_0x2baf4a){return await Project[_0x1f01('0x29')]({'where':{'id':_0x2baf4a}});}static async[_0x1f01('0xf7')](_0x58eeee){await Project[_0x1f01('0x2b')]({'where':{'id':_0x58eeee}});return!![];}static async[_0x1f01('0xf8')](_0x351dd4){var _0x46daa6={'XflyL':function(_0x2c4655,_0x37734e){return _0x2c4655+_0x37734e;},'mRUKx':_0x1f01('0xf9')};let _0x3ab771=_0x46daa6[_0x1f01('0xfa')](_0x46daa6[_0x1f01('0xfa')](_0x46daa6[_0x1f01('0xfb')],_0x351dd4),'\x27');return await Sequelize[_0x1f01('0x25')](_0x3ab771,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0xfc')](_0x1420ce){var _0x22c363={'xVCiy':function(_0x121b54,_0xc41fb8){return _0x121b54+_0xc41fb8;},'CbBEL':function(_0x2b07a7,_0x3584a0){return _0x2b07a7+_0x3584a0;},'uwgot':_0x1f01('0xfd')};let _0x26ca58=_0x22c363[_0x1f01('0xfe')](_0x22c363[_0x1f01('0xff')](_0x22c363[_0x1f01('0x100')],_0x1420ce),'\x27');return await Sequelize[_0x1f01('0x25')](_0x26ca58,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x101')](_0x372a9d){var _0x3978d5={'dgHwF':function(_0x4a582c,_0x3ebb77){return _0x4a582c<_0x3ebb77;},'HsNsp':function(_0x81bb42,_0x510df5){return _0x81bb42+_0x510df5;},'OUcul':function(_0x58c23c,_0x29b3cb){return _0x58c23c+_0x29b3cb;},'JhOgP':function(_0x60aade,_0x597ef8){return _0x60aade+_0x597ef8;},'tWxOs':_0x1f01('0x102'),'rsOGQ':_0x1f01('0x103'),'gitzz':_0x1f01('0x104'),'MNGjC':_0x1f01('0x105'),'DgGAn':_0x1f01('0x106'),'KrRaY':function(_0x5a5870,_0x2bd326){return _0x5a5870+_0x2bd326;},'omNrL':function(_0x4152e5,_0x223f08){return _0x4152e5+_0x223f08;}};let _0x378d76='';for(let _0x1c09c5=0x0;_0x3978d5[_0x1f01('0x107')](_0x1c09c5,0x7);_0x1c09c5++){if(_0x3978d5[_0x1f01('0x107')](_0x1c09c5,0x6)){_0x378d76+=_0x3978d5[_0x1f01('0x108')](_0x3978d5[_0x1f01('0x109')](_0x3978d5[_0x1f01('0x10a')](_0x3978d5[_0x1f01('0x10a')](_0x3978d5[_0x1f01('0x10a')](_0x3978d5[_0x1f01('0x10b')],CommonSql[_0x1f01('0x36')](_0x3978d5[_0x1f01('0x10c')],_0x1c09c5)),_0x3978d5[_0x1f01('0x10d')]),_0x372a9d[_0x1f01('0x62')]),_0x3978d5[_0x1f01('0x10e')]),_0x3978d5[_0x1f01('0x10f')]);}else{_0x378d76+=_0x3978d5[_0x1f01('0x110')](_0x3978d5[_0x1f01('0x111')](_0x3978d5[_0x1f01('0x111')](_0x3978d5[_0x1f01('0x111')](_0x3978d5[_0x1f01('0x10b')],CommonSql[_0x1f01('0x36')](_0x3978d5[_0x1f01('0x10c')],_0x1c09c5)),_0x3978d5[_0x1f01('0x10d')]),_0x372a9d[_0x1f01('0x62')]),_0x3978d5[_0x1f01('0x10e')]);}}return await Sequelize[_0x1f01('0x25')](_0x378d76,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const IgnoreError=Sequelize[_0x1f01('0x18')](_0x1f01('0x112'));IgnoreError[_0x1f01('0x1a')]({'force':![]});class IgnoreErrorModel{static async[_0x1f01('0x113')](_0x49fbcf){return await IgnoreError[_0x1f01('0x1c')]({..._0x49fbcf});}static async[_0x1f01('0x114')](_0x43f18c,_0x19fcc9){await IgnoreError[_0x1f01('0x1e')]({..._0x19fcc9},{'where':{'id':_0x43f18c},'fields':Object[_0x1f01('0x1f')](_0x19fcc9)});return!![];}static async[_0x1f01('0x115')](){return await IgnoreError[_0x1f01('0x21')]();}static async[_0x1f01('0x116')](_0x5d7d92){var _0x1523ad={'cYdiZ':function(_0x5303c4,_0x5e9b97){return _0x5303c4+_0x5e9b97;},'ZAkqT':_0x1f01('0x117')};return await Sequelize[_0x1f01('0x25')](_0x1523ad[_0x1f01('0x118')](_0x1523ad[_0x1f01('0x118')](_0x1523ad[_0x1f01('0x119')],_0x5d7d92[_0x1f01('0x62')]),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x11a')](_0x2242ec){return await IgnoreError[_0x1f01('0x29')]({'where':{'id':_0x2242ec}});}static async[_0x1f01('0x11b')](_0x2b5b38){var _0x3be8db={'sGcVU':function(_0x16d62c,_0x2e42da){return _0x16d62c+_0x2e42da;},'QTHhs':function(_0x1fb2a2,_0x1af6d4){return _0x1fb2a2+_0x1af6d4;},'frVnS':function(_0x276441,_0x4845db){return _0x276441+_0x4845db;},'ojWHs':_0x1f01('0x11c'),'zimkn':_0x1f01('0x11d')};return await Sequelize[_0x1f01('0x25')](_0x3be8db[_0x1f01('0x11e')](_0x3be8db[_0x1f01('0x11f')](_0x3be8db[_0x1f01('0x120')](_0x3be8db[_0x1f01('0x120')](_0x3be8db[_0x1f01('0x121')],_0x2b5b38[_0x1f01('0x62')]),_0x3be8db[_0x1f01('0x122')]),_0x2b5b38[_0x1f01('0x123')]),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x124')](_0x4a7cc2){await IgnoreError[_0x1f01('0x2b')]({'where':{'id':_0x4a7cc2}});return!![];}}const InfoCountByHour=Sequelize[_0x1f01('0x18')](_0x1f01('0x125'));InfoCountByHour[_0x1f01('0x1a')]({'force':![]});class InfoCountByHourModel{static async[_0x1f01('0x126')](_0x16a8ac){return await InfoCountByHour[_0x1f01('0x1c')]({..._0x16a8ac});}static async[_0x1f01('0x127')](_0xd141af,_0x48bb32){await InfoCountByHour[_0x1f01('0x1e')]({..._0x48bb32},{'where':{'id':_0xd141af},'fields':Object[_0x1f01('0x1f')](_0x48bb32)});return!![];}static async[_0x1f01('0x128')](){return await InfoCountByHour[_0x1f01('0x21')]();}static async[_0x1f01('0x129')](_0x212f82){return await InfoCountByHour[_0x1f01('0x29')]({'where':{'id':_0x212f82}});}static async[_0x1f01('0x12a')](_0x4f3668,_0x33ff41,_0x4d1a35){var _0x1cff8e={'Gdbgl':function(_0xba7f71,_0x2ca525){return _0xba7f71+_0x2ca525;},'JoWXI':function(_0x23f2e8,_0x118eaa){return _0x23f2e8+_0x118eaa;},'kRLtl':function(_0x1d2c8e,_0x225eac){return _0x1d2c8e+_0x225eac;},'yRqDZ':function(_0x2fa2d4,_0x17142a){return _0x2fa2d4+_0x17142a;},'tCJIG':_0x1f01('0x12b'),'Dzqec':_0x1f01('0xcf'),'wbtuU':_0x1f01('0xd0')};let _0x140e13=_0x1cff8e[_0x1f01('0x12c')](_0x1cff8e[_0x1f01('0x12d')](_0x1cff8e[_0x1f01('0x12e')](_0x1cff8e[_0x1f01('0x12f')](_0x1cff8e[_0x1f01('0x12f')](_0x1cff8e[_0x1f01('0x12f')](_0x1cff8e[_0x1f01('0x130')],_0x4f3668),_0x1cff8e[_0x1f01('0x131')]),_0x33ff41),_0x1cff8e[_0x1f01('0x132')]),_0x4d1a35),'\x27');return await Sequelize[_0x1f01('0x25')](_0x140e13,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x133')](_0x5cf7cf,_0x18a1ac,_0x511311){var _0xb16001={'CoDcW':function(_0x26fac0,_0x19b341){return _0x26fac0+_0x19b341;},'iWhSk':function(_0xac6c7c,_0x3952be){return _0xac6c7c+_0x3952be;},'hbdtd':function(_0x443daf,_0x191fc9){return _0x443daf+_0x191fc9;},'SVnRV':function(_0x38e304,_0x214f15){return _0x38e304+_0x214f15;},'PDGfi':_0x1f01('0x134'),'iiiCM':_0x1f01('0xcf'),'vKUww':_0x1f01('0xd0')};let _0x24eca0=_0xb16001[_0x1f01('0x135')](_0xb16001[_0x1f01('0x135')](_0xb16001[_0x1f01('0x135')](_0xb16001[_0x1f01('0x136')](_0xb16001[_0x1f01('0x137')](_0xb16001[_0x1f01('0x138')](_0xb16001[_0x1f01('0x139')],_0x5cf7cf),_0xb16001[_0x1f01('0x13a')]),_0x18a1ac),_0xb16001[_0x1f01('0x13b')]),_0x511311),'\x27');return await Sequelize[_0x1f01('0x25')](_0x24eca0,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x13c')](_0x4addc2){await InfoCountByHour[_0x1f01('0x2b')]({'where':{'id':_0x4addc2}});return!![];}}class CommonModel{static async[_0x1f01('0x13d')](){var _0x1c4531={'lFPsz':_0x1f01('0x13e')};let _0x1c4c69=_0x1c4531[_0x1f01('0x13f')];return await Sequelize[_0x1f01('0x25')](_0x1c4c69,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x140')](){var _0x98b68={'xqcml':_0x1f01('0x141')};let _0x48b78c=_0x98b68[_0x1f01('0x142')];return await Sequelize[_0x1f01('0x25')](_0x48b78c,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x143')](_0x1ed001){var _0x160648={'QTZbX':function(_0x3d5f4e,_0x22fbe0){return _0x3d5f4e+_0x22fbe0;},'OYpyP':_0x1f01('0x144')};let _0x2d2c7e=_0x160648[_0x1f01('0x145')](_0x160648[_0x1f01('0x146')],_0x1ed001);console[_0x1f01('0x147')](_0x2d2c7e);return await Sequelize[_0x1f01('0x25')](_0x2d2c7e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const LoadPageInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x148'));LoadPageInfo[_0x1f01('0x1a')]({'force':![]});class LoadPageInfoModel{static async[_0x1f01('0x149')](_0xa6bc08){return await LoadPageInfo[_0x1f01('0x1c')]({..._0xa6bc08});}static async[_0x1f01('0x14a')](_0x5ce322,_0x4ae006){await LoadPageInfo[_0x1f01('0x1e')]({..._0x4ae006},{'where':{'id':_0x5ce322},'fields':Object[_0x1f01('0x1f')](_0x4ae006)});return!![];}static async[_0x1f01('0x14b')](){return await LoadPageInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x14c')](_0x31ca7b){return await LoadPageInfo[_0x1f01('0x29')]({'where':{'id':_0x31ca7b}});}static async[_0x1f01('0x14d')](_0x78058a){await LoadPageInfo[_0x1f01('0x2b')]({'where':{'id':_0x78058a}});return!![];}static async[_0x1f01('0x14e')](_0x1fd319,_0x4f96b1,_0x3b1daf,_0x4321f0){var _0xb1ef42={'vgFfw':function(_0x57f101,_0x158197){return _0x57f101+_0x158197;},'JVfVA':function(_0x1802c8,_0x5e664e){return _0x1802c8+_0x5e664e;},'sPdZf':function(_0x344669,_0x43b23f){return _0x344669+_0x43b23f;},'OzGHB':function(_0x4cec7c,_0x1cd1b2){return _0x4cec7c+_0x1cd1b2;},'jkBKi':_0x1f01('0x14f'),'xtDXS':_0x1f01('0x150'),'PSDjp':_0x1f01('0x151'),'lAOHj':_0x1f01('0x30'),'MncJL':_0x1f01('0x31'),'FPDzr':_0x1f01('0x152')};const {timeScope}=_0x4321f0;let _0x5191d6=_0xb1ef42[_0x1f01('0x153')](_0xb1ef42[_0x1f01('0x153')](_0xb1ef42[_0x1f01('0x153')](_0xb1ef42[_0x1f01('0x153')](_0xb1ef42[_0x1f01('0x154')](_0xb1ef42[_0x1f01('0x155')](_0xb1ef42[_0x1f01('0x155')](_0xb1ef42[_0x1f01('0x156')](_0xb1ef42[_0x1f01('0x157')],CommonSql[_0x1f01('0x36')](_0xb1ef42[_0x1f01('0x158')],timeScope)),_0xb1ef42[_0x1f01('0x159')]),_0x3b1daf),_0xb1ef42[_0x1f01('0x15a')]),_0x4f96b1),_0xb1ef42[_0x1f01('0x15b')]),_0x1fd319),_0xb1ef42[_0x1f01('0x15c')]);return await Sequelize[_0x1f01('0x25')](_0x5191d6,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x15d')](_0x2fede0,_0x41d3a9,_0x18acd2){var _0x3721a5={'IJUBE':function(_0x558822,_0x5af807){return _0x558822+_0x5af807;},'qESma':function(_0x27cc2b,_0x55351e){return _0x27cc2b+_0x55351e;},'wXzIe':function(_0x58e69e,_0x4c3454){return _0x58e69e+_0x4c3454;},'gDyPC':_0x1f01('0x15e'),'MqHcG':_0x1f01('0x150'),'aXcsX':_0x1f01('0x2f'),'MllYg':_0x1f01('0x31')};const {timeScope}=_0x18acd2;let _0x3c96a4=_0x3721a5[_0x1f01('0x15f')](_0x3721a5[_0x1f01('0x15f')](_0x3721a5[_0x1f01('0x160')](_0x3721a5[_0x1f01('0x160')](_0x3721a5[_0x1f01('0x161')](_0x3721a5[_0x1f01('0x162')],CommonSql[_0x1f01('0x36')](_0x3721a5[_0x1f01('0x163')],timeScope)),_0x3721a5[_0x1f01('0x164')]),_0x41d3a9),_0x3721a5[_0x1f01('0x165')]),_0x2fede0);return await Sequelize[_0x1f01('0x25')](_0x3c96a4,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x166')](_0x20295b){var _0x2902e9={'LYToD':function(_0x5323a1,_0x2a9f70){return _0x5323a1-_0x2a9f70;},'zskSl':function(_0x12e276,_0x48a77c){return _0x12e276+_0x48a77c;},'KQYVc':function(_0x433f9c,_0x2cb5da){return _0x433f9c+_0x2cb5da;},'BTDvV':function(_0x46e59c,_0x18dfe1){return _0x46e59c+_0x18dfe1;},'OpBgm':_0x1f01('0x167'),'hECSd':_0x1f01('0x168'),'iXjUo':_0x1f01('0x169')};const _0x59a91f=utils[_0x1f01('0x3f')](_0x2902e9[_0x1f01('0x16a')](0x0,_0x20295b[_0x1f01('0x16b')]));const _0x4d9781=_0x2902e9[_0x1f01('0x16c')](_0x2902e9[_0x1f01('0x16d')](_0x2902e9[_0x1f01('0x16e')](_0x2902e9[_0x1f01('0x16e')](_0x2902e9[_0x1f01('0x16f')],_0x59a91f),_0x2902e9[_0x1f01('0x170')]),_0x20295b[_0x1f01('0x62')]),_0x2902e9[_0x1f01('0x171')]);return await Sequelize[_0x1f01('0x25')](_0x4d9781,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}setInterval(function(){var _0x50004b={'EcbWO':function(_0x1b9985){return _0x1b9985();}};_0x50004b[_0x1f01('0x172')](_0x3377ce);},0xfa0);const User=Sequelize[_0x1f01('0x18')](_0x1f01('0x173'));User[_0x1f01('0x1a')]({'force':![]});class UserModel{static async[_0x1f01('0x1c')](_0x20ccdf){let {username,email,emailPwd,password}=_0x20ccdf;await User[_0x1f01('0x1c')]({'username':username,'email':email,'emailPwd':emailPwd,'password':password});return!![];}static async[_0x1f01('0x174')](_0x35b4b1){await User[_0x1f01('0x2b')]({'where':{'id':_0x35b4b1}});return!![];}static async[_0x1f01('0x175')](){var _0x11697a={'ckBWu':_0x1f01('0x176')};return await User[_0x1f01('0x177')]({'attributes':['id',_0x11697a[_0x1f01('0x178')]]});}static async[_0x1f01('0x179')](_0x458e6e){return await User[_0x1f01('0x29')]({'where':{'username':_0x458e6e}});}static async[_0x1f01('0x17a')](_0x22aa01){return await User[_0x1f01('0x29')]({'where':{'email':_0x22aa01}});}static async[_0x1f01('0x17b')](_0x54acc9,_0x29edef){return await User[_0x1f01('0x29')]({'where':{'email':_0x54acc9,'password':_0x29edef}});}}const HttpErrorInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x17c'));HttpErrorInfo[_0x1f01('0x1a')]({'force':![]});class HttpErrorInfoModel{static async[_0x1f01('0x17d')](_0xf7f3f5){return await HttpErrorInfo[_0x1f01('0x1c')]({..._0xf7f3f5});}static async[_0x1f01('0x17e')](_0x2b2e3b,_0x20ec9a){await HttpErrorInfo[_0x1f01('0x1e')]({..._0x20ec9a},{'where':{'id':_0x2b2e3b},'fields':Object[_0x1f01('0x1f')](_0x20ec9a)});return!![];}static async[_0x1f01('0x17f')](){return await HttpErrorInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x180')](_0x64e513){return await HttpErrorInfo[_0x1f01('0x29')]({'where':{'id':_0x64e513}});}static async[_0x1f01('0x181')](_0x18523e){await HttpErrorInfo[_0x1f01('0x2b')]({'where':{'id':_0x18523e}});return!![];}static async[_0x1f01('0x182')](_0x5e479a,_0x95eba1,_0x415459,_0x21d426){var _0x215902={'fMswk':function(_0x26ab23,_0x40a5a8){return _0x26ab23+_0x40a5a8;},'pxNOi':function(_0x80222c,_0x586124){return _0x80222c+_0x586124;},'FToQs':function(_0x1e592f,_0x3fe72a){return _0x1e592f+_0x3fe72a;},'owXoG':function(_0x513e09,_0x54ab34){return _0x513e09+_0x54ab34;},'dSxoN':_0x1f01('0x2d'),'cKnsU':_0x1f01('0x183'),'FJnCa':_0x1f01('0x2f'),'bsjqp':_0x1f01('0x31')};const {timeScope}=_0x21d426;let _0x1d3f67=_0x215902[_0x1f01('0x184')](_0x215902[_0x1f01('0x185')](_0x215902[_0x1f01('0x185')](_0x215902[_0x1f01('0x185')](_0x215902[_0x1f01('0x185')](_0x215902[_0x1f01('0x186')](_0x215902[_0x1f01('0x187')](_0x215902[_0x1f01('0x188')],CommonSql[_0x1f01('0x36')](_0x215902[_0x1f01('0x189')],timeScope)),_0x215902[_0x1f01('0x18a')]),_0x95eba1),_0x215902[_0x1f01('0x18b')]),_0x415459),_0x215902[_0x1f01('0x18b')]),_0x5e479a);return await Sequelize[_0x1f01('0x25')](_0x1d3f67,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x18c')](_0x34e419){var _0x134c80={'YIhEG':function(_0x4ded06,_0x3365b7){return _0x4ded06-_0x3365b7;},'tQahn':function(_0x255d8b,_0x133d07){return _0x255d8b*_0x133d07;},'pZKNh':function(_0x5f3327,_0xd6d683){return _0x5f3327*_0xd6d683;},'JSzZr':_0x1f01('0x18d'),'iiEoH':function(_0x25ddd9,_0x3c0391){return _0x25ddd9+_0x3c0391;},'NPrsl':function(_0x4d073d,_0x38c8bf){return _0x4d073d+_0x38c8bf;},'oWlwv':function(_0x554112,_0x7b6fb4){return _0x554112+_0x7b6fb4;},'ZpaAg':function(_0x47a9ba,_0x53624e){return _0x47a9ba+_0x53624e;},'QSQGW':_0x1f01('0x18e'),'zoTIj':_0x1f01('0xd0'),'lkaiM':_0x1f01('0x18f'),'IzVPY':_0x1f01('0x190'),'AoHnb':_0x1f01('0x191')};const _0x581dd1=new Date()[_0x1f01('0x192')]();const _0xfc50c0=_0x134c80[_0x1f01('0x193')](_0x581dd1,_0x134c80[_0x1f01('0x194')](_0x134c80[_0x1f01('0x195')](0x17,0xe10),0x3e8));const _0x5a4f0d=_0x581dd1;const _0x3233b7=new Date(_0xfc50c0)[_0x1f01('0x98')](_0x134c80[_0x1f01('0x196')]);const _0x2beb87=new Date(_0x5a4f0d)[_0x1f01('0x98')](_0x134c80[_0x1f01('0x196')]);let _0x4ee45d=_0x134c80[_0x1f01('0x197')](_0x134c80[_0x1f01('0x198')](_0x134c80[_0x1f01('0x198')](_0x134c80[_0x1f01('0x198')](_0x134c80[_0x1f01('0x199')](_0x134c80[_0x1f01('0x19a')](_0x134c80[_0x1f01('0x19a')](_0x134c80[_0x1f01('0x19a')](_0x134c80[_0x1f01('0x19b')],_0x34e419[_0x1f01('0x62')]),_0x134c80[_0x1f01('0x19c')]),_0x34e419[_0x1f01('0x19d')]),_0x134c80[_0x1f01('0x19e')]),_0x3233b7),_0x134c80[_0x1f01('0x19f')]),_0x2beb87),_0x134c80[_0x1f01('0x1a0')]);return await Sequelize[_0x1f01('0x25')](_0x4ee45d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1a1')](_0x41e04b){var _0xb0e17d={'iZiWj':function(_0x1ffc70,_0x48e3a3){return _0x1ffc70+_0x48e3a3;},'JdzIQ':function(_0xe2c7e9,_0x37cd1a){return _0xe2c7e9-_0x37cd1a;},'oJvpZ':function(_0x5b75ef,_0x504a45){return _0x5b75ef*_0x504a45;},'kNfCW':function(_0x28a923,_0x5b5bd4){return _0x28a923*_0x5b5bd4;},'scHEj':function(_0x3db1ee,_0x147275){return _0x3db1ee*_0x147275;},'HPXcx':function(_0x18ec00,_0x20af00){return _0x18ec00*_0x20af00;},'QCCnV':function(_0x26f486,_0x5a6fc7){return _0x26f486*_0x5a6fc7;},'XylOT':_0x1f01('0x18d'),'DGMBH':function(_0x4a2d2c,_0x4aec25){return _0x4a2d2c+_0x4aec25;},'fKYQp':function(_0x2cfcb0,_0x1c6acb){return _0x2cfcb0+_0x1c6acb;},'rkxBB':function(_0x536ced,_0x4b8e38){return _0x536ced+_0x4b8e38;},'eNrzZ':function(_0x5a18a4,_0x1e423d){return _0x5a18a4+_0x1e423d;},'pzUlg':_0x1f01('0x18e'),'LazBE':_0x1f01('0xd0'),'xHaeN':_0x1f01('0x18f'),'dnuLn':_0x1f01('0x190'),'UWPkW':_0x1f01('0x191')};const _0x1954b2=new Date()[_0x1f01('0x192')]();const _0x35f947=_0xb0e17d[_0x1f01('0x1a2')](_0xb0e17d[_0x1f01('0x1a3')](_0x1954b2,_0xb0e17d[_0x1f01('0x1a4')](_0xb0e17d[_0x1f01('0x1a5')](_0xb0e17d[_0x1f01('0x1a6')](0x8,0x18),0xe10),0x3e8)),_0xb0e17d[_0x1f01('0x1a7')](0xe10,0x3e8));const _0xd156f=_0xb0e17d[_0x1f01('0x1a2')](_0x35f947,_0xb0e17d[_0x1f01('0x1a8')](_0xb0e17d[_0x1f01('0x1a8')](0x17,0xe10),0x3e8));const _0x2fd593=new Date(_0x35f947)[_0x1f01('0x98')](_0xb0e17d[_0x1f01('0x1a9')]);const _0x1e02d1=new Date(_0xd156f)[_0x1f01('0x98')](_0xb0e17d[_0x1f01('0x1a9')]);let _0x536d02=_0xb0e17d[_0x1f01('0x1a2')](_0xb0e17d[_0x1f01('0x1a2')](_0xb0e17d[_0x1f01('0x1aa')](_0xb0e17d[_0x1f01('0x1aa')](_0xb0e17d[_0x1f01('0x1aa')](_0xb0e17d[_0x1f01('0x1ab')](_0xb0e17d[_0x1f01('0x1ac')](_0xb0e17d[_0x1f01('0x1ad')](_0xb0e17d[_0x1f01('0x1ae')],_0x41e04b[_0x1f01('0x62')]),_0xb0e17d[_0x1f01('0x1af')]),_0x41e04b[_0x1f01('0x19d')]),_0xb0e17d[_0x1f01('0x1b0')]),_0x2fd593),_0xb0e17d[_0x1f01('0x1b1')]),_0x1e02d1),_0xb0e17d[_0x1f01('0x1b2')]);return await Sequelize[_0x1f01('0x25')](_0x536d02,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1b3')](_0x228e1b){var _0x18d025={'jRLpL':function(_0x10f58f,_0x3cb100){return _0x10f58f+_0x3cb100;},'asAhS':function(_0x6527c2,_0xad1115){return _0x6527c2+_0xad1115;},'mxQfQ':function(_0x3376f8,_0x392326){return _0x3376f8+_0x392326;},'jougY':_0x1f01('0x1b4'),'KCelI':_0x1f01('0xd0')};let _0x3338f8=_0x18d025[_0x1f01('0x1b5')](_0x18d025[_0x1f01('0x1b6')](_0x18d025[_0x1f01('0x1b7')](_0x18d025[_0x1f01('0x1b7')](_0x18d025[_0x1f01('0x1b8')],_0x228e1b[_0x1f01('0x62')]),_0x18d025[_0x1f01('0x1b9')]),_0x228e1b[_0x1f01('0x19d')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x3338f8,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1ba')](_0x1cc559){var _0x52236a={'LbANw':_0x1f01('0x183'),'veEsF':function(_0x385824,_0x4b9bcf){return _0x385824+_0x4b9bcf;},'WJpfZ':function(_0x36ba4a,_0x27c102){return _0x36ba4a+_0x27c102;},'jaEol':function(_0x35dd0b,_0x2a60a4){return _0x35dd0b+_0x2a60a4;},'uhKMa':_0x1f01('0x1bb'),'krqCi':_0x1f01('0x104'),'dqBRD':_0x1f01('0x1bc')};const {timeType}=_0x1cc559;const _0x279010=CommonSql[_0x1f01('0x36')](_0x52236a[_0x1f01('0x1bd')],timeType);const _0x5b98e6=_0x52236a[_0x1f01('0x1be')](_0x52236a[_0x1f01('0x1bf')](_0x52236a[_0x1f01('0x1bf')](_0x52236a[_0x1f01('0x1bf')](_0x52236a[_0x1f01('0x1c0')](_0x52236a[_0x1f01('0x1c1')],_0x279010),_0x52236a[_0x1f01('0x1c2')]),_0x1cc559[_0x1f01('0x62')]),'\x27\x20'),_0x52236a[_0x1f01('0x1c3')]);return await Sequelize[_0x1f01('0x25')](_0x5b98e6,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1c4')](_0x3d0179,_0x3e460b){var _0x2543eb={'LzYuA':_0x1f01('0x183'),'JAuvO':function(_0x26109a,_0x3a5e08){return _0x26109a+_0x3a5e08;},'VnUIx':function(_0x227b20,_0x3e4400){return _0x227b20+_0x3e4400;},'ikqlx':function(_0x1bbcba,_0x5b4995){return _0x1bbcba+_0x5b4995;},'mCYFy':_0x1f01('0x1c5'),'zRreH':_0x1f01('0x104'),'ODSws':_0x1f01('0x1c6'),'imsOT':_0x1f01('0x1c7')};const {timeType}=_0x3e460b;const _0x1dbb6e=CommonSql[_0x1f01('0x36')](_0x2543eb[_0x1f01('0x1c8')],timeType);return await Sequelize[_0x1f01('0x25')](_0x2543eb[_0x1f01('0x1c9')](_0x2543eb[_0x1f01('0x1ca')](_0x2543eb[_0x1f01('0x1ca')](_0x2543eb[_0x1f01('0x1ca')](_0x2543eb[_0x1f01('0x1cb')](_0x2543eb[_0x1f01('0x1cb')](_0x2543eb[_0x1f01('0x1cb')](_0x2543eb[_0x1f01('0x1cc')],_0x1dbb6e),_0x2543eb[_0x1f01('0x1cd')]),_0x3e460b[_0x1f01('0x62')]),'\x27\x20'),_0x2543eb[_0x1f01('0x1ce')]),_0x3d0179),_0x2543eb[_0x1f01('0x1cf')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1d0')](_0x28d7ee,_0x190337){var _0x1e0728={'aFIkL':_0x1f01('0x183'),'PrNjc':function(_0x3f0515,_0x479979){return _0x3f0515+_0x479979;},'wpIpb':function(_0x313c1a,_0x10fd16){return _0x313c1a+_0x10fd16;},'wmoME':function(_0xfe9421,_0x4ac182){return _0xfe9421+_0x4ac182;},'WclOM':_0x1f01('0x1d1'),'sxbBO':_0x1f01('0x104'),'fbVYD':_0x1f01('0x1c6'),'PkcJP':_0x1f01('0x1d2')};const {timeType}=_0x190337;const _0x4c9144=CommonSql[_0x1f01('0x36')](_0x1e0728[_0x1f01('0x1d3')],timeType);const _0x2cbb40=_0x1e0728[_0x1f01('0x1d4')](_0x1e0728[_0x1f01('0x1d4')](_0x1e0728[_0x1f01('0x1d5')](_0x1e0728[_0x1f01('0x1d5')](_0x1e0728[_0x1f01('0x1d5')](_0x1e0728[_0x1f01('0x1d5')](_0x1e0728[_0x1f01('0x1d6')](_0x1e0728[_0x1f01('0x1d7')],_0x4c9144),_0x1e0728[_0x1f01('0x1d8')]),_0x190337[_0x1f01('0x62')]),'\x27\x20'),_0x1e0728[_0x1f01('0x1d9')]),_0x28d7ee),_0x1e0728[_0x1f01('0x1da')]);return await Sequelize[_0x1f01('0x25')](_0x2cbb40,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1db')](_0xbde5,_0x530514){var _0x469ad5={'RCnCp':_0x1f01('0x183'),'JItCJ':function(_0x50afed,_0x2710f6){return _0x50afed+_0x2710f6;},'uwazC':function(_0x5a4523,_0x3f6183){return _0x5a4523+_0x3f6183;},'xjomb':function(_0x1ddf84,_0x82a4ba){return _0x1ddf84+_0x82a4ba;},'ficjI':function(_0x24bf93,_0x375c7c){return _0x24bf93+_0x375c7c;},'IrJdF':function(_0x175a69,_0x13a10f){return _0x175a69+_0x13a10f;},'LdlKV':_0x1f01('0x1dc'),'Kfqrf':_0x1f01('0x104'),'xJKKb':_0x1f01('0x1c6'),'EjyNC':_0x1f01('0x1d2')};const {timeType}=_0x530514;const _0x24e7de=CommonSql[_0x1f01('0x36')](_0x469ad5[_0x1f01('0x1dd')],timeType);const _0xdd4108=_0x469ad5[_0x1f01('0x1de')](_0x469ad5[_0x1f01('0x1df')](_0x469ad5[_0x1f01('0x1e0')](_0x469ad5[_0x1f01('0x1e1')](_0x469ad5[_0x1f01('0x1e1')](_0x469ad5[_0x1f01('0x1e1')](_0x469ad5[_0x1f01('0x1e2')](_0x469ad5[_0x1f01('0x1e3')],_0x24e7de),_0x469ad5[_0x1f01('0x1e4')]),_0x530514[_0x1f01('0x62')]),'\x27\x20'),_0x469ad5[_0x1f01('0x1e5')]),_0xbde5),_0x469ad5[_0x1f01('0x1e6')]);return await Sequelize[_0x1f01('0x25')](_0xdd4108,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1e7')](_0x3c13ba,_0x3aa6e5){var _0x2507eb={'MEnow':function(_0x28b1af,_0x3d536b){return _0x28b1af+_0x3d536b;},'MFRXJ':function(_0x1fd0c3,_0x38c943){return _0x1fd0c3+_0x38c943;},'TRJNE':function(_0xb6da5b,_0x3ff95c){return _0xb6da5b+_0x3ff95c;},'kKBlY':function(_0x1b6ee7,_0x1b0cd1){return _0x1b6ee7+_0x1b0cd1;},'XZEnt':_0x1f01('0x1e8'),'gQdoJ':_0x1f01('0x1c6'),'ELMhF':_0x1f01('0x1d2')};const {timeType}=_0x3aa6e5;const _0x1e2384=CommonSql[_0x1f01('0x1e9')](timeType);const _0x1b9bb5=_0x2507eb[_0x1f01('0x1ea')](_0x2507eb[_0x1f01('0x1eb')](_0x2507eb[_0x1f01('0x1ec')](_0x2507eb[_0x1f01('0x1ec')](_0x2507eb[_0x1f01('0x1ed')](_0x2507eb[_0x1f01('0x1ed')](_0x2507eb[_0x1f01('0x1ee')],_0x3aa6e5[_0x1f01('0x62')]),'\x27\x20'),_0x1e2384),_0x2507eb[_0x1f01('0x1ef')]),_0x3c13ba),_0x2507eb[_0x1f01('0x1f0')]);return await Sequelize[_0x1f01('0x25')](_0x1b9bb5,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1f1')](_0x281db4){var _0x2f99eb={'EhQeU':_0x1f01('0x183'),'nrdBK':function(_0x232f1e,_0x47aadd){return _0x232f1e+_0x47aadd;},'NfKqh':function(_0x30fc8e,_0x270979){return _0x30fc8e+_0x270979;},'GVpjp':function(_0x51699d,_0x26b56d){return _0x51699d+_0x26b56d;},'FdMvR':function(_0xeb7031,_0xae64b5){return _0xeb7031+_0xae64b5;},'BZxQf':function(_0x1add1b,_0x47b359){return _0x1add1b+_0x47b359;},'MBxIB':_0x1f01('0x2d'),'AHCDP':_0x1f01('0x104'),'sRvvM':_0x1f01('0x1f2'),'SIPPM':_0x1f01('0x1f3')};const {simpleHttpUrl,timeType}=_0x281db4;const _0x8b55e0=CommonSql[_0x1f01('0x36')](_0x2f99eb[_0x1f01('0x1f4')],timeType);const _0x55c1c7=_0x2f99eb[_0x1f01('0x1f5')](_0x2f99eb[_0x1f01('0x1f6')](_0x2f99eb[_0x1f01('0x1f6')](_0x2f99eb[_0x1f01('0x1f7')](_0x2f99eb[_0x1f01('0x1f8')](_0x2f99eb[_0x1f01('0x1f9')](_0x2f99eb[_0x1f01('0x1fa')],_0x8b55e0),_0x2f99eb[_0x1f01('0x1fb')]),_0x281db4[_0x1f01('0x62')]),_0x2f99eb[_0x1f01('0x1fc')]),simpleHttpUrl),_0x2f99eb[_0x1f01('0x1fd')]);return await Sequelize[_0x1f01('0x25')](_0x55c1c7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x1fe')](_0x364c09,_0x5dd3ef,_0x24ed2e){var _0x10a41b={'eygiA':_0x1f01('0x183'),'LVhRD':function(_0x185a75,_0x35f66a){return _0x185a75===_0x35f66a;},'jzfrp':function(_0xda1f05,_0x5430bc){return _0xda1f05+_0x5430bc;},'mybKS':_0x1f01('0x1ff'),'GfOFd':function(_0x4c76b2,_0x15a327){return _0x4c76b2+_0x15a327;},'hupwJ':function(_0x1aea43,_0x4eb304){return _0x1aea43+_0x4eb304;},'gNSij':function(_0x3b45d6,_0x4aabf4){return _0x3b45d6+_0x4aabf4;},'XfdYQ':function(_0x40638c,_0x40bfc3){return _0x40638c+_0x40bfc3;},'DSdLO':function(_0x81e078,_0x16fcd7){return _0x81e078+_0x16fcd7;},'lDkvd':_0x1f01('0xae'),'dJvOr':_0x1f01('0x200'),'nyFft':_0x1f01('0x201'),'IIuxc':_0x1f01('0x202')};const _0x21ec5c=Utils[_0x1f01('0x3f')](-0x1);let _0x1370c5=Utils[_0x1f01('0x36')](_0x10a41b[_0x1f01('0x203')]);if(_0x10a41b[_0x1f01('0x204')](_0x5dd3ef,_0x10a41b[_0x1f01('0x205')](_0x21ec5c,_0x10a41b[_0x1f01('0x206')]))){_0x1370c5=CommonSql[_0x1f01('0x36')](_0x10a41b[_0x1f01('0x203')],0x1);}let _0x5edd6c=_0x10a41b[_0x1f01('0x207')](_0x10a41b[_0x1f01('0x207')](_0x10a41b[_0x1f01('0x208')](_0x10a41b[_0x1f01('0x209')](_0x10a41b[_0x1f01('0x209')](_0x10a41b[_0x1f01('0x20a')](_0x10a41b[_0x1f01('0x20b')](_0x10a41b[_0x1f01('0x20b')](_0x10a41b[_0x1f01('0x20c')],_0x1370c5),_0x10a41b[_0x1f01('0x20d')]),_0x5dd3ef),_0x10a41b[_0x1f01('0x20e')]),_0x24ed2e),_0x10a41b[_0x1f01('0x20f')]),_0x364c09),'\x27');return await Sequelize[_0x1f01('0x25')](_0x5edd6c,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x210')](_0x3d559e,_0x2e02d1){var _0x31c5a4={'jaXIO':function(_0x41038f,_0x47f6be){return _0x41038f+_0x47f6be;},'JfHku':function(_0x42d365,_0x53f394){return _0x42d365+_0x53f394;},'TldUc':function(_0x1429b5,_0x1007fe){return _0x1429b5+_0x1007fe;},'IFMoN':_0x1f01('0xae'),'SuuMz':_0x1f01('0x183'),'XhfLK':_0x1f01('0x211')};let _0xffb67f=_0x31c5a4[_0x1f01('0x212')](_0x31c5a4[_0x1f01('0x212')](_0x31c5a4[_0x1f01('0x213')](_0x31c5a4[_0x1f01('0x214')](_0x31c5a4[_0x1f01('0x214')](_0x31c5a4[_0x1f01('0x215')],_0x31c5a4[_0x1f01('0x216')]),_0x2e02d1[_0x1f01('0x217')](/-/g,'')),_0x31c5a4[_0x1f01('0x218')]),_0x3d559e),'\x27');return await Sequelize[_0x1f01('0x25')](_0xffb67f,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x219')](_0x39699a,_0x5c7694){var _0x3f80e0={'JxtUT':_0x1f01('0x183'),'rxMOW':function(_0x54d515,_0x33c3bc){return _0x54d515+_0x33c3bc;},'LjUgF':function(_0x2e80ef,_0x3a77fa){return _0x2e80ef+_0x3a77fa;},'VRRIo':function(_0x37ef6b,_0x21a50e){return _0x37ef6b+_0x21a50e;},'USBWg':_0x1f01('0x1dc'),'Kicqs':_0x1f01('0x211')};const _0x3ab8c6=CommonSql[_0x1f01('0x36')](_0x3f80e0[_0x1f01('0x21a')],_0x5c7694);let _0x2c0588=_0x3f80e0[_0x1f01('0x21b')](_0x3f80e0[_0x1f01('0x21c')](_0x3f80e0[_0x1f01('0x21d')](_0x3f80e0[_0x1f01('0x21d')](_0x3f80e0[_0x1f01('0x21e')],_0x3ab8c6),_0x3f80e0[_0x1f01('0x21f')]),_0x39699a),'\x27');return await Sequelize[_0x1f01('0x25')](_0x2c0588,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const VideosInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x220'));VideosInfo[_0x1f01('0x1a')]({'force':![]});class VideosInfoModel{static async[_0x1f01('0x221')](_0x5660d3){return await VideosInfo[_0x1f01('0x1c')]({..._0x5660d3});}static async[_0x1f01('0x222')](_0x4cb9d1,_0x52c3a2){await VideosInfo[_0x1f01('0x1e')]({..._0x52c3a2},{'where':{'id':_0x4cb9d1},'fields':Object[_0x1f01('0x1f')](_0x52c3a2)});return!![];}static async[_0x1f01('0x223')](){return await VideosInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x224')](_0x2b7b1e){return await VideosInfo[_0x1f01('0x29')]({'where':{'id':_0x2b7b1e}});}static async[_0x1f01('0x225')](_0x32bf8f){await VideosInfo[_0x1f01('0x2b')]({'where':{'id':_0x32bf8f}});return!![];}static async[_0x1f01('0x226')](_0x4d6482){var _0x330db6={'XFcaD':_0x1f01('0x227')};let _0x294e9f=_0x330db6[_0x1f01('0x228')];return await Sequelize[_0x1f01('0x25')](_0x294e9f,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const ResourceLoadInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x229'));ResourceLoadInfo[_0x1f01('0x1a')]({'force':![]});class ResourceLoadInfoModel{static async[_0x1f01('0x22a')](_0x32b8b3){return await ResourceLoadInfo[_0x1f01('0x1c')]({..._0x32b8b3});}static async[_0x1f01('0x22b')](_0x511ba8,_0x1529aa){await ResourceLoadInfo[_0x1f01('0x1e')]({..._0x1529aa},{'where':{'id':_0x511ba8},'fields':Object[_0x1f01('0x1f')](_0x1529aa)});return!![];}static async[_0x1f01('0x22c')](){return await ResourceLoadInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x22d')](_0x23a81d){return await ResourceLoadInfo[_0x1f01('0x29')]({'where':{'id':_0x23a81d}});}static async[_0x1f01('0x22e')](_0x466b4d){await ResourceLoadInfo[_0x1f01('0x2b')]({'where':{'id':_0x466b4d}});return!![];}static async[_0x1f01('0x22f')](_0x32d28d,_0x234581,_0x4d0494,_0x2d00dc){var _0x3e1e1e={'kZgQt':function(_0xc83d42,_0xac70a2){return _0xc83d42+_0xac70a2;},'qfcvh':function(_0x3f103e,_0x378d32){return _0x3f103e+_0x378d32;},'OdbWh':_0x1f01('0x2d'),'qUXBS':_0x1f01('0x230'),'LHWQj':_0x1f01('0x2f'),'jqhjo':_0x1f01('0x30'),'pupYt':_0x1f01('0x31')};const {timeScope}=_0x2d00dc;let _0x55d9e7=_0x3e1e1e[_0x1f01('0x231')](_0x3e1e1e[_0x1f01('0x231')](_0x3e1e1e[_0x1f01('0x231')](_0x3e1e1e[_0x1f01('0x232')](_0x3e1e1e[_0x1f01('0x232')](_0x3e1e1e[_0x1f01('0x232')](_0x3e1e1e[_0x1f01('0x232')](_0x3e1e1e[_0x1f01('0x233')],CommonSql[_0x1f01('0x36')](_0x3e1e1e[_0x1f01('0x234')],timeScope)),_0x3e1e1e[_0x1f01('0x235')]),_0x4d0494),_0x3e1e1e[_0x1f01('0x236')]),_0x234581),_0x3e1e1e[_0x1f01('0x237')]),_0x32d28d);return await Sequelize[_0x1f01('0x25')](_0x55d9e7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x238')](_0x45aaa3){var _0x35699b={'elgPb':function(_0x565924,_0x1d2397){return _0x565924+_0x1d2397;},'zXrch':function(_0x183cad,_0x2aa8f2){return _0x183cad+_0x2aa8f2;},'NCdYz':_0x1f01('0x239'),'dntLK':_0x1f01('0x230'),'Bvzjd':function(_0x5e960d,_0x3389e0){return _0x5e960d+_0x3389e0;},'spdKV':function(_0x21e90e,_0x5298b0){return _0x21e90e+_0x5298b0;},'Htdsr':_0x1f01('0x23a'),'ddouj':_0x1f01('0x104'),'nPjlV':_0x1f01('0x23b')};const {simpleUrl,timeType}=_0x45aaa3;const _0x20762e=simpleUrl?_0x35699b[_0x1f01('0x23c')](_0x35699b[_0x1f01('0x23d')](_0x35699b[_0x1f01('0x23e')],simpleUrl),'\x27\x20'):'\x20';const _0x7645d2=CommonSql[_0x1f01('0x36')](_0x35699b[_0x1f01('0x23f')],timeType);const _0x2bc8a3=_0x35699b[_0x1f01('0x23d')](_0x35699b[_0x1f01('0x23d')](_0x35699b[_0x1f01('0x23d')](_0x35699b[_0x1f01('0x23d')](_0x35699b[_0x1f01('0x240')](_0x35699b[_0x1f01('0x241')](_0x35699b[_0x1f01('0x242')],_0x7645d2),_0x35699b[_0x1f01('0x243')]),_0x45aaa3[_0x1f01('0x62')]),'\x27\x20'),_0x20762e),_0x35699b[_0x1f01('0x244')]);return await Sequelize[_0x1f01('0x25')](_0x2bc8a3,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x245')](_0x541b20,_0x3d0423){var _0x63b161={'rdbOj':function(_0x5e25e2,_0x2a86e0){return _0x5e25e2+_0x2a86e0;},'tgFbg':function(_0x2659ca,_0x389b12){return _0x2659ca+_0x389b12;},'MvVLP':_0x1f01('0x239'),'AUXtc':_0x1f01('0x230'),'LZTeg':function(_0x241c67,_0x45ecc8){return _0x241c67+_0x45ecc8;},'ILjYN':function(_0xa3cf40,_0x5dc2b9){return _0xa3cf40+_0x5dc2b9;},'bHEgJ':function(_0x356c0d,_0x1956f0){return _0x356c0d+_0x1956f0;},'YJGss':_0x1f01('0x1c5'),'FmUSK':_0x1f01('0x104'),'zibeS':_0x1f01('0x246'),'ivPlO':_0x1f01('0x1c7')};const {simpleUrl,timeType}=_0x3d0423;const _0x5949d5=simpleUrl?_0x63b161[_0x1f01('0x247')](_0x63b161[_0x1f01('0x248')](_0x63b161[_0x1f01('0x249')],simpleUrl),'\x27\x20'):'\x20';const _0x1e3701=CommonSql[_0x1f01('0x36')](_0x63b161[_0x1f01('0x24a')],timeType);return await Sequelize[_0x1f01('0x25')](_0x63b161[_0x1f01('0x248')](_0x63b161[_0x1f01('0x24b')](_0x63b161[_0x1f01('0x24b')](_0x63b161[_0x1f01('0x24b')](_0x63b161[_0x1f01('0x24b')](_0x63b161[_0x1f01('0x24c')](_0x63b161[_0x1f01('0x24d')](_0x63b161[_0x1f01('0x24d')](_0x63b161[_0x1f01('0x24e')],_0x1e3701),_0x63b161[_0x1f01('0x24f')]),_0x3d0423[_0x1f01('0x62')]),'\x27\x20'),_0x5949d5),_0x63b161[_0x1f01('0x250')]),_0x541b20),_0x63b161[_0x1f01('0x251')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x252')](_0x2ecc1c,_0x19ff83){var _0x2d7b68={'QlDwK':function(_0x23788f,_0x598671){return _0x23788f+_0x598671;},'JLRNj':function(_0x37824b,_0x487f24){return _0x37824b+_0x487f24;},'NZoEB':_0x1f01('0x239'),'HHPta':_0x1f01('0x230'),'hTDMw':function(_0x1c1dcc,_0xd2cd67){return _0x1c1dcc+_0xd2cd67;},'Aizfj':function(_0x16025a,_0x1d78e2){return _0x16025a+_0x1d78e2;},'PNVkW':function(_0x4f3b21,_0x385b6c){return _0x4f3b21+_0x385b6c;},'GxSAs':function(_0x49a60b,_0x487cf0){return _0x49a60b+_0x487cf0;},'aqcaR':function(_0x5a36ae,_0x31c1a9){return _0x5a36ae+_0x31c1a9;},'kBYMP':_0x1f01('0x253'),'HDieX':_0x1f01('0x104'),'PGRlq':_0x1f01('0x254')};const {simpleUrl,timeType}=_0x19ff83;const _0x37af9e=simpleUrl?_0x2d7b68[_0x1f01('0x255')](_0x2d7b68[_0x1f01('0x256')](_0x2d7b68[_0x1f01('0x257')],simpleUrl),'\x27\x20'):'\x20';const _0x362f17=CommonSql[_0x1f01('0x36')](_0x2d7b68[_0x1f01('0x258')],timeType);return await Sequelize[_0x1f01('0x25')](_0x2d7b68[_0x1f01('0x256')](_0x2d7b68[_0x1f01('0x256')](_0x2d7b68[_0x1f01('0x259')](_0x2d7b68[_0x1f01('0x25a')](_0x2d7b68[_0x1f01('0x25a')](_0x2d7b68[_0x1f01('0x25b')](_0x2d7b68[_0x1f01('0x25c')](_0x2d7b68[_0x1f01('0x25d')](_0x2d7b68[_0x1f01('0x25e')],_0x362f17),_0x2d7b68[_0x1f01('0x25f')]),_0x19ff83[_0x1f01('0x62')]),'\x27\x20'),_0x37af9e),_0x2d7b68[_0x1f01('0x260')]),_0x2ecc1c),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x261')](_0x4f910d,_0x4d8329){var _0x5c8547={'GsyED':function(_0xe3ba6e,_0x859304){return _0xe3ba6e+_0x859304;},'NDhHi':_0x1f01('0x239'),'rtQru':_0x1f01('0x230'),'rLkfs':function(_0x5a5f53,_0x202422){return _0x5a5f53+_0x202422;},'iZTQx':_0x1f01('0x262'),'tnRWk':_0x1f01('0x104'),'HGNBM':_0x1f01('0x254')};const {simpleUrl,timeType}=_0x4d8329;const _0x30897d=simpleUrl?_0x5c8547[_0x1f01('0x263')](_0x5c8547[_0x1f01('0x263')](_0x5c8547[_0x1f01('0x264')],simpleUrl),'\x27\x20'):'\x20';const _0x1c3bcb=CommonSql[_0x1f01('0x36')](_0x5c8547[_0x1f01('0x265')],timeType);return await Sequelize[_0x1f01('0x25')](_0x5c8547[_0x1f01('0x263')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x266')](_0x5c8547[_0x1f01('0x267')],_0x1c3bcb),_0x5c8547[_0x1f01('0x268')]),_0x4d8329[_0x1f01('0x62')]),'\x27\x20'),_0x30897d),_0x5c8547[_0x1f01('0x269')]),_0x4f910d),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x26a')](_0xb07166){var _0xe42075={'fpVXn':function(_0x31de83,_0x3e7e36){return _0x31de83+_0x3e7e36;},'ahjTs':_0x1f01('0x1b4'),'VoIjz':_0x1f01('0xd0')};let _0x94b267=_0xe42075[_0x1f01('0x26b')](_0xe42075[_0x1f01('0x26b')](_0xe42075[_0x1f01('0x26b')](_0xe42075[_0x1f01('0x26b')](_0xe42075[_0x1f01('0x26c')],_0xb07166[_0x1f01('0x62')]),_0xe42075[_0x1f01('0x26d')]),_0xb07166[_0x1f01('0x19d')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x94b267,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x26e')](_0x1cc6dc,_0x281f5c,_0x38aa3a){var _0x7e7988={'Rksey':function(_0x4ea4a3,_0x408971){return _0x4ea4a3+_0x408971;},'RSoag':function(_0x4f6a0a,_0x198efa){return _0x4f6a0a+_0x198efa;},'XCjRb':function(_0x5aac42,_0x579657){return _0x5aac42+_0x579657;},'KRKHh':function(_0x1d571d,_0x578e12){return _0x1d571d+_0x578e12;},'jyYEL':function(_0x53ba02,_0x197923){return _0x53ba02+_0x197923;},'gzIXw':_0x1f01('0x26f'),'nLvMF':_0x1f01('0x270'),'EkyPk':_0x1f01('0x271')};return await Sequelize[_0x1f01('0x25')](_0x7e7988[_0x1f01('0x272')](_0x7e7988[_0x1f01('0x273')](_0x7e7988[_0x1f01('0x274')](_0x7e7988[_0x1f01('0x275')](_0x7e7988[_0x1f01('0x275')](_0x7e7988[_0x1f01('0x276')](_0x7e7988[_0x1f01('0x277')],_0x38aa3a[_0x1f01('0x62')]),_0x7e7988[_0x1f01('0x278')]),_0x1cc6dc),_0x7e7988[_0x1f01('0x279')]),_0x281f5c),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x27a')](_0x4c8d2b){var _0x25121c={'KNOpx':function(_0x28a55f,_0x5e0802){return _0x28a55f-_0x5e0802;},'JGVVx':function(_0x404efb,_0x571444){return _0x404efb*_0x571444;},'oWice':function(_0x5dbe50,_0x23bf69){return _0x5dbe50*_0x23bf69;},'hbowu':_0x1f01('0x18d'),'eWoaI':function(_0x185bf2,_0x475aec){return _0x185bf2+_0x475aec;},'pkTUs':function(_0x587a6e,_0x64a6d1){return _0x587a6e+_0x64a6d1;},'fgoEC':function(_0x3961af,_0xbfe82c){return _0x3961af+_0xbfe82c;},'BTomN':function(_0xaeab92,_0x3e7038){return _0xaeab92+_0x3e7038;},'ejhAe':function(_0x188dff,_0x5b6787){return _0x188dff+_0x5b6787;},'BCEfb':function(_0x26d028,_0x49ec3c){return _0x26d028+_0x49ec3c;},'oiyri':function(_0x21fe50,_0x968594){return _0x21fe50+_0x968594;},'IylSw':_0x1f01('0x18e'),'WyLxr':_0x1f01('0xd0'),'rXYDW':_0x1f01('0x18f'),'AkBKQ':_0x1f01('0x190'),'Yvivq':_0x1f01('0x191')};const _0x152ceb=new Date()[_0x1f01('0x192')]();const _0x448daa=_0x25121c[_0x1f01('0x27b')](_0x152ceb,_0x25121c[_0x1f01('0x27c')](_0x25121c[_0x1f01('0x27d')](0x17,0xe10),0x3e8));const _0x38b705=_0x152ceb;const _0x4f8003=new Date(_0x448daa)[_0x1f01('0x98')](_0x25121c[_0x1f01('0x27e')]);const _0x3fe1f7=new Date(_0x38b705)[_0x1f01('0x98')](_0x25121c[_0x1f01('0x27e')]);let _0x120890=_0x25121c[_0x1f01('0x27f')](_0x25121c[_0x1f01('0x280')](_0x25121c[_0x1f01('0x281')](_0x25121c[_0x1f01('0x281')](_0x25121c[_0x1f01('0x282')](_0x25121c[_0x1f01('0x283')](_0x25121c[_0x1f01('0x284')](_0x25121c[_0x1f01('0x285')](_0x25121c[_0x1f01('0x286')],_0x4c8d2b[_0x1f01('0x62')]),_0x25121c[_0x1f01('0x287')]),_0x4c8d2b[_0x1f01('0x19d')]),_0x25121c[_0x1f01('0x288')]),_0x4f8003),_0x25121c[_0x1f01('0x289')]),_0x3fe1f7),_0x25121c[_0x1f01('0x28a')]);return await Sequelize[_0x1f01('0x25')](_0x120890,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x28b')](_0x1abfb7){var _0x1848cd={'tKmSf':function(_0x5b5cb3,_0x185899){return _0x5b5cb3+_0x185899;},'hZzRU':function(_0x25c995,_0x18369){return _0x25c995-_0x18369;},'fAenR':function(_0x5b4f59,_0xf5e44){return _0x5b4f59*_0xf5e44;},'EknZD':function(_0x705a85,_0x1ecf7f){return _0x705a85*_0x1ecf7f;},'HvRlR':function(_0xffec74,_0x3e22f4){return _0xffec74*_0x3e22f4;},'MUDID':function(_0x18a757,_0x501d3d){return _0x18a757*_0x501d3d;},'WyDdo':_0x1f01('0x18d'),'dBfwG':function(_0x61d58f,_0x3a3fb3){return _0x61d58f+_0x3a3fb3;},'xWXAT':function(_0x49783b,_0x149913){return _0x49783b+_0x149913;},'szAkk':function(_0x47f73f,_0x51698e){return _0x47f73f+_0x51698e;},'reVtp':function(_0x1509f5,_0x43714f){return _0x1509f5+_0x43714f;},'GNUZa':_0x1f01('0x18e'),'FLipl':_0x1f01('0xd0'),'uWlMK':_0x1f01('0x18f'),'MUZZL':_0x1f01('0x190'),'tSgch':_0x1f01('0x191')};const _0x1b3c97=new Date()[_0x1f01('0x192')]();const _0x2067fb=_0x1848cd[_0x1f01('0x28c')](_0x1848cd[_0x1f01('0x28d')](_0x1b3c97,_0x1848cd[_0x1f01('0x28e')](_0x1848cd[_0x1f01('0x28f')](_0x1848cd[_0x1f01('0x28f')](0x8,0x18),0xe10),0x3e8)),_0x1848cd[_0x1f01('0x290')](0xe10,0x3e8));const _0x239a1f=_0x1848cd[_0x1f01('0x28c')](_0x2067fb,_0x1848cd[_0x1f01('0x290')](_0x1848cd[_0x1f01('0x291')](0x17,0xe10),0x3e8));const _0x5ad605=new Date(_0x2067fb)[_0x1f01('0x98')](_0x1848cd[_0x1f01('0x292')]);const _0x2452eb=new Date(_0x239a1f)[_0x1f01('0x98')](_0x1848cd[_0x1f01('0x292')]);let _0x2d535a=_0x1848cd[_0x1f01('0x28c')](_0x1848cd[_0x1f01('0x293')](_0x1848cd[_0x1f01('0x293')](_0x1848cd[_0x1f01('0x294')](_0x1848cd[_0x1f01('0x295')](_0x1848cd[_0x1f01('0x295')](_0x1848cd[_0x1f01('0x296')](_0x1848cd[_0x1f01('0x296')](_0x1848cd[_0x1f01('0x297')],_0x1abfb7[_0x1f01('0x62')]),_0x1848cd[_0x1f01('0x298')]),_0x1abfb7[_0x1f01('0x19d')]),_0x1848cd[_0x1f01('0x299')]),_0x5ad605),_0x1848cd[_0x1f01('0x29a')]),_0x2452eb),_0x1848cd[_0x1f01('0x29b')]);return await Sequelize[_0x1f01('0x25')](_0x2d535a,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x29c')](_0x2cb9e0,_0x403ae4,_0x16a527){var _0x156ac2={'kMppN':_0x1f01('0x230'),'NKXSO':function(_0x3ed796,_0x4a0c36){return _0x3ed796===_0x4a0c36;},'SbCUi':function(_0x1c9a77,_0x2d9170){return _0x1c9a77+_0x2d9170;},'jBzQQ':_0x1f01('0x1ff'),'CpMgx':function(_0x12c00d,_0x1ecb40){return _0x12c00d+_0x1ecb40;},'XUDhe':function(_0x5d8ac4,_0x415fed){return _0x5d8ac4+_0x415fed;},'vNYTO':function(_0x41e225,_0x11e18c){return _0x41e225+_0x11e18c;},'nsZDu':function(_0x1eda7c,_0x2cc89d){return _0x1eda7c+_0x2cc89d;},'kAivT':function(_0x4ef2c5,_0x2357d1){return _0x4ef2c5+_0x2357d1;},'nZrBQ':_0x1f01('0xae'),'SJaxT':_0x1f01('0x200'),'HOCOB':_0x1f01('0x201'),'GlNnL':_0x1f01('0x202')};const _0x3ba5e3=Utils[_0x1f01('0x3f')](-0x1);let _0x21a273=Utils[_0x1f01('0x36')](_0x156ac2[_0x1f01('0x29d')]);if(_0x156ac2[_0x1f01('0x29e')](_0x403ae4,_0x156ac2[_0x1f01('0x29f')](_0x3ba5e3,_0x156ac2[_0x1f01('0x2a0')]))){_0x21a273=CommonSql[_0x1f01('0x36')](_0x156ac2[_0x1f01('0x29d')],0x1);}let _0x40be8f=_0x156ac2[_0x1f01('0x29f')](_0x156ac2[_0x1f01('0x2a1')](_0x156ac2[_0x1f01('0x2a2')](_0x156ac2[_0x1f01('0x2a3')](_0x156ac2[_0x1f01('0x2a3')](_0x156ac2[_0x1f01('0x2a4')](_0x156ac2[_0x1f01('0x2a4')](_0x156ac2[_0x1f01('0x2a5')](_0x156ac2[_0x1f01('0x2a6')],_0x21a273),_0x156ac2[_0x1f01('0x2a7')]),_0x403ae4),_0x156ac2[_0x1f01('0x2a8')]),_0x16a527),_0x156ac2[_0x1f01('0x2a9')]),_0x2cb9e0),'\x27');return await Sequelize[_0x1f01('0x25')](_0x40be8f,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2aa')](_0x372471,_0x4fa899){var _0x5e3c70={'nkKai':function(_0x453518,_0x384e65){return _0x453518+_0x384e65;},'sVwrA':function(_0x3a8467,_0x108f3a){return _0x3a8467+_0x108f3a;},'acdzC':_0x1f01('0xae'),'hlhqU':_0x1f01('0x230'),'ptXLt':_0x1f01('0x211')};let _0xc845fc=_0x5e3c70[_0x1f01('0x2ab')](_0x5e3c70[_0x1f01('0x2ab')](_0x5e3c70[_0x1f01('0x2ab')](_0x5e3c70[_0x1f01('0x2ac')](_0x5e3c70[_0x1f01('0x2ac')](_0x5e3c70[_0x1f01('0x2ad')],_0x5e3c70[_0x1f01('0x2ae')]),_0x4fa899[_0x1f01('0x217')](/-/g,'')),_0x5e3c70[_0x1f01('0x2af')]),_0x372471),'\x27');return await Sequelize[_0x1f01('0x25')](_0xc845fc,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2b0')](_0x151137,_0x1e18a0){var _0x121c35={'UrGII':_0x1f01('0x230'),'LlQni':function(_0x4c6409,_0x4f8a95){return _0x4c6409+_0x4f8a95;},'WCgae':_0x1f01('0x1dc'),'MNNDJ':_0x1f01('0x211')};const _0x58f5a9=CommonSql[_0x1f01('0x36')](_0x121c35[_0x1f01('0x2b1')],_0x1e18a0);let _0x213f32=_0x121c35[_0x1f01('0x2b2')](_0x121c35[_0x1f01('0x2b2')](_0x121c35[_0x1f01('0x2b2')](_0x121c35[_0x1f01('0x2b2')](_0x121c35[_0x1f01('0x2b3')],_0x58f5a9),_0x121c35[_0x1f01('0x2b4')]),_0x151137),'\x27');return await Sequelize[_0x1f01('0x25')](_0x213f32,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}const CustomerPV=Sequelize[_0x1f01('0x18')](_0x1f01('0x2b5'));CustomerPV[_0x1f01('0x1a')]({'force':![]});class CustomerPVModel{static async[_0x1f01('0x2b6')](_0x1bd581){return await CustomerPV[_0x1f01('0x1c')]({..._0x1bd581});}static async[_0x1f01('0x2b7')](_0x546e76,_0x2e0d26){await CustomerPV[_0x1f01('0x1e')]({..._0x2e0d26},{'where':{'id':_0x546e76},'fields':Object[_0x1f01('0x1f')](_0x2e0d26)});return!![];}static async[_0x1f01('0x2b8')](){return await CustomerPV[_0x1f01('0x21')]();}static async[_0x1f01('0x2b9')](_0x371122){return await CustomerPV[_0x1f01('0x29')]({'where':{'id':_0x371122}});}static async[_0x1f01('0x2ba')](_0x47776f){await CustomerPV[_0x1f01('0x2b')]({'where':{'id':_0x47776f}});return!![];}static async[_0x1f01('0x2bb')](_0x1c3924){var _0x4d4754={'FAast':function(_0x45951f,_0x5754f6){return _0x45951f+_0x5754f6;},'vIURq':function(_0x47c34b,_0x236276){return _0x47c34b-_0x236276;},'HzBiJ':_0x1f01('0x3c'),'CdIWc':function(_0xee565e,_0x4d45c7){return _0xee565e+_0x4d45c7;},'wAMQv':function(_0x2fa37e,_0x15fcb5){return _0x2fa37e+_0x15fcb5;},'ePibr':function(_0xf7b344,_0x2912ce){return _0xf7b344+_0x2912ce;},'YOzjn':_0x1f01('0x71'),'mKcrs':_0x1f01('0x103'),'DLzmi':_0x1f01('0x73')};const _0x46c4e0=_0x4d4754[_0x1f01('0x2bc')](Utils[_0x1f01('0x3f')](_0x4d4754[_0x1f01('0x2bd')](0x0,_0x1c3924)),_0x4d4754[_0x1f01('0x2be')]);var _0x5a6ff2=_0x4d4754[_0x1f01('0x2bc')](_0x4d4754[_0x1f01('0x2bf')](_0x4d4754[_0x1f01('0x2c0')](_0x4d4754[_0x1f01('0x2c1')](_0x4d4754[_0x1f01('0x2c2')],Utils[_0x1f01('0x36')](_0x4d4754[_0x1f01('0x2c3')])),_0x4d4754[_0x1f01('0x2c4')]),_0x46c4e0),'\x27');return await Sequelize[_0x1f01('0x25')](_0x5a6ff2,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x44')]});}static async[_0x1f01('0x2c5')](_0xa09db3,_0x1edd7e){var _0x7da2e4={'RISqx':function(_0x1ebe34,_0xecc15f){return _0x1ebe34+_0xecc15f;},'hrtse':_0x1f01('0xae'),'JINlL':_0x1f01('0x103'),'IhAJr':_0x1f01('0x104')};let _0x58b4df=_0x7da2e4[_0x1f01('0x2c6')](_0x7da2e4[_0x1f01('0x2c6')](_0x7da2e4[_0x1f01('0x2c6')](_0x7da2e4[_0x1f01('0x2c6')](_0x7da2e4[_0x1f01('0x2c7')],CommonSql[_0x1f01('0x36')](_0x7da2e4[_0x1f01('0x2c8')],_0x1edd7e)),_0x7da2e4[_0x1f01('0x2c9')]),_0xa09db3[_0x1f01('0x62')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x58b4df,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2ca')](_0x3ae4b2,_0x2a13d2){var _0x503941={'FxfoM':function(_0x1369ca,_0x134216){return _0x1369ca+_0x134216;},'KCVpJ':function(_0x19259c,_0x18b705){return _0x19259c+_0x18b705;},'fxShY':_0x1f01('0x1dc'),'zZMCT':_0x1f01('0x103'),'zXQzP':_0x1f01('0x104')};let _0x1dc337=_0x503941[_0x1f01('0x2cb')](_0x503941[_0x1f01('0x2cb')](_0x503941[_0x1f01('0x2cb')](_0x503941[_0x1f01('0x2cc')](_0x503941[_0x1f01('0x2cd')],CommonSql[_0x1f01('0x36')](_0x503941[_0x1f01('0x2ce')],_0x2a13d2)),_0x503941[_0x1f01('0x2cf')]),_0x3ae4b2[_0x1f01('0x62')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x1dc337,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2d0')](_0x21325a,_0x32bd39){var _0x23d94={'KHDiB':function(_0x3bfdbe,_0x39787a){return _0x3bfdbe+_0x39787a;},'jgLKh':function(_0xbf5f51,_0x3bda85){return _0xbf5f51+_0x3bda85;},'fgQca':function(_0x248063,_0x5b5ab7){return _0x248063+_0x5b5ab7;},'LxLby':_0x1f01('0x2d1'),'oikyA':_0x1f01('0x103'),'JqoUF':_0x1f01('0x104')};let _0x1e793a=_0x23d94[_0x1f01('0x2d2')](_0x23d94[_0x1f01('0x2d3')](_0x23d94[_0x1f01('0x2d3')](_0x23d94[_0x1f01('0x2d4')](_0x23d94[_0x1f01('0x2d5')],CommonSql[_0x1f01('0x36')](_0x23d94[_0x1f01('0x2d6')],_0x32bd39)),_0x23d94[_0x1f01('0x2d7')]),_0x21325a[_0x1f01('0x62')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x1e793a,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2d8')](_0x2b79fd){var _0x59381b={'pdVSs':function(_0x5d0bfb,_0x5a69f2){return _0x5d0bfb+_0x5a69f2;},'hXGeU':function(_0x4cb026,_0x161a07){return _0x4cb026+_0x161a07;},'kOrzU':_0x1f01('0x2d9'),'JLZXc':_0x1f01('0x103'),'sTqtz':_0x1f01('0x2da'),'ayZzY':_0x1f01('0x270'),'GQOiW':_0x1f01('0x2db')};return await Sequelize[_0x1f01('0x25')](_0x59381b[_0x1f01('0x2dc')](_0x59381b[_0x1f01('0x2dc')](_0x59381b[_0x1f01('0x2dd')](_0x59381b[_0x1f01('0x2dd')](_0x59381b[_0x1f01('0x2dd')](_0x59381b[_0x1f01('0x2dd')](_0x59381b[_0x1f01('0x2de')],Utils[_0x1f01('0x36')](_0x59381b[_0x1f01('0x2df')])),_0x59381b[_0x1f01('0x2e0')]),_0x2b79fd[_0x1f01('0x62')]),_0x59381b[_0x1f01('0x2e1')]),_0x2b79fd[_0x1f01('0x2e2')]),_0x59381b[_0x1f01('0x2e3')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2e4')](_0x2119b5){var _0x26d14a={'ysIbR':function(_0x525f37,_0x2ae023){return _0x525f37+_0x2ae023;},'Tehoj':function(_0x22266f,_0x37c510){return _0x22266f+_0x37c510;},'rrxwQ':function(_0x3fd618,_0x59098e){return _0x3fd618+_0x59098e;},'FZBrq':_0x1f01('0x2d9'),'xfnyk':_0x1f01('0x103'),'xbDLW':_0x1f01('0x2da'),'wEAUs':_0x1f01('0x270'),'UHCft':_0x1f01('0x2e5')};return await Sequelize[_0x1f01('0x25')](_0x26d14a[_0x1f01('0x2e6')](_0x26d14a[_0x1f01('0x2e6')](_0x26d14a[_0x1f01('0x2e7')](_0x26d14a[_0x1f01('0x2e7')](_0x26d14a[_0x1f01('0x2e7')](_0x26d14a[_0x1f01('0x2e8')](_0x26d14a[_0x1f01('0x2e9')],Utils[_0x1f01('0x36')](_0x26d14a[_0x1f01('0x2ea')])),_0x26d14a[_0x1f01('0x2eb')]),_0x2119b5[_0x1f01('0x62')]),_0x26d14a[_0x1f01('0x2ec')]),_0x2119b5[_0x1f01('0x2e2')]),_0x26d14a[_0x1f01('0x2ed')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2ee')](_0x969bc0){var _0x158aa0={'cSAeG':function(_0x345c87,_0x3701ac){return _0x345c87+_0x3701ac;},'MdcCz':function(_0x64417f,_0x1c950f){return _0x64417f+_0x1c950f;},'dmorB':function(_0x57bef0,_0x2d7545){return _0x57bef0+_0x2d7545;},'luXtx':_0x1f01('0x2d9'),'KLCpQ':_0x1f01('0x103'),'bILqz':_0x1f01('0x2da'),'DjYEE':_0x1f01('0x270'),'rXpUk':_0x1f01('0x2ef')};return await Sequelize[_0x1f01('0x25')](_0x158aa0[_0x1f01('0x2f0')](_0x158aa0[_0x1f01('0x2f1')](_0x158aa0[_0x1f01('0x2f1')](_0x158aa0[_0x1f01('0x2f1')](_0x158aa0[_0x1f01('0x2f1')](_0x158aa0[_0x1f01('0x2f2')](_0x158aa0[_0x1f01('0x2f3')],Utils[_0x1f01('0x36')](_0x158aa0[_0x1f01('0x2f4')])),_0x158aa0[_0x1f01('0x2f5')]),_0x969bc0[_0x1f01('0x62')]),_0x158aa0[_0x1f01('0x2f6')]),_0x969bc0[_0x1f01('0x2e2')]),_0x158aa0[_0x1f01('0x2f7')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2c')](_0x4bf3b7,_0x54baed,_0x418050,_0x56bf65){var _0x1f6d4c={'fPiaV':function(_0x59bd1d,_0x2e7390){return _0x59bd1d+_0x2e7390;},'tqNUx':function(_0x505519,_0x5486a2){return _0x505519+_0x5486a2;},'CXIMy':_0x1f01('0x2d'),'MGsKc':_0x1f01('0x103'),'ZzPlb':_0x1f01('0x2f'),'urvHw':_0x1f01('0x31')};const {timeScope}=_0x56bf65;let _0x58fae9=_0x1f6d4c[_0x1f01('0x2f8')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2f9')](_0x1f6d4c[_0x1f01('0x2fa')],CommonSql[_0x1f01('0x36')](_0x1f6d4c[_0x1f01('0x2fb')],timeScope)),_0x1f6d4c[_0x1f01('0x2fc')]),_0x418050),_0x1f6d4c[_0x1f01('0x2fd')]),_0x54baed),_0x1f6d4c[_0x1f01('0x2fd')]),_0x4bf3b7);return await Sequelize[_0x1f01('0x25')](_0x58fae9,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2fe')](_0x5b929d){var _0x48e3f4={'PjiDG':function(_0x54c56f,_0x1a8e40){return _0x54c56f<_0x1a8e40;},'LPJcI':function(_0x465732,_0x4c07e0){return _0x465732<_0x4c07e0;},'mHtey':function(_0x2da99f,_0x759c38){return _0x2da99f+_0x759c38;},'IcyHR':function(_0x40f8d1,_0x91240a){return _0x40f8d1+_0x91240a;},'vqziP':function(_0x3328fa,_0x8a5dd5){return _0x3328fa+_0x8a5dd5;},'ZieAG':_0x1f01('0x2ff'),'cOlSU':_0x1f01('0x103'),'TqknM':_0x1f01('0x300'),'crwhD':_0x1f01('0x106'),'mWbdq':function(_0x5885b6,_0x11b200){return _0x5885b6+_0x11b200;},'AHkim':function(_0x56b9d6,_0x1ad862){return _0x56b9d6+_0x1ad862;}};let _0x59acd1='';for(let _0x3b4d1f=0x0;_0x48e3f4[_0x1f01('0x301')](_0x3b4d1f,0x7);_0x3b4d1f++){if(_0x48e3f4[_0x1f01('0x302')](_0x3b4d1f,0x6)){_0x59acd1+=_0x48e3f4[_0x1f01('0x303')](_0x48e3f4[_0x1f01('0x303')](_0x48e3f4[_0x1f01('0x304')](_0x48e3f4[_0x1f01('0x304')](_0x48e3f4[_0x1f01('0x305')](_0x48e3f4[_0x1f01('0x306')],CommonSql[_0x1f01('0x36')](_0x48e3f4[_0x1f01('0x307')],_0x3b4d1f)),_0x48e3f4[_0x1f01('0x308')]),_0x5b929d[_0x1f01('0x309')]),'\x27'),_0x48e3f4[_0x1f01('0x30a')]);}else{_0x59acd1+=_0x48e3f4[_0x1f01('0x305')](_0x48e3f4[_0x1f01('0x30b')](_0x48e3f4[_0x1f01('0x30b')](_0x48e3f4[_0x1f01('0x30c')](_0x48e3f4[_0x1f01('0x306')],CommonSql[_0x1f01('0x36')](_0x48e3f4[_0x1f01('0x307')],_0x3b4d1f)),_0x48e3f4[_0x1f01('0x308')]),_0x5b929d[_0x1f01('0x309')]),'\x27');}}return await Sequelize[_0x1f01('0x25')](_0x59acd1,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x30d')](_0x4616e9,_0x23502b,_0x4532ac,_0x3165a4){var _0x5b2694={'sIbXP':function(_0x294c23,_0x1a683a){return _0x294c23+_0x1a683a;},'grDNZ':function(_0x57ac33,_0x327843){return _0x57ac33+_0x327843;},'QhLJU':function(_0x350913,_0x435fc3){return _0x350913+_0x435fc3;},'YWkaS':function(_0x3b9993,_0x3de306){return _0x3b9993+_0x3de306;},'pOzrg':_0x1f01('0x2d'),'qFJmj':_0x1f01('0x103'),'ycdek':_0x1f01('0x2f'),'zdorR':_0x1f01('0x30'),'yFawi':_0x1f01('0x31'),'sUIan':_0x1f01('0x30e')};const {timeScope}=_0x3165a4;let _0x55fa4a=_0x5b2694[_0x1f01('0x30f')](_0x5b2694[_0x1f01('0x310')](_0x5b2694[_0x1f01('0x311')](_0x5b2694[_0x1f01('0x311')](_0x5b2694[_0x1f01('0x311')](_0x5b2694[_0x1f01('0x312')](_0x5b2694[_0x1f01('0x312')](_0x5b2694[_0x1f01('0x312')](_0x5b2694[_0x1f01('0x313')],CommonSql[_0x1f01('0x36')](_0x5b2694[_0x1f01('0x314')],timeScope)),_0x5b2694[_0x1f01('0x315')]),_0x4532ac),_0x5b2694[_0x1f01('0x316')]),_0x23502b),_0x5b2694[_0x1f01('0x317')]),_0x4616e9),_0x5b2694[_0x1f01('0x318')]);return await Sequelize[_0x1f01('0x25')](_0x55fa4a,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x319')](_0x3d8e89,_0x24c1bb,_0x42ef29){var _0x308176={'KHfev':function(_0xd551a0,_0x26045a){return _0xd551a0+_0x26045a;},'iWlUM':function(_0x22d978,_0x38b409){return _0x22d978+_0x38b409;},'CuHdy':function(_0x1e451d,_0xf562f5){return _0x1e451d+_0xf562f5;},'dBZhA':function(_0x3bf62b,_0x156caa){return _0x3bf62b+_0x156caa;},'hzQfh':function(_0x535c81,_0x67697d){return _0x535c81+_0x67697d;},'iufUs':function(_0x21f420,_0x42cb3d){return _0x21f420+_0x42cb3d;},'xAdgF':_0x1f01('0x31a'),'Xdibo':_0x1f01('0x103'),'PtSek':_0x1f01('0x2f'),'TYChH':_0x1f01('0x30'),'DEMRI':_0x1f01('0x31'),'KtAqy':_0x1f01('0x31b')};let _0x32300b=_0x308176[_0x1f01('0x31c')](_0x308176[_0x1f01('0x31d')](_0x308176[_0x1f01('0x31e')](_0x308176[_0x1f01('0x31f')](_0x308176[_0x1f01('0x31f')](_0x308176[_0x1f01('0x31f')](_0x308176[_0x1f01('0x320')](_0x308176[_0x1f01('0x321')](_0x308176[_0x1f01('0x322')],Utils[_0x1f01('0x36')](_0x308176[_0x1f01('0x323')])),_0x308176[_0x1f01('0x324')]),_0x42ef29),_0x308176[_0x1f01('0x325')]),_0x24c1bb),_0x308176[_0x1f01('0x326')]),_0x3d8e89),_0x308176[_0x1f01('0x327')]);return await Sequelize[_0x1f01('0x25')](_0x32300b,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x328')](_0x76ec6d){var _0x24efaf={'BOaCX':function(_0x5c539,_0x249b32){return _0x5c539-_0x249b32;},'PeLLy':function(_0x318f9d,_0x3037b4){return _0x318f9d*_0x3037b4;},'upLQS':_0x1f01('0x92'),'amkKp':function(_0x4470dd,_0x27e394){return _0x4470dd+_0x27e394;},'UBqcO':function(_0x58559b,_0x4d4f8c){return _0x58559b+_0x4d4f8c;},'UvWOq':function(_0x10506b,_0x2c5733){return _0x10506b+_0x2c5733;},'MVBkT':_0x1f01('0x329'),'FwSbO':_0x1f01('0x103'),'cDnbJ':_0x1f01('0x104'),'uWPOx':_0x1f01('0x32a'),'xLhCm':_0x1f01('0x32b')};const _0x27f516=new Date()[_0x1f01('0x192')]();const _0x10e8a2=new Date(_0x24efaf[_0x1f01('0x32c')](_0x27f516,_0x24efaf[_0x1f01('0x32d')](0x12c,0x3e8)))[_0x1f01('0x98')](_0x24efaf[_0x1f01('0x32e')]);let _0x173445=_0x24efaf[_0x1f01('0x32f')](_0x24efaf[_0x1f01('0x330')](_0x24efaf[_0x1f01('0x330')](_0x24efaf[_0x1f01('0x330')](_0x24efaf[_0x1f01('0x330')](_0x24efaf[_0x1f01('0x331')](_0x24efaf[_0x1f01('0x332')],Utils[_0x1f01('0x36')](_0x24efaf[_0x1f01('0x333')])),_0x24efaf[_0x1f01('0x334')]),_0x76ec6d[_0x1f01('0x62')]),_0x24efaf[_0x1f01('0x335')]),_0x10e8a2),_0x24efaf[_0x1f01('0x336')]);return await Sequelize[_0x1f01('0x25')](_0x173445,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x337')](_0x56f495){var _0x400053={'GZCJr':function(_0x4bf43b,_0x2f7f85){return _0x4bf43b-_0x2f7f85;},'amAzV':function(_0x11ff2a,_0x4c9d37){return _0x11ff2a*_0x4c9d37;},'nQOxe':_0x1f01('0x92'),'cuHnH':function(_0x2fd5ef,_0x30db5c){return _0x2fd5ef+_0x30db5c;},'FCygP':function(_0x880a2e,_0x4ef012){return _0x880a2e+_0x4ef012;},'lgywS':_0x1f01('0x338'),'VPWEb':_0x1f01('0x103'),'XuiGe':_0x1f01('0x104'),'MvEWu':_0x1f01('0x32a')};const _0x4277f5=new Date()[_0x1f01('0x192')]();const _0xe97f3=new Date(_0x400053[_0x1f01('0x339')](_0x4277f5,_0x400053[_0x1f01('0x33a')](0xa,0x3e8)))[_0x1f01('0x98')](_0x400053[_0x1f01('0x33b')]);let _0x5e76b2=_0x400053[_0x1f01('0x33c')](_0x400053[_0x1f01('0x33c')](_0x400053[_0x1f01('0x33d')](_0x400053[_0x1f01('0x33d')](_0x400053[_0x1f01('0x33d')](_0x400053[_0x1f01('0x33d')](_0x400053[_0x1f01('0x33e')],Utils[_0x1f01('0x36')](_0x400053[_0x1f01('0x33f')])),_0x400053[_0x1f01('0x340')]),_0x56f495[_0x1f01('0x62')]),_0x400053[_0x1f01('0x341')]),_0xe97f3),'\x27');return await Sequelize[_0x1f01('0x25')](_0x5e76b2,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x342')](_0x23b33b){var _0x390c76={'Xyhbf':function(_0x7ec686,_0x1ea15e){return _0x7ec686+_0x1ea15e;},'HEFff':function(_0x1fffc3,_0x2004b9){return _0x1fffc3+_0x2004b9;},'ZynpX':function(_0x20293d,_0x1b7ed3){return _0x20293d+_0x1b7ed3;},'VhsNg':function(_0x163bbb,_0x21d951){return _0x163bbb+_0x21d951;},'LzqiL':function(_0x11a99a,_0x1ad3c4){return _0x11a99a+_0x1ad3c4;},'gwzej':_0x1f01('0x343'),'HulQh':_0x1f01('0x103'),'jcnZM':_0x1f01('0x5c'),'PaHUj':_0x1f01('0x344')};let _0x33b28e=_0x390c76[_0x1f01('0x345')](_0x390c76[_0x1f01('0x346')](_0x390c76[_0x1f01('0x347')](_0x390c76[_0x1f01('0x348')](_0x390c76[_0x1f01('0x349')](_0x390c76[_0x1f01('0x34a')],Utils[_0x1f01('0x36')](_0x390c76[_0x1f01('0x34b')])),'\x20'),_0x390c76[_0x1f01('0x34c')]),_0x23b33b[_0x1f01('0x62')]),_0x390c76[_0x1f01('0x34d')]);return await Sequelize[_0x1f01('0x25')](_0x33b28e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x34e')](_0xd6e89e){var _0x520697={'SoPjm':function(_0x1dcf2e,_0x57bfa3){return _0x1dcf2e+_0x57bfa3;},'mKDWr':function(_0x5a0085,_0xfe9379){return _0x5a0085+_0xfe9379;},'Woxdv':_0x1f01('0x34f'),'rCUOh':_0x1f01('0x103'),'Pqqgu':_0x1f01('0x5c'),'SORrL':_0x1f01('0x344')};let _0x577e1c=_0x520697[_0x1f01('0x350')](_0x520697[_0x1f01('0x350')](_0x520697[_0x1f01('0x351')](_0x520697[_0x1f01('0x351')](_0x520697[_0x1f01('0x351')](_0x520697[_0x1f01('0x352')],Utils[_0x1f01('0x36')](_0x520697[_0x1f01('0x353')])),'\x20'),_0x520697[_0x1f01('0x354')]),_0xd6e89e[_0x1f01('0x62')]),_0x520697[_0x1f01('0x355')]);return await Sequelize[_0x1f01('0x25')](_0x577e1c,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x356')](_0x44a4dd){var _0x709d8e={'yFUpT':function(_0x3aa8b5,_0x4a7731){return _0x3aa8b5+_0x4a7731;},'tWSww':function(_0x2aab1b,_0x504213){return _0x2aab1b+_0x504213;},'jcDAA':function(_0x2fa1b7,_0x4274f0){return _0x2fa1b7+_0x4274f0;},'YDOdS':function(_0x2357ca,_0x5c7f43){return _0x2357ca+_0x5c7f43;},'EeAem':_0x1f01('0x357'),'hNePq':_0x1f01('0x103'),'tNOEq':_0x1f01('0x5c'),'qgjem':_0x1f01('0x5d')};let _0x100b6a=_0x709d8e[_0x1f01('0x358')](_0x709d8e[_0x1f01('0x359')](_0x709d8e[_0x1f01('0x359')](_0x709d8e[_0x1f01('0x35a')](_0x709d8e[_0x1f01('0x35b')](_0x709d8e[_0x1f01('0x35c')],Utils[_0x1f01('0x36')](_0x709d8e[_0x1f01('0x35d')])),'\x20'),_0x709d8e[_0x1f01('0x35e')]),_0x44a4dd[_0x1f01('0x62')]),_0x709d8e[_0x1f01('0x35f')]);return await Sequelize[_0x1f01('0x25')](_0x100b6a,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x360')](_0x54e29a){var _0x7db8b9={'UMUEM':function(_0x491d17,_0x1e4164){return _0x491d17+_0x1e4164;},'EtsDH':function(_0x2f308a,_0x274d68){return _0x2f308a+_0x274d68;},'hLyTu':function(_0x2850cb,_0x3cc156){return _0x2850cb+_0x3cc156;},'FqWtX':_0x1f01('0x361'),'RVjIM':_0x1f01('0x103'),'vrwkV':_0x1f01('0x5c'),'vzUMY':_0x1f01('0x5d')};let _0x4a1195=_0x7db8b9[_0x1f01('0x362')](_0x7db8b9[_0x1f01('0x363')](_0x7db8b9[_0x1f01('0x364')](_0x7db8b9[_0x1f01('0x364')](_0x7db8b9[_0x1f01('0x364')](_0x7db8b9[_0x1f01('0x365')],Utils[_0x1f01('0x36')](_0x7db8b9[_0x1f01('0x366')])),'\x20'),_0x7db8b9[_0x1f01('0x367')]),_0x54e29a[_0x1f01('0x62')]),_0x7db8b9[_0x1f01('0x368')]);return await Sequelize[_0x1f01('0x25')](_0x4a1195,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x369')](_0x406818){var _0x3bcb9e={'asGIG':function(_0x274d70,_0x113a39){return _0x274d70+_0x113a39;},'ceJdL':function(_0x15b919,_0x3c95b3){return _0x15b919+_0x3c95b3;},'QOoWo':function(_0x2c3404,_0x10c8b3){return _0x2c3404+_0x10c8b3;},'KKujE':function(_0x5929b4,_0x53f550){return _0x5929b4+_0x53f550;},'wOQMp':_0x1f01('0x36a'),'dedKi':_0x1f01('0x36b'),'NqNhb':_0x1f01('0x103'),'SIljj':_0x1f01('0x36c'),'cruto':_0x1f01('0x36d'),'ywEea':_0x1f01('0x36e')};let _0x558389=_0x3bcb9e[_0x1f01('0x36f')](_0x3bcb9e[_0x1f01('0x36f')](_0x3bcb9e[_0x1f01('0x370')](_0x3bcb9e[_0x1f01('0x371')](_0x3bcb9e[_0x1f01('0x372')](_0x3bcb9e[_0x1f01('0x372')](_0x3bcb9e[_0x1f01('0x373')],_0x3bcb9e[_0x1f01('0x374')]),Utils[_0x1f01('0x36')](_0x3bcb9e[_0x1f01('0x375')])),_0x3bcb9e[_0x1f01('0x376')]),_0x3bcb9e[_0x1f01('0x377')]),_0x406818[_0x1f01('0x62')]),_0x3bcb9e[_0x1f01('0x378')]);return await Sequelize[_0x1f01('0x25')](_0x558389,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x379')](_0xfb9a4e){var _0x3e3b7a={'jprML':function(_0x160784,_0x7be7a5){return _0x160784===_0x7be7a5;},'djURT':function(_0x21b55b,_0x425659){return _0x21b55b+_0x425659;},'SigsD':_0x1f01('0x3c'),'vStTx':function(_0x24b7fb,_0x33e1da){return _0x24b7fb+_0x33e1da;},'cBvdT':function(_0x5b7e0b,_0x4c46ab){return _0x5b7e0b+_0x4c46ab;},'zGpcr':function(_0x38fa6b,_0x5e4557){return _0x38fa6b+_0x5e4557;},'XlvfD':_0x1f01('0x37a'),'RRHdV':function(_0x4d9c7a,_0x53815e){return _0x4d9c7a+_0x53815e;},'hnzdv':function(_0x14413f,_0x12e3c3){return _0x14413f+_0x12e3c3;},'KDmDj':function(_0x2efabc,_0x2d8c5c){return _0x2efabc+_0x2d8c5c;},'OVFUR':function(_0x434869,_0x4fbf58){return _0x434869+_0x4fbf58;},'pjNRe':_0x1f01('0x36a'),'QwqNe':_0x1f01('0x36b'),'uoaEA':_0x1f01('0x103'),'ASBvU':_0x1f01('0x5c'),'yZVhl':_0x1f01('0x37b'),'tIGBT':_0x1f01('0x37c'),'JCyUu':_0x1f01('0x37d')};const _0x5dfff1=new Date()[_0x1f01('0x37e')]();let _0x15bf3b=_0x5dfff1;let _0x2637dd='';if(_0x3e3b7a[_0x1f01('0x37f')](_0x5dfff1,0x17)){_0x2637dd=_0x3e3b7a[_0x1f01('0x380')](Utils[_0x1f01('0x3f')](-0x6),_0x3e3b7a[_0x1f01('0x381')]);}else{_0x15bf3b=_0x3e3b7a[_0x1f01('0x382')](_0x15bf3b,0x1);_0x2637dd=_0x3e3b7a[_0x1f01('0x382')](_0x3e3b7a[_0x1f01('0x383')](_0x3e3b7a[_0x1f01('0x384')](Utils[_0x1f01('0x3f')](-0x7),'\x20'),_0x15bf3b),_0x3e3b7a[_0x1f01('0x385')]);}const _0x4f5d6c=_0x3e3b7a[_0x1f01('0x384')](_0x3e3b7a[_0x1f01('0x384')](_0x3e3b7a[_0x1f01('0x386')](_0x3e3b7a[_0x1f01('0x386')](_0x3e3b7a[_0x1f01('0x387')](_0x3e3b7a[_0x1f01('0x388')](_0x3e3b7a[_0x1f01('0x388')](_0x3e3b7a[_0x1f01('0x389')](_0x3e3b7a[_0x1f01('0x389')](_0x3e3b7a[_0x1f01('0x38a')],_0x3e3b7a[_0x1f01('0x38b')]),Utils[_0x1f01('0x36')](_0x3e3b7a[_0x1f01('0x38c')])),'\x20'),_0x3e3b7a[_0x1f01('0x38d')]),_0xfb9a4e[_0x1f01('0x62')]),_0x3e3b7a[_0x1f01('0x38e')]),_0x2637dd),_0x3e3b7a[_0x1f01('0x38f')]),_0x3e3b7a[_0x1f01('0x390')]);return await Sequelize[_0x1f01('0x25')](_0x4f5d6c,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x391')](_0x4bf247){var _0x437dff={'juGJx':function(_0x4862e9,_0x3e68f2){return _0x4862e9*_0x3e68f2;},'hquFH':function(_0x58a78b,_0x56756a){return _0x58a78b-_0x56756a;},'VBDZN':function(_0xcef426,_0x224738){return _0xcef426-_0x224738;},'LGAzE':function(_0x521d18,_0x426b46){return _0x521d18*_0x426b46;},'TKbYj':function(_0x5f1d6d,_0x34a62c){return _0x5f1d6d*_0x34a62c;},'DKHpn':function(_0x46e8f7,_0x954800){return _0x46e8f7*_0x954800;},'RflKL':function(_0x4ede39,_0x3aa63c){return _0x4ede39*_0x3aa63c;},'PNzda':_0x1f01('0x18d'),'xRjSH':function(_0x1a6364,_0x4570ee){return _0x1a6364+_0x4570ee;},'qxxgF':function(_0x3c5e00,_0x374037){return _0x3c5e00+_0x374037;},'Ofkby':_0x1f01('0x392'),'DrELb':_0x1f01('0x393'),'jZPRJ':_0x1f01('0x190'),'cgZgM':_0x1f01('0x191')};const _0x5d4c7f=_0x437dff[_0x1f01('0x394')](_0x4bf247[_0x1f01('0x395')],0x1);const _0x360529=new Date()[_0x1f01('0x192')]();const _0x823b67=_0x437dff[_0x1f01('0x396')](_0x437dff[_0x1f01('0x397')](_0x360529,_0x437dff[_0x1f01('0x398')](_0x437dff[_0x1f01('0x399')](0x17,0xe10),0x3e8)),_0x437dff[_0x1f01('0x39a')](_0x437dff[_0x1f01('0x39a')](_0x437dff[_0x1f01('0x39b')](_0x5d4c7f,0x18),0xe10),0x3e8));const _0x2c0b28=_0x360529;const _0x1dfb6d=new Date(_0x823b67)[_0x1f01('0x98')](_0x437dff[_0x1f01('0x39c')]);const _0x4fb401=new Date(_0x2c0b28)[_0x1f01('0x98')](_0x437dff[_0x1f01('0x39c')]);let _0x2c1df3=_0x437dff[_0x1f01('0x39d')](_0x437dff[_0x1f01('0x39d')](_0x437dff[_0x1f01('0x39d')](_0x437dff[_0x1f01('0x39d')](_0x437dff[_0x1f01('0x39d')](_0x437dff[_0x1f01('0x39e')](_0x437dff[_0x1f01('0x39f')],_0x4bf247[_0x1f01('0x62')]),_0x437dff[_0x1f01('0x3a0')]),_0x1dfb6d),_0x437dff[_0x1f01('0x3a1')]),_0x4fb401),_0x437dff[_0x1f01('0x3a2')]);return await Sequelize[_0x1f01('0x25')](_0x2c1df3,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3a3')](_0x4223dd){var _0x4ba1df={'GeEms':function(_0x1252e5,_0x55257e){return _0x1252e5*_0x55257e;},'WAaTM':function(_0x268faf,_0x227620){return _0x268faf-_0x227620;},'ZBFZU':function(_0x558c30,_0xdff26){return _0x558c30+_0xdff26;},'nVMPX':function(_0x5eccc5,_0x5b55c3){return _0x5eccc5-_0x5b55c3;},'MylWB':function(_0x5e98d6,_0x5ab316){return _0x5e98d6*_0x5ab316;},'uRBZo':function(_0x31e93f,_0x5c89bc){return _0x31e93f*_0x5c89bc;},'ufHMr':function(_0x42c554,_0x337c66){return _0x42c554*_0x337c66;},'boLJl':function(_0x5a1620,_0x5efa3e){return _0x5a1620*_0x5efa3e;},'FLJiI':function(_0x5f18b6,_0x311b52){return _0x5f18b6+_0x311b52;},'Bkhdb':_0x1f01('0x18d'),'zmEiS':function(_0x2a4a6a,_0x285c31){return _0x2a4a6a+_0x285c31;},'ZYXPt':function(_0x408d60,_0x4a57b9){return _0x408d60+_0x4a57b9;},'nkiPi':_0x1f01('0x392'),'XZdKV':_0x1f01('0x393'),'Qoczc':_0x1f01('0x190'),'oUOLs':_0x1f01('0x191')};const _0x12371f=_0x4ba1df[_0x1f01('0x3a4')](_0x4223dd[_0x1f01('0x395')],0x1);const _0xea4c7b=new Date()[_0x1f01('0x192')]();const _0x1603ea=_0x4ba1df[_0x1f01('0x3a5')](_0x4ba1df[_0x1f01('0x3a6')](_0x4ba1df[_0x1f01('0x3a7')](_0xea4c7b,_0x4ba1df[_0x1f01('0x3a4')](_0x4ba1df[_0x1f01('0x3a4')](_0x4ba1df[_0x1f01('0x3a4')](0x8,0x18),0xe10),0x3e8)),_0x4ba1df[_0x1f01('0x3a8')](0xe10,0x3e8)),_0x4ba1df[_0x1f01('0x3a8')](_0x4ba1df[_0x1f01('0x3a9')](_0x4ba1df[_0x1f01('0x3a9')](_0x12371f,0x18),0xe10),0x3e8));const _0x24cf8d=_0x4ba1df[_0x1f01('0x3a6')](_0x1603ea,_0x4ba1df[_0x1f01('0x3aa')](_0x4ba1df[_0x1f01('0x3aa')](_0x4ba1df[_0x1f01('0x3ab')](_0x4ba1df[_0x1f01('0x3ac')](_0x12371f,0x1),0x18),0xe10),0x3e8));const _0x5ac389=new Date(_0x1603ea)[_0x1f01('0x98')](_0x4ba1df[_0x1f01('0x3ad')]);const _0x2e7cc4=new Date(_0x24cf8d)[_0x1f01('0x98')](_0x4ba1df[_0x1f01('0x3ad')]);let _0x1bf826=_0x4ba1df[_0x1f01('0x3ac')](_0x4ba1df[_0x1f01('0x3ae')](_0x4ba1df[_0x1f01('0x3ae')](_0x4ba1df[_0x1f01('0x3ae')](_0x4ba1df[_0x1f01('0x3af')](_0x4ba1df[_0x1f01('0x3af')](_0x4ba1df[_0x1f01('0x3b0')],_0x4223dd[_0x1f01('0x62')]),_0x4ba1df[_0x1f01('0x3b1')]),_0x5ac389),_0x4ba1df[_0x1f01('0x3b2')]),_0x2e7cc4),_0x4ba1df[_0x1f01('0x3b3')]);return await Sequelize[_0x1f01('0x25')](_0x1bf826,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3b4')](_0x19a628){var _0x8c5057={'SKwXy':function(_0x7d71b7,_0x58df2d){return _0x7d71b7+_0x58df2d;},'VuevZ':function(_0x31e996,_0x27c02b){return _0x31e996+_0x27c02b;},'nwlqw':function(_0x4633b3,_0x34d054){return _0x4633b3+_0x34d054;},'RjvcE':_0x1f01('0x3b5'),'zqzpR':_0x1f01('0x36b'),'uLuCB':_0x1f01('0x103'),'xDGAw':_0x1f01('0x36c'),'uNdrr':_0x1f01('0x36d'),'olbHH':_0x1f01('0x36e')};let _0x59cda3=_0x8c5057[_0x1f01('0x3b6')](_0x8c5057[_0x1f01('0x3b7')](_0x8c5057[_0x1f01('0x3b8')](_0x8c5057[_0x1f01('0x3b8')](_0x8c5057[_0x1f01('0x3b8')](_0x8c5057[_0x1f01('0x3b8')](_0x8c5057[_0x1f01('0x3b9')],_0x8c5057[_0x1f01('0x3ba')]),Utils[_0x1f01('0x36')](_0x8c5057[_0x1f01('0x3bb')])),_0x8c5057[_0x1f01('0x3bc')]),_0x8c5057[_0x1f01('0x3bd')]),_0x19a628[_0x1f01('0x62')]),_0x8c5057[_0x1f01('0x3be')]);return await Sequelize[_0x1f01('0x25')](_0x59cda3,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3bf')](_0x5ad338){var _0x456754={'Begqp':function(_0x2dd810,_0x205ebc){return _0x2dd810*_0x205ebc;},'ehjqd':function(_0xeebb85,_0x33a731){return _0xeebb85-_0x33a731;},'OChFW':function(_0x2d6840,_0xf92b29){return _0x2d6840*_0xf92b29;},'wgXRU':function(_0x965cba,_0x124b51){return _0x965cba*_0x124b51;},'pvPlj':_0x1f01('0x18d'),'zHKIN':function(_0x4348cd,_0x369153){return _0x4348cd+_0x369153;},'ZPcDQ':function(_0x3dd871,_0x39ef21){return _0x3dd871+_0x39ef21;},'EUdCa':function(_0x5f0aca,_0x4f332c){return _0x5f0aca+_0x4f332c;},'CVeiG':function(_0x13b7ea,_0x5dc284){return _0x13b7ea+_0x5dc284;},'hUhEg':_0x1f01('0x392'),'tVhgy':_0x1f01('0x3c0'),'rJKis':_0x1f01('0x190'),'pxlmO':_0x1f01('0x191')};const _0xbd8d5b=_0x456754[_0x1f01('0x3c1')](_0x5ad338[_0x1f01('0x395')],0x1);const _0x42d162=new Date()[_0x1f01('0x192')]();const _0x31337d=_0x456754[_0x1f01('0x3c2')](_0x456754[_0x1f01('0x3c2')](_0x42d162,_0x456754[_0x1f01('0x3c1')](_0x456754[_0x1f01('0x3c3')](0x17,0xe10),0x3e8)),_0x456754[_0x1f01('0x3c3')](_0x456754[_0x1f01('0x3c3')](_0x456754[_0x1f01('0x3c4')](_0xbd8d5b,0x18),0xe10),0x3e8));const _0xc1f8d5=_0x42d162;const _0x4224c9=new Date(_0x31337d)[_0x1f01('0x98')](_0x456754[_0x1f01('0x3c5')]);const _0x357a0c=new Date(_0xc1f8d5)[_0x1f01('0x98')](_0x456754[_0x1f01('0x3c5')]);let _0x1dbad5=_0x456754[_0x1f01('0x3c6')](_0x456754[_0x1f01('0x3c6')](_0x456754[_0x1f01('0x3c6')](_0x456754[_0x1f01('0x3c7')](_0x456754[_0x1f01('0x3c8')](_0x456754[_0x1f01('0x3c9')](_0x456754[_0x1f01('0x3ca')],_0x5ad338[_0x1f01('0x62')]),_0x456754[_0x1f01('0x3cb')]),_0x4224c9),_0x456754[_0x1f01('0x3cc')]),_0x357a0c),_0x456754[_0x1f01('0x3cd')]);return await Sequelize[_0x1f01('0x25')](_0x1dbad5,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3ce')](_0x3a762a){var _0x49f1d1={'Zkiwq':function(_0x5e8cf3,_0x4009b6){return _0x5e8cf3*_0x4009b6;},'NNKYU':function(_0x6bd43b,_0x5207e5){return _0x6bd43b-_0x5207e5;},'OEsmg':function(_0x167bb5,_0x16a29c){return _0x167bb5+_0x16a29c;},'snpBx':function(_0x977da,_0x5e5d13){return _0x977da-_0x5e5d13;},'FcoZt':function(_0x29a4f6,_0x514d5a){return _0x29a4f6*_0x514d5a;},'KeWSd':function(_0x1f83f2,_0x295d1f){return _0x1f83f2*_0x295d1f;},'xdpIe':function(_0x4aa67f,_0x2a3b22){return _0x4aa67f*_0x2a3b22;},'jjkME':function(_0x5e79e8,_0x7405f0){return _0x5e79e8*_0x7405f0;},'MsLsz':function(_0x498465,_0x3589d6){return _0x498465*_0x3589d6;},'Rsrty':_0x1f01('0x18d'),'KfGOX':function(_0x226f23,_0x2b0f18){return _0x226f23+_0x2b0f18;},'AyQlf':function(_0x3ef028,_0x5cd3c9){return _0x3ef028+_0x5cd3c9;},'PsGUm':function(_0x57c508,_0x23016c){return _0x57c508+_0x23016c;},'nFSGn':function(_0x5822bb,_0x4cb435){return _0x5822bb+_0x4cb435;},'irGwf':_0x1f01('0x392'),'RkTLF':_0x1f01('0x3c0'),'efbVg':_0x1f01('0x190'),'ELVlZ':_0x1f01('0x191')};const _0x59f708=_0x49f1d1[_0x1f01('0x3cf')](_0x3a762a[_0x1f01('0x395')],0x1);const _0x4c7058=new Date()[_0x1f01('0x192')]();const _0x3fe9a9=_0x49f1d1[_0x1f01('0x3d0')](_0x49f1d1[_0x1f01('0x3d1')](_0x49f1d1[_0x1f01('0x3d2')](_0x4c7058,_0x49f1d1[_0x1f01('0x3d3')](_0x49f1d1[_0x1f01('0x3d4')](_0x49f1d1[_0x1f01('0x3d4')](0x8,0x18),0xe10),0x3e8)),_0x49f1d1[_0x1f01('0x3d5')](0xe10,0x3e8)),_0x49f1d1[_0x1f01('0x3d5')](_0x49f1d1[_0x1f01('0x3d6')](_0x49f1d1[_0x1f01('0x3d6')](_0x59f708,0x18),0xe10),0x3e8));const _0xee4d3d=_0x49f1d1[_0x1f01('0x3d1')](_0x3fe9a9,_0x49f1d1[_0x1f01('0x3d6')](_0x49f1d1[_0x1f01('0x3d6')](_0x49f1d1[_0x1f01('0x3d7')](_0x49f1d1[_0x1f01('0x3d1')](_0x59f708,0x1),0x18),0xe10),0x3e8));const _0x1102a0=new Date(_0x3fe9a9)[_0x1f01('0x98')](_0x49f1d1[_0x1f01('0x3d8')]);const _0x47552c=new Date(_0xee4d3d)[_0x1f01('0x98')](_0x49f1d1[_0x1f01('0x3d8')]);let _0x3559b7=_0x49f1d1[_0x1f01('0x3d1')](_0x49f1d1[_0x1f01('0x3d9')](_0x49f1d1[_0x1f01('0x3da')](_0x49f1d1[_0x1f01('0x3db')](_0x49f1d1[_0x1f01('0x3dc')](_0x49f1d1[_0x1f01('0x3dc')](_0x49f1d1[_0x1f01('0x3dd')],_0x3a762a[_0x1f01('0x62')]),_0x49f1d1[_0x1f01('0x3de')]),_0x1102a0),_0x49f1d1[_0x1f01('0x3df')]),_0x47552c),_0x49f1d1[_0x1f01('0x3e0')]);return await Sequelize[_0x1f01('0x25')](_0x3559b7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3e1')](_0x54ab09){var _0x3a627e={'eyYzR':function(_0x254dcf,_0x4488f0){return _0x254dcf+_0x4488f0;},'QsWYA':function(_0x45918c,_0x47da73){return _0x45918c+_0x47da73;},'QGvFr':_0x1f01('0x3e2'),'ygfCy':_0x1f01('0x103'),'XnqQc':_0x1f01('0x104'),'TXxry':_0x1f01('0x3e3')};let _0x3f1839=_0x3a627e[_0x1f01('0x3e4')](_0x3a627e[_0x1f01('0x3e5')](_0x3a627e[_0x1f01('0x3e5')](_0x3a627e[_0x1f01('0x3e5')](_0x3a627e[_0x1f01('0x3e6')],Utils[_0x1f01('0x36')](_0x3a627e[_0x1f01('0x3e7')])),_0x3a627e[_0x1f01('0x3e8')]),_0x54ab09[_0x1f01('0x62')]),_0x3a627e[_0x1f01('0x3e9')]);return await Sequelize[_0x1f01('0x25')](_0x3f1839,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3ea')](_0x390039){var _0x587321={'sWHQj':function(_0xd6cca5,_0x2e2b53){return _0xd6cca5*_0x2e2b53;},'cTNph':function(_0x4332aa,_0x387d1e){return _0x4332aa-_0x387d1e;},'xXyvt':function(_0x44e55e,_0xcbe1de){return _0x44e55e*_0xcbe1de;},'JKXfC':function(_0x1077a4,_0x4aef58){return _0x1077a4*_0x4aef58;},'nphvc':function(_0x27837b,_0x123a13){return _0x27837b*_0x123a13;},'BOhxC':_0x1f01('0x18d'),'MCqlf':function(_0x503e8f,_0x1bae3a){return _0x503e8f+_0x1bae3a;},'oqsUp':function(_0x2fceac,_0x7fefd1){return _0x2fceac+_0x7fefd1;},'glgOD':function(_0x513bea,_0x40ce06){return _0x513bea+_0x40ce06;},'lpQvc':function(_0x4a33a3,_0x3c84df){return _0x4a33a3+_0x3c84df;},'VhYma':function(_0x20e1ba,_0x59282e){return _0x20e1ba+_0x59282e;},'ZgTkA':function(_0x41782d,_0x30e699){return _0x41782d+_0x30e699;},'aPWPZ':_0x1f01('0x392'),'FiUnq':_0x1f01('0xd0'),'xuOiG':_0x1f01('0x18f'),'kZSgD':_0x1f01('0x190'),'Ufhbj':_0x1f01('0x191')};const _0x24c84e=_0x587321[_0x1f01('0x3eb')](_0x390039[_0x1f01('0x395')],0x1);const _0x2212d5=new Date()[_0x1f01('0x192')]();const _0x366646=_0x587321[_0x1f01('0x3ec')](_0x587321[_0x1f01('0x3ec')](_0x2212d5,_0x587321[_0x1f01('0x3eb')](_0x587321[_0x1f01('0x3ed')](0x17,0xe10),0x3e8)),_0x587321[_0x1f01('0x3ee')](_0x587321[_0x1f01('0x3ee')](_0x587321[_0x1f01('0x3ef')](_0x24c84e,0x18),0xe10),0x3e8));const _0x28d309=_0x2212d5;const _0x49213a=new Date(_0x366646)[_0x1f01('0x98')](_0x587321[_0x1f01('0x3f0')]);const _0x21e5ee=new Date(_0x28d309)[_0x1f01('0x98')](_0x587321[_0x1f01('0x3f0')]);let _0x2c3b1d=_0x587321[_0x1f01('0x3f1')](_0x587321[_0x1f01('0x3f1')](_0x587321[_0x1f01('0x3f2')](_0x587321[_0x1f01('0x3f3')](_0x587321[_0x1f01('0x3f3')](_0x587321[_0x1f01('0x3f4')](_0x587321[_0x1f01('0x3f5')](_0x587321[_0x1f01('0x3f6')](_0x587321[_0x1f01('0x3f7')],_0x390039[_0x1f01('0x62')]),_0x587321[_0x1f01('0x3f8')]),UPLOAD_TYPE[_0x1f01('0x3f9')]),_0x587321[_0x1f01('0x3fa')]),_0x49213a),_0x587321[_0x1f01('0x3fb')]),_0x21e5ee),_0x587321[_0x1f01('0x3fc')]);return await Sequelize[_0x1f01('0x25')](_0x2c3b1d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x3fd')](_0x3e5391){var _0x3b7e04={'jHaqt':function(_0x18eecb,_0x22bbf0){return _0x18eecb*_0x22bbf0;},'akxmo':function(_0x264620,_0x1fcdad){return _0x264620-_0x1fcdad;},'zKnBl':function(_0x320571,_0x52e8d0){return _0x320571+_0x52e8d0;},'MYMoh':function(_0x22575e,_0x63c34b){return _0x22575e-_0x63c34b;},'rJElY':function(_0x4a82a6,_0x27339a){return _0x4a82a6*_0x27339a;},'iaReh':function(_0x304291,_0x27e502){return _0x304291*_0x27e502;},'QDuBM':function(_0x375e65,_0x24cb30){return _0x375e65*_0x24cb30;},'YuKCX':function(_0x3e15dd,_0x4aab67){return _0x3e15dd*_0x4aab67;},'ipCqz':function(_0x506a8b,_0x305321){return _0x506a8b*_0x305321;},'DYQRv':function(_0x1766d3,_0x55083f){return _0x1766d3*_0x55083f;},'MOYux':function(_0x46fa31,_0x47b65e){return _0x46fa31*_0x47b65e;},'YjDjY':_0x1f01('0x18d'),'nhxJh':function(_0x5adfbb,_0x16931d){return _0x5adfbb+_0x16931d;},'oNZju':function(_0x25d92f,_0x22290a){return _0x25d92f+_0x22290a;},'LDBGl':function(_0x85e464,_0x3237a9){return _0x85e464+_0x3237a9;},'FuLjd':function(_0x343028,_0x41972d){return _0x343028+_0x41972d;},'zIFNA':function(_0x3b85d1,_0x3e2a40){return _0x3b85d1+_0x3e2a40;},'SiCKc':_0x1f01('0x392'),'Mofpf':_0x1f01('0xd0'),'Zliyr':_0x1f01('0x18f'),'wvSxM':_0x1f01('0x190'),'ZZRzT':_0x1f01('0x191')};const _0x177e7c=_0x3b7e04[_0x1f01('0x3fe')](_0x3e5391[_0x1f01('0x395')],0x1);const _0x472cb7=new Date()[_0x1f01('0x192')]();const _0x64da3=_0x3b7e04[_0x1f01('0x3ff')](_0x3b7e04[_0x1f01('0x400')](_0x3b7e04[_0x1f01('0x401')](_0x472cb7,_0x3b7e04[_0x1f01('0x402')](_0x3b7e04[_0x1f01('0x403')](_0x3b7e04[_0x1f01('0x404')](0x8,0x18),0xe10),0x3e8)),_0x3b7e04[_0x1f01('0x404')](0xe10,0x3e8)),_0x3b7e04[_0x1f01('0x405')](_0x3b7e04[_0x1f01('0x406')](_0x3b7e04[_0x1f01('0x407')](_0x177e7c,0x18),0xe10),0x3e8));const _0x578055=_0x3b7e04[_0x1f01('0x400')](_0x64da3,_0x3b7e04[_0x1f01('0x408')](_0x3b7e04[_0x1f01('0x408')](_0x3b7e04[_0x1f01('0x408')](_0x3b7e04[_0x1f01('0x400')](_0x177e7c,0x1),0x18),0xe10),0x3e8));const _0xfe9244=new Date(_0x64da3)[_0x1f01('0x98')](_0x3b7e04[_0x1f01('0x409')]);const _0x137400=new Date(_0x578055)[_0x1f01('0x98')](_0x3b7e04[_0x1f01('0x409')]);let _0x3c4665=_0x3b7e04[_0x1f01('0x40a')](_0x3b7e04[_0x1f01('0x40a')](_0x3b7e04[_0x1f01('0x40a')](_0x3b7e04[_0x1f01('0x40b')](_0x3b7e04[_0x1f01('0x40c')](_0x3b7e04[_0x1f01('0x40d')](_0x3b7e04[_0x1f01('0x40e')](_0x3b7e04[_0x1f01('0x40e')](_0x3b7e04[_0x1f01('0x40f')],_0x3e5391[_0x1f01('0x62')]),_0x3b7e04[_0x1f01('0x410')]),UPLOAD_TYPE[_0x1f01('0x3f9')]),_0x3b7e04[_0x1f01('0x411')]),_0xfe9244),_0x3b7e04[_0x1f01('0x412')]),_0x137400),_0x3b7e04[_0x1f01('0x413')]);return await Sequelize[_0x1f01('0x25')](_0x3c4665,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x414')](_0x4574a4){var _0x2de177={'oVRkv':function(_0x27b6d9,_0x337f8f){return _0x27b6d9*_0x337f8f;},'jnUvk':function(_0xf4e9c3,_0x4ebcee){return _0xf4e9c3-_0x4ebcee;},'HHXTu':function(_0x329c35,_0x33dadb){return _0x329c35-_0x33dadb;},'KSgCv':function(_0x387176,_0x25523e){return _0x387176*_0x25523e;},'dqwJy':function(_0x310099,_0x2dee75){return _0x310099*_0x2dee75;},'RKKRH':function(_0x129f67,_0x3e3eac){return _0x129f67*_0x3e3eac;},'IlFHI':function(_0x2b75e4,_0x3e68e8){return _0x2b75e4*_0x3e68e8;},'NxBCN':_0x1f01('0x18d'),'rWDDd':function(_0x2526b1,_0x3f2fd4){return _0x2526b1+_0x3f2fd4;},'GDQGQ':function(_0x3dea18,_0x85e7b7){return _0x3dea18+_0x85e7b7;},'GomGA':function(_0x4d17fd,_0x28de72){return _0x4d17fd+_0x28de72;},'Gtdko':function(_0x518fe0,_0x410cfa){return _0x518fe0+_0x410cfa;},'JNjqk':function(_0x2a0add,_0x76254){return _0x2a0add+_0x76254;},'odnIu':function(_0x451fa8,_0x5c6a11){return _0x451fa8+_0x5c6a11;},'oAHZL':_0x1f01('0x392'),'cXAAx':_0x1f01('0xd0'),'iWDzX':_0x1f01('0x18f'),'gfkEa':_0x1f01('0x190'),'ULLNy':_0x1f01('0x191')};const _0x49dd41=_0x2de177[_0x1f01('0x415')](_0x4574a4[_0x1f01('0x395')],0x1);const _0x41fdd7=new Date()[_0x1f01('0x192')]();const _0x1f2851=_0x2de177[_0x1f01('0x416')](_0x2de177[_0x1f01('0x417')](_0x41fdd7,_0x2de177[_0x1f01('0x418')](_0x2de177[_0x1f01('0x419')](0x17,0xe10),0x3e8)),_0x2de177[_0x1f01('0x419')](_0x2de177[_0x1f01('0x41a')](_0x2de177[_0x1f01('0x41b')](_0x49dd41,0x18),0xe10),0x3e8));const _0x5989f3=_0x41fdd7;const _0x1571a0=new Date(_0x1f2851)[_0x1f01('0x98')](_0x2de177[_0x1f01('0x41c')]);const _0x8f31d1=new Date(_0x5989f3)[_0x1f01('0x98')](_0x2de177[_0x1f01('0x41c')]);let _0x3c3098=_0x2de177[_0x1f01('0x41d')](_0x2de177[_0x1f01('0x41d')](_0x2de177[_0x1f01('0x41e')](_0x2de177[_0x1f01('0x41f')](_0x2de177[_0x1f01('0x420')](_0x2de177[_0x1f01('0x421')](_0x2de177[_0x1f01('0x421')](_0x2de177[_0x1f01('0x422')](_0x2de177[_0x1f01('0x423')],_0x4574a4[_0x1f01('0x62')]),_0x2de177[_0x1f01('0x424')]),UPLOAD_TYPE[_0x1f01('0x425')]),_0x2de177[_0x1f01('0x426')]),_0x1571a0),_0x2de177[_0x1f01('0x427')]),_0x8f31d1),_0x2de177[_0x1f01('0x428')]);return await Sequelize[_0x1f01('0x25')](_0x3c3098,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x429')](_0x46e683){var _0x44ca9f={'WcaxD':function(_0x3d2cbe,_0x4777d8){return _0x3d2cbe*_0x4777d8;},'BqBlc':function(_0x337547,_0x376e76){return _0x337547-_0x376e76;},'Tjyus':function(_0x4b1879,_0x3b73dd){return _0x4b1879+_0x3b73dd;},'vxEFm':function(_0x2c6def,_0x6e6468){return _0x2c6def-_0x6e6468;},'vNBSv':function(_0x3cd65d,_0x907d60){return _0x3cd65d*_0x907d60;},'anvbq':function(_0x5afd8a,_0x4045c5){return _0x5afd8a*_0x4045c5;},'JLACv':function(_0x9d9f18,_0x4e7aa4){return _0x9d9f18*_0x4e7aa4;},'GQDoX':function(_0x650562,_0x1479da){return _0x650562+_0x1479da;},'nAatO':_0x1f01('0x18d'),'Rkjql':function(_0x18b9b6,_0x313cfb){return _0x18b9b6+_0x313cfb;},'GVcXF':function(_0x8dc1b1,_0x570985){return _0x8dc1b1+_0x570985;},'CKvXM':_0x1f01('0x392'),'RaYrZ':_0x1f01('0xd0'),'eYpxh':_0x1f01('0x18f'),'ryWoV':_0x1f01('0x190'),'CGSqF':_0x1f01('0x191')};const _0x4c376c=_0x44ca9f[_0x1f01('0x42a')](_0x46e683[_0x1f01('0x395')],0x1);const _0x15b862=new Date()[_0x1f01('0x192')]();const _0x28573b=_0x44ca9f[_0x1f01('0x42b')](_0x44ca9f[_0x1f01('0x42c')](_0x44ca9f[_0x1f01('0x42d')](_0x15b862,_0x44ca9f[_0x1f01('0x42a')](_0x44ca9f[_0x1f01('0x42e')](_0x44ca9f[_0x1f01('0x42f')](0x8,0x18),0xe10),0x3e8)),_0x44ca9f[_0x1f01('0x42f')](0xe10,0x3e8)),_0x44ca9f[_0x1f01('0x42f')](_0x44ca9f[_0x1f01('0x430')](_0x44ca9f[_0x1f01('0x430')](_0x4c376c,0x18),0xe10),0x3e8));const _0x242535=_0x44ca9f[_0x1f01('0x431')](_0x28573b,_0x44ca9f[_0x1f01('0x430')](_0x44ca9f[_0x1f01('0x430')](_0x44ca9f[_0x1f01('0x430')](_0x44ca9f[_0x1f01('0x431')](_0x4c376c,0x1),0x18),0xe10),0x3e8));const _0x2db0c6=new Date(_0x28573b)[_0x1f01('0x98')](_0x44ca9f[_0x1f01('0x432')]);const _0x41a8f0=new Date(_0x242535)[_0x1f01('0x98')](_0x44ca9f[_0x1f01('0x432')]);let _0x4311aa=_0x44ca9f[_0x1f01('0x431')](_0x44ca9f[_0x1f01('0x431')](_0x44ca9f[_0x1f01('0x431')](_0x44ca9f[_0x1f01('0x433')](_0x44ca9f[_0x1f01('0x434')](_0x44ca9f[_0x1f01('0x434')](_0x44ca9f[_0x1f01('0x434')](_0x44ca9f[_0x1f01('0x434')](_0x44ca9f[_0x1f01('0x435')],_0x46e683[_0x1f01('0x62')]),_0x44ca9f[_0x1f01('0x436')]),UPLOAD_TYPE[_0x1f01('0x425')]),_0x44ca9f[_0x1f01('0x437')]),_0x2db0c6),_0x44ca9f[_0x1f01('0x438')]),_0x41a8f0),_0x44ca9f[_0x1f01('0x439')]);return await Sequelize[_0x1f01('0x25')](_0x4311aa,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x43a')](_0x4c8fd){var _0x4dcf93={'CYGCi':function(_0xa1819b,_0x3b46eb){return _0xa1819b-_0x3b46eb;},'wuPFa':function(_0xe9c78b,_0x57a00b){return _0xe9c78b*_0x57a00b;},'UmvOb':_0x1f01('0x92'),'RtLir':function(_0x5b9f68,_0x13f599){return _0x5b9f68+_0x13f599;},'YgNof':function(_0x49bdd4,_0x486934){return _0x49bdd4+_0x486934;},'Xuqxl':function(_0x4b8254,_0x1b2fd5){return _0x4b8254+_0x1b2fd5;},'sHKoW':_0x1f01('0x43b'),'SOnNU':_0x1f01('0x103'),'YJKov':_0x1f01('0x200'),'NWnVx':_0x1f01('0x43c'),'UIfgW':_0x1f01('0x43d')};const _0x462517=new Date(_0x4dcf93[_0x1f01('0x43e')](new Date()[_0x1f01('0x192')](),_0x4dcf93[_0x1f01('0x43f')](_0x4dcf93[_0x1f01('0x43f')](_0x4dcf93[_0x1f01('0x43f')](0x6,0x3c),0x3c),0x3e8)))[_0x1f01('0x98')](_0x4dcf93[_0x1f01('0x440')]);const _0x3086e0=_0x4dcf93[_0x1f01('0x441')](_0x4dcf93[_0x1f01('0x441')](_0x4dcf93[_0x1f01('0x442')](_0x4dcf93[_0x1f01('0x443')](_0x4dcf93[_0x1f01('0x443')](_0x4dcf93[_0x1f01('0x443')](_0x4dcf93[_0x1f01('0x444')],Utils[_0x1f01('0x36')](_0x4dcf93[_0x1f01('0x445')])),_0x4dcf93[_0x1f01('0x446')]),_0x462517),_0x4dcf93[_0x1f01('0x447')]),_0x4c8fd[_0x1f01('0x62')]),_0x4dcf93[_0x1f01('0x448')]);return await Sequelize[_0x1f01('0x25')](_0x3086e0,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x449')](_0x3b5a92){var _0x36e818={'BdXer':function(_0xe3fab6,_0x1bcf45){return _0xe3fab6-_0x1bcf45;},'SLWEn':function(_0xd92627,_0x59fb42){return _0xd92627*_0x59fb42;},'BHzic':function(_0x110af6,_0x4b1435){return _0x110af6*_0x4b1435;},'neTwR':function(_0x489ecb,_0x2005ff){return _0x489ecb*_0x2005ff;},'lxIaP':_0x1f01('0x92'),'nvnmN':function(_0x172042,_0x2497cc){return _0x172042+_0x2497cc;},'ZrrIH':function(_0x1c7403,_0x2a20d5){return _0x1c7403+_0x2a20d5;},'SRAlI':function(_0x101c38,_0x4a931f){return _0x101c38+_0x4a931f;},'kTJgL':_0x1f01('0x44a'),'noxak':_0x1f01('0x103'),'WGDmN':_0x1f01('0x200'),'jEZOL':_0x1f01('0x43c'),'Ockwj':_0x1f01('0x44b')};const _0x5cf212=new Date(_0x36e818[_0x1f01('0x44c')](new Date()[_0x1f01('0x192')](),_0x36e818[_0x1f01('0x44d')](_0x36e818[_0x1f01('0x44e')](_0x36e818[_0x1f01('0x44f')](0x1,0x3c),0x3c),0x3e8)))[_0x1f01('0x98')](_0x36e818[_0x1f01('0x450')]);const _0x16b8ac=_0x36e818[_0x1f01('0x451')](_0x36e818[_0x1f01('0x451')](_0x36e818[_0x1f01('0x451')](_0x36e818[_0x1f01('0x451')](_0x36e818[_0x1f01('0x452')](_0x36e818[_0x1f01('0x453')](_0x36e818[_0x1f01('0x454')],Utils[_0x1f01('0x36')](_0x36e818[_0x1f01('0x455')])),_0x36e818[_0x1f01('0x456')]),_0x5cf212),_0x36e818[_0x1f01('0x457')]),_0x3b5a92[_0x1f01('0x62')]),_0x36e818[_0x1f01('0x458')]);return await Sequelize[_0x1f01('0x25')](_0x16b8ac,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x459')](_0x39da54){var _0x2d3ce4={'dbBPx':function(_0x39ae5d,_0x2ee565){return _0x39ae5d-_0x2ee565;},'PEvRM':function(_0x1d8ae2,_0x5d5a7c){return _0x1d8ae2*_0x5d5a7c;},'aDwdE':function(_0x576d22,_0x15216d){return _0x576d22*_0x15216d;},'BoHBV':_0x1f01('0x92'),'gMtcd':function(_0x285a7d,_0x238927){return _0x285a7d+_0x238927;},'keBeC':function(_0xc3a508,_0x3c6871){return _0xc3a508+_0x3c6871;},'CpyfP':function(_0x2945ab,_0x3d13b0){return _0x2945ab+_0x3d13b0;},'EHaIU':function(_0x4b5277,_0x44fa4e){return _0x4b5277+_0x44fa4e;},'UQdti':function(_0x1466aa,_0x39c3c8){return _0x1466aa+_0x39c3c8;},'oeIbD':_0x1f01('0x45a'),'mtIIa':_0x1f01('0x103'),'RzcME':_0x1f01('0x200'),'aSDru':_0x1f01('0x43c'),'ShoIW':_0x1f01('0x45b')};const _0x5379e6=new Date(_0x2d3ce4[_0x1f01('0x45c')](new Date()[_0x1f01('0x192')](),_0x2d3ce4[_0x1f01('0x45d')](_0x2d3ce4[_0x1f01('0x45e')](_0x2d3ce4[_0x1f01('0x45e')](0x1,0x3c),0x3c),0x3e8)))[_0x1f01('0x98')](_0x2d3ce4[_0x1f01('0x45f')]);const _0x1bcf6e=_0x2d3ce4[_0x1f01('0x460')](_0x2d3ce4[_0x1f01('0x460')](_0x2d3ce4[_0x1f01('0x461')](_0x2d3ce4[_0x1f01('0x462')](_0x2d3ce4[_0x1f01('0x463')](_0x2d3ce4[_0x1f01('0x464')](_0x2d3ce4[_0x1f01('0x465')],Utils[_0x1f01('0x36')](_0x2d3ce4[_0x1f01('0x466')])),_0x2d3ce4[_0x1f01('0x467')]),_0x5379e6),_0x2d3ce4[_0x1f01('0x468')]),_0x39da54[_0x1f01('0x62')]),_0x2d3ce4[_0x1f01('0x469')]);return await Sequelize[_0x1f01('0x25')](_0x1bcf6e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x46a')](_0x491475){var _0x43a2db={'JhtQq':_0x1f01('0x92'),'bkKWB':function(_0x537392,_0x55ce24){return _0x537392+_0x55ce24;},'JveIQ':function(_0x291790,_0x3a2ed4){return _0x291790+_0x3a2ed4;},'XypOJ':_0x1f01('0x46b'),'zJLUu':_0x1f01('0x103')};let {startTime,endTime,webMonitorId,page,ipAddress}=_0x491475;startTime=new Date(startTime)[_0x1f01('0x98')](_0x43a2db[_0x1f01('0x46c')]);endTime=new Date(endTime)[_0x1f01('0x98')](_0x43a2db[_0x1f01('0x46c')]);const _0x3045a9=ipAddress?_0x43a2db[_0x1f01('0x46d')](_0x43a2db[_0x1f01('0x46e')](_0x43a2db[_0x1f01('0x46f')],ipAddress),'\x27\x20'):'';const _0x34ff86=_0x1f01('0x470')+Utils[_0x1f01('0x36')](_0x43a2db[_0x1f01('0x471')])+_0x1f01('0x104')+webMonitorId+_0x1f01('0x472')+startTime+_0x1f01('0x473')+endTime+'\x27\x20'+_0x3045a9;return await Sequelize[_0x1f01('0x25')](_0x34ff86,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x474')](_0xc6166a){var _0x118eaf={'FwHTJ':function(_0x18e26a,_0x582d73,_0x5a1809){return _0x18e26a(_0x582d73,_0x5a1809);},'AYsjy':function(_0x2ad0c6,_0x528f73){return _0x2ad0c6-_0x528f73;},'RQfoi':function(_0x403626,_0x5109f1){return _0x403626-_0x5109f1;},'jeFbC':function(_0x53a0df,_0x11155a){return _0x53a0df>_0x11155a;},'VPpNg':function(_0x2f4fbb,_0x51384a){return _0x2f4fbb-_0x51384a;},'XskDn':function(_0x2892f2,_0xc1024b){return _0x2892f2+_0xc1024b;},'fgejE':_0x1f01('0x103'),'pMvaH':function(_0x324b63,_0x27260e){return _0x324b63+_0x27260e;},'YTjAs':_0x1f01('0x475'),'TAnqh':_0x1f01('0x2da'),'qgRsS':_0x1f01('0x476'),'HXZgF':_0x1f01('0x106'),'SZhCQ':function(_0x30d80a,_0x5d153a){return _0x30d80a+_0x5d153a;},'ZUElS':function(_0x41057f,_0x32a5a4){return _0x41057f+_0x32a5a4;},'OGTMH':function(_0x4947fb,_0x4f4ad6){return _0x4947fb+_0x4f4ad6;}};const _0x4a2b03=_0x118eaf[_0x1f01('0x477')](parseInt,_0xc6166a[_0x1f01('0x2e2')],0xa);const _0x33cc7e=Utils[_0x1f01('0x3f')](_0x118eaf[_0x1f01('0x478')](0x1,_0x4a2b03));let _0x336129='';for(let _0x29c76d=_0x118eaf[_0x1f01('0x479')](_0x4a2b03,0x1);_0x118eaf[_0x1f01('0x47a')](_0x29c76d,0x0);_0x29c76d--){const _0x349124=Utils[_0x1f01('0x3f')](_0x118eaf[_0x1f01('0x47b')](0x0,_0x29c76d));const _0x29fa97=_0x349124[_0x1f01('0x217')](/-/g,'');const _0x376779=_0x118eaf[_0x1f01('0x47c')](_0x118eaf[_0x1f01('0x47d')],_0x29fa97);if(_0x118eaf[_0x1f01('0x47a')](_0x29c76d,0x1)){_0x336129+=_0x118eaf[_0x1f01('0x47c')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47e')](_0x118eaf[_0x1f01('0x47f')],_0x376779),_0x118eaf[_0x1f01('0x480')]),_0xc6166a[_0x1f01('0x62')]),_0x118eaf[_0x1f01('0x481')]),_0x33cc7e),'\x27\x20'),_0x118eaf[_0x1f01('0x482')]);}else{_0x336129+=_0x118eaf[_0x1f01('0x483')](_0x118eaf[_0x1f01('0x484')](_0x118eaf[_0x1f01('0x484')](_0x118eaf[_0x1f01('0x485')](_0x118eaf[_0x1f01('0x485')](_0x118eaf[_0x1f01('0x485')](_0x118eaf[_0x1f01('0x47f')],_0x376779),_0x118eaf[_0x1f01('0x480')]),_0xc6166a[_0x1f01('0x62')]),_0x118eaf[_0x1f01('0x481')]),_0x33cc7e),'\x27\x20');}}return await Sequelize[_0x1f01('0x25')](_0x336129,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x486')](_0x1256f1){var _0x2b866c={'gRZEw':function(_0x59fcbc,_0x30257b){return _0x59fcbc-_0x30257b;},'hTrwp':function(_0x35315d,_0x3f04a6){return _0x35315d+_0x3f04a6;},'dyRUS':function(_0x36a66d,_0x47b468){return _0x36a66d+_0x47b468;},'mLXLu':function(_0x2992df,_0x2803a8){return _0x2992df+_0x2803a8;},'MNgCQ':function(_0xe3df47,_0x4d20d4){return _0xe3df47+_0x4d20d4;},'xdCnY':function(_0x5d761a,_0x49e781){return _0x5d761a+_0x49e781;},'lWWdC':_0x1f01('0x487'),'swOGY':_0x1f01('0x103'),'PzzXY':_0x1f01('0x488'),'jqEfj':_0x1f01('0xcf'),'eVPQo':_0x1f01('0x489')};const _0x22a3d6=Utils[_0x1f01('0x3f')](_0x2b866c[_0x1f01('0x48a')](0x0,_0x1256f1[_0x1f01('0x16b')]));let _0x4bfdc1=_0x2b866c[_0x1f01('0x48b')](_0x2b866c[_0x1f01('0x48b')](_0x2b866c[_0x1f01('0x48c')](_0x2b866c[_0x1f01('0x48d')](_0x2b866c[_0x1f01('0x48e')](_0x2b866c[_0x1f01('0x48f')](_0x2b866c[_0x1f01('0x490')],Utils[_0x1f01('0x36')](_0x2b866c[_0x1f01('0x491')])),_0x2b866c[_0x1f01('0x492')]),_0x22a3d6),_0x2b866c[_0x1f01('0x493')]),_0x1256f1[_0x1f01('0x62')]),_0x2b866c[_0x1f01('0x494')]);return await Sequelize[_0x1f01('0x25')](_0x4bfdc1,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x495')](_0x1ed34c,_0x338a6a,_0x2ca101){var _0x285445={'ySbGX':function(_0x510baf,_0xfc7f4a){return _0x510baf+_0xfc7f4a;},'BTMbT':function(_0x1e913d,_0x59e0c6){return _0x1e913d+_0x59e0c6;},'IATyb':function(_0x3f5724,_0x9ca352){return _0x3f5724+_0x9ca352;},'GOiDj':function(_0x56834b,_0x30cff1){return _0x56834b+_0x30cff1;},'tugnM':_0x1f01('0x496'),'ZryDj':_0x1f01('0x103'),'nVFqF':_0x1f01('0x497'),'MLaou':_0x1f01('0x498'),'LZxso':_0x1f01('0x202')};let _0x361c69=_0x285445[_0x1f01('0x499')](_0x285445[_0x1f01('0x499')](_0x285445[_0x1f01('0x49a')](_0x285445[_0x1f01('0x49a')](_0x285445[_0x1f01('0x49a')](_0x285445[_0x1f01('0x49a')](_0x285445[_0x1f01('0x49b')](_0x285445[_0x1f01('0x49c')](_0x285445[_0x1f01('0x49d')],Utils[_0x1f01('0x36')](_0x285445[_0x1f01('0x49e')])),_0x285445[_0x1f01('0x49f')]),_0x338a6a),_0x285445[_0x1f01('0x4a0')]),_0x2ca101),_0x285445[_0x1f01('0x4a1')]),_0x1ed34c),'\x27');return await Sequelize[_0x1f01('0x25')](_0x361c69,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x4a2')](_0x23208f,_0x789ed0,_0x24c972){var _0x24db56={'ZmMMz':_0x1f01('0x103'),'qNJVt':function(_0x139c37,_0x2fbb2c){return _0x139c37===_0x2fbb2c;},'CDYlt':function(_0x1d77d8,_0x2cac80){return _0x1d77d8+_0x2cac80;},'oEfAo':_0x1f01('0x1ff'),'GiqzK':function(_0x4e8414,_0x27ff6d){return _0x4e8414+_0x27ff6d;},'cYymh':function(_0x476946,_0x3e7385){return _0x476946+_0x3e7385;},'vGcHa':function(_0x1984c8,_0x25da9f){return _0x1984c8+_0x25da9f;},'ovoVs':_0x1f01('0xae'),'Liamh':_0x1f01('0x200'),'uGKcY':_0x1f01('0x201'),'BIanU':_0x1f01('0x202')};const _0x23dbd3=Utils[_0x1f01('0x3f')](-0x1);let _0x1992eb=Utils[_0x1f01('0x36')](_0x24db56[_0x1f01('0x4a3')]);if(_0x24db56[_0x1f01('0x4a4')](_0x789ed0,_0x24db56[_0x1f01('0x4a5')](_0x23dbd3,_0x24db56[_0x1f01('0x4a6')]))){_0x1992eb=CommonSql[_0x1f01('0x36')](_0x24db56[_0x1f01('0x4a3')],0x1);}let _0x66ef25=_0x24db56[_0x1f01('0x4a5')](_0x24db56[_0x1f01('0x4a5')](_0x24db56[_0x1f01('0x4a7')](_0x24db56[_0x1f01('0x4a7')](_0x24db56[_0x1f01('0x4a7')](_0x24db56[_0x1f01('0x4a8')](_0x24db56[_0x1f01('0x4a8')](_0x24db56[_0x1f01('0x4a9')](_0x24db56[_0x1f01('0x4aa')],_0x1992eb),_0x24db56[_0x1f01('0x4ab')]),_0x789ed0),_0x24db56[_0x1f01('0x4ac')]),_0x24c972),_0x24db56[_0x1f01('0x4ad')]),_0x23208f),'\x27');return await Sequelize[_0x1f01('0x25')](_0x66ef25,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x4ae')](_0x2f7317,_0x2313c6,_0x4bf09e){var _0x385b83={'bwlCs':_0x1f01('0x103'),'RLbgl':function(_0x2cdd01,_0x4a0e07){return _0x2cdd01===_0x4a0e07;},'pUhld':function(_0x3f78cc,_0xc19471){return _0x3f78cc+_0xc19471;},'TUwVy':_0x1f01('0x1ff'),'PVSsk':function(_0xd64ef2,_0x4049ec){return _0xd64ef2+_0x4049ec;},'tCBqp':function(_0x386850,_0xd939f8){return _0x386850+_0xd939f8;},'ZBpJo':function(_0x316a93,_0x1dc8fe){return _0x316a93+_0x1dc8fe;},'zgcoo':function(_0xd67b7,_0x27c4d7){return _0xd67b7+_0x27c4d7;},'IZjkF':function(_0x1a1c4e,_0x3df76f){return _0x1a1c4e+_0x3df76f;},'MZSjx':_0x1f01('0x1dc'),'ZvYnS':_0x1f01('0x200'),'CPPLK':_0x1f01('0x201'),'gIOmg':_0x1f01('0x202'),'KIZWM':_0x1f01('0x4af')};const _0x783313=Utils[_0x1f01('0x3f')](-0x1);let _0x28ed93=Utils[_0x1f01('0x36')](_0x385b83[_0x1f01('0x4b0')]);if(_0x385b83[_0x1f01('0x4b1')](_0x2313c6,_0x385b83[_0x1f01('0x4b2')](_0x783313,_0x385b83[_0x1f01('0x4b3')]))){_0x28ed93=CommonSql[_0x1f01('0x36')](_0x385b83[_0x1f01('0x4b0')],0x1);}let _0x27c023=_0x385b83[_0x1f01('0x4b2')](_0x385b83[_0x1f01('0x4b2')](_0x385b83[_0x1f01('0x4b4')](_0x385b83[_0x1f01('0x4b5')](_0x385b83[_0x1f01('0x4b5')](_0x385b83[_0x1f01('0x4b6')](_0x385b83[_0x1f01('0x4b7')](_0x385b83[_0x1f01('0x4b8')](_0x385b83[_0x1f01('0x4b9')],_0x28ed93),_0x385b83[_0x1f01('0x4ba')]),_0x2313c6),_0x385b83[_0x1f01('0x4bb')]),_0x4bf09e),_0x385b83[_0x1f01('0x4bc')]),_0x2f7317),_0x385b83[_0x1f01('0x4bd')]);return await Sequelize[_0x1f01('0x25')](_0x27c023,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x4be')](_0x2b508c,_0x2a2a59,_0x17338e){var _0x484ed0={'lqQWY':_0x1f01('0x103'),'lGBJU':function(_0x5aaeea,_0xeb0825){return _0x5aaeea===_0xeb0825;},'OXiov':function(_0x1da7b3,_0x1f27cb){return _0x1da7b3+_0x1f27cb;},'mPpsk':_0x1f01('0x1ff'),'MzoOf':function(_0x3baa63,_0x43e6d2){return _0x3baa63+_0x43e6d2;},'CFEjL':function(_0x5ca69a,_0x2edc8b){return _0x5ca69a+_0x2edc8b;},'erzTB':function(_0x231924,_0x26aea6){return _0x231924+_0x26aea6;},'yNxQJ':function(_0x7e6afd,_0x44ebe2){return _0x7e6afd+_0x44ebe2;},'CXKRc':function(_0x388457,_0x50a599){return _0x388457+_0x50a599;},'vdjGW':_0x1f01('0x1dc'),'SttkT':_0x1f01('0x200'),'IIByz':_0x1f01('0x201'),'KIhPD':_0x1f01('0x202'),'NZwPi':function(_0x12803b,_0x4f2231){return _0x12803b+_0x4f2231;},'ubESs':function(_0x3f26a0,_0x5e00bd){return _0x3f26a0+_0x5e00bd;},'RVGWI':function(_0x2d7c80,_0x3db063){return _0x2d7c80+_0x3db063;},'kpjOr':function(_0xb55442,_0x668d5b){return _0xb55442+_0x668d5b;},'AHVrC':_0x1f01('0x4bf'),'JEBVi':function(_0xb0f4ee,_0xd1a9f5){return _0xb0f4ee>_0xd1a9f5;},'aPFMo':function(_0xc8d606,_0x2ba56e){return _0xc8d606>_0x2ba56e;},'VUDxj':function(_0x4c8f5c,_0x1e615e){return _0x4c8f5c==_0x1e615e;},'hWzat':function(_0xe44003,_0x4c83e6){return _0xe44003/_0x4c83e6;}};const _0x2be613=Utils[_0x1f01('0x3f')](-0x1);let _0x5486ed=Utils[_0x1f01('0x36')](_0x484ed0[_0x1f01('0x4c0')]);if(_0x484ed0[_0x1f01('0x4c1')](_0x2a2a59,_0x484ed0[_0x1f01('0x4c2')](_0x2be613,_0x484ed0[_0x1f01('0x4c3')]))){_0x5486ed=CommonSql[_0x1f01('0x36')](_0x484ed0[_0x1f01('0x4c0')],0x1);}let _0x29760b=_0x484ed0[_0x1f01('0x4c4')](_0x484ed0[_0x1f01('0x4c5')](_0x484ed0[_0x1f01('0x4c5')](_0x484ed0[_0x1f01('0x4c5')](_0x484ed0[_0x1f01('0x4c5')](_0x484ed0[_0x1f01('0x4c6')](_0x484ed0[_0x1f01('0x4c7')](_0x484ed0[_0x1f01('0x4c8')](_0x484ed0[_0x1f01('0x4c9')],_0x5486ed),_0x484ed0[_0x1f01('0x4ca')]),_0x2a2a59),_0x484ed0[_0x1f01('0x4cb')]),_0x17338e),_0x484ed0[_0x1f01('0x4cc')]),_0x2b508c),'\x27');const _0x170b6e=await Sequelize[_0x1f01('0x25')](_0x29760b,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});let _0x1b5ada=_0x484ed0[_0x1f01('0x4c8')](_0x484ed0[_0x1f01('0x4c8')](_0x484ed0[_0x1f01('0x4cd')](_0x484ed0[_0x1f01('0x4ce')](_0x484ed0[_0x1f01('0x4ce')](_0x484ed0[_0x1f01('0x4ce')](_0x484ed0[_0x1f01('0x4cf')](_0x484ed0[_0x1f01('0x4d0')](_0x484ed0[_0x1f01('0x4d1')],_0x5486ed),_0x484ed0[_0x1f01('0x4ca')]),_0x2a2a59),_0x484ed0[_0x1f01('0x4cb')]),_0x17338e),_0x484ed0[_0x1f01('0x4cc')]),_0x2b508c),'\x27');const _0x11a2ff=await Sequelize[_0x1f01('0x25')](_0x1b5ada,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});const _0x408306=_0x484ed0[_0x1f01('0x4d2')](_0x170b6e[_0x1f01('0x4d3')],0x0)?_0x170b6e[0x0][_0x1f01('0x4d4')]:0x0;const _0x55df19=_0x484ed0[_0x1f01('0x4d5')](_0x11a2ff[_0x1f01('0x4d3')],0x0)?_0x11a2ff[0x0][_0x1f01('0x4d4')]:0x0;let _0xa13448=0x0;if(_0x484ed0[_0x1f01('0x4d6')](_0x55df19,0x0)){_0xa13448=0x0;}else{_0xa13448=_0x484ed0[_0x1f01('0x4d7')](_0x408306,_0x55df19)[_0x1f01('0x4d8')](0x2);}return _0xa13448;}static async[_0x1f01('0x4d9')](_0x378555,_0x2c1964,_0x477fda){var _0xde466f={'xUDpY':_0x1f01('0x103'),'qNymV':function(_0x2bcd77,_0x32cefc){return _0x2bcd77===_0x32cefc;},'qteNL':function(_0x3f9bdd,_0x53b3ef){return _0x3f9bdd+_0x53b3ef;},'XxJyE':_0x1f01('0x1ff'),'sHvHs':function(_0x532e46,_0x4abbde){return _0x532e46+_0x4abbde;},'nddDo':function(_0x3533e1,_0x241f15){return _0x3533e1+_0x241f15;},'UtMDF':function(_0x2b2dab,_0xd70fee){return _0x2b2dab+_0xd70fee;},'pmwTt':_0x1f01('0x496'),'ZwSdT':_0x1f01('0x200'),'HKnTG':_0x1f01('0x201'),'eUqFk':_0x1f01('0x202'),'uyeTM':_0x1f01('0x4da')};const _0x2471e4=Utils[_0x1f01('0x3f')](-0x1);let _0x475d5b=Utils[_0x1f01('0x36')](_0xde466f[_0x1f01('0x4db')]);if(_0xde466f[_0x1f01('0x4dc')](_0x2c1964,_0xde466f[_0x1f01('0x4dd')](_0x2471e4,_0xde466f[_0x1f01('0x4de')]))){_0x475d5b=CommonSql[_0x1f01('0x36')](_0xde466f[_0x1f01('0x4db')],0x1);}let _0x141248=_0xde466f[_0x1f01('0x4df')](_0xde466f[_0x1f01('0x4df')](_0xde466f[_0x1f01('0x4df')](_0xde466f[_0x1f01('0x4df')](_0xde466f[_0x1f01('0x4e0')](_0xde466f[_0x1f01('0x4e0')](_0xde466f[_0x1f01('0x4e0')](_0xde466f[_0x1f01('0x4e1')](_0xde466f[_0x1f01('0x4e2')],_0x475d5b),_0xde466f[_0x1f01('0x4e3')]),_0x2c1964),_0xde466f[_0x1f01('0x4e4')]),_0x477fda),_0xde466f[_0x1f01('0x4e5')]),_0x378555),'\x27');console[_0x1f01('0x147')](_0xde466f[_0x1f01('0x4e6')],_0x141248);return await Sequelize[_0x1f01('0x25')](_0x141248,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x4e7')](_0x27db79){var _0x5ca18a={'Uooxa':function(_0xc3e060,_0x1e74bd){return _0xc3e060<_0x1e74bd;},'THPyB':function(_0x1a85a0,_0x5806ec){return _0x1a85a0-_0x5806ec;},'WRMYN':_0x1f01('0x103'),'qPnbV':function(_0x261062,_0x58f4f7){return _0x261062+_0x58f4f7;},'pVhaz':function(_0x24a4a1,_0x251c70){return _0x24a4a1+_0x251c70;},'StKOo':function(_0x5290c1,_0x6fe8b8){return _0x5290c1+_0x6fe8b8;},'owYWe':_0x1f01('0xae'),'KQqoI':_0x1f01('0x2f'),'xuAHS':function(_0xc2e071,_0x34e307,_0x450494){return _0xc2e071(_0x34e307,_0x450494);}};const _0x5f4a4c=[];for(let _0x2c7557=0x0;_0x5ca18a[_0x1f01('0x4e8')](_0x2c7557,0xf);_0x2c7557++){let _0x46de6c=Utils[_0x1f01('0x3f')](_0x5ca18a[_0x1f01('0x4e9')](0x0,_0x2c7557));let _0x30289c=CommonSql[_0x1f01('0x36')](_0x5ca18a[_0x1f01('0x4ea')],_0x2c7557);let _0x37934d=_0x5ca18a[_0x1f01('0x4eb')](_0x5ca18a[_0x1f01('0x4ec')](_0x5ca18a[_0x1f01('0x4ed')](_0x5ca18a[_0x1f01('0x4ee')],_0x30289c),_0x5ca18a[_0x1f01('0x4ef')]),_0x27db79);let _0x141ee2=await Sequelize[_0x1f01('0x25')](_0x37934d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});let _0x36bc46={'day':_0x46de6c,'count':_0x5ca18a[_0x1f01('0x4f0')](parseInt,_0x141ee2[0x0][_0x1f01('0x4d4')],0xa)};_0x5f4a4c[_0x1f01('0x4f1')](_0x36bc46);}return _0x5f4a4c;}}const JavascriptErrorInfo=Sequelize[_0x1f01('0x18')](_0x1f01('0x4f2'));JavascriptErrorInfo[_0x1f01('0x1a')]({'force':![]});function fixPath(_0x369f65){return _0x369f65[_0x1f01('0x217')](/\.[\.\/]+/g,'');}class JavascriptErrorInfoModel{static async[_0x1f01('0x4f3')](_0x4c39d5){return await JavascriptErrorInfo[_0x1f01('0x1c')]({..._0x4c39d5});}static async[_0x1f01('0x4f4')](_0x55d8a0,_0x252722){await JavascriptErrorInfo[_0x1f01('0x1e')]({..._0x252722},{'where':{'id':_0x55d8a0},'fields':Object[_0x1f01('0x1f')](_0x252722)});return!![];}static async[_0x1f01('0x4f5')](_0xe0815){var _0x100b0c={'mXRfs':function(_0x3673b9,_0x1f551b){return _0x3673b9+_0x1f551b;},'QXwPS':function(_0x5274d1,_0x2c6459){return _0x5274d1-_0x2c6459;},'uFcuY':_0x1f01('0x3c'),'ikOKX':function(_0x2545fe,_0x5d00eb){return _0x2545fe+_0x5d00eb;},'FoleK':_0x1f01('0x4f6')};const _0x46ce4a=_0x100b0c[_0x1f01('0x4f7')](utils[_0x1f01('0x3f')](_0x100b0c[_0x1f01('0x4f8')](0x0,_0xe0815)),_0x100b0c[_0x1f01('0x4f9')]);var _0x55ff8e=_0x100b0c[_0x1f01('0x4f7')](_0x100b0c[_0x1f01('0x4fa')](_0x100b0c[_0x1f01('0x4fb')],_0x46ce4a),'\x27');return await Sequelize[_0x1f01('0x25')](_0x55ff8e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x44')]});}static async[_0x1f01('0x4fc')](){return await JavascriptErrorInfo[_0x1f01('0x21')]();}static async[_0x1f01('0x4fd')](_0x136d75){var _0x3285e7={'WPSyV':function(_0xdc1be8,_0x597523){return _0xdc1be8+_0x597523;},'Envrs':function(_0x4c8656,_0x368126){return _0x4c8656+_0x368126;},'jKVmo':function(_0x166c7b,_0x4aafd5){return _0x166c7b+_0x4aafd5;},'LkUZf':_0x1f01('0x1b4'),'tZFQy':_0x1f01('0xd0')};let _0x3d1d49=_0x3285e7[_0x1f01('0x4fe')](_0x3285e7[_0x1f01('0x4ff')](_0x3285e7[_0x1f01('0x500')](_0x3285e7[_0x1f01('0x500')](_0x3285e7[_0x1f01('0x501')],_0x136d75[_0x1f01('0x62')]),_0x3285e7[_0x1f01('0x502')]),_0x136d75[_0x1f01('0x19d')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x3d1d49,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x503')](_0x176b26){var _0x41a1d5={'FAaWp':function(_0x1ecc5b,_0x264c54){return _0x1ecc5b+_0x264c54;},'MArWW':function(_0x3be436,_0x36774e){return _0x3be436+_0x36774e;},'zJCTY':function(_0x36a4f5,_0x5121e3){return _0x36a4f5+_0x5121e3;},'ZJpOg':_0x1f01('0x1b4'),'ChSKB':_0x1f01('0xd0')};let _0x38ffb7=_0x41a1d5[_0x1f01('0x504')](_0x41a1d5[_0x1f01('0x505')](_0x41a1d5[_0x1f01('0x505')](_0x41a1d5[_0x1f01('0x506')](_0x41a1d5[_0x1f01('0x507')],_0x176b26[_0x1f01('0x62')]),_0x41a1d5[_0x1f01('0x508')]),_0x176b26[_0x1f01('0x19d')]),'\x27');return await Sequelize[_0x1f01('0x25')](_0x38ffb7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x509')](_0x2d7fe1){var _0x354692={'Xjqzn':_0x1f01('0x50a'),'cjtDQ':function(_0x65e512,_0x5503e9){return _0x65e512+_0x5503e9;},'yfPyA':function(_0x3a3b99,_0x290f2f){return _0x3a3b99+_0x290f2f;},'ZDDch':function(_0x2bd101,_0x534511){return _0x2bd101+_0x534511;},'kqinT':function(_0x48876e,_0x2df77c){return _0x48876e+_0x2df77c;},'JTJYg':function(_0xb7a51a,_0x1377bb){return _0xb7a51a+_0x1377bb;},'HYygu':function(_0x423f73,_0x2958f4){return _0x423f73+_0x2958f4;},'agFPB':function(_0x3ec1a6,_0x5f45a8){return _0x3ec1a6+_0x5f45a8;},'RdLdz':function(_0x3339d4,_0x1f668c){return _0x3339d4+_0x1f668c;},'nIDtf':function(_0x391cfc,_0x3f04ca){return _0x391cfc+_0x3f04ca;},'LjjLn':_0x1f01('0x50b'),'GlMeE':_0x1f01('0x5c'),'xXdGG':_0x1f01('0x50c'),'wQivH':_0x1f01('0x50d'),'Henpv':_0x1f01('0x50e')};const _0x53d383=Utils[_0x1f01('0x36')](_0x354692[_0x1f01('0x50f')]);let _0x3f180a=_0x354692[_0x1f01('0x510')](_0x354692[_0x1f01('0x511')](_0x354692[_0x1f01('0x512')](_0x354692[_0x1f01('0x513')](_0x354692[_0x1f01('0x514')](_0x354692[_0x1f01('0x515')](_0x354692[_0x1f01('0x516')](_0x354692[_0x1f01('0x517')](_0x354692[_0x1f01('0x518')](_0x354692[_0x1f01('0x519')],_0x53d383),'\x20'),_0x354692[_0x1f01('0x51a')]),_0x2d7fe1[_0x1f01('0x62')]),_0x354692[_0x1f01('0x51b')]),_0x2d7fe1[_0x1f01('0x19d')]),_0x354692[_0x1f01('0x51c')]),_0x2d7fe1[_0x1f01('0x123')]),_0x354692[_0x1f01('0x51d')]);return await Sequelize[_0x1f01('0x25')](_0x3f180a,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x51e')](_0x4b2351){var _0x4fc9ac={'diFbW':_0x1f01('0x50a'),'bIsBf':function(_0x52ece8,_0x5ab852){return _0x52ece8+_0x5ab852;},'gbYat':function(_0xaa7902,_0x3d8079){return _0xaa7902+_0x3d8079;},'QaMzW':function(_0x2866a6,_0x336769){return _0x2866a6+_0x336769;},'IycGY':function(_0x8c2f0f,_0x3ff447){return _0x8c2f0f+_0x3ff447;},'FJxyu':_0x1f01('0x51f'),'URYiq':_0x1f01('0x36b'),'xGwTz':_0x1f01('0x5c'),'hMVeA':_0x1f01('0x50c'),'IOvSz':_0x1f01('0x50d'),'cuaZL':_0x1f01('0x520'),'aFSOo':_0x1f01('0x37d')};const _0x1c56a2=Utils[_0x1f01('0x36')](_0x4fc9ac[_0x1f01('0x521')]);const _0x98a86d=_0x4fc9ac[_0x1f01('0x522')](_0x4fc9ac[_0x1f01('0x522')](_0x4fc9ac[_0x1f01('0x522')](_0x4fc9ac[_0x1f01('0x523')](_0x4fc9ac[_0x1f01('0x524')](_0x4fc9ac[_0x1f01('0x524')](_0x4fc9ac[_0x1f01('0x525')](_0x4fc9ac[_0x1f01('0x525')](_0x4fc9ac[_0x1f01('0x525')](_0x4fc9ac[_0x1f01('0x525')](_0x4fc9ac[_0x1f01('0x525')](_0x4fc9ac[_0x1f01('0x526')],_0x4fc9ac[_0x1f01('0x527')]),_0x1c56a2),'\x20'),_0x4fc9ac[_0x1f01('0x528')]),_0x4b2351[_0x1f01('0x62')]),_0x4fc9ac[_0x1f01('0x529')]),_0x4b2351[_0x1f01('0x19d')]),_0x4fc9ac[_0x1f01('0x52a')]),_0x4b2351[_0x1f01('0x123')]),_0x4fc9ac[_0x1f01('0x52b')]),_0x4fc9ac[_0x1f01('0x52c')]);return await Sequelize[_0x1f01('0x25')](_0x98a86d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x52d')](_0x101208){var _0x11b770={'zPJby':function(_0x4700c7,_0x266b47){return _0x4700c7===_0x266b47;},'uYxWC':function(_0x573169,_0x876e68){return _0x573169+_0x876e68;},'INcAP':_0x1f01('0x3c'),'bDTmp':function(_0x568437,_0x28efdf){return _0x568437+_0x28efdf;},'KUnca':_0x1f01('0x37a'),'tVcAe':function(_0x328fe1,_0x44f4e6){return _0x328fe1+_0x44f4e6;},'QYfQs':function(_0x4821c4,_0x17b63b){return _0x4821c4+_0x17b63b;},'CIKLm':function(_0x1f60f0,_0x3077c9){return _0x1f60f0+_0x3077c9;},'Wslby':function(_0x2274e5,_0x5a6592){return _0x2274e5+_0x5a6592;},'HwsGc':_0x1f01('0x51f'),'kKher':_0x1f01('0x52e'),'Qsjyz':_0x1f01('0x5c'),'EvvmY':_0x1f01('0x50c'),'BCUcx':_0x1f01('0x37b'),'nsQAa':_0x1f01('0x37c'),'STLiI':_0x1f01('0x37d')};const _0x4dde25=new Date()[_0x1f01('0x37e')]();let _0x5cafba=_0x4dde25;let _0xf83d0='';if(_0x11b770[_0x1f01('0x52f')](_0x4dde25,0x17)){_0xf83d0=_0x11b770[_0x1f01('0x530')](utils[_0x1f01('0x3f')](-0x6),_0x11b770[_0x1f01('0x531')]);}else{_0x5cafba=_0x11b770[_0x1f01('0x530')](_0x5cafba,0x1);_0xf83d0=_0x11b770[_0x1f01('0x532')](_0x11b770[_0x1f01('0x532')](_0x11b770[_0x1f01('0x532')](utils[_0x1f01('0x3f')](-0x7),'\x20'),_0x5cafba),_0x11b770[_0x1f01('0x533')]);}const _0x111f0d=_0x11b770[_0x1f01('0x534')](_0x11b770[_0x1f01('0x535')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x536')](_0x11b770[_0x1f01('0x537')](_0x11b770[_0x1f01('0x538')],_0x11b770[_0x1f01('0x539')]),_0x11b770[_0x1f01('0x53a')]),_0x101208[_0x1f01('0x62')]),_0x11b770[_0x1f01('0x53b')]),_0x101208[_0x1f01('0x19d')]),_0x11b770[_0x1f01('0x53c')]),_0xf83d0),_0x11b770[_0x1f01('0x53d')]),_0x11b770[_0x1f01('0x53e')]);return await Sequelize[_0x1f01('0x25')](_0x111f0d,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x53f')](_0x287097,_0xa99d61,_0x563eae){var _0x1439ce={'uhqIR':function(_0x3a2d94,_0xc04fa2){return _0x3a2d94+_0xc04fa2;},'UiHiA':function(_0x50446a,_0x4bf9cf){return _0x50446a+_0x4bf9cf;},'YXcxy':_0x1f01('0x540'),'efbcH':_0x1f01('0x541'),'TVRcF':_0x1f01('0x271')};return await Sequelize[_0x1f01('0x25')](_0x1439ce[_0x1f01('0x542')](_0x1439ce[_0x1f01('0x542')](_0x1439ce[_0x1f01('0x543')](_0x1439ce[_0x1f01('0x543')](_0x1439ce[_0x1f01('0x543')](_0x1439ce[_0x1f01('0x543')](_0x1439ce[_0x1f01('0x544')],_0x563eae[_0x1f01('0x62')]),_0x1439ce[_0x1f01('0x545')]),_0x287097),_0x1439ce[_0x1f01('0x546')]),_0xa99d61),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x547')](_0x25141a){var _0x3e97df={'qdCTv':_0x1f01('0x50a'),'rqjBG':function(_0x422c4b,_0x3b09b8){return _0x422c4b+_0x3b09b8;},'ZpZFl':function(_0x162ea9,_0x891580){return _0x162ea9+_0x891580;},'jxuCj':_0x1f01('0x239'),'KIsde':function(_0x410329,_0x14273c){return _0x410329+_0x14273c;},'Epmbw':function(_0x2ddb8d,_0x1983cf){return _0x2ddb8d+_0x1983cf;},'VSuWD':function(_0x4906fa,_0x1e0d37){return _0x4906fa+_0x1e0d37;},'oHaxX':_0x1f01('0x548'),'UtgpK':_0x1f01('0x104'),'uRPKO':_0x1f01('0x549'),'aqnTk':_0x1f01('0x54a')};const {simpleUrl,timeType}=_0x25141a;const _0x485024=CommonSql[_0x1f01('0x36')](_0x3e97df[_0x1f01('0x54b')],timeType);const _0x46bf8d=simpleUrl?_0x3e97df[_0x1f01('0x54c')](_0x3e97df[_0x1f01('0x54d')](_0x3e97df[_0x1f01('0x54e')],simpleUrl),'\x27\x20'):'\x20';const _0x205619=_0x3e97df[_0x1f01('0x54f')](_0x3e97df[_0x1f01('0x54f')](_0x3e97df[_0x1f01('0x54f')](_0x3e97df[_0x1f01('0x54f')](_0x3e97df[_0x1f01('0x550')](_0x3e97df[_0x1f01('0x551')](_0x3e97df[_0x1f01('0x552')],_0x485024),_0x3e97df[_0x1f01('0x553')]),_0x25141a[_0x1f01('0x62')]),_0x3e97df[_0x1f01('0x554')]),_0x46bf8d),_0x3e97df[_0x1f01('0x555')]);return await Sequelize[_0x1f01('0x25')](_0x205619,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x556')](_0x43f2d5){var _0x607787={'FeCVK':_0x1f01('0x50a'),'oTkJV':function(_0x290b10,_0x363162){return _0x290b10+_0x363162;},'GzmYx':_0x1f01('0x239'),'UPWtA':function(_0x11bc92,_0x48ff4b){return _0x11bc92+_0x48ff4b;},'EOZUJ':function(_0x381501,_0x2c7400){return _0x381501+_0x2c7400;},'qkYpX':function(_0x5ad874,_0x2debdb){return _0x5ad874+_0x2debdb;},'Dnvmj':function(_0x4b1375,_0x19a278){return _0x4b1375+_0x19a278;},'HQwfQ':_0x1f01('0x548'),'Wjcgb':_0x1f01('0x104'),'xKJWf':_0x1f01('0x557'),'mYscY':_0x1f01('0x54a')};const {simpleUrl,timeType}=_0x43f2d5;const _0x1e3cd7=CommonSql[_0x1f01('0x36')](_0x607787[_0x1f01('0x558')],timeType);const _0xc27504=simpleUrl?_0x607787[_0x1f01('0x559')](_0x607787[_0x1f01('0x559')](_0x607787[_0x1f01('0x55a')],simpleUrl),'\x27\x20'):'\x20';const _0x10f7e9=_0x607787[_0x1f01('0x55b')](_0x607787[_0x1f01('0x55c')](_0x607787[_0x1f01('0x55c')](_0x607787[_0x1f01('0x55c')](_0x607787[_0x1f01('0x55d')](_0x607787[_0x1f01('0x55e')](_0x607787[_0x1f01('0x55f')],_0x1e3cd7),_0x607787[_0x1f01('0x560')]),_0x43f2d5[_0x1f01('0x62')]),_0x607787[_0x1f01('0x561')]),_0xc27504),_0x607787[_0x1f01('0x562')]);return await Sequelize[_0x1f01('0x25')](_0x10f7e9,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x563')](_0x3fb1fb,_0x345113){var _0x27721d={'eoSJG':_0x1f01('0x50a'),'NeArQ':function(_0x4f7221,_0x15f364){return _0x4f7221+_0x15f364;},'LjkFT':function(_0x5e316e,_0x27a39e){return _0x5e316e+_0x27a39e;},'VpnDO':_0x1f01('0x239'),'yKQug':function(_0x3fc906,_0x749a21){return _0x3fc906+_0x749a21;},'mpxMT':function(_0x3d26fd,_0x20eec9){return _0x3d26fd+_0x20eec9;},'VkDqN':function(_0x328542,_0x2993fe){return _0x328542+_0x2993fe;},'yKNhH':function(_0xe932a8,_0x10a653){return _0xe932a8+_0x10a653;},'MvsHd':function(_0x34d45d,_0x1250e8){return _0x34d45d+_0x1250e8;},'upthw':function(_0x373e4c,_0x5ba8ab){return _0x373e4c+_0x5ba8ab;},'ZvxWz':_0x1f01('0x564'),'TlzCm':_0x1f01('0x104'),'eJVCa':_0x1f01('0x557'),'XcjTJ':_0x1f01('0x565'),'DnGwC':_0x1f01('0x566')};const {simpleUrl,timeType}=_0x345113;const _0x400c3f=CommonSql[_0x1f01('0x36')](_0x27721d[_0x1f01('0x567')],timeType);const _0x24b6b8=simpleUrl?_0x27721d[_0x1f01('0x568')](_0x27721d[_0x1f01('0x569')](_0x27721d[_0x1f01('0x56a')],simpleUrl),'\x27\x20'):'\x20';const _0x558c04=_0x27721d[_0x1f01('0x569')](_0x24b6b8,CommonSql[_0x1f01('0x1e9')](timeType));const _0x3ae9be=_0x3fb1fb[_0x1f01('0x217')](/'/g,'\x5c\x27');return await Sequelize[_0x1f01('0x25')](_0x27721d[_0x1f01('0x56b')](_0x27721d[_0x1f01('0x56c')](_0x27721d[_0x1f01('0x56d')](_0x27721d[_0x1f01('0x56e')](_0x27721d[_0x1f01('0x56f')](_0x27721d[_0x1f01('0x56f')](_0x27721d[_0x1f01('0x570')](_0x27721d[_0x1f01('0x570')](_0x27721d[_0x1f01('0x571')],_0x400c3f),_0x27721d[_0x1f01('0x572')]),_0x345113[_0x1f01('0x62')]),_0x27721d[_0x1f01('0x573')]),_0x558c04),_0x27721d[_0x1f01('0x574')]),_0x3ae9be),_0x27721d[_0x1f01('0x575')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x576')](_0x29419e,_0x381675){var _0x3ab21c={'evMDx':_0x1f01('0x50a'),'WzZiH':function(_0x3b8a03,_0x5c13ac){return _0x3b8a03+_0x5c13ac;},'yEkmR':function(_0x493678,_0x4b28c4){return _0x493678+_0x4b28c4;},'LQldc':_0x1f01('0x239'),'MhQvI':function(_0x50aeb5,_0x34665f){return _0x50aeb5+_0x34665f;},'bpLoT':function(_0x2e74dd,_0x5e114c){return _0x2e74dd+_0x5e114c;},'BduLX':function(_0x5903aa,_0x3ba1bd){return _0x5903aa+_0x3ba1bd;},'SFBoh':function(_0x5605e4,_0x26d3dc){return _0x5605e4+_0x26d3dc;},'aJrvC':_0x1f01('0x577'),'IfBER':_0x1f01('0x578'),'kddjn':_0x1f01('0x579'),'FFcYE':_0x1f01('0x57a'),'Kzlvf':_0x1f01('0x57b')};const {simpleUrl,timeType}=_0x381675;const _0x4dbefe=CommonSql[_0x1f01('0x36')](_0x3ab21c[_0x1f01('0x57c')],timeType);const _0xd3025=simpleUrl?_0x3ab21c[_0x1f01('0x57d')](_0x3ab21c[_0x1f01('0x57e')](_0x3ab21c[_0x1f01('0x57f')],simpleUrl),'\x27\x20'):'\x20';const _0x947433=_0x29419e[_0x1f01('0x217')](/'/g,'\x5c\x27');return await Sequelize[_0x1f01('0x25')](_0x3ab21c[_0x1f01('0x57e')](_0x3ab21c[_0x1f01('0x57e')](_0x3ab21c[_0x1f01('0x57e')](_0x3ab21c[_0x1f01('0x580')](_0x3ab21c[_0x1f01('0x580')](_0x3ab21c[_0x1f01('0x581')](_0x3ab21c[_0x1f01('0x582')](_0x3ab21c[_0x1f01('0x583')](_0x3ab21c[_0x1f01('0x584')],_0x4dbefe),_0x3ab21c[_0x1f01('0x585')]),_0x381675[_0x1f01('0x62')]),_0x3ab21c[_0x1f01('0x586')]),_0xd3025),_0x3ab21c[_0x1f01('0x587')]),_0x947433),_0x3ab21c[_0x1f01('0x588')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x589')](_0xdbf395,_0x1d0514){var _0x4d8fb6={'zATwt':function(_0x59ab17,_0x3b7828){return _0x59ab17+_0x3b7828;},'FpHPC':_0x1f01('0x239'),'BGWLe':_0x1f01('0x50a'),'YoRPi':function(_0x466769,_0x97fc1d){return _0x466769+_0x97fc1d;},'rIRpU':function(_0x37fb4d,_0x537d42){return _0x37fb4d+_0x537d42;},'TWtjw':function(_0x322110,_0x528e8c){return _0x322110+_0x528e8c;},'bUTew':function(_0x433629,_0x1c0e21){return _0x433629+_0x1c0e21;},'umost':function(_0x2ca8a3,_0x19f1e8){return _0x2ca8a3+_0x19f1e8;},'CNOYo':function(_0x2f8387,_0x267767){return _0x2f8387+_0x267767;},'rykLw':function(_0x58185d,_0x33c75c){return _0x58185d+_0x33c75c;},'bHJnG':function(_0x5e8056,_0x2320e8){return _0x5e8056+_0x2320e8;},'BvPSk':_0x1f01('0x577'),'fLyqn':_0x1f01('0x578'),'JRiTS':_0x1f01('0x579'),'TeONc':_0x1f01('0x57a'),'qMpFx':_0x1f01('0x57b')};const {simpleUrl,timeType}=_0x1d0514;const _0x28b826=simpleUrl?_0x4d8fb6[_0x1f01('0x58a')](_0x4d8fb6[_0x1f01('0x58a')](_0x4d8fb6[_0x1f01('0x58b')],simpleUrl),'\x27\x20'):'\x20';const _0x1bc8b4=_0x28b826;const _0x38e36c=_0xdbf395[_0x1f01('0x217')](/'/g,'\x5c\x27');const _0x43d5ba=CommonSql[_0x1f01('0x36')](_0x4d8fb6[_0x1f01('0x58c')],timeType);return await Sequelize[_0x1f01('0x25')](_0x4d8fb6[_0x1f01('0x58d')](_0x4d8fb6[_0x1f01('0x58e')](_0x4d8fb6[_0x1f01('0x58f')](_0x4d8fb6[_0x1f01('0x590')](_0x4d8fb6[_0x1f01('0x591')](_0x4d8fb6[_0x1f01('0x592')](_0x4d8fb6[_0x1f01('0x593')](_0x4d8fb6[_0x1f01('0x594')](_0x4d8fb6[_0x1f01('0x595')],_0x43d5ba),_0x4d8fb6[_0x1f01('0x596')]),_0x1d0514[_0x1f01('0x62')]),_0x4d8fb6[_0x1f01('0x597')]),_0x1bc8b4),_0x4d8fb6[_0x1f01('0x598')]),_0x38e36c),_0x4d8fb6[_0x1f01('0x599')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x59a')](_0x50170d){var _0x8dd5f9={'HUWjo':_0x1f01('0x50a'),'CsXiv':function(_0x54968a,_0x32ab88){return _0x54968a+_0x32ab88;},'hJpSQ':function(_0x25260f,_0x5a7a2d){return _0x25260f+_0x5a7a2d;},'WonJK':function(_0x23c662,_0x1c8405){return _0x23c662+_0x1c8405;},'ToNHw':_0x1f01('0x59b'),'hnLWL':_0x1f01('0x104'),'tfpKg':_0x1f01('0x59c')};const {timeType}=_0x50170d;const _0x3fba66=CommonSql[_0x1f01('0x36')](_0x8dd5f9[_0x1f01('0x59d')],timeType);const _0x16bb5b=_0x8dd5f9[_0x1f01('0x59e')](_0x8dd5f9[_0x1f01('0x59f')](_0x8dd5f9[_0x1f01('0x5a0')](_0x8dd5f9[_0x1f01('0x5a0')](_0x8dd5f9[_0x1f01('0x5a0')](_0x8dd5f9[_0x1f01('0x5a1')],_0x3fba66),_0x8dd5f9[_0x1f01('0x5a2')]),_0x50170d[_0x1f01('0x62')]),'\x27\x20'),_0x8dd5f9[_0x1f01('0x5a3')]);return await Sequelize[_0x1f01('0x25')](_0x16bb5b,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5a4')](_0x4bc0dc,_0x5b585a){var _0x515fd9={'huUPn':_0x1f01('0x50a'),'JklLK':function(_0xdb5826,_0x3e0ae5){return _0xdb5826+_0x3e0ae5;},'gymlS':_0x1f01('0x239'),'hEHFG':function(_0x58386e,_0x40e0ea){return _0x58386e+_0x40e0ea;},'isTiB':function(_0xbb1a6e,_0x9e4e94){return _0xbb1a6e+_0x9e4e94;},'kuYtp':function(_0x515938,_0x59f0d0){return _0x515938+_0x59f0d0;},'mVAtb':function(_0x59a883,_0x4c1672){return _0x59a883+_0x4c1672;},'dzanE':_0x1f01('0x1c5'),'fYKAK':_0x1f01('0x104'),'LPSiQ':_0x1f01('0x5a5'),'ApErm':_0x1f01('0x5a6')};const {simpleUrl,timeType}=_0x5b585a;const _0x288fd7=CommonSql[_0x1f01('0x36')](_0x515fd9[_0x1f01('0x5a7')],timeType);const _0x88ad2e=simpleUrl?_0x515fd9[_0x1f01('0x5a8')](_0x515fd9[_0x1f01('0x5a8')](_0x515fd9[_0x1f01('0x5a9')],simpleUrl),'\x27\x20'):'\x20';const _0x9b949c=_0x4bc0dc[_0x1f01('0x217')](/'/g,'\x5c\x27');return await Sequelize[_0x1f01('0x25')](_0x515fd9[_0x1f01('0x5aa')](_0x515fd9[_0x1f01('0x5ab')](_0x515fd9[_0x1f01('0x5ab')](_0x515fd9[_0x1f01('0x5ab')](_0x515fd9[_0x1f01('0x5ac')](_0x515fd9[_0x1f01('0x5ad')](_0x515fd9[_0x1f01('0x5ad')](_0x515fd9[_0x1f01('0x5ad')](_0x515fd9[_0x1f01('0x5ae')],_0x288fd7),_0x515fd9[_0x1f01('0x5af')]),_0x5b585a[_0x1f01('0x62')]),'\x27\x20'),_0x88ad2e),_0x515fd9[_0x1f01('0x5b0')]),_0x9b949c),_0x515fd9[_0x1f01('0x5b1')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5b2')](_0x39536b){var _0x11f079={'euKfI':function(_0x26df42,_0x4eeb10){return _0x26df42+_0x4eeb10;},'eSLRF':function(_0x48cfac,_0x429755){return _0x48cfac+_0x429755;},'PsTgV':function(_0x833847,_0x28f54c){return _0x833847+_0x28f54c;},'uwNFx':_0x1f01('0x5b3'),'sDzau':_0x1f01('0x37a'),'TORtH':function(_0x341bc6,_0x1ac0a5){return _0x341bc6+_0x1ac0a5;},'qiCpJ':_0x1f01('0x5b4'),'wbBTp':_0x1f01('0x5b5')};let _0x53ce0a=new Date()[_0x1f01('0x37e')]();_0x11f079[_0x1f01('0x5b6')](_0x11f079[_0x1f01('0x5b7')](_0x11f079[_0x1f01('0x5b8')](new Date()[_0x1f01('0x98')](_0x11f079[_0x1f01('0x5b9')]),'\x20'),_0x53ce0a),_0x11f079[_0x1f01('0x5ba')]);return await Sequelize[_0x1f01('0x25')](_0x11f079[_0x1f01('0x5b8')](_0x11f079[_0x1f01('0x5bb')](_0x11f079[_0x1f01('0x5bc')],_0x39536b[_0x1f01('0x62')]),_0x11f079[_0x1f01('0x5bd')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5be')](_0x3191ae,_0x351031){var _0x11a49f={'jNucE':_0x1f01('0x50a'),'HlTAW':function(_0x5b33c6,_0x3d1c8f){return _0x5b33c6+_0x3d1c8f;},'VvZuD':function(_0x1ee5de,_0x131869){return _0x1ee5de+_0x131869;},'RkDKP':function(_0x3baa1,_0x4289b2){return _0x3baa1+_0x4289b2;},'PhPVe':function(_0x10ec9e,_0x2b4307){return _0x10ec9e+_0x2b4307;},'DquCy':_0x1f01('0x2d'),'FZOzS':_0x1f01('0x104'),'JCMEy':_0x1f01('0x5bf'),'hSYlp':_0x1f01('0x5c0')};const _0x288140=_0x3191ae[_0x1f01('0x217')](/'/g,'\x5c\x27');const {timeType}=_0x351031;const _0x1d91cc=CommonSql[_0x1f01('0x36')](_0x11a49f[_0x1f01('0x5c1')],timeType);return await Sequelize[_0x1f01('0x25')](_0x11a49f[_0x1f01('0x5c2')](_0x11a49f[_0x1f01('0x5c3')](_0x11a49f[_0x1f01('0x5c4')](_0x11a49f[_0x1f01('0x5c5')](_0x11a49f[_0x1f01('0x5c5')](_0x11a49f[_0x1f01('0x5c5')](_0x11a49f[_0x1f01('0x5c6')],_0x1d91cc),_0x11a49f[_0x1f01('0x5c7')]),_0x351031[_0x1f01('0x62')]),_0x11a49f[_0x1f01('0x5c8')]),_0x288140),_0x11a49f[_0x1f01('0x5c9')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5ca')](_0x639eb6,_0x263316){var _0xdb6838={'EmSSx':_0x1f01('0x50a'),'HBpSz':function(_0xdd8e8d,_0x3978a6){return _0xdd8e8d+_0x3978a6;},'vWFae':function(_0x292610,_0x48ab94){return _0x292610+_0x48ab94;},'lSiTY':function(_0x21dc6a,_0x229df7){return _0x21dc6a+_0x229df7;},'OEaMB':_0x1f01('0x475'),'MOpbH':_0x1f01('0x578'),'ABUFq':_0x1f01('0x57a')};const {timeType}=_0x263316;const _0x4f6ed6=CommonSql[_0x1f01('0x36')](_0xdb6838[_0x1f01('0x5cb')],timeType);const _0x5869e8=_0x639eb6[_0x1f01('0x217')](/'/g,'\x5c\x27');return await Sequelize[_0x1f01('0x25')](_0xdb6838[_0x1f01('0x5cc')](_0xdb6838[_0x1f01('0x5cc')](_0xdb6838[_0x1f01('0x5cc')](_0xdb6838[_0x1f01('0x5cd')](_0xdb6838[_0x1f01('0x5ce')](_0xdb6838[_0x1f01('0x5ce')](_0xdb6838[_0x1f01('0x5ce')](_0xdb6838[_0x1f01('0x5cf')],_0x4f6ed6),_0xdb6838[_0x1f01('0x5d0')]),_0x263316[_0x1f01('0x62')]),'\x27\x20'),_0xdb6838[_0x1f01('0x5d1')]),_0x5869e8),'%\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5d2')](_0xf82e92,_0x2baa2a){var _0x236a8c={'atQZR':_0x1f01('0x50a'),'PzgVA':function(_0x5ace40,_0xc1bc46){return _0x5ace40+_0xc1bc46;},'RrzkU':function(_0x155aca,_0x1e27cc){return _0x155aca+_0x1e27cc;},'IZnHg':function(_0xad5188,_0x213954){return _0xad5188+_0x213954;},'iNtvH':_0x1f01('0x5d3'),'MJZOY':_0x1f01('0x104'),'jBMLP':_0x1f01('0x5bf'),'Dgiaq':_0x1f01('0x5d4')};const {webMonitorId,customerKey,timeType}=_0x2baa2a;const _0x24eefb=CommonSql[_0x1f01('0x36')](_0x236a8c[_0x1f01('0x5d5')],timeType);const _0x38235e=_0xf82e92[_0x1f01('0x217')](/'/g,'\x5c\x27');return await Sequelize[_0x1f01('0x25')](_0x236a8c[_0x1f01('0x5d6')](_0x236a8c[_0x1f01('0x5d6')](_0x236a8c[_0x1f01('0x5d6')](_0x236a8c[_0x1f01('0x5d7')](_0x236a8c[_0x1f01('0x5d7')](_0x236a8c[_0x1f01('0x5d7')](_0x236a8c[_0x1f01('0x5d8')](_0x236a8c[_0x1f01('0x5d8')](_0x236a8c[_0x1f01('0x5d9')],_0x24eefb),_0x236a8c[_0x1f01('0x5da')]),webMonitorId),_0x236a8c[_0x1f01('0x5db')]),_0x38235e),_0x236a8c[_0x1f01('0x5dc')]),customerKey),'\x27'),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5dd')](_0x573916){var _0x15dc68={'CZsUE':_0x1f01('0x50a'),'mffqp':function(_0x18e3da,_0x11d6bc){return _0x18e3da+_0x11d6bc;},'wpbLU':function(_0xdb2f04,_0x47b18c){return _0xdb2f04+_0x47b18c;},'Xvtgi':_0x1f01('0x104'),'jZhfh':_0x1f01('0x549'),'iNVhX':function(_0x1ccff2,_0x331d36){return _0x1ccff2+_0x331d36;},'VAGis':function(_0x506861,_0x11c3de){return _0x506861+_0x11c3de;},'DcuIl':_0x1f01('0x5de'),'YTCYh':_0x1f01('0x5df')};const {timeType}=_0x573916;const _0x3ad302=CommonSql[_0x1f01('0x36')](_0x15dc68[_0x1f01('0x5e0')],timeType);const _0x2c57d=_0x15dc68[_0x1f01('0x5e1')](_0x15dc68[_0x1f01('0x5e2')](_0x15dc68[_0x1f01('0x5e3')],_0x573916[_0x1f01('0x62')]),_0x15dc68[_0x1f01('0x5e4')]);return await Sequelize[_0x1f01('0x25')](_0x15dc68[_0x1f01('0x5e5')](_0x15dc68[_0x1f01('0x5e5')](_0x15dc68[_0x1f01('0x5e6')](_0x15dc68[_0x1f01('0x5e6')](_0x15dc68[_0x1f01('0x5e7')],_0x3ad302),'\x20'),_0x2c57d),_0x15dc68[_0x1f01('0x5e8')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x5e9')](_0x2bf841){var _0x1cf61f={'BadrV':function(_0x57ef4a,_0x4e457b){return _0x57ef4a-_0x4e457b;},'NJiAH':function(_0x56179a,_0x4ce898){return _0x56179a(_0x4ce898);},'LgbSr':function(_0x12e237,_0x5bad86){return _0x12e237+_0x5bad86;},'dKkgh':function(_0x296355,_0x5b5ad0){return _0x296355(_0x5b5ad0);},'HOqWO':function(_0x1d23f3,_0x306c15){return _0x1d23f3(_0x306c15);},'RkbqV':function(_0x307dee,_0xc744f0){return _0x307dee===_0xc744f0;},'ZzezB':function(_0x3ee39a,_0x1fc635){return _0x3ee39a===_0x1fc635;},'AVtsa':_0x1f01('0x5ea'),'caOgn':function(_0x22b274,_0xa2100e){return _0x22b274+_0xa2100e;},'RtxJD':_0x1f01('0x5eb'),'mnqxf':function(_0x518c8d,_0x256057){return _0x518c8d<_0x256057;}};let _0xa40622='';let _0x1a1aca='';let _0x555b12=[];const _0x30cd1b=[];for(var _0x25ff04=0x0;_0x1cf61f[_0x1f01('0x5ec')](_0x25ff04,_0x2bf841[_0x1f01('0x4d3')]);_0x25ff04++){const {jsPathStr,jsPath,locationX,locationY}=_0x2bf841[_0x25ff04];await _0x1cf61f[_0x1f01('0x5ed')](fetch,jsPath)[_0x1f01('0x5ee')](_0x3d81c3=>_0x3d81c3[_0x1f01('0x5ef')]())[_0x1f01('0x5ee')](async _0x364bac=>{let _0x20998b=_0x364bac[_0x1f01('0x5f0')]('\x0a');let _0x2d937c=_0x20998b[_0x1cf61f[_0x1f01('0x5f1')](locationX,0x1)];const _0x4b7d4c=_0x1cf61f[_0x1f01('0x5f1')](_0x1cf61f[_0x1f01('0x5f2')](parseInt,locationY),0x32);const _0x6a8ddc=_0x1cf61f[_0x1f01('0x5f3')](_0x1cf61f[_0x1f01('0x5f2')](parseInt,locationY),0x32);const _0x32dceb=_0x1cf61f[_0x1f01('0x5f4')](encodeURIComponent,_0x2d937c[_0x1f01('0x5f5')](_0x4b7d4c,_0x1cf61f[_0x1f01('0x5f1')](locationY,0x1)));const _0x219422=_0x1cf61f[_0x1f01('0x5ed')](encodeURIComponent,_0x2d937c[_0x1f01('0x5f5')](_0x1cf61f[_0x1f01('0x5f1')](locationY,0x1),_0x6a8ddc));let _0x1d4b92='';if(_0x1cf61f[_0x1f01('0x5f6')](_0x32dceb[_0x1f01('0x4d3')],0x0)&&_0x1cf61f[_0x1f01('0x5f7')](_0x219422[_0x1f01('0x4d3')],0x0)){_0x1d4b92=_0x1cf61f[_0x1f01('0x5f8')];}else{_0x1d4b92=_0x1cf61f[_0x1f01('0x5f9')](_0x1cf61f[_0x1f01('0x5f9')](_0x32dceb,_0x1cf61f[_0x1f01('0x5fa')]),_0x219422);}let _0x525bac=[];await JavascriptErrorInfoModel[_0x1f01('0x5fb')](jsPath,locationX,locationY,_0x525bac);_0x30cd1b[_0x1f01('0x4f1')]({'jsPathStr':jsPathStr,'jsPath':jsPath,'locationX':locationX,'locationY':locationY,'code':_0x1d4b92,'sourceCode':_0x525bac});})[_0x1f01('0x5fc')](_0x179141=>{_0x30cd1b[_0x1f01('0x4f1')]({'jsPathStr':jsPathStr,'jsPath':jsPath,'locationX':locationX,'locationY':locationY,'code':_0x1cf61f[_0x1f01('0x5f8')],'sourceCode':[]});});}return _0x30cd1b;}static async[_0x1f01('0x5fb')](_0x1d4c57,_0x46e56a,_0x278d41,_0x57968b){var _0x51f3dc={'LufUK':function(_0x233390,_0x538de){return _0x233390(_0x538de);},'yZWId':function(_0x1e834a,_0x1652d4){return _0x1e834a(_0x1652d4);},'hJREb':function(_0x14d5c7,_0x4ebdd1){return _0x14d5c7-_0x4ebdd1;},'vyUZi':function(_0x3a97d2,_0x2766b1){return _0x3a97d2-_0x2766b1;},'LQDkR':function(_0x3c0c60,_0x36b92e){return _0x3c0c60-_0x36b92e;},'FOklp':function(_0x2145b4,_0x5a3057){return _0x2145b4+_0x5a3057;},'uvCVa':_0x1f01('0x5fd'),'BbBjJ':function(_0x4f780f,_0x4547a5){return _0x4f780f(_0x4547a5);}};const _0x2f6199=_0x51f3dc[_0x1f01('0x5fe')](_0x1d4c57,_0x51f3dc[_0x1f01('0x5ff')]);await _0x51f3dc[_0x1f01('0x600')](fetch,_0x2f6199)[_0x1f01('0x5ee')](_0x5dbbcb=>_0x5dbbcb[_0x1f01('0x5ef')]())[_0x1f01('0x5ee')](async _0x2878a4=>{var _0x2b13de=_0x2878a4;var _0x211480=await new sourceMap[(_0x1f01('0x601'))](_0x2b13de);var _0x5419f8=_0x211480[_0x1f01('0x602')]({'line':_0x51f3dc[_0x1f01('0x603')](parseInt,_0x46e56a),'column':_0x51f3dc[_0x1f01('0x604')](parseInt,_0x278d41)});var _0x2e7ffc=_0x211480[_0x1f01('0x605')];var _0x130909=_0x2e7ffc[_0x1f01('0x606')](_0x5419f8[_0x1f01('0x607')]);var _0x33da6f=_0x211480[_0x1f01('0x608')][_0x130909];const _0x278f33=_0x33da6f[_0x1f01('0x5f0')](/\r?\n/g);_0x57968b[_0x1f01('0x4f1')](_0x278f33[_0x51f3dc[_0x1f01('0x609')](_0x5419f8[_0x1f01('0x60a')],0x3)]);_0x57968b[_0x1f01('0x4f1')](_0x278f33[_0x51f3dc[_0x1f01('0x60b')](_0x5419f8[_0x1f01('0x60a')],0x2)]);_0x57968b[_0x1f01('0x4f1')](_0x278f33[_0x51f3dc[_0x1f01('0x60c')](_0x5419f8[_0x1f01('0x60a')],0x1)]);})[_0x1f01('0x5fc')](_0x3d8eba=>{console[_0x1f01('0x147')](_0x3d8eba);});}static async[_0x1f01('0x60d')](_0x5cf75e){return await JavascriptErrorInfo[_0x1f01('0x29')]({'where':{'id':_0x5cf75e}});}static async[_0x1f01('0x60e')](_0x2629bc){await JavascriptErrorInfo[_0x1f01('0x2b')]({'where':{'id':_0x2629bc}});return!![];}static async[_0x1f01('0x60f')](_0x58c563){var _0x13a80e={'OEqLg':function(_0x34a550,_0x1f467c){return _0x34a550+_0x1f467c;},'FdHAw':function(_0x1357d8,_0x4b0aef){return _0x1357d8+_0x4b0aef;},'NsAtI':_0x1f01('0x610'),'hwQmu':_0x1f01('0x541'),'fdQik':_0x1f01('0x2db')};return await Sequelize[_0x1f01('0x25')](_0x13a80e[_0x1f01('0x611')](_0x13a80e[_0x1f01('0x612')](_0x13a80e[_0x1f01('0x612')](_0x13a80e[_0x1f01('0x612')](_0x13a80e[_0x1f01('0x613')],_0x58c563[_0x1f01('0x62')]),_0x13a80e[_0x1f01('0x614')]),_0x58c563[_0x1f01('0x2e2')]),_0x13a80e[_0x1f01('0x615')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x616')](_0x406b9c){var _0x11b18a={'hnwLQ':function(_0x458b90,_0x1dc15c){return _0x458b90+_0x1dc15c;},'zhaYf':function(_0x219efc,_0x1a1852){return _0x219efc+_0x1a1852;},'kSWrT':function(_0x586c64,_0x4f0a19){return _0x586c64+_0x4f0a19;},'cnbil':_0x1f01('0x610'),'YTGQv':_0x1f01('0x270'),'yACLN':_0x1f01('0x2e5')};return await Sequelize[_0x1f01('0x25')](_0x11b18a[_0x1f01('0x617')](_0x11b18a[_0x1f01('0x617')](_0x11b18a[_0x1f01('0x618')](_0x11b18a[_0x1f01('0x619')](_0x11b18a[_0x1f01('0x61a')],_0x406b9c[_0x1f01('0x62')]),_0x11b18a[_0x1f01('0x61b')]),_0x406b9c[_0x1f01('0x2e2')]),_0x11b18a[_0x1f01('0x61c')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x61d')](_0x1b12e1){var _0x34f2ea={'aIuDv':function(_0xd88391,_0x214a0c){return _0xd88391+_0x214a0c;},'QtaBL':function(_0x57e0ec,_0x37a1a2){return _0x57e0ec+_0x37a1a2;},'cdRZG':function(_0x1644cc,_0x1ba5c2){return _0x1644cc+_0x1ba5c2;},'onXwy':function(_0x505dc2,_0x5b38d9){return _0x505dc2+_0x5b38d9;},'SunLx':_0x1f01('0x610'),'aLayH':_0x1f01('0x270'),'zPRqS':_0x1f01('0x2ef')};return await Sequelize[_0x1f01('0x25')](_0x34f2ea[_0x1f01('0x61e')](_0x34f2ea[_0x1f01('0x61f')](_0x34f2ea[_0x1f01('0x620')](_0x34f2ea[_0x1f01('0x621')](_0x34f2ea[_0x1f01('0x622')],_0x1b12e1[_0x1f01('0x62')]),_0x34f2ea[_0x1f01('0x623')]),_0x1b12e1[_0x1f01('0x2e2')]),_0x34f2ea[_0x1f01('0x624')]),{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x2c')](_0x5934e0,_0x150f07,_0x3bae25,_0x25d1a1){var _0x5db3e8={'QleQA':function(_0x3303ac,_0x6c9b2b){return _0x3303ac+_0x6c9b2b;},'soWwk':function(_0x83d48f,_0xaf53fa){return _0x83d48f+_0xaf53fa;},'VrFQh':function(_0x3bd326,_0x8e82a4){return _0x3bd326+_0x8e82a4;},'vQpaA':_0x1f01('0x2d'),'UoPmq':_0x1f01('0x50a'),'gSyyB':_0x1f01('0x2f'),'MFItl':_0x1f01('0x31')};const {timeScope}=_0x25d1a1;let _0x3c48ef=_0x5db3e8[_0x1f01('0x625')](_0x5db3e8[_0x1f01('0x625')](_0x5db3e8[_0x1f01('0x625')](_0x5db3e8[_0x1f01('0x626')](_0x5db3e8[_0x1f01('0x626')](_0x5db3e8[_0x1f01('0x626')](_0x5db3e8[_0x1f01('0x627')](_0x5db3e8[_0x1f01('0x628')],CommonSql[_0x1f01('0x36')](_0x5db3e8[_0x1f01('0x629')],timeScope)),_0x5db3e8[_0x1f01('0x62a')]),_0x150f07),_0x5db3e8[_0x1f01('0x62b')]),_0x3bae25),_0x5db3e8[_0x1f01('0x62b')]),_0x5934e0);return await Sequelize[_0x1f01('0x25')](_0x3c48ef,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x62c')](_0x1943b4){var _0x156a29={'buJfc':function(_0x331218,_0x57e2a0){return _0x331218-_0x57e2a0;},'WPqxH':function(_0x3ebfd6,_0x3a6451){return _0x3ebfd6*_0x3a6451;},'YfBaz':function(_0x5f0944,_0x2ac8b2){return _0x5f0944*_0x2ac8b2;},'nRUaa':_0x1f01('0x18d'),'rBOfr':function(_0xeac6a3,_0x51558b){return _0xeac6a3+_0x51558b;},'rCbyl':function(_0x181b6a,_0x1447e7){return _0x181b6a+_0x1447e7;},'BMTMi':function(_0x398472,_0x3d464e){return _0x398472+_0x3d464e;},'FHrJT':function(_0x27918a,_0x2ca33e){return _0x27918a+_0x2ca33e;},'bwhNj':function(_0x2a22a7,_0x3c568b){return _0x2a22a7+_0x3c568b;},'zCDkd':_0x1f01('0x18e'),'wUMzu':_0x1f01('0xd0'),'LNtxL':_0x1f01('0x18f'),'bJzmz':_0x1f01('0x190'),'qokaK':_0x1f01('0x191')};const _0x2ddbde=new Date()[_0x1f01('0x192')]();const _0x3a37ae=_0x156a29[_0x1f01('0x62d')](_0x2ddbde,_0x156a29[_0x1f01('0x62e')](_0x156a29[_0x1f01('0x62f')](0x17,0xe10),0x3e8));const _0x378198=_0x2ddbde;const _0x1cb197=new Date(_0x3a37ae)[_0x1f01('0x98')](_0x156a29[_0x1f01('0x630')]);const _0x4d9a49=new Date(_0x378198)[_0x1f01('0x98')](_0x156a29[_0x1f01('0x630')]);let _0x350924=_0x156a29[_0x1f01('0x631')](_0x156a29[_0x1f01('0x632')](_0x156a29[_0x1f01('0x633')](_0x156a29[_0x1f01('0x634')](_0x156a29[_0x1f01('0x635')](_0x156a29[_0x1f01('0x635')](_0x156a29[_0x1f01('0x635')](_0x156a29[_0x1f01('0x635')](_0x156a29[_0x1f01('0x636')],_0x1943b4[_0x1f01('0x62')]),_0x156a29[_0x1f01('0x637')]),_0x1943b4[_0x1f01('0x19d')]),_0x156a29[_0x1f01('0x638')]),_0x1cb197),_0x156a29[_0x1f01('0x639')]),_0x4d9a49),_0x156a29[_0x1f01('0x63a')]);return await Sequelize[_0x1f01('0x25')](_0x350924,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x63b')](_0x467797){var _0x5ca920={'qMjwk':function(_0x4d93f0,_0x3753a3){return _0x4d93f0+_0x3753a3;},'KmpRn':function(_0x2d3099,_0x1f291c){return _0x2d3099-_0x1f291c;},'RklqY':function(_0x41f561,_0x3e1b08){return _0x41f561*_0x3e1b08;},'ylJHq':function(_0x5864eb,_0x357d84){return _0x5864eb*_0x357d84;},'CnsLQ':function(_0x4cc94e,_0x435e70){return _0x4cc94e+_0x435e70;},'IiDYL':function(_0x8ee184,_0x1473c2){return _0x8ee184*_0x1473c2;},'ieNxI':_0x1f01('0x18d'),'Xdhvm':function(_0x22dccc,_0x5ed531){return _0x22dccc+_0x5ed531;},'pNzEv':function(_0x2c1d7e,_0x5a45bd){return _0x2c1d7e+_0x5a45bd;},'FhRJM':function(_0x1b1fa5,_0xc56f8d){return _0x1b1fa5+_0xc56f8d;},'eSfxW':function(_0x455842,_0x28b36d){return _0x455842+_0x28b36d;},'fKWnk':_0x1f01('0x18e'),'gwnyF':_0x1f01('0xd0'),'fScyS':_0x1f01('0x18f'),'glBKd':_0x1f01('0x190'),'HvILF':_0x1f01('0x191')};const _0x2fd866=new Date()[_0x1f01('0x192')]();const _0x1eb982=_0x5ca920[_0x1f01('0x63c')](_0x5ca920[_0x1f01('0x63d')](_0x2fd866,_0x5ca920[_0x1f01('0x63e')](_0x5ca920[_0x1f01('0x63e')](_0x5ca920[_0x1f01('0x63f')](0x8,0x18),0xe10),0x3e8)),_0x5ca920[_0x1f01('0x63f')](0xe10,0x3e8));const _0x11681c=_0x5ca920[_0x1f01('0x640')](_0x1eb982,_0x5ca920[_0x1f01('0x63f')](_0x5ca920[_0x1f01('0x641')](0x17,0xe10),0x3e8));const _0x5ae30f=new Date(_0x1eb982)[_0x1f01('0x98')](_0x5ca920[_0x1f01('0x642')]);const _0x14e412=new Date(_0x11681c)[_0x1f01('0x98')](_0x5ca920[_0x1f01('0x642')]);let _0x53762f=_0x5ca920[_0x1f01('0x643')](_0x5ca920[_0x1f01('0x643')](_0x5ca920[_0x1f01('0x644')](_0x5ca920[_0x1f01('0x645')](_0x5ca920[_0x1f01('0x645')](_0x5ca920[_0x1f01('0x645')](_0x5ca920[_0x1f01('0x645')](_0x5ca920[_0x1f01('0x646')](_0x5ca920[_0x1f01('0x647')],_0x467797[_0x1f01('0x62')]),_0x5ca920[_0x1f01('0x648')]),_0x467797[_0x1f01('0x19d')]),_0x5ca920[_0x1f01('0x649')]),_0x5ae30f),_0x5ca920[_0x1f01('0x64a')]),_0x14e412),_0x5ca920[_0x1f01('0x64b')]);return await Sequelize[_0x1f01('0x25')](_0x53762f,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x64c')](_0x402b60,_0x5a52aa,_0x32595c){var _0x227d06={'UgnAQ':_0x1f01('0x50a'),'EbJSH':function(_0x4c304a,_0x66834d){return _0x4c304a===_0x66834d;},'zgccO':function(_0x11d547,_0x482b1e){return _0x11d547+_0x482b1e;},'kjxQi':_0x1f01('0x1ff'),'MhrbU':function(_0x252fda,_0x44d790){return _0x252fda+_0x44d790;},'hVRsf':function(_0x1c36a8,_0x12afac){return _0x1c36a8+_0x12afac;},'EgSgm':function(_0x55a8ca,_0x732dd4){return _0x55a8ca+_0x732dd4;},'Phpvt':function(_0x2b9f4d,_0x2a7353){return _0x2b9f4d+_0x2a7353;},'pRozE':function(_0x1dc424,_0x30173f){return _0x1dc424+_0x30173f;},'bcidG':function(_0x489b2b,_0x3ce50f){return _0x489b2b+_0x3ce50f;},'egQnX':_0x1f01('0xae'),'piSLv':_0x1f01('0x200'),'LJGFQ':_0x1f01('0x201'),'HimaU':_0x1f01('0x202'),'dkeiA':_0x1f01('0x64d')};const _0x49f3e3=Utils[_0x1f01('0x3f')](-0x1);let _0x513b72=Utils[_0x1f01('0x36')](_0x227d06[_0x1f01('0x64e')]);if(_0x227d06[_0x1f01('0x64f')](_0x5a52aa,_0x227d06[_0x1f01('0x650')](_0x49f3e3,_0x227d06[_0x1f01('0x651')]))){_0x513b72=CommonSql[_0x1f01('0x36')](_0x227d06[_0x1f01('0x64e')],0x1);}let _0x3f9aec=_0x227d06[_0x1f01('0x650')](_0x227d06[_0x1f01('0x652')](_0x227d06[_0x1f01('0x653')](_0x227d06[_0x1f01('0x654')](_0x227d06[_0x1f01('0x655')](_0x227d06[_0x1f01('0x655')](_0x227d06[_0x1f01('0x656')](_0x227d06[_0x1f01('0x657')](_0x227d06[_0x1f01('0x658')],_0x513b72),_0x227d06[_0x1f01('0x659')]),_0x5a52aa),_0x227d06[_0x1f01('0x65a')]),_0x32595c),_0x227d06[_0x1f01('0x65b')]),_0x402b60),_0x227d06[_0x1f01('0x65c')]);return await Sequelize[_0x1f01('0x25')](_0x3f9aec,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x65d')](_0x4b4a34,_0x5ac6b7,_0x3f6f8f){var _0xd4ca3e={'OcHZM':_0x1f01('0x50a'),'Rryeb':function(_0x3a61a7,_0x147ee1){return _0x3a61a7===_0x147ee1;},'LEbxp':function(_0x204895,_0x370393){return _0x204895+_0x370393;},'OeVWD':_0x1f01('0x1ff'),'GQvvZ':function(_0x998252,_0x3033a1){return _0x998252+_0x3033a1;},'SDqND':function(_0x5915e2,_0x531196){return _0x5915e2+_0x531196;},'JayRA':function(_0x479206,_0x234c40){return _0x479206+_0x234c40;},'eSJkr':function(_0x1c3166,_0x40a843){return _0x1c3166+_0x40a843;},'bWuaC':function(_0x2df1f6,_0xd5fe98){return _0x2df1f6+_0xd5fe98;},'uJylj':function(_0x12d60c,_0x36cf27){return _0x12d60c+_0x36cf27;},'QUxaI':_0x1f01('0xae'),'YjBSE':_0x1f01('0x200'),'sEEaq':_0x1f01('0x201'),'Akara':_0x1f01('0x202'),'eqLWm':_0x1f01('0x65e')};const _0x24e1f3=Utils[_0x1f01('0x3f')](-0x1);let _0x200e4a=Utils[_0x1f01('0x36')](_0xd4ca3e[_0x1f01('0x65f')]);if(_0xd4ca3e[_0x1f01('0x660')](_0x5ac6b7,_0xd4ca3e[_0x1f01('0x661')](_0x24e1f3,_0xd4ca3e[_0x1f01('0x662')]))){_0x200e4a=CommonSql[_0x1f01('0x36')](_0xd4ca3e[_0x1f01('0x65f')],0x1);}let _0x1e23a7=_0xd4ca3e[_0x1f01('0x663')](_0xd4ca3e[_0x1f01('0x664')](_0xd4ca3e[_0x1f01('0x665')](_0xd4ca3e[_0x1f01('0x666')](_0xd4ca3e[_0x1f01('0x667')](_0xd4ca3e[_0x1f01('0x668')](_0xd4ca3e[_0x1f01('0x668')](_0xd4ca3e[_0x1f01('0x668')](_0xd4ca3e[_0x1f01('0x669')],_0x200e4a),_0xd4ca3e[_0x1f01('0x66a')]),_0x5ac6b7),_0xd4ca3e[_0x1f01('0x66b')]),_0x3f6f8f),_0xd4ca3e[_0x1f01('0x66c')]),_0x4b4a34),_0xd4ca3e[_0x1f01('0x66d')]);return await Sequelize[_0x1f01('0x25')](_0x1e23a7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x66e')](_0x136228,_0x4c3d64){var _0x2e812c={'GZIQW':function(_0x48ab1c,_0x132799){return _0x48ab1c+_0x132799;},'bePQJ':function(_0x4c15ff,_0x111ae1){return _0x4c15ff+_0x111ae1;},'GDCRx':function(_0x137af7,_0xf2fa1f){return _0x137af7+_0xf2fa1f;},'JvLom':function(_0x3c4ecb,_0x48a358){return _0x3c4ecb+_0x48a358;},'rzgyT':_0x1f01('0xae'),'poqSA':_0x1f01('0x50a'),'sPsim':_0x1f01('0x66f'),'QwCeL':_0x1f01('0x64d')};let _0x2149d7=_0x2e812c[_0x1f01('0x670')](_0x2e812c[_0x1f01('0x671')](_0x2e812c[_0x1f01('0x672')](_0x2e812c[_0x1f01('0x672')](_0x2e812c[_0x1f01('0x673')](_0x2e812c[_0x1f01('0x674')],_0x2e812c[_0x1f01('0x675')]),_0x4c3d64[_0x1f01('0x217')](/-/g,'')),_0x2e812c[_0x1f01('0x676')]),_0x136228),_0x2e812c[_0x1f01('0x677')]);return await Sequelize[_0x1f01('0x25')](_0x2149d7,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x678')](_0x22e597,_0x4dd4df){var _0x1f17c2={'bmFkt':function(_0x1c170a,_0x249112){return _0x1c170a+_0x249112;},'IhEJk':function(_0x44b494,_0x2738bc){return _0x44b494+_0x2738bc;},'kTuZA':function(_0x2976a9,_0x121f4f){return _0x2976a9+_0x121f4f;},'rgOIm':_0x1f01('0xae'),'rdRJj':_0x1f01('0x50a'),'jAgqp':_0x1f01('0x66f'),'vOCLB':_0x1f01('0x65e')};let _0x46d81e=_0x1f17c2[_0x1f01('0x679')](_0x1f17c2[_0x1f01('0x67a')](_0x1f17c2[_0x1f01('0x67a')](_0x1f17c2[_0x1f01('0x67b')](_0x1f17c2[_0x1f01('0x67b')](_0x1f17c2[_0x1f01('0x67c')],_0x1f17c2[_0x1f01('0x67d')]),_0x4dd4df[_0x1f01('0x217')](/-/g,'')),_0x1f17c2[_0x1f01('0x67e')]),_0x22e597),_0x1f17c2[_0x1f01('0x67f')]);return await Sequelize[_0x1f01('0x25')](_0x46d81e,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x680')](_0x4b89eb,_0x56b141){var _0x33af97={'ngMSR':_0x1f01('0x50a'),'UpOyA':function(_0x3a7a21,_0x569519){return _0x3a7a21+_0x569519;},'DIxHB':function(_0x551afb,_0x1bfc7c){return _0x551afb+_0x1bfc7c;},'kbLpR':function(_0x555e47,_0x16a6b9){return _0x555e47+_0x16a6b9;},'DGdag':_0x1f01('0x1dc'),'zYVdX':_0x1f01('0x66f'),'eEelw':_0x1f01('0x64d')};const _0x33da2b=CommonSql[_0x1f01('0x36')](_0x33af97[_0x1f01('0x681')],_0x56b141);let _0x3be3d3=_0x33af97[_0x1f01('0x682')](_0x33af97[_0x1f01('0x683')](_0x33af97[_0x1f01('0x683')](_0x33af97[_0x1f01('0x684')](_0x33af97[_0x1f01('0x685')],_0x33da2b),_0x33af97[_0x1f01('0x686')]),_0x4b89eb),_0x33af97[_0x1f01('0x687')]);return await Sequelize[_0x1f01('0x25')](_0x3be3d3,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}static async[_0x1f01('0x688')](_0x4c1d64,_0x4ebaed){var _0x2e0b12={'OrMwp':_0x1f01('0x50a'),'seUCr':function(_0x310ec5,_0x467dee){return _0x310ec5+_0x467dee;},'zaYtV':function(_0x4dfdbe,_0xc77a46){return _0x4dfdbe+_0xc77a46;},'KfyMY':_0x1f01('0x1dc'),'RNdPM':_0x1f01('0x66f'),'ElMfB':_0x1f01('0x65e')};const _0x79bce6=CommonSql[_0x1f01('0x36')](_0x2e0b12[_0x1f01('0x689')],_0x4ebaed);let _0x81c987=_0x2e0b12[_0x1f01('0x68a')](_0x2e0b12[_0x1f01('0x68a')](_0x2e0b12[_0x1f01('0x68a')](_0x2e0b12[_0x1f01('0x68b')](_0x2e0b12[_0x1f01('0x68c')],_0x79bce6),_0x2e0b12[_0x1f01('0x68d')]),_0x4c1d64),_0x2e0b12[_0x1f01('0x68e')]);return await Sequelize[_0x1f01('0x25')](_0x81c987,{'type':Sequelize[_0x1f01('0x26')][_0x1f01('0x27')]});}}module[_0x1f01('0x68f')]={'ScreenShotInfoModel':ScreenShotInfoModel,'HttpLogInfoModel':HttpLogInfoModel,'DailyActivityModel':DailyActivityModel,'BehaviorInfoModel':BehaviorInfoModel,'EmailCodeModel':EmailCodeModel,'ExtendBehaviorInfoModel':ExtendBehaviorInfoModel,'InfoCountByDayModel':InfoCountByDayModel,'ProjectModel':ProjectModel,'IgnoreErrorModel':IgnoreErrorModel,'InfoCountByHourModel':InfoCountByHourModel,'CommonModel':CommonModel,'LoadPageInfoModel':LoadPageInfoModel,'UserModel':UserModel,'HttpErrorInfoModel':HttpErrorInfoModel,'VideosInfoModel':VideosInfoModel,'ResourceLoadInfoModel':ResourceLoadInfoModel,'CustomerPVModel':CustomerPVModel,'JavascriptErrorInfoModel':JavascriptErrorInfoModel};function _0x3377ce(_0x5c8e1a){var _0xafaa1c={'quxVs':function(_0x248415,_0x5d87fd){return _0x248415===_0x5d87fd;},'uYptU':_0x1f01('0x690'),'hRQeY':_0x1f01('0x691'),'LKtkx':_0x1f01('0x692'),'UUwcR':function(_0x21838a,_0x1e508a){return _0x21838a!==_0x1e508a;},'ASLHR':function(_0x1c6cae,_0x4d654d){return _0x1c6cae+_0x4d654d;},'FMYho':function(_0x3d91d3,_0x380bd2){return _0x3d91d3/_0x380bd2;},'zTicP':_0x1f01('0x4d3'),'kfTgo':function(_0x2acece,_0xb8f665){return _0x2acece%_0xb8f665;},'eRlQt':function(_0x269918,_0x31c484){return _0x269918+_0x31c484;},'uJEbn':_0x1f01('0x693'),'GyKXP':_0x1f01('0x694'),'ijubr':_0x1f01('0x695'),'nUcJE':_0x1f01('0x696'),'ITipX':function(_0x4f48a8,_0x48309e){return _0x4f48a8(_0x48309e);},'bUUKJ':function(_0x276191,_0x475341){return _0x276191(_0x475341);}};function _0x346f70(_0x33c96e){if(_0xafaa1c[_0x1f01('0x697')](typeof _0x33c96e,_0xafaa1c[_0x1f01('0x698')])){return function(_0x143b80){}[_0x1f01('0x699')](_0xafaa1c[_0x1f01('0x69a')])[_0x1f01('0x0')](_0xafaa1c[_0x1f01('0x69b')]);}else{if(_0xafaa1c[_0x1f01('0x69c')](_0xafaa1c[_0x1f01('0x69d')]('',_0xafaa1c[_0x1f01('0x69e')](_0x33c96e,_0x33c96e))[_0xafaa1c[_0x1f01('0x69f')]],0x1)||_0xafaa1c[_0x1f01('0x697')](_0xafaa1c[_0x1f01('0x6a0')](_0x33c96e,0x14),0x0)){(function(){return!![];}[_0x1f01('0x699')](_0xafaa1c[_0x1f01('0x6a1')](_0xafaa1c[_0x1f01('0x6a2')],_0xafaa1c[_0x1f01('0x6a3')]))[_0x1f01('0x6a4')](_0xafaa1c[_0x1f01('0x6a5')]));}else{(function(){return![];}[_0x1f01('0x699')](_0xafaa1c[_0x1f01('0x6a1')](_0xafaa1c[_0x1f01('0x6a2')],_0xafaa1c[_0x1f01('0x6a3')]))[_0x1f01('0x0')](_0xafaa1c[_0x1f01('0x6a6')]));}}_0xafaa1c[_0x1f01('0x6a7')](_0x346f70,++_0x33c96e);}try{if(_0x5c8e1a){return _0x346f70;}else{_0xafaa1c[_0x1f01('0x6a8')](_0x346f70,0x0);}}catch(_0x2a6e15){}}
+const db = require('../config/db');
+                        const Sequelize = db.sequelize;
+                        const Utils = require('../util/utils');
+                        const utils = require('../util/utils');
+                        const geoip = require('geoip-lite');
+                        const log = require("../config/log");
+                        const CommonSql = require("../util/commonSql")
+                        const UPLOAD_TYPE = require('../config/consts')
+                        const fetch = require('node-fetch');
+const BehaviorInfo = Sequelize.import('../schema/behaviorInfo');
+BehaviorInfo.sync({force: false});
+
+
+class BehaviorInfoModel {
+  /**
+   * 创建行为信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createBehaviorInfo(data) {
+    return await BehaviorInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新文章数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateBehaviorInfo(id, data) {
+    await BehaviorInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取文章列表
+   * @returns {Promise<*>}
+   */
+  static async getBehaviorInfoList() {
+    return await BehaviorInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取文章详情数据
+   * @param id  文章ID
+   * @returns {Promise<Model>}
+   */
+  static async getBehaviorInfoDetail(id) {
+    return await BehaviorInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteBehaviorInfo(id) {
+    await BehaviorInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+  /**
+   * 删除
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteBehaviorInfoFifteenDaysAgo(days) {
+    const timeScope = Utils.addDays(0 - days) + " 00:00:00"
+    var querySql = "delete from " + Utils.setTableName("BehaviorInfo") + " where createdAt<'" + timeScope + "'"
+    return await Sequelize.query(querySql, { type: Sequelize.QueryTypes.DELETE})
+  }
+
+  /**
+   * 获取当前用户所有的行为记录
+   * @returns {Promise<*>}
+   */
+  static async getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("BehaviorInfo", timeScope) + " where " + happenTimeSql + " and " + customerKeySql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+
+  /**
+   * 测试接口
+   * @returns {Promise<*>}
+   */
+  static async testBehavior(webMonitorIdSql) {
+    let sql = "select CAST(innerText AS char) as innerText, count(innerText) as count from " + Utils.setTableName("BehaviorInfo") + " where webMonitorId='1558538908619' and createdAt>'2019-07-17 00:00:00' GROUP BY innerText ORDER BY count desc LIMIT 20"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const ScreenShotInfo = Sequelize.import('../schema/ScreenShotInfo');
+ScreenShotInfo.sync({force: false});
+
+
+class ScreenShotInfoModel {
+  /**
+   * 创建ScreenShotInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createScreenShotInfo(data) {
+    return await ScreenShotInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新ScreenShotInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateScreenShotInfo(id, data) {
+    await ScreenShotInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取ScreenShotInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getScreenShotInfoList() {
+    return await ScreenShotInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取ScreenShotInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getScreenShotInfoListByPage() {
+    let sql = "select * from ScreenShotInfo WHERE webMonitorId='mcl_webmonitor' limit 200, 300"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取ScreenShotInfo详情数据
+   * @param id  ScreenShotInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getScreenShotInfoDetail(id) {
+    return await ScreenShotInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除ScreenShotInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteScreenShotInfo(id) {
+    await ScreenShotInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取当前用户所有的行为记录
+   * @returns {Promise<*>}
+   */
+  static async getBehaviorsByUser(webMonitorIdSql, happenTimeSql, userIdSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("ScreenShotInfo", timeScope) + " where " + happenTimeSql + "and" + userIdSql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async deleteScreenShotInfoFifteenDaysAgo(days) {
+    const timeScope = Utils.addDays(0 - days) + " 00:00:00"
+    var querySql = "delete from ScreenShotInfo where createdAt<'" + timeScope + "'"
+    return await Sequelize.query(querySql, { type: Sequelize.QueryTypes.DELETE})
+  }
+}
+
+class CommonModel {
+  /**
+   * 检查mysql错误连接数是否达到最大值
+   */
+  static async checkMysqlConnectErrors() {
+    let sql = "select ip, SUM_CONNECT_ERRORS as count from performance_schema.host_cache"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 检查mysql连接数
+   */
+  static async checkMysqlConnects() {
+    let sql = "SELECT * from information_schema.GLOBAL_STATUS WHERE VARIABLE_NAME='MAX_USED_CONNECTIONS'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除对应的数据库
+   */
+  static async deleteTableByName(tableName) {
+    let sql = "drop table " + tableName
+    console.log(sql)
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+}
+
+const EmailCode = Sequelize.import('../schema/emailCode');
+EmailCode.sync({force: false});
+
+
+class EmailCodeModel {
+  /**
+   * 创建EmailCode信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createEmailCode(data) {
+    return await EmailCode.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新EmailCode数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateEmailCode(id, data) {
+    await EmailCode.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取EmailCode列表
+   * @returns {Promise<*>}
+   */
+  static async getEmailCodeList() {
+    return await EmailCode.findAndCountAll()
+  }
+
+  /**
+   * 获取EmailCode详情数据
+   * @param id  EmailCode的ID
+   * @returns {Promise<Model>}
+   */
+  static async getEmailCodeDetail(id) {
+    return await EmailCode.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除EmailCode
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteEmailCode(id) {
+    await EmailCode.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+  /**
+   * 保存EmailCode信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async saveEmailCode(data) {
+    const {email, emailCode, createdAt = new Date().Format("yyyy-MM-dd hh:mm:ss"), updatedAt = new Date().Format("yyyy-MM-dd hh:mm:ss")} = data
+    const tableName = utils.setTableName("EmailCode")
+    let sql = "INSERT INTO `" + tableName + "` (`email`,`emailCode`,`createdAt`,`updatedAt`, `id`) VALUES ('" + email + "','" + emailCode + "','" + createdAt + "','" + updatedAt + "',DEFAULT)"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.In})
+  }
+  static async isSendEmailCodeToday(email) {
+    let sql = "select * from " + utils.setTableName("EmailCode") + " where email='" + email + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async checkEmailCode(email, code) {
+    let sql = "select count(id) as count from " + utils.setTableName("EmailCode") + " where email='" + email + "' and emailCode='" + code + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const DailyActivity = Sequelize.import('../schema/dailyActivity');
+DailyActivity.sync({force: false});
+
+
+class DailyActivityModel {
+  /**
+   * 创建DailyActivity信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createDailyActivity(data) {
+    return await DailyActivity.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新DailyActivity数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateDailyActivity(id, data) {
+    await DailyActivity.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取DailyActivity列表
+   * @returns {Promise<*>}
+   */
+  static async getDailyActivityList() {
+    return await DailyActivity.findAndCountAll()
+  }
+
+  /**
+   * 获取DailyActivity详情数据
+   * @param id  DailyActivity的ID
+   * @returns {Promise<Model>}
+   */
+  static async getDailyActivityDetail(id) {
+    return await DailyActivity.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除DailyActivity
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteDailyActivity(id) {
+    await DailyActivity.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+}
+
+const ExtendBehaviorInfo = Sequelize.import('../schema/extendBehaviorInfo');
+ExtendBehaviorInfo.sync({force: false});
+
+
+class ExtendBehaviorInfoModel {
+  /**
+   * 创建ExtendBehaviorInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createExtendBehaviorInfo(data) {
+    return await ExtendBehaviorInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新ExtendBehaviorInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateExtendBehaviorInfo(id, data) {
+    await ExtendBehaviorInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取ExtendBehaviorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getExtendBehaviorInfoList() {
+    return await ExtendBehaviorInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取ExtendBehaviorInfo详情数据
+   * @param id  ExtendBehaviorInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getExtendBehaviorInfoDetail(id) {
+    return await ExtendBehaviorInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除ExtendBehaviorInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteExtendBehaviorInfo(id) {
+    await ExtendBehaviorInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+
+  /**
+   * 获取当前用户所有的请求记录
+   * @returns {Promise<*>}
+   */
+  static async getExtendBehaviorInfoByUserId(happenTimeSql, userIdSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("ExtendBehaviorInfo", timeScope) + " where " + happenTimeSql + "and" + userIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const IgnoreError = Sequelize.import('../schema/ignoreError');
+IgnoreError.sync({force: false});
+
+
+class IgnoreErrorModel {
+  /**
+   * 创建IgnoreError信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createIgnoreError(data) {
+    return await IgnoreError.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新IgnoreError数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateIgnoreError(id, data) {
+    await IgnoreError.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取IgnoreError列表
+   * @returns {Promise<*>}
+   */
+  static async getIgnoreErrorList() {
+    return await IgnoreError.findAndCountAll()
+  }
+
+  static async ignoreErrorByApplication(param) {
+    return await Sequelize.query("select * from IgnoreError WHERE webMonitorId='" + param.webMonitorId + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取IgnoreError详情数据
+   * @param id  IgnoreError的ID
+   * @returns {Promise<Model>}
+   */
+  static async getIgnoreErrorDetail(id) {
+    return await IgnoreError.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+  /**
+   * 根据errorMsg 判断该错误是否已经被忽略
+   * @returns {Promise<*>}
+   */
+  static async getIgnoreErrorByMsg(param) {
+    return await Sequelize.query("select count(*) as count from IgnoreError WHERE webMonitorId='" + param.webMonitorId + "' and ignoreErrorMessage='" + param.errorMessage + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除IgnoreError
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteIgnoreError(id) {
+    await IgnoreError.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+}
+
+const InfoCountByDay = Sequelize.import('../schema/infoCountByDay');
+InfoCountByDay.sync({force: false});
+
+
+class InfoCountByDayModel {
+  /**
+   * 创建InfoCountByDay信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createInfoCountByDay(data) {
+    return await InfoCountByDay.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新InfoCountByDay数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateInfoCountByDay(id, data) {
+    await InfoCountByDay.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取InfoCountByDay列表
+   * @returns {Promise<*>}
+   */
+  static async getInfoCountByDayList() {
+    return await InfoCountByDay.findAndCountAll()
+  }
+
+  /**
+   * 获取InfoCountByDay详情数据
+   * @param id  InfoCountByDay的ID
+   * @returns {Promise<Model>}
+   */
+  static async getInfoCountByDayDetail(id) {
+    return await InfoCountByDay.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+  /**
+   * 获取InfoCountByDay详情数据
+   * @param id  InfoCountByDay的ID
+   * @returns {Promise<Model>}
+   */
+  static async getInfoCountByDayDetailByDayName(dayName, webMonitorId, uploadType) {
+    let sql = "select id from InfoCountByDay WHERE dayName='" + dayName + "' AND webMonitorId = '" + webMonitorId + "' and uploadType='" + uploadType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除InfoCountByDay
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteInfoCountByDay(id) {
+    await InfoCountByDay.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+}
+
+const InfoCountByHour = Sequelize.import('../schema/infoCountByHour');
+InfoCountByHour.sync({force: false});
+
+
+class InfoCountByHourModel {
+  /**
+   * 创建InfoCountByHour信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createInfoCountByHour(data) {
+    return await InfoCountByHour.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新InfoCountByHour数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateInfoCountByHour(id, data) {
+    await InfoCountByHour.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取InfoCountByHour列表
+   * @returns {Promise<*>}
+   */
+  static async getInfoCountByHourList() {
+    return await InfoCountByHour.findAndCountAll()
+  }
+
+  /**
+   * 获取InfoCountByHour详情数据
+   * @param id  InfoCountByHour的ID
+   * @returns {Promise<Model>}
+   */
+  static async getInfoCountByHourDetail(id) {
+    return await InfoCountByHour.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+  /**
+   * 获取InfoCountByHour详情数据
+   * @param id  InfoCountByHour的ID
+   * @returns {Promise<Model>}
+   */
+  static async getInfoCountByIdByHourName(hourName, webMonitorId, uploadType) {
+    let sql = "select id from InfoCountByHour WHERE hourName='" + hourName + "' AND webMonitorId = '" + webMonitorId + "' and uploadType='" + uploadType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取InfoCountByHour详情数据
+   * @param id  InfoCountByHour的ID
+   * @returns {Promise<Model>}
+   */
+  static async getInfoCountByHourDetailByHourName(hourName, webMonitorId, uploadType) {
+    let sql = "select * from InfoCountByHour WHERE hourName='" + hourName + "' AND webMonitorId = '" + webMonitorId + "' and uploadType='" + uploadType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除InfoCountByHour
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteInfoCountByHour(id) {
+    await InfoCountByHour.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+}
+
+const Project = Sequelize.import('../schema/project');
+Project.sync({force: false});
+
+
+class ProjectModel {
+  /**
+   * 创建Project信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createProject(data) {
+    return await Project.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新Project数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateProject(id, data) {
+    await Project.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取Project列表
+   * @returns {Promise<*>}
+   */
+  static async getProjectList(param) {
+    let sql = param.userEmail ? "select id, webMonitorId, projectName, projectType from Project where email='" + param.userEmail + "'"
+                              : "select id, webMonitorId, projectName, projectType from Project where email='597873885@qq.com'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取Project列表
+   * @returns {Promise<*>}
+   */
+  static async getAllProjectList(param) {
+    const whereSql = param ? " where email='" + param.userEmail + "'" : ""
+    let sql = "select id, webMonitorId, projectName, projectType, createdAt from Project" + whereSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取Project详细信息列表
+   * @returns {Promise<*>}
+   */
+  static async getProjectDetailList(param) {
+    const { userEmail } = param
+    let sql = "select * from Project where email='" + userEmail + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  
+  /**
+   * 检查用户名和项目名
+   * @returns {Promise<*>}
+   */
+  static async getProjectByUserAndPName(email, webMonitorId) {
+    let sql = "select id from Project where email='" + email + "' and webMonitorId='" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  
+  /**
+   * 获取Project详情数据
+   * @param id  Project的ID
+   * @returns {Promise<Model>}
+   */
+  static async getProjectDetail(id) {
+    return await Project.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除Project
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteProject(id) {
+    await Project.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+  /**
+   * 根据webmonitorId 获取项目名
+   */
+  static async getProjectByWebMonitorId(webMonitorId) {
+    let sql = "select * from Project where webMonitorId='" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   *
+   */
+  static async checkProjectName(projectName) {
+    let sql = "select count(*) as count from Project where projectName='" + projectName + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+
+  static async checkProjectCount(param) {
+    let sql = ""
+    for (let i = 0; i < 7; i ++) {
+      if (i < 6) {
+        sql +=
+        "select count(webMonitorId) as count from " + CommonSql.setTableName("CustomerPV", i) + " where webMonitorId='" + param.webMonitorId + "' GROUP BY webMonitorId"
+        + " UNION "
+      } else {
+        sql += "select count(webMonitorId) as count from " + CommonSql.setTableName("CustomerPV", i) + " where webMonitorId='" + param.webMonitorId + "' GROUP BY webMonitorId"
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const LoadPageInfo = Sequelize.import('../schema/loadPageInfo');
+LoadPageInfo.sync({force: false});
+
+
+class LoadPageInfoModel {
+  /**
+   * 创建LoadPageInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createLoadPageInfo(data) {
+    return await LoadPageInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新LoadPageInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateLoadPageInfo(id, data) {
+    await LoadPageInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取LoadPageInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getLoadPageInfoList() {
+    return await LoadPageInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取LoadPageInfo详情数据
+   * @param id  LoadPageInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getLoadPageInfoDetail(id) {
+    return await LoadPageInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除LoadPageInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteLoadPageInfo(id) {
+    await LoadPageInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+ /**
+   * 根据customerKey获取用户访问每个页面的平均请求时间，判断网络状态
+   */
+  static async getPageLoadTimeByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "SELECT CAST(simpleUrl AS char) as simpleUrl, COUNT(simpleUrl) as urlCount, AVG(loadPage) as loadPage, AVG(domReady) as domReady, AVG(request) as resource, AVG(lookupDomain) as DNS from " + CommonSql.setTableName("LoadPageInfo", timeScope) + " where loadPage>0 and loadPage<30000 and " + happenTimeSql + "and" + customerKeySql + " and " + webMonitorIdSql + " GROUP BY simpleUrl ORDER BY urlCount desc"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据customerKey获取用户访问每个页面的平均请求时间，判断网络状态
+   */
+  static async getLoadPageInfoByCustomerKey(webMonitorIdSql, customerKeySql, param) {
+    const { timeScope } = param
+    let sql = "SELECT * from " + CommonSql.setTableName("LoadPageInfo", timeScope) + " where " + customerKeySql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据时间获取当日页面加载的平均时间
+   */
+  static async getPageLoadTimeByDate(param) {
+    const endTimeScope = utils.addDays(0 - param.timeScope)
+    const sql = "SELECT CAST(simpleUrl AS char) as simpleUrl, COUNT(simpleUrl) as urlCount, AVG(loadPage) as loadPage, AVG(domReady) as domReady, AVG(request) as resource, AVG(lookupDomain) as DNS from LoadPageInfo where createdAt>'" + endTimeScope + "' and loadPage>1 and loadPage<15000 and webMonitorId='" + param.webMonitorId + "' GROUP BY simpleUrl having urlCount>50 ORDER BY loadPage desc limit 15"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const PurchaseCode = Sequelize.import('../schema/PurchaseCode.js');
+PurchaseCode.sync({force: false});
+
+
+class PurchaseCodeModel {
+  /**
+   * 创建PurchaseCode信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createPurchaseCode(data) {
+    return await PurchaseCode.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新PurchaseCode数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updatePurchaseCode(id, data) {
+    await PurchaseCode.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取PurchaseCode列表
+   * @returns {Promise<*>}
+   */
+  static async getPurchaseCodeList() {
+    return await PurchaseCode.findAndCountAll()
+  }
+
+  /**
+   * 获取PurchaseCode详情数据
+   * @param id  PurchaseCode的ID
+   * @returns {Promise<Model>}
+   */
+  static async getPurchaseCodeDetail(id) {
+    return await PurchaseCode.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除PurchaseCode
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deletePurchaseCode(id) {
+    await PurchaseCode.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取PurchaseCode详情数据
+   * @param id  PurchaseCode的ID
+   * @returns {Promise<Model>}
+   */
+  static async getPurchaseCodeDetailByCode(purchaseCode) {
+    return await PurchaseCode.findOne({
+      where: {
+        purchaseCode,
+      },
+    })
+  }
+}
+
+const User = Sequelize.import('../schema/user.js')
+User.sync({force: false});
+
+
+class UserModel {
+    /**
+     * 创建用户
+     * @param user
+     * @returns {Promise<boolean>}
+     */
+    static async create(user) {
+        let {username, email, emailPwd, password} = user;
+
+        await User.create({
+            username,
+            email,
+            emailPwd,
+            password
+        })
+        return true
+    }
+
+    /**
+     * 删除用户
+     * @param id listID
+     * @returns {Promise.<boolean>}
+     */
+    static async delete(id) {
+        await User.destroy({
+            where: {
+                id,
+            }
+        })
+        return true
+    }
+
+    /**
+     * 查询用户列表
+     * @returns {Promise<*>}
+     */
+    static async findAllUserList() {
+        return await User.findAll({
+            attributes: ['id', 'username']
+        })
+    }
+
+    /**
+     * 查询用户信息
+     * @param username  姓名
+     * @returns {Promise.<*>}
+     */
+    static async findUserByName(username) {
+        return await User.findOne({
+            where: {
+                username
+            }
+        })
+    }
+
+    /**
+     * 查询用户信息
+     * @param email  邮箱
+     * @returns {Promise.<*>}
+     */
+    static async findUserByEmail(email) {
+        return await User.findOne({
+            where: {
+                email
+            }
+        })
+    }
+    /**
+     * 查询用户信息
+     * @param email  邮箱
+     * @returns {Promise.<*>}
+     */
+    static async findUserByLogin(email, password) {
+        return await User.findOne({
+            where: {
+                email,
+                password
+            }
+        })
+    }
+}
+
+const HttpLogInfo = Sequelize.import('../schema/HttpLogInfo');
+HttpLogInfo.sync({force: false});
+
+
+
+class HttpLogInfoModel {
+  /**
+   * 创建HttpLogInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createHttpLogInfo(data) {
+    return await HttpLogInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新HttpLogInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateHttpLogInfo(id, data) {
+    await HttpLogInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取HttpLogInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getHttpLogInfoList() {
+    return await HttpLogInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取HttpLogInfo详情数据
+   * @param id  HttpLogInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getHttpLogInfoDetail(id) {
+    return await HttpLogInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除HttpLogInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteHttpLogInfo(id) {
+    await HttpLogInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取当前用户所有的请求记录
+   * @returns {Promise<*>}
+   */
+  static async getHttpLogsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("HttpLogInfo", timeScope) + " where " + customerKeySql + " and " + happenTimeSql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteHttpLogInfoFifteenDaysAgo(days) {
+    const timeScope = Utils.addDays(0 - days) + " 00:00:00"
+    var querySql = "delete from HttpLogInfo where createdAt<'" + timeScope + "'"
+    return await Sequelize.query(querySql, { type: Sequelize.QueryTypes.DELETE})
+  }
+
+  /**
+   * 每分钟的http量
+   */
+  static async getHttpCountByMinute(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i') AS minutes, COUNT(id) AS count FROM HttpLogInfo " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 MINUTE, '%Y-%m-%d %T') <= createdAt GROUP BY minutes"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一天静态资源加载错误量
+   */
+  static async calculateHttpLogCountForSecByDay(webMonitorId, useDay, min, max) {
+    const start = min * 1000
+    const end = max * 1000
+    let sql = "select count(id) as count from " + "HttpLogInfo" + useDay.replace(/-/g, "") + " WHERE  webMonitorId = '" + webMonitorId + "' and loadTime<=" + end + " and loadTime>" + start
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据时间分类
+   * @returns {Promise<*>}
+   */
+  static async getHttpCountForLoadTimeGroupByDay(param) {
+    let sql = "SELECT dayName as day, dayCount as count from InfoCountByDay where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.uploadType + "' ORDER BY day"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据时间分类获取接口列表
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlListForLoadTime(param) {
+    const { searchType, day, webMonitorId } = param
+    let timeSql = ""
+    switch(searchType) {
+      case "0":
+          timeSql = " and loadTime>30000 and loadTime<=1000000 "
+        break
+      case "1":
+          timeSql = " and loadTime>10000 and loadTime<=30000 "
+        break
+      case "2":
+          timeSql = " and loadTime>5000 and loadTime<=10000 "
+        break
+      case "3":
+        timeSql = " and loadTime>1000 and loadTime<=5000 "
+      break
+      case "4":
+        timeSql = " and loadTime>0 and loadTime<=1000 "
+      break
+    }
+    const tableName = CommonSql.setTableName("HttpLogInfo", day)
+    let sql = "SELECT CAST(simpleHttpUrl AS char) as simpleHttpUrl, count(simpleHttpUrl) as count, avg(loadTime) as loadTime from " + tableName + " where webMonitorId='" + webMonitorId + "' " + timeSql + " GROUP BY simpleHttpUrl ORDER BY count desc limit 20"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取影响人数
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlUserCountForLoadTime(param) {
+    const { searchType, day, webMonitorId, simpleHttpUrl } = param
+    let timeSql = ""
+    switch(searchType) {
+      case "0":
+          timeSql = " and loadTime>30000 and loadTime<=1000000 "
+        break
+      case "1":
+          timeSql = " and loadTime>10000 and loadTime<=30000 "
+        break
+      case "2":
+          timeSql = " and loadTime>5000 and loadTime<=10000 "
+        break
+      case "3":
+        timeSql = " and loadTime>1000 and loadTime<=5000 "
+      break
+      case "4":
+        timeSql = " and loadTime>0 and loadTime<=1000 "
+      break
+    }
+    const tableName = CommonSql.setTableName("HttpLogInfo", day)
+    let sql = "SELECT count(distinct customerKey) as count from " + tableName + " where webMonitorId='" + webMonitorId + "' and simpleHttpUrl='" + simpleHttpUrl + "' " + timeSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 
+   */
+  static async getHttpUrlCountListByHour(param) {
+    const { searchType, day = 0, webMonitorId, simpleHttpUrl } = param
+    let timeSql = ""
+    switch(searchType) {
+      case "0":
+          timeSql = " and loadTime>30000 and loadTime<=1000000 "
+        break
+      case "1":
+          timeSql = " and loadTime>10000 and loadTime<=30000 "
+        break
+      case "2":
+          timeSql = " and loadTime>5000 and loadTime<=10000 "
+        break
+      case "3":
+        timeSql = " and loadTime>1000 and loadTime<=5000 "
+      break
+      case "4":
+        timeSql = " and loadTime>0 and loadTime<=1000 "
+      break
+    }
+    const dateSql = !day ? " NOW() " : " DATE_SUB(NOW(),INTERVAL " + day + " DAY) "
+    const tableName = CommonSql.setTableName("HttpLogInfo", day)
+    const sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(id) AS count " +
+                "FROM " + tableName + " " +
+                "WHERE webMonitorId='" + webMonitorId + "' and simpleHttpUrl='" + simpleHttpUrl + "' " + timeSql + " and DATE_FORMAT(" + dateSql + " - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt " +
+                "GROUP BY HOUR"
+    // return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfo where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+   /**
+   * 根据url，获取每分钟JS错误的数量
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlCountForHourByMinutes(param) {
+    const { searchType, day = 0, webMonitorId, simpleHttpUrl, timeHour } = param
+    const start = new Date(parseInt(timeHour, 10)).Format("yyyy-MM-dd hh:00:00")
+    const end = new Date(parseInt(timeHour, 10) + 60 * 60 * 1000).Format("yyyy-MM-dd hh:00:00")
+    const tableName = CommonSql.setTableName("HttpLogInfo", day)
+    let timeSql = ""
+    switch(searchType) {
+      case "0":
+          timeSql = " and loadTime>30000 and loadTime<=1000000 "
+        break
+      case "1":
+          timeSql = " and loadTime>10000 and loadTime<=30000 "
+        break
+      case "2":
+          timeSql = " and loadTime>5000 and loadTime<=10000 "
+        break
+      case "3":
+        timeSql = " and loadTime>1000 and loadTime<=5000 "
+      break
+      case "4":
+        timeSql = " and loadTime>0 and loadTime<=1000 "
+      break
+    }
+    const sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i') AS minutes, COUNT(id) AS count " +
+                "FROM " + tableName + " " +
+                "WHERE createdAt>'" + start + "' and createdAt<'" + end + "' and webMonitorId='" + webMonitorId + "' and simpleHttpUrl='" + simpleHttpUrl + "' " + timeSql + " and DATE_FORMAT('" + end + "' - INTERVAL 60 MINUTE, '%Y-%m-%d %T') <= createdAt " +
+                "GROUP BY minutes"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const VideosInfo = Sequelize.import('../schema/videosInfo');
+VideosInfo.sync({force: false});
+
+
+class VideosInfoModel {
+  /**
+   * 创建Videos信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createVideos(data) {
+    return await VideosInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新Videos数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateVideos(id, data) {
+    await VideosInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取Videos列表
+   * @returns {Promise<*>}
+   */
+  static async getVideosList() {
+    return await VideosInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取Videos详情数据
+   * @param id  Videos的ID
+   * @returns {Promise<Model>}
+   */
+  static async getVideosDetail(id) {
+    return await VideosInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除Videos
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteVideos(id) {
+    await VideosInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取当前用户所有的日志加载失败记录
+   * @returns {Promise<*>}
+   */
+  static async getVideosEvent(param) {
+    let tableName = Utils.setTableName("VideosInfo")
+    let sql = "select * from " + tableName + " where userId='" + Utils.md5Encrypt(param.userId) + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const HttpErrorInfo = Sequelize.import('../schema/HttpErrorInfo');
+HttpErrorInfo.sync({force: false});
+
+
+class HttpErrorInfoModel {
+  /**
+   * 创建HttpErrorInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createHttpErrorInfo(data) {
+    return await HttpErrorInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新HttpErrorInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateHttpErrorInfo(id, data) {
+    await HttpErrorInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取HttpErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorInfoList() {
+    return await HttpErrorInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取HttpErrorInfo详情数据
+   * @param id  HttpErrorInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getHttpErrorInfoDetail(id) {
+    return await HttpErrorInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除HttpErrorInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteHttpErrorInfo(id) {
+    await HttpErrorInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+
+  /**
+   * 获取当前用户所有的请求记录
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("HttpErrorInfo", timeScope) + " where " + customerKeySql + " and " + happenTimeSql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorInfoListByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorInfoListSevenDayAgoByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000
+    const endTime = startTime + 23 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async getHttpErrorCountByDay(param) {
+    let sql = "SELECT dayName as day, dayCount as count from InfoCountByDay where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取当前用户所有的日志加载失败记录
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorInfoListByDay(param) {
+    const { timeType } = param
+    // const queryStr = CommonSql.createTimeScopeSql(timeType)
+    const tableName = CommonSql.setTableName("HttpErrorInfo", timeType)
+    const sql = "select simpleHttpUrl, COUNT(simpleHttpUrl) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + " GROUP BY simpleHttpUrl order by count desc limit 20"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+
+  /**
+   * 最近发生时间
+   * @param httpUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorLatestTime(simpleHttpUrl, param) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("HttpErrorInfo", timeType)
+    // const queryStr = CommonSql.createTimeScopeSql(timeType)
+    return await Sequelize.query("select createdAt, happenTime from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + " and  simpleHttpUrl= '" + simpleHttpUrl + "' ORDER BY happenTime desc limit 1", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 分类接口状态
+   * @param httpUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getStatusCountBySimpleHttpUrl(simpleHttpUrl, param) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("HttpErrorInfo", timeType)
+    // const queryStr = CommonSql.createTimeScopeSql(timeType)
+    const sql = "select `status`, count(`status`) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + " and  simpleHttpUrl= '" + simpleHttpUrl + "' GROUP BY `status`"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * @param simpleHttpUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getCustomerCountForHttpUrl(simpleHttpUrl, param) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("HttpErrorInfo", timeType)
+    // const queryStr = CommonSql.createTimeScopeSql(timeType)
+    const sql = "select count(distinct customerKey) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + " and  simpleHttpUrl= '" + simpleHttpUrl + "' GROUP BY `status`"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * @param simpleHttpUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorListByMsg(simpleHttpUrl, param) {
+    const { timeType } = param
+    const queryStr = CommonSql.createTimeScopeSql(timeType)
+    const sql = "select count(distinct customerKey) as count from HttpErrorInfo where webMonitorId='" + param.webMonitorId + "' " + queryStr + " and  simpleHttpUrl= '" + simpleHttpUrl + "' GROUP BY `status`"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * @param simpleHttpUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getHttpErrorListByUrl(param) {
+    const { simpleHttpUrl, timeType } = param
+    const tableName = CommonSql.setTableName("HttpErrorInfo", timeType)
+    const sql = "select * from " + tableName + " where webMonitorId='" + param.webMonitorId + "' and  simpleHttpUrl='" + simpleHttpUrl + "' limit 200"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  //=====================结算结果代码======================//
+   /**
+   * 计算某一小时接口错误量
+   */
+  static async calculateHttpErrorCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("HttpErrorInfo")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("HttpErrorInfo", 1)
+    }
+    let sql = "select count(id) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一天接口错误量
+   */
+  static async calculateHttpErrorCountByDay(webMonitorId, useDay) {
+    let sql = "select count(id) as count from " + "HttpErrorInfo" + useDay.replace(/-/g, "") + " WHERE  webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一天接口错误量影响的用户量
+   */
+  static async getHttpErrorUserCountToday(webMonitorId, day) {
+    const tableName = CommonSql.setTableName("HttpErrorInfo", day)
+    let sql = "select count(distinct customerKey) as count from " + tableName + " WHERE  webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  
+}
+
+const ResourceLoadInfo = Sequelize.import('../schema/resourceLoadInfo');
+ResourceLoadInfo.sync({force: false});
+
+
+class ResourceLoadInfoModel {
+  /**
+   * 创建ResourceLoadInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createResourceLoadInfo(data) {
+    return await ResourceLoadInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新ResourceLoadInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateResourceLoadInfo(id, data) {
+    await ResourceLoadInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取ResourceLoadInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getResourceLoadInfoList() {
+    return await ResourceLoadInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取ResourceLoadInfo详情数据
+   * @param id  ResourceLoadInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getResourceLoadInfoDetail(id) {
+    return await ResourceLoadInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除ResourceLoadInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteResourceLoadInfo(id) {
+    await ResourceLoadInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取当前用户所有的日志加载失败记录
+   * @returns {Promise<*>}
+   */
+  static async getResourceLoadInfoByUserId(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("ResourceLoadInfo", timeScope) + " where " + happenTimeSql + "and" + customerKeySql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取当前用户所有的日志加载失败记录
+   * @returns {Promise<*>}
+   */
+  static async getResourceLoadInfoListByDay(param) {
+    const { simpleUrl, timeType } = param
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const tableName = CommonSql.setTableName("ResourceLoadInfo", timeType)
+    const sql = "select sourceUrl, COUNT(sourceUrl) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + queryStr + " GROUP BY sourceUrl order by count desc limit 20"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 最近发生时间
+   * @param sourceUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getResourceErrorLatestTime(sourceUrl, param) {
+    const { simpleUrl, timeType } = param
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const tableName = CommonSql.setTableName("ResourceLoadInfo", timeType)
+    return await Sequelize.query("select createdAt, happenTime from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + queryStr + " and  sourceUrl= '" + sourceUrl + "' ORDER BY happenTime desc limit 1", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 影响多少页面
+   * @param sourceUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getPageCountByResourceError(sourceUrl, param) {
+    const { simpleUrl, timeType } = param
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const tableName = CommonSql.setTableName("ResourceLoadInfo", timeType)
+    return await Sequelize.query("SELECT count(DISTINCT simpleUrl) as pageCount from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + queryStr + " and sourceUrl='" + sourceUrl + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 影响了多少用户
+   * @param sourceUrl
+   * @param param
+   * @returns {Promise<*>}
+   */
+  static async getCustomerCountByResourceError(sourceUrl, param) {
+    const { simpleUrl, timeType } = param
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const tableName = CommonSql.setTableName("ResourceLoadInfo", timeType)
+    return await Sequelize.query("SELECT count(DISTINCT (customerKey)) as customerCount from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + queryStr + " and sourceUrl='" + sourceUrl + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取当前用户所有的日志加载失败记录列表
+   * @returns {Promise<*>}
+   */
+  static async getResourceErrorCountByDay(param) {
+    let sql = "SELECT dayName as day, dayCount as count from InfoCountByDay where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取某小时内，错误总数
+   * @returns {Promise<*>}
+   */
+  static async getResourceErrorInfoListByHour(startTime, endTime, param) {
+    return await Sequelize.query("SELECT COUNT(*) as count from ResourceLoadInfo where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getResourceLoadErrorInfoListByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getResourceLoadErrorInfoListSevenDayAgoByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000
+    const endTime = startTime + 23 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  //=====================结算结果代码======================//
+   /**
+   * 计算某一小时静态资源加载错误量
+   */
+  static async calculateResourceErrorCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("ResourceLoadInfo")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("ResourceLoadInfo", 1)
+    }
+    let sql = "select count(id) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一天静态资源加载错误量
+   */
+  static async calculateResourceErrorCountByDay(webMonitorId, useDay) {
+    let sql = "select count(id) as count from " + "ResourceLoadInfo" + useDay.replace(/-/g, "") + " WHERE  webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一天静态资源加载错误量影响用户数量
+   */
+  static async getResourceErrorUserCountToday(webMonitorId, day) {
+    const tableName = CommonSql.setTableName("ResourceLoadInfo", day)
+    let sql = "select count(distinct customerKey) as count from " + tableName + " WHERE  webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const JavascriptErrorInfo = Sequelize.import('../schema/javascriptErrorInfo');
+JavascriptErrorInfo.sync({force: false});
+
+
+
+function fixPath(filepath) {
+  return filepath.replace(/\.[\.\/]+/g, "");
+}
+
+class JavascriptErrorInfoModel {
+  /**
+   * 创建JavascriptErrorInfo信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createJavascriptErrorInfo(data) {
+    return await JavascriptErrorInfo.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新JavascriptErrorInfo数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateJavascriptErrorInfo(id, data) {
+    await JavascriptErrorInfo.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 删除
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteJavascriptErrorInfosFifteenDaysAgo(days) {
+    const timeScope = utils.addDays(0 - days) + " 00:00:00"
+    var querySql = "delete from JavascriptErrorInfo where createdAt<'" + timeScope + "'";
+    return await Sequelize.query(querySql, { type: Sequelize.QueryTypes.DELETE})
+  }
+
+  /**
+   * 获取JavascriptErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorInfoList() {
+    return await JavascriptErrorInfo.findAndCountAll()
+  }
+
+  /**
+   * 获取JavascriptErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorInfoListByDay(param) {
+    let sql = "SELECT dayName as day, dayCount as count from InfoCountByDay where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取ConsoleErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getConsoleErrorInfoListByDay(param) {
+    let sql = "SELECT dayName as day, dayCount as count from InfoCountByDay where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据错误信息，获取每分钟JS错误的数量
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorCountByMinute(param) {
+    let { timeHour } = param
+    const start = new Date(parseInt(timeHour, 10)).Format("yyyy-MM-dd hh:00:00")
+    const end = new Date(parseInt(timeHour, 10) + 60 * 60 * 1000).Format("yyyy-MM-dd hh:00:00")
+    const tableName = Utils.setTableName("JavascriptErrorInfo")
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i') AS minutes, COUNT(id) AS count FROM " + tableName + " " +
+      "WHERE createdAt>'" + start + "' and createdAt<'" + end + "' and webMonitorId='" + param.webMonitorId + "' and infoType='" + param.infoType + "' and errorMessage like '%" + param.errorMessage + "%' and DATE_FORMAT('" + end + "' - INTERVAL 60 MINUTE, '%Y-%m-%d %T') <= createdAt GROUP BY minutes"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorCountListByHour(param) {
+    const tableName = Utils.setTableName("JavascriptErrorInfo")
+    const sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(id) AS count " +
+                "FROM " + tableName + " " +
+                "WHERE webMonitorId='" + param.webMonitorId + "' and infoType='" + param.infoType + "' and errorMessage like '%" + param.errorMessage + "%' and DATE_FORMAT(NOW() - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt " +
+                "GROUP BY HOUR"
+    // return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfo where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的错误量
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorInfoListSevenDayAgoByHour(param) {
+    const tempNowHour = new Date().getHours();
+    let nowHour = tempNowHour
+    let sevenDayAgo = ""
+    if (tempNowHour === 23) {
+      sevenDayAgo = utils.addDays(-6) + " 00:00:00";
+    } else {
+      nowHour = nowHour + 1
+      sevenDayAgo = utils.addDays(-7) + " " + nowHour + ":00:00";
+    }
+    const sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(id) AS count " +
+      "FROM JavascriptErrorInfo " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and infoType='" + param.infoType + "' and createdAt<'" + sevenDayAgo + "' and DATE_FORMAT(DATE_SUB(NOW(),INTERVAL 7 DAY) - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt " +
+      "GROUP BY HOUR"
+    // return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfo where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取某天内错误总数
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorCountByDay(startTime, endTime, param) {
+    return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfo where webMonitorId='" + param.webMonitorId + "' and createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取JavascriptErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorSort(param) {
+    const { simpleUrl, timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const sql = "select errorMessage, count(errorMessage) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' and infoType='on_error' " + queryStr + " GROUP BY errorMessage order by count desc limit 10"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取自定义错误列表
+   * @returns {Promise<*>}
+   */
+  static async getConsoleErrorSort(param) {
+    const { simpleUrl, timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    // const queryStr = queryStr1 + CommonSql.createTimeScopeSql(timeType)
+    const sql = "select errorMessage, count(errorMessage) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' and infoType='console_error' " + queryStr + " GROUP BY errorMessage order by count desc limit 10"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据errorMessage查询这一类错误的数量
+   * @returns {Promise<*>}
+   */
+  static async getPerJavascriptConsoleErrorCount(tempErrorMsg, param) {
+    const { simpleUrl, timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr1 = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const queryStr = queryStr1 + CommonSql.createTimeScopeSql(timeType)
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    return await Sequelize.query("SELECT count(id) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' and infoType='console_error' " + queryStr + " and errorMessage = '" + errorMsg + "' order by count desc", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据errorMessage查询这一类错误不同平台的数量
+   * @returns {Promise<*>}
+   */
+  static async getPerJavascriptErrorCountByOs(tempErrorMsg, param) {
+    const { simpleUrl, timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    return await Sequelize.query("SELECT tab.os as os, count(tab.os) as count from (select SUBSTRING(os,1,3) as os from " + tableName + " where  webMonitorId='" + param.webMonitorId + "'  and infoType='on_error'" + queryStr + " and errorMessage like '%" + errorMsg + "%') as tab GROUP BY os order by count desc", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据errorMessage查询这一类错误不同平台的数量
+   * @returns {Promise<*>}
+   */
+  static async getAllJavascriptErrorCountByOs(tempErrorMsg, param) {
+    const { simpleUrl, timeType } = param
+    const queryStr1 = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const queryStr = queryStr1
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    return await Sequelize.query("SELECT tab.os as os, count(tab.os) as count from (select SUBSTRING(os,1,3) as os from " + tableName + " where  webMonitorId='" + param.webMonitorId + "'  and infoType='on_error'" + queryStr + " and errorMessage like '%" + errorMsg + "%') as tab GROUP BY os order by count desc", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 查询分类js错误的数量
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByType( param ) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const sql = "select infoType, count(infoType) as count from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + " GROUP BY infoType"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据errorMessage查询这一类错误最近发生的时间
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorLatestTime(tempErrorMsg, param) {
+    const { simpleUrl, timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr = simpleUrl ? " and simpleUrl='" + simpleUrl + "' " : " "
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    return await Sequelize.query("select createdAt, happenTime from " + tableName + " where webMonitorId='" + param.webMonitorId + "' " + queryStr +  " and  errorMessage like '%" + errorMsg + "%' ORDER BY createdAt desc limit 1", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取JavascriptErrorInfo列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorCountByHour(param) {
+    let hour = new Date().getHours()
+    new Date().Format("yyyy-MM-dd") + " " + hour + ":00:00"
+    return await Sequelize.query("select DATE_FORMAT(createdAt,'%Y-%m-%d') as day, count(id) as count from JavascriptErrorInfo WHERE webMonitorId='" + param.webMonitorId + "' and  DATE_SUB(CURDATE(),INTERVAL 30 DAY) <= createdAt GROUP BY day", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据errorMsg 查询js错误列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorListByMsg(tempErrorMsg, param) {
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    return await Sequelize.query("select * from " + tableName + " where webMonitorId='" + param.webMonitorId + "' and  errorMessage like '%" + errorMsg + "%' order by happenTime desc limit 100", { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据errorMsg查询Js错误影响的用户数量
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorAffectCount(tempErrorMsg, param) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    return await Sequelize.query("select count(DISTINCT customerKey) as count from " + tableName + " where  webMonitorId='" + param.webMonitorId + "' " + " and errorMessage like '%" + errorMsg + "%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据errorMsg、customerKey 查询Js错误发生的次数
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorOccurCountByCustomerKey(tempErrorMsg, data) {
+    const { webMonitorId, customerKey, timeType } = data
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const errorMsg = tempErrorMsg.replace(/'/g, "\\'")
+    return await Sequelize.query("select count(*) as count from " + tableName + " where webMonitorId='" + webMonitorId + "' and  errorMessage like '%" + errorMsg + "%' and customerKey='" + customerKey + "'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据errorMsg 查询js错误列表
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorListByPage(param) {
+    const { timeType } = param
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", timeType)
+    const queryStr = " where webMonitorId='" + param.webMonitorId + "' and infoType='on_error' "
+    return await Sequelize.query("select simpleUrl, COUNT(simpleUrl) as count from " + tableName + " " + queryStr + " GROUP BY simpleUrl ORDER BY count desc limit 20", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取报错代码位置附近的代码
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorStackCode(param) {
+    let tempJsPath = ""
+    let tempJsMapPath = ""
+    let tempCodeArray = []
+    const result = []
+    // TODO: 本来这里是要用param.length 取出所有的js代码，但是正常情况下，只用到第一个，所以默认只取出第一个
+    for (var i = 0; i < param.length; i ++) {
+      const { jsPathStr, jsPath, locationX, locationY } = param[i]
+      await fetch(jsPath)
+        .then(res => res.text())
+        .then( async (body) => {
+          let arr = body.split("\n")
+          let codeStr = arr[locationX - 1]
+          const start = parseInt(locationY) - 50
+          const end = parseInt(locationY) + 50
+          const codeStart = encodeURIComponent(codeStr.substring(start, locationY - 1))
+          const codeEnd = encodeURIComponent(codeStr.substring(locationY - 1, end))
+          let code = ""
+          if (codeStart.length === 0 && codeEnd.length === 0) {
+            code = " 抱歉，未能获取到静态资源，无法定位代码位置 ：）"
+          } else {
+            code = codeStart + "【错误位置：】" + codeEnd
+          }
+          let sourceCode = []
+          await JavascriptErrorInfoModel.handleSourceMap(jsPath, locationX, locationY, sourceCode)
+          result.push({jsPathStr, jsPath, locationX, locationY, code, sourceCode})
+        }).catch((e) => {
+          result.push({jsPathStr, jsPath, locationX, locationY, code: " 抱歉，未能获取到静态资源，无法定位代码位置 ：）", sourceCode: []})
+        });
+    }
+    return result
+  }
+  static async handleSourceMap(url, line, column, sourceCode) {
+    // // 读取map文件，实际就是一个json文件
+    // var rawSourceMap = fs.readFileSync("/Users/jeffery/WebstormProjects/cash_loan_fe/dist/omega/home.52c296c6.chunk.js.map").toString();
+    // // 通过sourceMap库转换为sourceMapConsumer对象
+    // console.log("1===========================")
+    // var consumer = await new sourceMap.SourceMapConsumer(rawSourceMap);
+    // // 传入要查找的行列数，查找到压缩前的源文件及行列数
+    // var sm = consumer.originalPositionFor({
+    //     line: 1,  // 压缩后的行数
+    //     column: 43649  // 压缩后的列数
+    //   });
+    // // 压缩前的所有源文件列表
+    // var sources = consumer.sources;
+    // // 根据查到的source，到源文件列表中查找索引位置
+    // var smIndex = sources.indexOf(sm.source);
+    // // 到源码列表中查到源代码
+    // var smContent = consumer.sourcesContent[smIndex];
+    // // 将源代码串按"行结束标记"拆分为数组形式
+    // const rawLines = smContent.split(/\r?\n/g);
+    // // 输出源码行，因为数组索引从0开始，故行数需要-1
+    
+    // console.log("1=====================")
+    // console.log(rawLines[sm.line - 2]);
+    // console.log(rawLines[sm.line - 1]);
+    // console.log(rawLines[sm.line]);
+    // console.log("2=====================")
+    //以上是可以正确解读的////////////////////////////////////////////////////////////////////
+
+    const sourcePath = url + ".map"
+    await fetch(sourcePath)
+        .then(res => res.text())
+        .then( async (body) => {
+          var rawSourceMap = body
+          // 通过sourceMap库转换为sourceMapConsumer对象
+          var consumer = await new sourceMap.SourceMapConsumer(rawSourceMap);
+          // 传入要查找的行列数，查找到压缩前的源文件及行列数
+          var sm = consumer.originalPositionFor({
+              line: parseInt(line),  // 压缩后的行数
+              column: parseInt(column) // 压缩后的列数
+            });
+          // 压缩前的所有源文件列表
+          var sources = consumer.sources;
+          // 根据查到的source，到源文件列表中查找索引位置
+          var smIndex = sources.indexOf(sm.source);
+          // 到源码列表中查到源代码
+          var smContent = consumer.sourcesContent[smIndex];
+          // 将源代码串按"行结束标记"拆分为数组形式
+          const rawLines = smContent.split(/\r?\n/g);
+          // 输出源码行，因为数组索引从0开始，故行数需要-1
+          sourceCode.push(rawLines[sm.line - 3])
+          sourceCode.push(rawLines[sm.line - 2])
+          sourceCode.push(rawLines[sm.line - 1])
+        }).catch((e) => {
+          console.log(e)
+        });
+  }
+  /**
+   * 获取JavascriptErrorInfo详情数据
+   * @param id  JavascriptErrorInfo的ID
+   * @returns {Promise<Model>}
+   */
+  static async getJavascriptErrorInfoDetail(id) {
+    return await JavascriptErrorInfo.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除JavascriptErrorInfo
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteJavascriptErrorInfo(id) {
+    await JavascriptErrorInfo.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取PC错误总数
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorPcCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM JavascriptErrorInfo WHERE webMonitorId='" + param.webMonitorId + "' and createdAt > '" + param.day + "' and os LIKE 'web%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取IOS错误总数
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorIosCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM JavascriptErrorInfo WHERE webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + param.day + "' and os LIKE 'ios%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取Android错误总数
+   * @returns {Promise<*>}
+   */
+  static async getJavascriptErrorAndroidCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM JavascriptErrorInfo WHERE webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + param.day + "' and os LIKE 'android%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取当前用户所有的行为记录
+   * @returns {Promise<*>}
+   */
+  static async getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    // var phoneReg = /^1\d{10}$/
+    // var sql = ""
+    // if (phoneReg.test(param.searchValue)) {
+    //   sql = "select * from JavascriptErrorInfo where webMonitorId='" + param.webMonitorId + "' and firstUserParam='" + param.searchValue + "'"
+    // } else {
+    //   sql = "select * from JavascriptErrorInfo where webMonitorId='" + param.webMonitorId + "' and userId='" + param.searchValue + "'"
+    // }
+    // return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("JavascriptErrorInfo", timeScope) + " where " + customerKeySql + " and " + happenTimeSql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内每小时错误量
+   */
+  static async getErrorCountByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的UV量
+   * @returns {Promise<*>}
+   */
+  static async getErrorCountSevenDayAgoByHour(param) {
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000
+    const endTime = startTime + 23 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + param.infoType + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  //=====================结算结果代码======================//
+   /**
+   * 计算某一小时on_error的量
+   */
+  static async calculateJsErrorCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("JavascriptErrorInfo")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("JavascriptErrorInfo", 1)
+    }
+    let sql = "select count(id) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "' AND infoType='on_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一小时console_error的量
+   */
+  static async calculateConsoleErrorCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("JavascriptErrorInfo")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("JavascriptErrorInfo", 1)
+    }
+    let sql = "select count(id) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "' AND infoType='console_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一天on_error的量
+   */
+  static async calculateJsErrorCountByDay(webMonitorId, useDay) {
+    let sql = "select count(id) as count from " + "JavascriptErrorInfo" + useDay.replace(/-/g, "") + " WHERE webMonitorId = '" + webMonitorId + "' AND infoType='on_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一天console_error的量
+   */
+  static async calculateConsoleErrorCountByDay(webMonitorId, useDay) {
+    let sql = "select count(id) as count from " + "JavascriptErrorInfo" + useDay.replace(/-/g, "") + " WHERE webMonitorId = '" + webMonitorId + "' AND infoType='console_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一天on_error影响的用户数量
+   */
+  static async getJsErrorUserCountToday(webMonitorId, day) {
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", day)
+    let sql = "select count(distinct customerKey) as count from " + tableName + " WHERE webMonitorId = '" + webMonitorId + "' AND infoType='on_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 计算某一天console_error的量
+   */
+  static async getConsoleErrorUserCountToday(webMonitorId, day) {
+    const tableName = CommonSql.setTableName("JavascriptErrorInfo", day)
+    let sql = "select count(distinct customerKey) as count from " + tableName + " WHERE webMonitorId = '" + webMonitorId + "' AND infoType='console_error'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const CustomerPV = Sequelize.import('../schema/customerPV');
+CustomerPV.sync({force: false});
+
+
+class CustomerPVModel {
+  /**
+   * 创建CustomerPV信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createCustomerPV(data) {
+    return await CustomerPV.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新CustomerPV数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateCustomerPV(id, data) {
+    await CustomerPV.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 获取CustomerPV列表
+   * @returns {Promise<*>}
+   */
+  static async getCustomerPVList() {
+    return await CustomerPV.findAndCountAll()
+  }
+
+  /**
+   * 获取CustomerPV详情数据
+   * @param id  CustomerPV的ID
+   * @returns {Promise<Model>}
+   */
+  static async getCustomerPVDetail(id) {
+    return await CustomerPV.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 删除CustomerPV
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteCustomerPV(id) {
+    await CustomerPV.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+  /**
+   * 删除
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteCustomerPVsFifteenDaysAgo(days) {
+    const timeScope = Utils.addDays(0 - days) + " 00:00:00"
+    var querySql = "delete from " + Utils.setTableName("CustomerPV") + " where createdAt<'" + timeScope + "'";
+    return await Sequelize.query(querySql, { type: Sequelize.QueryTypes.DELETE})
+  }
+
+  /**
+   * 根据参数获取当天的pv数量
+   */
+  static async getPVCountForDay(param, day) {
+    let sql = "select count(id) as count from " + CommonSql.setTableName("CustomerPV", day) + " where webMonitorId='" + param.webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据参数获取当天的uv数量
+   */
+  static async getUVCountForDay(param, day) {
+    let sql = "select count(distinct customerKey) as count from " + CommonSql.setTableName("CustomerPV", day) + " where webMonitorId='" + param.webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据参数获取当天的IP数量
+   */
+  static async getIpCountForDay(param, day) {
+    let sql = "select count(distinct monitorIp) as count from " + CommonSql.setTableName("CustomerPV", day) + " where webMonitorId='" + param.webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  
+
+  /**
+   * 获取PC错误总数
+   * @returns {Promise<*>}
+   */
+  static async getCustomerPvPcCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM " + Utils.setTableName("CustomerPV") + " WHERE webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + param.day + "' and os LIKE 'web%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取IOS错误总数
+   * @returns {Promise<*>}
+   */
+  static async getCustomerPvIosCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM " + Utils.setTableName("CustomerPV") + " WHERE webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + param.day + "' and os LIKE 'ios%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取Android错误总数
+   * @returns {Promise<*>}
+   */
+  static async getCustomerPvAndroidCount(param) {
+    return await Sequelize.query("SELECT COUNT(DISTINCT pageKey) as count FROM " + Utils.setTableName("CustomerPV") + " WHERE webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + param.day + "' and os LIKE 'android%'", { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取当前用户所有的行为记录
+   * @returns {Promise<*>}
+   */
+  static async getBehaviorsByUser(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("CustomerPV", timeScope) + " where " + happenTimeSql + " and " + customerKeySql + " and " + webMonitorIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据userId获取到所有的customerKey
+   * @returns {Promise<*>}
+   */
+  static async getCustomerKeyByUserId(param) {
+
+    const resArray = []
+    for (let i = 0; i < 15; i ++) {
+      let tableName = CommonSql.setTableName("CustomerPV", i)
+      let sql = "select DISTINCT(customerKey) from " + tableName + " where userId='" + param.userId + "'"
+      try {
+        let res = await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+        let resObj = {customerKey: res[0].customerKey}
+        resArray.push(resObj)
+      } catch(e) {
+        console.warn("\x1B[33m%s\x1b[0m", "运行时间不足15天，" + tableName + " 这个表可能不存在，并不影响查询结果！")
+      }
+    }
+    return resArray
+
+
+    // let sql = ""
+    // for (let i = 0; i < 7; i ++) {
+    //   if (i < 6) {
+    //     sql +=
+    //     "select DISTINCT(customerKey) from " + CommonSql.setTableName("CustomerPV", i) + " where userId='" + param.userId + "'"
+    //     + " UNION "
+    //   } else {
+    //     sql += "select DISTINCT(customerKey) from " + CommonSql.setTableName("CustomerPV", i) + " where userId='" + param.userId + "'"
+    //   }
+    // }
+    // return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据customerKey 获取用户详情
+   */
+  static async getCustomerPVDetailByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql, param) {
+    const { timeScope } = param
+    let sql = "select * from " + CommonSql.setTableName("CustomerPV", timeScope) + " where " + happenTimeSql + "and" + customerKeySql + " and " + webMonitorIdSql + " limit 1"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据customerKey获取用户访问每个页面的次数
+   */
+  static async getPVsByCustomerKey(webMonitorIdSql, customerKeySql, happenTimeSql) {
+    let sql = "select CAST(simpleUrl AS char) as simpleUrl, count(simpleUrl) from " + Utils.setTableName("CustomerPV") + " where " + happenTimeSql + "and" + customerKeySql + " and " + webMonitorIdSql + " GROUP BY simpleUrl "
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 每5分钟的各个省份的Uv量
+   */
+  static async getProvinceCountBySeconds(param) {
+    // let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i:%s') AS seconds, COUNT(pageKey) AS count FROM CustomerPV " +
+    //   "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 SECOND, '%Y-%m-%d %T') <= createdAt GROUP BY seconds"
+    const nowTime = new Date().getTime()
+    const searchTime = new Date(nowTime - 300 * 1000).Format("yyyy-MM-dd hh:mm:ss")
+    let sql = "SELECT province as name, count(distinct customerKey) as value from " + Utils.setTableName("CustomerPV") + " where webMonitorId='" + param.webMonitorId + "' and createdAt>'" + searchTime + "' GROUP BY province"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 查询10s内的PV数据
+   */
+  static async getPvsInfoByTenSeconds(param) {
+    const nowTime = new Date().getTime()
+    const searchTime = new Date(nowTime - 10 * 1000).Format("yyyy-MM-dd hh:mm:ss")
+    let sql = "SELECT customerKey, province, city, newStatus, happenTime, simpleUrl, monitorIp from " + Utils.setTableName("CustomerPV") + " where webMonitorId='" + param.webMonitorId + "' and createdAt>'" + searchTime + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 每秒钟的pv量
+   */
+  static async getPvCountBySecond(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i:%s') AS seconds, COUNT(pageKey) AS count FROM " + Utils.setTableName("CustomerPV") + " " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 SECOND, '%Y-%m-%d %T') <= createdAt GROUP BY seconds"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 每秒钟的uv量
+   */
+  static async getUvCountBySecond(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i:%s') AS seconds, COUNT(DISTINCT customerKey) AS count FROM " + Utils.setTableName("CustomerPV") + " " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 SECOND, '%Y-%m-%d %T') <= createdAt GROUP BY seconds"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 每分钟的pv量
+   */
+  static async getPvCountByMinute(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i') AS minutes, COUNT(pageKey) AS count FROM " + Utils.setTableName("CustomerPV") + " " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 MINUTE, '%Y-%m-%d %T') <= createdAt GROUP BY minutes"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 每分钟的uv量
+   */
+  static async getUvCountByMinute(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i') AS minutes, COUNT(DISTINCT customerKey) AS count FROM " + Utils.setTableName("CustomerPV") + " " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 30 MINUTE, '%Y-%m-%d %T') <= createdAt GROUP BY minutes"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内每小时user量
+   */
+  static async getUserCountByHour(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(DISTINCT userId) AS count " +
+      "FROM " + Utils.setTableName("CustomerPV") + " WHERE " +
+      "webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt GROUP BY HOUR"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的user量
+   * @returns {Promise<*>}
+   */
+  static async getUserCountSevenDayAgoByHour(param) {
+    const tempNowHour = new Date().getHours();
+    let nowHour = tempNowHour
+    let sevenDayAgo = ""
+    if (tempNowHour === 23) {
+      sevenDayAgo = Utils.addDays(-6) + " 00:00:00";
+    } else {
+      nowHour = nowHour + 1
+      sevenDayAgo = Utils.addDays(-7) + " " + nowHour + ":00:00";
+    }
+    const sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(DISTINCT userId) AS count " +
+      "FROM " + Utils.setTableName("CustomerPV") + " " +
+      "WHERE webMonitorId='" + param.webMonitorId + "' and createdAt<'" + sevenDayAgo + "' and DATE_FORMAT(DATE_SUB(NOW(),INTERVAL 7 DAY) - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt " +
+      "GROUP BY HOUR"
+    // return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfos where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内每小时UV量
+   */
+  static async getUvCountByHour(param) {
+    // let sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(DISTINCT customerKey) AS count " +
+    //   "FROM CustomerPV WHERE " +
+    //   "webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt GROUP BY HOUR"
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='uv' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的UV量
+   * @returns {Promise<*>}
+   */
+  static async getUvCountSevenDayAgoByHour(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = startTime + (timeSize + 1) * 24 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='uv' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内每小时PV量
+   */
+  static async getCustomerCountByTime(param) {
+    let sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(pageKey) AS count " +
+      "FROM " + Utils.setTableName("CustomerPV") + " WHERE " +
+      "webMonitorId='" + param.webMonitorId + "' and DATE_FORMAT(NOW() - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt GROUP BY HOUR"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取24小时内每小时PV量
+   */
+  static async getPvCountByTime(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='pv' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时的PV量
+   * @returns {Promise<*>}
+   */
+  static async getPvCountSevenDayAgoByHour(param) {
+    // const tempNowHour = new Date().getHours();
+    // let nowHour = tempNowHour
+    // let sevenDayAgo = ""
+    // if (tempNowHour === 23) {
+    //   sevenDayAgo = Utils.addDays(-6) + " 00:00:00";
+    // } else {
+    //   nowHour = nowHour + 1
+    //   sevenDayAgo = Utils.addDays(-7) + " " + nowHour + ":00:00";
+    // }
+    // const sql = "SELECT DATE_FORMAT(createdAt,'%m-%d %H') AS hour, COUNT(pageKey) AS count " +
+    //   "FROM CustomerPV " +
+    //   "WHERE webMonitorId='" + param.webMonitorId + "' and createdAt<'" + sevenDayAgo + "' and DATE_FORMAT(DATE_SUB(NOW(),INTERVAL 7 DAY) - INTERVAL 23 HOUR, '%Y-%m-%d %H') <= createdAt " +
+    //   "GROUP BY HOUR"
+    // return await Sequelize.query("SELECT COUNT(*) as count from JavascriptErrorInfos where  webMonitorId='" + param.webMonitorId + "' and  createdAt > '" + startTime + "' and createdAt < '" + endTime + "'", { type: Sequelize.QueryTypes.SELECT})
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = startTime + (timeSize + 1) * 24 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='pv' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取今天新客户数量
+   */
+  static async getNewCustomerCountByToday(param) {
+    let sql = "SELECT  count(distinct customerKey) as count from " + Utils.setTableName("CustomerPV") + " where webMonitorId='" + param.webMonitorId + "' and newStatus='new' "
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取24小时内每小时新用户量
+   */
+  static async getNewCustomerCountByTime(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + UPLOAD_TYPE.NEW_CUSTOMER + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时新用户量
+   * @returns {Promise<*>}
+   */
+  static async getNewCustomerCountSevenDayAgoByHour(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = startTime + (timeSize + 1) * 24 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + UPLOAD_TYPE.NEW_CUSTOMER + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取24小时内每小时用户安装量
+   */
+  static async getInstallCountByTime(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 23 * 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = nowTime
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + UPLOAD_TYPE.INSTALL_COUNT + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取7天前，24小时内，每小时新用户量
+   * @returns {Promise<*>}
+   */
+  static async getInstallCountSevenDayAgoByHour(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - 8 * 24 * 3600 * 1000 + 3600 * 1000 - timeSize * 24 * 3600 * 1000
+    const endTime = startTime + (timeSize + 1) * 24 * 3600 * 1000
+    const startHour = new Date(startTime).Format("MM-dd hh")
+    const endHour = new Date(endTime).Format("MM-dd hh")
+    let sql = "SELECT distinct hourName as hour, hourCount as count from InfoCountByHour where webMonitorId='" + param.webMonitorId + "' and uploadType='" + UPLOAD_TYPE.INSTALL_COUNT + "' and hourName>='" + startHour + "' and hourName<='" + endHour + "' order by hourName"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取城市top10数量列表
+   */
+  static async getVersionCountOrderByCount(param) {
+    const timeScope = new Date(new Date().getTime() - 6 * 60 * 60 * 1000).Format("yyyy-MM-dd hh:mm:ss")
+    const sql = "SELECT projectVersion, count(distinct customerKey) as count from " + Utils.setTableName("CustomerPV") + " WHERE createdAt>='" + timeScope + "' and  webMonitorId='" + param.webMonitorId + "' GROUP BY projectVersion order by count desc limit 10"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取城市top10数量列表
+   */
+  static async getCityCountOrderByCount(param) {
+    // const timeScope = Utils.addDays(0) + " 00:00:00";
+    const timeScope = new Date(new Date().getTime() - 1 * 60 * 60 * 1000).Format("yyyy-MM-dd hh:mm:ss")
+    const sql = "SELECT city, count(DISTINCT customerKey) as count from " + Utils.setTableName("CustomerPV") + " WHERE createdAt>='" + timeScope + "' and  webMonitorId='" + param.webMonitorId + "' GROUP BY city order by count desc limit 10"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取设备top10数量列表
+   */
+  static async getDeviceCountOrderByCount(param) {
+    const timeScope = new Date(new Date().getTime() - 1 * 60 * 60 * 1000).Format("yyyy-MM-dd hh:mm:ss")
+    const sql = "SELECT deviceName, count(DISTINCT customerKey) as count from " + Utils.setTableName("CustomerPV") + " WHERE createdAt>='" + timeScope + "' and  webMonitorId='" + param.webMonitorId + "' GROUP BY deviceName order by count desc limit 10"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async getPvListByPage(param) {
+    let {startTime, endTime, webMonitorId, page, ipAddress} = param
+    startTime = new Date(startTime).Format("yyyy-MM-dd hh:mm:ss")
+    endTime = new Date(endTime).Format("yyyy-MM-dd hh:mm:ss")
+    const ipAddressStr = ipAddress ? " and monitorIp='" + ipAddress + "' " : ""
+    // startTime = startTime + 8 * 60 * 60 * 1000
+    // endTime = endTime + 8 * 60 * 60 * 1000
+    // console.log(new Date(startTime), new Date(endTime))
+    // const sql = "SELECT deviceName, count(DISTINCT customerKey) as count from CustomerPV WHERE createdAt>='" + timeScope + "' and webMonitorId='" + param.webMonitorId + "' GROUP BY deviceName order by count desc limit 10"
+    const sql = `select customerKey, simpleUrl, deviceName, monitorIp, happenTime from ${Utils.setTableName("CustomerPV")} where webMonitorId='${webMonitorId}' and createdAt>='${startTime}' and createdAt<='${endTime}' ${ipAddressStr}`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getSevenDaysLeftCount(param) {
+    const day = parseInt(param.day, 10)
+    const sevenDay = Utils.addDays(1 - day)
+    let sql = ""
+    for (let i = day - 1; i > 0; i --) {
+      const currentDay = Utils.addDays(0 - i)
+      const currentDayStr = currentDay.replace(/-/g, "")
+      const tableName = "CustomerPV" + currentDayStr
+      if (i > 1) {
+        sql +=
+        "select count(DISTINCT customerKey) as count from " + tableName + " WHERE webMonitorId='" + param.webMonitorId + "' and customerKeyCreatedDate='" + sevenDay + "' "
+        + " UNION "
+      } else {
+        sql += "select count(DISTINCT customerKey) as count from " + tableName + " WHERE webMonitorId='" + param.webMonitorId + "' and customerKeyCreatedDate='" + sevenDay + "' "
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 获取平台分布数据
+   */
+  static async getOsAnalysis(param) {
+    const endTimeScope = Utils.addDays(0 - param.timeScope)
+    let sql = "SELECT os, count(os) from " + Utils.setTableName("CustomerPV") + " where createdAt>'" + endTimeScope + "' AND webMonitorId = '" + param.webMonitorId + "' GROUP BY os"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 根据时间获取某一天的用户数量
+   */
+  static async getCustomerCountByDayTime(webMonitorId, startTimeScope, endTimeScope) {
+    let sql = "select count(DISTINCT(customerKey)) as count from " + Utils.setTableName("CustomerPV") + " WHERE createdAt>'" + startTimeScope + "' AND createdAt>'" + endTimeScope + "'  AND webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一小时的PvCount量
+   */
+  static async calculatePvCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("CustomerPV")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("CustomerPV", 1)
+    }
+    let sql = "select count(id) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算某一小时的新用户量
+   */
+  static async calculateNewCustomerCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("CustomerPV")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("CustomerPV", 1)
+    }
+    let sql = "select count(distinct customerKey) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "' and newStatus='new'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 计算应用的平均安装频次
+   */
+  static async calculateInstallCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("CustomerPV")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("CustomerPV", 1)
+    }
+    let sql_cus = "select count(distinct customerKey) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    const customerKeyInfo = await Sequelize.query(sql_cus, { type: Sequelize.QueryTypes.SELECT})
+    let sql_user = "select count(distinct userId) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    const userIdInfo= await Sequelize.query(sql_user, { type: Sequelize.QueryTypes.SELECT})
+    const customerKeyCount = customerKeyInfo.length > 0 ? customerKeyInfo[0].count : 0
+    const userIdCount = userIdInfo.length > 0 ? userIdInfo[0].count : 0
+    let result = 0
+    if (userIdCount == 0) {
+      result = 0
+    } else {
+      result = (customerKeyCount / userIdCount).toFixed(2)
+    }
+    return result
+  }
+
+  /**
+   * 计算某一小时的UvCount量
+   */
+  static async calculateUvCountByHour(webMonitorId, lastHour, hour) {
+    const dateStr = Utils.addDays(-1)
+    let tableName = Utils.setTableName("CustomerPV")
+    if (lastHour === dateStr + " 23:00:00") {
+      tableName = CommonSql.setTableName("CustomerPV", 1)
+    }
+    let sql = "select count(DISTINCT(customerKey)) as count from " + tableName + " WHERE createdAt>='" + lastHour + "' AND createdAt<'" + hour + "'  AND webMonitorId = '" + webMonitorId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 根据customerKey获取用户一个月内，每天的pv数量
+   */
+  static async calculatePvCountByCustomerKeyForMonth(customerKeySql) {
+    const resArray = []
+    for (let i = 0; i < 15; i ++) {
+      let day = Utils.addDays(0 - i)
+      let tableName = CommonSql.setTableName("CustomerPV", i)
+      let sql = "select count(id) as count from " + tableName + " where " + customerKeySql
+      try {
+        let res = await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+        let resObj = {day, count: parseInt(res[0].count, 10)}
+        resArray.push(resObj)
+      } catch(e) {
+        console.warn("\x1B[33m%s\x1b[0m", "运行时间不足15天，" + tableName + " 这个表可能不存在，并不影响查询结果！")
+      }
+    }
+    return resArray
+  }
+}
+module.exports = {BehaviorInfoModel,ScreenShotInfoModel,CommonModel,EmailCodeModel,DailyActivityModel,ExtendBehaviorInfoModel,IgnoreErrorModel,InfoCountByDayModel,InfoCountByHourModel,ProjectModel,LoadPageInfoModel,PurchaseCodeModel,UserModel,HttpLogInfoModel,VideosInfoModel,HttpErrorInfoModel,ResourceLoadInfoModel,JavascriptErrorInfoModel,CustomerPVModel}

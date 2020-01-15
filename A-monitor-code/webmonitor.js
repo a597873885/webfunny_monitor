@@ -61,10 +61,10 @@
     , WEB_LOCAL_IP = 'localhost'
 
     // 应用的主域名, 用于主域名下共享customerKey
-    , MAIN_DOMAIN = '&&&webfunny.cn&&&'
+    , MAIN_DOMAIN = ''//'&&&webfunny.cn&&&'
 
     // 监控平台地址
-    , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
+    , WEB_MONITOR_IP = 'localhost:8011'//'&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
     , HTTP_UPLOAD_URI =  WEB_HTTP_TYPE + WEB_MONITOR_IP
@@ -533,7 +533,7 @@
       if (!debugConnectStatus) {
         // 如果没有这个值，发送一条请求，确定连线状态, 并确定是否启动
         var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
-        utils.ajax("GET", HTTP_PROJECT_INFO, {userId: wmUserInfo.userId}, function (res) {
+        utils.ajax("GET", HTTP_PROJECT_INFO + "?userId=" + wmUserInfo.userId, {}, function (res) {
           localStorage.debugConnectStatus = res.data
           if (res.data == "connected") {
             if (stopTheVideo) return
@@ -792,7 +792,7 @@
       // 记录行为前，检查一下url记录是否变化
       checkUrlChange();
       // 记录用户点击元素的行为数据
-      document.onclick = function (e) {
+      utils.addOnclickForDocument(function (e) {
         var className = "";
         var placeholder = "";
         var inputValue = "";
@@ -809,7 +809,7 @@
         }
         var behaviorInfo = new BehaviorInfo(ELE_BEHAVIOR, "click", className, placeholder, inputValue, tagName, innerText);
         behaviorInfo.handleLogInfo(ELE_BEHAVIOR, behaviorInfo);
-      }
+      })
     }
   };
 
@@ -891,6 +891,20 @@
       }
     }
     /**
+     * 重写document的onclick事件
+     */
+    this.addOnclickForDocument = function(func) {
+      var oldOnclick = document.onclick; //把现在有document.onclick事件处理函数的值存入变量oldOnclick。
+      if (typeof document.onclick != 'function') { //如果这个处理函数还没有绑定任何函数，就像平时那样把新函数添加给它
+        document.onclick = func;
+      } else { //如果在这个处理函数上已经绑定了一些函数。就把新函数追加到现有指令的末尾
+        document.onclick = function() {
+          oldOnclick();
+          func();
+        }
+      }
+    }
+    /**
      * 封装简易的ajax请求, 只用于上传日志
      * @param method  请求类型(大写)  GET/POST
      * @param url     请求URL
@@ -910,7 +924,8 @@
           typeof failCallback == 'function' && failCallback();
         }
       };
-      xmlHttp.send("data=" + JSON.stringify(param));
+      console.log(JSON.stringify(param.logInfo))
+      xmlHttp.send("data=" + JSON.stringify(param.logInfo));
     }
     /**
      * js处理截图
@@ -1285,7 +1300,7 @@
   init();
 
   window.webfunny = {
-    
+
     /**
      * 检查配置信息
      */

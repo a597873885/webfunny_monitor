@@ -11,6 +11,7 @@ global.BUILD_ENV = process.argv[3]
 
 setTimeout(() => {
     Common.calculateCountByHour(1)
+    // Common.calculateCountByDay(0)
 }, 20000)
 /** * 定时执行程序，重启服务  开始 */
 setTimeout(() => {
@@ -79,15 +80,15 @@ router.post('/getWarningMsg', Common.getWarningMsg);
  * 用户接口
  */
 // 用户注册
-router.post('/user', UserController.create);
-// 用户登录
-router.post('/user/login', UserController.login);
-// 获取用户信息
-// router.get('/user', UserController.getUserInfo);
-// 获取用户列表
-router.get('/user/list', UserController.getUserList);
-// 删除用户
-router.delete('/user/:id', UserController.delete);
+// router.post('/user', UserController.create);
+// // 用户登录
+// router.post('/user/login', UserController.login);
+// // 获取用户信息
+// // router.get('/user', UserController.getUserInfo);
+// // 获取用户列表
+// router.get('/user/list', UserController.getUserList);
+// // 删除用户
+// router.delete('/user/:id', UserController.delete);
 
 /**
  * 应用接口
@@ -262,6 +263,17 @@ router.get('/getResourceErrorCountByHour', ResourceLoadInfoController.getResourc
 
 // 获取每分钟的http量
 router.post('/getHttpCountByMinute', HttpLogInfoController.getHttpCountByMinute);
+// 根据加载时间分类
+router.post('/getHttpCountForLoadTimeGroupByDay', HttpLogInfoController.getHttpCountForLoadTimeGroupByDay);
+// 获取分类列表
+router.post('/getHttpUrlListForLoadTime', HttpLogInfoController.getHttpUrlListForLoadTime);
+// 获取接口影响人数
+router.post('/getHttpUrlUserCount', HttpLogInfoController.getHttpUrlUserCount);
+// 获取24小时分布
+router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
+// 获取24小时分布
+router.post('/getHttpUrlCountForHourByMinutes', HttpLogInfoController.getHttpUrlCountForHourByMinutes);
+
 
 /**
  * 接口请求报错相关接口

@@ -16,7 +16,7 @@ const db = require('../config/db');
                                     const nodemailer = require('nodemailer');
                                     const AccountConfig = require('../config/AccountConfig')
                                     const monitorKeys = require("../config/monitorKeys");
-const {CommonModel,HttpLogInfoModel,BehaviorInfoModel,ScreenShotInfoModel,EmailCodeModel,ExtendBehaviorInfoModel,DailyActivityModel,InfoCountByHourModel,IgnoreErrorModel,InfoCountByDayModel,ProjectModel,LoadPageInfoModel,VideosInfoModel,HttpErrorInfoModel,PurchaseCodeModel,UserModel,ResourceLoadInfoModel,CustomerPVModel,JavascriptErrorInfoModel,} = require('../modules/models.js');
+const {ScreenShotInfoModel,BehaviorInfoModel,CommonModel,DailyActivityModel,InfoCountByHourModel,IgnoreErrorModel,ExtendBehaviorInfoModel,InfoCountByDayModel,ProjectModel,EmailCodeModel,UserModel,LoadPageInfoModel,PurchaseCodeModel,VideosInfoModel,HttpLogInfoModel,HttpErrorInfoModel,ResourceLoadInfoModel,CustomerPVModel,JavascriptErrorInfoModel,} = require('../modules/models.js');
 class HttpErrorInfoController {
   /**
    * 创建信息
@@ -175,6 +175,7 @@ class HttpErrorInfoController {
       httpErrorSortList = data
     })
     for (let i = 0; i < httpErrorSortList.length; i ++) {
+      if (httpErrorSortList[i].count === 0) continue
       // 查询最近发生时间
       await HttpErrorInfoModel.getHttpErrorLatestTime(httpErrorSortList[i].simpleHttpUrl, param).then(data => {
         httpErrorSortList[i].createdAt = data[0].createdAt
@@ -334,299 +335,6 @@ class ScreenShotInfoController {
   }
 }
 
-class HttpLogInfoController {
-  /**
-   * 创建信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async create(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param.data)
-    /* 判断参数是否合法 */
-    if (req.happenTime) {
-      let ret = await HttpLogInfoModel.createHttpLogInfo(data);
-      let res = await HttpLogInfoModel.getHttpLogInfoDetail(ret.id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
-    } else {
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
-    }
-  }
-  
-  /**
-   * 获取信息列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getHttpLogInfoList(ctx) {
-    let req = ctx.request.body
-  
-    if (req) {
-      const data = await HttpLogInfoModel.getHttpLogInfoList();
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-    }
-  
-  }
-  
-  /**
-   * 查询单条信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async detail(ctx) {
-    let id = ctx.params.id;
-  
-    if (id) {
-      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传');
-    }
-  }
-  
-  
-  /**
-   * 删除信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async delete(ctx) {
-    let id = ctx.params.id;
-  
-    if (id && !isNaN(id)) {
-      await HttpLogInfoModel.deleteHttpLogInfo(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传！');
-    }
-  }
-  
-  /**
-   * 更新导航条数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async update(ctx) {
-    let req = ctx.request.body;
-    let id = ctx.params.id;
-  
-    if (req) {
-      await HttpLogInfoModel.updateHttpLogInfo(id, req);
-      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('更新信息失败！')
-    }
-  }
-
-  /**
-   * 根据时间获取一天内http请求错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getHttpErrorInfoListByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    let result1 = []
-    await HttpLogInfoModel.getHttpErrorInfoListByHour(param).then(data => {
-      result1 = data;
-    })
-    let result2 = []
-    await HttpLogInfoModel.getHttpErrorInfoListSevenDayAgoByHour(param).then(data => {
-      result2 = data;
-    })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
-  }
-
-
-  /**
-   * 获取每天接口请求错误数量列表
-   * @returns {Promise.<void>}
-   */
-  static async getHttpErrorCountByDay(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    await HttpLogInfoModel.getHttpErrorCountByDay(param).then(data => {
-      if (data) {
-        ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
-      } else {
-        ctx.response.status = 412;
-        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-      }
-    })
-  }
-
-  /**
-   * 获取每天接口请求错误列表
-   * @returns {Promise.<void>}
-   */
-  static async getHttpErrorListByDay(ctx) {
-
-    const param = JSON.parse(ctx.request.body)
-    let resourceErrorSortList = null
-    await HttpLogInfoModel.getResourceLoadInfoListByDay(param).then(data => {
-      resourceErrorSortList = data
-    })
-    for (let i = 0; i < resourceErrorSortList.length; i ++) {
-      // 查询最近发生时间
-      await HttpLogInfoModel.getResourceErrorLatestTime(resourceErrorSortList[i].sourceUrl, param).then(data => {
-        resourceErrorSortList[i].createdAt = data[0].createdAt
-        resourceErrorSortList[i].happenTime = data[0].happenTime
-      })
-      // 查询不同状态的次数
-      await HttpLogInfoModel.getPageCountByResourceError(resourceErrorSortList[i].sourceUrl, param).then(data => {
-        resourceErrorSortList[i].pageCount = data[0].pageCount
-      })
-    }
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', resourceErrorSortList)
-  }
-
-  // 实时获取http请求数量
-  static async getHttpCountByMinute(ctx) {
-    let req = ctx.request.body
-    const param = JSON.parse(req)
-    let result1 = []
-    await HttpLogInfoModel.getHttpCountByMinute(param).then(data => {
-      result1 = data
-    })
-    // let result2 = []
-    // await CustomerPVModel.getUvCountByMinute(param).then(data => {
-    //   result2 = data
-    // })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {http: result1})
-  }
-}
-
-class DailyActivityController {
-  /**
-   * 创建信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async create(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param.data)
-    /* 判断参数是否合法 */
-    if (req.happenTime) {
-      let ret = await DailyActivityModel.createDailyActivity(data);
-      let res = await DailyActivityModel.getDailyActivityDetail(ret.id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
-    } else {
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
-    }
-  }
-  
-  /**
-   * 获取信息列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getDailyActivityList(ctx) {
-    let req = ctx.request.body
-  
-    if (req) {
-      const data = await DailyActivityModel.getDailyActivityList();
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-    }
-  
-  }
-  
-  /**
-   * 查询单条信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async detail(ctx) {
-    let id = ctx.params.id;
-  
-    if (id) {
-      let data = await DailyActivityModel.getDailyActivityDetail(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传');
-    }
-  }
-  
-  
-  /**
-   * 删除信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async delete(ctx) {
-    let id = ctx.params.id;
-  
-    if (id && !isNaN(id)) {
-      await DailyActivityModel.deleteDailyActivity(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传！');
-    }
-  }
-  
-  /**
-   * 更新导航条数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async update(ctx) {
-    let req = ctx.request.body;
-    let id = ctx.params.id;
-  
-    if (req) {
-      await DailyActivityModel.updateDailyActivity(id, req);
-      let data = await DailyActivityModel.getDailyActivityDetail(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('更新信息失败！')
-    }
-  }
-}
-
 class BehaviorInfoController {
   /**
    * 创建行为信息
@@ -755,6 +463,274 @@ class BehaviorInfoController {
   }
 }
 
+class DailyActivityController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await DailyActivityModel.createDailyActivity(data);
+      let res = await DailyActivityModel.getDailyActivityDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getDailyActivityList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await DailyActivityModel.getDailyActivityList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await DailyActivityModel.getDailyActivityDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await DailyActivityModel.deleteDailyActivity(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await DailyActivityModel.updateDailyActivity(id, req);
+      let data = await DailyActivityModel.getDailyActivityDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class EmailCodeController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await EmailCodeModel.createEmailCode(data);
+      let res = await EmailCodeModel.getEmailCodeDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getEmailCodeList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await EmailCodeModel.getEmailCodeList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await EmailCodeModel.getEmailCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await EmailCodeModel.deleteEmailCode(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await EmailCodeModel.updateEmailCode(id, req);
+      let data = await EmailCodeModel.getEmailCodeDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 生成验证码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async sendEmailCode(ctx) {
+    const data = JSON.parse(ctx.request.body)
+    const email = data.email
+    let lastEmail = null
+    // 检查今天这个邮箱是否已经发送了验证码
+    lastEmail = await EmailCodeModel.isSendEmailCodeToday(email)
+    if (lastEmail.length > 0) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码一天内有效，无需重复发送', 1);
+      return
+    }
+    const chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    function generateMixed(n) {
+      let resStr = "";
+      for(let i = 0; i < n ; i ++) {
+        let id = Math.ceil(Math.random()*35);
+        resStr += chars[id];
+      }
+      return resStr;
+    }
+    const code = generateMixed(4)
+    const { accountInfo } = AccountConfig
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: {
+        user: accountInfo.sourceEmail, // generated ethereal user
+        pass: accountInfo.sourcePassword // generated ethereal password
+      }
+    });
+
+    // send mail with defined transport object
+    let info = await transporter.sendMail({
+      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
+      to: email, // list of receivers
+      subject: "验证码: " + code, // Subject line
+      text: "您好，您的验证码是：" + code, // plain text body
+      html: "<b>您好，您的验证码是：" + code + "</b>" // html body
+    });
+    await EmailCodeModel.saveEmailCode({email, emailCode: code}).then((data) => {
+      if (data) {
+        nodemailer.getTestMessageUrl(info)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', true);
+      }
+    });
+  }
+}
+
 class ExtendBehaviorInfoController {
   /**
    * 创建信息
@@ -851,6 +827,113 @@ class ExtendBehaviorInfoController {
     if (req) {
       await ExtendBehaviorInfoModel.updateExtendBehaviorInfo(id, req);
       let data = await ExtendBehaviorInfoModel.getExtendBehaviorInfoDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+}
+
+class InfoCountByHourController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param.data)
+    /* 判断参数是否合法 */
+    if (req.happenTime) {
+      let ret = await InfoCountByHourModel.createInfoCountByHour(data);
+      let res = await InfoCountByHourModel.getInfoCountByHourDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getInfoCountByHourList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await InfoCountByHourModel.getInfoCountByHourList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let id = ctx.params.id;
+  
+    if (id && !isNaN(id)) {
+      await InfoCountByHourModel.deleteInfoCountByHour(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await InfoCountByHourModel.updateInfoCountByHour(id, req);
+      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -990,7 +1073,7 @@ class IgnoreErrorController {
   }
 }
 
-class InfoCountByHourController {
+class LoadPageInfoController {
   /**
    * 创建信息
    * @param ctx
@@ -1001,8 +1084,8 @@ class InfoCountByHourController {
     const data = JSON.parse(param.data)
     /* 判断参数是否合法 */
     if (req.happenTime) {
-      let ret = await InfoCountByHourModel.createInfoCountByHour(data);
-      let res = await InfoCountByHourModel.getInfoCountByHourDetail(ret.id);
+      let ret = await LoadPageInfoModel.createLoadPageInfo(data);
+      let res = await LoadPageInfoModel.getLoadPageInfoDetail(ret.id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
@@ -1017,11 +1100,11 @@ class InfoCountByHourController {
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getInfoCountByHourList(ctx) {
+  static async getLoadPageInfoList(ctx) {
     let req = ctx.request.body
   
     if (req) {
-      const data = await InfoCountByHourModel.getInfoCountByHourList();
+      const data = await LoadPageInfoModel.getLoadPageInfoList();
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
@@ -1042,7 +1125,7 @@ class InfoCountByHourController {
     let id = ctx.params.id;
   
     if (id) {
-      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
+      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询成功！', data)
@@ -1063,7 +1146,7 @@ class InfoCountByHourController {
     let id = ctx.params.id;
   
     if (id && !isNaN(id)) {
-      await InfoCountByHourModel.deleteInfoCountByHour(id);
+      await LoadPageInfoModel.deleteLoadPageInfo(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('删除信息成功！')
@@ -1084,8 +1167,8 @@ class InfoCountByHourController {
     let id = ctx.params.id;
   
     if (req) {
-      await InfoCountByHourModel.updateInfoCountByHour(id, req);
-      let data = await InfoCountByHourModel.getInfoCountByHourDetail(id);
+      await LoadPageInfoModel.updateLoadPageInfo(id, req);
+      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -1093,6 +1176,25 @@ class InfoCountByHourController {
   
       ctx.response.status = 412;
       ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+
+  /**
+   * 根据时间获取每天的日活量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getPageLoadTimeByDate(ctx) {
+    let req = ctx.request.body
+    const params = JSON.parse(req)
+    if (req) {
+      const data = await LoadPageInfoModel.getPageLoadTimeByDate(params);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
     }
   }
 }
@@ -1311,7 +1413,7 @@ class ProjectController {
     }
 }
 
-class LoadPageInfoController {
+class PurchaseCodeController {
   /**
    * 创建信息
    * @param ctx
@@ -1322,8 +1424,8 @@ class LoadPageInfoController {
     const data = JSON.parse(param.data)
     /* 判断参数是否合法 */
     if (req.happenTime) {
-      let ret = await LoadPageInfoModel.createLoadPageInfo(data);
-      let res = await LoadPageInfoModel.getLoadPageInfoDetail(ret.id);
+      let ret = await PurchaseCodeModel.createPurchaseCode(data);
+      let res = await PurchaseCodeModel.getPurchaseCodeDetail(ret.id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
@@ -1338,11 +1440,11 @@ class LoadPageInfoController {
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getLoadPageInfoList(ctx) {
+  static async getPurchaseCodeList(ctx) {
     let req = ctx.request.body
   
     if (req) {
-      const data = await LoadPageInfoModel.getLoadPageInfoList();
+      const data = await PurchaseCodeModel.getPurchaseCodeList();
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
@@ -1363,7 +1465,7 @@ class LoadPageInfoController {
     let id = ctx.params.id;
   
     if (id) {
-      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
+      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询成功！', data)
@@ -1384,7 +1486,7 @@ class LoadPageInfoController {
     let id = ctx.params.id;
   
     if (id && !isNaN(id)) {
-      await LoadPageInfoModel.deleteLoadPageInfo(id);
+      await PurchaseCodeModel.deletePurchaseCode(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('删除信息成功！')
@@ -1405,8 +1507,8 @@ class LoadPageInfoController {
     let id = ctx.params.id;
   
     if (req) {
-      await LoadPageInfoModel.updateLoadPageInfo(id, req);
-      let data = await LoadPageInfoModel.getLoadPageInfoDetail(id);
+      await PurchaseCodeModel.updatePurchaseCode(id, req);
+      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -1418,21 +1520,21 @@ class LoadPageInfoController {
   }
 
   /**
-   * 根据时间获取每天的日活量
+   * 获取注册码详情
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getPageLoadTimeByDate(ctx) {
+  static async getPurchaseCodeDetailByCode(ctx) {
     let req = ctx.request.body
     const params = JSON.parse(req)
     if (req) {
-      const data = await LoadPageInfoModel.getPageLoadTimeByDate(params);
+      const res = await PurchaseCodeModel.getPurchaseCodeDetailByCode(params.purchaseCode);
+      const data = res.dataValues
       ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data)
     } else {
-
       ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      ctx.body = statusCode.ERROR_412('参数不正确！');
     }
   }
 }
@@ -1573,7 +1675,7 @@ class UserController {
     }
 }
 
-class PurchaseCodeController {
+class VideosInfoController {
   /**
    * 创建信息
    * @param ctx
@@ -1584,8 +1686,8 @@ class PurchaseCodeController {
     const data = JSON.parse(param.data)
     /* 判断参数是否合法 */
     if (req.happenTime) {
-      let ret = await PurchaseCodeModel.createPurchaseCode(data);
-      let res = await PurchaseCodeModel.getPurchaseCodeDetail(ret.id);
+      let ret = await VideosInfoModel.createVideos(data);
+      let res = await VideosInfoModel.getVideosDetail(ret.id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
@@ -1600,11 +1702,11 @@ class PurchaseCodeController {
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getPurchaseCodeList(ctx) {
+  static async getVideosList(ctx) {
     let req = ctx.request.body
   
     if (req) {
-      const data = await PurchaseCodeModel.getPurchaseCodeList();
+      const data = await VideosInfoModel.getVideosList();
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
@@ -1625,7 +1727,7 @@ class PurchaseCodeController {
     let id = ctx.params.id;
   
     if (id) {
-      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
+      let data = await VideosInfoModel.getVideosDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询成功！', data)
@@ -1646,7 +1748,7 @@ class PurchaseCodeController {
     let id = ctx.params.id;
   
     if (id && !isNaN(id)) {
-      await PurchaseCodeModel.deletePurchaseCode(id);
+      await VideosInfoModel.deleteVideos(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('删除信息成功！')
@@ -1667,8 +1769,8 @@ class PurchaseCodeController {
     let id = ctx.params.id;
   
     if (req) {
-      await PurchaseCodeModel.updatePurchaseCode(id, req);
-      let data = await PurchaseCodeModel.getPurchaseCodeDetail(id);
+      await VideosInfoModel.updateVideos(id, req);
+      let data = await VideosInfoModel.getVideosDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -1680,22 +1782,23 @@ class PurchaseCodeController {
   }
 
   /**
-   * 获取注册码详情
+   * 
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getPurchaseCodeDetailByCode(ctx) {
+  static async getVideosEvent(ctx) {
     let req = ctx.request.body
-    const params = JSON.parse(req)
-    if (req) {
-      const res = await PurchaseCodeModel.getPurchaseCodeDetailByCode(params.purchaseCode);
-      const data = res.dataValues
+    const param = JSON.parse(req)
+    await VideosInfoModel.getVideosEvent(param).then(data => {
+      const result = []
+      data.forEach((item) => {
+        item.event = (item.event || "").toString()
+        result.push(item)
+      })
       ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data)
-    } else {
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('参数不正确！');
-    }
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
+    })
+    
   }
 }
 
@@ -1875,7 +1978,7 @@ class ResourceLoadInfoController {
 
 }
 
-class VideosInfoController {
+class JavascriptErrorInfoController {
   /**
    * 创建信息
    * @param ctx
@@ -1885,9 +1988,9 @@ class VideosInfoController {
     const param = ctx.request.body
     const data = JSON.parse(param.data)
     /* 判断参数是否合法 */
-    if (req.happenTime) {
-      let ret = await VideosInfoModel.createVideos(data);
-      let res = await VideosInfoModel.getVideosDetail(ret.id);
+    if (data.happenTime) {
+      let ret = await JavascriptErrorInfoModel.createJavascriptErrorInfo(data);
+      let res = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(ret.id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
@@ -1902,12 +2005,12 @@ class VideosInfoController {
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getVideosList(ctx) {
+  static async getJavascriptErrorInfoList(ctx) {
     let req = ctx.request.body
-  
+
     if (req) {
-      const data = await VideosInfoModel.getVideosList();
-  
+      const data = await JavascriptErrorInfoModel.getJavascriptErrorInfoList();
+
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
     } else {
@@ -1917,7 +2020,313 @@ class VideosInfoController {
     }
   
   }
-  
+
+  /**
+   * 获取每分钟JS错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByMinute(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByMinute(param).then(data => {
+      result1 = data
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success！', {jsError: result1})
+  }
+
+  /**
+   * 根据时间获取JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorInfoListByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    await JavascriptErrorInfoModel.getJavascriptErrorInfoListByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+  /**
+   * 根据时间获取自定义JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getConsoleErrorInfoListByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
+    await JavascriptErrorInfoModel.getConsoleErrorInfoListByDay(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 根据时间获取一天内JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+  /**
+   * 根据时间获取一天内某个JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorCountListByHour(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+  /**
+   * 根据时间获取一天内某个JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJsErrorCountByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.ON_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+  /**
+   * 根据时间获取一天内自定义JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptConsoleErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
+    let result1 = []
+    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
+
+  /**
+   * 根据JS错误的数量进行排序
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorSort(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    let errorSortList = []
+    await JavascriptErrorInfoModel.getJavascriptErrorSort(param).then(data => {
+      errorSortList = data
+    })
+    for (let i = 0; i < errorSortList.length; i ++) {
+      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].createdAt = data[0].createdAt
+        errorSortList[i].happenTime = data[0].happenTime
+      })
+      await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].customerCount = data[0].count
+      })
+      await JavascriptErrorInfoModel.getPerJavascriptErrorCountByOs(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].osInfo = data
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
+  }
+
+  /**
+   * 根据JS错误的数量进行排序
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getConsoleErrorSort(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    let errorSortList = []
+    await JavascriptErrorInfoModel.getConsoleErrorSort(param).then(data => {
+      errorSortList = data
+    })
+    for (let i = 0; i < errorSortList.length; i ++) {
+      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].createdAt = data[0].createdAt
+        errorSortList[i].happenTime = data[0].happenTime
+      })
+      await JavascriptErrorInfoModel.getPerJavascriptConsoleErrorCount(errorSortList[i].errorMessage, param).then(data => {
+        errorSortList[i].osInfo = data
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
+  }
+
+  /**
+   * 查询最近六小时内JS错误的数量信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByHour(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+
+  /**
+   * 查询对应平台js错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByOs(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    const result = {};
+    const {day} = param;
+    param.day = utils.addDays(0 - day) + " 00:00:00"
+    await JavascriptErrorInfoModel.getJavascriptErrorPcCount(param).then(data => {
+      result.pcError = data.length ? data[0] : 0;
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorIosCount(param).then(data => {
+      result.iosError = data.length ? data[0] : 0;
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorAndroidCount(param).then(data => {
+      result.androidError = data.length ? data[0] : 0;
+    })
+
+    await CustomerPVModel.getCustomerPvPcCount(param).then(data => {
+      result.pcPv = data.length ? data[0] : 0;
+    })
+    await CustomerPVModel.getCustomerPvIosCount(param).then(data => {
+      result.iosPv = data.length ? data[0] : 0;
+    })
+    await CustomerPVModel.getCustomerPvAndroidCount(param).then(data => {
+      result.androidPv = data.length ? data[0] : 0;
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
+    })
+  }
+  /**
+   * 查询分类js错误的数量
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorCountByType(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    const {day} = param;
+    param.day = utils.addDays(0 - day) + " 00:00:00"
+    await JavascriptErrorInfoModel.getJavascriptErrorCountByType(param).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data);
+    })
+
+  }
+  /**
+   * 根据errorMsg查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorListByMsg(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    await JavascriptErrorInfoModel.getJavascriptErrorListByMsg(decodeURIComponent(data.errorMsg), data).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
+  static async getJavascriptErrorAboutInfo(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    const result = {}
+    await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.customerCount = data[0].count
+    })
+    await JavascriptErrorInfoModel.getJavascriptErrorOccurCountByCustomerKey(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.occurCount = data[0].count
+    })
+    await JavascriptErrorInfoModel.getAllJavascriptErrorCountByOs(decodeURIComponent(data.errorMsg), data).then(data => {
+      result.osInfo = {}
+      data.forEach((item) => {
+        result.osInfo[item.os] = item.count
+      })
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
+    })
+  }
+
+  /**
+   * 根据页面查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorListByPage(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await JavascriptErrorInfoModel.getJavascriptErrorListByPage(param).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
+  /**
+   * 根据errorMsg查询Js错误列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getJavascriptErrorStackCode(ctx) {
+    const param = ctx.request.body
+    const data = JSON.parse(param)
+    await JavascriptErrorInfoModel.getJavascriptErrorStackCode(data.stackList).then(data => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
+    })
+  }
+
   /**
    * 查询单条信息数据
    * @param ctx
@@ -1927,8 +2336,7 @@ class VideosInfoController {
     let id = ctx.params.id;
   
     if (id) {
-      let data = await VideosInfoModel.getVideosDetail(id);
-  
+      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询成功！', data)
     } else {
@@ -1948,7 +2356,7 @@ class VideosInfoController {
     let id = ctx.params.id;
   
     if (id && !isNaN(id)) {
-      await VideosInfoModel.deleteVideos(id);
+      await JavascriptErrorInfoModel.deleteJavascriptErrorInfo(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('删除信息成功！')
@@ -1969,8 +2377,8 @@ class VideosInfoController {
     let id = ctx.params.id;
   
     if (req) {
-      await VideosInfoModel.updateVideos(id, req);
-      let data = await VideosInfoModel.getVideosDetail(id);
+      await JavascriptErrorInfoModel.updateJavascriptErrorInfo(id, req);
+      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -1979,30 +2387,10 @@ class VideosInfoController {
       ctx.response.status = 412;
       ctx.body = statusCode.ERROR_412('更新信息失败！')
     }
-  }
-
-  /**
-   * 
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getVideosEvent(ctx) {
-    let req = ctx.request.body
-    const param = JSON.parse(req)
-    await VideosInfoModel.getVideosEvent(param).then(data => {
-      const result = []
-      data.forEach((item) => {
-        item.event = (item.event || "").toString()
-        result.push(item)
-      })
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
-    })
-    
   }
 }
 
-class EmailCodeController {
+class HttpLogInfoController {
   /**
    * 创建信息
    * @param ctx
@@ -2013,8 +2401,8 @@ class EmailCodeController {
     const data = JSON.parse(param.data)
     /* 判断参数是否合法 */
     if (req.happenTime) {
-      let ret = await EmailCodeModel.createEmailCode(data);
-      let res = await EmailCodeModel.getEmailCodeDetail(ret.id);
+      let ret = await HttpLogInfoModel.createHttpLogInfo(data);
+      let res = await HttpLogInfoModel.getHttpLogInfoDetail(ret.id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
@@ -2029,11 +2417,11 @@ class EmailCodeController {
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async getEmailCodeList(ctx) {
+  static async getHttpLogInfoList(ctx) {
     let req = ctx.request.body
   
     if (req) {
-      const data = await EmailCodeModel.getEmailCodeList();
+      const data = await HttpLogInfoModel.getHttpLogInfoList();
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
@@ -2054,7 +2442,7 @@ class EmailCodeController {
     let id = ctx.params.id;
   
     if (id) {
-      let data = await EmailCodeModel.getEmailCodeDetail(id);
+      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('查询成功！', data)
@@ -2075,7 +2463,7 @@ class EmailCodeController {
     let id = ctx.params.id;
   
     if (id && !isNaN(id)) {
-      await EmailCodeModel.deleteEmailCode(id);
+      await HttpLogInfoModel.deleteHttpLogInfo(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('删除信息成功！')
@@ -2096,8 +2484,8 @@ class EmailCodeController {
     let id = ctx.params.id;
   
     if (req) {
-      await EmailCodeModel.updateEmailCode(id, req);
-      let data = await EmailCodeModel.getEmailCodeDetail(id);
+      await HttpLogInfoModel.updateHttpLogInfo(id, req);
+      let data = await HttpLogInfoModel.getHttpLogInfoDetail(id);
   
       ctx.response.status = 200;
       ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
@@ -2109,57 +2497,164 @@ class EmailCodeController {
   }
 
   /**
-   * 生成验证码
+   * 根据时间获取一天内http请求错误的数量信息
    * @param ctx
    * @returns {Promise.<void>}
    */
-  static async sendEmailCode(ctx) {
-    const data = JSON.parse(ctx.request.body)
-    const email = data.email
-    let lastEmail = null
-    // 检查今天这个邮箱是否已经发送了验证码
-    lastEmail = await EmailCodeModel.isSendEmailCodeToday(email)
-    if (lastEmail.length > 0) {
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('验证码一天内有效，无需重复发送', 1);
-      return
-    }
-    const chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-    function generateMixed(n) {
-      let resStr = "";
-      for(let i = 0; i < n ; i ++) {
-        let id = Math.ceil(Math.random()*35);
-        resStr += chars[id];
-      }
-      return resStr;
-    }
-    const code = generateMixed(4)
-    const { accountInfo } = AccountConfig
-    let transporter = nodemailer.createTransport({
-      host: "smtp.163.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
-      auth: {
-        user: accountInfo.sourceEmail, // generated ethereal user
-        pass: accountInfo.sourcePassword // generated ethereal password
-      }
-    });
+  static async getHttpErrorInfoListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    let result1 = []
+    await HttpLogInfoModel.getHttpErrorInfoListByHour(param).then(data => {
+      result1 = data;
+    })
+    let result2 = []
+    await HttpLogInfoModel.getHttpErrorInfoListSevenDayAgoByHour(param).then(data => {
+      result2 = data;
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
+  }
 
-    // send mail with defined transport object
-    let info = await transporter.sendMail({
-      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
-      to: email, // list of receivers
-      subject: "验证码: " + code, // Subject line
-      text: "您好，您的验证码是：" + code, // plain text body
-      html: "<b>您好，您的验证码是：" + code + "</b>" // html body
-    });
-    await EmailCodeModel.saveEmailCode({email, emailCode: code}).then((data) => {
+
+  /**
+   * 获取每天接口请求错误数量列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorCountByDay(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await HttpLogInfoModel.getHttpErrorCountByDay(param).then(data => {
       if (data) {
-        nodemailer.getTestMessageUrl(info)
         ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('success', true);
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
       }
-    });
+    })
+  }
+
+  /**
+   * 获取每天接口请求错误列表
+   * @returns {Promise.<void>}
+   */
+  static async getHttpErrorListByDay(ctx) {
+
+    const param = JSON.parse(ctx.request.body)
+    let resourceErrorSortList = null
+    await HttpLogInfoModel.getResourceLoadInfoListByDay(param).then(data => {
+      resourceErrorSortList = data
+    })
+    for (let i = 0; i < resourceErrorSortList.length; i ++) {
+      // 查询最近发生时间
+      await HttpLogInfoModel.getResourceErrorLatestTime(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].createdAt = data[0].createdAt
+        resourceErrorSortList[i].happenTime = data[0].happenTime
+      })
+      // 查询不同状态的次数
+      await HttpLogInfoModel.getPageCountByResourceError(resourceErrorSortList[i].sourceUrl, param).then(data => {
+        resourceErrorSortList[i].pageCount = data[0].pageCount
+      })
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', resourceErrorSortList)
+  }
+
+  // 实时获取http请求数量
+  static async getHttpCountByMinute(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await HttpLogInfoModel.getHttpCountByMinute(param).then(data => {
+      result1 = data
+    })
+    // let result2 = []
+    // await CustomerPVModel.getUvCountByMinute(param).then(data => {
+    //   result2 = data
+    // })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {http: result1})
+  }
+
+  /**
+   * 根据时间分类
+   * @returns {Promise<*>}
+   */
+  static async getHttpCountForLoadTimeGroupByDay(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    param.uploadType = UPLOAD_TYPE.HTTP_COUNT_A
+    const result_a = await HttpLogInfoModel.getHttpCountForLoadTimeGroupByDay(param)
+    param.uploadType = UPLOAD_TYPE.HTTP_COUNT_B
+    const result_b = await HttpLogInfoModel.getHttpCountForLoadTimeGroupByDay(param)
+    param.uploadType = UPLOAD_TYPE.HTTP_COUNT_C
+    const result_c = await HttpLogInfoModel.getHttpCountForLoadTimeGroupByDay(param)
+    param.uploadType = UPLOAD_TYPE.HTTP_COUNT_D
+    const result_d = await HttpLogInfoModel.getHttpCountForLoadTimeGroupByDay(param)
+    param.uploadType = UPLOAD_TYPE.HTTP_COUNT_E
+    const result_e = await HttpLogInfoModel.getHttpCountForLoadTimeGroupByDay(param)
+    const result = {
+      a: utils.handleDateResult(result_a),
+      b: utils.handleDateResult(result_b),
+      c: utils.handleDateResult(result_c),
+      d: utils.handleDateResult(result_d),
+      e: utils.handleDateResult(result_e),
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
+  }
+  /**
+   * 根据时间获取分类列表
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlListForLoadTime(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    const httpUrlList = await HttpLogInfoModel.getHttpUrlListForLoadTime(param)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', httpUrlList)
+  }
+  /**
+   * 获取接口影响人数
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlUserCount(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    const userResult = await HttpLogInfoModel.getHttpUrlUserCountForLoadTime(param)
+    const userCount = userResult.length ? userResult[0].count : 0
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', userCount)
+  }
+
+  /**
+   * 每小时的数量分布
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlCountListByHour(ctx) {
+    const param = utils.parseQs(ctx.request.url)
+    await HttpLogInfoModel.getHttpUrlCountListByHour(param).then(data => {
+      if (data) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+      } else {
+        ctx.response.status = 412;
+        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+      }
+    })
+  }
+  /**
+   * 每分钟的数量分布
+   * @returns {Promise<*>}
+   */
+  static async getHttpUrlCountForHourByMinutes(ctx) {
+    let req = ctx.request.body
+    const param = JSON.parse(req)
+    let result1 = []
+    await HttpLogInfoModel.getHttpUrlCountForHourByMinutes(param).then(data => {
+      result1 = data
+    })
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success！', result1)
   }
 }
 
@@ -2607,433 +3102,17 @@ class CustomerPVController {
   }
 }
 
-class JavascriptErrorInfoController {
-  /**
-   * 创建信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async create(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param.data)
-    /* 判断参数是否合法 */
-    if (data.happenTime) {
-      let ret = await JavascriptErrorInfoModel.createJavascriptErrorInfo(data);
-      let res = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(ret.id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
-    } else {
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
-    }
-  }
-  
-  /**
-   * 获取信息列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorInfoList(ctx) {
-    let req = ctx.request.body
-
-    if (req) {
-      const data = await JavascriptErrorInfoModel.getJavascriptErrorInfoList();
-
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-    }
-  
-  }
-
-  /**
-   * 获取每分钟JS错误的数量
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorCountByMinute(ctx) {
-    let req = ctx.request.body
-    const param = JSON.parse(req)
-    let result1 = []
-    await JavascriptErrorInfoModel.getJavascriptErrorCountByMinute(param).then(data => {
-      result1 = data
-    })
-    // let result2 = []
-    // await CustomerPVModel.getUvCountByMinute(param).then(data => {
-    //   result2 = data
-    // })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('success！', {jsError: result1})
-  }
-
-  /**
-   * 根据时间获取JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorInfoListByDay(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    param.infoType = UPLOAD_TYPE.ON_ERROR
-    await JavascriptErrorInfoModel.getJavascriptErrorInfoListByDay(param).then(data => {
-      if (data) {
-        ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
-      } else {
-        ctx.response.status = 412;
-        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-      }
-    })
-  }
-  /**
-   * 根据时间获取自定义JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getConsoleErrorInfoListByDay(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
-    await JavascriptErrorInfoModel.getConsoleErrorInfoListByDay(param).then(data => {
-      if (data) {
-        ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
-      } else {
-        ctx.response.status = 412;
-        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-      }
-    })
-  }
-
-  /**
-   * 根据时间获取一天内JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorInfoListByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    param.infoType = UPLOAD_TYPE.ON_ERROR
-    let result1 = []
-    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
-      result1 = data;
-    })
-    let result2 = []
-    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
-      result2 = data;
-    })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
-  }
-
-  /**
-   * 根据时间获取一天内某个JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorCountListByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    await JavascriptErrorInfoModel.getJavascriptErrorCountListByHour(param).then(data => {
-      if (data) {
-        ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
-      } else {
-        ctx.response.status = 412;
-        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-      }
-    })
-  }
-  /**
-   * 根据时间获取一天内某个JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJsErrorCountByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    param.infoType = UPLOAD_TYPE.ON_ERROR
-    let result1 = []
-    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
-      result1 = data;
-    })
-    let result2 = []
-    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
-      result2 = data;
-    })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
-  }
-  /**
-   * 根据时间获取一天内自定义JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptConsoleErrorInfoListByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    param.infoType = UPLOAD_TYPE.CONSOLE_ERROR
-    let result1 = []
-    await JavascriptErrorInfoModel.getErrorCountByHour(param).then(data => {
-      result1 = data;
-    })
-    let result2 = []
-    await JavascriptErrorInfoModel.getErrorCountSevenDayAgoByHour(param).then(data => {
-      result2 = data;
-    })
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {today: result1, seven: result2})
-  }
-
-  /**
-   * 根据JS错误的数量进行排序
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorSort(ctx) {
-    const param = JSON.parse(ctx.request.body)
-    let errorSortList = []
-    await JavascriptErrorInfoModel.getJavascriptErrorSort(param).then(data => {
-      errorSortList = data
-    })
-    for (let i = 0; i < errorSortList.length; i ++) {
-      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
-        errorSortList[i].createdAt = data[0].createdAt
-        errorSortList[i].happenTime = data[0].happenTime
-      })
-      await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(errorSortList[i].errorMessage, param).then(data => {
-        errorSortList[i].customerCount = data[0].count
-      })
-      await JavascriptErrorInfoModel.getPerJavascriptErrorCountByOs(errorSortList[i].errorMessage, param).then(data => {
-        errorSortList[i].osInfo = data
-      })
-    }
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
-  }
-
-  /**
-   * 根据JS错误的数量进行排序
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getConsoleErrorSort(ctx) {
-    const param = JSON.parse(ctx.request.body)
-    let errorSortList = []
-    await JavascriptErrorInfoModel.getConsoleErrorSort(param).then(data => {
-      errorSortList = data
-    })
-    for (let i = 0; i < errorSortList.length; i ++) {
-      await JavascriptErrorInfoModel.getJavascriptErrorLatestTime(errorSortList[i].errorMessage, param).then(data => {
-        errorSortList[i].createdAt = data[0].createdAt
-        errorSortList[i].happenTime = data[0].happenTime
-      })
-      await JavascriptErrorInfoModel.getPerJavascriptConsoleErrorCount(errorSortList[i].errorMessage, param).then(data => {
-        errorSortList[i].osInfo = data
-      })
-    }
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', errorSortList)
-  }
-
-  /**
-   * 查询最近六小时内JS错误的数量信息
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorCountByHour(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    await JavascriptErrorInfoModel.getJavascriptErrorCountByHour(param).then(data => {
-      if (data) {
-        ctx.response.status = 200;
-        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', utils.handleDateResult(data))
-      } else {
-        ctx.response.status = 412;
-        ctx.body = statusCode.ERROR_412('查询信息列表失败！');
-      }
-    })
-  }
-
-  /**
-   * 查询对应平台js错误的数量
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorCountByOs(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    const result = {};
-    const {day} = param;
-    param.day = utils.addDays(0 - day) + " 00:00:00"
-    await JavascriptErrorInfoModel.getJavascriptErrorPcCount(param).then(data => {
-      result.pcError = data.length ? data[0] : 0;
-    })
-    await JavascriptErrorInfoModel.getJavascriptErrorIosCount(param).then(data => {
-      result.iosError = data.length ? data[0] : 0;
-    })
-    await JavascriptErrorInfoModel.getJavascriptErrorAndroidCount(param).then(data => {
-      result.androidError = data.length ? data[0] : 0;
-    })
-
-    await CustomerPVModel.getCustomerPvPcCount(param).then(data => {
-      result.pcPv = data.length ? data[0] : 0;
-    })
-    await CustomerPVModel.getCustomerPvIosCount(param).then(data => {
-      result.iosPv = data.length ? data[0] : 0;
-    })
-    await CustomerPVModel.getCustomerPvAndroidCount(param).then(data => {
-      result.androidPv = data.length ? data[0] : 0;
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
-    })
-  }
-  /**
-   * 查询分类js错误的数量
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorCountByType(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    const {day} = param;
-    param.day = utils.addDays(0 - day) + " 00:00:00"
-    await JavascriptErrorInfoModel.getJavascriptErrorCountByType(param).then(data => {
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息成功！', data);
-    })
-
-  }
-  /**
-   * 根据errorMsg查询Js错误列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorListByMsg(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param)
-    await JavascriptErrorInfoModel.getJavascriptErrorListByMsg(decodeURIComponent(data.errorMsg), data).then(data => {
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
-    })
-  }
-
-  static async getJavascriptErrorAboutInfo(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param)
-    const result = {}
-    await JavascriptErrorInfoModel.getJavascriptErrorAffectCount(decodeURIComponent(data.errorMsg), data).then(data => {
-      result.customerCount = data[0].count
-    })
-    await JavascriptErrorInfoModel.getJavascriptErrorOccurCountByCustomerKey(decodeURIComponent(data.errorMsg), data).then(data => {
-      result.occurCount = data[0].count
-    })
-    await JavascriptErrorInfoModel.getAllJavascriptErrorCountByOs(decodeURIComponent(data.errorMsg), data).then(data => {
-      result.osInfo = {}
-      data.forEach((item) => {
-        result.osInfo[item.os] = item.count
-      })
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result);
-    })
-  }
-
-  /**
-   * 根据页面查询Js错误列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorListByPage(ctx) {
-    const param = utils.parseQs(ctx.request.url)
-    await JavascriptErrorInfoModel.getJavascriptErrorListByPage(param).then(data => {
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
-    })
-  }
-
-  /**
-   * 根据errorMsg查询Js错误列表
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async getJavascriptErrorStackCode(ctx) {
-    const param = ctx.request.body
-    const data = JSON.parse(param)
-    await JavascriptErrorInfoModel.getJavascriptErrorStackCode(data.stackList).then(data => {
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data);
-    })
-  }
-
-  /**
-   * 查询单条信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async detail(ctx) {
-    let id = ctx.params.id;
-  
-    if (id) {
-      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传');
-    }
-  }
-  
-  
-  /**
-   * 删除信息数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async delete(ctx) {
-    let id = ctx.params.id;
-  
-    if (id && !isNaN(id)) {
-      await JavascriptErrorInfoModel.deleteJavascriptErrorInfo(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('信息ID必须传！');
-    }
-  }
-  
-  /**
-   * 更新导航条数据
-   * @param ctx
-   * @returns {Promise.<void>}
-   */
-  static async update(ctx) {
-    let req = ctx.request.body;
-    let id = ctx.params.id;
-  
-    if (req) {
-      await JavascriptErrorInfoModel.updateJavascriptErrorInfo(id, req);
-      let data = await JavascriptErrorInfoModel.getJavascriptErrorInfoDetail(id);
-  
-      ctx.response.status = 200;
-      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
-    } else {
-  
-      ctx.response.status = 412;
-      ctx.body = statusCode.ERROR_412('更新信息失败！')
-    }
-  }
-}
-
 class Common {
   static async consoleInfo() {
     console.log("\x1B[33m%s\x1b[0m", "==============================================================")
     console.log("= ")
     console.log("= 作者：一步一个脚印一个坑 ")
     console.log("= ")
+    console.log("=【微信号: 】webfunny_2020")
+    console.log("= ")
     console.log("= 网站：www.webfunny.cn ")
     console.log("= ")
     console.log("= 系统还在不断完善中，欢迎Star，你的关注会让我们做得更好！")
-    console.log("= ")
-    console.log("=【微信号: 】webfunny_2020")
     console.log("= ")
     console.log("\x1B[33m%s\x1b[0m", "==============================================================")
   }
@@ -3043,8 +3122,6 @@ class Common {
    * @returns {Promise.<void>}
    */
   static async upLog(ctx) {
-    ctx.response.status = 200;
-    ctx.body = statusCode.SUCCESS_200('1')
     let infoType = ""
     try {
       const monitorVersion = "1.0.0"
@@ -3060,11 +3137,24 @@ class Common {
         req.connection.socket.remoteAddress;
       let province = ""
       let city = ""
-      // 暂时先把线上的日志记录过滤掉
-      // Common.handleLongEvents(ctx.request.body.data)
       const paramStr = ctx.request.body.data.replace(/": Script error\./g, "script error")
       const param = JSON.parse(paramStr)
       const logArray = param.logInfo.split("$$$")
+
+      // 处理返回值开始
+      const tempLogInfo = JSON.parse(logArray[0]);
+      const userId = Utils.md5Encrypt(tempLogInfo.userId)
+      const userIdArray = global.monitorInfo.userIdArray
+      let status = ""
+      if (userIdArray.indexOf(userId) != -1) {
+        status = "c"
+      } else {
+        status = "d"
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200("", status)
+      // 处理返回值结束
+
       for(var i = 0; i < logArray.length; i ++) {
         if (!logArray[i]) continue;
         const logInfo = JSON.parse(logArray[i]);
@@ -3077,82 +3167,125 @@ class Common {
         logInfo.monitorIp = clientIpString
         logInfo.userId = Utils.md5Encrypt(logInfo.userId || "")
         logInfo.happenTime = logInfo.happenTime + ""
-        // 敏感信息加密处理
-        // try {
-        //   let completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
-        //   logInfo.completeUrl = completeUrl ? completeUrl.replace(/([0-9a-zA-Z]{4}-){2,4}[0-9a-zA-Z]{1,4}/g, "****-") : completeUrl
-        // } catch (e) {
-        //   logInfo.completeUrl = logInfo.completeUrl
-        // }
         logInfo.completeUrl = Utils.b64DecodeUnicode(logInfo.completeUrl);
         // 对url进行加密处理
         Common.encryptUrl(logInfo)
         infoType = logInfo.uploadType
-        switch (logInfo.uploadType) {
-          case "ELE_BEHAVIOR":
-            await BehaviorInfoModel.createBehaviorInfo(logInfo, Sequelize);
-            break;
-          case "JS_ERROR":
-            await JavascriptErrorInfoModel.createJavascriptErrorInfo(logInfo, Sequelize);
-            break;
-          case "HTTP_LOG":
-            if (logInfo.responseText) {
-              logInfo.responseText = logInfo.responseText.length > 300 ? "内容太长" : logInfo.responseText
-            }
-            const status = parseInt(logInfo.status || 0)
-            if (status > 299) {
-              await HttpErrorInfoModel.createHttpErrorInfo(logInfo, Sequelize);
-            } else {
-              await HttpLogInfoModel.createHttpLogInfo(logInfo, Sequelize);
-            }
-            break;
-          case "SCREEN_SHOT":
-            await ScreenShotInfoModel.createScreenShotInfo(logInfo, Sequelize);
-            break;
-          case "CUSTOMER_PV":
-            // 根据IP地址获取位置
-            const monitorIp = logInfo.monitorIp
-            var geo = geoip.lookup(monitorIp);
-            if (geo) {
-              logInfo.province =  provinces[geo.region] ? geo.region : "其他"
-              logInfo.city = citys[geo.city] || geo.city
-            }
-            // 根据customerKey来判断是否为新用户
-            let newStatus = ""
-            const customerKeyArr = logInfo.customerKey ? logInfo.customerKey.match(/\d{13}/g) : []
-            if (customerKeyArr && customerKeyArr.length > 0) {
-              const tempTime = parseInt(customerKeyArr[0], 10) + 8 * 60 * 60 * 1000
-              const dateStr = new Date(tempTime).Format("yyyy-MM-dd")
-              const currentTime = new Date().getTime()
-              logInfo.customerKeyCreatedDate = dateStr;
-              newStatus = currentTime - tempTime > 60 * 1000 ? "old" : "new"
-            }
-            if (!logInfo.newStatus) {
-              logInfo.newStatus = newStatus
-            }
-            await CustomerPVModel.createCustomerPV(logInfo, Sequelize);
-            break;
-          case "LOAD_PAGE":
-            await LoadPageInfoModel.createLoadPageInfo(logInfo, Sequelize);
-            break;
-          case "RESOURCE_LOAD":
-            if (logInfo.sourceUrl) {
-              await ResourceLoadInfoModel.createResourceLoadInfo(logInfo, Sequelize);
-            }
-            break;
-          case "VIDEOS_EVENT":
-            await VideosInfoModel.createVideos(logInfo, Sequelize);
-            break;
-          case "CUSTOMIZE_BEHAVIOR":
-          default:
-            await ExtendBehaviorInfoModel.createExtendBehaviorInfo(logInfo, Sequelize);
-            break;
-        }
+        Common.handleLogInfo(logInfo)
       }
     } catch(e) {
       log.printError(e + " -- " + infoType)
     }
   }
+
+  /**
+   * 接收消息队列里的信息
+   * @static
+   * @memberof Common
+   */
+  static async startReceiveMsg() {
+    try {
+      const receiveMq = new RabbitMq()
+      receiveMq.receiveQueueMsg("upload_log_b", async (logInfoStr, channelAck) => {
+        try {
+          const logInfo = JSON.parse(logInfoStr)
+          Common.handleLogInfo(logInfo)
+          // 只有存储成功了才会ack消息
+          channelAck()
+        } catch (e) {
+          channelAck()
+          log.printError(e)
+        }
+      }, () => {
+        log.printError("获取消息失败")
+      })
+    } catch (e) {
+      log.printError("消息队列接收端启动失败")
+    }
+  }
+
+  static async handleLogInfo(logInfo) {
+    if (logInfo.monitorIp && logInfo.monitorIp.length > 15) {
+      logInfo.monitorIp = logInfo.monitorIp.substring(0, 15)
+    }
+    if (logInfo.customerKey && logInfo.customerKey.length > 50) {
+      logInfo.customerKey = logInfo.customerKey.substring(0, 49)
+    }
+    if (logInfo.pageKey && logInfo.pageKey.length > 36) {
+      logInfo.pageKey = logInfo.pageKey.substring(0, 35)
+    }
+    switch (logInfo.uploadType) {
+      case "ELE_BEHAVIOR":
+        await BehaviorInfoModel.createBehaviorInfo(logInfo, Sequelize);
+        break;
+      case "JS_ERROR":
+        await JavascriptErrorInfoModel.createJavascriptErrorInfo(logInfo, Sequelize);
+        break;
+      case "HTTP_LOG":
+        if (logInfo.responseText) {
+          logInfo.responseText = logInfo.responseText.length > 500 ? "内容太长" : logInfo.responseText
+        }
+        const status = parseInt(logInfo.status || 0)
+        console.log(logInfo)
+        if (status > 299) {
+          await HttpErrorInfoModel.createHttpErrorInfo(logInfo, Sequelize);
+        } else {
+          await HttpLogInfoModel.createHttpLogInfo(logInfo, Sequelize);
+        }
+        break;
+      case "SCREEN_SHOT":
+        await ScreenShotInfoModel.createScreenShotInfo(logInfo, Sequelize);
+        break;
+      case "CUSTOMER_PV":
+        
+        // 根据IP地址获取位置
+        const monitorIp = logInfo.monitorIp
+        var geo = geoip.lookup(monitorIp);
+        if (geo) {
+          logInfo.province =  provinces[geo.region] ? geo.region : "其他"
+          logInfo.city = citys[geo.city] || geo.city
+        }
+        // 根据customerKey来判断是否为新用户
+        let newStatus = ""
+        const customerKeyArr = logInfo.customerKey ? logInfo.customerKey.match(/\d{13}/g) : []
+        if (customerKeyArr && customerKeyArr.length > 0) {
+          const tempTime = parseInt(customerKeyArr[0], 10) + 8 * 60 * 60 * 1000
+          const dateStr = new Date(tempTime).Format("yyyy-MM-dd")
+          const currentTime = new Date().getTime()
+          logInfo.customerKeyCreatedDate = dateStr;
+          newStatus = currentTime - tempTime > 60 * 1000 ? "old" : "new"
+        }
+        if (!logInfo.newStatus) {
+          logInfo.newStatus = newStatus
+        }
+        await CustomerPVModel.createCustomerPV(logInfo, Sequelize);
+        break;
+      case "VIDEOS_EVENT":
+          await VideosInfoModel.createVideos(logInfo, Sequelize);
+          break;
+      case "LOAD_PAGE":
+        await LoadPageModel.createLoadPageInfo(logInfo, Sequelize);
+        break;
+      case "RESOURCE_LOAD":
+        if (logInfo.sourceUrl) {
+          await ResourceLoadInfoModel.createResourceLoadInfo(logInfo, Sequelize);
+        }
+        break;
+      case "CUSTOMIZE_BEHAVIOR":
+      default:
+        await ExtendBehaviorInfoModel.createExtendBehaviorInfo(logInfo, Sequelize);
+        break;
+    }
+    // 判断是否有连接线上用户, 如果连线的用户，就将信息存入到全局变量中
+    if (logInfo.uploadType !== "VIDEOS_EVENT") {
+      const userIdArray = global.monitorInfo.userIdArray
+      const debugInfoArray = global.monitorInfo.debugInfoArray
+      if (userIdArray.indexOf(logInfo.userId) != -1) {
+        debugInfoArray.push(logInfo)
+      }
+    }
+  }
+
   /**
    * debug模式：接受并分类处理上传的日志
    * @param ctx
@@ -3649,7 +3782,7 @@ class Common {
         const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.ON_ERROR)
         const { minJsErrorCount, jsErrorDividedBySevenDayAgo } = warningSetting
         const todayCount = infoCountByHourInfo.hourCount * 1
-        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        const sevenDayAgoCount = sevenResult[0] ? sevenResult[0].hourCount * 1 : 0
         if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minJsErrorCount && (jsErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= jsErrorDividedBySevenDayAgo)) {
           let sevenDayAgoMsg = ""
           if (sevenDayAgoCount > 0) {
@@ -3673,7 +3806,7 @@ class Common {
         const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.CONSOLE_ERROR)
         const { minConsoleErrorCount, consoleErrorDividedBySevenDayAgo } = warningSetting
         const todayCount = infoCountByHourInfo.hourCount * 1
-        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        const sevenDayAgoCount = sevenResult[0] ? sevenResult[0].hourCount * 1 : 0
         if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minConsoleErrorCount && (consoleErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= consoleErrorDividedBySevenDayAgo)) {
           let sevenDayAgoMsg = ""
           if (sevenDayAgoCount > 0) {
@@ -3700,7 +3833,7 @@ class Common {
         const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.RESOURCE_ERROR)
         const { minResourceErrorCount, resourceErrorDividedBySevenDayAgo } = warningSetting
         const todayCount = infoCountByHourInfo.hourCount * 1
-        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        const sevenDayAgoCount = sevenResult[0] ? sevenResult[0].hourCount * 1 : 0
         if (todayCount > 0 && todayCount > sevenDayAgoCount && todayCount >= minResourceErrorCount && (resourceErrorDividedBySevenDayAgo == 0 || todayCount / sevenDayAgoCount >= resourceErrorDividedBySevenDayAgo)) {
           let sevenDayAgoMsg = ""
           if (sevenDayAgoCount > 0) {
@@ -3727,7 +3860,7 @@ class Common {
         const sevenResult = await InfoCountByHourModel.getInfoCountByHourDetailByHourName(sevenDayHour, webMonitorId, UPLOAD_TYPE.HTTP_ERROR)
         const { minHttpErrorCount, HttpErrorDividedBySevenDayAgo } = warningSetting
         const todayCount = infoCountByHourInfo.hourCount * 1
-        const sevenDayAgoCount = sevenResult[0].hourCount * 1
+        const sevenDayAgoCount = sevenResult[0] ? sevenResult[0].hourCount * 1 : 0
         if (todayCount > sevenDayAgoCount && todayCount >= minHttpErrorCount && todayCount / sevenDayAgoCount >= HttpErrorDividedBySevenDayAgo) {
           let sevenDayAgoMsg = ""
           if (sevenDayAgoCount > 0) {
@@ -3751,7 +3884,7 @@ class Common {
         const resourceWarningName = resourceErrorWarningMsg ? "静态资源错误报警：" : ""
         const httpWarningName = httpErrorWarningMsg ? "接口请求错误报警：" : ""
         const html = `<p><b>项目名称：</b>${projectName}</p><p><b>${jsWarningName}</b>${jsErrorWarningMsg}</p><p><b>${consoleWarningName}</b>${consoleErrorWarningMsg}</p><p><b>${resourceWarningName}</b>${resourceErrorWarningMsg}</p><p><b>${httpWarningName}</b>${httpErrorWarningMsg}</p><p>请及时处理！</p>`
-        Utils.sendEmailFromCustomer(sourceEmail, sourcePassword, "错误警报！", html, targetEmail)
+        global.BUILD_ENV != "local" && Utils.sendEmailFromCustomer(sourceEmail, sourcePassword, "错误警报！", html, targetEmail)
       }
       log.printInfo("【计算每小时的pv量，uv量，js错误量，http错误量， resource错误量结束】")
       //========================接口请求错误相关==========================//
@@ -3846,8 +3979,70 @@ class Common {
       })
       log.printInfo("pv量，uv量，js错误量，http错误量，resource错误量的计算结束】")
       //========================静态资源错误相关==========================//
-    }
 
+      //========================接口耗时相关==========================//
+      // 计算每天接口耗时小于1秒的数据
+      await HttpLogInfoModel.calculateHttpLogCountForSecByDay(webMonitorId, useDay, 0, 1).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_COUNT_A
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_COUNT_A)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      // 计算每天接口耗时大于1秒小于等于5秒的数据
+      await HttpLogInfoModel.calculateHttpLogCountForSecByDay(webMonitorId, useDay, 1, 5).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_COUNT_B
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_COUNT_B)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      // 计算每天接口耗时大于5秒小于等于10秒的数据
+      await HttpLogInfoModel.calculateHttpLogCountForSecByDay(webMonitorId, useDay, 5, 10).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_COUNT_C
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_COUNT_C)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      // 计算每天接口耗时大于10秒小于等于30秒的数据
+      await HttpLogInfoModel.calculateHttpLogCountForSecByDay(webMonitorId, useDay, 10, 30).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_COUNT_D
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_COUNT_D)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      // 计算每天接口耗时大于30秒小于1000秒的数据
+      await HttpLogInfoModel.calculateHttpLogCountForSecByDay(webMonitorId, useDay, 30, 1000).then( async(data) => {
+        infoCountByDayInfo.uploadType = UPLOAD_TYPE.HTTP_COUNT_E
+        infoCountByDayInfo.dayCount = data[0].count
+        const result = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, UPLOAD_TYPE.HTTP_COUNT_E)
+        if (result.length <= 0) {
+          await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+        } else {
+          const id = result[0].id
+          await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+        }
+      })
+      //========================静态资源错误相关==========================//
+    }
   }
 
   /**
@@ -3968,11 +4163,50 @@ class Common {
     }
   }
 
+  /**
+   * 连接线上用户
+   */
+  static async connectUser(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const {userId, connectStatus} = param
+    const resultUserId = Utils.md5Encrypt(userId)
+    let tempStatus = ""
+    if (connectStatus === "disconnect") {
+      global.monitorInfo.userIdArray = [resultUserId]
+      tempStatus = "connected"
+    } else {
+      global.monitorInfo.userIdArray = []
+      tempStatus = "disconnect"
+    }
+    console.log("监控userId: ", global.monitorInfo.userIdArray)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', tempStatus)
+  }
+
+  /**
+   * 获取连线用户的日志信息
+   */
+  static async getDebugInfoFromConnectUser(param) {
+    // 对内容中的信息进行排序
+    const debugInfoArray = global.monitorInfo.debugInfoArray
+    if (debugInfoArray.length > 0) {
+      Utils.quickSortForObject(debugInfoArray, "happenTime", 0, debugInfoArray.length - 1)
+      const resultInfo = debugInfoArray[0]
+      debugInfoArray.splice(0, 1)
+      console.log(resultInfo)
+      return resultInfo
+    }
+    return null
+  }
+
    /**
    * 获取git star数量
    * @param ctx
    * @returns {Promise.<void>}
    * {per_page: 100, page: 3}
+   * @static
+   * @param {*} ctx
+   * @memberof Common
    */
   static async gitStars(ctx) {
     let stars = 0
@@ -4048,6 +4282,24 @@ class Common {
     ctx.body = statusCode.SUCCESS_200('success', PROJECT_INFO.PROJECT_VERSION)
   }
   /**
+   * 获取项目配置信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async projectConfig(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { userId } = param
+    const userIdArray = global.monitorInfo.userIdArray
+    let status = ""
+    if (userIdArray.indexOf(userId) != -1) {
+      status = "connected"
+    } else {
+      status = "disconnect"
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', status)
+  }
+  /**
    * 版本信息
    * @param ctx
    * @returns {Promise.<void>}
@@ -4074,4 +4326,4 @@ class Common {
   }
 }
 
-module.exports = {HttpErrorInfoController,HttpLogInfoController,ScreenShotInfoController,DailyActivityController,BehaviorInfoController,ExtendBehaviorInfoController,IgnoreErrorController,InfoCountByHourController,ProjectController,LoadPageInfoController,UserController,PurchaseCodeController,ResourceLoadInfoController,VideosInfoController,EmailCodeController,CustomerPVController,JavascriptErrorInfoController,Common}
+module.exports = {HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,InfoCountByHourController,IgnoreErrorController,LoadPageInfoController,ProjectController,PurchaseCodeController,UserController,VideosInfoController,ResourceLoadInfoController,JavascriptErrorInfoController,HttpLogInfoController,CustomerPVController,Common}
