@@ -24,6 +24,26 @@ const customerConfig = {
 
 
 /*
+ * 删除文件夹下所有文件
+ * @param{ String } 目录
+ */
+var delDir = function(path) {
+  let files = [];
+  if(fs.existsSync(path)){
+      files = fs.readdirSync(path);
+      files.forEach((file, index) => {
+          let curPath = path + "/" + file;
+          if(fs.statSync(curPath).isDirectory()){
+              delDir(curPath); //递归删除文件夹
+          } else {
+              fs.unlinkSync(curPath); //删除文件
+          }
+      });
+      fs.rmdirSync(path);
+  }
+}
+
+/*
  * 复制目录中的所有文件包括子目录
  * @param{ String } 需要复制的目录
  * @param{ String } 复制到指定的目录
@@ -75,6 +95,7 @@ var exists = function( src, dst, callback ){
 
 var fs = require('fs');
 stat = fs.stat;
+delDir("./views/webfunny")
 fs.mkdir( "./views/webfunny", function(err){
   if ( err ) { 
     console.log("文件夹 /views/webfunny 已经存在")

@@ -149,5 +149,34 @@ module.exports = {
   },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
+  },
+  setTableNameList(name) {
+    const timeStamp = new Date().getTime()
+    return name + timeStamp
+  },
+  quickSortForObject(arr, key, begin, end) {
+    if(begin > end) return
+
+    let tempValue = arr[begin][key]
+    let tmp = arr[begin]
+    let i = begin
+    let j = end
+    while(i != j){
+        while(arr[j][key] >= tempValue && j > i) {
+          j--
+        }
+        while(arr[i][key] <= tempValue && j > i) {
+          i++
+        }
+        if(j > i){
+            let t = arr[i];
+            arr[i] = arr[j];
+            arr[j] = t;
+        }
+    }
+    arr[begin] = arr[i];
+    arr[i] = tmp;
+    Utils.quickSortForObject(arr, key, begin, i-1);
+    Utils.quickSortForObject(arr, key, i+1, end);
   }
 }

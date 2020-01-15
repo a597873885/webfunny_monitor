@@ -4,7 +4,10 @@ const log = require("../config/log");
 const router = new Router({
     prefix: '/server'
 })
-global.monitorInfo = {}
+global.monitorInfo = {
+    userIdArray: [],
+    debugInfoArray: []
+}
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
@@ -236,6 +239,13 @@ router.get('/getScreenShotInfoListByPage', ScreenShotInfoController.getScreenSho
 router.get('/screenShotInfo/:id', ScreenShotInfoController.detail);
 // 删除截屏
 router.delete('/screenShotInfo/:id', ScreenShotInfoController.delete);
+
+/**
+ * 用户访问录屏信息
+ */
+router.post('/getVideosEvent', VideosInfoController.getVideosEvent)
+
+
 /**
  * 忽略js错误信息接口
  */
@@ -292,7 +302,8 @@ router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
 router.get('/searchUserBehaviorsForExample', Common.searchUserBehaviorsForExample)
 router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
 
-
+// 连接线上用户
+router.get('/connectUser', Common.connectUser)
 /**
  * git stars 相关信息
  */
@@ -317,6 +328,10 @@ router.get('/monitorVersion', Common.monitorVersion);
  * 获取项目版本号
  */
 router.get('/projectVersion', Common.projectVersion);
+/**
+ * 获取项目配置信息
+ */
+router.get('/projectConfig', Common.projectConfig);
 
 /**
  * mysql状态

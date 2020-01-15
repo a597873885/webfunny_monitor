@@ -61,10 +61,10 @@
     , WEB_LOCAL_IP = 'localhost'
 
     // 应用的主域名, 用于主域名下共享customerKey
-    , MAIN_DOMAIN = ''//'&&&webfunny.cn&&&'
+    , MAIN_DOMAIN = '&&&webfunny.cn&&&'
 
     // 监控平台地址
-    , WEB_MONITOR_IP = 'localhost:8011'//'&&&www.webfunny.cn&&&'
+    , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
     , HTTP_UPLOAD_URI =  WEB_HTTP_TYPE + WEB_MONITOR_IP
@@ -323,22 +323,39 @@
    * 监控初始化配置, 以及启动的方法
    */
   function init() {
+    var excArr = [0, 1, 2, 3, 4, 5];
     try {
       // 启动监控
-      recordPV();
-      PV_MSG = "启动...";
-      recordResourceError();
-      RESOURCE_MSG = "启动...";
-      recordLoadPage();
-      PAGELOAD_MSG = "启动...";
-      recordBehavior({record: 1});
-      BEHAVIOR_MSG = "启动...";
-      recordJavaScriptError();
-      JSERROR_MSG = "启动...";
-      recordHttpLog();
-      HTTP_MSG = "启动...";
-      checkTheVideo();
-
+      for (var i = 0; i < excArr.length; i ++) {
+        switch(excArr[i]) {
+          case 0:
+              recordPV();
+              PV_MSG = "启动...";
+            break;
+          case 1:
+              recordResourceError();
+              RESOURCE_MSG = "启动...";
+            break;
+          case 2:
+              recordJavaScriptError();
+              JSERROR_MSG = "启动...";
+            break;
+          case 3:
+              recordHttpLog();
+              HTTP_MSG = "启动...";
+            break;
+          case 4:
+              recordLoadPage();
+              PAGELOAD_MSG = "启动...";
+            break;
+          case 5:
+              recordBehavior({record: 1});
+              BEHAVIOR_MSG = "启动...";
+            break;
+          default:
+            break;
+        }
+      }
       /**
        * 添加一个定时器，进行数据的上传
        * 200毫秒钟进行一次URL是否变化的检测
@@ -498,6 +515,9 @@
         }
         // 此方法有漏洞，暂时先注释掉
         // performanceGetEntries();
+        
+        // 页面加载完成后，检查是否需要录屏，因为这个时候userId才有可能被设置进来
+        checkTheVideo();
       }, 1000);
     })
   }
@@ -924,8 +944,13 @@
           typeof failCallback == 'function' && failCallback();
         }
       };
-      console.log(JSON.stringify(param.logInfo))
-      xmlHttp.send("data=" + JSON.stringify(param.logInfo));
+      var resultStr = "";
+      try {
+        resultStr = JSON.stringify(param || {});
+      } catch(e) {
+        console.log(param)
+      }
+      xmlHttp.send("data=" + resultStr);
     }
     /**
      * js处理截图
@@ -1311,10 +1336,10 @@
       console.log("=【上报接口】：" + HTTP_UPLOAD_LOG_INFO);
       console.log("......................................................................");
       console.log("= PVUV监控状态：" + (PV_MSG || errorStatus));
-      console.log("= 静态资源监控状态：" + (PAGELOAD_MSG || errorStatus));
+      console.log("= 静态资源监控状态：" + (RESOURCE_MSG || errorStatus));
       console.log("= JS错误监控状态：" + (JSERROR_MSG || errorStatus));
       console.log("= 接口请求监控状态：" + (HTTP_MSG || errorStatus));
-      console.log("= 静态资源监控状态：" + (RESOURCE_MSG || errorStatus));
+      console.log("= 页面加载监控状态：" + (PAGELOAD_MSG || errorStatus));
       console.log("= 用户行为监控状态：" + (BEHAVIOR_MSG || errorStatus));
       console.log("= 用户信息初始化状态：" + (INITUSER_MSG || "未初始化！部分功能将无法使用，请查看文档(API方法调用)，执行webfunny.wmInitUser方法进行初始化！"));
       console.log("======================================================================");
