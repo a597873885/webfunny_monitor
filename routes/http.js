@@ -106,6 +106,8 @@ router.get('/projectDetail', ProjectController.detail);
 router.get('/project/list', ProjectController.getProjectList);
 // 获取所有应用列表
 router.get('/project/list/all', ProjectController.getAllProjectList);
+// 获取所有应用列表详情
+router.get('/project/detailList', ProjectController.getProjectDetailList);
 // 创建新的监控项目
 router.post('/createNewProject', ProjectController.createNewProject);
 // 创建新的监控项目

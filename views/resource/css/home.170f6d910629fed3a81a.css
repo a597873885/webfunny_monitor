@@ -296,6 +296,13 @@ body {
       color: #1c1e21;
       font-size: 0.16rem;
       margin-left: 0.08rem; }
+    .home-container .home-header .container .start-btn-entry {
+      padding: 0.15rem 0.3rem;
+      border-radius: 0.06rem;
+      background: #ebedf0;
+      color: #1c1e21;
+      font-size: 0.18rem;
+      margin-left: 0.08rem; }
     .home-container .home-header .container .demo-btn:hover, .home-container .home-header .container .start-btn:hover {
       background: #fff; }
   .home-container .function-list {
