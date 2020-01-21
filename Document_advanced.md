@@ -62,7 +62,6 @@ mysql版本号：5.6.45  (mysql 安装教程自行搜索 [Linux安装教程](htt
   
 ----------------------
   
-如果你觉得这种方式有些复杂，可以去看 [【部署教程基础版】](https://github.com/a597873885/webfunny_monitor/blob/master/Document.md)
 
 [【环境要求】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82)
 [【部署步骤】](https://github.com/a597873885/webfunny_monitor/blob/master/Document_advanced.md#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
