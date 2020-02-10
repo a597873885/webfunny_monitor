@@ -3,7 +3,7 @@
    
 
 ### 暂停部署
-  本项目将会在2月15日之前发布新版本，会有更好的使用体验。大家可以暂时不用部署当前这个版本。
+  本项目将会在2月15日之前发布新版本，会有更好的使用体验。大家可以暂停部署当前这个版本。
 
  ### 部署
 ![total gzip size](https://img.badgesize.io/https://www.webfunny.cn/resource/monitor.fetch.min.js?compression=gzip&label=total%20gzip%20size)
