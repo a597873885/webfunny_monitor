@@ -1,15 +1,8 @@
 const Koa = require('koa')
-// 路由
-const views = require('koa-views')
 const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
-const jwt = require('koa-jwt')
-const logger = require('koa-logger')
-const cors = require('koa2-cors');
-const httpRoute = require('./routes/http')
-const wsRoute = require('./routes/ws')
-const secret = require('./config/secret')
+const httpRoute = require('./routes')
 const err = require('./middlreware/error')
 const log = require("./config/log")
 let WebSocket = require("koa-websocket");
@@ -36,13 +29,9 @@ app.use(bodyparser({
     textLimit: "5mb"
 }))
 app.use(json())
-// app.use(logger())
 
 app.use(async (ctx, next) => {
     const start = new Date()
-    // await next()
-    // const ms = new Date() - start
-    // console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
     let ms = 0
     try {
         //开始进入到下一个中间件
@@ -59,7 +48,7 @@ app.use(async (ctx, next) => {
 
 // routes
 app.use(httpRoute.routes(), httpRoute.allowedMethods())
-app.ws.use(wsRoute.routes(), wsRoute.allowedMethods())
+// app.ws.use(wsRoute.routes(), wsRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {

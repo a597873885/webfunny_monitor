@@ -6,8 +6,8 @@
  * 暂时仅支持163邮箱
  */
 const accountInfo = {
-    purchaseCode: "webfunny.cn_for_free", // 注册码
-
+    purchaseCode: "PZMX1GTEL2GR4LXB", // 注册码
+    messageQueue: false, // 消息队列默认关闭，需手动开启。 前提：1. 安装RabbitMq; 2. 需创建订阅版激活码
     ////////////////////////////////
 
     sourceEmail: "source@163.com", // 只支持163邮箱, 这个是用来发送警报邮件的，需要填写，否则无法发送警报

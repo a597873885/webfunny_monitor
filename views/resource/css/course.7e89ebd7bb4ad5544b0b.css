@@ -1,0 +1,113 @@
+.course-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #ffffff;
+  padding-top: 0.82rem; }
+
+.headerHome-container {
+  width: 100%;
+  height: 0.62rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 1011; }
+  .headerHome-container .message-box {
+    position: fixed;
+    width: 0.24rem;
+    height: 0.8rem;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    font-size: 0.36rem;
+    color: #eef0ee; }
+    .headerHome-container .message-box .anticon {
+      font-size: 0.24rem;
+      float: left;
+      margin: 0.05rem 0; }
+  .headerHome-container .home-icon {
+    width: 1.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: -0.02rem;
+    cursor: pointer;
+    float: left; }
+    .headerHome-container .home-icon b {
+      font-size: 0.28rem;
+      color: #ea6947;
+      line-height: 0.22rem;
+      margin-left: 0.06rem; }
+    .headerHome-container .home-icon label {
+      float: left;
+      font-size: 0.14rem; }
+  .headerHome-container .sub-header {
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+    color: #493e54;
+    border-bottom: 0;
+    position: relative;
+    margin: 0 0 0.1rem;
+    line-height: 1;
+    font-size: 0.16rem;
+    min-height: 0.62rem;
+    box-shadow: 0 0.02rem 0 rgba(37, 11, 54, 0.04); }
+  .headerHome-container .menu-container {
+    float: right;
+    height: 0.6rem;
+    line-height: 0.6rem; }
+    .headerHome-container .menu-container .menu-short {
+      width: 0.6rem !important; }
+    .headerHome-container .menu-container .menu-right {
+      float: left;
+      width: 1rem;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      margin-top: 0.22rem;
+      text-align: center;
+      cursor: pointer;
+      border-right: 0.01rem solid #eaeaea;
+      font-size: 0.16rem;
+      color: #333; }
+      .headerHome-container .menu-container .menu-right .ant-dropdown-link {
+        color: #2f2936; }
+      .headerHome-container .menu-container .menu-right .new-flag {
+        position: absolute;
+        font-size: 0.2rem;
+        margin-top: -0.2rem;
+        margin-left: -0.2rem; }
+    .headerHome-container .menu-container .menu-right:hover {
+      color: #ea6947; }
+    .headerHome-container .menu-container .github-container {
+      width: 1.2rem;
+      height: 0.6rem;
+      font-size: 0.14rem;
+      font-weight: bold;
+      text-align: right;
+      color: #000;
+      cursor: pointer; }
+      .headerHome-container .menu-container .github-container .ant-radio-button-wrapper {
+        padding: 0 0.07rem; }
+    .headerHome-container .menu-container .git-blank {
+      position: absolute;
+      width: 0.32rem;
+      height: 0.32rem;
+      background: #fff;
+      cursor: pointer;
+      z-index: 2; }
+    .headerHome-container .menu-container .git-btn2 {
+      width: 0.32rem;
+      height: 0.32rem;
+      position: absolute;
+      font-size: 0.32rem;
+      cursor: pointer;
+      z-index: 1; }
+
+.qrcode-container {
+  width: 1.5rem; }
+  .qrcode-container img {
+    width: 100%; }
+

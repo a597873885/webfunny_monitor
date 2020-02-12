@@ -98,6 +98,15 @@ const HttpErrorInfo = function (sequelize, DataTypes) {
             attribute: "happenTime"
           }
         ]
+      },
+      {
+        name: "happenDateIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenDate"
+          }
+        ]
       }
     ]
   })

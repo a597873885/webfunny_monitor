@@ -72,14 +72,14 @@
     // 上传数据的接口API
     , HTTP_UPLOAD_LOG_API = '/server/upLog' // '/api/v1/upLog'
 
-    // 上传数据时忽略的uri, 需要过滤掉监控平台上传接口
+    // 上传数据时忽略的uri, 需要过滤掉上报接口
     , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 上传数据的接口
     , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 获取当前项目的参数信息的接口
-    , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/projectConfig'
+    , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/pf'
 
     // 上传埋点数据接口
     , HTTP_UPLOAD_RECORD_DATA = HTTP_UPLOAD_URI + ''
@@ -323,32 +323,36 @@
    * 监控初始化配置, 以及启动的方法
    */
   function init() {
-    var excArr = [0, 1, 2, 3, 4, 5];
+    var startList = localStorage.sl;
+    var excArr = ["0", "1", "2", "3", "4", "5"];
+    if (startList) {
+      excArr = startList.split("");
+    }
     try {
       // 启动监控
       for (var i = 0; i < excArr.length; i ++) {
         switch(excArr[i]) {
-          case 0:
+          case "0":
               recordPV();
               PV_MSG = "启动...";
             break;
-          case 1:
+          case "1":
               recordResourceError();
               RESOURCE_MSG = "启动...";
             break;
-          case 2:
+          case "2":
               recordJavaScriptError();
               JSERROR_MSG = "启动...";
             break;
-          case 3:
+          case "3":
               recordHttpLog();
               HTTP_MSG = "启动...";
             break;
-          case 4:
+          case "4":
               recordLoadPage();
               PAGELOAD_MSG = "启动...";
             break;
-          case 5:
+          case "5":
               recordBehavior({record: 1});
               BEHAVIOR_MSG = "启动...";
             break;
@@ -389,7 +393,8 @@
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
             }
-            localStorage.debugConnectStatus = res.data == "c" ? "connected" : "disconnect";
+            localStorage.ds = res.data.d == "c" ? "connected" : "disconnect";
+            localStorage.sl = res && res.data && res.data.s || "012345";
           }, function () { // 如果失败了， 也需要清理掉本地缓存， 否则会积累太多
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
@@ -549,12 +554,13 @@
        * 如果localStorage里边有debug的连接状态，则无需发送请求获取连线状态，
        * 后续根据upLog的返回值来获取连线状态
        */
-      var debugConnectStatus = localStorage.debugConnectStatus
+      var debugConnectStatus = localStorage.ds
       if (!debugConnectStatus) {
         // 如果没有这个值，发送一条请求，确定连线状态, 并确定是否启动
         var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
-        utils.ajax("GET", HTTP_PROJECT_INFO + "?userId=" + wmUserInfo.userId, {}, function (res) {
-          localStorage.debugConnectStatus = res.data
+        utils.ajax("GET", HTTP_PROJECT_INFO + "?webMonitorId=" + WEB_MONITOR_ID + "&userId=" + wmUserInfo.userId, {}, function (res) {
+          localStorage.ds = res.data.d;
+          localStorage.sl = res.data.s;
           if (res.data == "connected") {
             if (stopTheVideo) return
             utils.initDebugTool();
@@ -933,24 +939,23 @@
      * @param failCallback   失败回调方法
      */
     this.ajax = function(method, url, param, successCallback, failCallback) {
-      var xmlHttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-      xmlHttp.open(method, url, true);
-      xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
-      xmlHttp.onreadystatechange = function () {
-        if (xmlHttp.readyState == 4) {
-          var response = xmlHttp.responseText ? JSON.parse(xmlHttp.responseText) : {}
-          typeof successCallback == 'function' && successCallback(response);
-        } else {
-          typeof failCallback == 'function' && failCallback();
-        }
-      };
-      var resultStr = "";
       try {
-        resultStr = JSON.stringify(param || {});
+        var xmlHttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+        xmlHttp.open(method, url, true);
+        xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+        xmlHttp.onreadystatechange = function () {
+          if (xmlHttp.readyState == 4) {
+            var response = xmlHttp.responseText ? JSON.parse(xmlHttp.responseText) : {}
+            typeof successCallback == 'function' && successCallback(response);
+          } else {
+            typeof failCallback == 'function' && failCallback();
+          }
+        };
+        var resultStr = JSON.stringify(param || {});
+        xmlHttp.send("data=" + resultStr);
       } catch(e) {
-        console.log(param)
+        console.warn(e)
       }
-      xmlHttp.send("data=" + resultStr);
     }
     /**
      * js处理截图
@@ -1332,8 +1337,10 @@
     wm_check: function() {
       var errorStatus = "未启动！"
       console.log("================================配置检查===============================");
+      console.log("=【身份标识】：" + localStorage.wmUserInfo);
       console.log("=【探针标识】：" + WEB_MONITOR_ID);
       console.log("=【上报接口】：" + HTTP_UPLOAD_LOG_INFO);
+      console.log("=【启动列表】：" + localStorage.sl);
       console.log("......................................................................");
       console.log("= PVUV监控状态：" + (PV_MSG || errorStatus));
       console.log("= 静态资源监控状态：" + (RESOURCE_MSG || errorStatus));

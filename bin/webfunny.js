@@ -7,13 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
-const {exec} = require("child_process")
+const { default_assets_port, default_server_port } = require('./domain')
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '8011');
+var port = normalizePort(process.env.PORT || default_server_port);
 // app.set('port', port);
 
 /**
@@ -95,21 +95,21 @@ var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
 app.use(serveStatic("./views/webfunny"));
-app.listen(8010);
+app.listen(default_assets_port);
 
-const openUrl = "http://localhost:8010/home.html"
-switch (process.platform) {
-  //mac系统使用 一下命令打开url在浏览器
-  case "darwin":
-      exec(`open ${openUrl}`);
-      break;
-  //win系统使用 一下命令打开url在浏览器
-  case "win32":
-      exec(`start ${openUrl}`);
-      break;
-      // 默认mac系统
-  default:
-      exec(`open ${openUrl}`);
-      break;
-}
+// const openUrl = "http://localhost:8010/home.html"
+// switch (process.platform) {
+//   //mac系统使用 一下命令打开url在浏览器
+//   case "darwin":
+//       exec(`open ${openUrl}`);
+//       break;
+//   //win系统使用 一下命令打开url在浏览器
+//   case "win32":
+//       exec(`start ${openUrl}`);
+//       break;
+//       // 默认mac系统
+//   default:
+//       exec(`open ${openUrl}`);
+//       break;
+// }
 

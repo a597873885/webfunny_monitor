@@ -43,7 +43,7 @@ const ExtendBehaviorInfo = function (sequelize, DataTypes) {
     },
     // 发生时间
     happenTime: {
-      type: DataTypes.STRING(13),
+      type: DataTypes.DATE,
       allowNull: true,
       field: 'happenTime'
     },

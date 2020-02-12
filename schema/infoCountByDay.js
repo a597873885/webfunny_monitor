@@ -25,7 +25,7 @@ const InfoCountByHour = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'dayName'
     },
-    // 每个小时的数量
+    // 每天的数量
     dayCount: {
       type: DataTypes.INTEGER,
       allowNull: true,

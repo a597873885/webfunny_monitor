@@ -1,27 +1,18 @@
+const { demo_server_domain, local_server_domain, local_assets_domain } = require('./bin/domain')
 
 /**
-  * 请先配置您的域名!!!
-  * 请求接口域名 webfunny-servers 的服务的部署域名
-  * 本地请使用 "//localhost:8011"
+  * 配置日志服务的域名!!!
+  * 默认是demo域名：demo_server_domain
+  * 本地或线上请使用：local_server_domain
   */
-
-// Demo数据
-// 如果是本地部署： const default_api_server_url = "//localhost:8011"  
-const default_api_server_url = "//localhost:8011"  // 本地可以使用："//localhost:8011"
+const default_api_server_url = local_server_domain
 
 /**
- * 静态资源域名 webfunny-admin 的部署域名
- * 本地请使用 "//localhost:8010"
- */
-// 本地部署
-const default_assets_url = "//localhost:8010"
-
-/** 重要！ 重要！ 重要！ 这里一定要配置的*/
-const customerConfig = {
-  default_api_server_url,
-  default_assets_url
-}
-
+  * 配置可视化平台的域名!!!
+  * 本地请使用 "localhost"
+  */
+// 默认为本地部署
+const default_assets_url = local_assets_domain
 
 /*
  * 删除文件夹下所有文件
@@ -116,7 +107,7 @@ setTimeout(function() {
     }
     fs.readFile(`${path}/${files[i]}`,function(err, data){
         if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-          let newString = data.toString().replace(/default_api_server_url/g, customerConfig.default_api_server_url).replace(/default_assets_url/g, customerConfig.default_assets_url)
+          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
             console.log(files[i] + "  接口域名配置成功！");

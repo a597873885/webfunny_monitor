@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" type="image/png" href="//www.webfunny.cn/resource/favicon.ico">
+    <link rel="icon" type="image/png" href="//www.webfunny.cn/webfunny_multi/favicon.ico">
     <title>前端监控系统，无埋点监控前端页面日志</title>
     <meta name="theme-color" content="#5eace0">
     <meta name="application-name" content="通过向html页面中插入一段简单的JS探针代码，实现无埋点监控前端页面的用户行为，包括但不限于 PV/UV、报错日志、请求日志、静态资源加载情况、用户点击行为以及截图信息等等，目的在于帮助前端开发提高解决线上问题的效率。前端监控系统">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/rrweb-player@latest/dist/style.css">
     <script>
-      if (window.location.href.indexOf("https://www.webfunny.cn") != -1) window.location.href = "http://www.webfunny.cn"
+      if (window.location.href.indexOf("https://") != -1) {
+        var tempUrl = window.location.href.replace("https://", "http://")
+        window.location.href = tempUrl
+      }
     </script>
     <script async src="https://cdn.jsdelivr.net/npm/rrweb-player@latest/dist/index.js"></script>
     
@@ -57,8 +60,12 @@
       };
 
       flex(100, 1);
+
+      window.onhashchange = function(res) {
+        console.log(res)
+      }
     </script>
-<link href="././css/common.6e9b2f6a2857429dddf3.css" rel="stylesheet"><link href="././css/httpPerformance.6e9b2f6a2857429dddf3.css" rel="stylesheet"></head>
+<link href="././css/common.7e89ebd7bb4ad5544b0b.css" rel="stylesheet"><link href="././css/httpPerformance.7e89ebd7bb4ad5544b0b.css" rel="stylesheet"></head>
 <body>
 <div id="app">
 </div>
@@ -67,5 +74,5 @@
         <div class="wen-li"></div>
     </div>
 </div>
-<script type="text/javascript" src="././js/common.6e9b2f6a2857429dddf3.min.js"></script><script type="text/javascript" src="././js/httpPerformance.6e9b2f6a2857429dddf3.min.js"></script></body>
+<script type="text/javascript" src="././js/common.7e89ebd7bb4ad5544b0b.min.js"></script><script type="text/javascript" src="././js/httpPerformance.7e89ebd7bb4ad5544b0b.min.js"></script></body>
 </html>
