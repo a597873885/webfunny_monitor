@@ -1,13 +1,17 @@
  ### 前言
    怎样定位前端线上问题，一直以来，都是很头疼的问题，因为它发生于用户的一系列操作之后。错误的原因可能源于机型，网络环境，复杂的操作行为等等，在我们想要去解决的时候很难复现出来，自然也就无法解决。 当然，这些问题并非不能克服，让我们来一起看看如何去监控并定位线上的问题吧。
    
+
+### 暂停部署
+  本项目将会在2月15日之前发布新版本，会有更好的使用体验。大家可以暂停部署当前这个版本。
+
  ### 部署
 ![total gzip size](https://img.badgesize.io/https://www.webfunny.cn/resource/monitor.fetch.min.js?compression=gzip&label=total%20gzip%20size)
    
 只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
-[【**📚 部署教程 📚**】](./Document_advanced.md) |  [【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
+[【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
    
    
 ---------------------------------------------------------
