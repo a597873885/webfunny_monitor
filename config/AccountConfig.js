@@ -6,7 +6,7 @@
  * 暂时仅支持163邮箱
  */
 const accountInfo = {
-    purchaseCode: "PZMX1GTEL2GR4LXB", // 注册码
+    purchaseCode: "AAAABBBBCCCCDDDD", // 激活码
     messageQueue: false, // 消息队列默认关闭，需手动开启。 前提：1. 安装RabbitMq; 2. 需创建订阅版激活码
     ////////////////////////////////
 
