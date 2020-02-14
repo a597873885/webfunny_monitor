@@ -86,7 +86,6 @@
       border: 0;
       border-radius: 0.04rem;
       padding: 0 0.15rem;
-      margin-left: 0.7rem;
       outline: 0;
       background-color: #FC5F3A;
       cursor: pointer; }
@@ -107,4 +106,6 @@
       height: 0.4rem;
       border-radius: 0.04rem;
       border: solid 0.01rem #f8f8f8; }
+    .login-container .box .signup-btn:hover {
+      color: #FC5F3A; }
 
