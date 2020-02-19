@@ -393,8 +393,10 @@
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
             }
-            localStorage.ds = res.data.d == "c" ? "connected" : "disconnect";
-            localStorage.sl = res && res.data && res.data.s || "012345";
+            if (res && res.data && res.data.d) {
+              localStorage.ds = res.data.d == "c" ? "connected" : "disconnect";
+              localStorage.sl = res.data.s || "012345";
+            }
           }, function () { // 如果失败了， 也需要清理掉本地缓存， 否则会积累太多
             for (var i = 0; i < typeList.length; i ++) {
               localStorage[typeList[i]] = "";
@@ -559,9 +561,9 @@
         // 如果没有这个值，发送一条请求，确定连线状态, 并确定是否启动
         var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
         utils.ajax("GET", HTTP_PROJECT_INFO + "?webMonitorId=" + WEB_MONITOR_ID + "&userId=" + wmUserInfo.userId, {}, function (res) {
-          localStorage.ds = res.data.d;
-          localStorage.sl = res.data.s;
-          if (res.data == "connected") {
+          localStorage.ds = (res && res.data && res.data.d) || "disconnect";
+          localStorage.sl = (res && res.data && res.data.s) || "012345";
+          if (localStorage.ds == "connected") {
             if (stopTheVideo) return
             utils.initDebugTool();
           }
@@ -945,7 +947,13 @@
         xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
         xmlHttp.onreadystatechange = function () {
           if (xmlHttp.readyState == 4) {
-            var response = xmlHttp.responseText ? JSON.parse(xmlHttp.responseText) : {}
+            var response = {}
+            try {
+              response = xmlHttp.responseText ? JSON.parse(xmlHttp.responseText) : {}
+            } catch(e) {
+              console.error(xmlHttp.responseText)
+              response = {}
+            }
             typeof successCallback == 'function' && successCallback(response);
           } else {
             typeof failCallback == 'function' && failCallback();
