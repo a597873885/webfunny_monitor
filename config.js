@@ -5,7 +5,7 @@ const { demo_server_domain, local_server_domain, local_assets_domain } = require
   * 默认是demo域名：demo_server_domain
   * 本地或线上请使用：local_server_domain
   */
-const default_api_server_url = demo_server_domain
+const default_api_server_url = local_server_domain
 
 /**
   * 配置可视化平台的域名!!!

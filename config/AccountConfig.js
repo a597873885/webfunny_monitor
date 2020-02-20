@@ -15,7 +15,9 @@ const accountInfo = {
 
     ///////////////////////////////
 
-    targetEmail: "targetEmail" // 目标邮箱（接收警报的邮箱, 可以和sourceEmail相同）
+    targetEmail: "targetEmail", // 目标邮箱（接收警报的邮箱, 可以和sourceEmail相同）
+
+    showPurchaseList: 0
 }
 
 /**
