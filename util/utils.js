@@ -104,8 +104,9 @@ module.exports = {
 
   },
   md5Encrypt: function(encryptString) {
-    let hash = crypto.createHash('md5');
-    return hash.update(encryptString).digest('base64');
+    // let hash = crypto.createHash('md5');
+    // return hash.update(encryptString).digest('base64');
+    return encryptString
   },
   sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
     const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
