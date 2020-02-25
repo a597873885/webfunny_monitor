@@ -61,10 +61,10 @@
     , WEB_LOCAL_IP = 'localhost'
 
     // 应用的主域名, 用于主域名下共享customerKey
-    , MAIN_DOMAIN = '&&&webfunny.cn&&&'
+    , MAIN_DOMAIN = '' //'&&&webfunny.cn&&&'
 
     // 监控平台地址
-    , WEB_MONITOR_IP = '&&&www.webfunny.cn&&&'
+    , WEB_MONITOR_IP = 'localhost:8011' //'&&&www.webfunny.cn&&&'
 
     // 上传数据的uri, 区分了本地和生产环境
     , HTTP_UPLOAD_URI =  WEB_HTTP_TYPE + WEB_MONITOR_IP
@@ -72,11 +72,17 @@
     // 上传数据的接口API
     , HTTP_UPLOAD_LOG_API = '/server/upLog' // '/api/v1/upLog'
 
+    // 上传debug数据的接口API
+    , HTTP_UPLOAD_DEBUG_LOG_API = '/server/upDLog' 
+
     // 上传数据时忽略的uri, 需要过滤掉上报接口
     , WEB_MONITOR_IGNORE_URL = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
 
     // 上传数据的接口
     , HTTP_UPLOAD_LOG_INFO = HTTP_UPLOAD_URI + HTTP_UPLOAD_LOG_API
+
+    // 上传debug数据的接口
+    , HTTP_UPLOAD_DEBUG_LOG_INFO = HTTP_UPLOAD_URI + HTTP_UPLOAD_DEBUG_LOG_API
 
     // 获取当前项目的参数信息的接口
     , HTTP_PROJECT_INFO = HTTP_UPLOAD_URI + '/server/pf'
@@ -141,7 +147,7 @@
     // 录屏JSON字符简化
     , JSON_KEY = {"type":"≠","childNodes":"ā","name":"á","id":"ǎ","tagName":"à","attributes":"ē","style":"é","textContent":"ě","isStyle":"è","isSVG":"ī","content":"í","href":"ǐ","src":"ì","class":"ō","tabindex":"ó","aria-label":"ǒ","viewBox":"ò","focusable":"ū","data-icon":"ú","width":"ǔ","height":"ù","fill":"ǖ","aria-hidden":"ǘ","stroke":"ǚ","stroke-width":"ǜ","paint-order":"ü","stroke-opacity":"ê","stroke-dasharray":"ɑ","stroke-linecap":"?","stroke-linejoin":"ń","stroke-miterlimit":"ň","clip-path":"Γ","alignment-baseline":"Δ","fill-opacity":"Θ","transform":"Ξ","text-anchor":"Π","offset":"Σ","stop-color":"Υ","stop-opacity":"Φ"}
     , JSON_CSS_KEY = {"background":"≠","background-attachment":"ā","background-color":"á","background-image":"ǎ","background-position":"à","background-repeat":"ē","background-clip":"é","background-origin":"ě","background-size":"è","border":"Г","border-bottom":"η","color":"┯","style":"Υ","width":"б","border-color":"ū","border-left":"ǚ","border-right":"ň","border-style":"Δ","border-top":"З","border-width":"Ω","outline":"α","outline-color":"β","outline-style":"γ","outline-width":"δ","left-radius":"Ж","right-radius":"И","border-image":"ω","outset":"μ","repeat":"ξ","repeated":"π","rounded":"ρ","stretched":"σ","slice":"υ","source":"ψ","border-radius":"Б","radius":"Д","box-decoration":"Й","break":"К","box-shadow":"Л","overflow-x":"Ф","overflow-y":"У","overflow-style":"Ц","rotation":"Ч","rotation-point":"Щ","opacity":"Ъ","height":"Ы","max-height":"Э","max-width":"Ю","min-height":"Я","min-width":"а","font":"в","font-family":"г","font-size":"ж","adjust":"з","aspect":"и","font-stretch":"й","font-style":"к","font-variant":"л","font-weight":"ф","content":"ц","before":"ч","after":"ш","counter-increment":"щ","counter-reset":"ъ","quotes":"ы","list-style":"+","image":"－","position":"|","type":"┌","margin":"┍","margin-bottom":"┎","margin-left":"┏","margin-right":"┐","margin-top":"┑","padding":"┒","padding-bottom":"┓","padding-left":"—","padding-right":"┄","padding-top":"┈","bottom":"├","clear":"┝","clip":"┞","cursor":"┟","display":"┠","float":"┡","left":"┢","overflow":"┣","right":"┆","top":"┊","vertical-align":"┬","visibility":"┭","z-index":"┮","direction":"┰","letter-spacing":"┱","line-height":"┲","text-align":"6","text-decoration":"┼","text-indent":"┽","text-shadow":"10","text-transform":"┿","unicode-bidi":"╀","white-space":"╂","word-spacing":"╁","hanging-punctuation":"╃","punctuation-trim":"1","last":"3","text-emphasis":"4","text-justify":"5","justify":"7","text-outline":"8","text-overflow":"9","text-wrap":"11","word-break":"12","word-wrap":"13"}
-
+  var TYPE_LIST = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR, VIDEOS_EVENT];
   // 日志基类, 用于其他日志的继承
   function MonitorBaseInfo() {
     this.handleLogInfo = function (type, logInfo) {
@@ -189,8 +195,8 @@
     this.completeUrl =  utils.b64EncodeUnicode(encodeURIComponent(window.location.href)); // 页面的完整url
     this.customerKey = utils.getCustomerKey(); // 用于区分用户，所对应唯一的标识，清理本地数据后失效，
     // 用户自定义信息， 由开发者主动传入， 便于对线上问题进行准确定位
-    var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
-    this.userId = utils.b64EncodeUnicode(wmUserInfo.userId || "");
+    var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
+    this.userId = wmUserInfo.userId;
     this.firstUserParam = utils.b64EncodeUnicode(wmUserInfo.firstUserParam || "");
     this.secondUserParam = utils.b64EncodeUnicode(wmUserInfo.secondUserParam || "");
   }
@@ -367,7 +373,7 @@
        */
       var timeCount = 0;
       var waitTimes = 0;
-      var typeList = [ELE_BEHAVIOR, JS_ERROR, HTTP_LOG, SCREEN_SHOT, CUSTOMER_PV, LOAD_PAGE, RESOURCE_LOAD, CUSTOMIZE_BEHAVIOR, VIDEOS_EVENT]
+      var typeList = TYPE_LIST;
       setInterval(function () {
         checkUrlChange();
         // 进行一次上传
@@ -559,7 +565,7 @@
       var debugConnectStatus = localStorage.ds
       if (!debugConnectStatus) {
         // 如果没有这个值，发送一条请求，确定连线状态, 并确定是否启动
-        var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : "";
+        var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
         utils.ajax("GET", HTTP_PROJECT_INFO + "?webMonitorId=" + WEB_MONITOR_ID + "&userId=" + wmUserInfo.userId, {}, function (res) {
           localStorage.ds = (res && res.data && res.data.d) || "disconnect";
           localStorage.sl = (res && res.data && res.data.s) || "012345";
@@ -574,7 +580,7 @@
         utils.initDebugTool();
       } else if (debugConnectStatus === "disconnect") {
         // debug连线状态断开，停止上传录屏信息
-        if (stopTheVideo) { 
+        if (stopTheVideo) {
           stopTheVideo(); 
           stopTheVideo = null;
         }
@@ -755,7 +761,7 @@
       var status = timeRecordArray[i].event.detail.status;
       var statusText = timeRecordArray[i].event.detail.statusText;
       var loadTime = currentTime - timeRecordArray[i].timeStamp;
-      if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1) return;
+      if (!url || url.indexOf(HTTP_UPLOAD_LOG_API) != -1 || url.indexOf(HTTP_UPLOAD_DEBUG_LOG_API) != -1) return;
       var httpLogInfoStart = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "发起请求", "", timeRecordArray[i].timeStamp, 0);
       httpLogInfoStart.handleLogInfo(HTTP_LOG, httpLogInfoStart);
       var httpLogInfoEnd = new HttpLogInfo(HTTP_LOG, simpleUrl, url, status, statusText, "请求返回", responseText, currentTime, loadTime);
@@ -998,25 +1004,72 @@
      * 初始化调试工具
      */
     this.initDebugTool = function() {
-      console.log("= 调试工具即将初始化...");
+      var wmUserInfo = localStorage.wmUserInfo ? JSON.parse(localStorage.wmUserInfo) : {};
+      // 获取浏览器本地缓存（localStorage）信息
+      var localInfo = {}
+      for(key in localStorage) {
+        if (typeof localStorage[key] == "function" || TYPE_LIST.indexOf(key) != -1 || localStorage[key].length > 1000) {
+          continue;
+        }
+        localInfo[key] = localStorage[key];
+      }
+      try {
+        localInfo = utils.b64EncodeUnicode(JSON.stringify(localInfo));
+      } catch(e) {
+        localInfo = "";
+      }
+      // 获取浏览器本地缓存（sessionStorage）信息
+      var sessionInfo = {}
+      for(key in sessionStorage) {
+        if (typeof sessionStorage[key] == "function" || TYPE_LIST.indexOf(key) != -1 || sessionStorage[key].length > 1000) {
+          continue;
+        }
+        sessionInfo[key] = sessionStorage[key];
+      }
+      try {
+        sessionInfo = utils.b64EncodeUnicode(JSON.stringify(sessionInfo));
+      } catch(e) {
+        sessionInfo = "";
+      }
+      // 获取浏览器Cookie里的信息
+      var cookieInfo = utils.b64EncodeUnicode(document.cookie)
+      utils.ajax("POST", HTTP_UPLOAD_DEBUG_LOG_INFO, {localInfo: localInfo, sessionInfo: sessionInfo, cookieInfo: cookieInfo}, function () {});
+      
+      // 重写console.log, console.warn 方法，获取打印信息
+      function reWriteConsole(params) {
+        var arr = [];
+        var len = params.length;
+        for (var i = 0; i < len; i ++) {
+          arr.push(params[i])
+        }
+        var tempObj = {};
+        tempObj.log = arr;
+        tempObj.userId = wmUserInfo.userId;
+        tempObj.happenTime = new Date().getTime();
+        var consoleInfo = utils.b64EncodeUnicode(encodeURIComponent(JSON.stringify(tempObj)));
+        return consoleInfo
+      }
+      var oldLog = console.log;
+      var oldWarn = console.warn;
+      console.log = function () {
+        var consoleInfo = reWriteConsole(arguments);
+        utils.ajax("POST", HTTP_UPLOAD_DEBUG_LOG_INFO, {consoleInfo: consoleInfo}, function () {});
+        return oldLog.apply(console, arguments);
+      };
+      console.warn = function () {
+        var warnInfo = reWriteConsole(arguments);
+        utils.ajax("POST", HTTP_UPLOAD_DEBUG_LOG_INFO, {warnInfo: warnInfo}, function () {});
+        return oldWarn.apply(console, arguments);
+      };
       // 加载js压缩工具
       utils.loadJs("//cdn.bootcss.com/lz-string/1.4.4/lz-string.js", function() {
-        console.log("= 字符串压缩工具加载成功...");
         // 加载录屏机制
         utils.loadJs("//cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js", function() {
-          console.log("= 录屏工具加载成功...");
-          console.log("= 调试工具初始化完成, 开始录屏...");
           stopTheVideo = rrweb.record({
             emit: function(event) {
-              var newEventStr = JSON.stringify(event);
-              var videosInfo = new VideosInfo(VIDEOS_EVENT, newEventStr);
-              videosInfo.uploadType = VIDEOS_EVENT;
-              var logInfo = JSON.stringify(videosInfo);
-              if (logInfo.length > 1000) {
-                utils.ajax("POST", HTTP_UPLOAD_LOG_INFO, {logInfo: logInfo}, function () {});
-              } else {
-                videosInfo.handleLogInfo(VIDEOS_EVENT, videosInfo);
-              }
+              var videosInfo = {event: event, userId: wmUserInfo.userId};
+              videosInfo = JSON.stringify(videosInfo);
+              utils.ajax("POST", HTTP_UPLOAD_DEBUG_LOG_INFO, {videosInfo: videosInfo}, function () {});
             },
           });
         });
@@ -1038,8 +1091,8 @@
         return n
       }
       o = o + ""
-      if (o.length > 8) {
-        o = o.substring(0, 4) + "****" + o.substring(o.length - 3, o.length)
+      if (o.length > 50) {
+        o = o.substring(0, 10) + "****" + o.substring(o.length - 9, o.length)
       }
       return o
     }
