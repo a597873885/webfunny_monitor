@@ -1,18 +1,18 @@
-const { demo_server_domain, local_server_domain, local_assets_domain } = require('./bin/domain')
+const { localServerDomain, localAssetsDomain } = require('./config/createConfig')
 
 /**
   * 配置日志服务的域名!!!
   * 默认是demo域名：demo_server_domain
   * 本地或线上请使用：local_server_domain
   */
-const default_api_server_url = local_server_domain
+const default_api_server_url = localServerDomain
 
 /**
   * 配置可视化平台的域名!!!
   * 本地请使用 "localhost"
   */
 // 默认为本地部署
-const default_assets_url = local_assets_domain
+const default_assets_url = localAssetsDomain
 
 /*
  * 删除文件夹下所有文件

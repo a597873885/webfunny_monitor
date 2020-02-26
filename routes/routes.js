@@ -1,11 +1,14 @@
 const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,HttpErrorInfoController,EmailCodeController,ExtendBehaviorInfoController,IgnoreErrorController,LoadPageInfoController,ProjectController,ResourceLoadInfoController,VideosInfoController,CustomerPVController,JavascriptErrorInfoController,Common} = require("../controllers/controllers.js")
 
+
 const createRoutes = (router) => {
     /**
      * 日志相关处理
      */
     // 用户上传日志
     router.post('/upLog', Common.upLog);
+    // 用户上传debug日志
+    router.post('/upDLog', Common.upDLog);
     // 用户上传日志到消息队列
     // router2.post('/upLog', Common.upLogForRabbitMq);
     // 用户上传录屏信息
@@ -270,9 +273,13 @@ const createRoutes = (router) => {
 
     router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
 
-    
+    //创建配置
+    router.post('/createConfig', Common.createConfig)
+
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
+    router.get('/getDebugInfoForLocalInfo', Common.getDebugInfoForLocalInfo)
+    router.get('/getDebugInfoForVideo', Common.getDebugInfoForVideo)
 
     /**
      * git stars 相关信息

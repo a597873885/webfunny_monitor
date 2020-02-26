@@ -7,13 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
-const { default_assets_port, default_server_port } = require('./domain')
+var CreateConfig = require("../config/createConfig")
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || default_server_port);
+var port = normalizePort(process.env.PORT || CreateConfig.localServerPort);
 // app.set('port', port);
 
 /**
@@ -95,7 +95,7 @@ var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
 app.use(serveStatic("./views/webfunny"));
-app.listen(default_assets_port);
+app.listen(CreateConfig.localAssetsPort);
 
 // const openUrl = "http://localhost:8010/home.html"
 // switch (process.platform) {
