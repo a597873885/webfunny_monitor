@@ -1,27 +1,38 @@
+const { localServerDomain, localAssetsDomain } = require('./config/createConfig')
 
 /**
-  * 请先配置您的域名!!!
-  * 请求接口域名 webfunny-servers 的服务的部署域名
-  * 本地请使用 "//localhost:8011"
+  * 配置日志服务的域名!!!
+  * 默认是demo域名：demo_server_domain
+  * 本地或线上请使用：local_server_domain
   */
-
-// Demo数据
-// 如果是本地部署： const default_api_server_url = "//localhost:8011"  
-const default_api_server_url = "//localhost:8011"  // 本地可以使用："//localhost:8011"
+const default_api_server_url = localServerDomain
 
 /**
- * 静态资源域名 webfunny-admin 的部署域名
- * 本地请使用 "//localhost:8010"
+  * 配置可视化平台的域名!!!
+  * 本地请使用 "localhost"
+  */
+// 默认为本地部署
+const default_assets_url = localAssetsDomain
+
+/*
+ * 删除文件夹下所有文件
+ * @param{ String } 目录
  */
-// 本地部署
-const default_assets_url = "//localhost:8010"
-
-/** 重要！ 重要！ 重要！ 这里一定要配置的*/
-const customerConfig = {
-  default_api_server_url,
-  default_assets_url
+var delDir = function(path) {
+  let files = [];
+  if(fs.existsSync(path)){
+      files = fs.readdirSync(path);
+      files.forEach((file, index) => {
+          let curPath = path + "/" + file;
+          if(fs.statSync(curPath).isDirectory()){
+              delDir(curPath); //递归删除文件夹
+          } else {
+              fs.unlinkSync(curPath); //删除文件
+          }
+      });
+      fs.rmdirSync(path);
+  }
 }
-
 
 /*
  * 复制目录中的所有文件包括子目录
@@ -75,6 +86,7 @@ var exists = function( src, dst, callback ){
 
 var fs = require('fs');
 stat = fs.stat;
+delDir("./views/webfunny")
 fs.mkdir( "./views/webfunny", function(err){
   if ( err ) { 
     console.log("文件夹 /views/webfunny 已经存在")
@@ -95,7 +107,7 @@ setTimeout(function() {
     }
     fs.readFile(`${path}/${files[i]}`,function(err, data){
         if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-          let newString = data.toString().replace(/default_api_server_url/g, customerConfig.default_api_server_url).replace(/default_assets_url/g, customerConfig.default_assets_url)
+          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
             console.log(files[i] + "  接口域名配置成功！");

@@ -41,6 +41,24 @@ const VideosInfo = function (sequelize, DataTypes) {
             attribute: "customerKey"
           }
         ]
+      },
+      {
+        name: "happenTimeIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenTime"
+          }
+        ]
+      },
+      {
+        name: "happenDateIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenDate"
+          }
+        ]
       }
     ]
   })

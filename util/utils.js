@@ -104,8 +104,30 @@ module.exports = {
 
   },
   md5Encrypt: function(encryptString) {
-    let hash = crypto.createHash('md5');
-    return hash.update(encryptString).digest('base64');
+    // let hash = crypto.createHash('md5');
+    // return hash.update(encryptString).digest('base64');
+    return encryptString
+  },
+  sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
+    const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    if (!reg.test(sourceEmail) || !reg.test(toEmail)) return
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: {
+        user: sourceEmail, // generated ethereal user
+        pass: password // generated ethereal password
+      }
+    });
+    // send mail with defined transport object
+    transporter.sendMail({
+      from: '"邮箱报警服务" <' + sourceEmail + '>', // sender address
+      to: toEmail, // list of receivers
+      subject: subject, // Subject line
+      text: html, // plain text body
+      html: html // html body
+    });
   },
   sendEmail: (email, subject, html) => {
     let transporter = nodemailer.createTransport({
@@ -128,5 +150,34 @@ module.exports = {
   },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
+  },
+  setTableNameList(name) {
+    const timeStamp = new Date().getTime()
+    return name + timeStamp
+  },
+  quickSortForObject(arr, key, begin, end) {
+    if(begin > end) return
+
+    let tempValue = arr[begin][key]
+    let tmp = arr[begin]
+    let i = begin
+    let j = end
+    while(i != j){
+        while(arr[j][key] >= tempValue && j > i) {
+          j--
+        }
+        while(arr[i][key] <= tempValue && j > i) {
+          i++
+        }
+        if(j > i){
+            let t = arr[i];
+            arr[i] = arr[j];
+            arr[j] = t;
+        }
+    }
+    arr[begin] = arr[i];
+    arr[i] = tmp;
+    Utils.quickSortForObject(arr, key, begin, i-1);
+    Utils.quickSortForObject(arr, key, i+1, end);
   }
 }

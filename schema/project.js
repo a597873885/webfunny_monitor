@@ -28,11 +28,23 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectName'
     },
-    // 项目名称
+    // userId
+    userId: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'userId'
+    },
+    // 邮箱
     email: {
       type: DataTypes.STRING(200),
       allowNull: true,
       field: 'email'
+    },
+    // 启动列表
+    startList: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'startList'
     },
     // 监控代码
     monitorCode: {

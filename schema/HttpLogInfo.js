@@ -103,6 +103,15 @@ const HttpLogInfo = function (sequelize, DataTypes) {
         ]
       },
       {
+        name: "loadTimeIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "loadTime"
+          }
+        ]
+      },
+      {
         name: "createdAtIndex",
         method: "BTREE",
         fields: [
@@ -117,6 +126,15 @@ const HttpLogInfo = function (sequelize, DataTypes) {
         fields: [
           {
             attribute: "happenTime"
+          }
+        ]
+      },
+      {
+        name: "happenDateIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenDate"
           }
         ]
       }
