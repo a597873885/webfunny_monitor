@@ -8,7 +8,7 @@
 只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
-[【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html)  |  [【开源说明】](https://github.com/a597873885/webfunny_monitor/blob/master/SourceDes.md) | 【微信号】webfunny_2020
+[【监控系统效果】](http://www.webfunny.cn/webfunny_multi/home.html) | 【微信号】webfunny_2020
    
    
 ---------------------------------------------------------
@@ -35,7 +35,6 @@
 
 ### 贡献者支持
 
-开发了这么久，也是颇有一番感慨。 一叹，前辈高人技艺之精湛；二叹，开源世界心胸之广阔；正是有这些无私奉献的大牛们，才让这技术的世界多姿多彩。
 
 一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 
