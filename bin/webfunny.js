@@ -94,7 +94,7 @@ function onListening() {
 var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
-app.use(serveStatic("./views/webfunny"));
+app.use(serveStatic("./views"));
 app.listen(CreateConfig.localAssetsPort);
 
 // const openUrl = "http://localhost:8010/home.html"
