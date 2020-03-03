@@ -4,7 +4,9 @@ const { createRoutes } = require("./routes");
 const timerTask = require("./timer");
 global.monitorInfo = {
     userIdArray: [],
-    debugInfoArray: []
+    debugInfoArray: [],
+    debugTimer: null,
+    debugInfo: {}
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
