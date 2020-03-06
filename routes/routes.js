@@ -49,6 +49,8 @@ const createRoutes = (router) => {
     router.get('/project/detail', ProjectController.getProjectDetail);
     // 更新启动列表
     router.get('/project/updateStartList', ProjectController.updateStartList);
+    // 更新探针代码
+    router.get('/project/updateMonitorCode', ProjectController.updateMonitorCode);
     // 获取所有应用列表
     router.get('/project/list/all', ProjectController.getAllProjectList);
     // 获取所有应用列表详情
@@ -268,10 +270,6 @@ const createRoutes = (router) => {
     router.put('/emailCode/:id', EmailCodeController.update);
     // 生成验证码
     router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
-
-    router.get('/searchUserBehaviorsForExample', Common.searchUserBehaviorsForExample)
-
-    router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
 
     //创建配置
     router.post('/createConfig', Common.createConfig)

@@ -5,6 +5,7 @@ const router = new Router({
     prefix: '/socket'
 })
 
+
 // 获取连线用户的实时日志记录
 router.get('/wsGetDebugInfo', async function (ctx) {
     let intervalObj = null
@@ -32,7 +33,6 @@ router.get('/wsGetDebugInfo', async function (ctx) {
         console.log("wsGetDebugInfo Connection error", error)
     })
 })
-
 // router.get('/wsGetProvinceCountBySeconds', async function (ctx) {
 //     let intervalObj = null
 //     const conn = ctx.websocket
