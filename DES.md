@@ -17,7 +17,7 @@
 ### 第三步、尝试运行起来  
 #### 1. 把生产环境中，云服务器IP地址配置上去
 在webfunny_monitor/config/目录下找到端口配置文件：createConfig.js，里边有对应域名进行配置
-本地环境：[!http://www.webfunny.cn/website/src/assets/img/course/setting.jpg]
+本地环境：![http://www.webfunny.cn/website/src/assets/img/course/setting.jpg]
 生产环境：
 配置完成后，保证以下地址能够访问成功。www.baidu.com是域名，也可以使用ip代替
 1. 探针上报接口：www.baidu.com:8011/server/upLog
