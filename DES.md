@@ -2,7 +2,7 @@
 安装NodeJS，版本号：10.6.0及以上
 ### 第一步、下载最新部署包
 1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
-或者直接[百度云下载](https://pan.baidu.com/s/1yqUzQiG8-JgMw-8YvXKl1w) 密码:nry0
+或者直接[百度云下载](https://pan.baidu.com/s/1VgEEoxsLQxlSDTaLe9zdgQ) 密码:nxug
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
 ### 第二步、配置数据库连接
