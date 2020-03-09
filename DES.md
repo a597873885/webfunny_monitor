@@ -7,11 +7,11 @@
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
 ### 第二步、配置数据库连接
-1. 安装 Mysql 数据库
-2. 创建数据库
+#### 1. 安装 Mysql 数据库
+#### 2. 创建数据库
   Navicat是mysql数据的视图工具，用Navicat创建一个数据库，命名为：webfunny_db
   数据库的字符集（Default Character set）请设置为：utf8
-3. 配置数据库连接
+#### 3. 配置数据库连接
   在webfunny_monitor/config/ 目录下找到数据库配置文件：db_local.js。
   在db_local.js文件的上部找到变量名：defaultConfig，然后配置您数据库的相关信息。
 ### 第三步、尝试运行起来  
