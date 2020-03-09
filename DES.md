@@ -55,7 +55,7 @@
 #### 1. 安装RabbitMq（建议您在云服务器上部署完成后再执行此步骤）
     不建议您在本地执行此步骤。
 
-    开启消息队列之前，请先 [安装RabbitMq](https://www.cnblogs.com/warm-stranger/p/11000996.html) 消息队列服务
+    开启消息队列之前，请先 安装RabbitMq消息队列服务，ubantu：https://www.cnblogs.com/warm-stranger/p/11000996.html 
 
     安装完成后可以访问Url：http://IP地址:15672 查看消息队列的情况
     
