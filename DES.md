@@ -20,7 +20,7 @@
 
 本地环境：![image](http://www.webfunny.cn/website/src/assets/img/course/setting.jpg)
 
-生产环境：![image](http://localhost:9999/src/assets/img/course/proSetting.jpg)
+生产环境：![image](http://www.webfunny.cn/website/src/assets/img/course/proSetting.jpg)
 
 配置完成后，保证以下地址能够访问成功。
 
