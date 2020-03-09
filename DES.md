@@ -63,4 +63,4 @@
     【小提示】：消息队列不易安装成功，如果中途出现问题，可以选择重启或者初始化云服务器。
 #### 2. 配置消息队列
 
-    RabbitMq 安装完成后，在 webfunny_monitor/config/createConfig.js 文件中找到变量名：messageQueue，将此变量的值设置为：true, 重启服务即可
+   RabbitMq 安装完成后，在 webfunny_monitor/config/createConfig.js 文件中找到变量名：messageQueue，将此变量的值设置为：true, 重启服务即可
