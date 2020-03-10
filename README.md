@@ -24,7 +24,6 @@
 
 
 ### 目录结构
-         ./A-monitor-code/webmonitor.js   探针代码
          ./schema  数据库建表结构
          ./views/ 前端展示代码
          ./config  数据库配置目录
