@@ -5,7 +5,7 @@
  ### 部署
 
    
-本监控系统有 www.webfunny.cn 前端监控系统提供，只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
+本监控系统由 www.webfunny.cn 前端监控系统提供，只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
 [【Demo效果】](http://www.webfunny.cn/demo/home.html) | [【部署教程】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) |【微信号】webfunny_2020
