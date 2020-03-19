@@ -1,5 +1,5 @@
 module.exports = {
-    purchaseCode: 'PUP8FC9ZGGKQKBXPGKNZ',      // 填写激活码
+    purchaseCode: 'KDWHMQ2ZDNK0K73ZIUTZ',      // 填写激活码
 
     webfunnyNeedLogin: false,              // 前端是否验证登录状态
                                            // 开启登录验证后，只能看到自己创建的项目。
