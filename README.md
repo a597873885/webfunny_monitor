@@ -3,9 +3,9 @@
    
 
  ### 部署
-![total gzip size](https://img.badgesize.io/https://www.webfunny.cn/resource/monitor.fetch.min.js?compression=gzip&label=total%20gzip%20size)
+
    
-只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
+本监控系统由 www.webfunny.cn 前端监控系统提供，只需要简单几步就可以搭建一套属于自己的前端监控系统，欢迎关注和Star。
 
 
 [【Demo效果】](http://www.webfunny.cn/demo/home.html) | [【部署教程】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) |【微信号】webfunny_2020
@@ -14,27 +14,15 @@
 ---------------------------------------------------------
 
 ### 主体功能
-1. 监控JS报错、http接口报错、静态资源加载报错等；记录页面访问、点击事件、接口请求等行为日志；
+1. 实时掌握项目的健康状态，PV/UV、报错、用户分布。
 
-2. 统计PV/UV数据、用户7天留存数据、版本号/机型/地域分布数据
+2. 精细化分析每一个报错问题，支持sourceMap源码定位。
 
-3. 提供报错具体查找和定位功能、用户详细行为追踪与分析功能、用户网络环境评估功能
+3. 深入分析每一个用户，记录下每个用户的所有行为。
 
-4. 提供额外上报接口，上报自定义日志
+4. 分析页面和接口性能，加载耗时，成功率。
 
-
-### 目录结构
-         ./A-monitor-code/webmonitor.js   探针代码
-         ./schema  数据库建表结构
-         ./views/ 前端展示代码
-         ./config  数据库配置目录
-         ./logs  运行报错日志目录
-         ./config.js 接口配置文件
-
-更新计划：[更新排期计划表](https://github.com/a597873885/webfunny_monitor/blob/master/UpdateList.md)
-
-### 贡献者支持
+5. 强大的调试功能，让你从繁杂的调试工具中解脱出来。
 
 
-一颗star, 一份[关注](https://zhuanlan.zhihu.com/webfunny), 都将是我前进的动力  :)
 

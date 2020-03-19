@@ -1,8 +1,10 @@
 ### 基础环境
 安装NodeJS，版本号：10.6.0及以上
 ### 第一步、下载最新部署包
-1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
-或者直接[百度云下载](https://pan.baidu.com/s/1yqUzQiG8-JgMw-8YvXKl1w) 密码:nry0
+  1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
+
+  或者直接[百度云下载](https://pan.baidu.com/s/1VgEEoxsLQxlSDTaLe9zdgQ) 密码: nxug
+
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
 ### 第二步、配置数据库连接
@@ -55,7 +57,7 @@
 #### 1. 安装RabbitMq（建议您在云服务器上部署完成后再执行此步骤）
     不建议您在本地执行此步骤。
 
-    开启消息队列之前，请先 安装RabbitMq 消息队列服务
+    开启消息队列之前，请先 安装RabbitMq消息队列服务，ubantu：https://www.cnblogs.com/warm-stranger/p/11000996.html 
 
     安装完成后可以访问Url：http://IP地址:15672 查看消息队列的情况
     
