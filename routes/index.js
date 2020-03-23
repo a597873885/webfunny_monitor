@@ -6,7 +6,11 @@ global.monitorInfo = {
     userIdArray: [],
     debugInfoArray: [],
     debugTimer: null,
-    debugInfo: {}
+    debugInfo: {},
+    logServerStatus: true, 
+    waitCounts: 40,  
+    logCountInMinute: 0,
+    logCountInMinuteList: []
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -16,10 +20,8 @@ const router = new Router({
     prefix: '/server'
 })
 
-// 激活码校验
 Common.checkPurchase(() => {
     createRoutes(router)
-    // 启动定时任务
     timerTask()
 })
 

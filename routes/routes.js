@@ -32,6 +32,8 @@ const createRoutes = (router) => {
     router.post('/getErrorInfo', Common.getErrorInfo);
     // 获取警报信息
     router.post('/getWarningMsg', Common.getWarningMsg);
+    // 获服务并发日志量
+    router.post('/getConcurrencyByMinuteInHour', Common.getConcurrencyByMinuteInHour);
 
 
     /**
@@ -55,6 +57,8 @@ const createRoutes = (router) => {
     router.get('/project/list/all', ProjectController.getAllProjectList);
     // 获取所有应用列表详情
     router.get('/project/detailList', ProjectController.getProjectDetailList);
+    // 查询所有项目的实时UV信息
+    router.get('/project/getProjectInfoInRealTime', ProjectController.getProjectInfoInRealTime);
     // 创建新的监控项目
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目
@@ -91,6 +95,8 @@ const createRoutes = (router) => {
     router.post('/getTodayFlowDataByTenMin', CustomerPVController.getTodayFlowDataByTenMin);
     // 立即刷新每天的流量数据 
     router.post('/getTodayFlowData', CustomerPVController.getTodayFlowData);
+    // 获取7天的平均pv数据 
+    router.post('/getAvgPvInSevenDay', CustomerPVController.getAvgPvInSevenDay);
     // 获取日活量
     router.post('/getCustomerCountByTime', CustomerPVController.getCustomerCountByTime);
     // 获取24小时内每小时PV量
@@ -109,6 +115,8 @@ const createRoutes = (router) => {
     router.post('/getPvCountByMinute', CustomerPVController.getPvCountByMinute);
     // 获取每分钟的PV量
     router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
+    // 获取每分钟的PV量
+    router.post('/getAliveCusInRealTime', CustomerPVController.getAliveCusInRealTime);
     // 获取城市top10数量列表
     router.post('/getVersionCountOrderByCount', CustomerPVController.getVersionCountOrderByCount);
     // 获取城市top10数量列表
@@ -273,6 +281,9 @@ const createRoutes = (router) => {
 
     //创建配置
     router.post('/createConfig', Common.createConfig)
+    router.post('/changeLogServerStatus', Common.changeLogServerStatus)
+    router.post('/changeWaitCounts', Common.changeWaitCounts)
+    router.get('/getLogServerStatus', Common.getLogServerStatus)
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
