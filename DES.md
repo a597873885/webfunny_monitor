@@ -4,6 +4,7 @@
   1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
   或者直接百度云下载：
+  
   链接:https://pan.baidu.com/s/1PIbeVRkUmn-gTslgIn8jhg  密码:p609
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
