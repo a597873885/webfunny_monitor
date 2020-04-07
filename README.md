@@ -11,7 +11,7 @@
 ### 部署方式
 
    [【普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
-   [【Docker部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_Docker.md)
+   【Docker部署】
    
 ### 联系作者
    微信号：webfunny_2020
