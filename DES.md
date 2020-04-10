@@ -5,7 +5,7 @@
 
   或者直接百度云下载：
   
-  链接:https://pan.baidu.com/s/1xKicml3i1oTHemc1HOZBHQ  密码:nrsr
+  链接: https://pan.baidu.com/s/1zMCibnqIl1tVAqYOH20IOg  密码: hl8f
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
