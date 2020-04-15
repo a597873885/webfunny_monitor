@@ -19,7 +19,6 @@ class FailController {
       if (err) {
         throw err;
       }
-      console.log("配置创建完成, 5秒后重启...");
       FailController.restartServer()
     });
     ctx.response.status = 200;
