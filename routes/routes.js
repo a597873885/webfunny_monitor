@@ -238,6 +238,8 @@ const createRoutes = (router) => {
     router.post('/getHttpUrlListForLoadTime', HttpLogInfoController.getHttpUrlListForLoadTime);
     // 获取接口影响人数
     router.post('/getHttpUrlUserCount', HttpLogInfoController.getHttpUrlUserCount);
+    // 获取接口发生的页面
+    router.post('/getPagesByHttpUrl', HttpLogInfoController.getPagesByHttpUrl);
     // 获取24小时分布
     router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
     // 获取24小时分布

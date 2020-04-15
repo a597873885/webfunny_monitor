@@ -1,5 +1,6 @@
+const { purchaseCode } = require("../bin/purchaseCode")
 module.exports = {
-    purchaseCode: 'PUP8FC9ZGFKQKBXPGKNZ',      // 填写激活码
+    purchaseCode: purchaseCode || 'AAAABBBBCCCCDDDD',    // 分享版激活码
 
     webfunnyNeedLogin: false,              // 前端是否验证登录状态
                                            // 开启登录验证后，只能看到自己创建的项目。

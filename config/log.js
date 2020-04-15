@@ -37,7 +37,7 @@ log.printError = function (msg, err) {
     errorText += "err stack: " + err.stack + "\n";
   }
   errorLog.error(errorText)
-  console.log(errorText)
+  // console.log(errorText)
 }
 
 log.errorDetail = function(param, err) {

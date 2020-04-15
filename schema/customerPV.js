@@ -96,6 +96,12 @@ const CustomerPV = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'newStatus'
     },
+    // 来源页面的URL
+    referrer: {
+      type: DataTypes.TEXT,
+        allowNull: true,
+        field: 'referrer'
+    },
     // 创建日期，用于查询留存数据
     customerKeyCreatedDate: {
       type: DataTypes.STRING(10),

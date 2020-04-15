@@ -49,7 +49,7 @@ app.use(async (ctx, next) => {
         //记录异常日志
         log.error(ctx, error, ms);
     }
-    console.log(`${ctx.req.method} ${ctx.req.url} - ${ms}ms`)
+    // console.log(`${ctx.req.method} ${ctx.req.url} - ${ms}ms`)
 })
 
 // routes

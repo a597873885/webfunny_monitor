@@ -80,5 +80,5 @@ module.exports = () => {
             setTimeout(fixed, nextTime);
         }
         setTimeout(fixed, 1000);
-    }, 10000)
+    }, 5000)
 }
