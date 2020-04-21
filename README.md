@@ -12,8 +12,6 @@
 
    [【普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    【Docker部署】
-### 开源说明
-    探针源码会在改版完成后开放出来
   
 ### 目录介绍
     /bin  启动文件目录
