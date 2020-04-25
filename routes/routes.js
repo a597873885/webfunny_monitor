@@ -2,7 +2,7 @@ const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,Htt
 
 
 const createRoutes = (router) => {
-    /**
+     /**
      * 日志相关处理
      */
     // 用户上传日志
@@ -234,10 +234,17 @@ const createRoutes = (router) => {
     router.post('/getHttpCountByMinute', HttpLogInfoController.getHttpCountByMinute);
     // 根据加载时间分类
     router.post('/getHttpCountForLoadTimeGroupByDay', HttpLogInfoController.getHttpCountForLoadTimeGroupByDay);
+    // 根据页面加载时间分类
+    router.post('/getPageCountForLoadTimeGroupByDay', LoadPageInfoController.getPageCountForLoadTimeGroupByDay);
     // 获取分类列表
     router.post('/getHttpUrlListForLoadTime', HttpLogInfoController.getHttpUrlListForLoadTime);
+    // 获取分类列表
+    router.post('/getPageUrlListForLoadTime', LoadPageInfoController.getPageUrlListForLoadTime);
     // 获取接口影响人数
     router.post('/getHttpUrlUserCount', HttpLogInfoController.getHttpUrlUserCount);
+    // 获取页面影响人数
+    router.post('/getPageUrlUserCount', LoadPageInfoController.getPageUrlUserCount);
+    router.post('/getDifferentKindAvgLoadTimeListByHour', LoadPageInfoController.getDifferentKindAvgLoadTimeListByHour);
     // 获取接口发生的页面
     router.post('/getPagesByHttpUrl', HttpLogInfoController.getPagesByHttpUrl);
     // 获取24小时分布
@@ -345,7 +352,6 @@ const createRoutes = (router) => {
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
-
 }
 
 module.exports = {
