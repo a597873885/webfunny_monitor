@@ -12,6 +12,13 @@
 
    [【普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    【Docker部署】
+  
+### 目录介绍
+    /bin  启动文件目录
+    /config 配置文件目录
+    /routes 路由配置目录
+    /schema 数据库结构目录
+    /views 前端静态文件目录
    
 ### 联系作者
    微信号：webfunny_2020
