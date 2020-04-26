@@ -1,4 +1,5 @@
 const CreateConfig = require("./createConfig")
+const { days } = require("../bin/saveDays")
 /**
  * 这是用户的私人配置文件。
  * @param purchaseCode 注册码。
@@ -17,6 +18,8 @@ const accountInfo = {
     ///////////////////////////////
 
     targetEmail: CreateConfig.email, // 目标邮箱（接收警报的邮箱）
+
+    saveDays: days, // 日志保存周期
 
     showPurchaseList: 1
 }
