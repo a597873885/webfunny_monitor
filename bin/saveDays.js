@@ -1,3 +1,3 @@
 module.exports = {
-    days: 8
-  }
+  saveDays: '8',
+}
