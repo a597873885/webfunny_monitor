@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "pre_start": "node ./bin/webfunny.js --BUILD_ENV local",
-    "prd": "node config_db_local.js && node config.js && pm2 start bin/webfunny.js",
-    "prd_restart": "pm2 restart webfunny",
+    "prd": "node config_db_local.js && node config.js && pm2 start bin/webfunny.js && pm2 log webfunny",
+    "prd_restart": "pm2 restart webfunny && pm2 flush",
     "easy_start": "npm install && node config_db_easy.js && node config.js && npm run pre_start",
     "local_start": "npm install && node config_db_local.js && node config.js && npm run pre_start"
   },

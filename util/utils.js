@@ -2,7 +2,8 @@ require("./extension")
 const myAtob = require("atob")
 const crypto = require('crypto')
 const nodemailer = require('nodemailer');
-module.exports = {
+// const localDb = require('../config/local_db')
+const Utils = {
   isObject(obj) {
     return (Object.prototype.toString.call(obj) == '[object Object]');
   },
@@ -88,6 +89,17 @@ module.exports = {
     })
     return result
   },
+  parseCookies: function (s) {
+    const tempStr = s.replace(/ /g, "")
+    const sArr = tempStr.split(";")
+    const tempObj = {}
+    for (let i = 0; i < sArr.length; i ++) {
+      const key = sArr[i].split("=")[0]
+      const value = sArr[i].split("=")[1]
+      tempObj[key] = value
+    }
+    return tempObj
+  },
   b64EncodeUnicode: function(str) {
     return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
       return String.fromCharCode("0x" + p1)
@@ -104,12 +116,16 @@ module.exports = {
 
   },
   md5Encrypt: function(encryptString) {
-    // let hash = crypto.createHash('md5');
-    // return hash.update(encryptString).digest('base64');
+    // try {
+    //   let hash = crypto.createHash('md5');
+    //   return hash.update(encryptString).digest('base64');
+    // } catch(e) {
+    //   return ""
+    // }
     return encryptString
   },
   sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
-    const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
     if (!reg.test(sourceEmail) || !reg.test(toEmail)) return
     let transporter = nodemailer.createTransport({
       host: "smtp.163.com",
@@ -129,25 +145,27 @@ module.exports = {
       html: html // html body
     });
   },
-  sendEmail: (email, subject, html) => {
-    let transporter = nodemailer.createTransport({
-      host: "smtp.163.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
-      auth: {
-        user: "***", // generated ethereal user
-        pass: "***" // generated ethereal password
-      }
-    });
-    // send mail with defined transport object
-    transporter.sendMail({
-      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
-      to: email, // list of receivers
-      subject: subject, // Subject line
-      text: html, // plain text body
-      html: html // html body
-    });
-  },
+  // sendEmail: (email, subject, html) => {
+  //   const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+  //   if (!reg.test(email)) return
+  //   let transporter = nodemailer.createTransport({
+  //     host: "smtp.163.com",
+  //     port: 465,
+  //     secure: true, // true for 465, false for other ports
+  //     auth: {
+  //       user: localDb.emailConfig.user, // generated ethereal user
+  //       pass: localDb.emailConfig.pass // generated ethereal password
+  //     }
+  //   });
+  //   // send mail with defined transport object
+  //   transporter.sendMail({
+  //     from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
+  //     to: email, // list of receivers
+  //     subject: subject, // Subject line
+  //     text: html, // plain text body
+  //     html: html // html body
+  //   });
+  // },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
   },
@@ -181,3 +199,5 @@ module.exports = {
     Utils.quickSortForObject(arr, key, i+1, end);
   }
 }
+
+module.exports = Utils

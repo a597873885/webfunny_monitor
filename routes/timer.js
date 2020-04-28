@@ -43,22 +43,36 @@ module.exports = () => {
                     log.printInfo("即将重启服务....")
                     console.log("即将重启服务....")
                     Common.restartServer()
-                } else if (hourTimeStr == "00:10:00") {
+                    return
+                }
+                if (hourTimeStr == "00:10:00") {
                     // 凌晨0点10分重新计算昨天的分析数据
                     Common.calculateCountByDay(-1)
                     Common.calculateCountByDayForTenMinutes(-1)
-                } else if (hourTimeStr == "02:00:00") {
+                } 
+                if (hourTimeStr == "02:00:00") {
                     // 凌晨2点开始删除过期的数据库表
                     Common.startDelete()
-                } else if (minuteTimeStr == "01:00") {
+                }
+                if (minuteTimeStr == "01:00") {
                     // 每小时的第一分钟，开始执行小时分析结果
                     Common.calculateCountByHour(1)
-                } else if (minuteTimeStr == "05:00") {
+                }
+                if (minuteTimeStr == "05:00") {
                     // 每小时的第5分钟，计算一次今天的分析结果
                     Common.calculateCountByDay(0)
-                } else if (minuteTimeStr.substring(1) == "0:00") {
+                }
+                if (minuteTimeStr.substring(1) == "0:00") {
                     // 每隔10分钟，对一些实时数据进行计算
                     Common.calculateCountByDayForTenMinutes(0, minuteTimeStr)
+                }
+                if (minuteTimeStr.substring(3) == "00") {
+                    // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0
+                    global.monitorInfo.logCountInMinuteList.push(global.monitorInfo.logCountInMinute)
+                    global.monitorInfo.logCountInMinute = 0
+                    if (global.monitorInfo.logCountInMinuteList.length > 60) {
+                        global.monitorInfo.logCountInMinuteList.shift()
+                    }
                 }
             } catch(e) {
                 log.printError("定时器执行报错：", e)
@@ -66,5 +80,5 @@ module.exports = () => {
             setTimeout(fixed, nextTime);
         }
         setTimeout(fixed, 1000);
-    }, 10000)
+    }, 5000)
 }

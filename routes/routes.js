@@ -2,7 +2,7 @@ const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,Htt
 
 
 const createRoutes = (router) => {
-    /**
+     /**
      * 日志相关处理
      */
     // 用户上传日志
@@ -32,6 +32,8 @@ const createRoutes = (router) => {
     router.post('/getErrorInfo', Common.getErrorInfo);
     // 获取警报信息
     router.post('/getWarningMsg', Common.getWarningMsg);
+    // 获服务并发日志量
+    router.post('/getConcurrencyByMinuteInHour', Common.getConcurrencyByMinuteInHour);
 
 
     /**
@@ -49,10 +51,14 @@ const createRoutes = (router) => {
     router.get('/project/detail', ProjectController.getProjectDetail);
     // 更新启动列表
     router.get('/project/updateStartList', ProjectController.updateStartList);
+    // 更新探针代码
+    router.get('/project/updateMonitorCode', ProjectController.updateMonitorCode);
     // 获取所有应用列表
     router.get('/project/list/all', ProjectController.getAllProjectList);
     // 获取所有应用列表详情
     router.get('/project/detailList', ProjectController.getProjectDetailList);
+    // 查询所有项目的实时UV信息
+    router.get('/project/getProjectInfoInRealTime', ProjectController.getProjectInfoInRealTime);
     // 创建新的监控项目
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目
@@ -89,6 +95,8 @@ const createRoutes = (router) => {
     router.post('/getTodayFlowDataByTenMin', CustomerPVController.getTodayFlowDataByTenMin);
     // 立即刷新每天的流量数据 
     router.post('/getTodayFlowData', CustomerPVController.getTodayFlowData);
+    // 获取7天的平均pv数据 
+    router.post('/getAvgPvInSevenDay', CustomerPVController.getAvgPvInSevenDay);
     // 获取日活量
     router.post('/getCustomerCountByTime', CustomerPVController.getCustomerCountByTime);
     // 获取24小时内每小时PV量
@@ -107,6 +115,8 @@ const createRoutes = (router) => {
     router.post('/getPvCountByMinute', CustomerPVController.getPvCountByMinute);
     // 获取每分钟的PV量
     router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
+    // 获取每分钟的PV量
+    router.post('/getAliveCusInRealTime', CustomerPVController.getAliveCusInRealTime);
     // 获取城市top10数量列表
     router.post('/getVersionCountOrderByCount', CustomerPVController.getVersionCountOrderByCount);
     // 获取城市top10数量列表
@@ -224,10 +234,19 @@ const createRoutes = (router) => {
     router.post('/getHttpCountByMinute', HttpLogInfoController.getHttpCountByMinute);
     // 根据加载时间分类
     router.post('/getHttpCountForLoadTimeGroupByDay', HttpLogInfoController.getHttpCountForLoadTimeGroupByDay);
+    // 根据页面加载时间分类
+    router.post('/getPageCountForLoadTimeGroupByDay', LoadPageInfoController.getPageCountForLoadTimeGroupByDay);
     // 获取分类列表
     router.post('/getHttpUrlListForLoadTime', HttpLogInfoController.getHttpUrlListForLoadTime);
+    // 获取分类列表
+    router.post('/getPageUrlListForLoadTime', LoadPageInfoController.getPageUrlListForLoadTime);
     // 获取接口影响人数
     router.post('/getHttpUrlUserCount', HttpLogInfoController.getHttpUrlUserCount);
+    // 获取页面影响人数
+    router.post('/getPageUrlUserCount', LoadPageInfoController.getPageUrlUserCount);
+    router.post('/getDifferentKindAvgLoadTimeListByHour', LoadPageInfoController.getDifferentKindAvgLoadTimeListByHour);
+    // 获取接口发生的页面
+    router.post('/getPagesByHttpUrl', HttpLogInfoController.getPagesByHttpUrl);
     // 获取24小时分布
     router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
     // 获取24小时分布
@@ -269,12 +288,11 @@ const createRoutes = (router) => {
     // 生成验证码
     router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
 
-    router.get('/searchUserBehaviorsForExample', Common.searchUserBehaviorsForExample)
-
-    router.get('/searchCustomerInfoForExample', Common.searchCustomerInfoForExample)
-
     //创建配置
     router.post('/createConfig', Common.createConfig)
+    router.post('/changeLogServerStatus', Common.changeLogServerStatus)
+    router.post('/changeWaitCounts', Common.changeWaitCounts)
+    router.get('/getLogServerStatus', Common.getLogServerStatus)
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
@@ -334,7 +352,6 @@ const createRoutes = (router) => {
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
-
 }
 
 module.exports = {

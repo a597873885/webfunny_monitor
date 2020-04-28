@@ -16,19 +16,20 @@ var CreateConfig = require("../config/createConfig")
 var port = normalizePort(process.env.PORT || CreateConfig.localServerPort);
 // app.set('port', port);
 
+app.listen(port);
 /**
  * Create HTTP server.
  */
 
-var server = http.createServer(app.callback());
+// var server = http.createServer(app.callback());
 
-/**
- * Listen on provided port, on all network interfaces.
- */
+// /**
+//  * Listen on provided port, on all network interfaces.
+//  */
 
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
+// server.listen(port);
+// server.on('error', onError);
+// server.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.
@@ -94,22 +95,6 @@ function onListening() {
 var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
-app.use(serveStatic("./views/webfunny"));
+app.use(serveStatic("./views"));
 app.listen(CreateConfig.localAssetsPort);
-
-// const openUrl = "http://localhost:8010/home.html"
-// switch (process.platform) {
-//   //mac系统使用 一下命令打开url在浏览器
-//   case "darwin":
-//       exec(`open ${openUrl}`);
-//       break;
-//   //win系统使用 一下命令打开url在浏览器
-//   case "win32":
-//       exec(`start ${openUrl}`);
-//       break;
-//       // 默认mac系统
-//   default:
-//       exec(`open ${openUrl}`);
-//       break;
-// }
 
