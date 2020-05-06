@@ -8,4 +8,4 @@
 
 3. 监控系统会使用两个端口号：8010、8011 ;
 
-所以生成容器的时候也需要映射两个端口号出来，例如： docker container run -p 8010:8010 -p 8011:8011 -it webfunny_monitor /bin/bash
+注意事项：所以生成容器的时候也需要映射两个端口号出来，例如： docker container run -p 8010:8010 -p 8011:8011 -it webfunny_monitor /bin/bash
