@@ -8,6 +8,8 @@
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
+链接: https://pan.baidu.com/s/1EsOIYVLJAPIhN73exvCHaQ  密码: 80b7
+
 ### 第二步、配置数据库连接
 #### 1. 安装 Mysql 数据库
 #### 2. 创建数据库
