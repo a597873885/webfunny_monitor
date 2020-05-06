@@ -1,3 +1,5 @@
+[【部署后遇到问题】](http://www.webfunny.cn/website/faq.html) 请在github上给我提问。
+
 ### 基础环境
 安装NodeJS，版本号：10.6.0及以上
 ### 第一步、下载最新部署包
