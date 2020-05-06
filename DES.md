@@ -19,7 +19,7 @@
   在db_local.js文件的上部找到变量名：defaultConfig，然后配置您数据库的相关信息。
 ### 第三步、尝试运行起来  
 #### 1. 把生产环境中，云服务器IP地址配置上去
-在webfunny_monitor/config/目录下找到端口配置文件：createConfig.js，里边有对应域名进行配置
+在webfunny_monitor/bin/目录下找到端口配置文件：domain.js，里边有对应域名进行配置
 
 本地环境：![image](http://www.webfunny.cn/website/src/assets/img/course/setting.jpg)
 
