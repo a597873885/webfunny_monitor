@@ -7,8 +7,6 @@
   
 ### 了解作品  
 
-   <a href="http://www.webfunny.cn/website/home.html" target="_blank">【功能简介】</a>
-   
    [【功能简介】](http://www.webfunny.cn/website/home.html) | [【演示效果】](http://www.webfunny.cn/demo/home.html) | [【关于开源】](http://www.webfunny.cn/website/faq.html?tab=2)
 
 ### 部署方式
