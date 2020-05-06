@@ -3,9 +3,6 @@
 ### 第一步、下载最新部署包
   1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
-  或者直接百度云下载：
-  
-  链接: https://pan.baidu.com/s/1SpbnjgaXvoey1XejJ1OHsQ  密码: mq10
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
@@ -19,7 +16,7 @@
   在db_local.js文件的上部找到变量名：defaultConfig，然后配置您数据库的相关信息。
 ### 第三步、尝试运行起来  
 #### 1. 把生产环境中，云服务器IP地址配置上去
-在webfunny_monitor/config/目录下找到端口配置文件：createConfig.js，里边有对应域名进行配置
+在webfunny_monitor/bin/目录下找到端口配置文件：domain.js，里边有对应域名进行配置
 
 本地环境：![image](http://www.webfunny.cn/website/src/assets/img/course/setting.jpg)
 
@@ -53,7 +50,7 @@
 ### 第四步、更改端口号(非必须)
 如非必要，不建议您更改端口号。
 
-在webfunny_monitor/config/目录下找到端口配置文件：createConfig.js，里边有对应的端口号，您可以对其进行调整
+在webfunny_monitor/bin/目录下找到端口配置文件：domain.js，里边有对应的端口号，您可以对其进行调整
 
 ### 第五步、启动消息队列(非必须)
 #### 1. 安装RabbitMq（建议您在云服务器上部署完成后再执行此步骤）
@@ -66,4 +63,4 @@
     【小提示】：消息队列不易安装成功，如果中途出现问题，可以选择重启或者初始化云服务器。
 #### 2. 配置消息队列
 
-   RabbitMq 安装完成后，在 webfunny_monitor/config/createConfig.js 文件中找到变量名：messageQueue，将此变量的值设置为：true, 重启服务即可
+   RabbitMq 安装完成后，在 webfunny_monitor/bin/messageQueue.js 文件中找到变量名：messageQueue，将此变量的值设置为：true, 重启服务即可
