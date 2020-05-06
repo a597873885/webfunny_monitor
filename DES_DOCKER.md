@@ -1,3 +1,5 @@
+[【部署后遇到问题】](http://www.webfunny.cn/website/faq.html) | [【自定义警报配置】](http://www.webfunny.cn/website/api.html) |  正常情况下，1个小时以后出分析数据，不要着急
+
 ### Docker部署方式
 
 运维部署非我强项，我这里只能提供方法，仅供参考。
