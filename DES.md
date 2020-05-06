@@ -5,7 +5,7 @@
 
   或者直接百度云下载：
   
-  链接: https://pan.baidu.com/s/1uMZOkHhLI6_iDLuNeLdI8g  密码: memb
+  链接: https://pan.baidu.com/s/1SpbnjgaXvoey1XejJ1OHsQ  密码: mq10
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
