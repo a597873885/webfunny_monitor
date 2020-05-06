@@ -48,6 +48,12 @@ const CustomerPV = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'browserVersion'
     },
+    // 浏览器版信息
+    browserInfo: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'browserInfo'
+    },
     // 用户的IP
     monitorIp: {
       type: DataTypes.STRING(50),

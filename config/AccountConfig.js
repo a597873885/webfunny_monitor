@@ -1,5 +1,8 @@
-const CreateConfig = require("./createConfig")
 const { saveDays } = require("../bin/saveDays")
+const { purchaseCode } = require("../bin/purchaseCode")
+const { messageQueue } = require("../bin/messageQueue")
+const { webfunnyNeedLogin } = require("../bin/webfunnyNeedLogin")
+const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort } = require("../bin/domain")
 /**
  * 这是用户的私人配置文件。
  * @param purchaseCode 注册码。
@@ -8,20 +11,21 @@ const { saveDays } = require("../bin/saveDays")
  * 暂时仅支持163邮箱
  */
 const accountInfo = {
-    purchaseCode: CreateConfig.purchaseCode, // 激活码
-    messageQueue: CreateConfig.messageQueue, // 消息队列默认关闭，需手动开启。 前提：1. 安装RabbitMq; 2. 需创建订阅版激活码
-    ////////////////////////////////
 
-    sourceEmail: CreateConfig.email, // 163邮箱
-    sourcePassword: CreateConfig.emailPassword, // 163邮箱密码
+    localServerDomain,   // 日志服务域名 
+    localServerPort,     // 日志服务端口号
 
-    ///////////////////////////////
+    localAssetsDomain,   // 数据可视化服务域名
+    localAssetsPort,     // 可视化系统端口号
 
-    targetEmail: CreateConfig.email, // 目标邮箱（接收警报的邮箱）
+    purchaseCode,                   // 激活码
+    messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
 
-    saveDays: saveDays, // 日志保存周期
+    saveDays,                       // 日志保存周期
+    webfunnyNeedLogin,              // 前端是否验证登录状态
+                                           // 开启登录验证后，只能看到自己创建的项目。
+                                           // 不开启登录验证，可以看到所有的项目列表。
 
-    showPurchaseList: 1
 }
 
 /**

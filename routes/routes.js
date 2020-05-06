@@ -2,7 +2,7 @@ const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,Htt
 
 
 const createRoutes = (router) => {
-     /**
+    /**
      * 日志相关处理
      */
     // 用户上传日志
@@ -289,9 +289,9 @@ const createRoutes = (router) => {
     router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
 
     //创建配置
-    router.post('/createConfig', Common.createConfig)
     router.post('/changeLogServerStatus', Common.changeLogServerStatus)
     router.post('/changeWaitCounts', Common.changeWaitCounts)
+    router.post('/changeSaveDays', Common.changeSaveDays)
     router.get('/getLogServerStatus', Common.getLogServerStatus)
 
     // 连接线上用户
@@ -352,6 +352,7 @@ const createRoutes = (router) => {
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
+
 }
 
 module.exports = {

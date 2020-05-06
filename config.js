@@ -1,4 +1,4 @@
-const { localServerDomain, localAssetsDomain, localServerPort } = require('./config/createConfig')
+const { localServerDomain, localAssetsDomain, localServerPort } = require('./bin/domain')
 
 /**
   * 配置日志服务的域名!!!

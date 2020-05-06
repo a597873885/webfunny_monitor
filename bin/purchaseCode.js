@@ -1,3 +1,3 @@
 module.exports = {
-            purchaseCode: 'AAAABBBBCCCCDDDD',
+            purchaseCode: 'LKR1DJJZUDKNKOVZQKCZ',
           }
