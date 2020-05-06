@@ -6,6 +6,7 @@
    监控系统目前还处于初期版本，瑕疵难免，我们也在紧锣密鼓地进行版本迭代，请大家保持更新即可。
   
 ### 了解作品  
+   <a target="_blank" href="http://www.webfunny.cn/website/home.html">【功能简介】</a>
    [【功能简介】](http://www.webfunny.cn/website/home.html) | [【演示效果】](http://www.webfunny.cn/demo/home.html) | [【关于开源】](http://www.webfunny.cn/website/faq.html?tab=2)
 
 ### 部署方式
