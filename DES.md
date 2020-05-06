@@ -3,9 +3,6 @@
 ### 第一步、下载最新部署包
   1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
-  或者直接百度云下载：
-  
-  链接: https://pan.baidu.com/s/1SpbnjgaXvoey1XejJ1OHsQ  密码: mq10
 
 2. 在webfunny_monitor的根目录下执行命令$：npm install
 
