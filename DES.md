@@ -1,4 +1,4 @@
-[【部署后遇到问题】](http://www.webfunny.cn/website/faq.html) | [【自定义警报配置】](http://www.webfunny.cn/website/api.html) | 正常情况下，1个小时以后出分析数据
+[【部署后遇到问题】](http://www.webfunny.cn/website/faq.html) | [【自定义警报配置】](http://www.webfunny.cn/website/api.html) |  正常情况下，1个小时以后出分析数据，不要着急
 
 ### 基础环境
 安装NodeJS，版本号：10.6.0及以上
