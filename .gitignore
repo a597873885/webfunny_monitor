@@ -10,7 +10,6 @@ dist
 log
 .DS_Store
 npm-debug.*
-package-lock.json
 node_modules
 dist
 *.swp
