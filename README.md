@@ -11,9 +11,9 @@
 
 ### 部署方式
 
-   [【1.普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
+   [【Pm2普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md)
    
-   [【2.Docker部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md) |
+   [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
    
    [【部署后遇到问题】](http://www.webfunny.cn/website/faq.html)
   
