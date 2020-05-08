@@ -5,7 +5,7 @@ const { accountInfo } = AccountConfig
 /**
  * 定时任务
  */
-module.exports = () => {
+module.exports = (customerWarningCallback) => {
     /**
      * 3秒后开始接收消息队列里的数据
      * */
@@ -65,6 +65,9 @@ module.exports = () => {
                 if (minuteTimeStr.substring(1) == "0:00") {
                     // 每隔10分钟，对一些实时数据进行计算
                     Common.calculateCountByDayForTenMinutes(0, minuteTimeStr)
+
+                    // 每隔10分钟，检查一遍所有的统计信息，并通知用户的回调方法
+                    Common.checkAnalysisData(customerWarningCallback)
                 }
                 if (minuteTimeStr.substring(3) == "00") {
                     // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0

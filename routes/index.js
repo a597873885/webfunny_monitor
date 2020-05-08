@@ -2,6 +2,7 @@ const Router = require('koa-router')
 const { Common } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
 const { createRoutesFail } = require("./routesFail");
+const { customerWarningCallback } = require("../config/customerWarning");
 const timerTask = require("./timer");
 global.monitorInfo = {
     userIdArray: [],
@@ -26,7 +27,7 @@ const router = new Router({
 Common.checkPurchase(() => {
     createRoutes(router)
     // 启动定时任务
-    timerTask()
+    timerTask(customerWarningCallback)
 }, () => {
     createRoutesFail(router)
     Common.consoleInfo()

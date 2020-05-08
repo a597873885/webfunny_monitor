@@ -7,13 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
-var CreateConfig = require("../config/createConfig")
+var { accountInfo } = require("../config/AccountConfig")
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || CreateConfig.localServerPort);
+var port = normalizePort(process.env.PORT || accountInfo.localServerPort);
 // app.set('port', port);
 
 app.listen(port);
@@ -96,5 +96,5 @@ var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
 app.use(serveStatic("./views"));
-app.listen(CreateConfig.localAssetsPort);
+app.listen(accountInfo.localAssetsPort);
 
