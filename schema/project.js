@@ -48,7 +48,7 @@ const Project = function (sequelize, DataTypes) {
     },
     // 监控代码
     monitorCode: {
-      type: DataTypes.TEXT,
+      type: DataTypes.TEXT('medium'),
       allowNull: true,
       field: 'monitorCode'
     },
