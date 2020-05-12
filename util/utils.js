@@ -145,27 +145,27 @@ const Utils = {
       html: html // html body
     });
   },
-  // sendEmail: (email, subject, html) => {
-  //   const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
-  //   if (!reg.test(email)) return
-  //   let transporter = nodemailer.createTransport({
-  //     host: "smtp.163.com",
-  //     port: 465,
-  //     secure: true, // true for 465, false for other ports
-  //     auth: {
-  //       user: localDb.emailConfig.user, // generated ethereal user
-  //       pass: localDb.emailConfig.pass // generated ethereal password
-  //     }
-  //   });
-  //   // send mail with defined transport object
-  //   transporter.sendMail({
-  //     from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
-  //     to: email, // list of receivers
-  //     subject: subject, // Subject line
-  //     text: html, // plain text body
-  //     html: html // html body
-  //   });
-  // },
+  sendEmail: (email, subject, html) => {
+    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    if (!reg.test(email)) return
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: {
+        user: localDb.emailConfig.user, // generated ethereal user
+        pass: localDb.emailConfig.pass // generated ethereal password
+      }
+    });
+    // send mail with defined transport object
+    transporter.sendMail({
+      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
+      to: email, // list of receivers
+      subject: subject, // Subject line
+      text: html, // plain text body
+      html: html // html body
+    });
+  },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
   },
@@ -197,6 +197,27 @@ const Utils = {
     arr[i] = tmp;
     Utils.quickSortForObject(arr, key, begin, i-1);
     Utils.quickSortForObject(arr, key, i+1, end);
+  },
+  toFixed(tempNum, s) {
+    let num = tempNum
+    const times = Math.pow(10, s)
+    if (num < 0) {
+      num = Math.abs(num)//先把负数转为正数，然后四舍五入之后再转为负数
+      const des = parseInt(num * times + 0.5, 10) / times
+      return -des
+    }
+    const des = parseInt(num * times + 0.5, 10) / times
+    let finalDes = des
+    const tempDes = des + ""
+    if (tempDes.indexOf(".") !== -1) {
+      const start = tempDes.split(".")[0]
+      let end = tempDes.split(".")[1]
+      if (end.length > s) {
+        end = end.substring(0, 2)
+      }
+      finalDes = start + "." + end
+    }
+    return parseFloat(finalDes)
   }
 }
 
