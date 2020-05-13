@@ -23,9 +23,9 @@
 #### 1. 把生产环境中，云服务器IP地址配置上去
 在webfunny_monitor/bin/目录下找到端口配置文件：domain.js，里边有对应域名进行配置
 
-本地环境示例：![image](http://www.webfunny.cn/website/src/assets/img/course/setting.jpg)
+本地环境示例：![image](http://www.webfunny.cn/website/src/assets/img/course/setting.png)
 
-生产环境示例：![image](http://www.webfunny.cn/website/src/assets/img/course/proSetting.jpg)
+生产环境示例：![image](http://www.webfunny.cn/website/src/assets/img/course/proSetting.png)
 
 配置完成后，保证以下地址能够访问成功。
 
