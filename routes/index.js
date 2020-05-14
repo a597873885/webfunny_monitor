@@ -2,7 +2,7 @@ const Router = require('koa-router')
 const { Common } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
 const { createRoutesFail } = require("./routesFail");
-const { customerWarningCallback } = require("../config/customerWarning");
+const { customerWarningCallback } = require("../interceptor/customerWarning");
 const timerTask = require("./timer");
 global.monitorInfo = {
     userIdArray: [],
