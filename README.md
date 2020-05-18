@@ -6,7 +6,7 @@
   
 ### 了解作品  
 
-   [【功能简介】](http://www.webfunny.cn/home.html) | 
+   [【功能简介】](http://www.webfunny.cn/home.html?source=github) | 
    [【演示效果】](http://www.webfunny.cn/demo/home.html) | 
    [【关于开源】](http://www.webfunny.cn/faq.html?tab=2) | 
    [【关于捐赠】](http://www.webfunny.cn/faq.html?tab=3)
