@@ -4,7 +4,8 @@
  */
 const handleResultWhenResourceError = (res) => {
     // console.log(res) // 打印查看其他字段
-    const {webMonitorId} = res
+    const {webMonitorId, sourceUrl, simpleUrl, happenDate} = res
+    // 下方书写自己的逻辑
 }
 
 module.exports = handleResultWhenResourceError
