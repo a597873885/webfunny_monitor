@@ -52,6 +52,14 @@
 
 【注意】：linux系统，需要在项目根目录下执行命令$：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限。否则可能无法自动创建每天的数据库表
 
+### 第三.1步、配置报警信息
+webfunny提供了自定义报警拦截功能，需要使用者修改代码，以实现钉钉、短信、邮箱等报警方式，配置目录如下：
+
+    ① /interceptor/customerWarning.js  每隔10分钟会调用一次
+    ② /interceptor/httpRequest.js 每次上报接口日志，都会调用这个方法
+    ③ /interceptor/javascriptError.js 每次发生js报错，都会调用这个方法
+    ④ /interceptor/resourceError.js 每次发生静态资源报错，都会调用这个方法
+
 ### 第四步、更改端口号(非必须)
 如非必要，不建议您更改端口号。
 
