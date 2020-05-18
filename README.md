@@ -20,6 +20,7 @@
 ### 目录介绍
     /bin  启动文件目录
     /config 配置文件目录
+    /interceptor 报警拦截器目录
     /routes 路由配置目录
     /schema 数据库结构目录
     /views 前端静态文件目录
