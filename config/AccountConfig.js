@@ -1,4 +1,5 @@
 const { saveDays } = require("../bin/saveDays")
+const mysqlConfig = require("../bin/mysqlConfig")
 const { purchaseCode } = require("../bin/purchaseCode")
 const { messageQueue } = require("../bin/messageQueue")
 const { webfunnyNeedLogin } = require("../bin/webfunnyNeedLogin")
@@ -25,7 +26,7 @@ const accountInfo = {
     webfunnyNeedLogin,              // 前端是否验证登录状态
                                            // 开启登录验证后，只能看到自己创建的项目。
                                            // 不开启登录验证，可以看到所有的项目列表。
-
+    mysqlConfig
 }
 
 /**
