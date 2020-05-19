@@ -2,12 +2,14 @@
 
 ### Docker部署方式
 
-运维部署非我强项，我这里只能提供方法，仅供参考。
+目前还无法发布云版本，所以需要使用者自己生成image文件，进行docker部署
 
-1. 项目内我增加了dockerfile, 想使用docker部署版, 请自行打包image文件。
+1. 项目内我增加了dockerfile, 生成image文件，执行命令$: docker image build -t webfunny_monitor
 
-2. image文件打包方法，请参考[docker入门 阮一峰](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)。
+2. 生成容器，执行命令$: docker container run -p 8010:8010 -p 8011:8011 -it webfunny_monitor
 
-3. 监控系统会使用两个端口号：8010、8011 ;
+        监控系统会使用两个端口号：8010、8011 ，所以需要映射出来;
 
-注意事项：所以生成容器的时候也需要映射两个端口号出来，例如： docker container run -p 8010:8010 -p 8011:8011 -it webfunny_monitor /bin/bash
+3. 你可以自己将镜像文件发布到云上，然后再使用。
+
+其他操作，请参考[docker入门 阮一峰](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)。
