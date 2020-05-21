@@ -5,7 +5,7 @@
 ### 第一步、下载最新部署包
   1. 在本地执行Git命令拉取代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
-  或者百度云下载，链接: https://pan.baidu.com/s/1JfjrmerGsrMtEoe1nf-f1A  密码: okc4
+  如果GitHub拉取太慢，可以尝试使用码云地址$：git clone https://gitee.com/webfunnyMonitor/webfunny_monitor.git
   
   2. 在webfunny_monitor的根目录下执行命令$：npm install
 
