@@ -22,6 +22,8 @@ const UPLOAD_TYPE = {
     NEW_COUNT_DAY: "new_count_day",  // 一天的新访客数量
     PV_COUNT_DAY: "pv_count_day",  // 一天的PV数量
     IP_COUNT_DAY: "ip_count_day",  // 一天的IP数量
+
+    UV_YESTERDAY_PER: "uv_yesterday_per", // 次日留存率
 }
 const PROJECT_INFO = {
     PROJECT_VERSION: "1.0.3",

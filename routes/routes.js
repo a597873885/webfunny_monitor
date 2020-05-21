@@ -91,6 +91,8 @@ const createRoutes = (router) => {
     router.delete('/customerPV/:id', CustomerPVController.delete);
     // 更改PV
     router.put('/customerPV/:id', CustomerPVController.update);
+    // 获取一个月内，每天的uv数量
+    router.post('/uvCountForMonth', CustomerPVController.uvCountForMonth);
     // 获取每天的流量数据 
     router.post('/getTodayFlowDataByTenMin', CustomerPVController.getTodayFlowDataByTenMin);
     // 立即刷新每天的流量数据 
@@ -127,6 +129,9 @@ const createRoutes = (router) => {
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
     // 获取七天留存数量
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
+    // 次日留存率
+    router.post('/getYesterdayLeftPercent', CustomerPVController.getYesterdayLeftPercent);
+    
 
 
 

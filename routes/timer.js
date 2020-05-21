@@ -48,7 +48,7 @@ module.exports = (customerWarningCallback) => {
                 if (hourTimeStr == "00:10:00") {
                     // 凌晨0点10分重新计算昨天的分析数据
                     Common.calculateCountByDay(-1)
-                    Common.calculateCountByDayForTenMinutes(-1)
+                    Common.calculateCountByDayForTenMinutes(1)
                 } 
                 if (hourTimeStr == "02:00:00") {
                     // 凌晨2点开始删除过期的数据库表
