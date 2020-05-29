@@ -1,18 +1,13 @@
 const Koa = require('koa')
 // 路由
-const json = require('koa-json')
-const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const httpRoute = require('./routes')
 const wsRoute = require('./routes/ws')
-const err = require('./middlreware/error')
 const log = require("./config/log")
-let WebSocket = require("koa-websocket");
+let WebSocket = require("koa-websocket")
+const statusCode = require('./util/status-code')
 const app = WebSocket(new Koa())
-// error handler
-onerror(app)
 
-app.use(err())
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", "*")
     ctx.set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
@@ -30,26 +25,20 @@ app.use(bodyparser({
     jsonLimit: "5mb",
     textLimit: "5mb"
 }))
-app.use(json())
-// app.use(logger())
 
 app.use(async (ctx, next) => {
     const start = new Date()
-    // await next()
-    // const ms = new Date() - start
-    // console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
     let ms = 0
     try {
         //开始进入到下一个中间件
         await next();
         ms = new Date() - start
-        //记录响应日志
-        // log.info(ctx, ms);
     } catch (error) {
         //记录异常日志
         log.error(ctx, error, ms);
+        ctx.response.status = 500;
+        ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
     }
-    // console.log(`${ctx.req.method} ${ctx.req.url} - ${ms}ms`)
 })
 
 // routes

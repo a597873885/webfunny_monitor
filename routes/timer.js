@@ -1,4 +1,4 @@
-const { Common } = require("../controllers/controllers.js")
+const { Common, TimerCalculateController } = require("../controllers/controllers.js")
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
@@ -18,8 +18,10 @@ module.exports = (customerWarningCallback) => {
      * 2秒后开始进行第一次分析
      * */
     setTimeout(() => {
-        Common.calculateCountByHour(1)
-    }, 2000)
+        TimerCalculateController.calculateCountByHour(1)
+
+        // TimerCalculateController.calculateCountByDay(0)
+    }, 5000)
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
@@ -47,7 +49,7 @@ module.exports = (customerWarningCallback) => {
                 }
                 if (hourTimeStr == "00:10:00") {
                     // 凌晨0点10分重新计算昨天的分析数据
-                    Common.calculateCountByDay(-1)
+                    TimerCalculateController.calculateCountByDay(-1)
                     Common.calculateCountByDayForTenMinutes(1)
                 } 
                 if (hourTimeStr == "02:00:00") {
@@ -56,11 +58,11 @@ module.exports = (customerWarningCallback) => {
                 }
                 if (minuteTimeStr == "01:00") {
                     // 每小时的第一分钟，开始执行小时分析结果
-                    Common.calculateCountByHour(1)
+                    TimerCalculateController.calculateCountByHour(1)
                 }
                 if (minuteTimeStr == "05:00") {
                     // 每小时的第5分钟，计算一次今天的分析结果
-                    Common.calculateCountByDay(0)
+                    TimerCalculateController.calculateCountByDay(0)
                 }
                 if (minuteTimeStr.substring(1) == "0:00") {
                     // 每隔10分钟，对一些实时数据进行计算

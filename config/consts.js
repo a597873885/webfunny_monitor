@@ -24,6 +24,9 @@ const UPLOAD_TYPE = {
     IP_COUNT_DAY: "ip_count_day",  // 一天的IP数量
 
     UV_YESTERDAY_PER: "uv_yesterday_per", // 次日留存率
+
+    LOCATION_POINT_TYPE: "l_p_", // 埋点类型前缀
+    LOCATION_UV_TYPE: "l_u_", // 埋点UV类型前缀
 }
 const PROJECT_INFO = {
     PROJECT_VERSION: "1.0.3",

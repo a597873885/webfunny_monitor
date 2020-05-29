@@ -1,4 +1,4 @@
-const {HttpLogInfoController,ScreenShotInfoController,BehaviorInfoController,HttpErrorInfoController,EmailCodeController,ExtendBehaviorInfoController,IgnoreErrorController,LoadPageInfoController,ProjectController,ResourceLoadInfoController,VideosInfoController,CustomerPVController,JavascriptErrorInfoController,Common} = require("../controllers/controllers.js")
+const {HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,DailyActivityController,ExtendBehaviorInfoController,IgnoreErrorController,LoadPageInfoController,EmailCodeController,FailController,LocationPointTypeController,InfoCountByHourController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,FunnelController,JavascriptErrorInfoController,ProjectController,CustomerPVController,TimerCalculateController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -125,6 +125,8 @@ const createRoutes = (router) => {
     router.post('/getCityCountOrderByCount', CustomerPVController.getCityCountOrderByCount);
     // 获取设备top10数量列表
     router.post('/getDeviceCountOrderByCount', CustomerPVController.getDeviceCountOrderByCount);
+    // 获取系统版本top10数量列表
+    router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
     // 查询用户的访问列表，分页
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
     // 获取七天留存数量
@@ -256,6 +258,30 @@ const createRoutes = (router) => {
     router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
     // 获取24小时分布
     router.post('/getHttpUrlCountForHourByMinutes', HttpLogInfoController.getHttpUrlCountForHourByMinutes);
+
+    /**
+     * 埋点数据相关
+     */
+    // 创建埋点大分类
+    router.post('/createLocationPointType', LocationPointTypeController.create);
+    // 获取大分类列表
+    router.post('/getLocationPointTypeList', LocationPointTypeController.getLocationPointTypeList)
+    // 删除大分类
+    router.post('/deleteLocationPointType', LocationPointTypeController.delete)
+    // 获取一个月内，每天的埋点数量
+    router.post('/locationPointCountForMonth', LocationPointController.locationPointCountForMonth);
+    router.post("/getLocationPointForDay", LocationPointController.getLocationPointForDay)
+    router.post("/getFunnelLeftCountForDay", LocationPointController.getFunnelLeftCountForDay)
+
+    // 创建漏斗分类
+    router.post('/createFunnelType', FunnelController.create);
+    router.post('/getFunnelList', FunnelController.getFunnelList)
+    router.post('/deleteFunnel', FunnelController.delete)
+    
+
+    // 埋点上报接口
+    router.post('/upBp', LocationPointController.createLocationPoint)
+    router.get('/upBp', LocationPointController.createLocationPointForGet)
 
 
     /**
