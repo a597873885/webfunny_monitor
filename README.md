@@ -13,9 +13,11 @@
 
 ### 部署方式
 
-   [【Pm2普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
-   [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md) | 
+   [【普通部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    [【部署后遇到问题】](http://www.webfunny.cn/website/faq.html)
+
+### 容器化部署
+[【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
   
 ### 目录介绍
     /bin  启动文件目录
