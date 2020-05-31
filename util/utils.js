@@ -1,9 +1,11 @@
 require("./extension")
 const myAtob = require("atob")
-const crypto = require('crypto')
-const nodemailer = require('nodemailer');
-// const localDb = require('../config/local_db')
+const fetch = require('node-fetch')
+const timeout = 300000
 const Utils = {
+  isArray(object) {
+    return Object.prototype.toString.call(object) === "[object Array]"
+  },
   isObject(obj) {
     return (Object.prototype.toString.call(obj) == '[object Object]');
   },
@@ -58,6 +60,28 @@ const Utils = {
       CurrentDate = CurrentDate + "0" + day;
     }
     return CurrentDate;
+  },
+  qs(object, cache) {
+    const arr = []
+    function inner(innerObj, prefix) {
+      for (const prop in innerObj) {
+        if (!innerObj.hasOwnProperty(prop)) return
+        const textValue = innerObj[prop]
+        if (!Utils.isArray(textValue)) {
+          if (Utils.isObject(textValue)) inner(textValue, prefix ? prefix + "." + prop : prop)
+          else arr.push(encodeURIComponent((prefix ? prefix + "." : "") + prop) + "=" + encodeURIComponent(textValue || ""))
+        } else {
+          textValue.forEach((val) => {
+            arr.push(encodeURIComponent((prefix ? prefix + "." : "") + prop + "[]") + "=" + encodeURIComponent(val || ""))
+          })
+        }
+      }
+    }
+    inner(object, "")
+    if (cache && !object._) {
+      arr.push("_=" + encodeURIComponent(BUILD_NO))
+    }
+    return arr.length ? "?" + arr.join("&") : ""
   },
   parseQs: function (s) {
     const index = s.indexOf("?")
@@ -124,48 +148,6 @@ const Utils = {
     // }
     return encryptString
   },
-  sendEmailFromCustomer: (sourceEmail, password, subject, html, toEmail) => {
-    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
-    if (!reg.test(sourceEmail) || !reg.test(toEmail)) return
-    let transporter = nodemailer.createTransport({
-      host: "smtp.163.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
-      auth: {
-        user: sourceEmail, // generated ethereal user
-        pass: password // generated ethereal password
-      }
-    });
-    // send mail with defined transport object
-    transporter.sendMail({
-      from: '"邮箱报警服务" <' + sourceEmail + '>', // sender address
-      to: toEmail, // list of receivers
-      subject: subject, // Subject line
-      text: html, // plain text body
-      html: html // html body
-    });
-  },
-  sendEmail: (email, subject, html) => {
-    const reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
-    if (!reg.test(email)) return
-    let transporter = nodemailer.createTransport({
-      host: "smtp.163.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
-      auth: {
-        user: localDb.emailConfig.user, // generated ethereal user
-        pass: localDb.emailConfig.pass // generated ethereal password
-      }
-    });
-    // send mail with defined transport object
-    transporter.sendMail({
-      from: '"邮箱验证码" <jiang1125712@163.com>', // sender address
-      to: email, // list of receivers
-      subject: subject, // Subject line
-      text: html, // plain text body
-      html: html // html body
-    });
-  },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
   },
@@ -218,6 +200,112 @@ const Utils = {
       finalDes = start + "." + end
     }
     return parseFloat(finalDes)
+  },
+  get(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "GET"
+    const fetchUrl = url + Utils.qs(params)
+    const fetchParams = Object.assign({}, { method }, this.getHeaders())
+    return Utils.handleFetchData(fetchUrl, fetchParams, httpCustomerOperation)
+  },
+  post(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "POST"
+    const body = JSON.stringify(params)
+    const fetchParams = Object.assign({}, { method, body }, this.getHeaders())
+    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
+  },
+  getJson(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "GET"
+    const fetchUrl = url + Utils.qs(params)
+    const fetchParams = Object.assign({}, { method }, this.getHeadersJson())
+    return Utils.handleFetchData(fetchUrl, fetchParams, httpCustomerOperation)
+  },
+  postJson(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "POST"
+    const body = JSON.stringify(params)
+    const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
+    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
+  },
+  handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
+    // 如果是照片的base64数据，ios系统会卡死
+    // TODO: debugPanel不使用react
+    const logParams = { ...fetchParams }
+    if (logParams.body && logParams.body.length > 1024) {
+      logParams.body = logParams.body.substr(0, 1024) + "..."
+    }
+    httpCustomerOperation.isFetched = false
+    httpCustomerOperation.isAbort = false
+    // 处理自定义的请求头
+    if (httpCustomerOperation.hasOwnProperty("customHead")) {
+      const { customHead } = httpCustomerOperation
+      fetchParams.headers = Object.assign({}, fetchParams.headers, customHead)
+    }
+    const fetchPromise = new Promise((resolve, reject) => {
+      fetch(fetchUrl, fetchParams).then(
+        response => {
+          if (httpCustomerOperation.isAbort) {
+            // 请求超时后，放弃迟到的响应
+            return
+          }
+          httpCustomerOperation.isFetched = true
+          response.json().then(jsonBody => {
+            if (response.ok) {
+              if (jsonBody.status) {
+                // 业务逻辑报错
+                reject(Utils.handleResult(jsonBody, httpCustomerOperation))
+              } else {
+                resolve(Utils.handleResult(jsonBody, httpCustomerOperation))
+              }
+            } else {
+              reject(Utils.handleResult({ fetchStatus: "error", netStatus: response.status }, httpCustomerOperation))
+            }
+          }).catch(e => {
+            const errMsg = e.name + " " + e.message
+            reject(Utils.handleResult({ fetchStatus: "error", error: errMsg, netStatus: response.status }, httpCustomerOperation))
+          })
+        }
+      ).catch(e => {
+        const errMsg = e.name + " " + e.message
+        if (httpCustomerOperation.isAbort) {
+          // 请求超时后，放弃迟到的响应
+          return
+        }
+        httpCustomerOperation.isFetched = true
+        reject(Utils.handleResult({ fetchStatus: "error", error: errMsg }, httpCustomerOperation))
+      })
+    })
+    return Promise.race([fetchPromise, Utils.fetchTimeout(httpCustomerOperation)])
+  },
+  handleResult(result, httpCustomerOperation) {
+    return result
+  },
+  fetchTimeout(httpCustomerOperation) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (!httpCustomerOperation.isFetched) {
+          // 还未收到响应，则开始超时逻辑，并标记fetch需要放弃
+          httpCustomerOperation.isAbort = true
+          reject({ fetchStatus: "timeout" })
+        }
+      }, httpCustomerOperation.timeout || timeout)
+    })
+  },
+  getHeaders() {
+    // 需要通过app来获取
+    const fetchCommonParams = {
+      // "mode": "cors",
+      // "credentials": "same-origin"
+    }
+    const headers = {
+      // "Accept": "*/*",
+      // "Content-Type": "application/json;charset=utf-8",
+    }
+    return Object.assign({}, fetchCommonParams, { headers })
+  },
+  getHeadersJson() {
+    const headers = {
+      "Content-Type": "application/json;charset=utf-8"
+    }
+    return Object.assign({}, { headers })
   }
 }
 
