@@ -18,6 +18,9 @@ const createRoutes = (router) => {
     router.post('/uploadExtendLog', Common.uploadExtendLog);
     router.post('/extendBehavior', ExtendBehaviorInfoController.create);
 
+    // 更新激活码
+    router.post('/createPurchaseCode', FailController.createPurchaseCode);
+
     // 立邦的开关逻辑
     router.get('/data', Common.liBangData);
 
@@ -384,7 +387,6 @@ const createRoutes = (router) => {
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
-
 }
 
 module.exports = {
