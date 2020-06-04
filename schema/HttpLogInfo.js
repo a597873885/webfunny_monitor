@@ -26,7 +26,7 @@ const HttpLogInfo = function (sequelize, DataTypes) {
     },
     // 接口耗时
     loadTime: {
-      type: DataTypes.STRING(13),
+      type: DataTypes.BIGINT,
       allowNull: true,
       field: 'loadTime'
     },
