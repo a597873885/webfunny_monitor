@@ -1,4 +1,4 @@
-const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort } = require('./bin/domain')
+const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, mainDomain } = require('./bin/domain')
 
 if (localServerDomain.indexOf("http://") != -1 || localServerDomain.indexOf("https://") != -1) {
   console.log("\x1b[91m%s\x1b[0m", "域名配置不要加上 http协议前缀，标准格式为：//www.baidu.com 或者 //www.baidu.com:8011")
@@ -20,14 +20,14 @@ if (localServerPort != "8011" || localAssetsPort != "8010") {
   * 默认是demo域名：demo_server_domain
   * 本地或线上请使用：local_server_domain
   */
-const default_api_server_url = localServerDomain
+const default_api_server_url = "//" + localServerDomain
 
 /**
   * 配置可视化平台的域名!!!
   * 本地请使用 "localhost"
   */
 // 默认为本地部署
-const default_assets_url = localAssetsDomain
+const default_assets_url = "//" + localAssetsDomain
 
 /*
  * 删除文件夹下所有文件
@@ -104,15 +104,26 @@ stat = fs.stat;
 delDir("./views/webfunny")
 fs.mkdir( "./views/webfunny", function(err){
   if ( err ) { 
-    console.log("文件夹 /views/webfunny 已经存在")
+    console.log("= 文件夹 /views/webfunny 已经存在")
   } else {
-    console.log("创建文件夹 /views/webfunny")
+    console.log("= 创建文件夹 /views/webfunny")
   }
 });
+// 生成探针开始
+console.log("===========================")
+console.log("= 正在生成探针代码，请稍等...")
+const webfunnyJsPath = "./lib/webfunny.min.js"
+const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
+const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
+                        .replace(/&&&www.webfunny.cn&&&/g, default_api_server_url)
+                        .replace(/&&&webfunny.cn&&&/g, mainDomain);
+const webfunnyJsTargePath = "./views/webfunny/w.js"
+fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
+console.log("= 探针代码创建完成！")
+
+// 生成探针结束
 copy("./views/resource/", "./views/webfunny")
-console.log("===========================")
-console.log("= 正在执行编译，请等待... =")
-console.log("===========================")
+console.log("= 正在执行编译，请稍等...")
 setTimeout(function() {
   let path = './views/webfunny/js';
   let files = fs.readdirSync(path);
@@ -125,10 +136,9 @@ setTimeout(function() {
           let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
-            console.log(files[i] + "  接口域名配置成功！");
+            console.log("= " + files[i] + "  接口域名配置成功！");
           });
         }
     })
   }
-
 }, 3000)

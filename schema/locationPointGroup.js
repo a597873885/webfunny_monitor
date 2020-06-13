@@ -1,5 +1,5 @@
-const LocationPointTypes = function (sequelize, DataTypes) {
-  return sequelize.define('LocationPointTypes', {
+const LocationPointGroup = function (sequelize, DataTypes) {
+  return sequelize.define('LocationPointGroup', {
     // ID 主键
     id: {
       type: DataTypes.INTEGER,
@@ -7,17 +7,23 @@ const LocationPointTypes = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
-    // 埋点名称
-    locationPointName: {
-      type: DataTypes.STRING(10),
+    // 埋点分组名称
+    groupName: {
+      type: DataTypes.STRING(100),
       allowNull: true,
-      field: 'locationPointName'
+      field: 'groupName'
     },
-    // 埋点描述
-    locationPointDes: {
+    // 埋点分组描述
+    groupDes: {
       type: DataTypes.TEXT,
       allowNull: true,
-      field: 'locationPointDes'
+      field: 'groupDes'
+    },
+    // 分组排序索引
+    orderIndex: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'orderIndex'
     }
   }, {
     // 如果为 true 则表的名称和 model 相同，即 user
@@ -30,5 +36,5 @@ const LocationPointTypes = function (sequelize, DataTypes) {
 
 }
 //exports//
-module.exports = LocationPointTypes
+module.exports = LocationPointGroup
 //exports//

@@ -1,4 +1,4 @@
-const {HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,DailyActivityController,ExtendBehaviorInfoController,IgnoreErrorController,LoadPageInfoController,EmailCodeController,FailController,LocationPointTypeController,InfoCountByHourController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,FunnelController,JavascriptErrorInfoController,ProjectController,CustomerPVController,TimerCalculateController,Common} = require("../controllers/controllers.js")
+const {HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,DailyActivityController,ExtendBehaviorInfoController,EmailCodeController,FunnelController,FailController,InfoCountByHourController,IgnoreErrorController,LoadPageInfoController,LocationPointTypeController,LocationPointController,LocationPointGroupController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,CustomerPVController,TimerCalculateController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -265,6 +265,13 @@ const createRoutes = (router) => {
     /**
      * 埋点数据相关
      */
+    // 创建埋点分组
+    router.post('/createLocationPointGroup', LocationPointGroupController.create);
+    router.post('/getGroupNameList', LocationPointGroupController.getGroupNameList);
+    router.post("/getLocationPointGroupList", LocationPointGroupController.getLocationPointGroupList)
+    router.post("/deleteLocationPointGroup", LocationPointGroupController.delete)
+
+
     // 创建埋点大分类
     router.post('/createLocationPointType', LocationPointTypeController.create);
     // 获取大分类列表
@@ -382,11 +389,16 @@ const createRoutes = (router) => {
     // 查询某一天的使用UV数量
     router.post('/getUvCountForDay', CustomerPVController.getUvCountForDay);
 
+    /**
+     * Docker 心跳检测
+     */
+    router.get('/health', Common.dockerHealth);
 
     /**
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
+
 }
 
 module.exports = {
