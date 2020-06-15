@@ -12,4 +12,7 @@
 
 3. 你可以自己将镜像文件发布到云上，然后再使用。
 
+4. 心跳检测地址： 域名 + /server/health
+
+
 其他操作，请参考[docker入门 阮一峰](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)。
