@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
+var compression = require('compression')
 var { accountInfo } = require("../config/AccountConfig")
 
 /**
@@ -95,6 +96,7 @@ function onListening() {
 var connect = require("connect");
 var serveStatic = require("serve-static");
 var app = connect();
+app.use(compression())
 app.use(serveStatic("./views"));
 app.listen(accountInfo.localAssetsPort);
 

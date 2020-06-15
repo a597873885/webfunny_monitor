@@ -24,6 +24,7 @@
     "amqplib": "^0.5.3",
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "connect": "^3.7.0",
     "crypto": "^1.0.1",
     "debug": "^2.6.3",
@@ -52,9 +53,9 @@
     "pug": "^2.0.0-rc.1",
     "sequelize": "^5.19.6",
     "serve-static": "^1.14.1",
+    "source-map": "^0.5.6",
     "util": "^0.11.0",
-    "webfunny-monitor": "^1.1.6",
-    "source-map": "^0.5.6"
+    "webfunny-monitor": "^1.1.6"
   },
   "devDependencies": {
     "child_process": "^1.0.2",
