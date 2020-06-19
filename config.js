@@ -1,13 +1,13 @@
 const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, mainDomain } = require('./bin/domain')
 
 if (localServerDomain.indexOf("http://") != -1 || localServerDomain.indexOf("https://") != -1) {
-  console.log("\x1b[91m%s\x1b[0m", "域名配置不要加上 http协议前缀，标准格式为：//www.baidu.com 或者 //www.baidu.com:8011")
+  console.log("\x1b[91m%s\x1b[0m", "域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8011")
   return
 }
 
 if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("https://") != -1) {
   console.log("\x1b[91m%s\x1b[0m", "域名配置异常")
-  console.log("域名配置不要加上 http协议前缀，标准格式为：//www.baidu.com 或者 //www.baidu.com:8010")
+  console.log("域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8010")
   return
 }
 
