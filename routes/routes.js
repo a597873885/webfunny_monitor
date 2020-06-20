@@ -333,8 +333,8 @@ const createRoutes = (router) => {
     router.post('/changeLogServerStatus', Common.changeLogServerStatus)
     router.post('/changeWaitCounts', Common.changeWaitCounts)
     router.post('/changeSaveDays', Common.changeSaveDays)
-    router.post('/saveMysqlConfigs', Common.saveMysqlConfigs)
-    router.get('/getLogServerStatus', Common.getLogServerStatus)
+    router.post('/saveMysqlConfigsForNew', Common.saveMysqlConfigs)
+    router.get('/getLogServerStatusForNew', Common.getLogServerStatus)
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
