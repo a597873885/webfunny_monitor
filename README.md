@@ -44,7 +44,7 @@
     |     |—— purchaseCode.js                  * 激活码配置文件
     |     |—— saveDays.js                      * 日志存储周期配置文件
     |     |—— webfunny.js                      * 服务启动文件
-    |     |—— webfunnyNeedLogin.js             * 监控系统是否需要登录
+    | 
     |
     |——config/                                 * 基础配置目录（使用者可以不用关注）
     |
