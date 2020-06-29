@@ -1,4 +1,4 @@
-const {HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,DailyActivityController,ExtendBehaviorInfoController,EmailCodeController,FunnelController,FailController,InfoCountByHourController,IgnoreErrorController,LoadPageInfoController,LocationPointTypeController,LocationPointController,LocationPointGroupController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,CustomerPVController,TimerCalculateController,Common} = require("../controllers/controllers.js")
+const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,TimerCalculateController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -9,21 +9,28 @@ const createRoutes = (router) => {
     router.post('/upLog', Common.upLog);
     // 用户上传debug日志
     router.post('/upDLog', Common.upDLog);
-    // 用户上传日志到消息队列
-    // router2.post('/upLog', Common.upLogForRabbitMq);
-    // 用户上传录屏信息
-    // router.post('/upDebugLog', Common.upDebugLog);
-
     // 上传拓展日志
     router.post('/uploadExtendLog', Common.uploadExtendLog);
+    // 拓展行为日志
     router.post('/extendBehavior', ExtendBehaviorInfoController.create);
+
+    /**
+     * 登录相关逻辑
+     */
+    // 登录
+    router.post('/login', UserController.login);
+    // 发送注册验证码
+    router.post('/sendRegisterEmail', UserController.sendRegisterEmail);
+    // 给管理员发送确认邮件
+    router.post('/registerCheck', UserController.registerCheck);
+    // 管理员注册接口
+    router.post('/registerForAdmin', UserController.registerForAdmin);
+    
+    // 注册用户
+    router.get('/register', UserController.register);
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);
-
-    // 立邦的开关逻辑
-    router.get('/data', Common.liBangData);
-
     /**
      * Common 逻辑接口
      */

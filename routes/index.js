@@ -5,14 +5,16 @@ const { createRoutesFail } = require("./routesFail");
 const { customerWarningCallback } = require("../interceptor/customerWarning");
 const timerTask = require("./timer");
 global.monitorInfo = {
+    registerEmailCode: {},
     userIdArray: [],
     debugInfoArray: [],
     debugTimer: null,
     debugInfo: {},
-    logServerStatus: true, 
-    waitCounts: 40,  
-    logCountInMinute: 0,
-    logCountInMinuteList: []
+    logServerStatus: true, // 日志服务状态
+    waitCounts: 40,   // 日志等待上报的时间间隔，可以调整日志上报的密度（40代表8s上报一次）
+    logCountInMinute: 0, // 每分钟的日志量
+    logCountInMinuteList: [], // 每分钟日志量数组
+    errorLogListForLast200: [],  // 存放最近200条报错日志
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -32,6 +34,5 @@ Common.checkPurchase(() => {
     createRoutesFail(router)
     Common.consoleInfo()
 })
-
 
 module.exports = router

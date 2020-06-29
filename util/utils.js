@@ -1,6 +1,7 @@
 require("./extension")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
+const uuid = require('node-uuid')
 const timeout = 300000
 const Utils = {
   isArray(object) {
@@ -306,6 +307,36 @@ const Utils = {
       "Content-Type": "application/json;charset=utf-8"
     }
     return Object.assign({}, { headers })
+  },
+
+  /**
+   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
+   */
+  sendEmail: (email, subject, html) => {
+
+
+    const user = "" // 163邮箱地址
+    const pass = "" // 老账号用密码， 新账号用安全码
+
+
+    const company = "webfunny.cn"
+    let transporter = nodemailer.createTransport({
+      host: "smtp.163.com",
+      port: 465,
+      secure: true, // true for 465, false for other ports
+      auth: { user,pass }
+    });
+    // send mail with defined transport object
+    transporter.sendMail({
+      from: "'" + company + "' <" + user + ">", // sender address
+      to: email, // list of receivers
+      subject: subject, // Subject line
+      text: html, // plain text body
+      html: html // html body
+    });
+  },
+  getUuid() {
+    return uuid.v1()
   }
 }
 
