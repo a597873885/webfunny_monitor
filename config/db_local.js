@@ -3,6 +3,7 @@ const defaultConfig = require("../bin/mysqlConfig")
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize(defaultConfig.dataBaseName, defaultConfig.userName, defaultConfig.password, {
   host: defaultConfig.ip,
+  port: defaultConfig.port,
   dialect: 'mysql',
   logging: (sql) => {
     // 这里处理sql的日志，暂时不打印
