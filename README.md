@@ -27,6 +27,10 @@
 
    [【正常部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
+   
+### 联系作者
+
+   <img width=150 src="http://www.webfunny.cn/src/assets/img/wx_add.jpeg"/>
 
 ### 目录结构
 ```
