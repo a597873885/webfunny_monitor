@@ -19,6 +19,8 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // 忘记密码
+    router.post('/forgetPwd', UserController.forgetPwd);
     // 发送注册验证码
     router.post('/sendRegisterEmail', UserController.sendRegisterEmail);
     // 给管理员发送确认邮件

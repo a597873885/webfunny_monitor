@@ -7,6 +7,12 @@ const LocationPointGroup = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
+    // 用户唯一标识
+    userId: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'userId'
+    },
     // 埋点分组名称
     groupName: {
       type: DataTypes.STRING(100),

@@ -27,7 +27,13 @@ const UPLOAD_TYPE = {
 
     LOCATION_POINT_TYPE: "l_p_", // 埋点类型前缀
     LOCATION_UV_TYPE: "l_u_", // 埋点UV类型前缀
+
 }
+
+const USER_INFO = {
+    USER_TYPE_ADMIN: "admin", // 管理员类型
+}
+
 const PROJECT_INFO = {
     PROJECT_VERSION: "1.0.3",
     MONITOR_VERSION: "1.0.0"
@@ -35,5 +41,6 @@ const PROJECT_INFO = {
 
 module.exports = {
     UPLOAD_TYPE,
+    USER_INFO,
     PROJECT_INFO
 }

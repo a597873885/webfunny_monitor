@@ -6,6 +6,7 @@ const { accountInfo } = AccountConfig
  * 定时任务
  */
 module.exports = (customerWarningCallback) => {
+    Common.consoleInfo()
     /**
      * 3秒后开始接收消息队列里的数据
      * */
@@ -24,7 +25,6 @@ module.exports = (customerWarningCallback) => {
     }, 5000)
     /** * 定时任务  开始 */
     setTimeout(() => {
-        Common.consoleInfo()
         const startTime = new Date().getTime();
         let count = 0;
         const fixed = () => {
