@@ -107,19 +107,20 @@ fs.mkdir( "./views/webfunny", function(err){
     console.log("= 文件夹 /views/webfunny 已经存在")
   } else {
     console.log("= 创建文件夹 /views/webfunny")
+
+    // 生成探针开始
+    console.log("===========================")
+    console.log("= 正在生成探针代码，请稍等...")
+    const webfunnyJsPath = "./lib/webfunny.min.js"
+    const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
+    const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
+                            .replace(/&&&www.webfunny.cn&&&/g, default_api_server_url)
+                            .replace(/&&&webfunny.cn&&&/g, mainDomain);
+    const webfunnyJsTargePath = "./views/webfunny/w.js"
+    fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
+    console.log("= 探针代码创建完成！")
   }
 });
-// 生成探针开始
-console.log("===========================")
-console.log("= 正在生成探针代码，请稍等...")
-const webfunnyJsPath = "./lib/webfunny.min.js"
-const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
-const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
-                        .replace(/&&&www.webfunny.cn&&&/g, default_api_server_url)
-                        .replace(/&&&webfunny.cn&&&/g, mainDomain);
-const webfunnyJsTargePath = "./views/webfunny/w.js"
-fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
-console.log("= 探针代码创建完成！")
 
 // 生成探针结束
 copy("./views/resource/", "./views/webfunny")
