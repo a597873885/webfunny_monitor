@@ -110,13 +110,13 @@ var fileArray = [
 pathArray.forEach((path, index) => {
     fs.readFile(path, "", (err) => {
         if (err) {
-            console.log( path + " 配置文件不存在，即将创建...")
+            console.log("× " + path + " 配置文件不存在，即将创建...")
             fs.writeFile(path, fileArray[index], (err) => {
                 if (err) throw err;
-                console.log("= " + path + " 配置文件创建完成！");
+                console.log("√ " + path + " 配置文件创建完成！");
             });
         } else {
-            console.log(path + " 配置文件已存在！")
+            console.log("√ " + path + " 配置文件已存在！")
         }
     });
 })

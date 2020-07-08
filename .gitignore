@@ -17,6 +17,7 @@ dist
 .vscode/
 logs/
 bin/*
+config/db.js
 webfunny/
 schema_temp/
 config/local_db.js
