@@ -4,6 +4,7 @@
   "description": "这是webmonitor对应的后台",
   "main": "app.js",
   "scripts": {
+    "create": "node config_bin_create.js",
     "prd": "pm2 stop webfunny | node config_db_local.js && node config.js && pm2 start bin/webfunny.js && pm2 log webfunny",
     "prd_restart": "pm2 restart webfunny && pm2 flush"
   },
