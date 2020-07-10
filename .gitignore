@@ -20,6 +20,4 @@ bin/*
 config/db.js
 webfunny/
 schema_temp/
-config/local_db.js
-webmonitor_short.js
 .eslintrc
