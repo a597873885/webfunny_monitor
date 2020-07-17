@@ -16,5 +16,7 @@
 
 4. 心跳检测地址： 域名 + /server/health
 
+注意：容器配置要给项目根目录下restart.sh 脚本文件执行权限哦。 chmod 755 restart.sh
+
 
 其他操作，请参考[docker入门 阮一峰](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)。
