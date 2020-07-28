@@ -113,16 +113,23 @@ var fileArray = [
     `
 ]
 
-pathArray.forEach((path, index) => {
-    fs.readFile(path, "", (err) => {
-        if (err) {
-            console.log("× " + path + " 配置文件不存在，即将创建...")
-            fs.writeFile(path, fileArray[index], (err) => {
-                if (err) throw err;
-                console.log("√ " + path + " 配置文件创建完成！");
-            });
-        } else {
-            console.log("√ " + path + " 配置文件已存在！")
-        }
-    });
-})
+fs.mkdir( "./bin", function(err){
+  if ( err ) { 
+    console.log("= 文件夹 /bin 已经存在")
+  } else {
+    console.log("= 创建文件夹 /bin")
+  }
+  pathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, fileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
