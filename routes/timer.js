@@ -6,7 +6,6 @@ const { accountInfo } = AccountConfig
  * 定时任务
  */
 module.exports = (customerWarningCallback) => {
-    Common.consoleInfo()
     /**
      * 3秒后开始接收消息队列里的数据
      * */
@@ -19,12 +18,12 @@ module.exports = (customerWarningCallback) => {
      * 2秒后开始进行第一次分析
      * */
     setTimeout(() => {
-        TimerCalculateController.calculateCountByHour(1)
+        // TimerCalculateController.calculateCountByHour(1)
+    }, 2000)
 
-        // TimerCalculateController.calculateCountByDay(0)
-    }, 5000)
     /** * 定时任务  开始 */
     setTimeout(() => {
+        Common.consoleInfo()
         const startTime = new Date().getTime();
         let count = 0;
         const fixed = () => {
@@ -50,23 +49,31 @@ module.exports = (customerWarningCallback) => {
                 if (hourTimeStr == "00:10:00") {
                     // 凌晨0点10分重新计算昨天的分析数据
                     TimerCalculateController.calculateCountByDay(-1)
-                    Common.calculateCountByDayForTenMinutes(1)
+                    // Common.calculateCountByDayForTenMinutes(1)
                 } 
+
+                if (hourTimeStr == "00:12:00") {
+                    // 凌晨0点12分开始创建第二天的数据库表
+                    console.log("开始创建第二天的数据库表...")
+                    Common.createTable()
+                } 
+
                 if (hourTimeStr == "02:00:00") {
                     // 凌晨2点开始删除过期的数据库表
                     Common.startDelete()
                 }
-                if (minuteTimeStr == "01:00") {
-                    // 每小时的第一分钟，开始执行小时分析结果
+                if (minuteTimeStr == "05:00") {
+                    // 每小时的第5分钟，开始执行上一个小时的分析结果
                     TimerCalculateController.calculateCountByHour(1)
                 }
-                if (minuteTimeStr == "05:00") {
-                    // 每小时的第5分钟，计算一次今天的分析结果
+                if (minuteTimeStr == "06:00") {
+                    // 每小时的第6分钟，计算一次今天的分析结果
                     TimerCalculateController.calculateCountByDay(0)
                 }
                 if (minuteTimeStr.substring(1) == "0:00") {
+
                     // 每隔10分钟，对一些实时数据进行计算
-                    Common.calculateCountByDayForTenMinutes(0, minuteTimeStr)
+                    Common.calculateCountByDayForTenMinutes(0)
 
                     // 每隔10分钟，检查一遍所有的统计信息，并通知用户的回调方法
                     Common.checkAnalysisData(customerWarningCallback)

@@ -59,6 +59,8 @@ const createRoutes = (router) => {
     router.get('/projectDetail', ProjectController.detail);
     // 获取应用列表
     router.get('/project/list', ProjectController.getProjectList);
+    // 获取应用列表
+    router.get('/webMonitorIdList', ProjectController.getWebMonitorIdList);
     // 获取应用详情
     router.get('/project/detail', ProjectController.getProjectDetail);
     // 更新启动列表
@@ -77,32 +79,18 @@ const createRoutes = (router) => {
     router.get('/checkProjectCount', ProjectController.checkProjectCount);
 
     /**
-     * 行为信息接口
-     */
-    // 创建文章
-    router.post('/behaviorInfo', BehaviorInfoController.create);
-    // 获取文章列表
-    router.get('/behaviorInfo', BehaviorInfoController.getBehaviorInfoList);
-    // 获取文章详情
-    router.get('/behaviorInfo/:id', BehaviorInfoController.detail);
-    // 删除文章
-    router.delete('/behaviorInfo/:id', BehaviorInfoController.delete);
-    // 更改文章
-    router.put('/behaviorInfo/:id', BehaviorInfoController.update);
-
-    /**
      * 用户访问信息接口
      */
     // 创建PV信息
-    router.post('/customerPV', CustomerPVController.create);
-    // 获取PV列表
-    router.get('/customerPV', CustomerPVController.getCustomerPVList);
-    // 获取PV详情
-    router.get('/customerPV/:id', CustomerPVController.detail);
-    // 删除PV
-    router.delete('/customerPV/:id', CustomerPVController.delete);
-    // 更改PV
-    router.put('/customerPV/:id', CustomerPVController.update);
+    // router.post('/customerPV', CustomerPVController.create);
+    // // 获取PV列表
+    // router.get('/customerPV', CustomerPVController.getCustomerPVList);
+    // // 获取PV详情
+    // router.get('/customerPV/:id', CustomerPVController.detail);
+    // // 删除PV
+    // router.delete('/customerPV/:id', CustomerPVController.delete);
+    // // 更改PV
+    // router.put('/customerPV/:id', CustomerPVController.update);
     // 获取一个月内，每天的uv数量
     router.post('/uvCountForMonth', CustomerPVController.uvCountForMonth);
     // 获取每天的流量数据 
@@ -145,11 +133,6 @@ const createRoutes = (router) => {
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率
     router.post('/getYesterdayLeftPercent', CustomerPVController.getYesterdayLeftPercent);
-    
-
-
-
-
 
     /**
      * 用户加载页面信息接口
@@ -164,6 +147,19 @@ const createRoutes = (router) => {
     router.put('/loadPage/:id', LoadPageInfoController.update);
     // 查询当日页面加载的平均时间
     router.post('/getPageLoadTimeByDate', LoadPageInfoController.getPageLoadTimeByDate);
+    // 根据页面加载时间分类
+    router.post('/getPageCountForLoadTimeGroupByDay', LoadPageInfoController.getPageCountForLoadTimeGroupByDay);
+    // 获取分类列表
+    router.post('/getPageUrlListForLoadTime', LoadPageInfoController.getPageUrlListForLoadTime);
+    // 获取页面影响人数
+    router.post('/getPageUrlUserCount', LoadPageInfoController.getPageUrlUserCount);
+    router.post('/getDifferentKindAvgLoadTimeListByHour', LoadPageInfoController.getDifferentKindAvgLoadTimeListByHour);
+    router.post('/getDifferentKindAvgLoadTimeByHourForPageUrl', LoadPageInfoController.getDifferentKindAvgLoadTimeByHourForPageUrl);
+    
+    // 获取24小时分布
+    router.get('/getPageUrlCountListByHour', LoadPageInfoController.getPageUrlCountListByHour);
+    // 获取24小时分布
+    router.post('/getPageUrlCountForHourByMinutes', LoadPageInfoController.getPageUrlCountForHourByMinutes);
 
     /**
      * JS错误信息接口
@@ -253,17 +249,13 @@ const createRoutes = (router) => {
     router.post('/getHttpCountByMinute', HttpLogInfoController.getHttpCountByMinute);
     // 根据加载时间分类
     router.post('/getHttpCountForLoadTimeGroupByDay', HttpLogInfoController.getHttpCountForLoadTimeGroupByDay);
-    // 根据页面加载时间分类
-    router.post('/getPageCountForLoadTimeGroupByDay', LoadPageInfoController.getPageCountForLoadTimeGroupByDay);
+    
     // 获取分类列表
     router.post('/getHttpUrlListForLoadTime', HttpLogInfoController.getHttpUrlListForLoadTime);
-    // 获取分类列表
-    router.post('/getPageUrlListForLoadTime', LoadPageInfoController.getPageUrlListForLoadTime);
+    
     // 获取接口影响人数
     router.post('/getHttpUrlUserCount', HttpLogInfoController.getHttpUrlUserCount);
-    // 获取页面影响人数
-    router.post('/getPageUrlUserCount', LoadPageInfoController.getPageUrlUserCount);
-    router.post('/getDifferentKindAvgLoadTimeListByHour', LoadPageInfoController.getDifferentKindAvgLoadTimeListByHour);
+    
     // 获取接口发生的页面
     router.post('/getPagesByHttpUrl', HttpLogInfoController.getPagesByHttpUrl);
     // 获取24小时分布
@@ -327,17 +319,6 @@ const createRoutes = (router) => {
     // 
     router.post('/getVideosEvent', VideosInfoController.getVideosEvent)
 
-    // 创建验证码信息
-    router.post('/emailCode', EmailCodeController.create);
-    // 获取加载信息详情
-    router.get('/emailCode/:id', EmailCodeController.detail);
-    // 删除加载信息
-    router.delete('/emailCode/:id', EmailCodeController.delete);
-    // 更改加载信息
-    router.put('/emailCode/:id', EmailCodeController.update);
-    // 生成验证码
-    router.post('/sendEmailCode', EmailCodeController.sendEmailCode);
-
     //创建配置
     router.post('/changeLogServerStatus', Common.changeLogServerStatus)
     router.post('/changeWaitCounts', Common.changeWaitCounts)
@@ -385,11 +366,6 @@ const createRoutes = (router) => {
      * mysql状态
      */
     router.get('/mysqlStatus', Common.checkMysqlStatus);
-
-
-
-    // 测试接口
-    router.get('/testBehaviors', BehaviorInfoController.testBehavior);
 
     
     /**
