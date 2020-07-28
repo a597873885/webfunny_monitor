@@ -31,7 +31,7 @@ var fileArray = [
       },
       // 高性能版支持此属性
       read: [
-        { host: "", username: "", password: "" }
+        // { host: "", username: "", password: "" }
       ]
     }`,
     `module.exports = {
