@@ -7,7 +7,7 @@
 
   如果GitHub拉取太慢，可以尝试使用码云地址$：git clone https://gitee.com/webfunnyMonitor/webfunny_monitor.git
   
-  2. 在webfunny_monitor的根目录下执行命令$：npm install
+  2. 在webfunny_monitor的根目录下执行命令$：npm run init && npm install
 
 
 
@@ -17,8 +17,8 @@
   Navicat是mysql数据的视图工具，用Navicat创建一个数据库，命名为：webfunny_db
   数据库的字符集（Default Character set）请设置为：utf8
 #### 3. 配置数据库连接
-  在webfunny_monitor/config/ 目录下找到数据库配置文件：db_local.js。
-  在db_local.js文件的上部找到变量名：defaultConfig，然后配置您数据库的相关信息。
+  在webfunny_monitor/bin/ 目录下找到数据库配置文件：mysqlConfig.js。
+  在mysqlConfig.js文件的上部找到相关变量名，然后配置您数据库的相关信息。
 ### 第三步、尝试运行起来  
 #### 1. 把生产环境中，云服务器IP地址配置上去
 在webfunny_monitor/bin/目录下找到端口配置文件：domain.js，里边有对应域名进行配置
@@ -50,7 +50,9 @@
 
 #### 3. 添加执行权限
 
-【注意】：linux系统，需要在项目根目录下执行命令$：chmod 755 restart.sh ，给 restart.sh 脚本文件执行权限。否则可能无法自动创建每天的数据库表
+  createTable.sh, restart.sh 这两个脚本可能没有执行权限。
+
+【注意】：linux系统，需要在项目根目录下执行命令$：chmod 755 createTable.sh， chmod 755 restart.sh ，给 createTable.sh, restart.sh 脚本文件执行权限。否则可能无法自动创建每天的数据库表
 
 ### 第三.1步、配置报警信息
 webfunny提供了自定义报警拦截功能，需要使用者修改代码，以实现钉钉、短信、邮箱等报警方式，配置目录如下：
