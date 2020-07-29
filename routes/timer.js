@@ -19,6 +19,8 @@ module.exports = (customerWarningCallback) => {
      * */
     setTimeout(() => {
         // TimerCalculateController.calculateCountByHour(1)
+        // Common.calculateCountByDayForTenMinutes(0)
+        // TimerCalculateController.calculateCountByDay(0)
     }, 2000)
 
     /** * 定时任务  开始 */
@@ -68,6 +70,14 @@ module.exports = (customerWarningCallback) => {
                 }
                 if (minuteTimeStr == "06:00") {
                     // 每小时的第6分钟，计算一次今天的分析结果
+                    TimerCalculateController.calculateCountByDay(0)
+                }
+                if (minuteTimeStr == "33:00") {
+                    // 每小时的第33分钟，开始修复上一个小时的分析结果，因为读写分离数据有可能会延时
+                    TimerCalculateController.calculateCountByHour(1)
+                }
+                if (minuteTimeStr == "36:00") {
+                    // 每小时的第36分钟，开始修复今天的分析结果，因为读写分离有可能数据会延时
                     TimerCalculateController.calculateCountByDay(0)
                 }
                 if (minuteTimeStr.substring(1) == "0:00") {

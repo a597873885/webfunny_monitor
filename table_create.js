@@ -15,6 +15,9 @@ function createTable() {
     
     const CustomerPV = Sequelize.import('./schema_temp/customerPV');
     CustomerPV.sync({force: false});
+
+    const CustomerStayTime = Sequelize.import('./schema_temp/CustomerStayTime');
+    CustomerStayTime.sync({force: false});
     
     const ExtendBehaviorInfo = Sequelize.import('./schema_temp/extendBehaviorInfo');
     ExtendBehaviorInfo.sync({force: false});

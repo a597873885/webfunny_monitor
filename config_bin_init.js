@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
+var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/stayTimeScope.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -39,6 +39,16 @@ var fileArray = [
     }`,
     `module.exports = {
         saveDays: '8',
+    }`,
+    `/**
+      * 用户停留时间，去掉最大值，去掉最小值范围
+      * 
+      * 去掉最小值： 有些用户进来了就离开，可以不考虑在内
+      * 去掉最大值： 有些用户进来了，处于不活跃状态，停留时间会很长，也可以去除
+      */
+    module.exports = {
+        min: 100,     // 最小值
+        max: 100000   // 最大值
     }`,
     `module.exports = {
         useCusEmailSys: false               // 是否使用自己的邮件系统

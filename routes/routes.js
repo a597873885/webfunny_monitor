@@ -133,6 +133,8 @@ const createRoutes = (router) => {
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率
     router.post('/getYesterdayLeftPercent', CustomerPVController.getYesterdayLeftPercent);
+    // 平均停留时长
+    router.post('/getStayTimeForEveryDay', CustomerStayTimeController.getStayTimeForEveryDay);
 
     /**
      * 用户加载页面信息接口

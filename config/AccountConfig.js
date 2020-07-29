@@ -1,4 +1,5 @@
 const { saveDays } = require("../bin/saveDays")
+const stayTimeScope = require("../bin/stayTimeScope")
 const mysqlConfig = require("../bin/mysqlConfig")
 const { purchaseCode } = require("../bin/purchaseCode")
 const { messageQueue } = require("../bin/messageQueue")
@@ -17,6 +18,8 @@ const accountInfo = {
     messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
 
     saveDays,                       // 日志保存周期
+
+    stayTimeScope,                  // 用户停留时间范围
 
     mysqlConfig,
 

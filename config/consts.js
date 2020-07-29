@@ -35,7 +35,7 @@ const UPLOAD_TYPE = {
 
     UV_COUNT_HOUR: "uv_count_hour", // 每小时的唯一uv数量，相加可得总uv
     NEW_COUNT_HOUR: "new_count_hour", // 每小时的唯一新访客数量，相加可得总的新用户数量
-    PV_COUNT_HOUR: "pv", // 每小时的PV数量，相加可得总pv
+    PV_COUNT_HOUR: "pv_count_hour", // 每小时的PV数量，相加可得总pv
     IP_COUNT_HOUR: "ip_count_hour", // 每小时的唯一ip数量，相加可得总IP数量
 
     UV_COUNT_DAY: "uv_count_day",  // 一天的UV数量
@@ -52,6 +52,10 @@ const UPLOAD_TYPE = {
     CITY_COUNT_DAY: "city_count_day",  // 一天的城市数量
     SYSTEM_COUNT_DAY: "system_count_day",  // 一天的系统版本数量
     VERSION_COUNT_DAY: "version_count_day",  // 一天的应用版本数量
+
+
+    STAY_TIME_FOR_HOUR: "s_t_f_h",  // 每小时的平均停留时间
+    STAY_TIME_FOR_DAY: "s_t_f_d",   // 每天的平均停留时间
 
     UV_YESTERDAY_PER: "uv_yesterday_per", // 次日留存率
 
