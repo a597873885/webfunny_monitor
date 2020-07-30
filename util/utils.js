@@ -308,7 +308,16 @@ const Utils = {
     }
     return Object.assign({}, { headers })
   },
-
+  /**
+   * 日志转JOSN
+   *
+   */
+  logParseJson(data) {
+    const paramStr = data.replace(/": Script error\./g, "script error")
+    const param = JSON.parse(paramStr)
+    const { logInfo } = param
+    return logInfo.split("$$$")
+  },
   /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
