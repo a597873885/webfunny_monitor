@@ -25,7 +25,6 @@
 
 ### 部署方式
 
-当前版本有些许问题，请暂停部署
 
    [【正常部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
