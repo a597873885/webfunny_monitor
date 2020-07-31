@@ -4,6 +4,8 @@
 
 目前还无法发布云版本，所以需要使用者自己生成image文件，进行docker部署
 
+【前提条件：需要把普通部署方式跑通了，然后再来生成镜像。】
+
 0. 首先需要运行npm run prd 命令进行编译， 编译完成后才是能够生成镜像的版本
 
 1. 项目内我增加了dockerfile, 生成image文件，执行命令$: docker image build -t webfunny_monitor .
