@@ -30,7 +30,10 @@
 配置完成后，保证以下地址能够访问成功。
 
 1. 探针上报接口：www.baidu.com:8011/server/upLog
+
 2. 数据展示地址：www.baidu.com:8010/webfunny/overview.html
+
+3. 创建数据表地址：http://www.baidu.com:8011/server/webMonitorIdList
 
 #### 2. 尝试在生产环境跑起来
 
