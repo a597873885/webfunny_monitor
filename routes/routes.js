@@ -14,6 +14,9 @@ const createRoutes = (router) => {
     // 拓展行为日志
     router.post('/extendBehavior', ExtendBehaviorInfoController.create);
 
+    // 修复当天数据
+    router.get('/fixData', TimerCalculateController.fixData);
+
     /**
      * 登录相关逻辑
      */
@@ -129,6 +132,9 @@ const createRoutes = (router) => {
     router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
     // 查询用户的访问列表，分页
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
+    // 根据时间查询用户的页面总数
+    router.post('/getPvListTotalCountByTime', CustomerPVController.getPvListTotalCountByTime);
+    
     // 获取七天留存数量
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率

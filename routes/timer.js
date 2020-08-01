@@ -6,7 +6,7 @@ const { accountInfo } = AccountConfig
  * 定时任务
  */
 module.exports = (customerWarningCallback) => {
-    /**
+   /**
      * 3秒后开始接收消息队列里的数据
      * */
     setTimeout(() => {

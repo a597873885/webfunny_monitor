@@ -316,8 +316,12 @@ const Utils = {
     const paramStr = data.replace(/": Script error\./g, "script error")
     const param = JSON.parse(paramStr)
     const { logInfo } = param
+    if (!logInfo) {
+      console.log(param, typeof param)
+    }
     return logInfo.split("$$$")
   },
+
   /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
@@ -346,6 +350,23 @@ const Utils = {
   },
   getUuid() {
     return uuid.v1()
+  },
+  fetchTest() {
+    // fetch原本方法的写法
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Accept": "*/*",
+        "Content-Type": "application/json;charset=utf-8",
+        "access-token": "token"
+      }
+    }).then(res => {
+      res.json()
+    }).then(data => {
+      console.log(data)
+    }).catch(error => {
+      console.log(error.msg)
+    })
   }
 }
 

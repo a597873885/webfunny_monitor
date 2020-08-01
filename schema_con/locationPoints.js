@@ -19,7 +19,13 @@ const getTableProperty = (DataTypes) => {
       type: DataTypes.STRING(100),
       allowNull: true,
       field: 'userId'
-    }
+    },
+    // 发生时间字符串
+    happenDate: {
+      type: DataTypes.DATE,
+      allowNull: true,
+      field: 'happenDate'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user
@@ -33,6 +39,15 @@ const getTableProperty = (DataTypes) => {
         fields: [
           {
             attribute: "userId"
+          }
+        ]
+      },
+      {
+        name: "happenDateIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenDate"
           }
         ]
       }

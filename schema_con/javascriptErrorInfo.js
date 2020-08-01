@@ -103,15 +103,6 @@ const getTableProperty = (DataTypes) => {
         ]
       },
       {
-        name: "webMonitorIdIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "webMonitorId"
-          }
-        ]
-      },
-      {
         name: "customerKeyIndex",
         method: "BTREE",
         fields: [

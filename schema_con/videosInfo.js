@@ -22,15 +22,6 @@ const getTableProperty = (DataTypes) => {
     freezeTableName: true,
     indexes: [
       {
-        name: "webMonitorIdIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "webMonitorId"
-          }
-        ]
-      },
-      {
         name: "customerKeyIndex",
         method: "BTREE",
         fields: [

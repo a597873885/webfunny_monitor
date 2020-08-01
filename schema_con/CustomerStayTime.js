@@ -37,6 +37,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'stayTime'
     },
+    // 离开类型(是否访问单页就离开了)
+    leaveType: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'leaveType'
+    },
     // 发生时间字符串
     happenDate: {
       type: DataTypes.DATE,
