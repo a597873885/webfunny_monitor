@@ -23,9 +23,11 @@
    [【Demo效果】](http://www.webfunny.cn/demo/home.html) | 
    [【关于开源】](http://www.webfunny.cn/faq.html?tab=2)
 
-### 部署方式
+### 压力测试
 
-   当前版本测试中，请暂停部署。
+可支持日活千万级别PV量。
+
+### 私有化部署方式
 
    [【正常部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
    [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
