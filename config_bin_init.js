@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/stayTimeScope.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
+var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -40,6 +40,30 @@ var fileArray = [
     `module.exports = {
         saveDays: '8',
     }`,
+    `var app = require('../app');
+    var { accountInfo } = require("../config/AccountConfig")
+    
+    global.serverType = "slave"
+    
+    var port = normalizePort(process.env.PORT || accountInfo.localServerPort);
+    app.listen(port);
+    
+    function normalizePort(val) {
+      var port = parseInt(val, 10);
+    
+      if (isNaN(port)) {
+        // named pipe
+        return val;
+      }
+    
+      if (port >= 0) {
+        // port number
+        return port;
+      }
+    
+      return false;
+    }
+    `,
     `/**
       * 用户停留时间，去掉最大值，去掉最小值范围
       * 

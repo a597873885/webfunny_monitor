@@ -6,6 +6,7 @@ const { customerWarningCallback } = require("../interceptor/customerWarning");
 const timerTask = require("./timer");
 global.monitorInfo = {
     registerEmailCode: {},
+    webMonitorIdList: [],
     userIdArray: [],
     debugInfoArray: [],
     debugTimer: null,
@@ -28,8 +29,12 @@ const router = new Router({
 // 激活码校验
 Common.checkPurchase(() => {
     createRoutes(router)
-    // 启动定时任务
-    timerTask(customerWarningCallback)
+    // 启动定时任务, 如果是slave模式，则不启动定时器
+    if (global.serverType == "slave") {
+        Common.consoleInfo(global.serverType)
+    } else {
+        timerTask(customerWarningCallback)
+    }
 }, () => {
     createRoutesFail(router)
     Common.consoleInfo()
