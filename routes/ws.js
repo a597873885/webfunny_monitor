@@ -23,12 +23,14 @@ router.get('/wsGetDebugInfo', async function (ctx) {
     // 连接关闭了
     conn.on("close", function (code, reason) {
         global.monitorInfo.debugInfo = {}
+        global.monitorInfo.userIdArray = []
         if (intervalObj) clearInterval(intervalObj)
         console.log("wsGetDebugInfo Connection closed")
     })
     // 必须监控error, 每当浏览器刷新时会断开链接报错
     conn.on("error", function (error) {
         global.monitorInfo.debugInfo = {}
+        global.monitorInfo.userIdArray = []
         if (intervalObj) clearInterval(intervalObj)
         console.log("wsGetDebugInfo Connection error", error)
     })
