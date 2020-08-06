@@ -1,4 +1,4 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,TimerCalculateController,CustomerStayTimeController,Common} = require("../controllers/controllers.js")
+const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -142,6 +142,9 @@ const createRoutes = (router) => {
     // 平均停留时长
     router.post('/getStayTimeForEveryDay', CustomerStayTimeController.getStayTimeForEveryDay);
 
+    // 获取24小时内每小的跳出率
+    router.post('/getCusLeavePercentByHour', CustomerPvLeaveController.getCusLeavePercentByHour);
+    
     /**
      * 用户加载页面信息接口
      */

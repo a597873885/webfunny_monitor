@@ -11,15 +11,17 @@ module.exports = (customerWarningCallback) => {
      * */
     setTimeout(() => {
         if (accountInfo.messageQueue === true) {
+            // 开始接收消息队列的消息
             Common.startReceiveMsg()
         }
+        // 将项目的webMonitorId列表放入全局变量中
+        Common.setWebMonitorIdList()
     }, 3000)
     /**
      * 2秒后开始进行第一次分析
      * */
     setTimeout(() => {
         // TimerCalculateController.calculateCountByHour(1)
-        // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
     }, 2000)
 

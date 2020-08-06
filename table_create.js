@@ -16,6 +16,9 @@ function createTable() {
     const CustomerPV = Sequelize.import('./schema_temp/customerPV');
     CustomerPV.sync({force: false});
 
+    const CustomerPvLeave = Sequelize.import('./schema_temp/CustomerPvLeave');
+    CustomerPvLeave.sync({force: false});
+
     const CustomerStayTime = Sequelize.import('./schema_temp/CustomerStayTime');
     CustomerStayTime.sync({force: false});
     
@@ -160,5 +163,4 @@ function startProgram(proName) {
 }
 
 startProgram(proName)
-
 

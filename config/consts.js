@@ -57,6 +57,9 @@ const UPLOAD_TYPE = {
     STAY_TIME_FOR_HOUR: "s_t_f_h",  // 每小时的平均停留时间
     STAY_TIME_FOR_DAY: "s_t_f_d",   // 每天的平均停留时间
 
+    CUS_LEAVE_FOR_HOUR: "cus_leave_for_hour",  // 每小时的跳出率
+    CUS_LEAVE_FOR_DAY: "cus_leave_for_day",   // 每天的跳出率
+
     UV_YESTERDAY_PER: "uv_yesterday_per", // 次日留存率
 
     LOCATION_POINT_TYPE: "l_p_", // 埋点类型前缀
