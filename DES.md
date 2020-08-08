@@ -76,7 +76,7 @@
 
 配置完成后，浏览器访问以下地址，保证能够访问成功。
 
-    1.项目列表地址，请在控制台执行：curl http://xxx.xxx.xxx.xxx:8011/server/webMonitorIdList 或 http://www.baidu.com:8011/server/webMonitorIdList
+    1.项目列表地址，请在控制台执行：curl http://xxx.xxx.xxx.xxx:8011/server/webMonitorIdList 或 curl http://www.baidu.com:8011/server/webMonitorIdList
 
     2.数据展示地址，请在浏览器访问：http://xxx.xxx.xxx.xxx:8010/webfunny/overview.html 或 http://www.baidu.com:8010/webfunny/overview.html
 
@@ -96,7 +96,7 @@
     }
 配置完成后，浏览器访问以下地址，保证能够访问成功。
 
-    1.项目列表地址：http://www.baidu.com/server/webMonitorIdList
+    1.项目列表地址，请在控制台执行：curl http://www.baidu.com/server/webMonitorIdList
 
     2.数据展示地址：http://www.baidu.com/webfunny/overview.html
 
