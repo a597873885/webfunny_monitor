@@ -1,8 +1,7 @@
 var fs = require('fs');
 const utils = require('./util/utils')
 const log = require("./config/log");
-const fetch = require('node-fetch')
-const { localServerDomain } = require('./bin/domain')
+const webMonitorIdList = require('./bin/webMonitorIdList')
 var argv = process.argv
 var commandLine = ""
 var start = 0
@@ -30,22 +29,9 @@ const handleCommandLine = (projectList) => {
   })
 }
 
-fetch("http://" + localServerDomain + "/server/webMonitorIdList")
-.then( res => res.text())
-.then( body => {
-  let response = JSON.parse(body)
-  const projectList = response.data
-  handleCommandLine(projectList)
-}).catch(() => {
-  // 如果http协议访问不通，则尝试使用https协议
-  fetch("https://" + localServerDomain + "/server/webMonitorIdList")
-  .then( res => res.text())
-  .then( body => {
-    let response = JSON.parse(body)
-    const projectList = response.data
-    handleCommandLine(projectList)
-  }).catch(() => {
-    log.printError("创建数据库表过程中，项目列表接口访问不通，无法生成对应的数据库表！")
-    console.log("创建数据库表过程中，项目列表接口访问不通，无法生成对应的数据库表！")
-  })
-});
+if (webMonitorIdList.length) {
+  handleCommandLine(webMonitorIdList)
+} else {
+  log.printError("未能查询到你的应用列表，无法创建对应的数据库表，请检查bin/webMonitorIdList.js文件")
+}
+

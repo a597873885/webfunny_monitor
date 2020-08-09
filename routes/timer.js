@@ -6,7 +6,7 @@ const { accountInfo } = AccountConfig
  * 定时任务
  */
 module.exports = (customerWarningCallback) => {
-   /**
+     /**
      * 3秒后开始接收消息队列里的数据
      * */
     setTimeout(() => {
@@ -14,7 +14,7 @@ module.exports = (customerWarningCallback) => {
             // 开始接收消息队列的消息
             Common.startReceiveMsg()
         }
-        // 将项目的webMonitorId列表放入全局变量中
+        // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
         Common.setWebMonitorIdList()
     }, 3000)
     /**
@@ -22,6 +22,7 @@ module.exports = (customerWarningCallback) => {
      * */
     setTimeout(() => {
         // TimerCalculateController.calculateCountByHour(1)
+        // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
     }, 2000)
 

@@ -6,7 +6,7 @@
   "scripts": {
     "init": "node config_bin_init.js",
     "slave": "pm2 stop slave | pm2 delete slave | node config_db_local.js && pm2 start bin/slave.js && pm2 log slave",
-    "prd": "pm2 stop webfunny | pm2 delete webfunny | node config_db_local.js && node config.js && pm2 start bin/webfunny.js && pm2 log webfunny",
+    "prd": "node config_db_local.js && node config.js && pm2 start bin/webfunny.js && pm2 log webfunny",
     "prd_restart": "pm2 restart webfunny && pm2 flush",
     "table_config": "node table_config.js 2 && npm run table_create",
     "table_create": "table_create_command"
