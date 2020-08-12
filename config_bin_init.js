@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
+var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -74,6 +74,8 @@ var fileArray = [
         min: 100,     // 最小值
         max: 100000   // 最大值
     }`,
+    `// 停止日志上报列表
+    module.exports = []`,
     `module.exports = {
         useCusEmailSys: false               // 是否使用自己的邮件系统
     }`,

@@ -2,7 +2,7 @@ const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,D
 
 
 const createRoutes = (router) => {
-    /**
+     /**
      * 日志相关处理
      */
     // 用户上传日志
@@ -80,7 +80,10 @@ const createRoutes = (router) => {
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目
     router.get('/checkProjectCount', ProjectController.checkProjectCount);
-
+    // 暂停项目的日志上报
+    router.post('/changeLogServerStatusByWebMonitorId', ProjectController.changeLogServerStatusByWebMonitorId)
+    // 获取暂停日志上报的项目列表
+    router.post('/getStopWebMonitorIdList', ProjectController.getStopWebMonitorIdList)
     /**
      * 用户访问信息接口
      */
