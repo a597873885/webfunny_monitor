@@ -16,7 +16,7 @@ var fileArray = [
          * 
          * 例如：www.baidu.com  主域名就是：baidu.com
          */
-        // mainDomain: ''                         // 公司主域名 
+        mainDomain: ''                         // 默认空字符串就行了
     }`,
     `module.exports = {
         messageQueue: false  // 是否开启消息队列，默认不开启
