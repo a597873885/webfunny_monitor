@@ -68,8 +68,12 @@ module.exports = (customerWarningCallback) => {
                     // 凌晨2点开始删除过期的数据库表
                     Common.startDelete()
                 }
+                if (minuteTimeStr == "00:10") {
+                    // 每小时的第10秒钟，开始执行上一个小时的分析结果
+                    TimerCalculateController.calculateCountByHour(1)
+                }
                 if (minuteTimeStr == "05:00") {
-                    // 每小时的第5分钟，开始执行上一个小时的分析结果
+                    // 每小时的第5分钟，开始执行上一个小时的分析结果（防止主从同步延迟）
                     TimerCalculateController.calculateCountByHour(1)
                 }
                 if (minuteTimeStr == "06:00") {

@@ -2,7 +2,7 @@ const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,D
 
 
 const createRoutes = (router) => {
-     /**
+    /**
      * 日志相关处理
      */
     // 用户上传日志
@@ -221,7 +221,12 @@ const createRoutes = (router) => {
     router.get('/getJavascriptErrorListByPage', JavascriptErrorInfoController.getJavascriptErrorListByPage);
     // 定位JS错误代码
     router.post('/getJavascriptErrorStackCode', JavascriptErrorInfoController.getJavascriptErrorStackCode);
-
+    // 定位JS错误代码, 源码位置
+    router.post('/getJavascriptErrorStackCodeForSource', JavascriptErrorInfoController.getJavascriptErrorStackCodeForSource);
+    // 定位JS错误代码, url
+    router.post('/getJavascriptErrorStackCodeForUrl', JavascriptErrorInfoController.getJavascriptErrorStackCodeForUrl);
+    // 上传map文件
+    router.post('/uploadMapFile', JavascriptErrorInfoController.uploadMapFile);
     /**
      * JS错误信息截屏接口
      */

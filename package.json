@@ -30,6 +30,7 @@
     "connect": "^3.7.0",
     "crypto": "^1.0.1",
     "debug": "^2.6.3",
+    "formidable": "^1.2.2",
     "geoip-lite": "^1.3.7",
     "ip": "^1.1.5",
     "jsonwebtoken": "^8.5.1",

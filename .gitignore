@@ -18,6 +18,7 @@ dist
 logs/
 bin/*
 config/db.js
+lib/temp.min.js.map
 webfunny/
 schema_temp/
 .eslintrc
