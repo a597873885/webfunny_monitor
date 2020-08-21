@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js"]
+var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -146,7 +146,8 @@ var fileArray = [
     app.use(serveStatic("./views"));
     app.listen(accountInfo.localAssetsPort);
     
-    `
+    `,
+    `module.exports = []`
 ]
 
 fs.mkdir( "./bin", function(err){
