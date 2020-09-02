@@ -26,7 +26,7 @@ module.exports = (customerWarningCallback) => {
         // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
     }, 2000)
-
+    Common.consoleLogo()
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
@@ -84,7 +84,7 @@ module.exports = (customerWarningCallback) => {
                     // 每小时的第33分钟，开始修复上一个小时的分析结果，因为读写分离数据有可能会延时
                     TimerCalculateController.calculateCountByHour(1)
                 }
-                if (minuteTimeStr == "36:00") {
+                if (minuteTimeStr == "39:00") {
                     // 每小时的第36分钟，开始修复今天的分析结果，因为读写分离有可能数据会延时
                     TimerCalculateController.calculateCountByDay(0)
                 }
@@ -110,5 +110,5 @@ module.exports = (customerWarningCallback) => {
             setTimeout(fixed, nextTime);
         }
         setTimeout(fixed, 1000);
-    }, 10000)
+    }, 6000)
 }

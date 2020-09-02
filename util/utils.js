@@ -325,13 +325,7 @@ const Utils = {
   /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
-  sendEmail: (email, subject, html) => {
-
-
-    const user = "" // 163邮箱地址
-    const pass = "" // 老账号用密码， 新账号用安全码
-
-
+  sendEmail: (email, subject, html, user, pass) => {
     const company = "webfunny.cn"
     let transporter = nodemailer.createTransport({
       host: "smtp.163.com",
