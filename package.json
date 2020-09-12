@@ -51,7 +51,7 @@
     "lz-string": "^1.4.4",
     "mysql": "^2.15.0",
     "mysql2": "^2.1.0",
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^2.6.1",
     "node-ip2region": "^1.0.2",
     "node-uuid": "^1.4.8",
     "nodemailer": "^6.2.1",
