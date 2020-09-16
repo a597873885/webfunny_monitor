@@ -264,7 +264,6 @@ var interceptorConArray = [
  const domain = require("../bin/domain")
  const Utils = require('../util/utils')
  const customerWarningCallback = (warningInfoList) => {
-     console.log(warningInfoList)
      if (warningInfoList !== "undefined" && warningInfoList.length > 0) {
          warningInfoList.forEach((item) => {
              const { webMonitorId, uv, jsErrorCount, consoleErrorCount, resourceErrorCount, httpErrorCount } = item
