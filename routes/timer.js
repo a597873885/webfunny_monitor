@@ -25,6 +25,7 @@ module.exports = (customerWarningCallback) => {
         // TimerCalculateController.calculateCountByHour(1)
         // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
+        // TimerCalculateController.calculateCountByHour(1, customerWarningCallback)
     }, 2000)
     Common.consoleLogo()
     /** * 定时任务  开始 */
@@ -73,8 +74,11 @@ module.exports = (customerWarningCallback) => {
                     TimerCalculateController.calculateCountByHour(1)
                 }
                 if (minuteTimeStr == "05:00") {
-                    // 每小时的第5分钟，开始执行上一个小时的分析结果（防止主从同步延迟）
-                    TimerCalculateController.calculateCountByHour(1)
+                    //  TODO 每小时的第5分钟，开始执行上一个小时的分析结果（防止主从同步延迟）
+                    TimerCalculateController.calculateCountByHour(1, customerWarningCallback)
+
+                    // 每小时的第5分钟，检查一遍所有的统计信息，并发出警告
+                    // Common.checkAnalysisData(customerWarningCallback)
                 }
                 if (minuteTimeStr == "06:00") {
                     // 每小时的第6分钟，计算一次今天的分析结果
@@ -89,12 +93,8 @@ module.exports = (customerWarningCallback) => {
                     TimerCalculateController.calculateCountByDay(0)
                 }
                 if (minuteTimeStr.substring(1) == "0:00") {
-
                     // 每隔10分钟，对一些实时数据进行计算
                     Common.calculateCountByDayForTenMinutes(0)
-
-                    // 每隔10分钟，检查一遍所有的统计信息，并通知用户的回调方法
-                    Common.checkAnalysisData(customerWarningCallback)
                 }
                 if (minuteTimeStr.substring(3) == "00") {
                     // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0

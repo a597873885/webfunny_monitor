@@ -263,44 +263,55 @@ var interceptorConArray = [
  const dingRobot = require("./config/dingRobot")
  const domain = require("../bin/domain")
  const Utils = require('../util/utils')
- const customerWarningCallback = (res) => {
- 
-     const {healthPercentList} = res
-     if (healthPercentList !== "undefined" && healthPercentList.length > 0) {
- 
-         healthPercentList.forEach((item) => {
-             const { webMonitorId, score, jsErrorPercent, consoleErrorPercent, resourceErrorPercent, httpErrorPercent } = item
+ const customerWarningCallback = (warningInfoList) => {
+     console.log(warningInfoList)
+     if (warningInfoList !== "undefined" && warningInfoList.length > 0) {
+         warningInfoList.forEach((item) => {
+             const { webMonitorId, uv, jsErrorCount, consoleErrorCount, resourceErrorCount, httpErrorCount } = item
              
-             if (item.jsErrorPercent >= jsError.errorPercent) {
+             todayUvCount = parseInt(uv, 10)
+             let jsErrorPercent = todayUvCount > 0 ? jsErrorCount / todayUvCount : 0
+             let consoleErrorPercent = todayUvCount > 0 ? consoleErrorCount / todayUvCount : 0
+             let resourceErrorPercent = todayUvCount > 0 ? resourceErrorCount / todayUvCount : 0
+             let httpErrorPercent = todayUvCount > 0 ? httpErrorCount / todayUvCount : 0
+ 
+             jsErrorPercent = Utils.toFixed(jsErrorPercent * 100, 2)
+             consoleErrorPercent = Utils.toFixed(consoleErrorPercent * 100, 2)
+             resourceErrorPercent = Utils.toFixed(resourceErrorPercent * 100, 2)
+             httpErrorPercent = Utils.toFixed(httpErrorPercent * 100, 2)
+ 
+ 
+             if (jsErrorCount >= jsError.errorCount || jsErrorPercent >= jsError.errorPercent) {
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）JS错误率达到：" + jsErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/javascriptError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误数量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                  Utils.postJson(url,config) // 钉钉机器人
  
                  // 如果需要其他通知方式，请在此完成报警逻辑
              }
-             if (item.consoleErrorPercent >= consoleError.errorPercent) {
+             if (consoleErrorCount >= consoleError.errorCount || consoleErrorPercent >= consoleError.errorPercent) {
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）自定义异常率达到：" +consoleErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/javascriptError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常数量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                  Utils.postJson(url,config)  // 钉钉机器人
                  
                  // 如果需要其他通知方式，请在此完成报警逻辑
              }
-             if (item.httpErrorPercent >= httpError.errorPercent) {
+             if (httpErrorCount >= httpError.errorCount || httpErrorPercent >= httpError.errorPercent) {
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）接口报错率达到：" + httpErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n接口报错率达到：" + httpErrorPercent + "%\\r\\n接口报错数量达到：" + httpErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
                  Utils.postJson(url,config)  // 钉钉机器人
  
                  // 如果需要其他通知方式，请在此完成报警逻辑
              }
-             if (item.resourceErrorPercent >= resourceError.errorPercent) {
+             if (resourceErrorCount >= resourceError.errorCount || resourceErrorPercent >= resourceError.errorPercent) {
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）静态资源错误率达到：" + resourceErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/resourceError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n静态资源错误率达到：" + resourceErrorPercent + "%\\r\\n静态资源错误数量达到：" + resourceErrorCount + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/resourceError.html"
                  Utils.postJson(url,config)  // 钉钉机器人
  
                  // 如果需要其他通知方式，请在此完成报警逻辑
              }
          })
      }
+ 
  }
  
  module.exports = {
@@ -324,7 +335,7 @@ var interceptorConArray = [
              case 500:
              case 502:
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\r\n状态：" + status + "\r\n页面：" + simpleUrl + "\r\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
                  Utils.postJson(url,config)
                  break;
              default:
@@ -372,7 +383,7 @@ var interceptorConArray = [
              case "ReferenceError":
              case "UncaughtInPromiseError":
                      const {url, config} = dingRobot
-                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\r\n类型：" + type + "\r\n信息：" + tempErrorMessage + "\r\n页面：" + simpleUrl + "\r\n查看详情：http://" + domain.localAssetsDomain + "/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
+                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
                      Utils.postJson(url,config)
                  break;
              case "Script error.":

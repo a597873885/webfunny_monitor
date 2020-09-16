@@ -1,6 +1,6 @@
 //delete//
 const baseInfo = require('./baseInfo');
-const getTableProperty = require('../schema_con/HttpErrorInfo')
+const getTableProperty = require('../schema_con/HttpLogInfo')
 //delete//
 const HttpLogInfo = function (sequelize, DataTypes) {
   const { fieldIndex, fields } = getTableProperty(DataTypes)
