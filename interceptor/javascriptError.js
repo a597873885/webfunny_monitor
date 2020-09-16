@@ -1,4 +1,6 @@
 const Utils = require('../util/utils');
+const dingRobot = require("./config/dingRobot")
+const domain = require('../bin/domain')
 /**
  * 这里是js错误的拦截器。
  * 每次发生js报错，都会调用这个方法
@@ -10,23 +12,29 @@ const handleResultWhenJavascriptError = (res) => {
      * errorMessage: 错误消息
      */
     // console.log(res) // 打印查看其他字段
-    const {webMonitorId, infoType, errorMessage} = res
+    const {webMonitorId, infoType, errorMessage, simpleUrl} = res
 
     const tempErrorMessage = Utils.b64DecodeUnicode(errorMessage)
     const msgArr = tempErrorMessage.split(": ")
     const type = msgArr[0] || msgArr[1] || msgArr[2] || ""
+
+    const errorObj = {
+        type,
+        logData: res
+    }
+    global.monitorInfo.errorLogListForLast200.push(errorObj)
     
     if (infoType === "on_error") {
         // 根据错误类型处理
         switch(type) {
             case "TypeError":
-                // 填写你自己的逻辑
+            case "ReferenceError":
+            case "UncaughtInPromiseError":
+                    const {url, config} = dingRobot
+                    config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\r\n类型：" + type + "\r\n信息：" + tempErrorMessage + "\r\n页面：" + simpleUrl + "\r\n查看详情：http://" + domain.localAssetsDomain + "/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
+                    Utils.postJson(url,config)
                 break;
             case "Script error.":
-                break;
-            case "UncaughtInPromiseError":
-                break;
-            case "ReferenceError":
                 break;
             default:
                 break;  

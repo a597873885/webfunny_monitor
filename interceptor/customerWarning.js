@@ -4,71 +4,51 @@
  * @param res 参数返回所有的警告信息。
  * 无论你想发送到邮箱，短信，钉钉等，你们自己发送接口通知吧。
  */
+const jsError = require('./config/jsError')
+const consoleError = require('./config/consoleError')
+const httpError = require('./config/httpError')
+const resourceError = require('./config/resourceError')
+const dingRobot = require("./config/dingRobot")
+const domain = require("../bin/domain")
+const Utils = require('../util/utils')
 const customerWarningCallback = (res) => {
 
-    const {concurrencyCount, healthScoreList} = res
-    
-    /**
-     * 各种报错信息统计
-     * 上报条件：
-     * 1.健康总评分小于某个值的时候；
-     * 2.报错率超过某个值的时候；（0.1 代表 10%）
-     */
-    if (healthScoreList !== "undefined" && healthScoreList.length > 0) {
+    const {healthPercentList} = res
+    if (healthPercentList !== "undefined" && healthPercentList.length > 0) {
 
-        healthScoreList.forEach((item) => {
-            // 一般情况下，小于96分，就已经处于警报的边界
-            if (item.score < 96) {
-                /** 这里写你自己的报警逻辑代码 */
+        healthPercentList.forEach((item) => {
+            const { webMonitorId, score, jsErrorPercent, consoleErrorPercent, resourceErrorPercent, httpErrorPercent } = item
+            
+            if (item.jsErrorPercent >= jsError.errorPercent) {
+                const {url, config} = dingRobot
+                config.text.content = "您的前端项目（" + webMonitorId + "）JS错误率达到：" + jsErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/javascriptError.html"
+                Utils.postJson(url,config) // 钉钉机器人
+
+                // 如果需要其他通知方式，请在此完成报警逻辑
             }
-            const defaultPercent = 0.1  // 0.1 代表报错率达到10%
-            if (item.jsErrorPercent > defaultPercent || 
-                item.consoleErrorPercent > defaultPercent ||
-                item.resourceErrorPercent > defaultPercent ||
-                item.httpErrorPercent > defaultPercent) {
-
-                /** 这里写你自己的报警逻辑代码 */
+            if (item.consoleErrorPercent >= consoleError.errorPercent) {
+                const {url, config} = dingRobot
+                config.text.content = "您的前端项目（" + webMonitorId + "）自定义异常率达到：" +consoleErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/javascriptError.html"
+                Utils.postJson(url,config)  // 钉钉机器人
+                
+                // 如果需要其他通知方式，请在此完成报警逻辑
             }
+            if (item.httpErrorPercent >= httpError.errorPercent) {
+                const {url, config} = dingRobot
+                config.text.content = "您的前端项目（" + webMonitorId + "）接口报错率达到：" + httpErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
+                Utils.postJson(url,config)  // 钉钉机器人
 
+                // 如果需要其他通知方式，请在此完成报警逻辑
+            }
+            if (item.resourceErrorPercent >= resourceError.errorPercent) {
+                const {url, config} = dingRobot
+                config.text.content = "您的前端项目（" + webMonitorId + "）静态资源错误率达到：" + resourceErrorPercent + "%\r\n 查看详情：http://" + domain.localAssetsDomain + "/resourceError.html"
+                Utils.postJson(url,config)  // 钉钉机器人
+
+                // 如果需要其他通知方式，请在此完成报警逻辑
+            }
         })
     }
-
-    /**
-     * 服务并发量统计数（每分钟上报的日志数量）
-     * 上报条件：
-     * 1.数值为0（代表上报服务有问题了）；
-     * 2.数值过高（并发量过高了，可以调整上报评率）
-     */
-    if (concurrencyCount !== "undefined") {
-
-        // 当前一分钟内并发量为 0 的时候
-        if (concurrencyCount === 0) {
-            /** 这里写你自己的报警逻辑代码
-             *  fetch 方法的demo都给你写好了 
-             * 
-                fetch("url",
-                {
-                    method: "POST", 
-                    body: JSON.stringify({cdkey: "aaaa"}),
-                    headers: {
-                        "Content-Type": "application/json;charset=utf-8"
-                    }
-                })
-                .then( res => res.text())
-                .then( async (res) => {
-
-                }).catch((e) => {
-                    
-                })
-            */
-        }
-
-        // 当前一分钟内并发量大于 10万 的时候
-        if (concurrencyCount > 100000) {
-            /** 这里写你自己的报警逻辑代码 */
-        }
-    }
-
 }
 
 module.exports = {
