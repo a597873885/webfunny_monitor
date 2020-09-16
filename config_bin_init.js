@@ -336,7 +336,7 @@ var interceptorConArray = [
              case 500:
              case 502:
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\r\n状态：" + status + "\r\n接口：" + simpleHttpUrl + "\r\n页面：" + simpleUrl + "\r\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n接口：" + simpleHttpUrl + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
                  Utils.postJson(url,config)
                  break;
              default:
