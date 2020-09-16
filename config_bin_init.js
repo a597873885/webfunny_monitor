@@ -335,7 +335,7 @@ var interceptorConArray = [
              case 500:
              case 502:
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
                  Utils.postJson(url,config)
                  break;
              default:
@@ -383,7 +383,7 @@ var interceptorConArray = [
              case "ReferenceError":
              case "UncaughtInPromiseError":
                      const {url, config} = dingRobot
-                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
+                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
                      Utils.postJson(url,config)
                  break;
              case "Script error.":
