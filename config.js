@@ -112,6 +112,7 @@ fs.mkdir( "./views/webfunny", function(err){
 
 // 生成探针结束
 copy("./views/resource/", "./views/webfunny")
+copy("./views/images/", "./views/webfunny")
 console.log("= 正在执行编译，请稍等...")
 setTimeout(function() {
   let path = './views/webfunny/js';

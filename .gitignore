@@ -17,8 +17,10 @@ dist
 .vscode/
 logs/
 bin/*
+interceptor
 config/db.js
 lib/temp.min.js.map
 webfunny/
 schema_temp/
 .eslintrc
+lib/*.map

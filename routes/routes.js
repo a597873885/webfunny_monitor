@@ -1,4 +1,4 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,Common} = require("../controllers/controllers.js")
+const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -345,6 +345,27 @@ const createRoutes = (router) => {
     router.post('/saveMysqlConfigsForNew', Common.saveMysqlConfigs)
     router.get('/getLogServerStatusForNew', Common.getLogServerStatus)
 
+    // 获取警报检查频率
+    router.post('/getCheckTime', AlarmController.getCheckTime)
+    // 设置警报检查频率
+    router.post('/changeCheckTime', AlarmController.changeCheckTime)
+    // 获取JsError报警参数
+    router.post('/getJsErrorConfig', AlarmController.getJsErrorConfig)
+    // 设置JsError报警参数
+    router.post('/changeJsErrorConfig', AlarmController.changeJsErrorConfig)
+    // 获取console Error报警参数
+    router.post('/getConsoleErrorConfig', AlarmController.getConsoleErrorConfig)
+    // 设置ConsoleError报警参数
+    router.post('/changeConsoleErrorConfig', AlarmController.changeConsoleErrorConfig)
+    // 获取Http Error报警参数
+    router.post('/getHttpErrorConfig', AlarmController.getHttpErrorConfig)
+    // 设置HttpError报警参数
+    router.post('/changeHttpErrorConfig', AlarmController.changeHttpErrorConfig)
+    // 获取Resource Error报警参数
+    router.post('/getResourceErrorConfig', AlarmController.getResourceErrorConfig)
+    // 设置ResourceError报警参数
+    router.post('/changeResourceErrorConfig', AlarmController.changeResourceErrorConfig)
+
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
     router.get('/getDebugInfoForLocalInfo', Common.getDebugInfoForLocalInfo)
@@ -402,6 +423,11 @@ const createRoutes = (router) => {
      * 废弃接口
      */
     router.post('/searchUserBehaviors', Common.abortApis);
+
+    /**
+     * 测试接口
+     */
+    router.post('/test', Common.test);
 
 }
 

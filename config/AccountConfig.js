@@ -3,7 +3,7 @@ const stayTimeScope = require("../bin/stayTimeScope")
 const mysqlConfig = require("../bin/mysqlConfig")
 const { purchaseCode } = require("../bin/purchaseCode")
 const { messageQueue } = require("../bin/messageQueue")
-const { useCusEmailSys } = require("../bin/useCusEmailSys")
+const { useCusEmailSys, emailUser, emailPassword } = require("../bin/useCusEmailSys")
 const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort } = require("../bin/domain")
 
 const accountInfo = {
@@ -24,25 +24,10 @@ const accountInfo = {
     mysqlConfig,
 
     useCusEmailSys,                 // 是否开启自定义邮件系统
+    emailUser,
+    emailPassword,
 }
 
-/**
- * 这是警报规则
- */
-const warningSetting = {
-    minJsErrorCount: 300,           // js错误：最小警报数量, 小于该值，不触发警报
-    jsErrorDividedBySevenDayAgo: 2,  // 今天的数值除以7天前的数值，倍数低于这个值的，不触发警报
-
-    minConsoleErrorCount: 300,           // 自定义错误：最小警报数量, 小于该值，不触发警报
-    consoleErrorDividedBySevenDayAgo: 2,  // 今天的数值除以7天前的数值，倍数低于这个值的，不触发警报
-
-    minResourceErrorCount: 300,           // 静态资源加载错误：最小警报数量, 小于该值，不触发警报
-    resourceErrorDividedBySevenDayAgo: 2,  // 今天的数值除以7天前的数值，倍数低于这个值的，不触发警报
-
-    minHttpErrorCount: 150,           // 接口请求错误：最小警报数量, 小于该值，不触发警报
-    HttpErrorDividedBySevenDayAgo: 2,  // 今天的数值除以7天前的数值，倍数低于这个值的，不触发警报
-}
 module.exports = {
-    accountInfo,
-    warningSetting
+    accountInfo
 }
