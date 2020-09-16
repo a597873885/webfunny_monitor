@@ -326,7 +326,8 @@ var interceptorConArray = [
   */
  const handleResultWhenHttpRequest = (res) => {
      // console.log(res) // 打印查看其他字段
-     const {webMonitorId, statusResult, status, loadTime, simpleUrl } = res
+     const {webMonitorId, statusResult, status, loadTime, simpleUrl, httpUrl } = res
+     const simpleHttpUrl = decodeURIComponent(Utils.b64DecodeUnicode(httpUrl))
      if (statusResult === "请求返回") {
          switch(status) {
              case 200:
@@ -335,7 +336,7 @@ var interceptorConArray = [
              case 500:
              case 502:
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n接口：" + simpleHttpUrl + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\r\n状态：" + status + "\r\n接口：" + simpleHttpUrl + "\r\n页面：" + simpleUrl + "\r\n查看详情：http://" + domain.localAssetsDomain + "/httpError.html"
                  Utils.postJson(url,config)
                  break;
              default:
