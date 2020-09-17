@@ -266,7 +266,7 @@ var interceptorConArray = [
  const customerWarningCallback = (warningInfoList) => {
      if (warningInfoList !== "undefined" && warningInfoList.length > 0) {
          warningInfoList.forEach((item) => {
-             const { webMonitorId, uv, jsErrorCount, consoleErrorCount, resourceErrorCount, httpErrorCount } = item
+             const { webMonitorId, hour, uv, jsErrorCount, consoleErrorCount, resourceErrorCount, httpErrorCount } = item
              
              todayUvCount = parseInt(uv, 10)
              let jsErrorPercent = todayUvCount > 0 ? jsErrorCount / todayUvCount : 0
