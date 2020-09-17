@@ -203,7 +203,7 @@ var configConArray = [
          },
          "at": {
              "atMobiles": [    // 想要@的成员列表
-                 "18501754119"
+                 "18501754111"
              ], 
              "isAtAll": false  // 是否@所有人
          }
