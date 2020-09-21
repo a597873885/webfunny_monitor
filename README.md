@@ -21,7 +21,7 @@
 
 ### Understanding the work 
 
-   [【Function introduction】](http://www.webfunny.cn/home.html?source=github) | 
+   [【Website】](http://www.webfunny.cn/home.html?source=github) | 
    [【Demo】](http://www.webfunny.cn/demo/home.html) | 
    [【About open source】](http://www.webfunny.cn/faq.html?tab=2)
 
@@ -35,10 +35,9 @@ It can support 10 million PV per day.
    [【Docker Containerized deployment】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
    
 ### Contact author
-
+   email: 597873885@qq.com
+   
    wechat number：webfunny_2020
-
-   <img width=150 src="http://www.webfunny.cn/src/assets/img/wx_add.jpeg"/>
 
 ### Deployment tutorial ★★★★★
 
