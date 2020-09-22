@@ -3,6 +3,7 @@ const stayTimeScope = require("../bin/stayTimeScope")
 const mysqlConfig = require("../bin/mysqlConfig")
 const { purchaseCode } = require("../bin/purchaseCode")
 const { messageQueue } = require("../bin/messageQueue")
+const httpReqRes = require("../bin/httpReqRes")
 const { useCusEmailSys, emailUser, emailPassword } = require("../bin/useCusEmailSys")
 const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort } = require("../bin/domain")
 
@@ -26,6 +27,8 @@ const accountInfo = {
     useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser,
     emailPassword,
+
+    httpReqRes,                     // 接口内容长度限制
 }
 
 module.exports = {
