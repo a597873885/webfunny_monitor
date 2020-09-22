@@ -21,7 +21,7 @@
 
 ### Understanding the work 
 
-   [【Website】](http://www.webfunny.cn/home.html?source=github) | 
+   [【Website】](http://www.webfunny.cn/home.html?source=github_en) | 
    [【Demo】](http://www.webfunny.cn/demo/home.html) | 
    [【About open source】](http://www.webfunny.cn/faq.html?tab=2)
 
