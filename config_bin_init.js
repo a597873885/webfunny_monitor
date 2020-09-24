@@ -282,28 +282,28 @@ var interceptorConArray = [
 
             if (jsErrorCount >= jsError.errorCount || jsErrorPercent >= jsError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\r\n时间：" + hour + "\r\nJS错误率达到：" + jsErrorPercent + "%\r\nJS错误量达到：" + jsErrorCount + "\r\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                 Utils.postJson(url,config) // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
             }
             if (consoleErrorCount >= consoleError.errorCount || consoleErrorPercent >= consoleError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\r\n时间：" + hour + "\r\n自定义异常率达到：" +consoleErrorPercent + "%\r\n自定义异常量达到：" +consoleErrorCount + "\r\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                 Utils.postJson(url,config)  // 钉钉机器人
                 
                 // 如果需要其他通知方式，请在此完成报警逻辑
             }
             if (httpErrorCount >= httpError.errorCount || httpErrorPercent >= httpError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\r\n时间：" + hour + "\r\n接口报错率达到：" + httpErrorPercent + "%\r\n接口报错量达到：" + httpErrorCount + "\r\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n接口报错率达到：" + httpErrorPercent + "%\\r\\n接口报错量达到：" + httpErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
                 Utils.postJson(url,config)  // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
             }
             if (resourceErrorCount >= resourceError.errorCount || resourceErrorPercent >= resourceError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\r\n时间：" + hour + "\r\n静态资源错误率达到：" + resourceErrorPercent + "%\r\n静态资源错误量达到：" + resourceErrorCount + "\r\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/resourceError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n静态资源错误率达到：" + resourceErrorPercent + "%\\r\\n静态资源错误量达到：" + resourceErrorCount + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/resourceError.html"
                 Utils.postJson(url,config)  // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
