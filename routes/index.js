@@ -26,7 +26,6 @@ const router = new Router({
     prefix: '/server'
 })
 
-
 // 激活码校验
 Common.checkPurchase(() => {
     createRoutes(router)
@@ -37,8 +36,7 @@ Common.checkPurchase(() => {
         timerTask(customerWarningCallback)
     }
 }, () => {
-    createRoutesFail(router)
+    createRoutes(router)
     Common.consoleInfo()
 })
-
 module.exports = router

@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 // 初始化bin目录
-var pathArray = ["./bin/domain.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
+var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -19,6 +19,11 @@ var fileArray = [
          */
         mainDomain: ''                         // 默认空字符串就行了
     }`,
+    `module.exports = {
+      requestTextLength: 500,  // 接口请求参数内容长度限制
+      responseTextLength: 500,  // 接口返回结果内容长度限制
+    }
+    `,
     `module.exports = {
         messageQueue: false  // 是否开启消息队列，默认不开启
     }`,
