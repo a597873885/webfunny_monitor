@@ -37,6 +37,11 @@ Common.checkPurchase(() => {
     }
 }, () => {
     createRoutes(router)
-    Common.consoleInfo()
+    // 启动定时任务, 如果是slave模式，则不启动定时器
+    if (global.serverType == "slave") {
+        Common.consoleInfo(global.serverType)
+    } else {
+        timerTask(customerWarningCallback)
+    }
 })
 module.exports = router
