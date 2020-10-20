@@ -17,6 +17,7 @@ global.monitorInfo = {
     logCountInMinute: 0, // 每分钟的日志量
     logCountInMinuteList: [], // 每分钟日志量数组
     errorLogListForLast200: [],  // 存放最近200条报错日志
+    
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -37,8 +38,13 @@ Common.checkPurchase(() => {
         timerTask(customerWarningCallback)
     }
 }, () => {
-    createRoutesFail(router)
-    Common.consoleInfo()
+    createRoutes(router)
+    // 启动定时任务, 如果是slave模式，则不启动定时器
+    if (global.serverType == "slave") {
+        Common.consoleInfo(global.serverType)
+    } else {
+        timerTask(customerWarningCallback)
+    }
 })
 
 module.exports = router

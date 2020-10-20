@@ -34,6 +34,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'userId'
     },
+    // userTag，每个userTag以,分隔
+    userTag: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'userTag'
+    },
     // 邮箱
     email: {
       type: DataTypes.STRING(200),
@@ -48,7 +54,7 @@ const Project = function (sequelize, DataTypes) {
     },
     // 监控代码
     monitorCode: {
-      type: DataTypes.TEXT('medium'),
+      type: DataTypes.TEXT,
       allowNull: true,
       field: 'monitorCode'
     },

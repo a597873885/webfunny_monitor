@@ -9,7 +9,7 @@ const InfoCountByHour = function (sequelize, DataTypes) {
     },
     // 日志类型
     uploadType: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'uploadType'
     },
