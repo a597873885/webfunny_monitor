@@ -5,8 +5,10 @@ const createRoutes = (router) => {
     /**
      * 日志相关处理
      */
-    // 用户上传日志
+    // 用户上传日志（h5）
     router.post('/upLog', Common.upLog);
+    // 用户上传日志 (小程序)
+    router.post('/upMog', Common.upMog);
     // 用户上传debug日志
     router.post('/upDLog', Common.upDLog);
     // 上传拓展日志
@@ -84,6 +86,10 @@ const createRoutes = (router) => {
     router.post('/changeLogServerStatusByWebMonitorId', ProjectController.changeLogServerStatusByWebMonitorId)
     // 获取暂停日志上报的项目列表
     router.post('/getStopWebMonitorIdList', ProjectController.getStopWebMonitorIdList)
+    // 获取userTags
+    router.post('/getUserTags', ProjectController.getUserTags)
+    // 保存userTags
+    router.post('/saveUserTags', ProjectController.saveUserTags)
     /**
      * 用户访问信息接口
      */
@@ -428,6 +434,7 @@ const createRoutes = (router) => {
      * 测试接口
      */
     router.post('/test', Common.test);
+
 
 }
 
