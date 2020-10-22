@@ -341,7 +341,9 @@ var interceptorConArray = [
              case 502:
                  const {url, config} = dingRobot
                  config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n接口：" + simpleHttpUrl + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
-                 Utils.postJson(url,config)
+                 Utils.postJson(url,config) // 通知机器人
+
+                 // 如果需要其他通知方式，请在此完成报警逻辑
                  break;
              default:
                  break;
@@ -389,7 +391,9 @@ var interceptorConArray = [
              case "UncaughtInPromiseError":
                      const {url, config} = dingRobot
                      config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
-                     Utils.postJson(url,config)
+                     Utils.postJson(url,config) // 通知机器人
+
+                     // 如果需要其他通知方式，请在此完成报警逻辑
                  break;
              case "Script error.":
                  break;
