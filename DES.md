@@ -112,16 +112,11 @@
     【注意】如果不授权，可能无法自动创建每天的数据库表
 
 
-### 第五步、配置报警信息
+### 第五步、配置报警信息（钉钉机器人）
 
-webfunny提供了自定义报警拦截功能，需要使用者修改代码，以实现钉钉、短信、邮箱等报警方式，配置目录如下：
+webfunny提供了自定义报警拦截功能，执行 npm run init 命令后会出现interceptor目录，需要使用者修改代码，以实现钉钉机器人的报警方式，配置目录如下：
 
-    ① /interceptor/customerWarning.js  每隔10分钟会调用一次
-    ② /interceptor/httpRequest.js 每次上报接口日志，都会调用这个方法
-    ③ /interceptor/javascriptError.js 每次发生js报错，都会调用这个方法
-    ④ /interceptor/resourceError.js 每次发生静态资源报错，都会调用这个方法
-
-
+    钉钉机器人配置文件：/interceptor/config/dingRobot.js，其他通知方式，请自己查看代码
 --------------
 
 以下步骤可不必执行，高并发的用户可以继续往下看。
