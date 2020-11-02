@@ -36,8 +36,6 @@ It can support 10 million PV per day.
    
 ### Contact author
    email: 597873885@qq.com
-   
-   wechat number：webfunny_2020
 
 ### Deployment tutorial ★★★★★
 
