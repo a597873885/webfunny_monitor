@@ -50,9 +50,9 @@
     3) 创建新项目后，可以看到探针部署教程，完成部署。
 
 
-### 第四步、生产环境部署（域名配置方式2选1）
+### 第四步、生产环境部署
 
-<b>1. IP地址或者域名配置（方式一）</b>
+<b>1. IP地址或者域名配置</b>
 
 进入webfunny_monitor/bin/domain.js文件中<b>（注意，对应的端口号要保持一致）</b>
 
@@ -81,25 +81,6 @@
     2.数据展示地址，请在浏览器访问：http://xxx.xxx.xxx.xxx:8010/webfunny/overview.html 或 http://www.baidu.com:8010/webfunny/overview.html
 
 ------------
-
-<b>2. 代理域名配置（方式二）</b>
-
-使用代理域名的用户，请一定要理解清楚Nginx代理的方法
-
-    代理域名配置方式（端口号还是需要配置的）：
-
-    module.exports = {
-      localServerDomain: 'www.baidu.com',      // 日志上报域名
-      localAssetsDomain: 'www.baidu.com',      // 前端页面域名
-      localServerPort: '8011',                 // 日志上报端口号
-      localAssetsPort: '8010',                 // 前端页面端口号
-    }
-配置完成后，浏览器访问以下地址，保证能够访问成功。
-
-    1.项目列表地址，请在控制台执行：curl http://www.baidu.com/server/webMonitorIdList
-
-    2.数据展示地址：http://www.baidu.com/webfunny/overview.html
-
 
 <b>3. 添加执行权限</b>
 
