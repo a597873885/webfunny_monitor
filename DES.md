@@ -4,7 +4,7 @@
 
     安装NodeJS，版本号：10.6.0及以上
 
-### 第一步、下载(clone)最新部署包，初始化
+### 第一步、下载(clone)最新部署包，初始化（不要改项目名！！！）
 
     1.本地克隆代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
@@ -43,16 +43,16 @@
 ### 第三步、本地部署运行
 
 
-    1) 此时此刻，本地配置已经完成了，尝试运行命令$: npm run prd
+    1) 此时此刻，本地配置已经完成了，尝试运行命令$: npm run prd（第一次运行使用此命令，重启使用：npm run restart）
 
     2) 打开浏览器，访问地址：http://localhost:8010/webfunny/register.html?type=1 (初始化管理员账号，并登录)
 
     3) 创建新项目后，可以看到探针部署教程，完成部署。
 
 
-### 第四步、生产环境部署（域名配置方式2选1）
+### 第四步、生产环境部署
 
-<b>1. IP地址或者域名配置（方式一）</b>
+<b>1. IP地址或者域名配置</b>
 
 进入webfunny_monitor/bin/domain.js文件中<b>（注意，对应的端口号要保持一致）</b>
 
@@ -82,26 +82,7 @@
 
 ------------
 
-<b>2. 代理域名配置（方式二）</b>
-
-使用代理域名的用户，请一定要理解清楚Nginx代理的方法
-
-    代理域名配置方式（端口号还是需要配置的）：
-
-    module.exports = {
-      localServerDomain: 'www.baidu.com',      // 日志上报域名
-      localAssetsDomain: 'www.baidu.com',      // 前端页面域名
-      localServerPort: '8011',                 // 日志上报端口号
-      localAssetsPort: '8010',                 // 前端页面端口号
-    }
-配置完成后，浏览器访问以下地址，保证能够访问成功。
-
-    1.项目列表地址，请在控制台执行：curl http://www.baidu.com/server/webMonitorIdList
-
-    2.数据展示地址：http://www.baidu.com/webfunny/overview.html
-
-
-<b>3. 添加执行权限</b>
+<b>2. 添加执行权限（重要！！！否则无法生成数据库表）</b>
 
 正常情况下 createTable.sh, restart.sh 这两个脚本没有执行权限，需要用户手动授权。
 
@@ -112,16 +93,11 @@
     【注意】如果不授权，可能无法自动创建每天的数据库表
 
 
-### 第五步、配置报警信息
+### 第五步、配置报警信息（钉钉机器人）
 
-webfunny提供了自定义报警拦截功能，需要使用者修改代码，以实现钉钉、短信、邮箱等报警方式，配置目录如下：
+webfunny提供了自定义报警拦截功能，执行 npm run init 命令后会出现interceptor目录，需要使用者修改代码，以实现钉钉机器人的报警方式，配置目录如下：
 
-    ① /interceptor/customerWarning.js  每隔10分钟会调用一次
-    ② /interceptor/httpRequest.js 每次上报接口日志，都会调用这个方法
-    ③ /interceptor/javascriptError.js 每次发生js报错，都会调用这个方法
-    ④ /interceptor/resourceError.js 每次发生静态资源报错，都会调用这个方法
-
-
+    钉钉机器人配置文件：/interceptor/config/dingRobot.js，其他通知方式，请自己查看代码
 --------------
 
 以下步骤可不必执行，高并发的用户可以继续往下看。
