@@ -43,7 +43,7 @@
 ### 第三步、本地部署运行
 
 
-    1) 此时此刻，本地配置已经完成了，尝试运行命令$: npm run prd
+    1) 此时此刻，本地配置已经完成了，尝试运行命令$: npm run prd（第一次运行使用此命令，重启使用：npm run restart）
 
     2) 打开浏览器，访问地址：http://localhost:8010/webfunny/register.html?type=1 (初始化管理员账号，并登录)
 
