@@ -4,7 +4,7 @@
 
     安装NodeJS，版本号：10.6.0及以上
 
-### 第一步、下载(clone)最新部署包，初始化
+### 第一步、下载(clone)最新部署包，初始化（不要改项目名！！！）
 
     1.本地克隆代码$：git clone https://github.com/a597873885/webfunny_monitor.git
 
