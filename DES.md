@@ -1,5 +1,7 @@
 正常情况下，1个小时以后出分析数据，不要着急
 
+部署教程：<a href="https://www.bilibili.com/video/bv1Xr4y1w7nd" target="_blank">本地安装教程视频</a>
+
 ### 基础环境
 
     安装NodeJS，版本号：10.6.0及以上
