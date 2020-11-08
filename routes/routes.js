@@ -1,4 +1,4 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,Common} = require("../controllers/controllers.js")
+const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,TeamController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -24,6 +24,8 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // 获取用户列表
+    router.post('/getUserList', UserController.getUserList);
     // 忘记密码
     router.post('/forgetPwd', UserController.forgetPwd);
     // 发送注册验证码
@@ -52,6 +54,19 @@ const createRoutes = (router) => {
     // 获服务并发日志量
     router.post('/getConcurrencyByMinuteInHour', Common.getConcurrencyByMinuteInHour);
 
+
+    // 添加team
+    router.post('/team', TeamController.create);
+    // 获取团队列表
+    router.post("/getTeamList", TeamController.getTeamList)
+    router.post("/addTeamMember", TeamController.addTeamMember)
+    router.post("/createNewTeam", TeamController.createNewTeam)
+    router.post('/deleteTeam', TeamController.deleteTeam);
+    router.post('/moveProToTeam', TeamController.moveProToTeam)
+    router.post('/updateTeamProjects', TeamController.updateTeamProjects)
+    // 获取所有团队列表
+    router.post("/getAllTeamList", TeamController.getAllTeamList)
+    
 
     /**
      * 应用接口
@@ -434,8 +449,6 @@ const createRoutes = (router) => {
      * 测试接口
      */
     router.post('/test', Common.test);
-
-
 }
 
 module.exports = {
