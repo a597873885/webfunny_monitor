@@ -51,6 +51,7 @@ const createRoutes = (router) => {
     router.post('/getErrorInfo', Common.getErrorInfo);
     // 获取警报信息
     router.post('/getWarningMsg', Common.getWarningMsg);
+    router.post("/getWarningList", Common.getWarningList)
     // 获服务并发日志量
     router.post('/getConcurrencyByMinuteInHour', Common.getConcurrencyByMinuteInHour);
 
@@ -145,11 +146,15 @@ const createRoutes = (router) => {
     // 获取每分钟的PV量
     router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
     // 获取每分钟的PV量
+    router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
+    // 获取每分钟的PV量
     router.post('/getAliveCusInRealTime', CustomerPVController.getAliveCusInRealTime);
     // 获取城市top10数量列表
     router.post('/getVersionCountOrderByCount', CustomerPVController.getVersionCountOrderByCount);
     // 获取城市top10数量列表
     router.post('/getCityCountOrderByCount', CustomerPVController.getCityCountOrderByCount);
+    // 获取城市top20数量列表
+    router.post('/getCityCountOrderByCountTop20', CustomerPVController.getCityCountOrderByCountTop20);
     // 获取设备top10数量列表
     router.post('/getDeviceCountOrderByCount', CustomerPVController.getDeviceCountOrderByCount);
     // 获取系统版本top10数量列表
@@ -184,6 +189,8 @@ const createRoutes = (router) => {
     router.post('/getPageLoadTimeByDate', LoadPageInfoController.getPageLoadTimeByDate);
     // 根据页面加载时间分类
     router.post('/getPageCountForLoadTimeGroupByDay', LoadPageInfoController.getPageCountForLoadTimeGroupByDay);
+    // 获取某一天加载耗时分类
+    router.post('/getPageCountForLoadTimeByDay', LoadPageInfoController.getPageCountForLoadTimeByDay);
     // 获取分类列表
     router.post('/getPageUrlListForLoadTime', LoadPageInfoController.getPageUrlListForLoadTime);
     // 获取页面影响人数
