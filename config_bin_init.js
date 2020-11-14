@@ -289,6 +289,7 @@ var interceptorConArray = [
                 const {url, config} = dingRobot
                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                 warnMsg = config.text.content
+                global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config) // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
@@ -297,6 +298,7 @@ var interceptorConArray = [
                 const {url, config} = dingRobot
                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
                 warnMsg = config.text.content
+                global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
                 
                 // 如果需要其他通知方式，请在此完成报警逻辑
@@ -305,6 +307,7 @@ var interceptorConArray = [
                 const {url, config} = dingRobot
                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n接口报错率达到：" + httpErrorPercent + "%\\r\\n接口报错量达到：" + httpErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
                 warnMsg = config.text.content
+                global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
@@ -313,11 +316,11 @@ var interceptorConArray = [
                 const {url, config} = dingRobot
                 config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n静态资源错误率达到：" + resourceErrorPercent + "%\\r\\n静态资源错误量达到：" + resourceErrorCount + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/resourceError.html"
                 warnMsg = config.text.content
+                global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
             }
-            global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
         })
     }
  
