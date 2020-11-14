@@ -317,7 +317,7 @@ var interceptorConArray = [
 
                 // 如果需要其他通知方式，请在此完成报警逻辑
             }
-            global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().format("yyyy-MM-dd hh:mm:ss")})
+            global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
         })
     }
  
