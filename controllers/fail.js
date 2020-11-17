@@ -2,6 +2,7 @@
 const statusCode = require('../util/status-code')
 const fs = require('fs');
 const { spawn, exec, execFile } = require('child_process');
+const { ConfigModel } = require('../modules/models')
 //delete//
 class FailController {
   static async getSysInfo(ctx) {
@@ -12,15 +13,10 @@ class FailController {
     const req = ctx.request.body
     const param = JSON.parse(req)
     const { inputPurchaseCode } = param
-    const newString = `module.exports = {
-      purchaseCode: '${inputPurchaseCode}',
-    }`
-    await fs.writeFile("./bin/purchaseCode.js", newString, (err) => {
-      if (err) {
-        throw err;
-      }
-      FailController.restartServer()
-    });
+
+    await ConfigModel.updateConfig("purchaseCode", {configValue: inputPurchaseCode})
+
+    FailController.restartServer()
     ctx.response.status = 200;
     ctx.body = statusCode.SUCCESS_200('success', 0)
   }

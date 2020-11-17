@@ -1,8 +1,8 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,TeamController,Common} = require("../controllers/controllers.js")
+const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,TeamController,ConfigController,Common} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
-    /**
+      /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -18,6 +18,9 @@ const createRoutes = (router) => {
 
     // 修复当天数据
     router.get('/fixData', TimerCalculateController.fixData);
+
+    // 添加team
+    router.post('/config', ConfigController.create);
 
     /**
      * 登录相关逻辑
@@ -456,6 +459,7 @@ const createRoutes = (router) => {
      * 测试接口
      */
     router.post('/test', Common.test);
+
 }
 
 module.exports = {

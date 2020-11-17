@@ -1,7 +1,9 @@
 var fs = require('fs');
 const utils = require('./util/utils')
 const log = require("./config/log");
-const webMonitorIdList = require('./bin/webMonitorIdList')
+const db = require('./config/db')
+const Sequelize = db.sequelize;
+// const webMonitorIdList = require('./bin/webMonitorIdList')
 var argv = process.argv
 var commandLine = ""
 var start = 0
@@ -29,9 +31,18 @@ const handleCommandLine = (projectList) => {
   })
 }
 
-if (webMonitorIdList.length) {
-  handleCommandLine(webMonitorIdList)
-} else {
-  log.printError("未能查询到你的应用列表，无法创建对应的数据库表，请检查bin/webMonitorIdList.js文件")
-}
+// 获取项目列表
+let sql = "select webMonitorId from Project"
+Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT}).then((res) => {
+  let webMonitorIdList = []
+  res.forEach((p) => {
+    webMonitorIdList.push(p.webMonitorId)
+  })
+  if (webMonitorIdList.length) {
+    handleCommandLine(webMonitorIdList)
+  } else {
+    log.printError("未能查询到你的应用列表，无法创建对应的数据库表，请检查bin/webMonitorIdList.js文件")
+  }
+})
+
 
