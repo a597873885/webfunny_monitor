@@ -59,10 +59,7 @@
     |
     |——interceptor/                            * 拦截器代码（监控到的异常都会经过拦截器，使用者可以自定义报警）
     |             |
-    |             |—— customerWarning.js       * 对项目总体评分的拦截
-    |             |—— httpRequest.js           * 产生接口请求会被拦截到
-    |             |—— javascriptError.js       * 产生js报错会被拦截到
-    |             |—— resourceError.js         * 产生静态资源加载失败的情况会被拦截到
+    |             |—— config/dingRobot.js      * 钉钉机器人配置
     |
     |——lib/
     |     |
@@ -75,6 +72,8 @@
     |      |
     |      |——info/                            * 普通日志打印目录
     |
+    |——schema/                                 * 基础表数据库字段设计
+    |——schema_con/                             * 需要分表的数据库字段设计
     |
     |——modules/
     |         |
