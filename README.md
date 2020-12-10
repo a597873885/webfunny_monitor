@@ -26,8 +26,7 @@
 
 ### 私有化部署方式
 
-   [【正常部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md) | 
-   [【Docker容器化部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
+   [【部署教程】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md)
    
 ### 联系作者微信
 
