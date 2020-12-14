@@ -1,6 +1,8 @@
 const Fail = require('../controllers/fail')
 const { Common, UserController } = require("../controllers/controllers.js")
 const createRoutesFail = (router) => {
+    // 用户上传日志（h5）
+    router.post('/upLog', Common.upLog);
     // 用户激活码无效
     router.get('/getSysInfo', Common.getSysInfo);
 
