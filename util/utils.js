@@ -2,6 +2,7 @@ require("./extension")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
+const nodemailer = require('nodemailer')
 const timeout = 300000
 const Utils = {
   isArray(object) {
