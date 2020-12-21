@@ -26,7 +26,9 @@ module.exports = (customerWarningCallback) => {
         // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
         // TimerCalculateController.calculateCountByHour(1, customerWarningCallback)
-    }, 2000)
+        // Common.restartServer()
+        // Common.createTable()
+    }, 15000)
     Common.consoleLogo()
     /** * 定时任务  开始 */
     setTimeout(() => {
