@@ -1,5 +1,5 @@
 <p align=center>
-    <img width=400 src="https://images.gitee.com/uploads/images/2020/0601/173301_1013328b_1665425.png"/>
+    <img width=400 src="http://www.webfunny.cn/resource/logo-letter.png"/>
 </p>
 
 
