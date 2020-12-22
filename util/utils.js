@@ -228,6 +228,8 @@ const Utils = {
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
+    // 用户不配置钉钉机器人的话，则url无效，不再继续执行
+    if (!fetchUrl) return null
     // 如果是照片的base64数据，ios系统会卡死
     // TODO: debugPanel不使用react
     const logParams = { ...fetchParams }
