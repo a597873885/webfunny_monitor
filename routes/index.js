@@ -4,6 +4,9 @@ const { createRoutes } = require("./routes");
 const { createRoutesFail } = require("./routesFail");
 const { customerWarningCallback } = require("../interceptor/customerWarning");
 const timerTask = require("./timer");
+const db = require('../config/db')
+const Sequelize = db.sequelize;
+const ConfigTable = Sequelize.import('../schema/config');
 global.monitorInfo = {
     registerEmailCode: {},
     webMonitorIdList: [],
@@ -27,17 +30,19 @@ global.BUILD_ENV = process.argv[3]
 const router = new Router({
     prefix: '/server'
 })
-
-Common.checkPurchase(() => {
-    createRoutes(router)
-    // 启动定时任务, 如果是slave模式，则不启动定时器
-    if (global.serverType == "slave") {
-        Common.consoleInfo(global.serverType)
-    } else {
-        timerTask(customerWarningCallback)
-    }
-}, () => {
-    createRoutesFail(router)
-    Common.consoleInfo()
+ConfigTable.sync({force: false}).then(() => {
+    Common.checkPurchase(() => {
+        createRoutes(router)
+        // 启动定时任务, 如果是slave模式，则不启动定时器
+        if (global.serverType == "slave") {
+            Common.consoleInfo(global.serverType)
+        } else {
+            timerTask(customerWarningCallback)
+        }
+    }, () => {
+        createRoutesFail(router)
+        Common.consoleInfo()
+    })
 })
+
 module.exports = router
