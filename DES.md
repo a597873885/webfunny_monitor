@@ -14,7 +14,7 @@
   
     2.在项目根目录下执行初始化命令和安装命令$：npm run init && npm install
 
-    3.确认是否安装了pm2，如果没有安装pm2，请执行安装命令$：npm install pm2 -g
+    3.确认是否安装了pm2（执行$：pm2 -v），如果没有安装pm2，请执行安装命令$：npm install pm2 -g
 
 
 ### 第二步、配置数据库(Mysql)连接
