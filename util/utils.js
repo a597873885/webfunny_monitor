@@ -150,6 +150,15 @@ const Utils = {
     // }
     return encryptString
   },
+  md5: function(encryptString) {
+    try {
+      let hash = crypto.createHash('md5');
+      return hash.update(encryptString).digest('base64');
+    } catch(e) {
+      console.log(e)
+      return encryptString
+    }
+  },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
   },

@@ -16,6 +16,11 @@ const createRoutesFail = (router) => {
 
     // 登录
     router.post('/login', UserController.login);
+
+    /**
+     * Docker 心跳检测
+     */
+    router.get('/health', Common.dockerHealth);
 }
 
 module.exports = {
