@@ -39,6 +39,10 @@ ConfigTable.sync({force: false}).then(() => {
         } else {
             timerTask(customerWarningCallback)
         }
+        // 3秒后开始消费消息
+        setTimeout(() => {
+            Common.startReceiveMsg()
+        }, 3000)
     }, () => {
         createRoutesFail(router)
         Common.consoleInfo()
