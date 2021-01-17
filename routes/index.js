@@ -7,6 +7,7 @@ const timerTask = require("./timer");
 const db = require('../config/db')
 const Sequelize = db.sequelize;
 const ConfigTable = Sequelize.import('../schema/config');
+
 global.monitorInfo = {
     registerEmailCode: {},
     webMonitorIdList: [],
@@ -30,6 +31,7 @@ global.BUILD_ENV = process.argv[3]
 const router = new Router({
     prefix: '/server'
 })
+
 ConfigTable.sync({force: false}).then(() => {
     Common.checkPurchase(() => {
         createRoutes(router)
@@ -39,6 +41,10 @@ ConfigTable.sync({force: false}).then(() => {
         } else {
             timerTask(customerWarningCallback)
         }
+        // 3秒后开始消费消息
+        setTimeout(() => {
+            Common.startReceiveMsg()
+        }, 3000)
     }, () => {
         createRoutesFail(router)
         Common.consoleInfo()
