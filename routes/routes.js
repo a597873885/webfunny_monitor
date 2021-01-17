@@ -2,7 +2,7 @@ const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,D
 
 
 const createRoutes = (router) => {
-      /**
+    /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -29,6 +29,8 @@ const createRoutes = (router) => {
     router.post('/login', UserController.login);
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+    // 管理员获取用户列表
+    router.post('/getUserListByAdmin', UserController.getUserListByAdmin);
     // 忘记密码
     router.post('/forgetPwd', UserController.forgetPwd);
     // 发送注册验证码
@@ -40,6 +42,13 @@ const createRoutes = (router) => {
     
     // 注册用户
     router.get('/register', UserController.register);
+    // 重置密码
+    router.get('/resetPwd', UserController.resetPwd);
+    // 激活用户
+    router.post('/activeRegisterMember', UserController.activeRegisterMember);
+    // 删除用户
+    router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
+    
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);

@@ -46,6 +46,12 @@ const User = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'groupId'
     },
+    // 注册状态 0 / 1
+    registerStatus: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'registerStatus'
+    },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE,

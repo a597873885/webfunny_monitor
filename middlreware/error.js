@@ -20,10 +20,10 @@ module.exports = function () {
                     ctx.body = statusCode.ERROR_401(login_error);
                     return
                 }
-                const { emailName, password, userId, userType } = decode
+                const { emailName, userId, userType } = decode
                 // 解密payload，获取用户名和ID
                 ctx.user = {
-                    emailName, password, userId, userType
+                    emailName, userId, userType
                 }
                 await next();
             })

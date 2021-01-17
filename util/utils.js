@@ -1,4 +1,5 @@
 require("./extension")
+const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
@@ -150,6 +151,15 @@ const Utils = {
     // }
     return encryptString
   },
+  md5: function(encryptString) {
+    try {
+      let hash = crypto.createHash('md5');
+      return hash.update(encryptString).digest('base64');
+    } catch(e) {
+      console.log(e)
+      return encryptString
+    }
+  },
   setTableName(name) {
     return name + new Date().Format("yyyyMMdd")
   },
@@ -222,14 +232,13 @@ const Utils = {
     return Utils.handleFetchData(fetchUrl, fetchParams, httpCustomerOperation)
   },
   postJson(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    if (!url) return null
     const method = "POST"
     const body = JSON.stringify(params)
     const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
-    // 用户不配置钉钉机器人的话，则url无效，不再继续执行
-    if (!fetchUrl) return null
     // 如果是照片的base64数据，ios系统会卡死
     // TODO: debugPanel不使用react
     const logParams = { ...fetchParams }
