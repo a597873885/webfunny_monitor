@@ -21,12 +21,16 @@
 
    [【功能简介】](http://www.webfunny.cn/home.html?source=github) | 
    [【Demo效果】](http://www.webfunny.cn/demo/home.html) | 
+   [【更新日志】](http://www.webfunny.cn/update.html) |
    [【关于开源】](http://www.webfunny.cn/faq.html?tab=2)
+ 
    
 
 ### 私有化部署方式
 
    [【部署教程】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md)
+   
+   [【Docker部署】](https://github.com/a597873885/webfunny_monitor/blob/master/DES_DOCKER.md)
    
 ### 联系作者微信
 
