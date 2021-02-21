@@ -173,9 +173,6 @@ const createRoutes = (router) => {
     router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
     // 查询用户的访问列表，分页
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
-    // 根据时间查询用户的页面总数
-    router.post('/getPvListTotalCountByTime', CustomerPVController.getPvListTotalCountByTime);
-    
     // 获取七天留存数量
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率
@@ -408,13 +405,18 @@ const createRoutes = (router) => {
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
+    // 断开连接线上用户
+    router.get('/disconnectUser', Common.disconnectUser)
+    // 获取本地缓存信息
     router.get('/getDebugInfoForLocalInfo', Common.getDebugInfoForLocalInfo)
+    // 清理本地缓存信息
+    router.get('/clearLocalInfo', Common.clearLocalInfo)
+    // 获取录屏信息
     router.get('/getDebugInfoForVideo', Common.getDebugInfoForVideo)
-
-    /**
-     * git stars 相关信息
-     */
-    router.get('/gitStars', Common.gitStars);
+    // 获取行为记录信息
+    router.get('/getDebugInfos', Common.getDebugInfos)
+    router.get('/getHistoryDebugInfos', Common.getHistoryDebugInfos)
+    router.get('/getDebugInfosForPage', Common.getDebugInfosForPage)
 
     /**
      * 推送信息相关
