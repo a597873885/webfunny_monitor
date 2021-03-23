@@ -335,6 +335,50 @@ const Utils = {
   },
 
   /**
+   * 处理timeSql
+   */
+  handleTimeSqlByTimeSize(param) {
+    const timeSize = param.timeSize * 1
+    const nowTime = new Date().getTime()
+    const startTime = nowTime - (timeSize + 1) * 24 * 3600 * 1000
+    const endTime = nowTime - timeSize * 24 * 3600 * 1000
+    let startHour = new Date(startTime).Format("MM-dd hh")
+    let endHour = new Date(endTime).Format("MM-dd hh")
+    if (timeSize > 0) {
+      const startTimeDate = new Date(endTime).Format("yyyy-MM-dd") + " 00:00:00"
+      const endTimeDate = new Date(endTime).Format("yyyy-MM-dd") + " 23:59:59"
+      startHour = new Date(startTimeDate).Format("MM-dd hh")
+      endHour = new Date(endTimeDate).Format("MM-dd hh")
+    }
+    let timeSql = " and hourName>='" + startHour + "' and hourName<'" + endHour + "' "
+    return timeSql
+  },
+  /**
+   * 处理timeSql
+   */
+  handleTimeSqlByTimeSizeSeven(param) {
+    const oneDayTime = 24 * 3600 * 1000
+    let { timeSize = 0, scope = 0 } = param
+    timeSize = parseInt(timeSize, 10)
+    scope = parseInt(scope, 10)
+    scope = timeSize > 0 ? scope : scope - 1
+    const nowTime = new Date().getTime() - scope * oneDayTime
+    const startTime = nowTime - (timeSize + 2) * oneDayTime
+    const endTime = nowTime - (timeSize + 1) * oneDayTime
+    let startHour = new Date(startTime).Format("MM-dd hh")
+    let endHour = new Date(endTime).Format("MM-dd hh")
+    let timeSql = " and hourName>='" + startHour + "' and hourName<'" + endHour + "' "
+    if (timeSize > 0) {
+      const startTimeDate = new Date(endTime + oneDayTime).Format("yyyy-MM-dd") + " 00:00:00"
+      const endTimeDate = new Date(endTime + oneDayTime).Format("yyyy-MM-dd") + " 23:59:59"
+      startHour = new Date(startTimeDate).Format("MM-dd hh")
+      endHour = new Date(endTimeDate).Format("MM-dd hh")
+      timeSql = " and hourName>='" + startHour + "' and hourName<='" + endHour + "' "
+    }
+    return timeSql
+  },
+
+  /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
   sendEmail: (email, subject, html, user, pass) => {
