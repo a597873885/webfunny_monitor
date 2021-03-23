@@ -45,11 +45,15 @@ const UPLOAD_TYPE = {
 
     DEVICE_COUNT_HOUR: "device_count_hour",  // 每小时的设备数量
     CITY_COUNT_HOUR: "city_count_hour",  // 每小时的城市数量
+    PROVINCE_COUNT_HOUR: "province_count_hour",  // 每小时的省份数量
+    COUNTRY_COUNT_HOUR: "country_count_hour",  // 每小时的国家数量
     SYSTEM_COUNT_HOUR: "system_count_hour",  // 每小时的系统版本数量
     VERSION_COUNT_HOUR: "version_count_hour",  // 每小时的应用版本数量
 
     DEVICE_COUNT_DAY: "device_count_day",  // 一天的设备数量
     CITY_COUNT_DAY: "city_count_day",  // 一天的城市数量
+    PROVINCE_COUNT_DAY: "province_count_day",  // 一天的省份数量
+    COUNTRY_COUNT_DAY: "country_count_day",  // 一天的国家数量
     SYSTEM_COUNT_DAY: "system_count_day",  // 一天的系统版本数量
     VERSION_COUNT_DAY: "version_count_day",  // 一天的应用版本数量
 
