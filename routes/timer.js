@@ -6,6 +6,18 @@ const { accountInfo } = AccountConfig
  * 定时任务
  */
 module.exports = (customerWarningCallback) => {
+     /**
+     * 3秒后开始接收消息队列里的数据
+     * */
+    setTimeout(() => {
+        if (accountInfo.messageQueue === true) {
+            // 开始接收消息队列的消息
+            Common.startReceiveMsg()
+        }
+        // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
+        // Common.setWebMonitorIdList()
+        // Common.setStopWebMonitorIdList()
+    }, 3000)
     /**
      * 2秒后开始进行第一次分析
      * */
@@ -13,10 +25,8 @@ module.exports = (customerWarningCallback) => {
         // TimerCalculateController.calculateCountByHour(1)
         // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
-        // TimerCalculateController.calculateCountByHour(1, customerWarningCallback)
-        // Common.restartServer()
-        // Common.createTable()
-    }, 15000)
+        // TimerCalculateController.calculateCountByHour(1)
+    }, 2000)
     Common.consoleLogo()
     /** * 定时任务  开始 */
     setTimeout(() => {
@@ -84,7 +94,7 @@ module.exports = (customerWarningCallback) => {
                 }
                 if (minuteTimeStr.substring(1) == "0:00") {
                     // 每隔10分钟，对一些实时数据进行计算
-                    Common.calculateCountByDayForTenMinutes(0)
+                    // Common.calculateCountByDayForTenMinutes(0)
                 }
                 if (minuteTimeStr.substring(3) == "00") {
                     // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0

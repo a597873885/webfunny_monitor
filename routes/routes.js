@@ -155,10 +155,13 @@ const createRoutes = (router) => {
     router.post('/getPvUvCountBySecond', CustomerPVController.getPvUvCountBySecond);
     // 获取每分钟的PV量
     router.post('/getPvCountByMinute', CustomerPVController.getPvCountByMinute);
-    // 获取每分钟的PV量
+    // 获取省份的人数
     router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
-    // 获取每分钟的PV量
-    router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
+    // 获取用户分布信息
+    router.post('/getLocationDataForMap', CustomerPVController.getLocationDataForMap);
+    // 获取用户标签的占比
+    router.post('/getTagsPercent', CustomerPVController.getTagsPercent);
+
     // 获取每分钟的PV量
     router.post('/getAliveCusInRealTime', CustomerPVController.getAliveCusInRealTime);
     // 获取城市top10数量列表
