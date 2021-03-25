@@ -21,8 +21,7 @@
 
    [【官网简介】](http://www.webfunny.cn/home.html) | 
    [【Demo效果】](http://www.webfunny.cn/demo/home.html) | 
-   [【更新日志】](http://www.webfunny.cn/update.html) |
-   [【关于开源】](http://www.webfunny.cn/faq.html?tab=2)
+   [【更新日志】](http://www.webfunny.cn/update.html)
  
    
 
