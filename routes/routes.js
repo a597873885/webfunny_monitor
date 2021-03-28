@@ -27,6 +27,10 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // 重置验证码
+    router.post('/refreshValidateCode', UserController.refreshValidateCode)
+    // 获取验证码
+    router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
     // 管理员获取用户列表

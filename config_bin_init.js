@@ -41,7 +41,7 @@ var fileArray = [
       ]
     }`,
     `module.exports = {
-        purchaseCode: 'AAAABBBBCCCCDDDD',
+        purchaseCode: '',
     }`,
     `module.exports = {
         saveDays: '8',

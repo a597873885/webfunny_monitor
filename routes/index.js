@@ -10,6 +10,7 @@ const ConfigTable = Sequelize.import('../schema/config');
 
 global.monitorInfo = {
     registerEmailCode: {},
+    registerEmailCodeCheckError: {},
     webMonitorIdList: [],
     userIdArray: [],
     tempDebugInfoArray: {},
@@ -25,7 +26,8 @@ global.monitorInfo = {
     logCountInMinuteList: [], // 每分钟日志量数组
     errorLogListForLast200: [],  // 存放最近200条报错日志
     purchaseCodeValid: false,
-    warningMessageList: []
+    warningMessageList: [],
+    loginValidateCode: {},
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

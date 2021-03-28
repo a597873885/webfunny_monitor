@@ -1,4 +1,4 @@
-const { Common, TimerCalculateController } = require("../controllers/controllers.js")
+const { Common, UserController, TimerCalculateController } = require("../controllers/controllers.js")
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
@@ -28,6 +28,11 @@ module.exports = (customerWarningCallback) => {
         // TimerCalculateController.calculateCountByHour(1)
     }, 2000)
     Common.consoleLogo()
+    // 初始化登录验证码
+    UserController.setValidateCode()
+    global.monitorInfo.loginValidateCodeTimer = setInterval(() => {
+        UserController.setValidateCode()
+    }, 5 * 60 * 1000)
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
