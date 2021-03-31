@@ -64,13 +64,11 @@ module.exports = (customerWarningCallback) => {
             }
 
             try {
-                // 凌晨0点10分重新计算昨天的分析数据
-                if (hourTimeStr == "00:10:00") {
-                    TimerCalculateController.calculateCountByDay(-1)
-                }
-                // 去除第一个小时  每小时的第6分钟，计算一次今天的分析结果
-                if (hourTimeStr !== "00:06:00" && minuteTimeStr == "06:00") {
-                    TimerCalculateController.calculateCountByDay(0)
+                // 如果是凌晨，则计算上一天的分析数据
+                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:10:00") {
+                    TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+                } else if (minuteTimeStr > "06:00" && minuteTimeStr < "10:00") {
+                    TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
                 }
                 // 每小时的前6分钟，会计算小时数据
                 if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
@@ -84,7 +82,6 @@ module.exports = (customerWarningCallback) => {
                         global.monitorInfo.logCountInMinuteList.shift()
                     }
                 }
-
                 // 每小时的51分，开始flush pm2 的日志
                 if (minuteTimeStr == "51:00") {
                     Common.pm2Flush()
