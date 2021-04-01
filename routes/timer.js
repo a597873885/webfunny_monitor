@@ -65,9 +65,9 @@ module.exports = (customerWarningCallback) => {
 
             try {
                 // 如果是凌晨，则计算上一天的分析数据
-                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:10:00") {
+                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
                     TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
-                } else if (minuteTimeStr > "06:00" && minuteTimeStr < "10:00") {
+                } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
                     TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
                 }
                 // 每小时的前6分钟，会计算小时数据
