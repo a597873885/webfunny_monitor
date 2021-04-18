@@ -2,11 +2,13 @@ const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,D
 
 
 const createRoutes = (router) => {
-    /**
+   /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
     router.post('/upLog', Common.upLog);
+    // 用户上传自定义日志（h5）
+    router.post('/upMyLog', Common.upMyLog);
     // 用户上传日志 (小程序)
     router.post('/upMog', Common.upMog);
     // 用户上传debug日志
@@ -27,6 +29,10 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // 重置验证码
+    router.post('/refreshValidateCode', UserController.refreshValidateCode)
+    // 获取验证码
+    router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
     // 管理员获取用户列表
@@ -155,10 +161,13 @@ const createRoutes = (router) => {
     router.post('/getPvUvCountBySecond', CustomerPVController.getPvUvCountBySecond);
     // 获取每分钟的PV量
     router.post('/getPvCountByMinute', CustomerPVController.getPvCountByMinute);
-    // 获取每分钟的PV量
+    // 获取省份的人数
     router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
-    // 获取每分钟的PV量
-    router.post('/getProvinceCountBySeconds', CustomerPVController.getProvinceCountBySeconds);
+    // 获取用户分布信息
+    router.post('/getLocationDataForMap', CustomerPVController.getLocationDataForMap);
+    // 获取用户标签的占比
+    router.post('/getTagsPercent', CustomerPVController.getTagsPercent);
+
     // 获取每分钟的PV量
     router.post('/getAliveCusInRealTime', CustomerPVController.getAliveCusInRealTime);
     // 获取城市top10数量列表
@@ -173,9 +182,6 @@ const createRoutes = (router) => {
     router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
     // 查询用户的访问列表，分页
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
-    // 根据时间查询用户的页面总数
-    router.post('/getPvListTotalCountByTime', CustomerPVController.getPvListTotalCountByTime);
-    
     // 获取七天留存数量
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率
@@ -408,13 +414,18 @@ const createRoutes = (router) => {
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
+    // 断开连接线上用户
+    router.get('/disconnectUser', Common.disconnectUser)
+    // 获取本地缓存信息
     router.get('/getDebugInfoForLocalInfo', Common.getDebugInfoForLocalInfo)
+    // 清理本地缓存信息
+    router.get('/clearLocalInfo', Common.clearLocalInfo)
+    // 获取录屏信息
     router.get('/getDebugInfoForVideo', Common.getDebugInfoForVideo)
-
-    /**
-     * git stars 相关信息
-     */
-    router.get('/gitStars', Common.gitStars);
+    // 获取行为记录信息
+    router.get('/getDebugInfos', Common.getDebugInfos)
+    router.get('/getHistoryDebugInfos', Common.getHistoryDebugInfos)
+    router.get('/getDebugInfosForPage', Common.getDebugInfosForPage)
 
     /**
      * 推送信息相关
