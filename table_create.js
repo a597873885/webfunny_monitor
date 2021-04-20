@@ -49,7 +49,7 @@ function createTable() {
     const VideosInfo = Sequelize.import('./schema_temp/videosInfo');
     VideosInfo.sync({force: false});
     setTimeout(function() {
-        console.log("请不要关闭，等待程序自动停止...")
+        console.log("此进程将会重复多次，请不要中断，等待程序自动停止...")
     }, 2000)
 }
 /*
