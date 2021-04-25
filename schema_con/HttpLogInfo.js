@@ -8,6 +8,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: false,
       autoIncrement: true,
     },
+    // 请求方法
+    method: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'method'
+    },
     // 接口请求的完整URL
     httpUrl: {
       type: DataTypes.TEXT,
