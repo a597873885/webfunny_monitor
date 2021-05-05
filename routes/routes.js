@@ -471,15 +471,14 @@ const createRoutes = (router) => {
     router.get('/health', Common.dockerHealth);
 
     /**
-     * 废弃接口
-     */
-    router.post('/searchUserBehaviors', Common.abortApis);
-
-    /**
      * 测试接口
      */
     router.post('/test', Common.test);
 
+    /**
+     * 获取所有数据库表名
+     */
+    router.get('/getAllTableList', Common.getAllTableList);
 }
 
 module.exports = {
