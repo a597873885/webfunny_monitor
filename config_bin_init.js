@@ -20,8 +20,8 @@ var fileArray = [
         mainDomain: ''                         // 默认空字符串就行了
     }`,
     `module.exports = {
-      requestTextLength: 500,  // 接口请求参数内容长度限制
-      responseTextLength: 500,  // 接口返回结果内容长度限制
+      requestTextLength: 1000,  // 接口请求参数内容长度限制
+      responseTextLength: 1000,  // 接口返回结果内容长度限制
     }
     `,
     `module.exports = {
