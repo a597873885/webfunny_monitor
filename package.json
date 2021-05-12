@@ -58,7 +58,7 @@
     "node-fetch": "^2.2.0",
     "node-ip2region": "^1.0.2",
     "node-uuid": "^1.4.8",
-    "nodemailer": "^6.2.1",
+    "nodemailer": "^6.4.16",
     "pug": "^2.0.0-rc.1",
     "sequelize": "^5.19.6",
     "serve-static": "^1.14.1",
