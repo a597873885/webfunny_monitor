@@ -33,7 +33,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 输入的内容
     tagName: {
-      type: DataTypes.STRING(15),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'tagName'
     },
