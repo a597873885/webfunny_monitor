@@ -339,7 +339,7 @@ var interceptorConArray = [
  const handleResultWhenHttpRequest = (res) => {
      // console.log(res) // 打印查看其他字段
      const {webMonitorId, statusResult, status, loadTime, simpleUrl, httpUrl } = res
-     const simpleHttpUrl = decodeURIComponent(Utils.b64DecodeUnicode(httpUrl))
+     const simpleHttpUrl = Utils.b64DecodeUnicode(httpUrl)
      if (statusResult === "请求返回") {
          switch(status) {
              case 200:

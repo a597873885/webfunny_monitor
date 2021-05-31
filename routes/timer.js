@@ -14,10 +14,12 @@ module.exports = (customerWarningCallback) => {
             // 开始接收消息队列的消息
             Common.startReceiveMsg()
         }
+        // 将每个项目的配置放入全局变量中
+        Common.setProjectConfigList()
+        
         // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
-        // Common.setWebMonitorIdList()
         // Common.setStopWebMonitorIdList()
-    }, 3000)
+    }, 4000)
     /**
      * 2秒后开始进行第一次分析
      * */
@@ -39,7 +41,7 @@ module.exports = (customerWarningCallback) => {
         const startTime = new Date().getTime();
         let count = 0;
         const fixed = () => {
-            count++;
+            count ++;
             const tempDate = new Date()
             const tempTime = new Date().getTime()
             const wrongTime = startTime + count * 1000
@@ -49,19 +51,19 @@ module.exports = (customerWarningCallback) => {
             const hourTimeStr = tempDate.Format("hh:mm:ss")
             const minuteTimeStr = tempDate.Format("mm:ss")
 
-            try {
-                if (hourTimeStr == "00:00:00" || hourTimeStr == "08:00:00") {
-                    // 每天凌晨零点执行重启服务
-                    log.printInfo("当前时间：" + hourTimeStr)
-                    console.log("当前时间：" + hourTimeStr)
-                    log.printInfo("即将重启服务....")
-                    console.log("即将重启服务....")
-                    Common.restartServer()
-                    return
-                }
-            } catch(e) {
-                log.printError("重启程序出错：", e)
-            }
+            // try {
+            //     if (hourTimeStr == "00:00:00" || hourTimeStr == "08:00:00") {
+            //         // 每天凌晨零点执行重启服务
+            //         log.printInfo("当前时间：" + hourTimeStr)
+            //         console.log("当前时间：" + hourTimeStr)
+            //         log.printInfo("即将重启服务....")
+            //         console.log("即将重启服务....")
+            //         Common.restartServer()
+            //         return
+            //     }
+            // } catch(e) {
+            //     log.printError("重启程序出错：", e)
+            // }
 
             try {
                 // 如果是凌晨，则计算上一天的分析数据

@@ -124,6 +124,10 @@ const createRoutes = (router) => {
     router.post('/getUserTags', ProjectController.getUserTags)
     // 保存userTags
     router.post('/saveUserTags', ProjectController.saveUserTags)
+    // 获取项目配置
+    router.post('/getProjectConfig', ProjectController.getProjectConfig)
+    // 保存项目配置
+    router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
     /**
      * 用户访问信息接口
      */

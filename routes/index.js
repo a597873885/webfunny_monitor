@@ -28,6 +28,7 @@ global.monitorInfo = {
     purchaseCodeValid: false,
     warningMessageList: [],
     loginValidateCode: {},
+    projectConfigs: {}, // 携带每个项目的配置信息
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -37,23 +38,27 @@ const router = new Router({
     prefix: '/server'
 })
 
+const handleResult = () => {
+    createRoutes(router)
+    // 启动定时任务, 如果是slave模式，则不启动定时器
+    if (global.serverType == "slave") {
+        Common.consoleInfo(global.serverType)
+    } else {
+        timerTask(customerWarningCallback)
+    }
+    // 3秒后开始消费消息
+    setTimeout(() => {
+        Common.startReceiveMsg()
+    }, 3000)
+}
+
 ConfigTable.sync({force: false}).then(() => {
     Common.checkPurchase(() => {
-        createRoutes(router)
-        // 启动定时任务, 如果是slave模式，则不启动定时器
-        if (global.serverType == "slave") {
-            Common.consoleInfo(global.serverType)
-        } else {
-            timerTask(customerWarningCallback)
-        }
-        // 3秒后开始消费消息
-        setTimeout(() => {
-            Common.startReceiveMsg()
-        }, 3000)
+        handleResult()
     }, () => {
-        createRoutesFail(router)
-        Common.consoleInfo()
+        handleResult()
     })
 })
+
 
 module.exports = router

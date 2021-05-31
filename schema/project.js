@@ -24,7 +24,7 @@ const Project = function (sequelize, DataTypes) {
     },
     // 项目名称
     projectName: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'projectName'
     },
@@ -81,6 +81,12 @@ const Project = function (sequelize, DataTypes) {
       type: DataTypes.STRING(2),
       allowNull: true,
       field: 'recording'
+    },
+    // 监控配置项
+    recordConfig: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'recordConfig'
     },
     // 创建时间
     createdAt: {
