@@ -128,11 +128,17 @@ const Utils = {
     return tempObj
   },
   b64EncodeUnicode: function(str) {
-    var encodeStr = encodeURIComponent(str);
-    return btoa(encodeStr);
+    if (str) {
+      var encodeStr = encodeURIComponent(str);
+      return btoa(encodeStr);
+    }
+    return "";
   },
   b64DecodeUnicode: function(str) {
-    return myAtob(str)
+    if (str) {
+      return decodeURIComponent(myAtob(str))
+    }
+    return "";
   },
   md5Encrypt: function(encryptString) {
     // try {
