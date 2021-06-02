@@ -4,7 +4,6 @@ node_modules
 dist
 *.swp
 *.swo
-.idea/
 .vscode/
 log
 .DS_Store
@@ -15,6 +14,7 @@ dist
 *.swo
 .idea/
 .vscode/
+.history/
 logs/
 bin/*
 interceptor
