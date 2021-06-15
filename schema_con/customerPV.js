@@ -26,6 +26,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'deviceName'
     },
+    // 设备尺寸，物理尺寸
+    deviceSize: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'deviceSize'
+    },
     // 系统信息
     os: {
       type: DataTypes.STRING(20),
