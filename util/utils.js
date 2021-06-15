@@ -128,17 +128,18 @@ const Utils = {
     return tempObj
   },
   b64EncodeUnicode: function(str) {
-    if (str) {
-      var encodeStr = encodeURIComponent(str);
-      return btoa(encodeStr);
-    }
-    return "";
+    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+      return String.fromCharCode("0x" + p1)
+    }))
   },
   b64DecodeUnicode: function(str) {
-    if (str) {
-      return decodeURIComponent(myAtob(str))
+    try {
+      return decodeURIComponent(myAtob(str).split('').map(function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+      }).join(''));
+    } catch (e) {
+      return str
     }
-    return "";
   },
   md5Encrypt: function(encryptString) {
     // try {

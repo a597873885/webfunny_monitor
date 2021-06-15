@@ -112,6 +112,8 @@ const createRoutes = (router) => {
     router.get('/project/detailList', ProjectController.getProjectDetailList);
     // 查询所有项目的实时UV信息
     router.get('/project/getProjectInfoInRealTime', ProjectController.getProjectInfoInRealTime);
+    // 查询所有项目的实时UV信息
+    router.post('/project/getProjectInfoListInRealTime', ProjectController.getProjectInfoListInRealTime);
     // 创建新的监控项目
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目
@@ -182,6 +184,8 @@ const createRoutes = (router) => {
     router.post('/getCityCountOrderByCountTop20', CustomerPVController.getCityCountOrderByCountTop20);
     // 获取设备top10数量列表
     router.post('/getDeviceCountOrderByCount', CustomerPVController.getDeviceCountOrderByCount);
+    // 获取设备分辨率top10数量列表
+    router.post('/getDeviceSizeCountOrderByCount', CustomerPVController.getDeviceSizeCountOrderByCount);
     // 获取系统版本top10数量列表
     router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
     // 查询用户的访问列表，分页
