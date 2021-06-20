@@ -17,6 +17,7 @@ const UPLOAD_TYPE = {
     DOM_ANALYSIS_HOUR_TIME: "dom_analysis_hour_time", // 每小时 dom解析平均时间
     LOADPAGE_HOUR_TIME: "loadpage_hour_time", // 每小时 页面加载完成的平均耗时
 
+
     LOADPAGE_DAY_COUNT: "loadpage_day_count",  // 每天 页面首次加载次数
     DNS_DAY_TIME: "dns_day_time",  // 每天 DNS解析平均耗时
     TCP_DAY_TIME: "tcp_day_time",  // 每天 TCP连接平均耗时
@@ -24,6 +25,8 @@ const UPLOAD_TYPE = {
     RESOURCE_DAY_TIME: "resource_day_time", // 每天 资源加载完成平均耗时间
     DOM_ANALYSIS_DAY_TIME: "dom_analysis_day_time", // 每天 dom解析平均时间
     LOADPAGE_DAY_TIME: "loadpage_day_time", // 每天 页面加载完成的平均耗时
+
+    HTTP_HOUR_TIME: "http_hour_time",  // 每小时 接口接口平均耗时
 
     HTTP_HOUR_COUNT_A: "http_hour_count_a",  // 每小时 接口耗时<=2s的
     HTTP_HOUR_COUNT_B: "http_hour_count_b",  // 每小时 接口耗时2s< <=5s的

@@ -130,6 +130,8 @@ const createRoutes = (router) => {
     router.post('/getProjectConfig', ProjectController.getProjectConfig)
     // 保存项目配置
     router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
+    // 开启项目监控
+    router.post('/openProject', ProjectController.openProject)
     /**
      * 用户访问信息接口
      */
@@ -228,6 +230,13 @@ const createRoutes = (router) => {
     router.get('/getPageUrlCountListByHour', LoadPageInfoController.getPageUrlCountListByHour);
     // 获取24小时分布
     router.post('/getPageUrlCountForHourByMinutes', LoadPageInfoController.getPageUrlCountForHourByMinutes);
+
+    // 获取性能预览里边页面加载的各项指标
+    router.post('/getPageLoadTimeForAll', LoadPageInfoController.getPageLoadTimeForAll);
+    // 获取加载耗时列表top10
+    router.post('/getPageLoadTimeListByUrl', LoadPageInfoController.getPageLoadTimeListByUrl);
+    // 获取页面加载耗时占比
+    router.post('/getPageLoadTimePercent', LoadPageInfoController.getPageLoadTimePercent);
 
     /**
      * JS错误信息接口
@@ -335,6 +344,11 @@ const createRoutes = (router) => {
     router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
     // 获取24小时分布
     router.post('/getHttpUrlCountForHourByMinutes', HttpLogInfoController.getHttpUrlCountForHourByMinutes);
+    // 获取http接口请求的通用信息
+    router.post('/getHttpLoadTimeForAll', HttpLogInfoController.getHttpLoadTimeForAll);
+    // 获取接口加载耗时占比
+    router.post('/getHttpLoadTimePercent', HttpLogInfoController.getHttpLoadTimePercent);
+    router.post('/getHttpLoadTimeListByUrl', HttpLogInfoController.getHttpLoadTimeListByUrl);
 
     /**
      * 埋点数据相关
