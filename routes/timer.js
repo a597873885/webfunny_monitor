@@ -13,6 +13,7 @@ module.exports = (customerWarningCallback) => {
         if (accountInfo.messageQueue === true) {
             // 开始接收消息队列的消息
             Common.startReceiveMsg()
+            Common.startReceiveMsgForMog()
         }
         // 将每个项目的配置放入全局变量中
         Common.setProjectConfigList()
