@@ -33,6 +33,13 @@ const statusCode = {
         }
     },
 
+    ERROR_413: (msg) => {
+        return {
+            code: 413,
+            msg
+        }
+    },
+
     SUCCESS_200: (msg, data) => {
         return {
             code: 200,

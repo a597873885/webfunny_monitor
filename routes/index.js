@@ -9,6 +9,7 @@ const Sequelize = db.sequelize;
 const ConfigTable = Sequelize.import('../schema/config');
 
 global.monitorInfo = {
+    webfunnyTokenList: [],
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
