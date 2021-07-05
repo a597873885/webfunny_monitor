@@ -1,7 +1,7 @@
 {
   "name": "webfunny_monitor",
-  "version": "1.0.0",
-  "description": "这是webmonitor对应的后台",
+  "version": "2.7.0",
+  "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
     "init": "node config_bin_init.js",
