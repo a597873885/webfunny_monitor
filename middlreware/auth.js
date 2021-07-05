@@ -8,7 +8,7 @@ const statusCode = require('../util/status-code')
  * 判断token是否可用
  */
 // 检查登录白名单
-const ignorePaths = ["/getSysInfo", "/getValidateCode", "/login", "/register", "/registerForAdmin", "/sendRegisterEmail", "/resetPwd"]
+const ignorePaths = ["/getSysInfo", "/getValidateCode", "/login", "/register", "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp"]
 module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
