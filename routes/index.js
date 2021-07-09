@@ -28,7 +28,7 @@ global.monitorInfo = {
     errorLogListForLast200: [],  // 存放最近200条报错日志
     purchaseCodeValid: false,
     warningMessageList: [],
-    loginValidateCode: {},
+    loginValidateCode: "",
     projectConfigs: {}, // 携带每个项目的配置信息
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
