@@ -15,7 +15,7 @@ const DeviceInfoCountByHour = function (sequelize, DataTypes) {
     },
     // 日志类型
     uploadType: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'uploadType'
     },

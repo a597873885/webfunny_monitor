@@ -233,6 +233,8 @@ const createRoutes = (router) => {
 
     // 获取性能预览里边页面加载的各项指标
     router.post('/getPageLoadTimeForAll', LoadPageInfoController.getPageLoadTimeForAll);
+    router.post('/getAvgLoadTimeForAllByHour', LoadPageInfoController.getAvgLoadTimeForAllByHour);
+    router.post('/getPageLoadTimeByType', LoadPageInfoController.getPageLoadTimeByType);
     // 获取加载耗时列表top10
     router.post('/getPageLoadTimeListByUrl', LoadPageInfoController.getPageLoadTimeListByUrl);
     // 获取页面加载耗时占比
@@ -408,10 +410,12 @@ const createRoutes = (router) => {
 
     //创建配置
     router.post('/changeLogServerStatus', Common.changeLogServerStatus)
+    router.post('/changeMonitorStatus', Common.changeMonitorStatus)
     router.post('/changeWaitCounts', Common.changeWaitCounts)
     router.post('/changeSaveDays', Common.changeSaveDays)
     router.post('/saveMysqlConfigsForNew', Common.saveMysqlConfigs)
     router.get('/getLogServerStatusForNew', Common.getLogServerStatus)
+    router.post('/changeMonitorStatus', Common.changeMonitorStatus)
 
     // 获取警报检查频率
     router.post('/getCheckTime', AlarmController.getCheckTime)

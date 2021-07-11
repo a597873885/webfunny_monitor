@@ -27,6 +27,10 @@ const UPLOAD_TYPE = {
     LOADPAGE_DAY_TIME: "loadpage_day_time", // 每天 页面加载完成的平均耗时
 
     HTTP_HOUR_TIME: "http_hour_time",  // 每小时 接口接口平均耗时
+    HTTP_HOUR_TOTAL_COUNT: "http_hour_total_count", // 每小时的请求总数
+
+    HTTP_HOUR_COUNT_LOADTIME: "http_hour_count_loadtime", // 每小时接口请求总数，加载耗时平均值
+    PAGE_HOUR_COUNT_LOADTIME: "page_hour_count_loadtime", // 每小时首次页面加载总数，加载耗时平均值
 
     HTTP_HOUR_COUNT_A: "http_hour_count_a",  // 每小时 接口耗时<=2s的
     HTTP_HOUR_COUNT_B: "http_hour_count_b",  // 每小时 接口耗时2s< <=5s的

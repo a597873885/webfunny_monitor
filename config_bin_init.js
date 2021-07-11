@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 // 初始化bin目录
-var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
+var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/sysMonitor.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
 var fileArray = [
     `module.exports = {
         localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
@@ -82,6 +82,9 @@ var fileArray = [
     }`,
     `// 停止日志上报列表
     module.exports = []`,
+    `module.exports = {
+      openMonitor: true  // 企业版可关闭此选项
+    }`,
     `module.exports = {
       useCusEmailSys: false,               // 是否使用自己的邮件系统, true: 使用配置的邮箱密码；false: 由webfunny系统给你发送邮件
       emailUser: "",                       // 163邮箱用户名
