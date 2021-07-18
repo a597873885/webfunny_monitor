@@ -352,6 +352,9 @@ const createRoutes = (router) => {
     router.post('/getHttpLoadTimePercent', HttpLogInfoController.getHttpLoadTimePercent);
     router.post('/getHttpLoadTimeListByUrl', HttpLogInfoController.getHttpLoadTimeListByUrl);
 
+    /**大屏数据相关 */
+    router.post('/getPvUvInRealTimeByMinute', CustomerPVController.getPvUvInRealTimeByMinute);
+
     /**
      * 埋点数据相关
      */
