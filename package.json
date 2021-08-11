@@ -5,13 +5,10 @@
   "main": "app.js",
   "scripts": {
     "init": "node config_bin_init.js",
-
     "slave": "node config_db_local.js && pm2 start bin/slave.js && pm2 log slave",
     "reslave": "pm2 stop slave | pm2 delete slave | npm run slave",
-
     "prd": "node config_db_local.js && node config.js && pm2 flush && pm2 start bin/webfunny.js && pm2 log webfunny",
     "restart": "pm2 flush && pm2 stop webfunny | pm2 delete webfunny | npm run prd",
-
     "prd_restart": "pm2 restart webfunny && pm2 flush",
     "table_config": "node table_config.js 2 && npm run table_create",
     "table_create": "table_create_command"
@@ -34,6 +31,7 @@
     "connect": "^3.7.0",
     "crypto": "^1.0.1",
     "debug": "^2.6.3",
+    "dotenv": "^10.0.0",
     "formidable": "^1.2.2",
     "geoip-lite": "^1.3.7",
     "ip": "^1.1.5",

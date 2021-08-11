@@ -24,3 +24,6 @@ webfunny/
 schema_temp/
 .eslintrc
 lib/*.map
+.env
+test.js
+package-lock.json
