@@ -380,6 +380,26 @@ const Utils = {
   },
 
   /**
+   * 时间按照分钟每隔切分，返回时间list
+   * 开始时间：startDate
+   * 结束时间：endDate
+   * 分钟：amount
+   */
+  splitTime(startDate, endDate, amount) {
+    var startTime = new Date(startDate),
+	   endTime = new Date(endDate),
+    gap = (endTime - startTime) / amount;
+    var temp = [];
+    for (var i = 0; i < amount; i++) {
+      startTime.setMilliseconds(startTime.getMilliseconds() + gap);
+      temp[i] = new Date(startTime.getTime());
+      temp[i] = temp[i].Format('hh:mm') //分割小时
+      // console.log(temp[i].format('hh:mm'))
+    }
+    return temp;
+  },
+
+  /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
   sendEmail: (email, subject, html, user, pass) => {

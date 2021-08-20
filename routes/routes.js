@@ -354,6 +354,10 @@ const createRoutes = (router) => {
 
     /**大屏数据相关 */
     router.post('/getPvUvInRealTimeByMinute', CustomerPVController.getPvUvInRealTimeByMinute);
+    router.post('/getHttpInfoInRealTimeByMinute', HttpLogInfoController.getHttpInfoInRealTimeByMinute);
+    router.post('/getErrorInfoInRealTimeByMinute', JavascriptErrorInfoController.getErrorInfoInRealTimeByMinute);
+    router.post('/getInitErrorInfoInRealTimeByTimeSize', CustomerPVController.getInitErrorInfoInRealTimeByTimeSize);
+    
 
     /**
      * 埋点数据相关
