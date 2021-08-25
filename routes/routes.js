@@ -1,8 +1,8 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,TeamController,ConfigController,Common} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,CustomerStayTimeController,HttpErrorInfoController,ScreenShotInfoController,AlarmRuleController,BehaviorInfoController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,InfoCountByHourController,IgnoreErrorController,LocationPointGroupController,LocationPointTypeController,LocationPointController,TeamController,ResourceLoadInfoController,CommonUtil,VideosInfoController,HttpLogInfoController,LoadPageInfoController,AlarmController,JavascriptErrorInfoController,UserController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
-    /**
+     /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -35,6 +35,8 @@ const createRoutes = (router) => {
     router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+    // 获取简单的用户信息列表
+    router.post('/getAllUserInfoForSimple', UserController.getAllUserInfoForSimple);
     // 管理员获取用户列表
     router.post('/getUserListByAdmin', UserController.getUserListByAdmin);
     // 忘记密码
@@ -132,6 +134,8 @@ const createRoutes = (router) => {
     router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
     // 开启项目监控
     router.post('/openProject', ProjectController.openProject)
+    // 保存警报信息相关
+    router.post('/saveAlarmInfo', ProjectController.saveAlarmInfo)
     /**
      * 用户访问信息接口
      */
@@ -444,6 +448,10 @@ const createRoutes = (router) => {
     router.post('/getResourceErrorConfig', AlarmController.getResourceErrorConfig)
     // 设置ResourceError报警参数
     router.post('/changeResourceErrorConfig', AlarmController.changeResourceErrorConfig)
+
+    // 新警报规则
+    router.post('/createNewAlarmRule', AlarmRuleController.createNewAlarmRule);
+    router.post('/getAllAlarmRule', AlarmRuleController.getAllAlarmRule);
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)

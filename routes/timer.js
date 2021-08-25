@@ -1,4 +1,4 @@
-const { Common, UserController, TimerCalculateController } = require("../controllers/controllers.js")
+const { Common, AlarmController, UserController, TimerCalculateController } = require("../controllers/controllers.js")
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
@@ -41,7 +41,7 @@ module.exports = (customerWarningCallback) => {
         Common.consoleInfo()
         const startTime = new Date().getTime();
         let count = 0;
-        const fixed = () => {
+        const fixed = async () => {
             count ++;
             const tempDate = new Date()
             const tempTime = new Date().getTime()
@@ -65,6 +65,11 @@ module.exports = (customerWarningCallback) => {
             // } catch(e) {
             //     log.printError("重启程序出错：", e)
             // }
+
+            // 每隔1分钟执行
+            if (minuteTimeStr.substring(3) == "00") {
+                AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
+            }
 
             try {
                 // 如果是凌晨，则计算上一天的分析数据

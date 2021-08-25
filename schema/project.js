@@ -40,6 +40,18 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'userTag'
     },
+    // 关联警报ID
+    alarmRuleId: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'alarmRuleId'
+    },
+    // 通知人员
+    alarmMembers: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'alarmMembers'
+    },
     // 邮箱
     email: {
       type: DataTypes.STRING(200),

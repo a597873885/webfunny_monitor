@@ -30,6 +30,7 @@ global.monitorInfo = {
     warningMessageList: [],
     loginValidateCode: "",
     projectConfigs: {}, // 携带每个项目的配置信息
+    alarmInfoList: {}, // 警报信息暂存
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

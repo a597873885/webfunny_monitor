@@ -183,6 +183,115 @@ fs.mkdir( "./bin", function(err){
 });
 
 /**
+ * 初始化alarm目录
+ */
+var alarmPathArray = ["./alarm/dingding.js", "./alarm/index.js",]
+var alarmFileArray = [
+  `module.exports = {
+    url: "", // 钉钉机器人的URL
+    config: {
+        "msgtype": "text",
+        "text": {
+            "content": ""
+        },
+        "at": {
+            "atMobiles": [    // 想要@的成员列表
+                "000"
+            ], 
+            "isAtAll": false  // 是否@所有人
+        }
+      }
+  }`,
+  `const sendEmail = require('../util_cus/sendEmail');
+  const dingDing = require('../alarm/dingding')
+  const Utils = require('../util/utils')
+  const alarmCallback = (project, rule) => {
+      const { projectName, projectType } = project
+      const {type, happenCount, compareType, limitValue} = rule
+      const compareStr = compareType === "up" ? ">=" : "<"
+      const {url, config} = dingDing
+      config.text.content = type + "警报！" +
+          "您的" + projectType + "项目【" + projectName + "】发出警报：" +
+          type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
+      Utils.postJson(url,config)  // 钉钉机器人
+      // sendEmail("收件人", type + "警报！", config.text.content, 'xxx@163.com', 'xxx')
+  }
+  module.exports = {
+      alarmCallback
+  }`,
+]
+
+fs.mkdir( "./alarm", function(err){
+  if ( err ) { 
+    console.log("= 文件夹 /alarm 已经存在")
+  } else {
+    console.log("= 创建文件夹 /alarm")
+  }
+  alarmPathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, alarmFileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
+
+/**
+ * 初始化util_cus目录
+ */
+var cusUtilPathArray = ['./util_cus/sendEmail.js']
+var cusUtilFileArray = [
+  `const nodemailer = require('nodemailer')
+  /**
+   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
+   */
+  const sendEmail = (email, title, content, user, pass) => {
+      const company = "webfunny.cn"
+      let transporter = nodemailer.createTransport({
+          host: "smtp.163.com",
+          port: 465,
+          secure: true, // true for 465, false for other ports
+          auth: { user,pass }
+      });
+      // send mail with defined transport object
+      transporter.sendMail({
+          from: "'" + company + "' <" + user + ">", // sender address
+          to: email, // list of receivers
+          subject: title, // Subject line
+          text: content, // plain text body
+          html: content // html body
+      });
+  }
+  module.exports = sendEmail`
+]
+fs.mkdir( "./util_cus", function(err){
+  if ( err ) { 
+    console.log("= 文件夹 /util_cus 已经存在")
+  } else {
+    console.log("= 创建文件夹 /util_cus")
+  }
+  cusUtilPathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, cusUtilFileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
+
+/**
  * 初始化interceptor目录
  */
 // 初始化interceptor/config目录
