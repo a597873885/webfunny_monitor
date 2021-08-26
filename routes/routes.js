@@ -2,7 +2,7 @@ const {CustomerPvLeaveController,CustomerStayTimeController,HttpErrorInfoControl
 
 
 const createRoutes = (router) => {
-     /**
+    /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -452,6 +452,7 @@ const createRoutes = (router) => {
     // 新警报规则
     router.post('/createNewAlarmRule', AlarmRuleController.createNewAlarmRule);
     router.post('/getAllAlarmRule', AlarmRuleController.getAllAlarmRule);
+    router.post('/deleteAlarmRule', AlarmRuleController.deleteAlarmRule);
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
