@@ -70,6 +70,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'monitorCode'
     },
+    // 监控代码(fetch)
+    monitorFetchCode: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'monitorFetchCode'
+    },
     // fetch代码
     fetchCode: {
       type: DataTypes.TEXT,

@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,CustomerStayTimeController,HttpErrorInfoController,ScreenShotInfoController,AlarmRuleController,BehaviorInfoController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,InfoCountByHourController,IgnoreErrorController,LocationPointGroupController,LocationPointTypeController,LocationPointController,TeamController,ResourceLoadInfoController,CommonUtil,VideosInfoController,HttpLogInfoController,LoadPageInfoController,AlarmController,JavascriptErrorInfoController,UserController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -56,7 +56,15 @@ const createRoutes = (router) => {
     router.post('/activeRegisterMember', UserController.activeRegisterMember);
     // 删除用户
     router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
-    
+
+    // 新增消息
+    router.post('/createMessage', MessageController.createNewMessage);
+    // 获取消息
+    router.post('/getMessageByType', MessageController.getMessageByType);
+    // 阅读消息
+    router.post('/readMessage', MessageController.readMessage);
+    // 阅读全部
+    router.post('/readAll', MessageController.readAll)
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);

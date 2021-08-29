@@ -185,22 +185,36 @@ fs.mkdir( "./bin", function(err){
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = ["./alarm/dingding.js", "./alarm/index.js",]
+var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
-    url: "", // 钉钉机器人的URL
-    config: {
-        "msgtype": "text",
-        "text": {
-            "content": ""
-        },
-        "at": {
-            "atMobiles": [    // 想要@的成员列表
-                "000"
-            ], 
-            "isAtAll": false  // 是否@所有人
+    PV: "浏览页面次数",
+    UV: "浏览页面人数",
+    JsError: "JS代码错误次数",
+    ConsoleError: "自定义错误次数",
+    http: "接口请求次数",
+    httpError: "接口错误次数",
+    resourceError: "静态资源错误次数",
+  }`,
+  `/**
+    * 这里是钉钉机器人（关键字）的相关配置
+    * 关键字列表： 
+    * 1. 警报
+    */
+  module.exports = {
+      url: "", // 钉钉机器人的URL
+      config: {
+          "msgtype": "text",
+          "text": {
+              "content": ""
+          },
+          "at": {
+              "atMobiles": [    // 想要@的成员列表
+                  "000"
+              ], 
+              "isAtAll": false  // 是否@所有人
+          }
         }
-      }
   }`,
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
@@ -245,14 +259,26 @@ fs.mkdir( "./alarm", function(err){
 /**
  * 初始化util_cus目录
  */
-var cusUtilPathArray = ['./util_cus/sendEmail.js']
+var cusUtilPathArray = ['./util_cus/index.js', './util_cus/sendEmail.js']
 var cusUtilFileArray = [
+  `const sendEmail = require("./sendEmail")
+
+  module.exports = {
+      sendEmail
+  }`,
   `const nodemailer = require('nodemailer')
+  const AccountConfig = require('../config/AccountConfig')
+  const { accountInfo } = AccountConfig
   /**
-   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
+   * 自己配置邮箱：在 bin/useCusEmailSys.js文件中 参数改为true，并配置自己的163邮箱和密码
+   * @param targetEmail 目标邮箱地址
+   * @param emailTitle 邮件标题
+   * @param emailContent 邮件正文
+   * @param user 系统邮箱地址（不传参，则默认使用配置的邮箱地址）
+   * @param pass 系统邮箱密码（不传参，则默认使用配置的邮箱密码）
    */
-  const sendEmail = (email, title, content, user, pass) => {
-      const company = "webfunny.cn"
+  const sendEmail = (targetEmail, emailTitle, emailContent, user = accountInfo.emailUser, pass = accountInfo.emailPassword) => {
+      const company = "webfunny"
       let transporter = nodemailer.createTransport({
           host: "smtp.163.com",
           port: 465,
@@ -262,10 +288,10 @@ var cusUtilFileArray = [
       // send mail with defined transport object
       transporter.sendMail({
           from: "'" + company + "' <" + user + ">", // sender address
-          to: email, // list of receivers
-          subject: title, // Subject line
-          text: content, // plain text body
-          html: content // html body
+          to: targetEmail, // list of receivers
+          subject: emailTitle, // Subject line
+          text: emailContent, // plain text body
+          html: emailContent // html body
       });
   }
   module.exports = sendEmail`
