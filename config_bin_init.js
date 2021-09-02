@@ -5,7 +5,7 @@ var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.j
 var fileArray = [
     `module.exports = {
       // 1. 日志服务（接口）域名  书写形式：localhost:8011;
-      // 2. 如果设置空字符串，则会使用浏览器
+      // 2. 如果设置空字符串，则会使用浏览器域名
       localServerDomain: 'localhost:8011',
       
       // 日志服务端口号
