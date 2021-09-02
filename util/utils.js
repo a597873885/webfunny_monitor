@@ -6,6 +6,23 @@ const uuid = require('node-uuid')
 const nodemailer = require('nodemailer')
 const timeout = 300000
 const Utils = {
+  decodeUri(uri) {
+
+    const url = new URL(uri)
+
+    return {
+      ip: url.host,
+      protocol: url.protocol,
+      port: url.port,
+      userName: url.username,
+      password: url.password,
+      query: url.searchParams,
+      dataBaseName: url.pathname.substring(1)
+    }
+  },
+  getenv(key, defaultValue = null) {
+    return process.env.hasOwnProperty(key) ? process.env[key] : (defaultValue || null)
+  },
   isArray(object) {
     return Object.prototype.toString.call(object) === "[object Array]"
   },

@@ -1,14 +1,14 @@
-
 const Sequelize = require('sequelize');
-const mysqlConfig = require("../bin/mysqlConfig")
-const {write, read} = mysqlConfig
+const {accountInfo} = require('./AccountConfig');
+const {getenv} = require('../util/utils');
+
 const replication = {
-  read: read,
-  write: { host: write.ip, username: write.userName, password: write.password }
+  read: accountInfo.mysqlConfig.read,
+  write: accountInfo.mysqlConfig.write
 }
 const configList = {
-  host: write.ip,
-  port: write.port,
+  host: accountInfo.mysqlConfig.write.ip,
+  port: accountInfo.mysqlConfig.write.port,
   logging: (sql) => {
     // 这里处理sql的日志，暂时不打印
     // console.log(sql)
@@ -21,18 +21,18 @@ const configList = {
     bigNumberStrings: true
   },
   pool: {
-    max: 500,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
+    max: parseInt(getenv('MYSQL_POOL_MAX', '500'), 10),
+    min: parseInt(getenv('MYSQL_POOL_MIN', '0'), 10),
+    acquire: parseInt(getenv('MYSQL_POOL_ACQUIRE','30000'), 10),
+    idle: parseInt(getenv('MYSQL_POOL_IDLE', '10000'), 10)
   },
   timezone: '+08:00' //东八时区
 }
-if (read && read.length > 0) {
+if (accountInfo.mysqlConfig.read && accountInfo.mysqlConfig.read.length > 0) {
   configList.replication = replication
 }
 // 下一个迭代数据库
-const sequelize = new Sequelize(write.dataBaseName, write.userName, write.password, {
+const sequelize = new Sequelize(accountInfo.mysqlConfig.write.dataBaseName, accountInfo.mysqlConfig.write.userName, accountInfo.mysqlConfig.write.password, {
   ...configList
 })
 

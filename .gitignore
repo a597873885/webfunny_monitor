@@ -26,3 +26,6 @@ alarm/
 util_cus/
 .eslintrc
 lib/*.map
+.env
+test.js
+package-lock.json
