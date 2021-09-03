@@ -1,10 +1,17 @@
-FROM  node:10.6.0-slim
-RUN npm install pm2 -g
-COPY . /app
+FROM node:lts-alpine
+RUN apk add --no-cache tzdata \
+ && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+ && echo 'Asia/Shanghai' > /etc/timezone \
+ && wget -O /tmp/webfunny.zip https://codeload.github.com/a597873885/webfunny_monitor/zip/refs/heads/master \
+ && unzip /tmp/webfunny.zip \
+ && rm -f /tmp/webfunny.zip \
+ && mv webfunny* /app \
+ && cd /app \
+ && npm install . pm2 \
+ && rm -rf /root/.npm \
+ && npm run init \
+ && mv bin/mysqlConfig.js bin/mysqlConfig.js.def
+COPY entrypoint.sh /app/
 WORKDIR /app
-RUN npm install --registry=https://registry.npm.taobao.org
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-RUN echo 'Asia/Shanghai' >/etc/timezone
-EXPOSE 8010
-EXPOSE 8011
-CMD npm run prd
+EXPOSE 8010 8011
+CMD /app/entrypoint.sh
