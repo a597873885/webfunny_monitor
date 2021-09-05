@@ -11,6 +11,9 @@ var fileArray = [
       // 数据可视化服务域名 书写形式：localhost:8010;
       localAssetsDomain: 'localhost:8010',
       
+      // 数据可视化服务域名 书写形式：localhost:8010
+      localAssetsDomain: 'localhost:8010',
+      
       // 日志服务端口号
       localServerPort: '8011',
       // 可视化系统端口号
