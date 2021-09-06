@@ -7,6 +7,9 @@ var fileArray = [
       // 1. 日志服务（接口）域名  书写形式：localhost:8011;
       // 2. 如果设置空字符串，则会使用浏览器域名
       localServerDomain: 'localhost:8011',
+
+      // 数据可视化服务域名 书写形式：localhost:8010;
+      localAssetsDomain: 'localhost:8010',
       
       // 数据可视化服务域名 书写形式：localhost:8010
       localAssetsDomain: 'localhost:8010',
@@ -49,6 +52,7 @@ var fileArray = [
     }`,
     `module.exports = {
         purchaseCode: '',
+        secretCode: ''
     }`,
     `module.exports = {
         saveDays: '8',

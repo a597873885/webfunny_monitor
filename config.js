@@ -1,15 +1,16 @@
-const { localServerDomain, localServerPort, localAssetsPort, mainDomain } = require('./bin/domain')
+const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, mainDomain } = require('./bin/domain')
+const { secretCode = "" } = require('./bin/purchaseCode')
 
 if (localServerDomain.indexOf("http://") != -1 || localServerDomain.indexOf("https://") != -1) {
   console.log("\x1b[91m%s\x1b[0m", "域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8011")
   return
 }
 
-// if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("https://") != -1) {
-//   console.log("\x1b[91m%s\x1b[0m", "域名配置异常")
-//   console.log("域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8010")
-//   return
-// }
+if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("https://") != -1) {
+  console.log("\x1b[91m%s\x1b[0m", "域名配置异常")
+  console.log("域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8010")
+  return
+}
 
 if (localServerPort != "8011" || localAssetsPort != "8010") {
   console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8010、8011，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
@@ -123,7 +124,7 @@ setTimeout(function() {
     }
     fs.readFile(`${path}/${files[i]}`,function(err, data){
         if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort)
+          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort).replace(/webfunny_secret_code/g, secretCode)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
             console.log("= " + files[i] + "  接口域名配置成功！");

@@ -3,18 +3,16 @@ const secret = require('../config/secret')
 const util = require('util')
 const verify = jwt.verify
 const statusCode = require('../util/status-code')
+const ignorePaths = require('./ignorePathRes')
 
 /**
  * 判断token是否可用
  */
-// 检查登录白名单
-const ignorePaths = ["/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register", "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp"]
 module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
         const token = ctx.header['access-token']  // 获取jwt
         const { url } = ctx
-
         // 如果是上报接口，直接通过
         if ( !(url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&
@@ -37,8 +35,8 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
-            // 第一步判断内存中是否有登录过的token
-            if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1) {
+            // 第一步判断内存中是否有登录过的token, localhost不做内存里的登录态校验
+            if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
                 ctx.response.status = 401;
                 ctx.body = statusCode.ERROR_401("用户未登录");
                 return
