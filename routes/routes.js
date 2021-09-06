@@ -454,6 +454,8 @@ const createRoutes = (router) => {
     router.post('/webfunny_05fbfa93e5667533de450b6816ead7b2', LocationPointController.getFunnelLeftCountForDay);
     
     // 待定
+    router.post('/upBp', LocationPointController.createLocationPoint)
+    // 待定
     router.post('/webfunny_e0037b51f4db2e4dead2debb88277e99', LocationPointController.createLocationPointForGet);
     
     // 创建埋点分组
