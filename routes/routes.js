@@ -455,6 +455,7 @@ const createRoutes = (router) => {
     
     // 待定
     router.post('/upBp', LocationPointController.createLocationPoint)
+    router.get('/upBp', LocationPointController.createLocationPointForGet)
     // 待定
     router.post('/webfunny_e0037b51f4db2e4dead2debb88277e99', LocationPointController.createLocationPointForGet);
     
