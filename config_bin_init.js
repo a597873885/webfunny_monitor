@@ -196,7 +196,7 @@ fs.mkdir( "./bin", function(err){
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/index.js",]
+var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/weixin.js", "./alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
     PV: "浏览页面次数",
@@ -213,7 +213,7 @@ var alarmFileArray = [
     * 1. 警报
     */
   module.exports = {
-      url: "", // 钉钉机器人的URL
+      url: "", // 钉钉机器人的 webHook URL
       config: {
           "msgtype": "text",
           "text": {
@@ -227,8 +227,23 @@ var alarmFileArray = [
           }
         }
   }`,
+  `/**
+  * 这里是企业微信机器人的相关配置
+  */
+ module.exports = {
+     url: "", // 企业微信机器人的 webHook URL
+     config: {
+         "msgtype": "text",
+         "text": {
+             "content": "我只是一个机器人测试，请忽略我",
+             "mentioned_list":["xxx",],
+             "mentioned_mobile_list":["182xxxx4111"]  // 将要艾特的人
+         }
+     }
+ }`,
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
+  const weiXin = require('../alarm/weixin')
   const Utils = require('../util/utils')
   const AlarmNames = require('./alarmName')
   
@@ -236,27 +251,32 @@ var alarmFileArray = [
       const { projectName, projectType } = project
       const {type, happenCount, compareType, limitValue} = rule
       const compareStr = compareType === "up" ? ">=" : "<"
-      const {url, config} = dingDing
   
       /**生成警报配置 */
       // 添加用户手机号
       users.forEach((user) => {
-          config.at.atMobiles.push(user.phone)
+          dingDing.config.at.atMobiles.push(user.phone)
+          weiXin.config.text.mentioned_mobile_list.push(user.phone)
       })
       // 生成警报内容
-      config.text.content = type + "警报！" +
+      const contentStr = type + "警报！" +
           "您的" + projectType + "项目【" + projectName + "】发出警报：" +
           type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
+      dingDing.config.text.content = contentStr
+      weiXin.config.text.content = contentStr
       
       /**发起警报方式 */
       // 1. 通知钉钉机器人
-      Utils.postJson(url, config)  // 钉钉机器人
+      Utils.postJson(dingDing.url, dingDing.config)  // 钉钉机器人
   
-      // 2. 发送邮件通知
+      // 2. 通知微信机器人
+      Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
+  
+      // 3. 发送邮件通知
       if (users && users.length) {
           users.forEach((user) => {
               const email = user.emailName
-              sendEmail(email, AlarmNames[type] + "警报！", config.text.content)
+              sendEmail(email, AlarmNames[type] + "警报！", contentStr)
           })
       }
   }
