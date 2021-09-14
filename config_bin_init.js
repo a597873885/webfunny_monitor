@@ -230,16 +230,35 @@ var alarmFileArray = [
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
   const Utils = require('../util/utils')
-  const alarmCallback = (project, rule) => {
+  const AlarmNames = require('./alarmName')
+  
+  const alarmCallback = (project, rule, users) => {
       const { projectName, projectType } = project
       const {type, happenCount, compareType, limitValue} = rule
       const compareStr = compareType === "up" ? ">=" : "<"
       const {url, config} = dingDing
+  
+      /**生成警报配置 */
+      // 添加用户手机号
+      users.forEach((user) => {
+          config.at.atMobiles.push(user.phone)
+      })
+      // 生成警报内容
       config.text.content = type + "警报！" +
           "您的" + projectType + "项目【" + projectName + "】发出警报：" +
           type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
-      Utils.postJson(url,config)  // 钉钉机器人
-      // sendEmail("收件人", type + "警报！", config.text.content, 'xxx@163.com', 'xxx')
+      
+      /**发起警报方式 */
+      // 1. 通知钉钉机器人
+      Utils.postJson(url, config)  // 钉钉机器人
+  
+      // 2. 发送邮件通知
+      if (users && users.length) {
+          users.forEach((user) => {
+              const email = user.emailName
+              sendEmail(email, AlarmNames[type] + "警报！", config.text.content)
+          })
+      }
   }
   module.exports = {
       alarmCallback
