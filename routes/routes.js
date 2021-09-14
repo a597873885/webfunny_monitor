@@ -622,7 +622,7 @@ const createRoutes = (router) => {
     router.get('/webfunny_9de4a97425678c5b1288aa70c1669a64', UserController.register);
     
     // 重置密码
-    router.get('/webfunny_00417bcb83b8e64fef38f6f6bbb3adac', UserController.register);
+    router.get('/webfunny_00417bcb83b8e64fef38f6f6bbb3adac', UserController.resetPwd);
     
     // 激活用户
     router.post('/webfunny_d1850edd4a5efbbcca25fcb60fdf084b', UserController.activeRegisterMember);
