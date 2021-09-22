@@ -21,7 +21,7 @@ global.monitorInfo = {
     debugInfo: {},
     debugClearLocalInfo: [], // 记录将要清理本地缓存的userId
     logServerStatus: true, // 日志服务状态
-    stopWebMonitorIdList: [], // 停止上报服务的项目列表
+    cacheWebMonitorIdList: [], // 开启上报服务的项目列表
     waitCounts: 40,   // 日志等待上报的时间间隔，可以调整日志上报的密度（40代表8s上报一次）
     logCountInMinute: 0, // 每分钟的日志量
     logCountInMinuteList: [], // 每分钟日志量数组

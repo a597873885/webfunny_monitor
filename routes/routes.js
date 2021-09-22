@@ -531,12 +531,6 @@ const createRoutes = (router) => {
     // 检查项目个数
     router.get('/webfunny_c4ad0230b01ac9589ad6a47002a7e219', ProjectController.checkProjectCount);
     
-    // 暂停项目的日志上报
-    router.post('/webfunny_d27aa5180392cd15c3f5183092cbb1d3', ProjectController.changeLogServerStatusByWebMonitorId);
-    
-    // 获取暂停日志上报的项目列表
-    router.post('/webfunny_52d8bdcc4b5a28c00468c606d3cc905e', ProjectController.getStopWebMonitorIdList);
-    
     // 获取userTags
     router.post('/webfunny_75248f0c0bf6779319f2c9b670caf85c', ProjectController.getUserTags);
     

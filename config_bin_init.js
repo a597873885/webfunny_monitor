@@ -105,9 +105,7 @@ var fileArray = [
 
     var app = require('../app');
     var debug = require('debug')('demo:server');
-    var compression = require('compression')
     var { accountInfo } = require("../config/AccountConfig")
-    
     
     var port = normalizePort(process.env.PORT || accountInfo.localServerPort);
     app.listen(port);
@@ -161,14 +159,33 @@ var fileArray = [
     }
     
     // 启动静态文件服务器
-    var connect = require("connect");
-    var serveStatic = require("serve-static");
-    var app = connect();
-    app.use(compression())
-    app.use(serveStatic("./views"));
-    app.listen(accountInfo.localAssetsPort);
+    const KoaStatic = require('koa');
+    const appStatic = new KoaStatic();
+    const server = require('koa-static');
+    /* gzip压缩配置 start */
+    const compress = require('koa-compress');
+    const options = { 
+        threshold: 1024 //数据超过1kb时压缩
+    };
+    /* gzip压缩配置 end */
     
-    `,
+    // 1.主页静态网页 把静态页统一放到public中管理
+    const publicServer = server('./views');
+    // 2.重定向判断
+    const redirect = ctx => {
+      ctx.response.redirect('/webfunny/home.html')
+    };
+    // 3.分配路由
+    appStatic.use(compress(options))
+    appStatic.use(async (ctx, next) => {
+      if (ctx.url === '/' || ctx.url === '/webfunny/') {
+        redirect(ctx)
+      } else {
+        await next()
+      }
+    });
+    appStatic.use(publicServer);
+    appStatic.listen(accountInfo.localAssetsPort);`,
     `module.exports = []`
 ]
 
@@ -245,6 +262,8 @@ var alarmFileArray = [
   const dingDing = require('../alarm/dingding')
   const weiXin = require('../alarm/weixin')
   const Utils = require('../util/utils')
+  const AccountConfig = require('../config/AccountConfig')
+  const { accountInfo } = AccountConfig
   const AlarmNames = require('./alarmName')
   
   const alarmCallback = (project, rule, users) => {
@@ -273,10 +292,10 @@ var alarmFileArray = [
       Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
   
       // 3. 发送邮件通知
-      if (users && users.length) {
+      if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
           users.forEach((user) => {
               const email = user.emailName
-              sendEmail(email, AlarmNames[type] + "警报！", contentStr)
+              sendEmail(email, AlarmNames[type] + "警报！", contentStr, accountInfo.emailUser, accountInfo.emailPassword)
           })
       }
   }

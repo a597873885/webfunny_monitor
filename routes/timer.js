@@ -1,4 +1,7 @@
-const { Common, AlarmController, UserController, TimerCalculateController } = require("../controllers/controllers.js")
+const { 
+    Common, AlarmController, UserController, TimerCalculateController,
+    MessageController, ProjectController
+} = require("../controllers/controllers.js")
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
@@ -66,9 +69,17 @@ module.exports = (customerWarningCallback) => {
             //     log.printError("重启程序出错：", e)
             // }
 
+            // 每天的最后一分钟，更新一次日志信息
+            if (hourTimeStr == "23:59:00") {
+                MessageController.saveLastVersionInfo()
+            }
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
+                // 检查警报规则是否出发
                 AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
+                // 更新webMonitorId到缓存中
+                ProjectController.cacheWebMonitorId()
+                // 更新登录缓存到数据库，供从服务器使用
             }
 
             try {
