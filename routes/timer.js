@@ -23,7 +23,7 @@ module.exports = (customerWarningCallback) => {
         
         // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
         // Common.setStopWebMonitorIdList()
-    }, 4000)
+    }, 3000)
     /**
      * 2秒后开始进行第一次分析
      * */
@@ -32,6 +32,33 @@ module.exports = (customerWarningCallback) => {
         // Common.calculateCountByDayForTenMinutes(0)
         // TimerCalculateController.calculateCountByDay(0)
         // TimerCalculateController.calculateCountByHour(1)
+
+        // let dayTimeStrList = ["06:10", "07:10", "08:10", "09:10", "10:15", "11:10"]
+        // dayTimeStrList.forEach((dayTime) => {
+        //     TimerCalculateController.calculateCountByDay(dayTime, 0)
+        // })
+
+        // let timer = null
+        // let hour = 0
+        // timer = setInterval(() => {
+        //     if (hour >= 24) {
+        //         clearInterval(timer)
+        //     }
+
+        //     let minIndex = 0
+        //     let timer2 = null
+        //     let minTimeStrList = ["01:30"]
+        //     timer2 = setInterval(() => {
+        //         if (minIndex >= minTimeStrList.length) {
+        //             clearInterval(timer2)
+        //         }
+        //         minTimeStrList.forEach((minTime) => {
+        //             TimerCalculateController.calculateCountByHour(minTime, hour)
+        //         })
+        //         minIndex ++
+        //     }, 1000)
+        //     hour ++
+        // }, 5000)
     }, 2000)
     Common.consoleLogo()
     // 初始化登录验证码
@@ -39,6 +66,7 @@ module.exports = (customerWarningCallback) => {
     global.monitorInfo.loginValidateCodeTimer = setInterval(() => {
         UserController.setValidateCode()
     }, 5 * 60 * 1000)
+    
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
@@ -69,6 +97,7 @@ module.exports = (customerWarningCallback) => {
             //     log.printError("重启程序出错：", e)
             // }
 
+
             // 每天的最后一分钟，更新一次日志信息
             if (hourTimeStr == "23:59:00") {
                 MessageController.saveLastVersionInfo()
@@ -80,6 +109,11 @@ module.exports = (customerWarningCallback) => {
                 // 更新webMonitorId到缓存中
                 ProjectController.cacheWebMonitorId()
                 // 更新登录缓存到数据库，供从服务器使用
+            }
+
+            // 每隔10秒钟，取日志队列里的日志，执行入库操作
+            if (minuteTimeStr.substring(4) == "0") {
+                Common.handleLogInfoQueue()
             }
 
             try {
@@ -112,6 +146,10 @@ module.exports = (customerWarningCallback) => {
                 // 凌晨2点开始删除过期的数据库表
                 if (hourTimeStr == "02:00:00") {
                     Common.startDelete()
+                }
+                // 凌晨2点20分开始删除无效的数据库表
+                if (hourTimeStr == "02:20:00") {
+                    Common.startClearInvalidTable()
                 }
             } catch(e) {
                 log.printError("定时器执行报错：", e)

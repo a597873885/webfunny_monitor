@@ -1,5 +1,5 @@
 const Router = require('koa-router')
-const { Common } = require("../controllers/controllers.js")
+const { Common, UserTokenController } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
 const { createRoutesFail } = require("./routesFail");
 const { customerWarningCallback } = require("../interceptor/customerWarning");
@@ -31,6 +31,7 @@ global.monitorInfo = {
     loginValidateCode: "",
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
+    logInfoQueue: {}, // 存放日志队列的对象
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -48,6 +49,20 @@ const handleResult = () => {
     } else {
         timerTask(customerWarningCallback)
     }
+
+    // 定时同步登录信息(频率：10s)
+    setInterval( async () => {
+        const webfunnyTokenList = global.monitorInfo.webfunnyTokenList
+        const userTokens = await UserTokenController.getAllTokens()
+        if (userTokens && userTokens.length) {
+            userTokens.forEach((item) => {
+                if (webfunnyTokenList.indexOf(item.accessToken) === -1) {
+                    global.monitorInfo.webfunnyTokenList.push(item.accessToken)
+                }
+            })
+        }
+    }, 10000)
+
     // 3秒后开始消费消息
     setTimeout(() => {
         Common.startReceiveMsg()

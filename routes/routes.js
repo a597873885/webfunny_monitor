@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -56,6 +56,9 @@ const createRoutes = (router) => {
     
     // 上报拓展日志
     router.post('/uploadExtendLog', Common.uploadExtendLog);
+
+    // 更新监控系统
+    router.post('/upgradeSystem', Common.upgradeSystem);
     
     // 更新激活码
     router.post('/webfunny_e6e60baa89b06acfca24bb77b92697b4', FailController.createPurchaseCode);
@@ -219,6 +222,10 @@ const createRoutes = (router) => {
     // 获取系统版本top10数量列表
     router.post('/webfunny_1599318925a28cfec590254122f32cda', CustomerPVController.getOsCountOrderByCount);
     
+    // 获取来源网站top10数量列表
+    router.post('/webfunny_ee6adc547ab6cbbd580969244eb384a5', CustomerPVController.getReferrerCountOrderByCount);
+
+
     // 查询用户的访问列表，分页
     router.post('/webfunny_19f0817816899398da81f613e4be9f8d', CustomerPVController.getPvListByPage);
     
@@ -624,6 +631,9 @@ const createRoutes = (router) => {
     // 删除用户
     router.post('/webfunny_e3a69537f57dd34e3a1247b7d49a5610', UserController.deleteRegisterMember);
     
+    // 创建token信息
+    router.post('/webfunny_ce4a0b029c785bfaa2b398c06e1d94c0', UserTokenController.create);
+
 }
 
 module.exports = {
