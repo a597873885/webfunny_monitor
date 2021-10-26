@@ -106,7 +106,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 来源页面的URL
     referrer: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(200),
         allowNull: true,
         field: 'referrer'
     },

@@ -11,9 +11,6 @@ var fileArray = [
       // 数据可视化服务域名 书写形式：localhost:8010;
       localAssetsDomain: 'localhost:8010',
       
-      // 数据可视化服务域名 书写形式：localhost:8010
-      localAssetsDomain: 'localhost:8010',
-      
       // 日志服务端口号
       localServerPort: '8011',
       // 可视化系统端口号
@@ -105,9 +102,7 @@ var fileArray = [
 
     var app = require('../app');
     var debug = require('debug')('demo:server');
-    var compression = require('compression')
     var { accountInfo } = require("../config/AccountConfig")
-    
     
     var port = normalizePort(process.env.PORT || accountInfo.localServerPort);
     app.listen(port);
@@ -161,14 +156,33 @@ var fileArray = [
     }
     
     // 启动静态文件服务器
-    var connect = require("connect");
-    var serveStatic = require("serve-static");
-    var app = connect();
-    app.use(compression())
-    app.use(serveStatic("./views"));
-    app.listen(accountInfo.localAssetsPort);
+    const KoaStatic = require('koa');
+    const appStatic = new KoaStatic();
+    const server = require('koa-static');
+    /* gzip压缩配置 start */
+    const compress = require('koa-compress');
+    const options = { 
+        threshold: 1024 //数据超过1kb时压缩
+    };
+    /* gzip压缩配置 end */
     
-    `,
+    // 1.主页静态网页 把静态页统一放到public中管理
+    const publicServer = server('./views');
+    // 2.重定向判断
+    const redirect = ctx => {
+      ctx.response.redirect('/webfunny/home.html')
+    };
+    // 3.分配路由
+    appStatic.use(compress(options))
+    appStatic.use(async (ctx, next) => {
+      if (ctx.url === '/' || ctx.url === '/webfunny/') {
+        redirect(ctx)
+      } else {
+        await next()
+      }
+    });
+    appStatic.use(publicServer);
+    appStatic.listen(accountInfo.localAssetsPort);`,
     `module.exports = []`
 ]
 
@@ -196,7 +210,7 @@ fs.mkdir( "./bin", function(err){
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/index.js",]
+var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/weixin.js", "./alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
     PV: "浏览页面次数",
@@ -213,7 +227,7 @@ var alarmFileArray = [
     * 1. 警报
     */
   module.exports = {
-      url: "", // 钉钉机器人的URL
+      url: "", // 钉钉机器人的 webHook URL
       config: {
           "msgtype": "text",
           "text": {
@@ -227,19 +241,60 @@ var alarmFileArray = [
           }
         }
   }`,
+  `/**
+  * 这里是企业微信机器人的相关配置
+  */
+ module.exports = {
+     url: "", // 企业微信机器人的 webHook URL
+     config: {
+         "msgtype": "text",
+         "text": {
+             "content": "我只是一个机器人测试，请忽略我",
+             "mentioned_list":["xxx",],
+             "mentioned_mobile_list":["182xxxx4111"]  // 将要艾特的人
+         }
+     }
+ }`,
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
+  const weiXin = require('../alarm/weixin')
   const Utils = require('../util/utils')
-  const alarmCallback = (project, rule) => {
+  const AccountConfig = require('../config/AccountConfig')
+  const { accountInfo } = AccountConfig
+  const AlarmNames = require('./alarmName')
+  
+  const alarmCallback = (project, rule, users) => {
       const { projectName, projectType } = project
       const {type, happenCount, compareType, limitValue} = rule
       const compareStr = compareType === "up" ? ">=" : "<"
-      const {url, config} = dingDing
-      config.text.content = type + "警报！" +
+  
+      /**生成警报配置 */
+      // 添加用户手机号
+      users.forEach((user) => {
+          dingDing.config.at.atMobiles.push(user.phone)
+          weiXin.config.text.mentioned_mobile_list.push(user.phone)
+      })
+      // 生成警报内容
+      const contentStr = type + "警报！" +
           "您的" + projectType + "项目【" + projectName + "】发出警报：" +
           type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
-      Utils.postJson(url,config)  // 钉钉机器人
-      // sendEmail("收件人", type + "警报！", config.text.content, 'xxx@163.com', 'xxx')
+      dingDing.config.text.content = contentStr
+      weiXin.config.text.content = contentStr
+      
+      /**发起警报方式 */
+      // 1. 通知钉钉机器人
+      Utils.postJson(dingDing.url, dingDing.config)  // 钉钉机器人
+  
+      // 2. 通知微信机器人
+      Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
+  
+      // 3. 发送邮件通知
+      if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
+          users.forEach((user) => {
+              const email = user.emailName
+              sendEmail(email, AlarmNames[type] + "警报！", contentStr, accountInfo.emailUser, accountInfo.emailPassword)
+          })
+      }
   }
   module.exports = {
       alarmCallback
