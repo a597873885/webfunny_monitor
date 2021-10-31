@@ -216,6 +216,9 @@ const createRoutes = (router) => {
     // 获取设备top10数量列表
     router.post('/webfunny_65d5be965b08a678284505a90d0586aa', CustomerPVController.getDeviceCountOrderByCount);
     
+    // 获取设备浏览器top10数量列表
+    router.post('/webfunny_0c814245d6cee924b1ea50629c6094f8', CustomerPVController.getBrowserNameCountOrderByCount);
+    
     // 获取设备分辨率top10数量列表
     router.post('/webfunny_80a8c8abdced9b5afceddf945a4a68f8', CustomerPVController.getDeviceSizeCountOrderByCount);
     

@@ -21,13 +21,13 @@ const getTableProperty = (DataTypes) => {
     },
     // Input 框的placeholder
     placeholder: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'placeholder'
     },
     // 输入的内容
     inputValue: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'inputValue'
     },
@@ -39,7 +39,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 元素包含的内容
     innerText: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'innerText'
     }

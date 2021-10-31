@@ -158,7 +158,7 @@ var fileArray = [
     // 启动静态文件服务器
     const KoaStatic = require('koa');
     const appStatic = new KoaStatic();
-    const server = require('koa-static');
+    const server = require('koa-static-cache');
     /* gzip压缩配置 start */
     const compress = require('koa-compress');
     const options = { 
