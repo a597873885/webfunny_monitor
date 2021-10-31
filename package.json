@@ -33,6 +33,7 @@
     "debug": "^2.6.3",
     "formidable": "^1.2.2",
     "geoip-lite": "^1.3.7",
+    "getmac": "^5.20.0",
     "ip": "^1.1.5",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
