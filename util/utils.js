@@ -247,6 +247,12 @@ const Utils = {
     const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
+  postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "POST"
+    const body = JSON.stringify(params)
+    const fetchParams = Object.assign({}, { method, body}, this.getHeadersJson())
+    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
+  },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
     // 如果是照片的base64数据，ios系统会卡死
     // TODO: debugPanel不使用react

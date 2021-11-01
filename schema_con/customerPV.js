@@ -20,6 +20,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'pageKey'
     },
+    // 页面title
+    pageTitle: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'pageTitle'
+    },
     // 设备名称
     deviceName: {
       type: DataTypes.STRING(100),
@@ -64,23 +70,29 @@ const getTableProperty = (DataTypes) => {
     },
     // 国家
     country: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'country'
     },
     // 省份
     province: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'province'
     },
     // 城市
     city: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'city'
     },
-    // 行为类型
+    // 运营商
+    operators: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'city'
+    },
+    // 上报类型
     uploadType: {
       type: DataTypes.STRING(20),
       allowNull: true,

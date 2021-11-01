@@ -73,6 +73,7 @@ const UPLOAD_TYPE = {
     SYSTEM_COUNT_HOUR: "system_count_hour",  // 每小时的系统版本数量
     VERSION_COUNT_HOUR: "version_count_hour",  // 每小时的应用版本数量
     SCREEN_COUNT_HOUR: "screen_count_hour",  // 每小时的分辨率数量
+    BROWSER_COUNT_HOUR: "browser_count_hour",  // 每小时的浏览器数量
     REFERRER_COUNT_HOUR: "referrer_count_hour",  // 每小时的来源URL数量
 
     DEVICE_COUNT_DAY: "device_count_day",  // 一天的设备数量
@@ -82,6 +83,7 @@ const UPLOAD_TYPE = {
     SYSTEM_COUNT_DAY: "system_count_day",  // 一天的系统版本数量
     VERSION_COUNT_DAY: "version_count_day",  // 一天的应用版本数量
     SCREEN_COUNT_DAY: "screen_count_day",  // 一天的分辨率数量
+    BROWSER_COUNT_DAY: "browser_count_day",  // 一天的浏览器数量
     REFERRER_COUNT_DAY: "referrer_count_day",  // 一天的来源URL数量
 
     STAY_TIME_FOR_HOUR: "s_t_f_h",  // 每小时的平均停留时间

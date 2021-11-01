@@ -42,6 +42,18 @@ module.exports = {
           }
         }
       }
+      if (data.uploadType === "ELE_BEHAVIOR") {
+        // inputValue, innerText, placeholder 进行长度验证
+        if (data.inputValue && data.inputValue.length > 500) {
+          data.inputValue = data.inputValue.substring(0, 490) + "..."
+        }
+        if (data.innerText && data.innerText.length > 500) {
+          data.innerText = data.innerText.substring(0, 490) + "..."
+        }
+        if (data.placeholder && data.placeholder.length > 200) {
+          data.placeholder = data.placeholder.substring(0, 190) + "..."
+        }
+      }
       let values = ""
       keyArray.forEach((key, index) => {
         if (index == keyArray.length - 1) {
