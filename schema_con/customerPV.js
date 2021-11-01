@@ -70,7 +70,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 国家
     country: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'country'
     },
@@ -82,7 +82,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 城市
     city: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'city'
     },

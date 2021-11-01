@@ -41,6 +41,7 @@ module.exports = {
             data.referrer = tempReferrer
           }
         }
+        data.province = data.province.length > 50 ? "" : data.province
       }
       if (data.uploadType === "ELE_BEHAVIOR") {
         // inputValue, innerText, placeholder 进行长度验证
@@ -54,6 +55,11 @@ module.exports = {
           data.placeholder = data.placeholder.substring(0, 190) + "..."
         }
       }
+      if (data.uploadType === "JS_ERROR") {
+        data.province = ""
+        data.city = ""
+      }
+
       let values = ""
       keyArray.forEach((key, index) => {
         if (index == keyArray.length - 1) {
