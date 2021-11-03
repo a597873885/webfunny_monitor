@@ -8,7 +8,7 @@ const { accountInfo } = AccountConfig
 /**
  * 定时任务
  */
-module.exports = (customerWarningCallback) => {
+module.exports = async (customerWarningCallback, serverType = "master") => {
     /**
      * 3秒后开始接收消息队列里的数据
      * */
@@ -33,32 +33,6 @@ module.exports = (customerWarningCallback) => {
         // TimerCalculateController.calculateCountByDay(0)
         // TimerCalculateController.calculateCountByHour(1)
 
-        // let dayTimeStrList = ["06:10", "07:10", "08:10", "09:10", "10:15", "11:10"]
-        // dayTimeStrList.forEach((dayTime) => {
-        //     TimerCalculateController.calculateCountByDay(dayTime, 0)
-        // })
-
-        // let timer = null
-        // let hour = 0
-        // timer = setInterval(() => {
-        //     if (hour >= 24) {
-        //         clearInterval(timer)
-        //     }
-
-        //     let minIndex = 0
-        //     let timer2 = null
-        //     let minTimeStrList = ["01:30"]
-        //     timer2 = setInterval(() => {
-        //         if (minIndex >= minTimeStrList.length) {
-        //             clearInterval(timer2)
-        //         }
-        //         minTimeStrList.forEach((minTime) => {
-        //             TimerCalculateController.calculateCountByHour(minTime, hour)
-        //         })
-        //         minIndex ++
-        //     }, 1000)
-        //     hour ++
-        // }, 5000)
     }, 2000)
     Common.consoleLogo()
     // 初始化登录验证码
@@ -97,7 +71,6 @@ module.exports = (customerWarningCallback) => {
             //     log.printError("重启程序出错：", e)
             // }
 
-
             // 每天的最后一分钟，更新一次日志信息
             if (hourTimeStr == "23:59:00") {
                 MessageController.saveLastVersionInfo()
@@ -116,43 +89,46 @@ module.exports = (customerWarningCallback) => {
                 Common.handleLogInfoQueue()
             }
 
-            try {
-                // 如果是凌晨，则计算上一天的分析数据
-                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                    TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
-                } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
-                    TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
-                }
-                // 每小时的前6分钟，会计算小时数据
-                if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
-                    TimerCalculateController.calculateCountByHour(minuteTimeStr, 1, customerWarningCallback)
-                }
-                // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0
-                if (minuteTimeStr.substring(3) == "00") {
-                    global.monitorInfo.logCountInMinuteList.push(global.monitorInfo.logCountInMinute)
-                    global.monitorInfo.logCountInMinute = 0
-                    if (global.monitorInfo.logCountInMinuteList.length > 60) {
-                        global.monitorInfo.logCountInMinuteList.shift()
+            // 只有master服务才会执行计算服务
+            if (serverType === "master") {
+                try {
+                    // 如果是凌晨，则计算上一天的分析数据
+                    if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
+                        TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+                    } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
+                        TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
                     }
+                    // 每小时的前6分钟，会计算小时数据
+                    if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
+                        TimerCalculateController.calculateCountByHour(minuteTimeStr, 1, customerWarningCallback)
+                    }
+                    // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0
+                    if (minuteTimeStr.substring(3) == "00") {
+                        global.monitorInfo.logCountInMinuteList.push(global.monitorInfo.logCountInMinute)
+                        global.monitorInfo.logCountInMinute = 0
+                        if (global.monitorInfo.logCountInMinuteList.length > 60) {
+                            global.monitorInfo.logCountInMinuteList.shift()
+                        }
+                    }
+                    // 每小时的51分，开始flush pm2 的日志
+                    if (minuteTimeStr == "51:00") {
+                        Common.pm2Flush()
+                    }
+                    // 凌晨0点01分开始创建第二天的数据库表
+                    if (hourTimeStr == "00:00:01") {
+                        Common.createTable()
+                    } 
+                    // 凌晨2点开始删除过期的数据库表
+                    if (hourTimeStr == "02:00:00") {
+                        Common.startDelete()
+                    }
+                    // 凌晨2点20分开始删除无效的数据库表
+                    if (hourTimeStr == "02:20:00") {
+                        Common.startClearInvalidTable()
+                    }
+                } catch(e) {
+                    log.printError("定时器执行报错：", e)
                 }
-                // 每小时的51分，开始flush pm2 的日志
-                if (minuteTimeStr == "51:00") {
-                    Common.pm2Flush()
-                }
-                // 凌晨0点52分开始创建第二天的数据库表
-                if (hourTimeStr == "00:52:00") {
-                    Common.createTable()
-                } 
-                // 凌晨2点开始删除过期的数据库表
-                if (hourTimeStr == "02:00:00") {
-                    Common.startDelete()
-                }
-                // 凌晨2点20分开始删除无效的数据库表
-                if (hourTimeStr == "02:20:00") {
-                    Common.startClearInvalidTable()
-                }
-            } catch(e) {
-                log.printError("定时器执行报错：", e)
             }
             setTimeout(fixed, nextTime);
         }
