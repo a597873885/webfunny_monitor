@@ -210,7 +210,7 @@ fs.mkdir( "./bin", function(err){
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/weixin.js", "./alarm/index.js",]
+var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/feishu.js", "./alarm/weixin.js", "./alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
     PV: "浏览页面次数",
@@ -242,6 +242,20 @@ var alarmFileArray = [
         }
   }`,
   `/**
+  * 这里是飞书的机器人（关键字）的相关配置
+  * 关键字列表： 
+  * 1. 警报
+  */
+ module.exports = {
+     url: "", // 飞书机器人的URL
+     config: {
+         "msg_type": "text",
+         "content": {
+             "text": ""
+         },
+       }
+ }`,
+  `/**
   * 这里是企业微信机器人的相关配置
   */
  module.exports = {
@@ -258,16 +272,17 @@ var alarmFileArray = [
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
   const weiXin = require('../alarm/weixin')
+  const feiSHu = require('../alarm/feishu')
   const Utils = require('../util/utils')
   const AccountConfig = require('../config/AccountConfig')
   const { accountInfo } = AccountConfig
   const AlarmNames = require('./alarmName')
   
   const alarmCallback = (project, rule, users) => {
-      const { projectName, projectType } = project
+      const { projectName, projectType, chooseHook } = project
       const {type, happenCount, compareType, limitValue} = rule
       const compareStr = compareType === "up" ? ">=" : "<"
-  
+      const projectHook = JSON.parse(chooseHook)
       /**生成警报配置 */
       // 添加用户手机号
       users.forEach((user) => {
@@ -280,15 +295,23 @@ var alarmFileArray = [
           type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
       dingDing.config.text.content = contentStr
       weiXin.config.text.content = contentStr
-      
-      /**发起警报方式 */
-      // 1. 通知钉钉机器人
-      Utils.postJson(dingDing.url, dingDing.config)  // 钉钉机器人
+      feiSHu.config.content.text = contentStr
+      switch(projectHook.value) {
+          case "dingding":
+              // 1. 通知钉钉机器人
+              Utils.postJson(projectHook.webHook, dingDing.config)  // 钉钉机器人
+              break
+          case "weixin":
+              // 2. 通知微信机器人
+              Utils.postJson(projectHook.webHook, weiXin.config)  // 微信机器人
+              break
+          case "feishu":
+              // 3. 通知飞书机器人
+              Utils.postJson(projectHook.webHook, feiSHu.config)  // 飞书机器人
+              break
+      }
   
-      // 2. 通知微信机器人
-      Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
-  
-      // 3. 发送邮件通知
+      // 4. 发送邮件通知
       if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
           users.forEach((user) => {
               const email = user.emailName

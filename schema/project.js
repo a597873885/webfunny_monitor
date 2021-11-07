@@ -52,6 +52,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'alarmMembers'
     },
+    // webHook配置
+    chooseHook: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'chooseHook'
+    },
     // 邮箱
     email: {
       type: DataTypes.STRING(200),

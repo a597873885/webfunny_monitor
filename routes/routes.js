@@ -558,6 +558,9 @@ const createRoutes = (router) => {
     
     // 保存警报信息相关
     router.post('/webfunny_5e78443f3f15e2de85f48b0a47119f5a', ProjectController.saveAlarmInfo);
+
+    // 设置webHook
+    router.post('/webfunny_b224f60cdaa1e0e2a09f2a5874ca0b9d', ProjectController.setWebHook);
     
     // 获取静态资源错误分类
     router.get('/webfunny_9fd23ee2b9c48826f685311e5f571329', ResourceLoadInfoController.getResourceErrorCountByDay);
