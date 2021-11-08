@@ -39,7 +39,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 元素包含的内容
     innerText: {
-      type: DataTypes.STRING(500),
+      type: DataTypes.STRING(1000),
       allowNull: true,
       field: 'innerText'
     }
