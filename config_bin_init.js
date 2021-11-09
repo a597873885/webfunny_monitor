@@ -282,7 +282,7 @@ var alarmFileArray = [
       const { projectName, projectType, chooseHook } = project
       const {type, happenCount, compareType, limitValue} = rule
       const compareStr = compareType === "up" ? ">=" : "<"
-      const projectHook = JSON.parse(chooseHook)
+      const projectHook = chooseHook ? JSON.parse(chooseHook) : {value: "", name: "", webHook: ""}
       /**生成警报配置 */
       // 添加用户手机号
       users.forEach((user) => {
@@ -308,6 +308,8 @@ var alarmFileArray = [
           case "feishu":
               // 3. 通知飞书机器人
               Utils.postJson(projectHook.webHook, feiSHu.config)  // 飞书机器人
+              break
+          default:
               break
       }
   
