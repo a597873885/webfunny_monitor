@@ -24,7 +24,7 @@ const Project = function (sequelize, DataTypes) {
     },
     // 项目名称
     projectName: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'projectName'
     },
@@ -39,6 +39,24 @@ const Project = function (sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: true,
       field: 'userTag'
+    },
+    // 关联警报ID
+    alarmRuleId: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'alarmRuleId'
+    },
+    // 通知人员
+    alarmMembers: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'alarmMembers'
+    },
+    // webHook配置
+    chooseHook: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'chooseHook'
     },
     // 邮箱
     email: {
@@ -57,6 +75,12 @@ const Project = function (sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: true,
       field: 'monitorCode'
+    },
+    // 监控代码(fetch)
+    monitorFetchCode: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'monitorFetchCode'
     },
     // fetch代码
     fetchCode: {
@@ -81,6 +105,12 @@ const Project = function (sequelize, DataTypes) {
       type: DataTypes.STRING(2),
       allowNull: true,
       field: 'recording'
+    },
+    // 监控配置项
+    recordConfig: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'recordConfig'
     },
     // 创建时间
     createdAt: {

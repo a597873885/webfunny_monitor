@@ -6,13 +6,14 @@ const wsRoute = require('./routes/ws')
 const log = require("./config/log")
 let WebSocket = require("koa-websocket")
 const statusCode = require('./util/status-code')
-const err = require('./middlreware/error')
+const auth = require('./middlreware/auth')
+const sqlCheck = require('./middlreware/sqlCheck')
 const app = WebSocket(new Koa())
 
 app.use(async (ctx, next) => {
-    ctx.set("Access-Control-Allow-Origin", "*")
+    ctx.set("Access-Control-Allow-Origin", ctx.header.origin)
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
-    ctx.set("Access-Control-Allow-Headers", "*")
+    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code")
     ctx.set("Access-Control-Allow-Credentials", true)
     ctx.set("X-Powered-By", "3.2.1")
     ctx.set("Content-Type", "application/json;charset=utf-8")
@@ -24,8 +25,7 @@ app.use(async (ctx, next) => {
     }
 })
 // 登录校验
-app.use(err())
-
+app.use(auth())
 // middlewares
 app.use(bodyParser({
     enableTypes: ['json', 'form', 'text'],
@@ -33,6 +33,9 @@ app.use(bodyParser({
     jsonLimit: "5mb",
     textLimit: "5mb"
 }))
+
+// 防sql注入
+app.use(sqlCheck())
 
 app.use(async (ctx, next) => {
     const start = new Date()

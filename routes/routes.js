@@ -1,4 +1,4 @@
-const {ScreenShotInfoController,HttpErrorInfoController,BehaviorInfoController,DailyActivityController,EmailCodeController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LoadPageInfoController,FailController,LocationPointTypeController,LocationPointGroupController,LocationPointController,ResourceLoadInfoController,VideosInfoController,HttpLogInfoController,JavascriptErrorInfoController,ProjectController,UserController,CustomerPVController,CustomerPvLeaveController,TimerCalculateController,CustomerStayTimeController,AlarmController,TeamController,ConfigController,Common} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -15,11 +15,10 @@ const createRoutes = (router) => {
     router.post('/upDLog', Common.upDLog);
     // 上传拓展日志
     router.post('/uploadExtendLog', Common.uploadExtendLog);
+
+
     // 拓展行为日志
     router.post('/extendBehavior', ExtendBehaviorInfoController.create);
-
-    // 修复当天数据
-    router.get('/fixData', TimerCalculateController.fixData);
 
     // 添加team
     router.post('/config', ConfigController.create);
@@ -35,6 +34,8 @@ const createRoutes = (router) => {
     router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+    // 获取简单的用户信息列表
+    router.post('/getAllUserInfoForSimple', UserController.getAllUserInfoForSimple);
     // 管理员获取用户列表
     router.post('/getUserListByAdmin', UserController.getUserListByAdmin);
     // 忘记密码
@@ -55,6 +56,15 @@ const createRoutes = (router) => {
     // 删除用户
     router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
     
+
+    // 新增消息
+    router.post('/createMessage', MessageController.createNewMessage);
+    // 获取消息
+    router.post('/getMessageByType', MessageController.getMessageByType);
+    // 阅读消息
+    router.post('/readMessage', MessageController.readMessage);
+    // 阅读全部
+    router.post('/readAll', MessageController.readAll)
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);
@@ -85,6 +95,8 @@ const createRoutes = (router) => {
     router.post('/updateTeamProjects', TeamController.updateTeamProjects)
     // 获取所有团队列表
     router.post("/getAllTeamList", TeamController.getAllTeamList)
+    // 更新监控系统
+    router.post('/upgradeSystem', Common.upgradeSystem);
     
 
     /**
@@ -112,18 +124,26 @@ const createRoutes = (router) => {
     router.get('/project/detailList', ProjectController.getProjectDetailList);
     // 查询所有项目的实时UV信息
     router.get('/project/getProjectInfoInRealTime', ProjectController.getProjectInfoInRealTime);
+    // 查询所有项目的实时UV信息
+    router.post('/project/getProjectInfoListInRealTime', ProjectController.getProjectInfoListInRealTime);
     // 创建新的监控项目
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目
     router.get('/checkProjectCount', ProjectController.checkProjectCount);
-    // 暂停项目的日志上报
-    router.post('/changeLogServerStatusByWebMonitorId', ProjectController.changeLogServerStatusByWebMonitorId)
-    // 获取暂停日志上报的项目列表
-    router.post('/getStopWebMonitorIdList', ProjectController.getStopWebMonitorIdList)
     // 获取userTags
     router.post('/getUserTags', ProjectController.getUserTags)
     // 保存userTags
     router.post('/saveUserTags', ProjectController.saveUserTags)
+    // 获取项目配置
+    router.post('/getProjectConfig', ProjectController.getProjectConfig)
+    // 保存项目配置
+    router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
+    // 开启项目监控
+    router.post('/openProject', ProjectController.openProject)
+    // 保存警报信息相关
+    router.post('/saveAlarmInfo', ProjectController.saveAlarmInfo)
+    // 设置webHook
+    router.post('/setWebHook', ProjectController.setWebHook);
     /**
      * 用户访问信息接口
      */
@@ -178,17 +198,25 @@ const createRoutes = (router) => {
     router.post('/getCityCountOrderByCountTop20', CustomerPVController.getCityCountOrderByCountTop20);
     // 获取设备top10数量列表
     router.post('/getDeviceCountOrderByCount', CustomerPVController.getDeviceCountOrderByCount);
+    // 获取设备分辨率top10数量列表
+    router.post('/getDeviceSizeCountOrderByCount', CustomerPVController.getDeviceSizeCountOrderByCount);
     // 获取系统版本top10数量列表
     router.post('/getOsCountOrderByCount', CustomerPVController.getOsCountOrderByCount);
+    // 获取设备浏览器top10数量列表
+    router.post('/getBrowserNameCountOrderByCount', CustomerPVController.getBrowserNameCountOrderByCount);
+    // 获取来源网站top10数量列表
+    router.post('/getReferrerCountOrderByCount', CustomerPVController.getReferrerCountOrderByCount);
+    // 网站访问top10数量列表
+    router.post('/getSimpleUrlCountOrderByCount', CustomerPVController.getSimpleUrlCountOrderByCount);
     // 查询用户的访问列表，分页
     router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
     // 获取七天留存数量
     router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
     // 次日留存率
     router.post('/getYesterdayLeftPercent', CustomerPVController.getYesterdayLeftPercent);
+
     // 平均停留时长
     router.post('/getStayTimeForEveryDay', CustomerStayTimeController.getStayTimeForEveryDay);
-
     // 获取24小时内每小的跳出率
     router.post('/getCusLeavePercentByHour', CustomerPvLeaveController.getCusLeavePercentByHour);
     
@@ -220,6 +248,15 @@ const createRoutes = (router) => {
     router.get('/getPageUrlCountListByHour', LoadPageInfoController.getPageUrlCountListByHour);
     // 获取24小时分布
     router.post('/getPageUrlCountForHourByMinutes', LoadPageInfoController.getPageUrlCountForHourByMinutes);
+
+    // 获取性能预览里边页面加载的各项指标
+    router.post('/getPageLoadTimeForAll', LoadPageInfoController.getPageLoadTimeForAll);
+    router.post('/getAvgLoadTimeForAllByHour', LoadPageInfoController.getAvgLoadTimeForAllByHour);
+    router.post('/getPageLoadTimeByType', LoadPageInfoController.getPageLoadTimeByType);
+    // 获取加载耗时列表top10
+    router.post('/getPageLoadTimeListByUrl', LoadPageInfoController.getPageLoadTimeListByUrl);
+    // 获取页面加载耗时占比
+    router.post('/getPageLoadTimePercent', LoadPageInfoController.getPageLoadTimePercent);
 
     /**
      * JS错误信息接口
@@ -327,6 +364,18 @@ const createRoutes = (router) => {
     router.get('/getHttpUrlCountListByHour', HttpLogInfoController.getHttpUrlCountListByHour);
     // 获取24小时分布
     router.post('/getHttpUrlCountForHourByMinutes', HttpLogInfoController.getHttpUrlCountForHourByMinutes);
+    // 获取http接口请求的通用信息
+    router.post('/getHttpLoadTimeForAll', HttpLogInfoController.getHttpLoadTimeForAll);
+    // 获取接口加载耗时占比
+    router.post('/getHttpLoadTimePercent', HttpLogInfoController.getHttpLoadTimePercent);
+    router.post('/getHttpLoadTimeListByUrl', HttpLogInfoController.getHttpLoadTimeListByUrl);
+
+    /**大屏数据相关 */
+    router.post('/getPvUvInRealTimeByMinute', CustomerPVController.getPvUvInRealTimeByMinute);
+    router.post('/getHttpInfoInRealTimeByMinute', HttpLogInfoController.getHttpInfoInRealTimeByMinute);
+    router.post('/getErrorInfoInRealTimeByMinute', JavascriptErrorInfoController.getErrorInfoInRealTimeByMinute);
+    router.post('/getInitErrorInfoInRealTimeByTimeSize', CustomerPVController.getInitErrorInfoInRealTimeByTimeSize);
+    
 
     /**
      * 埋点数据相关
@@ -348,6 +397,9 @@ const createRoutes = (router) => {
     router.post('/locationPointCountForMonth', LocationPointController.locationPointCountForMonth);
     router.post("/getLocationPointForDay", LocationPointController.getLocationPointForDay)
     router.post("/getFunnelLeftCountForDay", LocationPointController.getFunnelLeftCountForDay)
+    // 埋点上报接口
+    router.post('/upBp', LocationPointController.createLocationPoint)
+    router.get('/upBp', LocationPointController.createLocationPointForGet)
 
     // 创建漏斗分类
     router.post('/createFunnelType', FunnelController.create);
@@ -355,9 +407,7 @@ const createRoutes = (router) => {
     router.post('/deleteFunnel', FunnelController.delete)
     
 
-    // 埋点上报接口
-    router.post('/upBp', LocationPointController.createLocationPoint)
-    router.get('/upBp', LocationPointController.createLocationPointForGet)
+    
 
 
     /**
@@ -386,10 +436,12 @@ const createRoutes = (router) => {
 
     //创建配置
     router.post('/changeLogServerStatus', Common.changeLogServerStatus)
+    router.post('/changeMonitorStatus', Common.changeMonitorStatus)
     router.post('/changeWaitCounts', Common.changeWaitCounts)
     router.post('/changeSaveDays', Common.changeSaveDays)
     router.post('/saveMysqlConfigsForNew', Common.saveMysqlConfigs)
     router.get('/getLogServerStatusForNew', Common.getLogServerStatus)
+    router.post('/changeMonitorStatus', Common.changeMonitorStatus)
 
     // 获取警报检查频率
     router.post('/getCheckTime', AlarmController.getCheckTime)
@@ -411,6 +463,11 @@ const createRoutes = (router) => {
     router.post('/getResourceErrorConfig', AlarmController.getResourceErrorConfig)
     // 设置ResourceError报警参数
     router.post('/changeResourceErrorConfig', AlarmController.changeResourceErrorConfig)
+
+    // 新警报规则
+    router.post('/createNewAlarmRule', AlarmRuleController.createNewAlarmRule);
+    router.post('/getAllAlarmRule', AlarmRuleController.getAllAlarmRule);
+    router.post('/deleteAlarmRule', AlarmRuleController.deleteAlarmRule);
 
     // 连接线上用户
     router.get('/connectUser', Common.connectUser)
@@ -471,15 +528,14 @@ const createRoutes = (router) => {
     router.get('/health', Common.dockerHealth);
 
     /**
-     * 废弃接口
-     */
-    router.post('/searchUserBehaviors', Common.abortApis);
-
-    /**
      * 测试接口
      */
     router.post('/test', Common.test);
 
+    /**
+     * 获取所有数据库表名
+     */
+    router.get('/getAllTableList', Common.getAllTableList);
 }
 
 module.exports = {

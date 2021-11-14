@@ -127,20 +127,20 @@ const Utils = {
     }
     return tempObj
   },
-  b64EncodeUnicode: function(str) {
+  b64EncodeUnicode: function(tempStr) {
+    const str = encodeURIComponent(tempStr)
     return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
       return String.fromCharCode("0x" + p1)
     }))
   },
   b64DecodeUnicode: function(str) {
     try {
-      return decodeURIComponent(myAtob(str).split('').map(function(c) {
+      return decodeURIComponent(decodeURIComponent(myAtob(str).split('').map(function(c) {
         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-      }).join(''));
+      }).join('')));
     } catch (e) {
       return str
     }
-
   },
   md5Encrypt: function(encryptString) {
     // try {
@@ -155,6 +155,15 @@ const Utils = {
     try {
       let hash = crypto.createHash('md5');
       return hash.update(encryptString).digest('base64');
+    } catch(e) {
+      console.log(e)
+      return encryptString
+    }
+  },
+  md5Hex: function(encryptString) {
+    try {
+      let hash = crypto.createHash('md5');
+      return hash.update(encryptString).digest('hex');
     } catch(e) {
       console.log(e)
       return encryptString
@@ -236,6 +245,12 @@ const Utils = {
     const method = "POST"
     const body = JSON.stringify(params)
     const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
+    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
+  },
+  postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "POST"
+    const body = JSON.stringify(params)
+    const fetchParams = Object.assign({}, { method, body}, this.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
@@ -326,7 +341,7 @@ const Utils = {
    */
   logParseJson(data) {
     if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error")
+    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
     const param = JSON.parse(paramStr)
     const { logInfo } = param
     if (!logInfo) {
@@ -377,6 +392,26 @@ const Utils = {
       timeSql = " and hourName>='" + startHour + "' and hourName<='" + endHour + "' "
     }
     return timeSql
+  },
+
+  /**
+   * 时间按照分钟每隔切分，返回时间list
+   * 开始时间：startDate
+   * 结束时间：endDate
+   * 分钟：amount
+   */
+  splitTime(startDate, endDate, amount) {
+    var startTime = new Date(startDate),
+	   endTime = new Date(endDate),
+    gap = (endTime - startTime) / amount;
+    var temp = [];
+    for (var i = 0; i < amount; i++) {
+      startTime.setMilliseconds(startTime.getMilliseconds() + gap);
+      temp[i] = new Date(startTime.getTime());
+      temp[i] = temp[i].Format('hh:mm') //分割小时
+      // console.log(temp[i].format('hh:mm'))
+    }
+    return temp;
   },
 
   /**

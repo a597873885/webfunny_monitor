@@ -1,27 +1,34 @@
 var fs = require('fs');
 
 // 初始化bin目录
-var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
+var pathArray = ["./bin/domain.js", "./bin/httpReqRes.js", "./bin/messageQueue.js", "./bin/mysqlConfig.js", "./bin/purchaseCode.js", "./bin/saveDays.js", "./bin/slave.js", "./bin/stayTimeScope.js", "./bin/stopWebMonitorIdList.js", "./bin/sysMonitor.js", "./bin/useCusEmailSys.js", "./bin/webfunny.js", "./bin/webMonitorIdList.js"]
 var fileArray = [
     `module.exports = {
-        localServerDomain: 'localhost:8011', // 日志服务域名  书写形式：localhost:8011
-        localAssetsDomain: 'localhost:8010', // 数据可视化服务域名 书写形式：localhost:8010
-        localServerPort: '8011',               // 日志服务端口号
-        localAssetsPort: '8010',               // 可视化系统端口号
-    
-        /**
-         * 注意：不懂可以不用设置，【千万不要乱设置】
-         * 
-         * 1. 什么情况设置：如果同一个主域名下有多个项目，并且同一个UserId的用户，会访问这多个项目
-         * 2. 设置结果：使用userId查询，可以将一个用户在多个项目上的行为串联起来。
-         * 
-         * 例如：www.baidu.com  主域名就是：baidu.com
-         */
-        mainDomain: ''                         // 默认空字符串就行了
+      // 1. 日志服务（接口）域名  书写形式：localhost:8011;
+      // 2. 如果设置空字符串，则会使用浏览器域名
+      localServerDomain: 'localhost:8011',
+
+      // 数据可视化服务域名 书写形式：localhost:8010;
+      localAssetsDomain: 'localhost:8010',
+      
+      // 日志服务端口号
+      localServerPort: '8011',
+      // 可视化系统端口号
+      localAssetsPort: '8010',
+  
+      /**
+       * 注意：不懂可以不用设置，【千万不要乱设置】
+       * 
+       * 1. 什么情况设置：如果同一个主域名下有多个项目，并且同一个UserId的用户，会访问这多个项目
+       * 2. 设置结果：使用userId查询，可以将一个用户在多个项目上的行为串联起来。
+       * 
+       * 例如：www.baidu.com  主域名就是：baidu.com
+       */
+      mainDomain: '' // 默认空字符串就行了
     }`,
     `module.exports = {
-      requestTextLength: 500,  // 接口请求参数内容长度限制
-      responseTextLength: 500,  // 接口返回结果内容长度限制
+      requestTextLength: 1000,  // 接口请求参数内容长度限制
+      responseTextLength: 1000,  // 接口返回结果内容长度限制
     }
     `,
     `module.exports = {
@@ -41,7 +48,8 @@ var fileArray = [
       ]
     }`,
     `module.exports = {
-        purchaseCode: 'AAAABBBBCCCCDDDD',
+        purchaseCode: '',
+        secretCode: ''
     }`,
     `module.exports = {
         saveDays: '8',
@@ -83,6 +91,9 @@ var fileArray = [
     `// 停止日志上报列表
     module.exports = []`,
     `module.exports = {
+      openMonitor: true  // 企业版可关闭此选项
+    }`,
+    `module.exports = {
       useCusEmailSys: false,               // 是否使用自己的邮件系统, true: 使用配置的邮箱密码；false: 由webfunny系统给你发送邮件
       emailUser: "",                       // 163邮箱用户名
       emailPassword: ""                    // 163邮箱，网易老账号用密码， 新账号用安全码
@@ -91,10 +102,8 @@ var fileArray = [
 
     var app = require('../app');
     var debug = require('debug')('demo:server');
-    var compression = require('compression')
     var { accountInfo } = require("../config/AccountConfig")
-    
-    
+    global.serverType = "master"
     var port = normalizePort(process.env.PORT || accountInfo.localServerPort);
     app.listen(port);
     
@@ -147,14 +156,33 @@ var fileArray = [
     }
     
     // 启动静态文件服务器
-    var connect = require("connect");
-    var serveStatic = require("serve-static");
-    var app = connect();
-    app.use(compression())
-    app.use(serveStatic("./views"));
-    app.listen(accountInfo.localAssetsPort);
+    const KoaStatic = require('koa');
+    const appStatic = new KoaStatic();
+    const server = require('koa-static-cache');
+    /* gzip压缩配置 start */
+    const compress = require('koa-compress');
+    const options = { 
+        threshold: 1024 //数据超过1kb时压缩
+    };
+    /* gzip压缩配置 end */
     
-    `,
+    // 1.主页静态网页 把静态页统一放到public中管理
+    const publicServer = server('./views');
+    // 2.重定向判断
+    const redirect = ctx => {
+      ctx.response.redirect('/webfunny/home.html')
+    };
+    // 3.分配路由
+    appStatic.use(compress(options))
+    appStatic.use(async (ctx, next) => {
+      if (ctx.url === '/' || ctx.url === '/webfunny/') {
+        redirect(ctx)
+      } else {
+        await next()
+      }
+    });
+    appStatic.use(publicServer);
+    appStatic.listen(accountInfo.localAssetsPort);`,
     `module.exports = []`
 ]
 
@@ -169,6 +197,207 @@ fs.mkdir( "./bin", function(err){
           if (err) {
               console.log("× " + path + " 配置文件不存在，即将创建...")
               fs.writeFile(path, fileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
+
+/**
+ * 初始化alarm目录
+ */
+var alarmPathArray = ["./alarm/alarmName.js", "./alarm/dingding.js", "./alarm/feishu.js", "./alarm/weixin.js", "./alarm/index.js",]
+var alarmFileArray = [
+  `module.exports = {
+    PV: "浏览页面次数",
+    UV: "浏览页面人数",
+    JsError: "JS代码错误次数",
+    ConsoleError: "自定义错误次数",
+    http: "接口请求次数",
+    httpError: "接口错误次数",
+    resourceError: "静态资源错误次数",
+  }`,
+  `/**
+    * 这里是钉钉机器人（关键字）的相关配置
+    * 关键字列表： 
+    * 1. 警报
+    */
+  module.exports = {
+      url: "", // 钉钉机器人的 webHook URL
+      config: {
+          "msgtype": "text",
+          "text": {
+              "content": ""
+          },
+          "at": {
+              "atMobiles": [    // 想要@的成员列表
+                  "000"
+              ], 
+              "isAtAll": false  // 是否@所有人
+          }
+        }
+  }`,
+  `/**
+  * 这里是飞书的机器人（关键字）的相关配置
+  * 关键字列表： 
+  * 1. 警报
+  */
+ module.exports = {
+     url: "", // 飞书机器人的URL
+     config: {
+         "msg_type": "text",
+         "content": {
+             "text": ""
+         },
+       }
+ }`,
+  `/**
+  * 这里是企业微信机器人的相关配置
+  */
+ module.exports = {
+     url: "", // 企业微信机器人的 webHook URL
+     config: {
+         "msgtype": "text",
+         "text": {
+             "content": "我只是一个机器人测试，请忽略我",
+             "mentioned_list":["xxx",],
+             "mentioned_mobile_list":["182xxxx4111"]  // 将要艾特的人
+         }
+     }
+ }`,
+  `const sendEmail = require('../util_cus/sendEmail');
+  const dingDing = require('../alarm/dingding')
+  const weiXin = require('../alarm/weixin')
+  const feiSHu = require('../alarm/feishu')
+  const Utils = require('../util/utils')
+  const AccountConfig = require('../config/AccountConfig')
+  const { accountInfo } = AccountConfig
+  const AlarmNames = require('./alarmName')
+  
+  const alarmCallback = (project, rule, users) => {
+      const { projectName, projectType, chooseHook } = project
+      const {type, happenCount, compareType, limitValue} = rule
+      const compareStr = compareType === "up" ? ">=" : "<"
+      const projectHook = chooseHook ? JSON.parse(chooseHook) : {value: "", name: "", webHook: ""}
+      /**生成警报配置 */
+      // 添加用户手机号
+      users.forEach((user) => {
+          dingDing.config.at.atMobiles.push(user.phone)
+          weiXin.config.text.mentioned_mobile_list.push(user.phone)
+      })
+      // 生成警报内容
+      const contentStr = type + "警报！" +
+          "您的" + projectType + "项目【" + projectName + "】发出警报：" +
+          type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
+      dingDing.config.text.content = contentStr
+      weiXin.config.text.content = contentStr
+      feiSHu.config.content.text = contentStr
+      switch(projectHook.value) {
+          case "dingding":
+              // 1. 通知钉钉机器人
+              Utils.postJson(projectHook.webHook, dingDing.config)  // 钉钉机器人
+              break
+          case "weixin":
+              // 2. 通知微信机器人
+              Utils.postJson(projectHook.webHook, weiXin.config)  // 微信机器人
+              break
+          case "feishu":
+              // 3. 通知飞书机器人
+              Utils.postJson(projectHook.webHook, feiSHu.config)  // 飞书机器人
+              break
+          default:
+              break
+      }
+  
+      // 4. 发送邮件通知
+      if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
+          users.forEach((user) => {
+              const email = user.emailName
+              sendEmail(email, AlarmNames[type] + "警报！", contentStr, accountInfo.emailUser, accountInfo.emailPassword)
+          })
+      }
+  }
+  module.exports = {
+      alarmCallback
+  }`,
+]
+
+fs.mkdir( "./alarm", function(err){
+  if ( err ) { 
+    console.log("= 文件夹 /alarm 已经存在")
+  } else {
+    console.log("= 创建文件夹 /alarm")
+  }
+  alarmPathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, alarmFileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
+
+/**
+ * 初始化util_cus目录
+ */
+var cusUtilPathArray = ['./util_cus/index.js', './util_cus/sendEmail.js']
+var cusUtilFileArray = [
+  `const sendEmail = require("./sendEmail")
+
+  module.exports = {
+      sendEmail
+  }`,
+  `const nodemailer = require('nodemailer')
+  const AccountConfig = require('../config/AccountConfig')
+  const { accountInfo } = AccountConfig
+  /**
+   * 自己配置邮箱：在 bin/useCusEmailSys.js文件中 参数改为true，并配置自己的163邮箱和密码
+   * @param targetEmail 目标邮箱地址
+   * @param emailTitle 邮件标题
+   * @param emailContent 邮件正文
+   * @param user 系统邮箱地址（不传参，则默认使用配置的邮箱地址）
+   * @param pass 系统邮箱密码（不传参，则默认使用配置的邮箱密码）
+   */
+  const sendEmail = (targetEmail, emailTitle, emailContent, user = accountInfo.emailUser, pass = accountInfo.emailPassword) => {
+      const company = "webfunny"
+      let transporter = nodemailer.createTransport({
+          host: "smtp.163.com",
+          port: 465,
+          secure: true, // true for 465, false for other ports
+          auth: { user,pass }
+      });
+      // send mail with defined transport object
+      transporter.sendMail({
+          from: "'" + company + "' <" + user + ">", // sender address
+          to: targetEmail, // list of receivers
+          subject: emailTitle, // Subject line
+          text: emailContent, // plain text body
+          html: emailContent // html body
+      });
+  }
+  module.exports = sendEmail`
+]
+fs.mkdir( "./util_cus", function(err){
+  if ( err ) { 
+    console.log("= 文件夹 /util_cus 已经存在")
+  } else {
+    console.log("= 创建文件夹 /util_cus")
+  }
+  cusUtilPathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, cusUtilFileArray[index], (err) => {
                   if (err) throw err;
                   console.log("√ " + path + " 配置文件创建完成！");
               });
@@ -339,7 +568,7 @@ var interceptorConArray = [
  const handleResultWhenHttpRequest = (res) => {
      // console.log(res) // 打印查看其他字段
      const {webMonitorId, statusResult, status, loadTime, simpleUrl, httpUrl } = res
-     const simpleHttpUrl = decodeURIComponent(Utils.b64DecodeUnicode(httpUrl))
+     const simpleHttpUrl = Utils.b64DecodeUnicode(httpUrl)
      if (statusResult === "请求返回") {
          switch(status) {
              case 200:

@@ -22,6 +22,12 @@ const User = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'userType'
     },
+    // 手机号
+    phone: {
+      type: DataTypes.STRING(11),
+      allowNull: true,
+      field: 'phone'
+    },
     // 登录名
     nickname: {
       type: DataTypes.STRING(100),

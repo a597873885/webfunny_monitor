@@ -21,25 +21,25 @@ const getTableProperty = (DataTypes) => {
     },
     // Input 框的placeholder
     placeholder: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'placeholder'
     },
     // 输入的内容
     inputValue: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'inputValue'
     },
     // 输入的内容
     tagName: {
-      type: DataTypes.STRING(15),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'tagName'
     },
     // 元素包含的内容
     innerText: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(1000),
       allowNull: true,
       field: 'innerText'
     }

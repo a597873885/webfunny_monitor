@@ -46,19 +46,19 @@ const getTableProperty = (DataTypes) => {
     },
     // 国家
     country: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'country'
     },
     // 省份
     province: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'province'
     },
     // 城市
     city: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'city'
     },

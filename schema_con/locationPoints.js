@@ -10,7 +10,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 埋点类型, 跟locationPointType里的id对应
     locationPointType: {
-      type: DataTypes.STRING(10),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'locationPointType'
     },

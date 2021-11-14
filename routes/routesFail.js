@@ -14,6 +14,10 @@ const createRoutesFail = (router) => {
 
     // 登录
     router.post('/login', UserController.login);
+    // 重置验证码
+    router.post('/refreshValidateCode', UserController.refreshValidateCode)
+    // 获取验证码
+    router.post('/getValidateCode', UserController.getValidateCode)
 
     /**
      * Docker 心跳检测

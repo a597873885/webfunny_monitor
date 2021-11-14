@@ -17,16 +17,21 @@
 
 > 只需要简单几步，你就可以搭建一套属于自己的前端监控系统了。
 
+
+
 ### 了解作品  
 
-   [【功能简介】](http://www.webfunny.cn/home.html?source=github) | 
+   [【官网简介】](http://www.webfunny.cn/home.html) | 
    [【Demo效果】](http://www.webfunny.cn/demo/home.html) | 
-   [【关于开源】](http://www.webfunny.cn/faq.html?tab=2)
+   [【更新日志】](http://www.webfunny.cn/update.html)
+ 
    
 
 ### 私有化部署方式
 
-   [【部署教程】](https://github.com/a597873885/webfunny_monitor/blob/master/DES.md)
+   [【部署教程】](https://www.webfunny.cn/des.html)
+   
+   [【Docker部署】](https://www.webfunny.cn/des.html?blogUrl=https%3A%2F%2Fwww.webfunny.cn%2Fblog%2Fpost%2Finfo%2F70)
    
 ### 联系作者微信
 
@@ -81,7 +86,7 @@
     |
     |——routes/                                 * 路由、定时器
     |
-    |——views/                                  * 监控系统页面代码
+    |——views/                                  * 监控系统页面代码（压缩版）
     |
     |
     |
