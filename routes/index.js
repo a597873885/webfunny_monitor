@@ -43,13 +43,8 @@ const router = new Router({
 
 const handleResult = () => {
     createRoutes(router)
-    // 启动定时任务, 如果是slave模式，则不启动定时器
-    if (global.serverType == "slave") {
-        Common.consoleInfo(global.serverType)
-    } else {
-        timerTask(customerWarningCallback)
-    }
-
+    timerTask(customerWarningCallback, global.serverType)
+    
     // 定时同步登录信息(频率：10s)
     setInterval( async () => {
         const webfunnyTokenList = global.monitorInfo.webfunnyTokenList

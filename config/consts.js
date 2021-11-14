@@ -75,6 +75,7 @@ const UPLOAD_TYPE = {
     SCREEN_COUNT_HOUR: "screen_count_hour",  // 每小时的分辨率数量
     BROWSER_COUNT_HOUR: "browser_count_hour",  // 每小时的浏览器数量
     REFERRER_COUNT_HOUR: "referrer_count_hour",  // 每小时的来源URL数量
+    SIMPLE_URL_COUNT_HOUR: "sim_url_count_hour",  // 每小时的SimpleUrl数量
 
     DEVICE_COUNT_DAY: "device_count_day",  // 一天的设备数量
     CITY_COUNT_DAY: "city_count_day",  // 一天的城市数量
@@ -85,6 +86,7 @@ const UPLOAD_TYPE = {
     SCREEN_COUNT_DAY: "screen_count_day",  // 一天的分辨率数量
     BROWSER_COUNT_DAY: "browser_count_day",  // 一天的浏览器数量
     REFERRER_COUNT_DAY: "referrer_count_day",  // 一天的来源URL数量
+    SIMPLE_URL_COUNT_DAY: "sim_url_count_day",  // 一天的SimpleUrl数量
 
     STAY_TIME_FOR_HOUR: "s_t_f_h",  // 每小时的平均停留时间
     STAY_TIME_FOR_DAY: "s_t_f_d",   // 每天的平均停留时间
