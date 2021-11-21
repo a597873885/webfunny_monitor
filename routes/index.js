@@ -1,5 +1,6 @@
 const Router = require('koa-router')
 const { Common, UserTokenController } = require("../controllers/controllers.js")
+const { ConfigModel } = require("../modules/models.js")
 const { createRoutes } = require("./routes");
 const { createRoutesFail } = require("./routesFail");
 const { customerWarningCallback } = require("../interceptor/customerWarning");
@@ -43,10 +44,12 @@ const router = new Router({
 
 const handleResult = () => {
     createRoutes(router)
+    // 启动定时任务, 如果是slave模式，则不启动定时器
     timerTask(customerWarningCallback, global.serverType)
-    
-    // 定时同步登录信息(频率：10s)
+
+    // 定时同步登录信息, 同步验证码(频率：10s)
     setInterval( async () => {
+        // 登录token同步
         const webfunnyTokenList = global.monitorInfo.webfunnyTokenList
         const userTokens = await UserTokenController.getAllTokens()
         if (userTokens && userTokens.length) {
@@ -55,6 +58,11 @@ const handleResult = () => {
                     global.monitorInfo.webfunnyTokenList.push(item.accessToken)
                 }
             })
+        }
+        // 登录验证码同步
+        const loginValidateCodeRes = await ConfigModel.getConfigByConfigName("loginValidateCode")
+        if (loginValidateCodeRes && loginValidateCodeRes.length > 0) {
+            global.monitorInfo.loginValidateCode = loginValidateCodeRes[0].configValue
         }
     }, 10000)
 
