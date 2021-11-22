@@ -59,12 +59,7 @@ const handleResult = () => {
                 }
             })
         }
-        // 登录验证码同步
-        const loginValidateCodeRes = await ConfigModel.getConfigByConfigName("loginValidateCode")
-        if (loginValidateCodeRes && loginValidateCodeRes.length > 0) {
-            global.monitorInfo.loginValidateCode = loginValidateCodeRes[0].configValue
-        }
-    }, 10000)
+    }, 5000)
 
     // 3秒后开始消费消息
     setTimeout(() => {
