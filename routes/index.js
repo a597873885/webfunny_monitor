@@ -1,8 +1,6 @@
 const Router = require('koa-router')
-const { Common, UserTokenController } = require("../controllers/controllers.js")
-const { ConfigModel } = require("../modules/models.js")
+const { Common } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
-const { createRoutesFail } = require("./routesFail");
 const { customerWarningCallback } = require("../interceptor/customerWarning");
 const timerTask = require("./timer");
 const db = require('../config/db')
@@ -10,7 +8,6 @@ const Sequelize = db.sequelize;
 const ConfigTable = Sequelize.import('../schema/config');
 
 global.monitorInfo = {
-    webfunnyTokenList: [],
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
@@ -46,20 +43,6 @@ const handleResult = () => {
     createRoutes(router)
     // 启动定时任务, 如果是slave模式，则不启动定时器
     timerTask(customerWarningCallback, global.serverType)
-
-    // 定时同步登录信息, 同步验证码(频率：10s)
-    setInterval( async () => {
-        // 登录token同步
-        const webfunnyTokenList = global.monitorInfo.webfunnyTokenList
-        const userTokens = await UserTokenController.getAllTokens()
-        if (userTokens && userTokens.length) {
-            userTokens.forEach((item) => {
-                if (webfunnyTokenList.indexOf(item.accessToken) === -1) {
-                    global.monitorInfo.webfunnyTokenList.push(item.accessToken)
-                }
-            })
-        }
-    }, 5000)
 
     // 3秒后开始消费消息
     setTimeout(() => {

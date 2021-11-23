@@ -4,6 +4,7 @@ const util = require('util')
 const verify = jwt.verify
 const statusCode = require('../util/status-code')
 const ignorePaths = require('./ignorePathRes')
+const { UserTokenController } = require("../controllers/controllers.js")
 
 /**
  * 判断token是否可用
@@ -37,8 +38,9 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
-            // 第一步判断内存中是否有登录过的token, localhost不做内存里的登录态校验
-            if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
+            // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
+            const userTokenDetail = await UserTokenController.getUserTokenDetailByToken(token)
+            if (!userTokenDetail && ctx.header.host !== "localhost") {
                 ctx.response.status = 401;
                 ctx.body = statusCode.ERROR_401("用户未登录");
                 return
