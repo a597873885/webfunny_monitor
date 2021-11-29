@@ -1,1 +1,1 @@
-module.exports = ["/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register", "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/health"]
+module.exports = ["/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register", "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile", "/health"]

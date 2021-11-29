@@ -29,9 +29,9 @@ app.use(auth())
 // middlewares
 app.use(bodyParser({
     enableTypes: ['json', 'form', 'text'],
-    formLimit: "5mb",
-    jsonLimit: "5mb",
-    textLimit: "5mb"
+    formLimit: "50mb",
+    jsonLimit: "50mb",
+    textLimit: "50mb"
 }))
 
 // 防sql注入
