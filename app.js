@@ -11,7 +11,7 @@ const sqlCheck = require('./middlreware/sqlCheck')
 const app = WebSocket(new Koa())
 
 app.use(async (ctx, next) => {
-    ctx.set("Access-Control-Allow-Origin", ctx.header.origin)
+    ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
     ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code")
     ctx.set("Access-Control-Allow-Credentials", true)
