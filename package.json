@@ -1,6 +1,6 @@
 {
   "name": "webfunny_monitor",
-  "version": "3.0.18",
+  "version": "3.0.25",
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "amqplib": "^0.5.3",
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "connect": "^3.7.0",
     "crypto": "^1.0.1",
     "debug": "^2.6.3",

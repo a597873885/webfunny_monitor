@@ -2,7 +2,7 @@ const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoControlle
 
 
 const createRoutes = (router) => {
-   /**
+    /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -308,6 +308,8 @@ const createRoutes = (router) => {
     router.post('/getJavascriptErrorStackCodeForSource', JavascriptErrorInfoController.getJavascriptErrorStackCodeForSource);
     // 定位JS错误代码, url
     router.post('/getJavascriptErrorStackCodeForUrl', JavascriptErrorInfoController.getJavascriptErrorStackCodeForUrl);
+    // 开始启动源码定位
+    router.post('/startAnalysisSourceCode', JavascriptErrorInfoController.startAnalysisSourceCode);
     // 上传map文件
     router.post('/uploadMapFile', JavascriptErrorInfoController.uploadMapFile);
     /**

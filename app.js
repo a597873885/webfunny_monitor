@@ -11,7 +11,7 @@ const sqlCheck = require('./middlreware/sqlCheck')
 const app = WebSocket(new Koa())
 
 app.use(async (ctx, next) => {
-    ctx.set("Access-Control-Allow-Origin", ctx.header.origin)
+    ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
     ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code")
     ctx.set("Access-Control-Allow-Credentials", true)
@@ -29,9 +29,9 @@ app.use(auth())
 // middlewares
 app.use(bodyParser({
     enableTypes: ['json', 'form', 'text'],
-    formLimit: "5mb",
-    jsonLimit: "5mb",
-    textLimit: "5mb"
+    formLimit: "50mb",
+    jsonLimit: "50mb",
+    textLimit: "50mb"
 }))
 
 // 防sql注入
