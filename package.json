@@ -52,7 +52,7 @@
     "koa-views": "^5.2.1",
     "koa-websocket": "^6.0.0",
     "koa2-cors": "^2.0.6",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "lz-string": "^1.4.4",
     "mysql": "^2.15.0",
     "mysql2": "^2.1.0",
