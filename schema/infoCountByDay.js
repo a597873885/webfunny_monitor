@@ -19,6 +19,12 @@ const InfoCountByHour = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'webMonitorId'
     },
+    // 版本号
+    projectVersion: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'projectVersion'
+    },
     // 每天的名称 2019-06-28
     dayName: {
       type: DataTypes.STRING(10),

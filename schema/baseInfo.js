@@ -19,6 +19,12 @@ module.exports = (DataTypes) => {
       allowNull: true,
       field: 'happenDate'
     },
+    // 发生时间小时字符串
+    happenHour: {
+      type: DataTypes.STRING(13),
+      allowNull: true,
+      field: 'happenHour'
+    },
     // 监控ID
     webMonitorId: {
       type: DataTypes.STRING(36),
@@ -48,6 +54,12 @@ module.exports = (DataTypes) => {
       type: DataTypes.STRING(100),
       allowNull: true,
       field: 'userId'
+    },
+    // 项目版本号
+    projectVersion: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'projectVersion'
     },
     // 自定义用户参数1
     firstUserParam: {

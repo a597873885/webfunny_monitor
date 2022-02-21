@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -55,6 +55,11 @@ const createRoutes = (router) => {
     router.post('/activeRegisterMember', UserController.activeRegisterMember);
     // 删除用户
     router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
+
+    // 将用户设置为管理员
+    router.post('/setAdmin', UserController.setAdmin);
+    // 将超级管理员移交给其他人
+    router.post('/resetSuperAdmin', UserController.resetSuperAdmin);
     
 
     // 新增消息
@@ -93,8 +98,14 @@ const createRoutes = (router) => {
     router.post('/deleteTeam', TeamController.deleteTeam);
     router.post('/moveProToTeam', TeamController.moveProToTeam)
     router.post('/updateTeamProjects', TeamController.updateTeamProjects)
+    // 获取团队下的成员
+    router.post("/getTeamMembersByWebMonitorId", TeamController.getTeamMembersByWebMonitorId)
     // 获取所有团队列表
     router.post("/getAllTeamList", TeamController.getAllTeamList)
+    // 将团长移交给其他人
+    router.post("/resetTeamLeader", TeamController.resetTeamLeader)
+    
+
     // 更新监控系统
     router.post('/upgradeSystem', Common.upgradeSystem);
     
@@ -269,6 +280,8 @@ const createRoutes = (router) => {
     router.get('/javascriptErrorInfo/:id', JavascriptErrorInfoController.detail);
     // 删除JS错误
     router.delete('/javascriptErrorInfo/:id', JavascriptErrorInfoController.delete);
+    // 根据message删除JS错误
+    router.delete('/javascriptErrorInfo/:id', JavascriptErrorInfoController.delete);
     // 更改JS错误
     router.put('/javascriptErrorInfo/:id', JavascriptErrorInfoController.update);
     // 获取每分钟的js错误量
@@ -280,15 +293,19 @@ const createRoutes = (router) => {
     // 查询一个天内每小时的错误量
     router.get('/getJavascriptErrorInfoListByHour', JavascriptErrorInfoController.getJavascriptErrorInfoListByHour);
     // 查询一个天内某个错误每小时的错误量
-    router.get('/getJavascriptErrorCountListByHour', JavascriptErrorInfoController.getJavascriptErrorCountListByHour);
+    router.post('/getJavascriptErrorCountListByHour', JavascriptErrorInfoController.getJavascriptErrorCountListByHour);
     // 查询一个天内某个错误每小时的错误量
     router.get('/getJsErrorCountByHour', JavascriptErrorInfoController.getJsErrorCountByHour);
     // 查询一个天内每小时的自定义错误量
     router.get('/getJavascriptConsoleErrorInfoListByHour', JavascriptErrorInfoController.getJavascriptConsoleErrorInfoListByHour);
     // 根据JS错误数量进行分类排序
     router.post('/getJavascriptErrorSort', JavascriptErrorInfoController.getJavascriptErrorSort);
+    // 根据JS错误数量进行分类排序
+    router.post('/getJsErrorSort', JavascriptErrorInfoController.getJsErrorSort);
     // 根据JS错误获取相关信息
     router.post('/getJavascriptErrorSortInfo', JavascriptErrorInfoController.getJavascriptErrorSortInfo);
+    // 根据JS错误获取相关信息
+    router.post('/getJsErrorSortInfo', JavascriptErrorInfoController.getJsErrorSortInfo);
     router.post('/getConsoleErrorSort', JavascriptErrorInfoController.getConsoleErrorSort);
     // 获取最近24小时内，js错误发生数量
     router.get('/getJavascriptErrorCountByHour', JavascriptErrorInfoController.getJavascriptErrorCountByHour);
@@ -298,8 +315,10 @@ const createRoutes = (router) => {
     router.get('/getJavascriptErrorCountByType', JavascriptErrorInfoController.getJavascriptErrorCountByType);
     // 根据ErrorMsg获取js错误列表
     router.post('/getJavascriptErrorListByMsg', JavascriptErrorInfoController.getJavascriptErrorListByMsg);
-    // 根据ErrorMsg获取js错误列表
+    // 根据ErrorMsg获取js相关信息
     router.post('/getJavascriptErrorAboutInfo', JavascriptErrorInfoController.getJavascriptErrorAboutInfo);
+    // 根据ErrorMsg获取js相关信息
+    router.post('/getJsErrorAboutInfo', JavascriptErrorInfoController.getJsErrorAboutInfo);
     // 根据页面获取js错误列表
     router.get('/getJavascriptErrorListByPage', JavascriptErrorInfoController.getJavascriptErrorListByPage);
     // 定位JS错误代码
@@ -312,6 +331,18 @@ const createRoutes = (router) => {
     router.post('/startAnalysisSourceCode', JavascriptErrorInfoController.startAnalysisSourceCode);
     // 上传map文件
     router.post('/uploadMapFile', JavascriptErrorInfoController.uploadMapFile);
+
+
+    /**
+     * JS错误处理接口
+     */
+    // 创建JS错误处理信息
+    router.post('/createJsErrorHandleList', JsErrorHandleListController.create);
+    // 解决JS错误
+    router.post('/resolveJsErrorInHandleList', JsErrorHandleListController.resolveJsErrorInHandleList);
+    // 根据errorMessage判断解决状态
+    router.post('/getSolveStatusByErrorMsg', JsErrorHandleListController.getSolveStatusByErrorMsg);
+
     /**
      * JS错误信息截屏接口
      */
