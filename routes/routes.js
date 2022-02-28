@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController, CommonTableController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -34,6 +34,8 @@ const createRoutes = (router) => {
     router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+    // 获取用户信息
+    router.post('/getUserInfo', UserController.getUserInfo);
     // 获取简单的用户信息列表
     router.post('/getAllUserInfoForSimple', UserController.getAllUserInfoForSimple);
     // 管理员获取用户列表
@@ -569,6 +571,15 @@ const createRoutes = (router) => {
      * 获取所有数据库表名
      */
     router.get('/getAllTableList', Common.getAllTableList);
+
+    /**
+     * 查询表名
+     */
+    router.post('/getTableList', CommonTableController.getTableList);
+    /**
+     * drop 表结构
+     */
+    router.post('/dropTable', CommonTableController.dropTable);
 }
 
 module.exports = {
