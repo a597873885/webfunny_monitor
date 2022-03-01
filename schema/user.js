@@ -46,6 +46,12 @@ const User = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'password'
     },
+    // 头像
+    avatar: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'avatar'
+    },
     // 人员分组的ID，权限控制
     groupId: {
       type: DataTypes.STRING(100),

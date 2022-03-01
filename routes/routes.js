@@ -127,6 +127,8 @@ const createRoutes = (router) => {
     router.get('/webMonitorIdList', ProjectController.getWebMonitorIdList);
     // 获取应用详情
     router.get('/project/detail', ProjectController.getProjectDetail);
+    // 获取应用简单详情
+    router.get('/project/simpleDetail', ProjectController.getProjectSimpleDetail);
     // 更新启动列表
     router.get('/project/updateStartList', ProjectController.updateStartList);
     // 更新探针代码
@@ -333,6 +335,11 @@ const createRoutes = (router) => {
     router.post('/startAnalysisSourceCode', JavascriptErrorInfoController.startAnalysisSourceCode);
     // 上传map文件
     router.post('/uploadMapFile', JavascriptErrorInfoController.uploadMapFile);
+    // 根据版本号获取JS错误数量
+    router.post('/getJsErrorCountByVersion', JavascriptErrorInfoController.getJsErrorCountByVersion);
+    // 根据版本号获取JS错误数量,的相关详情
+    router.post('/getJsErrorVersionSortInfo', JavascriptErrorInfoController.getJsErrorVersionSortInfo);
+
 
 
     /**
