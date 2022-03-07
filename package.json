@@ -11,8 +11,7 @@
     "prd": "node config_db_local.js && node config.js && pm2 flush && pm2 start bin/webfunny.js && pm2 log webfunny",
     "restart": "pm2 flush && pm2 stop webfunny | pm2 delete webfunny | npm run prd",
     "prd_restart": "pm2 restart webfunny && pm2 flush",
-    "table_config": "node table_config.js 2 && npm run table_create",
-    "table_create": "table_create_command"
+    "table_config": "node table_config.js"
   },
   "repository": {
     "type": "git",

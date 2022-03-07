@@ -114,9 +114,13 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                     if (minuteTimeStr == "51:00") {
                         Common.pm2Flush()
                     }
-                    // 凌晨0点01分开始创建第二天的数据库表
+                    // 凌晨0点01分开始创建当天的数据库表
                     if (hourTimeStr == "00:00:01") {
-                        Common.createTable()
+                        Common.createTable(0)
+                    } 
+                    // 凌晨0点10分开始创建第二天的数据库表
+                    if (hourTimeStr == "00:10:01") {
+                        Common.createTable(1)
                     } 
                     // 凌晨2点开始删除过期的数据库表
                     if (hourTimeStr == "02:00:00") {

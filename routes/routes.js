@@ -587,6 +587,10 @@ const createRoutes = (router) => {
      * drop 表结构
      */
     router.post('/dropTable', CommonTableController.dropTable);
+    /**
+     * drop 表结构
+     */
+    router.post('/createLogTable', CommonTableController.createLogTable);
 }
 
 module.exports = {
