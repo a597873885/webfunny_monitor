@@ -1,6 +1,6 @@
 {
   "name": "webfunny_monitor",
-  "version": "3.0.37",
+  "version": "3.0.39",
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
