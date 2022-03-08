@@ -44,6 +44,8 @@ const createRoutes = (router) => {
     router.post('/forgetPwd', UserController.forgetPwd);
     // 发送注册验证码
     router.post('/sendRegisterEmail', UserController.sendRegisterEmail);
+    // 超级管理员获取注册验证码
+    router.post('/getRegisterEmailForSupperAdmin', UserController.getRegisterEmailForSupperAdmin);
     // 给管理员发送确认邮件
     router.post('/registerCheck', UserController.registerCheck);
     // 管理员注册接口
@@ -588,9 +590,13 @@ const createRoutes = (router) => {
      */
     router.post('/dropTable', CommonTableController.dropTable);
     /**
-     * drop 表结构
+     * create表结构
      */
     router.post('/createLogTable', CommonTableController.createLogTable);
+    /**
+     * 更新表结构
+     */
+    router.post('/updateTableBySql', CommonTableController.updateTableBySql);
 }
 
 module.exports = {
