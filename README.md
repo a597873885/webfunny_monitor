@@ -38,6 +38,10 @@
    微信号：webfunny_2020
 
    <img width=150 src="http://www.webfunny.cn/src/assets/img/wx_add.jpeg"/>
+   
+### Webfunny技术交流群
+
+   <img width=150 src="https://webfunny.cn/resource/wxq.jpeg"/>
 
 ### 压力测试
 
