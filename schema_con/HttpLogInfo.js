@@ -50,6 +50,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'statusResult'
     },
+    // 接口请求头
+    headerText: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'headerText'
+    },
     // 接口请求的参数
     requestText: {
       type: DataTypes.TEXT,

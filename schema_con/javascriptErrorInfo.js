@@ -68,6 +68,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'infoType'
     },
+    // JS报错的简易
+    simpleErrorMessage: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'simpleErrorMessage'
+    },
     // JS报错信息
     errorMessage: {
       type: DataTypes.TEXT,
@@ -130,11 +136,11 @@ const getTableProperty = (DataTypes) => {
         ]
       },
       {
-        name: "happenTimeIndex",
+        name: "simpleErrorMessageIndex",
         method: "BTREE",
         fields: [
           {
-            attribute: "happenTime"
+            attribute: "simpleErrorMessage"
           }
         ]
       },

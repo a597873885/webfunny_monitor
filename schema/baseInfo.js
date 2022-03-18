@@ -21,9 +21,15 @@ module.exports = (DataTypes) => {
     },
     // 发生时间小时字符串
     happenHour: {
-      type: DataTypes.STRING(13),
+      type: DataTypes.STRING(2),
       allowNull: true,
       field: 'happenHour'
+    },
+    // 发生时间的当前分钟数
+    happenMinute: {
+      type: DataTypes.STRING(2),
+      allowNull: true,
+      field: 'happenMinute'
     },
     // 监控ID
     webMonitorId: {
