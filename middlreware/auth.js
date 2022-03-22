@@ -20,6 +20,7 @@ module.exports = function () {
             url.indexOf("upDLog") === -1 &&
             url.indexOf("upMog") === -1 &&
             url.indexOf("upBp") === -1 &&
+            url.indexOf("exportUvCountForMonth") === -1 &&
             url.indexOf("uploadExtendLog") === -1)) {
             await next();
             return
