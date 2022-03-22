@@ -27,7 +27,7 @@ const DeviceInfoCountByHour = function (sequelize, DataTypes) {
     },
     // 每个小时的名称 06-28 22
     hourName: {
-      type: DataTypes.STRING(8),
+      type: DataTypes.STRING(20),
       allowNull: true,
       field: 'hourName'
     },
