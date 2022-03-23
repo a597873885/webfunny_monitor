@@ -6,6 +6,11 @@ const UPLOAD_TYPE = {
     NEW_CUSTOMER: "new_customer",
     INSTALL_COUNT: "install_count",
 
+    ON_ERROR_PER: "on_error_per",  // Js错误率
+    CONSOLE_ERROR_PER: "console_error_per", // 自定义异常错误率
+    RESOURCE_ERROR_PER: "resource_error_per", // 静态资源错误率
+    HTTP_ERROR_PER: "http_error_per", // 接口错误率
+
     UV: "uv",
     PV: "pv",
 
