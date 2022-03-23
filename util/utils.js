@@ -3,7 +3,7 @@ const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
-const nodemailer = require('nodemailer')
+const getmac = require('getmac')
 const timeout = 300000
 const Utils = {
   isArray(object) {
@@ -17,6 +17,15 @@ const Utils = {
       var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
       return v.toString(16);
     });
+  },
+  getMac: function() {
+    let macAddress = ""
+    try {
+      macAddress = getmac.default()
+    } catch(e) {
+      macAddress = "unknown"
+    }
+    return macAddress
   },
   handleDateResult: function(result, scope = 30, endDate = new Date().Format("yyyy-MM-dd 00:00:00")) {
     function addDate(date, days) {
