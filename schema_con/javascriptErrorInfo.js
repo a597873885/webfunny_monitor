@@ -70,7 +70,7 @@ const getTableProperty = (DataTypes) => {
     },
     // JS报错的简易信息
     simpleErrorMessage: {
-      type: DataTypes.STRING(500),
+      type: DataTypes.STRING.BINARY,
       allowNull: true,
       field: 'simpleErrorMessage'
     },
