@@ -37,9 +37,9 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'stayTime'
     },
-    // 离开类型(是否访问单页就离开了)
+    // 离开类型(是否访问单页就离开了, 1 仅浏览一个页面就离开了，2 浏览多个页面后离开)
     leaveType: {
-      type: DataTypes.STRING(10),
+      type: DataTypes.INTEGER,
       allowNull: true,
       field: 'leaveType'
     },

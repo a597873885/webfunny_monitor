@@ -8,12 +8,6 @@ const getTableProperty = (DataTypes) => {
       allowNull: false,
       autoIncrement: true,
     },
-    // 项目版本号
-    projectVersion: {
-      type: DataTypes.STRING(36),
-      allowNull: true,
-      field: 'projectVersion'
-    },
     // 用户标识ID
     pageKey: {
       type: DataTypes.STRING(50),

@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController, CommonTableController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController, HttpErrorHandleListController, CommonTableController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -161,6 +161,8 @@ const createRoutes = (router) => {
     router.post('/saveAlarmInfo', ProjectController.saveAlarmInfo)
     // 设置webHook
     router.post('/setWebHook', ProjectController.setWebHook);
+    // 设置观察者
+    router.post('/addViewers', ProjectController.addViewers);
     /**
      * 用户访问信息接口
      */
@@ -176,6 +178,8 @@ const createRoutes = (router) => {
     // router.put('/customerPV/:id', CustomerPVController.update);
     // 获取一个月内，每天的uv数量
     router.post('/uvCountForMonth', CustomerPVController.uvCountForMonth);
+    // 导出一个月内，每天的uv数量
+    router.get('/exportUvCountForMonth', CustomerPVController.exportUvCountForMonth);
     // 获取每天的流量数据 
     router.post('/getTodayFlowDataByTenMin', CustomerPVController.getTodayFlowDataByTenMin);
     // 立即刷新每天的流量数据 
@@ -292,6 +296,8 @@ const createRoutes = (router) => {
     router.put('/javascriptErrorInfo/:id', JavascriptErrorInfoController.update);
     // 获取每分钟的js错误量
     router.post('/getJavascriptErrorCountByMinute', JavascriptErrorInfoController.getJavascriptErrorCountByMinute);
+    // 获取每分钟的js错误量
+    router.post('/getJsErrorTypeCountByMinute', JavascriptErrorInfoController.getJsErrorTypeCountByMinute);
     // 查询一个月内每天的错误总量
     router.get('/getJavascriptErrorInfoListByDay', JavascriptErrorInfoController.getJavascriptErrorInfoListByDay);
     // 查询一个月内每天自定义的错误总量
@@ -300,6 +306,8 @@ const createRoutes = (router) => {
     router.get('/getJavascriptErrorInfoListByHour', JavascriptErrorInfoController.getJavascriptErrorInfoListByHour);
     // 查询一个天内某个错误每小时的错误量
     router.post('/getJavascriptErrorCountListByHour', JavascriptErrorInfoController.getJavascriptErrorCountListByHour);
+    // 查询一个天内某个错误每小时的错误量
+    router.post('/getJsErrorCountListByHour', JavascriptErrorInfoController.getJsErrorCountListByHour);
     // 查询一个天内某个错误每小时的错误量
     router.get('/getJsErrorCountByHour', JavascriptErrorInfoController.getJsErrorCountByHour);
     // 查询一个天内每小时的自定义错误量
@@ -353,6 +361,16 @@ const createRoutes = (router) => {
     router.post('/resolveJsErrorInHandleList', JsErrorHandleListController.resolveJsErrorInHandleList);
     // 根据errorMessage判断解决状态
     router.post('/getSolveStatusByErrorMsg', JsErrorHandleListController.getSolveStatusByErrorMsg);
+
+    /**
+     * API接口错误处理接口
+     */
+    // 创建API接口错误处理信息
+    router.post('/createHttpErrorHandleList', HttpErrorHandleListController.create);
+    // 解决api接口错误
+    router.post('/resolveHttpErrorInHandleList', HttpErrorHandleListController.resolveHttpErrorInHandleList);
+    // 根据simpleHttpUrl判断解决状态
+    router.post('/getSolveStatusBySimpleHttpUrl', HttpErrorHandleListController.getSolveStatusBySimpleHttpUrl);
 
     /**
      * JS错误信息截屏接口
@@ -463,6 +481,20 @@ const createRoutes = (router) => {
     router.get('/getHttpErrorCountByDay', HttpErrorInfoController.getHttpErrorCountByDay);
     // 获取每天的出错的接口请求列表
     router.post('/getHttpErrorListByDay', HttpErrorInfoController.getHttpErrorListByDay);
+    // 获取每天的出错的ErrorCode数量
+    router.post('/getStatusListGroupByErrorCode', HttpErrorInfoController.getStatusListGroupByErrorCode);
+    // 获取每天的出错的HttpUrl列表
+    router.post('/getHttpErrorSort', HttpErrorInfoController.getHttpErrorSort);
+    // 获取httpError详情
+    router.post('/getHttpErrorSortInfo', HttpErrorInfoController.getHttpErrorSortInfo);
+    // 根据版本号获取Http错误数量
+    router.post('/getHttpErrorCountByVersion', HttpErrorInfoController.getHttpErrorCountByVersion);
+    // 根据版本号获取HTTP错误数量,的相关详情
+    router.post('/getHttpErrorVersionSortInfo', HttpErrorInfoController.getHttpErrorVersionSortInfo);
+    // // 根据版本号获取JS错误数量
+    // router.post('/getJsErrorCountByVersion', JavascriptErrorInfoController.getJsErrorCountByVersion);
+    // // 根据版本号获取JS错误数量,的相关详情
+    // router.post('/getJsErrorVersionSortInfo', JavascriptErrorInfoController.getJsErrorVersionSortInfo);
     // 根据url获取的出错的接口请求列表
     router.post('/getHttpErrorListByUrl', HttpErrorInfoController.getHttpErrorListByUrl);
 

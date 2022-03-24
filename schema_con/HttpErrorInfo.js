@@ -22,7 +22,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 接口请求的简洁URL
     simpleHttpUrl: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(200),
       allowNull: true,
       field: 'simpleHttpUrl'
     },

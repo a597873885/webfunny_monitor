@@ -3,7 +3,7 @@ const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
-const nodemailer = require('nodemailer')
+const getmac = require('getmac')
 const timeout = 300000
 const Utils = {
   isArray(object) {
@@ -18,7 +18,16 @@ const Utils = {
       return v.toString(16);
     });
   },
-  handleDateResult: function(result, scope = 30) {
+  getMac: function() {
+    let macAddress = ""
+    try {
+      macAddress = getmac.default()
+    } catch(e) {
+      macAddress = "unknown"
+    }
+    return macAddress
+  },
+  handleDateResult: function(result, scope = 30, endDate = new Date().Format("yyyy-MM-dd 00:00:00")) {
     function addDate(date, days) {
       var d=new Date(date);
       d.setDate(d.getDate()+days);
@@ -31,8 +40,8 @@ const Utils = {
     }
     var newResult = [];
     for (var i = 0; i < scope; i ++) {
-      var tempDate = addDate(new Date(), -i);
-      var tempObj = {day: tempDate.substring(5, 10), count: 0, loadTime: 0};
+      var tempDate = addDate(new Date(endDate), -i);
+      var tempObj = {day: tempDate.substring(5, 10), count: 0, loadTime: 0, date: tempDate};
       for (var j = 0; j < result.length; j ++) {
         if (tempDate === result[j].day) {
           tempObj.count = result[j].count;
@@ -43,6 +52,59 @@ const Utils = {
       newResult.push(tempObj);
     }
     return newResult.reverse();
+  },
+  handleHourResult: function(result, day = 0) {
+    const dayStr = Utils.addDays(0 - day).substring(5)
+    const newResult = []
+    for (let i = 0; i < 24; i ++) {
+      let hourStr = ""
+      if (i < 10) {
+        hourStr = "0" + i
+      } else {
+        hourStr = "" + i
+      }
+      const tempHour = dayStr + " " + hourStr
+      const resArray = result.filter((item) => {
+        return item.hour === tempHour
+      })
+      if (resArray.length && tempHour === resArray[0].hour) {
+        const hourStr = resArray[0].hour.split(" ")[1] + ":00"
+        newResult.push({
+          hour: hourStr,
+          count: resArray[0].count
+        })
+      } else {
+        const hourStr = tempHour.split(" ")[1] + ":00"
+        newResult.push({
+          hour: hourStr,
+          count: 0
+        })
+      }
+    }
+    
+    return newResult
+  },
+  handleMinuteResult: function(result, hourName) {
+    const newResult = []
+    for (let i = 0; i < 60; i ++) {
+      const tempMinute = hourName + ":" + (i < 10 ? "0" + i : i + "")
+      const resArray = result.filter((item) => {
+        return item.minutes === tempMinute
+      })
+      if (resArray.length && tempMinute === resArray[0].minutes) {
+        newResult.push({
+          minutes: resArray[0].minutes.substring(11, 16),
+          count: resArray[0].count
+        })
+      } else {
+        newResult.push({
+          minutes: tempMinute.substring(11, 16),
+          count: 0
+        })
+      }
+    }
+    
+    return newResult
   },
   addDays: function(dayIn) {
     var CurrentDate
@@ -417,23 +479,23 @@ const Utils = {
   /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
-  sendEmail: (email, subject, html, user, pass) => {
-    const company = "webfunny.cn"
-    let transporter = nodemailer.createTransport({
-      host: "smtp.163.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
-      auth: { user,pass }
-    });
-    // send mail with defined transport object
-    transporter.sendMail({
-      from: "'" + company + "' <" + user + ">", // sender address
-      to: email, // list of receivers
-      subject: subject, // Subject line
-      text: html, // plain text body
-      html: html // html body
-    });
-  },
+  // sendEmail: (email, subject, html, user, pass) => {
+  //   const company = "webfunny.cn"
+  //   let transporter = nodemailer.createTransport({
+  //     host: "smtp.163.com",
+  //     port: 465,
+  //     secure: true, // true for 465, false for other ports
+  //     auth: { user,pass }
+  //   });
+  //   // send mail with defined transport object
+  //   transporter.sendMail({
+  //     from: "'" + company + "' <" + user + ">", // sender address
+  //     to: email, // list of receivers
+  //     subject: subject, // Subject line
+  //     text: html, // plain text body
+  //     html: html // html body
+  //   });
+  // },
   getUuid() {
     return uuid.v1()
   },
