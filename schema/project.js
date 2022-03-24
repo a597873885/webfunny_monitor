@@ -70,6 +70,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'startList'
     },
+    // 查看者列表
+    viewers: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'viewers'
+    },
     // 监控代码
     monitorCode: {
       type: DataTypes.TEXT,
