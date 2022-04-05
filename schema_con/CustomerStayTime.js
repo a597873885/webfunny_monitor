@@ -37,6 +37,24 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'stayTime'
     },
+    // 停留时间范围
+    stayScope: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'stayScope'
+    },
+    // 活跃时间(单位：秒)
+    activeTime: {
+      type: DataTypes.BIGINT,
+      allowNull: true,
+      field: 'activeTime'
+    },
+    // 活跃时间范围
+    activeScope: {
+      type: DataTypes.STRING(10),
+      allowNull: true,
+      field: 'activeScope'
+    },
     // 离开类型(是否访问单页就离开了, 1 仅浏览一个页面就离开了，2 浏览多个页面后离开)
     leaveType: {
       type: DataTypes.INTEGER,
