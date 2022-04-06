@@ -18,7 +18,7 @@ const Config = function (sequelize, DataTypes) {
     },
     // accessToken
     accessToken: {
-      type: DataTypes.STRING(500),
+      type: DataTypes.TEXT,
       allowNull: true,
       field: 'accessToken'
     },
