@@ -93,8 +93,16 @@ const UPLOAD_TYPE = {
     REFERRER_COUNT_DAY: "referrer_count_day",  // 一天的来源URL数量
     SIMPLE_URL_COUNT_DAY: "sim_url_count_day",  // 一天的SimpleUrl数量
 
-    STAY_TIME_FOR_HOUR: "s_t_f_h",  // 每小时的平均停留时间
-    STAY_TIME_FOR_DAY: "s_t_f_d",   // 每天的平均停留时间
+    TOTAL_STAY_TIME_FOR_HOUR: "totalStayTimeForHour",  // 每小时的总停留时间
+    TOTAL_ACTIVE_TIME_FOR_HOUR: "totalActiveTimeForHour",  // 每小时的总活跃时间
+    ACTIVE_TIME_FOR_HOUR: "stayTimeForHour",  // 每小时的平均活跃时间
+    STAY_TIME_FOR_HOUR: "activeTimeForHour",  // 每小时的平均停留时间
+
+    TOTAL_STAY_TIME_FOR_DAY: "totalStayTimeForDay",  // 每天的总停留时间
+    TOTAL_ACTIVE_TIME_FOR_DAY: "totalActiveTimeForDay",  // 每天的总活跃时间
+    ACTIVE_TIME_FOR_DAY: "stayTimeForDay",  // 每天的平均活跃时间
+    STAY_TIME_FOR_DAY: "activeTimeForDay",  // 每天的平均停留时间
+
 
     CUS_LEAVE_FOR_HOUR: "cus_leave_for_hour",  // 每小时的跳出率
     CUS_LEAVE_FOR_DAY: "cus_leave_for_day",   // 每天的跳出率

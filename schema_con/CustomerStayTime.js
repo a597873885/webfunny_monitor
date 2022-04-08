@@ -31,6 +31,12 @@ const getTableProperty = (DataTypes) => {
         allowNull: true,
         field: 'simpleUrl'
     },
+    // 是否在当前小时内发生(因为停留时间，有可能会跨小时)，0 不在当前小时内，1 在当前小时
+    currentHour: {
+      type: DataTypes.STRING(2),
+      allowNull: true,
+      field: 'currentHour'
+    },
     // 停留时间(单位：秒)
     stayTime: {
       type: DataTypes.BIGINT,
