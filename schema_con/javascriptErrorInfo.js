@@ -100,15 +100,6 @@ const getTableProperty = (DataTypes) => {
     freezeTableName: true,
     indexes: [
       {
-        name: "userIdIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "userId"
-          }
-        ]
-      },
-      {
         name: "customerKeyIndex",
         method: "BTREE",
         fields: [
@@ -123,15 +114,6 @@ const getTableProperty = (DataTypes) => {
         fields: [
           {
             attribute: "infoType"
-          }
-        ]
-      },
-      {
-        name: "createdAtIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "createdAt"
           }
         ]
       },

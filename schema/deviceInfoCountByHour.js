@@ -54,6 +54,15 @@ const DeviceInfoCountByHour = function (sequelize, DataTypes) {
             attribute: "uploadType"
           }
         ]
+      },
+      {
+        name: "hourNameIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "hourName"
+          }
+        ]
       }
     ]
   })

@@ -44,6 +44,15 @@ const InfoCountByHour = function (sequelize, DataTypes) {
     freezeTableName: true,
     indexes: [
       {
+        name: "hourNameIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "hourName"
+          }
+        ]
+      },
+      {
         name: "webMonitorIdIndex",
         method: "BTREE",
         fields: [

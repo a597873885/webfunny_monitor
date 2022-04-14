@@ -103,6 +103,15 @@ const getTableProperty = (DataTypes) => {
         ]
       },
       {
+        name: "happenHourIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenHour"
+          }
+        ]
+      },
+      {
         name: "loadTimeIndex",
         method: "BTREE",
         fields: [
@@ -111,33 +120,6 @@ const getTableProperty = (DataTypes) => {
           }
         ]
       },
-      {
-        name: "createdAtIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "createdAt"
-          }
-        ]
-      },
-      {
-        name: "happenTimeIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "happenTime"
-          }
-        ]
-      },
-      {
-        name: "happenDateIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "happenDate"
-          }
-        ]
-      }
     ]
   }
   return {fields, fieldIndex}
