@@ -164,7 +164,16 @@ const getTableProperty = (DataTypes) => {
             attribute: "newStatus"
           }
         ]
-      }
+      },
+      {
+        name: "happenHourIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenHour"
+          }
+        ]
+      },
     ]
   }
   return {fields, fieldIndex}
