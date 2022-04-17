@@ -1,11 +1,13 @@
 
 const Sequelize = require('sequelize');
-const mysqlConfig = require("../bin/mysqlConfig")
-const {write, read} = mysqlConfig
+const { accountInfo } = require('./AccountConfig');
+
+const {write, read} = accountInfo.mysqlConfig;
 const replication = {
   read: read,
   write: { host: write.ip, username: write.userName, password: write.password }
 }
+
 const configList = {
   host: write.ip,
   port: write.port,
