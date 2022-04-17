@@ -15,6 +15,7 @@ dist
 .idea/
 .vscode/
 .history/
+.VSCodeCounter/
 logs/
 bin/*
 interceptor
