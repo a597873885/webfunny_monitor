@@ -25,5 +25,6 @@ webfunny/
 schema_temp/
 alarm/
 util_cus/
+docker_variable.json
 .eslintrc
 lib/*.map

@@ -1,15 +1,15 @@
 var path = require("path");
 const jsonfile = require('jsonfile');
 
-var basePath = path.resolve(__dirname, "../uniconf");
-const file = basePath + '/webfunny_monitor_config.json';
+var basePath = path.resolve(__dirname, "../");
+const file = basePath + '/docker_variable.json';
 var conf;
 if (conf == undefined || conf == null) {
     try {
         conf = jsonfile.readFileSync(file);
     } catch (error) {
         console.log('read json config err:', error);
-        throw new Error('解析配置文件webfunny_monitor_config.json失败')
+        throw new Error('解析配置文件docker_variable.json失败')
     }
 }
 
@@ -35,7 +35,7 @@ const writePurchaseCode = function(aPurchaseCode, aSecretCode) {
 // const { saveDays } = require("../bin/saveDays")
 // const stayTimeScope = require("../bin/stayTimeScope")
 // const mysqlConfig = require("../bin/mysqlConfig")
-const { purchaseCode, secretCode } = require("../bin/purchaseCode")
+// const { purchaseCode, secretCode } = require("../bin/purchaseCode")
 // const { messageQueue } = require("../bin/messageQueue")
 // const { openMonitor } = require("../bin/sysMonitor")
 // const httpReqRes = require("../bin/httpReqRes")
@@ -52,8 +52,8 @@ const accountInfo = {
 
     mainDomain: conf.domain.mainDomain,  // 主域名
 
-    purchaseCode: purchaseCode,                   // 激活码
-    secretCode: secretCode,                     // 解码
+    purchaseCode: conf.purchase.purchaseCode,                   // 激活码
+    secretCode: conf.purchase.secretCode,                     // 解码
     messageQueue: conf.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     openMonitor: conf.openMonitor,                    // 开启系统监控
 
