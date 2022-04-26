@@ -40,6 +40,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'userTag'
     },
+    // userIdType，用来计算UV信息的字段
+    userIdType: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'userIdType'
+    },
     // 关联警报ID
     alarmRuleId: {
       type: DataTypes.STRING(10),
