@@ -17,31 +17,6 @@ if (conf == undefined || conf == null) {
     throw new Error('配置不存在');
 }
 
-/*
-const writePurchaseCode = function(aPurchaseCode, aSecretCode) {
-    if (aPurchaseCode) {
-        conf.auth.purchaseCode = aPurchaseCode;
-    }
-    
-    if (aSecretCode) {
-        conf.auth.secretCode = aSecretCode;
-    }
-    jsonfile.writeFile(file,conf, function (err) {
-        if (err) console.error('写purchaseCode失败: ' + err)
-    });
-}
-*/
-
-// const { saveDays } = require("../bin/saveDays")
-// const stayTimeScope = require("../bin/stayTimeScope")
-// const mysqlConfig = require("../bin/mysqlConfig")
-// const { purchaseCode, secretCode } = require("../bin/purchaseCode")
-// const { messageQueue } = require("../bin/messageQueue")
-// const { openMonitor } = require("../bin/sysMonitor")
-// const httpReqRes = require("../bin/httpReqRes")
-// const { useCusEmailSys, emailUser, emailPassword } = require("../bin/useCusEmailSys")
-// const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, mainDomain } = require("../bin/domain")
-
 const accountInfo = {
 
     localServerDomain: conf.domain.localAssetsDomain,   // 日志服务域名 
@@ -66,8 +41,6 @@ const accountInfo = {
     useCusEmailSys: conf.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: conf.email.emailUser,
     emailPassword: conf.email.emailPassword,
-
-    httpReqRes: conf.httpReqRes,                     // 接口内容长度限制
 }
 
 module.exports = {

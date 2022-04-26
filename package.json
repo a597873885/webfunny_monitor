@@ -6,9 +6,9 @@
   "scripts": {
     "init": "node config_bin_init.js",
     "bootstrap": "node config_bin_init.js",
-    "slave": "node config_db_local.js && pm2 start bin/slave.js && pm2 log slave",
+    "slave": "node config_db_local.js && pm2 start config/slave.js && pm2 log slave",
     "reslave": "pm2 stop slave | pm2 delete slave | npm run slave",
-    "prd": "node config_db_local.js && node config.js && pm2 flush && pm2 start bin/webfunny.js && pm2 log webfunny",
+    "prd": "node config_db_local.js && node config.js && pm2 flush && pm2 start config/webfunny.js && pm2 log webfunny",
     "restart": "pm2 flush && pm2 stop webfunny | pm2 delete webfunny | npm run prd",
     "prd_restart": "pm2 restart webfunny && pm2 flush",
     "table_config": "node table_config.js"
