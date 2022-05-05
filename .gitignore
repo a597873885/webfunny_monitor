@@ -16,6 +16,7 @@ dist
 .vscode/
 .history/
 .VSCodeCounter/
+config_variable
 logs/
 bin/*
 interceptor
