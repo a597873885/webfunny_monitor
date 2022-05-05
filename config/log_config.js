@@ -24,13 +24,21 @@ log4js.configure({
       type: "dateFile", //日志类型
       filename: errorFilename, //日志输出位置
       alwaysIncludePattern: true, //是否总是有后缀名
-      pattern: "-yyyy-MM-dd.log" //后缀，每小时创建一个新的日志文件
+      pattern: "-yyyy-MM-dd.log", //后缀，每小时创建一个新的日志文件
+      //文件保留数量 
+      backups: 8,
+      //时间文件 保存多少天，以前的log将被删除
+      daysToKeep:8,
     },
     responseLog: {
       type: "dateFile",
       filename: resFilename,
       alwaysIncludePattern: true,
-      pattern: "-yyyy-MM-dd.log"
+      pattern: "-yyyy-MM-dd.log",
+      //文件保留数量 
+      backups: 8,
+      //时间文件 保存多少天，以前的log将被删除
+      daysToKeep:8,
     }
   },
   categories: {

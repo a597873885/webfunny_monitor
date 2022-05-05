@@ -124,6 +124,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'recordConfig'
     },
+    // 删除状态 0, 1代表删除状态
+    delStatus: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'delStatus'
+    },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE,
