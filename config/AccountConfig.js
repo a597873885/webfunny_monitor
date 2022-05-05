@@ -1,7 +1,7 @@
 var path = require("path");
 const jsonfile = require('jsonfile');
 
-var basePath = path.resolve(__dirname, "../docker_variable/");
+var basePath = path.resolve(__dirname, "../config_variable/");
 const file = basePath + '/config.json';
 var conf;
 if (conf == undefined || conf == null) {
@@ -9,7 +9,7 @@ if (conf == undefined || conf == null) {
         conf = jsonfile.readFileSync(file);
     } catch (error) {
         console.log('read json config err:', error);
-        throw new Error('解析配置文件docker_variable/config.json失败')
+        throw new Error('解析配置文件config_variable/config.json失败')
     }
 }
 
