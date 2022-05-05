@@ -351,7 +351,8 @@ var interceptorConArray = [
  const httpError = require('./config/httpError')
  const resourceError = require('./config/resourceError')
  const dingRobot = require("./config/dingRobot")
- const domain = require("../bin/domain")
+ const AccountConfig = require('../config/AccountConfig')
+ const { accountInfo } = AccountConfig
  const Utils = require('../util/utils')
  const customerWarningCallback = (warningInfoList) => {
     if (warningInfoList !== "undefined" && warningInfoList.length > 0) {
@@ -372,7 +373,7 @@ var interceptorConArray = [
             let warnMsg = ""
             if (jsErrorCount >= jsError.errorCount || jsErrorPercent >= jsError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/javascriptError.html"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config) // 钉钉机器人
@@ -381,7 +382,7 @@ var interceptorConArray = [
             }
             if (consoleErrorCount >= consoleError.errorCount || consoleErrorPercent >= consoleError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/javascriptError.html"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
@@ -390,7 +391,7 @@ var interceptorConArray = [
             }
             if (httpErrorCount >= httpError.errorCount || httpErrorPercent >= httpError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n接口报错率达到：" + httpErrorPercent + "%\\r\\n接口报错量达到：" + httpErrorCount + "\\r\\n 查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n接口报错率达到：" + httpErrorPercent + "%\\r\\n接口报错量达到：" + httpErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/httpError.html"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
@@ -399,7 +400,7 @@ var interceptorConArray = [
             }
             if (resourceErrorCount >= resourceError.errorCount || resourceErrorPercent >= resourceError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n静态资源错误率达到：" + resourceErrorPercent + "%\\r\\n静态资源错误量达到：" + resourceErrorCount + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/resourceError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n静态资源错误率达到：" + resourceErrorPercent + "%\\r\\n静态资源错误量达到：" + resourceErrorCount + "\\r\\n查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/resourceError.html"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
@@ -416,7 +417,8 @@ var interceptorConArray = [
  }`,
  `const Utils = require('../util/utils');
  const dingRobot = require("./config/dingRobot")
- const domain = require('../bin/domain')
+ const AccountConfig = require('../config/AccountConfig')
+ const { accountInfo } = AccountConfig
  /**
   * 这里是接口的拦截器的拦截器。
   * 每次上报接口日志，都会调用这个方法（可以处理报错，超时等等）
@@ -433,7 +435,7 @@ var interceptorConArray = [
              case 500:
              case 502:
                  const {url, config} = dingRobot
-                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n接口：" + simpleHttpUrl + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/httpError.html"
+                 config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个接口错误：\\r\\n状态：" + status + "\\r\\n接口：" + simpleHttpUrl + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/httpError.html"
                  Utils.postJson(url,config) // 通知机器人
 
                  // 如果需要其他通知方式，请在此完成报警逻辑
@@ -452,7 +454,8 @@ var interceptorConArray = [
  module.exports = handleResultWhenHttpRequest`,
  `const Utils = require('../util/utils');
  const dingRobot = require("./config/dingRobot")
- const domain = require('../bin/domain')
+ const AccountConfig = require('../config/AccountConfig')
+ const { accountInfo } = AccountConfig
  /**
   * 这里是js错误的拦截器。
   * 每次发生js报错，都会调用这个方法
@@ -483,7 +486,7 @@ var interceptorConArray = [
              case "ReferenceError":
              case "UncaughtInPromiseError":
                      const {url, config} = dingRobot
-                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + domain.localAssetsDomain + "/webfunny/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
+                     config.text.content = "您的前端项目（" + webMonitorId + "）发生了一个错误：\\r\\n类型：" + type + "\\r\\n信息：" + tempErrorMessage + "\\r\\n页面：" + simpleUrl + "\\r\\n查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/javascriptErrorDetail.html?infoType=" + infoType + "&timeType=0&errorMsg=" + errorMessage
                      Utils.postJson(url,config) // 通知机器人
 
                      // 如果需要其他通知方式，请在此完成报警逻辑
