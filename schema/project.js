@@ -124,6 +124,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'recordConfig'
     },
+    // 环境变量
+    env: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'env'
+    },
     // 删除状态 0, 1代表删除状态
     delStatus: {
       type: DataTypes.INTEGER,

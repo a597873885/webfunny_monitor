@@ -15,10 +15,17 @@ const createRoutes = (router) => {
     router.post('/upDLog', Common.upDLog);
     // 上传拓展日志
     router.post('/uploadExtendLog', Common.uploadExtendLog);
-
-
     // 拓展行为日志
     router.post('/extendBehavior', ExtendBehaviorInfoController.create);
+
+
+    /**
+     * 单点登录相关
+     */
+    // 检查token是否有效
+    router.post('/checkSsoToken', UserController.checkSsoToken);
+
+
 
     // 添加team
     router.post('/config', ConfigController.create);
@@ -28,6 +35,8 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // API登录
+    router.post('/loginForApi', UserController.loginForApi);
     // 重置验证码
     router.post('/refreshValidateCode', UserController.refreshValidateCode)
     // 获取验证码
@@ -53,6 +62,8 @@ const createRoutes = (router) => {
     
     // 注册用户
     router.get('/register', UserController.register);
+    // 注册用户API
+    router.post('/registerForApi', UserController.registerForApi);
     // 重置密码
     router.get('/resetPwd', UserController.resetPwd);
     // 激活用户
@@ -99,6 +110,7 @@ const createRoutes = (router) => {
     router.post("/getTeamList", TeamController.getTeamList)
     router.post("/addTeamMember", TeamController.addTeamMember)
     router.post("/createNewTeam", TeamController.createNewTeam)
+    router.post("/createNewTeamForApi", TeamController.createNewTeamForApi)
     router.post('/deleteTeam', TeamController.deleteTeam);
     router.post('/moveProToTeam', TeamController.moveProToTeam)
     router.post('/updateTeamProjects', TeamController.updateTeamProjects)
@@ -145,6 +157,8 @@ const createRoutes = (router) => {
     router.post('/project/getProjectInfoListInRealTime', ProjectController.getProjectInfoListInRealTime);
     // 创建新的监控项目
     router.post('/createNewProject', ProjectController.createNewProject);
+    // 创建新的监控项目API
+    router.post('/createNewProjectForApi', ProjectController.createNewProjectForApi);
     // 创建新的监控项目
     router.get('/checkProjectCount', ProjectController.checkProjectCount);
     // 获取userTags
