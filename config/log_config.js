@@ -28,13 +28,17 @@ log4js.configure({
       //文件保留数量 
       backups: 8,
       //时间文件 保存多少天，以前的log将被删除
-      daysToKeep:8,
+      numBackups:8,
     },
     responseLog: {
       type: "dateFile",
       filename: resFilename,
       alwaysIncludePattern: true,
       pattern: "-yyyy-MM-dd.log",
+      //文件保留数量 
+      backups: 8,
+      //时间文件 保存多少天，以前的log将被删除
+      numBackups:8,
     }
   },
   categories: {
