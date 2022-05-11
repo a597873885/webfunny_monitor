@@ -59,6 +59,7 @@
     "node-ip2region": "^1.0.2",
     "node-uuid": "^1.4.8",
     "node-xlsx": "^0.21.0",
+    "nodejs-base64": "^2.0.0",
     "nodemailer": "^6.2.1",
     "pug": "^3.0.2",
     "sequelize": "^5.19.6",
