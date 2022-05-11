@@ -3,6 +3,7 @@ const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
+const { base64encode, base64decode } = require('nodejs-base64');
 const getmac = require('getmac')
 const timeout = 300000
 const Utils = {
@@ -191,9 +192,10 @@ const Utils = {
   },
   b64EncodeUnicode: function(tempStr) {
     const str = encodeURIComponent(tempStr)
-    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
-      return String.fromCharCode("0x" + p1)
-    }))
+    // return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+    //   return String.fromCharCode("0x" + p1)
+    // }))
+    return base64encode(str)
   },
   b64DecodeUnicode: function(str) {
     try {
