@@ -12,8 +12,16 @@ const { UserTokenController } = require("../controllers/controllers.js")
 module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
-        const token = ctx.header['access-token']  // 获取jwt
+        const token = ctx.header['access-token'] || ""  // 获取jwt
         const { url } = ctx
+
+        // 如果是根跟路径，直接返回
+        if (!token && url === "/") {
+            ctx.response.status = 200;
+            ctx.body = {status: "OK"}
+            return
+        }
+
         // 如果是上报接口，直接通过
         if ( !(url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&
