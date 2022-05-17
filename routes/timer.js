@@ -118,8 +118,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                     if (hourTimeStr == "00:00:01") {
                         Common.createTable(0)
                     } 
-                    // 凌晨0点10分开始创建第二天的数据库表
-                    if (hourTimeStr == "00:10:01") {
+                    // 晚上11点55分开始创建第二天的数据库表
+                    if (hourTimeStr == "23:55:01") {
                         Common.createTable(1)
                     } 
                     // 凌晨2点开始删除过期的数据库表
@@ -127,9 +127,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                         Common.startDelete()
                     }
                     // 凌晨2点20分开始删除无效的数据库表
-                    if (hourTimeStr == "02:20:00") {
-                        Common.startClearInvalidTable()
-                    }
+                    // if (hourTimeStr == "02:20:00") {
+                    //     Common.startClearInvalidTable()
+                    // }
                 } catch(e) {
                     log.printError("定时器执行报错：", e)
                 }
