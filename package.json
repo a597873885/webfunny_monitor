@@ -4,6 +4,7 @@
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
+    "preinstall": "npx npm-client-limit npm",
     "bootstrap": "node config_bin_init.js",
     "slave": "node config_db_local.js && pm2 start config/slave.js && pm2 log slave",
     "reslave": "pm2 stop slave | pm2 delete slave | npm run slave",
