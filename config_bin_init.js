@@ -142,8 +142,14 @@ var alarmFileArray = [
       /**生成警报配置 */
       // 添加用户手机号
       users.forEach((user) => {
-          dingDing.config.at.atMobiles.push(user.phone)
-          weiXin.config.text.mentioned_mobile_list.push(user.phone)
+        const dingMobiles = dingDing.config.at.atMobiles
+        const weiXinMobiles = weiXin.config.text.mentioned_mobile_list
+        if (dingMobiles.indexOf(user.phone) === -1) {
+            dingMobiles.push(user.phone)
+        }
+        if (weiXinMobiles.indexOf(user.phone) === -1) {
+            weiXinMobiles.push(user.phone)
+        }
       })
       // 生成警报内容
       const contentStr = type + "警报！" +
