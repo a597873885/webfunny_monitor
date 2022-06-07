@@ -379,7 +379,7 @@ var interceptorConArray = [
             let warnMsg = ""
             if (jsErrorCount >= jsError.errorCount || jsErrorPercent >= jsError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\nJS错误率达到：" + jsErrorPercent + "%\\r\\nJS错误量达到：" + jsErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/jsError.html?activeTab=2"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config) // 钉钉机器人
@@ -388,7 +388,7 @@ var interceptorConArray = [
             }
             if (consoleErrorCount >= consoleError.errorCount || consoleErrorPercent >= consoleError.errorPercent) {
                 const {url, config} = dingRobot
-                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/javascriptError.html"
+                config.text.content = "您的前端项目（" + webMonitorId + "）\\r\\n时间：" + hour + "\\r\\n自定义异常率达到：" +consoleErrorPercent + "%\\r\\n自定义异常量达到：" +consoleErrorCount + "\\r\\n 查看详情：http://" + accountInfo.localAssetsDomain + "/webfunny/jsError.html?activeTab=2"
                 warnMsg = config.text.content
                 global.monitorInfo.warningMessageList.push({msg: warnMsg, time: new Date().Format("yyyy-MM-dd hh:mm:ss")})
                 Utils.postJson(url,config)  // 钉钉机器人
