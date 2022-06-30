@@ -132,7 +132,9 @@ const createRoutes = (router) => {
     // 添加应用
     router.post('/project', ProjectController.create);
     // 删除应用
-    router.get('/deleteProject', ProjectController.deleteProject);
+    router.get('/deleteProject', ProjectController.delete);
+    // 禁用项目
+    router.get('/forbiddenProject', ProjectController.forbiddenProject);
     // 获取应用详细信息
     router.get('/projectDetail', ProjectController.detail);
     // 获取应用列表

@@ -136,6 +136,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'delStatus'
     },
+    // 禁用时间
+    forbiddenTime: {
+      type: DataTypes.STRING(13),
+      allowNull: true,
+      field: 'forbiddenTime'
+    },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE,
