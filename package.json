@@ -26,6 +26,7 @@
     "amqplib": "^0.8.0",
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
     "compression": "^1.7.4",
     "connect": "^3.7.0",
     "crypto": "^1.0.1",
