@@ -169,6 +169,8 @@ const createRoutes = (router) => {
     router.post('/saveUserTags', ProjectController.saveUserTags)
     // 获取项目配置
     router.post('/getProjectConfig', ProjectController.getProjectConfig)
+    // 获取项目健康数量分类
+    router.post('/getProjectHealthByScore', ProjectController.getProjectHealthByScore)
     // 保存项目配置
     router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
     // 开启项目监控
@@ -620,6 +622,15 @@ const createRoutes = (router) => {
      * mysql状态
      */
     router.get('/mysqlStatus', Common.checkMysqlStatus);
+
+
+
+
+    /**
+     * 应用中心相关
+     */
+    // 获取应用项目的基础信息
+    router.post('/monitorBaseInfo', Common.monitorBaseInfo);
 
     
     /**

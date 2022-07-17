@@ -142,6 +142,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'forbiddenTime'
     },
+    // 健康分
+    healthScore: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+      field: 'healthScore'
+    },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE,

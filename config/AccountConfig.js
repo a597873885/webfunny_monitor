@@ -19,13 +19,16 @@ if (conf == undefined || conf == null) {
 
 const accountInfo = {
 
-    localServerDomain: conf.domain.localServerDomain,   // 日志服务域名 
-    localServerPort: conf.domain.localServerPort,     // 日志服务端口号
-
-    localAssetsDomain: conf.domain.localAssetsDomain,   // 数据可视化服务域名
-    localAssetsPort: conf.domain.localAssetsPort,     // 可视化系统端口号
-
+    localServerDomain: conf.domain.localServerDomain,   // 监控系统后端服务域名 
+    localServerPort: conf.domain.localServerPort,     // 监控系统后端服务端口号
+    localAssetsDomain: conf.domain.localAssetsDomain,   // 数据可视化系统域名
+    localAssetsPort: conf.domain.localAssetsPort,     // 数据可视化系统端口号
     mainDomain: conf.domain.mainDomain,  // 主域名
+
+    centerServerDomain: conf.centerDomain.localServerDomain,   // 控制台后端服务域名 
+    centerServerPort: conf.centerDomain.localServerPort,     // 控制台后端端口号
+    centerAssetsDomain: conf.centerDomain.localAssetsDomain,   // 数据可视化服务域名
+    centerAssetsPort: conf.centerDomain.localAssetsPort,     // 可视化系统端口号
 
     purchaseCode: conf.purchase.purchaseCode,                   // 激活码
     secretCode: conf.purchase.secretCode,                     // 解码

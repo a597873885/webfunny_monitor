@@ -1,66 +1,97 @@
 var fs = require('fs');
+const fetch = require('node-fetch')
 
 // 初始化bin目录
-var pathArray = ["./config_variable/config.json",]
-var fileArray = [
-    `{
-      "purchase": {
-        "purchaseCode": "",
-        "secretCode": ""
-      },
-      "domain": {
-        "localServerDomain": "localhost:8011",
-        "localAssetsDomain": "localhost:8010",
-        "localServerPort": "8011",
-        "localAssetsPort": "8010",
-        "mainDomain": ""
-      },
-      "mysqlConfig": {
-          "write": {
-            "ip": "localhost",
-            "port": "3306",
-            "dataBaseName": "webfunny_db",
-            "userName": "root",
-            "password": "123456"
+const setVariableInfo = (databaseInfo) => {
+  const variableJsonPath = "./config_variable/config.json"
+  fs.readFile(variableJsonPath, "", (err) => {
+    if (err) {
+        console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
+        var variableJsonFile = `{
+          "purchase": {
+            "purchaseCode": "",
+            "secretCode": ""
           },
-          "read": []
-      },
-      "email": {
-        "useCusEmailSys": false,
-        "emailUser": "",
-        "emailPassword": ""
-      },
-      "messageQueue": false,
-      "openMonitor": true,
-      "logSaveDays": 8,
-      "business": {
-        "userStayTimeScope": {
-          "min": 100,
-          "max": 100000
-        }
-      }
-    }`
-]
+          "domain": {
+            "localAssetsDomain": "localhost:8010",
+            "localServerDomain": "localhost:8011",
+            "localAssetsPort": "8010",
+            "localServerPort": "8011",
+            "mainDomain": ""
+          },
+          "centerDomain": {
+            "localServerDomain": "localhost:8009",
+            "localAssetsDomain": "localhost:8008",
+            "localServerPort": "8008",
+            "localAssetsPort": "8009"
+          },
+          "mysqlConfig": {
+              "write": {
+                "ip": "${databaseInfo.ip}",
+                "port": "${databaseInfo.port}",
+                "dataBaseName": "${databaseInfo.dataBaseName}",
+                "userName": "${databaseInfo.userName}",
+                "password": "${databaseInfo.password}"
+              },
+              "read": []
+          },
+          "email": {
+            "useCusEmailSys": false,
+            "emailUser": "",
+            "emailPassword": ""
+          },
+          "messageQueue": false,
+          "openMonitor": true,
+          "logSaveDays": 8,
+          "business": {
+            "userStayTimeScope": {
+              "min": 100,
+              "max": 100000
+            }
+          }
+        }`
+        console.log(variableJsonFile)
+        fs.writeFile(variableJsonPath, variableJsonFile, (err) => {
+            if (err) throw err;
+            console.log("√ " + variableJsonPath + " 配置文件创建完成！");
+        });
+    } else {
+        console.log("√ " + path + " 配置文件已存在！")
+    }
+  });
+}
 
-fs.mkdir( "./config_variable", function(err){
+fs.mkdir( "./config_variable", async (err) => {
   if ( err ) { 
     console.log("= 文件夹 /config_variable 已经存在")
-  } else {
-    console.log("= 创建文件夹 /config_variable")
+    return
   }
-  pathArray.forEach((path, index) => {
-      fs.readFile(path, "", (err) => {
-          if (err) {
-              console.log("× " + path + " 配置文件不存在，即将创建...")
-              fs.writeFile(path, fileArray[index], (err) => {
-                  if (err) throw err;
-                  console.log("√ " + path + " 配置文件创建完成！");
-              });
-          } else {
-              console.log("√ " + path + " 配置文件已存在！")
-          }
-      });
+  console.log("= 创建文件夹 /config_variable")
+
+  let databaseInfo = {
+    ip: "localhost",
+    port: "3306",
+    dataBaseName: "demo_db",
+    userName: "root",
+    password: "123456"
+  }
+
+  await fetch("http://blog.webfunny.cn:8030/webfunny_manage/api/db/create")
+  .then(response => response.text())
+  .then((res) => {
+    const resObj = JSON.parse(res)
+    if (resObj.data) {
+      setVariableInfo(resObj.data)
+    } else {
+      console.log("测试数据库生成失败，请自行填写数据库配置")
+      setVariableInfo(databaseInfo)
+    }
+  }).catch((e) => {
+    console.log("测试数据库生成失败，请自行填写数据库配置")
+    setVariableInfo(databaseInfo)
   })
+
+  
 });
 
 /**
