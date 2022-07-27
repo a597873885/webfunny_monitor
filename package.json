@@ -4,13 +4,14 @@
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
-    "bootstrap": "node config_bin_init.js",
-    "slave": "node config_db_local.js && pm2 start config/slave.js && pm2 log slave",
-    "reslave": "pm2 stop slave | pm2 delete slave | npm run slave",
-    "prd": "node config_db_local.js && node config.js && pm2 flush && pm2 start config/webfunny.js && pm2 log webfunny",
-    "restart": "pm2 flush && pm2 stop webfunny | pm2 delete webfunny | npm run prd",
-    "prd_restart": "pm2 restart webfunny && pm2 flush",
-    "table_config": "node table_config.js"
+    "bootstrap": "node center/config_bin_init.js && node event/config_bin_init.js && node monitor/config_bin_init.js",
+    "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
+    "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
+    "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
+    "prd": "npm run event && npm run monitor && npm run center && pm2 log",
+    "stop": "pm2 stop webfunny_center && pm2 stop webfunny_event && pm2 stop webfunny_monitor",
+    "delete": "pm2 delete webfunny_center && pm2 delete webfunny_event && pm2 delete webfunny_monitor",
+    "restart": "npm run stop && npm run delete && npm run prd"
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,7 @@
     "koa-onerror": "^4.2.0",
     "koa-route": "^3.2.0",
     "koa-router": "^7.1.1",
+    "koa-send": "^5.0.1",
     "koa-static-cache": "^5.1.4",
     "koa-views": "^5.2.1",
     "koa-websocket": "^6.0.0",
@@ -66,6 +68,7 @@
     "sequelize": "^5.19.6",
     "serve-static": "^1.14.1",
     "source-map": "^0.5.6",
+    "transliteration": "^2.3.5",
     "util": "^0.11.0",
     "webfunny-monitor": "^1.2.8"
   },

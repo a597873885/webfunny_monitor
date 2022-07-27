@@ -1,0 +1,22 @@
+{
+  "name": "webfunny_monitor",
+  "version": "4.0.3",
+  "description": "这是webfunny的安装包",
+  "main": "app.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a597873885/webfunny_monitor"
+  },
+  "author": "jeffery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a597873885/webfunny_monitor/issues"
+  },
+  "homepage": "https://github.com/a597873885/webfunny_monitor#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

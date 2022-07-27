@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "./config/webfunny_center.js --BUILD_ENV local",
+    "prd": "pm2 start config/webfunny_center.js && pm2 log webfunny_center"
+  },
+  "dependencies": {
+  }
+}
