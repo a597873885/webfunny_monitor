@@ -8,7 +8,7 @@
     "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
     "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
     "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
-    "prd": "npm run event && npm run monitor && npm run center && pm2 log",
+    "prd": "npm run center && npm run event && npm run monitor && pm2 log",
     "stop": "pm2 stop webfunny_center && pm2 stop webfunny_event && pm2 stop webfunny_monitor",
     "delete": "pm2 delete webfunny_center && pm2 delete webfunny_event && pm2 delete webfunny_monitor",
     "restart": "npm run stop && npm run delete && npm run prd"
