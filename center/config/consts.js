@@ -100,8 +100,8 @@ const UPLOAD_TYPE = {
 
     TOTAL_STAY_TIME_FOR_DAY: "totalStayTimeForDay",  // 每天的总停留时间
     TOTAL_ACTIVE_TIME_FOR_DAY: "totalActiveTimeForDay",  // 每天的总活跃时间
-    ACTIVE_TIME_FOR_DAY: "stayTimeForDay",  // 每天的平均活跃时间
-    STAY_TIME_FOR_DAY: "activeTimeForDay",  // 每天的平均停留时间
+    STAY_TIME_FOR_DAY: "stayTimeForDay",  // 每天的平均活跃时间
+    ACTIVE_TIME_FOR_DAY: "activeTimeForDay",  // 每天的平均停留时间
 
 
     CUS_LEAVE_FOR_HOUR: "cus_leave_for_hour",  // 每小时的跳出率
