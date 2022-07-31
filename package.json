@@ -11,7 +11,15 @@
     "prd": "npm run center && npm run event && npm run monitor && pm2 log",
     "stop": "pm2 stop webfunny_center webfunny_event webfunny_monitor",
     "delete": "pm2 delete webfunny_center webfunny_event webfunny_monitor",
-    "restart": "npm run stop && npm run delete && npm run prd"
+    "restart": "npm run stop && npm run delete && npm run prd",
+    "event_prd": "npm run center && npm run event && pm2 log",
+    "event_stop": "pm2 stop webfunny_center webfunny_event",
+    "event_delete": "pm2 delete webfunny_center webfunny_event",
+    "event_restart": "npm run event_stop && npm run event_delete && npm run event_prd",
+    "monitor_prd": "npm run center && npm run monitor && pm2 log",
+    "monitor_stop": "pm2 stop webfunny_center webfunny_monitor",
+    "monitor_delete": "pm2 delete webfunny_center webfunny_monitor",
+    "monitor_restart": "npm run monitor_stop && npm run monitor_delete && npm run monitor_prd"
   },
   "repository": {
     "type": "git",
