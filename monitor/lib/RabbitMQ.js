@@ -3,10 +3,22 @@ let amqp = require('amqplib');
 
 module.exports = class RabbitMQ {
   constructor() {
-    this.hosts = ["amqp://localhost"];
+    this.hosts = ["amqp://name:password@ip:port"];
     this.index = 0;
     this.length = this.hosts.length;
-    this.open = amqp.connect(this.hosts[this.index]);
+    // this.open = amqp.connect(this.hosts[this.index]);
+    this.mqConfig = {
+      protocol: 'amqp',
+      hostname: 'localhost',
+      port: 5672,
+      username: 'webfunny',
+      password: '123456',
+      locale: 'en_US',
+      frameMax: 0,
+      heartbeat: 0,
+      vhost: '/',
+    };
+    this.open = amqp.connect(this.mqConfig);
   }
 
   sendQueueMsg(queueName, msg, successCallback, errorCallBack) {

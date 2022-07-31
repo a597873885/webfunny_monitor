@@ -1,6 +1,6 @@
 {
   "name": "webfunny_monitor",
-  "version": "3.0.97",
+  "version": "3.1.1",
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "monitor_prd": "npm run center && npm run monitor && pm2 log",
     "monitor_stop": "pm2 stop webfunny_center webfunny_monitor",
     "monitor_delete": "pm2 delete webfunny_center webfunny_monitor",
-    "monitor_restart": "npm run monitor_stop && npm run monitor_delete && npm run monitor_prd"
+    "monitor_restart": "npm run monitor_stop && npm run monitor_delete && npm run monitor_prd",
+    "event_slave": "npm run webfunny_event_slave",
+    "monitor_slave": "npm run webfunny_monitor_slave"
   },
   "repository": {
     "type": "git",

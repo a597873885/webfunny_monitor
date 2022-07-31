@@ -1,5 +1,5 @@
 var app = require('../app');
-    var { accountInfo } = require("../config/AccountConfig")
+    var { accountInfo } = require("./AccountConfig")
     
     global.serverType = "slave"
     

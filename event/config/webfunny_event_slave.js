@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var { accountInfo } = require("../config/AccountConfig")
+var { accountInfo } = require("./AccountConfig")
 // var debug = require('debug')('demo:server');
 // var http = require('http');
 global.serverType = "slave"
