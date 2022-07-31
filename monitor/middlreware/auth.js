@@ -1,10 +1,12 @@
 const jwt = require('jsonwebtoken')
 const secret = require('../config/secret')
-const util = require('util')
+const Utils = require('../util/utils')
 const verify = jwt.verify
 const statusCode = require('../util/status-code')
 const ignorePaths = require('./ignorePathRes')
-const { UserTokenController } = require("../controllers/controllers.js")
+const log = require("../config/log")
+const AccountConfig = require('../config/AccountConfig')
+const { accountInfo } = AccountConfig
 
 /**
  * 判断token是否可用
@@ -46,13 +48,31 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
+            // if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
+            //     ctx.response.status = 401;
+            //     ctx.body = statusCode.ERROR_401("用户未登录");
+            //     return
+            // }
             // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
-            const userTokenDetail = await UserTokenController.getUserTokenDetailByToken(token)
+            const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
+                if (typeof e === "object") {
+                    log.printError(JSON.stringify(e))
+                } 
+            })
+
             if (!userTokenDetail && ctx.header.host !== "localhost") {
                 ctx.response.status = 401;
                 ctx.body = statusCode.ERROR_401("用户未登录");
                 return
             }
+
+            // const userTokenDetail = await UserTokenController.getUserTokenDetailByToken(token)
+            // if (!userTokenDetail && ctx.header.host !== "localhost") {
+            //     ctx.response.status = 401;
+            //     ctx.body = statusCode.ERROR_401("用户未登录");
+            //     return
+            // }
+
             // 第二步，判断token是否合法
             await verify(token, secret.sign, async (err, decode) => {
                 if (err) {
@@ -63,7 +83,7 @@ module.exports = function () {
                 const { emailName, userId, userType } = decode
                 // 解密payload，获取用户名和ID
                 ctx.user = {
-                    emailName, userId, userType
+                    emailName, userId, userType, token
                 }
                 await next();
             })
