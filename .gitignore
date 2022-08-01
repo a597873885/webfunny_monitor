@@ -22,7 +22,9 @@ bin/*
 interceptor
 config/db.js
 lib/temp.min.js.map
+webfunny_center/
 webfunny/
+webfunny_event/
 schema_temp/
 alarm/
 util_cus/
