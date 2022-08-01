@@ -3,4 +3,5 @@ module.exports = [
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/getUserTokenFromNetworkByToken", "/getTeams", "/getTeamListWithoutToken",
     "/getSysConfigInfo", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "createNewProjectForApi",
+    "/forbiddenProject",
 ]
