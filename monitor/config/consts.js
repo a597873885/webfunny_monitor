@@ -123,8 +123,13 @@ const PROJECT_INFO = {
     MONITOR_VERSION: "1.0.0"
 }
 
+const CENTER_API = {
+    GET_USER_INFO: "/wfManage/getUserInfo",
+}
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
-    PROJECT_INFO
+    PROJECT_INFO,
+    CENTER_API,
 }
