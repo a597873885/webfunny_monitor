@@ -18,8 +18,8 @@ var fileArray = [
       "centerDomain": {
         "localServerDomain": "localhost:8009",
         "localAssetsDomain": "localhost:8008",
-        "localServerPort": "8008",
-        "localAssetsPort": "8009"
+        "localServerPort": "8009",
+        "localAssetsPort": "8008"
       },
       "mysqlConfig": {
           "write": {

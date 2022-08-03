@@ -34,7 +34,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         // TimerCalculateController.calculateCountByHour(1)
 
     }, 2000)
-    // Common.consoleLogo()
+    Common.consoleLogo()
     // 初始化登录验证码
     UserController.setValidateCode()
     global.monitorInfo.loginValidateCodeTimer = setInterval(() => {
