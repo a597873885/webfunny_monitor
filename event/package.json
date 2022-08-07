@@ -1,6 +1,6 @@
 {
   "name": "webfunny_event",
-  "version": "1.3.18",
+  "version": "1.3.33",
   "description": "这是webfunny_event的安装包",
   "main": "app.js",
   "scripts": {
