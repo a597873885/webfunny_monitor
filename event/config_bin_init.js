@@ -1,74 +1,98 @@
 var fs = require('fs');
+const fetch = require('node-fetch')
 
-// 初始化config_variable目录
-var pathArray = [__dirname + "/config_variable/config.json",]
-var fileArray = [
-    `{
-      "purchase": {
-        "purchaseCode": "",
-        "secretCode": ""
-      },
-      "domain": {
-        "localServerDomain": "localhost:8015",
-        "localAssetsDomain": "localhost:8014",
-        "localServerPort": "8015",
-        "localAssetsPort": "8014",
-        "mainDomain": ""
-      },
-      "centerDomain": {
-        "localServerDomain": "localhost:8009",
-        "localAssetsDomain": "localhost:8008",
-        "localServerPort": "8009",
-        "localAssetsPort": "8008"
-      },
-      "mysqlConfig": {
-          "write": {
-            "ip": "localhost",
-            "port": "3306",
-            "dataBaseName": "webfunny_db_event",
-            "userName": "root",
-            "password": "123456"
-          },
-          "read": []
-      },
-      "email": {
-        "useCusEmailSys": false,
-        "emailUser": "",
-        "emailPassword": ""
-      },
-      "messageQueue": false,
-      "openMonitor": true,
-      "logSaveDays": 8,
-      "isOpenTodayStatistic": true,
-      "business": {
-        "userStayTimeScope": {
-          "min": 100,
-          "max": 100000
-        }
+// 初始化bin目录
+const setVariableInfo = (databaseInfo) => {
+    const variableJsonPath = __dirname + "/config_variable/config.json"
+    fs.readFile(variableJsonPath, "", (err) => {
+      if (err) {
+          console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
+          var variableJsonFile = `{
+            "purchase": {
+              "purchaseCode": "",
+              "secretCode": ""
+            },
+            "domain": {
+              "localAssetsDomain": "localhost:8014",
+              "localServerDomain": "localhost:8015",
+              "localAssetsPort": "8014",
+              "localServerPort": "8015",
+              "mainDomain": ""
+            },
+            "centerDomain": {
+              "localServerDomain": "localhost:8009",
+              "localAssetsDomain": "localhost:8008",
+              "localServerPort": "8009",
+              "localAssetsPort": "8008"
+            },
+            "mysqlConfig": {
+                "write": {
+                  "ip": "${databaseInfo.ip}",
+                  "port": "${databaseInfo.port}",
+                  "dataBaseName": "${databaseInfo.dataBaseName}",
+                  "userName": "${databaseInfo.userName}",
+                  "password": "${databaseInfo.password}"
+                },
+                "read": []
+            },
+            "email": {
+              "useCusEmailSys": false,
+              "emailUser": "",
+              "emailPassword": ""
+            },
+            "messageQueue": false,
+            "openMonitor": true,
+            "logSaveDays": 8,
+            "isOpenTodayStatistic": true,
+            "business": {
+              "userStayTimeScope": {
+                "min": 100,
+                "max": 100000
+              }
+            }
+          }`
+          fs.writeFile(variableJsonPath, variableJsonFile, (err) => {
+              if (err) throw err;
+              console.log("√ " + variableJsonPath + " 配置文件创建完成！");
+          });
+      } else {
+          console.log("√ " + path + " 配置文件已存在！")
       }
-    }`
-]
-
-fs.mkdir( __dirname + "/config_variable", function(err){
-  if ( err ) { 
-    console.log(`= 文件夹 ${__dirname}/config_variable 已经存在`)
-  } else {
-    console.log(`= 创建文件夹 ${__dirname}/config_variable`)
+    });
   }
-  pathArray.forEach((path, index) => {
-      fs.readFile(path, "", (err) => {
-          if (err) {
-              console.log("× " + path + " 配置文件不存在，即将创建...")
-              fs.writeFile(path, fileArray[index], (err) => {
-                  if (err) throw err;
-                  console.log("√ " + path + " 配置文件创建完成！");
-              });
-          } else {
-              console.log("√ " + path + " 配置文件已存在！")
-          }
-      });
-  })
-});
+
+  fs.mkdir( __dirname + "/config_variable", async (err) => {
+    if ( err ) { 
+      console.log(`= 文件夹 ${__dirname}/config_variable 已经存在`)
+      return
+    }
+    console.log(`= 创建文件夹 ${__dirname}/config_variable`)
+  
+    let databaseInfo = {
+      ip: "localhost",
+      port: "3306",
+      dataBaseName: "demo_db",
+      userName: "root",
+      password: "123456"
+    }
+  
+    await fetch("http://blog.webfunny.cn:8030/webfunny_manage/api/db/create")
+    .then(response => response.text())
+    .then((res) => {
+      const resObj = JSON.parse(res)
+      if (resObj.data) {
+        setVariableInfo(resObj.data)
+      } else {
+        console.log("测试数据库生成失败，请自行填写数据库配置")
+        setVariableInfo(databaseInfo)
+      }
+    }).catch((e) => {
+      console.log("测试数据库生成失败，请自行填写数据库配置")
+      setVariableInfo(databaseInfo)
+    })
+  
+    
+  });
 
 /**
  * 初始化alarm目录
