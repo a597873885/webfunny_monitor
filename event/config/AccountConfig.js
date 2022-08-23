@@ -18,9 +18,9 @@ if (conf == undefined || conf == null) {
 }
 
 const accountInfo = {
-
-    localServerDomain: conf.domain.localServerDomain,   // 日志服务域名 
-    localServerPort: conf.domain.localServerPort,     // 日志服务端口号
+    uploadServerDomain: conf.uploadDomain.localServerDomain,//日志服务域名 
+    localServerDomain: conf.domain.localServerDomain,   // 服务域名 
+    localServerPort: conf.domain.localServerPort,     // 服务端口号
 
     localAssetsDomain: conf.domain.localAssetsDomain,   // 数据可视化服务域名
     localAssetsPort: conf.domain.localAssetsPort,     // 可视化系统端口号

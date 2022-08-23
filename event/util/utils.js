@@ -453,6 +453,27 @@ const Utils = {
   convertOper(str) {
     let newStr;
     switch(str) {
+      // case "有值":
+      //   newStr = "is not null"
+      // break 
+      // case "没值":
+      //   newStr = "is null"
+      // break
+      case "为空":
+        newStr = "is null"
+      break
+      case "不为空":
+        newStr = "is not null"
+      break
+      case "包含":
+        newStr = "in"
+      break
+      case "不包含":
+        newStr = "not in"
+      break
+      case "区间":
+        newStr = ""
+      break
       case "大于":
         newStr = ">"
       break
@@ -488,6 +509,7 @@ const Utils = {
         newStr = "String"
         break
       case "INT":
+      case "BIGINT":
         newStr = "Number"
         break
       default:
@@ -509,6 +531,8 @@ const Utils = {
         break
       case "INT":
       case "int":
+      case "BIGINT":
+      case "bigint":
         newStr = "整数型"
         break
       default:
@@ -544,7 +568,7 @@ const Utils = {
    //weFirstStepDay_5,weFirstStepDay_6,weFirstStepDay_7,weFirstStepDay_8,
    //weFirstStepDay_9,weFirstStepDay_10
     const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
-    "wefirstStepday_5","weFirstStepday_6","weFirstStepday_7","weFirstStepday_8","weFirstStepday_9","wefirststepday_10",
+    "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
     "wecustomerkey","weuserid","createdat"]
     const fieldNameConvert = JSON.stringify(fieldName).toLowerCase()
     fieldParams.forEach((item) => {
@@ -601,6 +625,11 @@ const Utils = {
     let fieldName = '';
     //TODO 如果是含有数字1、2这种，转成英文数字one、two...
     //1、"用户id"转成拼音yong_hu_id;
+    //如果是英文，就会全都转成小写了，例如输入userName变成了username
+    //如果是英文，就直接返回，不处理
+    if((/^[A-Za-z]+$/.test(pinyin))){
+      return pinyin;
+    }
     let fieldNamePinyin = slugify(pinyin);
     if (fieldNamePinyin === 'show' || fieldNamePinyin === 'SHOW' ){
       fieldName = 'newShow';
