@@ -6,6 +6,9 @@ const uuid = require('node-uuid')
 const getmac = require('getmac')
 const nodemailer = require('nodemailer')
 const {slugify } = require('transliteration');
+const log = require("../config/log");
+const AccountConfig = require('../config/AccountConfig')
+const { accountInfo } = AccountConfig
 const timeout = 300000
 const Utils = {
   isArray(object) {
@@ -649,7 +652,39 @@ const Utils = {
         fieldName = fieldNamePinyin;
     }
     return fieldName;
-  }
+  },
+  // 获取双协议结果
+  async requestForTwoProtocol(method = "post", url, param) {
+    const methodName = method === "post" ? "postJson" : ""
+    
+    if (accountInfo.protocol) {
+      let reqProtocol = `${accountInfo.protocol}://`
+      // 如果用户指定了协议
+      const protocolRes = await Utils[methodName](`${reqProtocol}${url}`, param).catch((e) => {
+        if (typeof e === "object") {
+          log.printError(`${reqProtocol}${url} ->` + JSON.stringify(e))
+        }
+      })
+      return protocolRes
+    } else {
+      // 如果用户没有指定协议
+      let protocolRes = null
+      protocolRes = await Utils[methodName](`http://${url}`, param).catch((e) => {
+        if (typeof e === "object") {
+            log.printError(`http://${url} ->` + JSON.stringify(e))
+        }
+      })
+      
+      if (!protocolRes) {
+        protocolRes = await Utils[methodName](`https://${url}`, param).catch((e) => {
+          if (typeof e === "object") {
+            log.printError(`https://${url} ->` + JSON.stringify(e))
+          }
+        })
+      }
+      return protocolRes
+    }
+  },
 }
 
 module.exports = Utils
