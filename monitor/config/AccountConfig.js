@@ -32,6 +32,7 @@ const accountInfo = {
 
     purchaseCode: conf.purchase.purchaseCode,                   // 激活码
     secretCode: conf.purchase.secretCode,                     // 解码
+    protocol: conf.protocol,                   // 服务器之间通信采用的协议;
     messageQueue: conf.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     openMonitor: conf.openMonitor,                    // 开启系统监控
 

@@ -23,10 +23,10 @@ const setVariableInfo = (databaseInfo) => {
               "mainDomain": ""
             },
             "centerDomain": {
-              "localServerDomain": "localhost:8009",
               "localAssetsDomain": "localhost:8008",
-              "localServerPort": "8009",
-              "localAssetsPort": "8008"
+              "localServerDomain": "localhost:8009",
+              "localAssetsPort": "8008",
+              "localServerPort": "8009"
             },
             "mysqlConfig": {
                 "write": {
@@ -43,6 +43,7 @@ const setVariableInfo = (databaseInfo) => {
               "emailUser": "",
               "emailPassword": ""
             },
+            "protocol": "",
             "messageQueue": false,
             "openMonitor": true,
             "logSaveDays": 8,
