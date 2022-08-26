@@ -69,10 +69,10 @@ module.exports = function () {
             const userTokenDetail = await Utils.requestForTwoProtocol("post", `${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token})
 
             if (!userTokenDetail) {
-                log.printError(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
+                log.printError(`${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
                 log.printError(`token值为：${token}`)
                 ctx.response.status = 500;
-                ctx.body = statusCode.ERROR_500('Token验证异常！', errorMsg)
+                ctx.body = statusCode.ERROR_500('Token验证异常！')
                 return
             }
 
