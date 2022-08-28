@@ -4,6 +4,7 @@ const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
 const getmac = require('getmac')
+const { base64encode, base64decode } = require('nodejs-base64');
 const nodemailer = require('nodemailer')
 const {slugify } = require('transliteration');
 const log = require("../config/log");
@@ -149,9 +150,7 @@ const Utils = {
   },
   b64EncodeUnicode: function(tempStr) {
     const str = encodeURIComponent(tempStr)
-    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
-      return String.fromCharCode("0x" + p1)
-    }))
+    return base64encode(str)
   },
   b64DecodeUnicode: function(str) {
     try {

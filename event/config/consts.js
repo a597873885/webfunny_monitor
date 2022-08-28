@@ -100,6 +100,7 @@ const UPLOAD_TYPE = {
 
 const USER_INFO = {
     USER_TYPE_ADMIN: "admin", // 管理员类型
+    USER_TYPE_SUPERADMIN: "superAdmin", // 超级管理员类型
 }
 
 const PROJECT_INFO = {
