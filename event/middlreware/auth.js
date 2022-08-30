@@ -12,7 +12,7 @@ const ignorePaths = [
     "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent",
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
-    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds"
+    "/sendRegisterEmail", "/resetPwd", "/addViewers", "/projectSimpleListByWebmonitorIds"
 ]
 
 
