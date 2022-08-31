@@ -126,11 +126,13 @@ const PROJECT_INFO = {
 const PROJECT_API = {
     MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: "/server/projectSimpleListByWebmonitorIds",
     MONITOR_ADD_VIEWERS: "/server/addViewers",
+    MONITOR_BASE_INFO: "/server/monitorBaseInfo",
     FORBIDDEN_PROJECT: "/server/forbiddenProject",
     DELETE_PROJECT: "/server/deleteProject",
 
     EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: "/tracker/buryPointProject/projectSimpleListByWebmonitorIds",
     EVENT_ADD_VIEWERS: "/tracker/buryPointProject/addViewers",
+    EVENT_BASE_INFO: "/tracker/eventBaseInfo",
 }
 
 module.exports = {
