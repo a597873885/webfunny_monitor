@@ -54,15 +54,25 @@ module.exports = function () {
             //     return
             // }
             // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
-            const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
-                if (typeof e === "object") {
-                    log.printError(JSON.stringify(e))
-                } 
-            })
+            // const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
+            //     if (typeof e === "object") {
+            //         let errorMsg = JSON.stringify(e)
+            //         log.printError(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
+            //         log.printError(`token值为：${token}`)
+            //         log.printError(errorMsg)
+            //         ctx.response.status = 500;
+            //         ctx.body = statusCode.ERROR_500('Token验证异常！', errorMsg)
+            //         return
+            //     } 
+            // })
 
-            if (!userTokenDetail && ctx.header.host !== "localhost") {
-                ctx.response.status = 401;
-                ctx.body = statusCode.ERROR_401("用户未登录");
+            const userTokenDetail = await Utils.requestForTwoProtocol("post", `${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token})
+
+            if (!userTokenDetail) {
+                log.printError(`${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
+                log.printError(`token值为：${token}`)
+                ctx.response.status = 500;
+                ctx.body = statusCode.ERROR_500('Token验证异常！')
                 return
             }
 

@@ -12,7 +12,8 @@ const ignorePaths = [
     "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent",
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
-    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds"
+    "/sendRegisterEmail", "/resetPwd", "/addViewers", "/projectSimpleListByWebmonitorIds",
+    "/eventBaseInfo"
 ]
 
 
@@ -47,15 +48,27 @@ module.exports = function () {
             await next();
         } else {
             // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
-            const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
-                log.printError("token验证失败", e)
-            })
-            console.log(accountInfo.centerServerDomain, userTokenDetail)
-            if (!userTokenDetail && ctx.header.host !== "localhost") {
-                ctx.response.status = 401;
-                ctx.body = statusCode.ERROR_401("用户未登录");
+            // const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
+            //     log.printError("token验证失败", e)
+            // })
+            // // console.log(accountInfo.centerServerDomain, userTokenDetail)
+            // if (!userTokenDetail && ctx.header.host !== "localhost") {
+            //     ctx.response.status = 401;
+            //     ctx.body = statusCode.ERROR_401("用户未登录");
+            //     return
+            // }
+
+
+            const userTokenDetail = await Utils.requestForTwoProtocol("post", `${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token})
+
+            if (!userTokenDetail) {
+                log.printError(`${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
+                log.printError(`token值为：${token}`)
+                ctx.response.status = 500;
+                ctx.body = statusCode.ERROR_500('Token验证异常！')
                 return
             }
+
 
             // 第二步，判断token是否合法
             await verify(token, secret.sign, async (err, decode) => {

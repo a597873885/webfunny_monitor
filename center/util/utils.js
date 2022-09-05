@@ -5,6 +5,9 @@ const fetch = require('node-fetch')
 const uuid = require('node-uuid')
 const { base64encode, base64decode } = require('nodejs-base64');
 const getmac = require('getmac')
+const log = require("../config/log");
+const AccountConfig = require('../config/AccountConfig')
+const { accountInfo } = AccountConfig
 const timeout = 300000
 const Utils = {
   isArray(object) {
@@ -517,7 +520,39 @@ const Utils = {
     }).catch(error => {
       console.log(error.msg)
     })
-  }
+  },
+  // 获取双协议结果
+  async requestForTwoProtocol(method = "post", url, param) {
+    const methodName = method === "post" ? "postJson" : ""
+    
+    if (accountInfo.protocol) {
+      let reqProtocol = `${accountInfo.protocol}://`
+      // 如果用户指定了协议
+      const protocolRes = await Utils[methodName](`${reqProtocol}${url}`, param).catch((e) => {
+        if (typeof e === "object") {
+          log.printError(`${reqProtocol}${url} ->` + JSON.stringify(e))
+        }
+      })
+      return protocolRes
+    } else {
+      // 如果用户没有指定协议
+      let protocolRes = null
+      protocolRes = await Utils[methodName](`http://${url}`, param).catch((e) => {
+        if (typeof e === "object") {
+            log.printError(`http://${url} ->` + JSON.stringify(e))
+        }
+      })
+      
+      if (!protocolRes) {
+        protocolRes = await Utils[methodName](`https://${url}`, param).catch((e) => {
+          if (typeof e === "object") {
+            log.printError(`https://${url} ->` + JSON.stringify(e))
+          }
+        })
+      }
+      return protocolRes
+    }
+  },
 }
 
 module.exports = Utils

@@ -18,7 +18,8 @@ if (conf == undefined || conf == null) {
 }
 
 const accountInfo = {
-
+    uploadServerDomain: conf.uploadDomain.localServerDomain, // 上报域名
+    
     localServerDomain: conf.domain.localServerDomain,   // 监控系统后端服务域名 
     localServerPort: conf.domain.localServerPort,     // 监控系统后端服务端口号
     localAssetsDomain: conf.domain.localAssetsDomain,   // 数据可视化系统域名
@@ -32,6 +33,7 @@ const accountInfo = {
 
     purchaseCode: conf.purchase.purchaseCode,                   // 激活码
     secretCode: conf.purchase.secretCode,                     // 解码
+    protocol: conf.protocol,                   // 服务器之间通信采用的协议;
     messageQueue: conf.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     openMonitor: conf.openMonitor,                    // 开启系统监控
 

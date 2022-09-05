@@ -8,15 +8,11 @@ const setVariableInfo = (databaseInfo) => {
     if (err) {
         console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
         var variableJsonFile = `{
-          "purchase": {
-            "purchaseCode": "",
-            "secretCode": ""
-          },
           "domain": {
-            "localServerDomain": "localhost:8009",
             "localAssetsDomain": "localhost:8008",
-            "localServerPort": "8009",
+            "localServerDomain": "localhost:8009",
             "localAssetsPort": "8008",
+            "localServerPort": "8009",
             "mainDomain": ""
           },
           "mysqlConfig": {
@@ -34,6 +30,7 @@ const setVariableInfo = (databaseInfo) => {
             "emailUser": "",
             "emailPassword": ""
           },
+          "protocol": "",
           "messageQueue": false,
           "openMonitor": true,
           "logSaveDays": 8,

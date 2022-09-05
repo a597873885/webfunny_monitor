@@ -103,6 +103,8 @@ const createRoutes = (router) => {
     router.post("/applicationConfig", ApplicationConfigController.create)
     router.post("/updateSysConfigInfo", ApplicationConfigController.updateSysConfigInfo)
     router.post("/getSysConfigInfo", ApplicationConfigController.getSysConfigInfo)
+    router.post('/monitorBaseInfo', ApplicationConfigController.monitorBaseInfo);
+    router.post('/eventBaseInfo', ApplicationConfigController.eventBaseInfo);
 
 }
 

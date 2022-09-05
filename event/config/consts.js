@@ -100,6 +100,7 @@ const UPLOAD_TYPE = {
 
 const USER_INFO = {
     USER_TYPE_ADMIN: "admin", // 管理员类型
+    USER_TYPE_SUPERADMIN: "superAdmin", // 超级管理员类型
 }
 
 const PROJECT_INFO = {
@@ -108,10 +109,10 @@ const PROJECT_INFO = {
 }
 
 const MANAGE_API = {
-    GET_USER_TOKEN_FROM_NET_WORK_BY_TOKEN: `http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`,
-    GET_TEAMS: `http://${accountInfo.centerServerDomain}/wfManage/getTeams`,
-    GET_TEAM_DETAIL: `http://${accountInfo.centerServerDomain}/wfManage/getTeamDetail`,
-    UPDATE_TEAM: `http://${accountInfo.centerServerDomain}/wfManage/updateTeam`,
+    GET_USER_TOKEN_FROM_NET_WORK_BY_TOKEN: `${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`,
+    GET_TEAMS: `${accountInfo.centerServerDomain}/wfManage/getTeams`,
+    GET_TEAM_DETAIL: `${accountInfo.centerServerDomain}/wfManage/getTeamDetail`,
+    UPDATE_TEAM: `${accountInfo.centerServerDomain}/wfManage/updateTeam`,
 }
 
 module.exports = {

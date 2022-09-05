@@ -20,8 +20,8 @@
     "monitor_stop": "pm2 stop webfunny_center webfunny_monitor",
     "monitor_delete": "pm2 delete webfunny_center webfunny_monitor",
     "monitor_restart": "npm run monitor_stop && npm run monitor_delete && npm run monitor_prd",
-    "event_slave": "npm run webfunny_event_slave",
-    "monitor_slave": "npm run webfunny_monitor_slave"
+    "event_slave": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event_slave.js && pm2 log",
+    "monitor_slave": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor_slave.js && pm2 log"
   },
   "repository": {
     "type": "git",

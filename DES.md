@@ -12,7 +12,7 @@
 
       使用码云仓库$：git clone https://gitee.com/webfunnyMonitor/webfunny_monitor.git（github网络不稳定，可以使用码云地址）
   
-    2.在项目根目录下执行初始化命令和安装命令$：npm run init && npm install
+    2.在项目根目录下执行初始化命令和安装命令$：npm install && npm run bootstrap
 
     3.确认是否安装了pm2（执行$：pm2 -v），如果没有安装pm2，请执行安装命令$：npm install pm2 -g
 
