@@ -574,9 +574,7 @@ const Utils = {
     "wecustomerkey","weuserid","createdat"]
     const fieldNameConvert = JSON.stringify(fieldName).toLowerCase()
     fieldParams.forEach((item) => {
-        if (fieldNameConvert.indexOf(item) !== -1) {
-            goOnFlag = false
-        } else if (fieldNameConvert.indexOf(item) !== -1) {
+        if (fieldNameConvert === item) {
             goOnFlag = false
         }
     })
