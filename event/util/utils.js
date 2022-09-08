@@ -564,15 +564,10 @@ const Utils = {
   },
   checkFieldNameValid(fieldName){
     let goOnFlag = true;
-   //通用字段：id,weFirstStepDay,weHapppenHour,weHapppenMinute,weCustomerKey,weUserId,weSysVersion,weCity,weCountry,weSimpleUrl,weBrowser,weOs,weDeviceSize,createdAt
-   //通用字段：id,weCustomerKey,weUserId,weSimpleUrl,createdAt
-   //weFirstStepDay_1,weFirstStepDay_2,weFirstStepDay_3,weFirstStepDay_4,
-   //weFirstStepDay_5,weFirstStepDay_6,weFirstStepDay_7,weFirstStepDay_8,
-   //weFirstStepDay_9,weFirstStepDay_10
     const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
     "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
     "wecustomerkey","weuserid","createdat"]
-    const fieldNameConvert = JSON.stringify(fieldName).toLowerCase()
+    const fieldNameConvert = fieldName.toString().toLowerCase()
     fieldParams.forEach((item) => {
         if (fieldNameConvert === item) {
             goOnFlag = false
