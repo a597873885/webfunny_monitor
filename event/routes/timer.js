@@ -42,7 +42,7 @@ module.exports = async (serverType = "master") => {
                             log.printError(e)
                        });
                     }
-                    //每天凌晨0点10分开始跑定时执行计算规则
+                    //每天凌晨0点10分开始分析昨天的执行计算规则
                     if (hourTimeStr === '00:10:00'){
                         TimerStatisticController.calculateDataPreDay('', -1);
                     }
@@ -50,9 +50,9 @@ module.exports = async (serverType = "master") => {
                     if (hourTimeStr == "02:30:00") {
                         Common.startDelete()
                     }
-                    // 每小时的16分，开始统计今天的数据
+                    // 每小时的46分，开始统计今天的数据
                     let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic
-                    if (isOpenTodayStatistic && minuteTimeStr == "16:00") {
+                    if (isOpenTodayStatistic && minuteTimeStr == "46:00") {
                         TimerStatisticController.calculateDataPreDay('', 0);
                     }
                     // 每隔1分钟，取出全局变量global.eventInfo.logCountInMinute的值，并清0
