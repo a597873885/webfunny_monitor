@@ -12,6 +12,9 @@ const setVariableInfo = (databaseInfo) => {
             "purchaseCode": "",
             "secretCode": ""
           },
+          "uploadDomain": {
+            "localServerDomain": ""
+          },
           "domain": {
             "localAssetsDomain": "localhost:8010",
             "localServerDomain": "localhost:8011",
