@@ -24,6 +24,12 @@ const accountInfo = {
     localAssetsDomain: conf.domain.localAssetsDomain,   // 数据可视化服务域名
     localAssetsPort: conf.domain.localAssetsPort,     // 可视化系统端口号
 
+    monitorServerDomain: conf.monitorDomain.localServerDomain,   // 监控日志服务域名 
+    monitorAssetsDomain: conf.monitorDomain.localAssetsDomain,   // 监控数据可视化服务域名
+    eventServerDomain: conf.eventDomain.localServerDomain,   // 埋点日志服务域名 
+    eventAssetsDomain: conf.eventDomain.localAssetsDomain,   // 埋点数据可视化服务域名
+
+
     mainDomain: conf.domain.mainDomain,  // 主域名
 
     purchaseCode: "",                   // 激活码

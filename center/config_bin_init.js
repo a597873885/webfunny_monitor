@@ -15,6 +15,14 @@ const setVariableInfo = (databaseInfo) => {
             "localServerPort": "8009",
             "mainDomain": ""
           },
+          "monitorDomain": {
+            "localServerDomain": "localhost:8011",
+            "localAssetsDomain": "localhost:8010"
+          },
+          "eventDomain": {
+            "localServerDomain": "localhost:8015",
+            "localAssetsDomain": "localhost:8014"
+          },
           "mysqlConfig": {
               "write": {
                 "ip": "${databaseInfo.ip}",

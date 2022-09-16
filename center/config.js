@@ -1,7 +1,7 @@
 
 const AccountConfig = require('./config/AccountConfig')
 const { accountInfo } = AccountConfig
-const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, mainDomain, secretCode } = accountInfo
+const { localServerDomain, localAssetsDomain, localServerPort, localAssetsPort, monitorServerDomain, eventServerDomain, mainDomain, secretCode } = accountInfo
 
 if (localServerDomain.indexOf("http://") != -1 || localServerDomain.indexOf("https://") != -1) {
   console.log("\x1b[91m%s\x1b[0m", "域名配置不要加上 http协议前缀，标准格式为：www.baidu.com 或者 www.baidu.com:8011")
@@ -24,6 +24,8 @@ if (localServerPort != "8009" || localAssetsPort != "8008") {
   * 本地或线上请使用：local_server_domain
   */
 const default_api_server_url = localServerDomain.length ? "//" + localServerDomain : ""
+const default_monitor_server_url = monitorServerDomain.length ? "//" + monitorServerDomain : ""
+const default_event_server_url = eventServerDomain.length ? "//" + eventServerDomain : ""
 
 /**
   * 配置可视化平台的域名!!!
@@ -126,7 +128,7 @@ setTimeout(function() {
     }
     fs.readFile(`${path}/${files[i]}`,function(err, data){
         if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort).replace(/webfunny_secret_code/g, secretCode)
+          let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_monitor_server_url/g, default_monitor_server_url).replace(/default_event_server_url/g, default_event_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort).replace(/webfunny_secret_code/g, secretCode)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
             console.log("= " + files[i] + "  接口域名配置成功！");

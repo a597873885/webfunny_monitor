@@ -48,40 +48,12 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
-            // if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
-            //     ctx.response.status = 401;
-            //     ctx.body = statusCode.ERROR_401("用户未登录");
-            //     return
-            // }
             // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
-            // const userTokenDetail = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token}).catch((e) => {
-            //     if (typeof e === "object") {
-            //         let errorMsg = JSON.stringify(e)
-            //         log.printError(`http://${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
-            //         log.printError(`token值为：${token}`)
-            //         log.printError(errorMsg)
-            //         ctx.response.status = 500;
-            //         ctx.body = statusCode.ERROR_500('Token验证异常！', errorMsg)
-            //         return
-            //     } 
-            // })
-
-            const userTokenDetail = await Utils.requestForTwoProtocol("post", `${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken`, {token})
-
-            if (!userTokenDetail) {
-                log.printError(`${accountInfo.centerServerDomain}/wfManage/getUserTokenFromNetworkByToken ` + "接口异常")
-                log.printError(`token值为：${token}`)
-                ctx.response.status = 500;
-                ctx.body = statusCode.ERROR_500('Token验证异常！')
+            if (global.monitorInfo.tokenListInMemory.indexOf(token) === -1) {
+                ctx.response.status = 401;
+                ctx.body = statusCode.ERROR_401("用户未登录");
                 return
             }
-
-            // const userTokenDetail = await UserTokenController.getUserTokenDetailByToken(token)
-            // if (!userTokenDetail && ctx.header.host !== "localhost") {
-            //     ctx.response.status = 401;
-            //     ctx.body = statusCode.ERROR_401("用户未登录");
-            //     return
-            // }
 
             // 第二步，判断token是否合法
             await verify(token, secret.sign, async (err, decode) => {

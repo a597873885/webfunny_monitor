@@ -44,6 +44,9 @@ const createRoutes = (router) => {
     // 删除用户
     router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
 
+    // 把有效token存入内存中
+    router.post('/storeTokenToMemory', UserController.storeTokenToMemory);
+
     // 新增消息
     router.post('/createMessage', MessageController.createNewMessage);
     // 获取消息
@@ -52,6 +55,7 @@ const createRoutes = (router) => {
     router.post('/readMessage', MessageController.readMessage);
     // 阅读全部
     router.post('/readAll', MessageController.readAll)
+
 
     /**
      * Common 逻辑接口
@@ -96,6 +100,7 @@ const createRoutes = (router) => {
     // 获取日志服务所有相关信息
     router.get('/getSysInfo', Common.getSysInfo);
     router.get('/sysInfo', SysInfoController.getSysInfo);
+    router.get('/eventBaseInfo', SysInfoController.getSysInfo);
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);
@@ -158,7 +163,7 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/create', BuryPointProjectController.create);
     router.post('/buryPointProject/update', BuryPointProjectController.update);
     router.post('/buryPointProject/delete', BuryPointProjectController.delete);
-    router.get('/buryPointProject/tree', BuryPointProjectController.tree);
+    router.post('/buryPointProject/tree', BuryPointProjectController.tree);
     router.get('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
     router.post('/buryPointProject/projectSimpleListByWebmonitorIds', BuryPointProjectController.projectSimpleListByWebmonitorIds);
     router.post('/buryPointProject/addViewers', BuryPointProjectController.addViewers);

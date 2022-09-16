@@ -24,6 +24,8 @@ const createRoutes = (router) => {
      */
     // 检查token是否有效
     router.post('/checkSsoToken', UserController.checkSsoToken);
+    // 把有效token存入内存中
+    router.post('/storeTokenToMemory', UserController.storeTokenToMemory);
 
 
 

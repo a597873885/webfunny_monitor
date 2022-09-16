@@ -9,6 +9,8 @@ const createRoutes = (router) => {
      */
     // 检查token是否有效
     router.post('/checkSsoToken', UserController.checkSsoToken);
+    // 验证token
+    router.post('/checkToken', UserTokenController.checkToken);
 
     /**
      * 登录相关逻辑
@@ -67,6 +69,7 @@ const createRoutes = (router) => {
     router.post('/team', TeamController.create);
     // 获取团队列表
     router.post("/getTeamList", TeamController.getTeamList)
+    router.post("/getSimpleTeamList", TeamController.getSimpleTeamList)
     router.post("/getTeamListWithoutToken", TeamController.getTeamListWithoutToken)
     router.post("/getTeams", TeamController.getTeams)
     router.post("/addTeamMember", TeamController.addTeamMember)
@@ -92,11 +95,14 @@ const createRoutes = (router) => {
 
     // 设置观察者
     router.post('/addViewers', TeamController.addViewers);
+    // 禁用项目权限验证
+    router.post('/forbiddenRightCheck', TeamController.forbiddenRightCheck);
     // 禁用项目
     router.post('/forbiddenProject', TeamController.forbiddenProject);
+    // 删除项目权限验证
+    router.post('/deleteProjectRightCheck', TeamController.deleteProjectRightCheck);
     // 删除项目
     router.post('/deleteProject', TeamController.deleteProject);
-
 
 
     // 根据teamId获取团队列表
