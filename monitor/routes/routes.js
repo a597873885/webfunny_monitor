@@ -1,4 +1,4 @@
-const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController, HttpErrorHandleListController, CommonTableController} = require("../controllers/controllers.js")
+const {CustomerPvLeaveController,HttpErrorInfoController,ScreenShotInfoController,BehaviorInfoController,CustomerStayTimeController,AlarmRuleController,ConfigController,FailController,ExtendBehaviorInfoController,FunnelController,IgnoreErrorController,InfoCountByHourController,LocationPointGroupController,LocationPointTypeController,ResourceLoadInfoController,LocationPointController,MessageController,TeamController,VideosInfoController,CommonUtil,HttpLogInfoController,LoadPageInfoController,PageLoadInfoController,JavascriptErrorInfoController,AlarmController,UserController,UserTokenController,CommonUpLog,CustomerPVController,ProjectController,Common,TimerCalculateController, JsErrorHandleListController, HttpErrorHandleListController, CommonTableController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -280,6 +280,12 @@ const createRoutes = (router) => {
     router.post('/getPageLoadTimeListByUrl', LoadPageInfoController.getPageLoadTimeListByUrl);
     // 获取页面加载耗时占比
     router.post('/getPageLoadTimePercent', LoadPageInfoController.getPageLoadTimePercent);
+
+    /**
+     * 页面性能
+     */
+    // 创建加载信息
+    router.post('/pageLoad', PageLoadInfoController.create);
 
     /**
      * JS错误信息接口
