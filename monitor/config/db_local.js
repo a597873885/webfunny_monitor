@@ -3,9 +3,16 @@ const Sequelize = require('sequelize');
 const { accountInfo } = require('./AccountConfig');
 
 const {write, read} = accountInfo.mysqlConfig;
+
+const readArray = []
+if (read && read.length) {
+  read.forEach((item) => {
+    readArray.push({host: item.ip, port: item.port, username: item.userName, password: item.password})
+  })
+}
 const replication = {
-  read: read,
-  write: { host: write.ip, username: write.userName, password: write.password }
+  read: readArray,
+  write: { host: write.ip, port: write.port, username: write.userName, password: write.password }
 }
 
 const configList = {
