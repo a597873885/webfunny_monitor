@@ -181,6 +181,7 @@ const createRoutes = (router) => {
     router.post('/buryPointCard/sort', BuryPointCardController.sort);
     router.post('/buryPointCard/refresh', BuryPointCardController.refresh);
     router.get('/buryPointCard/export', BuryPointCardController.export);
+    router.get('/buryPointCard/tableDisplay', BuryPointCardController.tableDisplay);
 
     /**
      * 打点测试
