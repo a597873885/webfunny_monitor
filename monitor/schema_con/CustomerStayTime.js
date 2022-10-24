@@ -2,10 +2,10 @@
 const getTableProperty = (DataTypes) => {
   const fields = {
     id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING(55),
       primaryKey: true,
       allowNull: false,
-      autoIncrement: true,
+      field: 'id'
     },
     // 监控ID
     webMonitorId: {

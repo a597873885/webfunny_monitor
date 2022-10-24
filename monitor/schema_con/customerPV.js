@@ -3,10 +3,10 @@ const getTableProperty = (DataTypes) => {
   const fields = {
     // ID 主键
     id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING(55),
       primaryKey: true,
       allowNull: false,
-      autoIncrement: true,
+      field: 'id'
     },
     // 用户标识ID
     pageKey: {
