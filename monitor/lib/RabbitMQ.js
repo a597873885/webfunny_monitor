@@ -7,6 +7,7 @@ module.exports = class RabbitMQ {
     this.index = 0;
     this.length = this.hosts.length;
     // this.open = amqp.connect(this.hosts[this.index]);
+    // 消息队列配置如下
     this.mqConfig = {
       protocol: 'amqp',
       hostname: 'localhost',

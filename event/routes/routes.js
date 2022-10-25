@@ -164,7 +164,7 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/update', BuryPointProjectController.update);
     router.post('/buryPointProject/delete', BuryPointProjectController.delete);
     router.post('/buryPointProject/tree', BuryPointProjectController.tree);
-    router.get('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
+    router.post('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
     router.post('/buryPointProject/projectSimpleListByWebmonitorIds', BuryPointProjectController.projectSimpleListByWebmonitorIds);
     router.post('/buryPointProject/addViewers', BuryPointProjectController.addViewers);
     router.get('/buryPointProject/all', BuryPointProjectController.getAllList);
