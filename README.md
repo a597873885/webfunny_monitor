@@ -31,7 +31,7 @@
 
    [【部署教程】](https://www.webfunny.cn/des.html)
    
-   [【Docker部署】](https://www.webfunny.cn/des.html?blogUrl=https%3A%2F%2Fwww.webfunny.cn%2Fblog%2Fpost%2Finfo%2F70)
+   [【Docker部署】](https://www.webfunny.cn/des.html?blogUrl=128&menuKey=menu1&blogKey=1-2)
    
 ### 联系作者微信
 
