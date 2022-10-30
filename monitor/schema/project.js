@@ -118,6 +118,18 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'recording'
     },
+    // 页面是否聚合
+    pageAggregation: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'pageAggregation'
+    },
+    // 接口是否聚合
+    httpAggregation: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'httpAggregation'
+    },
     // 监控配置项
     recordConfig: {
       type: DataTypes.TEXT,

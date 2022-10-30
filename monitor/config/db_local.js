@@ -37,13 +37,18 @@ const configList = {
   },
   timezone: '+08:00' //东八时区
 }
+let sequelize = null
 if (read && read.length > 0) {
   configList.replication = replication
+  sequelize = new Sequelize(write.dataBaseName, null, null, {
+    ...configList
+  })
+} else {
+  // 下一个迭代数据库
+  sequelize = new Sequelize(write.dataBaseName, write.userName, write.password, {
+    ...configList
+  })
 }
-// 下一个迭代数据库
-const sequelize = new Sequelize(write.dataBaseName, write.userName, write.password, {
-  ...configList
-})
 
 module.exports = {
   sequelize: sequelize
