@@ -130,6 +130,7 @@ const createRoutes = (router) => {
     router.post('/buryPointField/page', BuryPointFieldController.getPageList);
     router.post('/buryPointField/list', BuryPointFieldController.getList);
     router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
+    router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
     router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
 
     /**
