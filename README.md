@@ -41,7 +41,7 @@
    
 ### Webfunny技术交流群
 
-   <img width=150 src="https://webfunny.cn/resource/wxq.jpeg?r=0.20914250162307435"/>
+   <img width=150 src="https://webfunny.cn/resource/wxq2.png?r=0.20914250162307435"/>
 
 ### 压力测试
 
