@@ -145,6 +145,8 @@ const createRoutes = (router) => {
     router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
     // 开启项目监控
     router.post('/openProject', ProjectController.openProject)
+    // 关闭项目监控
+    router.post('/closeProject', ProjectController.closeProject);
     // 保存警报信息相关
     router.post('/saveAlarmInfo', ProjectController.saveAlarmInfo)
     // 设置webHook
