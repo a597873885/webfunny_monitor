@@ -54,6 +54,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             var offset = tempTime - wrongTime;
             var nextTime = 1000 - offset;
             if (nextTime < 0) nextTime = 0;
+            const hourMinuteStr = tempDate.Format("hh:mm")
             const hourTimeStr = tempDate.Format("hh:mm:ss")
             const minuteTimeStr = tempDate.Format("mm:ss")
 
@@ -82,6 +83,11 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 更新webMonitorId到缓存中
                 ProjectController.cacheWebMonitorId()
                 // 更新登录缓存到数据库，供从服务器使用
+            }
+
+            // 每隔1分钟的第5秒执行
+            if (minuteTimeStr.substring(3) == "05") {
+                TimerCalculateController.calculateCountByMinute(hourMinuteStr, 0)
             }
 
             // 每隔10秒钟，取日志队列里的日志，执行入库操作
