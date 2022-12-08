@@ -58,6 +58,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'resourceLoaded'
     },
+    // 页面打开的秒数（整数）
+    openSecond: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'openSecond'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user

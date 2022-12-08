@@ -38,6 +38,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'minuteValue'
     },
+    // 采样的PV
+    samplingPv: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'minuteValue'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user

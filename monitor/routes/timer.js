@@ -44,9 +44,14 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
+        if (process.env.LOGNAME === "jeffery") {
+            console.log("=====本地服务，不再启动定时器====")
+            return
+        }
         const startTime = new Date().getTime();
         let count = 0;
-        const fixed = async () => {
+        let prevHourMinuteStr = new Date().Format("hh:mm")
+        const fixed = () => {
             count ++;
             const tempDate = new Date()
             const tempTime = new Date().getTime()
@@ -87,7 +92,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
             // 每隔1分钟的第5秒执行
             if (minuteTimeStr.substring(3) == "05") {
-                TimerCalculateController.calculateCountByMinute(hourMinuteStr, 0)
+                TimerCalculateController.calculateCountByMinute(hourMinuteStr, prevHourMinuteStr, 0)
+                prevHourMinuteStr = hourMinuteStr
             }
 
             // 每隔10秒钟，取日志队列里的日志，执行入库操作
