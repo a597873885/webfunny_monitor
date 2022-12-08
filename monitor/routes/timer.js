@@ -92,7 +92,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
             // 每隔1分钟的第5秒执行
             if (minuteTimeStr.substring(3) == "05") {
-                TimerCalculateController.calculateCountByMinute(hourMinuteStr, prevHourMinuteStr, 0)
+                TimerCalculateController.calculateCountByMinute(prevHourMinuteStr, 0)
                 prevHourMinuteStr = hourMinuteStr
             }
 
