@@ -40,6 +40,12 @@ const BuryPointField = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'fieldDesc'
     },
+     // 是否归类：0-否，1-是
+     groupByFlag: {
+      type: DataTypes.INTEGER(1),
+      allowNull: true,
+      field: 'groupByFlag'
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
