@@ -100,8 +100,8 @@ const UPLOAD_TYPE = {
 
     TOTAL_STAY_TIME_FOR_DAY: "totalStayTimeForDay",  // 每天的总停留时间
     TOTAL_ACTIVE_TIME_FOR_DAY: "totalActiveTimeForDay",  // 每天的总活跃时间
-    ACTIVE_TIME_FOR_DAY: "stayTimeForDay",  // 每天的平均活跃时间
-    STAY_TIME_FOR_DAY: "activeTimeForDay",  // 每天的平均停留时间
+    STAY_TIME_FOR_DAY: "stayTimeForDay",  // 每天的平均活跃时间
+    ACTIVE_TIME_FOR_DAY: "activeTimeForDay",  // 每天的平均停留时间
 
 
     CUS_LEAVE_FOR_HOUR: "cus_leave_for_hour",  // 每小时的跳出率
@@ -112,6 +112,20 @@ const UPLOAD_TYPE = {
     LOCATION_POINT_TYPE: "l_p_", // 埋点类型前缀
     LOCATION_UV_TYPE: "l_u_", // 埋点UV类型前缀
 
+}
+
+const PERF_KEYS = {
+    PERF_SAMPLING_PV: "samplingPv",
+    PERF_FIRST_BYTE: "firstByte",
+    PERF_DOM_READY: "domReady",
+    PERF_PAGE_COMPLETE_LOADED: "pageCompleteLoaded",
+    PERF_DNS: "dns",
+    PERF_TCP: "tcp",
+    PERF_SSL: "ssl",
+    PERF_RESPONSE: "response",
+    PERF_CON_TRANS: "conTrans",
+    PERF_DOM_ANALYSIS: "domAnalysis",
+    PERF_RESOURCE_LOADED: "resourceLoaded",
 }
 
 const USER_INFO = {
@@ -132,4 +146,5 @@ module.exports = {
     USER_INFO,
     PROJECT_INFO,
     CENTER_API,
+    PERF_KEYS,
 }

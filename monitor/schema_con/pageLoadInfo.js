@@ -38,6 +38,11 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'tcp'
     },
+    ssl: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'ssl'
+    },
     response: {
       type: DataTypes.INTEGER,
       allowNull: true,
@@ -64,6 +69,30 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'openSecond'
     },
+    // 网络速度评估
+    effectiveType: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'effectiveType'
+    },
+    // 国家
+    country: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'country'
+    },
+    // 省份
+    province: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'province'
+    },
+    // 城市
+    city: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'city'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user
@@ -71,24 +100,6 @@ const getTableProperty = (DataTypes) => {
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true,
     indexes: [
-      {
-        name: "userIdIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "userId"
-          }
-        ]
-      },
-      {
-        name: "customerKeyIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "customerKey"
-          }
-        ]
-      },
       {
         name: "happenDateIndex",
         method: "BTREE",

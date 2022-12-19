@@ -1,15 +1,21 @@
-const InfoCountByHour = function (sequelize, DataTypes) {
-  return sequelize.define('PageLoadInfoByDayAndHour', {
+const PerfInfoByDay = function (sequelize, DataTypes) {
+  return sequelize.define('PerfInfoByDay', {
     // ID 主键
     id: {
-      type: DataTypes.STRING(55),
+      type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
-      field: 'id'
+      autoIncrement: true,
+    },
+    // 展示名称
+    showName: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'showName'
     },
     // 日志类型
     infoType: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'infoType'
     },
@@ -19,29 +25,17 @@ const InfoCountByHour = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'webMonitorId'
     },
-    // 版本号
-    projectVersion: {
-      type: DataTypes.STRING(20),
-      allowNull: true,
-      field: 'projectVersion'
-    },
-    // 每天的名称 06-28
+    // 每天的名称 2019-06-28
     dayName: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(10),
       allowNull: true,
       field: 'dayName'
     },
-    // 每个小时的名称 06-28 22
-    hourName: {
-      type: DataTypes.STRING(20),
-      allowNull: true,
-      field: 'hourName'
-    },
-    // 每个小时的数量
-    hourValue: {
+    // 每天的数量
+    dayCount: {
       type: DataTypes.FLOAT(20),
       allowNull: true,
-      field: 'hourValue'
+      field: 'dayCount'
     },
   }, {
     // 如果为 true 则表的名称和 model 相同，即 user
@@ -49,15 +43,6 @@ const InfoCountByHour = function (sequelize, DataTypes) {
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true,
     indexes: [
-      {
-        name: "hourNameIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "hourName"
-          }
-        ]
-      },
       {
         name: "webMonitorIdIndex",
         method: "BTREE",
@@ -75,5 +60,5 @@ const InfoCountByHour = function (sequelize, DataTypes) {
 
 }
 //exports//
-module.exports = InfoCountByHour
+module.exports = PerfInfoByDay
 //exports//

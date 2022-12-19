@@ -8,6 +8,7 @@ const Sequelize = db.sequelize;
 const ConfigTable = Sequelize.import('../schema/config');
 
 global.monitorInfo = {
+    purchaseCodeProjectCount: 3,
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
@@ -31,6 +32,7 @@ global.monitorInfo = {
     alarmInfoList: {}, // 警报信息暂存
     logInfoQueue: {}, // 存放日志队列的对象
     tokenListInMemory: [], //内存中的token列表 
+    calculateDataInMemory: [], //流式计算相关信息
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
