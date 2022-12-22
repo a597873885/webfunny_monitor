@@ -47,7 +47,7 @@
     "getmac": "^5.20.0",
     "ip": "^1.1.5",
     "jsonfile": "^6.0.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-compress": "^5.1.0",
