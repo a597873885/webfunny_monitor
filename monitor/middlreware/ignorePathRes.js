@@ -3,5 +3,5 @@ module.exports = [
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
     "/projectSimpleListByWebmonitorIds", "/addViewers", "/forbiddenProject", "/deleteProject",
-    "/monitorBaseInfo", "/storeTokenToMemory"
+    "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource"
 ]
