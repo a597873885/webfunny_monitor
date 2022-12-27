@@ -84,7 +84,7 @@ const getTableProperty = (DataTypes) => {
     operators: {
       type: DataTypes.STRING(50),
       allowNull: true,
-      field: 'city'
+      field: 'operators'
     },
     // 上报类型
     uploadType: {

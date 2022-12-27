@@ -480,6 +480,42 @@ const Utils = {
     }
     return temp;
   },
+  /**
+   * 获取一天所有的分钟
+   */
+  getAllMinutesForDay(day) {
+    let minutes = []
+    let start = new Date(day + " 00:00:00").getTime()
+    for (let i = 0; i < 1440; i ++) {
+      minutes.push(new Date(start + i * 60 * 1000).Format("hh:mm"))
+    }
+    return minutes;
+  },
+  /**
+   * 获取时间范围内所有的小时
+   */
+  getAllHoursForDay(startTime, endTime) {
+    const hourCount = (endTime - startTime) / (3600 * 1000)
+    let hours = []
+    for (let i = 0; i <= hourCount; i ++) {
+      hours.push(new Date(startTime + i * 3600 * 1000).Format("yyyy-MM-dd hh"))
+    }
+    return hours;
+  },
+  /**
+   * 获取时间范围内所有的日期
+   */
+  getAllDayForScope(startDate, endDate) {
+    if (startDate === endDate) return [startDate]
+    if (startDate > endDate) return []
+    let days = []
+    let tempStartDate = startDate
+    while(tempStartDate <= endDate) {
+      days.push(tempStartDate)
+      tempStartDate = new Date(new Date(tempStartDate).getTime() + 24 * 3600 * 1000).Format("yyyy-MM-dd")
+    }
+    return days;
+  },
 
   /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
