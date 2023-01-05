@@ -93,6 +93,12 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'city'
     },
+    // 操作系统
+    os: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'os'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user

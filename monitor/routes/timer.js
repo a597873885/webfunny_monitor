@@ -44,6 +44,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     /** * 定时任务  开始 */
     setTimeout(() => {
         Common.consoleInfo()
+        Common.createTable(0)
         if (process.env.LOGNAME === "jeffery") {
             console.log("=====本地服务，不再启动定时器====")
             return
