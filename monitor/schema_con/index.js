@@ -33,6 +33,9 @@ const JavascriptErrorInfoConfig = JavascriptErrorInfoSchema(DataTypes)
 const LoadPageInfoSchema = require('./loadPageInfo')
 const LoadPageInfoConfig = LoadPageInfoSchema(DataTypes)
 
+const PageLoadInfoSchema = require('./pageLoadInfo')
+const PageLoadInfoConfig = PageLoadInfoSchema(DataTypes)
+
 const ResourceLoadInfoSchema = require('./resourceLoadInfo')
 const ResourceLoadInfoConfig = ResourceLoadInfoSchema(DataTypes)
 
@@ -92,6 +95,11 @@ const schemaList = [
         name: "LoadPageInfo",
         fields: { ...BaseFields, ...LoadPageInfoConfig.fields },
         index: LoadPageInfoConfig.fieldIndex
+    },
+    {
+        name: "PageLoadInfo",
+        fields: { ...BaseFields, ...PageLoadInfoConfig.fields },
+        index: PageLoadInfoConfig.fieldIndex
     },
     {
         name: "ResourceLoadInfo",

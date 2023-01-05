@@ -38,6 +38,11 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'tcp'
     },
+    ssl: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'ssl'
+    },
     response: {
       type: DataTypes.INTEGER,
       allowNull: true,
@@ -58,6 +63,42 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'resourceLoaded'
     },
+    // 页面打开的秒数（整数）
+    openSecond: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'openSecond'
+    },
+    // 网络速度评估
+    effectiveType: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'effectiveType'
+    },
+    // 国家
+    country: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'country'
+    },
+    // 省份
+    province: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'province'
+    },
+    // 城市
+    city: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'city'
+    },
+    // 操作系统
+    os: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'os'
+    },
   }
   const fieldIndex = {
     // 如果为 true 则表的名称和 model 相同，即 user
@@ -66,29 +107,29 @@ const getTableProperty = (DataTypes) => {
     freezeTableName: true,
     indexes: [
       {
-        name: "userIdIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "userId"
-          }
-        ]
-      },
-      {
-        name: "customerKeyIndex",
-        method: "BTREE",
-        fields: [
-          {
-            attribute: "customerKey"
-          }
-        ]
-      },
-      {
         name: "happenDateIndex",
         method: "BTREE",
         fields: [
           {
             attribute: "happenDate"
+          }
+        ]
+      },
+      {
+        name: "happenHourIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenHour"
+          }
+        ]
+      },
+      {
+        name: "happenMinuteIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenMinute"
           }
         ]
       }
