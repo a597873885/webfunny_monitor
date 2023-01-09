@@ -130,6 +130,18 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'httpAggregation'
     },
+    // 采样率
+    samplingRate: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'samplingRate'
+    },
+    // 采样率生效周期
+    samplingCircle: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'samplingCircle'
+    },
     // 监控配置项
     recordConfig: {
       type: DataTypes.TEXT,
