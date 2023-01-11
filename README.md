@@ -21,27 +21,26 @@
 
 ### 了解作品  
 
-   [【官网简介】](http://www.webfunny.cn/home.html) | 
-   [【Demo效果】](http://www.webfunny.cn/demo/home.html) | 
-   [【更新日志】](http://www.webfunny.cn/update.html)
+   [【官网】](https://www.walkingfunny.com/) | 
+   [【版本】](https://www.walkingfunny.com/version)
  
    
 
 ### 私有化部署方式
 
-   [【部署教程】](https://www.webfunny.cn/des.html)
+   [【部署教程】](https://www.walkingfunny.com/desMonitor)
    
-   [【Docker部署】](https://www.webfunny.cn/des.html?blogUrl=https%3A%2F%2Fwww.webfunny.cn%2Fblog%2Fpost%2Finfo%2F70)
+   [【Docker部署】](https://www.walkingfunny.com/desMonitor?blogUrl=128&menuKey=menu2&blogKey=2-0)
    
-### 联系作者微信
+### 联系客服微信
 
-   微信号：webfunny_2020
+   微信号：walkingfunny
 
-   <img width=150 src="http://www.webfunny.cn/src/assets/img/wx_add.jpeg"/>
+   <img width=150 src="https://www.webfunny.cn/resource/xiaoguanzong.png"/>
    
 ### Webfunny技术交流群
 
-   <img width=150 src="https://webfunny.cn/resource/wxq.jpeg?r=0.20914250162307435"/>
+   <img width=150 src="https://webfunny.cn/resource/wf_wxq2.png"/>
 
 ### 压力测试
 
