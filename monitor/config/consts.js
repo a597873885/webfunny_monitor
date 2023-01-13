@@ -141,10 +141,39 @@ const CENTER_API = {
     GET_USER_INFO: "/wfManage/getUserInfo",
 }
 
+const PROJECT_CONFIG = JSON.stringify({
+    pv: {
+        s: true, // pv、uv监控子开关
+        ia: [""], // 需要忽略的pv、uv的url，采用模糊匹配，包含这个字符串，就会忽略
+    },
+    je: {
+        s: true, // js错误监控子开关
+        ia: [""], // 需要忽略的errorMessage，采用模糊匹配，包含这个字符串，就会忽略
+    },
+    hl: {
+        s: true, // 接口请求监控子开关
+        ia: [""], // 需要忽略的请求url，采用模糊匹配，包含这个字符串，就会忽略
+        uh: false, // 是否携带header信息
+        rl: 500, // 接口请求参数内容长度限制，超过长度则不上传
+        sl: 500, // 接口返回结果内容长度限制，超过长度则不上传
+    },
+    rl: {
+        s: true, // 静态资源错误子开关
+        ia: [""], // 忽略的静态资源url，采用模糊匹配，包含这个字符串，就会忽略
+    },
+    bl: {
+        s: true // 点击事件监控子开关
+    },
+    lc: {
+        s: false // 是否开启前端定位（sohu获取城市）
+    },
+})
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
     PROJECT_INFO,
     CENTER_API,
     PERF_KEYS,
+    PROJECT_CONFIG
 }
