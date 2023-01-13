@@ -14,7 +14,10 @@ module.exports = async (serverType = "master") => {
      * 3、删除以前的表
      * */
     setTimeout(() => {
-        // Common.consoleInfo()
+        //创建今天的日志表
+        SdkReleaseController.timerCreateTableByDay(0).catch((e)=>{
+            log.printError(e)
+        });
         const startTime = new Date().getTime();
         let count = 0;
         const fixed = async () => {
@@ -71,26 +74,4 @@ module.exports = async (serverType = "master") => {
         }
         setTimeout(fixed, 1000);
     }, 6000);
-    /**
-     * 3秒后开始接收消息队列里的数据
-     * */
-    //setTimeout(() => {
-    //    if (accountInfo.messageQueue === true) {
-    // 开始接收消息队列的消息
-    //        Common.startReceiveMsg()
-    //        Common.startReceiveMsgForMog()
-    //    }
-    // 将每个项目的配置放入全局变量中
-    //    Common.setProjectConfigList()
-
-    // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
-    // Common.setStopWebMonitorIdList()
-    //}, 3000)
-
-    // Common.consoleLogo()
-    // 初始化登录验证码
-    UserController.setValidateCode()
-    global.eventInfo.loginValidateCodeTimer = setInterval(() => {
-        UserController.setValidateCode()
-    }, 5 * 60 * 1000)
 }
