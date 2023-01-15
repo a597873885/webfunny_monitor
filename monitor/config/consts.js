@@ -142,6 +142,9 @@ const CENTER_API = {
 }
 
 const PROJECT_CONFIG = JSON.stringify({
+    s: true,
+    ia: [""], // 停止所有的监控
+    wc: 40, // 上报频次
     pv: {
         s: true, // pv、uv监控子开关
         ia: [""], // 需要忽略的pv、uv的url，采用模糊匹配，包含这个字符串，就会忽略
@@ -154,8 +157,8 @@ const PROJECT_CONFIG = JSON.stringify({
         s: true, // 接口请求监控子开关
         ia: [""], // 需要忽略的请求url，采用模糊匹配，包含这个字符串，就会忽略
         uh: false, // 是否携带header信息
-        rl: 500, // 接口请求参数内容长度限制，超过长度则不上传
-        sl: 500, // 接口返回结果内容长度限制，超过长度则不上传
+        rl: 2000, // 接口请求参数内容长度限制，超过长度则不上传
+        sl: 2000, // 接口返回结果内容长度限制，超过长度则不上传
     },
     rl: {
         s: true, // 静态资源错误子开关
@@ -167,6 +170,10 @@ const PROJECT_CONFIG = JSON.stringify({
     lc: {
         s: false // 是否开启前端定位（sohu获取城市）
     },
+    sc: {
+        r: 100,  // 采样率
+        c: 3     // 生效周期（单位：天）
+    }
 })
 
 module.exports = {
