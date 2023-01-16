@@ -150,6 +150,7 @@ const createRoutes = (router) => {
     router.post('/sdkRelease/create', SdkReleaseController.create);
     router.post('/sdkRelease/update', SdkReleaseController.update);
     router.post('/sdkRelease/delete', SdkReleaseController.delete);
+    router.get('/sdkRelease/detail', SdkReleaseController.detail);
     router.post('/sdkRelease/page', SdkReleaseController.getPageList);
     router.post('/sdkRelease/list', SdkReleaseController.getList);
     router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
