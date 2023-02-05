@@ -175,16 +175,12 @@ var alarmFileArray = [
       const projectHook = chooseHook ? JSON.parse(chooseHook) : {value: "", name: "", webHook: ""}
       /**生成警报配置 */
       // 添加用户手机号
+      let atMemberPhone = []
       users.forEach((user) => {
-        const dingMobiles = dingDing.config.at.atMobiles
-        const weiXinMobiles = weiXin.config.text.mentioned_mobile_list
-        if (dingMobiles.indexOf(user.phone) === -1) {
-            dingMobiles.push(user.phone)
-        }
-        if (weiXinMobiles.indexOf(user.phone) === -1) {
-            weiXinMobiles.push(user.phone)
-        }
+          atMemberPhone.push(user.phone)
       })
+      dingDing.config.at.atMobiles = atMemberPhone
+      weiXin.config.text.mentioned_mobile_list = atMemberPhone
       // 生成警报内容
       const contentStr = type + "警报！" +
           "您的" + projectType + "项目【" + projectName + "】发出警报：" +
