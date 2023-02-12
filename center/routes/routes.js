@@ -17,6 +17,8 @@ const createRoutes = (router) => {
      */
     // 登录
     router.post('/login', UserController.login);
+    // 登出
+    router.post('/logout', UserController.logout);
     // API登录
     router.post('/loginForApi', UserController.loginForApi);
     // 重置验证码
@@ -86,8 +88,8 @@ const createRoutes = (router) => {
     router.post("/resetTeamLeader", TeamController.resetTeamLeader)
     // 根据userId获取团队列表
     router.post("/findTeamListByLeaderId", TeamController.findTeamListByLeaderId)
-    // 根据teamId获取团队列表
-    router.post("/findTeamListByTeamId", TeamController.findTeamListByTeamId)
+    // // 根据teamId获取团队列表
+    // router.post("/findTeamListByTeamId", TeamController.findTeamListByTeamId)
     // 获取team详情
     router.post("/getTeamDetail", TeamController.getTeamDetail)
     // 更新团队

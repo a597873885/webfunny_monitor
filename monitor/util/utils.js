@@ -518,25 +518,20 @@ const Utils = {
   },
 
   /**
-   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
+   * 通过webfunny系统发送邮件
    */
-  // sendEmail: (email, subject, html, user, pass) => {
-  //   const company = "webfunny.cn"
-  //   let transporter = nodemailer.createTransport({
-  //     host: "smtp.163.com",
-  //     port: 465,
-  //     secure: true, // true for 465, false for other ports
-  //     auth: { user,pass }
-  //   });
-  //   // send mail with defined transport object
-  //   transporter.sendMail({
-  //     from: "'" + company + "' <" + user + ">", // sender address
-  //     to: email, // list of receivers
-  //     subject: subject, // Subject line
-  //     text: html, // plain text body
-  //     html: html // html body
-  //   });
-  // },
+  sendWfEmail: (email, title, content) => {
+    fetch("http://www.webfunny.cn/config/sendEmail",
+      {
+        method: "POST", 
+        body: JSON.stringify({email, title, content}),
+        headers: {
+            "Content-Type": "application/json;charset=utf-8"
+        }
+    }).catch((e) => {
+      console.log(e)
+    })
+  },
   getUuid() {
     return uuid.v1()
   },
