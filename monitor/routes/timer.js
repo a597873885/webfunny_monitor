@@ -20,6 +20,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         }
         // 将每个项目的配置放入全局变量中
         Common.setProjectConfigList()
+        setTimeout(() => {
+            console.log("启动监控项目列表：", JSON.stringify(global.monitorInfo.cacheWebMonitorIdList))
+        }, 10000)
         
         // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
         // Common.setStopWebMonitorIdList()
