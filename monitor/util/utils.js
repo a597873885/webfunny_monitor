@@ -403,6 +403,24 @@ const Utils = {
     return Object.assign({}, { headers })
   },
   /**
+   * img上报日志转JOSN
+   *
+   */
+  logParseImgData(queryStr) {
+    if (!queryStr) return []
+    const tempLogArray = queryStr.split("$$$")
+    const logArray = []
+    tempLogArray.forEach((item) => {
+      if (item) {
+        try {
+          logArray.push(item)
+        } catch(e) {
+        }
+      }
+    })
+    return logArray
+  },
+  /**
    * 日志转JOSN
    *
    */

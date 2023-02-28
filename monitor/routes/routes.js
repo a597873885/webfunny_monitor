@@ -7,6 +7,8 @@ const createRoutes = (router) => {
      */
     // 用户上传日志（h5）
     router.post('/upLog', Common.upLog);
+    // 用户上传日志（h5）
+    router.get('/upLog', Common.upLogGet);
     // 用户上传自定义日志（h5）
     router.post('/upMyLog', Common.upMyLog);
     // 用户上传日志 (小程序)
