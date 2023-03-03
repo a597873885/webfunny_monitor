@@ -178,6 +178,7 @@ const createRoutes = (router) => {
     router.post('/buryPointCard/create', BuryPointCardController.create);
     router.post('/buryPointCard/delete', BuryPointCardController.delete);
     router.post('/buryPointCard/list', BuryPointCardController.getList);
+    router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
     router.post('/buryPointCard/update', BuryPointCardController.update);
     router.get('/buryPointCard/detail', BuryPointCardController.detail);
     router.post('/buryPointCard/sort', BuryPointCardController.sort);
