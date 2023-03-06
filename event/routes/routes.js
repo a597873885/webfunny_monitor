@@ -150,6 +150,7 @@ const createRoutes = (router) => {
     router.post('/sdkRelease/create', SdkReleaseController.create);
     router.post('/sdkRelease/update', SdkReleaseController.update);
     router.post('/sdkRelease/delete', SdkReleaseController.delete);
+    router.get('/sdkRelease/detail', SdkReleaseController.detail);
     router.post('/sdkRelease/page', SdkReleaseController.getPageList);
     router.post('/sdkRelease/list', SdkReleaseController.getList);
     router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
@@ -177,9 +178,11 @@ const createRoutes = (router) => {
     router.post('/buryPointCard/create', BuryPointCardController.create);
     router.post('/buryPointCard/delete', BuryPointCardController.delete);
     router.post('/buryPointCard/list', BuryPointCardController.getList);
+    router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
     router.post('/buryPointCard/update', BuryPointCardController.update);
     router.get('/buryPointCard/detail', BuryPointCardController.detail);
     router.post('/buryPointCard/sort', BuryPointCardController.sort);
+    router.post('/buryPointCard/order', BuryPointCardController.order);
     router.post('/buryPointCard/refresh', BuryPointCardController.refresh);
     router.post('/buryPointCard/groupByQuery', BuryPointCardController.groupByQuery);
     router.get('/buryPointCard/export', BuryPointCardController.export);
