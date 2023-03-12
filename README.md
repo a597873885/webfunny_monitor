@@ -1,5 +1,5 @@
 <p align=center>
-    <img width=680 src="https://www.webfunny.cn/resource/tuiguang.png"/>
+    <img width=400 src="http://www.webfunny.cn/resource/logo-letter.png"/>
 </p>
 
 <p align="center">
@@ -16,14 +16,14 @@
 实时大屏、运营数据分析、前端错误分析、页面性能分析、接口性能分析、用户细查、用户连线。
 
 <p>
-    <img width=680 src="https://www.webfunny.cn/resource/webfunny_home.png"/>
+    <img width=800 src="https://www.webfunny.cn/resource/webfunny_home.png"/>
 </p>
 
 #### [Webfunny埋点系统](https://www.walkingfunny.com/webfunnyMonitor) 
 业务数据分析、多样的可视化看板、高度自由的字段和点位设计、SDK发布。数据分析、留存分析、转化率分析、漏斗分析。
 
 <p>
-    <img width=680 src="https://www.webfunny.cn/resource/event_home.png"/>
+    <img width=800 src="https://www.webfunny.cn/resource/event_home.png"/>
 </p>
 
 
