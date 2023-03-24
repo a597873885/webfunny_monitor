@@ -60,7 +60,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
    },
    //同时显示=合计、均值、同比、环比
    togetherList: {
-    type: DataTypes.STRING(20),
+    type: DataTypes.STRING(50),
     allowNull: true,
     field: 'togetherList'
    },
