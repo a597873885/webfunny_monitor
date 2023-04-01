@@ -111,6 +111,15 @@ const getTableProperty = (DataTypes) => {
             attribute: "happenDate"
           }
         ]
+      },
+      {
+        name: "happenHourIndex",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "happenHour"
+          }
+        ]
       }
     ]
   }
