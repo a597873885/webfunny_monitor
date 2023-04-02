@@ -171,6 +171,8 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/addViewers', BuryPointProjectController.addViewers);
     router.get('/buryPointProject/all', BuryPointProjectController.getAllList);
     router.get('/buryPointProject/allProject', BuryPointProjectController.getAllProjectList);
+    router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
+    router.post('/buryPointProject/exportTemplate', BuryPointProjectController.exportTemplate);
 
     /**
      * 点位卡片接口
@@ -194,7 +196,18 @@ const createRoutes = (router) => {
      */
     router.post('/buryPointTest/page', BuryPointTestController.getPageList);
 
-
+    /**
+     * 模板接口
+     */
+    router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
+    router.post('/buryPointTemplate/update', BuryPointTemplateController.update);
+    router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
+    router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
+    router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
+    router.post('/buryPointTemplate/createProject', BuryPointTemplateController.createProject);
+    router.post('/buryPointTemplate/getMyList', BuryPointTemplateController.getMyTemplatePageList);
+    router.post('/buryPointTemplate/getCommonList', BuryPointTemplateController.getCommonTemplatePageList);
+    router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
     
     router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
     router.get('/test/update', TimerStatisticController.test);
