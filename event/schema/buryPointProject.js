@@ -59,6 +59,12 @@ const BuryPointProject = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'forbiddenTime'
     },
+    // 排序
+    sort: {
+      type: DataTypes.INTEGER(5),
+      allowNull: true,
+      field: 'sort'
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
