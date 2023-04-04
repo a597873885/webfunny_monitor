@@ -174,6 +174,7 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/getProjectTree', BuryPointProjectController.getProjectTree);
     router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
     router.post('/buryPointProject/sort', BuryPointProjectController.sort);
+    router.post('/buryPointProject/page/move', BuryPointProjectController.movePage);
     router.post('/buryPointProject/exportTemplate', BuryPointProjectController.exportTemplate);
 
     /**
