@@ -181,6 +181,7 @@ const createRoutes = (router) => {
      * 点位卡片接口
      */
     router.post('/buryPointCard/create', BuryPointCardController.create);
+    router.post('/buryPointCard/card/copy', BuryPointCardController.copyCard);
     router.post('/buryPointCard/delete', BuryPointCardController.delete);
     router.post('/buryPointCard/deleteBatch', BuryPointCardController.deleteBatch);
     router.post('/buryPointCard/list', BuryPointCardController.getList);

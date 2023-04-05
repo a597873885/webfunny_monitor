@@ -10,6 +10,12 @@ const BuryPointField = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
+     // 项目ID event1001开始
+     projectId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'projectId'
+    },
     // 字段名称英文
     fieldName: {
       type: DataTypes.STRING(200),
@@ -76,7 +82,18 @@ const BuryPointField = function (sequelize, DataTypes) {
     // 如果为 true 则表的名称和 model 相同，即 user
     // 为 false MySQL创建的表名称会是复数 users
     // 如果指定的表名称本就是复数形式则不变
-    freezeTableName: true
+    freezeTableName: true,
+    indexes: [
+      {
+        name: "idx_projectId",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "projectId"
+          }
+        ]
+      },
+    ]
   })
 
 }

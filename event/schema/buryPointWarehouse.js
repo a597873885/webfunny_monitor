@@ -11,6 +11,12 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       autoIncrement: true,
       AUTO_INCREMENT: 100
     },
+     // 项目ID event1001开始
+     projectId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'projectId'
+    },
     // 点位名称
     pointName: {
       type: DataTypes.STRING(200),
@@ -61,7 +67,18 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
     // 为 false MySQL创建的表名称会是复数 users
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true,
-    AUTO_INCREMENT: 100
+    AUTO_INCREMENT: 100,
+    indexes: [
+      {
+        name: "idx_projectId",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "projectId"
+          }
+        ]
+      },
+    ]
   })
 
 }
