@@ -100,6 +100,12 @@ const Project = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'fetchCode'
     },
+    // 上报域名
+    uploadDomain: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'uploadDomain'
+    },
     // 过滤域名
     filterDomain: {
       type: DataTypes.STRING(200),
