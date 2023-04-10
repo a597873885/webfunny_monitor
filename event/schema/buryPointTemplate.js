@@ -13,13 +13,13 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
     // 用户id
     userId: {
       type: DataTypes.STRING(100),
-      allowNull: false,
+      allowNull: true,
       field: 'userId'
     },
     // 项目id
     projectId: {
       type: DataTypes.STRING(100),
-      allowNull: false,
+      allowNull: true,
       field: 'projectId'
     },
     // 模板名称
@@ -34,29 +34,29 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'type'
     },
-    // 详情JSON
-    detail: {
-      type: DataTypes.TEXT,
-      allowNull: false,
-      field: 'detail'
-    },
     // 分组个数
     groupCount: {
       type: DataTypes.INTEGER(3),
-      allowNull: false,
+      allowNull: true,
       field: 'groupCount'
     },
     // 看板个数
     pageCount: {
       type: DataTypes.INTEGER(3),
-      allowNull: false,
+      allowNull: true,
       field: 'pageCount'
     },
     // 卡片个数
     cardCount: {
       type: DataTypes.INTEGER(5),
-      allowNull: false,
+      allowNull: true,
       field: 'cardCount'
+    },
+    // 详情JSON
+    detail: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      field: 'detail'
     },
     // 创建人
     createBy: {
