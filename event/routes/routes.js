@@ -176,7 +176,8 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
     router.post('/buryPointProject/sort', BuryPointProjectController.sort);
     router.post('/buryPointProject/page/move', BuryPointProjectController.movePage);
-    router.post('/buryPointProject/exportTemplate', BuryPointProjectController.exportTemplate);
+    router.post('/buryPointProject/templateExport', BuryPointProjectController.exportTemplate);
+    router.post('/buryPointProject/existTemplate', BuryPointProjectController.existTemplate);
 
     /**
      * 点位卡片接口
