@@ -1,4 +1,4 @@
-const {SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
+const {SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
