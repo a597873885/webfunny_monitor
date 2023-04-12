@@ -176,6 +176,7 @@ const createRoutes = (router) => {
     router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
     router.post('/buryPointProject/sort', BuryPointProjectController.sort);
     router.post('/buryPointProject/page/move', BuryPointProjectController.movePage);
+    router.post('/buryPointProject/copyPage', BuryPointProjectController.copyPage);
     router.post('/buryPointProject/templateExport', BuryPointProjectController.exportTemplate);
     router.post('/buryPointProject/existTemplate', BuryPointProjectController.existTemplate);
 
@@ -206,7 +207,7 @@ const createRoutes = (router) => {
      * 模板接口
      */
      router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
-     router.post('/buryPointTemplate/update', BuryPointTemplateController.update);
+     router.post('/buryPointTemplate/updateName', BuryPointTemplateController.updateName);
      router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
      router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
      router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
