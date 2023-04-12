@@ -38,13 +38,13 @@ const SdkRelease = function (sequelize, DataTypes) {
     // 发布脚本
     releaseScript: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      allowNull: true,
       field: 'releaseScript'
     },
-    // 发布版本
+    // 版本号
     version: {
       type: DataTypes.STRING(20),
-      allowNull: false,
+      allowNull: true,
       field: 'version'
     },
     // 描述
