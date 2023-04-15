@@ -31,10 +31,10 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       field: 'fields'
     },
     // 描述
-    desc: {
+    pointDesc: {
       type: DataTypes.STRING(200),
       allowNull: true,
-      field: 'desc'
+      field: 'pointDesc'
     },
     // 创建人
     createBy: {
