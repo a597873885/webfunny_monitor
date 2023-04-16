@@ -133,6 +133,7 @@ const createRoutes = (router) => {
     router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
     router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
     router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
+    router.post('/buryPointField/export', BuryPointFieldController.exportField);
 
     /**
      * 点位仓库接口
@@ -144,6 +145,7 @@ const createRoutes = (router) => {
     router.post('/buryPointWarehouse/page', BuryPointWarehouseController.getPageList);
     router.post('/buryPointWarehouse/list', BuryPointWarehouseController.getList);
     router.get('/buryPointWarehouse/AllList', BuryPointWarehouseController.getAllList);
+    router.post('/buryPointWarehouse/export', BuryPointWarehouseController.exportPoint);
 
     /**
      * SDK发布接口
