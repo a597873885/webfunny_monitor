@@ -204,6 +204,12 @@ const createRoutes = (router) => {
      * 打点测试
      */
     router.post('/buryPointTest/page', BuryPointTestController.getPageList);
+    // 点位查询
+    router.post('/buryPointTest/search', BuryPointTestController.search);
+    // 根据userId查询点位列表
+    router.post('/buryPointTest/searchAllRecord', BuryPointTestController.searchAllRecord);
+    // 根据字段的key查询字段名称
+    router.post('/buryPointTest/searchFieldName', BuryPointTestController.searchFieldName);
 
      /**
      * 模板接口
