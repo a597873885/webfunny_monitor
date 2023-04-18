@@ -1,4 +1,4 @@
-const {SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
+const {BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -225,8 +225,17 @@ const createRoutes = (router) => {
      router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
      router.post('/buryPointTemplate/detail', BuryPointTemplateController.detail);
 
-    router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
-    router.get('/test/update', TimerStatisticController.test);
+     //任务管理
+     router.post('/buryPointTask/create', BuryPointTaskController.create);
+     router.post('/buryPointTask/delete', BuryPointTaskController.delete);
+     router.post('/buryPointTask/batchDeletion', BuryPointTaskController.batchDeletion);
+     router.post('/buryPointTask/update', BuryPointTaskController.update);
+     router.post('/buryPointTask/list', BuryPointTaskController.list);
+     router.post('/buryPointTask/detail', BuryPointTaskController.detail);
+     router.post('/buryPointTask/updateStatus', BuryPointTaskController.updateStatus);
+     router.post('/buryPointTask/changeHandleMan', BuryPointTaskController.changeHandleMan);
+     router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
+     router.get('/test/update', TimerStatisticController.test);
 
 
     router.get('/test/deleteTable', Common.startDelete);
