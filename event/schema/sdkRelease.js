@@ -25,7 +25,7 @@ const SdkRelease = function (sequelize, DataTypes) {
 
     // 所有点位id
     pointIds: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(100),
       allowNull: false,
       field: 'pointIds'
     },
