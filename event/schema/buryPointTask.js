@@ -24,7 +24,7 @@ const BuryPointTask = function (sequelize, DataTypes) {
     },
     //点位ids
     taskPoint: {
-      type: DataTypes.STRING(100),
+      type: DataTypes.TEXT,
       allowNull: false,
       field: 'taskPoint'
     },
