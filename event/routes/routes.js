@@ -1,4 +1,4 @@
-const {BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
+const {WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
 
 
 const createRoutes = (router) => {
@@ -237,8 +237,12 @@ const createRoutes = (router) => {
      router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
      router.get('/test/update', TimerStatisticController.test);
 
+     /**
+      * 处理数据
+      */
+     router.get('/handleWeFieldData', WeHandleDataController.handleWeFieldData);
 
-    router.get('/test/deleteTable', Common.startDelete);
+     router.get('/test/deleteTable', Common.startDelete);
 }
 
 module.exports = {
