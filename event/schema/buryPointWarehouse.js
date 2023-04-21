@@ -23,7 +23,12 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'pointName'
     },
-
+     // 通用点位标识：1-是，0-否
+     weType: {
+      type: DataTypes.INTEGER(1),
+      allowNull: true,
+      field: 'weType'
+    },
     // 所有字段
     fields: {
       type: DataTypes.TEXT,
