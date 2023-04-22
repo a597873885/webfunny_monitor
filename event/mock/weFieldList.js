@@ -1,10 +1,28 @@
 module.exports = [
     {
-        "fieldName": "wePath",
-        "fieldAlias": "路由",
+        "fieldName": "weCustomerKey",
+        "fieldAlias": "内置ID",
         "fieldType": "VARCHAR",
-        "fieldLength": 2000,
-        "fieldDesc": "路由",
+        "fieldLength": 60,
+        "fieldDesc": "内置ID",
+        "groupByFlag": 0,
+        "weType": 1
+    }, 
+    {
+        "fieldName": "weUserId",
+        "fieldAlias": "用户ID",
+        "fieldType": "VARCHAR",
+        "fieldLength": 60,
+        "fieldDesc": "用户ID",
+        "groupByFlag": 0,
+        "weType": 1
+    }, 
+    {
+        "fieldName": "wePath",
+        "fieldAlias": "页面地址",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "页面地址",
         "groupByFlag": 1,
         "weType": 1
     },
@@ -21,7 +39,7 @@ module.exports = [
         "fieldName": "wePlatform",
         "fieldAlias": "平台",
         "fieldType": "VARCHAR",
-        "fieldLength": 20,
+        "fieldLength": 50,
         "fieldDesc": "平台",
         "groupByFlag": 1,
         "weType": 1
@@ -30,7 +48,7 @@ module.exports = [
         "fieldName": "weSystem",
         "fieldAlias": "系统和版本号",
         "fieldType": "VARCHAR",
-        "fieldLength": 20,
+        "fieldLength": 50,
         "fieldDesc": "系统和版本号",
         "groupByFlag": 1,
         "weType": 1
@@ -39,7 +57,7 @@ module.exports = [
         "fieldName": "weOs",
         "fieldAlias": "系统",
         "fieldType": "VARCHAR",
-        "fieldLength": 20,
+        "fieldLength": 50,
         "fieldDesc": "系统",
         "groupByFlag": 1,
         "weType": 1
@@ -95,15 +113,6 @@ module.exports = [
         "fieldType": "VARCHAR",
         "fieldLength": 50,
         "fieldDesc": "城市",
-        "groupByFlag": 1,
-        "weType": 1
-    },
-    {
-        "fieldName": "weStayTime",
-        "fieldAlias": "时长",
-        "fieldType": "VARCHAR",
-        "fieldLength": 20,
-        "fieldDesc": "时长",
         "groupByFlag": 1,
         "weType": 1
     },
