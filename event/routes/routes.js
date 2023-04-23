@@ -144,6 +144,7 @@ const createRoutes = (router) => {
     router.get('/buryPointWarehouse/detail', BuryPointWarehouseController.detail);
     router.post('/buryPointWarehouse/page', BuryPointWarehouseController.getPageList);
     router.post('/buryPointWarehouse/list', BuryPointWarehouseController.getList);
+    router.post('/buryPointWarehouse/getProjectAndWeList', BuryPointWarehouseController.getProjectAndWeList);
     router.get('/buryPointWarehouse/AllList', BuryPointWarehouseController.getAllList);
     router.post('/buryPointWarehouse/pointExport', BuryPointWarehouseController.exportPoint);
 
