@@ -99,6 +99,15 @@ const BuryPointField = function (sequelize, DataTypes) {
           }
         ]
       },
+      {
+        name: "idx_weType",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "weType"
+          }
+        ]
+      },
     ]
   })
 

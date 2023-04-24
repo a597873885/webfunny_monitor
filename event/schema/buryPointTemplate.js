@@ -22,6 +22,12 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectId'
     },
+    // 系统模板KEY
+    weKey: {
+      type: DataTypes.STRING(100),
+      allowNull: false,
+      field: 'weKey'
+    },
     // 模板名称
     templateName: {
       type: DataTypes.STRING(128),
