@@ -32,7 +32,7 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
     //是否探针代码替换
     replacePointIdKey: {
       type: DataTypes.STRING(50),
-      allowNull: false,
+      allowNull: true,
       field: 'replacePointIdKey'
     },
     // 所有字段

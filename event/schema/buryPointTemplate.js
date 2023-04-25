@@ -25,7 +25,7 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
     // 系统模板KEY
     weKey: {
       type: DataTypes.STRING(100),
-      allowNull: false,
+      allowNull: true,
       field: 'weKey'
     },
     // 模板名称
