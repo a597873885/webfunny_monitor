@@ -1,7 +1,7 @@
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
-const { Common, UserController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
+const { WeHandleDataController,Common, UserController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
 
 /**
  * 定时任务
@@ -18,6 +18,11 @@ module.exports = async (serverType = "master") => {
         SdkReleaseController.timerCreateTableByDay(0).catch((e)=>{
             log.printError(e)
         });
+        // 创建系统模板和系统项目
+        WeHandleDataController.createWeTemplateData().catch((e)=>{
+            log.printError(e)
+        });
+
         const startTime = new Date().getTime();
         let count = 0;
         const fixed = async () => {

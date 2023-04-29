@@ -63,6 +63,12 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: false,
       field: 'detail'
+    }, 
+    // 点位信息
+    templatePoint: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      field: 'templatePoint'
     },
     // 创建人
     createBy: {

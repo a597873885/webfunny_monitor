@@ -4,16 +4,16 @@ module.exports = [
         "fieldAlias": "内置ID",
         "fieldType": "VARCHAR",
         "fieldLength": 60,
-        "fieldDesc": "内置ID",
+        "fieldDesc": "我们会为每个用户分配一个用户ID，代表他的唯一性",
         "groupByFlag": 0,
         "weType": 1
     }, 
     {
         "fieldName": "weUserId",
-        "fieldAlias": "用户ID",
+        "fieldAlias": "用户标识",
         "fieldType": "VARCHAR",
         "fieldLength": 60,
-        "fieldDesc": "用户ID",
+        "fieldDesc": "由用户主动传入的唯一性标识，一般是userId，手机号，身份证号等",
         "groupByFlag": 0,
         "weType": 1
     }, 
@@ -22,7 +22,7 @@ module.exports = [
         "fieldAlias": "页面地址",
         "fieldType": "VARCHAR",
         "fieldLength": 200,
-        "fieldDesc": "页面地址",
+        "fieldDesc": "我们将会自动获取页面地址，路由等",
         "groupByFlag": 1,
         "weType": 1
     },
@@ -76,7 +76,7 @@ module.exports = [
         "fieldAlias": "是否新用户",
         "fieldType": "INT",
         "fieldLength": 1,
-        "fieldDesc": "是否新用户(今天一整天都是新用户)",
+        "fieldDesc": "是否新用户(如果是新用户，当天一整天都是新用户)",
         "groupByFlag": 0,
         "weType": 1
     },
@@ -117,4 +117,3 @@ module.exports = [
         "weType": 1
     },
 ]
-

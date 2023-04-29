@@ -129,7 +129,7 @@ const createRoutes = (router) => {
     router.post('/buryPointField/update', BuryPointFieldController.update);
     router.post('/buryPointField/delete', BuryPointFieldController.delete);
     router.post('/buryPointField/page', BuryPointFieldController.getPageList);
-    router.post('/buryPointField/list', BuryPointFieldController.getList);
+    router.post('/buryPointField/list', BuryPointFieldController.getNoWeList);
     router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
     router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
     router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
@@ -201,6 +201,7 @@ const createRoutes = (router) => {
     router.post('/buryPointCard/groupByQuery', BuryPointCardController.groupByQuery);
     router.get('/buryPointCard/export', BuryPointCardController.export);
     router.get('/buryPointCard/tableDisplay', BuryPointCardController.tableDisplay);
+    router.post('/buryPointCard/moveCard', BuryPointCardController.moveCard);
 
     /**
      * 打点测试
@@ -239,11 +240,8 @@ const createRoutes = (router) => {
      router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
      router.get('/test/update', TimerStatisticController.test);
 
-     /**
-      * 处理数据
-      */
-     router.get('/handleWeFieldData', WeHandleDataController.handleWeFieldData);
-
+     /**升级2.0版本 */
+     router.get('/upgradeVersion', WeHandleDataController.upgradeVersion_2_0);
      router.get('/test/deleteTable', Common.startDelete);
 }
 
