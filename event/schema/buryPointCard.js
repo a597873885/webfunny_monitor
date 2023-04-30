@@ -22,7 +22,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'name'
     },
-    // 级别：卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图
+    // 级别：卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图，6-数值
     type: {
       type: DataTypes.INTEGER(1),
       allowNull: false,
@@ -60,7 +60,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
    },
    //同时显示=合计、均值、同比、环比
    togetherList: {
-    type: DataTypes.STRING(50),
+    type: DataTypes.STRING(200),
     allowNull: true,
     field: 'togetherList'
    },

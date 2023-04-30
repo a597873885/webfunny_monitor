@@ -1,7 +1,6 @@
 const Router = require('koa-router')
 const { Common } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
-const createTaskRoutes = require("./router/buryPointCardTask");
 const timerTask = require("./timer");
 
 const db = require('../config/db')
@@ -44,7 +43,6 @@ const router = new Router({
 })
 
 const handleResult = () => {
-    createTaskRoutes(router)
     createRoutes(router)
     // 启动定时任务, 如果是slave模式，则不启动定时器
     timerTask(global.serverType)

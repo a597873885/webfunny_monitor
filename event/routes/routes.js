@@ -1,5 +1,4 @@
-const {SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,Common,SdkReleaseController,UserController,FailController,BuryPointTemplateController} = require("../controllers/controllers.js")
-
+const {WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
 
 const createRoutes = (router) => {
     /**
@@ -101,6 +100,7 @@ const createRoutes = (router) => {
     router.get('/getSysInfo', Common.getSysInfo);
     router.get('/sysInfo', SysInfoController.getSysInfo);
     router.get('/eventBaseInfo', SysInfoController.getSysInfo);
+    router.get('/baseInfo', SysInfoController.getBaseInfo);
 
     // 更新激活码
     router.post('/createPurchaseCode', FailController.createPurchaseCode);
@@ -120,105 +120,138 @@ const createRoutes = (router) => {
      */
     router.get('/getAllTableList', Common.getAllTableList);
 
-    /**
+   /**
      * 点位字段接口
      */
-    router.post('/buryPointField/create', BuryPointFieldController.create);
-    router.get('/buryPointField/detail', BuryPointFieldController.detail);
-    router.post('/buryPointField/update', BuryPointFieldController.update);
-    router.post('/buryPointField/delete', BuryPointFieldController.delete);
-    router.post('/buryPointField/page', BuryPointFieldController.getPageList);
-    router.post('/buryPointField/list', BuryPointFieldController.getList);
-    router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
-    router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
-    router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
+   router.post('/buryPointField/create', BuryPointFieldController.create);
+   router.get('/buryPointField/detail', BuryPointFieldController.detail);
+   router.post('/buryPointField/update', BuryPointFieldController.update);
+   router.post('/buryPointField/delete', BuryPointFieldController.delete);
+   router.post('/buryPointField/page', BuryPointFieldController.getPageList);
+   router.post('/buryPointField/list', BuryPointFieldController.getNoWeList);
+   router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
+   router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
+   router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
+   router.post('/buryPointField/fieldExport', BuryPointFieldController.exportField);
+   router.post('/buryPointField/getFieldCount', BuryPointFieldController.getFieldCount);
+
+   /**
+    * 点位仓库接口
+    */
+   router.post('/buryPointWarehouse/create', BuryPointWarehouseController.create);
+   router.post('/buryPointWarehouse/update', BuryPointWarehouseController.update);
+   router.post('/buryPointWarehouse/delete', BuryPointWarehouseController.delete);
+   router.get('/buryPointWarehouse/detail', BuryPointWarehouseController.detail);
+   router.post('/buryPointWarehouse/page', BuryPointWarehouseController.getPageList);
+   router.post('/buryPointWarehouse/list', BuryPointWarehouseController.getList);
+   router.post('/buryPointWarehouse/getProjectAndWeList', BuryPointWarehouseController.getProjectAndWeList);
+   router.get('/buryPointWarehouse/AllList', BuryPointWarehouseController.getAllList);
+   router.post('/buryPointWarehouse/pointExport', BuryPointWarehouseController.exportPoint);
+
+   /**
+    * SDK发布接口
+    */
+   router.post('/sdkRelease/create', SdkReleaseController.create);
+   router.post('/sdkRelease/update', SdkReleaseController.update);
+   router.post('/sdkRelease/delete', SdkReleaseController.delete);
+   router.get('/sdkRelease/detail', SdkReleaseController.detail);
+   router.post('/sdkRelease/changeUploadDomain', SdkReleaseController.changeUploadDomain);
+   router.post('/sdkRelease/page', SdkReleaseController.getPageList);
+   router.post('/sdkRelease/list', SdkReleaseController.getList);
+   router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
+   router.post('/initCf', SdkReleaseController.initFunnelConfig);
+   router.post('/upEvent', SdkReleaseController.upEvent);
+   router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
+   router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
 
     /**
-     * 点位仓库接口
-     */
-    router.post('/buryPointWarehouse/create', BuryPointWarehouseController.create);
-    router.post('/buryPointWarehouse/update', BuryPointWarehouseController.update);
-    router.post('/buryPointWarehouse/delete', BuryPointWarehouseController.delete);
-    router.get('/buryPointWarehouse/detail', BuryPointWarehouseController.detail);
-    router.post('/buryPointWarehouse/page', BuryPointWarehouseController.getPageList);
-    router.post('/buryPointWarehouse/list', BuryPointWarehouseController.getList);
-    router.get('/buryPointWarehouse/AllList', BuryPointWarehouseController.getAllList);
+    * 点位项目接口
+    */
+   router.post('/buryPointProject/create', BuryPointProjectController.create);
+   router.post('/buryPointProject/update', BuryPointProjectController.update);
+   router.post('/buryPointProject/delete', BuryPointProjectController.delete);
+   router.post('/buryPointProject/tree', BuryPointProjectController.tree);
+   router.post('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
+   router.post('/buryPointProject/projectSimpleListByWebmonitorIds', BuryPointProjectController.projectSimpleListByWebmonitorIds);
+   router.post('/buryPointProject/addViewers', BuryPointProjectController.addViewers);
+   router.get('/buryPointProject/all', BuryPointProjectController.getAllList);
+   router.get('/buryPointProject/allProject', BuryPointProjectController.getAllProjectList);
+   router.post('/buryPointProject/getProjectTree', BuryPointProjectController.getProjectTree);
+   router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
+   router.post('/buryPointProject/sort', BuryPointProjectController.sort);
+   router.post('/buryPointProject/page/move', BuryPointProjectController.movePage);
+   router.post('/buryPointProject/copyPage', BuryPointProjectController.copyPage);
+   router.post('/buryPointProject/templateExport', BuryPointProjectController.exportTemplate);
+   router.post('/buryPointProject/existTemplate', BuryPointProjectController.existTemplate);
 
-    /**
-     * SDK发布接口
-     */
-    router.post('/sdkRelease/create', SdkReleaseController.create);
-    router.post('/sdkRelease/update', SdkReleaseController.update);
-    router.post('/sdkRelease/delete', SdkReleaseController.delete);
-    router.get('/sdkRelease/detail', SdkReleaseController.detail);
-    router.post('/sdkRelease/page', SdkReleaseController.getPageList);
-    router.post('/sdkRelease/list', SdkReleaseController.getList);
-    router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
-    router.post('/initCf', SdkReleaseController.initFunnelConfig);
-    router.post('/upEvent', SdkReleaseController.upEvent);
-    router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
-    router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
+   /**
+    * 点位卡片接口
+    */
+   router.post('/buryPointCard/create', BuryPointCardController.create);
+   router.post('/buryPointCard/card/copy', BuryPointCardController.copyCard);
+   router.post('/buryPointCard/delete', BuryPointCardController.delete);
+   router.post('/buryPointCard/deleteBatch', BuryPointCardController.deleteBatch);
+   router.post('/buryPointCard/list', BuryPointCardController.getList);
+   router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
+   router.post('/buryPointCard/update', BuryPointCardController.update);
+   router.get('/buryPointCard/detail', BuryPointCardController.detail);
+   router.post('/buryPointCard/sort', BuryPointCardController.sort);
+   router.post('/buryPointCard/order', BuryPointCardController.order);
+   router.post('/buryPointCard/refresh', BuryPointCardController.refresh);
+   router.post('/buryPointCard/groupByQuery', BuryPointCardController.groupByQuery);
+   router.get('/buryPointCard/export', BuryPointCardController.export);
+   router.get('/buryPointCard/tableDisplay', BuryPointCardController.tableDisplay);
+   router.post('/buryPointCard/moveCard', BuryPointCardController.moveCard);
 
-     /**
-     * 点位项目接口
-     */
-    router.post('/buryPointProject/create', BuryPointProjectController.create);
-    router.post('/buryPointProject/update', BuryPointProjectController.update);
-    router.post('/buryPointProject/delete', BuryPointProjectController.delete);
-    router.post('/buryPointProject/tree', BuryPointProjectController.tree);
-    router.post('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
-    router.post('/buryPointProject/projectSimpleListByWebmonitorIds', BuryPointProjectController.projectSimpleListByWebmonitorIds);
-    router.post('/buryPointProject/addViewers', BuryPointProjectController.addViewers);
-    router.get('/buryPointProject/all', BuryPointProjectController.getAllList);
-    router.get('/buryPointProject/allProject', BuryPointProjectController.getAllProjectList);
-    router.post('/buryPointProject/getProjectTree', BuryPointProjectController.getProjectTree);
-    router.post('/buryPointProject/getGroupAndPage', BuryPointProjectController.getGroupAndPage);
-    router.post('/buryPointProject/sort', BuryPointProjectController.sort);
-    router.post('/buryPointProject/page/move', BuryPointProjectController.movePage);
-    router.post('/buryPointProject/exportTemplate', BuryPointProjectController.exportTemplate);
+   /**
+    * 打点测试
+    */
+   router.post('/buryPointTest/page', BuryPointTestController.getPageList);
+   // 点位查询
+   router.post('/buryPointTest/search', BuryPointTestController.search);
+   // 根据userId查询点位列表
+   router.post('/buryPointTest/searchAllRecord', BuryPointTestController.searchAllRecord);
+   // 根据字段的key查询字段名称
+   router.post('/buryPointTest/searchFieldName', BuryPointTestController.searchFieldName);
 
-    /**
-     * 点位卡片接口
-     */
-    router.post('/buryPointCard/create', BuryPointCardController.create);
-    router.post('/buryPointCard/card/copy', BuryPointCardController.copyCard);
-    router.post('/buryPointCard/delete', BuryPointCardController.delete);
-    router.post('/buryPointCard/deleteBatch', BuryPointCardController.deleteBatch);
-    router.post('/buryPointCard/list', BuryPointCardController.getList);
-    router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
-    router.post('/buryPointCard/update', BuryPointCardController.update);
-    router.get('/buryPointCard/detail', BuryPointCardController.detail);
-    router.post('/buryPointCard/sort', BuryPointCardController.sort);
-    router.post('/buryPointCard/order', BuryPointCardController.order);
-    router.post('/buryPointCard/refresh', BuryPointCardController.refresh);
-    router.post('/buryPointCard/groupByQuery', BuryPointCardController.groupByQuery);
-    router.get('/buryPointCard/export', BuryPointCardController.export);
-    router.get('/buryPointCard/tableDisplay', BuryPointCardController.tableDisplay);
+   /**
+    * 模板接口
+    */
+    router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
+    router.post('/buryPointTemplate/updateName', BuryPointTemplateController.updateName);
+    router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
+    router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
+    router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
+    router.post('/buryPointTemplate/createProject', BuryPointTemplateController.createProject);
+    router.post('/buryPointTemplate/getMyList', BuryPointTemplateController.getMyTemplatePageList);
+    router.post('/buryPointTemplate/getCommonList', BuryPointTemplateController.getCommonTemplatePageList);
+    router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
+    router.post('/buryPointTemplate/detail', BuryPointTemplateController.detail);
 
-    /**
-     * 打点测试
-     */
-    router.post('/buryPointTest/page', BuryPointTestController.getPageList);
-
-    /**
-     * 模板接口
-     */
-     router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
-     router.post('/buryPointTemplate/update', BuryPointTemplateController.update);
-     router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
-     router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
-     router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
-     router.post('/buryPointTemplate/createProject', BuryPointTemplateController.createProject);
-     router.post('/buryPointTemplate/getMyList', BuryPointTemplateController.getMyTemplatePageList);
-     router.post('/buryPointTemplate/getCommonList', BuryPointTemplateController.getCommonTemplatePageList);
-     router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
-     
-    
-    router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
-    router.get('/test/update', TimerStatisticController.test);
+    //任务管理
+    router.post('/buryPointTask/create', BuryPointTaskController.create);
+    router.post('/buryPointTask/delete', BuryPointTaskController.delete);
+    router.post('/buryPointTask/batchDeletion', BuryPointTaskController.batchDeletion);
+    router.post('/buryPointTask/update', BuryPointTaskController.update);
+    router.post('/buryPointTask/list', BuryPointTaskController.list);
+    router.post('/buryPointTask/detail', BuryPointTaskController.detail);
+    router.post('/buryPointTask/updateStatus', BuryPointTaskController.updateStatus);
+    router.post('/buryPointTask/changeHandleMan', BuryPointTaskController.changeHandleMan);
+   
+   router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
+   router.get('/test/update', TimerStatisticController.test);
 
 
-    router.get('/test/deleteTable', Common.startDelete);
+   router.get('/test/deleteTable', Common.startDelete);
+   /**
+    * 初始化数据
+    */
+   router.get('/initWeFieldData', WeHandleDataController.initWeFieldData);
+   router.get('/initWePointData', WeHandleDataController.initWePointData);
+   router.get('/initWeTemplateData', WeHandleDataController.initWeTemplateData);
+   /**升级2.0版本 */
+   router.get('/upgradeVersion', WeHandleDataController.upgradeVersion_2_0);
+   router.get('/createDemoTemplateData', WeHandleDataController.createDemoTemplateData);
 }
 
 module.exports = {

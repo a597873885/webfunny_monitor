@@ -34,6 +34,12 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'type'
     },
+    // 系统模板KEY
+    weKey: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'weKey'
+    },
     // 分组个数
     groupCount: {
       type: DataTypes.INTEGER(3),
@@ -57,6 +63,12 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: false,
       field: 'detail'
+    },
+    // 点位信息
+    templatePoint: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      field: 'templatePoint'
     },
     // 创建人
     createBy: {
