@@ -13,7 +13,8 @@ module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
         const token = ctx.header['access-token'] || "" // 获取jwt
-        const { url } = ctx
+        let { url } = ctx
+        url = url.split("?")[0]
         // 如果是上报接口，直接通过
         if ( !(url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&

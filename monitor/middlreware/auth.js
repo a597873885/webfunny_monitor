@@ -15,8 +15,8 @@ module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
         const token = ctx.header['access-token'] || ""  // 获取jwt
-        const { url } = ctx
-
+        let { url } = ctx
+        url = url.split("?")[0]
         // 如果是根跟路径，直接返回
         if (!token && url === "/") {
             ctx.response.status = 200;

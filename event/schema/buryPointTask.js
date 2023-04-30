@@ -22,12 +22,18 @@ const BuryPointTask = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'taskDes'
     },
-    //点位ids
+    // 所有点位信息；JSON字符串；包含点位，字段，点位说明，埋点代码等的JSON字符串
     taskPoint: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING(2000),
       allowNull: false,
       field: 'taskPoint'
     },
+    // 绑定SDK_ID
+    // sdkId: {
+    //   type: DataTypes.INTEGER(11),
+    //   allowNull: true,
+    //   field: 'sdkId'
+    // },
     // 绑定项目ID
     projectId: {
       type: DataTypes.STRING(100),
@@ -46,7 +52,7 @@ const BuryPointTask = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'handleManId'
     },
-    // 处理人userID
+    // 创建人userID
     createManId: {
       type: DataTypes.STRING(100),
       allowNull: false,

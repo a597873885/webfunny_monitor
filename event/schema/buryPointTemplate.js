@@ -22,12 +22,6 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectId'
     },
-    // 系统模板KEY
-    weKey: {
-      type: DataTypes.STRING(100),
-      allowNull: true,
-      field: 'weKey'
-    },
     // 模板名称
     templateName: {
       type: DataTypes.STRING(128),
@@ -39,6 +33,12 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       type: DataTypes.INTEGER(1),
       allowNull: false,
       field: 'type'
+    },
+    // 系统模板KEY
+    weKey: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'weKey'
     },
     // 分组个数
     groupCount: {
@@ -63,7 +63,7 @@ const BuryPointTemplate = function (sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: false,
       field: 'detail'
-    }, 
+    },
     // 点位信息
     templatePoint: {
       type: DataTypes.TEXT,
