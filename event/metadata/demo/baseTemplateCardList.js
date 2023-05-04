@@ -42,64 +42,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1605,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1165,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1405,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1032,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1227,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1244,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1353,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1893,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1799,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1475,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1063,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1372,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1025,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1058,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1871,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1754,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1298,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1579,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1938,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1647,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "数量",
 		"unit": "次"
@@ -148,64 +148,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1949,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1438,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1955,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1808,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1802,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1408,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1507,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1150,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1164,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1122,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1667,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1299,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1196,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1945,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1077,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1132,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1494,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1142,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1193,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1019,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "全站流量",
 		"unit": "次"
@@ -243,64 +243,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1455,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1008,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1277,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1806,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1937,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1356,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1850,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1184,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1340,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1703,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1205,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1727,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1617,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1792,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1269,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1993,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1821,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1304,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1253,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1357,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "全站日活",
 		"unit": "人"
@@ -338,64 +338,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1739,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1966,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1714,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1861,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1750,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1304,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1448,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1309,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1988,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1056,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1798,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1459,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1707,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1622,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1648,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1721,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1831,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1811,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1068,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1833,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "注册人数",
 		"unit": "人"
@@ -433,64 +433,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 20,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 22,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 19,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 2,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 44,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 67,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 38,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 44,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 62,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 27,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 34,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 94,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 79,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 21,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 48,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 52,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 88,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 91,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 88,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 31,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "应用平均使用时间",
 		"unit": "s",
@@ -507,293 +507,293 @@ module.exports = [{
 	"refreshFrequency": null,
 	"refreshTime": "2023-04-29 22:16:19",
 	"statisticList": [{
-		"calcTotail": 1,
+		"calcTotail": 2000,
 		"calcData": [{
-			"count": 1888,
+			"count": 50,
 			"happenDate": "03-31"
 		}, {
-			"count": 1875,
+			"count": 60,
 			"happenDate": "04-01"
 		}, {
-			"count": 1207,
+			"count": 30,
 			"happenDate": "04-02"
 		}, {
-			"count": 1227,
+			"count": 43,
 			"happenDate": "04-03"
 		}, {
-			"count": 1777,
+			"count": 67,
 			"happenDate": "04-04"
 		}, {
-			"count": 1722,
+			"count": 87,
 			"happenDate": "04-05"
 		}, {
-			"count": 1770,
+			"count": 45,
 			"happenDate": "04-06"
 		}, {
-			"count": 1298,
+			"count": 36,
 			"happenDate": "04-07"
 		}, {
-			"count": 1504,
+			"count": 79,
 			"happenDate": "04-08"
 		}, {
-			"count": 1068,
+			"count": 90,
 			"happenDate": "04-09"
 		}, {
-			"count": 1341,
-			"happenDate": "04-010"
+			"count": 67,
+			"happenDate": "04-10"
 		}, {
-			"count": 1468,
-			"happenDate": "04-011"
+			"count": 54,
+			"happenDate": "04-11"
 		}, {
-			"count": 1135,
-			"happenDate": "04-012"
+			"count": 55,
+			"happenDate": "04-12"
 		}, {
-			"count": 1411,
-			"happenDate": "04-013"
+			"count": 67,
+			"happenDate": "04-13"
 		}, {
-			"count": 1091,
-			"happenDate": "04-014"
+			"count": 48,
+			"happenDate": "04-14"
 		}, {
-			"count": 1917,
-			"happenDate": "04-015"
+			"count": 56,
+			"happenDate": "04-15"
 		}, {
-			"count": 1590,
-			"happenDate": "04-016"
+			"count": 89,
+			"happenDate": "04-16"
 		}, {
-			"count": 1334,
-			"happenDate": "04-017"
+			"count": 67,
+			"happenDate": "04-17"
 		}, {
-			"count": 1448,
-			"happenDate": "04-018"
+			"count": 77,
+			"happenDate": "04-18"
 		}, {
-			"count": 1015,
-			"happenDate": "04-019"
+			"count": 66,
+			"happenDate": "04-19"
 		}, {
-			"count": 1377,
-			"happenDate": "04-020"
+			"count": 55,
+			"happenDate": "04-20"
 		}, {
-			"count": 1082,
-			"happenDate": "04-021"
+			"count": 66,
+			"happenDate": "04-21"
 		}, {
-			"count": 1654,
-			"happenDate": "04-022"
+			"count": 87,
+			"happenDate": "04-22"
 		}, {
-			"count": 1419,
-			"happenDate": "04-023"
+			"count": 56,
+			"happenDate": "04-23"
 		}, {
-			"count": 1486,
-			"happenDate": "04-024"
+			"count": 78,
+			"happenDate": "04-24"
 		}, {
-			"count": 1347,
-			"happenDate": "04-025"
+			"count": 65,
+			"happenDate": "04-25"
 		}, {
-			"count": 1179,
-			"happenDate": "04-026"
+			"count": 78,
+			"happenDate": "04-26"
 		}, {
-			"count": 1642,
-			"happenDate": "04-027"
+			"count": 89,
+			"happenDate": "04-27"
 		}, {
-			"count": 1595,
-			"happenDate": "04-028"
+			"count": 76,
+			"happenDate": "04-28"
 		}, {
-			"count": 1893,
-			"happenDate": "04-029"
+			"count": 55,
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 0,
 		"calcName": "网站访问人数",
 		"calcTotailRate": 0
 	}, {
-		"calcTotail": 1,
+		"calcTotail": 1000,
 		"calcData": [{
-			"count": 1608,
+			"count": 34,
 			"happenDate": "03-31"
 		}, {
-			"count": 1603,
+			"count": 11,
 			"happenDate": "04-01"
 		}, {
-			"count": 1232,
+			"count": 43,
 			"happenDate": "04-02"
 		}, {
-			"count": 1068,
+			"count": 45,
 			"happenDate": "04-03"
 		}, {
-			"count": 1769,
+			"count": 66,
 			"happenDate": "04-04"
 		}, {
-			"count": 1681,
+			"count": 77,
 			"happenDate": "04-05"
 		}, {
-			"count": 1005,
+			"count": 56,
 			"happenDate": "04-06"
 		}, {
-			"count": 1374,
+			"count": 80,
 			"happenDate": "04-07"
 		}, {
-			"count": 1337,
+			"count": 78,
 			"happenDate": "04-08"
 		}, {
-			"count": 1295,
+			"count": 90,
 			"happenDate": "04-09"
 		}, {
-			"count": 1482,
-			"happenDate": "04-010"
+			"count": 45,
+			"happenDate": "04-10"
 		}, {
-			"count": 1167,
-			"happenDate": "04-011"
+			"count": 33,
+			"happenDate": "04-11"
 		}, {
-			"count": 1659,
-			"happenDate": "04-012"
+			"count": 56,
+			"happenDate": "04-12"
 		}, {
-			"count": 1423,
-			"happenDate": "04-013"
+			"count": 78,
+			"happenDate": "04-13"
 		}, {
-			"count": 1768,
-			"happenDate": "04-014"
+			"count": 89,
+			"happenDate": "04-14"
 		}, {
-			"count": 1372,
-			"happenDate": "04-015"
+			"count": 87,
+			"happenDate": "04-15"
 		}, {
-			"count": 1930,
-			"happenDate": "04-016"
+			"count": 67,
+			"happenDate": "04-16"
 		}, {
-			"count": 1635,
-			"happenDate": "04-017"
+			"count": 78,
+			"happenDate": "04-17"
 		}, {
-			"count": 1239,
-			"happenDate": "04-018"
+			"count": 89,
+			"happenDate": "04-18"
 		}, {
-			"count": 1222,
-			"happenDate": "04-019"
+			"count": 55,
+			"happenDate": "04-19"
 		}, {
-			"count": 1343,
-			"happenDate": "04-020"
+			"count": 66,
+			"happenDate": "04-20"
 		}, {
-			"count": 1772,
-			"happenDate": "04-021"
+			"count": 66,
+			"happenDate": "04-21"
 		}, {
-			"count": 1221,
-			"happenDate": "04-022"
+			"count": 78,
+			"happenDate": "04-22"
 		}, {
-			"count": 1472,
-			"happenDate": "04-023"
+			"count": 89,
+			"happenDate": "04-23"
 		}, {
-			"count": 1409,
-			"happenDate": "04-024"
+			"count": 87,
+			"happenDate": "04-24"
 		}, {
-			"count": 1314,
-			"happenDate": "04-025"
+			"count": 66,
+			"happenDate": "04-25"
 		}, {
-			"count": 1013,
-			"happenDate": "04-026"
+			"count": 55,
+			"happenDate": "04-26"
 		}, {
-			"count": 1184,
-			"happenDate": "04-027"
+			"count": 66,
+			"happenDate": "04-27"
 		}, {
-			"count": 1397,
-			"happenDate": "04-028"
+			"count": 78,
+			"happenDate": "04-28"
 		}, {
-			"count": 1157,
-			"happenDate": "04-029"
+			"count": 89,
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 1,
 		"calcName": "注册人数",
 		"calcTotailRate": 100
 	}, {
-		"calcTotail": 0,
+		"calcTotail": 1000,
 		"calcData": [{
-			"count": 1136,
+			"count": 12,
 			"happenDate": "03-31"
 		}, {
-			"count": 1820,
+			"count": 18,
 			"happenDate": "04-01"
 		}, {
-			"count": 1294,
+			"count": 45,
 			"happenDate": "04-02"
 		}, {
-			"count": 1581,
+			"count": 66,
 			"happenDate": "04-03"
 		}, {
-			"count": 1235,
+			"count": 55,
 			"happenDate": "04-04"
 		}, {
-			"count": 1586,
+			"count": 56,
 			"happenDate": "04-05"
 		}, {
-			"count": 1289,
+			"count": 78,
 			"happenDate": "04-06"
 		}, {
-			"count": 1427,
+			"count": 88,
 			"happenDate": "04-07"
 		}, {
-			"count": 1844,
+			"count": 67,
 			"happenDate": "04-08"
 		}, {
-			"count": 1127,
+			"count": 78,
 			"happenDate": "04-09"
 		}, {
-			"count": 1806,
-			"happenDate": "04-010"
+			"count": 67,
+			"happenDate": "04-10"
 		}, {
-			"count": 1511,
-			"happenDate": "04-011"
+			"count": 77,
+			"happenDate": "04-11"
 		}, {
-			"count": 1515,
-			"happenDate": "04-012"
+			"count": 66,
+			"happenDate": "04-12"
 		}, {
-			"count": 1624,
-			"happenDate": "04-013"
+			"count": 78,
+			"happenDate": "04-13"
 		}, {
-			"count": 1634,
-			"happenDate": "04-014"
+			"count": 88,
+			"happenDate": "04-14"
 		}, {
-			"count": 1710,
-			"happenDate": "04-015"
+			"count": 67,
+			"happenDate": "04-15"
 		}, {
-			"count": 1295,
-			"happenDate": "04-016"
+			"count": 56,
+			"happenDate": "04-16"
 		}, {
-			"count": 1097,
-			"happenDate": "04-017"
+			"count": 78,
+			"happenDate": "04-17"
 		}, {
-			"count": 1195,
-			"happenDate": "04-018"
+			"count": 89,
+			"happenDate": "04-18"
 		}, {
-			"count": 1269,
-			"happenDate": "04-019"
+			"count": 77,
+			"happenDate": "04-19"
 		}, {
-			"count": 1244,
-			"happenDate": "04-020"
+			"count": 66,
+			"happenDate": "04-20"
 		}, {
-			"count": 1970,
-			"happenDate": "04-021"
+			"count": 77,
+			"happenDate": "04-21"
 		}, {
-			"count": 1509,
-			"happenDate": "04-022"
+			"count": 88,
+			"happenDate": "04-22"
 		}, {
-			"count": 1813,
-			"happenDate": "04-023"
+			"count": 45,
+			"happenDate": "04-23"
 		}, {
-			"count": 1507,
-			"happenDate": "04-024"
+			"count": 67,
+			"happenDate": "04-24"
 		}, {
-			"count": 1491,
-			"happenDate": "04-025"
+			"count": 89,
+			"happenDate": "04-25"
 		}, {
-			"count": 1178,
-			"happenDate": "04-026"
+			"count": 84,
+			"happenDate": "04-26"
 		}, {
-			"count": 1817,
-			"happenDate": "04-027"
+			"count": 56,
+			"happenDate": "04-27"
 		}, {
-			"count": 1848,
-			"happenDate": "04-028"
+			"count": 67,
+			"happenDate": "04-28"
 		}, {
-			"count": 1818,
-			"happenDate": "04-029"
+			"count": 78,
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 2,
 		"calcName": "下单人数",
-		"calcTotailRate": 0
+		"calcTotailRate": 100
 	}]
 }, {
 	"cardId": 333,
@@ -839,64 +839,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1481,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1662,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1470,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1600,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1328,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1574,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1717,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1433,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1379,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1347,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1672,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1584,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1193,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1001,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1747,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1880,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1567,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1451,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1098,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1879,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 0,
 		"calcName": "/home4.html"
@@ -934,64 +934,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1186,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1794,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1465,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1859,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1548,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1400,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1753,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1396,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1797,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1777,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1211,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1394,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1167,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1128,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1280,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1531,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1722,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1193,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1187,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1619,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 1,
 		"calcName": "/home2.html"
@@ -1029,64 +1029,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1220,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1724,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1732,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1776,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1605,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1149,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1601,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1566,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1059,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1834,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1848,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1278,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1532,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1319,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1710,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1023,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1513,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1578,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1235,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1998,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 2,
 		"calcName": "/home1.html"
@@ -1124,64 +1124,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1320,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1830,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1061,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1516,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1399,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1930,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1968,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1782,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1540,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1626,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1637,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1294,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1703,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1057,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1706,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1298,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1026,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1722,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1374,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1174,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 3,
 		"calcName": "/home9.html"
@@ -1219,64 +1219,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1881,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1197,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1858,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1574,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1262,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1361,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1150,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1838,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1638,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1962,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1297,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1733,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1832,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1776,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1969,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1491,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1476,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1134,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1646,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1427,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 4,
 		"calcName": "/home7.html"
@@ -1314,64 +1314,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1632,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1812,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1020,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1849,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1126,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1863,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1343,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1604,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1696,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1623,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1248,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1025,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1453,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1161,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1095,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1575,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1288,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1218,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1317,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1610,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 5,
 		"calcName": "/home8.html"
@@ -1409,64 +1409,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1893,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1087,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1843,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1001,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1711,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1066,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1050,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1312,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1086,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1606,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1016,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1580,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1940,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1934,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1346,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1611,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1414,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1114,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1903,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1707,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 6,
 		"calcName": "/home6.html"
@@ -1482,7 +1482,7 @@ module.exports = [{
 	"refreshFrequency": 0,
 	"refreshTime": "2023-04-29 21:49:30",
 	"statisticList": [{
-		"calcTotail": 2,
+		"calcTotail": 10021,
 		"calcData": [{
 			"count": 1058,
 			"happenDate": "03-31"
@@ -1515,69 +1515,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1879,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1132,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1075,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1645,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1841,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1030,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1384,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1602,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1914,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1004,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1033,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1556,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1617,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1039,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1201,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1849,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1835,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1841,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1283,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1113,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 0,
 		"calcName": "/home4.html"
 	}, {
-		"calcTotail": 2,
+		"calcTotail": 10121,
 		"calcData": [{
 			"count": 1495,
 			"happenDate": "03-31"
@@ -1610,69 +1610,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1759,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1090,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1388,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1312,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1745,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1639,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1757,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1808,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1824,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1886,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1998,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1953,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1655,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1551,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1529,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1186,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1735,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1010,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1769,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1546,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 1,
 		"calcName": "/home2.html"
 	}, {
-		"calcTotail": 2,
+		"calcTotail": 21112,
 		"calcData": [{
 			"count": 1234,
 			"happenDate": "03-31"
@@ -1705,69 +1705,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1514,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1713,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1567,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1306,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1872,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1692,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1391,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1587,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1031,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1529,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1114,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1313,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1801,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1417,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1753,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1392,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1149,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1773,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1900,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1744,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 2,
 		"calcName": "/home1.html"
 	}, {
-		"calcTotail": 2,
+		"calcTotail": 23321,
 		"calcData": [{
 			"count": 1864,
 			"happenDate": "03-31"
@@ -1800,69 +1800,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1511,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1335,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1883,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1774,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1682,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1202,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1240,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1320,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1119,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1284,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1711,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1973,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1548,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1139,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1009,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1360,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1662,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1305,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1536,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1210,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 3,
 		"calcName": "/home9.html"
 	}, {
-		"calcTotail": 2,
+		"calcTotail": 12342,
 		"calcData": [{
 			"count": 1124,
 			"happenDate": "03-31"
@@ -1895,69 +1895,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1628,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1901,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1264,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1449,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1247,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1019,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1622,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1869,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1112,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1232,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1555,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1598,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1969,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1136,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1277,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1393,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1036,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1426,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1301,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1905,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 4,
 		"calcName": "/home7.html"
 	}, {
-		"calcTotail": 1,
+		"calcTotail": 12321,
 		"calcData": [{
 			"count": 1077,
 			"happenDate": "03-31"
@@ -1990,69 +1990,69 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1064,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1080,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1640,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1204,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1972,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1403,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1148,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1997,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1191,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1726,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1443,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1905,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1597,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1832,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1886,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1466,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1377,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1229,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1645,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1021,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 5,
 		"calcName": "/home8.html"
 	}, {
-		"calcTotail": 1,
+		"calcTotail": 15645,
 		"calcData": [{
 			"count": 1953,
 			"happenDate": "03-31"
@@ -2085,64 +2085,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1429,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1805,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1043,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1947,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1159,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1381,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1978,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1153,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1335,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1606,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1445,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1922,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1134,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1395,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1797,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1644,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1761,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1881,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1917,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1776,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 6,
 		"calcName": "/home6.html"
@@ -2191,64 +2191,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1685,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1937,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1043,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1886,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1432,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1688,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1191,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1097,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1001,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1301,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1791,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1923,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1056,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1683,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1032,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1701,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1403,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1158,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1238,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1163,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "首页"
 	}, {
@@ -2285,64 +2285,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1701,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1449,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1272,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1435,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1944,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1187,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1116,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1637,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1832,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1323,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1962,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1919,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1579,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1590,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1921,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1448,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1211,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1760,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1163,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1849,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "产品"
 	}, {
@@ -2379,64 +2379,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1641,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1766,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1773,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1593,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1760,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1894,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1012,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1968,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1155,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1035,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1187,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1629,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1094,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1522,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1233,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1774,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1999,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1028,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1742,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1633,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "价格"
 	}, {
@@ -2473,64 +2473,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1695,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1051,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1321,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1339,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1061,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1546,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1755,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1702,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1547,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1176,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1681,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1173,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1759,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1405,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1494,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1581,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1132,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1656,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1262,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1073,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "案例"
 	}, {
@@ -2567,64 +2567,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1230,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1902,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1752,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1889,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1149,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1681,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1276,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1149,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1796,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1830,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1059,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1047,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1043,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1498,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1640,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1690,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1205,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1765,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1567,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1197,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "文档"
 	}, {
@@ -2661,64 +2661,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1959,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1002,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1994,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1271,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1606,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1782,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1057,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1897,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1582,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1230,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1278,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1184,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1375,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1654,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1819,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1721,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1820,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1104,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1277,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1244,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "版本"
 	}, {
@@ -2755,64 +2755,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1523,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1519,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1531,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1185,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1904,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1947,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1047,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1252,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1485,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1016,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1841,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1809,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1353,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1888,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1101,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1841,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1273,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1006,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1067,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1550,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "关于"
 	}]
@@ -2860,64 +2860,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1887,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1064,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1947,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1477,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1805,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1838,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1328,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1413,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1422,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1258,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1285,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1479,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1056,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1202,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1089,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1809,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1027,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1528,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1396,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1318,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "注册人数",
 		"unit": "人"
@@ -2955,64 +2955,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 59,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 93,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 50,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 23,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 15,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 27,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 17,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 6,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 64,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 77,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 52,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 49,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 15,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 15,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 24,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 18,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 6,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 61,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 62,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "注册成功率",
 		"unit": "%",
@@ -3062,64 +3062,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1773,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1425,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1690,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1078,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1453,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1713,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1792,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1550,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1663,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1739,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1073,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1845,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1043,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1157,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1988,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1360,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1850,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1549,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1103,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1692,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"calcName": "数量",
 		"unit": "个"
@@ -3168,64 +3168,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1494,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1733,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1402,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1519,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1463,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1413,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1581,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1569,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1680,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1425,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1265,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1876,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1177,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1542,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1828,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1048,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1530,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1599,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1678,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1527,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 0,
 		"calcName": "/home4.html"
@@ -3263,64 +3263,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1021,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1522,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1454,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1707,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1486,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1821,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1368,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1535,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1726,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1312,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1607,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1620,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1818,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1042,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1878,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1490,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1121,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1800,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1799,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1133,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 1,
 		"calcName": "/home2.html"
@@ -3358,64 +3358,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1894,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1148,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1208,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1982,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1619,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1899,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1682,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1544,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1190,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1217,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1471,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1793,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1253,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1199,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1104,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1159,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1460,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1742,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1305,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1635,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 2,
 		"calcName": "/home1.html"
@@ -3453,64 +3453,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1134,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1793,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1917,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1742,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1729,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1880,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1976,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1046,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1566,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1803,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1409,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1285,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1529,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1582,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1838,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1254,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1659,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1655,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1356,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1561,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 3,
 		"calcName": "/home9.html"
@@ -3548,64 +3548,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1469,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1718,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1585,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1697,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1737,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1189,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1963,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1972,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1873,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1404,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1753,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1324,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1067,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1071,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1599,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1165,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1998,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1398,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1723,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1729,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 4,
 		"calcName": "/home7.html"
@@ -3643,64 +3643,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1587,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1014,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1146,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1172,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1384,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1094,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1793,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1815,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1837,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1021,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1357,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1897,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1544,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1897,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1611,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1844,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1735,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1472,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1077,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1299,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 5,
 		"calcName": "/home8.html"
@@ -3738,64 +3738,64 @@ module.exports = [{
 			"happenDate": "04-09"
 		}, {
 			"count": 1591,
-			"happenDate": "04-010"
+			"happenDate": "04-10"
 		}, {
 			"count": 1700,
-			"happenDate": "04-011"
+			"happenDate": "04-11"
 		}, {
 			"count": 1860,
-			"happenDate": "04-012"
+			"happenDate": "04-12"
 		}, {
 			"count": 1126,
-			"happenDate": "04-013"
+			"happenDate": "04-13"
 		}, {
 			"count": 1929,
-			"happenDate": "04-014"
+			"happenDate": "04-14"
 		}, {
 			"count": 1697,
-			"happenDate": "04-015"
+			"happenDate": "04-15"
 		}, {
 			"count": 1846,
-			"happenDate": "04-016"
+			"happenDate": "04-16"
 		}, {
 			"count": 1281,
-			"happenDate": "04-017"
+			"happenDate": "04-17"
 		}, {
 			"count": 1262,
-			"happenDate": "04-018"
+			"happenDate": "04-18"
 		}, {
 			"count": 1731,
-			"happenDate": "04-019"
+			"happenDate": "04-19"
 		}, {
 			"count": 1891,
-			"happenDate": "04-020"
+			"happenDate": "04-20"
 		}, {
 			"count": 1163,
-			"happenDate": "04-021"
+			"happenDate": "04-21"
 		}, {
 			"count": 1084,
-			"happenDate": "04-022"
+			"happenDate": "04-22"
 		}, {
 			"count": 1283,
-			"happenDate": "04-023"
+			"happenDate": "04-23"
 		}, {
 			"count": 1813,
-			"happenDate": "04-024"
+			"happenDate": "04-24"
 		}, {
 			"count": 1836,
-			"happenDate": "04-025"
+			"happenDate": "04-25"
 		}, {
 			"count": 1911,
-			"happenDate": "04-026"
+			"happenDate": "04-26"
 		}, {
 			"count": 1057,
-			"happenDate": "04-027"
+			"happenDate": "04-27"
 		}, {
 			"count": 1081,
-			"happenDate": "04-028"
+			"happenDate": "04-28"
 		}, {
 			"count": 1694,
-			"happenDate": "04-029"
+			"happenDate": "04-29"
 		}],
 		"fieldIndex": 6,
 		"calcName": "/home6.html"
