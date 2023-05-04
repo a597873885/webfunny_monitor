@@ -65,6 +65,28 @@ const setVariableInfo = (databaseInfo) => {
     });
   }
 
+/**
+ * 初始化系统模板
+ */
+// fs.mkdir( __dirname + "/metadata", async (err) => {
+//     if ( err ) { 
+//       console.log(`= 文件夹 ${__dirname}/metadata 已经存在`)
+//     }
+//     const variableJsonPath = __dirname + "/metadata/weTemplateList.js"
+//     fs.readFile(variableJsonPath, "", (err) => {
+//       if (err) {
+//           console.log("× " + variableJsonPath + " 系统模板文件不存在，即将创建...")
+//           var variableJsonFile = baseTemplate
+//           fs.writeFile(variableJsonPath, variableJsonFile, (err) => {
+//               if (err) throw err;
+//               console.log("√ " + variableJsonPath + " 系统模板创建完成！");
+//           });
+//       } else {
+//           console.log("√ " + path + " 系统模板已存在！")
+//       }
+//     });
+// });
+
   fs.mkdir( __dirname + "/config_variable", async (err) => {
     if ( err ) { 
       console.log(`= 文件夹 ${__dirname}/config_variable 已经存在`)

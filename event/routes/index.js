@@ -1,7 +1,6 @@
 const Router = require('koa-router')
 const { Common } = require("../controllers/controllers.js")
 const { createRoutes } = require("./routes");
-const { customerWarningCallback } = require("../interceptor/customerWarning")
 const timerTask = require("./timer");
 
 const db = require('../config/db')

@@ -52,7 +52,6 @@ app.use(async (ctx, next) => {
 
 // routes
 app.use(httpRoute.routes(), httpRoute.allowedMethods())
-
 // error-handling
 app.on('error', (err, ctx) => {
     console.error('server error', err, ctx)

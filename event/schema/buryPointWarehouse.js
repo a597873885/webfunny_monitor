@@ -11,13 +11,30 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       autoIncrement: true,
       AUTO_INCREMENT: 100
     },
+     // 项目ID event1001开始
+     projectId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'projectId'
+    },
     // 点位名称
     pointName: {
       type: DataTypes.STRING(200),
       allowNull: false,
       field: 'pointName'
     },
-
+    // 通用标识：1-是，0-否
+    weType: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      field: 'weType'
+    },
+    //是否探针代码替换
+    replacePointIdKey: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'replacePointIdKey'
+    },
     // 所有字段
     fields: {
       type: DataTypes.TEXT,
@@ -25,10 +42,10 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       field: 'fields'
     },
     // 描述
-    desc: {
+    pointDesc: {
       type: DataTypes.STRING(200),
       allowNull: true,
-      field: 'desc'
+      field: 'pointDesc'
     },
     // 创建人
     createBy: {
@@ -61,7 +78,27 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
     // 为 false MySQL创建的表名称会是复数 users
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true,
-    AUTO_INCREMENT: 100
+    AUTO_INCREMENT: 100,
+    indexes: [
+      {
+        name: "idx_projectId",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "projectId"
+          }
+        ]
+      },
+      {
+        name: "idx_weType",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "weType"
+          }
+        ]
+      },
+    ]
   })
 
 }
