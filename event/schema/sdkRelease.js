@@ -53,6 +53,12 @@ const SdkRelease = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'desc'
     },
+    // 上报域名
+    uploadDomain: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'uploadDomain'
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
