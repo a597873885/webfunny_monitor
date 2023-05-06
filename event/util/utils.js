@@ -508,26 +508,6 @@ const Utils = {
     let newStr;
     switch(str) {
       case "VARCHAR":
-        newStr = "String"
-        break
-      case "INT":
-      case "BIGINT":
-        newStr = "Number"
-        break
-      default:
-        break
-    }
-    return newStr;
-  },
-
-  /**
-   * 字段类型转换
-   * String , Number
-   */
-  convertFieldType(str) {
-    let newStr;
-    switch(str) {
-      case "VARCHAR":
       case "varchar":
         newStr = "String"
         break
