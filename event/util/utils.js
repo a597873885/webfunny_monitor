@@ -520,22 +520,24 @@ const Utils = {
     return newStr;
   },
 
-   /**
+  /**
    * 字段类型转换
    * String , Number
    */
-  convertFieldTypeToChinese(str) {
+  convertFieldType(str) {
     let newStr;
     switch(str) {
       case "VARCHAR":
       case "varchar":
-        newStr = "文本"
+        newStr = "String"
         break
       case "INT":
       case "int":
       case "BIGINT":
       case "bigint":
-        newStr = "整数型"
+      case "FLOAT":
+      case "float":
+        newStr = "Number"
         break
       default:
         break
