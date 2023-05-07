@@ -76,7 +76,7 @@ module.exports = [
         "fieldAlias": "是否新用户",
         "fieldType": "INT",
         "fieldLength": 1,
-        "fieldDesc": "是否新用户(如果是新用户，当天一整天都是新用户)",
+        "fieldDesc": "是否新用户(1为新用户，2为老用户，如果是新用户，当天一整天都是新用户)",
         "groupByFlag": 0,
         "weType": 1
     },
@@ -85,7 +85,7 @@ module.exports = [
         "fieldAlias": "IP",
         "fieldType": "VARCHAR",
         "fieldLength": 20,
-        "fieldDesc": "IP",
+        "fieldDesc": "IP地址",
         "groupByFlag": 0,
         "weType": 1
     },
