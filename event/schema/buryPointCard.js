@@ -22,7 +22,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'name'
     },
-    // 级别：卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图，6-数值
+    // 级别：卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图
     type: {
       type: DataTypes.INTEGER(1),
       allowNull: false,
@@ -54,7 +54,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
    },
    //图还是表展示
    chartTableShow: {
-     type: DataTypes.STRING(10),
+     type: DataTypes.STRING(100),
      allowNull: true,
      field: 'chartTableShow'
    },
@@ -69,7 +69,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
     type: DataTypes.INTEGER(5),
     allowNull: true,
     field: 'refreshFrequency'
-    },
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
