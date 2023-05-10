@@ -40,13 +40,13 @@
 5. 访问页面：`http://localhost:8008/webfunny_center/main.html`
 
 ### 服务器安装
-[【私有化部署教程】](https://www.webfunny.cn/desMonitor?blogUrl=137&menuKey=menu1&blogKey=1-1)
+[【私有化部署教程】](https://www.webfunny.com/desMonitor)
 
 ### Docker 安装
-[【docker部署教程】](https://www.webfunny.cn/desMonitor?blogUrl=128&menuKey=menu2&blogKey=2-0)
+[【docker部署教程】](https://www.webfunny.com/desMonitor?blogUrl=128&menuKey=menu2&blogKey=2-0)
 
 ### 历史版本  
-[【版本】](https://www.webfunny.cn/version)
+[【版本】](https://www.webfunny.com/version)
  
    
 ### Webfunny技术交流群
