@@ -357,8 +357,9 @@ const Utils = {
     if (!dataStr || typeof dataStr === "object") return dataStr
     let finalRes = ""
     try {
-      finalRes = JSON.parse(data)
+      finalRes = JSON.parse(dataStr)
     } catch(e) {
+      log.printError(e)
       finalRes = dataStr
     }
     return finalRes
