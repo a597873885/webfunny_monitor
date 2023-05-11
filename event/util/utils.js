@@ -352,15 +352,16 @@ const Utils = {
    * 日志转JOSN
    *
    */
-  logParseJson(data) {
-    if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
-    const param = JSON.parse(paramStr)
-    const { logInfo } = param
-    if (!logInfo) {
-      return []
+  logParseJson(dataStr) {
+    // 如果数据为空，或者已经是对象，则原路返回
+    if (!dataStr || typeof dataStr === "object") return dataStr
+    let finalRes = ""
+    try {
+      finalRes = JSON.parse(data)
+    } catch(e) {
+      finalRes = dataStr
     }
-    return logInfo.split("$$$")
+    return finalRes
   },
 
   /**
