@@ -47,6 +47,16 @@ const setVariableInfo = (databaseInfo) => {
               "min": 100,
               "max": 100000
             }
+          },
+          "ssoCheckUrl": "",
+          "activationRequired": true,
+          "emailNeeded": {
+            "need": true,
+            "requireVerify": true
+          },
+          "phoneNeeded": {
+            "need": true,
+            "requireVerify": false
           }
         }`
         fs.writeFile(variableJsonPath, variableJsonFile, (err) => {
