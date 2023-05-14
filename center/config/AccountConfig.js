@@ -30,11 +30,11 @@ const accountInfo = {
     eventAssetsDomain: conf.eventDomain.localAssetsDomain,   // 埋点数据可视化服务域名
 
 
+
     mainDomain: conf.domain.mainDomain,  // 主域名
 
-    purchaseCode: "",                   // 激活码
-    secretCode: "",                     // 解码
-    protocol: conf.protocol,                   // 服务器之间通信采用的协议;
+    purchaseCode: conf.purchase.purchaseCode,                   // 激活码
+    secretCode: conf.purchase.secretCode,                     // 解码
     messageQueue: conf.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     openMonitor: conf.openMonitor,                    // 开启系统监控
 
@@ -47,6 +47,11 @@ const accountInfo = {
     useCusEmailSys: conf.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: conf.email.emailUser,
     emailPassword: conf.email.emailPassword,
+
+    ssoCheckUrl: conf.ssoCheckUrl,  // sso的token验证接口
+    activationRequired: conf.activationRequired,  // 是否需要激活
+    emailNeeded: conf.emailNeeded,  // 注册是否需要email
+    phoneNeeded: conf.phoneNeeded,  // 注册是否需要手机号
 }
 
 module.exports = {
