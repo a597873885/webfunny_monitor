@@ -55,9 +55,9 @@
 
 ### 官方客服微信
 
-   微信号：walkingfunny
+   微信号：webfunny2
 
-   <img width=150 src="https://www.webfunny.cn/resource/xiaoguanzong.png"/>
+   <img width=150 src="https://www.webfunny.cn/resource/webfunny2.png"/>
 
 
 ### 目录结构
