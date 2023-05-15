@@ -49,10 +49,6 @@
 [【版本】](https://www.webfunny.com/version)
  
    
-### Webfunny技术交流群
-
-   <img width=150 src="https://webfunny.cn/resource/wf_wxq2.png"/>
-
 ### 官方客服微信
 
    微信号：webfunny2
