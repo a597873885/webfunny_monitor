@@ -352,15 +352,17 @@ const Utils = {
    * 日志转JOSN
    *
    */
-  logParseJson(data) {
-    if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
-    const param = JSON.parse(paramStr)
-    const { logInfo } = param
-    if (!logInfo) {
-      return []
+  logParseJson(dataStr) {
+    // 如果数据为空，或者已经是对象，则原路返回
+    if (!dataStr || typeof dataStr === "object") return dataStr
+    let finalRes = ""
+    try {
+      finalRes = JSON.parse(dataStr)
+    } catch(e) {
+      log.printError(e)
+      finalRes = dataStr
     }
-    return logInfo.split("$$$")
+    return finalRes
   },
 
   /**
@@ -508,34 +510,16 @@ const Utils = {
     let newStr;
     switch(str) {
       case "VARCHAR":
-        newStr = "String"
-        break
-      case "INT":
-      case "BIGINT":
-        newStr = "Number"
-        break
-      default:
-        break
-    }
-    return newStr;
-  },
-
-   /**
-   * 字段类型转换
-   * String , Number
-   */
-  convertFieldTypeToChinese(str) {
-    let newStr;
-    switch(str) {
-      case "VARCHAR":
       case "varchar":
-        newStr = "文本"
+        newStr = "String"
         break
       case "INT":
       case "int":
       case "BIGINT":
       case "bigint":
-        newStr = "整数型"
+      case "FLOAT":
+      case "float":
+        newStr = "Number"
         break
       default:
         break
@@ -566,7 +550,7 @@ const Utils = {
     let goOnFlag = true;
     const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
     "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
-    "wecustomerkey","weuserid","createdat"]
+    "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     fieldParams.forEach((item) => {
         if (fieldNameConvert === item) {

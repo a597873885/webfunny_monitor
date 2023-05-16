@@ -23,7 +23,18 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'pointName'
     },
-
+    // 通用标识：1-是，0-否
+    weType: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      field: 'weType'
+    },
+    //是否探针代码替换
+    replacePointIdKey: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      field: 'replacePointIdKey'
+    },
     // 所有字段
     fields: {
       type: DataTypes.TEXT,
@@ -31,10 +42,10 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       field: 'fields'
     },
     // 描述
-    desc: {
+    pointDesc: {
       type: DataTypes.STRING(200),
       allowNull: true,
-      field: 'desc'
+      field: 'pointDesc'
     },
     // 创建人
     createBy: {
@@ -75,6 +86,15 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
         fields: [
           {
             attribute: "projectId"
+          }
+        ]
+      },
+      {
+        name: "idx_weType",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "weType"
           }
         ]
       },

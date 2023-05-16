@@ -346,16 +346,16 @@ const Utils = {
             if (response.ok) {
               if (jsonBody.status) {
                 // 业务逻辑报错
-                reject(Utils.handleResult(jsonBody, httpCustomerOperation))
+                reject(jsonBody)
               } else {
-                resolve(Utils.handleResult(jsonBody, httpCustomerOperation))
+                resolve(jsonBody)
               }
             } else {
-              reject(Utils.handleResult({ fetchStatus: "error", netStatus: response.status }, httpCustomerOperation))
+              reject({ fetchStatus: "error", netStatus: response.status, error: jsonBody.message })
             }
           }).catch(e => {
             const errMsg = e.name + " " + e.message
-            reject(Utils.handleResult({ fetchStatus: "error", error: errMsg, netStatus: response.status }, httpCustomerOperation))
+            reject({ fetchStatus: "error", error: errMsg, netStatus: response.status })
           })
         }
       ).catch(e => {
@@ -365,7 +365,7 @@ const Utils = {
           return
         }
         httpCustomerOperation.isFetched = true
-        reject(Utils.handleResult({ fetchStatus: "error", error: errMsg }, httpCustomerOperation))
+        reject({ fetchStatus: "error", error: errMsg })
       })
     })
     return Promise.race([fetchPromise, Utils.fetchTimeout(httpCustomerOperation)])

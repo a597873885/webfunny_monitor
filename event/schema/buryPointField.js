@@ -16,6 +16,12 @@ const BuryPointField = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectId'
     },
+    // 通用字段标识：1-是，0-否
+    weType: {
+      type: DataTypes.INTEGER(1),
+      allowNull: true,
+      field: 'weType'
+    },
     // 字段名称英文
     fieldName: {
       type: DataTypes.STRING(200),
@@ -90,6 +96,15 @@ const BuryPointField = function (sequelize, DataTypes) {
         fields: [
           {
             attribute: "projectId"
+          }
+        ]
+      },
+      {
+        name: "idx_weType",
+        method: "BTREE",
+        fields: [
+          {
+            attribute: "weType"
           }
         ]
       },

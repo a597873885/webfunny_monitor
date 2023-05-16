@@ -39,7 +39,12 @@ const statusCode = {
             msg
         }
     },
-
+    ERROR_CARD_BALANCE_414: (msg) => {
+        return {
+            code: 414,
+            msg
+        }
+    },
     SUCCESS_200: (msg, data) => {
         return {
             code: 200,

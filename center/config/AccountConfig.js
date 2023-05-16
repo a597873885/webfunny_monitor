@@ -47,6 +47,11 @@ const accountInfo = {
     useCusEmailSys: conf.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: conf.email.emailUser,
     emailPassword: conf.email.emailPassword,
+
+    ssoCheckUrl: conf.ssoCheckUrl,  // sso的token验证接口
+    activationRequired: conf.activationRequired,  // 是否需要激活
+    emailNeeded: conf.emailNeeded,  // 注册是否需要email
+    phoneNeeded: conf.phoneNeeded,  // 注册是否需要手机号
 }
 
 module.exports = {

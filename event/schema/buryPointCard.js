@@ -54,13 +54,13 @@ const BuryPointCard = function (sequelize, DataTypes) {
    },
    //图还是表展示
    chartTableShow: {
-     type: DataTypes.STRING(10),
+     type: DataTypes.STRING(100),
      allowNull: true,
      field: 'chartTableShow'
    },
    //同时显示=合计、均值、同比、环比
    togetherList: {
-    type: DataTypes.STRING(50),
+    type: DataTypes.STRING(200),
     allowNull: true,
     field: 'togetherList'
    },
@@ -69,7 +69,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
     type: DataTypes.INTEGER(5),
     allowNull: true,
     field: 'refreshFrequency'
-    },
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
