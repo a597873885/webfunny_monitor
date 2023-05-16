@@ -115,9 +115,15 @@ const MANAGE_API = {
     UPDATE_TEAM: `${accountInfo.centerServerDomain}/wfManage/updateTeam`,
 }
 
+// 防注入参数
+const DANGER_SQL_PARAMS = [";", "'", "<", ">", "(", ")", "update ",
+                    "select ", "union ", "and ", "or ", "from ", "insert ",
+                    "delete ", "database ", "drop ", "truncate ", "create ", "like "]
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
     PROJECT_INFO,
-    MANAGE_API
+    MANAGE_API,
+    DANGER_SQL_PARAMS
 }

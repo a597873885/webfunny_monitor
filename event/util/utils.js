@@ -352,15 +352,17 @@ const Utils = {
    * 日志转JOSN
    *
    */
-  logParseJson(data) {
-    if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
-    const param = JSON.parse(paramStr)
-    const { logInfo } = param
-    if (!logInfo) {
-      return []
+  logParseJson(dataStr) {
+    // 如果数据为空，或者已经是对象，则原路返回
+    if (!dataStr || typeof dataStr === "object") return dataStr
+    let finalRes = ""
+    try {
+      finalRes = JSON.parse(dataStr)
+    } catch(e) {
+      log.printError(e)
+      finalRes = dataStr
     }
-    return logInfo.split("$$$")
+    return finalRes
   },
 
   /**
@@ -545,17 +547,12 @@ const Utils = {
     return newStr;
   },
   checkFieldNameValid(fieldName){
-    let goOnFlag = true;
     const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
     "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
     "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
-    fieldParams.forEach((item) => {
-        if (fieldNameConvert === item) {
-            goOnFlag = false
-        }
-    })
-    return goOnFlag;
+    //存在一样的返回false
+    return fieldParams.indexOf(fieldNameConvert)===-1;
   },
 
   /**
