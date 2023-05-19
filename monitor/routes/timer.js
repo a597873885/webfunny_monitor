@@ -62,7 +62,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         const startTime = new Date().getTime();
         let count = 0;
         let prevHourMinuteStr = new Date().Format("hh:mm")
-        const fixed = () => {
+        const fixed = async () => {
             count ++;
             const tempDate = new Date()
             const tempTime = new Date().getTime()
