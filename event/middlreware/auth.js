@@ -1,19 +1,15 @@
 const jwt = require('jsonwebtoken')
 const secret = require('../config/secret')
-const util = require('util')
+const { ConfigModel } = require('../modules/models')
 const verify = jwt.verify
 const statusCode = require('../util/status-code')
-const AccountConfig = require('../config/AccountConfig')
-const { accountInfo } = AccountConfig
-const Utils = require("../util/utils")
-const log = require("../config/log")
 // 检查登录白名单
 const ignorePaths = [
     "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent",
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
-    "/sendRegisterEmail", "/resetPwd", "/addViewers", "/projectSimpleListByWebmonitorIds",
-    "/eventBaseInfo", "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport"
+    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
+    "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport"
 ]
 
 /**
@@ -36,7 +32,7 @@ module.exports = function () {
 
         let isIgnore = false
         // 检查需要过滤的接口
-        for (let i = 0; i < ignorePaths.length; i ++) {
+        for (let i = 0; i < ignorePaths.length; i++) {
             if (url.indexOf(ignorePaths[i]) !== -1) {
                 isIgnore = true
                 break
@@ -47,27 +43,48 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
-            // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
-            if (global.eventInfo.tokenListInMemory.indexOf(token) === -1) {
-                ctx.response.status = 401;
-                ctx.body = statusCode.ERROR_401("用户未登录");
-                return
-            }
+            const tokenList = global.eventInfo.tokenListInMemory
+            let loginName = ""
 
-            // 第二步，判断token是否合法
+            // 第一步，判断token是否合法
             await verify(token, secret.sign, async (err, decode) => {
                 if (err) {
                     ctx.response.status = 401;
                     ctx.body = statusCode.ERROR_401(login_error);
                     return
                 }
-                const { emailName, userId, userType, nickname } = decode
+                const { emailName, userId, userType } = decode
+                loginName = emailName
                 // 解密payload，获取用户名和ID
                 ctx.user = {
-                    emailName, userId, userType, nickname, token
+                    emailName, userId, userType, token
                 }
-                await next();
             })
+
+            let tokenValid = false
+            // 第一步判断数据库中是否有登录过的token
+            if (tokenList[loginName]) {
+                tokenValid = false
+            } else {
+                tokenValid = true
+            }
+
+            // 如果内存的token无效，则去数据库验证
+            if (!tokenValid) {
+                const tokenInfo = await ConfigModel.getConfigByName(loginName)
+                if (tokenInfo) {
+                    tokenValid = true
+                } else {
+                    tokenValid = false
+                }
+            }
+
+            if (tokenValid === false) {
+                ctx.response.status = 401;
+                ctx.body = statusCode.ERROR_401("用户未登录");
+            } else {
+                await next();
+            }
         }
     }
 }
