@@ -1,8 +1,8 @@
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
-const { WeHandleDataController,Common, UserController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
-
+const { WeHandleDataController,Common, ConfigController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
+const Utils = require("../util/utils")
 /**
  * 定时任务
  */
