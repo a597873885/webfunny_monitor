@@ -32,7 +32,7 @@ global.eventInfo = {
     loginValidateCode: "",
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
-    tokenListInMemory: [], //内存中的token列表 
+    tokenListInMemory: {}, //内存中的token列表
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

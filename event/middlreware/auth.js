@@ -13,9 +13,8 @@ const ignorePaths = [
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/addViewers", "/projectSimpleListByWebmonitorIds",
-    "/eventBaseInfo", "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion"
+    "/eventBaseInfo", "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport"
 ]
-
 
 /**
  * 判断token是否可用
