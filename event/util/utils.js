@@ -496,6 +496,9 @@ const Utils = {
       case "不等于":
         newStr = "!="
       break
+      case "归类":
+        newStr = "group by"
+      break
       default:
         break
     }
