@@ -131,6 +131,7 @@ const createRoutes = (router) => {
     router.post('/buryPointField/list', BuryPointFieldController.getNoWeList);
     router.post('/buryPointField/getListByPointId', BuryPointFieldController.getListByPointId);
     router.post('/buryPointField/getListAndWfByPointId', BuryPointFieldController.getListAndWfByPointId);
+    router.post('/buryPointField/getListAndWfByProjectId', BuryPointFieldController.getListAndWfByProjectId);
     router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
     router.post('/buryPointField/fieldExport', BuryPointFieldController.exportField);
     router.post('/buryPointField/getFieldCount', BuryPointFieldController.getFieldCount);
