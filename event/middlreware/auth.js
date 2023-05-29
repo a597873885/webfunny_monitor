@@ -53,11 +53,11 @@ module.exports = function () {
                     ctx.body = statusCode.ERROR_401(login_error);
                     return
                 }
-                const { emailName, userId, userType } = decode
+                const { emailName, userId, userType, nickname } = decode
                 loginName = emailName
                 // 解密payload，获取用户名和ID
                 ctx.user = {
-                    emailName, userId, userType, token
+                    emailName, userId, userType, token, nickname
                 }
             })
 
