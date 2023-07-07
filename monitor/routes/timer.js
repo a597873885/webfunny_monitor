@@ -172,6 +172,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                     if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
                         Common.startDelete()
                     }
+                } else if (hourTimeStr == "02:30:00") {
+                    // 凌晨2点半删除过期的数据库表，作为兜底操作。 数据一直删除不全，感觉像是权限导致的
+                    Common.startDelete()
                 }
                 // 凌晨2点20分开始删除无效的数据库表
                 // if (hourTimeStr == "02:20:00") {

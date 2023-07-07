@@ -93,11 +93,13 @@ module.exports = async () => {
                     }
                 }
                 // 凌晨2点30开始删除过期的数据库表
-                if (hourTimeStr == "02:30:00") {
+                if (hourTimeStr == "02:00:00") {
                     const uuidRes = await ConfigController.getConfig("event-master-uuid")
                     if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
                         Common.startDelete()
                     }
+                } else if (hourTimeStr == "02:30:00") {
+                    Common.startDelete()
                 }
                 // 每隔1分钟，取出全局变量global.eventInfo.logCountInMinute的值，并清0
                 if (minuteTimeStr.substring(3) == "00") {
