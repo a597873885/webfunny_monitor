@@ -58,10 +58,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             ConfigController.updateConfig("monitor-master-uuid", {configValue: global.monitorInfo.monitorMasterUuid})
         }, Math.floor(Math.random() * 1000))
 
-        if (process.env.LOGNAME === "jeffery") {
-            console.log("=====本地服务，不再启动定时器====")
-            return
-        }
+        // if (process.env.LOGNAME === "jeffery") {
+        //     console.log("=====本地服务，不再启动定时器====")
+        //     return
+        // }
         const startTime = new Date().getTime();
         let count = 0;
         let prevHourMinuteStr = new Date().Format("hh:mm")
@@ -96,17 +96,17 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
             // 每天的最后一分钟，更新一次日志信息
             if (hourTimeStr == "23:59:00") {
-                const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     MessageController.saveLastVersionInfo()
                 }
             }
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
-                const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.length) {
-                    monitorMasterUuidInDb = uuidRes[0].configValue
-                }
+                ConfigController.getConfig("monitor-master-uuid").then((uuidRes) => {
+                    if (uuidRes && uuidRes.length) {
+                        monitorMasterUuidInDb = uuidRes[0].configValue
+                    }
+                })
                 
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     // 检查警报规则是否出发

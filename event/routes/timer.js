@@ -55,10 +55,11 @@ module.exports = async () => {
 
                 // 每隔1分钟执行
                 if (minuteTimeStr.substring(3) == "00") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.length) {
-                        eventMasterUuidInDb = uuidRes[0].configValue
-                    }
+                    ConfigController.getConfig("monitor-master-uuid").then((uuidRes) => {
+                        if (uuidRes && uuidRes.length) {
+                            eventMasterUuidInDb = uuidRes[0].configValue
+                        }
+                    })
                 }
                 
                 // 每小时的第0秒，重新选举master
