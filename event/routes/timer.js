@@ -68,8 +68,8 @@ module.exports = async () => {
                     })
                 }
                 
-                // 每小时的第0秒，重新选举master
-                if (minuteTimeStr == "00:00") { 
+                // 每小时的结束前，重新选举master
+                if (minuteTimeStr == "59:50") { 
                     // 生成event-master-uuid，主服务的判断标识
                     global.eventInfo.eventMasterUuid = Utils.getUuid()
                     setTimeout(() => {

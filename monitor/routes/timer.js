@@ -93,8 +93,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 更新内存中的token
                 ConfigController.refreshTokenList()
             }
-            // 每小时的第0秒，重新选举master
-            if (minuteTimeStr == "00:00") { 
+            // 每小时结束前，重新选举master
+            if (minuteTimeStr == "59:50") { 
                 // 生成monitor-master-uuid，主服务的判断标识
                 global.monitorInfo.monitorMasterUuid = Utils.getUuid()
                 setTimeout(() => {
@@ -150,6 +150,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 每小时的前6分钟，会计算小时数据
                 if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
                     if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
+                        console.log("开始小时分析")
                         TimerCalculateController.calculateCountByHour(minuteTimeStr, 1, customerWarningCallback)
                     }
                 }
