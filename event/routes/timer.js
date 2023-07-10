@@ -17,6 +17,8 @@ module.exports = async () => {
         // 同步数据库里的token
         ConfigController.refreshTokenList()
 
+        // 数据库里存放的monitor-master-uuid
+        let eventMasterUuidInDb = ""
         // 生成event-master-uuid，主服务的判断标识
         global.eventInfo.eventMasterUuid = Utils.getUuid()
         setTimeout(() => {
@@ -50,6 +52,15 @@ module.exports = async () => {
                     // 更新内存中的token
                     ConfigController.refreshTokenList()
                 }
+
+                // 每隔1分钟执行
+                if (minuteTimeStr.substring(3) == "00") {
+                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
+                    if (uuidRes && uuidRes.length) {
+                        eventMasterUuidInDb = uuidRes[0].configValue
+                    }
+                }
+                
                 // 每小时的第0秒，重新选举master
                 if (minuteTimeStr == "00:00") { 
                     // 生成event-master-uuid，主服务的判断标识
@@ -61,8 +72,7 @@ module.exports = async () => {
 
                 // 每天的0点05分，定时执行生成今天的表
                 if (hourTimeStr == "00:05:01") {
-                    const uuidRes = await ConfigController.getConfig("event-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
+                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
                         SdkReleaseController.timerCreateTableByDay(0).catch((e)=>{
                             log.printError(e)
                         });
@@ -70,8 +80,7 @@ module.exports = async () => {
                 }
                  // 每天的23:55点，定时执行生成明天的表
                  if (hourTimeStr == "23:55:01") {
-                    const uuidRes = await ConfigController.getConfig("event-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
+                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
                         SdkReleaseController.timerCreateTableByDay(1).catch((e)=>{
                             log.printError(e)
                         });
@@ -79,25 +88,24 @@ module.exports = async () => {
                 }
                 //每天凌晨0点10分开始分析昨天的执行计算规则
                 if (hourTimeStr === '00:10:00'){
-                    const uuidRes = await ConfigController.getConfig("event-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
+                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
                         TimerStatisticController.calculateDataPreDay('', -1);
                     }
                 }
                 // 每小时的46分，开始统计今天的数据
                 let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic
                 if (isOpenTodayStatistic && minuteTimeStr == "46:00") {
-                    const uuidRes = await ConfigController.getConfig("event-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
+                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
                         TimerStatisticController.calculateDataPreDay('', 0);
                     }
                 }
                 // 凌晨2点30开始删除过期的数据库表
-                if (hourTimeStr == "02:30:00") {
-                    const uuidRes = await ConfigController.getConfig("event-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.eventInfo.eventMasterUuid) {
+                if (hourTimeStr == "02:00:00") {
+                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
                         Common.startDelete()
                     }
+                } else if (hourTimeStr == "02:30:00") {
+                    Common.startDelete()
                 }
                 // 每隔1分钟，取出全局变量global.eventInfo.logCountInMinute的值，并清0
                 if (minuteTimeStr.substring(3) == "00") {

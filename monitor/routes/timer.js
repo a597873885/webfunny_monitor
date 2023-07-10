@@ -50,6 +50,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         Common.consoleInfo()
         Common.createTable(0)
 
+        // 数据库里存放的monitor-master-uuid
+        let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
         global.monitorInfo.monitorMasterUuid = Utils.getUuid()
         setTimeout(() => {
@@ -102,7 +104,11 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
                 const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                if (uuidRes && uuidRes.length) {
+                    monitorMasterUuidInDb = uuidRes[0].configValue
+                }
+                
+                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     // 检查警报规则是否出发
                     AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
                     // 更新webMonitorId到缓存中
@@ -113,8 +119,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
             // 每隔1分钟的第5秒执行
             if (minuteTimeStr.substring(3) == "05") {
-                const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     TimerCalculateController.calculateCountByMinute(prevHourMinuteStr, 0)
                     prevHourMinuteStr = hourMinuteStr
                 }
@@ -123,20 +128,17 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             try {
                 // 如果是凌晨，则计算上一天的分析数据
                 if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
                     }
                 } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
                     }
                 }
                 // 每小时的前6分钟，会计算小时数据
                 if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         TimerCalculateController.calculateCountByHour(minuteTimeStr, 1, customerWarningCallback)
                     }
                 }
@@ -154,24 +156,24 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 }
                 // 凌晨0点01分开始创建当天的数据库表
                 if (hourTimeStr == "00:00:01") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         Common.createTable(0)
                     }
                 } 
                 // 晚上11点55分开始创建第二天的数据库表
                 if (hourTimeStr == "23:55:01") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         Common.createTable(1)
                     }
                 } 
                 // 凌晨2点开始删除过期的数据库表
                 if (hourTimeStr == "02:00:00") {
-                    const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                    if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                    if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                         Common.startDelete()
                     }
+                } else if (hourTimeStr == "02:30:00") {
+                    // 凌晨2点半删除过期的数据库表，作为兜底操作。 数据一直删除不全，感觉像是权限导致的
+                    Common.startDelete()
                 }
                 // 凌晨2点20分开始删除无效的数据库表
                 // if (hourTimeStr == "02:20:00") {
