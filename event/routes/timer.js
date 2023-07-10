@@ -3,6 +3,7 @@ const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
 const { WeHandleDataController,Common, ConfigController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
 const Utils = require("../util/utils")
+const masterUuidKey = "event-master-uuid"
 /**
  * 定时任务
  */
@@ -17,12 +18,17 @@ module.exports = async () => {
         // 同步数据库里的token
         ConfigController.refreshTokenList()
 
-        // 数据库里存放的monitor-master-uuid
+        // 数据库里存放的event-master-uuid
         let eventMasterUuidInDb = ""
         // 生成event-master-uuid，主服务的判断标识
         global.eventInfo.eventMasterUuid = Utils.getUuid()
+        ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
         setTimeout(() => {
-            ConfigController.updateConfig("event-master-uuid", {configValue: global.eventInfo.eventMasterUuid})
+            ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                if (uuidRes && uuidRes.length) {
+                    eventMasterUuidInDb = uuidRes[0].configValue
+                }
+            })
         }, Math.floor(Math.random() * 1000))
 
         //创建今天的日志表
@@ -55,7 +61,7 @@ module.exports = async () => {
 
                 // 每隔1分钟执行
                 if (minuteTimeStr.substring(3) == "00") {
-                    ConfigController.getConfig("monitor-master-uuid").then((uuidRes) => {
+                    ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
                         if (uuidRes && uuidRes.length) {
                             eventMasterUuidInDb = uuidRes[0].configValue
                         }
@@ -67,7 +73,7 @@ module.exports = async () => {
                     // 生成event-master-uuid，主服务的判断标识
                     global.eventInfo.eventMasterUuid = Utils.getUuid()
                     setTimeout(() => {
-                        ConfigController.updateConfig("event-master-uuid", {configValue: global.eventInfo.eventMasterUuid})
+                        ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
                     }, Math.floor(Math.random() * 1000))
                 }
 
@@ -93,6 +99,7 @@ module.exports = async () => {
                         TimerStatisticController.calculateDataPreDay('', -1);
                     }
                 }
+                // console.log(minuteTimeStr, eventMasterUuidInDb, global.eventInfo.eventMasterUuid)
                 // 每小时的46分，开始统计今天的数据
                 let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic
                 if (isOpenTodayStatistic && minuteTimeStr == "46:00") {

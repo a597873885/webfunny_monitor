@@ -6,6 +6,7 @@ const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
 const Utils = require("../util/utils")
+const masterUuidKey = "monitor-master-uuid"
 /**
  * 定时任务
  */
@@ -50,18 +51,26 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         Common.consoleInfo()
         Common.createTable(0)
 
+        if (process.env.LOGNAME === "jeffery") {
+            console.log("=====本地服务，不再启动定时器====")
+            return
+        }
+
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
         global.monitorInfo.monitorMasterUuid = Utils.getUuid()
+        ConfigController.updateConfig(masterUuidKey, {configValue: global.monitorInfo.monitorMasterUuid})
+
         setTimeout(() => {
-            ConfigController.updateConfig("monitor-master-uuid", {configValue: global.monitorInfo.monitorMasterUuid})
+            // 优先取出数据库里的ID
+            ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                if (uuidRes && uuidRes.length) {
+                    monitorMasterUuidInDb = uuidRes[0].configValue
+                }
+            })
         }, Math.floor(Math.random() * 1000))
 
-        // if (process.env.LOGNAME === "jeffery") {
-        //     console.log("=====本地服务，不再启动定时器====")
-        //     return
-        // }
         const startTime = new Date().getTime();
         let count = 0;
         let prevHourMinuteStr = new Date().Format("hh:mm")
@@ -89,7 +98,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 生成monitor-master-uuid，主服务的判断标识
                 global.monitorInfo.monitorMasterUuid = Utils.getUuid()
                 setTimeout(() => {
-                    ConfigController.updateConfig("monitor-master-uuid", {configValue: global.monitorInfo.monitorMasterUuid})
+                    ConfigController.updateConfig(masterUuidKey, {configValue: global.monitorInfo.monitorMasterUuid})
                 }, Math.floor(Math.random() * 1000))
             }
             
@@ -102,7 +111,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             }
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
-                ConfigController.getConfig("monitor-master-uuid").then((uuidRes) => {
+                // 查询数据库里的uuid
+                ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
                     if (uuidRes && uuidRes.length) {
                         monitorMasterUuidInDb = uuidRes[0].configValue
                     }
