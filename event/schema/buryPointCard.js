@@ -70,6 +70,18 @@ const BuryPointCard = function (sequelize, DataTypes) {
     allowNull: true,
     field: 'refreshFrequency'
    },
+   //警报通知人列表
+   alarmMembers: {
+    type: DataTypes.TEXT,
+    allowNull: true,
+    field: 'alarmMembers'
+   },
+   //chooseHook
+   chooseHook: {
+    type: DataTypes.STRING(500),
+    allowNull: true,
+    field: 'chooseHook'
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
