@@ -25,7 +25,7 @@ const BuryPointAlarmMessage = function (sequelize, DataTypes) {
     },
     // 告警id
     alarmId: {
-      type: DataTypes.INTEGER(11),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'alarmId'
     },
@@ -43,7 +43,7 @@ const BuryPointAlarmMessage = function (sequelize, DataTypes) {
     },
     // 警告级别 normal 一般，urgent 紧急，critical 严重
     urgency: {
-      type: DataTypes.STRING(10),
+      type: DataTypes.STRING(20),
       allowNull: false,
       field: 'urgency'
     },
