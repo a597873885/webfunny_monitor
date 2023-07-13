@@ -176,42 +176,65 @@ var alarmFileArray = [
   const { accountInfo } = AccountConfig
   const AlarmNames = require('./alarmName')
   
-  const alarmCallback = (project, rule, users) => {
-      const { projectName, projectType } = project
-      const {type, happenCount, compareType, limitValue} = rule
-      const compareStr = compareType === "up" ? ">=" : "<"
-  
-      /**生成警报配置 */
-      // 添加用户手机号
-      users.forEach((user) => {
-          dingDing.config.at.atMobiles.push(user.phone)
-          weiXin.config.text.mentioned_mobile_list.push(user.phone)
-      })
-      // 生成警报内容
-      const contentStr = type + "警报！" +
-          "您的" + projectType + "项目【" + projectName + "】发出警报：" +
-          type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
-      dingDing.config.text.content = contentStr
-      weiXin.config.text.content = contentStr
-      
-      /**发起警报方式 */
-      // 1. 通知钉钉机器人
-      Utils.postJson(dingDing.url, dingDing.config)  // 钉钉机器人
-  
-      // 2. 通知微信机器人
-      Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
-  
-      // 3. 发送邮件通知
-      if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
-          users.forEach((user) => {
-              const email = user.emailName
-              sendEmail(email, AlarmNames[type] + "警报！", contentStr, accountInfo.emailUser, accountInfo.emailPassword)
-          })
-      }
-  }
-  module.exports = {
-      alarmCallback
-  }`,
+  const alarmCallback = (chooseHook, content, users) => {
+    //{"value":"dingding","name":"钉钉","webHook":"https://oapi.dingtalk.com/robot/send?access_token=88497773f49a3e20be8b1e764c6315edfbd7636252b1577f9a36677c1102483a"}
+    /**生成警报配置 */
+    const noticeConfig = JSON.parse(chooseHook)
+    /**生成警报配置 */
+
+    // 添加用户手机号
+    let atMemberPhone = []
+    users.forEach((user) => {
+        atMemberPhone.push(user.phone)
+    })
+    dingDing.config.at.atMobiles = atMemberPhone
+    weiXin.config.text.mentioned_mobile_list = atMemberPhone
+    // 生成警报内容
+    dingDing.config.text.content = content
+    weiXin.config.text.content = content
+    feiSHu.config.content.text = content
+    switch(noticeConfig.value) {
+        case "dingding":
+            // 1. 通知钉钉机器人
+            Utils.postJson(noticeConfig.webHook, dingDing.config)  // 钉钉机器人
+            break
+        case "weixin":
+            // 2. 通知微信机器人
+            Utils.postJson(noticeConfig.webHook, weiXin.config)  // 微信机器人
+            break
+        case "feishu":
+            // 3. 通知飞书机器人
+            Utils.postJson(noticeConfig.webHook, feiSHu.config)  // 飞书机器人
+            break
+        case "phone":
+            // 4. 通知手机号
+            break        
+        case "email":
+            // 5. 发送邮件通知
+            const { useCusEmailSys, emailUser, emailPassword} = accountInfo
+            if (useCusEmailSys === true) {
+                // 使用用户的邮箱系统
+                if (users && users.length) {
+                    users.forEach((user) => {
+                        const email = user.emailName
+                        sendEmail(email,  "警报！", content, emailUser, emailPassword)
+                    })
+                }
+            } else {
+                // 使用webfunny的邮箱系统
+                if (users && users.length) {
+                    users.forEach((user) => {
+                        const email = user.emailName
+                        Utils.sendWfEmail(email, "警报！", content)
+                    })
+                }
+            }
+            break
+    }
+}
+module.exports = {
+    alarmCallback
+}`,
 ]
 
 fs.mkdir( __dirname + "/alarm", function(err){
