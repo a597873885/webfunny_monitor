@@ -6,6 +6,7 @@ const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
 const Utils = require("../util/utils")
+const masterUuidKey = "monitor-master-uuid"
 /**
  * 定时任务
  */
@@ -50,18 +51,26 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         Common.consoleInfo()
         Common.createTable(0)
 
-        // 数据库里存放的monitor-master-uuid
-        let monitorMasterUuidInDb = ""
-        // 生成monitor-master-uuid，主服务的判断标识
-        global.monitorInfo.monitorMasterUuid = Utils.getUuid()
-        setTimeout(() => {
-            ConfigController.updateConfig("monitor-master-uuid", {configValue: global.monitorInfo.monitorMasterUuid})
-        }, Math.floor(Math.random() * 1000))
-
         if (process.env.LOGNAME === "jeffery") {
             console.log("=====本地服务，不再启动定时器====")
             return
         }
+
+        // 数据库里存放的monitor-master-uuid
+        let monitorMasterUuidInDb = ""
+        // 生成monitor-master-uuid，主服务的判断标识
+        global.monitorInfo.monitorMasterUuid = Utils.getUuid()
+        ConfigController.updateConfig(masterUuidKey, {configValue: global.monitorInfo.monitorMasterUuid})
+
+        setTimeout(() => {
+            // 优先取出数据库里的ID
+            ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                if (uuidRes && uuidRes.length) {
+                    monitorMasterUuidInDb = uuidRes[0].configValue
+                }
+            })
+        }, Math.floor(Math.random() * 1000))
+
         const startTime = new Date().getTime();
         let count = 0;
         let prevHourMinuteStr = new Date().Format("hh:mm")
@@ -84,29 +93,30 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 更新内存中的token
                 ConfigController.refreshTokenList()
             }
-            // 每小时的第0秒，重新选举master
-            if (minuteTimeStr == "00:00") { 
+            // 每小时结束前，重新选举master
+            if (minuteTimeStr == "59:50") { 
                 // 生成monitor-master-uuid，主服务的判断标识
                 global.monitorInfo.monitorMasterUuid = Utils.getUuid()
                 setTimeout(() => {
-                    ConfigController.updateConfig("monitor-master-uuid", {configValue: global.monitorInfo.monitorMasterUuid})
+                    ConfigController.updateConfig(masterUuidKey, {configValue: global.monitorInfo.monitorMasterUuid})
                 }, Math.floor(Math.random() * 1000))
             }
             
 
             // 每天的最后一分钟，更新一次日志信息
             if (hourTimeStr == "23:59:00") {
-                const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.configValue === global.monitorInfo.monitorMasterUuid) {
+                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     MessageController.saveLastVersionInfo()
                 }
             }
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
-                const uuidRes = await ConfigController.getConfig("monitor-master-uuid")
-                if (uuidRes && uuidRes.length) {
-                    monitorMasterUuidInDb = uuidRes[0].configValue
-                }
+                // 查询数据库里的uuid
+                ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                    if (uuidRes && uuidRes.length) {
+                        monitorMasterUuidInDb = uuidRes[0].configValue
+                    }
+                })
                 
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     // 检查警报规则是否出发
