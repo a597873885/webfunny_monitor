@@ -27,6 +27,8 @@ const createRoutes = (router) => {
     router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+     // 获取当前项目所在团队的用户列表
+     router.post('/getUserListForTeam', UserController.getUserListForTeam);
     // 获取用户信息
     router.post('/getUserInfo', UserController.getUserInfo);
     // 获取简单的用户信息列表
