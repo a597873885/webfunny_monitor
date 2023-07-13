@@ -177,7 +177,6 @@ var alarmFileArray = [
   const AlarmNames = require('./alarmName')
   
   const alarmCallback = (chooseHook, content, users) => {
-    //{"value":"dingding","name":"钉钉","webHook":"https://oapi.dingtalk.com/robot/send?access_token=88497773f49a3e20be8b1e764c6315edfbd7636252b1577f9a36677c1102483a"}
     /**生成警报配置 */
     const noticeConfig = JSON.parse(chooseHook)
     /**生成警报配置 */
