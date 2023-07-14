@@ -76,11 +76,11 @@ const BuryPointCard = function (sequelize, DataTypes) {
     allowNull: true,
     field: 'alarmMembers'
    },
-   //chooseHook
-   chooseHook: {
+   //通知方式
+   noticeWay: {
     type: DataTypes.STRING(500),
     allowNull: true,
-    field: 'chooseHook'
+    field: 'noticeWay'
    },
     // 创建人
     createBy: {

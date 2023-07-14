@@ -176,10 +176,11 @@ var alarmFileArray = [
   const { accountInfo } = AccountConfig
   const AlarmNames = require('./alarmName')
   
-  const alarmCallback = (chooseHook, content, users) => {
-    /**生成警报配置 */
-    const noticeConfig = JSON.parse(chooseHook)
-    /**生成警报配置 */
+  const alarmCallback = (noticeWay, content, users) => {
+    /**生成警报配置 多种 */
+    //{ type: "email" },
+    //{ type: "robot", robotType: "dingding", webhook: "" }
+    const noticeConfigArr = JSON.parse(noticeWay)
 
     // 添加用户手机号
     let atMemberPhone = []
@@ -192,23 +193,24 @@ var alarmFileArray = [
     dingDing.config.text.content = content
     weiXin.config.text.content = content
     feiSHu.config.content.text = content
-    switch(noticeConfig.value) {
-        case "dingding":
-            // 1. 通知钉钉机器人
-            Utils.postJson(noticeConfig.webHook, dingDing.config)  // 钉钉机器人
-            break
-        case "weixin":
-            // 2. 通知微信机器人
-            Utils.postJson(noticeConfig.webHook, weiXin.config)  // 微信机器人
-            break
-        case "feishu":
-            // 3. 通知飞书机器人
-            Utils.postJson(noticeConfig.webHook, feiSHu.config)  // 飞书机器人
-            break
-        case "phone":
-            // 4. 通知手机号
-            break        
-        case "email":
+
+    noticeConfigArr.forEach((noticeConfig) => {
+        if(noticeConfig.type === 'robot'){
+            switch(noticeConfig.robotType) {
+                case "dingding":
+                    // 1. 通知钉钉机器人
+                    Utils.postJson(noticeConfig.webHook, dingDing.config)  // 钉钉机器人
+                    break
+                case "weixin":
+                    // 2. 通知微信机器人
+                    Utils.postJson(noticeConfig.webHook, weiXin.config)  // 微信机器人
+                    break
+                case "feishu":
+                    // 3. 通知飞书机器人
+                    Utils.postJson(noticeConfig.webHook, feiSHu.config)  // 飞书机器人
+                    break
+            }
+        }else{
             // 5. 发送邮件通知
             const { useCusEmailSys, emailUser, emailPassword} = accountInfo
             if (useCusEmailSys === true) {
@@ -228,8 +230,8 @@ var alarmFileArray = [
                     })
                 }
             }
-            break
-    }
+        }
+    })
 }
 module.exports = {
     alarmCallback
