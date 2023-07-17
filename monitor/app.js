@@ -13,7 +13,7 @@ const app = WebSocket(new Koa())
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
-    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,Content-Type")
+    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type")
     ctx.set("Access-Control-Allow-Credentials", true)
     ctx.set("X-Powered-By", "3.2.1")
     ctx.set("Content-Type", "application/json;charset=utf-8")
