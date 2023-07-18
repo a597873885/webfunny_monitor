@@ -82,6 +82,12 @@ const BuryPointCard = function (sequelize, DataTypes) {
     allowNull: true,
     field: 'noticeWay'
    },
+   //报警标识：1-报警，0-不报警
+   alarmStatus: {
+    type: DataTypes.INTEGER(1),
+    allowNull: true,
+    field: 'alarmStatus'
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),
