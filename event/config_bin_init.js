@@ -217,7 +217,7 @@ var alarmFileArray = [
                 // 使用用户的邮箱系统
                 if (users && users.length) {
                     users.forEach((user) => {
-                        const email = user.emailName
+                        const email = user.email
                         sendEmail(email,  "警报！", content, emailUser, emailPassword)
                     })
                 }
@@ -225,7 +225,7 @@ var alarmFileArray = [
                 // 使用webfunny的邮箱系统
                 if (users && users.length) {
                     users.forEach((user) => {
-                        const email = user.emailName
+                        const email = user.email
                         Utils.sendWfEmail(email, "警报！", content)
                     })
                 }
