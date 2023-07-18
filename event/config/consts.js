@@ -116,7 +116,7 @@ const MANAGE_API = {
 }
 
 // 防注入参数
-const DANGER_SQL_PARAMS = [";", "'", "<", ">", "(", ")", "update ",
+const DANGER_SQL_PARAMS = [";", "'", "<", ">", "update ",
                     "select ", "union ", "and ", "or ", "from ", "insert ",
                     "delete ", "database ", "drop ", "truncate ", "create ", "like "]
 
