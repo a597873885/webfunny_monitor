@@ -84,7 +84,7 @@ module.exports = [
         "fieldName": "weIp",
         "fieldAlias": "IP",
         "fieldType": "VARCHAR",
-        "fieldLength": 20,
+        "fieldLength": 50,
         "fieldDesc": "IP地址",
         "groupByFlag": 0,
         "weType": 1
