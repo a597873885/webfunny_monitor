@@ -66,7 +66,7 @@ const BuryPointAlarm = function (sequelize, DataTypes) {
     },
     // 阈值条件 大于等于 greaterThanAndEqual 、小于等于 lessThanAndEqual  demo: greaterThanAndEqual,1,1
     rule: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING(50),
       allowNull: false,
       field: 'rule',
     },
