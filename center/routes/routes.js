@@ -27,6 +27,8 @@ const createRoutes = (router) => {
     router.post('/getValidateCode', UserController.getValidateCode)
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
+    // 获取当前项目所在团队的用户列表
+    router.post('/getUserListForTeam', UserController.getUserListForTeam);
     // 获取用户信息
     router.post('/getUserInfo', UserController.getUserInfo);
     // 获取简单的用户信息列表
@@ -63,7 +65,7 @@ const createRoutes = (router) => {
     router.get('/hasSuperAdminAccount', UserController.hasSuperAdminAccount);
 
 
-    // 检查登录信息是否存在
+    // 检查登录信息是否存在(服务器间通信，废弃)
     router.post('/getUserTokenFromNetworkByToken', UserTokenController.getUserTokenFromNetworkByToken);
 
 
@@ -86,10 +88,8 @@ const createRoutes = (router) => {
     router.post("/getAllTeamList", TeamController.getAllTeamList)
     // 将团长移交给其他人
     router.post("/resetTeamLeader", TeamController.resetTeamLeader)
-    // 根据userId获取团队列表
+    // 根据团长的userId获取团队列表
     router.post("/findTeamListByLeaderId", TeamController.findTeamListByLeaderId)
-    // // 根据teamId获取团队列表
-    // router.post("/findTeamListByTeamId", TeamController.findTeamListByTeamId)
     // 获取team详情
     router.post("/getTeamDetail", TeamController.getTeamDetail)
     // 更新团队
@@ -107,9 +107,10 @@ const createRoutes = (router) => {
     router.post('/deleteProject', TeamController.deleteProject);
 
 
-    // 根据teamId获取团队列表
+    // 通用配置接口
     router.post("/applicationConfig", ApplicationConfigController.create)
     router.post("/updateSysConfigInfo", ApplicationConfigController.updateSysConfigInfo)
+    router.post("/getOtherAccessTokenWithCode", ApplicationConfigController.getOtherAccessTokenWithCode)
     router.post("/getSysConfigInfo", ApplicationConfigController.getSysConfigInfo)
     router.post('/monitorBaseInfo', ApplicationConfigController.monitorBaseInfo);
     router.post('/eventBaseInfo', ApplicationConfigController.eventBaseInfo);

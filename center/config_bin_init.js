@@ -48,6 +48,8 @@ const setVariableInfo = (databaseInfo) => {
               "max": 100000
             }
           },
+          "registerEntry": true,
+          "resetPwdEntry": true,
           "ssoCheckUrl": "",
           "activationRequired": true,
           "emailNeeded": {
@@ -102,6 +104,51 @@ fs.mkdir( __dirname + "/config_variable", async (err) => {
   
 });
 
+
+/**
+ * 初始化sso目录
+ */
+var ssoPathArray = [__dirname + "/sso/feishu.js", __dirname + "/sso/index.js"]
+var ssoFileArray = [
+  `module.exports = {
+    client_id: "",
+    client_secret: "",
+    redirect_uri: "",
+    getTokenConfig: {
+      method: "post",
+      url: ""
+    },
+    getUserInfoConfig: {
+      method: "post",
+      url: ""
+    },
+  }`,
+  `const feiShuConfig = require('./feishu')
+  module.exports = {
+    feiShuConfig
+  }`,
+]
+
+fs.mkdir( __dirname + "/sso", function(err){
+  if ( err ) { 
+    console.log(`= 文件夹 ${__dirname}/sso 已经存在`)
+  } else {
+    console.log(`= 创建文件夹 ${__dirname}/sso`)
+  }
+  ssoPathArray.forEach((path, index) => {
+      fs.readFile(path, "", (err) => {
+          if (err) {
+              console.log("× " + path + " 配置文件不存在，即将创建...")
+              fs.writeFile(path, ssoFileArray[index], (err) => {
+                  if (err) throw err;
+                  console.log("√ " + path + " 配置文件创建完成！");
+              });
+          } else {
+              console.log("√ " + path + " 配置文件已存在！")
+          }
+      });
+  })
+});
 
 /**
  * 初始化util_cus目录

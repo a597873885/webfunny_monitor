@@ -27,6 +27,7 @@ webfunny/
 webfunny_event
 schema_temp/
 alarm/
+sso/
 util_cus/
 .eslintrc
 lib/*.map
