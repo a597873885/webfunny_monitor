@@ -18,7 +18,7 @@ const Config = function (sequelize, DataTypes) {
     },
     // 配置的值
     configValue: {
-      type: DataTypes.STRING(2000),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'configValue'
     },

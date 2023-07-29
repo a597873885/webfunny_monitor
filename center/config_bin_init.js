@@ -111,16 +111,29 @@ fs.mkdir( __dirname + "/config_variable", async (err) => {
 var ssoPathArray = [__dirname + "/sso/feishu.js", __dirname + "/sso/index.js"]
 var ssoFileArray = [
   `module.exports = {
-    client_id: "",
-    client_secret: "",
-    redirect_uri: "",
-    getTokenConfig: {
+    appId: "",
+    appSecret: "",
+    redirectUri: "http://127.0.0.1:8008/webfunny_center/ssoLoading.html?ssoType=feishu",
+    jsSdk: "https://lf1-cdn-tos.bytegoofy.com/goofy/lark/op/h5-js-sdk-1.5.23.js",
+    getTenantTokenConfig: {
       method: "post",
-      url: ""
+      url: "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+    },
+    getAppTokenConfig: {
+      method: "post",
+      url: "https://open.feishu.cn/open-apis/auth/v3/app_access_token/internal"
+    },
+    getUserTokenConfig: {
+      method: "post",
+      url: "https://open.feishu.cn/open-apis/authen/v1/access_token"
+    },
+    getJsTicketConfig: {
+      method: "post",
+      url: "https://open.feishu.cn/open-apis/jssdk/ticket/get"
     },
     getUserInfoConfig: {
-      method: "post",
-      url: ""
+      method: "get",
+      url: "https://open.feishu.cn/open-apis/authen/v1/user_info"
     },
   }`,
   `const feiShuConfig = require('./feishu')

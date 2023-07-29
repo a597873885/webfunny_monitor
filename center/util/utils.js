@@ -573,6 +573,15 @@ const Utils = {
       return protocolRes
     }
   },
+  /**
+   * sha1加密
+   */
+  sha1(content) {
+    const { createHash } = crypto
+    const hash = createHash("sha1")
+    hash.update(content)
+    return hash.digest('hex')
+  },
 }
 
 module.exports = Utils

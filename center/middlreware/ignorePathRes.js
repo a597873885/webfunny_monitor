@@ -4,5 +4,5 @@ module.exports = [
     "/checkSsoToken", "/getUserTokenFromNetworkByToken", "/getSysConfigInfo", 
     "/getTeams", "/getTeamListWithoutToken", "/getTeamDetail", "/updateTeam", "/getUserInfo",
     "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
-    "/getOtherAccessTokenWithCode",
+    "/getSignatureForFeiShu", "/getAccessTokenByCodeForFeiShu"
 ]
