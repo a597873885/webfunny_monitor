@@ -147,7 +147,7 @@ setTimeout(function() {
   for(let i = 0; i < files.length; i++){
     if (files[i].indexOf(".html") >= 0) {
       fs.readFile(`${path}/${files[i]}`,function(err, data){
-        if (data.indexOf("<!-- feishu -->") >= 0) {
+        if (feiShuConfig.appId && data.indexOf("<!-- feishu -->") >= 0) {
           let newString = data.toString().replace(/<!-- feishu -->/g, `<script type = "text/javascript" src = "${feiShuConfig.jsSdk}"></script>`)
           fs.writeFile(`${path}/${files[i]}`, newString, (err) => {
             if (err) throw err;
