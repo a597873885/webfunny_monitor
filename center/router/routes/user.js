@@ -1,5 +1,5 @@
 // const UserController = require('../../controllers/user')
-const { UserController } = require("../controllers/controllers.js")
+const { UserController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
     // 检查token是否有效

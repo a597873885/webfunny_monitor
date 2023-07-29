@@ -1,4 +1,4 @@
-const { CompanyController } = require("../controllers/controllers.js")
+const { CompanyController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
     // 更新公司信息

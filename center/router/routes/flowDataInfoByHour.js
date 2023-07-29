@@ -1,5 +1,5 @@
 // const FlowDataInfoByHourController = require('../../controllers/flowDataInfoByHour')
-const { FlowDataInfoByHourController } = require("../controllers/controllers.js")
+const { FlowDataInfoByHourController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
     // 存储流量信息

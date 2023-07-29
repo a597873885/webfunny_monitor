@@ -1,5 +1,5 @@
 // const ApplicationConfigController = require('../../controllers/applicationConfig')
-const { ApplicationConfigController } = require("../controllers/controllers.js")
+const { ApplicationConfigController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
   // 获取飞书的

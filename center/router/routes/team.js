@@ -1,5 +1,5 @@
 // const TeamController = require('../../controllers/team')
-const { TeamController } = require("../controllers/controllers.js")
+const { TeamController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
     // 添加team

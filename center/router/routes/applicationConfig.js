@@ -1,4 +1,4 @@
-const { ApplicationConfigController } = require("../controllers/controllers.js")
+const { ApplicationConfigController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
   // 通用配置接口

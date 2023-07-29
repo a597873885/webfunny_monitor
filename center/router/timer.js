@@ -1,8 +1,5 @@
 require("colors")
-const UserController = require('../controllers/user')
-const CommonTableController = require('../controllers/commonTable')
-const ApplicationConfigController = require('../controllers/applicationConfig')
-const TimerCalculateController = require('../controllers/timerCalculate')
+const { UserController, CommonTableController, ApplicationConfigController, TimerCalculateController } = require("../controllers/controllers.js")
 const Utils = require('../util/utils');
 const log = require("../config/log");
 /**
