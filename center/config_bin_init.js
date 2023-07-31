@@ -128,7 +128,7 @@ var ssoFileArray = [
       url: "https://open.feishu.cn/open-apis/authen/v1/access_token"
     },
     getJsTicketConfig: {
-      method: "post",
+      method: "get",
       url: "https://open.feishu.cn/open-apis/jssdk/ticket/get"
     },
     getUserInfoConfig: {
