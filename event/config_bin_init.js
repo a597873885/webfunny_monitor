@@ -123,7 +123,7 @@ const setVariableInfo = (databaseInfo) => {
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = [__dirname + "/alarm/alarmName.js", __dirname + "/alarm/dingding.js", __dirname + "/alarm/weixin.js", __dirname + "/alarm/index.js",]
+var alarmPathArray = [__dirname + "/alarm/alarmName.js", __dirname + "/alarm/dingding.js", __dirname + "/alarm/feishu.js",__dirname + "/alarm/weixin.js", __dirname + "/alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
     PV: "浏览页面次数",
@@ -155,6 +155,20 @@ var alarmFileArray = [
         }
   }`,
   `/**
+  * 这里是飞书的机器人（关键字）的相关配置
+  * 关键字列表： 
+  * 1. 警报
+  */
+ module.exports = {
+     url: "", // 飞书机器人的URL
+     config: {
+         "msg_type": "text",
+         "content": {
+             "text": ""
+         },
+       }
+ }`,
+  `/**
   * 这里是企业微信机器人的相关配置
   */
  module.exports = {
@@ -171,6 +185,7 @@ var alarmFileArray = [
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
   const weiXin = require('../alarm/weixin')
+  const feiShu = require('../alarm/feishu')
   const Utils = require('../util/utils')
   const AccountConfig = require('../config/AccountConfig')
   const { accountInfo } = AccountConfig
@@ -192,7 +207,7 @@ var alarmFileArray = [
     // 生成警报内容
     dingDing.config.text.content = content
     weiXin.config.text.content = content
-    feiSHu.config.content.text = content
+    feiShu.config.content.text = content
 
     noticeConfigArr.forEach((noticeConfig) => {
         if(noticeConfig.type === 'robot'){
@@ -207,7 +222,7 @@ var alarmFileArray = [
                     break
                 case "feishu":
                     // 3. 通知飞书机器人
-                    Utils.postJson(noticeConfig.webHook, feiSHu.config)  // 飞书机器人
+                    Utils.postJson(noticeConfig.webHook, feiShu.config)  // 飞书机器人
                     break
             }
         }else{
