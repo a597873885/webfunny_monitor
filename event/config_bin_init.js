@@ -214,15 +214,15 @@ var alarmFileArray = [
             switch(noticeConfig.robotType) {
                 case "dingding":
                     // 1. 通知钉钉机器人
-                    Utils.postJson(noticeConfig.webHook, dingDing.config)  // 钉钉机器人
+                    Utils.postJson(noticeConfig.webhook, dingDing.config)  // 钉钉机器人
                     break
                 case "weixin":
                     // 2. 通知微信机器人
-                    Utils.postJson(noticeConfig.webHook, weiXin.config)  // 微信机器人
+                    Utils.postJson(noticeConfig.webhook, weiXin.config)  // 微信机器人
                     break
                 case "feishu":
                     // 3. 通知飞书机器人
-                    Utils.postJson(noticeConfig.webHook, feiShu.config)  // 飞书机器人
+                    Utils.postJson(noticeConfig.webhook, feiShu.config)  // 飞书机器人
                     break
             }
         }else{
