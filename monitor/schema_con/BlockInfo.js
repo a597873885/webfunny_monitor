@@ -10,7 +10,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 项目版本号
     projectVersion: {
-      type: DataTypes.STRING(36),
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'projectVersion'
     },

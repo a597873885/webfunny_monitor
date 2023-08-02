@@ -18,7 +18,7 @@ const User = function (sequelize, DataTypes) {
     },
     // 用户唯一标识
     userId: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'userId'
     },

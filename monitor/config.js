@@ -142,7 +142,7 @@ setTimeout(function() {
   const webfunnyJsPath = __dirname + "/lib/webfunny.min.js"
   const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
   const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
-                          .replace(/&&&www.webfunny.cn&&&/g, default_api_server_url)
+                          .replace(/&&&www.webfunny.cn&&&/g, localServerDomain)
                           .replace(/&&&webfunny.cn&&&/g, mainDomain);
   const webfunnyJsTargePath = __dirname + "/views/webfunny/w.js"
   fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')

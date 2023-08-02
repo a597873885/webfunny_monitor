@@ -1,10 +1,11 @@
 const Router = require('koa-router')
 const Utils = require('../util/utils');
-const { createRoutes } = require("./routes");
+const { createRouter } = require("./routes");
 const timerTask = require("./timer");
 
 
 global.monitorInfo = {
+    ssoForFeiShu: {},
     purchaseCodeProjectCount: 3,
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
@@ -37,7 +38,7 @@ const router = new Router({
     prefix: '/wfManage'
 })
 
-createRoutes(router)
+createRouter(router)
 timerTask()
 
 module.exports = router
