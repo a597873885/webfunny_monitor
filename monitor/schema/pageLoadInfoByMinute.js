@@ -22,7 +22,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 版本号
     projectVersion: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'projectVersion'
     },
@@ -42,7 +42,7 @@ const getTableProperty = (DataTypes) => {
     samplingPv: {
       type: DataTypes.INTEGER,
       allowNull: true,
-      field: 'minuteValue'
+      field: 'samplingPv'
     },
   }
   const fieldIndex = {

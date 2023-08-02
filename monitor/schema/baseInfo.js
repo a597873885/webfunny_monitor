@@ -61,9 +61,9 @@ module.exports = (DataTypes) => {
       allowNull: true,
       field: 'userId'
     },
-    // 项目版本号
+    // 项目版本号, 有用户输入的是汉字，会很长
     projectVersion: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'projectVersion'
     },

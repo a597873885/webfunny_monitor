@@ -9,7 +9,7 @@ const PerfInfoByDay = function (sequelize, DataTypes) {
     },
     // 展示名称
     showName: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(500),
       allowNull: true,
       field: 'showName'
     },
