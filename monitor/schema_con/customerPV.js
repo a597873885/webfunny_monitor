@@ -112,7 +112,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 来源页面的URL
     referrer: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(500),
         allowNull: true,
         field: 'referrer'
     },
