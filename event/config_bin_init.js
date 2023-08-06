@@ -123,7 +123,7 @@ const setVariableInfo = (databaseInfo) => {
 /**
  * 初始化alarm目录
  */
-var alarmPathArray = [__dirname + "/alarm/alarmName.js", __dirname + "/alarm/dingding.js", __dirname + "/alarm/weixin.js", __dirname + "/alarm/index.js",]
+var alarmPathArray = [__dirname + "/alarm/alarmName.js", __dirname + "/alarm/dingding.js", __dirname + "/alarm/feishu.js",__dirname + "/alarm/weixin.js", __dirname + "/alarm/index.js",]
 var alarmFileArray = [
   `module.exports = {
     PV: "浏览页面次数",
@@ -155,6 +155,20 @@ var alarmFileArray = [
         }
   }`,
   `/**
+  * 这里是飞书的机器人（关键字）的相关配置
+  * 关键字列表： 
+  * 1. 警报
+  */
+ module.exports = {
+     url: "", // 飞书机器人的URL
+     config: {
+         "msg_type": "text",
+         "content": {
+             "text": ""
+         },
+       }
+ }`,
+  `/**
   * 这里是企业微信机器人的相关配置
   */
  module.exports = {
@@ -171,47 +185,72 @@ var alarmFileArray = [
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
   const weiXin = require('../alarm/weixin')
+  const feiShu = require('../alarm/feishu')
   const Utils = require('../util/utils')
   const AccountConfig = require('../config/AccountConfig')
   const { accountInfo } = AccountConfig
   const AlarmNames = require('./alarmName')
   
-  const alarmCallback = (project, rule, users) => {
-      const { projectName, projectType } = project
-      const {type, happenCount, compareType, limitValue} = rule
-      const compareStr = compareType === "up" ? ">=" : "<"
-  
-      /**生成警报配置 */
-      // 添加用户手机号
-      users.forEach((user) => {
-          dingDing.config.at.atMobiles.push(user.phone)
-          weiXin.config.text.mentioned_mobile_list.push(user.phone)
-      })
-      // 生成警报内容
-      const contentStr = type + "警报！" +
-          "您的" + projectType + "项目【" + projectName + "】发出警报：" +
-          type + "数量 " + compareStr + " " + limitValue + " 已经发生" + happenCount + "次了，请及时处理。"
-      dingDing.config.text.content = contentStr
-      weiXin.config.text.content = contentStr
-      
-      /**发起警报方式 */
-      // 1. 通知钉钉机器人
-      Utils.postJson(dingDing.url, dingDing.config)  // 钉钉机器人
-  
-      // 2. 通知微信机器人
-      Utils.postJson(weiXin.url, weiXin.config)  // 微信机器人
-  
-      // 3. 发送邮件通知
-      if (users && users.length && accountInfo.emailUser && accountInfo.emailPassword) {
-          users.forEach((user) => {
-              const email = user.emailName
-              sendEmail(email, AlarmNames[type] + "警报！", contentStr, accountInfo.emailUser, accountInfo.emailPassword)
-          })
-      }
-  }
-  module.exports = {
-      alarmCallback
-  }`,
+  const alarmCallback = (noticeWay, content, users) => {
+    /**生成警报配置 多种 */
+    //{ type: "email" },
+    //{ type: "robot", robotType: "dingding", webhook: "" }
+    const noticeConfigArr = JSON.parse(noticeWay)
+
+    // 添加用户手机号
+    let atMemberPhone = []
+    users.forEach((user) => {
+        atMemberPhone.push(user.phone)
+    })
+    dingDing.config.at.atMobiles = atMemberPhone
+    weiXin.config.text.mentioned_mobile_list = atMemberPhone
+    // 生成警报内容
+    dingDing.config.text.content = content
+    weiXin.config.text.content = content
+    feiShu.config.content.text = content
+
+    noticeConfigArr.forEach((noticeConfig) => {
+        if(noticeConfig.type === 'robot'){
+            switch(noticeConfig.robotType) {
+                case "dingding":
+                    // 1. 通知钉钉机器人
+                    Utils.postJson(noticeConfig.webhook, dingDing.config)  // 钉钉机器人
+                    break
+                case "weixin":
+                    // 2. 通知微信机器人
+                    Utils.postJson(noticeConfig.webhook, weiXin.config)  // 微信机器人
+                    break
+                case "feishu":
+                    // 3. 通知飞书机器人
+                    Utils.postJson(noticeConfig.webhook, feiShu.config)  // 飞书机器人
+                    break
+            }
+        }else{
+            // 5. 发送邮件通知
+            const { useCusEmailSys, emailUser, emailPassword} = accountInfo
+            if (useCusEmailSys === true) {
+                // 使用用户的邮箱系统
+                if (users && users.length) {
+                    users.forEach((user) => {
+                        const email = user.email
+                        sendEmail(email,  "警报！", content, emailUser, emailPassword)
+                    })
+                }
+            } else {
+                // 使用webfunny的邮箱系统
+                if (users && users.length) {
+                    users.forEach((user) => {
+                        const email = user.email
+                        Utils.sendWfEmail(email, "警报！", content)
+                    })
+                }
+            }
+        }
+    })
+}
+module.exports = {
+    alarmCallback
+}`,
 ]
 
 fs.mkdir( __dirname + "/alarm", function(err){

@@ -351,15 +351,15 @@ const Utils = {
                 resolve(jsonBody)
               }
             } else {
-              reject({ fetchStatus: "error", netStatus: response.status, error: jsonBody.message })
+              reject({ fetchStatus: "error", netStatus: response.status, error: jsonBody.message || jsonBody.msg })
             }
           }).catch(e => {
-            const errMsg = e.name + " " + e.message
+            const errMsg = e.message || e.msg
             reject({ fetchStatus: "error", error: errMsg, netStatus: response.status })
           })
         }
       ).catch(e => {
-        const errMsg = e.name + " " + e.message
+        const errMsg = e.message || e.msg
         if (httpCustomerOperation.isAbort) {
           // 请求超时后，放弃迟到的响应
           return
@@ -401,6 +401,26 @@ const Utils = {
       "Content-Type": "application/json;charset=utf-8"
     }
     return Object.assign({}, { headers })
+  },
+
+  postForm(url, params = {}) {
+    return new Promise((resolve, reject) => {
+      fetch(url,{
+        method: 'POST',
+        body: Utils.qs(params).replace("?", ""),
+        headers:{
+            'Content-Type':'application/x-www-form-urlencoded;charset=utf-8',
+        }
+      }).then((data) => {
+        return data.text()
+      }).then((resStr) => {
+        const res = JSON.parse(resStr)
+        resolve(res)
+      }).catch((e) => {
+        reject(e)
+        log.printError(`接口报错（${url}）`, e)
+      })
+    })
   },
   /**
    * 日志转JOSN
@@ -552,6 +572,15 @@ const Utils = {
       }
       return protocolRes
     }
+  },
+  /**
+   * sha1加密
+   */
+  sha1(content) {
+    const { createHash } = crypto
+    const hash = createHash("sha1")
+    hash.update(content)
+    return hash.digest('hex')
   },
 }
 

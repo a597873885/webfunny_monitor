@@ -48,6 +48,8 @@ const accountInfo = {
     emailUser: conf.email.emailUser,
     emailPassword: conf.email.emailPassword,
 
+    registerEntry: typeof conf.registerEntry === "boolean" ? conf.registerEntry : true,  // 是否显示注册入口
+    resetPwdEntry: typeof conf.resetPwdEntry === "boolean" ? conf.resetPwdEntry : true,  // 是否显示忘记密码入口
     ssoCheckUrl: conf.ssoCheckUrl,  // sso的token验证接口
     activationRequired: conf.activationRequired,  // 是否需要激活
     emailNeeded: conf.emailNeeded,  // 注册是否需要email

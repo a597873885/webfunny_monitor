@@ -688,6 +688,27 @@ const Utils = {
     // 走到这里,说明数组或者对象中所有元素都相同,返回true
     return true;
   },
+  //比较list
+  getArrDifference : (arr1, arr2) => {
+    return arr1.concat(arr2).filter((v, i, arr) => {
+      return arr.indexOf(v) === arr.lastIndexOf(v);
+    })
+  },
+   /**
+   * 通过webfunny系统发送邮件
+   */
+   sendWfEmail: (email, title, content) => {
+    fetch("http://www.webfunny.cn/config/sendEmail",
+      {
+        method: "POST", 
+        body: JSON.stringify({email, title, content}),
+        headers: {
+            "Content-Type": "application/json;charset=utf-8"
+        }
+    }).catch((e) => {
+      console.log(e)
+    })
+  },
 }
 
 module.exports = Utils

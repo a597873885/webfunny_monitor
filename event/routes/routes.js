@@ -1,4 +1,4 @@
-const {WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
+const {BuryPointAlarmController, BuryPointAlarmMessageController,WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
 
 const createRoutes = (router) => {
     /**
@@ -244,6 +244,23 @@ const createRoutes = (router) => {
      router.post('/buryPointTask/updateStatus', BuryPointTaskController.updateStatus);
      router.post('/buryPointTask/changeHandleMan', BuryPointTaskController.changeHandleMan);
     
+    // 告警规则
+    router.post('/buryPointAlarm/create', BuryPointAlarmController.create);
+    router.post('/buryPointAlarm/copy', BuryPointAlarmController.copy);
+    router.post('/buryPointAlarm/update', BuryPointAlarmController.update);
+    router.post('/buryPointAlarm/updateStatus', BuryPointAlarmController.updateStatus);
+    router.post('/buryPointAlarm/list', BuryPointAlarmController.list);
+    router.post('/buryPointAlarm/getListByProjectId', BuryPointAlarmController.getListByProjectId);
+    router.post('/buryPointAlarm/delete', BuryPointAlarmController.delete);
+    router.post('/buryPointAlarm/batchDeletion', BuryPointAlarmController.batchDeletion);
+    router.get('/buryPointAlarm/detail', BuryPointAlarmController.detail);
+
+    // 报警记录
+    router.post('/buryPointAlarmMessage/create', BuryPointAlarmMessageController.create);
+    router.post('/buryPointAlarmMessage/list', BuryPointAlarmMessageController.list);
+    router.get('/buryPointAlarmMessage/detail', BuryPointAlarmMessageController.detail);
+    router.post('/buryPointAlarmMessage/delete', BuryPointAlarmMessageController.delete);
+
     router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
     router.get('/test/update', TimerStatisticController.test);
 
