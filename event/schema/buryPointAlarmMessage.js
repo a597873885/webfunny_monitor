@@ -56,7 +56,7 @@ const BuryPointAlarmMessage = function (sequelize, DataTypes) {
     },
     // 通知人
     notifyUsers: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.TEXT,
       allowNull: false,
       field: 'notifyUsers'
     }
