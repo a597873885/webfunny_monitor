@@ -8,10 +8,7 @@ module.exports = function () {
         const { url, query } = ctx
         const { body } = ctx.request
         // 过滤掉一些接口
-        if ( url.indexOf("upLog") === -1 &&
-            url.indexOf("upMyLog") === -1 &&
-            url.indexOf("upDLog") === -1 &&
-            url.indexOf("upMog") === -1 ) {
+        if ( url.indexOf("upEvent") === -1) {
             let goOnFlag = true
             const tempQuery = JSON.stringify(query).toLowerCase()
             const tempBody = JSON.stringify(body).toLowerCase()
