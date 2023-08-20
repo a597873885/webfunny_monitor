@@ -426,7 +426,7 @@ const Utils = {
    */
   logParseJson(data) {
     if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
+    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{").replace(/#/g, " ")
     const param = JSON.parse(paramStr)
     const { logInfo } = param
     if (!logInfo) {
