@@ -11,8 +11,14 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       autoIncrement: true,
       AUTO_INCREMENT: 100
     },
-     // 项目ID event1001开始
-     projectId: {
+    // pointId
+    pointId: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true,
+      field: 'pointId'
+    },
+    // 项目ID event1001开始
+    projectId: {
       type: DataTypes.STRING(100),
       allowNull: true,
       field: 'projectId'
