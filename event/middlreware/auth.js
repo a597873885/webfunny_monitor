@@ -5,7 +5,7 @@ const verify = jwt.verify
 const statusCode = require('../util/status-code')
 // 检查登录白名单
 const ignorePaths = [
-    "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent",
+    "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",

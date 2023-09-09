@@ -22,10 +22,15 @@ const SdkRelease = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'releaseName'
     },
-
+    // 上报域名
+    uploadDomain: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      field: 'uploadDomain'
+    },
     // 所有点位id
     pointIds: {
-      type: DataTypes.STRING(100),
+      type: DataTypes.TEXT,
       allowNull: false,
       field: 'pointIds'
     },
@@ -52,12 +57,6 @@ const SdkRelease = function (sequelize, DataTypes) {
       type: DataTypes.STRING(200),
       allowNull: true,
       field: 'desc'
-    },
-    // 上报域名
-    uploadDomain: {
-      type: DataTypes.STRING(200),
-      allowNull: true,
-      field: 'uploadDomain'
     },
     // 创建人
     createBy: {

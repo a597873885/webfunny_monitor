@@ -33,7 +33,7 @@ const createRoutes = (router) => {
     router.post('/registerCheck', UserController.registerCheck);
     // 管理员注册接口
     router.post('/registerForAdmin', UserController.registerForAdmin);
-    
+
     // 注册用户
     router.get('/register', UserController.register);
     // 重置密码
@@ -75,7 +75,7 @@ const createRoutes = (router) => {
     router.post('/updateTeamProjects', TeamController.updateTeamProjects)
     // 获取所有团队列表
     router.post("/getAllTeamList", TeamController.getAllTeamList)
-    
+
 
     /**
      * 推送信息相关
@@ -163,12 +163,13 @@ const createRoutes = (router) => {
     router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
     router.post('/initCf', SdkReleaseController.initFunnelConfig);
     router.post('/upEvent', SdkReleaseController.upEvent);
+    router.post('/upEvents', SdkReleaseController.upEvents);
     router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
     router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
 
-     /**
-     * 点位项目接口
-     */
+    /**
+    * 点位项目接口
+    */
     router.post('/buryPointProject/create', BuryPointProjectController.create);
     router.post('/buryPointProject/update', BuryPointProjectController.update);
     router.post('/buryPointProject/delete', BuryPointProjectController.delete);
@@ -219,31 +220,31 @@ const createRoutes = (router) => {
     router.post('/buryPointTest/searchFieldName', BuryPointTestController.searchFieldName);
     // 点位查询导出
     router.get('/buryPointTest/searchExport', BuryPointTestController.exportData);
-    
+
     /**
      * 模板接口
      */
-     router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
-     router.post('/buryPointTemplate/updateName', BuryPointTemplateController.updateName);
-     router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
-     router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
-     router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
-     router.post('/buryPointTemplate/createProject', BuryPointTemplateController.createProject);
-     router.post('/buryPointTemplate/getMyList', BuryPointTemplateController.getMyTemplatePageList);
-     router.post('/buryPointTemplate/getCommonList', BuryPointTemplateController.getCommonTemplatePageList);
-     router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
-     router.post('/buryPointTemplate/detail', BuryPointTemplateController.detail);
+    router.post('/buryPointTemplate/create', BuryPointTemplateController.create);
+    router.post('/buryPointTemplate/updateName', BuryPointTemplateController.updateName);
+    router.post('/buryPointTemplate/delete', BuryPointTemplateController.delete);
+    router.post('/buryPointTemplate/deleteBatch', BuryPointTemplateController.deleteBatch);
+    router.post('/buryPointTemplate/copy', BuryPointTemplateController.copy);
+    router.post('/buryPointTemplate/createProject', BuryPointTemplateController.createProject);
+    router.post('/buryPointTemplate/getMyList', BuryPointTemplateController.getMyTemplatePageList);
+    router.post('/buryPointTemplate/getCommonList', BuryPointTemplateController.getCommonTemplatePageList);
+    router.post('/buryPointTemplate/getSysList', BuryPointTemplateController.getSysTemplatePageList);
+    router.post('/buryPointTemplate/detail', BuryPointTemplateController.detail);
 
-     //任务管理
-     router.post('/buryPointTask/create', BuryPointTaskController.create);
-     router.post('/buryPointTask/delete', BuryPointTaskController.delete);
-     router.post('/buryPointTask/batchDeletion', BuryPointTaskController.batchDeletion);
-     router.post('/buryPointTask/update', BuryPointTaskController.update);
-     router.post('/buryPointTask/list', BuryPointTaskController.list);
-     router.post('/buryPointTask/detail', BuryPointTaskController.detail);
-     router.post('/buryPointTask/updateStatus', BuryPointTaskController.updateStatus);
-     router.post('/buryPointTask/changeHandleMan', BuryPointTaskController.changeHandleMan);
-    
+    //任务管理
+    router.post('/buryPointTask/create', BuryPointTaskController.create);
+    router.post('/buryPointTask/delete', BuryPointTaskController.delete);
+    router.post('/buryPointTask/batchDeletion', BuryPointTaskController.batchDeletion);
+    router.post('/buryPointTask/update', BuryPointTaskController.update);
+    router.post('/buryPointTask/list', BuryPointTaskController.list);
+    router.post('/buryPointTask/detail', BuryPointTaskController.detail);
+    router.post('/buryPointTask/updateStatus', BuryPointTaskController.updateStatus);
+    router.post('/buryPointTask/changeHandleMan', BuryPointTaskController.changeHandleMan);
+
     // 告警规则
     router.post('/buryPointAlarm/create', BuryPointAlarmController.create);
     router.post('/buryPointAlarm/copy', BuryPointAlarmController.copy);
@@ -260,9 +261,11 @@ const createRoutes = (router) => {
     router.post('/buryPointAlarmMessage/list', BuryPointAlarmMessageController.list);
     router.get('/buryPointAlarmMessage/detail', BuryPointAlarmMessageController.detail);
     router.post('/buryPointAlarmMessage/delete', BuryPointAlarmMessageController.delete);
+    
+    router.post('/buryPointAlarmMessage/test', BuryPointAlarmMessageController.testSendNotice);
 
     router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
-    router.get('/test/update', TimerStatisticController.test);
+    router.get('/test/statistic', TimerStatisticController.test);
 
 
     router.get('/test/deleteTable', Common.startDelete);
@@ -275,6 +278,7 @@ const createRoutes = (router) => {
     /**升级2.0版本 */
     router.get('/upgradeVersion', WeHandleDataController.upgradeVersion_2_0);
     router.get('/createDemoTemplateData', WeHandleDataController.createDemoTemplateData);
+
 }
 
 module.exports = {

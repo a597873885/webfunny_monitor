@@ -3,7 +3,7 @@ const moment = require('moment');
 //delete//
 const BuryPointWarehouse = function (sequelize, DataTypes) {
   return sequelize.define('BuryPointWarehouse', {
-    // ID 主键,点位id，从100开始
+    // ID 主键,
     id: {
       type: DataTypes.INTEGER(11),
       primaryKey: true,
@@ -11,8 +11,14 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       autoIncrement: true,
       AUTO_INCREMENT: 100
     },
-     // 项目ID event1001开始
-     projectId: {
+    // pointId
+    pointId: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true,
+      field: 'pointId'
+    },
+    // 项目id
+    projectId: {
       type: DataTypes.STRING(100),
       allowNull: true,
       field: 'projectId'
@@ -23,7 +29,7 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'pointName'
     },
-    // 通用标识：1-是，0-否
+    // 通用标识：1-通用点位，0-项目点位，2-备用点位
     weType: {
       type: DataTypes.INTEGER(1),
       allowNull: false,

@@ -72,7 +72,7 @@ const BuryPointAlarm = function (sequelize, DataTypes) {
     },
     // 警报内容
     content: {
-      type: DataTypes.STRING(500),
+      type: DataTypes.TEXT,
       allowNull: false,
       field: 'content',
     },

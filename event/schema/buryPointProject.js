@@ -17,6 +17,12 @@ const BuryPointProject = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectId'
     },
+    // 公司ID
+    companyId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'companyId'
+    },
      // 父id
      parentId: {
       type: DataTypes.INTEGER(11),
@@ -29,7 +35,7 @@ const BuryPointProject = function (sequelize, DataTypes) {
       allowNull: false,
       field: 'name'
     },
-    // 级别
+    // 级别:1-项目，2-分组，3-看板
     type: {
       type: DataTypes.INTEGER(1),
       allowNull: false,
@@ -49,7 +55,7 @@ const BuryPointProject = function (sequelize, DataTypes) {
     },
     // 删除状态 0, 1代表删除状态
     delStatus: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER(1),
       allowNull: true,
       field: 'delStatus'
     },
@@ -65,7 +71,7 @@ const BuryPointProject = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'sort'
     },
-    // 系统项目标识：sys
+    // 系统项目标识：1-是，0-否
     sysType: {
       type: DataTypes.STRING(5),
       allowNull: true,
