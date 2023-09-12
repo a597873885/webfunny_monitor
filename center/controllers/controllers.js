@@ -1,1 +1,2748 @@
-(function(_0x46ca7c,_0x1578fe){function _0x273e08(_0x456129,_0x2c89f9,_0x419ec9,_0x56c89d,_0x43370e){return _0x241f(_0x56c89d-0x1de,_0x43370e);}function _0x287485(_0x579ede,_0x51981f,_0x4f8d3b,_0x5f0270,_0x3a0dff){return _0x14df(_0x579ede-0x135,_0x3a0dff);}function _0x5dc24c(_0x35fcf6,_0x245a62,_0x4aaec5,_0x54dbfc,_0x2c4698){return _0x241f(_0x4aaec5- -0x111,_0x54dbfc);}function _0x339b59(_0x246fbe,_0x41b5a2,_0x311182,_0xf5a4f8,_0x11a93c){return _0x14df(_0x41b5a2-0x318,_0x246fbe);}function _0x12928f(_0x342c88,_0x52bf7a,_0x420648,_0x10a5f1,_0x348642){return _0x14df(_0x420648- -0x2e8,_0x52bf7a);}function _0x2d6499(_0x578d9f,_0x329f61,_0x34150c,_0x3710dc,_0x317192){return _0x14df(_0x317192- -0x310,_0x329f61);}function _0x70e82f(_0x453f91,_0x4bf66e,_0x49bacf,_0x5ae01b,_0x387694){return _0x241f(_0x387694- -0x34d,_0x49bacf);}const _0x3a8681=_0x46ca7c();function _0xe91c13(_0x5eb09f,_0x4af8f0,_0x15965a,_0x533928,_0x11fad9){return _0x241f(_0x533928- -0x272,_0x15965a);}function _0x571f58(_0x5487b7,_0x47b44a,_0x246a5a,_0x5e1b66,_0x5f40ea){return _0x241f(_0x5487b7-0x5e,_0x5e1b66);}while(!![]){try{const _0x4afe0b=-parseInt(_0x571f58(0x94,-0x25,-0x1d9,0xb0,0x1f6))/0x1+-parseInt(_0x70e82f(-0x2ef,-0xf6,0x4,-0x170,-0xd7))/0x2+-parseInt(_0x273e08(0x2e6,0x5b9,0x565,0x3bb,0x183))/0x3*(-parseInt(_0xe91c13(0x133,0x21,0x224,0x169,0x3ce))/0x4)+-parseInt(_0x12928f(0x21,"0B8C".split("").reverse().join(""),0x143,-0xa4,-0xd8))/0x5*(-parseInt(_0x273e08(0x43e,0x37c,0x529,0x5a3,0x4ad))/0x6)+-parseInt(_0x287485(0x2dc,0x45b,0xc3,0x4a0,"fVPy".split("").reverse().join("")))/0x7*(-parseInt(_0x5dc24c(0xdb,0x1dc,0x80,0x204,-0xcd))/0x8)+parseInt(_0x339b59("\u006e\u0021\u0029\u004f",0x798,0x543,0x84f,0x59f))/0x9*(-parseInt(_0x273e08(0x429,0x57,0x345,0x25b,0xfa))/0xa)+-parseInt(_0x273e08(0x2d2,0x117,0x4ad,0x31c,0x1bd))/0xb*(-parseInt(_0x339b59("hSPD".split("").reverse().join(""),0x573,0x37e,0x76b,0x706))/0xc);if(_0x4afe0b===_0x1578fe){break;}else{_0x3a8681["\u0070\u0075\u0073\u0068"](_0x3a8681["\u0073\u0068\u0069\u0066\u0074"]());}}catch(_0x2f3dfb){_0x3a8681["\u0070\u0075\u0073\u0068"](_0x3a8681["\u0073\u0068\u0069\u0066\u0074"]());}}})(_0x150c,0x918cb);const _0x419195=function(){let _0x1c722d=!![];return function(_0x43a0ca,_0xd1b31c){const _0x38e9bd=_0x1c722d?function(){if(_0xd1b31c){const _0x287d97=_0xd1b31c["\u0061\u0070\u0070\u006c\u0079"](_0x43a0ca,arguments);_0xd1b31c=null;return _0x287d97;}}:function(){};_0x1c722d=![];return _0x38e9bd;};}();(function(){const _0x374e9b={"\u0075\u004a\u0046\u0050\u0051":_0x11a1cc(0x2e7,0x1a4,0x62,0x2cd,0x401),'hdIfS':function(_0x217901,_0x513047){return _0x217901+_0x513047;},'mmxnd':function(_0x385807){return _0x385807();},'QHWTq':function(_0x33be3f,_0x377608,_0x34fb60){return _0x33be3f(_0x377608,_0x34fb60);}};function _0x11a1cc(_0x4477e1,_0x430c8a,_0xf05d82,_0x1e4961,_0x34b03c){return _0x241f(_0x430c8a- -0x1ca,_0x1e4961);}_0x374e9b["\u0051\u0048\u0057\u0054\u0071"](_0x419195,this,function(){function _0x1eb474(_0x4500ed,_0x3038f4,_0xcb7856,_0x193953,_0x295b7c){return _0x241f(_0x295b7c- -0x92,_0x3038f4);}function _0x15e8bc(_0x2528fe,_0x55d59e,_0x1c1f3c,_0x738555,_0x1094ae){return _0x241f(_0x738555- -0x99,_0x2528fe);}const _0x525310=new RegExp(_0x272871(0x37b,0x289,0x1fa,-0x18,0x1e7));const _0x5872e4=new RegExp(_0x272871(0x355,0x2ae,0x286,0x129,0x4ee),'i');const _0x118ad9=_0x37e52d(_0x374e9b['uJFPQ']);function _0x272871(_0x3bf4c2,_0x1654b1,_0x5d8c84,_0x2ada5a,_0x2a1e70){return _0x241f(_0x5d8c84- -0x133,_0x2a1e70);}function _0x433841(_0x348d57,_0x5beda5,_0x2423f4,_0x226e46,_0x1d6a2f){return _0x14df(_0x1d6a2f-0x11a,_0x5beda5);}if(!_0x525310["\u0074\u0065\u0073\u0074"](_0x118ad9+_0x433841(0xb4,"\u0070\u0063\u0034\u0025",0x452,0x4f1,0x298))||!_0x5872e4["\u0074\u0065\u0073\u0074"](_0x374e9b["\u0068\u0064\u0049\u0066\u0053"](_0x118ad9,_0x15e8bc(0x528,0x3cc,0x57d,0x3bf,0x196)))){_0x118ad9('0');}else{_0x374e9b["\u006d\u006d\u0078\u006e\u0064"](_0x37e52d);}})();})();const db=require(_0x451f2b(0x143,-0x8e,-0xa4,-0x47,0x15b));const Sequelize=db['sequelize'];function _0x5c6e1f(_0x2d6226,_0x5c5e5b,_0xad1420,_0x3cd74d,_0x53141d){return _0x241f(_0x5c5e5b-0x315,_0x2d6226);}function _0x372616(_0x4f6780,_0x13a21f,_0xa9f5a9,_0x2c842c,_0x5018dd){return _0x241f(_0x5018dd- -0x33c,_0xa9f5a9);}const colors=require(_0x4e8dea(0x3e0,0x317,0x5bd,0x380,0x216));const Utils=require(_0x451f2b(0xde,0x100,0x1e9,0x1f6,-0x19));function _0x5b7504(_0x14b36a,_0x4633c5,_0x3bc11c,_0x5aa19b,_0x520adc){return _0x241f(_0x3bc11c-0x270,_0x5aa19b);}const utils=require(_0x372616(-0x61,0x322,-0xb5,0x1ac,0x17b));const CusUtils=require(_0x5b7504(0x43e,0x5ad,0x498,0x38b,0x28f));function _0x326062(_0x1d37ff,_0x2f3432,_0x3f846a,_0x55527b,_0x3acaee){return _0x14df(_0x55527b-0x22,_0x2f3432);}const log=require(_0x5cbcf6(0x133,"DtI[".split("").reverse().join(""),0x1a3,0x99,0x186));const statusCode=require(_0x432852(0xd6,0x8c,0xf1,"[9aM".split("").reverse().join(""),0x1bb));const{UPLOAD_TYPE}=require(_0x5cbcf6(0xdb,"\u0023\u0044\u0023\u0070",0x233,0x113,0x150));const{PROJECT_INFO}=require(_0x451f2b(0x242,0x132,-0x32,0x92,-0x153));const fetch=require(_0x5cbcf6(0x1d0,"s*Zn".split("").reverse().join(""),0x101,0x3e,0x6));const jwt=require(_0x7cd222(0xf7,0xa7,-0xab,0x148,'Qes('));const secret=require(_0x326062(-0x186,"fVPy".split("").reverse().join(""),0x6a,0x38,0x22a));const{USER_INFO}=require(_0x5c6e1f(0x3f0,0x5b1,0x4f7,0x4ba,0x32a));function _0x4e8dea(_0x19d14a,_0xeaeeca,_0x2ded0e,_0x486716,_0x1741b9){return _0x241f(_0x19d14a-0xb0,_0x2ded0e);}const xlsx=require(_0x326062(0x15c,"\u0066\u0042\u0067\u0033",0x3e5,0x180,0x3bd));function _0x241f(_0x5acc0b,_0x17e281){const _0x37e52d=_0x150c();_0x241f=function(_0x419195,_0x150c83){_0x419195=_0x419195-0x0;let _0x241fc3=_0x37e52d[_0x419195];if(_0x241f["\u0079\u0047\u0067\u0066\u0067\u007a"]===undefined){var _0x261739=function(_0x22236e){const _0x3616d1="=/+9876543210ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba".split("").reverse().join("");let _0x14df39="".split("").reverse().join("");let _0x23cc35="".split("").reverse().join("");for(let _0x33340a=0x0,_0x3d2b57,_0x3a1404,_0x29a0fd=0x0;_0x3a1404=_0x22236e['charAt'](_0x29a0fd++);~_0x3a1404&&(_0x3d2b57=_0x33340a%0x4?_0x3d2b57*0x40+_0x3a1404:_0x3a1404,_0x33340a++%0x4)?_0x14df39+=String['fromCharCode'](0xff&_0x3d2b57>>(-0x2*_0x33340a&0x6)):0x0){_0x3a1404=_0x3616d1['indexOf'](_0x3a1404);}for(let _0x1fc460=0x0,_0x2353ef=_0x14df39['length'];_0x1fc460<_0x2353ef;_0x1fc460++){_0x23cc35+='%'+("\u0030\u0030"+_0x14df39["\u0063\u0068\u0061\u0072\u0043\u006f\u0064\u0065\u0041\u0074"](_0x1fc460)['toString'](0x10))["\u0073\u006c\u0069\u0063\u0065"](-0x2);}return decodeURIComponent(_0x23cc35);};_0x241f['gBPsen']=_0x261739;_0x5acc0b=arguments;_0x241f["\u0079\u0047\u0067\u0066\u0067\u007a"]=!![];}const _0x29d0e4=_0x37e52d[0x0];const _0x31ac84=_0x419195+_0x29d0e4;const _0x3fb8ab=_0x5acc0b[_0x31ac84];if(!_0x3fb8ab){_0x241fc3=_0x241f['gBPsen'](_0x241fc3);_0x5acc0b[_0x31ac84]=_0x241fc3;}else{_0x241fc3=_0x3fb8ab;}return _0x241fc3;};return _0x241f(_0x5acc0b,_0x17e281);}const fs=require('fs');const nodemailer=require(_0x5cbcf6(-0x378,"\u0069\u0059\u0066\u0059",-0x28f,-0x23c,-0x2bd));const formidable=require(_0x365d6a(0x55,0x6b,0xe2,"\u006a\u0025\u0023\u002a",0x19c));const AccountConfig=require(_0x7cd222(-0x1f6,0x0,-0x115,0x25,'h1%V'));const process=require(_0x372616(0x1db,0x2dc,0x23e,0x1dd,0x1a9));function _0x150c(){const _0x49f447=["\u0057\u0037\u0062\u0050\u0057\u0037\u006c\u0064\u0048\u0032\u0076\u0058\u006d\u0071",'D8o4hN/cOmkpW6W','WOvsbW',"\u0077\u0049\u002f\u0064\u0049\u0038\u006b\u0070\u0068\u0058\u0072\u0058\u0045\u0078\u0061","y2uevxA".split("").reverse().join(""),"OjVVxkTOhlPL7wzR9gDqIO5Fs55".split("").reverse().join(""),'vmk4W7DQWPhcM8oAwq',"iPWOu1Rdl4W".split("").reverse().join(""),'xfhdHmk2sSkpW7hdJdSbW44','y2HLy2TvC2vYqwnJB3vUDa',"i4WMo8hrm5W".split("").reverse().join(""),"rkCOdJQWgkCKcJYn2o8PdJ6W85QWPkmGcB5Wdk8IctRW".split("").reverse().join(""),"akCTdFcxlTYp5kCUd/HE".split("").reverse().join(""),'W4iBgCo4W5LBvZe',"0v3BN9gB".split("").reverse().join(""),'C3LZ','W6b0W7JdIgrDmSoQuMxdVL0n',"Lr2Bdv2CHH2yYvhC".split("").reverse().join(""),"\u0057\u0052\u0068\u0064\u004f\u0074\u006d\u0033\u0041\u0047",'fs5VgwXhW4pcKSkkc8kO','WOXwgSkAWO7dKmkTWPf7qG','e2XwWOpcLqC','WQfQW7K9Ea',"\u0035\u0079\u0049\u0042\u0035\u0042\u0055\u0036\u0035\u006c\u002b\u0048\u0035\u004f\u0067\u0056\u0035\u004f\u0049\u0071\u0035\u0079\u0051\u0046",'Ahr0CdOVlW','yrVcMaH7a03cSGhdPbqWlq',"WPdh4WjPZIcRXgLSOW".split("").reverse().join(""),"\u0057\u004f\u006e\u0050\u0057\u0034\u0079\u0054\u0074\u0043\u006b\u0066\u0057\u0036\u0079\u0050","KLKCLnxD".split("").reverse().join(""),'CCoYbg/cQ+AuNoAxKa',"\u0057\u0052\u0070\u0064\u0053\u0063\u0038\u0034\u007a\u004d\u0047\u0061\u0072\u0057\u007a\u0079\u006f\u0038\u006f\u0055\u0057\u0050\u0062\u0038\u0057\u0036\u005a\u0064\u0052\u0038\u006f\u0047\u006d\u004e\u0064\u0063\u004e\u0043\u006b\u0048\u007a\u0064\u0034",'rM9YBwf0',"\u0043\u004d\u0076\u005a\u0043\u0067\u0039\u0055\u0043\u0032\u0075",'W5ObW7e','a1zaW7SebL0',"\u0079\u0033\u0076\u005a\u0044\u0067\u0039\u0054\u007a\u0078\u0069","\u0043\u0033\u0072\u0048\u0044\u0068\u0076\u005a","OjVV7wzR9gDqIO5Fs55".split("").reverse().join(""),"\u0057\u0035\u0066\u0071\u0057\u0035\u0064\u0064\u0052\u0031\u004f","\u0064\u0053\u006b\u004a\u0079\u0059\u0076\u0064\u006c\u0043\u006f\u006d",'WPzpgCoLjSkXWRToW5DR','jWFdOtCt',"n+77yYz5k2A5gQl5YMO5fwP5wAP5C2y5cAl6X277Ysl6CEA5a+B5bI55".split("").reverse().join(""),"\u0067\u004e\u0066\u004f\u0057\u0036\u0037\u0064\u0047\u0061\u0069\u0058\u0071\u0048\u0042\u0064\u0050\u0064\u004a\u0063\u0052\u0031\u0058\u006b\u0057\u0034\u0064\u0063\u004e\u0053\u006f\u006c\u0057\u004f\u006c\u0064\u0054\u0032\u005a\u0064\u004a\u0053\u006f\u0075\u0069\u0062\u0034\u0064\u0057\u0052\u0046\u0063\u0048\u0043\u006b\u006a\u0057\u0034\u0078\u0064\u004d\u004e\u004f\u0033\u0057\u0035\u0061\u002f\u0057\u0051\u0064\u0064\u0054\u0043\u006f\u0032\u0057\u0035\u0033\u0063\u0047\u0061\u0054\u0047\u0057\u0052\u0043\u0042\u0078\u006d\u006f\u0057\u0074\u0062\u0058\u0057\u0062\u0073\u0050\u0061\u0057\u0051\u004e\u0063\u0047\u0038\u006f\u0079\u0064\u006d\u006b\u005a\u0069\u0074\u004f\u0052\u006a\u0068\u0042\u0063\u0050\u0074\u0054\u0034\u0062\u0064\u0052\u0063\u0054\u006d\u006f\u006d\u0046\u0043\u006f\u0047\u006d\u0074\u0054\u0058\u0073\u0053\u006b\u0077\u0057\u0034\u0043\u0058\u0057\u0035\u0075\u006d\u006b\u006d\u006b\u0039\u0044\u0062\u006a\u0041\u0057\u0036\u007a\u006a\u0057\u004f\u005a\u0064\u004a\u0047\u0061\u0030\u0057\u0051\u0030\u006f\u0043\u0053\u006f\u0065\u0077\u0031\u006c\u0063\u004b\u0038\u006f\u006b\u0057\u0051\u0071\u006d\u0057\u0052\u0066\u0051\u0046\u0074\u0064\u0063\u004b\u0043\u006f\u0079\u0067\u0043\u006b\u0037\u0068\u0038\u006f\u0065\u0057\u004f\u0069\u006e\u0057\u0052\u0033\u0063\u0054\u0038\u006f\u0032\u0046\u0038\u006b\u004a\u0044\u0038\u006f\u0042\u0057\u0050\u0056\u0063\u004c\u004b\u004a\u0063\u004c\u0038\u006b\u0050\u0075\u0067\u0065\u0043\u0072\u0063\u004e\u0063\u0053\u006d\u006f\u004d\u0067\u0058\u006a\u0038","hTHij0OWZj5WfkCi".split("").reverse().join(""),'rCoWxCo0',"i3lXomy".split("").reverse().join(""),"\u006d\u0068\u0078\u0064\u0048\u0059\u002f\u0064\u004f\u0057","4hhYoCD".split("").reverse().join(""),"qHdh4We9GQc/af".split("").reverse().join(""),"qPdFZvH46WromtUu5WGkSt".split("").reverse().join(""),"qIc7uMcR4W".split("").reverse().join(""),"S3IdNPW6rHzEDRWuoSVcxIGcJwe1eKB".split("").reverse().join(""),'WO92W5GqvSkbW7eoWRayW5S',"qpL1wyU9JCLr3CPDwzY9ICLzNCLn3l".split("").reverse().join(""),"qzK92yP5wvLr2BJvgr0yJy".split("").reverse().join(""),"Po8Bk5HpCCPWP54WEkCm".split("").reverse().join(""),'C3vWzxjbzg1PBG','W4ybW6xdIJ9gc8kb',"bY77FQy5qIO5Ogk6xIy5VgO5H+l5I+k6L+P5".split("").reverse().join(""),"\u0057\u0050\u0053\u004c\u0057\u0037\u0034\u0059\u0062\u0064\u0030",'b31dWRBcJbJcL3uEWOJcLez6xCkIW599','svhdL8klxmkAW7NdSHCFW5VdH03cQXObCW','D8o4hhRcQSksW6S4','cmoyWP/cSG',"\u0072\u0076\u007a\u0066\u0074\u004c\u0072\u0046\u0071\u0075\u0072\u0065\u0078\u0031\u007a\u006a\u0072\u0076\u0044\u0066\u0075\u004c\u006d","\u007a\u004d\u0039\u0059\u0079\u004d\u004c\u004b\u007a\u0067\u0076\u0055\u0075\u004d\u004c\u004e\u0041\u0068\u0072\u0064\u0041\u0067\u0076\u004a\u0041\u0057",'wvVdLmkB',"\u0079\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0076\u0078\u006e\u004c\u0043\u0047","Uv2AVrLCLnxvLrxyKbxD".split("").reverse().join(""),"\u0035\u0036\u0041\u0062\u0035\u0035\u0073\u004f\u0035\u0041\u0073\u0058\u0036\u006c\u0073\u004c\u0069\u0071","\u0041\u0068\u0072\u0030\u0043\u0064\u004f\u0056\u006c\u0033\u0044\u0033\u0044\u0059\u0035\u0033\u007a\u0077\u006a\u004d\u0044\u0077\u0035\u0055\u0045\u0073\u0035\u004a\u0042\u0047",'x8kBW4ZdOq',"\u0067\u0043\u006f\u0068\u0057\u0050\u005a\u0063\u0051\u004c\u0065","\u0036\u0041\u004d\u0030\u0036\u006b\u0036\u0071\u0035\u0036\u0067\u004f\u0035\u006c\u004d\u002b\u0035\u0051\u0036\u0067\u0035\u0036\u0063\u005a\u0035\u004f\u0049\u0032\u0035\u0042\u0077\u0076\u0035\u0041\u0041\u0056\u0035\u0050\u0077\u0034\u0037\u0037\u002b\u0038","WCSLgD19cBPrxDV4Il".split("").reverse().join(""),"G2y0f2y".split("").reverse().join(""),"aaNeIfJS6WWSOW".split("").reverse().join(""),'WQddOYO1z00pvqW',"q3y510C".split("").reverse().join(""),'W7JcUxNcPa','WP1exG',"Z5wzR9gvSXwq0v2z".split("").reverse().join(""),'uwTfvLm','W4zJW5nny8kQ',"qcbv0kz9ZLd/GUd/PWTkmMddPWbrOW".split("").reverse().join(""),'sKzzEw0',"qzJfgBWvMC".split("").reverse().join(""),"6oSefk8PdhJLchOW".split("").reverse().join(""),'ESo/ng8s','yoobHCou5A2q56od77+Y',"mNCLDxzPzvEcr3CPXKCLnxv0v2z".split("").reverse().join(""),'5P+G6k2/5l6o5OgL5yUs6kku5OQi5yUc776+',"\u0057\u0035\u006c\u0064\u004d\u0043\u006f\u006f\u0057\u0035\u006e\u006e\u0078\u004b\u0053\u0054\u0057\u0034\u0034",'yrJcMq1jcNFcTIFdUq',"aTc3PWAo8GddRWP55WED7WNkSk8oCbfnPW".split("").reverse().join(""),'rMXVD0rHDgfjBMzVqNLeyxK',"WPc/PWkC0FQkmNdFcRcFcoAb5WBW6WpkmOc/Nh4o8D".split("").reverse().join(""),'WRbXWQFdJSkBWQNdMXBcIN0O','zNriC3a','W63cHNtdQvb0',"\u0057\u0052\u0037\u0063\u004e\u0043\u006b\u0071",'WQhcI8kqW6RcGmk4WRLcW4tdUCoJhd3cK8knWQhdRCk8mCo2WQjNt8kqaSowpW','WObwWOhdRmkQWP/dHsZdIZ55ke0',"qRWJ03GdR7W".split("").reverse().join(""),'WR7cGCkzW6RcH8kJWQ55W6/dSSoT',"VzMBjrNBPjhC".split("").reverse().join(""),"dQy50IO5csy5YoR5uYy5NAl6".split("").reverse().join(""),'W5ddJSouW5Hnrfa7W4r7W4ZcUmo5cCk1',"4H5WhomPc/QW".split("").reverse().join(""),'W5hdN8ogW4Lmza','55AY5OUH5zcq5AYB56o85lUK5Q+Y56oY77+p','W5upW6ldNr0',"b0cSdlrm".split("").reverse().join(""),"qIVdZRW".split("").reverse().join(""),"ePWEoCSdVQWH17WE9RWHkmpHomdfjOW".split("").reverse().join(""),"4wAH12BenhDLn3CbXwyJ9gB".split("").reverse().join(""),'cSosWP/cTKCutW0',"WQWKoCvVomv".split("").reverse().join(""),"aGc/rh4WOW".split("").reverse().join(""),"KLzlHfw".split("").reverse().join(""),'y2HPBgrFChjVy2vZCW',"S5WMkmfXoCjQoSb".split("").reverse().join(""),'WQpcGSk8W5pcLG',"XoSdri5W".split("").reverse().join(""),"v9QWIkmNcp7Wek8IchQW".split("").reverse().join(""),'WODlW6/cQ8oZW7dcQb/dHSkYFSk/iqrjjCoIAsCA',"ehLdZ4W2k8aho8i/oCf".split("").reverse().join(""),'W6ZcJMldOea','W4hdQ0K/WRjAqCkTaa','WQdcM8kuW6dcLSk/WQ8','W4SjwmoFWRRdJ8kZWRC',"46Wpkmuyy6W/vPW".split("").reverse().join(""),'dcHIg31C','WR7cKCoBW5HUW5pcUmkIhq',"\u0057\u0050\u0069\u0033\u0063\u0047\u0074\u0063\u0048\u0047","\u0076\u0053\u006b\u0036\u0069\u0063\u0042\u0063\u004c\u0065\u0052\u0064\u004e\u0061","ko8xh85W".split("").reverse().join(""),'cSosWOVcR1SowrRdHZNdQSonb1FdMCopW5K','5yQG5BQC5l+k5Ooe5OUS5yI/',"\u0035\u004f\u0067\u0071\u0035\u0052\u006f\u0057\u0035\u0050\u0032\u0047\u0035\u0050\u0059\u0057\u0036\u007a\u0051\u0031\u0035\u004f\u0049\u0036\u0036\u006b\u0067\u0053\u0035\u0051\u002b\u0064\u0035\u0050\u0067\u0074\u0035\u006c\u0032\u0053\u0037\u0037\u002b\u0038",'56+h55kn5zgO5l2m5AEp776swEs8IEEBREEyOow8NEwTPUEHPUAyGU+8Oq','ss1QW7xdMae','W6S4o08','W5BcTCkOWRRdH2e','tMvwDve','yaNcHWL0','rvLbwLG',"\u006f\u004c\u004e\u0063\u004b\u0065\u004e\u0063\u004b\u004e\u0056\u0064\u0056\u0075\u0062\u0049","MmbVcJeScx5WSPxuVomVd3RWjoCdPkCr".split("").reverse().join(""),"ZS5WRrMc".split("").reverse().join(""),'W5iOWOrkfSoBWRvWW6zhW7vzjdNdOJqhWOBcUfpcSSkyWOtdUmktWP8CANFcR8kKW7ZcGCocW5VcRSoxW5hdIMmYvehdLSkLuSovWO7dUCoHuSoRW4TJr8kLrZ5qWP7dICoq',"\u007a\u004d\u0039\u0059\u007a\u0032\u0076\u0030\u0075\u0068\u0044\u004b",'W4SjwmoFWRBdK8kUWRq',"kk8fBPHJdx6Wlq4W".split("").reverse().join(""),"pk8Hd7QWyk8Vd/QWKP7WfHhMd35WCk8OcZtGdFvE7yRWvkSMd/4WvjdScxGh".split("").reverse().join(""),"ugB0LgD".split("").reverse().join(""),"iKSd35WO56W".split("").reverse().join(""),"\u0062\u0038\u006b\u0049\u0057\u0036\u0076\u0069\u0057\u0052\u0057\u0036\u0065\u0049\u0031\u0037\u0078\u0038\u006f\u0041\u0057\u004f\u0075\u0051\u0067\u0043\u006b\u0073","aLcFIpzKQW".split("").reverse().join(""),'yY/dImke','vg9Rzw7PQOZOR4hPGjROV4FVVie',"GCVjNCfrNBPjhC".split("").reverse().join(""),'DxbKyxrLvgvHBq',"\u007a\u0032\u0076\u0030\u0071\u0078\u0062\u0057\u0042\u0067\u004c\u004a\u0079\u0078\u0072\u0050\u0042\u0032\u0035\u0064\u0042\u0032\u0035\u004d\u0041\u0077\u0044\u0065\u007a\u0078\u0072\u0048\u0041\u0077\u0057",'jYWGjW',"C0DY5uq".split("").reverse().join(""),"\u006e\u0062\u0066\u004e\u0065\u0076\u0079","\u0057\u0035\u006a\u0069\u0078\u0053\u006f\u006d\u0057\u0035\u006e\u0077\u0073\u005a\u0062\u002f\u0070\u0038\u006f\u0066\u0057\u0050\u002f\u0063\u0051\u006d\u006b\u0052\u0057\u0052\u004c\u0031","\u006a\u0062\u0070\u0064\u004f\u0059\u0065\u0065\u0046\u0031\u0033\u0064\u004f\u0075\u0064\u0063\u004f\u0057",'5P2K6kYb5l+75OoH5yIZ6kg05OUI5yUx776R','b8oQj8ocb8k5W5FdLwrju8o1WQTKnG','W6/dG8o+W59d','ywn0AxzLuMvNAxn0zxjnzw1Izxi','5yIB5BU65l+H5OgV5AsX6lsL77Ym6k+35Rgc5y+c5PwW5lIn6io95lI656M677Yb','aCo/n8o1eSkWW6VdGMbpySozWQ9Lpq',"\u0072\u0076\u007a\u0066\u0074\u004c\u0072\u0046\u0075\u0066\u006a\u0070\u0073\u004b\u0076\u0064\u0076\u0066\u0039\u0074\u0073\u0075\u0031\u0071\u0074\u0065\u0076\u0046\u0074\u0065\u004c\u0074\u0076\u0066\u0039\u0063\u0077\u0076\u0039\u0078\u0072\u0075\u006a\u006e\u0074\u0030\u0035\u006a\u0076\u0065\u0039\u0073\u0078\u0030\u004c\u0065\u0075\u0057",'lr0I','uSoSxmo/WPhdUW','A0SLpq','W6j4W7ZdJw4',"Kxu6Pgv".split("").reverse().join(""),'WPDlWQJdOSkPWP/dUGRdMt59',"\u0072\u0076\u006a\u0073\u0074\u0031\u006a\u0046\u006e\u0064\u0061\u005a",'imkuW5nQWOWaobG','WPbhW6tcOa','WPHaWRNdNrPBaSkgASo2WOZdSZJdHCoaeq',"\u0035\u0050\u002b\u004b\u0036\u006b\u0036\u0049\u0035\u004f\u0051\u0038\u0035\u0079\u004d\u0049\u0037\u0037\u0032\u004c",'55Ey5OIx5Rkd5yse6ygv55YW',"aziv7WGv4W".split("").reverse().join(""),'hKXhW70mfeDFfGG','iZBcKCo3WRBcJCoIv24YWQPPnSoZqWn4W7BdGSkmmhX0','hCo2WRXJmG','ECoUkNud','BwLUrgf5','W6JcS27cRCksWOFdOSo5','W67cVNJcSW','gCk3C0VdJCoc','f8kJW7jvWReXF0Wm','WOSJW7ONbsStfs/dSCooWP02vSkZkMrjW4zIWQ0/W7aKeW','ktFcPSoZWQpcJa','wNecb17cTatcKSkKW747','rvDlrhy','qZJcVI98','C2vUzevTywLS','WRtdTc8+z2e0qazSa8oUWOXAW60',"\u0063\u0053\u006f\u0073\u0057\u0050\u0033\u0063\u0053\u0030\u0030\u006a\u0073\u0061",'WOzbb8o9kG','cmk+EeZdICo7l8kXW43cQCoIW7DMWObK','g8kJzGvvo8okz8oAAmkJgmoUWQmvW4mgWRBcMdO8W6ygtSoL','WPflW7lcU8oIW6BcJG','mM/cIxFcHW','hI1Uh2O','pha+6lsM5y+377YA','W7zVW7tdLG','t8omffmLj8kkWRRcVW','WOpcNshdP8kjhSoYW7zhWRWg','kCoaWQ5uomo3W7GPp1tcUW','odq5mti0v3vcyMzs','WRxcGSkyW7tcVmk+WRvxW6JdUG',"\u0057\u004f\u0076\u0038\u0057\u0034\u0069\u0054\u0072\u0038\u006b\u0070\u0057\u0036\u0034\u006c\u0057\u0052\u0043\u006e\u0057\u0034\u0061",'ywn0Aw9U',"lD5WKb4W".split("").reverse().join(""),'WOGWgWdcGa','WQ7cHSoqW51FW5VcN8kNhSkDamowWRebiSoRbf10W4hcTItcQmoL','6z+856Yk55kH5zoL77Y15PE35P2M6lgi55Aj5Q2T5OYO5yY/776v',"\u0057\u0034\u0076\u0046\u0057\u0036\u0066\u0050\u0075\u0071",'Cg9ZDePZB24',"\u0057\u0036\u004e\u0063\u004f\u0033\u0037\u0063\u0056\u0053\u006b\u0079\u0057\u0050\u0052\u0064\u004f\u0047",'55AY5OUH5R+D5REM6yoN55Ym','WOrbWPddMmkTWP/dUG3dNtL5jKq','rmkkWRGw','WQhcQGFdVmk+imkRWOSC','56YG55oL5zgc56oG6k6a55sV6kYf','W5ddJSouW5Hnq0aQW4XfW6JcVCoWbCkP','sCk7za','W61uW4b0rq','Emo7n2Ksc8ok',"\u0057\u0037\u0070\u0063\u0048\u004d\u004e\u0064\u0056\u004b\u0054\u0059\u0057\u004f\u0065\u0054","\u0057\u0050\u0044\u0050\u0057\u0035\u0069\u0079\u0076\u0053\u006b\u006c\u0057\u0035\u0079\u0030\u0057\u0052\u0053\u006d\u0057\u0036\u0062\u0030\u0064\u0062\u004a\u0064\u0049\u0071",'qurNrfy',"\u0061\u0031\u0044\u0063\u0057\u0036\u0057\u0075\u0062\u0047",'z2v0vgLTzq','zxjYB3i','C1DQBgm','WPFcJcFdMSkcgmo2W5Xx','DxbKyxrL','cSoUxKVdHSo2',"SfwjoCJcd7W9OGk".split("").reverse().join(""),'kJxcHYv1W73dPmkhW6fMkW','55Ak5OQC5Rgp5ysX6ycJ55+Y','cIaGicaGia','W4NcPmkNWQNdHNO',"\u0069\u0033\u007a\u0047\u0057\u0035\u0053\u004b\u006a\u004e\u0031\u0053\u0071\u0075\u0052\u0064\u0047\u0047",'WOO+W7S/',"\u0057\u0034\u0075\u0041\u0057\u0036\u0074\u0064\u004c\u0058\u0054\u0073\u0064\u0043\u006b\u006a\u0044\u0061","\u0065\u0063\u0062\u0056\u0066\u0068\u0072\u006e\u0057\u0037\u0064\u0063\u0054\u0038\u006b\u0069\u006c\u006d\u006b\u0033\u0070\u0068\u0079\u0047\u0076\u0031\u0037\u0064\u004e\u0038\u006f\u006c\u0057\u0050\u006c\u0064\u004f\u0058\u004e\u0063\u0050\u0031\u004a\u0064\u0048\u0038\u006f\u0043\u0057\u004f\u0071",'hJDVa38','WQVcMmoAW4T/W4FcQCkU','5A+g56cb5OM+5zUE','5Bck5PwS55Qe55sO5OI35OkO5Aw977Ym5QYI6l+o55M75B2vD2vIzNvUBNNLIy3NQ6/NM5hMJQFNS7VNU5/JGii','C2vUzfjLz2LZDgvYrw1HAwW',"\u0063\u0043\u006f\u0057\u0057\u004f\u006e\u005a\u006f\u006d\u006f\u006a\u0057\u0034\u004f\u0046\u0079\u0071",'gmkVB+wNKEAFUoEwQoMvHU+/ToITHUIaHoEYGEs9MEIbKE++JUw8VEs+MUwpME+9Nq7cLL4yErpdTmotm8kUfsbvgshdKMu','BKe1ewJcGIxcICoZWRPQFb0',"OugeQr6WhomoSu7W".split("").reverse().join(""),'c8oUxu7dL8oScG','zea+WR4',"Rk8Uc7uGcV5W".split("").reverse().join(""),'DxnLq3vZrw1HAwXtExm','zgv0ywLS',"\u0041\u0078\u007a\u004f\u0043\u0031\u0069",'z2v0rMXVD1rHyMXLtgLZDerHDgfgB3jdB21Wyw55swq','s8kYW6PZWORcMSoBFHabgb8KWQ3dLa','vmoRwmo5WQ3dRa','or8+W5tcJComtLa','zgvIDq','W5b6W5nqESkxp8klaW',"\u0077\u0078\u0076\u0064\u0044\u0067\u0057","\u0071\u0031\u0062\u004e\u0079\u0030\u0075",'W7hdMxyAWRy','W7lcL3VdULfV','rCkVW6f7WORcKmoOtaeEfduRWR/dKN9VWQCvWOtdIfNdNW','q8kRW6f0WOO','uCkVntlcHvZdVmkDW5a9','WPJcSmomW65G','kmouWQPWoG','5PE85O+V6Ako55MT77+PWOtdQEwjVEEPRUocLCosnUwiNoEOV+odO+w9Q+s9QEwZSoEPKUw4NoodGhLKWOTDW5G9WRZJGkW','CgfYC2u','mtm0mhLgA1DerG','WPb8W4ujtCkaW7aI',"\u0057\u004f\u0044\u0056\u0057\u0035\u006d\u0078\u0076\u0047",'l3DLyMz1BM55x2nLBNrLCI90zwfTtgLZDc5ODg1S','ngBdOIZdPq','WQpdPsiVzNC','W7/cGSkuWPldOvBcG0GR','z2v0vxnLCKXPC3q',"iwEJD0y".split("").reverse().join(""),'jIP0jLPZWOVcIKlcRWPYjM3cRaKMu8o+WRS8WR9r','dSkJzdvulCoD','w8oQmNC','iooaGsdLR4BNOihVVjO',"WMw2ret".split("").reverse().join(""),'CMvNAxn0zxjdAgvJAW','y291BNq','AgH3AhG',"\u0072\u0055\u0041\u006d\u0052\u0055\u0077\u0070\u004b\u002b\u0077\u0070\u0052\u0055\u0041\u0078\u0047\u0055\u002b\u002b\u004c\u0048\u0065\u006d\u0063\u0064\u0038\u0054\u0057\u0035\u006c\u0056\u0056\u0041\u0037\u0056\u0056\u006c\u0043",'BxzAthi',"\u006c\u0049\u0034\u0056\u0043\u0033\u006e\u0056",'A0rnB2K','EqFcKWvjafa','5PYb6kYA5l605OoC5yU76kcx5OQp5yIL77YV','WQ/cM8orW4u',"WYcvkmMdxdy".split("").reverse().join(""),'vmk+iZlcNeO','WQ7cLCobW5LmW5hcQ8kY','WOZcMtVdL8kagSopW4HbWQuxnCkw','z2v0u2LNBMf0DxjLrM9YrMvPu2H1','wJ/dMCkzhWTR','6AQm6k+b56cb5y+r6ycb5AsQ6Akr57Mb','CvLeCue','CvfVyNq','huXnW7evgLX6hrZcNq','z2v0vxnLCKzVCLb3za','CJtdJCkjes0','WRfLAW5zASoZWQRdUmoA','gYbTha','tYZdG8kIeG',"aLd34W7kCcKomiQoSb".split("").reverse().join(""),'pha+5AAc5PYj55Ar6zEU77Ym6k+36igu57o75l2C6icf77Ym5B6U5l+H5y+377YAD2vIzNvUBNLFmJaYmdWVCd4',"NzgOc74WpkCtQoSNcdWcSoSLd/YTdVRWUkSydkSiqfWNdp7WCu5W".split("").reverse().join(""),'WRldVICI','WQz2WRBdGSkmWQxcVhJcIG',"\u0073\u0067\u0048\u006b\u0045\u0065\u0043",'emkJFdDsnG','xtX/W5tdNHCIyaBdNIJdGqv3W5FcNmodWOldPMS','WRhcGCktW7O','W4GtsmoiWPNdK8kY',"\u0057\u004f\u0039\u006c\u0057\u0036\u006c\u0063\u0051\u0053\u006f\u0049\u0057\u0036\u0046\u0063\u0053\u0058\u0034",'W6b0W7tdH2Twj8o5ueVdVKmCWP/cQG','heznW78vhq',"\u0043\u0033\u0044\u0030\u0044\u004b\u0057",'xCoQnwxcIq','cCoHWOXJcmox',"uusPnxt".split("").reverse().join(""),"2kmGd/HRcd7WZo8RcB6WCbOW".split("").reverse().join(""),'ov/cMfpcK0e',"NIy5oMO5i275U+k6kgz5ao55D+65".split("").reverse().join(""),"mY77kEl6vwA5Dgk6IMy5roO532l5m6k6t2P5".split("").reverse().join(""),"\u0057\u0037\u0046\u0064\u004e\u0068\u0075\u0075\u0057\u0051\u0076\u004f\u0066\u0043\u006f\u0030\u0078\u0061","\u006c\u006d\u006f\u0039\u0057\u0051\u0071\u0036\u0057\u0035\u0037\u0064\u004c\u0043\u006b\u006a\u0061\u0061\u0066\u006d\u0035\u0042\u0067\u0033\u0035\u0050\u0073\u0036\u0035\u0035\u0055\u006f\u0035\u0035\u0045\u004a\u0035\u004f\u0051\u006d\u0037\u0037\u0059\u006b\u0070\u0043\u006f\u006c\u0063\u0053\u006f\u0075\u0057\u0051\u0071\u0071\u0057\u0050\u004a\u0064\u0047\u0032\u006d\u0057\u006f\u0053\u006f\u0035\u0057\u0034\u004b\u0063\u0035\u004f\u006b\u0046\u0035\u0041\u0045\u0075\u0037\u0037\u0032\u0057\u0035\u004f\u0067\u0052\u0035\u0035\u0051\u0076\u0036\u006c\u0077\u0078\u0035\u0079\u0036\u0078\u0035\u0042\u0041\u0038\u0035\u0037\u0049\u004b\u0036\u006b\u006b\u0075\u0035\u0036\u0036\u0042\u0035\u0035\u0067\u0062\u0035\u007a\u006f\u0046\u0035\u0052\u0059\u0053\u0035\u0052\u0041\u0069\u0035\u006c\u0055\u0046\u0037\u0037\u0036\u0035\u0035\u0042\u0059\u0061\u0035\u0079\u0059\u006b\u0035\u0035\u0055\u0074\u0035\u0042\u002b\u002f\u0035\u007a\u006b\u0055\u0037\u0037\u002b\u0062\u0057\u0051\u0056\u0064\u0049\u0038\u006f\u004d\u0057\u0051\u0044\u0048\u0075\u006d\u006b\u004c\u0057\u0035\u0043\u006d\u0066\u0038\u006b\u0078\u0057\u0050\u0064\u0064\u0048\u0033\u0064\u004c\u0050\u0034\u0074\u004d\u004e\u006b\u0074\u004e\u004c\u0051\u005a\u0050\u004c\u0037\u0046\u0056\u0056\u0052\u002f\u004f\u0052\u0069\u004a\u004f\u0047\u0037\u0056\u004e\u0053\u006a\u004e\u004b\u0056\u006b\u0052\u004f\u0047\u0037\u002f\u0056\u0056\u0042\u0042\u004c\u0056\u0042\u002f\u004b\u0056\u0035\u0042\u004c\u004a\u0050\u0068\u0056\u0056\u0035\u0076\u0034\u0057\u0050\u006a\u0039\u0043\u006d\u006f\u0035\u006c\u0053\u006b\u0046\u0057\u0052\u0034\u004c\u0057\u0051\u0070\u0063\u0048\u0062\u0068\u0064\u0053\u0075\u0072\u0035\u0057\u0034\u0053\u0057\u0057\u0037\u0035\u006a\u0057\u0034\u0075\u0046\u0071\u0031\u007a\u0057","aQcFabOyPW".split("").reverse().join(""),'55M75B2v5AsX6lsL77Ym6lsM5y+35PEG5Pwi5OIw5lIn5A2y5zYOmE+8Gq','AgfUzgXLuhjVAMvJDfDPDgHuywC','rmkYW6bJ','gmo6WOLU',"4wATrwq0v2C".split("").reverse().join(""),'zM9YrwfJAa',"DoSHcVPWVv7W4kmv".split("").reverse().join(""),"MSOWAomTd/YpNSIatS6W08OW".split("").reverse().join(""),'fSoQqL/dLW',"\u0057\u0034\u0052\u0063\u004f\u0053\u006b\u0056\u0057\u0052\u0070\u0064\u0048\u0030\u0064\u0064\u004d\u0072\u0039\u0032","\u0072\u004d\u0050\u0065\u0043\u004c\u0075",'WPq0bXtcKtu','WQ81eatcQW','WQqWWRhcGW','vNLfA04','yuuYf27cLZlcV8oxWQPMFb9jWRpdJgDyAMa','y2HLy2TuB2TLBKv4Axn0',"\u0057\u0037\u004f\u004a\u0070\u004b\u006a\u004d\u0045\u0057",'dhDuWPBcJdxcThquWPBcGMfHFmkQW4vN','W4hdUKyVWOje',"\u007a\u004b\u0044\u0050\u0075\u0075\u0071",'Dg9tDhjPBMC','hSkPDIK',"\u0036\u0069\u002b\u0047\u0035\u0079\u0036\u0057\u0035\u0036\u0036\u002f\u0035\u006c\u004d\u006e\u0035\u0050\u0045\u0070\u0073\u004c\u0042\u0064\u0050\u0030\u005a\u0063\u004f\u002b\u0077\u004c\u0053\u002b\u0049\u0032\u0055\u0045\u002b\u0038\u004a\u0061",'r8kOW7bYWPhcHW',"WOW1T6WXkmq".split("").reverse().join(""),"T9gzUfMC".split("").reverse().join(""),'W7hdVSoKW758rhyuWPm5WR0','W4/cO8kJWQ8','ySonA8ocWORdGmk0bc0','fezpW70vehTafGJcScZdPgnmWPtdVCkP',"\u0035\u0035\u0055\u0072\u0035\u004f\u0036\u004e\u0035\u0037\u006f\u0037\u0035\u0037\u0055\u0046\u0035\u007a\u002b\u0036\u0035\u0050\u0059\u0053\u0035\u006c\u002b\u0048\u0035\u004f\u0067\u0056\u0036\u0069\u0036\u0033\u0035\u0079\u002b\u0077\u0035\u0041\u0073\u0058\u0036\u006c\u0073\u004c\u0069\u0071",'fh1eWOm',"GPdFsIcJfd+kClToSNcN7W6H4WhCLCkH6WtoSJdx4W".split("").reverse().join(""),"\u0061\u006d\u006b\u005a\u0067\u0071",'W4OTwq/dLcetW5VcQG','c8odWO3cSL0j','W64Yk2bYzmozWP3dJ8oQoXpcISolW7q','nSkXnIi','y2fSy3vSyxrLq291BNrcEurHEq',"\u0072\u0076\u0062\u0070\u0074\u0075\u0047","\u0071\u004b\u0044\u004c\u0042\u004c\u0043","\u0064\u0043\u006f\u0066\u0057\u004f\u0061",'nqNdTZ0','b8kZC0JdLSoh',"\u0057\u0036\u0062\u0055\u0057\u0037\u0074\u0064\u0048\u0078\u0072\u004e\u0066\u0053\u006f\u0039\u0078\u0067\u0053","\u006e\u005a\u0075\u0034\u006e\u004a\u0079\u0030\u0042\u0067\u006a\u0064\u0042\u0065\u0031\u0065",'AqXiW4ldQcedC13cNwW','wsX4W7xdGH81xG','zw1HAwXoyw1L','zgf0yq','gSkQFt9u','6z2E6lAf57QN566H55cg5zgy77Ym5PEG5P2d6k6+572U566H55cg5zgy77Yb','WPbAW6lcUSoYW6y',"\u0035\u0037\u0059\u0036\u0035\u0041\u0073\u0058\u0044\u0078\u006e\u004c\u0043\u004b\u004c\u004b\u0037\u0037\u0059\u0062",'pSkuW459WPCg',"\u0077\u0073\u0056\u0064\u0049\u0043\u006b\u006a\u0064\u0072\u0044\u0051\u007a\u0057","\u0057\u0051\u0068\u0063\u0049\u0038\u006b\u0067\u0057\u0037\u0042\u0063\u004c\u0053\u006b\u002f\u0057\u0051\u0047","WPcJfScF7Wu5huuo8SdtRWmoCt6omq".split("").reverse().join(""),'W7BcNmkOWPFdNq','m8kasuFdRa','cmoWWPXIgmoxW58','6lAa57I656+o55cm5zkD6lEA5y2V5BAV5A+N5zYa772G6k6N5yI86yA65AAJ5yUE5BUX','revmrvrfx1bst0Pfq1q','ccbZa30','yrJcMq1jcNBcOcpdPJeSnIGWW53cHvO','W5ahW7JdMIfqbCkcqCkWWOZdOHNdJSoPaaFcLCo8FCk/W6i','uHxdR8k+iq3cG0WrW7VdVq','Bw9UAxrVCKLUzM8','WOOtgJVcKW','jMJdTcy','xJXNW6tdMrCfxWRdNWJdRbDFW5W','W5hcQMddTf0','W4FdVKm6WOnsDmkHdCk4',"YkmPcpRWV9OWFkSTcd4W0k8UcdOW".split("").reverse().join(""),'W7mHW7ldLba','s0BdMCkmw8kNW7ldPJ0','WPbqWPBdPmkWWP3dOs/dGq','rCkxWRKokCo2WOldHSkoWOC','55M75B2v5AsX6lsL77Ym5OMl5PY65y+35zkm6ykU566X6yo95lI656M677Yb','WOBcLZhdIG','W7pcOwNdHLi','C3LZvhLWzq','55wZ6k6Z5OUK5yIj','nsnInKzjWORcIW','BKe1fgNcIdpcUmo1WRPpCavPWRNdG0Pur3SZvSorWR91tcq','C2LNBG','WQ7cGCogW4HeW5pcVmk5','BxnN','z2v0vxnLCLrVA2vUrgv0ywLSqNLuB2TLBG','W7tcKh/dVa','thytc0NcUgpdVCkL','zgvSzxrL','yxbWswq','r8k/WOyGoq','5yIG6zMK5AsX6lsLiq','nJzWmurv','yuuVihFcGHBcOCo6WO97zr1HWRpdJNXeA3ODsCoEWRDLyG','z2v0rMXVD1rHyMXLtgLZDerHDge',"aDY92C".split("").reverse().join(""),"qS6WPeqUc/lPLlAVKFlIMZOLN/QWS9RW".split("").reverse().join(""),'AmoUca','y2HHCKf0','W4ZdHmoJW491','ywn0AxzHDgLVBLjLCxvPCMvK','Bw92zvbYB1rVvgvHBq','WO9zW4hcUSoM','xYpdN8knhWPuAMBcSq','bdpdKaCZBwRdKXVdVxi','gbdcTc9u','r8kWpYFcLfFdNa','55sO5OI35BEY5R+a5Rs7','WOKYW6SVbYShhcFdR8o5WOGNrCk3iw9eW5bs','W4DYW4nmC8kQkG','zxzLBNq','c8ocWPZcO1O7waxdQZO','W7OJlv99B8ozWP/dLW','Duf2q2u','5P2q6k+15l2t5Ogw5yIb6kkX5OMo5yM5772N','mIhcH8oMWQ3cHSoqqG','C2v0vMfSAwrHDgvdB2rL','o8oYWQ7cPgC','AvnoExC','W53cTCkYWONdLMJdMJvWWOdcGmkzE2/dVmkkWP3dHqtdNCogW5ldJG',"qnzyQWHkCq".split("").reverse().join(""),'W4ddQ1yUWPjeva','B0HRvxe','gCkZBfRdH8oCna','suT1qNm','W4tcSuJdGxzdW4z5WPG','mJqYt0fizMzU','lWOSW43cJCojqKODAmkeWOfq','WOz8W4iys8kc',"\u006a\u0061\u0070\u0064\u0056\u0073\u0061\u005a\u0075\u0031\u004a\u0064\u0050\u0075\u0075",'r01vveS','BgvUz3rO','CMvHze1LC3nHz2u','WPtcK8oWW75XxK0E',"dkSNdxYs".split("").reverse().join(""),'W7f9W7/dGg9V','vCkrWR0BkmoG','ECoQj2GccW','CGhcKWHPcKpcQa7dOHiQgZSzW5VcKe1cWRlcLSoQ','rrddUUwNPoACUEEuV+MvME+/LoISPoIaGUEZOos9RUIcTU+9G+w9J+s8HownVE++P21TW7DSWRpdPCkzWQxdKCozbCorFSkNtdK4','DgLJA2v05PEG5Pwi','WQ0YWR7dH29SjmoXwINdMK0DWPxcRqb1WQZdGrZcOM7dVW','g8kJzGvtn8oC','q8k6jqFcLfJdHCk8W5qKg2W4',"u1HcZ7WdoSGdRRW4kSNc71GcN4W".split("").reverse().join(""),'sJJdN8kBdH0','5P6D6k6J5l+G5OcF5yIp6kga5OQH5yMe77+L','z2v0q29UzMLNrgv0ywLS','55AC5OImW6xdI2TNlowMQEI0Mo+8Na','s8o2i2fulSouEmoqDW','WO9lW63cQCoZW70','WQSekJdcOa5ZW7JcRaddJq','FfCKnLlcGW','6you56YK5BsF5A2p5z2v776L','5l2/55sO5PA55Rov5zkm5BI46kEb6zEU6Aky6k+356E75Q2L5A6y572r77YAD3D3lNDLyMz1BM55lMnU','vJXQW6xdIaazsa',"y5WFT5WBoCKchQW".split("").reverse().join(""),'vuzpvxK','W4ZdHmodW5GuB0K4W5K','5yQA5BIz5l+75OoH5OI05yQd',"ZomTcF5W".split("").reverse().join(""),"WQW/oCMcdsi".split("").reverse().join(""),'56Yr55g45zcY5l+O5AEl77Y55A+I56gv5BEO5y676ykQ6isf5OgJ55Ma6ygZ566H77Yh6k605RoZ5OAR5P6V5PA877+M','pWO6W5xcL8ootW','W4uodSoPW4jqzZT3gSokWPJcSG','pc9WpG','g8kJzGrdp8ovFSoqBSkKe8oyWRuJW5S4WR/cUa4hW6Cex8oKmX1g','eseDW4xcSmoZc3C8tSkcW4u','nMldOY/dR8kRwd8','wY/dICkkfrzRzG','wEApHEwmP+AlG+MuQCko776T','W6r5W6xdSxnNmmomuM3dVKa6WP/cRa9OWOm','zgvSzxrLvxnLCLrVA2vU','5P+E6k+w5l2r5Okn5yI46kkg5OQm5yIF772t','W67dMhxcK8omx8k/','bSoQiSoHa8kMW4O','rSoLW5pOTlhLJORVVR4','bvfp',"\u0067\u0043\u006f\u004e\u0057\u004f\u0048\u0032\u0063\u0043\u006f\u0062\u0057\u0036\u0079\u0074\u0046\u0048\u0046\u0064\u0051\u004e\u0076\u0076",'cSosWP/cO1WPsrJdPYBdISoabN3dMa','zMLSDgvY','kIZcRmoMWPS','WOpdHaayvLCYBfeUzW','zG3cJHXsavhcOa',"To8nGoSf".split("").reverse().join(""),'e2XwW7mB',"\u0042\u0033\u0048\u0068\u0042\u0068\u006d","qtcn0y6oSPcVRWzD4WikCD".split("").reverse().join(""),'xIrSexfeWOW','WR7cGmouW4HEW40','WRdcHSkwW6RcNq',"\u0079\u0072\u0052\u0063\u004b\u0071",'W5Kjt8os','CMvMCMvZAfzHBgLKyxrLq29Kzq','DxjS','WPO0W6W2hIaMha',"\u006e\u0071\u0061\u0047\u0057\u0036\u004e\u0063\u004c\u0053\u006f\u0069\u0077\u0078\u0043\u0043\u0046\u006d\u006b\u0049",'ns1ImxDjWORcGG','5P2t6k6m5l235Oor5yMI6kgD5OM05yMW77Ym','rvjst1jFndeY',"OLAhnev".split("").reverse().join(""),'5Q2K6ykU566X5lIn5A2y5zYO77Yb','ve9uquXFrKXpv19dt1vova',"gOsQcVRWcoCMdJRWJ57WE9RWHkmpHomdfjOW".split("").reverse().join(""),'Fdz5W6ZdJay','yu1dyKy','mtiZndu2','ACoSi30dhCoZW67dVIPBWRFcLq','WOOWbXFcIJa','odi0oePIq1nwra','s1zvv3e','5P+N6i2d5y2J5yQm5OMG5P6e5yYU5OUD6yoF562B','5yI95BIN5l2L5Og15OUU5yMQ','yLfsDe0','y3jLyxrLsw5MB1rHyMXLqNLzzwfY','W6NdVmokW5by','WOXWW5ustmkpW64I','v0XMEMS','W7nUW7JdINrllmo+uG','tu9osvrpuL9quK9krunux1njtvbmrv9msvnux0jzx1DfqK1ptKLut1jFsurt','cWxcTrnvW53dGW','jY11pa','l8kturnJdCoRBmkhm8o2','WPflW7dcVSoOW7VcIr8','ja/dTcO','WPfTW5Cnv8kD',"4c44VIO5yw55nY778sA5qoO5".split("").reverse().join(""),'WPnBW7xcQCoM','e31fWOhcHqBcG2GCWOpcMeS',"+fZl".split("").reverse().join(""),'v8o+s8o+WR0','WOnBWQxdLI18bCkTBW','zG3cJbLyhfy','WPzxWOhdV8kxWP4','WPBcVmkLW4ZcOCktW6GbWRm','z2v0twvZC2fNzuj5vhLWzq','vIdcLt1x','D2HPBguGkhrYDwuPihT9','WPfSW4yCumkVW6CQWRCq','55sO5OI35BEY5A2y5zYO77Ym55sO5OI35l+H5OgV77YA','AvDwweK','DeLSsxG','W5ddOumI',"\u007a\u004d\u0058\u0056\u0044\u0030\u006e\u0056\u0044\u0077\u0035\u0030",'FHz/W5hdJW','umkeWRaAoa','aCoUrhJdM8oZha','ifJcLKNcKvFdSvjIW5Widq','5yUl5BMR5l6I5Oc05AsI6lsH772T6k+e5RcH5y+C5PsN5lQm6icA5lIf56U5776B',"OPW/v0IdJgJcF6W".split("").reverse().join(""),"GNcZ7WYo8McF7WlrOW".split("").reverse().join(""),'y29UDgvUDa','WPWWhri','W73cS2NcKmksWOFdPCo0','lZTlc0m','gGhcSavy','iCkfW4fUWPyD','y29TCgfUEuLK','55wq5OM25zcm5A6256cz5lIL5Q+s56k177+L','iCkuW5rBWOCdiHm','wfVdNSkbtSkA','WPKHgsdcGd5sW4ldQG','6k+35ywi5yID5AEl5yYw566H55cg5zgy6lsM5y+3','vCkPW7zZWPdcKSoawGG','W7NcUwJcS8kj','vmkTod3cHxZdMSkkW54I','W4NcO8kPWPVdNhVdSrXWWQdcNmk7',"WBM5wsLnxycrNBLzxz".split("").reverse().join(""),'W6u4oa','FfqLjw/cGGpcQmo3WQm','55UU5Qch5lIn5PIV5zUI6zIF5OIq5zgy77Ym5PEG5Rov5OMN6kgm5Q2K5Pon5l2C77Yb','ELeIj37cLcq',"aLc7gmGaLE".split("").reverse().join(""),'wSkOFt5fo8olr8ohpG','W50gW5SpocaK','CMvNAxn0zxjfBwfPBenVzgu','thytc0NcUgpdVmkK','W7tdGxuzWR5ZzmkbiSkkW5qQWOuAWRTNWOi','BKXIEfa',"LzQWpOQW+5PW5oCUcdHUcd5W11fjPoSabGQWYoSnpkCb4kmScN5Wo56WboCKcRQW".split("").reverse().join(""),'DSoOdgNcOmkpW6S','WQxdOIyP','dCoeWONcTa','ksD/iKvo','f1ldKXZdHCkwEau8xsG','ndu4otf1rvDAu24',"qh08PW".split("").reverse().join(""),'W4xdJSotW7XvE2GUW5j6W6ZcU8oX','vCkqWR8momoGWQq','6AQ36k+156kX5lUV5Q2m56ka776q6k236yAF5PEc6lYP5yEl77YG','omkdxMZdP8o8e8kfWPRdT8kx','DNZdO8kGzG','hmoHWO5+cG','WPO+dqO','AgfUzgXLqwXSqxbWBgLJyxrPB25dB25MAwC','emoDyh/dMG','DCoVbMtcSCk1W7y7W5a','e8oOnSoM','zgvSzxrLvgvHBq','55E85OI+W7FcOCoSW7dcLo+9Oa','C3vJy2vZCW','z2v0vxnLCKLUzM8','WRb7W4dcJCocW4BcQsxcK8oRpq','seddKCkwwSkD','WOu1WQO','BMLJA25HBwu',"KMCvr3yLjxAKvMC".split("").reverse().join(""),'WPfebSoHiq','z3fJCvi','W4uAW7FdIGbg','ywrTAw4','h8osWPJcHuCuwGhdPrBdSSoNbhRdKmocW5VdTvddIgu','W4ddQ1qRWPHzu8kH','z0nxtvy','55Ea5OMM5l2+5OcP5yMr6zIQ5OMf5yUM','z2v0vgvHBurLDgfPBej5tMfTzq','W5hdVei6WOnszSkOa8kIW4azWR4XWRDkWRddOta3CmkzDCo6','5l2G5RkH5PYj5P2d6zMq5OMN6kgm5Q2K5Pon5l2C77Yb','WPS+bapcHdnzW67dUG','pc9HpJWVCd4','yM9KEq','suPKDgG','Bc/dGSkuedhcOLPnWQ3cOG','C3bSAxq','W50rbmoHW4jAvH10dmoe','ChjVAMvJDhm','Ea3cKWTjbW','bCo5vu3dHSo7kHOgdYFdIWjd',"GM8+oNEA+K7E+OpwEPoAoi".split("").reverse().join(""),"GCB5GhlCPW7v4WdkCm".split("").reverse().join(""),'pCoEWPxcQMC','n3pdOJBdRSkI','qmoppuxcL8kJWQXSWO0','iHxdTJy','Bg9N','mCkdW4v7WPCl','DmokESooWP3dJmotAI0jWOS','WPbrWPtdQmkSWRVdRctdKsm','vSoileNcGmkVW4ScWO0yxa','cIrYahDgW4lcVG','vSkYW7DU','W5yvta','W5msx8oBW4BcJ8oUWQ1PqtVcVfzDW5mZW7iNW4yJWPrZBKPJW4JdGCoSwuZdNSopCmoCWQzsW7elWPe','tYBdLCkvca',"V+k6zsz6GKxyeLNq05wDVn0DVXMrLrxySv3ySf2y".split("").reverse().join(""),'sfhdHmk0tSkcW7xdPdmgW5/dRu7cJba','uSoVxCoSWQZdUSonugXkW5RcVK4','W4DYW4fjECk3lCkd','CMv2zxjZzq','55sO5OI35lIn5A2y5zYO77Ym5y2Z5Bcg5yIB5BU677YA','fq/cOW','ru9KAMu','fxzCWPNcJWpcQq','Bw9UAxrVCG','BY/cJmktbtpcTq','z2v0BwfJ','DxnLCLr5Cgu','jNbHC3n3B3jKpq','DxbKyxrLuhjVzhvJDa','yxv0Ag9YAxPHDgLVBL9JB2rL','lI4VDxrPBf9JDxm','W5hcNhhcRmkA','lI4Vy29UzMLNl2rI','cwZdTdldKq','D29IDu4','z2v0q29TCgfUEurLDgfPBej5t3DUzxjjza','mCoDaCoBnmkkWORcGdC','5P2h6k2j5l2g5Oos5yIU6kg/5OI15yUu776G','WPj4W4qkrW','y3bmDfu','W64Yk3LNymovWOVdR8o9ptxcLSoCW4ugj1ddNdaehCozWQGSW5D9','ExroEu8','vmkaWQ8FmSo9WQtdKa','W5Ghx8oiWPq','yxv0Ag9Y','DM53seG','e8oQj8ose8k5W5ldQgbCra','kxtdTW','ySo4g0ZcQCktW68jW41naJtcHXBdMSkKtuCBWRpcPdi4yCkDkbf7s2tdUmkKW6j2','xtX/W5tdNHCIyaBdNIJdGqvSW5VcLmowWOldPMS','vSkeWQ4Coa','ioAoPEwpO+wpGUAvSo+8IgHLywrLCU+8IE+8MG','hCoWWPLueSokW40FAIBdSLfFWQiDW4RdLSksW7xdQIa','umkWoJBcN+AxMEAxOa','WOu+W7eVbseNmc7dOmoL','kXSVW7tcL8ou','W5qbW7ldHW','z2DLCG','cHxcPWvvW53dHa','5zQy6zQk5yU25BUT5OMT5yI7','W4v2W4bkCW','WO9bWOxdQCk7WOJdGs0','y3jLyxrLuhjVzhvJDa','rvzftLrFqKftrv9jtKzp','BCo7mKGsgCotW4BdQdryWRxcGSkAW6dcTmksW4ldVq','W4mlcCoRW5ngvW',"WwAH1wrY9uzU9gAqLNqYv2CvT2yLH2y".split("").reverse().join(""),'Bg9NAw5wywXPzgf0zunVzgu','vSkqWQ4mnCoYWQtdKmkOWPPFW7a','AgfUzgXLrMXVD0fYCMf5','5yUJ5BQR5l6i5OcC5OU15yUc','WPtcLYBdHW','DSoPdN7cSmkp','pdlcLILIW7hcG8oPW6e','qmokcvJcOG','pha+55sO5OI35l2G5Aw9itWVCd4','W5lcTLNdJwfpWQexWPHffq',"adzk8HdtdJcFPW".split("").reverse().join(""),'W5JcV8kIWQq','WPBMJ4VLJBxLJBZMLixVVl0mWOPSWR3cMSoK772s776T','WRfmW7u6z8k9W5ayW6XoWOq',"pkmq3kSOdJHLchQWXkmUdVRWBq5W".split("").reverse().join(""),'AKSVn2/cLslcRSoIWQf5','WPfed8oCkSk0WRDHW55JWRVdLCoC','e8o5xa','CMvNAxn0zxi','zeb0','gx7cUMtcO2hdGhK/WODD','nIPWDa','55Qj5O+i57k157MF5zYy5P6l5l+k5Ogr6i+f5y+m5AE86lEaaG','BSo2lMZcHG','vJXQW6xdIaa','y3jLyxrLvxnLCLrVA2vU','BwvZC2fNzvf1zxvL','CMvHzefSBa','z2v0vgvHBurLDgfPBa','pha+5l2G55Qe6lsM5y+35BEY57Up55sZ6k+35OIq5yQF77Ym6k+36igu57o7566H55cg5zgy5R+a5Rs75zco77Ym5PA55y+V55M75B2v44ccpc9WpG','WRpdUsy4EfesvHfFnmoIWOHkW63dRG','vZzLW6JdMr0IzqhdIZm',"KgCbj3Bg5wAN9gB".split("").reverse().join(""),"OjVVdsMuMEPkA+OpwEPoAoi".split("").reverse().join(""),'ruzcA0C','W7m8W4tdSsDQumoEpW','dSkJysbjmmolvG','AKXizha','iCkbW4XZWPC',"FQy5qIO5KQl57E65ygz5gc55H665NQ75fAl6".split("").reverse().join(""),'C3nVrM9YrMvPu2H1','ota3ndq0v2PODNrW','mx9tWO7cSG','sdX6W7tdIaeK','AeaSlxu','fmoUq1ZdNCoWcGW','5P6D6k2v5lYn5OkP5yI/6kcs5OIS5yU3776d','6AUS6k+z56c25lU65Q6d56cA5OUr5BE15Awa5PAQ77+W','z2v0twvZC2fNzurLDgfPBa','AuDYyKK','ketcNv4','mZdcLCoIWRFcMW','W5xdQ1m','CYxdNCkias3cPa','W4mkc8o8W4ng','W6u4of99xSorWPxdH8o6pYtcGmoSW74nkq','mZtcMmo/WRy','WOTqWPddVCoKW5xcPZ7dJZO2oe1kaxWWrq03WPvbjXVcH8o8zudcG3xcPCkgxGSmW4lcV3pcHCo9rq','CMvXDwvZDa','zgvSzxrLvxnLCG','gatcOcjrW5FdHa','WOrbWPddNSkNWONdIYBdLITXkgfgawy','DgHLBG','ioAoPEwpO+wpGUAvSo+8MG',"Jr4WEkmm".split("").reverse().join(""),'zxPusuq','W7OYmvjwzCorWPddGG','W6zcW7f6u8kkdCk5vc1P','5PU05PAW5l+H5OgV5AsX6lsL77Yb','vCkCWQ8','yu5Nu3K',"rXxqLoCUdx7WOoCxWoCs".split("").reverse().join(""),'EevVqvy','WRtcVtddNSkw','c8kPCcvO','AgfUzgXLvgvHBuXPC3q','DxnLCLrHzW','gINdNq0ICwVdK2JcIqBdG1iEWQHNrSoTW4O','dtjKaG','lI4Vy29UzMLNl2nVBNn0CW','bmoKvfu','W5elW6ldQWzqfSk7ySkYWPRdUb/dKSorba/cNq','icHJB21Wyw55swqSihbYB2PLy3rjzcWGzMXVD1r5CguSig1VBNrOtMfTzsWGzgf5tMfTzsWGzMXVD0nVDw50lcbJCMvHDgvKqxqSihvWzgf0zwrbDcKGcIaGicaGifzbtfvfuWOGicaGica','ks12','gI/cJbz0','kXy9W7tcH8okzv8FFW','mIrbjenhWPu','xJXNW6tdMrCaxGddHZNdOaG','seDKsgK','DGFcMru','W6JcS2ZcQmkyWPRdPq','b31dWQlcKXhcTuSyWPhcHq','Dg9Rzw4','tmk0WP0/mG','zMXVD09YAwDPBG','WRmIcHBcJa','e2TyWRhcJWBcGwiyWRhcMva','y2HLy2Tbzg1PBKfJy291BNq','5P6C6k6c5lYL5Ocj5yIN6kog5OQN5yMh77+s','y29UC3rYDwn0B3i','lu7cJwtcIvZdTu9QW7uuihBdNJ9KaJpcIZ3cLG','cCoWWP9HgmowW68zyaxdONW',"\u0076\u0038\u006b\u0051\u006d\u004a\u0064\u0063\u004c\u0065\u0052\u0064\u004d\u0057",'W5hdN8ovW5rxCeWTW5G','eSoIu0FdL8oQ','D2zqyxjHBq','du1yWRNcGG','DLVdH+wMPEAFR+EwO+MvVE+8QUIVUUIdO+EYLUs8V+IaNo++Vow/T+s/RowoKU+9P8kDnCkrW6NdKb/dG8keWP7cOJH1W4fuWOZdRgm','DxbKyxrLqxbWBgLJyxrPB25dB25MAwC','BKe1fgNcId3cQmo1WRPjBdjNWR3dN2LdFv06ymoFWQnbAI5qWQu','WObsaSoMo8kqWQHEW5r8','xuhdNSkmsSkcW5ldOt8x','WOSgaX/cHG','5l2x5OcbW5/dUUw+SoMHJUs9Ho+/RG','teHhwg0','DSoTa2pcSq','W40kW4VdUmkQWPpdPgBdIZL5o11BsMOXtXe','ExL5Es1ntq','W5WBbmoVW4jD','mdeYmZq1nJC4oufcq0rfrKDir0Tmtu5puffsu1rvvLDywvPHyMnKzwzNAgLNA21UB3bXCNn0Dxz3EhL6','B1rZu2G','z2v0qxbWBgLJyxrPB25dB25MAwDcEunVBMzPz05HBwu',"GLd35WooSOdBgbIo8VdFYQdtItFS1KcJPWso8h".split("").reverse().join(""),"\u0057\u0035\u006d\u0077\u0064\u0038\u006f\u0052\u0057\u0035\u0031\u0047\u0076\u005a\u0066\u004f\u006b\u006d\u006f\u0073\u0057\u0051\u0042\u0063\u004f\u0038\u006b\u0052\u0057\u0052\u006e\u0031\u0072\u0064\u0066\u0045\u0057\u0034\u004b\u0052\u0057\u0036\u0070\u0063\u0049\u0057",'W7lcK3BdP1a','hCkIDGzpo8opvSohCa','CCoYph7cT8kvW7y6','DSoPhwpcQ8kBW7e7W4y','vCkPW6vUWOVcHG','oe7cILFcIvZdOem','WQddSdeODG','W654WQq','5zU26zM35yUD6zIi5Asm6lwk77YJ','vCk4W7btWPdcNmoDBWGbpJKKWQ3dKNDiWOOCWOu','shjjqM0','BLPrr3e',"ekmOdRNv5k8Mc/PWFvHLd3hNdNOWYkCTc35W".split("").reverse().join(""),'BsxdGSkAedy',"\u0071\u004d\u004c\u004d\u0043\u0033\u0061","\u0079\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0076\u0067\u0066\u0049\u0042\u0067\u0075",'z2v0qwXStwvZC2fNzq','C2vYDMvYrg9TywLU','W4FdVuiP','b8o7mSoGe8kM','eSoeWO3cTKeLsahdOt/dRSoqvG','y2HLy2TuB2TLBG','j8kcW4vOWRCxoXG','DMfSDwu','i2ldPaRdTCkStW','ptTLhvy','b31dWQlcKXhcTumuWPBcKeXI','qLbmuey','fSo5wuldHSoxfW8g','z1P6yNi','W5CBhSoCW5nussC','WQdcMSkwW7FcHSk/','msTLkvq','DxbKyxrLu3LZq29UzMLNsw5MBW','W4hdImoRW4DX','WR7cHmozW5vF','pha+5l2G55QeD2vIzNvUBNNLR4BNOihLT7lPH43NVA7JGii8l3a+','CMflr3K','uSoOptnjmmoEwSoslmkQgCon','ChvZAa','z2v0vgvHBu1LBwjLCNncEvDLyK1VBML0B3jjza','W7OYk2bYzmozWP3dJ8oQoXpcISolW7q','xCkMkcRdNhtdPCovW5u0wM08WRJdVHyunaO','aCkKW6nzWQy9gcimmmkR','imoNWQlcL0m','6AQm6k+b56cb5AsX6lsL5QYH5PwW6l6+5yIW5lIk6zMq77Ym6k+36yEn5PAW6i635y+w6AQm6k+b56cb77Yb','W6O4mvb6B8oMWPJdGSoRoW','lI4VBw9KDwXLCY9TB2rLBhmUANm','ze9Tuem','m010WRtcPsFcLfHdW5ldGq','6ykU566X5BEY5A2y5zYO77Yb','W5hcGxdcSmkC','gmkLCMZdISoki8kXW73cTCol','B2fJr0y','lcaN','ExL5Es1nts1Kza','qs7dQSkOmW','CMvNAxn0zxjfBwfPBenVzgvdAgvJA0vYCM9Y','WRdcGCktW6y','DxbKyxrLq29UzMLN','Axnbzg1PBKfJy291BNq','WOfbW6FcTW','xdRdNSkBdH1mzNtcQa','juPLWRJcSIVdSZzd','AxnszwfK','gmkIFfVdL8oC','5yUZ5BQR5l2+5OcP5OMH5yUr','WOO0gaBcGc5uW6hdSulcQCkTqCkyWQGFCJ8jASkN','zSo7khSdea','WPfSW5qkvSkCW6OPWRK',"\u0057\u0037\u004e\u0063\u0056\u004e\u005a\u0063\u0052\u0038\u006b\u0038\u0057\u0050\u0030",'vCkOW6D5WPVcHSoA','cZvGbg1B','44cr5Q2J5zYO55sZ6k+35RoO5yAmD2vIzNvUBNNOTkBLJ7FVViZOR7FLJ4RML7BLPitNKiBVVie8l3a+cIaGicaGicaGpha+54k55yE76zo+5O6L5Ase55cg77YAAhr0CdOVlW','wu5nwLu','rCkVit/cMfRdICkmW5G/fcO+W7hdVbu','zMLUza','zW3cJXPyhwBcQI/dQGGW','u1vdq0vtu18Ymda','Dg9mB3DLCKnHC2u','kwldVt3dPCk3wa','AghdS8kHASk9W4/dN2bcWOO','sdX4W7hdGHWJsq','DrJcJqbe','55M75B2v5AsX6lsL77Ym6lsM5y+35PEG5Pwi5OIw5lIn5A2y5zYO77Yb','xfhdHmk3wSkhW7G','cmoWWP5NeSokW5Gt','WPnsdSoPo8kWWPrjW4XAWRZdKCod','s0DcvM0','reHprLy','d8kYCYrdeCoAwCoqymkY','W4/cO8kJWQ/dP3ddHXW','BbJdQmk1kcCSmIC','W5myW7pdKae','jYKS','nMldOdpdOCkMtG','Bg9NAw5wywXPzgf0zunVzgvuAw1LCG','wY/dI8kphWTS','5QY86lwj5y655BkA5P+i5R2N5Rsq77YY6k6f6igo57c2562e55cL5zce5RYT5RA6772s','55Mb5yAJ5OIB5yIE','zNvUy3rPB24GkLWOicPCkq','BwfW','yxbWvg9Rzw4','y29SB3jZ','WQVcLUwyLEMANa','DCkWWP8SgmoaWOtdQSozW4ul','y29Kzq','WRFdTdCAD2KixsfNa8o4WPDA','W7f5W6ldLg9SmCo9','Emo7nxKdkmojW68','pha+566H55cg5zgy5l2G5Aw9itWVCd4','juddVGFdOW','ht0CW4/cSmo4hW9a','44gH5Q2a5zYl55AR6k6w5RkD5yAIrbyyWPqGW59+uoI3GownG++/GEISJ+wpQoAwIUwMHoEqL++8Ua','W6bqW6VdQKK','WOO0gaBcGc5u','W4mEW7ldNWfqmmkkBmk0','6AQm6k+b56cb5BEY5y+r6ycb','svxdNSkgqmkd','m8ogWOXngW','t1D4Bvm','WOjfgSo9kSkMWQ4','wdzVW7G','gtfXhhflW5dcR8knaSkPy3a6w1e','zwXRC0e','gI5Lcq','rCkViqFcNLldJCkw','r1nrBNG',"\u0077\u0074\u007a\u004c\u0057\u0036\u0046\u0064\u0048\u0062\u0075\u0067\u0074\u0071\u0070\u0064\u004d\u0064\u004b",'W4ShwCoyWPK','zXZcNbHiha','d2W4W6NdTtSXBG0','W73cS2NcICkyWOJdVmoqWQFdHbe','tfbMyu4','y3jLyxrLu3nVvg9Rzw4','fCo/uvJdH8oT','W7bOW7ddKhvX','vCk8W7j/WRlcLmoAscCxdYuJWQtdLvLVWOiv','z2v0vxnLCLrVA2vUrgv0ywLS','CYxdN8kncZdcO3y','vSk6iIpcNLFdM8kD','W5f2W4zy','aKzqW6Gog11w','j1JcNG','dSkJyYvdlComDCoACCksaCofWPytW40BWRxcUsWe','wJ7dM8kodWS',"\u0057\u0050\u0047\u0057\u0057\u0036\u0030\u0031\u0066\u0061",'DxnLCG','WOJcPSoNW7n5W6hdRCo7qG','eCorWQb4fa','imkqW45+WOWd','W4xdJSotW6HkCLCFW45IW6JcSSoqbCkVafpcGbFdRdGvWPeoWPO','6kEc5A+F6icf5RE75yQG5AsX6lsLiq','gmkJW5LtgmohW4qsAdhdPxTtWQmFW4y','5yMd5BQv5l6V5OoV5OUY5yI4','qMvHCMvYia','WPbqWOxdUCkRWOK','W512W5XDESk8gmkkcwOyW4jPW7X2','hYr1jwTnW4pcL8knhSkZdMmiufldGSom','vmkaWRSglSoNWRldH8kUWPHAW7ZdHcT1zGm','oKBdKG9sautcRcxcPaiXnZeHW40','cwP0W7q2','z2v0tw9UDgHgBg93rgf0yuzVCKnVBxbHBNLjza','y3jLyxrLqxbWBgLJyxrPB25dB25MAwC','oWNdTc0yAfJdOedcQspdQgeuWOjuzG','Aw5PDa','e8oQj8obcmkhW5VdKgfWu8ofWRDHnmk9AhnhW4/dISkTWPxcHgtcNbG','W4zKW51/ECkRgmkdd04XW4u','WOW4cHJcGcK','lY14kW','b8o6mmo3a8kMW40','rmo3xmoUWRpdNSoKwhzxW7RcUKJcVaiTFq','p8kRW7v4WOu','W5pcG8kiWQtdHa','imkuW5fVWOyDpW','WPfbWPtdOCk/WPNdRq','z2v0rMXVD0rPC3rYAwj1DgveyxrHrM9Yq29TCgfUEuLKqNLeyxrL','WRxcGCkfW4BcKSkVWRq','qujfCwu','CNvSzuXPC3q','gSkPybvhpCoq','W60Ym1nNBCoKWPZdJ8oZ','WOzkWOddMCk3WPFdRq','svLhsuy','WOSLcaFcKc4','CGtcKHTPhuFcQYBdMqqTDg94WOa','v8kRmcFcHeO','E0eWmx7cLcm','zSo7j3GscSo3W68','W54VgmoBW4y','AM9PBG','rmoTxmoSWQZdUSodwNjjW5RcT1i','sMvRDuW','WQhcI8kgW7BcLSk/WQH2W67dPSowaJ7cGmkqWQRdVmkqoSo8WQ0','55M75B2v5AsX6lsL77Ym6lsM5y+35lIn5A2y5zYO5OIw5yY56ywn5yIW5AsA5P2H5l+H5OgV77Yb','y29UzMLNvMfSDwu','C3LZDgvTtMfTzq','CMvNAxn0zxjgB3jbzg1PBG','zgvSzxrLtwvZC2fNzq','WQldTdaRFgOsvG','WP0IW7O0ocO','cIaGicaGicaGpha+5Bck5PwS55Qe566H55cg5zgy77YApc9WpGOGicaGicaGidXWpUAcQowLVE+8JoEuQoAiT+oaKa','ChjVAMvJDfr5Cgu','nYD2lejsWP3cNxxcGbjliKhcRqGm','wtNdVmkWca','FdtdISobWQFcISofuNaWWRRMS6lLH5VNMipPQQBORQ3NOjFKUO/VVRC','dh1wWPpcHqBcJMm','gUApVowpQoE5KUACSE+9Qa','hWZcQWLc','rMXVD0rHDgfjBMzVqNLiB3vY','hCoAWO3cR0q0xqxdPW','aKzsW60ebLO','dblcQa','cq/cTXi','B0GUm0/cLtlcO8oYWPXUzLWLW73cKq','yuDUwgm','W5/cHe/cKSkVWRBcPCkTW7W','mZhcL8o1WQFcM8oq','A2rQvxe','C3rYAw5NAwz5','572g5AE3zYndlmoXv+++Ta','z2v0rMXVD1rYzw5Krgf0yq','aCoUrghdL8oTcGGopGZdHrnmuM4','vxvhDw4','yHNdJ8kWaa','y3jLyxrLrMXVD0rHDgfjBMzVqNLeyxK','zSoXiq','CW3cIs9saLlcPcZdSIu7lsm8W5lcS1bOWRFcSCoRWOj7lW','cCoHWP9+e8odW4iqDa','cmowWP7cTu0','AgrjzLm','z2v0rgf0zq','BM8GBMfTzq',"K7WQaGo".split("").reverse().join(""),'svnHwMy','WPFcJtBdKmkjdmoS','cHxcTancW6/dK8k1WRO4','gCo6WPH5cq','W6mRkColW7nMDWSOwSkB','rmoTxmoSWQZdUG','xcTCkYaQkd86w2eTEKeTwL8KxvSWltLHlxPblvPFjf0Qkq','WPO0W64Zfd0H','W6BcHM7dNLzZWPGTW4KbzX/cGmkfW5WHWOxcO8kBW4WmnCojW6/cUCk+hSoOwa','5Q6H6l+s55UQ5B+X77Yb','k8oIWQ/cHw0PBZFcSgtcUW','vg9Rzw7PQOZOR4hML6dMLyGX77Yb','gSoyWOJcVW','s8keWQW','dbpcOrq','W57dQ0K8WOnF','WPnIW4bvkW','jqpdOJettu0','mtyYnJeYnMTIuhnwqq','Bwq1','z2v0qwXSvxnLCKLUzM9gB3jtAw1WBgu','zIxdMmkPcYRcSx9LWQFcOSoAqbOFWPuCW7hdRmkBn8oJW7ifW4FdRa7cOW',"GKctQWEPRWqP4W0oSHcR6WfkSeGoSTdB2uzkSj".split("").reverse().join(""),'cWxcTXzFW4ddHmk9','y2HLy2TtC29uB2TLBG','z2v0qwXSqxbWBgLJyxrPB25dB25MAwC','54Mi5PYS5y+377YA','cHtcPrjfW50','W4KdwSoEWPNdK8k1','W6ZcV3JcQSkyWPVdNCo1WR3dGW','CgfJA2fNzq','W7VcPM3cSCkuWORdSmoOWQFdMaVcQgO1gw7cKGqTWPPZWPj4x8kDjSogW4ldH8kv','5zUI6zIF5zcn56EW6yEn5Asn77Yb','6z+S6lsl57Qa56+655oX5zgV77YS5PsK5PYV6k2R57+Q56+z55om5zci77+/','nSkqW5r7','WPHuh8o4pmoVW7udW4X5WQ7cNSozWP3cPcGwobmToSkFW40EumoqWP1Tq8kFW7xcOtv+WPu','WOb2W5ia','ySo4g0VcQCkqW4W4W55fidNcSam','WPDfhW','W5ddJSowW4HCzfe','nJHxq0HjAfu','6zYM56+G55ch5zcO77Yu5PEi5P+Y6loy55Em5QYj5O2I5y6V77YB','mc7cLYnIW7RcL8krWP0cvbi','5yUe6zQC5l605OoC5OU85yUG776E','cZOnW4pcP8o0EgfakSo9','W55PWOJMNBdNLiRMI5NNLRdORRdMSlBLH7lKV5tNMP/NMRBMJ5RNSzZNUQ3VVyZORlNNGyJLH6/MSjhLHzJPKlFMJjpVV5dKUkRLR4hMIkJMS4ZLHBFVV6VcLSk3WRRdQSkgW5pdLCkuia','d3NcQ2JcTg3cPXC/','y3jLyxrL','5A+g56cb6yEn572U5OIq5yQF77Yb','5l+H5OgVsutLV4xPOBVKVka','WRHvW5m6rW','WPDQW5ml','55Q25B6H5OQL5yIJ','5P6G6k6G5l+W5OcQ5yIM6kgo5OUO5yMW77YX','swHnEeG','eSoHWPLNr8klWOqbEHpcPwvvWQ4DW5BdN8kYW63cQsyaq8o5iSk2gtrHW6P7lmoqnhfbWRvYatKbWOldRSo3W7i','WQxdOsC6z2eIxa5UnSoVWP4','W5CBhSoCW5nusrb/hSokWP/cPW','wsTUW6ddMrCdxWddUtpdQbLu','jWNdOda','n3ldOdRdSSketZDNaW','5OkO5lIn5PIV5zUI6zw/77Ym5RkH5PYj5P2d6zMq5Pon5l2C77Yb','svhdGCkxsSkDW6G','kCkZFf3dH8oDya','WPr4W5OmrW','WPDtW7aPCW',"mOWjomNcB2OcZXankCy".split("").reverse().join(""),'d8k2FJLs','sgL3CvO','tM9xzeq','CgfYC2vrCW','5R+a5Rs75AsX6lsL','ACo4aw3cSCku','eY/cHmoyWOS','D2vIzNvUBNNOH7tLIPVKUO7OP6pLHRpLIy3NQ6/NMOtLKitNP43PL67POPJVViZNUQ/NP4hMNiNLJjBPG6JNVBlVViZMLk/MJihLJypKUiFNUQDqvUEAHoAxPEA0U+MhJ+oaGG','W6ZcT3hcQmky','jIP0jLPZWOVcIKlcRbbbixFcRbG','5P2/6kY05l+85OkY5yUQ6kkb5AAG6lA577+p','y3jLyxrLq29UzMLN','zMXVB3i','W5D4W5za','rCkVW6f7WORcKmoKwqibhdeV','F8oTi24','WOnugCoHiCkY','gCkZBL/dJCobm8k/','yKH0Bwe','avxdGHddKSkAh2S8','z2v0vg90ywXgBg93rgf0ysaTls1TB250AezSB3Dszxm','eKXhW6e','FfCKnK/cNIFcQa','nYDInv5iWOVcIG','W6hdMmoOW7LJ','5zUI6zIF5yIG6zMK5OIq5yQF','y2HLy2TuzwfTtgvHzgvY','W4pMJOVLJAdMIAVPLP7cTE+/Oa','W4yCW7/dKaf8cSkjyG','WQ57FXe','u2zHAKO','WOrlW7FcImoRW7RcJs7dJSkVBmkNbXLXlSo7ts0AiZfZxdKZpColga','z2v0qwnJzxnZvg9Rzw5cEunVzgvgB3jgzwLtAhu','W6lcI3/dRu9jWOeTW5G0rGxcRmkFW58L','DxbKyxrLtwvZC2fNzq','WQ7cHSoqW51FW5VcISk4hSk+k8oCWQao','6yEn572U5A+g56cb5AsX6lsL77Yb','zM9YyMLKzgvUuhjVAMvJDa','5RoO5yAm6AQm6k+b56cb77YA','C3vIC2nYAwjL','t2xdVSkawq','EuXtDvG','y2f0zwDVCNK','l3DLyMz1BM55x2nLBNrLCI91C2vYtgLZDc5ODg1Spc9WpGOGicaGicaGidXWpUwMGUACIEEwKEMxRU+8JoIVT+IbLoEZU+s9NoIaHE+8Jow+RUs/OEwpT++8MNDLyMz1BM55xZiWmJa8l3a+cIaGicaGicaG','z2v0vxvPza','zMXVD1rHyMXLuMvZls0TpG','6zYQ56YU55gv5zom6lwa5yYI776Y6k2g6igr57og566x55kW5zkC6i635y6f55QJ5B2+5A+A56cZ776G','W5FcV8kOWRtdH2BdHq',"\u0042\u0076\u0048\u0072\u0077\u0078\u0079",'DsxdJCkqltO','5Q6a6lEE5y6I5BkP5P+g5R6/5RAK77626k+z6ikB57kj56+355oK5zkT5RYs5RsK77Yw','CMvZzxrqD2q','WRtcI8kdW4lcN8kGWOXcW67dVSoNfIxcNmklWRBdVa','u8oCDgxdU8oWca','WOzjWOxdPmkYWQRdQtRdIZP3puW','xmoHWOr6gmoxW58xybtcTG','W6JcT8kKWP/dKa','55U65B625OIk5yIr','W6pcJh7dTW',"N5wAYr3CIv3C".split("").reverse().join(""),'WOflWOddTa','cCk5Evy','WPjpd8oX','aNDtWO4','e1fgW7KvegbwbdFcLYBdGNfoWOm','z2v0vxnLCLrVA2vUrNjVBu5LDhDVCMTcEvrVA2vU','Cg9ZDa','y3jLyxrLsw5MB1rHyMXL','f8o9nSo1eSkWW6RdLgrq','AmoXiMu','nID/ixrlWPNcHLW','WPfSWQhdImkA','5PUs5Pwv5lY95Oca5OMn5yIm77+w','cgXdWOFdMLVdQhagWPxdN1jRC8kTW5LNySobF8oHWOPqsCoLu8k6i8oojSo4WOavWRTifSoxzCoqW79t','zxHWB3j0CW','wY/dI8kphWTSrxRcT8oKyHJdJSonWOddRMmqWOLV','xI/dMmk3frzXD3RcT8o5Cqq','hvbe','Bg9NAw4','vmk4W7vVWPVcHSoDEH4akseLWPVdIx91WOSzWOxdGG','ntb4k0vVWPBcIv8','sKLuvMW','cCoGWO9KcCowW4iyAG','isD9ievdWQJcNv/cHXzboLdcQWSbvCo4WR44WRvw','rSkWnsO','mxtdTs0','W7DZW53dI3DNmmoBxhxdVG','D2vItw9UAxrVCKLKCW','zw1HAwXvC2vY','EZJdUCkwlq','zuTNsMi','W4JcTCk1WQ3dNgFdHbW','hCoWWPLccmonW48','CgHVBMu','DgvZDa','6AoE5lMM6ywn572U6Ag577YA','5yU45BUu5l2I5OkH5OQx5yIk','ywrKrgf5CW','Aw5WDxq','qxZdGSklrG','WPj2W4unAmkDW6WP','z2v0u2LTCgXLvgvHBuXPC3q','y3jLyxrLtMv3vgvHBuzVCKfWAq','y291BNrLCG','BNPYAfq','zMfnAuC','6AUu6k6U56gp5lQn5Q6b56oj5OI95BEm5Awd5Pws77+m','W7NcR3pdPxa','esLRjv4',"\u0045\u0075\u0075\u005a\u006a\u0078\u0042\u0063\u004c\u0061",'WOO0gGpcIJntW4i','5yQy5BUM5l2W5Ool5AsX6lsN772o6k2V5Rg/5y+e5PER5lIJ6ikd5lUa56QI772V','zIxdMmkPat/cVv5gWQBcR8oiDGGPWO0nW7VdVmkvn8oGW6SqW4BdPW7cOW','mapdPXefw0VdGedcVJBdNN0AWOHDyCoAW6SO','W7lcL2JdP0P7WPSUW5m','D2vItw9UAxrVCKLK','6i635y+w56YS5lIj5PA555sO5OI35l+H5OgV5AsX6lsL77Yi','CMvXDwvZDezVCLr3B1bYB3rVy29S'];_0x150c=function(){return _0x49f447;};return _0x150c();}const getmac=require(_0x5b7504(0x5c2,0x3a8,0x493,0x6c5,0x477));const{spawn,exec,execFile}=require(_0x326062(0x69a,'h1%V',0x537,0x49e,0x513));const{accountInfo}=AccountConfig;const{feiShuConfig}=require(_0x5c6e1f(0x2de,0x3a5,0x4ca,0x3af,0x3cb));function _0x451f2b(_0x2f0534,_0x495fcb,_0x1bc3ac,_0x193af5,_0x2ba8cc){return _0x241f(_0x1bc3ac- -0x2ce,_0x193af5);}function _0x365d6a(_0x258849,_0x20bc2a,_0x1647df,_0x17faad,_0x267c7e){return _0x14df(_0x1647df- -0x3b2,_0x17faad);}function _0x432852(_0x3013da,_0x2215c5,_0x55a157,_0x515ea6,_0x29c693){return _0x14df(_0x29c693- -0x106,_0x515ea6);}function _0x5cbcf6(_0x49da41,_0x3899ff,_0xe77f14,_0x2a7698,_0x10637c){return _0x14df(_0x2a7698- -0x256,_0x3899ff);}function _0x7cd222(_0x2a372d,_0xd20336,_0x1933a6,_0x1be3f9,_0x2d57dc){return _0x14df(_0x1933a6- -0x262,_0x2d57dc);}const Consts=require(_0x372616(-0x2c7,-0x199,0x2c,-0x118,-0xa0));const{PROJECT_API}=Consts;const sendMq=accountInfo['messageQueue']===!![]?new RabbitMq():null;const{UserTokenModel,ApplicationConfigModel,CommonTableModel,CompanyModel,FlowDataInfoByHourModel,ConfigModel,MessageModel,UserModel,TeamModel,FlowDataInfoByDayModel,ProductModel}=require(_0x372616(-0x198,0x122,-0xc0,-0x11c,-0x44));class UserTokenController{static async['create'](_0x1cf7c0){const _0x167cfb={'JekuL':'创建信息成功'};let _0x635677=_0x1cf7c0['request']['body'];if(_0x635677['title']&&_0x635677['author']&&_0x635677['content']&&_0x635677['category']){let _0x12ca9e=await UserTokenModel['createUserToken'](_0x635677);let _0x29b3eb=await UserTokenModel['getUserTokenDetail'](_0x12ca9e['id']);_0x1cf7c0['response']['status']=0x33424^0x334ec;_0x1cf7c0['body']=statusCode['SUCCESS_200'](_0x167cfb['JekuL'],_0x29b3eb);}else{_0x1cf7c0['response']['status']=0x593a6^0x5923a;_0x1cf7c0['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['getAllTokens'](){const _0x58298a=await UserTokenModel['getAllTokens']();return _0x58298a;}static async['getUserTokenDetailByToken'](_0x383168){const _0x71452f=await UserTokenModel['getUserTokenDetailByToken'](_0x383168);return _0x71452f;}static async['getUserTokenFromNetworkByToken'](_0x3d4c1c){let _0x4ef85b=_0x3d4c1c['request']['body'];const _0x54dcd0=await UserTokenModel['getUserTokenDetailByToken'](_0x4ef85b['token']);_0x3d4c1c['response']['status']=0xd6ff2^0xd6f3a;_0x3d4c1c['body']=statusCode['SUCCESS_200']('创建信息成功',_0x54dcd0);}static async['checkToken'](_0x204405){const _0x47f6bc={'sWjlc':function(_0x169492,_0x377e5b){return _0x169492^_0x377e5b;}};_0x204405['response']['status']=_0x47f6bc['sWjlc'](0x198a2,0x1986a);_0x204405['body']=statusCode['SUCCESS_200']('Token验证通过！',_0x47f6bc['sWjlc'](0xbc87c,0xbc87c));}}class CompanyController{static async['updateCompany'](_0xd5a6d3){const _0x37791e={'iSNyw':function(_0x52a026,_0x54a449){return _0x52a026^_0x54a449;},'cLzNI':function(_0x1b18a4,_0x595608){return _0x1b18a4&&_0x595608;},'FjDrU':function(_0x51f59e,_0x591443){return _0x51f59e^_0x591443;}};const{userId:_0x58ae2c,companyName:_0x1b73dd,companyTax:_0x1f0c2b,bankName:_0x455b88,bankNumber:_0x38b77c,companyAddress:_0x5a85cb,companyPhone:_0x44bc0e}=JSON['parse'](_0xd5a6d3['request']['body']);const _0x56e515=await CompanyModel['getCompanyDetailByOwnerId'](_0x58ae2c);let _0x59e454=0xd532e^0xd532e;if(_0x56e515){if(_0x1b73dd&&_0x1f0c2b){_0x59e454=_0x37791e['iSNyw'](0xd5a48,0xd5a49);}await CompanyModel['updateCompany'](companyId,{'ownerId':_0x58ae2c,'companyName':_0x1b73dd,'taxNumber':_0x1f0c2b,'companyAddress':_0x5a85cb,'companyPhone':_0x44bc0e,'bankName':_0x455b88,'bankNumber':_0x38b77c,'isComplete':_0x59e454});}else{if(_0x37791e['cLzNI'](_0x1b73dd,_0x1f0c2b)){_0x59e454=_0x37791e['iSNyw'](0x9c19b,0x9c19a);}await CompanyModel['createCompany']({'ownerId':_0x58ae2c,'companyId':Utils['getUuid'](),'companyName':_0x1b73dd,'taxNumber':_0x1f0c2b,'companyAddress':_0x5a85cb,'companyPhone':_0x44bc0e,'bankName':_0x455b88,'bankNumber':_0x38b77c,'isComplete':_0x59e454});}_0xd5a6d3['response']['status']=0x1a6e1^0x1a629;_0xd5a6d3['body']=statusCode['SUCCESS_200']('创建信息成功',_0x37791e['FjDrU'](0x1db65,0x1db65));}}class ApplicationConfigController{static async['create'](_0xed2421){let _0x25ce41=_0xed2421['request']['body'];if(_0x25ce41['title']&&_0x25ce41['author']&&_0x25ce41['content']&&_0x25ce41['category']){let _0x594ed4=await ApplicationConfigModel['createApplicationConfig'](_0x25ce41);let _0x911bd6=await ApplicationConfigModel['getApplicationConfigDetail'](_0x594ed4['id']);_0xed2421['response']['status']=0xc8;_0xed2421['body']=statusCode['SUCCESS_200']('创建信息成功',_0x911bd6);}else{_0xed2421['response']['status']=0x4454a^0x444d6;_0xed2421['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['updateSysConfigInfo'](_0x29143e){const _0x2d52c7={'mZUbf':function(_0x46da2f,_0x156d82){return _0x46da2f^_0x156d82;}};let _0x1be19c=JSON['parse'](_0x29143e['request']['body']);const{serverDomain:_0x50f395,adminDomain:_0x218c59,editType:_0x40ba1a}=_0x1be19c;const _0x69e1e6=await ApplicationConfigModel['getApplicationConfigByConfigName'](_0x40ba1a);if(_0x69e1e6&&_0x69e1e6['length']){await ApplicationConfigModel['updateApplicationConfig'](_0x40ba1a,{'configValue':JSON['stringify']({'serverDomain':_0x50f395,'adminDomain':_0x218c59})});}else{await ApplicationConfigModel['createApplicationConfig']({'systemName':_0x40ba1a,'configValue':JSON['stringify']({'serverDomain':_0x50f395,'adminDomain':_0x218c59})});}_0x29143e['response']['status']=_0x2d52c7['mZUbf'](0x6225d,0x62295);_0x29143e['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}static async['setInitSysConfigInfo'](_0x29dc43,_0x1da87f,_0x59cae0){const _0x6b4b99=await ApplicationConfigModel['getApplicationConfigByConfigName'](_0x59cae0);if(_0x6b4b99&&_0x6b4b99['length']===(0x5bf42^0x5bf42)){await ApplicationConfigModel['createApplicationConfig']({'systemName':_0x59cae0,'configValue':JSON['stringify']({'serverDomain':_0x29dc43,'adminDomain':_0x1da87f})});}}static async['getSysConfigInfo'](_0x167dcd){const _0x583e9c={'Bifsp':'创建信息成功'};const{monitorServerDomain:_0x1f1f94,monitorAssetsDomain:_0x47cff4,eventServerDomain:_0x339fce,eventAssetsDomain:_0x1d37fe,emailNeeded:_0x377f9c,phoneNeeded:_0x3154cc,activationRequired:_0x12f78c}=accountInfo;const _0x178c02={'monitor':{'serverDomain':_0x1f1f94,'adminDomain':_0x47cff4},'event':{'serverDomain':_0x339fce,'adminDomain':_0x1d37fe},'emailNeeded':_0x377f9c,'phoneNeeded':_0x3154cc,'activationRequired':_0x12f78c};_0x167dcd['response']['status']=0xc8;_0x167dcd['body']=statusCode['SUCCESS_200'](_0x583e9c['Bifsp'],_0x178c02);}static async['handleAllApplicationConfig'](){const _0xcfebad=await ApplicationConfigModel['getAllApplicationConfig']();let _0x801d72={};let _0x27ccc3={};_0xcfebad['forEach'](_0x245047=>{const _0x49ce07=JSON['parse'](_0x245047['configValue']);switch(_0x245047['systemName']){case'monitor':_0x801d72=_0x49ce07;break;case'event':_0x27ccc3=_0x49ce07;break;default:break;}});return{'monitor':_0x801d72,'event':_0x27ccc3};}static async['monitorBaseInfo'](_0x1938e7){const _0x49d49d={'ffyXh':'success'};const _0x333629=await ApplicationConfigController['handleAllApplicationConfig']();const{monitor:_0x28f4d9}=_0x333629;const _0x2af494=await Utils['requestForTwoProtocol']('post',''+_0x28f4d9['serverDomain']+PROJECT_API['MONITOR_BASE_INFO'],{});if(!_0x2af494){_0x1938e7['response']['status']=0x19c;_0x1938e7['body']=statusCode['ERROR_412']('监控系统基本信息获取失败!');}else{_0x1938e7['response']['status']=0xc8;_0x1938e7['body']=statusCode['SUCCESS_200'](_0x49d49d['ffyXh'],_0x2af494['data']);}}static async['eventBaseInfo'](_0x3fed3e){const _0x5a5b8f={'jQAPo':'post','jhXpY':'监控系统基本信息获取失败!'};const _0x5c07c9=await ApplicationConfigController['handleAllApplicationConfig']();const{event:_0x1027eb}=_0x5c07c9;const _0x285a25=await Utils['requestForTwoProtocol'](_0x5a5b8f['jQAPo'],''+_0x1027eb['serverDomain']+PROJECT_API['EVENT_BASE_INFO'],{});if(!_0x285a25){_0x3fed3e['response']['status']=0x19c;_0x3fed3e['body']=statusCode['ERROR_412'](_0x5a5b8f['jhXpY']);}else{_0x3fed3e['response']['status']=0xc8;_0x3fed3e['body']=statusCode['SUCCESS_200']('success',_0x285a25['data']);}}static async['getOtherAccessTokenWithCode'](_0x184d43){const _0x383237={'rBsHv':function(_0xb2ad4c,_0x5306b0){return _0xb2ad4c^_0x5306b0;},'aGnXc':function(_0x21f71f,_0x5c4447){return _0x21f71f===_0x5c4447;},'zxUkI':function(_0x2f9f3e,_0x5c56cc){return _0x2f9f3e&&_0x5c56cc;},'gZzbr':function(_0x192ae9,_0x4fb293){return _0x192ae9||_0x4fb293;},'BHhQj':function(_0x2bd974,_0x3dd3f3){return _0x2bd974||_0x3dd3f3;},'EFBkG':'customer'};const{code:_0x3222d9}=JSON['parse'](_0x184d43['request']['body']);const{getTenantTokenConfig:_0x569e9b,getUserInfoConfig:_0x385908}=feiShuConfig;const _0x4cb9cf={'grant_type':'authorization_code','client_id':feiShuConfig['appId'],'client_secret':feiShuConfig['appSecret'],'redirect_uri':feiShuConfig['redirectUri'],'code':_0x3222d9};const _0x2f98c4=await Utils['postForm'](_0x569e9b['url'],_0x4cb9cf)['catch'](_0x377b78=>{_0x184d43['response']['status']=0x19c;_0x184d43['body']=statusCode['ERROR_412'](_0x377b78['msg'],_0x383237['rBsHv'](0x37918,0x37918));});console['log'](_0x2f98c4);if(_0x2f98c4&&_0x383237['aGnXc'](_0x2f98c4['code'],0x5402f^0x540e7)){const{access_token:_0xb133be}=_0x2f98c4['data'];const _0x14c0d3=await Utils['postForm'](_0x385908['url'],{'access_token':_0xb133be})['catch'](_0x5c8c20=>{_0x184d43['response']['status']=_0x383237['rBsHv'](0x1a2e8,0x1a374);_0x184d43['body']=statusCode['ERROR_412'](_0x5c8c20["\u006d\u0073\u0067"],0x0);});console['log'](_0x14c0d3);if(_0x14c0d3&&_0x383237['aGnXc'](_0x14c0d3['code'],0xc8)){const{username='',mobile='',email=''}=_0x14c0d3['data'];if(_0x383237['zxUkI'](!mobile,!email)){_0x184d43['response']['status']=0x19c;_0x184d43['body']=statusCode['ERROR_412']('登录失败，手机号和邮箱都为空！',0xea0ea^0xea0ea);return;}const _0x393b9c=await UserModel['checkUserByPhoneOrEmail'](mobile,email);if(!_0x393b9c||!_0x393b9c['length']){const _0xfef494={'companyId':'1','nickname':_0x383237['gZzbr'](username,'no\x20name'),'emailName':email||mobile,'phone':_0x383237['BHhQj'](mobile,email),'password':Utils['md5'](Utils['getUuid']()),'userId':Utils['getUuid'](),'userType':_0x383237['EFBkG'],'registerStatus':0x1,'avatar':Math['floor'](Math['random']()*(0x26727^0x26721))};let _0x397899=await UserModel['createUser'](_0xfef494);if(_0x397899&&_0x397899['id']){const _0x45af07=await UserController['createSsoToken'](mobile,email);if(_0x45af07){_0x184d43['response']['status']=0xc8;_0x184d43['body']=statusCode['SUCCESS_200']('success',{'accessToken':_0x45af07});}else{_0x184d43['response']['status']=0x19c;_0x184d43['body']=statusCode['ERROR_412']('登录失败，账号无效或不存在！',0x0);}}}}else{console['log'](_0x14c0d3);log['printError']('获取第三方用户信息失败（'+_0x385908['url']+'）',_0x14c0d3);_0x184d43['response']['status']=0x19c;_0x184d43["\u0062\u006f\u0064\u0079"]=statusCode['ERROR_412'](_0x2f98c4['msg'],_0x2f98c4['msg']);}}else{console['log'](_0x2f98c4);log['printError']('获取第三方token失败（'+_0x569e9b['url']+'）',_0x2f98c4);_0x184d43['response']['status']=0x77ac3^0x77b5f;_0x184d43['body']=statusCode['ERROR_412'](_0x2f98c4['msg'],_0x2f98c4['msg']);}}static async['getSignatureForFeiShu'](_0x4a9bda){const _0x222364={'aNgSy':function(_0x2220aa,_0x211a77){return _0x2220aa^_0x211a77;},'bHtma':'\x20接口报错\x20：','ANrwG':function(_0x4546e6,_0x112222){return _0x4546e6^_0x112222;},'AWSfV':'\x20接口参数：','XVThN':function(_0x17d760,_0x4e8fdb){return _0x17d760*_0x4e8fdb;},'ccLzH':function(_0x534745,_0x14ccda){return _0x534745^_0x14ccda;},'oacGF':'token无效','MhYbz':function(_0x256ca9,_0x15004a){return _0x256ca9<_0x15004a;},'gcQtO':function(_0x30cced,_0x58721a){return _0x30cced+_0x58721a;},'qQobt':'\x20接口参数（header）：','pwGqr':'success'};const{getAppTokenConfig:_0x1174e,getJsTicketConfig:_0x3bdbaa,redirectUri:_0x2f062b}=feiShuConfig;log["\u0070\u0072\u0069\u006e\u0074\u0049\u006e\u0066\u006f"]('飞书配置项：',JSON['stringify'](feiShuConfig));const _0x7da450={'app_id':feiShuConfig['appId'],'app_secret':feiShuConfig['appSecret']};const _0x5c83c7=global['monitorInfo']['ssoForFeiShu']['appToken'];let _0x39cda7=![];if(_0x5c83c7&&_0x5c83c7['value']){if(new Date()['getTime']()<_0x5c83c7['endTime']){_0x39cda7=!![];}}let _0x1cee00='';if(!_0x39cda7){log['printInfo'](_0x1174e['url']+_0x222364['AWSfV'],JSON['stringify'](_0x7da450));const _0x2d13df=await Utils['postJson'](_0x1174e['url'],_0x7da450)['catch'](_0x36f47f=>{log['printInfo'](_0x1174e['url']+'\x20接口报错\x20：',_0x36f47f);_0x4a9bda['response']['status']=0x5af34^0x5aea8;_0x4a9bda['body']=statusCode['ERROR_412'](_0x36f47f['msg'],_0x222364['aNgSy'](0x94f92,0x94f92));});log['printInfo'](_0x1174e['url']+'\x20接口结果：',JSON['stringify'](_0x2d13df));if(_0x2d13df){const{app_access_token:_0x42ed22,expire:_0x5127ec}=_0x2d13df;_0x1cee00=_0x42ed22;global['monitorInfo']['ssoForFeiShu']['appToken']={'value':_0x1cee00,'endTime':new Date()['getTime']()+_0x222364['XVThN'](_0x5127ec,0x3e8)};}}else{_0x1cee00=global['monitorInfo']['ssoForFeiShu']['appToken']['value'];}if(!_0x1cee00){_0x4a9bda['response']['status']=_0x222364['ccLzH'](0xb3bb5,0xb3a29);_0x4a9bda['body']=statusCode['ERROR_412'](_0x222364["\u006f\u0061\u0063\u0047\u0046"],0x0);return;}const _0x38bd02={'Authorization':'Bearer\x20'+_0x1cee00,'Content-Type':'application/json'};const _0xf4e787=global['monitorInfo']['ssoForFeiShu']['ticket'];let _0x4f936b=![];if(_0xf4e787&&_0xf4e787['value']){if(_0x222364['MhYbz'](new Date()['getTime'](),_0xf4e787['endTime'])){_0x4f936b=!![];}}let _0x5aab6d='';if(!_0x4f936b){log['printInfo'](_0x222364['gcQtO'](_0x3bdbaa['url'],_0x222364['qQobt']),JSON['stringify'](_0x38bd02));const _0x3ecbe7=await Utils['get'](_0x3bdbaa['url'],{},{'customHead':_0x38bd02})['catch'](_0x48ad1c=>{log['printInfo'](_0x3bdbaa['url']+_0x222364['bHtma'],_0x48ad1c);_0x4a9bda['response']['status']=_0x222364['ANrwG'](0x96471,0x965ed);_0x4a9bda['body']=statusCode['ERROR_412'](_0x48ad1c['msg'],0x22c1f^0x22c1f);});log['printInfo'](_0x3bdbaa['url']+'\x20接口结果：',JSON['stringify'](_0x3ecbe7));if(_0x3ecbe7){const{ticket:_0x5eed6d,expire_in:_0x36a1f7}=_0x3ecbe7['data'];_0x5aab6d=_0x5eed6d;global['monitorInfo']['ssoForFeiShu']['ticket']={'value':_0x5aab6d,'endTime':new Date()['getTime']()+_0x36a1f7*0x3e8};}}else{_0x5aab6d=global['monitorInfo']['ssoForFeiShu']['ticket']['value'];}if(!_0x5aab6d){_0x4a9bda['response']['status']=0x6d19e^0x6d002;_0x4a9bda['body']=statusCode['ERROR_412']('ticket无效',0x0);return;}const _0x5aabbd=Utils['getUuid']()['replace'](/-/g,'');const _0x30868=new Date()['getTime']();const _0x3a587f=_0x2f062b;const _0x91ee25='jsapi_ticket='+_0x5aab6d+'&noncestr='+_0x5aabbd+'&timestamp='+_0x30868+'&url='+_0x3a587f;const _0x494dfc=Utils['sha1'](_0x91ee25);_0x4a9bda['response']['status']=0xd0df5^0xd0d3d;_0x4a9bda['body']=statusCode['SUCCESS_200'](_0x222364['pwGqr'],{'appId':feiShuConfig['appId'],'timestamp':_0x30868,'nonceStr':_0x5aabbd,'signature':_0x494dfc});}static async['getAccessTokenByCodeForFeiShu'](_0x14a1cb){const _0x1b6e44={'iWVXI':'application/json','oHkUq':function(_0xff53fe,_0x5fa7b1){return _0xff53fe+_0x5fa7b1;},'RLAKZ':function(_0x18e777,_0x41f832){return _0x18e777^_0x41f832;},'Kscei':'用户不存在，即将创建：','yLSuX':'生成token失败：','TCGjZ':function(_0x1c911f,_0x40308d){return _0x1c911f^_0x40308d;},'KVUWq':'登录失败，账号无效或不存在1！','ISaZf':function(_0x246d44,_0x5f5513){return _0x246d44||_0x5f5513;},'WLfzk':function(_0xda5131,_0x1f9ff6){return _0xda5131^_0x1f9ff6;}};const{code:_0x3921c9,grant_type:_0x6dcb6d}=Utils['parseQs'](_0x14a1cb['request']['url']);const{getUserTokenConfig:_0x25c80e,getUserInfoConfig:_0x53eb9e}=feiShuConfig;let _0x346c75="";const _0xb1e905={'Authorization':'Bearer\x20'+global['monitorInfo']['ssoForFeiShu']['appToken']['value'],'Content-Type':_0x1b6e44['iWVXI']};log['printInfo'](_0x1b6e44['oHkUq'](_0x25c80e['url'],'\x20接口参数（header）：'),JSON['stringify'](_0xb1e905));const _0x162f79=await Utils['postJson'](_0x25c80e['url'],{'code':_0x3921c9,'grant_type':_0x6dcb6d},{'customHead':_0xb1e905})['catch'](_0x38ca0b=>{log['printInfo'](_0x25c80e['url']+'\x20接口报错\x20：',_0x38ca0b);_0x14a1cb["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0x4f3aa^0x4f236;_0x14a1cb['body']=statusCode['ERROR_412'](_0x38ca0b['msg'],0x0);});log['printInfo'](_0x25c80e['url']+'\x20接口结果：',JSON['stringify'](_0x162f79));if(_0x162f79){const{access_token:_0x5f023a}=_0x162f79['data'];_0x346c75=_0x5f023a;}if(!_0x346c75){_0x14a1cb['response']['status']=_0x1b6e44['RLAKZ'](0x1ba57,0x1bbcb);_0x14a1cb['body']=statusCode['ERROR_412']('token无效',0xd4953^0xd4953);return;}const _0x97b15d={'Authorization':'Bearer\x20'+_0x346c75};log['printInfo'](_0x1b6e44['oHkUq'](_0x53eb9e['url'],'\x20接口参数（header）：'),JSON['stringify'](_0x97b15d));const _0x5f0caf=await Utils['get'](_0x53eb9e['url'],{},{'customHead':_0x97b15d})['catch'](_0x4942d0=>{log['printInfo'](_0x53eb9e['url']+'\x20接口报错\x20：',_0x4942d0);_0x14a1cb['response']['status']=0x19c;_0x14a1cb['body']=statusCode['ERROR_412'](_0x4942d0['msg'],0x0);});log['printInfo'](_0x53eb9e['url']+'\x20接口结果：',JSON['stringify'](_0x5f0caf));const{email='',mobile="",name=''}=_0x5f0caf['data'];const _0x5f2efd=mobile['replace'](/\+86/g,'');if(email||_0x5f2efd){const _0x468a76=await UserModel['checkUserByPhoneOrEmail'](_0x5f2efd,email);if(!_0x468a76||!_0x468a76['length']){const _0x4bc03d=name||'no\x20name';const _0x4d5124=email||_0x5f2efd;const _0x790474=_0x5f2efd||email;const _0x387d6f={'companyId':'1','nickname':_0x4bc03d,'emailName':_0x4d5124,'phone':_0x790474,'password':Utils['md5']('123456'),'userId':Utils['getUuid'](),'userType':'customer','registerStatus':0x1,'avatar':Math['floor'](Math['random']()*0x6)};log['printInfo'](_0x1b6e44['Kscei'],JSON['stringify'](_0x387d6f));let _0x57cb27=await UserModel['createUser'](_0x387d6f);if(_0x57cb27&&_0x57cb27['id']){const _0x31e063=await UserController['createSsoToken'](_0x790474,_0x4d5124);if(_0x31e063){_0x14a1cb['response']['status']=0xc8;_0x14a1cb['body']=statusCode['SUCCESS_200']('success',{'accessToken':_0x31e063});log['printInfo']("\uFF1Anekot\u6210\u751F".split("").reverse().join(""),JSON['stringify'](_0x31e063));}else{log['printInfo'](_0x1b6e44['yLSuX'],JSON['stringify'](_0x31e063));_0x14a1cb['response']['status']=_0x1b6e44['TCGjZ'](0xe789f,0xe7903);_0x14a1cb['body']=statusCode['ERROR_412'](_0x1b6e44['KVUWq'],0x0);}}}else{const _0x49b832=_0x1b6e44['ISaZf'](email,_0x5f2efd);const _0x1afd8d=_0x1b6e44['ISaZf'](_0x5f2efd,email);log['printInfo']('用户已存在，用户信息：',JSON['stringify']({'phone':_0x1afd8d,'emailName':_0x49b832}));const _0x251130=await UserController['createSsoToken'](_0x1afd8d,_0x49b832);if(_0x251130){_0x14a1cb['response']['status']=0xc8;_0x14a1cb['body']=statusCode['SUCCESS_200']('success',{'accessToken':_0x251130});log['printInfo']('生成token：',JSON['stringify'](_0x251130));}else{log['printInfo']('生成token失败：',JSON['stringify'](_0x251130));_0x14a1cb['response']['status']=_0x1b6e44['WLfzk'](0x2d662,0x2d7fe);_0x14a1cb['body']=statusCode['ERROR_412']('登录失败，账号不存在或匹配到多条信息！',0x0);}}}else{_0x14a1cb['response']['status']=0x19c;_0x14a1cb['body']=statusCode['ERROR_412']('未获取到手机号或邮箱',0x0);}}}class FlowDataInfoByDayController{static async['createFlowDataInfoByDay'](_0x4b5b31){const _0x4a2e86={'tQNbv':function(_0x454323,_0x397c72){return _0x454323<_0x397c72;},'cOukz':'FlowDataInfoByDay','KJlqg':'创建信息成功'};const _0x3618f7=_0x4b5b31['request']['body'];const{flowArray:_0x4225dd,dayName=''}=_0x3618f7;let _0x4f123e='';for(let _0x5d63ff=0x0;_0x4a2e86['tQNbv'](_0x5d63ff,_0x4225dd['length']);_0x5d63ff++){const{flowCount:_0x4e9043}=_0x4225dd[_0x5d63ff];if(_0x4e9043===0x0)continue;_0x4f123e+=FlowDataInfoByDayController['handleFlowArray'](_0x4225dd[_0x5d63ff]);}_0x4f123e=_0x4f123e['substring'](0x0,_0x4f123e['length']-0x1);const _0x3f3d06=dayName['substring'](0x1b4ae^0x1b4ae,0x4);const _0x228ed5=_0x4a2e86["\u0063\u004f\u0075\u006b\u007a"]+_0x3f3d06;let _0x4009d9='';if(_0x4f123e){_0x4009d9='INSERT\x20INTO\x20'+_0x228ed5+'\x20(companyId,\x20projectId,\x20flowType,\x20monthName,\x20dayName,\x20flowCount,\x20createdAt,\x20updatedAt)\x20\x0a\x20\x20\x20\x20\x20\x20VALUES\x0a\x20\x20\x20\x20\x20\x20'+_0x4f123e+'\x0a\x20\x20\x20\x20\x20\x20';}if(_0x4009d9){FlowDataInfoByDayModel['createFlowDataInfosByHour'](_0x4009d9);}_0x4b5b31['response']['status']=0x65946^0x6598e;_0x4b5b31['body']=statusCode['SUCCESS_200'](_0x4a2e86['KJlqg'],0x0);}static async['getTotalFlowData'](_0x4d0bd4){const _0x80511d={'eKgJb':function(_0x117a17,_0x22ff03){return _0x117a17+_0x22ff03;},'aMCbF':function(_0x4d77f9,_0x5986d0){return _0x4d77f9<_0x5986d0;},'KGBVm':function(_0x527819,_0x3a2525){return _0x527819+_0x3a2525;},'CEBbO':'getTotalFlowData\x20---monthFlowRes'};const{companyId:_0x15f6cb}=_0x4d0bd4['wfParam'];const _0x5eccec=new Date();const _0x4d0b77=_0x5eccec['getFullYear']();let _0x4f2ae4=_0x80511d['eKgJb'](_0x5eccec['getMonth'](),0x1);_0x4f2ae4=_0x80511d['aMCbF'](_0x4f2ae4,0x79d4a^0x79d40)?_0x80511d["\u004b\u0047\u0042\u0056\u006d"]('0',_0x4f2ae4):_0x4f2ae4;let _0xebcc46=_0x5eccec['getDate']();_0xebcc46=_0x80511d['aMCbF'](_0xebcc46,0x352fa^0x352f0)?'0'+_0xebcc46:_0xebcc46;const _0x511430=_0x4d0b77+'/'+_0x4f2ae4+'/1~'+_0x4d0b77+'/'+_0x4f2ae4+'/'+_0xebcc46;const _0x6a348=await FlowDataInfoByDayModel['getMonthFlowDataForCompanyId'](_0x15f6cb);console['log'](_0x80511d['CEBbO'],_0x6a348);const _0xf36840=_0x6a348&&_0x6a348['length']?_0x6a348['find'](_0x520623=>_0x520623['flowOrigin']==='package'):null;const _0x582b55=_0x6a348&&_0x6a348['length']?_0x6a348['find'](_0x3d5ff9=>_0x3d5ff9['flowOrigin']==='subscribe'):null;const _0x4b2cb1={'packageCount':_0xf36840?_0xf36840['count']:0x6e7ec^0x6e7ec,'subscribeCount':_0x582b55?_0x582b55['count']:0xe9497^0xe9497,'dateInterval':_0x511430};const _0xe489b1={'packageCount':_0xf36840?_0xf36840['count']:0x0,'subscribeCount':_0x582b55?_0x582b55['count']:0x0,'dateInterval':_0x511430};const _0x219b68=await FlowDataInfoByDayModel['getTotalFlowDataForCompanyId'](_0x15f6cb);let _0x53a11c=0x0;let _0x389cef=[];if(_0x219b68&&_0x219b68['length']){_0x219b68['forEach'](_0x246ee2=>{_0x53a11c+=_0x246ee2['count'];_0x389cef['push'](_0x246ee2['minDay']);});}const _0x514d1c=_0x389cef['sort']()[0x5b95c^0x5b95c]['replace'](/-/g,'/');const _0x4818ae={'totalFlowCount':_0x53a11c,'dateInterval':_0x514d1c+'~'+_0x4d0b77+'/'+_0x4f2ae4+'/'+_0xebcc46};_0x4d0bd4['response']['status']=0xc8;_0x4d0bd4['body']=statusCode['SUCCESS_200']('查询信息列表成功！',{'monthFlow':_0x4b2cb1,'monthLeftFlow':_0xe489b1,'totalFlow':_0x4818ae});}static async["\u0067\u0065\u0074\u0046\u006c\u006f\u0077\u0054\u0072\u0065\u006e\u0064\u0044\u0061\u0074\u0061"](_0x25cfa0){const _0x466d28={'tazeI':function(_0x1934ef,_0x28a580){return _0x1934ef^_0x28a580;}};const{companyId:_0x3644dc,startDate='',endDate=''}=_0x25cfa0['wfParam'];const _0x1c5a10=await FlowDataInfoByDayModel['getFlowTrendDataForCompanyIdByDate'](_0x3644dc,startDate,endDate);console['log']('flowTrendRes--->',_0x1c5a10);const _0x164376=await FlowDataInfoByDayModel['getFlowDistributeDataForCompanyIdByDate'](_0x3644dc,startDate,endDate);const _0x14fec=[];console['log']('flowTrendRes--->',_0x164376);if(_0x164376&&_0x164376['length']){_0x164376['forEach'](_0x5ae7d1=>{const{productType:_0x411c32,count:_0x1bfbd4}=_0x5ae7d1;_0x14fec['push']({'productType':_0x411c32,'value':_0x1bfbd4,'name':ProductTypeMap[_0x411c32]||'unknown'});});}_0x25cfa0['response']['status']=_0x466d28['tazeI'](0x7945c,0x79494);_0x25cfa0['body']=statusCode['SUCCESS_200']('查询信息列表成功！',{'flowTrend':_0x1c5a10,'flowDistribute':_0x14fec});}static async['getFlowTableListData'](_0x409cee){const _0x5b04a8={'TjzQy':'monitor'};const{companyId:_0x3bdb63,productType=_0x5b04a8['TjzQy'],projectName='',page=0x4bd2c^0x4bd2d,pageSize=0xa}=_0x409cee['wfParam'];let _0x1a971f=0x0;const _0x3155e7=await FlowDataInfoByDayModel['getFlowTotalCountForCompanyId'](_0x3bdb63,productType,projectName);if(_0x3155e7&&_0x3155e7['length']){_0x3155e7['forEach'](_0x9c9e41=>{_0x1a971f+=Number(_0x9c9e41['count']);});}const _0x33ed8a=await FlowDataInfoByDayModel['getFlowTableListDataForCompanyId']({'companyId':_0x3bdb63,'productType':productType,'projectName':projectName,'page':page,'pageSize':pageSize});console['log']('flowTableRes--->',_0x33ed8a);let _0x50c485=[];if(_0x33ed8a&&_0x33ed8a['length']){_0x50c485=_0x33ed8a['map']((_0xbe93,_0x5a0358)=>{return{..._0xbe93,'status':_0x5a0358%0x2===(0x4b58e^0x4b58e)?0x5f955^0x5f955:0x1};});}_0x409cee['response']['status']=0xc8;_0x409cee['body']=statusCode['SUCCESS_200']('查询信息列表成功！',{'list':_0x50c485,'total':_0x1a971f});}}class TeamController{static async['create'](_0x3e0643){const _0x193830={'fvnsg':function(_0xf78c23,_0x42db82){return _0xf78c23^_0x42db82;},'IhMxH':'创建信息失败，请求参数不能为空！'};let _0x544686=_0x3e0643['request']['body'];if(_0x544686['title']&&_0x544686['author']&&_0x544686['content']&&_0x544686['category']){let _0x3f040c=await TeamModel['createTeam'](_0x544686);let _0x588983=await TeamModel['getTeamDetail'](_0x3f040c['id']);_0x3e0643['response']['status']=_0x193830['fvnsg'](0x51c48,0x51c80);_0x3e0643['body']=statusCode['SUCCESS_200']('创建信息成功',_0x588983);}else{_0x3e0643['response']['status']=0x19c;_0x3e0643['body']=statusCode['ERROR_412'](_0x193830['IhMxH']);}}static async['createNewTeam'](_0x5dacd5){let _0x53a763=JSON['parse'](_0x5dacd5['request']['body']);const{teamName:_0x1a2520}=_0x53a763;const{userId:_0x5f4c81}=_0x5dacd5['user'];const _0x596554={'teamName':_0x1a2520,'leaderId':_0x5f4c81,'members':_0x5f4c81,'webMonitorIds':''};const _0x3333e9=await TeamModel['createTeam'](_0x596554);_0x5dacd5['response']['status']=0xd788d^0xd7845;_0x5dacd5['body']=statusCode['SUCCESS_200']('创建信息成功',_0x3333e9);}static async['createNewTeamForApi'](_0x54f450){const _0x2aad42={'ivhsR':'团队创建成功'};const{teamName:_0x384ef8,userId:_0x147183}=_0x54f450['request']['body'];const _0x351700={'teamName':_0x384ef8,'leaderId':_0x147183,'members':_0x147183,'webMonitorIds':''};const _0x4f42a7=await TeamModel['getTeamDetailByName'](_0x384ef8);if(_0x4f42a7){_0x54f450['response']['status']=0x19c;_0x54f450['body']=statusCode['ERROR_412']('团队名称重复！');return;}const _0x1771be=await TeamModel['createTeam'](_0x351700);_0x54f450['response']['status']=0xc8;_0x54f450['body']=statusCode['SUCCESS_200'](_0x2aad42['ivhsR'],_0x1771be);}static async['deleteTeam'](_0x134c6c){const _0x225fa4={'HGdHi':'团队删除成功','JITVl':function(_0x4b5390,_0x42cb39){return _0x4b5390^_0x42cb39;}};let _0x3ae682=JSON['parse'](_0x134c6c['request']['body']);const{id:_0x4bb9fb}=_0x3ae682;const _0x5377c9=await TeamModel['deleteTeam'](_0x4bb9fb);if(_0x5377c9){_0x134c6c['response']['status']=0xc8;_0x134c6c['body']=statusCode['SUCCESS_200'](_0x225fa4['HGdHi'],0x49307^0x49307);}else{_0x134c6c['response']['status']=_0x225fa4['JITVl'](0xe6355,0xe62c9);_0x134c6c['body']=statusCode['ERROR_412']('团队删除失败！');}}static async['moveProToTeam'](_0x23bfdb){const _0x3647b1={'GSQnx':function(_0x19b5bf,_0x1729a3){return _0x19b5bf^_0x1729a3;}};let _0x33ec1a=JSON['parse'](_0x23bfdb['request']['body']);const{showMoveMonitorId:_0x4128e1,chooseTeamId:_0x48f128}=_0x33ec1a;const _0x3b008d=await TeamModel['getTeamDetail'](_0x48f128);const _0x41f0fd=_0x3b008d['webMonitorIds']+','+_0x4128e1;await TeamModel['updateTeam'](_0x48f128,{'webMonitorIds':_0x41f0fd});_0x23bfdb['response']["\u0073\u0074\u0061\u0074\u0075\u0073"]=_0x3647b1['GSQnx'](0x9e553,0x9e59b);_0x23bfdb['body']=statusCode['SUCCESS_200']('success','');}static async['handleAllApplicationConfig'](){const _0x419d4a=await ApplicationConfigModel['getAllApplicationConfig']();let _0x58648f={};let _0x262352={};_0x419d4a['forEach'](_0x395a97=>{const _0x917f18=JSON['parse'](_0x395a97['configValue']);switch(_0x395a97['systemName']){case'monitor':_0x58648f=_0x917f18;break;case'event':_0x262352=_0x917f18;break;default:break;}});return{'monitor':_0x58648f,'event':_0x262352};}static async['handleTeamList'](_0x2bcefa,_0x37b171){const _0x41becc={'SfajJ':function(_0x2ee6b2,_0x55f480){return _0x2ee6b2^_0x55f480;},'PEemz':function(_0x336367,_0x5ee16c){return _0x336367<_0x5ee16c;},'sMyct':function(_0x44845c,_0x4c2f67){return _0x44845c+_0x4c2f67;},'ezTID':'event'};const _0x13d6f3=await TeamController['handleAllApplicationConfig']();const{monitor:_0x417e9e,event:_0x617b7e}=_0x13d6f3;const _0x6ec73f=await TeamModel['getTeamList'](_0x2bcefa,_0x37b171);for(let _0x160acc=0xccfa5^0xccfa5;_0x160acc<_0x6ec73f['length'];_0x160acc++){const _0x3d1e60=_0x6ec73f[_0x160acc];const{leaderId:_0x4549eb,members:_0x45f90e,webMonitorIds:_0x1bf33f}=_0x3d1e60;const _0x33d297=await UserModel['getUserListByMembers'](_0x45f90e);_0x3d1e60['members']=_0x33d297;_0x33d297['forEach'](_0x46f6c1=>{if(_0x46f6c1['userId']==_0x4549eb){_0x3d1e60['leader']=_0x46f6c1;return![];}});const _0x274b0a=await Utils['requestForTwoProtocol']('post',''+_0x417e9e['serverDomain']+PROJECT_API['MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS'],{'webMonitorIds':_0x1bf33f});const _0x10dd2d=_0x274b0a?_0x274b0a['data']:[];for(let _0x3868f0=_0x41becc['SfajJ'](0x7bd96,0x7bd96);_0x41becc['PEemz'](_0x3868f0,_0x10dd2d['length']);_0x3868f0++){let _0x4ec943=_0x10dd2d[_0x3868f0];const{viewers:_0x48ea62}=_0x4ec943;_0x4ec943['id']=_0x41becc['sMyct']('m-',_0x4ec943['id']);_0x4ec943['sysType']='monitor';const _0x27417b=await UserModel['getUserListByViewers'](_0x48ea62);_0x4ec943['viewerList']=_0x27417b;}const _0x22e509=await Utils['requestForTwoProtocol']('post',''+_0x617b7e['serverDomain']+PROJECT_API['EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS'],{'webMonitorIds':_0x1bf33f});const _0x46c7ee=_0x22e509?_0x22e509['data']:[];for(let _0x49fe6e=0x52612^0x52612;_0x49fe6e<_0x46c7ee['length'];_0x49fe6e++){let _0x4a363a=_0x46c7ee[_0x49fe6e];const{viewers:_0x419484}=_0x4a363a;_0x4a363a['projectType']=_0x41becc['ezTID'];_0x4a363a['sysType']='event';_0x4a363a['id']='e-'+_0x4a363a['id'];const _0x43f9c2=await UserModel['getUserListByViewers'](_0x419484);_0x4a363a['viewerList']=_0x43f9c2;}_0x3d1e60['projects']=[..._0x10dd2d,..._0x46c7ee];}return _0x6ec73f;}static async['getTeamList'](_0x3752c3){let _0x121859='';let _0x5a2fc2='';if(_0x3752c3['user']){_0x121859=_0x3752c3['user']['userId'];_0x5a2fc2=_0x3752c3['user']['userType'];}else{const _0x3c5fcb=_0x3752c3['request']['body'];_0x121859=_0x3c5fcb['userId'];_0x5a2fc2=_0x3c5fcb['userType'];}const _0x27b5e1=await TeamController['handleTeamList'](_0x121859,_0x5a2fc2);_0x3752c3['response']['status']=0xc8;_0x3752c3['body']=statusCode['SUCCESS_200']('success',_0x27b5e1);}static async['getSimpleTeamList'](_0x3548f3){let _0x51bf28='';let _0x13751a='';if(_0x3548f3['user']){_0x51bf28=_0x3548f3['user']['userId'];_0x13751a=_0x3548f3['user']['userType'];}else{const _0x442e7f=_0x3548f3['request']['body'];_0x51bf28=_0x442e7f['userId'];_0x13751a=_0x442e7f['userType'];}const _0xd96a50=await TeamModel['getTeamList'](_0x51bf28,_0x13751a);_0x3548f3['response']['status']=0xc8;_0x3548f3['body']=statusCode['SUCCESS_200']('success',_0xd96a50);}static async['getTeamMemberByUser'](_0x1e5afb){const{members:_0x240b8a}=JSON['parse'](_0x1e5afb['request']['body']);const _0x1ac049=await UserModel['getUserListByMembers'](_0x240b8a);_0x1e5afb['response']['status']=0x990cc^0x99004;_0x1e5afb['body']=statusCode['SUCCESS_200']('success',_0x1ac049);}static async['getTeamListWithoutToken'](_0x581881){const _0x30233d=_0x581881['request']['body'];const{userId:_0x1c9ef3,userType:_0x42bc2b}=_0x30233d;const _0x407873=await TeamController['handleTeamList'](_0x1c9ef3,_0x42bc2b);_0x581881['response']['status']=0xc8;_0x581881['body']=statusCode['SUCCESS_200']('success',_0x407873);}static async['getTeams'](_0x26bd59){const _0x4f41fb={'EWfRg':'success'};let _0x4c124e='';let _0x58c62f='';if(_0x26bd59['user']){_0x4c124e=_0x26bd59['user']['userId'];_0x58c62f=_0x26bd59['user']['userType'];}else{const _0x54a10d=_0x26bd59['request']['body'];_0x4c124e=_0x54a10d['userId'];_0x58c62f=_0x54a10d['userType'];}const _0x128c82=await TeamModel['getTeamList'](_0x4c124e,_0x58c62f);_0x26bd59['response']['status']=0xc8;_0x26bd59['body']=statusCode['SUCCESS_200'](_0x4f41fb['EWfRg'],_0x128c82);}static async['addTeamMember'](_0x27f578){const _0x5e7ec9={'XCrMS':'success'};let _0x20c344=JSON['parse'](_0x27f578['request']['body']);const{id:_0x1776b6,members:_0x5f457a}=_0x20c344;await TeamModel['updateTeam'](_0x1776b6,{'members':_0x5f457a});_0x27f578['response']['status']=0xc8;_0x27f578['body']=statusCode['SUCCESS_200'](_0x5e7ec9['XCrMS'],'');}static async['updateTeamProjects'](_0xea392f){const _0x4f4bea={'CWQAA':function(_0x2963c7,_0x202f41){return _0x2963c7^_0x202f41;},'faMiG':'success'};let _0x459b98=JSON['parse'](_0xea392f['request']['body']);const{id:_0x2d91af,webMonitorIds:_0x540735}=_0x459b98;const _0x13ac43=await TeamModel['getTeamDetail'](_0x2d91af);const _0x1a51ab=_0x13ac43?_0x13ac43['webMonitorIds']['split'](','):'';const _0xe33f74=[];_0x1a51ab['forEach'](_0x168fde=>{if(_0x540735!==_0x168fde){_0xe33f74['push'](_0x168fde);}});await TeamModel['updateTeam'](_0x2d91af,{'webMonitorIds':_0xe33f74['toString']()});_0xea392f['response']['status']=_0x4f4bea['CWQAA'](0xb9bdf,0xb9b17);_0xea392f['body']=statusCode['SUCCESS_200'](_0x4f4bea['faMiG'],'');}static async['getAllTeamList'](_0x37548e){const _0x7cfdd4=await TeamModel['getAllTeamList']();_0x37548e['response']['status']=0xad2f4^0xad23c;_0x37548e['body']=statusCode['SUCCESS_200']('success',_0x7cfdd4);}static async["dIrotinoMbeWyBsrebmeMmaeTteg".split("").reverse().join("")](_0x5a3da4){const _0x571563={'nZQGq':'success'};let _0x1f81a5=JSON['parse'](_0x5a3da4["\u0072\u0065\u0071\u0075\u0065\u0073\u0074"]['body']);const{webMonitorId:_0x54391e}=_0x1f81a5;const _0x49c14d=await TeamModel['getTeamMembersByWebMonitorId'](_0x54391e);const _0x36c4f7=_0x49c14d&&_0x49c14d['length']>0x0?_0x49c14d[0x0]['members']['split'](','):[];const _0x2854c6=await UserModel['getUsersByUserIds'](_0x36c4f7);_0x5a3da4['response']['status']=0x3778d^0x37745;_0x5a3da4['body']=statusCode['SUCCESS_200'](_0x571563['nZQGq'],_0x2854c6);}static async['resetTeamLeader'](_0x1ced43){const _0x499b5b={'LDvZl':'admin','mXQYv':'superAdmin','EWKDv':'您不是团长，没有权限操作！'};let _0x79166c=JSON['parse'](_0x1ced43['request']['body']);const _0x1fa4d3=_0x79166c['userId'];const _0x2bdff9=_0x79166c['teamId'];const{userId:_0x33d782,userType:_0x1e47cf}=_0x1ced43['user'];if(_0x1e47cf!==_0x499b5b['LDvZl']&&_0x1e47cf!==_0x499b5b["\u006d\u0058\u0051\u0059\u0076"]){const _0x162535=await TeamModel['checkTeamLeader'](_0x2bdff9,_0x33d782);if(!_0x162535||!_0x162535['length']){_0x1ced43['response']['status']=0x8c686^0x8c71a;_0x1ced43['body']=statusCode['ERROR_412'](_0x499b5b['EWKDv']);return;}}const _0x1b20f7=await TeamModel['checkTeamMember'](_0x2bdff9,_0x1fa4d3);if(!_0x1b20f7||!_0x1b20f7['length']){_0x1ced43['response']['status']=0x19c;_0x1ced43['body']=statusCode['ERROR_412']('目标不是团队成员，无法执行此操作！');return;}await TeamModel['updateTeam'](_0x2bdff9,{'leaderId':_0x1fa4d3});_0x1ced43['response']['status']=0xdf97e^0xdf9b6;_0x1ced43['body']=statusCode['SUCCESS_200']('success','');}static async['findTeamListByLeaderId'](_0x570842){let _0x8d1c4b=_0x570842['request']['body'];const{userId:_0x1be63c}=_0x8d1c4b;const _0x15cd55=await TeamModel['findTeamListByLeaderId'](_0x1be63c);_0x570842['response']['status']=0x30024^0x300ec;_0x570842['body']=statusCode['SUCCESS_200']('success',_0x15cd55);}static async['getTeamDetail'](_0x349e8c){let _0x232b32=_0x349e8c['request']['body'];const{chooseTeamId:_0x44aab8}=_0x232b32;const _0x49f480=await TeamModel['getTeamDetail'](_0x44aab8);_0x349e8c['response']['status']=0xc8;_0x349e8c['body']=statusCode['SUCCESS_200']('success',_0x49f480);}static async['updateTeam'](_0x42e4b1){let _0x43bbc8=JSON['parse'](_0x42e4b1['request']['body']);const{id:_0x1cfe89,webMonitorIds:_0x353a75}=_0x43bbc8;const _0x2bace6=await TeamModel['getTeamDetail'](_0x1cfe89);const _0x4f668a=_0x2bace6['webMonitorIds']+','+_0x353a75;await TeamModel['updateTeam'](_0x1cfe89,{'webMonitorIds':_0x4f668a});_0x42e4b1['response']['status']=0xc8;_0x42e4b1['body']=statusCode['SUCCESS_200']('success',0x0);}static async['addViewers'](_0x57c36b){const _0x3a7e73={'nzrhT':function(_0x3407a3,_0x4b0811){return _0x3407a3===_0x4b0811;},'rHEED':'monitor','DHOFV':'event'};const _0x54a337=await TeamController['handleAllApplicationConfig']();const{monitor:_0x525cee,event:_0x1bb155}=_0x54a337;const{webMonitorId:_0x1d7760,viewerList:_0xd87e64,sysType:_0x52f918}=JSON['parse'](_0x57c36b['request']['body']);const _0x2d3046=_0xd87e64['toString']();if(_0x3a7e73['nzrhT'](_0x52f918,_0x3a7e73['rHEED'])){const _0x56fe36=await Utils['requestForTwoProtocol']('post',''+_0x525cee['serverDomain']+PROJECT_API['MONITOR_ADD_VIEWERS'],{'webMonitorId':_0x1d7760,'viewers':_0x2d3046});if(!_0x56fe36){_0x57c36b['response']['status']=0x7d004^0x7d198;_0x57c36b['body']=statusCode['ERROR_412']('观察者添加失败!');}else{_0x57c36b['response']['status']=0x98ad8^0x98a10;_0x57c36b['body']=statusCode['SUCCESS_200']('success',0xcd04d^0xcd04d);}}else if(_0x52f918===_0x3a7e73['DHOFV']){const _0x37dc07=await Utils['requestForTwoProtocol']('post',''+_0x1bb155['serverDomain']+PROJECT_API['EVENT_ADD_VIEWERS'],{'webMonitorId':_0x1d7760,'viewers':_0x2d3046});if(!_0x37dc07){_0x57c36b['response']['status']=0x19c;_0x57c36b['body']=statusCode['ERROR_412']('观察者添加失败!');}else{_0x57c36b['response']['status']=0xc8;_0x57c36b['body']=statusCode['SUCCESS_200']('success',0x70b18^0x70b18);}}}static async['forbiddenRightCheck'](_0x66efd6){const _0x38b24a={'LHGXm':function(_0x34d079,_0x4041c2){return _0x34d079===_0x4041c2;},'raKGy':'superAdmin','hdPRI':function(_0x3af34f,_0x7178a1){return _0x3af34f===_0x7178a1;}};let _0x2d1e72=JSON['parse'](_0x66efd6['request']['body']);const{id:_0x135420,webMonitorId:_0x310bc7,sysType:_0x1c976f}=_0x2d1e72;const{userId:_0x215c55,userType:_0x1ad4fd}=_0x66efd6['user'];let _0x3a21e1='';const _0x43ae04=await TeamModel['getTeamMembersByWebMonitorId'](_0x310bc7);if(_0x43ae04&&_0x43ae04['length']){_0x3a21e1=_0x43ae04[0x0]['leaderId'];}if(!(_0x38b24a['LHGXm'](_0x1ad4fd,_0x38b24a['raKGy'])||_0x1ad4fd==='admin'||_0x38b24a['hdPRI'](_0x3a21e1,_0x215c55))){_0x66efd6['response']['status']=0x193;_0x66efd6['body']=statusCode['ERROR_403']('你没有权限执行此操作！');return;}_0x66efd6['response']['status']=0x3890c^0x389c4;_0x66efd6['body']=statusCode['SUCCESS_200']('success',0x0);}static async['forbiddenProject'](_0x5ab944){const _0x40c905={'XXKfY':'superAdmin','KWmma':function(_0x54ceab,_0x1576a7){return _0x54ceab===_0x1576a7;},'yIWlW':'admin','WPCCA':'你没有权限执行此操作！','gDzvh':function(_0x23c1c1,_0x26fbf4){return _0x23c1c1===_0x26fbf4;},'ftciw':function(_0x4d7682,_0x2b1e1a){return _0x4d7682^_0x2b1e1a;},'mUoNb':'success'};let _0x261f6f=JSON['parse'](_0x5ab944['request']['body']);const{id:_0xc44e1d,webMonitorId:_0x4af794,sysType:_0x3eaad0}=_0x261f6f;const{userId:_0x51d34b,userType:_0x2a90a6}=_0x5ab944['user'];let _0x565193='';const _0x576204=await TeamModel['getTeamMembersByWebMonitorId'](_0x4af794);if(_0x576204&&_0x576204['length']){_0x565193=_0x576204[0xb2133^0xb2133]['leaderId'];}if(!(_0x2a90a6===_0x40c905['XXKfY']||_0x40c905['KWmma'](_0x2a90a6,_0x40c905['yIWlW'])||_0x40c905['KWmma'](_0x565193,_0x51d34b))){_0x5ab944['response']['status']=0x193;_0x5ab944['body']=statusCode['ERROR_403'](_0x40c905['WPCCA']);return;}const _0x587922=await TeamController['handleAllApplicationConfig']();const{monitor:_0x1e5bd9,event:_0x4e4ff5}=_0x587922;if(_0x40c905['gDzvh'](_0x3eaad0,'monitor')){const _0x4d5925=_0xc44e1d['split']('-')[0x1];const _0x11ac1c=await Utils['requestForTwoProtocol']("tsop".split("").reverse().join(""),''+_0x1e5bd9['serverDomain']+PROJECT_API['FORBIDDEN_PROJECT'],{'id':_0x4d5925});if(!_0x11ac1c){_0x5ab944['response']['status']=0x689a3^0x6883f;_0x5ab944['body']=statusCode['ERROR_412']('禁用失败!');}else{_0x5ab944['response']['status']=_0x40c905['ftciw'](0x9aaff,0x9aa37);_0x5ab944['body']=statusCode['SUCCESS_200'](_0x40c905['mUoNb'],_0x40c905['ftciw'](0x700ca,0x700ca));}}else if(_0x3eaad0==='event'){}}static async['deleteProjectRightCheck'](_0x1b772b){const _0x5c2184={'oxGls':'admin','CsODZ':function(_0x3ed5fb,_0x22c795){return _0x3ed5fb^_0x22c795;}};let _0x53f062=JSON['parse'](_0x1b772b['request']['body']);const{id:_0xcb720b,webMonitorId:_0x3c87d1,sysType:_0x5c99c4}=_0x53f062;const{userId:_0x34a69f,userType:_0x1a7c5d}=_0x1b772b['user'];let _0x4059fc='';const _0x2d0a00=await TeamModel['getTeamMembersByWebMonitorId'](_0x3c87d1);if(_0x2d0a00&&_0x2d0a00['length']){_0x4059fc=_0x2d0a00[0x0]['leaderId'];}if(!(_0x1a7c5d==='superAdmin'||_0x1a7c5d===_0x5c2184['oxGls']||_0x4059fc===_0x34a69f)){_0x1b772b["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=_0x5c2184['CsODZ'](0xe5345,0xe52d6);_0x1b772b['body']=statusCode['ERROR_403']('你没有权限执行此操作！');return;}_0x1b772b['response']['status']=0xc8;_0x1b772b['body']=statusCode['SUCCESS_200']('success',_0x5c2184['CsODZ'](0x3e2ae,0x3e2ae));}static async['deleteProject'](_0x2bb1cd){const _0x5a9159={'DOtPb':'superAdmin','puvga':'你没有权限执行此操作！','UDyRK':function(_0x4bd4aa,_0x25164f){return _0x4bd4aa===_0x25164f;},'ZLeCe':'post'};let _0x16fe99=JSON['parse'](_0x2bb1cd['request']['body']);const{id:_0x43a8aa,webMonitorId:_0x51bf7e,sysType:_0x10a90b}=_0x16fe99;const{userId:_0x1d9f52,userType:_0x5d914e}=_0x2bb1cd['user'];let _0x1bdcc0='';const _0x57f5e3=await TeamModel['getTeamMembersByWebMonitorId'](_0x51bf7e);if(_0x57f5e3&&_0x57f5e3['length']){_0x1bdcc0=_0x57f5e3[0xe7633^0xe7633]['leaderId'];}if(!(_0x5d914e===_0x5a9159['DOtPb']||_0x5d914e==='admin'||_0x1bdcc0===_0x1d9f52)){_0x2bb1cd['response']['status']=0xde108^0xde09b;_0x2bb1cd['body']=statusCode['ERROR_403'](_0x5a9159['puvga']);return;}const _0x959271=await TeamController['handleAllApplicationConfig']();const{monitor:_0x173537,event:_0x340c9a}=_0x959271;if(_0x5a9159['UDyRK'](_0x10a90b,'monitor')){const _0x441b72=_0x43a8aa['split']('-')[0x1];const _0x5e8978=await Utils['requestForTwoProtocol'](_0x5a9159['ZLeCe'],''+_0x173537['serverDomain']+PROJECT_API['DELETE_PROJECT'],{'id':_0x441b72});if(!_0x5e8978){_0x2bb1cd['response']['status']=0x19c;_0x2bb1cd['body']=statusCode['ERROR_412']('删除失败!');}else{_0x2bb1cd['response']['status']=0xaf4c9^0xaf401;_0x2bb1cd['body']=statusCode['SUCCESS_200']('success',0x0);}}else if(_0x10a90b==='event'){}_0x2bb1cd['response']['status']=0x525eb^0x52523;_0x2bb1cd['body']=statusCode['SUCCESS_200']('success',0x0);}}class CommonTableController{static async['createTable'](_0x37e852=0x0){const _0x402957={'LPfaN':function(_0x4e38df,_0x2f88cc){return _0x4e38df^_0x2f88cc;}};const _0x4712bc=Utils['addDays'](_0x37e852);const _0x111fef=_0x4712bc['replace'](/-/g,'');CommonTableModel['createInfoTable'](_0x111fef);const _0x13480a=_0x4712bc['substring'](_0x402957['LPfaN'](0x47465,0x47465),_0x402957['LPfaN'](0x246a7,0x246a3));CommonTableModel['createInfoTableByYear'](_0x13480a);}}class ConfigController{static async['create'](_0x2d1fe0){const _0x14433c={'UFOUy':'创建信息失败，请求参数不能为空！'};let _0x1a10ff=_0x2d1fe0['request']['body'];if(_0x1a10ff['title']&&_0x1a10ff['author']&&_0x1a10ff['content']&&_0x1a10ff['category']){let _0x13a307=await ConfigModel['createConfig'](_0x1a10ff);let _0x1af5f5=await ConfigModel['getConfigDetail'](_0x13a307['id']);_0x2d1fe0['response']['status']=0xb71fa^0xb7132;_0x2d1fe0['body']=statusCode['SUCCESS_200']('创建信息成功',_0x1af5f5);}else{_0x2d1fe0['response']['status']=0xbf7f8^0xbf664;_0x2d1fe0['body']=statusCode['ERROR_412'](_0x14433c['UFOUy']);}}}function _0x14df(_0x5acc0b,_0x17e281){const _0x37e52d=_0x150c();_0x14df=function(_0x419195,_0x150c83){_0x419195=_0x419195-0x0;let _0x241fc3=_0x37e52d[_0x419195];if(_0x14df['ZeFaTH']===undefined){var _0x261739=function(_0x3616d1){const _0x14df39='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x23cc35='';let _0x33340a='';for(let _0x3d2b57=0x0,_0x3a1404,_0x29a0fd,_0x1fc460=0x0;_0x29a0fd=_0x3616d1['charAt'](_0x1fc460++);~_0x29a0fd&&(_0x3a1404=_0x3d2b57%0x4?_0x3a1404*0x40+_0x29a0fd:_0x29a0fd,_0x3d2b57++%0x4)?_0x23cc35+=String['fromCharCode'](0xff&_0x3a1404>>(-0x2*_0x3d2b57&0x6)):0x0){_0x29a0fd=_0x14df39['indexOf'](_0x29a0fd);}for(let _0x2353ef=0x0,_0x4869a6=_0x23cc35['length'];_0x2353ef<_0x4869a6;_0x2353ef++){_0x33340a+='%'+('00'+_0x23cc35['charCodeAt'](_0x2353ef)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x33340a);};const _0x22236e=function(_0x5b5669,_0xd4d5f2){let _0xbf4994=[],_0x55c723=0x0,_0xe880e2,_0x571889='';_0x5b5669=_0x261739(_0x5b5669);let _0x10cf1d;for(_0x10cf1d=0x0;_0x10cf1d<0x100;_0x10cf1d++){_0xbf4994[_0x10cf1d]=_0x10cf1d;}for(_0x10cf1d=0x0;_0x10cf1d<0x100;_0x10cf1d++){_0x55c723=(_0x55c723+_0xbf4994[_0x10cf1d]+_0xd4d5f2['charCodeAt'](_0x10cf1d%_0xd4d5f2['length']))%0x100;_0xe880e2=_0xbf4994[_0x10cf1d];_0xbf4994[_0x10cf1d]=_0xbf4994[_0x55c723];_0xbf4994[_0x55c723]=_0xe880e2;}_0x10cf1d=0x0;_0x55c723=0x0;for(let _0x294819=0x0;_0x294819<_0x5b5669['length'];_0x294819++){_0x10cf1d=(_0x10cf1d+0x1)%0x100;_0x55c723=(_0x55c723+_0xbf4994[_0x10cf1d])%0x100;_0xe880e2=_0xbf4994[_0x10cf1d];_0xbf4994[_0x10cf1d]=_0xbf4994[_0x55c723];_0xbf4994[_0x55c723]=_0xe880e2;_0x571889+=String['fromCharCode'](_0x5b5669['charCodeAt'](_0x294819)^_0xbf4994[(_0xbf4994[_0x10cf1d]+_0xbf4994[_0x55c723])%0x100]);}return _0x571889;};_0x14df['AXjqhV']=_0x22236e;_0x5acc0b=arguments;_0x14df['ZeFaTH']=!![];}const _0x29d0e4=_0x37e52d[0x0];const _0x31ac84=_0x419195+_0x29d0e4;const _0x3fb8ab=_0x5acc0b[_0x31ac84];if(!_0x3fb8ab){if(_0x14df['xhtwby']===undefined){_0x14df['xhtwby']=!![];}_0x241fc3=_0x14df['AXjqhV'](_0x241fc3,_0x150c83);_0x5acc0b[_0x31ac84]=_0x241fc3;}else{_0x241fc3=_0x3fb8ab;}return _0x241fc3;};return _0x14df(_0x5acc0b,_0x17e281);}class FlowDataInfoByHourController{static async['createFlowDataInfoByHour'](_0x44113a){const _0x1bd62c={'YNMZU':function(_0x54c853,_0x36a42c){return _0x54c853===_0x36a42c;},'MkdmQ':'FlowDataInfoByHour'};const _0x2492be=_0x44113a['request']['body'];const{flowArray:_0x2a5edc,dayName=''}=_0x2492be;let _0x337fd7='';for(let _0x118a1e=0x0;_0x118a1e<_0x2a5edc['length'];_0x118a1e++){const{flowCount:_0x13c0c9}=_0x2a5edc[_0x118a1e];if(_0x1bd62c['YNMZU'](_0x13c0c9,0x0))continue;_0x337fd7+=FlowDataInfoByHourController['handleFlowArray'](_0x2a5edc[_0x118a1e]);}_0x337fd7=_0x337fd7['substring'](0x0,_0x337fd7['length']-(0x2402b^0x2402a));const _0x540f3e=dayName['replace'](/-/g,'');const _0x55c31f=_0x1bd62c['MkdmQ']+_0x540f3e;let _0x2d7a20='';if(_0x337fd7){_0x2d7a20='INSERT\x20INTO\x20'+_0x55c31f+'\x20(companyId,\x20projectId,\x20projectName,\x20flowOrigin,\x20productType,\x20flowType,\x20hourName,\x20flowCount,\x20createdAt,\x20updatedAt)\x0a\x20\x20\x20\x20\x20\x20VALUES\x0a\x20\x20\x20\x20\x20\x20'+_0x337fd7+'\x0a\x20\x20\x20\x20\x20\x20';}if(_0x2d7a20){FlowDataInfoByHourModel['createFlowDataInfosByHour'](_0x2d7a20);}_0x44113a['response']['status']=0xc8;_0x44113a['body']=statusCode['SUCCESS_200']('创建信息成功',0x6073b^0x6073b);}static['handleFlowArray'](_0x4577b3){const _0x354d63=new Date()['Format'](_0x14337f(0x664,0x549,0x6fa,'rKqC',0x378));function _0x319dd6(_0x3d94fa,_0x1c4f42,_0x5b2c6f,_0x102718,_0x41bbf9){return _0x241f(_0x102718- -0x1d7,_0x41bbf9);}function _0x14337f(_0x30f590,_0x354d43,_0x10f483,_0x2ca75c,_0x253b5d){return _0x14df(_0x354d43-0x256,_0x2ca75c);}function _0x2031f5(_0x29211d,_0x12283a,_0x4e3a93,_0x1399e8,_0x1374c3){return _0x14df(_0x1374c3- -0x2e,_0x1399e8);}function _0x469c41(_0x4902c7,_0xe81a25,_0x3b1d6f,_0x4c2903,_0x1ef594){return _0x14df(_0x4c2903-0x71,_0xe81a25);}const _0x2f0852=_0x354d63;function _0x30a88c(_0x7103ed,_0x34b399,_0x431143,_0x57f7cf,_0x695b49){return _0x14df(_0x34b399- -0x11c,_0x7103ed);}const{companyId:_0x34c5a1,projectId:_0x247b2a,projectName:_0x498b18,productType:_0x316c8c,flowType:_0x28d697,hourName:_0x13aa78,flowCount:_0x135a4e}=_0x4577b3;function _0x4a941b(_0x5f43f8,_0x4617c5,_0x1ec85c,_0x24fc96,_0x252d30){return _0x14df(_0x1ec85c- -0x225,_0x24fc96);}function _0x4447c9(_0x2f465f,_0x11220c,_0x36ba3b,_0x2f1758,_0x421b25){return _0x241f(_0x11220c- -0x85,_0x36ba3b);}function _0x30ed45(_0x9be1ff,_0x1a5b4f,_0x5d4f36,_0x1e366d,_0x89274){return _0x241f(_0x1a5b4f- -0xbf,_0x1e366d);}function _0x59ca33(_0x238d23,_0xab3e75,_0x1a5521,_0x5644b7,_0x16015c){return _0x241f(_0x1a5521-0x3b4,_0x5644b7);}const _0x23a4cc=_0x319dd6(0x2f3,0x199,0x303,0x246,0x3e3);let _0x3de3d1='(\x27'+_0x34c5a1+_0x14337f(0x3d7,0x31f,0x524,'h1%V',0x474)+_0x247b2a+_0x4447c9(-0xff,-0x84,-0xa3,0xe8,-0x9a)+_0x498b18+_0x469c41(0x381,'gpO3',0x59e,0x484,0x58f)+_0x23a4cc+_0x30a88c('[ItD',-0x94,-0x181,0x24,-0x2a4)+_0x316c8c+_0x3b45f4(-0xbc,-0x2f8,-0x403,-0x2f7,-0x17e)+_0x28d697+_0x4a941b(0xcc,0x286,0x28f,'9KSt',0x1b6)+_0x13aa78+_0x4a941b(-0x327,-0x15a,-0x147,'nZ*s',0x9d)+_0x135a4e+_0x4447c9(0xb8,0x27a,0x2c,0x4d0,0xf1)+_0x354d63+_0x30ed45(-0xd2,-0xbe,-0x138,0x167,-0x2f)+_0x2f0852+_0x3b45f4(-0x1d9,0x2e,0x28b,0x127,0x69);function _0x3b45f4(_0x4c5eec,_0x4d6134,_0x209d75,_0x21e29c,_0x3e2144){return _0x241f(_0x4d6134- -0x2f9,_0x21e29c);}return _0x3de3d1;}}class ProductController{static async['create'](_0x353d16){let _0x4ee7bb=_0x353d16['request']['body'];await ProductModel['createProduct'](_0x4ee7bb);_0x353d16['response']['status']=0xc8;_0x353d16['body']=statusCode['SUCCESS_200']('创建信息成功',data);}static async['getProjectByCompanyIdForMonth'](_0x4a8b04){const _0x665ab2={'EYAZX':'yyyy-MM'};const{companyId:_0x5bca7c}=_0x4a8b04['wfParam'];const _0x21bc69=new Date()['Format'](_0x665ab2['EYAZX']);await ProductModel['getProjectByCompanyIdForMonth'](_0x5bca7c,_0x21bc69);_0x4a8b04['response']['status']=0xafda5^0xafd6d;_0x4a8b04['body']=statusCode['SUCCESS_200']('创建信息成功',data);}}class UserController{static['sendEmail'](_0x2361ea,_0x3b794b,_0x415a1d){function _0x1c2892(_0x4f8de5,_0x2b020f,_0x35ce3c,_0x26793b,_0x300dc8){return _0x14df(_0x4f8de5-0x2d0,_0x35ce3c);}function _0x118231(_0x2829f0,_0x32e794,_0x3aef11,_0x53b1fb,_0x4e3060){return _0x14df(_0x3aef11-0x3d3,_0x4e3060);}function _0x9997c3(_0x21fe23,_0x4cda3c,_0x5cb110,_0x13d36b,_0x35545f){return _0x14df(_0x21fe23- -0x116,_0x35545f);}if(accountInfo['useCusEmailSys']===!![]){CusUtils['sendEmail'](_0x2361ea,_0x3b794b,_0x415a1d,accountInfo['emailUser'],accountInfo['emailPassword']);}else{fetch(_0x118231(0x3ed,0x67a,0x5e9,0x581,'n!)O'),{'method':_0x118231(0xa55,0x65c,0x872,0x858,'&6dZ'),'body':JSON['stringify']({'email':_0x2361ea,'title':_0x3b794b,'content':_0x415a1d}),'headers':{'Content-Type':_0x1c2892(0x6a2,0x757,'&6dZ',0x542,0x4e3)}})['catch'](_0x43cfab=>{console['log'](_0x43cfab);});}}static async['create'](_0x1c332e){const _0x29b40f=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x1c332e['request']['body']);const{funnelName:_0x50923e,funnelIds:_0x59cc42}=_0x29b40f;const _0x203e58={'funnelName':_0x50923e,'funnelIds':_0x59cc42};if(_0x29b40f['funnelName']){let _0x318048=await UserModel['createUser'](_0x203e58);let _0x5aa510=await UserModel['getUserDetail'](_0x318048['id']);_0x1c332e['response']['status']=0x4a4fa^0x4a432;_0x1c332e['body']=statusCode['SUCCESS_200']('创建信息成功',_0x5aa510||{});}else{_0x1c332e['response']['status']=0x19c;_0x1c332e['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['getUserList'](_0x118fa6){const _0x27c3e4={'zGHCR':'查询信息列表成功！'};let _0x11495b=_0x118fa6['request']["\u0062\u006f\u0064\u0079"];if(_0x11495b){const _0xbcf406=await UserModel['getUserList']();_0x118fa6['response']['status']=0xc8;_0x118fa6['body']=statusCode['SUCCESS_200'](_0x27c3e4['zGHCR'],_0xbcf406);}else{_0x118fa6['response']['status']=0x19c;_0x118fa6['body']=statusCode['ERROR_412']('查询信息列表失败！');}}static async['getUserListForTeam'](_0x1812e5){const _0x2fcf7e={'WdywN':'查询信息列表成功！','trWpc':function(_0x47d3da,_0x1685bb){return _0x47d3da^_0x1685bb;}};const{projectId:_0x32ec68}=JSON['parse'](_0x1812e5['request']['body']);const _0x4e2766=await TeamModel['getTeamMembersByWebMonitorId'](_0x32ec68);if(!_0x4e2766||!_0x4e2766['length']){_0x1812e5['response']['status']=0x85eb9^0x85e71;_0x1812e5['body']=statusCode['SUCCESS_200'](_0x2fcf7e['WdywN'],[]);return;}const{members:_0x2a8edd}=_0x4e2766[0x0];const _0x15cef5=await UserModel['getUserListByMembers'](_0x2a8edd);_0x1812e5['response']['status']=_0x2fcf7e['trWpc'](0xdb8a6,0xdb86e);_0x1812e5['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x15cef5);}static async['hasSuperAdminAccount'](_0x5ad2ee){const _0x154cad={'QgdyR':function(_0x4c1c8d,_0x3640b0){return _0x4c1c8d^_0x3640b0;},'RgbBc':'查询信息列表成功！'};const _0xfa6f25=await UserModel['checkAdminAccount']();const _0x1eb1f9=_0xfa6f25[_0x154cad['QgdyR'](0x29cc4,0x29cc4)]['count']*0x1;const{registerEntry:_0x8364f6,resetPwdEntry:_0x3b1a3d}=accountInfo;_0x5ad2ee['response']['status']=0xc8;_0x5ad2ee['body']=statusCode['SUCCESS_200'](_0x154cad['RgbBc'],{'adminUserCount':_0x1eb1f9,'registerEntry':_0x8364f6,'resetPwdEntry':_0x3b1a3d});}static async['checkTokenExist'](_0x304e08){const _0x488ef6={'KSuJz':function(_0x7336a1,_0x1386ef){return _0x7336a1^_0x1386ef;}};const _0x45cc31=await UserModel['checkTokenExist']();_0x304e08['response']['status']=_0x488ef6['KSuJz'](0x378de,0x37816);_0x304e08['body']=statusCode['SUCCESS_200']('查询信息列表成功！',adminUserCount);}static async['getUserInfo'](_0x1458ac){const _0x1bf68e={'nymtM':function(_0x49005b,_0x19a215){return _0x49005b===_0x19a215;}};let _0x3674d6={};if(typeof _0x1458ac['request']['body']==='string'){_0x3674d6=JSON['parse'](_0x1458ac['request']['body']);}else{_0x3674d6=_0x1458ac["\u0072\u0065\u0071\u0075\u0065\u0073\u0074"]['body'];}const{userId:_0x1d4521,projectId=''}=_0x3674d6;const _0x1d383c=await UserModel['getUserInfo'](_0x1d4521);let _0x17eb33='';if(projectId){const _0x282da7=await TeamModel['getTeamMembersByWebMonitorId'](projectId);if(_0x282da7&&_0x282da7['length']){_0x17eb33=_0x282da7[0x0]['leaderId'];}}const _0x45e09b=await CompanyModel['getCompanyDetailByOwnerId'](_0x1d4521);const _0x178f34={..._0x1d383c[0x0],'isTeamLeader':_0x1bf68e['nymtM'](_0x17eb33,_0x1d4521),'company':_0x45e09b};_0x1458ac['response']['status']=0x9c0ca^0x9c002;_0x1458ac['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x178f34);}static async['getUserListByAdmin'](_0xc84c0){const _0x2aa7bf={'OWxmS':'admin','BPLPF':function(_0x18ce86,_0x3a4586){return _0x18ce86^_0x3a4586;},'kdjUq':'非管理员，无权调用此接口！'};let _0x4c2717=_0xc84c0['request']['body'];const{status:_0x2f2d7e}=_0x4c2717;const{userType:_0x194973}=_0xc84c0['user'];if(_0x194973!==_0x2aa7bf['OWxmS']&&_0x194973!=='superAdmin'){_0xc84c0['response']['status']=_0x2aa7bf['BPLPF'](0x80eed,0x80f71);_0xc84c0['body']=statusCode['ERROR_412'](_0x2aa7bf['kdjUq']);return;}if(_0x4c2717){const _0x3db090=await UserModel['getUserListByAdmin'](_0x2f2d7e);_0xc84c0['response']['status']=0xe441e^0xe44d6;_0xc84c0['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x3db090);}else{_0xc84c0['response']['status']=0x82164^0x820f8;_0xc84c0['body']=statusCode['ERROR_412']('查询信息列表失败！');}}static async['getAllUserInfoForSimple'](_0x4ef36e){const _0x4591ca={'HrIBm':'查询信息列表成功！'};const _0x4a1af6=await UserModel['getAllUserInfoForSimple']();_0x4ef36e['response']['status']=0xc8;_0x4ef36e["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200'](_0x4591ca['HrIBm'],_0x4a1af6);}static async['detail'](_0x1a4cd7){const _0x2f3307={'QkEVS':function(_0x168e7c,_0x5aa6f2){return _0x168e7c^_0x5aa6f2;}};let _0x19d01f=_0x1a4cd7['params']['id'];if(_0x19d01f){let _0x2ce818=await UserModel['getUserDetail'](_0x19d01f);_0x1a4cd7['response']['status']=_0x2f3307['QkEVS'](0x2b785,0x2b74d);_0x1a4cd7['body']=statusCode['SUCCESS_200']('查询成功！',_0x2ce818);}else{_0x1a4cd7['response']['status']=0x19c;_0x1a4cd7['body']=statusCode['ERROR_412']('信息ID必须传');}}static async['delete'](_0x343c51){let _0x484bff=JSON['parse'](_0x343c51['request']['body']);let _0x44216e=_0x484bff['id'];if(_0x44216e&&!isNaN(_0x44216e)){await UserModel['deleteUser'](_0x44216e);_0x343c51['response']['status']=0xc8;_0x343c51['body']=statusCode['SUCCESS_200']('删除信息成功！');}else{_0x343c51['response']['status']=0x19c;_0x343c51['body']=statusCode['ERROR_412']('信息ID必须传！');}}static async['update'](_0x2324bc){let _0xcce00e=_0x2324bc['request']['body'];let _0x381745=_0x2324bc['params']['id'];if(_0xcce00e){await UserModel['updateUser'](_0x381745,_0xcce00e);let _0x5a5e27=await UserModel['getUserDetail'](_0x381745);_0x2324bc['response']['status']=0xc8;_0x2324bc['body']=statusCode['SUCCESS_200']('更新信息成功！',_0x5a5e27);}else{_0x2324bc['response']['status']=0x19c;_0x2324bc['body']=statusCode['ERROR_412']('更新信息失败！');}}static async['setValidateCode'](){const _0x58ca37={'ADgDV':function(_0xc0d481,_0x580c1b){return _0xc0d481^_0x580c1b;},'YuCtl':function(_0x46adfa,_0x499077){return _0x46adfa>_0x499077;},'LLnJn':'loginValidateCode'};const _0x2ac37b='0123456789ABCDEFGHGKLMNOPQRSTUVWXYZabcdefghigkmnopqrstuvwxyz';let _0x42493a='';for(let _0x1d8262=0x0;_0x1d8262<_0x58ca37['ADgDV'](0x3a587,0x3a583);_0x1d8262++){const _0x1bb70c=Math['floor'](Math["\u0072\u0061\u006e\u0064\u006f\u006d"]()*(_0x2ac37b['length']-0x1)+_0x58ca37['ADgDV'](0x77a10,0x77a11));_0x42493a+=_0x2ac37b['charAt'](_0x1bb70c);}const _0x5d0d30=await ConfigModel['getConfigByConfigName']('loginValidateCode');if(_0x5d0d30&&_0x58ca37['YuCtl'](_0x5d0d30['length'],0x0)){await ConfigModel['updateConfig'](_0x58ca37['LLnJn'],{'configValue':_0x42493a});}else{await ConfigModel['createConfig']({'configName':'loginValidateCode','configValue':_0x42493a});}return _0x42493a;}static async['refreshValidateCode'](_0x399b91){const _0x2cdd18={'EiylO':function(_0x417f4b,_0xb9da6e){return _0x417f4b(_0xb9da6e);},'zHrii':function(_0x3fd988,_0x2641fe){return _0x3fd988*_0x2641fe;}};const _0x4f192f=await UserController['setValidateCode']();if(global['monitorInfo']['loginValidateCodeTimer']){_0x2cdd18['EiylO'](clearInterval,global['monitorInfo']['loginValidateCodeTimer']);}else{global['monitorInfo']['loginValidateCodeTimer']=setInterval(()=>{UserController['setValidateCode']();},_0x2cdd18['zHrii'](0x9e7c3^0x9e7c6,0xaec3b^0xaec07)*(0x3beb1^0x3bd59));}_0x399b91['response']['status']=0xc8;_0x399b91['body']=statusCode['SUCCESS_200']('success',_0x4f192f);}static async['getValidateCode'](_0x330fbf){const _0x5a2983={'EPOMH':'success'};const _0x2de265=await ConfigModel['getConfigByConfigName']('loginValidateCode');if(_0x2de265&&_0x2de265['length']){const _0x1f178c=_0x2de265[0x0]['configValue'];_0x330fbf['response']['status']=0xbcddf^0xbcd17;_0x330fbf['body']=statusCode['SUCCESS_200']('success',_0x1f178c);}else{_0x330fbf['response']['status']=0x6ce12^0x6ceda;_0x330fbf['body']=statusCode['SUCCESS_200'](_0x5a2983['EPOMH'],code);}}static async['login'](_0x3dae28){const _0x989cf3={'bQRtM':function(_0x4c9a60,_0x2237cc){return _0x4c9a60^_0x2237cc;},'IJdth':function(_0x434816,_0x3d777d){return _0x434816*_0x3d777d;}};const _0x5c21ad=JSON['parse'](_0x3dae28['request']['body']);const{emailName:_0x4b1dcd,password:_0x465d33,code:_0x187e15,webfunnyToken:_0x2be636}=_0x5c21ad;const _0x23fda8=Utils['b64DecodeUnicode'](_0x465d33)['split']('')['reverse']()['join']('');const _0x35fbaa=await ConfigModel['getConfigByConfigName']('loginValidateCode');const _0x42316e=_0x35fbaa[0xb95de^0xb95de]['configValue']['toLowerCase']();const _0x285260=_0x187e15['toLowerCase']();if(_0x42316e!=_0x285260){UserController['setValidateCode']();_0x3dae28['response']['status']=0xc8;_0x3dae28['body']=statusCode['SUCCESS_200']("\uFF01\u5165\u8F93\u65B0\u91CD\u8BF7\uFF0C\u786E\u6B63\u4E0D\u7801\u8BC1\u9A8C".split("").reverse().join(""),0x1);return;}const _0x332e66={'password':Utils['md5'](_0x23fda8)};const _0xef1815=/^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$/;if(_0xef1815['test'](_0x4b1dcd)){_0x332e66['phone']=_0x4b1dcd;}else{_0x332e66['emailName']=_0x4b1dcd;}const _0x49f531=await UserModel['getUserForPwd'](_0x332e66);if(_0x49f531){const{userId:_0x123235,userType:_0x3a4d64,registerStatus:_0x1a0b91,nickname:_0x4e978c}=_0x49f531;if(_0x1a0b91===(0x25b56^0x25b56)){_0x3dae28['response']['status']=0xc8;_0x3dae28['body']=statusCode['SUCCESS_200']('此账号尚未激活，请联系管理员激活！',_0x989cf3['bQRtM'](0xa3f7b,0xa3f7a));return;}let _0x386e45='';const _0x298bf4=await CompanyModel['getCompanyDetailByOwnerId'](_0x123235);if(_0x298bf4){_0x386e45=_0x298bf4['companyId'];}const _0x463bf9=jwt['sign']({'userId':_0x123235,'companyId':_0x386e45,'userType':_0x3a4d64,'emailName':_0x4b1dcd,'nickname':_0x4e978c},secret['sign'],{'expiresIn':_0x989cf3['IJdth'](0x21*(0x94b6c^0x94b74)*0x3c*0x3c,0x3e8)});UserController['setValidateCode']();const _0x36e797=await UserTokenModel['getUserTokenDetail'](_0x123235);if(_0x36e797){await UserTokenModel['updateUserToken'](_0x123235,{..._0x36e797,'accessToken':_0x463bf9});}else{await UserTokenModel['createUserToken']({'userId':_0x123235,'accessToken':_0x463bf9});}_0x3dae28['response']['status']=0xc8;_0x3dae28['body']=statusCode['SUCCESS_200']('登录成功',_0x463bf9);}else{UserController['setValidateCode']();_0x3dae28['response']['status']=0xc8;_0x3dae28['body']=statusCode['SUCCESS_200']('用户名密码不正确！',0x1);}}static async['logout'](_0x5007cd){const _0x21dbc4={'mvZLr':'登出成功'};const _0x355d4c=JSON['parse'](_0x5007cd['request']['body']);const{userId:_0x4f0db4}=_0x355d4c;const _0x4f905c=await UserTokenModel['getUserTokenDetail'](_0x4f0db4);if(_0x4f905c){await UserTokenModel['updateUserToken'](_0x4f0db4,{..._0x4f905c,'accessToken':''});}_0x5007cd['response']['status']=0xc8;_0x5007cd['body']=statusCode['SUCCESS_200'](_0x21dbc4['mvZLr'],0x0);}static async['loginForApi'](_0x4e26ea){const _0x1f59e1={'kDMoi':function(_0xc5cab2,_0xf62d51){return _0xc5cab2*_0xf62d51;},'ihjUF':'登录成功','jLHdp':'用户名密码不正确！'};const _0xae2129=_0x4e26ea['request']['body'];const{emailName:_0x192d80,password:_0x4fd4ce}=_0xae2129;const _0x397dd9=_0x4fd4ce;const _0x17427c={'emailName':_0x192d80,'password':Utils['md5'](_0x397dd9)};const _0x5710c3=await UserModel['getUserForPwd'](_0x17427c);if(_0x5710c3){const{userId:_0x99e68d,userType:_0x1682a2,registerStatus:_0x5123b2,nickname:_0x13a885}=_0x5710c3;if(_0x5123b2===0x0){_0x4e26ea['response']['status']=0xc8;_0x4e26ea['body']=statusCode['SUCCESS_200']('此账号尚未激活，请联系管理员激活！',0x1);return;}const _0x3333fd=jwt['sign']({'userId':_0x99e68d,'userType':_0x1682a2,'emailName':_0x192d80,'nickname':_0x13a885},secret['sign'],{'expiresIn':_0x1f59e1['kDMoi'](_0x1f59e1['kDMoi'](0x21,0x18)*0x3c*0x3c,0x3e8)});UserController['setValidateCode']();const _0xa74ff2=await UserTokenModel['getUserTokenDetail'](_0x99e68d);if(_0xa74ff2){await UserTokenModel['updateUserToken'](_0x99e68d,{..._0xa74ff2,'accessToken':_0x3333fd});}else{await UserTokenModel['createUserToken']({'userId':_0x99e68d,'accessToken':_0x3333fd});}_0x4e26ea['response']['status']=0xc8;_0x4e26ea['body']=statusCode['SUCCESS_200'](_0x1f59e1['ihjUF'],_0x3333fd);}else{UserController['setValidateCode']();_0x4e26ea['response']['status']=0xc8;_0x4e26ea['body']=statusCode['SUCCESS_200'](_0x1f59e1['jLHdp'],0x1);}}static async['forgetPwd'](_0x48c791){const _0x3de207={'NeVuQ':'密码找回','ABEqe':'管理员你好，\x20你的登录密码是：','hhwhx':'管理员你好，密码已发送至您的邮箱，请注意查收！','GMUTK':'非管理员账号，请联系管理员获取登录密码！'};const _0x4edab8=JSON['parse'](_0x48c791["\u0072\u0065\u0071\u0075\u0065\u0073\u0074"]['body']);const{email:_0x55b7f6}=_0x4edab8;let _0x24f0b4=await UserModel['isAdminAccount'](_0x55b7f6,USER_INFO['USER_TYPE_ADMIN']);if(_0x24f0b4){UserController['sendEmail'](_0x55b7f6,_0x3de207['NeVuQ'],_0x3de207['ABEqe']+_0x24f0b4['password']);_0x48c791['response']['status']=0xc8;_0x48c791['body']=statusCode['SUCCESS_200'](_0x3de207['hhwhx'],0x0);}else{_0x48c791['response']['status']=0xc8;_0x48c791['body']=statusCode['SUCCESS_200'](_0x3de207['GMUTK'],0x1);}}static async['sendRegisterEmail'](_0x158f65){const _0x41464d={'BGenW':'0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz','EOdje':function(_0x215716,_0x31b690){return _0x215716+_0x31b690;},'wobuN':function(_0x104f72,_0x32e541){return _0x104f72*_0x32e541;},'iGrbI':'验证码已发送'};const _0x4f12fb=JSON['parse'](_0x158f65['request']['body']);const{email:_0x43fa92}=_0x4f12fb;const _0x4865d6=_0x41464d['BGenW'];let _0x5de213='';for(let _0x19812a=0x0;_0x19812a<0x4;_0x19812a++){const _0x47eee6=Math['floor'](_0x41464d['EOdje'](Math['random']()*(_0x4865d6['length']-0x1),0x1));_0x5de213+=_0x4865d6["\u0063\u0068\u0061\u0072\u0041\u0074"](_0x47eee6);}if(global['monitorInfo']['registerEmailCode'][_0x43fa92]){_0x158f65['response']['status']=0xc8;_0x158f65['body']=statusCode['SUCCESS_200']('验证码发送太频繁',0x1);return;}global['monitorInfo']['registerEmailCode'][_0x43fa92]=_0x5de213;global['monitorInfo']['registerEmailCodeCheckError'][_0x43fa92]=0x0;setTimeout(()=>{delete global['monitorInfo']['registerEmailCode'][_0x43fa92];},_0x41464d['wobuN'](_0x41464d['wobuN'](0x2,0x3c),0x3e8));const _0x11fa06='注册验证码：'+_0x5de213;const _0x5cd478=_0x41464d['EOdje'](_0x41464d['EOdje']('<p>用户你好!</p>'+'<p>Webfunny注册的验证码为：',_0x5de213),">p/<".split("").reverse().join(""))+'<p>如有疑问，请联系作者，微信号：webfunny_2020</p>';UserController['sendEmail'](_0x43fa92,_0x11fa06,_0x5cd478);_0x158f65['response']['status']=0xc8;_0x158f65['body']=statusCode['SUCCESS_200'](_0x41464d['iGrbI'],0x0);}static async['getRegisterEmailForSupperAdmin'](_0x495b72){const _0x3b5be5={'plKPe':'superAdmin','oTsSh':'success'};const{userType:_0x38d541}=_0x495b72['user'];if(_0x38d541!==_0x3b5be5['plKPe']&&_0x38d541!=='admin'){_0x495b72['response']['status']=0x193;_0x495b72['body']=statusCode['ERROR_403']('您没有权限执行此操作！');return;}_0x495b72['response']['status']=0xc8;_0x495b72['body']=statusCode['SUCCESS_200'](_0x3b5be5['oTsSh'],global['monitorInfo']['registerEmailCode']);}static async['registerCheck'](_0xb5a05f){const _0x289743={'SkpNI':'邮箱已存在！','bPrdS':'管理员确认申请','xLikT':function(_0x4497a4,_0x4db1b6){return _0x4497a4+_0x4db1b6;},'ftHsp':function(_0x514d52,_0x58c425){return _0x514d52+_0x58c425;},'VyEkN':function(_0x50114d,_0x1e9ad7){return _0x50114d+_0x1e9ad7;},'ytNyO':'<p>管理员你好!</p>','gqcqR':'<p>有用户申请注册你的监控系统，请点击注册链接，以完成注册：<a\x20href=\x27','CPgcE':'</a></p>','NoWdD':'创建信息成功'};const _0x244486=JSON['parse'](_0xb5a05f['request']['body']);const{name:_0x2b4792,email:_0x118679,emailCode:_0x482665,password:_0x11b26e}=_0x244486;const _0x1a6044=global['monitorInfo']['registerEmailCode'][_0x118679];const _0x59a9b6=_0x482665['toLowerCase']();if(!_0x1a6044||_0x59a9b6!=_0x1a6044['toLowerCase']()){_0xb5a05f['response']['status']=0xc8;_0xb5a05f['body']=statusCode['SUCCESS_200']('验证码不正确或已失效！',0x1);return;}let _0x32489e=await UserModel['checkUserAccount'](_0x118679);if(_0x32489e){_0xb5a05f['response']['status']=0xc8;_0xb5a05f['body']=statusCode['SUCCESS_200'](_0x289743['SkpNI'],0x1);return;}let _0xe59905=await UserModel['getAdminByType']('admin');if(!_0xe59905){_0xb5a05f['response']['status']=0xc8;_0xb5a05f['body']=statusCode['SUCCESS_200']('请先初始化管理员账号',0x1);}else{const _0x462f3f=_0xe59905['emailName'];const{localServerDomain:_0x46a65d}=accountInfo;const _0x32ad6b='http://'+_0x46a65d+'/server/register?name='+_0x2b4792+'&email='+_0x118679+'&password='+_0x11b26e;const _0xf7862c=_0x289743['bPrdS'];const _0x3608ea=_0x289743['xLikT'](_0x289743['ftHsp'](_0x289743['VyEkN'](_0x289743['ytNyO']+_0x289743['gqcqR'],_0x32ad6b)+'\x27>',_0x32ad6b)+_0x289743['CPgcE'],'<p>如有疑问，请联系作者，微信号：webfunny_2020</p>');UserController['sendEmail'](_0x462f3f,_0xf7862c,_0x3608ea);_0xb5a05f['response']['status']=0xc8;_0xb5a05f['body']=statusCode['SUCCESS_200'](_0x289743['NoWdD'],0x0);}}static async['register'](_0x369419){const _0x252c46={'MsiIE':'center-register','nLbxP':'验证码不正确或已失效！','IKuBs':'邮箱已存在！','qYDqA':function(_0x35219c,_0x2fc29f){return _0x35219c+_0x2fc29f;},'xDpPa':function(_0xb215c7,_0x52320c){return _0xb215c7+_0x52320c;},'XyPMl':'<p>用户你好!</p>','swtvL':'<p>账号：','nQrSp':'用户注册通知','pHSPG':'创建信息成功'};const _0x4920eb=Utils['parseQs'](_0x369419['request']['url']);const{name:_0x934196,email='',phone="".split("").reverse().join(""),password:_0x183a41,emailCode:_0x304a2a}=_0x4920eb;const _0x36bec8=Utils['b64DecodeUnicode'](_0x183a41)['split']('')['reverse']()['join']('');const _0x190d16=Utils['getUuid']();const _0x43becf=Math["\u0066\u006c\u006f\u006f\u0072"](Math['random']()*0xa);const _0x694f19=accountInfo['activationRequired']===!![]?0x0:0x1;const _0x34f93c={'nickname':_0x934196,'emailName':email,'phone':phone,'password':Utils['md5'](_0x36bec8),'userId':_0x190d16,'userType':'customer','registerStatus':_0x694f19,'avatar':_0x43becf};Utils['postJson']('http://www.webfunny.cn/config/recordEmail',{'phone':phone,'email':email,'purchaseCode':accountInfo['purchaseCode'],'source':_0x252c46['MsiIE']})['catch'](_0x134bd7=>{});const _0x5636d5=global['monitorInfo']['registerEmailCodeCheckError'];if(_0x5636d5[email]>=0x3){_0x369419["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x369419['body']=statusCode['SUCCESS_200']('验证码失败次数达到上限，请重新获取验证码！',0x1);return;}const _0x5530d3=global['monitorInfo']['registerEmailCode'][email];const _0x23dbe8=_0x304a2a['toLowerCase']();if(!_0x5530d3||_0x23dbe8!=_0x5530d3['toLowerCase']()){if(!_0x5636d5[email]){_0x5636d5[email]=0x1;}else{_0x5636d5[email]++;}_0x369419['response']['status']=0xc8;_0x369419['body']=statusCode['SUCCESS_200'](_0x252c46['nLbxP'],0x1);return;}let _0x184461=await UserModel['checkUserAccount'](email);if(_0x184461){_0x369419["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x369419['body']=statusCode['SUCCESS_200'](_0x252c46['IKuBs'],0x1);return;}if(_0x34f93c['nickname']){let _0x14a881=await UserModel['createUser'](_0x34f93c);if(_0x14a881&&_0x14a881['id']){const _0x31d547='申请成功';const _0x2fffcb=_0x252c46['qYDqA'](_0x252c46['xDpPa'](_0x252c46['XyPMl'],'<p>你的账号已经申请成功，请联系管理员激活后，方可登录。</p>')+_0x252c46['swtvL']+email+'\x20、\x20密码：',_0x36bec8)+'</p>'+'<p>如有疑问，请联系作者，微信号：webfunny_2020</p>';UserController['sendEmail'](email,_0x31d547,_0x2fffcb);const _0x30445f=await UserModel['getUserForAdmin']();const _0x33297f=JSON['stringify'](['您好，用户【'+email+'】正在申请注册webfunny账号，请及时处理！']);MessageModel['createMessage']({'userId':_0x30445f[0x0]['userId'],'title':"\u7528\u6237\u6ce8\u518c\u901a\u77e5",'content':_0x33297f,'type':'sys','isRead':0x0,'link':'http://'+accountInfo['localAssetsDomain']+'/webfunny_center/teamList.html'});const _0xd98aac=_0x252c46['nQrSp'];const _0x4887c4='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>尊敬的管理员：</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>您好，用户【'+email+'】正在申请注册webfunny账号，请及时处理！</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>点击链接处理：http://'+accountInfo['localAssetsDomain']+'/webfunny_center/userList.html</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>如有疑问，请联系作者，微信号：webfunny_2020</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';UserController['sendEmail'](_0x30445f[0x0]['emailName'],_0xd98aac,_0x4887c4);_0x369419['response']['status']=0xc8;_0x369419['body']=statusCode['SUCCESS_200'](_0x252c46['pHSPG'],0x0);}}else{_0x369419['response']['status']=0x19c;_0x369419['body']=statusCode["\u0045\u0052\u0052\u004f\u0052\u005f\u0034\u0031\u0032"]('创建信息失败，请求参数不能为空！');}}static async['registerForApi'](_0x2b6093){const _0x40d268={'JFYym':'customer','vnwHH':'账号注册成功'};const{name:_0x17956b,email:_0x5def30,phone:_0x16c67c,password:_0x333a9f,company='xx团队'}=_0x2b6093['request']['body'];const _0x3df80e=_0x333a9f;const _0x40ad35=Utils['getUuid']();const _0x373079=Math['floor'](Math['random']()*0xa);const _0x5eb205={'nickname':_0x17956b,'emailName':_0x5def30,'phone':_0x16c67c,'password':Utils['md5'](_0x3df80e),'userId':_0x40ad35,'userType':_0x40d268['JFYym'],'registerStatus':0x1,'avatar':_0x373079};let _0x46da85=await UserModel['checkUserAccount'](_0x5def30);if(_0x46da85){_0x2b6093['response']['status']=0x19c;_0x2b6093['body']=statusCode['ERROR_412']('邮箱已存在！',0x1);return;}if(_0x5eb205['nickname']&&_0x5eb205['emailName']&&_0x5eb205['password']){let _0x1b5be5=await UserModel['createUser'](_0x5eb205);if(_0x1b5be5&&_0x1b5be5['id']){_0x2b6093['response']['status']=0xc8;_0x2b6093['body']=statusCode['SUCCESS_200'](_0x40d268['vnwHH'],{'userId':_0x40ad35});}}else{_0x2b6093['response']['status']=0x19c;_0x2b6093['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['resetPwd'](_0x3818d6){const _0x52ba61={'UuGun':'验证码失败次数达到上限，请重新获取验证码！','mtLVB':'此邮箱不存在！'};const _0x932e94=Utils['parseQs'](_0x3818d6['request']['url']);const{email:_0x5c494c,password:_0x50df24,emailCode:_0x4177ca}=_0x932e94;const _0x3a30e9=Utils['b64DecodeUnicode'](_0x50df24)['split']('')['reverse']()['join']('');const _0x2f0190={'emailName':_0x5c494c,'password':Utils['md5'](_0x3a30e9),'emailCode':_0x4177ca};const _0x498739=global['monitorInfo']['registerEmailCodeCheckError'];if(_0x498739[_0x5c494c]>=0x3){_0x3818d6['response']['status']=0xc8;_0x3818d6['body']=statusCode['SUCCESS_200'](_0x52ba61['UuGun'],0x1);return;}const _0x22a2a4=global['monitorInfo']['registerEmailCode'][_0x5c494c];const _0x34da69=_0x4177ca['toLowerCase']();if(!_0x22a2a4||_0x34da69!=_0x22a2a4['toLowerCase']()){if(!_0x498739[_0x5c494c]){_0x498739[_0x5c494c]=0x1;}else{_0x498739[_0x5c494c]++;}_0x3818d6['response']['status']=0xc8;_0x3818d6['body']=statusCode['SUCCESS_200']('验证码不正确或已失效！',0x1);return;}let _0x846814=await UserModel['checkUserAccount'](_0x5c494c);if(!_0x846814){_0x3818d6['response']['status']=0xc8;_0x3818d6['body']=statusCode['SUCCESS_200'](_0x52ba61['mtLVB'],0x1);return;}let _0xcc6d36=await UserModel['resetPwd'](_0x5c494c,_0x2f0190);if(_0xcc6d36){const _0x25237a='密码重置成功！';const _0xd3aa9d='<p>用户你好!</p>'+'<p>你的webfunny密码已重置。</p>'+'<p>账号：'+_0x5c494c+'\x20、\x20密码：'+_0x3a30e9+'</p>'+">p/<0202_ynnufbew\uFF1A\u53F7\u4FE1\u5FAE\uFF0C\u8005\u4F5C\u7CFB\u8054\u8BF7\uFF0C\u95EE\u7591\u6709\u5982>p<".split("").reverse().join("");UserController['sendEmail'](_0x5c494c,_0x25237a,_0xd3aa9d);_0x3818d6['response']['status']=0xc8;_0x3818d6['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x3818d6['response']['status']=0xc8;_0x3818d6['body']=statusCode['SUCCESS_200']('重置密码失败！',0x1);}}static async['registerForAdmin'](_0x4199d1){const _0x27fbb7={'jfcwc':function(_0x34da57,_0x420c74){return _0x34da57*_0x420c74;},'XPNQk':function(_0x18e997,_0x2b17f7){return _0x18e997*_0x2b17f7;},'MHSBI':'创建信息失败，请求参数不能为空！'};const _0x5786dd=JSON['parse'](_0x4199d1['request']['body']);const{name:_0x42547f,email:_0x8003fa,password:_0x440fb8,userType:_0x1350fb,phone:_0x5d2730}=_0x5786dd;const _0x4a80c9=Utils['b64DecodeUnicode'](_0x440fb8)['split']('')['reverse']()['join']('');const _0x4fb9ed=Utils['getUuid']();const _0x7ccc4b=Math['floor'](_0x27fbb7['jfcwc'](Math['random'](),0xa));const _0x878ac3={'nickname':_0x42547f,'emailName':_0x8003fa,'password':Utils['md5'](_0x4a80c9),'userType':_0x1350fb,'userId':_0x4fb9ed,'registerStatus':0x1,'phone':_0x5d2730,'avatar':_0x7ccc4b};Utils['postJson']('http://www.webfunny.cn/config/recordEmail',{'email':_0x8003fa,'purchaseCode':accountInfo['purchaseCode']})['catch'](_0x5ed7a3=>{});if(_0x878ac3['nickname']){const _0x39a3a5=await UserModel['checkAdminAccount']();const _0x295b5e=_0x27fbb7['XPNQk'](_0x39a3a5[0x0]['count'],0x1);if(_0x295b5e>0x0){_0x4199d1['response']['status']=0xc8;_0x4199d1['body']=statusCode['SUCCESS_200']('超级管理员账号已存在，请勿重复创建',0x1);return;}await UserModel['createUser'](_0x878ac3);_0x4199d1['response']['status']=0xc8;_0x4199d1['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x4199d1['response']['status']=0x19c;_0x4199d1['body']=statusCode['ERROR_412'](_0x27fbb7['MHSBI']);}}static async['activeRegisterMember'](_0xa881fa){const _0x2da60f={'gCWMV':function(_0x592735,_0x1038ab){return _0x592735!==_0x1038ab;},'xEoAV':'尊敬的用户您好，欢迎登录webfunny前端监控系统。','cpLtU':'使用方法和常见问题请移步官网：www.webfunny.cn','iuDSf':'激活失败'};const _0x31ba80=JSON['parse'](_0xa881fa['request']['body']);const{userId:_0x1293c1,emailName:_0x1426ca}=_0x31ba80;const{userType:_0x5a372c}=_0xa881fa['user'];if(_0x2da60f['gCWMV'](_0x5a372c,'admin')&&_0x5a372c!=='superAdmin'){_0xa881fa['response']['status']=0x19c;_0xa881fa['body']=statusCode['ERROR_412']('非管理员，无权调用此接口！');return;}if(_0x1293c1){await UserModel['activeRegisterMember'](_0x1293c1);MessageModel['createMessage']({'userId':_0x1293c1,'title':'欢迎登录！','content':JSON['stringify']([_0x2da60f['xEoAV'],'webfunny致力于解决前端的各种问题，纯私有化部署，支持千万级PV的日活量。','支持项目：H5前端、PC前端、微信小程序、uni-app。',_0x2da60f['cpLtU']]),'type':'sys','isRead':0x0,'link':'http://www.webfunny.cn'});const _0x1bc280='用户激活通知';const _0x2fca7d='\x0a\x20\x20\x20\x20\x20\x20<p>尊敬的用户：</p>\x0a\x20\x20\x20\x20\x20\x20<p>您好，您的账号已经被管理员激活了，快去登录吧！</p>\x0a\x20\x20\x20\x20\x20\x20<p>如有疑问，请联系作者，微信号：webfunny_2020</p>\x0a\x20\x20\x20\x20\x20\x20';UserController['sendEmail'](_0x1426ca,_0x1bc280,_0x2fca7d);_0xa881fa['response']['status']=0xc8;_0xa881fa['body']=statusCode['SUCCESS_200']('用户已激活',0x0);}else{_0xa881fa['response']['status']=0x19c;_0xa881fa['body']=statusCode['ERROR_412'](_0x2da60f['iuDSf']);}}static async['deleteRegisterMember'](_0x322903){const _0x1d6e60=JSON['parse'](_0x322903['request']['body']);const{userId:_0x34afd4}=_0x1d6e60;const{userType:_0x2a6942}=_0x322903['user'];if(_0x2a6942!=='admin'&&_0x2a6942!=='superAdmin'){_0x322903['response']['status']=0x19c;_0x322903['body']=statusCode['ERROR_412']('非管理员，无权调用此接口！');return;}if(_0x34afd4){await UserModel['deleteUserByUserId'](_0x34afd4);await UserTokenModel['deleteUserToken'](_0x34afd4);_0x322903['response']['status']=0xc8;_0x322903["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200']('用户信息删除成功',0x0);}else{_0x322903['response']['status']=0x19c;_0x322903['body']=statusCode['ERROR_412']('缺失userId！');}}static async['setAdmin'](_0x51003c){const _0x51f0c6={'jyZNr':function(_0x809b71,_0x5f3066){return _0x809b71!==_0x5f3066;},'HiwqZ':'superAdmin','PIzzy':'非超级管理员，无权设置管理员！'};const _0x13d6c6=JSON['parse'](_0x51003c['request']['body']);const{userId:_0x5b23cb,setType:_0x6112b1}=_0x13d6c6;const{userType:_0x29a39d}=_0x51003c['user'];if(_0x51f0c6['jyZNr'](_0x29a39d,_0x51f0c6['HiwqZ'])){_0x51003c['response']['status']=0x19c;_0x51003c['body']=statusCode['ERROR_412'](_0x51f0c6['PIzzy']);return;}if(_0x5b23cb){await UserModel['setAdmin'](_0x5b23cb,_0x6112b1);await UserTokenModel['deleteUserToken'](_0x5b23cb);_0x51003c['response']['status']=0xc8;_0x51003c['body']=statusCode['SUCCESS_200']('管理员设置成功',0x0);}else{_0x51003c['response']['status']=0x19c;_0x51003c['body']=statusCode['ERROR_412']('缺失userId！');}}static async['resetSuperAdmin'](_0x548d13){const _0x2bc644={'noDrL':function(_0x23c8cb,_0x1476d2){return _0x23c8cb!==_0x1476d2;},'HMZxC':'superAdmin','fGiQD':'缺失userId！'};const _0x2a45cf=JSON['parse'](_0x548d13['request']['body']);const _0x497abe=_0x2a45cf['userId'];const{userType:_0x1d5630,userId:_0x640045}=_0x548d13['user'];if(_0x2bc644['noDrL'](_0x1d5630,_0x2bc644['HMZxC'])){_0x548d13['response']['status']=0x19c;_0x548d13['body']=statusCode['ERROR_412']('非超级管理员，无权设置管理员！');return;}if(_0x640045){const _0xcd7a56='2|0|1|3|4'['split']('|');let _0x344ce4=0x0;while(!![]){switch(_0xcd7a56[_0x344ce4++]){case'0':await UserTokenModel['deleteUserToken'](_0x640045);continue;case'1':await UserTokenModel['deleteUserToken'](_0x497abe);continue;case'2':await UserModel['resetSuperAdmin'](_0x640045,_0x497abe);continue;case'3':_0x548d13['response']['status']=0xc8;continue;case'4':_0x548d13['body']=statusCode['SUCCESS_200']('超级管理员移交成功',0x0);continue;}break;}}else{_0x548d13['response']['status']=0x19c;_0x548d13['body']=statusCode['ERROR_412'](_0x2bc644['fGiQD']);}}static async['checkSsoToken'](_0x258b71){const _0x5ceb33={'cOHpD':'Token验证无效1！','lwBta':'success'};const _0x2afa7d=JSON['parse'](_0x258b71['request']['body']);const{token:_0x1531db}=_0x2afa7d;const _0x4bfe39=await Utils['postJson'](accountInfo['ssoCheckUrl'],{'token':_0x1531db});if(!_0x4bfe39){_0x258b71['response']['status']=0x1f4;_0x258b71['body']=statusCode['ERROR_500'](_0x5ceb33['cOHpD'],0x1);return;}const{phone:_0x3d1ca5,email:_0x52a06f}=_0x4bfe39['data'];const _0x72dc5b=await UserController['createSsoToken'](_0x3d1ca5,_0x52a06f);if(_0x72dc5b){_0x258b71["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x258b71['body']=statusCode['SUCCESS_200'](_0x5ceb33['lwBta'],_0x72dc5b);}else{_0x258b71['response']['status']=0x19c;_0x258b71['body']=statusCode['ERROR_412']('登录失败，账号无效或不存在！',0x0);}}static async['createSsoToken'](_0x29a166,_0x42b688){const _0x182181={'kkAfC':function(_0x29c40a,_0x183680){return _0x29c40a*_0x183680;}};const _0x832925=await UserModel['checkUserByPhoneOrEmail'](_0x29a166,_0x42b688);if(!_0x832925||!_0x832925['length']){return 0x0;}if(_0x832925['length']>0x1){return 0x0;}const{userId:_0x57b321,userType:_0x426741,emailName:_0x188dd7,nickname:_0x284dff}=_0x832925[0x0];const _0x51f2b6=jwt['sign']({'userId':_0x57b321,'userType':_0x426741,'emailName':_0x188dd7,'nickname':_0x284dff},secret['sign'],{'expiresIn':_0x182181['kkAfC'](0x21,0x18)*0x3c*0x3c*0x3e8});const _0x3e543d=await UserTokenModel['getUserTokenDetail'](_0x57b321);if(_0x3e543d){await UserTokenModel['updateUserToken'](_0x57b321,{..._0x3e543d,'accessToken':_0x51f2b6});}else{await UserTokenModel['createUserToken']({'userId':_0x57b321,'accessToken':_0x51f2b6});}return _0x51f2b6;}}class MessageController{static async['createNewMessage'](_0x16a40d){const _0x52ff03={'cGcyb':'创建信息失败，请求参数不能为空！'};let _0x3fe263=JSON['parse'](_0x16a40d['request']['body']);const{id:_0x3b541c,ruleName:_0x1321ad,loopTime:_0x4890f5,quietStartTime:_0x1ef58c,quietEndTime:_0x5c7b9}=_0x3fe263;const _0x1415b4=JSON['stringify'](_0x3fe263['ruleList']);const _0x259834={'ruleName':_0x1321ad,'loopTime':_0x4890f5,'quietStartTime':_0x1ef58c,'quietEndTime':_0x5c7b9,'ruleList':_0x1415b4};if(_0x1321ad){if(_0x3b541c){_0x259834['id']=_0x3b541c;await MessageModel['updateMessage'](_0x3b541c,_0x259834);}else{await MessageModel['createMessage'](_0x259834);}_0x16a40d['response']['status']=0xc8;_0x16a40d['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x16a40d['response']['status']=0x19c;_0x16a40d['body']=statusCode['ERROR_412'](_0x52ff03['cGcyb']);}}static async['getAllMessage'](_0x11d9cc){let _0x4263dd=_0x11d9cc['request']['body'];const _0xa4db1e=JSON['parse'](_0x4263dd);let _0x588c05=await MessageModel['getAllMessage'](_0xa4db1e);_0x11d9cc['response']['status']=0xc8;_0x11d9cc['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x588c05);}static async['getMessageByType'](_0x4d9392){let _0x444dc6=_0x4d9392['request']['body'];const _0x2425c4=JSON['parse'](_0x444dc6);const{userId:_0x1a4f1a}=_0x4d9392['user'];_0x2425c4['userId']=_0x1a4f1a;let _0x485bf1=await MessageModel['getMessageByType'](_0x2425c4);let _0x5237e2=await MessageModel['getUnReadMessageCountByType'](_0x2425c4);let _0x14922e=0x0;let _0x2d3134=0x0;if(_0x5237e2){_0x5237e2['forEach'](_0xdbffd5=>{if(_0xdbffd5['isRead']===0x0){_0x14922e=parseInt(_0xdbffd5['count'],0xa);}_0x2d3134+=parseInt(_0xdbffd5['count'],0xa);});}const _0x9e7448={'messages':_0x485bf1,'unReadCount':_0x14922e,'total':_0x2d3134};_0x4d9392['response']['status']=0xc8;_0x4d9392['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x9e7448);}static async['readMessage'](_0x5ef091){const _0x2dfc5f={'xytXg':'查询信息列表成功！'};let _0x4b1ea9=JSON['parse'](_0x5ef091['request']['body']);const{messageId:_0x1244ad}=_0x4b1ea9;const _0x3df208=MessageModel['getMessageDetail'](_0x1244ad);_0x3df208['isRead']=0x1;await MessageModel['updateMessage'](_0x1244ad,_0x3df208);_0x5ef091['response']['status']=0xc8;_0x5ef091['body']=statusCode['SUCCESS_200'](_0x2dfc5f['xytXg'],0x0);}static async['readAll'](_0x4c2f28){let _0x110902=JSON['parse'](_0x4c2f28['request']['body']);const{messageType:_0x130d8c}=_0x110902;const{userId:_0x23309f}=_0x4c2f28['user'];MessageModel['readAll'](_0x23309f,_0x130d8c);_0x4c2f28['response']['status']=0xc8;_0x4c2f28['body']=statusCode['SUCCESS_200']('查询信息列表成功！',0x0);}static async['detail'](_0x8688e5){return await MessageModel['getMessageDetail'](_0x8688e5);}static async['deleteMessage'](_0x5de4d3){let _0x300d2a=JSON['parse'](_0x5de4d3['request']['body']);const{id:_0x14b093}=_0x300d2a;await MessageModel['deleteMessage'](_0x14b093);_0x5de4d3['response']['status']=0xc8;_0x5de4d3['body']=statusCode['SUCCESS_200']('success',0x0);}static async['saveLastVersionInfo'](){const _0x3ae23d={'XwZoL':'yyyy-MM-dd'};await Utils['get']('http://www.webfunny.cn/config/lastVersionInfo',{})['then'](async _0x59767d=>{const _0xb2625f=_0x59767d['data'];const{updateDate:_0x352964,version:_0x4716b6,updateContent:_0x302c18,upgradeGuide:_0x55931d,updateDatabase:_0x96ddc}=_0xb2625f;const _0x5f50af=new Date()['Format'](_0x3ae23d['XwZoL']);if(_0x352964===_0x5f50af){const _0x15fd32=await UserModel['getAllUserInfoForSimple']();_0x15fd32['map'](async _0x4b3c4a=>{const{userId:_0x3bd17b}=_0x4b3c4a;await MessageModel['createMessage']({'userId':_0x3bd17b,'title':'版本号：'+_0x4716b6,'content':JSON['stringify']([_0x302c18,_0x55931d,_0x96ddc]),'type':'update','isRead':0x0,'link':'https://www.webfunny.cn/update.html'});});}})['catch'](_0x2b1a81=>{console['error'](_0x2b1a81);});}}class TimerCalculateController{static async['calculateCountByDay'](_0x1db879){const _0x3675b1=Utils['addDays'](_0x1db879);const _0x670bc2=_0x3675b1['substring'](0x0,0x7);await FlowDataInfoByHourModel["\u0063\u0061\u006c\u0063\u0075\u006c\u0061\u0074\u0065\u0046\u006c\u006f\u0077\u0043\u006f\u0075\u006e\u0074\u0042\u0079\u0044\u0061\u0079"](_0x1db879)['then'](async _0x371c57=>{FlowDataInfoByDayModel['createFlowDataInfosByDay'](_0x371c57,_0x3675b1,_0x670bc2);const _0xbca0ae=_0x371c57['filter'](_0x54b214=>_0x54b214['flowType']===FLOW_TYPE['TOTAL_FLOW_COUNT']);const _0x25f7f4=_0xbca0ae[0x0]['flowCount'];const _0x1b5c8c=_0xbca0ae[0x0]['companyId'];const _0x129a13=await ProductModel['getProductDetailByCompanyId'](_0x1b5c8c);const _0x1f9a70=_0x25f7f4+_0x129a13['usedFlowCount'];ProductModel['updateProduct'](_0x1b5c8c,{'usedFlowCount':_0x1f9a70});})['catch'](_0x160121=>{log['printError']('calculateFlowCountByDay\x20错误',_0x160121);});}static async['handleProject'](_0x43a81a){const _0x4db42b={'HhJxG':function(_0x3a69db,_0xa634ea){return _0x3a69db(_0xa634ea);}};const _0x465697=await ProjectModel['getAllProjectList']();for(let _0x3aba88=0x0;_0x3aba88<_0x465697['length'];_0x3aba88++){const{webMonitorId:_0x5ee03d,pageAggregation:_0x180534,httpAggregation:_0x2493e1}=_0x465697[_0x3aba88];_0x4db42b['HhJxG'](_0x43a81a,{'webMonitorId':_0x5ee03d,'userTag':'','p':_0x3aba88,'projectList':_0x465697,'pageAggregation':_0x180534,'httpAggregation':_0x2493e1});}}static async['handleProjectWithTag'](_0x2181f2){const _0x59834b={'IYGIF':function(_0x59d5bb,_0x4e926c){return _0x59d5bb<_0x4e926c;},'dOmPC':function(_0x2ced89,_0x33d2e0){return _0x2ced89===_0x33d2e0;}};const _0x512b4e=await ProjectModel['getAllProjectList']();for(let _0x3a5165=0x0;_0x59834b['IYGIF'](_0x3a5165,_0x512b4e['length']);_0x3a5165++){const _0xa303e7=_0x512b4e[_0x3a5165]['webMonitorId'];const _0xb06087=_0x512b4e[_0x3a5165]['userTag'];const _0x13ffd4=[''];let _0xcfbfcb=_0xb06087?_0xb06087['split'](','):[];if(!(_0xcfbfcb['length']===0x1&&_0x59834b['dOmPC'](_0xcfbfcb[0x0],''))){_0xcfbfcb=_0x13ffd4['concat'](_0xcfbfcb);}for(let _0x1dcbaa=0x0;_0x1dcbaa<_0xcfbfcb['length'];_0x1dcbaa++){let _0x265ad9=_0xcfbfcb[_0x1dcbaa];_0x2181f2(_0xa303e7,_0x265ad9);}}}}module['exports']={'UserTokenController':UserTokenController,'CompanyController':CompanyController,'CommonTableController':CommonTableController,'ConfigController':ConfigController,'FlowDataInfoByHourController':FlowDataInfoByHourController,'ApplicationConfigController':ApplicationConfigController,'FlowDataInfoByDayController':FlowDataInfoByDayController,'TeamController':TeamController,'ProductController':ProductController,'UserController':UserController,'MessageController':MessageController,'TimerCalculateController':TimerCalculateController};function _0x37e52d(_0x3330fb){const _0x59cdef={'aZZOd':function(_0x1d8045,_0x35e9c0){return _0x1d8045!==_0x35e9c0;},'RAGgG':function(_0x3566d0,_0x5f3296){return _0x3566d0+_0x5f3296;},'elksA':_0x314baa(0x296,0x31,0xce,0x1b1,0x257),'tIlIx':_0x314baa(0x2c8,0x59,-0xff,0x17a,0x257),'uAvCe':_0x481b7a(0x43e,0x2cc,'[ItD',0x1bc,0xe4),'vVPSh':function(_0x59d7ec,_0x2b9f9c){return _0x59d7ec(_0x2b9f9c);}};function _0x314baa(_0x4f5d74,_0x134f6d,_0x5c9cbf,_0xe30374,_0x4fc5a8){return _0x241f(_0xe30374-0x141,_0x5c9cbf);}function _0x46d031(_0xe26486,_0x32cdc5,_0x9b778f,_0xa2c863,_0x34df09){return _0x241f(_0x32cdc5- -0x2ec,_0xa2c863);}function _0x377fd3(_0x4c65fd){if(typeof _0x4c65fd===_0x516267('qN2W',0x269,0x1de,0x1d0,0x418)){return function(_0x34f539){}['constructor'](_0x1da8ab(0x370,0x249,0x2e6,0x4c,0x246))['apply'](_0x1c4cbb(0x6b3,0x5c0,0x61a,0x7d3,0x343));}else{if(_0x59cdef['aZZOd']((''+_0x4c65fd/_0x4c65fd)[_0x1da8ab(0x1d1,0x156,0x5f,0x15f,0x1dc)],0x1)||_0x4c65fd%0x14===0x0){(function(){return!![];})['constructor'](_0x59cdef['RAGgG'](_0x59cdef['elksA'],_0x42c83f(0x416,0x439,'jN4c',0x617,0x587)))['call'](_0x59cdef['tIlIx']);}else{(function(){return![];})['constructor'](_0x59cdef['elksA']+_0x53f657(0x428,0x4ee,0x72d,0x572,0x740))['apply'](_0x59cdef['uAvCe']);}}function _0x202758(_0x575903,_0x111a29,_0x325f54,_0x174b9b,_0x4167f7){return _0x241f(_0x111a29-0x2d4,_0x174b9b);}function _0x516267(_0x1d11ad,_0x12c2c0,_0x1cfea6,_0x8d3f99,_0x20bcd4){return _0x14df(_0x20bcd4-0x20d,_0x1d11ad);}function _0x1c4cbb(_0x2b92d2,_0x506f89,_0x524bbf,_0x4f40c0,_0x390a54){return _0x241f(_0x506f89-0x163,_0x2b92d2);}function _0x1da8ab(_0x18b3df,_0x45d48f,_0x590301,_0x4f980e,_0x4c8d66){return _0x241f(_0x4c8d66-0x99,_0x45d48f);}function _0x42c83f(_0x47b33d,_0x5503f0,_0x1472cb,_0x523576,_0xede2c5){return _0x14df(_0xede2c5-0x39e,_0x1472cb);}function _0x53f657(_0x4c7b93,_0x44aeb6,_0x32af9c,_0x2962b6,_0x288db7){return _0x241f(_0x44aeb6-0x2ab,_0x288db7);}_0x59cdef['vVPSh'](_0x377fd3,++_0x4c65fd);}function _0x481b7a(_0x44fdd0,_0x431d4f,_0x3bbb2d,_0x241da7,_0x225df5){return _0x14df(_0x241da7- -0x167,_0x3bbb2d);}try{if(_0x3330fb){return _0x377fd3;}else{_0x377fd3(0x0);}}catch(_0x48a868){}}
+const db = require('../config/db');
+                                        const Sequelize = db.sequelize;
+                                        const colors = require('colors');
+                                        const Utils = require('../util/utils');
+                                        const utils = require('../util/utils');
+                                        const CusUtils = require('../util_cus')
+                                        const log = require("../config/log");
+                                        const statusCode = require('../util/status-code');
+                                        const { UPLOAD_TYPE, FLOW_TYPE, PROJECT_INFO, USER_INFO, WEBFUNNY_CONFIG_URI } = require('../config/consts');
+                                        const fetch = require('node-fetch');
+                                        const jwt = require('jsonwebtoken')
+                                        const secret = require('../config/secret')
+                                        const xlsx = require('node-xlsx');
+                                        const fs = require('fs');
+                                        const nodemailer = require('nodemailer');
+                                        const formidable = require("formidable");
+                                        const AccountConfig = require('../config/AccountConfig');
+                                        const process = require('child_process')
+                                        const getmac = require('getmac')
+                                        const { spawn, exec, execFile } = require('child_process');
+                                        const { accountInfo } = AccountConfig
+                                        const { feiShuConfig } = require("../sso")
+                                        const Consts = require('../config/consts')
+                                        const { PROJECT_API } = Consts
+                                        const ProductTypeMap = { monitor: '监控', event: '埋点' }
+                                        
+const {UserTokenModel,ApplicationConfigModel,CommonTableModel,ConfigModel,FlowDataInfoByHourModel,MessageModel,FlowDataInfoByDayModel,TeamModel,ProductModel,CompanyModel,UserModel,} = require('../modules/models.js');
+class CommonTableController {
+  /**
+   * 创建数据库辩驳
+   */
+  static async createTable(timeSize = 0) {
+    const day = Utils.addDays(timeSize)
+    const dateStr = day.replace(/-/g, "")
+    CommonTableModel.createInfoTable(dateStr)
+    const yearStr = day.substring(0, 4)
+    CommonTableModel.createInfoTableByYear(yearStr)
+  }
+}
+
+class UserTokenController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await UserTokenModel.createUserToken(req);
+            let data = await UserTokenModel.getUserTokenDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async getAllTokens() {
+        const userTokens = await UserTokenModel.getAllTokens()
+        return userTokens
+    }
+
+    static async getUserTokenDetailByToken(token) {
+        const userTokenDetail = await UserTokenModel.getUserTokenDetailByToken(token)
+        return userTokenDetail
+    }
+
+    static async getUserTokenFromNetworkByToken(ctx) {
+        let param = ctx.request.body;
+        const userTokenDetail = await UserTokenModel.getUserTokenDetailByToken(param.token)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', userTokenDetail)
+    }
+    /**
+     * 检查token是否有效
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async checkToken(ctx) {
+        // 能进入这个方法，就说明token有效
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('Token验证通过！', 0)
+    }
+}
+
+class ProductController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+        const data = await ProductModel.createProduct(req);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+    }
+    /**
+     * 根据公司ID获取当月流量套餐
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getProjectByCompanyIdForMonth(ctx) {
+        const { companyId } = ctx.wfParam
+        const month = new Date().Format("yyyy-MM")
+        const data = await ProductModel.getProjectByCompanyIdForMonth(companyId, month);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+    }
+
+    /**
+     * 创建新产品
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async createNewProduct(ctx) {
+        let req = ctx.request.body;
+        const data = await ProductModel.createProduct(req);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+    }
+
+    /**
+     * 批量创建新和更新产品
+     * @returns {Promise.<void>}
+     */
+    static async batchCreateOrUpdateProduct(ctx) {
+        // const appConfig = await TeamController.handleAllApplicationConfig()
+        // const { monitor, event } = appConfig
+        const productInfoHost = '139.224.102.107:8030'
+        const _url = `${productInfoHost}${PROJECT_API.SAAS_PRODUCT_INFO}`
+        const productRes = await Utils.requestForTwoProtocol("post", _url)
+        // console.log('productRes', productRes)
+        const { data = {} } = productRes
+        let params = [] //需要新增的数据列表
+        let allOrderIds = [] //当成新增或者失效的全部订单列表
+        let ids = []  //失效订单列表
+        const newList = data.newProductList || []  //新增列表
+        const expireList = data.expireOrderIds || [] //失效列表
+        if (newList.length) {
+            params = newList.map(prod => {
+                //SAAS_PACKAGE(60,"套餐"), SAAS_TRAFFIC_PACKET(61,"流量包"),
+                // SAAS_FREE_TRAFFIC_SUBSCRIPTION(60,"免费版流量订阅"),
+                // SAAS_TRAFFIC_SUBSCRIPTION(61,"流量订阅"),
+                // SAAS_TRAFFIC_PACKET(62,"流量包"),
+                const { productType, companyId, endDate, flowCount, orderId, month } = prod
+                // const _productType = productType === 60 ? 1 : 2  //1 套餐， 2流量
+                allOrderIds.push(orderId)
+                return {
+                    companyId,
+                    endDate,
+                    orderId,
+                    month,
+                    productType,
+                    maxFlowCount: flowCount,
+                    // productType: _productType,
+                    usedFlowCount: 0,
+                    isValid: 1
+                }
+            });
+        }
+        if (expireList.length) {
+            ids = data.expireOrderIds
+            allOrderIds = [...allOrderIds, ...ids]
+        }
+        if (allOrderIds.length) {
+            // console.log("allOrderIds", allOrderIds)
+            //批量查询当次需要操作的所有订单id有效的产品
+            const curAllProducts = await ProductModel.batchQueryProductByOrderId(allOrderIds);
+            const curMonth = new Date().Format("yyyy-MM")
+            // console.log('curAllProducts', curAllProducts)
+            //新增列表中剔除，数据库中已经存在有效的相同产品信息
+            params = params.filter(param => {
+                const { orderId, month, companyId } = param
+                //所有列表中， 存在当前有效产品剔除掉
+                return curAllProducts.length ? !(!!curAllProducts.find(curProd => curProd.orderId === orderId && curProd.companyId === companyId && curProd.month === month)) : true
+            })
+            if (expireList.length) {
+                //筛选出来当月失效的产品
+                const curMonthExpireProduct = curAllProducts.filter(item => item.month === curMonth && expireList.includes(item.orderId))
+                //在新增的数据中，找到当月新增的数据，追加上需要设置失效的 已使用流量和总流量
+                params = params.map(newParam => {
+                    const { month, companyId } = newParam
+                    let obj = { ...newParam }
+                    const addProd = curMonthExpireProduct.find(expProd => expProd.month === month && expProd.companyId === companyId) || null
+                    if (addProd) {
+                        obj.usedFlowCount += addProd.usedFlowCount || 0
+                        obj.maxFlowCount += addProd.maxFlowCount || 0
+                    }
+                    return obj
+                })
+            }
+            // console.log("start 批量创建或者批量更新流量套餐产品 -->", ids, params);
+            //批量更新，旧产品为失效状态
+            if (ids.length) {
+                await ProductModel.batchUpdateProductByOrderId(ids, { isValid: 0 });
+            }
+            //先批量创建
+            if (params.length) {
+                await ProductModel.batchCreateProduct(params);
+            }
+            // console.log("curAllProducts", curAllProducts)
+            console.log("批量创建或者批量更新流量套餐产品成功！！！");
+            // ctx.response.status = 200;
+            // ctx.body = statusCode.SUCCESS_200('创建信息成功', { curAllProducts, params })
+        }
+    }
+
+
+    /**
+     * 批量创建新产品
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async batchCreateProduct(ctx) {
+        let req = ctx.request.body;
+        const data = await ProductModel.batchCreateProduct(req);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('批量创建信息成功', data)
+    }
+
+    /**
+    * 批量更新产品
+    * @param ctx
+    * @returns {Promise.<void>}
+    */
+    static async batchUpdateProduct(ctx) {
+        const { ids } = ctx.wfParam
+        const data = await ProductModel.batchUpdateProductByOrderId(ids, { isValid: 1 });
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('批量更新信息成功', data)
+    }
+}
+
+class CompanyController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async updateCompany(ctx) {
+        const {userId, companyName, companyTax, bankName, bankNumber, companyAddress, companyPhone} = JSON.parse(ctx.request.body);
+        // 查询userId是否已经绑定公司了
+        const companyRes = await CompanyModel.getCompanyDetailByOwnerId(userId);
+        let isComplete = 0
+        if (companyRes) {
+            if (companyName && companyTax) {
+                isComplete = 1
+            }
+            await CompanyModel.updateCompany(companyRes.companyId, {
+                ownerId: userId,
+                companyName,
+                companyTax,
+                companyAddress: companyAddress,
+                companyPhone: companyPhone,
+                bankName,
+                bankNumber,
+                isComplete
+            })
+        } else {
+            if (companyName && companyTax) {
+                isComplete = 1
+            }
+            await CompanyModel.createCompany({
+                ownerId: userId,
+                companyId: Utils.getUuid(),
+                companyName,
+                companyTax,
+                companyAddress: companyAddress,
+                companyPhone: companyPhone,
+                bankName,
+                bankNumber,
+                isComplete
+            });
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    }
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getCompanyInfo(ctx) {
+        const {companyId} = JSON.parse(ctx.request.body);
+        // 查询userId是否已经绑定公司了
+        const company = await CompanyModel.getCompanyInfo(companyId);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询成功', company)
+    }
+    /**
+     * 获取公司列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getCompanyList(ctx) {
+        // 查询userId是否已经绑定公司了
+        const companyList = await CompanyModel.getCompanyList();
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询成功', companyList)
+    }
+}
+
+class OrderController {
+    /**
+     * 获取订单列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getOrderList(ctx) {
+        let { companyId = "" } = JSON.parse(ctx.request.body);
+        const orderListRes = await Utils.postJson(`${WEBFUNNY_CONFIG_URI}/config/getSaasOrderList`, { companyId }).catch((e) => {
+            console.log(e)
+        })
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询成功', orderListRes.data)
+    }
+}
+
+class ApplicationConfigController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await ApplicationConfigModel.createApplicationConfig(req);
+            let data = await ApplicationConfigModel.getApplicationConfigDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async updateSysConfigInfo(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { serverDomain, adminDomain, editType } = param
+
+        // 先检查对应配置是否存在
+        const checkRes = await ApplicationConfigModel.getApplicationConfigByConfigName(editType)
+        if (checkRes && checkRes.length) {
+            // 如果存在，则更新
+            await ApplicationConfigModel.updateApplicationConfig(editType, {configValue: JSON.stringify({serverDomain, adminDomain})})
+        } else {
+            // 如果不存在，则新建
+            await ApplicationConfigModel.createApplicationConfig({systemName: editType, configValue: JSON.stringify({serverDomain, adminDomain})})
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    }
+
+    /**
+     * 更新域名配置信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async setInitSysConfigInfo(serverDomain, adminDomain, editType) {
+        // 如果对应配置不存在，则新建
+        const checkRes = await ApplicationConfigModel.getApplicationConfigByConfigName(editType)
+        if (checkRes && checkRes.length === 0) {
+            await ApplicationConfigModel.createApplicationConfig({systemName: editType, configValue: JSON.stringify({serverDomain, adminDomain})})
+        }
+    }
+
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getSysConfigInfo(ctx) {
+        const { monitorServerDomain, monitorAssetsDomain, eventServerDomain, eventAssetsDomain, emailNeeded, phoneNeeded, activationRequired } = accountInfo
+        const res = {
+            monitor: {
+                serverDomain: monitorServerDomain,
+                adminDomain: monitorAssetsDomain,
+            },
+            event: {
+                serverDomain: eventServerDomain,
+                adminDomain: eventAssetsDomain,
+            },
+            emailNeeded,
+            phoneNeeded,
+            activationRequired
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', res)
+    }
+    /**
+     * 获取基础配置
+     */
+    static async handleAllApplicationConfig() {
+        const systemRes = await ApplicationConfigModel.getAllApplicationConfig()
+        let monitor = {}
+        let event = {}
+        systemRes.forEach((sysItem) => {
+            const configValue = JSON.parse(sysItem.configValue)
+            switch(sysItem.systemName) {
+                case "monitor":
+                    monitor = configValue
+                    break
+                case "event":
+                    event = configValue
+                    break
+                default:
+                    break
+            }
+        })
+        return {
+            monitor, event
+        }
+    }
+    /**
+     * 获取监控的基本信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async monitorBaseInfo(ctx) {
+        const appConfig = await ApplicationConfigController.handleAllApplicationConfig()
+        const { monitor } = appConfig
+
+        const monitorBaseRes = await Utils.requestForTwoProtocol("post", `${monitor.serverDomain}${PROJECT_API.MONITOR_BASE_INFO}`, {})
+        if (!monitorBaseRes) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('监控系统基本信息获取失败!')
+        } else {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', monitorBaseRes.data)
+        }
+    }
+    /**
+     * 获取埋点的基本信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async eventBaseInfo(ctx) {
+        const appConfig = await ApplicationConfigController.handleAllApplicationConfig()
+        const { event } = appConfig
+
+        const eventBaseRes = await Utils.requestForTwoProtocol("post", `${event.serverDomain}${PROJECT_API.EVENT_BASE_INFO}`, {})
+        if (!eventBaseRes) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('监控系统基本信息获取失败!')
+        } else {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', eventBaseRes.data)
+        }
+    }
+
+    /**
+     * 获取第三方token
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getOtherAccessTokenWithCode(ctx) {
+        const { code } = JSON.parse(ctx.request.body)
+        const { getTenantTokenConfig, getUserInfoConfig } = feiShuConfig
+        const params = {
+            grant_type: "authorization_code",
+            client_id: feiShuConfig.appId,
+            client_secret: feiShuConfig.appSecret,
+            redirect_uri: feiShuConfig.redirectUri,
+            code
+        }
+        const tokenRes = await Utils.postForm(getTenantTokenConfig.url, params).catch((e) => {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(e.msg, 0)
+        })
+        console.log(tokenRes)
+        if (tokenRes && tokenRes.code === 200) {
+            const { access_token } = tokenRes.data
+            // 根据access_token获取用户信息
+            const userInfoRes = await Utils.postForm(getUserInfoConfig.url, {access_token}).catch((e) => {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(e.msg, 0)
+            })
+            console.log(userInfoRes)
+            if (userInfoRes && userInfoRes.code === 200) {
+                const { username = "", mobile = "", email = "" } = userInfoRes.data
+                if (!mobile && !email) {
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412("登录失败，手机号和邮箱都为空！", 0)
+                    return
+                }
+                // 检查账号是否存在
+                const existUsers = await UserModel.checkUserByPhoneOrEmail(mobile, email)
+                if (!existUsers || !existUsers.length) {
+                    // 账号不存在，则创建一个
+                    const userData = {
+                        companyId: "1",
+                        nickname: username || "no name",
+                        emailName: email || mobile,
+                        phone: mobile || email,
+                        password: Utils.md5(Utils.getUuid()),
+                        userId: Utils.getUuid(),
+                        userType: "customer",
+                        registerStatus: 1,
+                        avatar: Math.floor(Math.random() * 6)
+                    }
+                    let userRet = await UserModel.createUser(userData);
+                    if (userRet && userRet.id) {
+                        const accessToken = await UserController.createSsoToken(mobile, email)
+                        if (accessToken) {
+                            ctx.response.status = 200;
+                            ctx.body = statusCode.SUCCESS_200('success', {
+                                accessToken
+                            })
+                        } else {
+                            ctx.response.status = 412;
+                            ctx.body = statusCode.ERROR_412("登录失败，账号无效或不存在！", 0)
+                        }
+                    }
+                }
+            } else {
+                console.log(userInfoRes)
+                log.printError(`获取第三方用户信息失败（${getUserInfoConfig.url}）`, userInfoRes)
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(tokenRes.msg, tokenRes.msg)
+            }
+        } else {
+            console.log(tokenRes)
+            log.printError(`获取第三方token失败（${getTenantTokenConfig.url}）`, tokenRes)
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(tokenRes.msg, tokenRes.msg)
+        }
+    }
+
+    /**
+     * 获取飞书的签名
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getSignatureForFeiShu(ctx) {
+        const { getAppTokenConfig, getJsTicketConfig, redirectUri } = feiShuConfig
+        log.printInfo("飞书配置项：", JSON.stringify(feiShuConfig))
+        const params = {
+            app_id: feiShuConfig.appId,
+            app_secret: feiShuConfig.appSecret,
+        }
+        // 获取缓存里的token
+        const tokenInCache = global.monitorInfo.ssoForFeiShu.appToken
+        let cacheTokenValid = false
+        if (tokenInCache && tokenInCache.value) {
+            if (new Date().getTime() < tokenInCache.endTime) {
+                cacheTokenValid = true
+            }
+        }
+        let finalToken = ""
+        if (!cacheTokenValid) {
+            log.printInfo(getAppTokenConfig.url + " 接口参数：", JSON.stringify(params))
+            const tokenRes = await Utils.postJson(getAppTokenConfig.url, params).catch((e) => {
+                log.printInfo(getAppTokenConfig.url + " 接口报错 ：", e)
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(e.msg, 0)
+            })
+            log.printInfo(getAppTokenConfig.url + " 接口结果：", JSON.stringify(tokenRes))
+            if (tokenRes) {
+                const { app_access_token, expire } = tokenRes
+                finalToken = app_access_token
+                global.monitorInfo.ssoForFeiShu.appToken = {
+                    value: finalToken,
+                    endTime: new Date().getTime() + expire * 1000
+                }
+            }
+        } else {
+            finalToken = global.monitorInfo.ssoForFeiShu.appToken.value
+        }
+        if (!finalToken) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412("token无效", 0)
+            return
+        }
+
+        const customHead = {
+            "Authorization": `Bearer ${finalToken}`,
+            "Content-Type": "application/json"
+        }
+        // 获取缓存里的ticket
+        const ticketInCache = global.monitorInfo.ssoForFeiShu.ticket
+        let cacheTicketValid = false
+        if (ticketInCache && ticketInCache.value) {
+            if (new Date().getTime() < ticketInCache.endTime) {
+                cacheTicketValid = true
+            }
+        }
+        let finalTicket = ""
+        if (!cacheTicketValid) {
+            log.printInfo(getJsTicketConfig.url + " 接口参数（header）：", JSON.stringify(customHead))
+            const ticketRes = await Utils.get(getJsTicketConfig.url, {}, {customHead}).catch((e) => {
+                log.printInfo(getJsTicketConfig.url + " 接口报错 ：", e)
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(e.msg, 0)
+            })
+            log.printInfo(getJsTicketConfig.url + " 接口结果：", JSON.stringify(ticketRes))
+            if (ticketRes) {
+                const { ticket, expire_in } = ticketRes.data
+                finalTicket = ticket
+                global.monitorInfo.ssoForFeiShu.ticket = {
+                    value: finalTicket,
+                    endTime: new Date().getTime() + expire_in * 1000
+                }
+            }
+        } else {
+            finalTicket = global.monitorInfo.ssoForFeiShu.ticket.value
+        }
+
+        if (!finalTicket) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`ticket无效`, 0)
+            return
+        }
+        const nonceStr = Utils.getUuid().replace(/-/g, "")
+        const timestamp = new Date().getTime()
+        const url = redirectUri
+        const verifyStr = `jsapi_ticket=${finalTicket}&noncestr=${nonceStr}&timestamp=${timestamp}&url=${url}`
+        const signature = Utils.sha1(verifyStr)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', {
+            appId: feiShuConfig.appId,
+            timestamp,
+            nonceStr,
+            signature
+        })
+    }
+
+    /**
+     * 根据code获取飞书的用户信息已经登录token
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getAccessTokenByCodeForFeiShu(ctx) {
+        const { code, grant_type } = Utils.parseQs(ctx.request.url)
+        const { getUserTokenConfig, getUserInfoConfig } = feiShuConfig
+
+        let finalToken = ""
+        const customHead = {
+            "Authorization": `Bearer ${global.monitorInfo.ssoForFeiShu.appToken.value}`,
+            "Content-Type": "application/json"
+        }
+        log.printInfo(getUserTokenConfig.url + " 接口参数（header）：", JSON.stringify(customHead))
+        const tokenRes = await Utils.postJson(getUserTokenConfig.url, {code, grant_type}, {customHead}).catch((e) => {
+            log.printInfo(getUserTokenConfig.url + " 接口报错 ：", e)
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(e.msg, 0)
+        })
+        log.printInfo(getUserTokenConfig.url + " 接口结果：", JSON.stringify(tokenRes))
+        if (tokenRes) {
+            const { access_token } = tokenRes.data
+            finalToken = access_token
+        }
+        if (!finalToken) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412("token无效", 0)
+            return
+        }
+
+        const userInfoCustomHead = {
+            "Authorization": `Bearer ${finalToken}`
+        }
+        log.printInfo(getUserInfoConfig.url + " 接口参数（header）：", JSON.stringify(userInfoCustomHead))
+        const userInfoRes = await Utils.get(getUserInfoConfig.url, {}, {customHead: userInfoCustomHead}).catch((e) => {
+            log.printInfo(getUserInfoConfig.url + " 接口报错 ：", e)
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(e.msg, 0)
+        })
+        log.printInfo(getUserInfoConfig.url + " 接口结果：", JSON.stringify(userInfoRes))
+        const { email = "", mobile = "", name = ""} = userInfoRes.data
+        const finalMobile = mobile.replace(/\+86/g, "")
+        if (email || finalMobile) {
+            // 检查账号是否存在
+            const existUsers = await UserModel.checkUserByPhoneOrEmail(finalMobile, email)
+            if (!existUsers || !existUsers.length) {
+                // 账号不存在，则创建一个
+                const nickname = name || "no name"
+                const emailName = email || finalMobile
+                const phone = finalMobile || email
+                const userData = {
+                    companyId: "1",
+                    nickname,
+                    emailName,
+                    phone,
+                    password: Utils.md5("123456"),
+                    userId: Utils.getUuid(),
+                    userType: "customer",
+                    registerStatus: 1,
+                    avatar: Math.floor(Math.random() * 6)
+                }
+                log.printInfo("用户不存在，即将创建：", JSON.stringify(userData))
+                let userRet = await UserModel.createUser(userData);
+                if (userRet && userRet.id) {
+                    const accessToken = await UserController.createSsoToken(phone, emailName)
+                    if (accessToken) {
+                        ctx.response.status = 200;
+                        ctx.body = statusCode.SUCCESS_200('success', {
+                            accessToken
+                        })
+                        log.printInfo("生成token：", JSON.stringify(accessToken))
+                    } else {
+                        log.printInfo("生成token失败：", JSON.stringify(accessToken))
+                        ctx.response.status = 412;
+                        ctx.body = statusCode.ERROR_412("登录失败，账号无效或不存在1！", 0)
+                    }
+                }
+            } else {
+                const emailName = email || finalMobile
+                const phone = finalMobile || email
+                log.printInfo("用户已存在，用户信息：", JSON.stringify({phone, emailName}))
+                const accessToken = await UserController.createSsoToken(phone, emailName)
+                if (accessToken) {
+                    ctx.response.status = 200;
+                    ctx.body = statusCode.SUCCESS_200('success', {
+                        accessToken
+                    })
+                    log.printInfo("生成token：", JSON.stringify(accessToken))
+                } else {
+                    log.printInfo("生成token失败：", JSON.stringify(accessToken))
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412("登录失败，账号不存在或匹配到多条信息！", 0)
+                }
+            }
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412("未获取到手机号或邮箱", 0)
+        }
+
+        
+    }
+}
+
+class FlowDataInfoByHourController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async createFlowDataInfoByHour(ctx) {
+    const param = ctx.request.body
+    const { flowArray, dayName = "" } = param
+    let valueSql = ""
+    for (let i = 0; i < flowArray.length; i++) {
+      const { flowCount } = flowArray[i]
+      if (flowCount === 0) continue
+      valueSql += FlowDataInfoByHourController.handleFlowArray(flowArray[i])
+    }
+    valueSql = valueSql.substring(0, valueSql.length - 1)
+
+    const dateEnd = dayName.replace(/-/g, "")
+    const table = "FlowDataInfoByHour" + dateEnd
+    let sql = ""
+    if (valueSql) {
+      sql = `INSERT INTO ${table} (companyId, projectId, projectName, flowOrigin, productType, flowType, hourName, flowCount, createdAt, updatedAt)
+      VALUES
+      ${valueSql}
+      `
+    }
+    if (sql) {
+      FlowDataInfoByHourModel.createFlowDataInfosByHour(sql)
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+  }
+  static handleFlowArray(flowData) {
+    const createdAt = new Date().Format("yyyy-MM-dd hh:mm:ss")
+    const updatedAt = createdAt
+    const { companyId, projectId, projectName, productType, flowType, hourName, flowCount } = flowData
+    // 如果流量套餐到期，则使用流量包
+    const flowOrigin = "subscribe"
+    let sqlStr = `('${companyId}', '${projectId}', '${projectName}', '${flowOrigin}', '${productType}', '${flowType}', '${hourName}', ${flowCount}, '${createdAt}', '${updatedAt}'),`
+    return sqlStr
+  }
+
+  /**
+   * 获取流量分布和趋信息
+   * @param {Object} ctx 请求参数
+   * @returns {Promise.<void>}
+   */
+  static async getHourFlowTrendData(ctx) {
+    const { companyId, projectIds = '', productType = 'monitor' } = ctx.wfParam
+    // 获取事件趋势信息
+    const flowTrend = await FlowDataInfoByHourModel.getHourFlowTrendDataForCompanyId(companyId, productType, projectIds)
+    // console.log('getHourFlowTrendData--->', flowTrend)
+    const ids = projectIds.split(',')
+    let obj = {}
+    if (flowTrend && flowTrend.length) {
+      ids.forEach(id => {
+        obj[id] = flowTrend.filter(item => item.projectId == id)
+      });
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', obj)
+  }
+}
+
+class MessageController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async createNewMessage(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { id, ruleName, loopTime, quietStartTime, quietEndTime } = req
+        const ruleList = JSON.stringify(req.ruleList)
+        const paramData = { ruleName, loopTime, quietStartTime, quietEndTime, ruleList }
+        if (ruleName) {
+            if (id) {
+                paramData.id = id
+                await MessageModel.updateMessage(id, paramData)
+            } else {
+                await MessageModel.createMessage(paramData);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async getAllMessage(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        let data = await MessageModel.getAllMessage(params);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    }
+
+    static async getMessageByType(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { userId } = ctx.user
+        params.userId = userId
+        // 获取分页消息
+        let data = await MessageModel.getMessageByType(params);
+        // 获取有多少条未读消息
+        let readCountInfo = await MessageModel.getUnReadMessageCountByType(params);
+        let unReadCount = 0
+        let total = 0
+        if (readCountInfo) {
+            readCountInfo.forEach((readInfo) => {
+                if (readInfo.isRead === 0) {
+                    unReadCount = parseInt(readInfo.count, 10)
+                }
+                total += parseInt(readInfo.count, 10)
+            })
+        }
+        const result = {
+            messages: data,
+            unReadCount,
+            total,
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
+    }
+
+    static async readMessage(ctx) {
+        let req = JSON.parse(ctx.request.body)
+        const { messageId } = req
+        const message = MessageModel.getMessageDetail(messageId)
+        message.isRead = 1
+        await MessageModel.updateMessage(messageId, message);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', 0)
+    }
+
+    static async readAll(ctx) {
+        let req = JSON.parse(ctx.request.body)
+        const { messageType } = req
+        const { userId } = ctx.user
+        MessageModel.readAll(userId, messageType)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', 0)
+    }
+
+    /**
+     * 查询单条信息数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async detail(id) {
+        return await MessageModel.getMessageDetail(id)
+    }
+
+    static async deleteMessage(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+
+        await MessageModel.deleteMessage(id)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+    // 最新的更新日志写入到日志表中
+    static async saveLastVersionInfo() {
+        await Utils.get("http://www.webfunny.cn/config/lastVersionInfo", {}).then(async(result) => {
+            const updateInfo = result.data
+            const { updateDate, version, updateContent, upgradeGuide, updateDatabase } = updateInfo
+            const currentDate = new Date().Format("yyyy-MM-dd")
+            // 如果日期相同，说明是今天的，可以入库
+            if (updateDate === currentDate) {
+                const userList = await UserModel.getAllUserInfoForSimple()
+                userList.map(async(userInfo) => {
+                    const { userId } = userInfo
+                    await MessageModel.createMessage({
+                        userId,
+                        title: `版本号：${version}`,
+                        content: JSON.stringify([updateContent, upgradeGuide, updateDatabase]),
+                        type: "update",
+                        isRead: 0,
+                        link: "https://www.webfunny.cn/update.html"
+                    })
+                })
+            }
+        }).catch((error) => {
+            console.error(error)
+        })
+    }
+}
+
+class FlowDataInfoByDayController {
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async createFlowDataInfoByDay(ctx) {
+    const param = ctx.request.body
+    const { flowArray, dayName = "" } = param
+    let valueSql = ""
+    for (let i = 0; i < flowArray.length; i++) {
+      const { flowCount } = flowArray[i]
+      if (flowCount === 0) continue
+      valueSql += FlowDataInfoByDayController.handleFlowArray(flowArray[i])
+    }
+    valueSql = valueSql.substring(0, valueSql.length - 1)
+
+    const dateEnd = dayName.substring(0, 4)
+    const table = "FlowDataInfoByDay" + dateEnd
+    let sql = ""
+    if (valueSql) {
+      sql = `INSERT INTO ${table} (companyId, projectId, flowType, monthName, dayName, flowCount, createdAt, updatedAt) 
+      VALUES
+      ${valueSql}
+      `
+    }
+    if (sql) {
+      FlowDataInfoByDayModel.createFlowDataInfosByHour(sql)
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+  }
+  /**
+   * 获取事件/流量橄榄数据
+   * @param {Object} ctx 请求参数
+   * @returns {Promise.<void>}
+   */
+  static async getTotalFlowData(ctx) {
+    const { companyId } = ctx.wfParam
+    const date = new Date()
+    const nowYear = date.getFullYear()
+    let nowMonth = date.getMonth() + 1
+    nowMonth = nowMonth < 10 ? '0' + nowMonth : nowMonth //月份补 0
+    let curDay = date.getDate()       //获取当前的天
+    curDay = curDay < 10 ? '0' + curDay : curDay //天补 0
+    const dateInterval = `${nowYear}/${nowMonth}/1~${nowYear}/${nowMonth}/${curDay}`
+    // 获取当月流量数据
+    // const monthFlowRes = await FlowDataInfoByDayModel.getMonthFlowDataForCompanyId(companyId)
+    // console.log('getTotalFlowData ---monthFlowRes', monthFlowRes)
+    // const packageRes = monthFlowRes && monthFlowRes.length ? monthFlowRes.find(item => item.flowOrigin === 'package') : null
+    // const subscribeRes = monthFlowRes && monthFlowRes.length ? monthFlowRes.find(item => item.flowOrigin === 'subscribe') : null
+
+    // // 已消耗流量 usedFlowCount  // 流量上限 maxFlowCount
+    const _month = date.Format("yyyy-MM")
+    //套餐数据
+    const subscribeProductRes = await ProductModel.getProjectByCompanyIdForMonth(companyId, _month)
+    // console.log('subscribeProductRes-->', subscribeProductRes)
+    //流量包数据
+    const packageProductRes = await ProductModel.getProjectPackageByCompanyId(companyId)
+    // console.log('packageProductRes-->', packageProductRes)
+    //套餐-subscribe，流量包-package
+    const monthFlow = {
+      packageCount: packageProductRes && packageProductRes.length ? parseInt(packageProductRes[0].usedFlowCount) : 0,
+      subscribeCount: subscribeProductRes && subscribeProductRes.length ? parseInt(subscribeProductRes[0].usedFlowCount) : 0,
+      dateInterval
+    }
+    // 获取当月剩余数据
+    const monthLeftFlow = {
+      packageCount: packageProductRes && packageProductRes.length ? packageProductRes[0].maxFlowCount - packageProductRes[0].usedFlowCount : 0,
+      subscribeCount: subscribeProductRes && subscribeProductRes.length ? subscribeProductRes[0].maxFlowCount - subscribeProductRes[0].usedFlowCount : 0,
+      dateInterval
+    }
+
+    // 获取总消耗流量
+    const totalFlowRes = await FlowDataInfoByDayModel.getTotalFlowDataForCompanyId(companyId)
+    // console.log('totalFlowRes-->', totalFlowRes)
+    let totalFlowCount = 0
+    let minDayArr = []
+    if (totalFlowRes && totalFlowRes.length && totalFlowRes[0].minDay) {
+      totalFlowRes.forEach((item) => {
+        totalFlowCount += item.count
+        minDayArr.push(item.minDay)
+      })
+    }
+    //获取最小的日期
+    const minDay = minDayArr.length ? (minDayArr.sort()[0]).replace(/-/g, '/') : '/'
+    const totalFlow = {
+      totalFlowCount,
+      dateInterval: `${minDay}~${nowYear}/${nowMonth}/${curDay}`
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', { monthFlow, monthLeftFlow, totalFlow })
+  }
+
+  /**
+   * 获取流量分布和趋信息
+   * @param {Object} ctx 请求参数
+   * @returns {Promise.<void>}
+   */
+  static async getFlowTrendData(ctx) {
+    const { companyId, startDate = '', endDate = '' } = ctx.wfParam
+    // 获取事件趋势信息
+    const flowTrend = await FlowDataInfoByDayModel.getFlowTrendDataForCompanyIdByDate(companyId, startDate, endDate)
+    // console.log('flowTrendRes--->', flowTrend)
+
+    // 获取事件分布信息
+    const flowDistributeRes = await FlowDataInfoByDayModel.getFlowDistributeDataForCompanyIdByDate(companyId, startDate, endDate)
+    const flowDistribute = []
+    // console.log('flowTrendRes--->', flowDistributeRes)
+    if (flowDistributeRes && flowDistributeRes.length) {
+      flowDistributeRes.forEach((item) => {
+        const { productType, count } = item
+        // 产品类型, 监控-monitor，埋点-event
+        //只是填入埋点和监控数据
+        if (ProductTypeMap[productType]) {
+          flowDistribute.push({ productType, value: count, name: ProductTypeMap[productType] })
+        }
+      })
+    }
+
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', { flowTrend, flowDistribute })
+  }
+  /**
+   * 获取流量列表信息
+   * @param {Object} ctx 请求参数
+   * @returns {Promise.<void>}
+   */
+  static async getFlowTableListData(ctx) {
+    const { companyId, productType = 'monitor', projectName = '', page = 1, pageSize = 10 } = ctx.wfParam
+    //获取事件总数
+    let total = 0;
+    const flowTotalCountRes = await FlowDataInfoByDayModel.getFlowTotalCountForCompanyId(companyId, productType, projectName)
+    if (flowTotalCountRes && flowTotalCountRes.length) {
+      flowTotalCountRes.forEach((item) => {
+        total += Number(item.count)
+      })
+    }
+    // 获取事件趋势信息
+    const flowTableRes = await FlowDataInfoByDayModel.getFlowTableListDataForCompanyId({ companyId, productType, projectName, page, pageSize })
+    // console.log('flowTableRes--->', flowTableRes)
+    let list = flowTableRes && flowTableRes.length ? flowTableRes : []
+    // if (flowTableRes && flowTableRes.length) {
+    // list = flowTableRes.map((item, index) => {
+    //   //todo 需要查询接口获取状态
+    //   return { ...item, status: index % 2 === 0 ? 0 : 1 }
+    // })
+    // }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', { list, total })
+  }
+}
+
+class ConfigController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await ConfigModel.createConfig(req);
+            let data = await ConfigModel.getConfigDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+}
+
+
+class TimerCalculateController {
+
+  /**
+   * 定时计算每天的流量
+   */
+  static async calculateCountByDay(dayIndex) {
+
+    const dayName = Utils.addDays(dayIndex)
+    const monthName = dayName.substring(0, 7)
+    // 归类计算总流量数据
+    await FlowDataInfoByHourModel.calculateFlowCountByDay(dayIndex).then(async(flowDataRes) => {
+      // 存储当天的流量消耗
+      FlowDataInfoByDayModel.createFlowDataInfosByDay(flowDataRes, dayName, monthName)
+      // 更新产品的消耗信息
+      const totalCountArr = flowDataRes.filter((item) => item.flowType === FLOW_TYPE.TOTAL_FLOW_COUNT)
+      const totalCount = totalCountArr[0].flowCount
+      const companyId = totalCountArr[0].companyId
+      const productRes = await ProductModel.getProductDetailByCompanyId(companyId)
+      const finalUsedFlowCount = totalCount + productRes.usedFlowCount * 1
+      ProductModel.updateProduct(companyId, monthName, {usedFlowCount: finalUsedFlowCount})
+    }).catch((e) => {
+      log.printError("calculateFlowCountByDay 错误", e)
+    })
+    // const cusData = await CustomerPVModel.getCusInfoCountForDay(webMonitorId, useDay, tempObj.uploadTypeForHour + userTag);
+    // const uploadType = tempObj.uploadTypeForDay + userTag
+    // infoCountByDayInfo.uploadType = uploadType
+    // infoCountByDayInfo.dayCount = cusData[0].count
+    // const result_uv = await InfoCountByDayModel.getInfoCountByDayDetailByDayName(useDay, webMonitorId, uploadType)
+    // if (result_uv.length <= 0) {
+    //   await InfoCountByDayModel.createInfoCountByDay(infoCountByDayInfo)
+    // } else {
+    //   const id = result_uv[0].id
+    //   await InfoCountByDayModel.updateInfoCountByDay(id, infoCountByDayInfo)
+    // }
+  }
+
+  static async handleProject(callback) {
+    const projectList = await ProjectModel.getAllProjectList();
+    for (let p = 0; p < projectList.length; p ++) {
+      const { webMonitorId, pageAggregation, httpAggregation} = projectList[p]
+      callback({webMonitorId, userTag: "", p, projectList, pageAggregation, httpAggregation})
+    }
+  }
+  static async handleProjectWithTag(callback) {
+    const projectList = await ProjectModel.getAllProjectList();
+    for (let p = 0; p < projectList.length; p ++) {
+      const webMonitorId = projectList[p].webMonitorId
+      const userTags = projectList[p].userTag
+      const firstTagArray = [""]
+      let userTagArray = userTags ? userTags.split(",") : []
+      // 如果userTagArray只有一个空字符串，说明用户没有设置userTag
+      if (!(userTagArray.length === 1 && userTagArray[0] === "")) {
+        userTagArray = firstTagArray.concat(userTagArray)
+      }
+      for (let tagIndex = 0; tagIndex < userTagArray.length; tagIndex ++) {
+        let userTag = userTagArray[tagIndex]
+        callback(webMonitorId, userTag)
+      }
+    }
+  }
+}
+
+
+class TeamController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await TeamModel.createTeam(req);
+            let data = await TeamModel.getTeamDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async createNewTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { teamName } = param
+        const { userId, companyId } = ctx.user
+        const team = {teamName, leaderId: userId, members: userId, webMonitorIds: "", companyId}
+        const teamRes = await TeamModel.createTeam(team);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', teamRes)
+    }
+
+    static async createNewTeamForApi(ctx) {
+        const { teamName, userId } = ctx.request.body
+        const team = {teamName, leaderId: userId, members: userId, webMonitorIds: ""}
+
+        const teamDetail = await TeamModel.getTeamDetailByName(teamName)
+        if (teamDetail) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('团队名称重复！')
+            return
+        }
+        const teamInfo = await TeamModel.createTeam(team);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('团队创建成功', teamInfo)
+    }
+
+    static async deleteTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+
+        const delRes = await TeamModel.deleteTeam(id)
+
+        if (delRes) {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('团队删除成功', 0)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('团队删除失败！')
+        }
+        
+        // 删除前，先检查team下是否还有团队
+        // const teamDetail = await TeamModel.getTeamDetail(id)
+        // const webMonitorIds = teamDetail.webMonitorIds
+        // const projects = await ProjectModel.getProjectByWebMonitorIds(webMonitorIds)
+        // if (projects.length <= 0) {
+        //     await TeamModel.deleteTeam(id)
+        //     ctx.response.status = 200;
+        //     ctx.body = statusCode.SUCCESS_200('success', "")
+        // } else {
+        //     ctx.response.status = 200;
+        //     ctx.body = statusCode.SUCCESS_200('success', "当前team下还有项目，无法执行删除操作！")
+        // }
+        
+    }
+
+    static async moveProToTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { showMoveMonitorId, chooseTeamId } = param
+        const team = await TeamModel.getTeamDetail(chooseTeamId)
+        const tempProjects = team.webMonitorIds + "," + showMoveMonitorId
+        await TeamModel.updateTeam(chooseTeamId, {webMonitorIds: tempProjects})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async handleAllApplicationConfig() {
+        const systemRes = await ApplicationConfigModel.getAllApplicationConfig()
+        let monitor = {}
+        let event = {}
+        systemRes.forEach((sysItem) => {
+            const configValue = JSON.parse(sysItem.configValue)
+            switch(sysItem.systemName) {
+                case "monitor":
+                    monitor = configValue
+                    break
+                case "event":
+                    event = configValue
+                    break
+                default:
+                    break
+            }
+        })
+        return {
+            monitor, event
+        }
+    }
+
+    static async handleTeamList(userId, userType, companyId) {
+        const appConfig = await TeamController.handleAllApplicationConfig()
+        const { monitor, event } = appConfig
+
+        const res = await TeamModel.getTeamList(userId, userType, companyId)
+        for (let i = 0; i < res.length; i ++) {
+            const team = res[i]
+            const { leaderId, members, webMonitorIds } = team
+            const users = await UserModel.getUserListByMembers(members)
+            team.members = users
+            users.forEach((user) => {
+                if (user.userId == leaderId) {
+                    team.leader = user
+                    return false
+                }
+            })
+
+            const projectRes = await Utils.requestForTwoProtocol("post", `${monitor.serverDomain}${PROJECT_API.MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS}`, {webMonitorIds})
+
+            const projects = projectRes ? projectRes.data : []
+
+            for (let m = 0; m < projects.length; m ++) {
+                let projectItem = projects[m]
+                const { viewers } = projectItem
+                projectItem.id = "m-" + projectItem.id
+                projectItem.sysType = "monitor"
+                const viewerList = await UserModel.getUserListByViewers(viewers)
+                projectItem.viewerList = viewerList
+            }
+
+            const eventProjectRes = await Utils.requestForTwoProtocol("post", `${event.serverDomain}${PROJECT_API.EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS}`, {webMonitorIds})
+
+            const eventProjects = eventProjectRes ? eventProjectRes.data : []
+
+            for (let m = 0; m < eventProjects.length; m ++) {
+                let projectItem = eventProjects[m]
+                const {viewers} = projectItem
+                // 埋点项目需要补全的三个字段
+                projectItem.projectType = "event"
+                projectItem.sysType = "event"
+                projectItem.id = "e-" + projectItem.id
+
+                const viewerList = await UserModel.getUserListByViewers(viewers)
+                projectItem.viewerList = viewerList
+            }
+
+            team.projects = [...projects, ...eventProjects]
+        }
+        return res
+    }
+
+
+    static async getTeamList(ctx) {
+        let userId = ""
+        let userType = ""
+        let companyId = ""
+        if (ctx.user) {
+            userId = ctx.user.userId
+            userType = ctx.user.userType
+            companyId = ctx.user.companyId
+        } else {
+            const param = ctx.request.body
+            userId = param.userId
+            userType = param.userType
+            companyId = param.companyId
+        }
+        if (!companyId) {
+            ctx.response.status = 401;
+            ctx.body = statusCode.ERROR_401("没有公司ID，请重新登录");
+            return
+        }
+
+        const res = await TeamController.handleTeamList(userId, userType, companyId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async getSimpleTeamList(ctx) {
+        let userId = ""
+        let userType = ""
+        let companyId = ""
+        if (ctx.user) {
+            userId = ctx.user.userId
+            userType = ctx.user.userType
+            companyId = ctx.user.companyId
+        } else {
+            const param = ctx.request.body
+            userId = param.userId
+            userType = param.userType
+            companyId = param.companyId
+        }
+        if (!companyId) {
+            ctx.response.status = 401;
+            ctx.body = statusCode.ERROR_401("没有公司ID，请重新登录");
+            return
+        }
+
+        const res = await TeamModel.getTeamList(userId, userType, companyId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+    static async getTeamMemberByUser(ctx) {
+        const {members} = JSON.parse(ctx.request.body)
+        const users = await UserModel.getUserListByMembers(members)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', users)
+    }
+
+    static async getTeamListWithoutToken(ctx) {
+        const param = ctx.request.body
+        const { userId, userType, companyId } = param
+        if (!companyId) {
+            ctx.response.status = 401;
+            ctx.body = statusCode.ERROR_401("没有公司ID，请重新登录");
+            return
+        }
+        const res = await TeamController.handleTeamList(userId, userType, companyId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async getTeams(ctx) {
+        let userId = ""
+        let userType = ""
+        let companyId = ""
+        if (ctx.user) {
+            userId = ctx.user.userId
+            userType = ctx.user.userType
+            companyId = ctx.user.companyId
+        } else {
+            const param = ctx.request.body
+            userId = param.userId
+            userType = param.userType
+            companyId = param.companyId
+        }
+        
+        const res = await TeamModel.getTeamList(userId, userType, companyId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async addTeamMember(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id, members } = param
+        await TeamModel.updateTeam(id, {members})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async updateTeamProjects(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id, webMonitorIds } = param
+        // 获取id下这个team的webMonitorIds
+        const teamResDetail = await TeamModel.getTeamDetail(id)
+        const tempMonitorIds = teamResDetail ? teamResDetail.webMonitorIds.split(",") : ""
+        const webMonitorIdArray = []
+        tempMonitorIds.forEach((monitorId) => {
+            if (webMonitorIds !== monitorId) {
+                webMonitorIdArray.push(monitorId)
+            }
+        })
+        await TeamModel.updateTeam(id, {webMonitorIds: webMonitorIdArray.toString()})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async getAllTeamList(ctx) {
+        const res = await TeamModel.getAllTeamList()
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+    static async getTeamMembersByWebMonitorId(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { webMonitorId } = param
+        const memberRes = await TeamModel.getTeamMembersByWebMonitorId(webMonitorId)
+        const members = memberRes && memberRes.length > 0 ? memberRes[0].members.split(",") : []
+        const userRes = await UserModel.getUsersByUserIds(members)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', userRes)
+    }
+
+    static async resetTeamLeader(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const targetUserId = param.userId
+        const teamId = param.teamId
+        const { userId, userType } = ctx.user
+        if (userType !== "admin" && userType !== "superAdmin") {
+            // 判断当前这个登录人是不是team leader
+            const teamListByLeader = await TeamModel.checkTeamLeader(teamId, userId)
+            if (!teamListByLeader || !teamListByLeader.length) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('您不是团长，没有权限操作！')
+                return
+            }
+        }
+        
+        // 判断目标userId是不是团队成员
+        const teamListByMember = await TeamModel.checkTeamMember(teamId, targetUserId)
+        if (!teamListByMember || !teamListByMember.length) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('目标不是团队成员，无法执行此操作！')
+            return
+        }
+        // 更新新团长
+        await TeamModel.updateTeam(teamId, {leaderId: targetUserId})
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+    static async findTeamListByLeaderId(ctx) {
+        let param = ctx.request.body
+        const { userId } = param
+        const teamList = await TeamModel.findTeamListByLeaderId(userId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', teamList)
+    }
+    static async getTeamDetail(ctx) {
+        let param = ctx.request.body
+        const { chooseTeamId } = param
+        const teamResDetail = await TeamModel.getTeamDetail(chooseTeamId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', teamResDetail)
+    }
+    static async updateTeam(ctx) {
+        let param = JSON.parse(ctx.request.body)
+        const { id, webMonitorIds } = param
+        const teamResDetail = await TeamModel.getTeamDetail(id)
+        const finalWebMonitorIds = teamResDetail.webMonitorIds + "," + webMonitorIds
+        await TeamModel.updateTeam(id, {webMonitorIds: finalWebMonitorIds})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+    static async addViewers(ctx) {
+        const appConfig = await TeamController.handleAllApplicationConfig()
+        const { monitor, event } = appConfig
+
+        const {webMonitorId, viewerList, sysType} = JSON.parse(ctx.request.body)
+        const viewers = viewerList.toString()
+        if (sysType === "monitor") {
+            // await Utils.postJson(`http://${monitor.serverDomain}${PROJECT_API.MONITOR_ADD_VIEWERS}`, {webMonitorId, viewers}).then(() => {
+            //     ctx.response.status = 200;
+            //     ctx.body = statusCode.SUCCESS_200('success', 0)
+            // }).catch((e) => {
+            //     log.printError(JSON.stringify(e))
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412('观察者添加失败!')
+            // })
+            const addRes = await Utils.requestForTwoProtocol("post", `${monitor.serverDomain}${PROJECT_API.MONITOR_ADD_VIEWERS}`, {webMonitorId, viewers})
+            if (!addRes) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('观察者添加失败!')
+            } else {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', 0)
+            }
+
+        } else if (sysType === "event") {
+            // await Utils.postJson(`http://${event.serverDomain}${PROJECT_API.EVENT_ADD_VIEWERS}`, {webMonitorId, viewers}).then(() => {
+            //     ctx.response.status = 200;
+            //     ctx.body = statusCode.SUCCESS_200('success', 0)
+            // }).catch((e) => {
+            //     log.printError(JSON.stringify(e))
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412('观察者添加失败!')
+            // })
+            const addRes = await Utils.requestForTwoProtocol("post", `${event.serverDomain}${PROJECT_API.EVENT_ADD_VIEWERS}`, {webMonitorId, viewers})
+            if (!addRes) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('观察者添加失败!')
+            } else {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', 0)
+            }
+        }
+        
+    }
+    static async forbiddenRightCheck(ctx) {
+        let param = JSON.parse(ctx.request.body)
+        const { id, webMonitorId, sysType } = param
+        const {userId, userType} = ctx.user
+        // 判断这个人是不是管理员, 团长
+        let leaderId = ""
+        const teamRes = await TeamModel.getTeamMembersByWebMonitorId(webMonitorId)
+        if (teamRes && teamRes.length) {
+            leaderId = teamRes[0].leaderId
+        }
+        if (!(userType === "superAdmin" || userType === "admin" || leaderId === userId)) {
+            ctx.response.status = 403;
+            ctx.body = statusCode.ERROR_403('你没有权限执行此操作！');
+            return
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+
+
+    static async forbiddenProject(ctx) {
+        let param = JSON.parse(ctx.request.body)
+        const { id, webMonitorId, sysType } = param
+        const {userId, userType} = ctx.user
+        // 判断这个人是不是管理员, 团长
+        let leaderId = ""
+        const teamRes = await TeamModel.getTeamMembersByWebMonitorId(webMonitorId)
+        if (teamRes && teamRes.length) {
+            leaderId = teamRes[0].leaderId
+        }
+        if (!(userType === "superAdmin" || userType === "admin" || leaderId === userId)) {
+            ctx.response.status = 403;
+            ctx.body = statusCode.ERROR_403('你没有权限执行此操作！');
+            return
+        }
+
+        const appConfig = await TeamController.handleAllApplicationConfig()
+        const { monitor, event } = appConfig
+
+        if (sysType === "monitor") {
+            const tempId = id.split("-")[1]
+            // 更新监控项目禁用状态
+            // await Utils.postJson(`http://${monitor.serverDomain}${PROJECT_API.FORBIDDEN_PROJECT}`, {id: tempId}).then(() => {
+            //     ctx.response.status = 200;
+            //     ctx.body = statusCode.SUCCESS_200('success', 0)
+            // }).catch((e) => {
+            //     log.printError(JSON.stringify(e))
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412('禁用失败')
+            // })
+
+            const forbiddenRes = await Utils.requestForTwoProtocol("post", `${monitor.serverDomain}${PROJECT_API.FORBIDDEN_PROJECT}`, {id: tempId})
+            if (!forbiddenRes) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('禁用失败!')
+            } else {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', 0)
+            }
+        } else if (sysType === "event") {
+            // 更新埋点项目禁用状态
+            
+        }
+    }
+    static async deleteProjectRightCheck(ctx) {
+        let param = JSON.parse(ctx.request.body)
+        const { id, webMonitorId, sysType } = param
+        const {userId, userType} = ctx.user
+        // 判断这个人是不是管理员, 团长
+        let leaderId = ""
+        const teamRes = await TeamModel.getTeamMembersByWebMonitorId(webMonitorId)
+        if (teamRes && teamRes.length) {
+            leaderId = teamRes[0].leaderId
+        }
+        if (!(userType === "superAdmin" || userType === "admin" || leaderId === userId)) {
+            ctx.response.status = 403;
+            ctx.body = statusCode.ERROR_403('你没有权限执行此操作！');
+            return
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+    static async deleteProject(ctx) {
+        let param = JSON.parse(ctx.request.body)
+        const { id, webMonitorId, sysType } = param
+        const {userId, userType} = ctx.user
+        // 判断这个人是不是管理员, 团长
+        let leaderId = ""
+        const teamRes = await TeamModel.getTeamMembersByWebMonitorId(webMonitorId)
+        if (teamRes && teamRes.length) {
+            leaderId = teamRes[0].leaderId
+        }
+        if (!(userType === "superAdmin" || userType === "admin" || leaderId === userId)) {
+            ctx.response.status = 403;
+            ctx.body = statusCode.ERROR_403('你没有权限执行此操作！');
+            return
+        }
+
+        const appConfig = await TeamController.handleAllApplicationConfig()
+        const { monitor, event } = appConfig
+
+        if (sysType === "monitor") {
+            const tempId = id.split("-")[1]
+            // 更新监控项目禁用状态
+            // await Utils.postJson(`http://${monitor.serverDomain}${PROJECT_API.DELETE_PROJECT}`, {id: tempId}).then(() => {
+            //     ctx.response.status = 200;
+            //     ctx.body = statusCode.SUCCESS_200('success', 0)
+            // }).catch((e) => {
+            //     log.printError(JSON.stringify(e))
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412('禁用失败')
+            // })
+
+            const delRes = await Utils.requestForTwoProtocol("post", `${monitor.serverDomain}${PROJECT_API.DELETE_PROJECT}`, {id: tempId})
+            if (!delRes) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('删除失败!')
+            } else {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', 0)
+            }
+        } else if (sysType === "event") {
+            // 更新埋点项目禁用状态
+
+        }
+
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+}
+
+
+class UserController {
+  /**
+   * webfunny
+   */
+  static sendEmail(email, title, content) {
+
+    if (accountInfo.useCusEmailSys === true) {
+      CusUtils.sendEmail(email, title, content, accountInfo.emailUser, accountInfo.emailPassword)
+    } else {
+      fetch("http://www.webfunny.cn/config/sendEmail",
+      {
+          method: "POST", 
+          body: JSON.stringify({email, title, content}),
+          headers: {
+              "Content-Type": "application/json;charset=utf-8"
+          }
+      }).catch((e) => {
+        console.log(e)
+      })
+    }
+  }
+
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { funnelName, funnelIds } = param
+    const data = {funnelName, funnelIds}
+    /* 判断参数是否合法 */
+    if (param.funnelName) {
+      let ret = await UserModel.createUser(data);
+      let res = await UserModel.getUserDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res || {})
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await UserModel.getUserList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+  /**
+   * 获取当前项目所在团队的用户列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserListForTeam(ctx) {
+    const {projectId} = JSON.parse(ctx.request.body)
+    // 根据项目id获取团队
+    const teamRes = await TeamModel.getTeamMembersByWebMonitorId(projectId)
+    if (!teamRes || !teamRes.length) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', [])
+      return
+    }
+    const { members } = teamRes[0]
+    const userRes = await UserModel.getUserListByMembers(members)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', userRes)
+  }
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async hasSuperAdminAccount(ctx) {
+    // 检查是否有管理员账号
+    const adminData = await UserModel.checkAdminAccount();
+    const adminUserCount = adminData[0].count * 1
+
+    const { registerEntry, resetPwdEntry } = accountInfo
+  
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', {adminUserCount,registerEntry, resetPwdEntry})
+  }
+
+  /**
+   * 验证Token是否存在
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async checkTokenExist(ctx) {
+    // 检查是否有管理员账号
+    const tokenData = await UserModel.checkTokenExist();
+  
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', adminUserCount)
+  }
+
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserInfo(ctx) {
+    let param = {}
+    if (typeof ctx.request.body === "string") {
+      param = JSON.parse(ctx.request.body)
+    } else {
+      param = ctx.request.body
+    }
+    const { userId, projectId = "" } = param
+    // 查询个人信息
+    const res = await UserModel.getUserInfo(userId)
+    const { companyId } = res[0]
+    // 查询是不是团长
+    let leaderId = ""
+    if (projectId) {
+      const teamRes = await TeamModel.getTeamMembersByWebMonitorId(projectId)
+      if (teamRes && teamRes.length) {
+        leaderId = teamRes[0].leaderId
+      }
+    }
+    // 查询公司信息
+    const company = await CompanyModel.getCompanyInfo(companyId);
+    const finalRes = { ...res[0], isTeamLeader: leaderId === userId, company }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', finalRes)
+  }
+
+  /**
+   * 管理员获取用户列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserListByAdmin(ctx) {
+    let req = ctx.request.body
+    const { status } = req
+    const { userType, companyId = "" } = ctx.user
+    if (userType !== "admin" && userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非管理员，无权调用此接口！');
+      return
+    }
+    if (!companyId) {
+      ctx.response.status = 401;
+      ctx.body = statusCode.ERROR_401("没有公司ID，请重新登录");
+      return
+    }
+    if (req) {
+      const data = await UserModel.getUserListByAdmin(status, companyId);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+
+  /**
+   * 获取所有用户列表，只返回userId, name
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getAllUserInfoForSimple(ctx) {
+    const data = await UserModel.getAllUserInfoForSimple();
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await UserModel.getUserDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let params = JSON.parse(ctx.request.body)
+    let id = params.id;
+  
+    if (id && !isNaN(id)) {
+      await UserModel.deleteUser(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await UserModel.updateUser(id, req);
+      let data = await UserModel.getUserDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+  
+  static async setValidateCode() {
+    const charArr = "0123456789ABCDEFGHGKLMNOPQRSTUVWXYZabcdefghigkmnopqrstuvwxyz"
+    let code = ""
+    for (let i = 0; i < 4; i ++) {
+      const tempIndex = Math.floor(Math.random() * (charArr.length - 1) + 1)
+      code += charArr.charAt(tempIndex)
+    }
+    const loginValidateCodeRes = await ConfigModel.getConfigByConfigName("loginValidateCode")
+    if (loginValidateCodeRes && loginValidateCodeRes.length > 0) {
+        await ConfigModel.updateConfig("loginValidateCode", {configValue: code})
+    } else {
+        await ConfigModel.createConfig({configName: "loginValidateCode", configValue: code})
+    }
+    return code
+  }
+
+  static async refreshValidateCode(ctx) {
+    const code = await UserController.setValidateCode()
+    if (global.monitorInfo.loginValidateCodeTimer) {
+      clearInterval(global.monitorInfo.loginValidateCodeTimer)
+    } else {
+      global.monitorInfo.loginValidateCodeTimer = setInterval(() => {
+        UserController.setValidateCode()
+      }, 5 * 60 * 1000)
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', code)
+  }
+
+  static async getValidateCode(ctx) {
+    const loginValidateCodeRes = await ConfigModel.getConfigByConfigName("loginValidateCode")
+    if (loginValidateCodeRes && loginValidateCodeRes.length) {
+      const code = loginValidateCodeRes[0].configValue
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', code)
+    } else {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', code)
+    }
+    
+  }
+  /**
+   * 登录并创建token
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async login(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { emailName, password, code, webfunnyToken } = param
+
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    // const loginValidateCode = global.monitorInfo.loginValidateCode.toLowerCase()
+    const loginValidateCodeRes = await ConfigModel.getConfigByConfigName("loginValidateCode")
+    const loginValidateCode = loginValidateCodeRes[0].configValue.toLowerCase()
+    const loginCode = code.toLowerCase()
+    if (loginValidateCode != loginCode) {
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确，请重新输入！', 1)
+      return
+    }
+
+    // registerStatus = 1 代表激活状态
+    const data = {password: Utils.md5(decodePwd)}
+    // 判断emailName是手机号，还是邮箱
+    const phoneReg = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$/
+    if (phoneReg.test(emailName)) {
+      data.phone = emailName
+    } else {
+      data.emailName = emailName
+    }
+    const userData = await UserModel.getUserForPwd(data)
+    if (userData) {
+      const { userId, companyId, userType, registerStatus, nickname } = userData
+      if (registerStatus === 0) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('此账号尚未激活，请联系管理员激活！', 1)
+        return
+      }
+
+      // 如果数据库里的token是无效的，则重新生成
+      const accessToken = jwt.sign({userId, companyId, userType, emailName, nickname}, secret.sign, {expiresIn: 33 * 24 * 60 * 60 * 1000})
+      UserController.setValidateCode()
+
+      // 生成好的token存入数据库，如果已存在userId，则更新
+      const userTokenInfo = await UserTokenModel.getUserTokenDetail(userId)
+      if (userTokenInfo) {
+        await UserTokenModel.updateUserToken(userId, {...userTokenInfo, accessToken})
+      } else {
+        await UserTokenModel.createUserToken({
+          userId, accessToken
+        })
+      }
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('登录成功', accessToken)
+    } else {
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户名密码不正确！', 1)
+    }
+    
+  }
+
+  /**
+   * 登出
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async logout(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId } = param
+
+    // 如有token则设置为空，没有
+    const userTokenInfo = await UserTokenModel.getUserTokenDetail(userId)
+    if (userTokenInfo) {
+      await UserTokenModel.updateUserToken(userId, {...userTokenInfo, accessToken: ""})
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('登出成功', 0)
+  }
+
+  /**
+   * api登录并创建token
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async loginForApi(ctx) {
+    const param = ctx.request.body
+    const { emailName, password } = param
+    const decodePwd = password
+
+    // registerStatus = 1 代表激活状态
+    const data = {emailName, password: Utils.md5(decodePwd)}
+    const userData = await UserModel.getUserForPwd(data)
+    if (userData) {
+      const { userId, userType, registerStatus, nickname } = userData
+      if (registerStatus === 0) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('此账号尚未激活，请联系管理员激活！', 1)
+        return
+      }
+      const accessToken = jwt.sign({userId, userType, emailName, nickname}, secret.sign, {expiresIn: 33 * 24 * 60 * 60 * 1000})
+      UserController.setValidateCode()
+
+      // 生成好的token存入数据库，如果已存在userId，则更新
+      const userTokenInfo = await UserTokenModel.getUserTokenDetail(userId)
+      if (userTokenInfo) {
+        await UserTokenModel.updateUserToken(userId, {...userTokenInfo, accessToken})
+      } else {
+        await UserTokenModel.createUserToken({
+          userId, accessToken
+        })
+      }
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('登录成功', accessToken)
+    } else {
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户名密码不正确！', 1)
+    }
+    
+  }
+
+  static async forgetPwd(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { email } = param
+    // 判断是否为管理员
+    let adminData = await UserModel.isAdminAccount(email, USER_INFO.USER_TYPE_ADMIN)
+    if (adminData) {
+      UserController.sendEmail(email, "密码找回", "管理员你好， 你的登录密码是：" + adminData.password)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('管理员你好，密码已发送至您的邮箱，请注意查收！', 0)
+    } else {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('非管理员账号，请联系管理员获取登录密码！', 1)
+    }
+  }
+  
+
+  /**
+   * 发送注册验证码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async sendRegisterEmail(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { email } = param
+    const charArr = "0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz"
+    let code = ""
+    for (let i = 0; i < 4; i ++) {
+      const tempIndex = Math.floor(Math.random() * (charArr.length - 1) + 1)
+      code += charArr.charAt(tempIndex)
+    }
+    if (global.monitorInfo.registerEmailCode[email]) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码发送太频繁', 1)
+      return
+    }
+    global.monitorInfo.registerEmailCode[email] = code
+    // 邮箱验证失败次数清零
+    global.monitorInfo.registerEmailCodeCheckError[email] = 0
+    // 1分钟后失效
+    setTimeout(() => {
+      delete global.monitorInfo.registerEmailCode[email]
+    }, 2 * 60 * 1000)
+    const title = "注册验证码：" + code
+    const content = "<p>用户你好!</p>" + 
+    "<p>Webfunny注册的验证码为：" + code + "</p>" +
+    "<p>如有疑问，请联系作者，微信号：webfunny_2020</p>"
+    UserController.sendEmail(email, title, content)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('验证码已发送', 0)
+  }
+  /**
+   * 获取注册验证码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getRegisterEmailForSupperAdmin(ctx) {
+    const { userType } = ctx.user
+    if (userType !== "superAdmin" && userType !== "admin") {
+      ctx.response.status = 403;
+      ctx.body = statusCode.ERROR_403('您没有权限执行此操作！')
+      return
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', global.monitorInfo.registerEmailCode)
+  }
+
+  /**
+   * 给管理员发送检查邮件
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerCheck(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { name, email, emailCode, password } = param
+    const registerEmailCode = global.monitorInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('邮箱已存在！', 1)
+      return
+    }
+
+    let adminData = await UserModel.getAdminByType("admin")
+
+    if (!adminData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('请先初始化管理员账号', 1)
+    } else {
+      const adminEmail = adminData.emailName
+      const { localServerDomain } = accountInfo
+      // 此处需要支持http协议
+      const confirmUrl = `http://${localServerDomain}/server/register?name=${name}&email=${email}&password=${password}`
+      const title = "管理员确认申请"
+      const content = "<p>管理员你好!</p>" + 
+      "<p>有用户申请注册你的监控系统，请点击注册链接，以完成注册：<a href='" + confirmUrl + "'>" + confirmUrl + "</a></p>" +
+      "<p>如有疑问，请联系作者，微信号：webfunny_2020</p>"
+      UserController.sendEmail(adminEmail, title, content)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    }
+  }
+
+  /**
+   * 注册用户
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async register(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { name, email = "", phone = "", password, emailCode } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const userId = Utils.getUuid()
+    const avatar = Math.floor(Math.random() * 10)
+    // 注册用户是否需要激活
+    const registerStatus = accountInfo.activationRequired === true ? 0 : 1
+    const data = {nickname: name, emailName: email, phone, password: Utils.md5(decodePwd), userId, userType: "customer", registerStatus, avatar}
+
+    // 记录注册邮箱
+    Utils.postJson("http://www.webfunny.cn/config/recordEmail", {phone, email, purchaseCode: accountInfo.purchaseCode, source: "center-register"}).catch((e) => {})
+    
+    const registerEmailCodeCheckError = global.monitorInfo.registerEmailCodeCheckError
+    if (registerEmailCodeCheckError[email] >= 3) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码失败次数达到上限，请重新获取验证码！', 1)
+      return
+    }
+    const registerEmailCode = global.monitorInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      if (!registerEmailCodeCheckError[email]) {
+        registerEmailCodeCheckError[email] = 1
+      } else {
+        registerEmailCodeCheckError[email] ++
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('邮箱已存在！', 1)
+      return
+    }
+    // 创建团队
+    // const team = { leaderId: userId, members: userId, webMonitorIds: ""}
+    // TeamModel.createTeam(team);
+    /* 判断参数是否合法 */
+    if (data.nickname) {
+      let ret = await UserModel.createUser(data);
+      if (ret && ret.id) {
+        // 通知用户注册的账号密码
+        const title = "申请成功"
+        const content = "<p>用户你好!</p>" + 
+        "<p>你的账号已经申请成功，请联系管理员激活后，方可登录。</p>" +
+        "<p>账号：" + email + " 、 密码：" + decodePwd + "</p>" +
+        "<p>如有疑问，请联系作者，微信号：webfunny_2020</p>"
+        UserController.sendEmail(email, title, content)
+
+        // 获取管理员账号
+        const adminUser = await UserModel.getUserForAdmin()
+        const contentArray = JSON.stringify([`您好，用户【${email}】正在申请注册webfunny账号，请及时处理！`])
+        // 给管理员发送一条系统消息
+        MessageModel.createMessage({
+          userId: adminUser[0].userId,
+          title: "用户注册通知",
+          content: contentArray,
+          type: "sys",
+          isRead: 0,
+          link: `http://${accountInfo.localAssetsDomain}/webfunny_center/teamList.html`
+        })
+        // 给管理员发送一封邮件
+        const adminTitle = "用户注册通知"
+        const adminContent = `
+        <p>尊敬的管理员：</p>
+        <p>您好，用户【${email}】正在申请注册webfunny账号，请及时处理！</p>
+        <p>点击链接处理：http://${accountInfo.localAssetsDomain}/webfunny_center/userList.html</p>
+        <p>如有疑问，请联系作者，微信号：webfunny_2020</p>
+        `
+        UserController.sendEmail(adminUser[0].emailName, adminTitle, adminContent)
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+      }
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+
+  /**
+   * 注册用户(saas)
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerForSaas(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { companyName, chooseCompanyId, name, email = "", phone = "", password, emailCode } = param
+    const registerType = param.registerType * 1
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const userId = Utils.getUuid()
+    let companyId = Utils.getUuid()
+    const avatar = Math.floor(Math.random() * 10)
+    // 注册用户是否需要激活
+    let registerStatus = accountInfo.activationRequired === true ? 0 : 1
+    let userType = "customer"
+    // 如果注册是超级管理员，则默认激活
+    if (registerType === 1) {
+      registerStatus = 1
+      userType = "superAdmin"
+      // 创建一个公司
+      await CompanyModel.createCompany({
+        ownerId: userId,
+        companyId,
+        companyName
+      })
+    } else {
+      companyId = chooseCompanyId
+    }
+    const data = {companyId, nickname: name, emailName: email, phone, password: Utils.md5(decodePwd), userId, userType, registerStatus, avatar}
+
+    // 记录注册邮箱
+    Utils.postJson(`${WEBFUNNY_CONFIG_URI}/config/recordEmail`, {phone, email, purchaseCode: accountInfo.purchaseCode, source: "center-register"}).catch((e) => {})
+    
+    const registerEmailCodeCheckError = global.monitorInfo.registerEmailCodeCheckError
+    if (registerEmailCodeCheckError[email] >= 3) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码失败次数达到上限，请重新获取验证码！', 1)
+      return
+    }
+    const registerEmailCode = global.monitorInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      if (!registerEmailCodeCheckError[email]) {
+        registerEmailCodeCheckError[email] = 1
+      } else {
+        registerEmailCodeCheckError[email] ++
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('邮箱已存在！', 1)
+      return
+    }
+    // 创建团队
+    // const team = { leaderId: userId, members: userId, webMonitorIds: ""}
+    // TeamModel.createTeam(team);
+    /* 判断参数是否合法 */
+    if (data.nickname) {
+      let ret = await UserModel.createUser(data);
+      if (ret && ret.id) {
+
+        // 后台生成订单
+        if (registerType === 1 && typeof CusUtils.onRegister === "function") {
+          CusUtils.onRegister({
+            email,
+            memberName: companyName || "",
+            productType: 60,
+            orderAmount: 0,
+            typeOfTax: "", // 是否收税点
+            phone,
+            name,
+            months: 12,  // 默认12个月
+            projectNum: 10, // 项目个数
+            cardNum: 10, // 卡片数量
+            flowCount: 100 * 10000, // 100万流量
+            saveDays: 7,  // 存储周期
+            companyId,
+            channel: "saas"
+          })
+          ctx.response.status = 200;
+          ctx.body = statusCode.SUCCESS_200('账号创建成功', 0)
+        } else {
+          // 通知用户注册的账号密码
+          const title = "申请成功"
+          const content = "<p>用户你好!</p>" + 
+          "<p>你的账号已经申请成功，请联系管理员激活后，方可登录。</p>" +
+          "<p>账号：" + email + " 、 密码：" + decodePwd + "</p>" +
+          "<p>如有疑问，请联系作者，微信号：webfunny_2020</p>"
+          UserController.sendEmail(email, title, content)
+
+          // 获取管理员账号
+          const adminUser = await UserModel.getUserForAdmin(companyId)
+          const contentArray = JSON.stringify([`您好，用户【${name}】正在申请注册webfunny账号，请及时处理！`])
+          // 给管理员发送一条系统消息
+          MessageModel.createMessage({
+            userId: adminUser[0].userId,
+            title: "用户注册通知",
+            content: contentArray,
+            type: "sys",
+            isRead: 0,
+            link: `http://${accountInfo.localAssetsDomain}/webfunny_center/teamList.html`
+          })
+          // 给管理员发送一封邮件
+          const adminTitle = "用户注册通知"
+          const adminContent = `
+          <p>尊敬的管理员：</p>
+          <p>您好，用户【${email}】正在申请注册webfunny账号，请及时处理！</p>
+          <p>点击链接处理：http://${accountInfo.localAssetsDomain}/webfunny_center/userList.html</p>
+          <p>如有疑问，请联系作者，微信号：webfunny_2020</p>
+          `
+          UserController.sendEmail(adminUser[0].emailName, adminTitle, adminContent)
+
+          ctx.response.status = 200;
+          ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+        }
+      }
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+
+  /**
+   * 注册用户API
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerForApi(ctx) {
+    const { name, email, phone, password, company = "xx团队" } = ctx.request.body
+    const decodePwd = password
+    const userId = Utils.getUuid()
+    const avatar = Math.floor(Math.random() * 10)
+    const data = {nickname: name, emailName: email, phone, password: Utils.md5(decodePwd), userId, userType: "customer", registerStatus: 1, avatar}
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('邮箱已存在！', 1)
+      return
+    }
+
+    // 创建团队
+    // const team = {teamName: company, leaderId: userId, members: userId, webMonitorIds: ""}
+    // TeamModel.createTeam(team);
+
+    /* 判断参数是否合法 */
+    if (data.nickname && data.emailName && data.password) {
+      let ret = await UserModel.createUser(data);
+      if (ret && ret.id) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('账号注册成功', {userId})
+      }
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+
+  /**
+   * 重置密码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async resetPwd(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { email, password, emailCode } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const data = {emailName: email, password: Utils.md5(decodePwd), emailCode}
+
+    const registerEmailCodeCheckError = global.monitorInfo.registerEmailCodeCheckError
+    if (registerEmailCodeCheckError[email] >= 3) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码失败次数达到上限，请重新获取验证码！', 1)
+      return
+    }
+    const registerEmailCode = global.monitorInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      if (!registerEmailCodeCheckError[email]) {
+        registerEmailCodeCheckError[email] = 1
+      } else {
+        registerEmailCodeCheckError[email] ++
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (!emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('此邮箱不存在！', 1)
+      return
+    }
+    let ret = await UserModel.resetPwd(email, data);
+    if (ret) {
+      // 通知用户注册的账号密码
+      const title = "密码重置成功！"
+      const content = "<p>用户你好!</p>" + 
+      "<p>你的webfunny密码已重置。</p>" +
+      "<p>账号：" + email + " 、 密码：" + decodePwd + "</p>" +
+      "<p>如有疑问，请联系作者，微信号：webfunny_2020</p>"
+      UserController.sendEmail(email, title, content)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    } else {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('重置密码失败！', 1)
+    }
+  }
+  /**
+   * 注册管理员账号
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerForAdmin(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { name, email, password, userType, phone } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const userId = Utils.getUuid()
+    const avatar = Math.floor(Math.random() * 10)
+    const data = {nickname: name, emailName: email, password: Utils.md5(decodePwd), userType, userId, registerStatus: 1, phone, avatar}
+
+    // 记录注册邮箱
+    Utils.postJson("http://www.webfunny.cn/config/recordEmail", {email, purchaseCode: accountInfo.purchaseCode}).catch((e) => {})
+
+    /* 判断参数是否合法 */
+    if (data.nickname) {
+      const adminData = await UserModel.checkAdminAccount();
+      const adminUserCount = adminData[0].count * 1
+      if (adminUserCount > 0) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('超级管理员账号已存在，请勿重复创建', 1)
+        return
+      }
+      await UserModel.createUser(data);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  /**
+   * 激活注册用户
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async activeRegisterMember(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId, emailName } = param
+    const { userType } = ctx.user
+    if (userType !== "admin" && userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非管理员，无权调用此接口！');
+      return
+    }
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.activeRegisterMember(userId);
+
+      MessageModel.createMessage({
+        userId: userId,
+        title: "欢迎登录！",
+        content: JSON.stringify([
+          "尊敬的用户您好，欢迎登录webfunny前端监控系统。",
+          "webfunny致力于解决前端的各种问题，纯私有化部署，支持千万级PV的日活量。",
+          "支持项目：H5前端、PC前端、微信小程序、uni-app。",
+          "使用方法和常见问题请移步官网：www.webfunny.cn"
+        ]),
+        type: "sys",
+        isRead: 0,
+        link: `http://www.webfunny.cn`
+      })
+      // 给用户发送一封邮件
+      const activeTitle = "用户激活通知"
+      const activeContent = `
+      <p>尊敬的用户：</p>
+      <p>您好，您的账号已经被管理员激活了，快去登录吧！</p>
+      <p>如有疑问，请联系作者，微信号：webfunny_2020</p>
+      `
+      UserController.sendEmail(emailName, activeTitle, activeContent)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户已激活', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('激活失败')
+    }
+  }
+  /**
+   * 删除
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async deleteRegisterMember(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId } = param
+    const { userType } = ctx.user
+    if (userType !== "admin" && userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非管理员，无权调用此接口！');
+      return
+    }
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.deleteUserByUserId(userId);
+      await UserTokenModel.deleteUserToken(userId)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户信息删除成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('缺失userId！')
+    }
+  }
+
+  /**
+   * 将成员设置为管理员
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async setAdmin(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId, setType } = param
+    const { userType } = ctx.user
+    if (userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非超级管理员，无权设置管理员！');
+      return
+    }
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.setAdmin(userId, setType);
+      await UserTokenModel.deleteUserToken(userId)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('管理员设置成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('缺失userId！')
+    }
+  }
+
+  /**
+   * 将成员设置为管理员
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async resetSuperAdmin(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const targetUserId = param.userId
+    const { userType, userId } = ctx.user
+    if (userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非超级管理员，无权设置管理员！');
+      return
+    }
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.resetSuperAdmin(userId, targetUserId);
+      await UserTokenModel.deleteUserToken(userId)
+      await UserTokenModel.deleteUserToken(targetUserId)
+      // 让数据库里的token失效
+
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('超级管理员移交成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('缺失userId！')
+    }
+  }
+
+  /**
+   * 检查sso的token是否有效
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async checkSsoToken(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { token } = param
+    const ssoInfo = await Utils.postJson(accountInfo.ssoCheckUrl, {token})
+    if (!ssoInfo) {
+      ctx.response.status = 500;
+      ctx.body = statusCode.ERROR_500('Token验证无效1！', 1)
+      return
+    }
+    const { phone, email } = ssoInfo.data
+    const accessToken = await UserController.createSsoToken(phone, email)
+    if (accessToken) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', accessToken)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412("登录失败，账号无效或不存在！", 0)
+    }
+    
+  }
+
+  /**
+   * sso登录成功，则根据手机号和邮箱生产token
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async createSsoToken(phone, email) {
+    // 检查phone, email是否在本系统中
+    const existUsers = await UserModel.checkUserByPhoneOrEmail(phone, email)
+    if (!existUsers || !existUsers.length) {
+      return 0
+    }
+    if (existUsers.length > 1) {
+      return 0
+    }
+    const { userId, userType, emailName, nickname } = existUsers[0]
+    // 账号存在，则说明账号有效，生成登录token
+    const accessToken = jwt.sign({userId, userType, emailName, nickname}, secret.sign, {expiresIn: 33 * 24 * 60 * 60 * 1000})
+
+    // 生成好的token存入数据库，如果已存在userId，则更新
+    const userTokenInfo = await UserTokenModel.getUserTokenDetail(userId)
+    if (userTokenInfo) {
+      await UserTokenModel.updateUserToken(userId, {...userTokenInfo, accessToken})
+    } else {
+      await UserTokenModel.createUserToken({
+        userId, accessToken
+      })
+    }
+    return accessToken
+  }
+}
+module.exports = {CommonTableController,ApplicationConfigController,FlowDataInfoByDayController,FlowDataInfoByHourController,UserTokenController,ProductController,CompanyController,OrderController,MessageController,ConfigController,TimerCalculateController,TeamController,UserController}

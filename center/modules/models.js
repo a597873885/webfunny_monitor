@@ -1,1 +1,1178 @@
-(function(_0xbab165,_0x20d6fd){const _0x3f07a7=_0xbab165();function _0x1ea155(_0x530bb0,_0xf2ceb2,_0x1ce18c,_0x3186de,_0x37311f){return _0x917c(_0xf2ceb2-0x3d2,_0x1ce18c);}function _0x19c14d(_0x256959,_0x558ccf,_0x4545e2,_0x22dee1,_0x19002e){return _0x2a27(_0x558ccf-0x31a,_0x19002e);}function _0xd45e3d(_0x3edfd8,_0x4045a6,_0x2aff97,_0x77bd,_0x39687e){return _0x917c(_0x3edfd8-0x5e,_0x39687e);}function _0x34e2f2(_0x29ab2e,_0x1213bd,_0x5492e4,_0xbb01c4,_0x5de8b6){return _0x917c(_0x1213bd- -0x158,_0xbb01c4);}function _0x36a161(_0x46096b,_0x392a21,_0x547c41,_0x2739e2,_0x2b1993){return _0x2a27(_0x547c41- -0x35a,_0x2b1993);}function _0x543970(_0x5ebcc1,_0x1bb263,_0x279934,_0x2fdc5c,_0x3d9a7c){return _0x2a27(_0x3d9a7c-0xf5,_0x279934);}function _0x1814be(_0x1ff082,_0x3570d1,_0x3dfeb4,_0x50edfe,_0x46cfde){return _0x2a27(_0x3570d1-0xc9,_0x50edfe);}function _0x46390a(_0x939dab,_0x387139,_0x2bf549,_0x34c76e,_0x43aef1){return _0x917c(_0x387139-0x76,_0x43aef1);}function _0x11052e(_0x2fb815,_0x385e23,_0x267399,_0x4f4da8,_0x58dfea){return _0x2a27(_0x385e23- -0xce,_0x2fb815);}while(!![]){try{const _0x29fa08=-parseInt(_0x1814be(0x15c,0x166,0xf9,"qkZ]".split("").reverse().join(""),0xf3))/0x1+-parseInt(_0x1ea155(0x49f,0x456,0x4a9,0x3f2,0x513))/0x2+parseInt(_0x543970(0x180,0x1d1,"I$xY".split("").reverse().join(""),0x21f,0x197))/0x3+-parseInt(_0x46390a(-0x35,0x78,0x115,-0x1c,0xe0))/0x4*(parseInt(_0x1ea155(0x4c6,0x50e,0x50f,0x543,0x570))/0x5)+-parseInt(_0x1814be(0x2dc,0x23f,0x20e,"paY9".split("").reverse().join(""),0x240))/0x6*(-parseInt(_0x11052e("8MH&".split("").reverse().join(""),0x9a,-0x4,0x93,0xa6))/0x7)+parseInt(_0x36a161(-0x2d4,-0x17d,-0x238,-0x262,"P6!O".split("").reverse().join("")))/0x8+-parseInt(_0x46390a(0x1c5,0x116,0x19d,0x60,0x100))/0x9*(-parseInt(_0x11052e("\u005b\u0054\u0032\u0023",0x2,0x5e,-0x6d,-0x80))/0xa);if(_0x29fa08===_0x20d6fd){break;}else{_0x3f07a7["\u0070\u0075\u0073\u0068"](_0x3f07a7["\u0073\u0068\u0069\u0066\u0074"]());}}catch(_0x41c58d){_0x3f07a7["\u0070\u0075\u0073\u0068"](_0x3f07a7["\u0073\u0068\u0069\u0066\u0074"]());}}})(_0x411a,0x2edd3);const _0x5e5619=function(){let _0x32e676=!![];return function(_0x47c1c3,_0x126ada){const _0x3c7d80=_0x32e676?function(){if(_0x126ada){const _0x49f10e=_0x126ada['apply'](_0x47c1c3,arguments);_0x126ada=null;return _0x49f10e;}}:function(){};_0x32e676=![];return _0x3c7d80;};}();(function(){const _0x5799a9={'RAzux':_0x26a2e0(0xe0,0x7e,0x119,0x8d,0x10d),'EzmFL':function(_0x1f293d,_0x57b6ea){return _0x1f293d(_0x57b6ea);},'UJwOw':function(_0x2199c6,_0x57ef27){return _0x2199c6(_0x57ef27);},"\u0076\u0057\u0079\u0076\u006d":function(_0xc73a64){return _0xc73a64();},"\u0066\u006d\u0043\u004e\u0056":function(_0x32c57f,_0x443620,_0x22d71b){return _0x32c57f(_0x443620,_0x22d71b);}};function _0x26a2e0(_0x257b13,_0x6e315b,_0x46b6c9,_0x516243,_0x3342a9){return _0x917c(_0x3342a9-0x80,_0x257b13);}_0x5799a9["\u0066\u006d\u0043\u004e\u0056"](_0x5e5619,this,function(){function _0x414e02(_0x32a589,_0x402a5e,_0x5db892,_0x4a5f95,_0x2286e6){return _0x2a27(_0x32a589- -0xae,_0x402a5e);}const _0x5aa53d=new RegExp(_0x414e02(0x55,"[#zn".split("").reverse().join(""),0xff,0xd4,0x81));const _0x40923b=new RegExp(_0x5799a9["\u0052\u0041\u007a\u0075\u0078"],"\u0069");const _0x243860=_0x5799a9['EzmFL'](_0x2f176a,_0x2bc66a(-0x34e,-0x2f6,-0x2a3,-0x331,-0x285));function _0x2bc66a(_0x298804,_0x22adfb,_0x16da36,_0x5670dc,_0x36d83c){return _0x917c(_0x16da36- -0x39b,_0x36d83c);}function _0x44baa4(_0x4eaf2e,_0x35a0c2,_0x55bcea,_0x3b7f8e,_0x1ac2bd){return _0x917c(_0x35a0c2-0x3c3,_0x55bcea);}function _0x47eb75(_0x2a703a,_0x482098,_0x59e796,_0x299686,_0x56765d){return _0x2a27(_0x2a703a- -0x7c,_0x56765d);}if(!_0x5aa53d["\u0074\u0065\u0073\u0074"](_0x243860+_0x2bc66a(-0x2de,-0x25b,-0x309,-0x269,-0x31e))||!_0x40923b["\u0074\u0065\u0073\u0074"](_0x243860+_0x47eb75(0xb7,0xee,0x10f,0xdf,"fL2K".split("").reverse().join("")))){_0x5799a9['UJwOw'](_0x243860,"\u0030");}else{_0x5799a9["\u0076\u0057\u0079\u0076\u006d"](_0x2f176a);}})();})();const db=require(_0x2b44cb(0x387,0x3ce,0x3be,0x343,0x452));function _0x463fbd(_0x440260,_0x463f33,_0x4cd72f,_0x254b28,_0x34b20a){return _0x2a27(_0x34b20a-0x3c4,_0x4cd72f);}const Sequelize=db["\u0073\u0065\u0071\u0075\u0065\u006c\u0069\u007a\u0065"];function _0x1fe9dc(_0x259374,_0x591cc4,_0x45b255,_0x34f924,_0x30a807){return _0x917c(_0x259374-0xa,_0x45b255);}const Utils=require(_0x1e3bfd(-0x193,-0x1a6,-0x141,-0x15a,-0x13f));const utils=require(_0x1e3bfd(-0x1e1,-0x1c4,-0x1a7,-0x15a,-0x174));function _0x917c(_0x36dfe0,_0x41faff){const _0x2f176a=_0x411a();_0x917c=function(_0x5e5619,_0x411a99){_0x5e5619=_0x5e5619-0x0;let _0x917cc0=_0x2f176a[_0x5e5619];if(_0x917c["\u0066\u006b\u0075\u0053\u0046\u0066"]===undefined){var _0x4d7975=function(_0x367cb2){const _0x1818f5="=/+9876543210ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba".split("").reverse().join("");let _0x2a2722="";let _0x59f466="".split("").reverse().join("");for(let _0x3cd113=0x0,_0xe14e05,_0x2bc683,_0x268d58=0x0;_0x2bc683=_0x367cb2["\u0063\u0068\u0061\u0072\u0041\u0074"](_0x268d58++);~_0x2bc683&&(_0xe14e05=_0x3cd113%0x4?_0xe14e05*0x40+_0x2bc683:_0x2bc683,_0x3cd113++%0x4)?_0x2a2722+=String["\u0066\u0072\u006f\u006d\u0043\u0068\u0061\u0072\u0043\u006f\u0064\u0065"](0xff&_0xe14e05>>(-0x2*_0x3cd113&0x6)):0x0){_0x2bc683=_0x1818f5["\u0069\u006e\u0064\u0065\u0078\u004f\u0066"](_0x2bc683);}for(let _0x49514e=0x0,_0x30fa47=_0x2a2722["\u006c\u0065\u006e\u0067\u0074\u0068"];_0x49514e<_0x30fa47;_0x49514e++){_0x59f466+="\u0025"+("\u0030\u0030"+_0x2a2722['charCodeAt'](_0x49514e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x59f466);};_0x917c['iZSJHS']=_0x4d7975;_0x36dfe0=arguments;_0x917c["\u0066\u006b\u0075\u0053\u0046\u0066"]=!![];}const _0x53fdee=_0x2f176a[0x0];const _0x2b2364=_0x5e5619+_0x53fdee;const _0xba551e=_0x36dfe0[_0x2b2364];if(!_0xba551e){_0x917cc0=_0x917c['iZSJHS'](_0x917cc0);_0x36dfe0[_0x2b2364]=_0x917cc0;}else{_0x917cc0=_0xba551e;}return _0x917cc0;};return _0x917c(_0x36dfe0,_0x41faff);}const CommonSql=require(_0x1ba3d4(0x495,0x46c,0x4b9,"!zz*".split("").reverse().join(""),0x4c5));function _0x411a(){const _0x252c87=["\u0062\u0033\u0070\u0063\u0052\u0038\u006f\u006a\u0057\u0037\u0070\u0064\u004b\u0038\u006b\u0035","\u006f\u0074\u0062\u0058\u0042\u0076\u0048\u0035\u0044\u004c\u0065",'xJ3dVCkbW5OQW4VcVSo/g8oFWQqLW6inshpcNqBcG1WKaMOelMrSWOZcGCovEmoctSkyxIf1W7ruDJJcPCoiW6JcMmkeemkjemkkAXBcP0pdOmkMlSoxtqZdNta7BmkeB8k6W4FcUSkzgSoHW5xdRX/cGhNdPSo/W6FcR8k4scm4W6xdHmkQW69zsSkGcsvSWQPwqComvd/dVKvsp8k6BqxcL8okBWtcNG','f2e6eIKQWP7cSmksisW','rxPTrKW',"\u006a\u0066\u004a\u0063\u004d\u006d\u006f\u004c\u0057\u0034\u0030","\u0057\u0036\u006e\u0073\u0057\u0052\u0052\u0063\u0054\u0078\u0057\u006b\u0057\u0051\u002f\u0063\u0050\u0047","G8evoLeiujvrt5us".split("").reverse().join(""),"\u0057\u0037\u0079\u0034\u006b\u0049\u004c\u0078\u0065\u0057",'W7GUuCkNW5rxWOBcL8o9sb4',"\u006a\u0059\u0062\u0048\u0042\u004d\u0071\u0047\u0069\u0065\u007a\u006a\u0074\u004b\u0072\u0046\u0073\u0075\u0035\u0046\u0075\u0030\u0076\u0075\u006b\u0063\u0043","R9KAJkSMc/Ke".split("").reverse().join(""),"okCp0oSSd74W".split("").reverse().join(""),"\u0057\u0035\u0030\u0044\u0071\u0063\u0079\u0062\u0075\u006d\u006b\u006d\u0057\u0035\u0064\u0064\u004f\u0053\u006b\u0058\u0072\u0048\u006d\u0039\u0057\u0036\u0074\u0064\u004b\u0065\u0057\u0056","WdZehQcZOW9oCzioCsroSkKCPW".split("").reverse().join(""),'WPOFmGFdK2qLaHv1WRXqp8objCkb',"YfwzzLNqLXMyHr1BM5wsLrxyLj3y".split("").reverse().join(""),"U2O5WwP5GEP5".split("").reverse().join(""),"TkmPd/OWzkCBmeIcgjQW".split("").reverse().join(""),'CMvZB2X2zq',"\u0057\u0034\u007a\u0055\u0044\u0053\u006b\u0062\u0064\u0038\u006b\u0046\u006e\u0043\u006f\u0030\u0057\u004f\u0065","\u0079\u0032\u0039\u0054\u0043\u0067\u0066\u0055\u0045\u0075\u004c\u004b","\u007a\u0032\u0076\u0030\u0076\u0078\u006e\u004c\u0043\u004c\u0072\u0056\u0041\u0032\u0076\u0055\u0072\u0067\u0076\u0030\u0079\u0077\u004c\u0053","\u0057\u0037\u007a\u0034\u0057\u0052\u0066\u0058\u0068\u0053\u006f\u0066\u0067\u006d\u006f\u0052\u006c\u0038\u006f\u0035\u0073\u0030\u0034\u0048\u0046\u0077\u0057\u0039\u0057\u0052\u0070\u0063\u004f\u0053\u006f\u006d\u0057\u0036\u0058\u0064\u0057\u0052\u0033\u0064\u0048\u0053\u006f\u0035\u0057\u0051\u0052\u0063\u0050\u0053\u006f\u0049\u0046\u0043\u006b\u0073\u0042\u0043\u006b\u0053\u0068\u0078\u0035\u0069\u007a\u0043\u006b\u0059\u0078\u0048\u006a\u0063\u0057\u0051\u0070\u0063\u0055\u0071\u004b\u0046\u0057\u0034\u0070\u0063\u0053\u0075\u0054\u0064\u0057\u0037\u0038\u004e\u0057\u0036\u0039\u0049\u0074\u0053\u006f\u0072\u0057\u0052\u004c\u0035\u0057\u0037\u0074\u0063\u004c\u0053\u006b\u0067\u0063\u006d\u006f\u0063\u0057\u0051\u002f\u0063\u0048\u0071\u0076\u0071\u0070\u0073\u006c\u0063\u0055\u006d\u006f\u0064\u0042\u0043\u006f\u0030\u006c\u006d\u006b\u002f\u0067\u0053\u006b\u006e\u0061\u0038\u006f\u0030\u0057\u004f\u0053\u0061\u0046\u0033\u0042\u0063\u0049\u0038\u006f\u002b\u0079\u0053\u006f\u0072\u0074\u0043\u006b\u0055\u0057\u0035\u0053\u0058\u0068\u0053\u006b\u006d\u0057\u004f\u004e\u0064\u0055\u0066\u005a\u0063\u0056\u006d\u006b\u004f\u006a\u0043\u006b\u004d\u0057\u0035\u0052\u0064\u0056\u0043\u006b\u0031\u0057\u0035\u0062\u0039\u007a\u0078\u005a\u0063\u004f\u0032\u0054\u0038\u0066\u0043\u006f\u0063\u006e\u0066\u0035\u0049\u0061\u0065\u0046\u0063\u004c\u0033\u0037\u0063\u0054\u0048\u0079\u0048\u0057\u0052\u004f\u0033\u0057\u0037\u0078\u0063\u0055\u006d\u006b\u005a\u0057\u0050\u0064\u0064\u004c\u0038\u006b\u0036\u0057\u0035\u006d\u0055\u0057\u0052\u0042\u0064\u004e\u0072\u004b\u0054\u0057\u0034\u0057\u0054\u0061\u0067\u004c\u0034\u0072\u0038\u006f\u006a\u0044\u0072\u0038\u0074\u0057\u0050\u0037\u0063\u0054\u0067\u0056\u0064\u004c\u0078\u0033\u0064\u0050\u006d\u006b\u0059\u0072\u0053\u006b\u0073\u0075\u0043\u006b\u0050\u0057\u0052\u0069\u0068\u0057\u0034\u0033\u0063\u0053\u0038\u006b\u0042",'a3BcVSkxW5O2WO7cUSo6gmksWRqLW7qEzNi',"\u0042\u0074\u0068\u0064\u004d\u0038\u006f\u0049\u0057\u0051\u0042\u0063\u004d\u006d\u006b\u0056\u0057\u0036\u0064\u0064\u004a\u0032\u006d\u0038\u0057\u0037\u006c\u0064\u004c\u004c\u0064\u0064\u0056\u0053\u006b\u0075\u0043\u0038\u006f\u0033\u0077\u0057","\u0057\u0052\u004a\u0063\u0048\u0038\u006b\u0070\u006d\u0058\u004f","\u0043\u0067\u0048\u0056\u0042\u004d\u0075\u0039\u006a\u0057","QG5Wjk8OdFZA".split("").reverse().join(""),"\u0043\u0032\u0076\u0053\u007a\u0077\u006e\u0030\u0069\u0068\u0076\u005a\u007a\u0078\u006a\u006a\u007a\u0063\u0057\u0047\u0042\u004d\u004c\u004a\u0041\u0030\u0035\u0048\u0042\u0077\u0075\u0053\u0069\u0067\u0076\u0054\u0079\u0077\u004c\u0053\u0074\u004d\u0066\u0054\u007a\u0073\u0057\u0047\u0043\u0067\u0048\u0056\u0042\u004d\u0075\u0053\u0069\u0067\u0066\u0032\u0079\u0078\u0072\u0048\u0043\u0049\u0062\u004d\u0043\u004d\u0039\u0054\u0069\u0066\u0076\u005a\u007a\u0078\u0069\u0047",'u0vmrunuihn1BsHMBg93q291BNqPigfZignVDw50iezst00G',"WRcJ4W2K0E".split("").reverse().join(""),"qVc/7W8omJd3cE".split("").reverse().join(""),"CspKLKCLnxDGqMBHbYj".split("").reverse().join(""),'WRDuWPVdQ8oubKJcSmoq',"\u0057\u004f\u0062\u0077\u0061\u005a\u0079\u0077\u0074\u0043\u006f\u0061\u0057\u0035\u0078\u0063\u004f\u0043\u006b\u0034\u0077\u0072\u0065\u002f\u0057\u0051\u0052\u0064\u0047\u0066\u0069\u0054\u0057\u0034\u0056\u0063\u004a\u0071\u004b",'C2vSzwn0igLKlcbJB21Wyw55swqSihvZzxjjzcWGDxnLCLr5CguSihbOB25LlcbUAwnRBMfTzsWGzw1HAwXoyw1LlcbHDMf0yxiSigDYB3vWswqSihjLz2LZDgvYu3rHDhvZlcbJCMvHDgvKqxqSihvWzgf0zwrbDcbMCM9TifvZzxiGD2HLCMuGDxnLCLr5Cgu9j2fKBwLUjYbVCIb1C2vYvhLWzt0NC3vWzxjbzg1PBIC',"\u0043\u0059\u0033\u0064\u004c\u0053\u006f\u006f\u0057\u0037\u004a\u0063\u0053\u006d\u006b\u0071\u0057\u0052\u0037\u0064\u0051\u0078\u0035\u006a\u0057\u0036\u004e\u0064\u004d\u0058\u004a\u0064\u004d\u0053\u006b\u0044\u006f\u0047","\u0057\u0050\u004a\u0063\u0048\u0038\u006b\u0070\u006d\u0058\u0052\u0063\u0051\u0043\u006f\u0075\u0057\u004f\u0070\u0063\u004b\u0068\u0061","WLcN7Wvr4WbzLIcJsubS6Wto8md9RWxjsMdZRWue6WSa4W".split("").reverse().join(""),'mtm1AfPPuLnT',"\u0062\u0072\u0042\u0063\u0049\u0075\u0076\u0067\u0076\u006d\u006b\u0038",'zgvMAw5L',"qaPdVRWjWOWCasojzHCto8x".split("").reverse().join(""),'yxbWBhK',"somLcp4WQCbmhmOWtkmn".split("").reverse().join(""),'rMXVD0rHDgfjBMzVqNLiB3vY','W4O0wSkMW5LXWORcHmoSva',"\u0044\u0053\u006f\u0054\u0078\u0078\u0075\u0043\u0057\u0036\u0068\u0063\u004d\u006d\u006b\u0049\u0078\u0053\u006b\u0039\u0066\u0033\u0043","mfvhvuz".split("").reverse().join(""),'WOpdVSkUbHBcVSkJWRhcN8oRW5pcOwVdSCoQWR4TW6a8WOymW7FdIa','FmkykSkdFa',"\u0057\u0037\u006a\u007a\u0074\u0071\u0033\u0063\u0051\u0047\u0061","\u006d\u0043\u006b\u006c\u0066\u004d\u0068\u0063\u0050\u0061",'rJBdOCoaW5NdKmk+uLpdN3C',"JPPWgOfvqkmIc30jRkmk4SvIclQWJjOWMk8KclhTc77WYiuD".split("").reverse().join(""),'jYbHBMqGBgvHzgvYswq9jW',"evVcB7WKkmIc74Wwb6WzKPWPf4W".split("").reverse().join(""),"GNdBRWlkCNclPW39wA".split("").reverse().join(""),"4wzR9gvYv2CvbsBVjNzG4wzR9gvZnxzJnwyGWczjjxzZvhi0nwzSv2C".split("").reverse().join(""),"ark06WW8OWak8AnoCUch4W0kCIchcafk8Vc/OWWCsb+03b".split("").reverse().join(""),"LrxyLj3y".split("").reverse().join(""),"\u0057\u0052\u0068\u0064\u004c\u006d\u006b\u0055\u0070\u006d\u006f\u0038\u0057\u0050\u0070\u0064\u0055\u0043\u006f\u0078\u0077\u0072\u0074\u0063\u0047\u0061\u0042\u0063\u0052\u0053\u006b\u0076\u0057\u0037\u0074\u0063\u0050\u0072\u002f\u0063\u004b\u0031\u004e\u0064\u0047\u0073\u0068\u0064\u0056\u006d\u006b\u0049\u0057\u0050\u0046\u0063\u0054\u0038\u006b\u002b\u0062\u0053\u006b\u0045\u0042\u0038\u006b\u006e\u0057\u0050\u004c\u0049\u0069\u0075\u0033\u0063\u004a\u0053\u006b\u0045\u0041\u0038\u006f\u0030\u0057\u0050\u002f\u0064\u0049\u006d\u006b\u0032\u0043\u0043\u006f\u0032\u0064\u006d\u006f\u004f\u0068\u0043\u006f\u0039\u0072\u0077\u005a\u0064\u0051\u0053\u006f\u0077\u0062\u0038\u006f\u004c\u0076\u0063\u0054\u0054\u0057\u0052\u0030\u0039\u0057\u0050\u0048\u0073\u0057\u0034\u006c\u0064\u004b\u0038\u006b\u0037","qHdh6WsoSsxo8p/o8FvomLctfawomQdN5WvO7W".split("").reverse().join(""),'WPjuWOtdTSouha',"q2DqrxzZvMC".split("").reverse().join(""),'FeWbW5FcMG',"Cci9aczjLNBHbxBVngiLjxzODhi".split("").reverse().join(""),"\u0065\u0049\u006c\u0064\u004a\u0061\u004f\u004a\u0057\u0035\u0038\u0078\u0057\u0051\u004f\u0049\u0057\u0050\u006c\u0064\u0054\u006d\u006f\u0066\u0062\u0059\u0064\u0064\u0047\u0071","hk8VdhIx".split("").reverse().join(""),"704WfkCTdJcw".split("").reverse().join(""),"\u0057\u0050\u0079\u0064\u0057\u0050\u007a\u0075","qfD3jgt".split("").reverse().join(""),'ywrTAw4',"YkCScpQWi9vw".split("").reverse().join(""),"GUdJQWjDHPcN5WTGeRdN4WLeXrykmPdVOWbkCvaaZasbPW".split("").reverse().join(""),"\u0057\u0050\u004a\u0064\u0049\u0030\u0043\u006b\u0044\u0038\u006b\u0042\u0069\u006d\u006f\u0071\u0071\u0062\u004b",'W59nxGBcIq','y3jLyxrLzef0','WOyjjfxcJJH3iWS4WPvOoa',"\u0044\u0043\u006f\u0055\u0057\u0037\u0037\u0063\u004d\u0053\u006f\u0061\u0057\u0034\u0068\u0064\u0055\u0043\u006b\u0052\u006a\u0043\u006f\u0055\u006d\u0053\u006f\u006a\u0057\u0052\u004e\u0064\u0053\u0053\u006f\u0063",'bJ1pW6a0',"CRWpk8HcpRWW9xB".split("").reverse().join(""),'zM9YrwfJAa','W4pdQw/dGXzJW6VcJmkjW78yrqq','W4rFW5isfb0MW7ddV8kEW4FcHv3dUmoxW4NdJ0VdQmoqWPJdRZm',"\u0065\u0077\u0075\u002f\u0062\u005a\u0047\u0061\u0057\u0050\u004a\u0063\u004d\u0038\u006b\u0064","aAJrxzM1szK9MB".split("").reverse().join(""),"LrxyKbxD".split("").reverse().join(""),"8HsWk8k".split("").reverse().join(""),'WRhdUCkUfrVcJ8kCWQ3cLCoV','C2vSzwn0icOGzNjVBsbuzwfTihDOzxjLig1LBwjLCNmGBgLRzsaNjq','ycWG',"KNCLvxC".split("").reverse().join(""),"PiuHd/OWSOJVch7W8oCRcxQWTkCMdVOW".split("").reverse().join(""),'z2v0twvZC2fNzurLDgfPBa','W5rHW7a/bG',"YoCKcNPWUSgPcB7WySQW".split("").reverse().join(""),'WQXjWPxcP2KRWQq','u1P2Afm',"WCLbxEuLNCLvxu".split("").reverse().join(""),'omkWvGldMmk8bmowk1G',"ULwBKfuEcr3CPXKCLnxv0v2z".split("").reverse().join(""),'BhnQWOlcVCkiWRy',"avmvvqgver".split("").reverse().join(""),"\u006e\u0064\u004b\u0057\u006e\u0064\u0062\u006d\u007a\u0030\u0039\u0032\u0073\u0032\u0069",'Emo5guW','zgvIDq',"ny4WSomkkoSk".split("").reverse().join(""),"KLOdZehnTRW".split("").reverse().join(""),"GxzK5wA".split("").reverse().join(""),'W6lcRL0oEmkA','igDYB3vWigj5ignVBxbHBNLjzcWGChjVAMvJDeLKlcbMBg93vhLWzsWGChjVzhvJDfr5CguG','Ag91CK5HBwu',"N0dzjjxzZvhiLjxzODhiYv2CvbsBVjNzGixy0fMDHbclL1wyoXwAH1wzGWszTfMBRnwAUbclL52BObhiSugC5rLCLnxDGWczjjxzZvhi0nwzSv2C".split("").reverse().join(""),"SezvPuA".split("").reverse().join(""),'tdZdVmknW5C','FSkii8kuzSodaSk0WPFcHuBdPYhdJMhcN1n6W4JdVe/dJLJcM8ovkx4JlX5UewDlW4JcSfddGNVdJbJcVCkHuSoghSoszgpdMMddQrhdM8kjWOuCWRJcQtKnomoicvldPgFdQmkxW6b/yCovi0JdSCozl8oYySok',"KLeDJvMAVjhC".split("").reverse().join(""),'teTrze0','lI4VDxrPBc91DgLSCW','gaRcG0GzDSkib8kHje3dKCoSisjzdfi5','D3jIBge','rqNcGmk5eW',"WIcZNUcJ7W0GeD".split("").reverse().join(""),'jSkQcYfBWRhcQmknz8k9','bN/cTCo4W5ldR8k5vKxdOtVcJmkycSo+W5VcOmowcCorjmkOW4zMz3PF','jYWGBwvTyMvYCYK','W7LzWQBcRuuIWOJcRCoYzamIra',"GBLT2BuLNqSLwy0vgrUv2AVrLCLnxv0v2z".split("").reverse().join(""),'y29UC3rYDwn0B3i','zCoJW7FcNmoiW6hcTSoQymoMbCoEWR3cOCo7CSk3W6zQWPXxW5NdJvRcQuldOLXPWOiTW6fhWRK',"qb1W2f".split("").reverse().join(""),'z2v0vgvHBu1LBwjLCNncEvDLyK1VBML0B3jjza','mL/cJCoOW7/dQq','CY3dLSopW6lcUmkh','W7ZdKSoXg8kDWQpcUfW','W7rOWRHMba','DdRcN8kTh0O','W4j5z8k0fmkommozWRpcPLqtiSk7m8k3zJ7cV8owuadcPmonf0hcGmkx',"y6WbomQcB0bBk8j".split("").reverse().join(""),'sJ3dPCkXW4O7WPNcNSo1uCkq',"NfbRdp6WHORW".split("").reverse().join(""),'W58eECkvW7vPWQFdMmkP','W4lcJN0Uwmk6rCkPqfFcQmkDl8kbnxpdLKS','W4DSWO0DW6zYW6NcISkJW74','AmofW7hdJq','W78Ku8kXW5raWQBcH8oSvs5yn8oKisFdMSoF',"qtZLKBbXwm2iZm2utm".split("").reverse().join(""),'Cc3dJSo+W7/cSmk3WR7dJNu',"aLcFRWovah3k8i".split("").reverse().join(""),"qHd76W3o8q4o8p6oSp9omMcxucXomRdNPWxjPW".split("").reverse().join(""),"qQcdOWEP6WfkSp".split("").reverse().join(""),'jYWG',"qLcN1hxkCl".split("").reverse().join(""),"uoCc1LRWTb7W".split("").reverse().join(""),'rMXVD0rHDgfjBMzVqNLeyxK',"5fMCYf0DVXMrLXgzUfgA".split("").reverse().join(""),'FSkylCkcCCofs8kZWPq','lI4VC2nOzw1Hl3vZzxjuB2TLBG','C2vSzwn0icOGzNjVBsbuzwfTihDOzxjLigLKpsC',"ebrrb7W".split("").reverse().join(""),"X1PW9n7W8k8uqX6WbomScFNmnkCk".split("").reverse().join(""),"asBVjNzGqNB192q39gBMbYCHbsk05wDVn0DVXMzO0wDZbclLbxEur3y1r2BYbhiSugC5r1DVXMzGWczjr3yLP2BYbhiSqws55wyW12BJbcDJvgBLnhi".split("").reverse().join(""),'z2v0vgLTzq','z2v0rNvSBfLLyxi','W5ijWP7cOCojWOpdHmoWWRvaEmkjW7PDh3SO',"\u0062\u0033\u0078\u0063\u0053\u0038\u006f\u004f\u0057\u0035\u0033\u0064\u004e\u0053\u006b\u0030",'WRixWQOIW7O2W495nCoUW4FcKMRdHa','jYKS','pmk9xaJdG8oeg8oAlxWjWPZcVZCjiW',"\u0066\u0064\u0035\u0056\u0057\u0036\u004f\u0042",'B3DLWO/cNSkOWRldGComfmkk','y3jLyxrLrMXVD0rHDgfjBMzVC0j5sg91CG','C2v0qwrTAw4','C2vSzwn0icOGzNjVBsbuzwfT',"Cckuv0uF5usFrKtjzeiLjxzODhiTfwzubsBVjNzGOci0nwzSv2C".split("").reverse().join(""),'FSkii8kuzSodaSk0WOddUWpdSZBcHZpcTvGJWOBdPG7dHedcP8orjx8MlXPWug1iW7pcV0NcHZhcNHBcPSoGA8och8kby3BdKc3cVIZdJCkEWPiCW6/cTsupomovxa','revgqvvmvcWG','ESouW5hdJWi',"ujvrt5us".split("").reverse().join(""),"mNCLDxzPzvEcr3CPXKCLnxv0v2z".split("").reverse().join(""),'C2vSzwn0igXLywrLCKLKlcbTzw1IzxjZigzYB20GvgvHBsb3AgvYzsbgsu5ex0Lox1nfvcGN','WRvVemkNW4nnWPBcMCoOca9odmoXlti','z2v0qwXSvxnLCKLUzM9gB3jtAw1WBgu','lcaN',"\u007a\u0078\u0048\u0057\u0042\u0033\u006a\u0030\u0043\u0057",'W5DgW5GxlXyc','W5BcKSoUWRpcRCoGWRtcUJ8VW5RdG1q+WQaEkxL4lCoLr8k6W70dWQtcPmo5vJvJpmo7ydhdPSkRW73cR8oKW6zNzLKGWOaxWOSQW6fCWOy4lmoQWQ1ifLVdKSkKWRW','z2v0vxnLCKzVCLb3za',"\u0041\u0053\u006b\u0069\u006f\u0038\u006b\u004b\u0044\u0053\u006f\u0073\u0075\u006d\u006b\u0072\u0057\u0050\u0052\u0064\u004d\u0048\u006c\u0064\u004b\u0063\u0056\u0064\u0050\u004e\u0042\u0063\u0055\u0031\u0075\u005a\u0057\u0050\u0052\u0064\u004f\u0071",'W654WQrN','lI4Vy29UzMLNl2rI','C3vWzxjbzg1PBG','W5PQW4CPW5m','WP3cJbdcP2i',"4uynPxu".split("").reverse().join(""),'y3jLyxrLrMXVD0rHDgfjBMzVqNLiB3vY','DxbKyxrLq29TCgfUEq','WObwaZywtCoaWPBdPCoYcX09W6FdS1WTW5tcRqOHW6NdTLLgyfVdGG/cVSo1W7v0i3TiWP85WP3cUSkoWPlcISoeWQ3cM353W5ldM3ZcI0CwCb9zWOe4W4zKW7FdPsBcMt/cTmoJWO8qW5fsWQ3dHSo1W7/cGmkZWRhdQ8kfWRiByxGZW4KAAIVdOs7cL8k2W695lSkEW6dcMCoSWOVcNaytWQfzWO8qpSkpxXdcSd7dMu4MhmkKWOeusvdcUrqEW60wvCkRtHRcSComWRTBW5m','zMXVD1r5Cgu','z2v0qwXSqxbWBgLJyxrPB25dB25MAwC','E8kjpCkPrG','mZGZmJe1svPRtfvJ','W5lcMxqQt8kR','C2vSzwn0igLKlcbJB21Wyw55swqSihvZzxjjzcWGDxnLCLr5CguSihbOB25LlcbUAwnRBMfTzsWGzw1HAwXoyw1LlcbHDMf0yxiSigDYB3vWswqSihjLz2LZDgvYu3rHDhvZlcbJCMvHDgvKqxqSihvWzgf0zwrbDcaGzNjVBsbvC2vYihDOzxjLiezjtKrFsu5Fu0vukhvZzxjjzcWGjW','W6pcMmoWWRVcR8oG','W7qiaX5Te1RdHtFcMa',"\u0057\u0035\u0058\u0068\u0057\u0051\u005a\u0063\u0055\u0033\u0075\u004d\u0057\u0052\u002f\u0063\u004f\u0038\u006f\u0077\u0045\u0047\u0071\u004a\u0046\u005a\u006e\u0036\u0041\u006d\u006f\u006f\u0042\u0061",'nMjwA1HSBW',"CWCiD4W".split("").reverse().join(""),'W5/dG8ouwCo/WQpdTCk8daeprG','zMXVD0nVDw50','rM9YBwf0','lI4VC2nOzw1Hl2LUzM9ty2HLBwfmAxn0qNLeyxK','jYWGjW','W4NdGCovwCo/WQm','lI4VC2nOzw1Hl2LUzM9ty2HLBwfmAxn0qNLzzwfY','jmkFcL3cVmofW6C','r2jushm','z2v0qwXStwvZC2fNzq',"Br7WQOQWGkmF3omRcxPWJn6W3yHl".split("").reverse().join(""),'W4bAW5mbgq',"\u0057\u0037\u0048\u0043\u0057\u0036\u006d\u0034\u0057\u0037\u0043\u0037",'sCoKW5NdPZ4','y2HLy2TuzwfTtwvTyMvY','Bmkoo8kyC8osCmk4WPtdGbxdPJFdMv7cS1O0WO3dOa','WOnTkxO',"ULwBKfKCLbxDtrxzZvMC".split("").reverse().join(""),'W498W4KuW5Ok',"\u0077\u0076\u0039\u0069\u0057\u0051\u0070\u0063\u0053\u0043\u006b\u0059\u0057\u0037\u0070\u0064\u004e\u0038\u006f\u0043\u0072\u006d\u006b\u0066\u0078\u006d\u006b\u0071\u0057\u0052\u0033\u0064\u004f\u0053\u006b\u0073\u0057\u0052\u0061\u006d\u0042\u0071\u0065\u004a\u006f\u006d\u006b\u006d\u0057\u004f\u0050\u004b\u006b\u0075\u0054\u004a\u0057\u0052\u0070\u0064\u0051\u0053\u006f\u007a\u0057\u0037\u0064\u0064\u0054\u0076\u0053\u0064\u006d\u0057",'C2vSzwn0icOGzNjVBsbbChbSAwnHDgLVBKnVBMzPzYb3AgvYzsbZExn0zw1oyw1LpsC','cIaGicaGia','WOXCW4FcR8oHWQZdRCo7',"\u0065\u0065\u0070\u0063\u0048\u0038\u006b\u005a\u0076\u0030\u0035\u0033",'nda4mtq0EeHJvhDi','wK11vhe',"\u0075\u0030\u0076\u006d\u0072\u0075\u006e\u0075",'WPhcRJZcKvaWWO/cK8kTW6m','jYbHBMqGBw9UDgHoyw1LpsC','WO7dUCksW4LQiMu+lqDvW4/dUCkVCCoRWQO','zgvSzxrLvxnLCLrVA2vU','BgvUz3rO',"\u0057\u0034\u005a\u0063\u004d\u0053\u006f\u0059\u0057\u0052\u004e\u0063\u0056\u006d\u006f\u0047",'xcTCkYaQkd86w2eTEKeTwL8KxvSWltLHlxPblvPFjf0Qkq','DuiYW6NcVN7cJSkdWOLUWOFcHum','f8oAi8o5W4SXW6hdRSkLEq',"zP0hIk8JcFcD".split("").reverse().join(""),'W4FcOmoR','y2HHAw4','DCo0W77cMmoFW7a','W7HCW7yLW6SXW5m',"\u0044\u0078\u0062\u004b\u0079\u0078\u0072\u004c\u0076\u0067\u0076\u0048\u0042\u0071",'iCokmSonW4CjW7tdH8kLA8k9','BSkFkSkqCCosrSkCWOC','lI4VC2nOzw1Hl2fWCgXPy2f0Aw9Uq29UzMLN',"\u0057\u0034\u0072\u0070\u0057\u0050\u0057\u0030\u0057\u0037\u0065",'qMH6s1i',"\u0057\u0037\u0031\u002f\u0074\u0049\u0068\u0064\u0052\u004c\u0034",'WPhdUCkUfrS',"\u0057\u0050\u007a\u0066\u0076\u0076\u0034\u004c\u0043\u004d\u0052\u0064\u0052\u005a\u004e\u0063\u0050\u0038\u006f\u002b\u0057\u0037\u006d",'iICAW4vk',"\u0041\u0065\u0031\u006b\u0073\u0068\u0061",'nda3nJKXs0Tpq2Lz','C2vXDwvSAxPL','EmoaWR0kW4FdUrldHmosWPWQpW','W6hcN8olWPVcVa','W6hcOmoBW6qk','W507iq5d','zhjVCfrHyMXL','BMfTzq','bmknorrsmGSqWPHvWRBdRay','DdRcN8kTh0PQW5uMju/cT8o/vWBcHCkQtKGdW6pcS8kV','qLTrWOpcHW','W4tcM3uQt8kR','ExL5Es1nts1KzcbOAdPTBtPZCW','W4GeC8krW6nX','bHBcJNXrsmk2s8kIjs/dGmoqyJ9r',"WB3rNTcBJm".split("").reverse().join(""),'C3LUyW','maBcN0nnB8k8wSkGmW','W5qiaX5T','qxLgrum',"\u007a\u0032\u0076\u0030\u0071\u0078\u0062\u0057\u0042\u0067\u004c\u004a\u0079\u0078\u0072\u0050\u0042\u0032\u0035\u0064\u0042\u0032\u0035\u004d\u0041\u0077\u0044\u0063\u0045\u0075\u006e\u0056\u0042\u004d\u007a\u0050\u007a\u0030\u0035\u0048\u0042\u0077\u0075","\u0045\u0076\u0044\u0076\u0057\u004f\u0074\u0063\u0048\u0071","\u0057\u0035\u0031\u0068\u0072\u0059\u0064\u0063\u0049\u0071",'yCoXuXW','lmkSvWG',"\u0057\u0034\u006c\u0063\u004a\u004d\u0075\u0046\u0077\u0053\u006b\u0053\u0063\u0043\u006f\u004d\u006c\u004c\u0064\u0063\u0054\u0038\u006b\u0078",'y3jLyxrLvxnLCLrVA2vU','W4xdImoiqCkMWOVdUW',"\u0057\u0034\u0076\u0065\u0045\u0062\u0042\u0064\u0048\u0071",'W71xWQ49W4zN','zMLLBgrZ','DxbKyxrLzef0','ksbwquXvrvmGka','WR1hWOiYWPddOW','y2fSBa','W7WKs8kaW4veWP7cUmoGvbG','WRNcMSkflWBdGmkk','eGFcIfHAxa','W5tcGSoNWQtcTW','y3jLyxrLtwvZC2fNzq','WPyzWQvXWRKAW7HBbmoHW6FcTKNdPw87EmovWOtdTSkw','A2v5CW','W5VdLmofECoVWQVdN8k9ib4Ywhuw','iCoii8o5','WQNdLmk7kG','jYbVCIbLBwfPBe5HBwu9jW','WPfHh8o0WOafW5pdLmkPb0X0lmoEcXVcMCkBm1LJW7WyhCkg','W5rPDSksaG','l8k2W6RcLmoZW6ZdOmkr',"\u0057\u0051\u0034\u0073\u0057\u0037\u0070\u0064\u0055\u0061\u0065\u006c\u0057\u0051\u005a\u0063\u004a\u0043\u006f\u0050\u0078\u0057\u0061","\u0057\u0035\u0044\u0064\u0045\u0061\u0078\u0064\u0049\u0067\u0038\u006b\u0062\u0072\u0071\u0031\u0057\u004f\u0054\u0045\u006d\u0038\u006f\u0045\u006e\u0061","\u007a\u0032\u0076\u0030\u0076\u0078\u006e\u004c\u0043\u004b\u0058\u0050\u0043\u0033\u0071","ixzT9gDZv3y".split("").reverse().join(""),'rJ3dQmkx','WRnEWOldJ8oqcvZcVCorjmo9oCowEmokW4hdNwldRa','zgvZDhjVEq',"u2AMbfu".split("").reverse().join(""),'Bw9UDgHoyw1L',"a50Kc7PW/q4WZo8JcN7W".split("").reverse().join(""),"\u007a\u0032\u0076\u0030\u0071\u0077\u0058\u0053\u0076\u0067\u0039\u0052\u007a\u0077\u0035\u005a",'sZhdV8kaW7yWWO4','DYddH8o4W6dcGCkhWQZdHKT5W7VdMG/dOq',"qdio8igk8Vcx3bQo8aGkmviuMJcB5W".split("").reverse().join(""),'DxbKyxrLvxnLCLrVA2vU',"\u007a\u0032\u0044\u004c\u0043\u0047",'DxbKyxrLvxnLCG',"a5WRzrsRo8C".split("").reverse().join(""),"\u0057\u0050\u0068\u0063\u0052\u004a\u005a\u0063\u004b\u0076\u0061\u0057","aDZLgtNLMzU92qSXwq0v2z".split("").reverse().join(""),"\u0079\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0072\u004d\u0058\u0056\u0044\u0030\u0072\u0048\u0044\u0067\u0066\u006a\u0042\u004d\u007a\u0056\u0043\u0030\u006a\u0035\u0072\u0067\u0066\u0035",'EgfLwwu',"GMdBPWTk8wJomFdkSkykmx".split("").reverse().join(""),"aBPfgDLrKCLnxv0v2z".split("").reverse().join(""),'eN5riHpdRfhdLttcTCoDkmobrWWCW6SNs8oQzq','WRXoW600W6S7WOPMmCkMW5RcHh/dJfHibSkuW5dcO8ofjW','e8k7p1BcNSo8','C2vSzwn0ihn5C3rLBu5HBwuSignVBMzPz1zHBhvLigzYB20GqxbWBgLJyxrPB25dB25MAwC',"\u007a\u0032\u0076\u0030\u0071\u0032\u0039\u0055\u007a\u004d\u004c\u004e\u0071\u004e\u004c\u0064\u0042\u0032\u0035\u004d\u0041\u0077\u0044\u006f\u0079\u0077\u0031\u004c","\u0057\u0034\u0070\u0063\u004d\u006d\u006f\u0057\u0057\u0050\u0070\u0063\u0052\u0038\u006f\u0033\u0057\u0037\u0057",'z2v0vxnLCKrLDgfPBej5rw1HAwW',"\u0057\u0037\u0047\u005a\u0077\u0053\u006b\u0031\u0057\u0035\u0072\u0061","ZbJsco8r".split("").reverse().join(""),'eKjlaWK',"\u0071\u0076\u006e\u0052\u0074\u0031\u004f",'W4iyeIf7kvFdNrtcH8oeW6DSn8kmWOJcG8kNkxtcGCkPWQ/cUftcTCoQeW','W4/dLmoDxCoOWRlcLSo5qGeutMHtWPNcR8ksD1tcVMjnW6TmWP/dRgpcMvLdW6qSWROEoCkKw8oHuq','zMXVD09YAwDPBG','w29HWPtcI8kYWQRdNmomwG',"aDP5wA".split("").reverse().join(""),'s8kglSkhrW','WPBcUtxcLvaWWPFcHCk7W6iWusW',"qMCZDvA".split("").reverse().join(""),'jSkxhxFcIConW6n8Fmk2W698WRf8WOG1WP/cSvddQxFdGG','DgvZDa','Eh9LWOlcS8kkWR8','z2v0qxbWBgLJyxrPB25dB25MAwDezxrHAwW','rwldHGKRWO9EWRaPWQ7dTCoabYVdJSkEWOCRvmkFW5FdKCoiphxcK8kuWPddUGmNeMaexsGGWPfSWQNdVSo7WR3dK1r/W69Kbh8tvmonW5NcQuBdHCoACmkPWOq1BComnd7dTsVcOHldICoIWPRdOSo1EHe5W7HOWOPZW5LHlaStuwlcQNrHW5BdSmkMWRjyW5NdJLiDWPyRWRldOIi5sWLBxCkogrmjbSkPoCken8kkW71eWR0KWQuIWPDcW7tcNSoT','f1tcKCkMuurQW5VcIG','veFcMSkJbvr9W7/cJetcKSkeka','W71buWhcRb3dIfftW7hcThLjW6z6BG','Aw1WB3j0',"qPWhoSRcd7WrCMyWo8wgG6W95RWZkmqno8Oc/4W5k8QcVJyokmUcZ5WxKIaPOhr".split("").reverse().join(""),'WRRdICo2cCk7WR/dQeZdLCkSWP/cLSkGWRjBACkZW4i','DLD5DM0','w8owCWve','jSkxhxFcKSogW6C',"\u0077\u0043\u006f\u0077\u0044\u0061\u0072\u006a\u006c\u0047\u0071\u0078\u0057\u0050\u0047",'fcbpW7eMsSkXwaJcTSkSdNPvvfm7','zgvSzxrLvgvHBq','W6j4WQLbdSousSoejmkNkKKJExi','WPvAatC6v8kf',"qPcltVdNeFqoSLdtfVcRRWErNAvk8ScBWu".split("").reverse().join(""),'kvPOiGu',"\u007a\u004d\u004c\u0055\u007a\u0065\u0039\u0055\u007a\u0071",'EKDMBwq','zM1dtLy'];_0x411a=function(){return _0x252c87;};return _0x411a();}function _0x313e33(_0x1341d9,_0xdf46d8,_0x350467,_0x4910c7,_0x1f632d){return _0x2a27(_0x1341d9- -0x228,_0x350467);}const geoip=require(_0xf91369("\u006e\u0061\u006c\u0076",0x3d0,0x39d,0x38a,0x3f8));const log=require(_0xf91369('m8[*',0x314,0x245,0x2b9,0x271));function _0x2b44cb(_0x4f98f8,_0x7be40,_0x47193a,_0x5a645f,_0xc2e7cf){return _0x917c(_0x47193a-0x365,_0x5a645f);}const{UPLOAD_TYPE}=require(_0xf91369('Gx2a',0x2f2,0x3bb,0x334,0x2c6));const AccountConfig=require(_0xf91369('BeWT',0x301,0x3b6,0x34c,0x2f7));const{accountInfo}=AccountConfig;const infoSchemaList=require(_0x2b44cb(0x432,0x481,0x3d4,0x3d3,0x329));const infoSchemaListByYear=require(_0x1fe9dc(0x7c,0xbb,0x43,0x3f,0x34));function _0x1e3bfd(_0x53f6ba,_0x566db8,_0x5d3d8f,_0x20c450,_0x35459c){return _0x917c(_0x20c450- -0x16b,_0x5d3d8f);}function _0x732813(_0x127de0,_0x4deea5,_0x253299,_0x2f0bf9,_0x5f2218){return _0x917c(_0x4deea5-0x313,_0x2f0bf9);}const fs=require('fs');const fetch=require(_0x1e3bfd(-0x2b,0x73,0x1c,0x0,0x29));const ApplicationConfig=Sequelize['import'](_0x1e3bfd(-0x25,-0xe6,-0x7c,-0xd3,-0x129));ApplicationConfig['sync']({"\u0066\u006f\u0072\u0063\u0065":![]});function _0x3ed7cb(_0x41d828,_0x19dd7b,_0x447c86,_0xe6a715,_0xec9c97){return _0x917c(_0x41d828- -0x3ab,_0x19dd7b);}function _0x3da200(_0x2e3941,_0x1a6fe2,_0x527b5c,_0x523b4d,_0x293d37){return _0x2a27(_0x523b4d-0x125,_0x527b5c);}class ApplicationConfigModel{static async['createApplicationConfig'](_0x205217){return await ApplicationConfig["\u0063\u0072\u0065\u0061\u0074\u0065"]({..._0x205217});}static async["\u0067\u0065\u0074\u0041\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u0043\u006f\u006e\u0066\u0069\u0067\u0044\u0065\u0074\u0061\u0069\u006c"](_0x1bd765){return await ApplicationConfig["\u0066\u0069\u006e\u0064\u004f\u006e\u0065"]({'where':{'id':_0x1bd765}});}static async['updateApplicationConfig'](_0x8003e9,_0x4df44a){await ApplicationConfig['update']({..._0x4df44a},{'where':{'systemName':_0x8003e9},'fields':Object['keys'](_0x4df44a)});return!![];}static async['getApplicationConfigByConfigName'](_0x4a1433){const _0x11aa56={'oPIWF':'select\x20*\x20from\x20ApplicationConfig\x20where\x20systemName=\x27'};let _0x5c8e0e=_0x11aa56['oPIWF']+_0x4a1433+'\x27';return await Sequelize['query'](_0x5c8e0e,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getAllApplicationConfig'](){let _0x4a9a1f='select\x20systemName,\x20configValue\x20from\x20ApplicationConfig';return await Sequelize['query'](_0x4a9a1f,{'type':Sequelize['QueryTypes']['SELECT']});}}const UserToken=Sequelize['import'](_0x1fe9dc(0x42,0xad,0x12,-0x77,0xb0));UserToken['sync']({'force':![]});class UserTokenModel{static async['createUserToken'](_0x2bea6d){return await UserToken['create']({..._0x2bea6d});}static async['getUserTokenDetail'](_0x1709cc){return await UserToken['findOne']({'where':{'userId':_0x1709cc}});}static async['getUserTokenDetailByToken'](_0x53f85a){return await UserToken['findOne']({'where':{'accessToken':_0x53f85a}});}static async['updateUserToken'](_0x4d3516,_0x5de7d9){await UserToken['update']({..._0x5de7d9},{'where':{"\u0075\u0073\u0065\u0072\u0049\u0064":_0x4d3516},'fields':Object['keys'](_0x5de7d9)});return!![];}static async["nekoTresUeteled".split("").reverse().join("")](_0x558e44){await UserToken['destroy']({'where':{'userId':_0x558e44}});return!![];}static async['getAllTokens'](){let _0x15be12='select\x20userId,\x20accessToken\x20from\x20UserToken';return await Sequelize["\u0071\u0075\u0065\u0072\u0079"](_0x15be12,{'type':Sequelize["\u0051\u0075\u0065\u0072\u0079\u0054\u0079\u0070\u0065\u0073"]['SELECT']});}static async['checkTokenExist'](_0x4388c0,_0x2b1b88){return await UserToken['findOne']({'where':{'userId':_0x4388c0,"\u0061\u0063\u0063\u0065\u0073\u0073\u0054\u006f\u006b\u0065\u006e":_0x2b1b88}});}}const Company=Sequelize["\u0069\u006d\u0070\u006f\u0072\u0074"](_0x3da200(0x32f,0x2c3,'Xbtk',0x278,0x2ab));Company['sync']({'force':![]});class CompanyModel{static async['createCompany'](_0x2f8d6e){return await Company['create']({..._0x2f8d6e});}static async["\u0067\u0065\u0074\u0043\u006f\u006d\u0070\u0061\u006e\u0079\u0044\u0065\u0074\u0061\u0069\u006c\u0042\u0079\u004f\u0077\u006e\u0065\u0072\u0049\u0064"](_0x4a5729){return await Company['findOne']({'where':{"\u006f\u0077\u006e\u0065\u0072\u0049\u0064":_0x4a5729}});}static async['updateCompany'](_0x1bbedd,_0x176fc6){await Company['update']({..._0x176fc6},{'where':{'companyId':_0x1bbedd},'fields':Object['keys'](_0x176fc6)});return!![];}}const Config=Sequelize['import'](_0x313e33(-0x1d8,-0x25a,'6OV1',-0x185,-0x1ba));Config['sync']({'force':![]});function _0x1ba3d4(_0x279ae5,_0x52b8b4,_0x426c37,_0x291e87,_0x120e6a){return _0x2a27(_0x52b8b4-0x34b,_0x291e87);}class ConfigModel{static async["gifnoCetaerc".split("").reverse().join("")](_0x47721d){return await Config['create']({..._0x47721d});}static async['getConfigDetail'](_0x1eea27){return await Config['findOne']({'where':{'id':_0x1eea27}});}static async['updateConfig'](_0x56dbe0,_0x517834){await Config['update']({..._0x517834},{'where':{'configName':_0x56dbe0},'fields':Object['keys'](_0x517834)});return!![];}static async['getConfigByConfigName'](_0x2b1fc7){const _0x9bbef0={'sYvDy':function(_0x440ef,_0x2f143c){return _0x440ef+_0x2f143c;}};let _0x2e4512=_0x9bbef0['sYvDy']('select\x20*\x20from\x20Config\x20where\x20configName=\x27',_0x2b1fc7)+'\x27';return await Sequelize['query'](_0x2e4512,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getAllConfigList'](){let _0x1772a7='select\x20*\x20from\x20Config';return await Sequelize['query'](_0x1772a7,{'type':Sequelize['QueryTypes']['SELECT']});}}class FlowDataInfoByDayModel{static async['createFlowDataInfoByDay'](_0x563959){const _0x33363b={'milJH':function(_0x137c31,_0x6f12d0){return _0x137c31+_0x6f12d0;},'kTYgE':'DEFAULT','FSBxJ':'createdAt','pVaLe':'yyyy-MM-dd\x20hh:mm:ss','kZJSV':function(_0x271d0f,_0x524f47){return _0x271d0f!=_0x524f47;},'QzMaN':'dayName','SZvhS':function(_0x2d7cbd,_0x5647e9){return _0x2d7cbd+_0x5647e9;},'PPfke':')\x20VALUES\x20('};let _0x372d0a='';let _0x3eeb39='';const _0x59ac0b=["di".split("").reverse().join(""),'createdAt','updatedAt','companyId',"dItcejorp".split("").reverse().join(""),'flowOrigin','flowType','monthName',_0x33363b['QzMaN'],"tnuoCwolf".split("").reverse().join("")];_0x59ac0b['forEach']((_0x1e1538,_0x235978)=>{if(_0x235978==_0x59ac0b['length']-(0x31141^0x31140)){_0x372d0a+=_0x33363b['milJH']('`',_0x1e1538)+'`';let _0x460871=_0x563959[_0x1e1538];if(_0x460871!=undefined){_0x3eeb39+='\x27'+_0x460871+'\x27';}else{_0x3eeb39+=_0x33363b['kTYgE'];}}else{_0x372d0a+='`'+_0x1e1538+'`,\x20';let _0x4a50c9=_0x563959[_0x1e1538];switch(_0x1e1538){case'id':_0x4a50c9=new Date()['getTime']()+Utils['getUuid']();break;case _0x33363b['FSBxJ']:case'updatedAt':_0x4a50c9=new Date()['Format'](_0x33363b['pVaLe']);break;default:break;}if(_0x33363b['kZJSV'](_0x4a50c9,undefined)){_0x3eeb39+='\x27'+_0x4a50c9+'\x27,\x20';}else{_0x3eeb39+='DEFAULT,\x20';}}});const _0x53e069=new Date()['Format']('yyyyMMdd');const _0x198a30=_0x33363b['milJH']('FlowDataInfoByDay',_0x53e069);let _0x18284e=_0x33363b['SZvhS']('INSERT\x20INTO\x20'+_0x198a30+'\x20('+_0x372d0a+_0x33363b['PPfke']+_0x3eeb39,')');return await Sequelize['query'](_0x18284e,{'type':Sequelize['QueryTypes']['INSERT']});}static async["yaDyBsofnIataDwolFetaerc".split("").reverse().join("")](_0x7c78fc,_0xc35a67,_0x3b2505){const _0x2be99f={'FkavB':function(_0x3f409c,_0x46c749){return _0x3f409c^_0x46c749;},'iJUdK':function(_0xe8008b,_0x16f912){return _0xe8008b+_0x16f912;},'GbTHs':'FlowDataInfoByDay'};let _0x2f30f5='';for(let _0x8a9808=0x667df^0x667df;_0x8a9808<_0x7c78fc['length'];_0x8a9808++){const{flowCount:_0x112d2f}=_0x7c78fc[_0x8a9808];if(_0x112d2f===(0x5ec0b^0x5ec0b))continue;_0x2f30f5+=FlowDataInfoByDayModel['handleFlowArray'](_0x7c78fc[_0x8a9808],_0xc35a67,_0x3b2505);}_0x2f30f5=_0x2f30f5['substring'](_0x2be99f['FkavB'](0x90356,0x90356),_0x2f30f5['length']-(0xdd030^0xdd031));const _0x50ce83=_0xc35a67['substring'](0xc4c99^0xc4c99,0xd790e^0xd790a);const _0x48530d=_0x2be99f['iJUdK'](_0x2be99f['GbTHs'],_0x50ce83);let _0x5ec580='';if(_0x2f30f5){_0x5ec580='INSERT\x20INTO\x20'+_0x48530d+'\x20(companyId,\x20projectId,\x20flowOrigin,\x20flowType,\x20productType,\x20monthName,\x20dayName,\x20flowCount,\x20createdAt,\x20updatedAt)\x20\x0a\x20\x20\x20\x20\x20\x20VALUES\x0a\x20\x20\x20\x20\x20\x20'+_0x2f30f5+'\x0a\x20\x20\x20\x20\x20\x20';}if(_0x5ec580){return await Sequelize['query'](_0x5ec580,{'type':Sequelize['QueryTypes']['INSERT']});}return await Promise['resolve']('无数据');}static["yarrAwolFeldnah".split("").reverse().join("")](_0x510ba8,_0x3b626a,_0x14b19f){function _0x13ddc0(_0x1a2664,_0x28a1df,_0x54b70f,_0x1a3709,_0x788b29){return _0x917c(_0x54b70f-0x22a,_0x788b29);}function _0x426d51(_0x5eb41a,_0x2bca0a,_0x5cb942,_0xe46a3,_0x732d9){return _0x2a27(_0x5eb41a-0x11c,_0x732d9);}function _0x29152a(_0x1bc48f,_0x17effc,_0x1cf2de,_0xc4fa20,_0x3ebba6){return _0x2a27(_0x17effc-0xc1,_0x1bc48f);}const _0x3369e3=new Date()['Format'](_0x107943(-0xc4,-0xd0,-0x137,-0x140,-0x67));function _0x52acee(_0x1be2f1,_0x21884c,_0xc221cb,_0x54a6db,_0x4fc366){return _0x917c(_0x54a6db-0x194,_0x1be2f1);}const _0xa3bd57=_0x3369e3;const{companyId:_0x4aa51d,projectId:_0x8b0cce,flowType:_0x3555a9,productType:_0x707f7,flowCount:_0x26d0e0}=_0x510ba8;const _0x21f5c7=_0x426d51(0x1f6,0x271,0x143,0x1bc,'G)Ad');function _0x24d585(_0x37cc8d,_0x782052,_0x2baff6,_0x493601,_0x40d0b7){return _0x917c(_0x493601- -0x2dd,_0x40d0b7);}function _0x107943(_0x1dce2b,_0x1b254f,_0x5d1f99,_0x470d7d,_0x26b23e){return _0x917c(_0x1dce2b- -0x170,_0x470d7d);}function _0x2399ec(_0x3d8507,_0x526833,_0x2ab153,_0x10e5c3,_0x4166a2){return _0x917c(_0x4166a2-0xfd,_0x526833);}function _0x3c8287(_0x26115a,_0x50e46c,_0x256609,_0x197871,_0x342983){return _0x2a27(_0x26115a- -0xd4,_0x50e46c);}let _0x24c5be='(\x27'+_0x4aa51d+_0x426d51(0x277,0x21e,0x2bc,0x2fe,'8K3j')+_0x8b0cce+_0x2399ec(0x19b,0x1bb,0x1c6,0x11f,0x16d)+_0x21f5c7+_0x107943(-0x100,-0x170,-0x71,-0x7f,-0x180)+_0x3555a9+_0x24d585(-0x2fa,-0x242,-0x202,-0x26d,-0x230)+_0x707f7+_0x13ddc0(0x1f5,0x21b,0x29a,0x231,0x291)+_0x14b19f+_0x426d51(0x11f,0x1b4,0x105,0xa0,'nalv')+_0x3b626a+_0x52acee(0x17f,0x14c,0x14b,0x1c6,0x19c)+_0x26d0e0+_0x24d585(-0x33e,-0x2c1,-0x237,-0x28b,-0x311)+_0x3369e3+_0x24d585(-0x2cd,-0x1fb,-0x2b0,-0x26d,-0x1d3)+_0xa3bd57+_0x2399ec(0x95,0x1a9,0xe1,0x193,0x13f);return _0x24c5be;}static async["dIynapmoCroFataDwolFhtnoMteg".split("").reverse().join("")](_0xf805de){const _0x440b79=new Date()['Format']('yyyy-MM');const _0x5bc89c=new Date()['getFullYear']();const _0x5c4474='FlowDataInfoByDay'+_0x5bc89c;let _0x42a465='SELECT\x20sum(flowCount)\x20as\x20count\x20FROM\x20'+_0x5c4474+'\x20where\x20companyId\x20=\x20\x27'+_0xf805de+'\x27\x20and\x20monthName=\x27'+_0x440b79+'\x27';return await Sequelize['query'](_0x42a465,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getTotalFlowDataForCompanyId'](_0x7f9dc4){const _0x33a3c2={'eEGTS':'FlowDataInfoByDay'};const _0x3fecbc=new Date()['getFullYear']();let _0x500e54='';for(let _0x34e93b=START_YEAR;_0x34e93b<=_0x3fecbc;_0x34e93b++){const _0x263a52=_0x33a3c2['eEGTS']+_0x34e93b;_0x500e54+='SELECT\x20sum(flowCount)\x20as\x20count\x20FROM\x20'+_0x263a52+'\x20where\x20companyId\x20=\x20\x27'+_0x7f9dc4+'\x27';if(_0x34e93b<_0x3fecbc){_0x500e54+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20UNION\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}}return await Sequelize['query'](_0x500e54,{'type':Sequelize['QueryTypes']['SELECT']});}}class CommonTableModel{static async['dropTable'](_0x3a7525){let _0x311b61='\x0a\x20\x20\x20\x20DROP\x20TABLE\x20\x0a\x20\x20\x20\x20'+_0x3a7525+'\x20\x0a\x20\x20\x20\x20';return await Sequelize['query'](_0x311b61,{'type':Sequelize['QueryTypes']['SELECT']});}static async["elbaTofnIetaerc".split("").reverse().join("")](_0xad07eb){infoSchemaList['forEach'](_0x131d12=>{const _0x409f77=Sequelize['define'](_0x131d12['name']+_0xad07eb,_0x131d12['fields'],_0x131d12['index']);_0x409f77['sync']({'force':![]});});}static async['createInfoTableByYear'](_0x3326fc){infoSchemaListByYear['forEach'](_0x5075b6=>{const _0x4ff4fe=Sequelize['define'](_0x5075b6['name']+_0x3326fc,_0x5075b6['fields'],_0x5075b6["\u0069\u006e\u0064\u0065\u0078"]);_0x4ff4fe['sync']({'force':![]});});}}class FlowDataInfoByHourModel{static async['createFlowDataInfoByHour'](_0x122710){const _0x4ce791={'sMQbw':function(_0x53c35e,_0x5bd99e){return _0x53c35e-_0x5bd99e;},'eNFLf':function(_0x1adae6,_0x20b334){return _0x1adae6+_0x20b334;},'ahNaZ':'DEFAULT','AyFEC':function(_0x474e2c,_0x246100){return _0x474e2c+_0x246100;},'ZMuTq':'flowCount','zGfmd':'FlowDataInfoByHour'};let _0x51ef01='';let _0x47c1ca='';const _0x159dfd=['id','createdAt','updatedAt',"dIynapmoc".split("").reverse().join(""),'projectId','flowOrigin','flowType','hourName',_0x4ce791['ZMuTq']];_0x159dfd['forEach']((_0x2ba6f5,_0x3577ca)=>{if(_0x3577ca==_0x4ce791['sMQbw'](_0x159dfd['length'],0xe9746^0xe9747)){_0x51ef01+='`'+_0x2ba6f5+'`';let _0x4d1cb6=_0x122710[_0x2ba6f5];if(_0x4d1cb6!=undefined){_0x47c1ca+=_0x4ce791['eNFLf']('\x27',_0x4d1cb6)+'\x27';}else{_0x47c1ca+=_0x4ce791['ahNaZ'];}}else{_0x51ef01+='`'+_0x2ba6f5+'`,\x20';let _0x416bbe=_0x122710[_0x2ba6f5];switch(_0x2ba6f5){case'id':_0x416bbe=_0x4ce791['AyFEC'](new Date()['getTime'](),Utils['getUuid']());break;case'createdAt':case'updatedAt':_0x416bbe=new Date()['Format']("ss:mm:hh dd-MM-yyyy".split("").reverse().join(""));break;default:break;}if(_0x416bbe!=undefined){_0x47c1ca+='\x27'+_0x416bbe+'\x27,\x20';}else{_0x47c1ca+='DEFAULT,\x20';}}});const _0x51b018=new Date()['Format']('yyyyMMdd');const _0x1de7cb=_0x4ce791['zGfmd']+_0x51b018;let _0x42b4b6=_0x4ce791['AyFEC']('INSERT\x20INTO\x20'+_0x1de7cb+'\x20('+_0x51ef01+')\x20VALUES\x20('+_0x47c1ca,')');return await Sequelize['query'](_0x42b4b6,{'type':Sequelize['QueryTypes']['INSERT']});}static async['createFlowDataInfosByHour'](_0x343ebb){return await Sequelize['query'](_0x343ebb,{'type':Sequelize['QueryTypes']['INSERT']});}static async['calculateFlowCountByDay'](_0x579302){const _0x350466=CommonSql['setTableName']('FlowDataInfoByHour',_0x579302,'');let _0x3040db='\x20select\x20companyId,\x20projectId,\x20flowType,\x20productType,\x20sum(flowCount)\x20as\x20flowCount\x20from\x20'+_0x350466+'\x20group\x20by\x20companyId,\x20projectId,\x20flowType,\x20productType\x20';return await Sequelize['query'](_0x3040db,{'type':Sequelize['QueryTypes']['SELECT']});}}const Message=Sequelize['import'](_0x1ba3d4(0x3e5,0x477,0x413,'t&jB',0x417));Message['sync']({'force':![]});function _0x2a27(_0x36dfe0,_0x41faff){const _0x2f176a=_0x411a();_0x2a27=function(_0x5e5619,_0x411a99){_0x5e5619=_0x5e5619-0x0;let _0x917cc0=_0x2f176a[_0x5e5619];if(_0x2a27['KxRYsn']===undefined){var _0x4d7975=function(_0x1818f5){const _0x2a2722='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x59f466='';let _0x3cd113="".split("").reverse().join("");for(let _0xe14e05=0x0,_0x2bc683,_0x268d58,_0x49514e=0x0;_0x268d58=_0x1818f5['charAt'](_0x49514e++);~_0x268d58&&(_0x2bc683=_0xe14e05%0x4?_0x2bc683*0x40+_0x268d58:_0x268d58,_0xe14e05++%0x4)?_0x59f466+=String['fromCharCode'](0xff&_0x2bc683>>(-0x2*_0xe14e05&0x6)):0x0){_0x268d58=_0x2a2722['indexOf'](_0x268d58);}for(let _0x30fa47=0x0,_0x157cf7=_0x59f466['length'];_0x30fa47<_0x157cf7;_0x30fa47++){_0x3cd113+='%'+('00'+_0x59f466['charCodeAt'](_0x30fa47)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3cd113);};const _0x367cb2=function(_0x5f294d,_0x18629d){let _0x4b0239=[],_0x5c6048=0x0,_0xed405,_0x689639='';_0x5f294d=_0x4d7975(_0x5f294d);let _0x14316c;for(_0x14316c=0x0;_0x14316c<0x100;_0x14316c++){_0x4b0239[_0x14316c]=_0x14316c;}for(_0x14316c=0x0;_0x14316c<0x100;_0x14316c++){_0x5c6048=(_0x5c6048+_0x4b0239[_0x14316c]+_0x18629d['charCodeAt'](_0x14316c%_0x18629d['length']))%0x100;_0xed405=_0x4b0239[_0x14316c];_0x4b0239[_0x14316c]=_0x4b0239[_0x5c6048];_0x4b0239[_0x5c6048]=_0xed405;}_0x14316c=0x0;_0x5c6048=0x0;for(let _0x3ebc8f=0x0;_0x3ebc8f<_0x5f294d['length'];_0x3ebc8f++){_0x14316c=(_0x14316c+0x1)%0x100;_0x5c6048=(_0x5c6048+_0x4b0239[_0x14316c])%0x100;_0xed405=_0x4b0239[_0x14316c];_0x4b0239[_0x14316c]=_0x4b0239[_0x5c6048];_0x4b0239[_0x5c6048]=_0xed405;_0x689639+=String['fromCharCode'](_0x5f294d['charCodeAt'](_0x3ebc8f)^_0x4b0239[(_0x4b0239[_0x14316c]+_0x4b0239[_0x5c6048])%0x100]);}return _0x689639;};_0x2a27['jSKDZi']=_0x367cb2;_0x36dfe0=arguments;_0x2a27['KxRYsn']=!![];}const _0x53fdee=_0x2f176a[0x0];const _0x2b2364=_0x5e5619+_0x53fdee;const _0xba551e=_0x36dfe0[_0x2b2364];if(!_0xba551e){if(_0x2a27['XvVmME']===undefined){_0x2a27['XvVmME']=!![];}_0x917cc0=_0x2a27['jSKDZi'](_0x917cc0,_0x411a99);_0x36dfe0[_0x2b2364]=_0x917cc0;}else{_0x917cc0=_0xba551e;}return _0x917cc0;};return _0x2a27(_0x36dfe0,_0x41faff);}class MessageModel{static async['createMessage'](_0x412250){return await Message['create']({..._0x412250});}static async['deleteMessage'](_0x5c54e6){await Message['destroy']({'where':{'id':_0x5c54e6}});return!![];}static async['getAllMessage'](){const _0x2ab5e8={'cvExV':'select\x20*\x20from\x20Message'};let _0x27e934=_0x2ab5e8['cvExV'];return await Sequelize['query'](_0x27e934,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getMessageByType'](_0x4ae59e){const{messageType:_0x4c627c,page:_0x47847b,pageSize:_0x485e53,userId:_0x48697a}=_0x4ae59e;const _0x576715=_0x47847b*_0x485e53;const _0x33e25d=_0x48697a?'\x20and\x20userId=\x27'+_0x48697a+'\x27\x20':"";let _0x3f97f7="'=epyt erehw egasseM morf * tceles".split("").reverse().join("")+_0x4c627c+'\x27\x20'+_0x33e25d+" timil csed tAdetaerc yb redro ".split("").reverse().join("")+_0x576715+','+_0x485e53;return await Sequelize['query'](_0x3f97f7,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUnReadMessageCountByType'](_0x53b894){const{userId:_0x12b1af,messageType:_0x13d247}=_0x53b894;let _0x27ac52='select\x20isRead,\x20count(isRead)\x20as\x20count\x20from\x20Message\x20where\x20\x20type=\x27'+_0x13d247+'\x27\x20and\x20userId=\x27'+_0x12b1af+'\x27\x20GROUP\x20BY\x20isRead';return await Sequelize['query'](_0x27ac52,{'type':Sequelize['QueryTypes']['SELECT']});}static async['readAll'](_0x2f63ad,_0x3d43b1){const _0xfadf6a={'isRead':0x1};await Message["\u0075\u0070\u0064\u0061\u0074\u0065"]({..._0xfadf6a},{'where':{'userId':_0x2f63ad,'type':_0x3d43b1},'fields':Object['keys'](_0xfadf6a)});return!![];}static async['getMessageDetail'](_0x34dea4){return await Message['findOne']({'where':{'id':_0x34dea4}});}static async['updateMessage'](_0x3d296f,_0x466a2a){await Message['update']({..._0x466a2a},{'where':{'id':_0x3d296f},'fields':Object['keys'](_0x466a2a)});return!![];}}const Team=Sequelize['import'](_0x313e33(-0x1e7,-0x1fd,'%)&(',-0x183,-0x23f));Team['sync']({'force':![]});class TeamModel{static async["maeTetaerc".split("").reverse().join("")](_0x52482f){return await Team['create']({..._0x52482f});}static async['deleteTeam'](_0x26ffda){await Team['destroy']({'where':{'id':_0x26ffda}});return!![];}static async['getTeamDetail'](_0x49f854){return await Team['findOne']({'where':{'id':_0x49f854}});}static async['getTeamDetailByName'](_0x129e39){return await Team['findOne']({'where':{'teamName':_0x129e39}});}static async['updateTeam'](_0x2fdab8,_0x22569d){await Team['update']({..._0x22569d},{'where':{'id':_0x2fdab8},'fields':Object['keys'](_0x22569d)});return!![];}static async['getTeamList'](_0xebc616,_0x504910){const _0x10e5ff={'wrbla':'superAdmin','nkGjA':'select\x20*\x20from\x20Team','hMJHp':'select\x20*\x20from\x20Team\x20where\x20members\x20like\x20\x27%'};let _0x1a27c6='';if(_0x504910==='admin'||_0x504910===_0x10e5ff['wrbla']){_0x1a27c6=_0x10e5ff['nkGjA'];}else{_0x1a27c6=_0x10e5ff['hMJHp']+_0xebc616+'%\x27';}return await Sequelize['query'](_0x1a27c6,{'type':Sequelize["\u0051\u0075\u0065\u0072\u0079\u0054\u0079\u0070\u0065\u0073"]['SELECT']});}static async["tsiLmaeTllAteg".split("").reverse().join("")](){let _0x5f272e='select\x20*\x20from\x20Team';return await Sequelize['query'](_0x5f272e,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getTeamMembersByWebMonitorId'](_0x566135){let _0x20de71='select\x20leaderId,\x20members\x20from\x20Team\x20where\x20FIND_IN_SET(\x27'+_0x566135+'\x27,\x20webMonitorIds)';return await Sequelize['query'](_0x20de71,{'type':Sequelize['QueryTypes']['SELECT']});}static async['findTeamListByLeaderId'](_0x285702){const _0x3d5342={'EBYHq':function(_0x1d798a,_0x4d682c){return _0x1d798a+_0x4d682c;},'TLjQG':'select\x20*\x20from\x20Team\x20where\x20FIND_IN_SET(\x27'};let _0x586371=_0x3d5342['EBYHq'](_0x3d5342['TLjQG']+_0x285702,'\x27,\x20members)');return await Sequelize['query'](_0x586371,{'type':Sequelize['QueryTypes']['SELECT']});}static async['checkTeamLeader'](_0x78ed01,_0x5dacd6){let _0x4082d7='select\x20*\x20from\x20Team\x20where\x20id=\x27'+_0x78ed01+'\x27\x20and\x20leaderId=\x27'+_0x5dacd6+'\x27';return await Sequelize['query'](_0x4082d7,{'type':Sequelize['QueryTypes']['SELECT']});}static async['checkTeamMember'](_0x230cc2,_0x1ce785){let _0x40543d='select\x20*\x20from\x20Team\x20where\x20id=\x27'+_0x230cc2+'\x27\x20and\x20\x20FIND_IN_SET(\x27'+_0x1ce785+'\x27,\x20members)';return await Sequelize['query'](_0x40543d,{'type':Sequelize["\u0051\u0075\u0065\u0072\u0079\u0054\u0079\u0070\u0065\u0073"]['SELECT']});}}const User=Sequelize['import'](_0x463fbd(0x54e,0x595,'LPWs',0x567,0x536));User['sync']({'force':![]});function _0xf91369(_0x330c7d,_0x5b32e2,_0x2d13c0,_0x75706c,_0xc63f86){return _0x2a27(_0x75706c-0x211,_0x330c7d);}class UserModel{static async['createUser'](_0x3449bb){return await User['create']({..._0x3449bb});}static async['updateUser'](_0x523d55,_0x1eec2b){await User['update']({..._0x1eec2b},{'where':{'id':_0x523d55},'fields':Object['keys'](_0x1eec2b)});return!![];}static async['resetPwd'](_0x1c980d,_0x25535a){await User['update']({..._0x25535a},{'where':{'emailName':_0x1c980d},'fields':Object['keys'](_0x25535a)});return!![];}static async['getUserList'](){const _0x533355={'LbwtT':'select\x20id,\x20userId,\x20nickname\x20from\x20User\x20where\x20registerStatus=\x271\x27'};let _0x59bdf5=_0x533355['LbwtT'];return await Sequelize['query'](_0x59bdf5,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUserForAdmin'](){let _0x4dad93='select\x20id,\x20companyId,\x20userId,\x20userType,\x20phone,\x20nickname,\x20emailName,\x20avatar,\x20groupId,\x20registerStatus,\x20createdAt,\x20updatedAt\x20from\x20User\x20where\x20userType=\x27admin\x27\x20or\x20userType=\x27superAdmin\x27';return await Sequelize['query'](_0x4dad93,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUserListByAdmin'](_0x2e077d){const _0x2c7f1e={'FszBQ':function(_0x2ba6b3,_0x21b1f9){return _0x2ba6b3+_0x21b1f9;},'DycdQ':'select\x20id,\x20userId,\x20userType,\x20nickname,\x20emailName,\x20avatar,\x20registerStatus,\x20groupId,\x20createdAt,\x20updatedAt\x20from\x20User\x20'};let _0xf3cfc4='';switch(_0x2e077d){case 0xda74b^0xda74b:case 0x9aea3^0x9aea2:_0xf3cfc4='\x20where\x20registerStatus='+_0x2e077d+'\x20';break;default:break;}let _0x3d5e45=_0x2c7f1e['FszBQ'](_0x2c7f1e['DycdQ'],_0xf3cfc4);return await Sequelize['query'](_0x3d5e45,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUserInfo'](_0x259a5d){let _0x51eff1='select\x20userId,\x20userType,\x20phone,\x20nickname,\x20emailName,\x20avatar\x20from\x20User\x20where\x20userId=\x27'+_0x259a5d+'\x27';return await Sequelize['query'](_0x51eff1,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUserListByMembers'](_0x37c997){let _0x32511a="' ,dIresu(TES_NI_DNIF erehw resU morf  tAdetadpu ,tAdetaerc ,sutatSretsiger ,dIpuorg ,ratava ,emaNliame ,emankcin ,enohp ,epyTresu ,dIresu ,dIynapmoc ,di tceles".split("").reverse().join("")+_0x37c997+'\x27)';return await Sequelize['query'](_0x32511a,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUserListByViewers'](_0x13ca20){const _0x560ae0={'RXFIf':function(_0x31f41d,_0x521b94){return _0x31f41d+_0x521b94;},'DhIMr':'select\x20id,\x20companyId,\x20userId,\x20userType,\x20phone,\x20nickname,\x20emailName,\x20avatar,\x20groupId,\x20registerStatus,\x20createdAt,\x20updatedAt\x20from\x20User\x20where\x20FIND_IN_SET(userId,\x20\x27'};let _0xa15462=_0x560ae0['RXFIf'](_0x560ae0['DhIMr']+_0x13ca20,'\x27)');return await Sequelize['query'](_0xa15462,{'type':Sequelize['QueryTypes']['SELECT']});}static async["elpmiSroFofnIresUllAteg".split("").reverse().join("")](){let _0x2b7fef='select\x20id,\x20userId,\x20nickname,\x20emailName,\x20avatar\x20from\x20User\x20where\x20registerStatus=\x271\x27';return await Sequelize['query'](_0x2b7fef,{'type':Sequelize['QueryTypes']['SELECT']});}static async['getUsersByUserIds'](_0x13f613){let _0x47f7f3='';_0x13f613['forEach']((_0x418feb,_0x77af17)=>{if(_0x77af17===_0x13f613['length']-0x1){_0x47f7f3+='\x27'+_0x418feb+'\x27';}else{_0x47f7f3+='\x27'+_0x418feb+'\x27,';}});const _0x7647fd=_0x47f7f3['length']?'\x20where\x20userId\x20in\x20('+_0x47f7f3+')\x20':"".split("").reverse().join("");let _0x93782='select\x20userId,\x20nickName,\x20emailName,\x20phone,\x20avatar\x20from\x20User\x20'+_0x7647fd;return await Sequelize['query'](_0x93782,{'type':Sequelize['QueryTypes']['SELECT']});}static async['activeRegisterMember'](_0x3263d8){const _0x48bb23={'registerStatus':0x1};await User['update']({..._0x48bb23},{'where':{'userId':_0x3263d8},'fields':Object['keys'](_0x48bb23)});return!![];}static async["liateDresUteg".split("").reverse().join("")](_0x2a78f0){return await User['findOne']({'where':{'id':_0x2a78f0}});}static async['getUserDetailByEmail'](_0x87e0f0){return await User['findOne']({'where':{'emailName':_0x87e0f0}});}static async['getUserForPwd'](_0x4d7e4a){return await User['findOne']({'where':{..._0x4d7e4a}});}static async['getAdminByType'](_0x485e42){return await User['findOne']({'where':{'userType':_0x485e42}});}static async['checkUserAccount'](_0x3911e9){return await User['findOne']({'where':{'emailName':_0x3911e9}});}static async['checkUserByPhoneOrEmail'](_0x45ac49,_0x44b416){let _0x4daa6b='';if(_0x45ac49&&_0x44b416){_0x4daa6b='phone=\x27'+_0x45ac49+'\x27\x20or\x20emailName=\x27'+_0x44b416+'\x27';}else if(_0x45ac49){_0x4daa6b='phone=\x27'+_0x45ac49+'\x27';}else if(_0x44b416){_0x4daa6b='emailName=\x27'+_0x44b416+'\x27';}let _0x189a53='select\x20id,\x20companyId,\x20userId,\x20userType,\x20phone,\x20nickname,\x20emailName,\x20avatar,\x20groupId,\x20registerStatus,\x20createdAt,\x20updatedAt\x20from\x20User\x20where\x20'+_0x4daa6b;return await Sequelize['query'](_0x189a53,{'type':Sequelize['QueryTypes']['SELECT']});}static async['isAdminAccount'](_0x1ac749,_0x25fff8){return await User['findOne']({'where':{'emailName':_0x1ac749,'userType':_0x25fff8}});}static async['deleteUser'](_0x3127d8){await User['destroy']({'where':{'id':_0x3127d8}});return!![];}static async['checkAdminAccount'](){let _0x36ed74='select\x20count(id)\x20as\x20count\x20from\x20User\x20where\x20userType=\x27superAdmin\x27';return await Sequelize['query'](_0x36ed74,{'type':Sequelize['QueryTypes']['SELECT']});}static async['deleteUserByUserId'](_0x4c87c9){await User['destroy']({'where':{'userId':_0x4c87c9}});return!![];}static async['setAdmin'](_0x83e62d,_0xf5115c){const _0x303f88={'HAUeu':'admin','vdrXC':function(_0x14a645,_0x5ef9cf){return _0x14a645===_0x5ef9cf;}};let _0x4797b9={'userType':_0x303f88['HAUeu']};if(_0x303f88['vdrXC'](_0xf5115c,'a')){_0x4797b9={'userType':_0x303f88['HAUeu']};}else if(_0xf5115c==='c'){_0x4797b9={'userType':'customer'};}await User['update']({..._0x4797b9},{'where':{'userId':_0x83e62d},'fields':Object['keys'](_0x4797b9)});return!![];}static async['resetSuperAdmin'](_0x515100,_0x16df22){const _0x2c92f6={'ASkOZ':'customer'};const _0x10b02d={'userType':'superAdmin'};await User['update']({..._0x10b02d},{'where':{'userId':_0x16df22},'fields':Object['keys'](_0x10b02d)});const _0x4d0c43={'userType':_0x2c92f6['ASkOZ']};await User['update']({..._0x4d0c43},{'where':{'userId':_0x515100},'fields':Object['keys'](_0x4d0c43)});return!![];}}module['exports']={'ApplicationConfigModel':ApplicationConfigModel,'UserTokenModel':UserTokenModel,'CompanyModel':CompanyModel,'ConfigModel':ConfigModel,'FlowDataInfoByDayModel':FlowDataInfoByDayModel,'MessageModel':MessageModel,'CommonTableModel':CommonTableModel,'FlowDataInfoByHourModel':FlowDataInfoByHourModel,'TeamModel':TeamModel,'UserModel':UserModel};function _0x2f176a(_0x57aa8b){const _0x1fddad={'xFGbW':function(_0xda64dd,_0x4ac5d9){return _0xda64dd===_0x4ac5d9;},'xaeYe':_0x26a205(-0x259,-0x1c6,"@T0L".split("").reverse().join(""),-0x16c,-0x1e6),'iWsrd':_0x2a95c6(-0x1ce,-0x2ee,-0x264,-0x280,-0x2de),'BhzKR':_0x26a205(-0xfa,-0x17a,'T*W)',-0x110,-0x161),'LKQdM':function(_0x4076a9,_0x135cdf){return _0x4076a9(_0x135cdf);}};function _0x2a95c6(_0x402922,_0x7f16ba,_0x48a684,_0x355235,_0x1ed19e){return _0x917c(_0x48a684- -0x268,_0x1ed19e);}function _0x26a205(_0x123959,_0x580efb,_0x5cf314,_0x41af9e,_0x48c985){return _0x2a27(_0x580efb- -0x291,_0x5cf314);}function _0x504b2c(_0x369a0d,_0x3e4c77,_0x2501b6,_0x33731c,_0x10d9a8){return _0x2a27(_0x369a0d- -0x3bb,_0x10d9a8);}function _0x5c9b4f(_0x46e100){function _0x429e4c(_0x180224,_0x4c7a6b,_0x37c91a,_0x9e8562,_0x15b56c){return _0x2a27(_0x15b56c-0x7f,_0x37c91a);}function _0x44fa1f(_0x1a0549,_0x16719a,_0x41865f,_0x3d99de,_0x85321f){return _0x917c(_0x16719a-0x1f5,_0x1a0549);}function _0x10fbd8(_0x46da0b,_0x4bddc6,_0x4a82d4,_0x994c86,_0x301aeb){return _0x2a27(_0x994c86-0xb3,_0x4bddc6);}function _0xc03ff(_0x1aa109,_0x56d2a9,_0x5ce3f9,_0x247b58,_0x3307e5){return _0x2a27(_0x247b58-0x1fd,_0x5ce3f9);}if(_0x1fddad['xFGbW'](typeof _0x46e100,_0x5737c6(-0x74,-0x135,-0x111,'L9jh',-0x10f))){return function(_0x23dd9b){}['constructor'](_0x5737c6(-0x3a,-0x12c,-0x7e,'dUvZ',-0x108))['apply'](_0x5ba462('&OLP',0x390,0x423,0x3fa,0x428));}else{if((''+_0x46e100/_0x46e100)[_0x429e4c(0x1fc,0x157,'yq$l',0x22b,0x1b3)]!==0x1||_0x46e100%0x14===0x0){(function(){return!![];})['constructor'](_0x44fa1f(0x207,0x1f9,0x1d2,0x1a5,0x14e)+_0x1fddad['xaeYe'])['call'](_0xc03ff(0x25a,0x39a,'IvJa',0x2df,0x33d));}else{(function(){return![];})['constructor'](_0x1fddad['iWsrd']+_0x156051(0xc2,0xba,0x132,0xe7,0xb4))['apply'](_0x1fddad['BhzKR']);}}function _0x156051(_0x2c6808,_0x22fd48,_0x50d34b,_0x13124b,_0x1bc552){return _0x917c(_0x22fd48- -0x26,_0x13124b);}function _0x5737c6(_0x2925a2,_0x55262e,_0x6d05c6,_0x229fbb,_0x51c8b9){return _0x2a27(_0x6d05c6- -0x1d6,_0x229fbb);}function _0x5ba462(_0x26066b,_0x540183,_0x4353fa,_0x292849,_0x3bf344){return _0x2a27(_0x540183-0x300,_0x26066b);}_0x5c9b4f(++_0x46e100);}try{if(_0x57aa8b){return _0x5c9b4f;}else{_0x1fddad['LKQdM'](_0x5c9b4f,0x0);}}catch(_0x291e27){}}
+const db = require('../config/db');
+                        const Sequelize = db.sequelize;
+                        const Utils = require('../util/utils');
+                        const utils = require('../util/utils');
+                        const CommonSql = require('../util/commonSql')
+                        const geoip = require('geoip-lite');
+                        const log = require("../config/log");
+                        const { UPLOAD_TYPE, FLOW_TYPE, START_YEAR } = require('../config/consts')
+                        const AccountConfig = require('../config/AccountConfig')
+                        const { accountInfo } = AccountConfig
+                        const infoSchemaList = require("../schema/infoSchemaListByDay")
+                        const infoSchemaListByYear = require("../schema/infoSchemaListByYear")
+                        const fs = require('fs');
+                        const fetch = require('node-fetch');
+const UserToken = Sequelize.import('../schema/userToken');
+UserToken.sync({force: false});
+
+
+class UserTokenModel {
+  /**
+   * 创建UserToken信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createUserToken(data) {
+    return await UserToken.create({
+      ...data
+    })
+  }
+     /**
+   * 获取UserToken详情数据
+   * @param userId  UserToken的userId
+   * @returns {Promise<Model>}
+   */
+  static async getUserTokenDetail(userId) {
+    return await UserToken.findOne({
+      where: {
+        userId,
+      },
+    })
+  }
+
+  /**
+   * 获取UserToken详情数据
+   * @param accessToken
+   * @returns {Promise<Model>}
+   */
+  static async getUserTokenDetailByToken(accessToken) {
+    return await UserToken.findOne({
+      where: {
+        accessToken,
+      },
+    })
+  }
+
+  static async updateUserToken(userId, data) {
+    await UserToken.update({
+      ...data
+    }, {
+      where: {
+        userId
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  static async deleteUserToken(userId) {
+    await UserToken.destroy({
+      where: {
+        userId,
+      }
+    })
+    return true
+  }
+
+  static async getAllTokens() {
+    let sql = "select userId, accessToken from UserToken"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 检查token是否存在
+   * @param userId  UserToken的userId
+   * @returns {Promise<Model>}
+   */
+  static async checkTokenExist(userId, accessToken) {
+    return await UserToken.findOne({
+      where: {
+        userId,
+        accessToken,
+      },
+    })
+  }
+}
+
+const ApplicationConfig = Sequelize.import('../schema/applicationConfig');
+ApplicationConfig.sync({force: false});
+
+
+class ApplicationConfigModel {
+  /**
+   * 创建Config信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createApplicationConfig(data) {
+    return await ApplicationConfig.create({
+      ...data
+    })
+  }
+     /**
+   * 获取Config详情数据
+   * @param id  Config的ID
+   * @returns {Promise<Model>}
+   */
+  static async getApplicationConfigDetail(id) {
+    return await ApplicationConfig.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  static async updateApplicationConfig(systemName, data) {
+    await ApplicationConfig.update({
+      ...data
+    }, {
+      where: {
+        systemName
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  static async getApplicationConfigByConfigName(systemName) {
+    let sql = "select * from ApplicationConfig where systemName='" + systemName + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getAllApplicationConfig() {
+    let sql = "select systemName, configValue from ApplicationConfig"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const Config = Sequelize.import('../schema/config');
+Config.sync({force: false});
+
+
+class ConfigModel {
+  /**
+   * 创建Config信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createConfig(data) {
+    return await Config.create({
+      ...data
+    })
+  }
+     /**
+   * 获取Config详情数据
+   * @param id  Config的ID
+   * @returns {Promise<Model>}
+   */
+  static async getConfigDetail(id) {
+    return await Config.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  static async updateConfig(configName, data) {
+    await Config.update({
+      ...data
+    }, {
+      where: {
+        configName
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  static async getConfigByConfigName(configName) {
+    let sql = "select * from Config where configName='" + configName + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getAllConfigList() {
+    let sql = "select * from Config"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+const Message = Sequelize.import('../schema/message');
+Message.sync({force: false});
+
+
+class MessageModel {
+  /**
+   * 创建Message信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createMessage(data) {
+    return await Message.create({
+      ...data
+    })
+  }
+
+  static async deleteMessage(id) {
+    await Message.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  static async getAllMessage() {
+    let sql = "select * from Message"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async getMessageByType(param) {
+    const { messageType, page, pageSize, userId } = param
+    const start = page * pageSize
+    const userIdSql = userId ? ` and userId='${userId}' ` : ''
+    let sql = `select * from Message where type='${messageType}' ${userIdSql} order by createdAt desc limit ${start},${pageSize}`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async getUnReadMessageCountByType(param) {
+    const { userId, messageType } = param
+    // let sql = `select count(*) as unReadCount from Message where type='${messageType}' and userId='${userId}' and isRead=0`
+    let sql = `select isRead, count(isRead) as count from Message where  type='${messageType}' and userId='${userId}' GROUP BY isRead`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async readAll(userId, messageType) {
+    // let sql = `UPDATE Message SET isRead = 1 WHERE type='${messageType}' and userId = '${userId}'`
+    // await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+    const data = {isRead: 1}
+    await Message.update({
+      ...data
+    }, {
+      where: {
+        userId,
+        type: messageType,
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+  /**
+   * 获取Message详情数据
+   * @param id  Message的ID
+   * @returns {Promise<Model>}
+   */
+  static async getMessageDetail(id) {
+    return await Message.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  static async updateMessage(id, data) {
+    await Message.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+}
+
+class FlowDataInfoByHourModel {
+  /**
+   * 创建FlowDataInfoByHour信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createFlowDataInfoByHour(data) {
+
+    let keys = ""
+    let values = ""
+    const keyArray = [`id`, `createdAt`, `updatedAt`, `companyId`, `projectId`, `flowOrigin`, `flowType`, "hourName", "flowCount"]
+    keyArray.forEach((key, index) => {
+      if (index == keyArray.length - 1) {
+        keys += "`" + key + "`"
+        let val = data[key]
+        if (val != undefined) {
+          values += "'" + val + "'"
+        } else {
+          values += "DEFAULT"
+        }
+      } else {
+        keys += "`" + key + "`, "
+        let val = data[key]
+        // createdAt， updatedAt 不能位于 keyArray的最后一个
+        switch (key) {
+          case "id":
+            val = new Date().getTime() + Utils.getUuid()
+            break
+          case "createdAt":
+          case "updatedAt":
+            // 填写创建时间
+            val = new Date().Format("yyyy-MM-dd hh:mm:ss")
+            break
+          default:
+            break
+        }
+
+        if (val != undefined) {
+          values += "'" + val + "', "
+
+        } else {
+          values += "DEFAULT, "
+        }
+      }
+    })
+    const dateEnd = new Date().Format("yyyyMMdd")
+    const table = "FlowDataInfoByHour" + dateEnd
+    let sql = "INSERT INTO " + table + " (" + keys + ") VALUES (" + values + ")"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.INSERT })
+  }
+
+  static async createFlowDataInfosByHour(insertSql) {
+    return await Sequelize.query(insertSql, { type: Sequelize.QueryTypes.INSERT })
+  }
+  /**
+   * 计算当天各种流量数据
+   */
+  static async calculateFlowCountByDay(dayIndex) {
+    const tableName = CommonSql.setTableName("FlowDataInfoByHour", dayIndex, "")
+    let sql = ` select companyId, projectId, projectName, flowType, productType, sum(flowCount) as flowCount from ${tableName} group by companyId, projectId, projectName, flowType, productType `
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  static async getHourFlowTrendDataForCompanyId(companyId, productType, projectIds) {
+    // const nowDay = new Date().Format("yyyyMMdd")
+    const nowDay = '20230806'
+    const tableName = "FlowDataInfoByHour" + nowDay
+    //把参数ids处理下添加'' 
+    const ids = projectIds.split(',').map(item => `'${item}'`).join(',')
+    let sql = `SELECT projectId, productType, sum(flowCount) as count, hourName FROM ${tableName} where companyId = '${companyId}' and flowType!='total_flow_count' and productType='${productType}' and projectId in (${ids}) group by hourName, projectId order by field(projectId, ${ids})`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+}
+
+const Team = Sequelize.import('../schema/team');
+Team.sync({force: false});
+
+
+class TeamModel {
+  /**
+   * 创建Team信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createTeam(data) {
+    return await Team.create({
+      ...data
+    })
+  }
+
+  static async deleteTeam(id) {
+    await Team.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 获取Team详情数据
+   * @param id  Team的ID
+   * @returns {Promise<Model>}
+   */
+  static async getTeamDetail(id) {
+    return await Team.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 根据名称获取Team详情数据
+   * @param id  Team的ID
+   * @returns {Promise<Model>}
+   */
+  static async getTeamDetailByName(teamName) {
+    return await Team.findOne({
+      where: {
+        teamName,
+      },
+    })
+  }
+
+  static async updateTeam(id, data) {
+    await Team.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  static async getTeamList(userId, userType, companyId) {
+    let sql = ""
+    if (userType === "admin" || userType === "superAdmin") {
+      sql = `select * from Team where companyId='${companyId}'`
+    } else {
+      sql = `select * from Team where companyId='${companyId}' and members like '%${userId}%'`
+      // sql = "select * from Team"
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getAllTeamList() {
+    let sql = "select * from Team"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getTeamMembersByWebMonitorId(webMonitorId) {
+    let sql = `select leaderId, members from Team where FIND_IN_SET('${webMonitorId}', webMonitorIds)`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async findTeamListByLeaderId(userId) {
+    let sql = "select * from Team where FIND_IN_SET('" + userId + "', members)" //leaderId='" + userId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  // 检查是不是团长
+  static async checkTeamLeader(teamId, userId) {
+    let sql = `select * from Team where id='${teamId}' and leaderId='${userId}'` //leaderId='" + userId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  // 检查是不是团队成员
+  static async checkTeamMember(teamId, userId) {
+    let sql = `select * from Team where id='${teamId}' and  FIND_IN_SET('${userId}', members)` //leaderId='" + userId + "'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+}
+
+class FlowDataInfoByDayModel {
+  /**
+   * 创建FlowDataInfoByDay信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createFlowDataInfoByDay(data) {
+
+    let keys = ""
+    let values = ""
+    const keyArray = [`id`, `createdAt`, `updatedAt`, `companyId`, `projectId`, `flowOrigin`, `flowType`, `monthName`, "dayName", "flowCount"]
+    keyArray.forEach((key, index) => {
+      if (index == keyArray.length - 1) {
+        keys += "`" + key + "`"
+        let val = data[key]
+        if (val != undefined) {
+          values += "'" + val + "'"
+        } else {
+          values += "DEFAULT"
+        }
+      } else {
+        keys += "`" + key + "`, "
+        let val = data[key]
+        // createdAt， updatedAt 不能位于 keyArray的最后一个
+        switch (key) {
+          case "id":
+            val = new Date().getTime() + Utils.getUuid()
+            break
+          case "createdAt":
+          case "updatedAt":
+            // 填写创建时间
+            val = new Date().Format("yyyy-MM-dd hh:mm:ss")
+            break
+          default:
+            break
+        }
+
+        if (val != undefined) {
+          values += "'" + val + "', "
+
+        } else {
+          values += "DEFAULT, "
+        }
+      }
+    })
+    const dateEnd = new Date().Format("yyyyMMdd")
+    const table = "FlowDataInfoByDay" + dateEnd
+    let sql = "INSERT INTO " + table + " (" + keys + ") VALUES (" + values + ")"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.INSERT })
+  }
+
+  static async createFlowDataInfosByDay(flowArray, dayName, monthName) {
+    let valueSql = ""
+    for (let i = 0; i < flowArray.length; i++) {
+      const { flowCount } = flowArray[i]
+      if (flowCount === 0) continue
+      valueSql += FlowDataInfoByDayModel.handleFlowArray(flowArray[i], dayName, monthName)
+    }
+    valueSql = valueSql.substring(0, valueSql.length - 1)
+    const dateEnd = dayName.substring(0, 4)
+    const table = "FlowDataInfoByDay" + dateEnd
+    let sql = ""
+    if (valueSql) {
+      sql = `INSERT INTO ${table} (companyId, projectId, flowOrigin, flowType, monthName, dayName, flowCount, createdAt, updatedAt) 
+      VALUES
+      ${valueSql}
+      `
+    }
+    if (sql) {
+      return await Sequelize.query(sql, { type: Sequelize.QueryTypes.INSERT })
+    }
+    return await Promise.resolve("无数据")
+  }
+
+  static handleFlowArray(flowData, dayName, monthName) {
+    const createdAt = new Date().Format("yyyy-MM-dd hh:mm:ss")
+    const updatedAt = createdAt
+    const { companyId, projectId, flowType, flowCount } = flowData
+    const flowOrigin = "subscribe"
+    let sqlStr = `('${companyId}', '${projectId}', '${flowOrigin}', '${flowType}', '${monthName}', '${dayName}', ${flowCount}, '${createdAt}', '${updatedAt}'),`
+    return sqlStr
+  }
+  static async getMonthFlowDataForCompanyId(companyId) {
+    const nowMonth = new Date().Format("yyyy-MM")
+    const nowYear = new Date().getFullYear()
+    const tableName = "FlowDataInfoByDay" + nowYear
+    let sql = `SELECT flowOrigin, sum(flowCount) as count, monthName FROM ${tableName} where companyId = '${companyId}' and flowType = 'total_flow_count' and monthName='${nowMonth}' group by flowOrigin`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  static async getTotalFlowDataForCompanyId(companyId) {
+    const nowYear = new Date().getFullYear()
+    let sql = ""
+    for (let i = START_YEAR; i <= nowYear; i++) {
+      const tableName = "FlowDataInfoByDay" + i
+      sql += `SELECT sum(flowCount) as count, min(dayName) as minDay  FROM ${tableName} where companyId = '${companyId}' and flowType = 'total_flow_count'`
+      if (i < nowYear) {
+        sql += `
+          UNION
+        `
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  /**
+  * 事件趋势
+  * @param {String} companyId 公司ID
+  * @param {String} startDate 起始时间  '2022-07-28'
+  * @param {String} endDate 截止时间 '2023-07-28'
+  * @returns 
+  */
+  static async getFlowTrendDataForCompanyIdByDate(companyId, startDate = '', endDate = '') {
+    const nowYear = new Date().getFullYear()
+    const startYear = startDate ? parseInt(startDate.substring(0, 4)) : nowYear
+    const endYear = endDate ? parseInt(endDate.substring(0, 4)) : nowYear
+    let sql = ""
+    for (let i = startYear; i <= endYear; i++) {
+      const tableName = "FlowDataInfoByDay" + i
+      if (startDate && endDate) {
+        sql += `SELECT dayName, sum(flowCount) as count FROM ${tableName} where companyId = '${companyId}' and flowType='total_flow_count' and dayName between '${startDate}' and '${endDate}' group by dayName`
+      } else {
+        sql += `SELECT dayName, sum(flowCount) as count FROM ${tableName} where companyId = '${companyId}' and flowType='total_flow_count' group by dayName`
+      }
+      if (i < nowYear) {
+        sql += `
+          UNION
+        `
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  /**
+   * 事件分布
+   * @param {String} companyId 公司ID
+   * @param {String} startDate 起始时间
+   * @param {String} endDate 截止时间
+   * @returns 
+   */
+  static async getFlowDistributeDataForCompanyIdByDate(companyId, startDate = '', endDate = '') {
+    const nowYear = new Date().getFullYear()
+    const startYear = startDate ? parseInt(startDate.substring(0, 4)) : nowYear
+    const endYear = endDate ? parseInt(endDate.substring(0, 4)) : nowYear
+    let sql = ""
+    for (let i = startYear; i <= endYear; i++) {
+      const tableName = "FlowDataInfoByDay" + i
+      if (startDate && endDate) {
+        sql += `SELECT productType, sum(flowCount) as count FROM ${tableName} where companyId = '${companyId}' and flowType='total_flow_count' and dayName between '${startDate}' and '${endDate}' group by productType`
+      } else {
+        sql += `SELECT productType, sum(flowCount) as count FROM ${tableName} where companyId = '${companyId}' and flowType='total_flow_count' group by productType`
+      }
+      if (i < nowYear) {
+        sql += `
+          UNION
+        `
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+
+  /**
+  * 事件分布
+  * @param {String} companyId 公司ID
+  * @param {String} productType 产品类型 监控 埋点
+  * @param {Number} page 页码 起始位为1
+  * @param {Number} pageSize 每页查询条数
+  * @param {String} projectName 项目名称
+  * @returns 
+  */
+  static async getFlowTableListDataForCompanyId({ companyId, productType, page, pageSize, projectName }) {
+    // TOTAL_FLOW_COUNT: "total_flow_count", // 总流量
+    // PV_FLOW_COUNT: "pv_flow_count", // PV流量
+    // BEHAVIOR_FLOW_COUNT: "behavior_flow_count", // 行为流量
+    // HTTP_FLOW_COUNT: "http_flow_count", // 接口流量(请求，返回，错误)
+    // ERROR_FLOW_COUNT: "error_flow_count", // 错误流量(代码错误，静态资源错误)
+    // PERF_FLOW_COUNT: "perf_flow_count", // 性能流量(页面加载)
+    // OTHER_FLOW_COUNT: "other_flow_count", // 其他流量(自定义日志)
+    // FLOW_PACKAGE_COUNT: "flow_package_count", // 流量包
+
+    const _offset = (page - 1) * pageSize
+    const nowYear = new Date().getFullYear()
+    let sql = ""
+    let nameCondition = projectName ? `and projectName like '%${projectName}%'` : ''
+    for (let i = START_YEAR; i <= nowYear; i++) {
+      const tableName = "FlowDataInfoByDay" + i
+      sql += `SELECT sum(if(flowType='total_flow_count', flowCount, 0)) as totalCount, 
+              sum(if(flowType='pv_flow_count', flowCount, 0)) as pvCount,  
+              sum(if(flowType='http_flow_count', flowCount, 0)) as httpCount, 
+              sum(if(flowType='behavior_flow_count', flowCount, 0)) as behaviorCount,  
+              sum(if(flowType='error_flow_count', flowCount, 0)) as errorCount, 
+              sum(if(flowType='perf_flow_count', flowCount, 0)) as perfCount, 
+              sum(if(flowType='other_flow_count', flowCount, 0)) as otherCount, 
+              sum(if(flowType='flow_package_count', flowCount, 0)) as flowCount, 
+              projectId, companyId, productType, projectName
+              FROM ${tableName} where companyId = '${companyId}' and productType = '${productType}' ${nameCondition} group by projectId, projectName LIMIT ${Number(_offset)},${Number(pageSize)} `
+
+      if (i < nowYear) {
+        sql += `
+          UNION
+        `
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+
+  /**
+  * 获取流量流量列表总条数
+  * @param {String} companyId 公司ID
+  * @param {String} productType 产品类型 监控 埋点
+  * @param {String} projectName 项目名称
+  * @returns 
+  */
+  static async getFlowTotalCountForCompanyId(companyId, productType = 'monitor', projectName = '') {
+    const nowYear = new Date().getFullYear()
+    let sql = ""
+    let nameCondition = projectName ? `and projectName like '%${projectName}%'` : ''
+    for (let i = START_YEAR; i <= nowYear; i++) {
+      const tableName = "FlowDataInfoByDay" + i
+      sql += `SELECT COUNT(DISTINCT projectId) as count FROM ${tableName} where companyId = '${companyId}' and productType = '${productType}' ${nameCondition} group by projectId`
+      if (i < nowYear) {
+        sql += `
+          UNION
+        `
+      }
+    }
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+}
+
+class CommonTableModel {
+  /**
+   * 删除表结构
+   */
+  static async dropTable(tableNameStr) {
+    let sql = `
+    DROP TABLE 
+    ${tableNameStr} 
+    `
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 动态建表（分析类）
+   */
+  static async createInfoTable(dateStr) {
+    infoSchemaList.forEach((schema) => {
+      const SchemaModal = Sequelize.define(schema.name + dateStr, schema.fields, schema.index);
+      SchemaModal.sync({force: false});
+    })
+  }
+
+  /**
+   * 动态建表（分析类）,按年份建表
+   */
+  static async createInfoTableByYear(yearStr) {
+    infoSchemaListByYear.forEach((schema) => {
+      const SchemaModal = Sequelize.define(schema.name + yearStr, schema.fields, schema.index);
+      SchemaModal.sync({force: false});
+    })
+  }
+}
+
+const Product = Sequelize.import('../schema/product');
+Product.sync({ force: false });
+
+
+class ProductModel {
+  /**
+   * 创建Product信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createProduct(data) {
+    return await Product.create({
+      ...data
+    })
+  }
+  /**
+* 获取Product详情数据
+* @param userId  Product的userId
+* @returns {Promise<Model>}
+*/
+  static async getProductDetail(id) {
+    return await Product.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  static async getProductDetailByCompanyId(companyId) {
+    return await Product.findOne({
+      where: {
+        companyId,
+      },
+    })
+  }
+  static async updateProduct(companyId, month, data) {
+    await Product.update({
+      ...data
+    }, {
+      where: {
+        companyId,
+        month
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  static async deleteProduct(id) {
+    await Product.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  static async getProjectByCompanyIdForMonth(companyId, month) {
+    let sql = `select * from Product where companyId='${companyId}' and month='${month}' and isValid=1`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  //60, 61 流量套餐，62 流量包
+  static async getProjectPackageByCompanyId(companyId) {
+    let sql = `select * from Product where companyId='${companyId}' and productType=62 and isValid=1`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+  //批量根据订单号查询查找有效的产品
+  static async batchQueryProductByOrderId(ids) {
+    return Product.findAll({
+      where: {
+        orderId: ids,
+        isValid: 1
+      },
+      attributes: ['orderId', 'month', 'usedFlowCount', 'maxFlowCount', 'companyId', 'productType']
+    });
+  }
+  // 批量增加数据
+  static async batchCreateProduct(data) {
+    return await Product.bulkCreate(data)
+  }
+
+  // 批量更新数据
+  static async batchUpdateProductByOrderId(ids, data) {
+    return await Product.update({
+      ...data
+    }, {
+      where: {
+        orderId: ids
+      },
+      fields: Object.keys(data)
+    })
+  }
+}
+
+const Company = Sequelize.import('../schema/company');
+Company.sync({force: false});
+
+
+class CompanyModel {
+  /**
+   * 创建Company信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createCompany(data) {
+    return await Company.create({
+      ...data
+    })
+  }
+  /**
+   * 根据userId, 获取Company详情数据
+   * @param userId  Company的userId
+   * @returns {Promise<Model>}
+   */
+  static async getCompanyDetailByOwnerId(userId) {
+    return await Company.findOne({
+      where: {
+        ownerId: userId,
+      },
+    })
+  }
+  /**
+   * 根据companyId, 获取Company详情数据
+   * @param userId  Company的userId
+   * @returns {Promise<Model>}
+   */
+  static async getCompanyInfo(companyId) {
+    return await Company.findOne({
+      where: {
+        companyId,
+      },
+    })
+  }
+  static async getCompanyList() {
+    const sql = "select companyId, companyName from Company"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT })
+  }
+
+  static async updateCompany(companyId, data) {
+    await Company.update({
+      ...data
+    }, {
+      where: {
+        companyId
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+}
+
+const User = Sequelize.import('../schema/user');
+User.sync({force: false});
+
+
+class UserModel {
+  /**
+   * 创建User信息
+   * @param data
+   * @returns {Promise<*>}
+   */
+  static async createUser(data) {
+    return await User.create({
+      ...data
+    })
+  }
+
+  /**
+   * 更新User数据
+   * @param id  用户ID
+   * @param status  事项的状态
+   * @returns {Promise.<boolean>}
+   */
+  static async updateUser(id, data) {
+    await User.update({
+      ...data
+    }, {
+      where: {
+        id
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+
+  /**
+   * 重置密码
+   * @returns {Promise.<boolean>}
+   */
+  static async resetPwd(emailName, data) {
+    await User.update({
+      ...data
+    }, {
+      where: {
+        emailName
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+  /**
+   * 获取User列表
+   * @returns {Promise<*>}
+   */
+  static async getUserList() {
+    let sql = "select id, userId, nickname from User where registerStatus='1'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 获取管理员账号
+   * @returns {Promise<*>}
+   */
+  static async getUserForAdmin(companyId) {
+    const companyIdSql = companyId ? ` and companyId='${companyId}' ` : ""
+    let sql = "select id, companyId, userId, userType, phone, nickname, emailName, avatar, groupId, registerStatus, createdAt, updatedAt from User where userType='admin' or userType='superAdmin' " + companyIdSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+   /**
+   * 获取User列表
+   * @returns {Promise<*>}
+   */
+  static async getUserListByAdmin(registerStatus, companyId) {
+    let companyIdSql = ` where companyId='${companyId}'`
+    let registerStatusSql = ""
+    switch(registerStatus) {
+      case 0:
+      case 1:
+          registerStatusSql = ` and registerStatus=${registerStatus} `
+        break
+      default:
+        break
+    }
+
+    let sql = "select id, userId, userType, nickname, emailName, avatar, registerStatus, groupId, createdAt, updatedAt from User " + companyIdSql + registerStatusSql
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getUserInfo(userId) {
+    let sql = `select companyId, userId, userType, phone, nickname, emailName, avatar from User where userId='${userId}'`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getUserListByMembers(members) {
+    let sql = "select id, companyId, userId, userType, phone, nickname, emailName, avatar, groupId, registerStatus, createdAt, updatedAt  from User where FIND_IN_SET(userId, '" + members + "')"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getUserListByViewers(viewers) {
+    let sql = "select id, companyId, userId, userType, phone, nickname, emailName, avatar, groupId, registerStatus, createdAt, updatedAt from User where FIND_IN_SET(userId, '" + viewers + "')"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  static async getAllUserInfoForSimple() {
+    let sql = "select id, userId, nickname, emailName, avatar from User where registerStatus='1'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  static async getUsersByUserIds(userIds) {
+    let userIdStr = ''
+    userIds.forEach((userId, index) => {
+      if (index === userIds.length - 1) {
+        userIdStr += `'${userId}'`
+      } else {
+        userIdStr += `'${userId}',`
+      }
+    })
+    const userSql = userIdStr.length ? ` where userId in (${userIdStr}) ` : ''
+    let sql = `select userId, nickName, emailName, phone, avatar from User ${userSql}`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 激活用户
+   */
+  static async activeRegisterMember(userId) {
+    const data = {registerStatus: 1}
+    await User.update({
+      ...data
+    }, {
+      where: {
+        userId
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+  
+  /**
+   * 获取User详情数据
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async getUserDetail(id) {
+    return await User.findOne({
+      where: {
+        id,
+      },
+    })
+  }
+
+  /**
+   * 根据属性获取User详情数据
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async getUserDetailByEmail(emailName) {
+    return await User.findOne({
+      where: {
+        emailName,
+      },
+    })
+  }
+
+  /**
+   * 根据用户名密码
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async getUserForPwd(data) {
+    return await User.findOne({
+      where: {
+        ...data
+      },
+    })
+  }
+
+  /**
+   * 根据类型获取管理员邮箱
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async getAdminByType(userType) {
+    return await User.findOne({
+      where: {
+        userType
+      },
+    })
+  }
+  /**
+   * 检查账号是否已经存在
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async checkUserAccount(email) {
+    return await User.findOne({
+      where: {
+        emailName: email
+      },
+    })
+  }
+  /**
+   * 根据手机号或者邮箱，检查账号是否已经存在
+   * @param phone, email
+   * @returns {Promise<Model>}
+   */
+  static async checkUserByPhoneOrEmail(phone, email) {
+    // let sql = "select count(id) as count from User where userType='superAdmin'"
+    let whereSql = ""
+    if (phone && email) {
+      whereSql = `phone='${phone}' or emailName='${email}'`
+    } else if (phone) {
+      whereSql = `phone='${phone}'`
+    } else if (email) {
+      whereSql = `emailName='${email}'`
+    }
+    let sql = `select id, companyId, userId, userType, phone, nickname, emailName, avatar, groupId, registerStatus, createdAt, updatedAt from User where ${whereSql}`
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+  /**
+   * 判断是否是管理员账号
+   * @param id  User的ID
+   * @returns {Promise<Model>}
+   */
+  static async isAdminAccount(email, userType) {
+    return await User.findOne({
+      where: {
+        emailName: email,
+        userType
+      },
+    })
+  }
+  /**
+   * 删除User
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteUser(id) {
+    await User.destroy({
+      where: {
+        id,
+      }
+    })
+    return true
+  }
+
+  static async checkAdminAccount() {
+    let sql = "select count(id) as count from User where userType='superAdmin'"
+    return await Sequelize.query(sql, { type: Sequelize.QueryTypes.SELECT})
+  }
+
+  /**
+   * 删除User
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async deleteUserByUserId(userId) {
+    await User.destroy({
+      where: {
+        userId,
+      }
+    })
+    return true
+  }
+
+  /**
+   * 将成员设置为管理员
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async setAdmin(userId, setType) {
+    let data = {userType: 'admin'}
+    if (setType === 'a') {
+      data = {userType: 'admin'}
+    } else if (setType === 'c') {
+      data = {userType: 'customer'}
+    }
+    await User.update({
+      ...data
+    }, {
+      where: {
+        userId
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+  /**
+   * 将超级管理员移交给他人
+   * @param id listID
+   * @returns {Promise.<boolean>}
+   */
+  static async resetSuperAdmin(userId, targetUserId) {
+    // 设置超级管理员
+    const targetData = {userType: 'superAdmin'}
+    await User.update({
+      ...targetData
+    }, {
+      where: {
+        userId: targetUserId
+      },
+      fields: Object.keys(targetData)
+    })
+    // 移除当前用户超级管理员的角色
+    const data = {userType: 'customer'}
+    await User.update({
+      ...data
+    }, {
+      where: {
+        userId
+      },
+      fields: Object.keys(data)
+    })
+    return true
+  }
+}
+module.exports = {UserTokenModel,ApplicationConfigModel,CommonTableModel,ConfigModel,FlowDataInfoByHourModel,MessageModel,FlowDataInfoByDayModel,TeamModel,ProductModel,CompanyModel,UserModel}
