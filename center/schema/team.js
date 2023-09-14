@@ -14,6 +14,7 @@ const Project = function (sequelize, DataTypes) {
     companyId: {
       type: DataTypes.STRING(100),
       allowNull: true,
+      default: '1',
       field: 'companyId'
     },// 团队名称
     teamName: {
