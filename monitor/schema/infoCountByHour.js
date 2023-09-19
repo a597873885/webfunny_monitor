@@ -9,13 +9,13 @@ const InfoCountByHour = function (sequelize, DataTypes) {
     },
     // 日志类型
     uploadType: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(130),
       allowNull: true,
       field: 'uploadType'
     },
     // 监控ID
     webMonitorId: {
-      type: DataTypes.STRING(36),
+      type: DataTypes.STRING(60),
       allowNull: true,
       field: 'webMonitorId'
     },

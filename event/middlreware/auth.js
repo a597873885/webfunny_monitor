@@ -25,6 +25,8 @@ module.exports = function () {
         if ( !(url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&
             url.indexOf("upDLog") === -1 &&
+            url.indexOf("upEvent") === -1 &&
+            url.indexOf("upEvents") === -1 &&
             url.indexOf("upMog") === -1) ) {
             await next();
             return
