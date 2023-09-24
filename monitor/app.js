@@ -8,6 +8,7 @@ let WebSocket = require("koa-websocket")
 const statusCode = require('./util/status-code')
 const auth = require('./middlreware/auth')
 const sqlCheck = require('./middlreware/sqlCheck')
+const cacheData = require('./middlreware/cacheData')
 const app = WebSocket(new Koa())
 
 app.use(async (ctx, next) => {
@@ -36,6 +37,9 @@ app.use(bodyParser({
 
 // 防sql注入
 app.use(sqlCheck())
+
+// 缓存数据拦截
+app.use(cacheData())
 
 app.use(async (ctx, next) => {
     const start = new Date()
