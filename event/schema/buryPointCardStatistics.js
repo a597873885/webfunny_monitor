@@ -30,7 +30,7 @@ const BuryPointCardStatistics = function (sequelize, DataTypes) {
     },
      // 计数字段：代表图中哪种数据
      calcField: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(190),
       allowNull: true,
       field: 'calcField'
     },
