@@ -10,7 +10,13 @@ const Project = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
-    // 团队名称
+    // 公司ID
+    companyId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      default: '1',
+      field: 'companyId'
+    },// 团队名称
     teamName: {
       type: DataTypes.STRING(100),
       allowNull: true,

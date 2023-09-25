@@ -10,9 +10,16 @@ const User = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
+    // 公司ID
+    companyId: {
+      type: DataTypes.STRING(50),
+      allowNull: true,
+      default: '1',
+      field: 'companyId'
+    },
     // 用户唯一标识
     userId: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.STRING(100),
       allowNull: true,
       field: 'userId'
     },
