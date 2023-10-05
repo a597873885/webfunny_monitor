@@ -1,1 +1,10706 @@
-function _0x6f7a(){const _0x53f620=["q3yLPMypvgDHr3C".split("").reverse().join(""),"y277IAl6KAA5AYy5a2i6Gck6dMy5TQz62Iz5".split("").reverse().join(""),"aDWLNCJ5wr1qwB".split("").reverse().join(""),"8X1Oc/wUdtKpA1OW".split("").reverse().join(""),"\u0057\u0051\u007a\u0047\u0063\u0053\u006b\u0067\u0057\u004f\u0031\u0036\u0061\u006d\u006f\u0078\u0074\u0074\u0033\u0063\u0054\u004a\u0070\u0064\u0049\u004a\u0037\u0063\u004b\u0064\u0066\u0074\u0057\u0035\u005a\u0064\u004f\u006d\u006f\u0048\u0057\u0051\u0068\u0064\u0055\u0038\u006b\u0070\u0042\u004b\u0075","GwIkCTchRWoOGr/k8Rdh4W".split("").reverse().join(""),"efrd9uu".split("").reverse().join(""),"SPW6n6W1o8A".split("").reverse().join(""),"Gq4SOWdomMdV4WD57WSXgUcV6WqkmmvD6W".split("").reverse().join(""),"qRdlPWTmQWCWwyFkmv6o8bJu4WEo8DnoSOcxIOdlKfnvRWwXRWkeJF0omB".split("").reverse().join(""),"ro8GdpYIdZQW6kmGcJ7W".split("").reverse().join(""),'rK1vqMy',"njPWQoSUdFOW".split("").reverse().join(""),"\u0065\u0057\u005a\u0064\u0055\u0077\u0038","ULwyT9grYvMDYv2uKf2BSbxD".split("").reverse().join(""),"\u0066\u006d\u006b\u0032\u0072\u0053\u006b\u0038\u0057\u004f\u0048\u0044\u0057\u0050\u0047\u0055\u0057\u0051\u0037\u0064\u0054\u004e\u0033\u0064\u0050\u0053\u006b\u0067\u0057\u0035\u006a\u0074\u0062\u004a\u0043\u0066\u006b\u0059\u0046\u0063\u0047\u0043\u006f\u0033\u0057\u004f\u006e\u0041\u0057\u0052\u0035\u0070\u0077\u0063\u0074\u0064\u004c\u0038\u006b\u002b\u0057\u0051\u0053\u004f\u0057\u004f\u0071\u0032\u006b\u0038\u006f\u0047\u0057\u0052\u007a\u0052\u0057\u0035\u004c\u0031\u0057\u0035\u0037\u0064\u0052\u0068\u0031\u0033\u0057\u004f\u0046\u0063\u0047\u004e\u0074\u0063\u004d\u0038\u006b\u0056\u0057\u0051\u0068\u0064\u004e\u006d\u006b\u0056\u0062\u0043\u006b\u0069\u0072\u004b\u0074\u0064\u004b\u0053\u006b\u0078\u0057\u0052\u0065\u0036\u0057\u0035\u0065\u004c\u0043\u0066\u0042\u0064\u0049\u004b\u004c\u0049\u0043\u0072\u0052\u0063\u004c\u0043\u006f\u0062\u0057\u0052\u0069\u0049\u0057\u0037\u002f\u0063\u0050\u0043\u006f\u0063\u0045\u0038\u006b\u0045\u0079\u0038\u006b\u0053\u0057\u004f\u0052\u0064\u004f\u0071\u0046\u0063\u0051\u0076\u0066\u0050\u0057\u004f\u0064\u0063\u0052\u006d\u006f\u005a\u0057\u0035\u0065\u0038\u0057\u0037\u004f\u002b\u006f\u0038\u006f\u006c\u0057\u0036\u0037\u0064\u004d\u0067\u0050\u0048\u0057\u0034\u006a\u0078\u0043\u0048\u0034\u0038\u0057\u004f\u0034\u007a\u0077\u0053\u006b\u0032\u0057\u004f\u004a\u0064\u0049\u0063\u0033\u0064\u0056\u0038\u006f\u004b\u0057\u0037\u0050\u007a\u0067\u0071\u0075\u0065\u0057\u0034\u0056\u0064\u004a\u0058\u0053\u0068\u0057\u0036\u0069\u0044\u0064\u0053\u006f\u006c\u0067\u0071\u0037\u0064\u0051\u0053\u006b\u002f\u0062\u0048\u002f\u0063\u0054\u006d\u006f\u006a\u0057\u0052\u0048\u0064\u0071\u006d\u006f\u0035\u006e\u0057","mKBTfhC".split("").reverse().join(""),"\u006d\u005a\u0072\u004a\u0072\u0075\u0058\u0074\u0079\u0075\u0034","7z1ya6l52oP5TQl5Uwy5ock6b6l6o2z5eIy5TYk6Owy51w65".split("").reverse().join(""),"\u007a\u0078\u0048\u0057\u0042\u0033\u006a\u0030\u0076\u0067\u0076\u0054\u0043\u0067\u0058\u0048\u0044\u0067\u0075","uJgJAz6mIO5tgy6q6O5UIy5UUz6ecO5+wR5".split("").reverse().join(""),'lI4Vy29UzMLNl0fJy291BNrdB25MAwC',"iHwb39IEjCRW".split("").reverse().join(""),"\u0041\u0053\u006b\u0062\u0057\u0035\u004a\u0064\u0055\u0053\u006b\u0041\u0078\u0057","asPdhZr".split("").reverse().join(""),'o8oVWPhcU3WGcWlcTmkl',"a4WQkmLcp5W".split("").reverse().join(""),"\u0079\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0074\u004d\u0076\u0033\u0075\u0068\u006a\u0056\u0041\u004d\u0076\u004a\u0044\u0061",'pSk1eSkIEmomhmkltx4','ChvYy2HHC2vdB2rLvhLWzq',"\u0057\u0036\u0047\u0032\u0074\u0038\u006b\u0055\u0057\u0035\u004e\u0063\u004b\u0067\u002f\u0063\u004b\u0053\u006f\u002b\u006d\u0068\u007a\u0055\u0057\u0052\u0035\u0075\u006e\u006d\u006f\u0067\u0079\u0048\u0034\u0031\u0074\u0053\u006b\u0051\u0057\u0050\u0074\u0064\u0054\u0043\u006f\u0038\u0078\u0043\u006b\u0039\u0057\u0050\u0033\u0064\u0047\u0061","\u0065\u0038\u006b\u0059\u0076\u0053\u006b\u0050\u0057\u0050\u0047",'BmosW7nhWOdcSmoKWQq',"\u0042\u004b\u0066\u0078\u0075\u0033\u004f","05WrkmxsO4W".split("").reverse().join(""),'m8kFW57dILL+','W7pcNmkmWRa',"\u0074\u0030\u0031\u0063\u0042\u0066\u0065",'u8ohv8kR',"\u0057\u0034\u0037\u0064\u0051\u0038\u006b\u0037\u0045\u0061\u0061\u0033\u0057\u0050\u0064\u0063\u004d\u006d\u006b\u002f\u0074\u006d\u006b\u004e",'W5LHDhzqW6ddMSom','omoPWPFcPv8agZ3cTmkxW5Cex8o6ld8hgCotFG',"\u0057\u0036\u0069\u0067\u0043\u006d\u006b\u0041\u0057\u0036\u0056\u0063\u0052\u0066\u006e\u004e\u0057\u0037\u006a\u004d\u0057\u0035\u0068\u0064\u0055\u006d\u006f\u0065","\u0070\u0053\u006b\u0031\u0065\u0053\u006b\u005a\u0044\u0043\u006f\u0068\u006e\u0043\u006b\u0048\u0075\u0078\u0038\u0079\u0071\u0047","\u0065\u006d\u006b\u004a\u0073\u006d\u006b\u005a\u0057\u0050\u0035\u0041\u0057\u0050\u0047\u0057\u0057\u0051\u005a\u0064\u0053\u004e\u0046\u0064\u0056\u0043\u006b\u0063\u0057\u0035\u0044\u0070\u0069\u0071\u0075\u0043","\u0057\u004f\u005a\u0064\u004c\u0074\u0065\u0051\u0057\u004f\u0042\u0064\u0052\u0047",'WQXAW7mN',"aBSv2y".split("").reverse().join(""),"\u0044\u0067\u0076\u0054\u0043\u0067\u0058\u0048\u0044\u0067\u0076\u006f\u0079\u0077\u0031\u004c","8MOcVRWwoSp".split("").reverse().join(""),"Wusbz0xsvKqnvLtFvevbvKud9frsf0q".split("").reverse().join(""),"\u0057\u0050\u0074\u0064\u0049\u0033\u004c\u002f\u0079\u004a\u0069\u0052\u006b\u006d\u006b\u006d\u0072\u0076\u0052\u0064\u004c\u0075\u0064\u0063\u0051\u0053\u006b\u0058\u006f\u0038\u006f\u0031\u0057\u0034\u0052\u0063\u0048\u0043\u006f\u0041\u0064\u006d\u006b\u006c\u0063\u0053\u006b\u0042\u0057\u0034\u0079\u0064\u0068\u0071",'E8oWEaea',"\u007a\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0043\u004c\u0072\u004f\u0079\u0077\u0035\u0062\u0042\u004d\u0072\u0066\u0043\u0078\u0076\u0048\u0042\u0061",'WOtcTILgW7FdU3FdQSozsG',"Ggg9XJAzyRW".split("").reverse().join(""),"8uNc/rk1oCHcl6Who8C".split("").reverse().join(""),"qzK92qWbxyP5wD".split("").reverse().join(""),"71PWqk8B".split("").reverse().join(""),'BCodW6fdWPRcRq','W4VdNSkBimkkWOW8bSkosSkNWRfU',"\u006f\u0048\u0070\u0064\u0049\u0043\u006f\u0062\u0064\u0073\u0068\u0064\u0052\u0075\u0068\u0063\u0049\u0057",'W51LBevMW67dHmoiWRGbW4VcQr3cQmoetmodvGFcImkGF8ofW7DTfgef',"\u0045\u004d\u0066\u0041\u0079\u004d\u0043",'WO9qmvJdQfJcRNT2tmoG',"\u0042\u0077\u0066\u0034\u0075\u0032\u0039\u0059\u0044\u0061",'W7W6v8khW57cL0/cUCoQbq','uLroCg8','CMvZCg9UC2u',"KJSc7efBztod84W1k8NcF5W".split("").reverse().join(""),"\u0057\u0051\u0052\u0063\u0052\u0032\u0052\u0064\u004a\u0063\u0075\u0056",'W7P/WONcPhqZWOVdMG','WODHW7pcUw1GtXddSeG',"\u0057\u0036\u006c\u0064\u0055\u0076\u0064\u0064\u0053\u005a\u0079","\u0065\u0047\u0064\u0063\u004d\u0071\u0043","uJpE1vOcJNNdVPW".split("").reverse().join(""),'W7OJD8knW5C',"\u0069\u0068\u0044\u004f\u007a\u0078\u006a\u004c\u0069\u0068\u0044\u004c\u0071\u0033\u0076\u005a\u0044\u0067\u0039\u0054\u007a\u0078\u006a\u006c\u007a\u0078\u004b\u0047\u0070\u0073\u0061\u004e",'CMHVC3C','W6hcS8kZWRnjWQa','hX/cP8oEW4ZdN1xcNSkL',"\u0071\u0032\u007a\u004b\u0075\u0033\u0071",'6k+35ywi5yID5AEl5yYw566H55cg5zgy6lsM5y+3',"O7WH0hTc/xUdpOW/qfLcRPW716W".split("").reverse().join(""),'ufvgEgS',"uwDSfMD".split("").reverse().join(""),"qPW34uLcRPW716W".split("").reverse().join(""),"S5WdoSx0kCNc3LVdJ6WBoCVchXg".split("").reverse().join(""),"0MCVzgDHXgC".split("").reverse().join(""),"qoCkK5PWQgQ5UkA5".split("").reverse().join(""),'WQ9zW7ySW63cKCoWz8odWROpwqy','WQmZsSkaWPfjhCoCqG3cUY7dOdxcTtO','WPqYW7NdPmkpW6DXW7JdUSk8vcJdVW',"Glpe4WFkSNc74W".split("").reverse().join(""),"\u0057\u004f\u006c\u0064\u0048\u006d\u006f\u0067\u0066\u0043\u006f\u0061\u0071\u0072\u0064\u0064\u0053\u0072\u0046\u0063\u004c\u0043\u006f\u0058\u0057\u0052\u0050\u0037\u0057\u0051\u0074\u0063\u0056\u0048\u0061\u0066\u0041\u0057","\u0064\u0061\u006c\u0063\u0051\u0038\u006f\u0072\u0057\u0034\u005a\u0064\u0054\u0068\u0042\u0063\u0049\u0047","\u0057\u004f\u0031\u0041\u0070\u004b\u0074\u0064\u0055\u0077\u0078\u0063\u0050\u0030\u006a\u0036","\u0057\u0036\u0057\u0059\u0073\u0043\u006b\u0067\u0057\u0037\u005a\u0063\u0049\u004d\u004a\u0063\u0050\u0061","qEK9My".split("").reverse().join(""),"mtNdJRW".split("").reverse().join(""),"aEikCnM8XCWb3GdhPW".split("").reverse().join(""),'eCk2v8kQWPjDWOuY','lI4VBwv0ywrHDgeVzgvTBY9IyxnLvgvTCgXHDgvdyxjKtgLZDa',"\u0057\u0052\u0075\u0064\u0079\u0064\u0066\u0053\u0067\u0061","\u0079\u0043\u006b\u0062\u0057\u0034\u006c\u0064\u004b\u0043\u006b\u0068\u0072\u006d\u006f\u0052\u0042\u0053\u006f\u0055\u0041\u0053\u006b\u005a\u0045\u0033\u004c\u006f\u0068\u0066\u004e\u0064\u0048\u0033\u0034\u0061\u006e\u0058\u002f\u0063\u004b\u0038\u006f\u006c\u0045\u0064\u004a\u0063\u004d\u0031\u0065",'W6PoWOTWW7pcGJVdMr3cHmkfW6hdKcNcP8kxW74','CMvX',"C4W2SPW".split("").reverse().join(""),"pkSiNSPWCk8pxkCIdZ4W".split("").reverse().join(""),"aGcFRWLrRWIk8Pch7W".split("").reverse().join(""),'W5zLWQtcSSoTWRqMW6hdUSkYAqZdSSkCqJ1G',"\u0071\u0030\u006a\u006d\u0076\u004e\u004f",'ChvYy2HHC2vdB2rLq2fYzenVDw50','WONdNsyIWQZdVf3dSa','yxr0ywnOBwvUDdSGzMLSzw5HBwu9',"\u0057\u0050\u006a\u0039\u0057\u0037\u0037\u0063\u0048\u0033\u007a\u006d\u0075\u0058\u0079","mOW/kCOc7eNcVHdhomIcF6Wjomy".split("").reverse().join(""),"\u0042\u004b\u004c\u0069\u0076\u0032\u0079",'WQZcMGzXW5K',"kkmsM87W".split("").reverse().join(""),"a4W9kmJcF5W".split("").reverse().join(""),'WRXqW6CYW6hcU8o7uCodWP8ixJTqm8oIaW',"bY77U2O5WwP5jYP5HkR5".split("").reverse().join(""),"q3CPXuEcbxDVj3r0v2z".split("").reverse().join(""),"\u0073\u0031\u004c\u0054\u0075\u004c\u004b",'CwvYrfy',"\u0057\u004f\u0031\u0068\u0070\u004b\u0074\u0064\u0055\u0077\u0037\u0063\u0054\u0066\u0031\u0057\u0075\u0057","CfvHo8vV5QWluPWOLPWEoSUclMGcVQWtkme4kSRd/OWfmPWroSzpkSjjk8SchHJclbrwkSOdBcVdNIQcBLJc32Bxa4Wg0PWfoSNctRWA0rGc3GdCOuUctQWPiPWGoSFMfeQc71QdJKmcj5W".split("").reverse().join(""),"JfwB0v2z".split("").reverse().join(""),"\u006b\u0053\u006b\u004b\u0062\u0038\u006b\u0078\u0046\u0043\u006f\u0074\u006a\u006d\u006b\u006c\u0078\u0075\u0079\u0046\u0072\u0078\u0034","Gnpq4WUkmIcp4W".split("").reverse().join(""),"FmPWNomzZoCUc74W9S7Wu1QW".split("").reverse().join(""),"qBOoCuYHeoDXHs5yPW".split("").reverse().join(""),"8ZRdxcTcZaqxoSppbOWHkSeGvQW".split("").reverse().join(""),"Hk8Jc3YIddOWPGXNdF3QcRQW".split("").reverse().join(""),"qScBOWoaGr8k8QdV5W".split("").reverse().join(""),"TKZKdRRW".split("").reverse().join(""),'wMvJBNO',"\u006f\u006d\u006f\u004f\u0057\u0050\u0056\u0063\u0054\u004d\u0030\u0077\u0063\u0047","\u0062\u0043\u006b\u0036\u0071\u0043\u006b\u0032\u0057\u0050\u004c\u002f\u0057\u0050\u006d\u0035\u0057\u004f\u005a\u0064\u0054\u0068\u0061","efwODwA".split("").reverse().join(""),"GhhM1OWD5QWeiIF0omB".split("").reverse().join(""),'z2v0qwXSvgvHBuXPC3q','WPuLWQ7cK3XguGBdUM/cU8oZW6GLWRNcQa',"ePWXPQWQo8TcBrSdlHibomhdoCKc/4W".split("").reverse().join(""),'W6ldRe3dRYCdu1/dMW','W7xdRfddVZykBKddNYy',"e1qzf0z".split("").reverse().join(""),'5OMN6kgmEW','WPldJSoTWRzpW6bweYy','p8oVy8oQW5K',"qzWLhv5juzNf2CZvwt0v2z".split("").reverse().join(""),"qomhjG5W1omEMoml".split("").reverse().join(""),'WOpdMCo4WRTAW6zx',"mPWpoCMdB7WTD7WQj2JcR7WMkCzly6W".split("").reverse().join(""),"aRcp7Wgb5WnoSsAoCh2e7WGomA3oSn".split("").reverse().join(""),'5OUT5yQQ5yM36zMo5PE95O2f5BMv6kghjqe','W4ZdICkro8knWR0HgCkesG',"\u006a\u0063\u0071\u004b\u0044\u0032\u0076\u0049\u007a\u004e\u0076\u0055\u0042\u004e\u004b\u0054\u007a\u0078\u007a\u004c\u0042\u004e\u0071\u0054\u007a\u0067\u0039\u0054\u0079\u0077\u004c\u0055\u006a\u0063\u0071\u004b",'55sB5OMU5zkn5A6i56k45lQ45Q2N56ko77YU',"roCKd/YTdZQWekSHcp6W".split("").reverse().join(""),"WXQW2omKcVOWBv6WEomE".split("").reverse().join(""),"aCAO5WeS6W".split("").reverse().join(""),"m4WJkCwv85W".split("").reverse().join(""),'CmowW61s','WPVdJ3T7yZy','pcxcJCoZW73dGMFcRmoYkSkw','WQRdQX3dNSog',"\u006f\u006d\u006f\u0050\u0057\u0050\u004e\u0063\u004f\u0078\u0030\u0077",'W5VdNSkmfSkwWO09h8k7wCkRWRfEW4e',"e6WdoSHcJti".split("").reverse().join(""),'WPz/W7VcPxrOwa/dVv/cP8oP',"Gi29QW+omQcdOWfb5WsoCA".split("").reverse().join(""),"u5us".split("").reverse().join(""),'mYddI1xcRHfqWQvlgmop',"aDUv3BdbxDVj3z".split("").reverse().join(""),'WPBdMh94uW',"OLf9Pso1u5W1k8Ncp4W".split("").reverse().join(""),'WPFdOrldN8ovWRfZw8oqWP7dVmkc','qCouWQ49W75oW7D+Fa','WORdVtRdISoeWRDcrSo4WPBdTSkLW5ZdTZ45vmojW68n','vCoZWQ4dW4y','qufJsKi','z3jVDxaGyNK','WQddI8khWOFdJsRdI8oI','vCkXW7xdNSkRzmomC8kLcSoX','Aw5KzxHpzG','WP8dy27dQeJcQuT6DmoRWO0VWQxcQqa',"\u006f\u0053\u006b\u002f\u0063\u006d\u006b\u0076\u0043\u0043\u006f\u0073\u006a\u006d\u006b\u004b\u0073\u0032\u0071\u0079\u0075\u0032\u0079\u006f\u0075\u0043\u006f\u002f\u0057\u0037\u0064\u0063\u0050\u0057\u0044\u0052\u0065\u0038\u006b\u004a\u0057\u004f\u006d\u004c\u006b\u0038\u006b\u0057\u0074\u0047","\u0061\u0058\u0078\u0063\u004f\u006d\u006f\u0078\u0057\u0034\u005a\u0064\u0055\u0071",'WO1ujvNdQhRcTq','y2HLy2TuywjSzu5HBwu',"L1wyovgBIfgD".split("").reverse().join(""),'W6WYv8kbW6tcJg/cSCoUda','W73cImk5W4SC','AxnszwfK','qdxdQs3dNa','W7LsxvraW4tdSCo9WPONW4JcNrlcNmoQB8oQ','WQZdJSoybmkKq3e4f8kRWQ8WCa','oSkPb8kn',"\u0072\u0076\u004f\u0057\u0062\u006d\u006f\u0057\u0061\u0033\u0033\u0064\u0052\u004b\u0058\u004e\u0061\u0038\u006b\u0071\u0057\u0035\u0061\u0053\u0057\u0036\u0052\u0064\u004f\u0071",'W7WNsCklW57cHhlcTSo+','aG13D8kHEW',"\u0057\u0036\u004b\u0067\u0041\u0053\u006b\u005a\u0057\u0037\u0052\u0063\u0053\u0057",'arhcO8ov','udBdRJJdNmohD8kjqbrjEYpdG1y','rvjst1jFndeZ','z2v0ug9PBNrjzhm','DMDRANy','WPX2W6m','q25jwvu','z2v0uhjVAMvJDej5uhjVAMvJDeLKqw5KvhLWzq',"\u0057\u0052\u0074\u0063\u0052\u0033\u0078\u0064\u004e\u004a\u0071\u0030\u0057\u0050\u0061",'W4/dJ8kziCkmWOS','aWxdTgJcLq','W5KgFmkdW5C','WP9NW67cPYmkeG/dSftcVmoUW6q4W7pcUI0mn8kTgsPugbVcOCkHF8oAWOpcQSkLkmoZW5xdVmowWOqMWPrbW7S',"03SdROWuqOWwPOW1kmA8k8f".split("").reverse().join(""),'Bg9NAw4','lmo8Dmo4W4GEhCo/vG','wNjlrNi','W6JdVSkRaCkMWQGCiSkLBmktWP1tW7RcISoJWPHY','kmk5ySkXWO8','vun0vxe','lxFdUmoftW',"24eOcRPW756W".split("").reverse().join(""),"\u0044\u0043\u006b\u0066\u0057\u0034\u0064\u0064\u0055\u006d\u006b\u0048\u0072\u0043\u006f\u006b\u0078\u006d\u006f\u005a\u0077\u0038\u006b\u0031\u0043\u0076\u0072\u007a\u0065\u0066\u004a\u0064\u0056\u004c\u0047\u0034\u0063\u0047\u002f\u0063\u0050\u0043\u006f\u0041\u0072\u0074\u006c\u0063\u004e\u0031\u0033\u0063\u0048\u0071",'smoCWQeZW6zO','WRWpW4G','WP5uo0NdI0lcO0n7','WPL8W77cSJrDurhdPW','ywXHCM1tDgf0Dxm',"\u0041\u0068\u0072\u0030\u0043\u0064\u004f\u0056\u006c\u0033\u0044\u0033\u0044\u0059\u0035\u0033\u007a\u0077\u006a\u004d\u0044\u0077\u0035\u0055\u0045\u0073\u0035\u004a\u0042\u0049\u0039\u0033\u007a\u0077\u006a\u005a\u0041\u0078\u0072\u004c\u006c\u0032\u007a\u0048\u0043\u0073\u0035\u004f\u0044\u0067\u0031\u0053",'t8otvSkR',"\u0057\u004f\u004e\u0063\u0048\u0078\u0037\u0063\u004f\u0031\u0072\u0069\u0069\u004a\u004c\u0054\u0067\u0061\u0030\u0071\u0066\u006d\u006b\u0070\u0077\u0033\u0034",'W5JdNSkummknWP0','W4aly8kyW6u',"WkCdS1QW".split("").reverse().join(""),'WPtcUZXGW5xdTN/dQSowxYyV','cvldTSoQv8ofA2WJcrHuW7NdJcum','W6JdSexdOW8IxKe','WQXMpmkYWQW','ce/dT8oY','E8ojsmkJDG0','Aw5PDfDLug9PBNreyxrH','pCoRySoPW5mvcSoB','Bg9Nq291BNrjBK1PBNv0zq','WRldSCobWPLs','WQz3eCkXWOrOc8o+sZNcSG','WP5AovNdOKFcO2zXr8oQ',"\u0035\u0036\u0059\u0042\u0035\u0035\u0063\u0067\u0035\u007a\u0067\u0061\u0035\u0036\u0067\u0037\u0036\u006b\u0036\u0057\u0035\u0035\u0041\u0059\u0036\u006b\u0032\u007a","komNdZXk".split("").reverse().join(""),"WwfkCAfoSw".split("").reverse().join(""),"\u0057\u0037\u0039\u0073\u0073\u004c\u0050\u0067\u0057\u0035\u0037\u0063\u004d\u0053\u006b\u0043\u0057\u0036\u0047",'EgLRz3a',"\u0057\u0037\u0033\u0064\u0050\u004c\u0053",'WQTnW74TW7tcJmo7BmoCWPOhxHC','q1mLp8o5c33dRg1kb8kgW6G','s3fAALC','r0KHi8oGc33dRg0','W5FcGCowdSobeGC','g8kQxSkCWOW','WQWFrI99bu9cb8k5ja7dNHvMW4Hdz8keW6e','6kYX5Rki5BYg5BQt','WQlcR3FdIdqPWOa','WOhdJSoNWR1EW6zghdnAW4S','hLNdO8oU',"uvs2n3y".split("").reverse().join(""),'W7lcS8kMWRjdWQVcHSonW50',"\u0057\u004f\u006a\u0051\u0065\u006d\u006b\u0057\u0057\u0050\u0066\u0065\u0062\u0053\u006b\u0076\u0041\u005a\u0033\u0063\u0055\u0059\u0064\u0064\u0054\u005a\u0069",'CmoDW6JcImoKfa0','W5VdQ8k/wG4dWPdcHmk5vSk9ispcUmkyW7xdQq','WRv8dSkH','pc9WpG','ANj2Dum','B3b5Aw4','WOqSW4lcHmoRW5/cGCoCWQ0','W4xdR8k8qIyoWPhcSCkUCmk1','W7TeWOjVW6xcHcRdQdNcM8kaW5VdIaVcVmkAW6JcTCoIv0VcICoTyG',"aTdZ4WroSQcdGg".split("").reverse().join(""),'BNbTihj1BIbYzxn0yxj0icy','WQ3dHIZdSCoz','lmoVFCo6W4Kxgmokr8oRW5jTW7xcSCofF8onWPHrW4DVax8tW4BdVrBcS8oxbeZdLZLg','W4fLWQBcS8olWRq','WRFdGdePWOpcQCoxW74',"ooR5Jgz5vIl5VsP5l+y5UcR5YYk6".split("").reverse().join(""),'naJdOmohcq','W5RdUSkUqHOt','eCk2vCkVWPHaWOirWOtdSKZdV8kDW4vehqaFoZZcGG',"\u0035\u0051\u0032\u004b\u0036\u006c\u0073\u004d\u0035\u0079\u002b\u0033\u0035\u0042\u0063\u0041\u0035\u0050\u0059\u0051\u0035\u0052\u002b\u0061\u0035\u0052\u0073\u0037\u0037\u0037\u0059\u006d\u0036\u006b\u002b\u0033\u0036\u0069\u0067\u0075\u0035\u0037\u006f\u0037\u0035\u0036\u0036\u0048\u0035\u0035\u0063\u0067\u0035\u007a\u0067\u0079\u0035\u0052\u002b\u0061\u0035\u0052\u0073\u0037\u0037\u0037\u0059\u0062",'WRfWdCkS','WO3dMI/cI1vNkdnVoqS',"\u0057\u0037\u0047\u0054\u0057\u0037\u0043\u0068\u0075\u006d\u006b\u0056\u0068\u0038\u006f\u0065\u0057\u0035\u0035\u0079\u0057\u0051\u004c\u0056\u0062\u006d\u006b\u004f\u0057\u0050\u0039\u0052\u0057\u0051\u0035\u004f\u0064\u0057","\u0057\u0050\u0050\u0048\u0044\u004e\u0065\u0030",'W47dNSkliCkyWOONomkosSk6WRfL','W6hcGCkhWQpdNIxdLSoStG','WPqeWPva','W6hcS8kTWRrsWRhcN8og','WOJdKIBcHgnEitG','zM9Yz2v0uhDK',"W4WVk8VcN7WUk8v6n6Wdo8IcxqHch3uNoSLdxJKdxOWCkSLcB7W".split("").reverse().join(""),'W455Aha','zNvUBMvS','DxbKyxrLvgvHBvbYB2PLy3rZ','sIddUtFcLmo4sConsX4','smowxSkVyXW','ySoeW6RcMCoSlHdcLKxcPSkZWOKg',"SMrvbxr".split("").reverse().join(""),'W57cINrVnZ0LkCkhFXxdTuFcQ8kYFG','CxHOwLu',"KrGdReotomPcN5W6oSr".split("").reverse().join(""),'tCodsmkTCHFcPxJcHKS','W5tdM27dLraWdHtcJa',"\u0074\u0043\u006f\u0074\u0073\u006d\u006b\u0054\u0046\u0058\u004a\u0063\u004f\u004e\u005a\u0063\u004f\u004b\u0068\u0063\u0056\u004b\u0030\u0038\u0077\u0047\u0064\u0064\u0049\u0071","4PWhkmOdFum9f3Vd74WBkCl".split("").reverse().join(""),"OoCxJ82qh8gtKkmotoCCrkma1k8k".split("").reverse().join(""),'WQtdKYy7WPi','W5XPFxLWW4/dJ8oaWR4','jmoMBXadWRXwWQ92mgNdTs3cQCo4nSopW6yNb8otu8kyvcWqWOm5WO7cTmkjW7nefe5zuqtcUai7wCoXW5HE5Asq5PYm55Aj6zA477+R6k+C6igu57gW5l+h6iga77YC5B2L5lYX5y+477+rWOhcICkTqcGQbHFdHEobOfxcRCo7dJzyxxtcRCo9wMBdGvRcM3jzxCodW6rDDCo7W4DLW40',"q3CPXuzNfgu0v2z".split("").reverse().join(""),'aHddQxtcHc9H','ChjVAMvJDe5HBwu','c8kNumkQW4CCW5K6WOtdRNhdVmkDW6CybrespIBcGmo0WP8gWPrpet/cJCo2W7njW4fKjmk1W6yoWO8WWPdcUa','W7L/WPJcPgm7WOJdJa','y2fYzenVDw50','eY7dQcVdI8oqjmoreKSQ','WOD8W7pcUw1w','6i6v5y+P5REm5OcI5AAL6lwN',"SIEfKQW".split("").reverse().join(""),'WOddI8oNWRnn','beJdLmonBq','E8o+yXWrWObC','bmowWR0WW7DYWRzXyhvhvuNcJc/dVCkJW7K','mti0ntGZu2PVze5v','bblcKby','zxHPC3rtyw1LrMLLBgq',"\u0057\u0036\u0031\u0042\u0057\u004f\u0062\u0032\u0057\u0036\u0068\u0063\u004b\u0047\u0052\u0064\u004b\u0049\u004a\u0063\u004a\u0061",'ufz0AKK','mmklW5RdJhvPjW','W4NdMX4jWPmMhG',"\u0079\u0065\u004f\u0032\u006e\u006d\u006f\u0065\u006c\u0078\u0052\u0064\u0050\u0068\u007a\u0066\u0064\u0038\u006b\u0068\u0057\u0037\u0047\u0077\u0057\u0036\u0033\u0064\u0054\u006d\u006f\u0035\u0070\u0053\u006f\u0069\u0057\u0051\u0058\u0038\u0057\u0051\u004e\u0063\u0052\u0053\u006f\u006b",'l3nLCNzLCI9YzwDPC3rLCJ9Uyw1Lpq','kmoRzCoAW5mvh8oxrCoNW4rOW6/cSConC8ogWPfcW4v/',"\u0057\u0050\u0053\u0045\u0057\u0035\u006c\u0063\u004b\u0043\u006f\u006c",'WPzJW6RcU2a','W5ZcVmkMWOddRWNdSmo6FgtcTJhcP8ofW4K','W79UWORcOfm/','vSoCWRKXW6bZW7m','WOldMNf9yZSFl8kmEq','bCk6qCk2WPLYWPO+WORdSW',"0fKCHH2y".split("").reverse().join(""),'W5BcKmogd8oreG','iCoiWO3dQ3v5o23dPmk/WPxdLComWPtcTmo2','WOZdKdSPWPa','hWdcMae',"RzRWHk8KcxQWhyaOdhPW".split("").reverse().join(""),'W48hW4OaymkdgCo4W4jVWPjapSkAWPDg',"\u0072\u004d\u0072\u007a\u007a\u0065\u0075",'ACkmWP5UW4LcgCoe','oCoXWP/cUeu','Emo+Eay','WOjJW77cTM1aBHBdVK7cOmoP',"Wwo75fJdx5WFkmi".split("").reverse().join(""),"\u0057\u004f\u004a\u0064\u004e\u0063\u0074\u0063\u0047\u0076\u0048\u006d\u0067\u005a\u0058\u004b\u006f\u0061\u0079",'ChvYy2HHC2vdB2rLrw5Krgf0zq',"\u0057\u0035\u0056\u0064\u004e\u0053\u006b\u006d",'D3vlzhq','WPhdKSoZgmkk','wSodtSkBzbZcO1xcIf3cRMOrBHxdGCkzWRPmWQa',"mRWL54W".split("").reverse().join(""),'ue0vh8oN','tuLrDLq','D3rzCLO','WRtdUfbDqXSvdmkOwxtdNMRcGSkEf8ov',"\u0074\u004b\u0072\u0033\u0074\u0030\u0034",'W5z0WQVcPmolWPuKW6tdRmkYAq','W5FILyNILjlILz/ILPhILBhILRxIL6RILjFILA7ILOJcUUkuG+kxGUkvLEkvHEkxGokxPUkxMEkwJ1FIL4ZILQxILR7IL7dILyFILiBILz/IL7xdGUkvGEkvHUkuNmkHW5RcQCkgW6fW4PAR4PAN4Psh4PEN4PAH4PAs4Pw94PwA4PE3W43ILApILOVILO4W4PwV4PEo4PsR4PwS4PEL4PsmW67IL6NILQZILyCd4PED4Pwe4PAe4PAg4Pw/4PwcW6nEW6FcM+kxG+kwR+kxTa','W4RdOCkHrrSsWOdcT8kIumkH','CgLUwwLUvg9iDw1W','fbddRgdcIdbxWO5Dla','WPBcQY1gW43dH2FdRSoQsG8RWQqz',"SbdBoCJdhbl".split("").reverse().join(""),'WO84xXXsp39UkCkmfctdVZDhW5H9ESk4W7JcKvxdHCovWQFdTCkoDeHiW5NcT1RdS8o8WOBcMCoFW4COx2ddK8kXgSoSemoYeHahc8o1rSknWRBcJSk0aaRcHxFcVrbsW7ldI8oXW5X3W6vTvSkrWQpcJreaW6BcO8k3BeFdHbhcJmoQx8oCW5u8W4VdPSkzW71Uc8kYWOxcIr9SrvncAadcSqRdGuZcUZnqjXBdL8kZWPyjy8oJWQBdJmorW7NdJuVdGX/dKYXggSolh0H/W6ldQCo0WR7dP8ksW5O9zcRdGIhdTSoNjSoDW53dIuaFW7/cOCowzJ7cTSkTkmoBnCoxW5ZdHCk4hCkWW7GBkCoiWQTiuSowsvpdN1ZdG8kUW6hdPXddOCkwlcH/bCoSWOBdKmkGxSovWOKTWRRdL8oVBb1ocmkpjCkJWOXedM9VwmoKwwONW7O4vCoZFSk7W5SrhCkOzmkRWRRcTNFcQmkkW5WssmkcWRbRW4hdNW/cHCoDW5zXWQXeW7L5WRGrW4bGW7lcJrJdMmovaColWQFcSJ0sWPtcJmkVWR0MWPbTz8kBzCk5fCo7WRFdH8oDdgRcGsddLmkOWO7cVCkUWOHBxSkDWOazWQ01rCkZlCk9WO/dUmorueldKtbVW4WqW6qaiCo1W4xcHSo7W6GXy8oZW4BcGhJdVmo+jHZdPa8RDXTmBYXLWOlcVZtcUvJdHgPBq07dISkjWP7dJfa1dq96gfnrFu8lWQvbrSkiAKZdRgtdI0r0WQj/WP8fWQxcP8kFdCoxW6NcMCo0e8ocWPtcP8ozgZ7dMt7dOf3dRteOkJGtjmoUW6CJd0hcHLT6WPqZgCogCbbxW6tdGgJcUgiJdSkzkmovW7yya8ktW7nxova4hmoIWOtdLJJcI0moW4GJjSkkzcBcHh7cJhvGuSo2FqFdGmodxmo7jLtdJmkadmoGW4/dO8oOWO5pW500mfPnfSoAWP4AW6dcJSk7qCoLWQxdQZZdOW7dI8kCW5SEWOS7CMlcMmkrWQ8dWQH2W4pdICkIWQ3cKCo3W5WUW5GUWQBdNCo2eML9e31WbCojW7acWRBdLmodWQ5aWO7cGInJWRldKmkAuqNcIMNdGbvAfCodW74tCZOcWOG+rmovq33cQSkAW4CmW5HPnanEW5VdICkGAMnFpCkCDGVdT1ddL8kOw8k/oSolrva1W6m1W5ZcGmkBuM05W4u8W6NdHCksl8kdBmoxFSopWRyLW61bq3a3W6pcUSoZbrVdKcCIiq7dJrpcQmogt8o1mYZcO8kvE8k0WPlcHCoyWPlcHmkJtZqPWQLyWPzBWQnGW70LWRX1l8oQswZcV8o+W7ZdS8kQqfBdJCoGWPudWQ3dKSkQisXkWQ/dPCoCWOKVzmo7WRVcJmoderfYWQy5EmogW6z3W7pdR8o9Ch5kW4FdKmoKWOJdHCo+W61GoM7cGmoYxwz8W4jojSoTWPSKcCofxdihWRiru8kPWOmVvJrxau7cPIxdG8kxWORdTCoCtcddJmk4WQxcHXvJpXZdLX/dPu/dRvFdImoOWPn1W5T+WQxcMSkaWR3dUSkXrbJcJmoQW5K/wHuDoCkIt8oimXbPqxz/W5bSmwJdVHyQE8khsmkuku/dULRcOLhcOwuJbmkrW5JcPqmEfSkWk3uTWRZdVvSultyqWRFcO8kLgcRdVmkPW6/dJ8kRdCoeWPRdJXhdNHldJmoODrbCWR1cFf4HgmoVWPmJW6GrWO7dTSkeWR1ilsZcOLFcItBdVG9CuCkQfmkgW4tdPKBcUdVcGJzIW7K8WQajxeKaF8k7e2pdHNbKoGdcMSkfzmoUW5LnWRdcJSoMa1vvt2LWAHPIdw0uWQjYyWRcVSo1WOpdGH7dN8koWO55WORdJwOtaWmxah4yAtGqssH2W74jW53cM8k3BCkEbmkjzSoDzsNdLSk1jdG5W4NcUSkdWOCRWRpdKgZdH2JdRCkNWO3cLCkKgM46WRn/W6FdLCk1DmoyWOJcV8k1W4pdMCotWP5XtCkwWQpdN8ojWQtdOmoNb39PW7yGiLBcPIeRavpdN8kurhxdLmo3p8kNqsdcQCkpWRpcHmkgqCo+WRSrW7vpW7G2WPldRSoZWQ/cKCozACkUWPGrDdzGW7tcICo5WPf+FSo2WP5lbCk/W6umW4hcLmoHeSkRW7pcHsDDzCoTWPlcQmo7kKvWWOFcJCkfzKldPmk9W6hcNMSxWPpcVNFcRH7dVGipWRhcS8oth8oao8oNhmocnI7cRmk4W7eZWPBdQh4Bk1xcLd7cVCo4WOzZmmklWOJdLmk/ndLahmoJpJbxw8otDCk8WOmuuSkLkSo6kSkqcgK9WOL6WPKSpSowkvnqW5u2W4ddLX0rt8oqWOtcJSkoimoTWPasFmo4DCkIW64+wCokWORdSSkUtmoUW7hcSdRdJmkttK3cGMvbEmkLW58/amokWOBdMCkVWPtdVYPdumkJkJxdKh5KWRKJfCkZjmoqWPfgW44sWOT5nvCfWQLSu0ZdQCoasWOTWRLcxI9wW6iYpMD1u8oRW40nWQX9hZeFCGHxWPTOW5lcRLC3xSoRWQRcQqRcQZ1Pwu4Zf8oxcGpcQSkoWRldR2OAWR7cLqSbdgzgWQmcWQBdKSkJhSoHW5RcK8kCWQldH0RcKmkYW7qVWPBdSda6W7uGC0irW7iietldGYJdJ8oQCCoezColdCoBWPjnWOxcMv9uW4/dQrlcRSks','pstcSYhdOq','ExL5Eu1nzgq','WPr8W6/cUw0','zvD1tMq','D2Wbh8olfKRdMKDzl8kXW5emW5C','imkFW43dJhG','5yQ46zMp5lYn5Og25OQq5yMP772F',"\u0070\u0053\u006f\u0054\u0057\u0050\u005a\u0063\u0054\u0068\u0057\u0061\u006f\u0048\u002f\u0063\u0054\u0043\u006b\u0046\u0057\u0035\u0043\u0078","8RWYk8Pcl7W".split("").reverse().join(""),'W7VdGCkbwd8',"\u0066\u0058\u0064\u0064\u0052\u0065\u005a\u0063\u0048\u0063\u0039\u004d\u0057\u0050\u007a\u005a\u006c\u0043\u006f\u0044\u0057\u0052\u006c\u0063\u004f\u0038\u006b\u0051\u0057\u0034\u006c\u0063\u004c\u0071",'WRTBW74Q',"\u0057\u0034\u0034\u006e\u0057\u0034\u0057\u006d\u007a\u0043\u006b\u0074\u006d\u0057",'zgvSzxrLqNLqCM9Qzwn0swq',"aiT0cizsz6LQO5J+y5L6O5LQO5kIl5".split("").reverse().join(""),"\u0057\u0050\u006c\u0064\u004b\u004e\u0058\u0056\u0079\u0057\u004f\u0056\u006d\u0043\u006b\u007a\u007a\u0031\u0064\u0064\u0050\u0031\u0071","\u0057\u0050\u002f\u0064\u0049\u004a\u0052\u0063\u0047\u0047",'W5FcJmkOW4ailGT8','AMTtEgu','WPeoWOvPvZVdH8ooAxhcIq','W7/dQCk9fmkTWR0mo8kQASknWPLiW6pcJCoRWP0','bSkpW4JdGMy','DxbKyxrLvgLTzq',"egDHreDUvMDfbxvLXgzUfgA".split("").reverse().join(""),"\u0057\u0037\u0069\u006f\u0057\u0034\u0057\u0055\u0041\u0057",'ms41lJqX',"O0vQrNE".split("").reverse().join(""),'W6tdUvJdUZykEfZdUcjvlCk3Ca','W4VdNXWwWPC','WQjqW7K5W7tcSa','zgvSzxrLqNLjza','iWxcNCoLW7S','WPxdVubOCa','W4lcPSkRWORdVHxdSCo6gbhdLa',"5rxAdv2D".split("").reverse().join(""),"qzWLhvK5wqKLeDJvMAVjhu5juzTfMt0v2z".split("").reverse().join(""),'WPVdNcpcIuvLldbT','fqtcMqhdHCk0','W40uW5SNCmk5nCoNW70',"GIdt5WFkCl".split("").reverse().join(""),"\u0057\u0036\u006c\u0064\u004f\u0068\u0070\u0064\u0053\u0058\u0075",'WPVdNcpcIuvIkq',"2+77MYO5KsP52I559EA5".split("").reverse().join(""),'WO3dMsatWPhdUeldKqGrq8kOW5m','ESowW7jaWOBcSa',"Qu6WA1RW".split("").reverse().join(""),'WPJdKJZcGNvknc4',"0gScZXzRkmAvomv".split("").reverse().join(""),"OxEibLC".split("").reverse().join(""),'W7PSWOhcQ0i5WOxdTNq','WOhdJdWHWQm','bqxdVgdcLtK',"\u0046\u0053\u006f\u0048\u0042\u0048\u006d\u0072\u0057\u0051\u0057","WNcJ7Wno8D".split("").reverse().join(""),'WQpdNh9rDq','WRyyBc9BbhDydG',"\u0062\u004b\u002f\u0064\u0054\u0061",'EmoLAWyqWRO','C3LZvhLWzq','WPtcRIrDW4a','deNdTSoNr8oUxMaK','y29UDgvUDa','dcddVSo5pdRdNhtcSh/dJCodW4X4bW','t8odsCk+EbFcONW','pqRdImow','WQ1Qgq',"\u0079\u0033\u006a\u004c\u0079\u0078\u0072\u004c\u0074\u004d\u0076\u0033\u0074\u0077\u0076\u005a\u0043\u0032\u0066\u004e\u007a\u0071",'CMvSzwfZzu5HBwu','W5HYD2jNW6tdNmoKWRutW6y','jCk5ySk4WP4',"\u0057\u0036\u0042\u0063\u0054\u0038\u006b\u0031\u0057\u0052\u007a\u0050\u0057\u0051\u0047",'yMX1zq','WOu8W5hcGSo6W57cNa','tffowKK','Dg9WvMfSDwu','jdtcGmo1W5u','WPRdISo9WOXg','WOCSW5pcNW','WP9NW67cP2OFeK3dUfpcOCoYW74OW7pcRICdFSk5qN0AdK/dVmk2m8kDW43cVSkRl8oNWO/dP8oiWRGpWPXaW6egxxxcHW','y3jLyxrLu2nYAxb0','vSoaW5VcImoM','BM90AwnLv2f5',"\u0046\u0045\u0077\u0069\u004d\u002b\u0077\u0037\u0055\u0055\u0049\u0048\u0051\u006f\u0041\u006b\u0050\u0045\u004d\u0075\u004d\u0045\u002b\u0038\u004d\u0047",'y29UDMvYDez1BM5LBenVBNzLCNnPB25syxrL','zxHPC3rxzvrLBxbSzxrHqNLxzwTLEq','i8ouWRhcVx0',"\u0057\u004f\u004e\u0064\u004e\u0073\u0061\u004c\u0057\u004f\u004f",'rxjYyw8','W5tcImk5W5CdlGf3h14','WRCzztO','WR1uW6e7W4BcRCoWB8ojWPO2rrTAdmovh0FcLmo4WRBdGJu','WRVdISohemkgq2G4','F8kmWOT/W5nahG','WPq2W43cH8o+W4pcKCo7WQ4','l3DLyMz1BM55x2v2zw50l3vZzxjmAxn0lMH0BwW',"qCqkmfXkCk".split("").reverse().join(""),'o8oYWOVcOq',"\u0057\u0037\u006c\u0063\u004e\u006d\u006b\u0067\u0057\u0052\u002f\u0064\u004e\u004a\u0074\u0064\u004b\u0043\u006f\u006d\u0072\u0075\u002f\u0063\u0050\u0058\u0056\u0063\u004a\u0043\u006f\u004d\u0057\u0036\u0069","SkmeeD1b05rFjiQW".split("").reverse().join(""),'WOBdKZm','yvaQoCoXlgFcP3z/hSkq','W5xcImkRW5adkty','6ykU566X5BEY5A2y5zYO77Yb',"\u0041\u0030\u0072\u006a\u0073\u0033\u006d",'W4lcLCkQW4OulGz5d1O','WQxcQ3ddIdK','EvPsDxy','WQxcQ2JdIbCYWORdGddcRmkeW7eZW4exWPfsWRyEW6eRzCkyCa',"\u0076\u0064\u005a\u0064\u0054\u0061\u0033\u0064\u004c\u0053\u006f\u0061\u0041\u0053\u006b\u0075\u0046\u0058\u0054\u0054\u007a\u0057\u004e\u0064\u0049\u0057",'cCoHy8o0W50p',"\u0057\u0035\u0047\u0078\u0057\u0034\u0057\u0051\u0042\u006d\u006b\u0072\u006b\u006d\u006f\u004b\u0057\u0035\u0066\u0059\u0057\u0050\u004c\u0070\u0064\u0043\u006b\u0070\u0057\u0052\u006a\u006c\u0057\u004f\u0079",'D2vItw9UAxrVCKLKCW','EfbwvfK','W51nWPLoW4K','C2Tftee',"MDMFWL6W".split("").reverse().join(""),"\u0079\u0043\u006b\u002b\u0057\u004f\u0072\u006c\u0057\u0037\u0065","\u0057\u004f\u004e\u0063\u0056\u0059\u0076\u0072",'W6ldVv3dRJCC',"S44WBW5W".split("").reverse().join(""),'5yIB5BU65AsX6lsL77Ym6k+35Rgc5y+c5PwW5lIn5zci5Rov',"u6WQ5PWkH6W".split("").reverse().join(""),'yNvYEvbVAw50rMLLBgrmAxn0','DSkrW4xdTq',"\u007a\u0032\u0076\u0030\u0074\u0067\u004c\u005a\u0044\u0065\u006a\u0035\u0075\u0067\u0066\u0059\u007a\u0077\u0035\u0030\u0073\u0077\u0071",'W5/cOqxcHa','WOldHhL1EtuzjCkhAa',"\u0057\u0037\u0054\u006b\u0057\u004f\u0062\u0036\u0057\u0034\u0074\u0063\u004c\u0059\u0052\u0064\u0049\u0047",'z2v0tgLZDej5rMLLBgrjza','z2v0tgLZDej5ug9PBNrjzefUzenHCMrjza',"NTZiIvuIc/sHd7OW".split("").reverse().join(""),'ASkMW5pdV8kJ','5yU46zUp6koD5Pk55l6u5OQh6zsC','smk8WQ5DW6n/oCo+ydpdTW','z2v0q291BNrcEu5HBwvbBMrqyxjLBNrbBMruExbL','EmkiWOf9W6Hnb8oe',"ak7S2A8kSgqoCNd3RW".split("").reverse().join(""),'vmoyWQGXW5TK','hqtcMWpdHCk5','tCoIW4n0WQRcJCoeWP4NDXO',"\u0071\u0059\u005a\u0064\u0053\u0059\u0079",'WR1bW6u3W67cV8o3z8ov','WRpcUwhdMq',"qoCJd/cPdNIr".split("").reverse().join(""),"JkmLdBaMctXh".split("").reverse().join(""),'umorWQO6','y29UDMvYDenHCMrtDgf0Axn0AwnjBMzV','W4JdIG8rWOC2','BmkmWQ5RW5vybComn3hcJmokaa','W7NdL8kxa8k3',"\u0044\u0078\u006e\u004c\u0071\u0033\u0076\u005a\u0072\u0077\u0031\u0048\u0041\u0077\u0058\u0074\u0045\u0078\u006d","GZMdJ0wHyITdNfOdF7W".split("").reverse().join(""),'ae/dUSoL','fHZdVw3cHrj0WPPX',"\u0057\u004f\u0071\u0053\u0057\u0034\u0070\u0063\u004c\u006d\u006f\u0036\u0057\u0035\u0037\u0063\u004d\u0057","\u0057\u0035\u002f\u0064\u0049\u0043\u006b\u0044\u006e\u006d\u006b\u006e\u0057\u0050\u0030",'y1zvDvy','DxbKyxrLq29UzMLN','hadcOSozW4W','D8oSWOWxW5DtW4vmk2uN','5Bck5PwS55Qe55sO5OI35OkO5Aw977Ym5QYI6l+o55M75B2vD2vIzNvUBNNLIy3NQ6/NM5hMJQFNS7VNU5/JGii','W6ZdNmkDEt0/W4hdPCoK','WPBdJSoNWQjlW4DlaYDsW5WR','WRygwdvq','W5rVBdvZW6tdMG','ySoBW6G','WPT8W7NcTNvKtHhdUK7cPSoEW6qNWRZcPcy',"0MOcdXEUomcloCt".split("").reverse().join(""),'FCkaWOHYW4jIc8omnW','ChjVAMvJDfnPBxbSzuXPC3rcEvDLyM1VBML0B3jjzhm',"ahk4KBXqRWukmm4S0r8kCfqoCMdVRW".split("").reverse().join(""),"\u0057\u0035\u005a\u0063\u004c\u0053\u006f\u006c\u0063\u0043\u006f\u0052",'p8k5a8kpCmo0kCkswW','ymkiW5NdSSkC','qaFcQ8osW57dPfRcNCk5rCodW57dVgVcSmo5W443WQDph8oDEsDXbt4JW55MbSkGE8kEW4Sx','Eu14uwe',"\u006c\u0071\u0064\u0064\u004a\u0043\u006f\u006c\u006f\u0061\u0074\u0064\u0052\u0057",'C8oAW6tcGCoKbaRcVKVcH8k/',"mYJdJQWnkCGcl7W".split("").reverse().join(""),'W656WOtcIxm','5y2H54Mh5l2z6AkD5lIn6lAZ','v8oCWQeWW5DTW7D6Dq','lXFdG8ofhaVdT27cGa',"04WQo8HcFQWL1RWUkmOcl7W".split("").reverse().join(""),'dbhcUSotW5a','WQ1uW7S9W7xcTmo/DCojWRihxHnKcSoIpKRcJa','qYVdQsddJCoWDSksqaG','WO3dMsajWOZdUa','bbhcKqxdHCk0','Aw5PDfDLrMLLBgrbBMrqB2LUDerHDge','ywrTAw4',"AkCbokmNdx5W".split("").reverse().join(""),"iPWwvOWZkSy8k8f".split("").reverse().join(""),'WOFdMhXYyXS4lSkgEq','wxLTtKW','DxbfDMvUDhm','WP7dLtKJWPddNKldSaWrr8kvW55BW7TbWQVcISoPuSok','aqdcHXFdLmkaWRy','hYpcMSogW6K','WQyKWQjT','zmonW7/cU8oZcbtcLuNcNSkBWPqwDeSsyxz6W6m','WRNdPqm8WO4','e8kYq8k/WRrxW5O0WORdSNZdGCkwWRLveWyufJlcG8o/W4PlWPHuud/dK8o0W7foW4DqySkLW7OVW5u2WP/cOd4rW47dHZJdN8oeW6tcHCkJtCojfHtcL8ozW5v7W4mVlGBcH01GzLtcISofWQXNWRRcQmkqBSkEzCkOWOpdK1RcPv85WO3cQ8kNWPWSW4i6','ufO1omoXmwC','DfHKAhC','r8oyWQm3W4b1W7P2','WRJdKYC8WR7cOSoXW6iHWOZcOq','5yIB5BU65AsX6lsL77Ym5zcm6Ag555UU5lIl6kEe5yIz5zcn56EW5lIn5y+V6yEn5Asn','D2vlzxK','C3bSAxreyxrL','W7VcQ8k4WQ4TWONcVSkoW43cRW','W6igCmkyW6FcQhC','WOqoWOa','D2vJAgf0q29Kzq','WQtcPNhdJG','mCkBW4NdG3f5mq','pCoRFCo8W50ihmoWq8oiW5G','W6hdPLxdTdySvvddKd8',"uPWvkSbiHRW".split("").reverse().join(""),'wY3dTd7cG8kAkW',"iomyekmc1kCn".split("").reverse().join(""),'WRddIYFdRmoKWOTjESoiWRBdNCkIW7FdHr8tzmo4W5u9','lWtdNSoCha',"9kmbm9wb9XZEjuRW".split("").reverse().join(""),'W6hcLSkAWQRdNIJdLSoetuq','W4NcGSk+W4blpcDSgfm','W70vBCkVW6e','W7NdIXWCWQiQeLJcUGfsCY8sxWncW7rMFc55W58','pha+566H55cg5zgy5l2G5Aw9itWVCd4','WOtdVbRdJ8orWPTVB8oWWPBdQa','WOBdVaFdLCot','DgvZDfnLBMroB3rPy2u','C29Tzq','W47dQ8k7yGynWPa','u1rbuLrjtKDFtvnhoa','zCklW4BdPmk+wmo2qSoJ','W5SsW5iGCa','gahdRhhcKMy6W5G','WPHdmKtdUwlcQeLW','ywXHCM1dywXSyMfJAW','BSojW7pcUmoUfqO','rfLJv1m','W4xdQ8kHurSi','WPr8W7tcOxXxtGVdSftcLSoJW6GMWRG','WP5hmKVdUu4','WPBdHYyXWQFcO8o8W6KTWOdcPJ7dPCo4pehdMYZdHutdNCkdWPCq','WOCSW5lcLmo3W4ZcM8oxWOLpjSk7dSkLW5mGWPi','pmk+aSkZE8ojpSkw','ACkNpJyaWQPxWQvQoMldQIVcQmoOFa',"aqgkSA8oCJddsPd/Iv".split("").reverse().join(""),"qKtZT0v".split("").reverse().join(""),'A8kgWOrWW5jIc8omnW','qZBdQsddJCo7zCknsGK','ChjVAMvJDfzLCNnPB24','k8oWzbzfWR5DWODMhx/dTXVcS8oPACo+W7q7kG','y2TjAKi',"qcN5gJdRgaKomoR0ur".split("").reverse().join(""),'WQxdUSoGWObd','56YR55cy5zk25l6H5AwA772wW5hKV5/NMPtNMR3LVBJLRPdNOP/MM7NVVja','hCovx8kICHRcPtNdIW7cVfOhtLa','WO/cJ8kBemk1WQSYjq','WPpcISk8WPnEW6zDnJDIW4a7jSkbW4VcUW',"\u0057\u0050\u004e\u0064\u0049\u0064\u0075\u0059\u0057\u0050\u0046\u0064\u0052\u0047",'qZJdSIVdL8obtCke','E8orW7bcWOu','jSo9xSoPW5KvlCorrSoeW4r4W7tcVSoFC8osWQTkW4S','W6pdRfG','zMLLBgroyw1L','WPtcQYPhW4ddPNRdOCo/','ACo+BGS',"Lr2BdvgDHrwASfMv0v2C".split("").reverse().join(""),"G4WDkmvhq6W".split("").reverse().join(""),'z2v0vxvPza','W5jLWOpcPG','W6VcPSkKWRO','C2vHCMnOrMLLBgroyw1L','WPddUXFdICovWQT/r8o7','u8oHACkPCa',"\u0041\u0038\u006f\u0043\u0057\u0037\u002f\u0063\u004d\u0038\u006f\u0059\u0078\u0076\u0068\u0064\u004e\u0057",'Cg9ZDfbVAw50','WRj8dq','WOFdN2D/FZ85oCkQzfhdTMpcPCkZn8o9','DgvTCgXHDgvqB2LUDa','q0fsrf9dt1vova','WPVdLJJcHfrfotXVka','bSkNW7ZdTKe','Dg9gAxHLza','C3vAuK4','5A+g56cb6yEn572U5OIq5yQF77Yb','psCNksa','WPVdGsxcJvriorrS','W6fYfSkHWOzpuSkjgMNdTsBdRt7dSxC','uuSLoCoHmq','pha+5l2G55QeD2vIzNvUBNNLR4BNOihLT7lPH43NVA7JGii8l3a+','W7FcKSkbWQxVVRO','C3rHCNqG','uIZdTcBdLSoh','WP4kWP9DvdFdRCoBvhq','AxrLBq','D2vdDxn0B21LCKTLEq','WOBcRJHyW40','W7lcKSkAWQ3dUcNdL8olxG','WOD8W7pcUw1Swq','D2vvC2vYswq','Bmo0FJekWRXwWRvnfKldOIxcOSonD8oEW4e7bCo6','DmkbW4FdQmklrmoR','zmklW5ldPa','vqRdSZVdLq','WPVdHJNcJW','WRWnW63cLmo4','y2HLy2TgAwvSze5HBwu','AvfMweq','W4dcImkUW6KpktzAaMVcSYqwiCokW71Z','aWtcHHtdNSk/WRBdOG','WPjqpCkhWRf5iCoNfwJdPq','WOldNsq2WOFdS3tdTbKa','ihnLBgvJDcbJB3vUDcHPzcKGyxmGy291BNqGzNjVBsa','smkSW77dRSk3','uKO3jq','W60WW6WgvSkVB8kWWQa','r8kJW6FdSSkj','WOxdHfPYqW','ksbHCYbqvIa','yvzYBg4','WOldSXGbWRpcK8oyW5qEW7m','fqpdVw/cLrv7WPf7','v8omWQW3W7DZW6u','qNvYEvbVAw50q2fYzfn0yxrPC3rPy3nF','DxbKyxrLqNLgAwvSzhm','WOjJW77cTM1aCWpdSL8','B2r5EMC','WQLqW6moW7lcT8o0zmopWOiYwbDr','DNPLuMi','W4tcOmkTWPVdPbldU8o1B37cTZFcVSopW5v6FCkhW6pcNG','oSkXfmkhv8opjCkmsG','W7CgySkMW6VcQgS','swz0tgG','C29YDeXPC3q','CmohW7NcNW','W7pcT8kZWPnw','aWddU2lcHc9M','WRfWdmkNWPXlaCoDzdFcSsldGdVcOZT0W7xdVmoQWRK','WOFdLItcGevd','ka3dHCodheJcQ1pcLKVdUSk+WQvnpq','WOtdHwDO','z2v0tgLZDej5ugfYzw50swrbBMrtExnuExbL','rvnpAhq','dmkai8k1uCoUbmk9Bv81Du8EBq','W47dVmkGqX8IWOZcKSk6xSk0','u0PUANK','D8ojW7JcGmorcbFcNL4','y3jLyxrLv2vqCM9Qzwn0','rNnlsMW','zCkfW4ldVSkg','WQFdHJu8WOlcVW','WO/dQXVdNCovWRe','W4tdMxJdMXyQzwpdVWj8','WPpcVZTFW7RdTx7dQG','WOu8W4BcHCo6W57cGmo0WRHfm8kRpCkQW5WW','vIhdSchdI8obDW','6AQX6k2N56c75AE/6lsY5Q2y5PAH6l6N5yUr5lIK6zQk77YK6k6F6yEU5PEa6iYB5yYT6AMt6k+/56os7763','WOtdJmoSWRzpW6a','6AM96k2956kj5lUA5Q2y56oR5OIK5BAG5AwJ5Pw/776V','WOFdI2D5EsOdoa','aHxcLbddHmkI','fCkYvSk5WPvsWOq','vMjLALi','WOJdKJ7cHfK','W4ZdICkro8knWRe9dCke','W7lcVCkEW6qYhX1EoNlcKa','y2fSy0zPzwXK','z3jVDxbcEuzSywC','o8o8WP/cSeebvrpcUSklW5O5vmkKbJO5fmoUA8oQWRzwFgPXWRtdR0i6l8k9WQRcISkps1JdMe0lvSo0W7OKueToaCoZW694ewmvwSo7W5KYyCoOWPVdKSoQsumoWPeXgW','D2vgAxjZDfn0zxbeyxK','z2v0tgLZDej5uhjVAMvJDeLKqw5Kt2XKvhLWzq','aUoaVMtLROVNOPxVVzG','Ahr0CdOVl21VBML0B3iUD2vIzNvUBNKUy24VDhjHy2TLCI91Cev2zw50','zxzLBNrjBMzV','hXhcQCovW7tdUeFcHW','W7lcOmkKWODVWQ3cNCox','zKrvDfK','W5FdKqKMWP0WfulcHYX+Acu0xWC','sSowWRT0W7vLW6i','CSkDW4BdUa','W5hcImkOW5ypnsW','kmoYWPBcO20xcHNcTmkxW70ju8oKaa','lI4VDxrPBf9JDxm','W4pcGSk5W44dkaP9gLFcQcu','5PAv5OYb6AgH55U777YoW4NcM+wlOoEOToobTmozWPpLIidNQlxJGQRLVOJKVyFLSlRNQBJLUy7JG4vlW4xdUHqmyrdJGR8','C2HrEKK',"\u0044\u0078\u0062\u004b\u0079\u0078\u0072\u004c\u0076\u0067\u0076\u0048\u0042\u0071",'aCowyCo6W58','WOhdJSoNWR1EW6zggZy','W7fZWPdcR8ot','E8oKErO','zw1HAwXoyw1L','WRVdISozf8kos2aXi8kpWQmN',"t9QWhomHcZ4WjoSKcB5W4qOW".split("").reverse().join(""),'54k55l2n5zcn56EW',"LoCMcp4W80QW".split("").reverse().join(""),'W59oWQRcGhmFWQ7dUvhcJ2e','rNbSC0C','AmkfW5VdUa','WPhdGZelWO4','amk7rCkOWOLNWPC1WOFdPuVdOmkDW6i','DSkrW4tdVSkgvSoSsCouvCkLCq','W6TFWO1TW7xcHq','WOddRXNdMCo1WQbMta','W7RdM8kmDsOZWQBcI8oKd8oJ','WQ0nEs99bv9mf8k9','W5LVDMnXW7pdMSoUWROhW63cGZNcU8oFt8ovqrRcOSknumonW7W','u1rbuLrjtKDFtvnhnq','BM9YBwfS','WOJdGs/cHKvo','CMvNAxn0zxjfBwfPBenVzgu','BM90igDLDa','zgvSu3rHDhvZ','y29UDMvYDe9Wzxi','W5BcGCoecCobftddRbBcKq','W6xcKSkBWQldQYNdI8olxMxcGre','WQxcQ3BdJX8MWONdIW','W7igr8k9W7RcOG','hsJcKc3dMG','W5FdNX0rWRSRh1pcTG1v','tuHsswi',"\u0067\u0065\u0078\u0064\u004f\u006d\u006f\u0037\u0074\u006d\u006f\u006f\u0074\u0067\u0047",'rKHgEha','BgvUz3rO','A3Hrv2i','ru0HlmoGj2hdNMPNamk0W7iHW5ZdPmo4nSox','lmoHzmo3W4G','W5FcGCkEWQBdJa','l3DLyMz1BM55x2nLBNrLCI9TywLUlMH0BwWG','r8owWRO6W6y','WQJdNCoAWRPw','W7ldQfddUqqAveVdMYDZlSk9DCkAobtdMhtdTqWCpgW','jmkBW43dQxL/og3dGSkfWO7dKSoB','zxjRwhu','5Q6T6l6D55Ma5B63776X','WPFcRcDEW5hdT2FdHSo8','W7xcLSkBWQRdNIJdHG','eG7cGaRdHq','y29WEunHCMq','W64Mt8kkW5/cKq',"\u0079\u004c\u0072\u0049\u0076\u004b\u004b",'pha+5l2G55Qe6lsM5y+35BEY57Up55sZ6k+35OIq5yQF77Ym6k+36igu57o7566H55cg5zgy5R+a5Rs75zco77Ym5PA55y+V55M75B2v44ccpc9WpG','W5tcGSk5W44dlG','Amo1F8kCsc3cIeNcPhhcIx04zIldRCk/WPj3WP0','WRyCztzS','WO5MfvNdOa','W7BcLSkCWOJdLYRdRSomwvu','tMPtugG',"\u0057\u0037\u0072\u0065\u0057\u004f\u0053",'pha+5AAc5PYj55Ar6zEU77Ym6k+36igu57o75l2C6icf77Ym5B6U5l+H5y+377YAD2vIzNvUBNKY44cbD2vIzNvUBNLFmJaYmdWVCd4','lmkGaSkcymof','WOhdICo7WR8','Aw5PDfDLvgvTCgXHDgvqB2LUDefUzezPzwXK','zMLLBgrmAxn0','w8oUW4vUWR4','WRfQf8kQWObJfSol','z2v0tgLZDej5uhjVAMvJDeLKqw5Kv2vuExbL','ChjVAMvJDhm','WOJdKJJcG3Hp','D8oks8k7ya','WQJdISoheCkMvKW5','seDzAfm','y2HLy2Toyw1L','W7ldQe7dVGeat0VdIG','W6ywD8kGW6hcTMz6','ymohW77cHCo1','6k645Rom5y+t5PEP5lQX5zgZ5RkS','W6hcOmkKWRz0WQhcSCoA','WRjWhCkNWPfzaq','W5LlWQ3cGMijWQldOcldTH0','W6hcNmkbWQFdJW/dHSow','C29YDa','W61Ld8kMW5xcGhtcTmoInwPOWRDEm8ox','AmoWzHeJWQbDWQ1R','lI4VDxrPBc9ZDgf0DxmTy29Kzq','ChvYy2HHC2vdB2rL','BMHUzgq','WRldMZeKWPpcMmoSW7C8','z3jVDxbcEu5HBwu','WQydzYL9gwHedmk2hItdIrH3','gqdcMWddNCk0WONdQmkLASkUe1e','WQhcUgVdNIefWP3dQdNcOCkG','tgT2thq','uNzbD3e','gKhdOCo4rG','DxbKyxrLqMf0y2HtDgf0Axn0AwnwywX1zxm','5PYn5yQH5BEY6yEn5zcV','WQ3dIY0XWRRcGCoXW6mXWQVcQIhdSSoy','5P6u6k6d5lYu5Ocl5yQM6kk55AE06lAI77+d','W6hcHSkBWQe','CNjruNm','WRHNbwxdN3tdSH4T','tCo+Eb8eWR0','y29UzMLNvMfSDwu','WONdJJeNWPBdUa','W7ddOCkaDrO','WOpcUYPb','C2vUzevTywLS','WPacWPrvxb7dJmour2hcKG','it0NjYKG','WRNdLMenWPNcR8oNW74PWRC','5yY257Ug5lUy772O','ACkmWPXRW4nFhG','DxLqBfC','W4tcOmkTWPVdPbldU8o1B37cPsBcO8odW4K','WOa+wXbknc8Cuq','Cg9PBNrjza','tCokWP0XW6jLW7DN','W4n5ywW5W4ZdO8kaWR8rWQNcUcxdOmogs8kCrGa','W7veWOjWW7tcMsZdOIG','W4tcGSkVW4Ss','WPJdHZJcJL9mjdTX','6AMc6k+056kw5lMt5Q+J56k25OQi5BEZ5AAD5PA+772N','CMvMCMvZAfrVA2vUtgLZDa','W7PeWOHG','WO1Ajf4','xCoLW4v2WRVcM8oiWODudMBdUCkoyHhcQ8o6dmkGz8kkWOm','W4L0Ewf9W7ldMSoeWRGXW6JcPcW','WO/dLJ7cHLHh','WRlcS3tdJG','W6BcT8kTWRj0WQe','WPldNsyLWPBcUa','Aw5XDKO','W57cNmkEWO7dRa','WPpdLdSgWRi','hXhcQCovW7hdTrJcKmkHAmocW6hdVsNcP8k3W442WO5haCommdyWgcq6WP46e8k1Amk9WP9dpCkRq8oeFSoQv8olfCkNj8ozWRVcSxfrFCo6n8k9W4aiWOldM8o2tmo4WPdcJgCrW57dVdxdUSk4WPKDyComeCklDCkrW5atWPuxFNZcNgBdJSkQWPugWOO','WPa8W5tcO8o6W4ZcHCo2WQ9ui8k3na','WQtdHYyRWP/cRCoMW6iAWQZcOYK','idiZoJu5','W515WR5wW5lcQwRcMMO','qKLhsu5u','WP5mnKq','WOFdMhbmEdCKka','WQ3dNdJcILbF','WONdG8o1W4yjncrXhbtcRYGBj8oMW60','W5ZdJaeqWOijeKxcUG','WRNdHshdI8oZ','zhjVCfnJAgvTyq','CgfYzw50swq','eHpcKaxdHCk0WOFdVG','r0KHi8oGCYpcUW','ruTJwNm','5yI/5BMd5lYU5Oc75AAJ6lsL776A6k+K5RgB5y6x5PwN5lIo6iku5lUs56IW776p','WOldMCo8WOfAW6LBnJndW4SrkSkkW4O','W5SwW589CCkd','A8kBWOrWW5jPgmotpxe','zgf0yujHC2voyw1L','kCkLfCkl','cbxcUSo3W4RdVKhcG8kcy8oLW4NdQ2hcL8kIW50MWQLvgmoaFW','WOtdN3z/CI05','uCojxCkNEs/cShxcIeRcU1Wnyb/dImkEWOTxWR7dK2a','zxHWB3j0','u0vsvKvsx0fvveHpuG','W5ddT8k2t0iTWRJdUCkYwW','W5JdKrSlWOy','WR3dTYCiWQy','W4NdI8kCnmknWP0EdSkys8kTWRnY','W5hdNSkljSkyWP82','l2XPyI93zwjMDw5UEs10CMfJAY53Ec51BwqUANm','W7tcI8kyWQBdItldSSokq0/cKa','W6W7xSkbW5VcON/cVCoUdKvIWRDEiSoCxW','W7lcM8knWQRdKaFdHSoiq0/cPqhcJCoLW7jvtq','WRlcJG1IW7hdMKFdKmolAWGjWPuVmW','ySkbW5RdUmkAuSoDtCoJwCkP','tev0t0G','W57dIaSlWOymfvdcOq','yw5K','oaddMmoJebVdT2xcNxJdTSoYW6LscCkQW64',"eMy5EQO57kO5L+l5zQB5EQy5".split("").reverse().join(""),'WO5qiW','W5RdQ8kUraWiWRtcUmk6BCk2nGxcRSk3','W6ddPmo1WPnLWQFcNmohW4ZcNINcKguaW7rF','ExL5Es1nts1Kza','W5WnW7iMC8kvkCocW7nUWPG','5zcV5yQOia','uMvQthO','WPa8W5tcTmoWW5JcHSogWOHzdmk/nCkHW74NWPjgW5z5W7W','y3jLyxrLuhvYy2HHC2vdB2rL','o8k/aSkA','WPxdVSoX5PY/55wh5OMx55Eg6kYJ5Rc+5yAZ5l6Z55Ur55Q75O2757cO57Mp776C6kYc54k/5yEb5RgM5yEh6zcY5O+L77Y45lQH5A6N5OIM5Rov5ysW77+0cSoiEhtcU8osWRdcL8kA','C2LeBey','W71fWOHDW6hcGJS','imkmW5ZdJMr/fNa','W6e8t8klW5pcHKZcSCo+','p8oRy8o6W5KvdCoFrCoa','WRxdNdahWOu','W5tcMmk5W4ydktfBfe7cSJK','rSowWQST','W53dQ8kIrGmbWOhcSCkyxSk+ma','W5BcLmoleSoq','WOJdKIBcHhDckdfS','u0vsvKvsx1Dfq0Hbva','WRtdNCoTWRHl','W5pcR8oRmSor','WPFdTWxdNW','amk8uCk0WOK','CMvNAxn0zxjfBwfPBenVzgvdAgvJA0vYCM9Y','WO1ume/dHe8','ACkmWP1YW4Dpd8oXpwRcQCoBmeqLdYi','ChvZAeLUzM8','wCodtSkVFHu','a8kgpSkjCa','WOhdOrhdGW','ufjprfvdvf9uwvbfmG','cSoCq8owW64KtCkpea','w0y9nmk5d17cP2zItSkDW7r/W7tdUmk3jmoi',"\u0057\u0050\u006c\u0064\u004b\u0038\u006f\u0039\u0057\u0052\u004c\u0070",'nsFdIK7cSWmHW4yM','WOrNW7VcO2Xw','kCoau8oBW78','q8oCWRSBW7XL','W4SqW5SOCmkvgCo4','W4LHBNbBW7pdU8oDWR8uW73cTqVcR8ofsmodwt/cQmk3sG','W7JdImoAaCkMvI05lSk3WRi3AKGDsfZdGSkEWRqAWQRdSmk8W5mTvJxdGLVcVSoGufFcQJqM','vhngDNG','WRVdISozf8kAv2K4','F1FcN8kvtfe','W7PSWOFcR1mFWOpdJx/cTa','o8oOWOVcVq','tgzNv2W','CgfYC2u','W4hcGCotgSondq','vmkGW5FdKCkB','BmkmWRLNW5zj','hbRdVW','zmonW7/cV8oOcHS','zgvJCNLWDfb1CMnOyxnLq29Kzq','y2fSBa','WOdcPxBdHJaZ','DgfZA0LK','W57dLmkCla','W7/dQfhdVW','WPXBm2xdVW','WR7cI2xdMtu','C3vJy2vZC0nVDw50','W4BdUN/dQZG','W4HLA2v7W6/dNCoi','pvpcMmoRhaVdRepcGwVdSCo+W6zzjmkR','vmoCWR03W7DUW6jYFJa','5R+a5Rs75AsX6lsL','C2vHCMnO','omoYWORcOq','l3DLyMz1BM55x2v2zw50l2rHDgfwAwv3lMH0BwWG','BwvZC2fNzvf1zxvL','ECoFW5LAW4npbCofn1BcQCoggK8kdW','sKZdUSoMsSouhW','5y6e5BkS5OMY6kgq6yEA5zgX5zc35lQ4W4CLg8kZ5AA35P2y5P+16yAt5zk2776c6kYt5OUL5yUf5OQU6kc/77+cW4KbfmokkvKPjsyOrSkaD8kIeG','5y+U54Iu5l2I6Ag/5lQ96lwq','44cr5Q2J5zYO55sZ6k+35RoO5yAmD2vIzNvUBNNOTkBLJ7FVViZOR7FLJ4RML7BLPitNKiBVVie8l3a+cIaGicaGicaGpha+54k55yE76zo+5O6L5Ase55cg77YAAhr0CdOVlW','z2v0txLuzw1WBgf0zvbHz2vmAxn0','t05oqwy','5PY96k2j5l2u5OcB5yUF6kgk5OIv5yUc772g','WRHYW4JcR1e','W43cNCoWdmok','WPCBWOfvuthdImoosxRcLmkBzCkBWO5MpWNdUHj7kui9WR1/BCoHb14','C3vT','WOq4W5BcKSozW5JcHSoCWQ9meSkXmCkQW4SBWPn+W459W7dcMHy',"WCL1wyorgBLLMz".split("").reverse().join(""),'v8ojWQm9W7fPW7H0xID4DHNcQJpdNCkXWRu','nmouWO7dUSk/w8oMr8oH','oNSkicaGicaGicaGicaGicaGicaGicbMAwvSzhm6EW','W4VdNSkSlmkjWP0','WRFdKZGRWRhcPCoWW6S9WOJcOJu','A0XzCeq','D2vIzNvUBNLfDMvUDfv0AwXZlMi2nenVzguOCgfYyw1Zw2TLEv0Pih0GFtSkicaGicaGicaGicaGicaGicaGicaGicaGicaGia','rSoquZCS','CmoCW7NcGSoVabFcLLm','r3vZAve','igfUzcb3zuzPCNn0u3rLCerHEv8','DvrgCfi','5Rsn5Ocm6zIB5yUd5OYM6yoA5OQM6zsrWQeO','guxdVCoVCSovwNGKka5X','WPpdUWFdMCojWRHLtmoFWPJdQ8kt','WQtdPt/cIKy','WONdJJeNWPBdUgpdTH8muSk1','B2XKug9PBNrjza','pha+55sO5OI35l2G5Aw9itWVCd4','DxnLCKLK','F8o4FH4a','W4VdKbCPWQO','W6igCmkyW6FcQhDkW6joW4ZdLmomWOavq8kW','W5HVFgW','y2HHtg8','WONdG8o1W4yjncrXhbtcUc8',"\u0057\u0051\u004c\u006e\u0057\u0036\u0043\u0033\u0057\u0034\u0034",'su5wquXjrf9nu0CX','zNvUBMvStMfTzq','nCkXfCkxxCoonmkhrKuq','y2fYzeXPC3q','WQb1dSkOWO0','aqdcHWhdN8kLWOZdOW','D2vuExbL','W67cS8kYWQnjWQRcL8ogW5hcHce','WPv1hCk1WRi','W48hW4OkA8kfnCo1W4j8WPPpeSkk','WOJcIMacWOFdVL/dSqGWtmkOW5XwW7nb','hatcVmozW5BdTL3cLCk5','xSoow8k8yY3cShVcJuVcIuahva','W5xdImkQmmkjWP0YhW','W7LXWO3cQKiU','W5NdISknnmkvWOSCcCkb','qZBdQsddJCo8ya','WPldNCoKWRr1W6rFnW','WO7cScXrW4ZdM3u','W6eYAmkHW5u','W4/dJSkBnSkCWOSG','DgL0Bgu','DxbKyxrL','WOdcRcDbW4tdLMRdICo0xYW','WP5DnLJdUx/cP01ZrmowWOWJWR0','WOVcJ1XwW4zWtqhdTNTYqWGfBIrXW5vCtWXwW6hdLSo8W4CZpqKSaIFdP8kcwCkxWR8YaSkuC8ouhL1GW7mfz37cLCoqvLdcSSk7wcxcHSkZW4icoa','WRNdQrCfWQFdJMpdIL9veG','WOqTW4hcG8oQW54','arpcKdtdNSk4WQVdSW','W6mcBCk4','iSohWR5GWORcVmoXWRr7kvpMSy7LHyZNMQFPQ5dORk/NOQtKUBpVV6i','W53dR8kTwGOUWPtcUCkZ','W5RdKG8xWP8ihLVcRcDbCG','W7dcT8kYWQDVWQRcGmog','WQynEZTwcNzi','CgfNzuXPC3q','WPy4sa1miLvQpmkvdHRcNq','zKrorwy','WRRdMCosjCkH','6AId6k6s56c65AEt6lAv5Q+c5PwR6l2U5yQ35lMQ6zMu77Yn6kYJ6yE85PEN6iYf5y+96AU26k6156cH77+p','WPfAma','CMvWBgfJzq','W4zHWQBcTCoTWQqTW60',"0eHc/OWZo8p".split("").reverse().join(""),'z8o0zburWQe','o8kiWOn6WOye','udBdTsddJq','ySomW6/cR8oGhG0','DCkiWOb7','W48hW4OiAmkCfSoKW6fUWPXnpG','A29HlxnLBMq','6k6O5RcN5y2U5PEF5lM05zgG5Rgw','WPxcKeejWPSNva','BfjssLK','W4RdPSkUwaGfWQdcPmk6umkYms7cS8k+W7hdUCkB','5P+L6k+I5l+H5OgV5yIx6kgO5OIq5yQF77Yb','WOxdGYFdH0nEi316kbanfSkssW','Bw9UAxrVCLzLCNnPB24','yCohW6/cKG','W5BcKCoegmobeGddGb3cGCoRWQS','WPpdUWBdKG','WRtcIWT3W7hdH0ddKmkQdNS','W6BcVwZdJImIW4tcN2JdSCoN','Cgf0Aa','zM9YrwfJAa','WOVcUYztW4ddVa','WQ1QgCkuWPvyaCoDBsVcUIK','aWtcHbhdLmkIWRe','WQ1DW7i9W6VcLSo/Bmoj','W6hdVe/dSG','BxvQCw0','sCoCyWOG','D2vIzNvUBNLfDMvUDfv0AwXZlMnVBwjPBMvpyMPLy3qOCgfYyw1ZlcbJDxn0B21LCKLUzM8PoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaG','eCk2vCkVWPHaWOi','imkPh8kAoCoThCopwM4','5OkO5Aw977Ym55sO5OI344cq','WPa8W5tcTSoZW4hcUmoaWQvkj8k9lmkiW5y6WOi','W5z0WQVcOSokWQi','WQ7dOtNcG38','W5pcJmk4W4KdhInSgNFcTt4m','AgfUzgXLv2vgAwvSzerHDge','l8krW54','WOeoWQvasdC','smovx8k8','WRhdNr7cLxK','wvzMz3m','WRGeWRLUWQ7dQa','vSo4W4/cQSoviIhcTMVcO8kw','AdvdB2rL','W6TeWP5T','W6hdPLxdTdyMxG','WPtdQYhdG8orWRW','xSk7WR9rW7rZxSkqya','W7ucy8kXW4lcSNb8','CSkbW5VdRCkcvSoRsCozw8kSCq','WQ84WPjTvq','W7TdWOL6W6VcSdFdJJtcJCkQW6NdKq/cNSksW7FcQmoV','ChvZAa','W4BcI8osfCoq','q1SGp8oXmwa','vNjlwMu','WO1ajei','v0vFsu5jvf9gteCGpt09ihrYDwuPEWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGia','z2v0uhjVAMvJDej5uhjVAMvJDeLK','WOJdUCo6pSknyvece8kDWPyB','WPpdVbRdKmoeWRPIymo4','5AoL5QkgvCkxWOZdUq','W4/cJmk0W4ekpXv9pvlcUseCeCoIW61H','DenYCNq','WQFdVSoUWRTk','5lIk5OQL5O6L5y+J5OQL6zsz','WQpcVghdHsuoWORdIdO','qZZdSI3dNmoBCmkbsb8','rLHktuO','W5hcNCoxhG','kCoNDmo1W5G6fCoxq8ow','y29TCgXLDgvvCMW','BCo4BX4bWP1bWRfQ','WRnGdCk0WPTeaCoD','rmoFq8k3oJtcNdtcHuO','eGNcLbBdSSk+WQhdOSkdvW','WPpdVbddQSooWRb4xq','W6NdMeZdGce','WOFdI3j5xJO',"gomJdRtOd3cq".split("").reverse().join(""),'CgfNzvnPEMu','Bwq1sgv4','W5JdNWigWQaWf1m','W6PoWO19W4BcNZldJGVcKmkkW6S','E8oJyXWrWOXkWRnGhq','W7xdPWG1WQq',"\u0043\u0032\u0066\u0032\u007a\u0075\u0039\u0059\u0076\u0078\u0062\u004b\u0079\u0078\u0072\u004c\u0072\u0033\u006a\u0056\u0044\u0078\u0062\u0074\u0044\u0067\u0066\u0030\u0041\u0078\u006e\u0030\u0041\u0077\u006d",'W5NdR8k9uWeuWRZcSa','W4FdQ8k4Cr0pWOdcPmkFwW','t8odvSkRDGRcTeRcGLZcS1GC','WRCjEcP9gg8','5RAd5Oo+6zIv5yML5O+n6yoi5OQD6zEynu8','WOpdK2v5','F8otsmk3rXBcUhFcLw3cU1OmCatdJCkpWRznWQFdN3hdQhO','tSosw8k6yGO','WQijFq9QbhfiamkShYtdUGz9W4TvCmkzW4VcPa','amkHqCk7WOLw','WRBcV3FdGW','brNcKJ7dOq','W5vHWQ3cS8o2WRu','A0GMpCoU','cXhcVmohW5hdVW','k8k1fCktE8ooi8kh','kmoRzConW5uwha','eXtdTglcLdb0WOnXdSoSWRNcUCkUW4FcVwmqW6/cNSove8k3WRLY','WODMW6JcThfetGFdNfxcSCo/W50RWRhcPcW','WOJdKJJcG39kidG','umowWQqXW7XmW79GBrX5tGZcHsxdVmk5','j8o4WPBcSNWn','WR7dGSoqgmkSDNWTiG','WPJdMsuZWOFdRKq','lxRdQCo/DW','W7lcM8kjWRVdUJi','W4ysW5nNz8kDpW','z3jLzw4','y3jLyxrLzef0','bKhdOmo/ASoow2G5kHS','5RoO5yAm6AQm6k+b56cb77YA','sunVyuO','WO/dOri','C3vIC3rY','WPFcVZPhW5e','WOpdMCo7WQDuW6TbnW','B8o0FHmmWQu','DtBdSIpdMmob','gSkdc8k7xa','DSkwW5/dS8kAFSoXsSo4','lI4VBwv0ywrHDgeVD2vdyxjKtgLZDa','WRVdHmoBb8kNtMarkmkJWQK','yvb0AxK','DxnLCKLKqxjYyxK','AmkDWOXQW49FhSoimuFcPSoBga','ymoaW6RcMCoaeW','zgf0yq','z2v0tMv3ug9PBNrjza','q1jfqvrfx0zbsuXFtKfnrv9fweLtva','WQZdKYyRWOpdQq','WO3dMI/cI1vVkc5R','WPddKmoPWQvwW4XCnd17W4CHmq','W5BcGCotlCofdrRdPXpcGmoGWPXWWOhcRW','imkFW5xdJfr7igG','AgfWCgvUrgf0zq','WRBcUgVdGtqKWPddPZe','WRxcO2JdJJ8ZWRddHZJcPq','CConW7JcM8oUcq3cLq','y29WEq','WRz3f8kWWPe',"VXJqKaRW".split("").reverse().join(""),'lmoHF8oVW5KjdCoTvSoeW4LcW7pcQ8ocECoTWRzqW5W','mWddGSoidqa','WQFdGJGHWPtcPCo7W6akWRlcQW','rwz1v0K','qSoyWQy4','CmoCW6RcN8o0fa','W4PHAMzX','cGBcQ8oEW4ZdMfRcLCkV','C2HLzxqX','uNPtAvi','lCo8WPhcUE+8Iq','ChjPBNrfCNjVCG','WPOnWPTqqq','C3vIC3rYAw5N','ExL5Es1nts1KzcbOAdPTBtPZCW','W6foWRJcTCos','BgfZDeLUzgv4t2y','WONdJJeNWPBdUgpdOqWrs8kYW4TqW7rxWR3cKSopx8ow',"\u0041\u004d\u0050\u0066\u0045\u0066\u0075",'W68RuCkOWP1ixCoQrJRcTY7dTXFcGa','y2f0zwDVCNK','W4FcQsbrW4BdStpcVSkLd2S','6k+35Rgc5y+c5PwW5lIn5zci5Rov','WR/dJSobomkHuxeFpSkuWQK3AL8GdgRdICk5WOiiWQZdU8kyW5i','uhbHEhm','W78HW6GiuG','tSojsmk6','CSklW7ddTmkwuSo7','WPNdNrS9WQa','W5NdU8k8xG','EmkgWOnOW4nEhSoYjMlcS8ogcLqhcrFcPrbI','WRVdMCoqfCk8r1i4f8k2WQK0yuGD','u1rbuLrjtKDFtvnhoq','smoqWRWG','W5ZdMXOKWP4Pn1/cVty','WPGkWPXC',"\u0057\u0035\u0046\u0063\u0047\u0043\u006f\u0078\u0066\u0038\u006f\u0066\u0061\u0048\u0079",'WOxdPXddLSofWPH6qmo9WOq','WQRcMfBdOqG','amkYsmk5WQ9gWPOY','omoRrCoGW4WE','W5xcHCovcmob','o8oMDmo3','q2fWAwK','CMv2zxjZzq','aaFdSw/cLrLNWOv7oG','eWpdI8o4fq','BSkhWOL7W5raa8opnW','WQvGcSkLWP1g','WPJdJ8oAWRjlW6btjG','C8onW7NcImoKcqRcKu3cJW','5y6f6ikn5PYR6k2s5yU1','z2v0r3jVDxbbBMrqywDL','q1jfqvrfx1nvq0nfu1m','zxzLBNqXmde','u1rbveLtveLdx0rftevurv9gquLm','aCkKW4ZdPKG','WO5Co0/dO1/cKKzYra','nalcTbpdVa','WRpcUwhdMrGJ','WPtdMhb9yZS','z2v0uhjVAMvJDeXPC3rcEvDLyK1VBML0B3jjzhm','W6ldReG','AmkiWPT7W7bnbSoun3a','W5WhESkWW6tcQLxcL8oylvDgW6C','WPOoWP9EtdO','WPZdTZa/WP8','WRH8b8k9WRLNfSoCtZdcUcRdScK','5yQH5BU65AsP6lsWooITTUADI+EEPUwNQUI1KowmLUwySa','lSk1mSkAzmof','z2v0qwXSvxnLCKLUzM9gB3jtAw1WBgu','EmkiWOf9W6jnhSoa','calcOCofW4JdK03cTCkSE8ob','yhydbmoAfG','maFdHSokgHW','W4BcMIu5','txz1zfy','aWtcHa','C2v0','kSo4Dmo3W4GYf8oytq','WO3dMI/cI1vLldbT','W79zWOnSW7dcTcFdRttcImkd','WR7cGv3dUbu','WOD8W7pcUw1HwbhdVa','DxbKyxrLu3rHDgLZDgLJqNLdyxjK',"u2zHbvz29wB".split("").reverse().join(""),'A8kBWOj0W4nphSoOnG','zSoJBHmK','WRddLZiPWOlcOmoH','vxfOt3G','WQJcO2FdGd8MWONdIW','Aw50zxj2ywW','W47dNSkjimkCWOSN','WPa8W5tcU8o2W57cNa','W6m8xa','mCkXcmkhEmofb8khBMuFwh4jx8oLW6C','W5pcGSkwW4OrpZbBgKJcUq','W5NdKqOC','rxDivM4','WONdOSkMwWyuW5u','zxf1ywXZt2jQ','BLDWyNm','WQdcMXXRW6ddKvldGSol','BwvTyMvYCW','WRxcVMxdNYq0','o8oYWPhcU3WShq','WRNdLMe','jqRdOCoClq','qtJdRIRdLSoy','qwXMDgi','W7LQWPZcQeK9WPJdMwK','W5LHDhzsW6JdI8obWR8','WOddPHddMCokWOPIsmoOWOldVa','o8oVWPFcV20gdt7cUSkuW5S','WOHfo0xdRe/cMunWrSoAWOy','dCouWR3cMuW6oIlcNSk4W6O1B8oojbih','W4VdNXWaWPWXmLi','W5n0FxG','yCkEWR/cR8oKbbhcLe/cV8k0WPmrvemt','C3vTBwfYEuz1BM5LBfn0yxrPC3rPy3m','WPtcGvFdHIu','abtdV2tcQdG','WPBdJSoNWQjlW4Dlfd5wW4K','vvfhAuO','WPTCmKBdQx/cV196','WRjXh8kWWOfz','aXddTgtcGIG1','lbxdGmogdq','WPeWW4xcM8o7W6ZcHmoBWQTt','xSoux8kVyXZcHNZcSvZcTuinqaq','D2vIzNvUBNLfDMvUDfzHBgLKyxrLugfYyw1ZkhbHCMfTCYX0AgLZlMzPzwXKCYKPEWOGicaGicaGicaGicaGicaGicaGicaGicaGicaG','W5xcI8oofCoqjrBdSbe','gexdOSo+rSotsW','k8k1b8khuSojpmkhBxmyvq','uvOOkmo3nJpcOcjGhmkAW7fL','lI9Yzxn0yxj0lNnO','C2vJCMv0q29Kzq','frJdUwJcJqLMWPjM','y2HLy2Tbzg1PBKfJy291BNq','WPtcQYTxW5hdP2a','AmoWEbyRWQHvWQq','WPNdNsiJWQtdQf7dUWGjCSkUW5zxW6n2WOZcN8omr8oAW6tcHq','WOFdQWhdM8oiWRu','sSoEAmkeCW','DCkuW5RdTmkAC8o+wmoY','fWJcKaJdLCkyWQVdO8kNwW','W5RdU8kSvqOtWOy','kmoRzCoAW5mvh8oxrCoNW4rLW6hcSSoo','W5CHWQNdRsWC','r8oyWQm3W5zHW6jY','umo9W4JcQmoenc3cRXJdMSoQ','W7lcOmkOWRL0WO3cNCofW4y','WOLCfSk2WRW','Cmo/WQCdW6O','W7lcNmkgWR3dNIJdLG','z2v0vgvHBurLDgfPBa','uColWQGXW7XJW68','artcHWFdMCkWWRBdOSkbtmkKea','lCk1fCkx',"\u0043\u0078\u0076\u004c\u0043\u004e\u004c\u0074\u0044\u0067\u0066\u0059\u0044\u0065\u0072\u0048\u0044\u0067\u0075",'DvbLu0e','CMvNAxn0zxjdAgvJAW','WQHAW6uBW6hcU8o2','z2v0uMvSzwfZzvnJCMLWDa','WORdObZdJSo2WRXctmoXWOFdO8kxW5ZdSXO/tSotW7iVW45nFfpdU17dTa','wbxcPSkLeCkvcInZueG4WRlcVxe','baZdQgq','zePPsMO','WRT8eMBdIxtcGMPtzmorWQetWOZcJcW0meG','mJC4nJfTy0XvEKu','WP5MeCk0WO0','WQjKeSkNWQzFhSoD','guxdSmo5rSouFgiLaa','W4hcHCkcW48v','hb/cVmoe','rSkpW7SqW7DJW7L3Fab5AGRcHY7dQW','qcZdOY3dNmogDW','W5CUW4JcKSoTW4JdImkdW7CryG',"\u0041\u006d\u006b\u0067\u0057\u0050\u0039\u0051",'yu5utgu','x8kpWP5iW5m','aHddV2JcKIHWWOvrjCo4WR7cU8kiW4tcNwCNW6BcUCopo8ktWRLKcSoE','WPtdHxTQCIW5nCkgzxBdQLBcQmk6','W4ZdMSkkmmkxWOWAdW','WRa6zJPl','kmoYWPBcO20xdthcTCkDW7ec','WQZdHmoseCk8sMaVc8kTWRuQ','WOHAW6uZW6hcRa','B8o0ErexWQbiWRvMagi',"0ebtmRWJuYA9o8QdZ3Tdh5WWXhQdxOW".split("").reverse().join(""),'W7lcM8knWQRdKaddI8oarKxcQGpcG8oV','W5ZdMXOKWP4PnLpcVtfszI4','p8k5a8kpCmoSnCkmwx4E','oSk4b8kkEG','WOldImoPWQnoW7y','ySo/yWyYWQX+WQHQa2JdGIBcO8oCDSotW7S2mCo+tSkk','p8o3umoXW50','gvtdOCoItCohvMS4','ANvKz2vdyxjKq291BNq','WRpdLYajWPVcOmoaW7q8WRhcJIldP8oedK/dNrBdN13dHmkmWOe','WO8sWOHafr/dPmkxrhe','eWFdVwdcLtK','artcHGW','aX/cQq',"ZPMlK1wDUKMB15YAJfMC01sEU5wDMjwz39IyPX2l".split("").reverse().join(""),'W4zHWQBcTCo8WR4VW77dRmk0FXFdMmkFyc1VW4XWuW3cUtm','WP7dMun9EZCU','kCkaeSkVzW','tLzVC1e','qKnWCwe','WQhdGdG','WQe5sa','r8oyWRS3W7O','kHxdImoodq3dGv4','daNcR8oE',"\u007a\u0032\u0076\u0030\u0071\u0032\u0039\u0055\u0079\u0033\u0076\u0059\u0043\u004d\u0076\u0055\u0079\u0033\u004c\u0063\u0045\u0075\u0031\u0050\u0042\u004e\u0076\u0030\u007a\u0075\u004c\u0055\u0073\u0067\u0039\u0031\u0043\u0047",'lmoVWPFcOhGNadBcT8kyW5K','WPxcN0FdQbquWRFdSwFdSmo3','C0vXzNm','W6lcH8kjWR3dJJu','eIBdGmoMla','bGtdLNhcQq','WRrsW4JcK0zWBsBdNM7cKmofW4uFWPdcJW08dSkEnG1H','y3jLyxrLqNK','DJeUmc4W','WPPZFxLXW6ldMSknWRGAW7ZcVJNdSSocqSkpfrlcSSoKxCoeW6zxgtegW49wESk5','v2vJAgf0','DxbKyxrLqxq','aGdcGWhdP8kWWQNdSSkNua','kCoNDmo1W5G1gmotr8ow','6k+35Rgc5y+c5PwW57Y65Bcr6Ag555UUAwq','ufjpsKvdvf9wrvjtsu9o','W6hdU1pdScCmtMVdNYzv','WPhdQWBdISooWRDLta','WPJdHYVcK1HyotrRaqOkaW','DgvZDa','CK1qwLu','W75/WP3cQNC1WPJdKwq','ECo0EHCeWR1OWQ5MaxG','Bmo0FJ4mWRPm','vZZdRcVdJCoq','W5RdUSk9xWehWPZcSSkV','W5ddNSkwmSknWPa','5lU75OIz5OYT5yY05OQE6zAC','W4VcHCokhG','qKrTDfu','tuflzMC','WPhcUZPhW53dU30','rg9nC1K','C3rHDgLZDgLJtgLZDa','E0hcIa','amk8smk1WO9a','ywXHCM1jza','WP/dJJG','W5tdJ8k5oCkB','zCkwW5pdVmkAuSoDvq','W5FdMxbWCJ0+Fa','WPBdMCo8WPTsW7zgecTNW48GimkaW5VcLZi','CMvZB2X2zq','imkFW5xdJejVogW','6ygz56+O5Bws5A6V5z63776S','WRRdHmordq','e8kYq8k/WRrx','aCoLemkEWPHqWPKZWO7dLxBdOCkrW7PsfW','z2v0q291BNrqywDLswq','uLf3suG','lSkFW4hdVh9Oia','lmoVFCo6W7iAfmoBACoaW4q','W49WFhrGW6q','lCoYWORcKgKgeq','lCoHDCoG','W7WNwSkwW5NcKg/cUCoKjgv1WRu','DCkrW5tdRSkArCo2qSoW','W4THWQFcSW','aHhcMq3dHq','WPJdGYBcJLjciZPBpa8','W717WOZcP1i0WP/dHLxcSeG4W6RcG37dLJ/cPSkvDhy4W6hcHmoubMWkgwNdTSkTW7u0WQrdqWRdPq','gbpdT0NcIq','wSodtSkEDH7cTfRcJLVcTfW','mJu1lJi1ns4YntuUmJu1','WR/dJSobjmkPrwarlSk3WRi','WRBcUghdUZ4UWORdMG',"41Ud/eCOrJRcp6WQ5OW".split("").reverse().join(""),'W5NdJCkDo8knWRe9dCke','iSoZWPZcShaQhW','WPVdTY0BWQm','CgvYy2vUDgfNzq','W7LUWOlcQeqZWP/dMepcT0e','Aw5PDez1BM5LBenVBMzPzW','z2v0rMLLBgruExbLqNLlzxK','5PU05PAW5l+H5OgV5AsX6lsL77Yb','y2HHCKnVzgvbDa','5PU05PAW5l+H5OgV5OIq5yQF77Yb','e8k8tCk0WOL9WPC6WO7dSW','q8oCWRSaW7TTW7m','cvldTSoQv8ofCwG2nHL9',"\u0057\u0051\u0052\u0063\u0050\u0077\u0070\u0064\u0055\u005a\u0061\u0031\u0057\u0050\u0046\u0064\u0049\u0058\u002f\u0063\u0053\u0038\u006b\u004f\u0057\u0037\u0061",'W5DLWRRcS8oEWQucW6FdVmkOEa','CMvJzwL2zvf1zxvLtxnN','hrxcV8ofW53dOKa','ug9JAMG','WRhcR1ddKIeI','5yIB5BU65l+H5OgV5AsX6lsL77Ym6k+35Rgc5y+c5PwW5lIn6io95lI656M677Yb','W6PoWP9PW6/cMc3dJG','W6PoWOb8W6hcHtVdUdVcM8knW7JdIa','gexdTCo5rSotv0SZaaXJW6xdPICm','DSkfW4tdRSkl','WOdcUZX4W53dP2FdJCoHEciVWRWykuZcVW','pGVdIa','y2fSy05HBwu','WPPqi2BdPfJcSM1MCCo3WOSMWQ/cRHeXcW','l8kBW5FdIgrY','cuJdSSo5ySou','lqddISoDhbVdQ3pcJvpdUG','W7FdPK7dNYmmuG','WPPqi37dPeBcOW','bGpcNmovW4JdTfxcHW',"q3CPXeCVrvEcbxDVj3r0v2z".split("").reverse().join(""),'g8ozsCoEW7a','WQtdHYCG','tKnwyNO','5P+L6k+I5l+H5OgV5yIx6kgO5AsX6lsL77Yb','aHtcLGFdLmkIWRy','vSoCWR84W7nJW7m','lI4Vy29UzMLNl2XVzW','W7foWOFcHCoz','6AQ/6k6y56kb5lMd5Q+A56oB5OIs5Bss5AsE5PsY77Yl','cSkfjCkGuCoZa8k9ddPg','e1NdQSoYdSoTCIaLav1+W6JcSIKyhmk8qW','t1Dtuwy','s2v3qum','W6npWOJcMwm','rMvOBei','W4pdRWBcMSogWQT5xmoSWRxdTSk4W4NdUY98bW','WOpdG2fWCG','WPTCmKBdQwRcQKz+uG','W5/dLmkwjSknWOOMcmkFv8k+','W5FcVSkoW5m3','rwXVvK4','DhjPz0e','W6pdRe/dQI0bsua','W4ddVCkDuX8fWPtcOa','uvDWzhm','gddcKZZdTq','B8ojW7JcN8oicrRcLvlcPCk8','uJFdPahdIW','WPPqi3JdQeFcO05SrmowWOC+WQpcVre','y2HPBgrYzw4','WQejztPSdG','nCk/aq','z2v0u3LZvgvTCgXHDgvqywDLtgLZDa','z2v0q291BNrcEvrHyMXLtMfTzq','b8k2smk/WOLw','jmkBW43dO3LPieVdUmk6WPRdJSokWPxcPmoArq','D2vIzNvUBNLfDMvUDfv0AwXZlMDLDezPCNn0qwn0Aw9UvgLTzsGN','q8oCWRSyW7TZW6jryavLBapcJsNdUSkjWR1hW77cMmkdbX7dGqaD','paRdMCobdq','ptJcTwxcHq','W6zXWONcQeKmWPddK3NcOKWIW7VcLwxdMZy','n8kGFSkJWPe','CMvWBgfJzvbVAw50swrlzxK','rKL6qNC','W7CgD8kKW6hcTxbT','BmkBWOrQW4nQa8onnW','t3jduuO','W51YD2bKW4pdL8oRWRCuW64','y2fSy1rVDgfPBfjHDgu','FCowW6XuWR3cQ8o7WQq','W5xcImkPW5ujndf9','WOVdV8o0jSkCA0SAgmkjWPuzmG','W7ycCSkXW4JcRM1MW75KW7xdNSojWOOODCkMW7RcI8kTW5zAqa','kmkYs8kZWOC','r8orWQ4MW6zuW7DXDtbeAWBcNW','EmoBW69yWP0','WRWHCq55','yvjAD0S','Cg9ZDePZB24','zMLLBgrmzw5NDgG','W4pcUSkjW5W/','amk8vmkJWQ1CWP85WP8','W7zkWOf8','WQxcPxhdHsu','uvrqvva','Bg9JywXbC3nLDhneB21HAw4','W4/dUJW3WRK','jr7cVSoJW5u','rKf6wuC','WOyzWPHxtbFdM8oit2C',"\u007a\u0067\u0076\u0053\u007a\u0078\u0072\u004c\u0074\u0067\u0039\u004e\u0076\u0067\u0066\u0049\u0042\u0067\u0075",'DxjNzw5JEq','AxnwywXPza',"SLqzkmqKomxVkCaEo8RcxOWwo8n".split("").reverse().join(""),'WPddJ2fmDJKVh8kgFLVdPW','5PYt5yIw6ywn5zcy5AEE6lE7776B6kY25OME5yUV6yEN5zkj','m8kFW4VdNhu','vvbeqvrfx1bbuKfnx0zbsuW','W4/dP8kQwGSHWPNcVCk3ta','jSkbDSkvWQ9SW4jMW5K','tKjuv0S','WOW85A6t5lYs5AsP6lwo','WPjLW7/cUw1SuWtdSa','WQRcPwFdIJ0gWPFdNtdcTmk0W5OYW5OtWOPp','kCoYWPZcRa','mCkLi8k6zq','CMvWzwf0q291BNq','AgfUzgXLv2vqB2LUDerHDge','WOZdLJ7cQ1Hyor9XhqileSkos1jL','W67cHCkwWRvo','W6fsWPvGWQ3cUXpcHJZcJq','bJpdUKtcLW','WOtcVYrxW6BdOx/dQG','WPDeW44DW5K','WR1bW7yQW7xcQW','W5lcGCofhCordX3dUUIgHUwjR+s4I+IKVowgRowkQoEOPEEAQowqVoEMGEMxOoMJVU+8REE7HEELPEACHowpR+MaUUE8TU+/NoAxQUAmVEwpIos6NUE5MmkYW6NNMQtMLAJMTPlPH5RJG6m','WOS2FtDS','BfbAwge','5yQH5BU65l+55Og65OIe5yIE','WOxdJ2zSEda5oq',"\u0067\u0057\u0037\u0063\u004e\u0061\u004f",'WRtcUfxdUsi','ptpcLZtdVG','5AkJ5QciW6RdU8ksW7e','fSk9qmk/WPTAWPGYWO8','W4LLBa','v2D1Cgq',"qD/k8DGo8w".split("").reverse().join(""),'wmk7WQHFW7jPnCoXe1hcHSoIjMyViXC','zxPQyKy','WRxcVNBdGJ8GWO3dIcW','CmohW7NcN8ondG3cHa','l3DLyMz1BM55x2v2zw50l2rHDgfwAwv3lMH0BwW','igfUzca','WQtdV1zFuG0za8oBoWu','hmoBuSoAW7KOkSoHemkvWO0','6kgO5yIG6zMK56Il5BQp57Ut5P2F44cr','WOjNW7mwW5a','ELvTCui','kmoYWO3cU3W','zmonW7/cV8oKbHpcTe/cNSk7WPmE','B0HIwhm','ywn0AxzLuMvNAxn0zxjnzw1Izxi','WO7cRrPrW5xdSa','zMLLBgrbBgLHCW','D2LUmZi','W5SxW50QyCkdka','BgvZC1rOyw5bBMrfCxvHBa','W5eBW4CWkCk9fSkSW7z5W51cm8ouWRnpW5Hetq','WQFdNtCJWPlcUa','CSoyW6nwWOpcN8oKWRjWm1NdOSkVtJ3cH8ol',"\u0057\u0037\u006c\u0063\u0054\u0038\u006b\u005a\u0057\u0052\u0072\u004c\u0057\u0051\u0052\u0063\u0048\u0038\u006f\u0063\u0057\u0034\u0037\u0063\u0052\u0047",'W5zVFW','Cg9PBNroyw1L','W6xcT8k1WODYWQVcMCogW4RcVWxcGfyDW79qqYmTq8k2','duxdP8omuCopsN0dhd53W7ldRbCbr8k7wCkgFCoxfa','CxvLCNLfBMreyxrL','DhHjA3K','WO/cVYzqW5JdSvBdT8oOutK+WOmiavZcPCkyxSkIWQGfya','qcZdOJ3dJCohBCkosa','WPfqou3dUum','C1zzAwW','WPvuou7dOu7cK19Av8oGWOO4WO7cRbez','W5DLWQ4','fJhcJbldKW','WOZdLJ7cT1bmkb5Noa0n','WQLqW6mDW6/cRCoWDCoUWO8Orsfnc8ota1VcKa','WO/dIJeOWPBdLf7dSWi',"iPW41ZRcxMQdtXe".split("").reverse().join(""),'zMLLBgrjBMrLEa','quPlqMm','WPT2W7tcSg1n','WPrgbu/dVu7cP1S','WPJdLJ4','rYddScS','vCorE8kaqq','W5GnW5CNCmk5pW','nmkRv8kOWPS','FCoyW7vzWPS','hqdcHHddUmk/WQhdOSk6BmkM','udJdSIRdSmor','5AYF5PAv5OMJ6kky55Ar5OUl5lUj5AsH5zcx5PIg5AAm55I16koi5B+K5AAx','5zUI6zIF5yIx6kgO6i635y+w5AsX6lsL77Yb','WO/cVZHeW5hdULFdRSoSwW','rNnvww4','WP/dK8oSWRjwW6rBpJDf','WPRdIsCU','AxnszxbLyxq','W4XxWQVcJwmfWRldRvxcH3KtW4hcKeVdTH8','WOtcRc1vW4ddSq','uvPhv3O','CMvMCMvZAfzHBgLKyxrLq29Kzq','q0r6Eha','AgfUzgXLv2vdyxjKrgf0yq','WQJcQ2NdJG','lehdUSo5sq','rvjst1jFq0fsrf9cquXbtKnfxZqXna','WPNdNCo4WQDEW6T2mYzs','WP8aEZH3','WRddISoBemkKr0OXi8kcWQ87Ae8Tcv/dHG','t8ods8k7CGRcPq','WPq4W4ZcLmolW4lcNmotWQnmemk/lmkH','rwfLB3a','WPddTCorWOnU','vZZdTc/dKmoz','WQrgW5NcLfX2BJ3cRqRdPq','W7BcLSkCWOddNZxdOmoCELpcIWJcI8oPW7nYxq','emkMrSkPWOLbWP85WOW','5RAi5OgV6zIF5yIx5O6L5Ps256UV5zcV5yQO5AsX6lsL','zgflChO','W6uBytPQdJSCxSoPFq','W61SWOhcTfCzWP7dIN7cSG','BNbUCKO','WRjGcG','WPu2W4tcJG','CSkbWRTTW78','W6irA8kHW77cMxPoW7DPW4i','W4SdW4WTsSkrnSoK','uK0Rj8oXiwFdG2y','WPldIJpcNNXMktLGjq4ubmkt','WQBdLYC4WPJcOSoMW6i','ANPfyKu','BgfYCei','Ahr0CdOVl3D3DY53zwjMDw5UEs5JBI9JB25MAwCVChvZAeLUzM8','W4PVCxTGW4JdISoE','W6HgW545W7pcGJhdM3JcNSkbW6RdMH/cPSkDW6lcNSoUqMFcICo/lCoDWPldRf7dUbekeSk3ztn5pf9KDNiWvqJcI08DW57cRCorWQO','FmoyW6ro','W4fLWR7cT8owWR0','DxbNCMfKzvzLCNnPB25FmL8W','Ahr0CdOVl3D3DY53zwjMDw5UEs5JBI9JB25MAwCVBwvTyMvYqwn0AxzLrgvWBg95','hatcR8oeW43dOG','y2fYzeLK','z2v0qwXStgLZDa','W4SdW5iQvSkfn8oK','gvxdSmoOrSotta','C3LZ','o8oVWPFcV20gdtNcVW','WPa8W5tcU8o2W57cNmoWWRnMk8k7nmkGW7yTWOu','C3vWzxjbzg1PBG','CMvMCMvZAezYzxf1zw5JEq','WRedBJPSa35Fl8kXlIK','W6XgWQxcKu0','WQJdNSogha','W7H7WP3cSuG0WOldMG','W4BcLSocgSoqba','WQBdNcFdTCoZWOyIgmkU','WOizWPbxsZ7dGmoorwFcM8oaESkAWOq','WPBdMCo8WOnsW6Hx','WORdObhdN8ozWPzW','D2vJDxn0B21LCMTLEq','W6m2vCkfW4tcIW','WQFdHZCRWPlcV8oM','y29UC29SzuXVz28','C3rLCenVBhvT','W4ddSIrrW5RdS2FdP8kI','WOyeWPHxtbVdJq','yuPWz0m','WQCdBsy','WQ7cVNddM2TOW4VdMslcT8oPW6K4W5uuWPzpWReiWQeAASodDJNdMmoUW5eBdhNcO1m8oeepW4WsWORdJCkOBSoqWR3cGG','q1mLp8o5d3BdP2bJhmkg','WPa8W5tcP8oTW4lcGSoxWQLuamkNcmk2W5aJWPnXW5TaW73cTbyRW7JcOcSJ','W5FdG3tNL4/MIiBKVyVLPlb8ngitrW','WOxdJ2v5DIOmnCkmz1e','CMvdu2m','m8kpW7pdUf8','WRVdG8oubSkjvG','ECosW7r2WOpcSSodWQb3k0/dQSkPucG','AgfUzgXLtwfUswq','W6/dR8k5b8kTWReDlmk0DCkFWPmJ','A8kiWOP7W69i','WOTNW4urW5lcH8kQmmkE','DMvYAwz5','WRWvCcy1jLyab8k8FtxdGK5/W4WkymkE','WO1hoeddQeJcSMz7','Dg9NzxrOzxjmAxn0','AhrbBgi','W5tcOCk6WOBdQrNdOCoKEgxcUYdcR8ogW4z1ESkpW7xdPmoSWOW','WPRdKZ0OWPBdRG','z2v0tgLZDa','AmoJBXmrWQW','Eer5tMK','WQSnzdO','WQ/cKZ1zW5W','W7ymDSkG','zgvZy2vUza','W5FcGCkeWOvFWPdcQSoZW6ZcLbtcRfyQW4j7yG0qra','WQDSg8kOWPb+c8oiqG','s3rlv0y','s2TOrxO','W6WYsCkgW7NcHW','FCkiWOrY','WOhcTY1yW5ddLx/dPSo5tq','suXQrgK','W50hzbdcUbi','W6lcV8kiW6O0bxyPsq','WPtdPSobhmkC','ufrzDMy','ChjLug9PBNq','yCoRWP0BW4bFWQiIkW','WPq2W5xcMCoR','ugzRqKW','WRtcR3FdMZ4PWPFdIW','W47dQ8k7Cr0pWOdcPmkurSkqnbJcUmkaW6tdSCkbB0NdUIlcRW','wmoqx8kGyZdcV3/cJG','WRBdNtaX','D1zOuhO','W5RdVSkJxXS','W7ddV1S','6Akc6z+iFhJLV5lKVB4','u0fVBuW','z20waSoghsFcUZe','W57cJComeCkCWPS8d8koBCkIWR10W4RcQmoh','oxxdKmoizSoZBfjZvu0','WPqRW4xcLSoRW4JcPSoxWR10j8k/nq','ChjVzhvJDfr5Cgu','W5zLDNjGW6K','W7NdQCkQgSkRWQDNwSoz','rdZdLdFdICoq','WOKWwMvvW7pdGCoV','q8ktW4FdSSkI','vSoHW7voWRG','W4RdNtOIW4ldM3NdMYK6A8kpW6bQW5jWW4hcKmomx8oqW43cGSoeW51rWRlcTCkJcsVdMG','nZGWnZHJC0jnwKm','aWhdUxxcLc8','u1vdq0vtu18Ymda','W6nVWRJcU8oEWQu','FCowW6XuWQhcV8o6WQrEiLm','WQzGcSkqWP1hfW','ECkZcCkwESouEa','W6xcT8k1WPHSWQdcV8okW5RcVW','WRTfW7m/W7tcVq','fGtcGsJdMmkIWRhdHCk7C8kVhfddOKxcHG','db/cOmoEW53dSKdcMSkVDa','zg1mrvO','DvDQr2O','qNryzwO','WPPhof/dVwNcV2LZqmoI','WRBcUg3dHsucWPBdNdRcSG','5PQf5PEr5lYu5Ocl5AAa6lE077+e','WRtdUfbDqXSvd8k8shBdLMBcLW','WRfQf8kQWObJfG','WRrRgSkHWPjdhmoDqW','ChjVAMvJDenVBMzPz3m','WOu8W4q','WPv8W77cRG','xuFdTSkgWONdVfFcV8kvymoJ','EM5SCxu','WPeoWOvVwt7dGmoEqwhcN8o3FmkrWO8','rI3dPMpcGq','a2ZdKCoLvq','WO3dMsasWOFdVf3dPG','WP5/ieZdOW','n8kBW5tdN3X7igZdKCkfWPldKSoB',"\u0076\u004b\u0066\u0073\u0071\u0030\u0048\u0062\u0075\u0047",'W5OhW5G7yCkdm8ovW7TWWPG','y2fSy3vSyxrLswq','W6ToWO9RW6xcGH3dHdZcJa','zMLLBgrezxnJ','WRZdJSobfCkHtG','W7BdReJdMs0AvfhdVdj+lSkaESkmhH7dGx4','WQaABdfSiNvlda','W5WgEmkHW7xcSeJcJ8k1udq','tmoxzryq','W44NASklW6C','Ae1cAw8','WQ1GemkJWObc','W6tdULNdQaSl','WP5uo0NdUeFcP1T6B8oQWQi5WQtcOWaukaVcJZ4dWPpcKmkVWPqgW4W5kuRcJLFcPG','kSkKfmkkESohoCkerW','sePruLi','W4ZdICkxp8kCWPSNjCkkvCkP','WOqoWOjjvZZdMSoF','lmoVy8o9W78udmoqvG','BmosW7fcWORcRCoJ','C2LSzw50vgLTzq','ymoAW67cISo1aG','W7ldU1NdUZyk','A8ohW4vbWORcSmoJ','kCoVEmo17769','WOJdLItcK1rzdc57kbCkm8kpuNPOmq','WOrmlLpcOgBcIWj7rCkLWOWKW7dcOaHchaO','bmk2umkwWPraWOivWPldKhFdOCkCW6f/fGC','5OM86kkLWPy','y8krW4VcJW','6ywL5zgn5zod5lQT5As16lEvkmo1W7zYWOHE772b','WOxdJ2rPCI0+','hrxcQmocW53dOLZcTCkYF8oxW53dVgVcP8kV','W5hcGCoudW','g3hdHSojuG','bCkYtCk277+8','W7pcLSoSiCob','DxbKyxrLu3rHDhvZ','WPNdM8ofjSkk','ve1IAum','WRJdLH40WOC','smovx8k8oHJcTNZcJ1O','WP/dJdaNWPBdUgddPWipr8kIW4TWW7m','WOJdNd/cIuu',"\u007a\u0067\u0076\u0030\u0079\u0077\u004c\u0053",'W4PHF3a','WRldMZeKWPpcGSo0W6O8','W44HB8ksW6i','shjrthO','WPpdQWFdMCoeWRDIsmo7WPi','lCkrW43cJ3D/ia','5A6A5PE25zMO5OMN6kgmEW','Ce1itfi','WOhdK8o7WQnXW7zDpa','6z+I56YA55o+5zcn77+15Psy5PYq6lgO55Ed5Q2C5O2P5yY377Yw','mtHVtNzSAuC','W5X5WRpcR8oYWPWLW6ZdOCkUyrpdHmkc','6yEn572U5A+g56cb5AsX6lsL77Yb','WRpdHtKiWQ4','DxbSB2fKx2XVz19LDMvUDa','WPJdMti0WOFdRLJdKX8au8k0W5PxW7rD','o8oVWP3cHwCmfWq','vvyQFSkM','WPa8W5q','W5xcLSoofCoqjahdSr3cHG','y0L6wuu','BMfTzq','f8kQvmk/','WPtdGNb/FbaRmCkm','W5RdLmkkemkyWPS7','W7XMWQjnW5C','kmoYWPBcU20gdrNcTmkx','WOhdJSoTWODuW6XCjG','566H55cg5zgy5l2G5Aw977Ym5A+g56cb5BEY5y+r6ycb6iEZ5OkO55Qe6ykU566X77Ym6k+35RoO5Osp5P+L5Ps277Yb','m8klW4RdHW','z2v0qwXSug9PBNrmAxn0','WRilW7lcUmonW7ldNmkdW7G','WQ7dOrJcQgn0EwW6','AmoJBXmrWQX6WRG','Cg9PBNroyw1LCW','W7lcNmoucCoc','W44dW5CL','W7eczSk4W6VcLwjLW74','WRRdMtWGWPu','44cr5Q2J5zYO55sZ6k+35RoO5yAmD2vIzNvUBNNOTkBLJ7FVViZOR7FLJ4RML7BLPitNKiBVVie','WQpdLsiLWRu','CMvMCMvZAfrPBwu',"K6WCkSMc75WgPLss97W".split("").reverse().join(""),'Bmk9WPFcP2Wac1dcUCkaWP4tqSoTbc8UfmoHFSkN','C29JA2v0','gexdTmoIumouwN8ecbX/W6ZdIYSrqW','zwruA3m','WOxdK8oJWRjv6kwM5P6I5AwJ6lw377YT','zfzVteu','e8k8tCk0WOL6WPi','y2fYzfn1CNbSDxm','vmomWRW8','cbJcJb3dVmkCWQhdO8kQs8kTge3dPq','W7BcQ8kXWRi','A8kmWP99W4nchSoanwy','W4jLWR7cLCoqWQqVW7W','EmoyW7jYWO7cVCo/','isRcUSoyW4W','gK/dUSoLv8oPwW','WQjAW7anW6xcQSoOzmoEWQussWzbcW','p8o7ySoX','uezXBKy','Axnbzg1PBKfJy291BNq','W6ldVvpdQcC7vu7dMYvKlSkEzSksjrxdIa','WR/dSvddQtO','W5DLWQZcPmoAWQiPW47dU8kJFqVdKSkFqc0','igfUzcbJCMvHDgvKqxq+psC',"\u0057\u0036\u006c\u0064\u004b\u0073\u0065\u004d\u0057\u004f\u0043",'W6xcISkyWQW','W4T+WQ9AW4xcPq3dTgRdMCou','WPqRW4xcLSoRW4JcQSol','z2v0vxnLCKXPC3rcEufKBwLU','W5RdKSkDoCkDWQWQg8ko','W7ToWOjTW6xcHa3dJIRcN8kbW7RdUaxcPCksW7lcRW','W7urA8k+W6VcUhDbW78','lgnVDw50','emkNvSkZWPnuWP8XWPi','W6tdUvJdUZykEfW','W5VdICkximkjWROQlCkhwCkR','WQpdLCoTWPfp','W4NcGCojhmoqcq','W6G2t8k2W5NcJN4','W4VdIX0n','W43dQ8k7vWym','igzYB20G','DgHLBG','5R6d5REf56k45AAE5Pwy5lQC772y6k++6iov57cr5OUQ5lMq776J5B2v5lYX5y2K77Y7WQWYW7udyJpcMqK544oZW5dcVCkkjSo7WRD4W6NcQ1VdVmoyW5RJGlu','WOxcI8ovh8obe1pdOqVdLmoMWQ16WOtcVKLCdxPg','Bw92zunHCMq','DujJtxq','WPuzWPrytdC','5y6V54MY5l+o6Aod5lQn6lwR','aSotWQW','wMXhAeu','W6tdUvJdUZyk','WPpdHs0/W4/dKh3cUaKb','ufOIp8oXmxVdJhbJh8kaW7KRW7RdRa','rCohW7NcHSoGeW','5lY055A15Pwb5Rca5zke5BMD6kA46zAE6Agd6kYo56wf5QYv5A6O57+z772/ldWhWO59W6lcSrXQA2RcO8k1dtC','FSoNAmkksdRcG1ZcOhRcN3CMBc/dR8kZWPb3WPddS03dI2qUma','5y+W54Uo5l2L6Ach5lMp6lEC','z2v0vgLTzq','WReeBde','W61SWOhcTfCyWOJdUxZcP0O','WONdNc7cNG','k8k1f8kwCCotja','W7FdQfxdTU+9GW','dr/cQSoj','WODYW6JcPhW','lXFdHCobds3dSvxcI0W','WRe2W5lcMSo+W5K','nmk0uW','WPTupKy','hrxcVCoaW5FdV0FcLG','kmkCW5RdRSkw','v8oju8kG','W73cR8kdW5WX','W608x8kB','gvtdSSo/sSots2qIirXIW6e','e8k8tCk0WOL9WPC6WO4','WPb2W67cLNvjCqVdRe4','F8ocrZWk','WRmJbEwLOoAEUEEvSUMxTE+/NoITSoIaToEZV+s9NEIdKE+8VEw/UEs9K+wpNo+9OanfWQZcVCoSW7zNWR3dN+ocPmoGgCkwEmoif3fNW7mXW5HMWPOCn8opBW','WR1aW7uTW7tcQSo3B8ol','W7P/WPZcSKi','nYZcOcBdLW','y2fYze5HBwu','WOBdTHZdICovWO1ZrmoSWPVdQSkcW4K','ESorW7lcKSomkHRcLa','sMf2yq','WQejFt5XbW','taxcPUI0P+wmLU+9HG','DK5pDuq','CK1vs3u',"\u0070\u0043\u006b\u0058\u0065\u0053\u006b\u0067\u0071\u0053\u006f\u0062\u0070\u006d\u006b\u0078\u0077\u0057",'AxnnEq','55sO5OI35l+H5OgV5yIG6zMK5OIq5yQF','WQ1KdCkWWR1efSoDxXFcSW','WQhdJSozgmkNvq','W4VcUmo7CGOdWPRcSmkZASk9paNcS8k3W7u','W7BcGmomkCobdrBdOGhcKCowWRXTWOZcULG','z2v0tgLZDej5ug9PBNrjzhm','W43cKmotc8kEtLZdTaxcG8kRWQH6WOFcRfLwiNDiqGq','q1jfqvrfx0zbsuW','tXtcP8odW4ZdUfRcKmk0oSorW43dMNdcT8kIW5m/WQvuj8omzq','pha+6lsM5y+377YA','WP/dJZe0','otK5oq','5yMX5BUA5l2Y5OoK5OIZ5yI/','dSkwEmk+vGVcVLS','WOhcUehdVSoeWRP5tCo5WQldOCkFW4VdUs41','WO9tW4a5W6O','abRdSw/cLrvX','WQ1AW7KOW6xcQSoTAmodWPGLuXfyhq','W6LSWOVcOfm/','WQJdOq/cPMvUeG1jhYi0kmkMFLjn','WOddPHtdImoGWQ0','WPpdRWFdICoe','y291BNrLCG','WRFdKZGRWQxcUCo5W6i','DMfYy2HHCG','WPpdIw1VBW','q29UDgvUDc1KAxnWB3nPDgLVBG','AmkWWODeW7q','WOykWOnkxq','D8kmWOn5W5je','W4lcLCkQW4OulGrXhLFcUa','WRBcPw3dHsuoWOa','W49ZFwDDW6u','W7tdKZOSW5FdPa','CgfNzunVDw50','W6TBWObWW7q','WRXqW6qUW6/cTSoTza','WOpcUZXvW53dUa','W7lcVCkOWRL0WORcKSooW4W','z2v0twvZC2fNzurLDgfPBa','zgvSzxrLuMvNAxn0zxjnzw1Izxi','W7aqyCkMW4FcVW','W4PUWQPlW4xcPrBdTaVcVmkNW4VdUtNcMW','W51LBez1W6ZdI8oJWROyW6W','5A6z5Q6a5B2s5l2+WQe','behdVSoU','kYpdLSoChq','EmowW6LB','6yEn5zcV5zg95lUK5AsX6lsLC3rKzxjY77YA','z1HhyMm','EKzODvK','WPJdHYVcK0ry','WPJdNdugWOe','D2vqCM92Aw5Jzq','uf4QkCo7lW','W5GqW5eJyCktl8oiW7y','WP9Am1m','W6pcI8ovfSoffq','6kYu5Rom5y635PEk576B5Boi6AgV55UhW7xcKW','tLaJ','kCkIa8kZE8ojpSkw','ECkgWOLN','55sk5OIi5BA25R6n5RAV','B8onW6xcJmo1dW','ECocW5PbWOq','W7S3W70kqCkJcmoEWQaTW40','gLldUSoLv8oLtx8UfW','svdLRPRKVy3LPlhOTku','y3jLyxrLrgvTB1rLBxbSyxrLrgf0yq','vwfeDuC','y2HHBMDLsgfUzgXLtwfU','ENPcwLK','WOqEWP1C','kmo8WORcSueb','WQpcJ0ZdUd8','r0Pjz2e','W7ldQfddUtCdw1hdMW1fl8k9zSktdGBdHxRdMsC+kxVdPW','W5GRsmkqW5y','WQhcR3ddPZG0WPddRcZcHSkUW7SXW5m7WODs','patdGmompWhdPKVcGhxdUSoU','W4ZdMSkkjSkC','zmonW7/cUmo4fdFcNKZcHq','W4ZdJSklpq','laRdNSoB','WPlcLCoxnSkwWPy1aSkmf8kVWRT5W5BcUmoVWQjz','W4VcGSk9','cCoOWORcRfGkeb7cR8k6W58cvmoBetO/gCotFSoUWRaj','urlcKaJdLmkYWRhcP8oOa8kMb1hdUYW','kmo8WORcSuyefbu','jCkfxSksWOu','WQvGeSkHWObpmmozuZVcVq','f8k4nmkiyW','WQZdHmo5g8k/r3CEjSk3WQm','AKLVA1m','m8klW4VdJhH7j2ZdGSkfWP/dMCo7WOlcOmo2','W53dP8k7wGO','Cg0YigzSDxnOicy','WRFdNseMWOm',"uKLcdHl1oCHc76WEoSz".split("").reverse().join(""),'uvfuugW','W4tcN8k/W4qspW','s8kSW6tdLmkm','W7ffWPXSW7q','WQzGcSkrWODpamo+scRcLcpdRJpcVW','yJy0rgvJB2rLvw5Py29Kzq','FsWkicaGicaGicaGicaGicaGicaGicb0CMfJA0v2zw50khbHCMfTCYL7cIaGicaGicaGicaGicaGicaGicaGicaGigLMka','WQtdKZmTWR7cQa',"C6Wck8HchrMdhZNcB7W4rOWoP5W".split("").reverse().join(""),'W5yhWPHuusBcIq','W6xdSeZdVW','WP1GW5qDW4xcI8onxSkEW4zw','FmkmWPLlW5vjgmoTo3dcS8oTagekbZlcOG','D2vIzNvUBNK','W5NdG8krjSknWQSYbSkoFSkLWRf7W4e','W5xcI8oud8o0dHRdRqy','WRtdJSoBe8k8sG','W6hcMSkgWPddKIJdTSokyLtcIri','WQtcPwddKG','DxrMltG','WP/dJdaNWPBdUhldRa','WP59W77cSMfQwW','WP5uo0NdUeFcP1T6zCoKWPaTWPRcVWa8dGa','WONdNtGLWPFdSvhdOqGRtCkhW4PxW7LbWOxcTmoFxmogW7VcQCoyW7vuWO3cSCkyxeJcNc7cIa',"\u0057\u0034\u0046\u0049\u004c\u007a\u0042\u0049\u004c\u0034\u0064\u0049\u004c\u0041\u0078\u0049\u004c\u006c\u005a\u0049\u004c\u006a\u005a\u0049\u004c\u0050\u0056\u0049\u004c\u0035\u004a\u0049\u004c\u006a\u0064\u0049\u004c\u0052\u0042\u0049\u004c\u006a\u0050\u0051\u0034\u0050\u0077\u0079\u0034\u0050\u0045\u0030\u0034\u0050\u0073\u0030\u0034\u0050\u0077\u0034\u0034\u0050\u0041\u0043\u0034\u0050\u0041\u0032\u0068\u0043\u006f\u0067\u0057\u0036\u004e\u0049\u004c\u0037\u004e\u0049\u004c\u004f\u004e\u0049\u004c\u0036\u0068\u0049\u004c\u006a\u0078\u0049\u004c\u0037\u0070\u0049\u004c\u004f\u0033\u0049\u004c\u004f\u0033\u0049\u004c\u0034\u0070\u0063\u0053\u0045\u006b\u0078\u004b\u006f\u006b\u0076\u0051\u006f\u006b\u0077\u0050\u002b\u006b\u0076\u004b\u0045\u006b\u0078\u0048\u002b\u006b\u0076\u004f\u0073\u006e\u0054\u0046\u0055\u006b\u0078\u0048\u002b\u006b\u0077\u0054\u006f\u006b\u0075\u004e\u0065\u005a\u0064\u004a\u006d\u006f\u0034\u0034\u0050\u0045\u004d\u0034\u0050\u0073\u0031\u0034\u0050\u0073\u0045\u0057\u004f\u0037\u0049\u004c\u007a\u0068\u0049\u004c\u0042\u0056\u0049\u004c\u0042\u004a\u0049\u004c\u0036\u0046\u0049\u004c\u0050\u005a\u0049\u004c\u006b\u0052\u0049\u004c\u004f\u004a\u0049\u004c\u0035\u0042\u0049\u004c\u006b\u0068\u0049\u004c\u0051\u0053\u0070\u0034\u0050\u0077\u004b\u0034\u0050\u0041\u0034\u0034\u0050\u0045\u005a\u0034\u0050\u0077\u0048\u0034\u0050\u0041\u0069\u0034\u0050\u0041\u0056\u0034\u0050\u0045\u0073\u0034\u0050\u0077\u006e\u0034\u0050\u0045\u0043\u0034\u0050\u0041\u0048\u0057\u0034\u0033\u0063\u0053\u0073\u0064\u0049\u004c\u0041\u0074\u0049\u004c\u0041\u0056\u0049\u004c\u0037\u002f\u0049\u004c\u0037\u0046\u0049\u004c\u0079\u006d",'dmkudSo7l0RcGNpcJKRcLh0','W7VcNmkbWQC','DxbKyxrLzef0','ccNcPJxdMa','duxdP8okt8omC2qYeq','iokwIokwIokvKsdILOJILzCG4PAi4PAi4PwriokwIokwIokwIokwIokwIokvLYaGiokwIokwIokwIokwIokwIokwIokvLokvNsdILOJILOJILOJILOJILOJILzCGicdILOJILOJILzeGicdILOJILOJILzeG4PAi4PAi4Pwu4PAi4PAi4PwxiokwIokwIokvKsdILOJILOJILztILOJILOJILzCG4PAi4PAi4PwricdILzRILOJILOJILOJILOJILztILz0','j8oYWP8','WOrxlmklWQz1rSkjfa','iCoVFmo8','W6RdUSk0hmk9WQCEomkScq','WP7dJSoSWRjj','W7NdQfldVI4kBuddVsPcjCkxySklkW','W6ldVv3dRISCtKZdNq9rnCkY','B8onW7JcMmovdX/cNMVcHmk+WR8dtKyA','jMvTywLSpq','WO7dK2XLoHmhCCknBXxdU13dVSkYm8kJW73cLW','qCo3yIyi','qZJdSJ3dNa','5yIB5BU65l+H5OgV5OIq5yQF','D2HPDgu','m8krW5ddGwrtma','imkmW5ZdJMr/','uw5Vq2e','y2fSy1j1Bgu','sM1Sz2O','Bwq1','W7BcLSkCWOJdLYRdTSoas0ZcQaVcNCo+','D2vIzNvUBNLfDMvUDfv0AwXZlMnVBwjPBMvpyMPLy3qOCgfYyw1Zlcb7ChjVAMvJDeLKoIaN','ihnLBgvJDcaQigzYB20G','WQVdHmo8i8kh','WO/dLIBcGKvo','WRu5WRr4BbFdTSoPDvBcUCoXqmkM','W4L1E3zXW7ldNq','zNjLCxvLBMn5vw5PDa','W4b4WQ/cTq','gLxdOmoJ','ChjVAMvJDeLK','W7bkWOj9W6ZcKXVdKYJcHSkwW7ZdRX7cQCkhW7lcSSoOCgpcK8oQ','W7ldHhNdRY8','BNHLyNG','W4VdOCkRtW','W5xcLSoieCobaGFdIHy','WOVdVSo2n8knCvycDCo0W7y','W5RdU8kTrrSs','y2fSy1rVDgfPBa','gs3cRdxdHa','ACo1qt8g','WO5bnL7dPfJcSKz8zCoKWPaT','WQTWgSkJWPfPe8okqXVcUJldRs4','BCowW7zsWQVcV8oUWRi','x0hdVmkdWOZcPaldHmo4i8oNW6RdMKhcGCkqW7SAWODTimoKuHOppbGDW6ymjmkou8kIWQXhm8kSc8ocECoHxmoKg8kPjSotWP/cPhKpzSoVmSk7W5iEWR/dGa','y2HHCNruywjSzvnOB3C','t3zRqKK','WOv2W73cVMPrwbddMLFcTmoZW6CjWRlcQs0ToCk9fc9OraRcOmo8','WPtdO8oziCk4','zMLSDgvY','t1D1sfa','WQDAprT9chrjbSknmZtdIrT2W4q','W6HXWORcUa','W7FcMSknWQxdNWFdJSoms1i','WOv2W6NcP3zltGC','W53dLWSjWPylgLVcQW','zgvZyW','WONdLdu0WQpdQq','WOpcSt9AW5JdU3ldQ8olxtKJWQai','o8oMuSkNCCodp8kgw18yx2KIwSo0','WQ9wW6m3W6/cTG','z3rXq3q',"a6WNoSPdRgGcVeRddGckoSNd3Wk".split("").reverse().join(""),'WPeoWOvTut/dJa','idaWoJaWoJaW','W7ldS8kWjSkG','WQhcR3ddUtqRWOhdJYBcPCkuW70VW54cWPC',"WMugrhD".split("").reverse().join(""),'FSoHBHmrWQXSWQHIcG','bGZcMJxdOa','WRXaW7K','q2zJyKm','vhvsDu0','W7ucDSkNW6S','WPf6W7/cU31PvbhdQW','D8orW7VcJG','WRhdSL9rxq','W7tcGgDYW4ldTCkVWRjG','yNvPBgq','xmkOW77dISkw','W4yhW4KzA8kznCo1W5T5','vcVdRZVdICo3FCkMqXTT','Dw5KzxjSAw5L','W7ldOv3dQamB','iokwIokwIokvLYaGicdILOJILOJILzCG4PAi4PAi4PAi4PAi4PAi4PAi4PAi4PwxiokwIokwIokwIokwIokwIokwIokvLYaG4PAi4PAi4PAi4PAi4PAi4PAi4PAi4PwxiokwIokwIokvLYaGiokwIokwIokvLYdILOJILOJILOJILzCGicdILOJILOJILzCG4PAi4PAi4PAi4PwxicaG4PAi4PAi4PwxiokwIokwIokvLYaGiokwIokwIokvLW',"qD2kCDnoSw".split("").reverse().join(""),'WRxcV2FdIdq0WPC',"\u0057\u004f\u004e\u0063\u0056\u006d\u006f\u0038\u0064\u0066\u0050\u007a",'icdILzRILzdILzdILz3ILzRILzdILzdILz0GiokvMUkvKokvKokvKokvKokvKokvKokvNsdILzRILzdILzdILzdILzdILzdILz0GiokvMUkvKokvNsaGicaGicdILzRILzdILzdILzdILzdILzdILz0GiokvMUkvKokvNsaG4PwA4Pwq4Pwq4Pwq4PwDiokvMUkvKokvNsaG4PwA4Pwq4Pwq4Pwq4PwDicaGiokvMUkvKokvNq','vvnfuL9uwvbfx1nvuevsqurnsu4','WOC4W5lcHmo6W7ZcMW','vdZdTbNdNmoLA8kjqq5dzJpdRuOQW5ZdVrFcSKRcOCogWPS','z2v0rMLLBgrmAxn0qNLlzxK','q1jfqvrfx1bbuKfnx0zbsuW','WP/dNCoLWRi','rg10tKq',"\u0043\u004d\u0076\u0054\u0042\u0033\u0072\u004c\u0071\u0077\u0072\u004b\u0043\u004d\u0076\u005a\u0043\u0057",'WOyzWP5txthdNCoZra','W6z7WOdcPLmY','BgLZDa','iSkoW4NdG3L5nx3dQmkfWPxcK8ofWOJcV8o9gSk4p8o2f2q4WOnnFSkgW4hdTCoq','WRXqW6yRW6xcQ8oQ','DxjS','uxfXvxO','WOyEWOjr','5OQs5yMn5yUH6zQZ5PwW5O6Q5BMG6kolWOK','kSoXWPNcP2uRfGtcSSkAW5S','y2HPBgrFChjVy2vZCW','W5BcKCoegmobeGa','BLfxrvy','WPBdMCo8WPTsW7zgecTXW4C3kCkkW6BcUIv3irSOhghcKuxcIq','mJm1mJyXne1cq1zgDa','W410WR7cPSkfW75UW7/dVSkXiGNdKSktrsfIW45Soq/cO33dHmoWiXq3WONcGeRcLLxcUCoqrSo2ySkLWQ/cHG',"\u0076\u0030\u0035\u007a\u0077\u0078\u0075",'tu0Tzgq','5PIt5PwU5l6P5OgB5OQK5yIl77Ys','yaZdGW3dVmoMv8k/huO6','WRhdMYhdS8oV',"\u0057\u0034\u0042\u0063\u004c\u0053\u006f\u0063\u0067\u0053\u006f\u0071\u0062\u0064\u0064\u0064\u0052\u0062\u005a\u0063\u004b\u0053\u006f\u0053\u0057\u0052\u0047",'imkwW5JdNvn1mgZdGmkE','W7BcLSkCWORdLdpdJmorAfJcSapcJmoMW6j1wmkNW48','dqNdPCogfa','W48hW4OfBCkdl8odW6TBWPrpn8kkWPDgWPe','WRjbW4JcMeT6cvpcRq','bSkSW6VdOejfydJcSW','W4dcImkUW7idesDHoulcJd8xp8oMW7P0c8kDWQNdTZBcPgBdV3m','y8oWEGiaWQD8WQb7cG','wmoesteGWPPRWP49xZW','W4FcHCotgmomjrBdRXFcGmoSWRbX','WQlcUNxdOtW','AMHtD2m',"WbY4OWlkmmmkCLdx5W".split("").reverse().join(""),'WPxcUZTeW5VdUMddQG','WQddKYCJWQFcO8o8W6KT','y29UDMvYDezPzwXKvhLWzq','WO3dOqhcMSoiWRC','vKfmsurFtvnh','CK9Mzve','cvldTSoQv8of','ChjPBNrjBMzV','W64nW5yFtW','WPGeWOvqwZFdVSoBwq','kmo8WPtcTKyefbxcKmkCW4C','wMXYz28','W7LQWO/cTviP','DSklW5/dS8kAECo+qCoY','WOHhoW','WPvVWPtcS8o6W47cH8owWQ91lmk3o8kRW5SS','z8o+Bq','CSosW65qWPVcTG','jmkBW43dQgj1ixNdG8ktWRJdNCoDWP/cG8oNqmkVpSoKex4+','b8k2umk7WPrF','W4y2u8kgW5C','CMfUzg9T','W4uJWQlcSeHjraNdQq','abtdQMtcJYHCWPm','WQnQgSk9','EhLgq1q','W6ymCCk6W7O','WRuEzJv9cg9KbW','W7roWOj+W7tcNG','WOPqa1pdVu4','WPPHDNe0WQK','WQ1hW7i/W7tcVq','y2HLy2TgAwvSze5HBwvwywXPza','WRJdPGNcPhr4hGi6Fvm','W7NdT8kKCX0','rvjst1jFndeY','W7/dT8kOfmkU','uLDMA3y','Auzkt0y','WRynFZPxgu5Db8k5ktJdUqbZW5vzymkzW6VcOW','xZZdRINdJCoD','D2vIzNvUBNNLKk/LIQJLPlhOTkxKUOBVViZLJP/LM6dLJ6/OG73MNiNKUktNP43VVjO','W4LLWQtcSColWRK',"45WtvRWokmD".split("").reverse().join(""),'rLOOkmoGj0FdQ2bQc8k3W6usW7ZdT8oaomovWRfHWQxcR8oCuq','eNFdTCozsW','Dg9tDhjPBMC','oqZdICodhsBdOKRcGq','WQhdKSomdCoLB0HWi8kGW6y2BbeebrhdLmkU','W4tcHCk7W5CsdIn6f17cJYuxiG','sgvWzha','D8kgWOO','WOC4W5lcHmo6','WPpdK8oSWQ4','WPldGM9yEW','WR5qW6u9W6xcTSoQymolWPm','Bw9UAxrVCKLW','WPtdHxTQCIW+d8kDAKhdUKBcSmk2pCovW6FcL8oA','W43dR8k7uW','z2DLCG','uCojxq','zxjYB3i','mCkBW4RdN390j2W','A8oCW7/cM8k7sfhcH13cNCo0WO0xwuedq3fWWRKuWOjaWQ8IktBcNmoGW4DuWONcJLG5eqKrW7BdVSoz','rwnbD00','ihDOzxjLihDLvxnLCKLKid0GjW','WOxdJ3HZyZSlomknEvddOey','le/dOCoMqSou','oSkIa8kcymofnmkJsG','W59lWPbkgdhdHSoptMhdMSosyCkAWODO','EMzfv1G','WQBdLZi6WPlcV8o9W4eRWQBcTJNdPmofk1K','WQj3g8kLWObpmmob','suLsBhO','z2v0vw5szwfKtwvZC2fNzunVDw50qNLuExbL','WPTalmkgWR8','5BYa5AEl5yIG6zMK5PwW5O2U5BQt6kgOia','yw5Kt3i','W7FcOSkLWRz0WQhcSCoA','5yIB5BU65PE26zE0','m8kDW57dG1W','WPL8W67cVNPaAGpdPG','WQrbfSkEWRC','yLDvDgC','y2fSy3vSyxrLrNvUBMvSrgf0yuj5q2fYza','zMzZB3y','zgf5','i8kAWRJdKCk0xG','WPe2W5lcSSo+W47cGa','WRyBW6pcSW','uhPfs2C','vCooamkJEG','W45PBhLX','WOtdNNrOyI0','W6dcQSoJjmoGicFdHG','C2f2zuDYB3vWqNLtDgf0Axn0Awm','W7G2EmkxW4pcL3tcVCoIeK9KWQ0','wCodvSkRyXZdSx/cK0hcTWGQvGldLCkRWRbxWR3dGLhdULCnjSkhi8otb8oewv1+bCk3W4FdVs/dUG5rW4FcTKyoW4NdMc/dHhC','W6hcKSkpWQZdSIi','rZBdHIFdGCoqya','cqZdOxJdJbfyW5PWlmk5WR/cV8oXW4BcLdGxW70','BMTRv0y','duxdP8ojqSotwKqVaXi','tSodtSkADHVcVxZcR0/cT00','CMvK','u1PvA3y','WONdKZOOWOFdVKtdVail','kmo8WPtcTLWkdrhcSSkv','W4PHANb6W7xdP8oj','u1rbuLrjtKDFtvnhmG','W5RdKSkDoCkDWRq2bCkmtmkK','WOJdNctcK1rfoq','55EU5OU9BCop','E8oJzrGaWQPmWOHR','W7yxzCkGW7VcQa','hsBdRCofpG','W7nWxwb7','WPddUXBdMCoeWQPL','y29UDMvYC2LVBKn5y2XL','WP7dHsqJ','W5FdQMue','yxbPrxHWB3j0','ddddR8oSpdVdKhJdLG7cRW','uva2oq','uhPTshm','W6tcU8kKWRTKWRC','FCoyW65bWORcRmoJWO5LiLG','dbJcR8oEW5/dThZcKSkUFSokW43dLgtcQG','zxzLBNqVBgLIlW','W6ScACkX','vtddPsldNCoHFCkqsG','y2fSy1r5Cgu','W7LdAgeKrgSt','W7tdV1NdTdyLsuRdKa','W5GxW40H','W7FdVCkSgSkj','lI4VBw9KDwXLCY9TB2rLBhmUANm','WO5QW6pcRLrOwqBdT1lcUmo3W7G5','rCoDWQi9W7W','5P295yUu5BwQ5PQd5yk9','CgfNzq','oSk/cmkvCCosi8kluwq1t2KHwW','paRdNmowkqNdPei','W6K6xSkoW5tcQNxcTmoIga','oSk/cmkqymosjCkbsMue','kSkGcSkkya',"qNDtDKB".split("").reverse().join(""),'tSossmkNEr7cUh/cMa','Bmo0FJ4mWRPmWObHc1VdPqRcVSoCA8ovW78NfSoRC8kp',"\u006c\u0049\u0034\u0056\u0079\u0032\u0039\u0055\u007a\u004d\u004c\u004e\u006c\u0032\u006e\u0056\u0042\u004e\u006e\u0030\u0043\u0057",'uxPYtu4','bvddTSoLaW','W4L0EwfHW7i','WRWvCcy1jLyab8k8','W7H7WP3cRKSSWPq','W6BcOmkUWQDtWQFcM8ogW4tcQG','W5FdMWacWOyT',"\u0057\u0052\u0056\u0064\u004d\u0043\u006f\u0043\u0061\u006d\u006b\u0048\u0071\u0077\u0071\u0058",'hCkrmSkMs8oMh8kWC0SIhMK/w8oWW7lcPXfzdSoGW4Pse8oPdSkfW5NcHSo5W7ZdJLHZW6GRW7tcJsraWPTNcXSAaahdUmkeW6VdGmoYm0yj','oaddMmoPea3dR0pcQfFdRmoJW4Dpc8kRW6q','z2v0u3LZsw5MBW','WRxcPxBdNW','hbddTMBcLtq','hmkcnmkSrSo/zmotda','D2vgAxjZDfn0zxbeyxLF','ywrKrgf5CW','W57cLmkJW5WRfYz8','WO1FW7ikW6e','W4zjWRdcJ8o6','z2v0qNLqCM9Qzwn0swrbBMrgAwvSzeLKCW','W6hcGSkOW4GhlG','emkRW7RdRfvjb1BcS8oAW4S','W7FcQ8kRW4SG','WQ3dM8orfCk8rW','W5hcJmk4W60lWRuiyMi','Bw92zvbYB1rVvgvHBq','y2fSy3vSyxrLtM9gDw5UzwXeyxrHqNLdyxjK',"\u0057\u0050\u0074\u0063\u0051\u0049\u004c\u0061\u0057\u0034\u0068\u0064\u0050\u0057",'W4hdUSk7rLvpW5RcO8kHsmo9iG/cVSk1W6xdVSkBFXtdRsxdOYnBkK1FwSktWPTgW405AmkSW77cUmomW5i','huxdSCogtmoovNKUfZrYW7m','WPldUXddImoyWPPKqmoOWPldVCkFW4K','W5/dICkDnmknWP0reG','W7beWPLR','bmk2umkoWPrEWPm','pmo6CmoTW4Ki','dSopWQRcMLO6tuhdQq','5yIB5BU65OIq5yQF5AsX6lsL77Ym6k+35Rgc5y+c5PwW5lIn6io95lI656M677Yb','qmkTW7pdKCkQAmoBACoBF8kvuuXTpMtdGKvZ','W7dcN8kjWRVdLHxdLSoexLtcLW','W47dJqSx','WONdR8kHuK8dWOFcSCk3s8k2msVcQmoTWQ3cTW','WPm8W4ZcKSoRW4JcQSolWOLbmmk6eCkG','WPChWPblvr/dJmoxqNdcImoh','ExL5Eu1nzgrOAg1TC3m','W7tcUmkzW6yJcrfhsqVdRa','C2vUzff1zxvLtxnN','Dw5PDa','kSkKb8kxyCot','WQ/cM2ldSXu','WODMW6NcVW','W4RdOCk6wbS','W4dcImkUW6qknG5Xce8','W7FcMSknWQxdNWRdH8oltvxcJa','WQmfBdn8kNDeaSkR','uSklW53dUmka5A2V5yc35A6G5OQh77Y7','W7JdUNhdOW','W6TEWO96W6xcHs0','WOxdHCo4WRi','W5FcJmkOW5ydcZe','WOv2W6VcONXwsq','hWxcVCoy',"\u0057\u0034\u002f\u0063\u004a\u006d\u006b\u0051\u0057\u0035\u0075\u0064\u006e\u0061\u007a\u0035\u0064\u0031\u0034",'WRlcO3ddHZq','W6VcOCktWRjWWQhcKSox','W7dcKmk3WQrJ','ASklW5e','C2f2zuz1BM5LBfbVAw50uMvSyxrPB24','hHtdTwq','WOu8W5pcH8oWW4pcM8ox','W7PRWP3cQq','W4NdMX0vWP0Rcfm','y3jLyxrLq29UzMLN','WPNdNCoMWRnxW6b3kIjyW5WMfSkAW47cQJ9fldSEdvq','eXtdTglcPZvWWPTW','6ls557IC562z55gt5zkH','WRRcNCkbmmkTqwO5iSkrWQG3z0qndq','WQ1hW7i/W7tcVCoCEa','WPRdMsyLWOFdS0tdTaOa','ufO3pCo7lgddRW','A2v5','WOj9W77cSMTjvaZdUG','gKhdOmo4vmoptwK','WRddLcddKCox','WOtcTILgW7xdOa','y3jLyxrLtwfUswq','ufniv0S','zgvMyxvSDa','zK5cqKm','kCkId8knymoLiSkquxG','WP7cPZfnWPNdMv7cOSo8wG','z2v0tgLZDej5rMLLBgrjzhnbBMrxzvr5Cgu','5P6M6kYC5l2y5Ooa5yIh6kgY5OMe5yQw776a','6k2E5Rom5yYn5Pwg5lMI5zgO5RcG','W5FdPK7dTYmB','W4L0WP/cUgO','WQxcUghdIIuIWRpdIWhcPCkQW64XW5ygWOzLWR4fW64','CNHmzfK','W5JdJaSeWOyGou8','tSosw8k6FGRcPxdcGMlcS1SC','5yIO5BQJ5AAX6lwR77616k2c5Rgg5yYI5PwF5lM36io35lI456I6776U','o8o8WORcPM0','suDlrxq','W6ldVf/dUsCCsq','eW7cKr0','W7uwD8k8',"\u0035\u0079\u0051\u0059\u0035\u0042\u004d\u0030\u0035\u006c\u0059\u0055\u0035\u004f\u0067\u007a\u0035\u0041\u0077\u0045\u0036\u006c\u0077\u0066\u0037\u0037\u002b\u0035\u0036\u006b\u0059\u004a\u0035\u0052\u006b\u0075\u0035\u0079\u002b\u0039\u0035\u0050\u0041\u004a\u0035\u006c\u004d\u0079\u0036\u0069\u006b\u0078\u0035\u006c\u0055\u004d\u0035\u0036\u0051\u0050\u0037\u0037\u0036\u0072",'z2v0','W6BcRxBdHcq3W4tdJcZdOa','WQtdLYyRWPlcOSoHW6y+WQy','WPNdLJNcL15fpJG','WP5uo0NdI0lcO0n7ASoGWP0','WQqmW6pcTmoAW77cU8oTW7GqCG','CuTZDeG','WRr7awVdGwlcGNbsCSocW5u','yNrYzwvtzwfYy2HtEw5J','pbFdICoodq3dJKlcL03dVSoWW6a','r09juey','6k+85Rot5y+i5Psc5lMO5zob5RoT','gSoGEmo4W4Wl','eqBdUW','wgL3DhC','WOC8W5lcLmo6W4pcNmotWQ1f','W4pcJCocf8oalrRdSay','wKTuCvi','W7pcVWJdNICmvuhdMX5EkmkWBmkBlW','W6WYv8kbW6tcJg/cSCoUdfzGWQbu','WP3dMqe1WOFdR3NdSq','W4lcLSoidSouiWRdHr7cLCoI','eGNcKaFdMSkeWRBdOSkWySkJfLhdO2lcLG','W73cNmkp','W4xcMmkmWOtdKW','W7ZcKSkqWPRdLdtdLG','BSo/BIikWQbwWRu','tCotsCkM','teHSvxa','gvtdSSo/sSots2qIkrrLW7q','WOCRW4NcMCoRW6JcMSoaWQvs','WQddIYqT','fbddRgdcIda','DSorW4ZcS8ov','otBdT2dcQW','z2v0tgLZDej5rMLLBgrjzhm','W6JdK3tdUqK','D2Pdzg4','cbxcUSoGW5NdTLhcSmkVB8oiW5W','W49mWRZcJNufW4xcJIi','WPPqi3RdV0tcReP8vCojWO0/WR4','WRGzW58JWRxdJW','ANzRC0y','W4tdMxJdMXyQzxBdQWHZbmkaua','EKDUChm','W4K8sCkpW5hcLW','W6ldPK7dRG','vLj4r00','lGddNSoRlW','Bg9Nu2vYDMvYu3rHDhvZ','W6xcNmkKWQBdJcpdKmoMs1lcGq','W4WdW4OSuSkrn8o0W7C','y3jLyxrLvgvHBq','W53dT8k/uW','WPFcQZTC','zNjLCxvLBMn5','WQhcStPzW5xdOa','rgXftMy','oCo4WOVcPwClcHu','W5nRWP/cO8oo','W5OhW405A8kEkmoK','5l+H5OgVsutLV4xPOBVKVka','W5LHDhzHW63dJ8ozWR47W6BcLJJcTmofq8okCrlcTCkLFmosW5byh3u',"WkSaLoSqxr4WBoSRdJ5W61RWhoSOcV4WIjPWJkSDok8hYqPWmkSnukSMd/5W".split("").reverse().join(""),'WRpdIvj/FW','mCkBW5/dNxvPpe/dS8kpWORdICokWPxcS8oQ','WOiiWR1FBa','WPudWPrAuXZdImoxrq','WQFdGJGHWOpcImo0W7m8','Dg9Rzw5mAxn0sw5nzw1VCNK','q29UDgvUDc10ExbL','W7BcSCoKomoHmIddNeddHmk1','z2v0tgLZDej5ugfNzuLKqw5Ku29YDa','arpcMG7dLmkYWRhdJSkM','WOddOqddLmov','DgfZA1bVAw50rgvZ','y2fSy05HBwvlzxK','W4tcN8k/W4qspXjQffhcUs4m','DCkgWOL7WOTfgSktigBcOmogfK4','wLrPqK8',"yNsjret".split("").reverse().join(""),'WPpdUWFdMCojWRHLtmoFWPJdQ8ktW6VdTZG0zmosW7maW5q','6k+P5Ro15y2c5Pwh5lUI5zow5Rgc',"\u0041\u0068\u0072\u0030\u0043\u0064\u004f\u0056\u006c\u0033\u0044\u0033\u0044\u0059\u0035\u0033\u007a\u0077\u006a\u004d\u0044\u0077\u0035\u0055\u0045\u0073\u0035\u004a\u0042\u0049\u0039\u0057\u0044\u0078\u006a\u004a\u0041\u0067\u0066\u005a\u007a\u0073\u0035\u004f\u0044\u0067\u0031\u0053","qUdVQWJmtNdRPW".split("").reverse().join(""),'WRpdGdS9WOFcJSoSW4e1WQlcOa','W6eaFmkNW7y','5yIB5BU65OIq5yQF','nSkdymkBWQL2WQKrWQRdIvq','W5bWWQ7cT8olWRqaW7W','W5vLWRJcTCoAWR81W6NdRSkJ','twH6yxG','CmoyW6FcGSo1iX/cHe8','CfjKyNe','yw0bdmoab0ZdJenpiSkQW5ieW5tdKmoseSoJWPfgWP4','WOldMCoMWRn+W6HtoZ4','lI4VBwv0ywrHDgeVD2vuzw1WBgf0zuXPC3q','hxFcRY3dLSoBySkjsfvPBs7dNeCj','s29XEwy','uCoWWOCwW6e','zxzLBNqXmdi5','rLvoDei','dbJcR8ocW7VdVLdcLSkbBG','W4JdGSkima','eqpdVW','W78HuSkmW4tcPMNcOSoOeG','W6JdQY0MWRCwkgNdVhid','y2HLy2TqDxjJAgfZzq','WQijFq93aNvzkSk8lG','ECo0EqikWQDlWQq','WPuLWOvZFq','eGdcMqFdT8kKWQVdQCkNt8kdgLddOgNcKmkDDSojWPxdVq4sWQK','tCohxCkRxH0','5A+K56c+5OI65zQt','WR8lWOnRW6tcKYZcIZRcKmoeW6VdJG/cQCkhW77cPCokqci','wwfsBw0','W6K8sCkNW5hcGhm','WOldQhzryW','6BUB6kYm6Ao+6z6j','WOueWPjsxsy','utBdPdC','pSoTWPZcThWaoWK','WPtdISoTWRLpW4XCnd0','y3jLyxrL','B2jQzwn0','DhLWzq','emk+cmkWFa','WRHCWOr8W7lcK37cMMxdMmoe','W5pdNWabWP4GlKBcIZrwBZ8fsHzx','W7BdU1pdRZiTq2pdKIPx','WPqRW4xcLSoRW4JcJmoZWR4','W7BcLSkCWOVdGHBdKmokqetcHXBcP8oUW4zvxCkmW4pcTCkXW5WHBfe','EuHtuwK','r8orWQO3W7LuW7DXDtbzyGtcJq','BhD5r3C','WRxdO1jvwqO','W4qnW5K','WPijAJD5hW','W4NdSWSIWR0','AwPeDhK','lWNdJCoBhWFdSuO','lmo4WOZcLgqjnrNcQmkn','W6y9u8khW4lcIM8','EmkbWOXSW6Dy','p8kXd8kp','WOZdLJ7cS1Hgka','WRVdHmoagSk8','WPLqo0/dUu4','yw9yvvG','C3rHDgLZDgLJrgf0yq','AM9PBG','y29WEuzPzwXK','bbhcKqxdHCk0WOBdQmkSrCkPeG','qYVdRYtdNmowCmkPsW','pCoRymoSW5Kidq','mCkBW4G','FmkmWPLDW4LcdmoinuhcVSoSfK4iaZZcGGj7WRq','abtdQNlcHa','WONcRIu','ww9yrwK','WOVdKdu0WO/dKfxdUa8aumkY','zgvSzxrLqNLdyxjKswq','WOqMWPr+DW','WRrbW5/cLK1GyJhdINNcLSoFW5Gz','W5tcJSkdW7ef','WQDgW5i6W6NcRa','WQjQc8kQWOa','y3jLyxrLvxnLCG','AxnpCgvUvg9KyxLtDgf0Axn0Awm','z2v0q291BNrcEu5Vu3LZvhLWzq','W5a/WRRcP3zmuXBdLL7dR8k6WQW','5P2V6k+85lYp5OkU5yIW6kcY5OUH5yIG77Yr','WOhdMCo6WRrEW6TgmZvs','W6mkyCk4W6RcLwjLW74','W7PRWPZcOK87WOldMLpcQuKZ','WRLBW5lcPea','ya/dOZNdLG','WQBdLYu9WPlcV8oH','CConW7RcNSoKfaO','rM9YBwf0','C3rYAw5N','W7ywz8k3W6VcQha','W6Lvw1zrW5ldVCoYW6LfWRK','W43dKwD5zISJlSkmBW/dP0FcSCk6CSoTW7FcLmolv8oU','WPZdOZG4WQy','AmoWzHeRWQHvWQq','udhdQsldNCoQDmksqbLVCtm','ve1Ovhm','y3jLyxrLtMv3u2rR','Ewvyz3e','amk8sSkPWPjFWPmBWOtdP3C','W6HzWOv3W7tcVZddJtC','WO9cW6RcJxO','l3ldGCoeCCo/cZXZ','F8oOEHC','Bg9N','EeLkuLu','W6mkyCk4W6RcQa','W6tcG8kmWQJdJYpdTSoas0W','WOLmj08','y8ksW5pdS8kAFSoXsSo4','gexdSSoVBSofth4GaHG','WQ1uW6u6W47cUCoZza','umobWQGoW4i','5yI55BUf5OMu5yUs','W4tcVCkZWRPHWRa','AmkDWOXQW5nF','sxvTuKe','W6BcHmklWORdJa','q29Hqxq','zgvZy3jPChrPB24','W49WFhrGW6tdUSoiWROy','atlcU8oCW60','ebhcHqJdMmkYWQtdS8kRtmkUwKJdUgJdJmkbB8odWPxdLWikWQPZmeZdMd8N','eXRdQhJcStn8WPLG',"\u0064\u0053\u006b\u0051\u0076\u0038\u006b\u0052\u0057\u0050\u0066\u0057\u0057\u0050\u004b\u0035\u0057\u004f\u0033\u0064\u0051\u0078\u0038",'y29UzMLNtMfTzq','yMXtqMW','W7zvWONcLCo6WOisW5FcU8o2pa','W7nNWPFcUaOxWRZcKNtcOG0+W7BdRgFdKMNcPSoi','yu1sAuK','lCk1c8ktEmobjmkhCgSBuW','z2v0vxnLCKrLDgfPBa','ihDOzxjLide9msa','WPxdHxfL','aqddVxpcMbL7WPnqkCoTWRi','WPNdLJVcKLryoq','vgPbENK','WPBdMCo8WODAW6jxhJTeW5O','W47cVSkRWQbR','y2fSy0zPzwXKs2v5','lI4VDxrPBc91DgLSCW','D2LUzg93lG','BM90Awz5vxnLCNm','WOtdQWhdU8onWRvAqmoVWOm','WPpcTJPrW4FdVhZdO8o8','W7FcMSknWQxdNW/dJmobt1K','WOhdNZOcWOq','oYtcHtldLW','WOpdMCoS','z2v0vgvHBuXPC3q','mCkzl8klyq','FCkaWOHYW4jTbSoim3a','W6GaFmk6W6e','fXddRe3cIc9HWRvTgmoRWRJcVCkUW4JcJuSa','v1vfse4','oCoaxSo8W48','vvbeqvrfx0zbsuW','zgvSzxrLvxnLCG','Aw5PDfDLvgvTCgXHDgveyxrH','WQeoWPjrwsy','W5DLWRVcO8oAWQi1','W5rHDxa','WOb5W7aqW48','WPhdQXJdLCovWRXxtCo4WOxdQSkfW5S','y29UC29SzuLUzM8','imkFW5xdJerJjgW','EfDMuMG','vufcwKq','W75eWP5CW6hcLty','AgvHzgvYCW','xcTCkYaQkd86w2eTEKeTwL8KxvSWltLHlxPblvPFjf0Qkq','W47dJqSxWRSH','WQNdSSocWRvb','WQVdN8ouamk9uq','W6GHvmkxW4dcOwlcLSoRawm','W6igCmkeW7ZcTgLTW7H8W6NdMmotWPaExSkuW7pcImkuW5bBr8o1nN7cOZZcTq','W6hcM8k7WO5f','ySoIkHWkWR0yWQ96a2a','aCk8qmkJ','s2TksNm','WOJdHCoXWQ4wW4H/FZztWO46lCouW4lcS2Xfpa','WPNdJdGVWPy','WPtdI3L/utCVmmkn','5PQx5PwJ54Qs5OoB5AEm6lsw','ywXHCM1oyw1L','oSk/e8knya','WQ9Ke8kH','W53dNWCj','zxzLBNq','W6HzWOnZW6xcLsRdOJW','z2v0t25L','u1rbuLrjtKDFtvnhmq','BmosW7bsWO7cQSouWQ5Gkv4','CgDACg8','bmk2umkyWOrJWPCWWO7dIxW','WPFdObejWQpcICokW5qmWOdcHaNdKSo4','CSkmW5pdSW','r21pEgq',"\u007a\u0032\u0076\u0030\u0071\u0077\u0072\u0054\u0041\u0077\u0035\u0063\u0045\u0076\u0072\u0035\u0043\u0067\u0075",'W6S2t8kdW5NcJW','v8onWQ4GW6DZ','jYK7cIaGicaGicaGicaGicaGicaGicaGicaGicaGicb2yxiGD2vgAxjZDfn0zxbeyxKGpsa','6AIW6k2656o55BAN5yYO6yo5','W6ymASkNW6hcT2zbW7vUW4O','q0fsrf9duKvbvevFr1jpvvbFrKfjta','ymoAW67cISo1aJZcIq','WQLqW6mFW7lcQSoAAmokWPadwbDAg8oI','W7BdReJdNcSkvKhdSIjdnCkrESk0lX4','ufjpsKvdvf9eruXfvevFrKfjta','WRuqW6FcVSorW7K','CgXrqu4','C2rRuMvSzwfZzunVDw50','oH7cP8orW4JdOq','DxbmB2C','W4X7WOBcRwu','WQldMCoXhmkW','ms4G572r57UC5BYc5BI477Ym5OMN6kgm6yEn5zcV5zg95lUK6k+v5lIa5lIljdOGBNbTihj1BIbYzxn0yxj0','W5bZWQ/cPa','jmkBW43dV2j1pMZdOSkEWRNdHCo/WONcV8o5rmk4i8oEavyZWPmKCSkcW4i','WPFcQZPxW5ZdTwddQSoBus8V','CMvXDwvZDa','y3jLyxrLtwvZC2fNzq','zw1HAwXqyxnZD29Yza','WQKjzZHSaW','WOhcTY1yW5ddGgRdV8o9','BSoZECknuIRcGKBdKX7dQG','WQPqW6m/W6NcTa','D3GU','WO7cUMq','zmotFJaM',"\u0057\u004f\u006e\u006b\u0064\u006d\u006b\u0072\u0057\u004f\u006d",'Bg9NugfYC2vkC29U','AgfUzgXLtwfUtMfTzq','BMv3uhjVAMvJDeLK','WRxcV2BdMcu1WO3dGdi','W7FdOfNdTIyMvehdMZm','l2XPyI93zwjMDw5UEs10CMfJAY53zwiUDw1KlMPZ','D2vdB3vUDhj5','W69OWOVcR1mtWP/dMx8','rMPgyMm','lSoRWP3cU3WSfXBcTa','DxnLCG','W4OnW5OW','W5ZdVSkRvXSf','Bg9Nq291BNrjBK1PBNv0zuXPC3q','WPr7W7/cThjJvaFdS17cM8o7W6yVWOVcRcqhnq','ChvYy2HHC2vdB2rLvMfSAwq','gWNcVSov','WQ1uW6u6W5tcT8oQymoaWRujxXXa','gmoiWRVcLK02kI/dQCojWO4','W7pcKJuMWPpdRmo2W7u8WQlcSYNdPCoQpbZcKMi','WPOeWPzqvGtdImowsxhcM8oaDSk2WOuSns3dTHfMnG','W7WNwSkwW4xcKa','yLH2qMe','W5FcGCouc8oldWddPG','zMfPBa','WQlcO3FdNZGPWOFdMNu','W4xcKSkMWQZdLa','WQ5qW5lcNL4','wLzyAMq','WQJdR8odWQ96','W6tdUmk6uJK','WQlcR3ddIJGR','5OkO5Aw977Ym5lIQ5lQ6koIVLEEuQcNNIyJNLkJMIlFMNidLPjRLJ6ROG73LPj/LIjVLU7RKUidKUkRLM6lPMj/VViZLJyFNUQFKUlRMRApLVi/NIyJVViZLIjNLJ6/KU6xML6dPMzdLIjVLU7RLM6lPMj/LK6BJGii','WPddJ2fmDJKVemkaEee','WP7dMtvYyJiM','WQDSg8kOWPbKe8ovqG','BhzrCfi','WOFdI2DVCG','WPukWP1ABcVdMCoF','W49ZFwC','rLfXwu4','y2fSy0XLBMD0Aa','l3DMtwfUywDLl2DLDfrLyw1mAxn0v2L0Ag91DfrVA2vU','WR/dMCoAaCk4yhWBk8kLWQe','W5ldLmkmpmkAWP0ecSks','W5OhW488yCkdlW','WPJdMsCPWO7dQ1u','WRTAjuFdRf8','W6xcT8k1WODVWQ3cNCoxW6dcRZq','WPddRSoNmmkM','DxLhwfq','W5tcMCkOW4WipsT+aG','wa7cS+I2VUwfJ+wnMoEAU+EoOUwJGUAwHEAYQoIUQEMvRUwMNUMcRoE8PoE7UU+/G+AxKoAWOoIoVUwnQoA+T+A1KEEJT+++H+ITPoIcPoEYKUAjMEs5SEIKMUwhJE+8I+w/Hos8V+wnJU+9J8k8tCodWPBdP8kEfx/cVEodGIldOCkUW6ddS8oRdf/dU8o3eCofyeO','WQ/dRGyjWRddGGtcPf4','WONdNtGLWQZdVf3dScyawW','nqJcH8oCW64','WOiRW4W','ASoBWQVcHCo0cXi','WR8TW4NcUCoy','WPddMhPPzXWZgSkfALi','W59PWQRcGN8','WOxcK8ophSowbfpcSK/dHCkL','iooaGsdLR4BNOihVVjO','kSkLbmkqymosoCkmwq','WPNdItCLWOFdRKm','WOmGW5dcKG','Au1Xsfm','W5LOEwDxW67dISoiWPOb','ufjprfvdvf9uwvbfmq','lI4U','WOCSW5lcLmo3W4ZcM8oxWOLpjSk7','WQlILzRILyNILOyGW6tdK8kd4PsH4Pwd4PswW5NILO7IL6FIL4tILARILBBILjdILiNILzFdSUkxVEkxTokvVUkxJokxVEkvRUkuMEkvR1VILitILB/ILQtIL4tIL7hILQVIL5lIL7lcLUkxQUkxGokwMZpdHSko4PsC4Pw54PEMWQpILONIL4pIL7xILz3ILResW7ZILARIL6xILihcQUkxGEkuMUkuNEkuOokwKmkHWOpILARILzlIL7Ty4PsO4Pwn4PEp4PwDdEkvLUkxIEkuJUkwKW','pSk1eSkVFCotja','W5JdKqatWPC3cf/cOsXWEcGTtG','fWJcKaJdLCkDWQddQCkLv8kO','xZBdPW','W7XoWP96','vMrnuKe','qxffsuC','W5FcMmkPW40','WRFdK8o6WRPAW7e','WPddUHtdJSouWQO','iYddM0lcPa9gWQGMEmkP','Ahr0CdOVl3D3DY53zwjMDw5UEs5JBI9JB25MAwCVCMvJB3jKrw1HAwW','uCodvmkPyXe','eSkqW5BdRhe','rNnXy3u','WONdKZOWWOFdR0tdLambBCkZ','CNvSzq','CKL5A2e','W4XZWPJcS8opWRqGW7W','WPLqo0/dUu7cHfzCqmo3WOafWQ4','C3bSAxq','W5xcGCovgmobdWFdOHxcKq',"\u0057\u0037\u0035\u0063\u0057\u004f\u004c\u0031\u0057\u0036\u0074\u0063\u0055\u0064\u002f\u0064\u0048\u004a\u0030",'WQtdKZmTWRtcO8oGW6KT','rINdPc/dJCoqumkjqH8','WPCaqdz1','W73cLSkgWQ7dJY4','BgvHzgvY','WOFdQXNdN8ovWRXdwSo5WOxdJCkpW73dPs8IBSoz','W4GMsmklW6e','kmoVWP3cThWaoWK','bstdUCowia','WPxcNcfyCJ0LomkmxLVdULBcQ8k7oW','zLDiB2S','t8kdWQXKW58','y2DMzfq','WOBcSILgW5NdMxBdOSo6wZK5','wM9lt1a','W69oW4f7W6hcHtVcHJNcISoCWR/cIaZdUmokWRBdSmkYbdVdISkZoSktW5BcSqpcQ1unwSk5mImPku5GCceNd1u','oaddMmoJebVdT2BcILRdImoXW4DpemkHW7qgWQNdOmoy','A8kiWP9TW4m','zmonW7/cQCo4nWZcN0dcJ8k5WO47x2yysvLGW7iBWOGMWQG+','WO5bnL7dUfG','W4xdOCkO','WQjAW7aoW6hcQSoTzmoMWOujra','W5vHWRJcPCoA','WPSWW5pcGW','WQVdHmohaa','BCohW7/cGSoIaINcKvm','z2v0q29UzMLNqNLdB25MAwDoyw1L','DxbKyxrLsw5MBW','55An5OI35RYk5RET6ykL55Y0','W4WVBSkqW6C','5OIq5yQF5yIG6zMK5PEL5B+x6kgOoIa','5PYg6k2S5l6u5Oov5yQ26kkX5OIg5yQ2776D','jYbHBMqGy3jLyxrLzef0pd0N','W78YsCkrW5u','WOqoWObmxshdNq','W79oWPHAW6/cMdJdGJ/cQ8kDW4BdNqFcRq','uuONlSoXmwa','C8owW7H+WOS','zePcr1K','W44xW5aNyCkC','Bmo1W7zeWOW','WOJdKZa/',"\u0057\u0036\u0037\u0063\u0054\u0038\u006b\u0056\u0057\u0052\u0062\u0030\u0057\u0051\u0057",'W4P1A30','qtZdStVdNmogCa','C3rYAw5NAwz5','W6r/WOpcPa','W6hcNmkbWQFdJW/dHG','dSkEnmkLwW','AgfUzgXLtg9Nsw5MBW','Cg9PBNrjzhm','y3LHBG','zMnfEgC','crNcQ8oCW5ZdN1xcNSkL','zgT4C1u','D2vIzNvUBNLfDMvUDfnLBMrszxf1zxn0kfTWyxjHBxnDktSkicaGicaGicaGicaGicaGicaGicaGicaGicaGih0GzwXZzsb7cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaG','WQLqW6mkW6NcTCo7','f8kwW43dT34','bmoEWR07W6DWWRzXyhu',"\u0045\u006d\u006b\u0069\u0057\u004f\u0066\u0039\u0057\u0036\u0062\u0066\u0064\u0038\u006f\u006e\u006e\u004b\u004a\u0063\u004f\u0053\u006f\u0077",'W4qdW409tCkEp8oKW6PsWPS','W4PuWOOnyCktnmoLW7DiWPndomkbWRPh','WQVdQ8oVWP9r','Bg9NAw5wywXPzgf0zunVzgvuAw1LCG',"\u0042\u006d\u006f\u0073\u0057\u0037\u0062\u0042\u0057\u004f\u0037\u0063\u0056\u0043\u006f\u0059",'WQJdRsenWQ0','W5ihDCkXW6C','B3bLBIa','B8oGWPyXW4u','WOddICoTWQvcW4zaoYzsW5W7ja','W7ZdMmk8usi','WO9qjfRdOKxcTuO',"\u0069\u006d\u006b\u0046\u0057\u0035\u0078\u0064\u004a\u0065\u0072\u0031\u0069\u0067\u004a\u0064\u0051\u006d\u006b\u0067\u0057\u0051\u004e\u0064\u004e\u0043\u006f\u0042\u0057\u0050\u0034",'qvzQCfu','W4DTWO3dHW','WRZdUY0nWRW',"\u0077\u0053\u006f\u0071\u0057\u0036\u007a\u0075\u0057\u0051\u0057",'C8ohW7JcN8olfbhcNG','W782sCkbW5xcJw/cSCoGbq','W67cVCkM','W7ebW6ynDG','AmoJBXmrWQX0WQ5Oo23dOstcOG','tCohsmkREq3cMh0','W5fWWRJcMCo0','eHpcKaxdHCk0',"\u007a\u0078\u007a\u004c\u0042\u004e\u0071\u0058\u006d\u0061",'wMTeuxO','W7vpWQNcKmom','WOhdNCo6WQrE','z2v0qwXSq29UzMLNtgLZDa','aLK2iSo5yG','C2f2zu9YvxbKyxrLu3rHDgLZDgLJ','eCk2v8k/WOLJWOeZ','5PYn5yQH5BEY5PQc5ygC','CwOhdSoreuddLta2xG','WRBcQ2pdJHGJ','v0fgweK','wNfAsMG','W4OBW7ilya','WPBdMCo8WODAW6jxet1cW4aM','W7bkWPXPW6xcMbRdIIZcJa','W4BcLSocgSoqbdhdUG','WO/dOrBdM8onWOPZw8oQWPldVCkYW4FdUYS5sq','5l+s5Oc2W4Kk5B286Aoo5lYK77+H','C8kxW5pdR8kNuW','q8k2W6tdKSk8AmkRhCkL','sSoFW7rVWOe','W6hcKSkAWRRdNG','ASooW7bs','WQJdISohb8kT','yuLzvfu','sMXYCfm','ELbHBuC','57Yn6AkL5Asv6lE/77+8','k8kkW43dNYO1EW','566H55cg5zgy6lsM5y+35BEY5A2y5zYO77Ym6k+35yU/6yEn5Asn5yIB5BU6','WPX/d3JdNq','W6LXWPVcR1m','zen0vuG','W4HLAhb1W7xdQmoeWR4zW60',"qzLjhD".split("").reverse().join(""),'W657WOZcTa','W7JdMetdMdu','WPBcPwFdGtK','W5b+WOW','yxDZyNi','lmkJa8kr','l8kXfmkaFmobiG','6lAf57QN566H55cg5zgy','WRldGdFdT8oO','z2v0q2fYzefUzfbVAw50tgLZDa',"\u0035\u0079\u0055\u0053\u0035\u0042\u0051\u004a\u0035\u0037\u0067\u0042\u0035\u0037\u0049\u004f\u0035\u0051\u0051\u002b\u0035\u0050\u002b\u0073\u0035\u007a\u0067\u004b\u0036\u0041\u006f\u006c\u0035\u0035\u0049\u004b\u0035\u0042\u0059\u0047\u0035\u0041\u0041\u006a",'DMvYC2LVBG','Ahr0CdOVlW','CMvZDgfYDfnLCNzLCG','CMD3tfm','W6/dRSk7fSk8WQSanmozcmo8','cmopWR3cLfWGjIpcJSk6W701y8oB','j30PoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaG','Dg9mB3DLCKnHC2u','W6r7WPNcKuGZWP/dI1NcOG','AmkaWOPW','W7VcNmkOW7CBWQusBIij5BkK5Ps+55Ub55Eg5OQy77+eAHK/qxvzfCoifComxCo1lvRMG5BLPPlVVkFMGQlNMAFOTQtLJj7LTiJNUOZOOAFNR5pNKRlLKABMVAdMT57KUytVVyFLVlxLJ6FNMyZLVOxLKBFVVBj5W7lcIrldNtddGCkIWOddNsddHSoNkUwLHoAFGUEuS+MxTE+8OEISJoIdQUEZQEs8Q+IbKE+/J+w/NEs+UUwmR++9MHPOkCoLWRpcSSoVq8kj44gBtaTuWOtdKmoKmKdcMq1+W5NcPubZCWddVCo/W5BdHCknuZi','W6xcT8k1WPzYWRBcT8okW4/cRslcI2mbW7nF','qfaGna','wCohtSkRqrJcVwZcHa','qvaQi8oXiwFdO21O','dbJcR8ocW4ZdHvxcKCkSF8o1W4ddTNi','q0fsrf9vuerbvevFr1jpvvbFrKfjta','zgf0zvzHBhvL','vgntt2y','5Q2K6ykU566X5lIn5A2y5zYO77Yb','CSkAWQjUW4ncpSoonMlcVSo8dueAaYJcUaP1','WQldQColWPr+W5zHdwahWP4','CmoyW6FcGSo1','WPBdJSoNWQjlW4LBisy','W5xcHCovcmobmaa','u2noywO','EwLUtvu','wSoIFGiS','qKTHy3u','W5udwmkRW7q','WP3dUCoNo8kAFtfSDq','tgvYD20','W4XUWQpcOSoOWRqhW6hdRmkQAdRdLSkfqG','mqtdGCok','gH7cQSovW57dUfRcLSkK',"\u0057\u0035\u0066\u004c\u0057\u0052\u004e\u0063\u004f\u0047",'zMLLBgrdB3vUDa','CSkAWR97W5zjc8ov',"\u0057\u004f\u0075\u0046\u0057\u0050\u0062\u006e\u0074\u0073\u0065",'uurWvw8','W6JdSexdO28IDWJdMI8','W6ycAmk3W4dcUM5T','swjQqMi','lmoHF8oVW5KjdCoXuSoaW48','WPS8W47cKmoRW4u','lCkPfSkg','lmo4WOZcGweiha','55sO5OI35RoO5yAm6ycA55+L','qw92Bfa','WQZdKSofeq','WRuzEJC','WPm8W4ZcKSoRW4G','W4hcHmk/W4KcfID2he/cTa','ig9Yia','W41FWQLJW6y','zgvSzxrL','WOxdJ3nUCI0IcmkazLa','C3vJy2vZCW','jYK7cIaGicaGicaGicaGicaGicaGicaGicaGicaGicb2yxiGy3vZDg9TzxjjBMzVid0G','Bwf4swq','WQjKeSkNWOfge8omqHBcUGhdTJtcVZPBW53dU8oRWRJdR8keC3j7iSkyWPhcICoMfSkBW4S','rw9NEw0','s0rorw0','BgTxD0u','EmkgWPHWW5i','C2v0vgfIBgvoyw1L','lWRdN8oBmXVdReK','W6lcHSkkWRRdJZtdI8oltq','W4JdKSkmoCkC','ELbirg8','qKrluvO','WO7dQKa','DxbKyxrLqNLdyxjK','WP3dMr02','r8odW5hcU8o5','WPNdLJRcGLbFdJj9iXC','z2v0tgLZDej5ugfNzuLKqw5KtMfTzq','q8k2W6tdKSk8AmkRhCkK','W5bjWQlcPhq','W5tcMmk5W4ydkte','W4xcGSk+W5W','fHRdQMZcIdH0WPv4lq','WQbDW4pcJMW','zNHJDK0','WOFdL8oDWQjk','DunJtMq','W6HEWP9X','W50sW5OOCmkv','zNvUy3rPB24GkLWOicPCkq','WP3dUCoNo8kAFuyCfCkaWPKCrwCOjMJdOSkcW7vyW6O','WRBdSsykWQa','xZJdSZRdSmoBymkfvZvS','zuD2rMi','ymojW7NcJ8oiaW','kCkIcCkjCCodjmkRwG','uaBdVw3cHd9HW5D3j8oSWRNcO8oJWOhdKcifW73dVmopp8kJWQvIrCoklg5/uG','y29UDMvYDe9WzxjHDgLVBLnXBa','WRm1W6xcUCo5','WPpcPZHr','cu/dPSoLvW','W6unzZS4cgLiaSkSodNdQWaYWP8nna','ywXHCM1nzw1IzxjZ','WO/dOmogoSkm','lmoVFCo6W6GudCoFs8ojW69kW7tcUG','EhzOs0S','WPueWOrxta','WRm2W63cHmog','hbZcOSo7W4O','WQ03W7tcHCox','WOxcSsXn','DxbSB2fKvhLWzq',"\u0079\u0032\u0039\u0055\u0044\u004d\u0076\u0059\u0044\u0065\u0066\u0055\u007a\u0065\u0039\u0059","CZJcJRWADHOcltb+uKdakSPcF3mfo8cyn4WZj4WhoCn".split("").reverse().join(""),'udhdOtZdUSoAymkfBG4','W5hcH8kcWPrfWPFcOmo8WPVdU3C','W4FdKSktp8obaHZdPXFcOCoRWRz8WORcRKK','y2f0y2G','W4FdRhSoWOhcRq','W5xcKCoueW','WP/dI3T4EZSFlmkSFvddVuhcGmk+kSo4','W7FdOfNdTIyC','WR5uW6uTW6u','wmoyW7jAWO7cQG','W5xcI8oofCoqlXldRHC','57Y65AsXDxnLCKLK77Yb','W5DLWRNcPSoqWR8YW60','W5fLWQFcPSotWRa1W63dH8kNyrS','W4DVWQ7cRW','W7CcDmk8W6e','W4/dHX4a','tmonWRSKWQGVWRK','y3ror1a','WP8yWQnCsdFdImoo','CMvSzwfZzvnJCMLWDa','bspdRetcHG','WRunBJPrdW','WRyyAcTTga','WP/dJdaNWPBdUa','igfUzcbJCMvHDgvKqxqGpd0N','Cf40gmoT','W5RdQ8kHuIOnWPtcVCk6','Cg9PBNrezxnJ','Cg9PBNrZ','CvLdvhm','W4/dP8kQwGSUWPtcUCkZ','BCocW6nuWORcRCoK','W7yxDSk9W6dcVgPUW6i','W6hcGCkbWQFdJW/dJmodrq','W6pdReZdTImmx3xdKsjEnCkAz8k0lX4','q1eGaSoM','z2v0vxnLCKXPC3q','WRtdHmosjmkPuhy4dCk3WQKW','WOpcMfBdPamyW5dcN2C','W5JdNWigWRqShLRcQG','WPa8W5tcPCo6W4hcJCotWRLfeCk9kSkTW489','W5hcP8oOpCo1','W7yQqSkBWP3cRLBdVCoJba','W65fs0flW5hdVmoIWPeWW4RcHblcNmoQB8oQ','EmkBWOH/W5jjj8oeixdcPSoiha','44gF5Qk35O2/W6NdJHqtW5TbW5hdTe/LKiZcR8oeC8opWQTQW4ZVVjBLJilLSlVLVARLPyNOO7tLIylPMRBNQP7LU7iHWPHL','WPFcVY9rW6FdVwNdQG','WQmdEXP5chm','WPpdOqu','vgT1r0y','imo4WOe','gvddV8oIvW','k8oIBX4aWQPmW6e','oSkXcSkawSobpCkh','y3jLyxrLvgfIBgvcEurHEq','EYhdTb7dIG','WO/dRWBdJSoOWRDYtmoKWRJdQq','5P+L6k+I5OIq5yQF77Yb','W4lcGCotk8ofbHBdGb3cGCoRWQS','CgfNzuLK','WPddJ2fAFJSMomk9CKxdTNFcVCkuo8oG','lCk4jCoDW5KyfSoAr8oWW5ncW6pcSmopFW','amkYsmk5WRnsWPSYWQddPwe','mCkBW4JdMNvPia','z8onW7/cISoOcW','gqRdNSocgbW','5B2t5yMnDgvHBEs4I+I/MoACIEMHUEEBRU+8JoAxOoAZLEAjP+IHJowiOoMzPoAtJEs9No+8Gq','W7/dQCk9fmkTWR0mlCkQCCkaWOTzW6tcGCoNWO57W6hdK8oPW5i','WRjGemkGWQvFf8onqHxcPIa','W75NWP7cPa',"\u0057\u0034\u0053\u0064\u0057\u0035\u0069\u0051\u0071\u0053\u006b\u0066\u006e\u0043\u006f\u0056\u0057\u0037\u0044\u0058\u0057\u0052\u0035\u0066\u006e\u0043\u006b\u0079\u0057\u0052\u0054\u0071\u0057\u0050\u0066\u0045\u0075\u0043\u006b\u006f\u0057\u0050\u0069\u0049\u006e\u0043\u006f\u004c",'W5fHWRNcVCoVWR4OW6BdVCkcAq0','z2v0qwXSuhjVAMvJDeXPC3q','WRevEtO','WPRdMCoX','WPpcSqrBW4pdSwhdJmo5ts4','W7dcT8kXWRjHWRdcO8omW4dcPtm','WOtdNY7cT15ciYLbkq','kmoeqCo6W70','y2fSy0z1BM5LBenVBNzLCNnPB25syxrL','B2voAhe','WOisWOfC','idiZoJu5oJu5','WPlcPNddMru','WPm8W5tcLSo2W4e','W79oWPHjW6hcKtVdPZhcMSkq','WQ9bW6m/W6pcSmoZzmocWOi','WRCjEa','E8oFW5zUWOC','C2LNBG',"\u0057\u0034\u0056\u0063\u0049\u006d\u006b\u0030\u0057\u0034\u0069\u0073\u006d\u0047",'W4SdW4WTtCku','WRlcPwpdJIuVWOhdNbNcQCk0W6O','v2jKwgm','W6TYWO/cS0OtWPu','W7NdQeZdQICbFKtdII4','W5GqW5CNCmk1kCoZW71V','ue9jtLrFrevmrvrfx0zbsuXFmG','WOBdMCoCWQ5lW6a','d07dT8oBtmojuxK','55U55B6h5OUr5yMi','omohW6feWPZcQCo4WRnXEG','W55LE2DTW7hdMSo9WQ4hW6RcUcZcQCoozCojury','W6ZdQCk3h8k8WRShnmkUymkfWODdW7RcJ8oJWOn6W6BdNSo/W4PRvCobl8ksm8oGWP4','hXhcVmodW50','W6W8vCkeW5NcHe3cSCoRfwe','vuPfz3i','x2nVChK','WPFcSY12W6i','ESo3w8kctq','WR5AW74WW7tcKCo6','ymohW6xcNCoKfqRcV1RcJ8kO','W4n5ywW5W4ZdO8kaWR8r','C3rHDhvZ','WOyeWPHxtbtdGmoFthhcUCoBzSkBWP4','umoCWQiKW75HW6j2vZr6zG','vvnfuL9uwvbfx0fetuLo','W4/cNCkGW5W1','WRVdISozf8kgq2G4dmkHWR8','BhrZreK','WOFdN2z0','BxjKyue','W7HRWOlcPa','6yEn5zcV5zg95lUK5AsX6lsLzxjYB3lVVjO','lNHSC3G','WP/dGbS+WRu','y29UDMvYDeDYB3vWqNLdyxjKu3rHDgLZDgLJsw5MBW','WRpcUMddIIuIWQFdGtVcPSkUW7K','kmo8WOZcSg8kcWK','CMvXDwvZDezVCLr3B1bYB3rVy29S','tfDYEwy','zSoAW7NcHmoZ','zgf0zq','uNnvuhC','WOtcVYrxW7ldVxBdO8o8','q29UDgvUDc1mzw5NDgG','WRaCBt5SdKTFdmkYod7dNJzRW6DzDSkbW6y','y29WEvbVAw50','W4PHAMzXW5ddNq','z2v0ugfNzunVDw50','y2fSy0rHDge','se1iD1q','WOpdMCo5WQjEW7zg','WOldICoRWRrEW7zb','W6BcVSkRWQ3dTW','W6hdRe7dUsCbtKtdMs4','x8ojxSk3','WPTMW5imW5/cJmohuCoPWQK1FYjXkSogpMBcVmoc','WO3dMsakWOVdRKq','WRVdSXCcWRm','W4RdVmkQvXSfWQdcP8kZtq','W5OhW44LzCktpG','W6NcOSkPWRbb','W4xdH8kQFWq','y2HLy2TvC2vYqwnJB3vUDa','WOBdMtOHWPBdTq','WPjRW7/cTa','y3jLyxrLt3jvCgrHDgu','6BUE6k2a5yQW57Mz','ywXHCM1oB3rPy2u',"\u0065\u006d\u006b\u0059\u0075\u0053\u006b\u002f\u0057\u0052\u006a\u0062\u0057\u0051\u006d\u004e\u0057\u004f\u002f\u0064\u004f\u0077\u005a\u0064\u0052\u0043\u006b\u0030\u0057\u0036\u0062\u0079\u0068\u0062\u0065\u0043\u0066\u0064\u0052\u0063\u004e\u0043\u006f\u0055","ajOk8g+oCVch4WhomLdV5WokCPdtsgx1JLdd4WhkSo".split("").reverse().join(""),'bmkHs8kVWO1XWO8rWOFdOx8','5yMc5BIQ5OM25yM8',"\u0042\u004d\u0054\u0034\u0045\u0077\u0079",'WPq4W4ZcLmoBW4ZcNmot','xSoux8kVyXZcK2a','uMDoALO','W6CmymkT','Aw5PDa','WQ5GfgNdIhJcLxaTeCk1','su96wfm','ugzcEfm','veOwcCor','iJtcTIFdTmkcWPBdMmoWe8oW','patdGmompWhdPKVcGa','vSoCWRWKW71UW6v2','ANnVBNDLyNrVA2vU','WQyeydn8ngTFdmk7oc7dMq','W4tcJmk2W4y0lY59','W79SWONcPeK5WOG','z2v0tgLZDej5ugfNzuLKqw5KtMfTzufUzfr5Cgu','rhekpSoh','WRydEYS','w8oXDSkJzG','C3bSAwnPBMDtCwW','WOFdPXClWRlcN8ogW5HRW7pdTW','WPxcKeeqWOySfXNcUZzABtG','tColcmoUCrxcPgRcIq7cV1OAtalVVRy','kmo8WPtcTN0jgatcVSk3W5e2rCoMcZ4NnmobFSoMWPedxgr2WR4','fSkHsa','y291BNq','WQpdSGa','z2v0qwXSvgfIBgvmAxn0','WPddImo8WRzyW61FnZXdWPvYi8khW4pcUZHxiHPc','hbxcOmouW73dVfxcMSkS','CCkmW5/dQCkl','zgvSzxrLvgvHBq','Ec1MB3j3yxjKzwqTzM9Y','Cg9W','CMvHzefSBa','W5v1WRNcVG','W6hcNmkbWQFdJWJdG8oitW','5yUd5BMr5l2u5OcB5AE56lsh77Yj6k6Q5Rcf5yYg5PA25lMt6io55lIr56It772P','6k2M5OQL5y2H54Mh77YA','W7VcNmkOW7CBWQusCNilW55S5Bgp5PAc55IR562/55gq5zgU772vq1ajc8oIfComxCoPFurEW48xESoD5OcQ5AAu77+255wR5OU744gI','W5ldI8kvDCklWO09s8kBsSkO','vKy0ka','W7LfWOG','jmkBW43dRNX2bhVdRSkaWP7dN8oBWRFcUCoGvq','z2v0qwXStgLZDej5uhjVAMvJDeLK','W49WFhrGW6tdO8oiWQGgW6JcTYG','WPRdNsy1WOC','W7TzWOL4W7tcKXZdKG','W7TeWOjVW6xcHcRdPcJcJmkw','WQT3muBdVa','W4FcI8odaG','tK9WEMC','jmkBW43dO3LPieVdUmk6WPtdLCobWO/cMCo3ymk1m8oubgu5WR4u','nSo3AmoGW7e2hCoA','W4dcImkUW6yjlYXS','572U6Ag25OIq5yQF77Yb','5R+a5Rs756cb5AsX5Pwi5lQg77Ym6k+36igu57o75OIr5lUS77Ym5B6U5l+H5y+377YAD2vIzNvUBNKY44cbD2vIzNvUBNLFmJaYmooaGG','ioAOOEw8JY4UlG','hsFcJmokW64','W5tcMCk7W5etkq','fHxdQCoAfG','W600v8kvW5W','CMvNAxn0zxi','C3rHCNrszwnLAxzLtxnN','BSoNBXWrWObwWQDG','W6WYv8kbW7BcIN7cVmoJ',"06WLGeTct3MddRW/mLRcpOW7H7W".split("").reverse().join(""),'mJpcScxdPCkuWPRdLmkxymkdmg3dHq','u2nwAe4','C2f2zurHExm','WRfKgCkHWRDfb8owuW','zMLLBgruExbL','D8oIW4FcN8o2','haxcRCotW53dOKC','Fmo0xGSvWQW','tSotwCkTCGRcOLRcJLVcTfW','ig9YzgvYigj5ignYzwf0zwrbDcbKzxnJigXPBwL0ia','WQhcUghdJJ8','W47dJaKaWPWMaG','z2v0q29UzMLNrgv0ywLS','WO7dMsaNWOVdSq','W6K/vmknW4i','mmkBW5FdI1v3nwddRq','Bg9NAw5wywXPzgf0zunVzgu','WPtdMhb9yZSijq','vmoyWR0NW7C','uKvguKvtsf9gquLm','WPJdMsC2WO3dS0pdSa','W5FcJmkOW5yd','i8oRF8o+W4Gt','WP5hmKVdUu7cIePOCCo3WOSMWQ/cRHe','W6ycDSkWW4dcUM5T','Fmk5WQr1W7m','F8oWAb4aWODzWQXQ','WRFdRdVdUmof','rw1WsMi','W5X5WRpcR8ksWPWmWQxdRCkI','W4dcKSocfCoqkb3dPr0','W4bdWP5PW4C','lCkXbmkpCCoKoCkrtMyxtW','W5BdNXy2WP03dW','vw5PyxbW','deNdTSoNr8oHu2qGfG','EmkBWOH/W5jj','qc3dSIFdL8osBCkgvG','vvbeqvrfx1nvq0nfu1m','WQ7dUaddNSo3','ywXHCM1jBMzVtgLZDa','fHZdVw3cHqHSWODX','e8kbqmk4WOW','zMLLBgrZ','r8olWQO1W6zLW4j2EdG','AxmGBM90ig51BgW','rKrhD0G','q1rNt0W','WRuEzJv9cg9+cSk1lthdJZH7W5jeuCkuW5xcPwtdVCodWOtdTSk/D3DRW7tcQa','cWdcRWBdLG','pGNdJCoDfcxdPKRcHLVdRCoK','WQKdBG','W5fOWQ/cUa','aaddQ2K','W50rW5S7','W5RdQ8k7','prddHCodhq','WQRdJSogbmkNthy4','W6xcT8k1WPrVWQNcNSomW4FcNYlcLhydW7foqXa4BCk3orvzW6G','W4ZdLmkro8knWRyYbSko','W4TcWRZcUCo3','WOnQW6RcSG','W5nUFhbSW47dIa','pbZdJCob','WPa8W5tcTmoWW4pcJSoBWQ0','W5xdNWma','WOv2W7ZcPxXwvstdRv/cPmoVW64KWR7cTa','vmowWQy6W6zoW7D+Fa','W5VdQ8k+qWOtWOe','tWFcPSovW4RdTbtdGSo9k8kgW4NdT2hdPmo+','tSkCW4ldJCkD','y3jLyxrLuMvSzwfZzvnJCMLWDa','h1ddT8oQv8ofBhKGeqHL','fSkUW73dRKrFc0/dGmkJWRC','dCk8umkZWP5wWQe2WPi','zw5Kug9PBNq','z2v0q291BNq','W4RdR8kJvsebWPJcSq','rxnltLq','5OkO5B2t5yMn55Qe54Mi5PYS5PEG5Rov5l2/55sOqvbj5P+L6k+I5yQF6io977Ym5y2H54Mh5PEG6zMq54Mi5y+V6lcd55sO77Yb','WPHdmKtdUrRdTH4','CgfYyw1Z','eGtdTMVcTa','DxbKyxrLqNK','mmklW5VdNgrO','D2vIzNvUBNLuB2TLBKXPC3q','hrxcVSovW5NdPxFcNmk1Dmos','EgDbs04','CxvLCNLdCML0zxjPyq','WPtdHwbYyW','qtZdSZ7dLSoBD8kf','WOFdHxXYyXCU','6AQm6k+b56cb5lIn5Q2J56gU77Ym6k+36yEn5PAW6l6t5ywL77Yb','FEEuN+AiKoAVJ+wKQEEAHoIHQoAkPEMuME+8MG','CwXtrLq','emkNrCkUWOHa','zMfPBo+8Gq','pCkXeSkc','WODHW77cIgTatHBdVKJcOq','WOlcQc1AW4dcPspcVCkH','d8k2sSk9WOLB',"y+P5zM75gkk6MU55nEA5VIP5Mkz5mAA5OMl5wMO5KA55fkk6pQO5fsP5lYA5".split("").reverse().join(""),'lmoMDmo6W5CRfSoxtmorW7rpW4lcPSoKBSojWRPrW5S','WPhdQWtdJ8oeWQPI','W4JdLmk0oSkoWP0Hkmkks8kP','rvOWamo1oLRdRG','WOtdKYaVWOhdUgFdTbq','D0TTzMy','WOiQW4xcHq','ig9YzgvYigj5ifvwigrLC2mG','WQKnEITrbx9ig8kxoW','WQzGcSkfWPHgjSozrttcSaVdQINcPq','WOddOqddJSoIWRHKtq','D2vIzNvUBNLfDMvUDfn0B3jLtg9NCYHWyxjHBxmPoWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGFqOGicaGicaGicaGicaGicaGicaGicaGicb9cIaGicaGicaGicaGicaGicaGicaGFqOGicaGicaGicaGicaGicaGFsW','WRPDW7iW','l8kFW4RdM1L0mgZdUCkLWP0','W53dNSkEDdC','ACoEW65tWOdcQCk5','emkJsmkZWOK','n8khW4NdIG','5P2Q6k6X5l+A5Okn5yQN6kkl5OIl5yMp776g','W7LRWOm','WP3dMCoMWRbpW60','ySkbW4ldVmkhwW','W5vVWRNcOSoVWR4OW6BdVq','uwzouNu','bmkHs8kVWO1/WP8KWP8','arpcNaRdHCkuWRFdTCkTuq','W4SdW4OQBa',"\u0041\u0078\u006e\u0077\u0073\u0076\u0061",'y2fSy3vSyxrLtM9gDw5UzwXhCM91Cej5rgf0yuj5q2fYza','W5ddLmkF','nUwkHUw4GUIIVEAkREMvVo+9OW','WPpdH1Lztq','WPLzdK7dIW','aq7cNaRdHCkvWQddTmkH','W47dNSkljCkwWPyGdG','WRldRSonWPzVW4bTaqD0W60xfSk9','WOqoWPzqsYBdJmoizNRcImo1D8kyWOmM','pmo4WPRcS30lfWNcNSkpW5SErmoDetiNa8koACoOWR4yDMTHWPxdUqq8lCkLW6hcVmkhxfxdKrjpf8o/W70KEgzDbSoIWPbVbNyWt8oNW4bAlSooW47cGSkUcbDlW5vqt8o2W5pdTCoMWQiIy8oBlgdcLmorn8kHW4STW5NdRCkjn0q7','bHtdThtcHa','imkwW5ZdJhTkixVdOSkcWPRdJ8ok','zCkDW5FdSW','sCojFmkNBXZcTq','WQVcPMldIJS','DM1WENm','sK9xrxe','5yM05BQk5lYV5OoF5OQO5yIo','mJe4mdK1uhLmse52','mZCWmtq4ENPduvL1','WQddIH0JWO4','Chj4rMW','qdJdTIVdR8ouAmkvsGK','fGtcGsxdNCk9WONdRSkXvW','W7hcVCkZWQm','WQRdJSoeaCkTuxe','AgfUzgXLt2XKrMLLBgreyxrH','WPvVaLddQa','55EN6k2f5OMe5yUx','W7FdOfNdTIyJu1BdIG','bCkrW4VdGNfU','W7lcKSkeWQRdVs/dH8ojtG','r09zwvi','WOJdKIBcHerhlcLTaWW/aSkoux5TggT/WPG9WQOsWPPXFgL0cHqEeHm','BMLJA25HBwu','W515WR5wW5lcQwRcMMS','CMvHzezPBgvtEw5J','W702smksW5/cJwJcTq','WRpdGdS9WOFcGmo8W7qT','6AQm6k+b56cb5y+r6ycb5AsQ6Akr57Mb','W6uiycXSaNvof8o4','W7fyWRPqW5a','vezOv3G','W4RdR8k9uIye','WOpdJ3HSEZ8+oCkNALJdTG','W7XoWOb8W7tcKXZdKHhcJq','WPxdMCoKWRjpW6a','aGtcGtldKmk9WQZdO8kJv8kLnLhdSMK','5yMX5BUA5l2Y5OoK5Ass6lAf77YZ6k+65Rcd5y6N5Psn5lIB6ig95lQY56I+7720','p8o7y8o6W5qAcSoByCokW5Lo','aqdcKGhdSSk+WRddQCk2','W55eWP50W6hcGG','W7pdPLJdOW','W73dRfldVtyh','ywrKvMLLD2vYCW','CKzwtve','mCoWWQZcOeO','q1DTzeO','lqddN8oFfGBdSei','vxzAwxa','oSk4b8krvCou','c0ZdSSo5tSoPuwSUkrrLW7q','FCkaWOHYW4jOd8osmq','W6dcVCkLWQ4','dbfRlSo7lhxdO2uPdCkAW7i2W63dPG','y29UBMvJDgLVBG','CMvZzxrqD2q','WO1ujvNdQa','WRFdGdePWOpcQq','zCkZW5FcTgqecX3dTmkqW5auvCoW',"8XPWsX6W".split("").reverse().join(""),'6zYv56Y855o+5zkn6lsU5y6s77216k6h6ikp57cc56YF55g25zgO6iY/5y6Z55IG5BYE5A6256kH77Yl','W5hcJCotf8ob','p8k5a8kpCmot','iCkrW53dLG','W4HHDNf7W6W','lqddNCoAhbVdTW','W4NdMX8qWPC2dW','w1OOiCo7nq','WO3dMsaiWOFdQMddUGqlvSkiW5S','EmoKW61gWP0','yMf0y2HezwXLDgLVBG','gvtdSSo/vSot','C8kxW5pdRW','WRJdLZOVWOpcPa','uCojWQS1W6zLW5rQxZXYBW3cMW','Ahr0CdOVl3D3DY53zwjMDw5UEs5JBI9JB25MAwCVC2vUzevTywLS','W4dcImkUW7uhpsDueKJcQa','WONdNtGLWRBdSKtdTaqj','zMLYC3rvC2vYugfYyw0','W79oWPHwW67cKW','Dw5PlG','D01dzeW','lmoOD8o2W4K','ihnLBgvJDca','ywrKvgvHBu1LBwjLCG','CgfYC2vrCW','lI4VBwv0ywrHDgeVD2vgAwvSzeXPC3q'];_0x6f7a=function(){return _0x53f620;};return _0x6f7a();}(function(_0x2286ac,_0x1ad9d0){function _0x55b5d2(_0x42b703,_0x5a4b9b,_0x5a20c4,_0x23db5d,_0x2182ed){return _0x425a(_0x23db5d- -0x335,_0x42b703);}function _0x5c6e0e(_0xf801f6,_0x1111fd,_0x541052,_0x13d50d,_0x31c285){return _0x49e9(_0x13d50d- -0x11b,_0x541052);}function _0x3b203a(_0x28728b,_0x1caa26,_0x377b82,_0x3af6dc,_0x45a1de){return _0x425a(_0x377b82- -0x2e5,_0x45a1de);}function _0x6de20d(_0x60818c,_0x21184f,_0x507df4,_0x125335,_0x346579){return _0x49e9(_0x21184f- -0x159,_0x507df4);}function _0x136909(_0x3e4be2,_0x1040ce,_0x4dfddb,_0x17b0e4,_0x2815a1){return _0x425a(_0x3e4be2-0x263,_0x17b0e4);}function _0x197942(_0x57a573,_0x21eac0,_0x536ec8,_0x1a7ff4,_0x22281b){return _0x49e9(_0x22281b- -0x1f6,_0x57a573);}const _0x5349ce=_0x2286ac();function _0x1fd57d(_0x1454cf,_0x3c12b8,_0x5bcadd,_0x183293,_0xd227a7){return _0x49e9(_0x183293-0x2ff,_0x5bcadd);}function _0x445ba4(_0x344ce0,_0x4f00e3,_0x4e44e6,_0x259c1f,_0x54ac08){return _0x49e9(_0x54ac08-0x2f5,_0x4f00e3);}function _0x3159fc(_0x4e94b0,_0x5ef30c,_0x5901e0,_0x50faea,_0x1283a4){return _0x425a(_0x4e94b0- -0x363,_0x50faea);}while(!![]){try{const _0x5b6b45=-parseInt(_0x197942('wwdd',0x281,-0x114,0x941,0x5d3))/0x1+parseInt(_0x1fd57d(0x1c7,0xb2c,'525w',0x49d,0x1c8))/0x2*(parseInt(_0x1fd57d(0x62d,0xc12,'EUkN',0x98e,0x10a1))/0x3)+parseInt(_0x3b203a(0x5c8,0x989,0xa83,0xb99,0xecd))/0x4+-parseInt(_0x55b5d2(0x3be,0x3e5,0x378,0xa32,0x817))/0x5*(parseInt(_0x5c6e0e(0xba5,0x325,'wwdd',0x63f,0x98c))/0x6)+-parseInt(_0x3b203a(0x12f,-0x1d1,0x393,-0x309,-0x202))/0x7*(-parseInt(_0x197942('3Dt$',0x362,0xa6,0xd6b,0x673))/0x8)+parseInt(_0x1fd57d(0x18b7,0x152f,'pjHx',0x116e,0x14c7))/0x9*(-parseInt(_0x197942('uBJo',0x4a3,-0x10f,0x2df,0x39d))/0xa)+parseInt(_0x3b203a(0x89e,0x185,0x559,0x55,0x309))/0xb;if(_0x5b6b45===_0x1ad9d0){break;}else{_0x5349ce['push'](_0x5349ce['shift']());}}catch(_0x2da992){_0x5349ce['push'](_0x5349ce['shift']());}}})(_0x6f7a,0x28554);function _0x5db3e7(_0x3393f2,_0x146729,_0x25f407,_0x3b955b,_0x2c8f52){return _0x425a(_0x25f407- -0x25a,_0x3393f2);}function _0x57bc58(_0x293469,_0x4dda74,_0x5c3334,_0x2b4568,_0x2f3c7c){return _0x49e9(_0x4dda74-0x174,_0x5c3334);}const _0x1dc43d=function(){let _0x1f18b2=!![];return function(_0x4aa29c,_0x299f5d){const _0x1ea44e=_0x1f18b2?function(){if(_0x299f5d){const _0x2b22ca=_0x299f5d['apply'](_0x4aa29c,arguments);_0x299f5d=null;return _0x2b22ca;}}:function(){};_0x1f18b2=![];return _0x1ea44e;};}();(function(){const _0x130b82={'HtiNG':function(_0x38c629,_0x1140f0){return _0x38c629(_0x1140f0);},'tXdhw':function(_0x30ba45,_0x510a9b,_0x232ed9){return _0x30ba45(_0x510a9b,_0x232ed9);}};_0x130b82['tXdhw'](_0x1dc43d,this,function(){function _0x2a9558(_0x14d9ff,_0x35bbd3,_0xb85fd3,_0x29a7a9,_0x198101){return _0x425a(_0x35bbd3-0x240,_0xb85fd3);}function _0x20818b(_0x1176d0,_0x13ecbf,_0x27195b,_0x1540f8,_0x38bbab){return _0x49e9(_0x1540f8-0x30d,_0x27195b);}const _0x2a62ac=new RegExp(_0x34f02b(0xc1d,0xc09,0xec9,0xc86,0xd87));function _0x540fd8(_0x5b52c9,_0x39d143,_0x124a13,_0x239d88,_0x50bcda){return _0x49e9(_0x239d88- -0x146,_0x50bcda);}const _0x307eb7=new RegExp(_0x121d00(0x11aa,0xb37,0xd6c,0x1140,0x7d9),'i');const _0xf20f43=_0x2b4986(_0x34f02b(0xce0,0xa1d,0x7b2,0x12b9,0xdc9));function _0x121d00(_0x5a9029,_0x15bd30,_0xe8856c,_0x1a24bb,_0x125a1a){return _0x425a(_0xe8856c-0x314,_0x1a24bb);}function _0x34f02b(_0x1fe100,_0x29f6c0,_0x1dad16,_0x3dd046,_0x47bfdb){return _0x425a(_0x1fe100-0x4d,_0x3dd046);}if(!_0x2a62ac['test'](_0xf20f43+_0x20818b(0x42d,0x5f7,'xX^h',0x7da,0x4b2))||!_0x307eb7['test'](_0xf20f43+_0x540fd8(0xd45,0xbab,0x6fb,0x66d,'tRqs'))){_0x130b82['HtiNG'](_0xf20f43,'0');}else{_0x2b4986();}})();})();const db=require(_0x44354a(-0x28a,0x1e8,"\u006c\u0028\u007a\u0064",0x6cd,-0x446));const Sequelize=db['sequelize'];function _0x49e9(_0x45f47b,_0x57b711){const _0x2b4986=_0x6f7a();_0x49e9=function(_0x1dc43d,_0x6f7aef){_0x1dc43d=_0x1dc43d-0x0;let _0x425a03=_0x2b4986[_0x1dc43d];if(_0x49e9['VOqKGL']===undefined){var _0x21c299=function(_0x20c0ae){const _0x49e96d='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x20cc78='';let _0x58475a='';for(let _0x3cc2ee=0x0,_0x26684e,_0x5a7f39,_0x5e720b=0x0;_0x5a7f39=_0x20c0ae['charAt'](_0x5e720b++);~_0x5a7f39&&(_0x26684e=_0x3cc2ee%0x4?_0x26684e*0x40+_0x5a7f39:_0x5a7f39,_0x3cc2ee++%0x4)?_0x20cc78+=String['fromCharCode'](0xff&_0x26684e>>(-0x2*_0x3cc2ee&0x6)):0x0){_0x5a7f39=_0x49e96d['indexOf'](_0x5a7f39);}for(let _0x5a3178=0x0,_0x404d03=_0x20cc78['length'];_0x5a3178<_0x404d03;_0x5a3178++){_0x58475a+='%'+('00'+_0x20cc78['charCodeAt'](_0x5a3178)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x58475a);};const _0x459bed=function(_0x2f5d6b,_0x3ad682){let _0x510a1=[],_0x23041d=0x0,_0x2093d3,_0x35a6b3='';_0x2f5d6b=_0x21c299(_0x2f5d6b);let _0x4d8255;for(_0x4d8255=0x0;_0x4d8255<0x100;_0x4d8255++){_0x510a1[_0x4d8255]=_0x4d8255;}for(_0x4d8255=0x0;_0x4d8255<0x100;_0x4d8255++){_0x23041d=(_0x23041d+_0x510a1[_0x4d8255]+_0x3ad682['charCodeAt'](_0x4d8255%_0x3ad682['length']))%0x100;_0x2093d3=_0x510a1[_0x4d8255];_0x510a1[_0x4d8255]=_0x510a1[_0x23041d];_0x510a1[_0x23041d]=_0x2093d3;}_0x4d8255=0x0;_0x23041d=0x0;for(let _0x4d9847=0x0;_0x4d9847<_0x2f5d6b['length'];_0x4d9847++){_0x4d8255=(_0x4d8255+0x1)%0x100;_0x23041d=(_0x23041d+_0x510a1[_0x4d8255])%0x100;_0x2093d3=_0x510a1[_0x4d8255];_0x510a1[_0x4d8255]=_0x510a1[_0x23041d];_0x510a1[_0x23041d]=_0x2093d3;_0x35a6b3+=String['fromCharCode'](_0x2f5d6b['charCodeAt'](_0x4d9847)^_0x510a1[(_0x510a1[_0x4d8255]+_0x510a1[_0x23041d])%0x100]);}return _0x35a6b3;};_0x49e9['hzJUDK']=_0x459bed;_0x45f47b=arguments;_0x49e9['VOqKGL']=!![];}const _0x12deb0=_0x2b4986[0x0];const _0x270760=_0x1dc43d+_0x12deb0;const _0x3b4287=_0x45f47b[_0x270760];if(!_0x3b4287){if(_0x49e9['adBPcu']===undefined){_0x49e9['adBPcu']=!![];}_0x425a03=_0x49e9['hzJUDK'](_0x425a03,_0x6f7aef);_0x45f47b[_0x270760]=_0x425a03;}else{_0x425a03=_0x3b4287;}return _0x425a03;};return _0x49e9(_0x45f47b,_0x57b711);}const colors=require(_0x44354a(0x4ed,0x3a6,'bi#r',-0x123,-0x1d9));const xlsx=require(_0x44354a(-0x597,-0x160,'3Dt$',-0xd,0x25c));const Utils=require(_0x57bc58(0x1309,0xe19,'0Kvl',0xcbc,0x1519));const utils=require(_0x5db3e7(0x5f6,0xb0b,0x7e0,0x2f3,0x5a2));const CusUtils=require(_0x41d373(0x2d4,0x5e2,-0x6e,-0x7aa,-0x280));const searcher=require(_0x36579a(0x10da,0xd36,0x80d,0x745,'Z$uP'))['create']();const log=require(_0x239d8a(0x9db,0x1d0,0x740,0x5e0,0x7d4));const statusCode=require(_0x41d373(-0x3e7,0xc9,-0x12,-0x6ad,-0x1c1));const{UPLOAD_TYPE}=require(_0x36579a(0xf70,0x112a,0x11f4,0x13a6,'O0Eq'));const fetch=require(_0x2b789e(0x41,'l(zd',0x23,0x3ef,0x6d4));const jwt=require(_0x5db3e7(0x364,0x6a5,0xa41,0xc2a,0x387));const verify=jwt['verify'];function _0x2b16ad(_0x34728c,_0x36e0e5,_0x192c59,_0xe45cc7,_0xd9c3db){return _0x425a(_0xd9c3db-0x19,_0x36e0e5);}const secret=require(_0x44354a(-0x1f4,0x153,'l(zd',0x212,0x2d4));const{USER_INFO,DANGER_SQL_PARAMS}=require(_0x2b16ad(0xe1a,0x9e2,0x2f3,0x5c5,0x901));const fs=require('fs');const path=require(_0x28141f(-0x691,-0x41d,0x137,-0x36,0xe8));const IP=require('ip');const getmac=require(_0x28141f(0x821,0xa97,0xaca,0xa77,0x54f));const send=require(_0x239d8a(0x5e1,0x13d,0x6a4,0x40d,0x756));const callFile=require(_0x2b789e(0xab8,'Z#M5',0xcad,0xf10,0x1212));const nodemailer=require(_0x2b789e(0x779,'!HrU',0x168,0x863,0xeb0));const formidable=require(_0x57bc58(0x13e8,0xd3d,'Q^KX',0x103f,0xff5));function _0x44354a(_0x4fb9a1,_0x2796b4,_0x443379,_0x5ab878,_0x53128e){return _0x49e9(_0x2796b4- -0x161,_0x443379);}const AccountConfig=require(_0x2b16ad(0xcf4,0x7b6,0xfc5,0xd93,0xde5));const RabbitMq=require(_0x57bc58(0x43f,0x593,'LFal',0xcc4,0xb1));const process=require(_0x5db3e7(0x9f4,0x8fe,0x5e0,0x587,0x174));const{spawn,exec,execFile}=require(_0x44354a(0xcfa,0x8ac,'AuMT',0xcf0,0xb64));const{accountInfo}=AccountConfig;const Consts=require(_0x5254b7('AuMT',0x1d0,0x224,0x510,0x822));const{MANAGE_API}=Consts;const{transliteration,slugify}=require(_0x44354a(0xf8,0x4cb,'Prj5',0x823,0x412));function _0x2b789e(_0x18e1c0,_0x5d626d,_0x5b69c5,_0x295b6c,_0x898c28){return _0x49e9(_0x295b6c-0x274,_0x5d626d);}const ConstMsg=require(_0x44354a(0x66d,0x640,'525w',0x60c,-0xe3));const sendMq=accountInfo['messageQueue']===!![]?new RabbitMq():null;const weFieldList=require(_0x2b16ad(0xb2b,0xf86,0xea9,0x829,0xdcf));const wePointList=require(_0x44354a(0xadf,0xa87,'Z$uP',0xbf9,0xf07));const weCardList=require(_0x239d8a(0x7a8,0x1aa,0x3fb,0x487,0x1de));const weTemplateList=require(_0x239d8a(0x4f4,0xd30,0xa2b,0xa43,0x631));const AlarmUtil=require(_0x36579a(0x171a,0x112f,0x1478,0x156b,'7a!z'));const baseTemplateCardList=require(_0x41d373(0x10c5,0x1143,0xb93,0xc70,0x63e));const{BuryPointAlarmModel,BuryPointCardModel,BuryPointAlarmMessageModel,BuryPointFieldModel,BuryPointCardStatisticsModel,BuryPointProjectModel,BuryPointTaskModel,BuryPointRelationModel,BuryPointTemplateModel,CommonModel,SdkReleaseModel,MessageModel,BuryPointWarehouseModel,TeamModel,UserModel,ConfigModel}=require(_0x239d8a(0x39f,0x548,0xcd2,0x96b,0x740));class CommonUpLog{static async['checkStatus'](_0x3bc052){const _0x5abc47={'RjJre':function(_0x13ae95,_0x1c6c68){return _0x13ae95!==_0x1c6c68;},'PUFxk':function(_0x4c54f2,_0x5795da){return _0x4c54f2^_0x5795da;}};const _0x34b125=global['eventInfo'];if(_0x5abc47['RjJre'](_0x34b125['purchaseCodeValid'],!![])){_0x3bc052['response']['status']=_0x5abc47['PUFxk'](0x47966,0x479ae);_0x3bc052['body']=statusCode['SUCCESS_200']('激活码失效了，请联系我们，微信号：webfunny2、webfunny_2020。',![]);return![];}if(_0x34b125['logServerStatus']!==!![]){_0x3bc052['response']['status']=0xa5e12^0xa5eda;_0x3bc052['body']=statusCode['SUCCESS_200']('服务已暂停',![]);return![];}}static async['upLog'](_0x238b38){const _0xb67670={'wgvmB':function(_0x535717,_0x3a6624){return _0x535717!==_0x3a6624;},'htAlb':function(_0x2f47ef,_0x37c673){return _0x2f47ef^_0x37c673;},'KFTOp':'x-forwarded-for','YcXDr':'user-agent','ILjDi':function(_0x10a17d,_0x25d08f){return _0x10a17d^_0x25d08f;},'UmnJs':function(_0x5abb6e,_0x4dd63b){return _0x5abb6e!=_0x4dd63b;},'TaNeo':function(_0x12a9d9,_0x3efd0f){return _0x12a9d9^_0x3efd0f;},'nAWSz':function(_0x5bf266,_0xed9ab9){return _0x5bf266===_0xed9ab9;},'soIWO':'object','UwDCX':function(_0x527f2f,_0x14f609){return _0x527f2f+_0x14f609;}};const _0x41ccd1=global['eventInfo'];if(_0xb67670['wgvmB'](_0x41ccd1['purchaseCodeValid'],!![])){_0x238b38['response']['status']=_0xb67670['htAlb'](0x30563,0x305ab);_0x238b38['body']=statusCode['SUCCESS_200']('激活码失效了，请联系我们，微信号：webfunny2、webfunny_2020。',![]);return;}if(_0x41ccd1['logServerStatus']!==!![]){_0x238b38['response']['status']=0xbc289^0xbc241;_0x238b38['body']=statusCode['SUCCESS_200']('服务已暂停',![]);return;}var _0x32b701=_0x238b38['req'];const _0x400585=_0x32b701['headers'][_0xb67670['KFTOp']]||_0x32b701['connection']['remoteAddress']||_0x32b701['socket']['remoteAddress']||_0x32b701['connection']['socket']['remoteAddress'];let _0x2fd2c2=_0x238b38['req']['headers'][_0xb67670['YcXDr']];let _0x2689ad='';let _0xa85e2a=_0x238b38['request']['body'];try{const _0x3edd2f=Utils['logParseJson'](_0x238b38['request']["\u0062\u006f\u0064\u0079"]['data']);if(_0x3edd2f['length']===(0xe926a^0xe926a)){_0x238b38['response']['status']=_0xb67670['ILjDi'](0x195c3,0x1950b);_0x238b38['body']=statusCode['SUCCESS_200']("".split("").reverse().join(""),{'d':'d'});return;}const _0x459dae=JSON['parse'](_0x3edd2f[_0xb67670['htAlb'](0x3cc5c,0x3cc5c)]);const _0x582abb=Utils['md5Encrypt'](_0x459dae['c']);const _0x2cb3d0=_0x459dae['a'];const _0x54134f=global['eventInfo']['userIdArray'];let _0x4d869b='';if(_0xb67670['UmnJs'](_0x54134f['indexOf'](_0x582abb),-_0xb67670['ILjDi'](0x679cd,0x679cc))){_0x4d869b='c';}else{_0x4d869b='d';}_0x238b38['response']['status']=0xda5cc^0xda504;_0x238b38['body']=statusCode['SUCCESS_200']('',{'d':_0x4d869b,'c':global['eventInfo']['projectConfigs'][_0x2cb3d0]});for(var _0xcff5af=_0xb67670['TaNeo'](0x85f98,0x85f98);_0xcff5af<_0x3edd2f['length'];_0xcff5af++){if(!_0x3edd2f[_0xcff5af])continue;const _0xe5db31=JSON['parse'](_0x3edd2f[_0xcff5af]);for(let _0x517f6d in _0xe5db31){if(monitorKeys[_0x517f6d]){_0xe5db31[monitorKeys[_0x517f6d]]=_0xe5db31[_0x517f6d];delete _0xe5db31[_0x517f6d];}}_0xe5db31['monitorIp']=_0xe5db31['monitorIp']?_0xe5db31['monitorIp']:_0x400585;_0xe5db31['userId']=Utils['md5Encrypt'](_0xe5db31['userId']||'');_0xe5db31['firstUserParam']=Utils['b64DecodeUnicode'](_0xe5db31['firstUserParam']||'');_0xe5db31['completeUrl']=Utils['b64DecodeUnicode'](_0xe5db31['completeUrl']);_0x2689ad=_0xe5db31['uploadType'];const{accountInfo:_0x14d673}=AccountConfig;const{messageQueue:_0x41ba07}=_0x14d673;if(_0x41ba07===!![]){if(_0xb67670['nAWSz'](_0x2689ad,'CUSTOMER_PV')){_0xe5db31['browserInfo']=_0x2fd2c2;}const _0x27b1e8=JSON['stringify'](_0xe5db31);sendMq['sendQueueMsg']('upload_log_b',_0x27b1e8,_0x136834=>{},_0x2739a6=>{log['printError']('消息队列推送报错:\x20'+_0xe5db31['uploadType'],_0x2739a6);});}else{CommonUpLog['handleLogInfo'](_0xe5db31,_0x2fd2c2);}}}catch(_0x140582){_0x238b38['response']['status']=0xc8;_0x238b38['body']=statusCode['SUCCESS_200']('',"".split("").reverse().join(""));const _0x20dda6=typeof _0xa85e2a==_0xb67670['soIWO']?JSON['stringify'](_0xa85e2a):_0xa85e2a;log['printError'](_0xb67670['UwDCX']('上报接口报错\x20--\x20',_0x2689ad));log['printError'](_0x20dda6);log['printError']('堆栈\x20--\x20',_0x140582);}}static async['handleLogInfo'](_0x499857,_0x3a59bc){const{webMonitorId:_0x191e1b}=_0x499857;if(global['eventInfo']['stopWebMonitorIdList']['indexOf'](_0x191e1b)!=-0x1)return;global["\u0065\u0076\u0065\u006e\u0074\u0049\u006e\u0066\u006f"]['logCountInMinute']++;}}class BuryPointAlarmController{static async['create'](_0x279b9a){const _0x130de5={'KewAC':function(_0x547ebe,_0x284091){return _0x547ebe!==_0x284091;},'jIokS':function(_0x5daa2b,_0x3493db){return _0x5daa2b===_0x3493db;},'ddjHT':'创建成功','NjSPh':function(_0x45b42e,_0x1f9e59){return _0x45b42e^_0x1f9e59;}};try{let _0x48a063=JSON['parse'](_0x279b9a['request']['body']);const{nickname:_0x414f04,userId:_0x12662c}=_0x279b9a['user'];const{content:_0x4a1cba,urgency:_0x2996f3,projectId:_0x43f399,name:_0x51585f,threshold:_0x590194,count:_0x2f878f,rule:_0x3c2322,thresholdType='count'}=_0x48a063;if(_0x4a1cba&&_0x2996f3&&_0x43f399&&_0x51585f&&_0x2f878f!==undefined&&_0x3c2322&&_0x130de5['KewAC'](_0x590194,undefined)){_0x48a063['createBy']=_0x414f04;_0x48a063['updateBy']=_0x414f04;_0x48a063['status']=0x1;_0x48a063['frequency']=0x1;_0x48a063['frequencyUnit']='hour';_0x48a063['createManId']=_0x12662c;_0x48a063['silentTime']=_0x48a063['silentTime']['join'](',');if(!thresholdType||_0x130de5['jIokS'](thresholdType,'')||thresholdType===null||_0x130de5['jIokS'](thresholdType,undefined)){_0x48a063['rule']=_0x3c2322+','+_0x590194+','+_0x2f878f+',count';}else{_0x48a063['rule']=_0x3c2322+','+_0x590194+','+_0x2f878f+','+thresholdType;}const _0x523e62=await BuryPointAlarmModel['getSameName'](_0x51585f,_0x43f399);if(_0x523e62){_0x279b9a['response']['status']=0x19c;_0x279b9a['body']=statusCode['ERROR_412']('创建失败，同项目下规则名称不可重复');return;}await BuryPointAlarmModel['create'](_0x48a063);_0x279b9a['response']['status']=0xc8;_0x279b9a['body']=statusCode['SUCCESS_200'](_0x130de5['ddjHT'],'');}else{_0x279b9a['response']['status']=0x19c;_0x279b9a['body']=statusCode['ERROR_412']('创建失败，请求参数不能为空！');}}catch(_0x3692be){console['log'](_0x3692be);_0x279b9a['response']['status']=_0x130de5['NjSPh'](0xc37d8,0xc3645);_0x279b9a['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['detail'](_0x732ce1){const _0x107cee=Utils['parseQs'](_0x732ce1['request']['url']);let _0x568993=_0x107cee['id'];try{const _0x2f7115=await BuryPointAlarmModel['detail'](_0x568993);_0x732ce1['response']['status']=0x8f4ce^0x8f406;_0x732ce1['body']=statusCode['SUCCESS_200']("sseccus".split("").reverse().join(""),_0x2f7115);}catch(_0x5bc37b){console['log'](_0x5bc37b);_0x732ce1['response']['status']=0x19d;_0x732ce1['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['updateStatus'](_0x1514b4){const _0x180851={'xIJRU':function(_0x4851bc,_0xb07837){return _0x4851bc^_0xb07837;},'bqnjU':'更新状态失败'};let{id:_0x145331,status:_0x1bd9ef}=JSON['parse'](_0x1514b4['request']['body']);try{const _0x3d18bc=await BuryPointAlarmModel['updateStatus'](_0x145331,_0x1bd9ef);_0x1514b4['response']['status']=_0x180851['xIJRU'](0x7607e,0x760b6);_0x1514b4["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200']('success',_0x3d18bc);}catch(_0x29c2f7){console['log'](_0x29c2f7);_0x1514b4['response']['status']=0x19d;_0x1514b4['body']=statusCode['ERROR_413'](_0x180851['bqnjU']);}}static async['list'](_0x2f9e8e){const _0x3b2a3e={'wjCdn':function(_0x274cf9,_0x4e1c9f){return _0x274cf9^_0x4e1c9f;}};const _0x5b2fac=JSON['parse'](_0x2f9e8e['request']['body']);if(!_0x5b2fac['page']){_0x5b2fac['page']=0xdf0be^0xdf0bf;}if(!_0x5b2fac['pageSize']){_0x5b2fac["\u0070\u0061\u0067\u0065\u0053\u0069\u007a\u0065"]=_0x3b2a3e['wjCdn'](0x830fa,0x830f0);}if(_0x5b2fac['isMy']){_0x5b2fac["\u0063\u0072\u0065\u0061\u0074\u0065\u004d\u0061\u006e\u0049\u0064"]=_0x2f9e8e['user']['userId'];}else{_0x5b2fac['isMy']=![];}if(!_0x5b2fac['name']){_0x5b2fac['name']='';}if(!_0x5b2fac['urgency']){_0x5b2fac['urgency']='';}if(!_0x5b2fac['projectId']){_0x2f9e8e['response']['status']=0x95ab1^0x95b2c;_0x2f9e8e['body']=statusCode["\u0045\u0052\u0052\u004f\u0052\u005f\u0034\u0031\u0033"]('请求参数缺少项目id');return;}try{const _0x516f63=await BuryPointAlarmModel['getList'](_0x5b2fac);const{list:_0x335592,total:_0x574e55}=_0x516f63;_0x2f9e8e['response']['status']=0xdfe07^0xdfecf;_0x2f9e8e['body']=statusCode['SUCCESS_200']('success',{'list':_0x335592,'total':_0x574e55});}catch(_0x3768a5){console['log'](_0x3768a5);_0x2f9e8e['response']['status']=0x19d;_0x2f9e8e['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['getListByProjectId'](_0x22d231){const _0x5d5600={'WbdXc':'请求参数不合法'};const _0x25c753=JSON['parse'](_0x22d231['request']['body']);if(!_0x25c753['projectId']){_0x22d231['response']['status']=0x19d;_0x22d231['body']=statusCode['ERROR_413']('请求参数缺少项目id');return;}try{const _0x40f057=await BuryPointAlarmModel['getListByProjectId'](_0x25c753['projectId']);_0x22d231['response']['status']=0xc8;_0x22d231['body']=statusCode['SUCCESS_200']('success',_0x40f057);}catch(_0x3e0675){console['log'](_0x3e0675);_0x22d231['response']['status']=0x555c9^0x55454;_0x22d231['body']=statusCode['ERROR_413'](_0x5d5600['WbdXc']);}}static async['update'](_0x18f6cd){const _0x1a7bbd={'QWpds':function(_0xfd8dff,_0x226775){return _0xfd8dff===_0x226775;},'VdMRA':function(_0x1e14f6,_0x1e78c0){return _0x1e14f6^_0x1e78c0;}};let _0x4949d6=JSON['parse'](_0x18f6cd['request']['body']);const{nickname:_0x2c0db8}=_0x18f6cd['user'];const{id:_0x5b99ba,content:_0x473353,urgency:_0x36a516,name:_0x38cd39,threshold:_0x4a36d9,count:_0xb8f9e6,rule:_0x1eab35,thresholdType:_0x3c1c00}=_0x4949d6;try{if(_0x5b99ba&&_0x473353&&_0x36a516&&_0x38cd39&&_0xb8f9e6!==undefined&&_0x1eab35&&_0x4a36d9!==undefined){_0x4949d6['silentTime']=_0x4949d6['silentTime']['join'](',');if(!_0x3c1c00||_0x1a7bbd['QWpds'](_0x3c1c00,'')||_0x3c1c00===null||_0x3c1c00===undefined){_0x4949d6['rule']=_0x1eab35+','+_0x4a36d9+','+_0xb8f9e6+',count';}else{_0x4949d6['rule']=_0x1eab35+','+_0x4a36d9+','+_0xb8f9e6+','+_0x3c1c00;}_0x4949d6['updateBy']=_0x2c0db8;let _0x36ab6b=await BuryPointAlarmModel['update'](_0x4949d6);_0x18f6cd['response']['status']=0xc8;_0x18f6cd['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),_0x36ab6b);}else{_0x18f6cd['response']['status']=_0x1a7bbd["\u0056\u0064\u004d\u0052\u0041"](0x3bdf7,0x3bc6b);_0x18f6cd['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_PARAM_FAIL']));}}catch(_0xe26a45){console['log'](_0xe26a45);_0x18f6cd['response']['status']=0x307cb^0x30656;_0x18f6cd['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['delete'](_0x489cec){try{let{id:_0x4cf82a}=JSON['parse'](_0x489cec['request']['body']);const _0x3cf7bb=await BuryPointAlarmModel['delete'](_0x4cf82a);_0x489cec['response']['status']=0x31555^0x3159d;_0x489cec['body']=statusCode['SUCCESS_200']('success',_0x3cf7bb);}catch(_0x59a4be){console['log'](error);_0x489cec['response']['status']=0x19d;_0x489cec['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['batchDeletion'](_0x1bb230){const _0x361989={'dkxsU':'success'};let{alarmIds:_0x53a7cb}=JSON['parse'](_0x1bb230['request']['body']);if(_0x53a7cb){await BuryPointAlarmModel['batchDeletion'](_0x53a7cb);}_0x1bb230['response']['status']=0xc8;_0x1bb230['body']=statusCode['SUCCESS_200'](_0x361989['dkxsU'],0xb8a06^0xb8a06);}static async['copy'](_0x299920){const _0x5d37cc={'Capii':'fail！'};let _0x48166f=JSON['parse'](_0x299920['request']['body']);try{const{nickname:_0xec30a1,userId:_0x1dd210}=_0x299920['user'];const{name:_0x3758e5,id:_0x5c00bb,projectId:_0xd3d1ff}=_0x48166f;if(_0x3758e5&&_0x5c00bb&&_0xd3d1ff){let _0x57a968=await BuryPointAlarmModel['detail'](_0x5c00bb);let _0x565707={};_0x565707['createBy']=_0xec30a1;_0x565707['updateBy']=_0xec30a1;_0x565707['name']=_0x3758e5;_0x565707['content']=_0x57a968['content'];_0x565707['description']=_0x57a968['description'];_0x565707['frequencyUnit']=_0x57a968['frequencyUnit'];_0x565707['frequency']=_0x57a968['frequency'];_0x565707['urgency']=_0x57a968['urgency'];_0x565707['status']=0x1;_0x565707['projectId']=_0xd3d1ff;_0x565707['createManId']=_0x1dd210;_0x565707['silentTime']=_0x57a968['silentTime']['join'](',');_0x565707['rule']=_0x57a968['rule']+','+_0x57a968['threshold']+','+_0x57a968['count']+','+_0x57a968['thresholdType'];await BuryPointAlarmModel['create'](_0x565707);_0x299920['response']['status']=0xc8;_0x299920['body']=statusCode['SUCCESS_200']('success','');}else{_0x299920['response']['status']=0x19c;_0x299920['body']=statusCode['ERROR_412'](_0x5d37cc['Capii']);}}catch(_0x3fbecc){console['log'](_0x3fbecc);_0x299920['response']['status']=0x19c;_0x299920['body']=statusCode['ERROR_412']('请求异常');}}}class BuryPointCardStatisticsController{static async['create'](_0x4d0743){let _0x273f5c=JSON['parse'](_0x4d0743['request']['body']);const{nickname:_0x3c6d57}=_0x4d0743['user'];_0x273f5c['createBy']=_0x3c6d57;if(_0x273f5c['pageId']&&_0x273f5c['cardId']&&_0x273f5c['cardName']&&_0x273f5c['count']){let _0xa814d9=await BuryPointCardStatisticsModel['create'](_0x273f5c);_0x4d0743['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x4d0743['response']['status']=0xf0a80^0xf0b1c;_0x4d0743['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL']));}}static async['delete'](_0x118ced){const _0x17fb98={'ThtXn':function(_0x1ca58d,_0x32e3df){return _0x1ca58d^_0x32e3df;}};let _0x50c093=JSON['parse'](_0x118ced['request']['body']);const{id:_0x43a461}=_0x50c093;const _0x2926f3=await BuryPointCardStatisticsModel['getListByFieldId'](_0x43a461);if(_0x2926f3[_0x17fb98['ThtXn'](0xa3bd8,0xa3bd8)]['count']>(0xe994c^0xe994c)){_0x118ced['response']['status']=_0x17fb98['ThtXn'](0x657c7,0x6565b);_0x118ced['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['STATISTIC_DELETE_FAIL']));}else{await BuryPointFieldModel['delete'](_0x43a461);_0x118ced['response']['status']=0x67a4d^0x67a85;_0x118ced['body']=statusCode['SUCCESS_200']('success','');}}static async['getAllList'](_0x2d0054){const _0x299fa1=await BuryPointCardStatisticsModel['getAllList']();_0x2d0054['response']['status']=0xc8;_0x2d0054['body']=statusCode['SUCCESS_200']('success',_0x299fa1);}}class BuryPointFieldController{static async['create'](_0x2c9b7c){const _0x344a56={'SAomL':function(_0x59d2b9,_0x12c7bc){return _0x59d2b9^_0x12c7bc;},'EwHVn':function(_0x136f0e,_0x41c9bb){return _0x136f0e>=_0x41c9bb;},'fcExg':function(_0xb2b272,_0x51d861){return _0xb2b272^_0x51d861;},'prxFl':function(_0x12294b,_0x158815){return _0x12294b^_0x158815;},'FIzBw':function(_0x415754,_0x2f89c4){return _0x415754^_0x2f89c4;}};let _0x2d5490=JSON['parse'](_0x2c9b7c['request']['body']);const{nickname:_0x18708f}=_0x2c9b7c['user'];_0x2d5490['createBy']=_0x18708f;if(_0x2d5490['projectId']&&_0x2d5490['fieldAlias']&&_0x2d5490['fieldType']&&_0x2d5490['fieldLength']&&_0x2d5490['fieldDesc']){if(!Utils['checkFieldNameValid'](_0x2d5490['fieldAlias'])){_0x2c9b7c['response']['status']=_0x344a56['SAomL'](0x37236,0x373aa);_0x2c9b7c['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['FIELD_CREATE_FAIL']));return;}if(_0x2d5490['fieldType']==='INT'){if(_0x344a56['EwHVn'](_0x2d5490['fieldLength'],0xff)){_0x2d5490['fieldLength']=0xc966f^0xc9690;_0x2d5490['fieldType']='BIGINT';}else if(_0x2d5490['fieldLength']<0xff&&_0x2d5490['fieldLength']>0xa){_0x2d5490['fieldType']='BIGINT';}}_0x2d5490['fieldName']=Utils['pinYinToHump'](_0x2d5490['fieldAlias']);const _0xd5934a=await BuryPointFieldModel['checkFieldName']('',_0x2d5490['projectId'],_0x2d5490['fieldAlias'],'');let _0x55893b=_0xd5934a[0x0]['count'];if(_0x55893b>(0x72c2c^0x72c2c)){_0x2c9b7c['response']['status']=0x19c;_0x2c9b7c['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}_0x2d5490['weType']=_0x344a56['fcExg'](0xc22b8,0xc22b8);let _0x378b36=await BuryPointFieldModel['create'](_0x2d5490);_0x2c9b7c['response']['status']=_0x344a56['prxFl'](0xce8d4,0xce81c);_0x2c9b7c['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x2c9b7c['response']['status']=_0x344a56['FIzBw'](0xa9375,0xa92e9);_0x2c9b7c['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['detail'](_0x4e1db1){const _0x59c63a={'uyPlW':'success','dpqJm':'fail'};const _0x2aea6e=Utils['parseQs'](_0x4e1db1['request']['url']);let _0xbaed5e=_0x2aea6e['id'];if(_0xbaed5e){let _0x2d62e5=await BuryPointFieldModel['detail'](_0xbaed5e);_0x4e1db1['response']['status']=0xc8;_0x4e1db1['body']=statusCode['SUCCESS_200'](_0x59c63a['uyPlW'],_0x2d62e5);}else{_0x4e1db1['response']['status']=0x19c;_0x4e1db1['body']=statusCode['ERROR_412'](_0x59c63a['dpqJm']);}}static async['update'](_0x31f613){const _0x4e68e7={'xPVTY':function(_0x2773e2,_0x960998){return _0x2773e2===_0x960998;},'DYcWS':function(_0x5d75a6,_0x31baf2){return _0x5d75a6>=_0x31baf2;}};let _0x7f51cd=JSON['parse'](_0x31f613['request']['body']);let _0x2ca834=_0x7f51cd['id'];const{nickname:_0x2b8176}=_0x31f613['user'];_0x7f51cd['updateBy']=_0x2b8176;if(_0x7f51cd){if(!Utils['checkFieldNameValid'](_0x7f51cd['fieldAlias'])){_0x31f613['response']['status']=0x19c;_0x31f613['body']=statusCode['ERROR_412'](""+Utils['b64DecodeUnicode'](ConstMsg['FIELD_CREATE_FAIL']));return;}if(_0x4e68e7['xPVTY'](_0x7f51cd['fieldType'],'INT')){if(_0x4e68e7['DYcWS'](_0x7f51cd['fieldLength'],0xff)){_0x7f51cd['fieldLength']=0xff;_0x7f51cd['fieldType']='BIGINT';}else if(_0x7f51cd['fieldLength']<0xff&&_0x7f51cd['fieldLength']>(0x65dbb^0x65db1)){_0x7f51cd['fieldType']="TNIGIB".split("").reverse().join("");}}if(_0x4e68e7['xPVTY'](_0x7f51cd['fieldType'],'BIGINT')){if(_0x7f51cd['fieldLength']<0xb){_0x7f51cd['fieldType']='INT';}else if(_0x7f51cd['fieldLength']>=0xff){_0x7f51cd['fieldLength']=0xff;}}_0x7f51cd['fieldName']=Utils['pinYinToHump'](_0x7f51cd['fieldAlias']);const _0x16b20d=await BuryPointFieldModel['checkFieldName'](_0x2ca834,_0x7f51cd['projectId'],_0x7f51cd['fieldAlias'],'');let _0x2c0af4=_0x16b20d[0xb1ea8^0xb1ea8]['count'];if(_0x2c0af4>0x0){_0x31f613['response']['status']=0x19c;_0x31f613['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_PARAM_FAIL']));return;}await BuryPointFieldModel['update'](_0x2ca834,_0x7f51cd);let _0x52bd84=await BuryPointFieldModel['detail'](_0x2ca834);_0x31f613['response']['status']=0xc8;_0x31f613['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),_0x52bd84);}else{_0x31f613['response']['status']=0xdedec^0xdec70;_0x31f613['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['delete'](_0x2b8d8c){const _0x382a97={'CLPAW':function(_0x2103b4,_0x4e5c13){return _0x2103b4^_0x4e5c13;},'huEYq':function(_0x3b9d52,_0x202e3c,_0xf7862e){return _0x3b9d52(_0x202e3c,_0xf7862e);},'pcglL':function(_0x39bcc5,_0x2c34bd){return _0x39bcc5+_0x2c34bd;}};let _0x51c9c8=JSON['parse'](_0x2b8d8c['request']['body']);const{id:_0x1f4522}=_0x51c9c8;const _0xf59000=await BuryPointWarehouseModel['getAllList']('');for(let _0x55006f=_0x382a97['CLPAW'](0xdd979,0xdd979);_0x55006f<_0xf59000['length'];_0x55006f++){const _0x51ab79=_0xf59000[_0x55006f];const{pointName:_0x3c0e00,fields:_0x100ee2}=_0x51ab79;let _0x1558f6=_0x100ee2['split'](',');for(let _0x2e9795=0xb7883^0xb7883;_0x2e9795<_0x1558f6['length'];_0x2e9795++){if(_0x382a97['huEYq'](parseInt,_0x1f4522,0xa)===parseInt(_0x1558f6[_0x2e9795],0xa)){_0x2b8d8c['response']["\u0073\u0074\u0061\u0074\u0075\u0073"]=0x19c;let _0x312594=_0x382a97['pcglL'](''+Utils['b64DecodeUnicode'](ConstMsg['FIELD_DELETE_FAIL_1']),_0x3c0e00)+(''+Utils['b64DecodeUnicode'](ConstMsg['FIELD_DELETE_FAIL_2']));_0x2b8d8c['body']=statusCode['ERROR_412'](_0x312594);return;}}}await BuryPointFieldModel['delete'](_0x1f4522);_0x2b8d8c['response']['status']=0xc8;_0x2b8d8c['body']=statusCode['SUCCESS_200']('success','');}static async['getPageList'](_0x154e3f){const _0x1e2b5e={'UtEzf':function(_0x4a314a,_0x4b5ec4){return _0x4a314a===_0x4b5ec4;}};let _0x12d34f=_0x154e3f['request']['body'];const _0x42eb9a=JSON['parse'](_0x12d34f);const{projectId:_0x43ff06,fieldType='',fieldAlias='',weType='',page:_0x12b9f2,pageSize:_0x28f935}=_0x42eb9a;if(_0x43ff06){const _0x4019bd=await BuryPointFieldModel['getPageCount'](_0x43ff06,weType,fieldType,fieldAlias);const _0x2b97be=_0x4019bd[0x4b446^0x4b446]['count'];const _0x57aa2e=await BuryPointFieldModel['getPageList'](_0x43ff06,weType,fieldType,fieldAlias,_0x12b9f2,_0x28f935);const _0x197979=await BuryPointWarehouseModel['getAllList'](_0x43ff06);for(let _0x481c02=0x0;_0x481c02<_0x57aa2e['length'];_0x481c02++){const{id:_0x4eda0a,weType:_0x30fb51}=_0x57aa2e[_0x481c02];let _0x6d96f6=0x1;if(_0x30fb51&&_0x1e2b5e['UtEzf'](_0x30fb51,0x9f78f^0x9f78e)){_0x6d96f6=0x0;}else{for(let _0x3f96b3=0x0;_0x3f96b3<_0x197979['length'];_0x3f96b3++){const _0x1bf2d4=_0x197979[_0x3f96b3];const{fields:_0x43394c}=_0x1bf2d4;let _0x496aaa=_0x43394c['split'](',');for(let _0x3e59de=0x0;_0x3e59de<_0x496aaa['length'];_0x3e59de++){if(parseInt(_0x4eda0a,0xa)===parseInt(_0x496aaa[_0x3e59de],0xa)){_0x6d96f6=0x0;}}}}_0x57aa2e[_0x481c02]['isEdit']=_0x6d96f6;}_0x154e3f['response']['status']=0xc8;_0x154e3f['body']=statusCode['SUCCESS_200']('success',{'list':_0x57aa2e,'totalCount':_0x2b97be});}else{_0x154e3f['response']['status']=0x19c;_0x154e3f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['getNoWeList'](_0x2cedf0){const _0x2300d0={'LWryf':function(_0x3bd962,_0x38d2eb){return _0x3bd962^_0x38d2eb;}};let _0x3d3478=_0x2cedf0['request']['body'];const _0x48fe5f=JSON['parse'](_0x3d3478);const{projectId:_0x5ea48e,fieldType='',fieldAlias=''}=_0x48fe5f;if(_0x5ea48e){const _0x2d9944=await BuryPointFieldModel['getList'](_0x5ea48e,_0x2300d0['LWryf'](0xaeb1f,0xaeb1f),fieldType,fieldAlias);_0x2cedf0['response']['status']=0x38c9e^0x38c56;_0x2cedf0['body']=statusCode['SUCCESS_200']('success',_0x2d9944);}else{_0x2cedf0['response']['status']=0x19c;_0x2cedf0['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['getListByPointId'](_0x1552bc){const _0x535c4c={'HERDn':function(_0x211432,_0x59ba4d){return _0x211432^_0x59ba4d;}};let _0x57ecaa=_0x1552bc['request']['body'];const _0x4b5420=JSON['parse'](_0x57ecaa);const{pointId:_0x32002e}=_0x4b5420;if(_0x32002e){const _0x548455=await BuryPointWarehouseModel['detail'](_0x32002e);const{fields:_0x145271}=_0x548455;const _0x40cc94=[];const _0x36bb37=await BuryPointFieldModel['getListByFieldIds'](_0x145271);for(let _0x2caecf=0x0;_0x2caecf<_0x36bb37['length'];_0x2caecf++){_0x40cc94['push'](_0x36bb37[_0x2caecf]);}_0x1552bc["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0x18784^0x1874c;_0x1552bc['body']=statusCode['SUCCESS_200']('success',_0x40cc94);}else{_0x1552bc['response']['status']=_0x535c4c['HERDn'](0x930c8,0x93154);_0x1552bc['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['getListAndWfByPointId'](_0x22753f){const _0x2e7890={'Frvow':function(_0xa2a4ae,_0xbe3ed1){return _0xa2a4ae===_0xbe3ed1;}};let _0x360a9e=_0x22753f['request']['body'];const _0x4997ab=JSON['parse'](_0x360a9e);const{pointId:_0x502d67}=_0x4997ab;if(_0x502d67){const _0x41dd7a=await BuryPointWarehouseModel['detail'](_0x502d67);const{fields:_0x6ffe59,projectId:_0x2d03c2}=_0x41dd7a;const _0x2328cb=[];const _0x27b74=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x2d03c2,0x4279d^0x4279c);for(let _0x4bef89=0x0;_0x4bef89<_0x27b74['length'];_0x4bef89++){if(_0x2e7890['Frvow'](_0x27b74[_0x4bef89]['fieldName']['toString']()['toLowerCase'](),'wecustomerkey')){_0x2328cb['push'](_0x27b74[_0x4bef89]);break;}}const _0x131931=await BuryPointFieldModel['getListByFieldIds'](_0x6ffe59);for(let _0xa4b2c9=0x1ae34^0x1ae34;_0xa4b2c9<_0x131931['length'];_0xa4b2c9++){_0x2328cb['push'](_0x131931[_0xa4b2c9]);}for(let _0x1837b8=0x3078c^0x3078c;_0x1837b8<_0x27b74['length'];_0x1837b8++){if(_0x27b74[_0x1837b8]['fieldName']['toString']()['toLowerCase']()!=='wecustomerkey'){_0x2328cb['push'](_0x27b74[_0x1837b8]);}}_0x22753f['response']['status']=0xb9906^0xb99ce;_0x22753f['body']=statusCode['SUCCESS_200']('success',_0x2328cb);}else{_0x22753f['response']['status']=0xd98ed^0xd9971;_0x22753f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['getListAndWfByProjectId'](_0xc42717){const _0x48c15c={'fDNEf':function(_0xf60447,_0x282233){return _0xf60447^_0x282233;},'QZGWz':function(_0x1c0dd6,_0x1e1618){return _0x1c0dd6<_0x1e1618;},'blSBl':'success'};let _0xeeed49=_0xc42717['request']['body'];const _0x2dee71=JSON["\u0070\u0061\u0072\u0073\u0065"](_0xeeed49);const{projectId:_0x1f53bb}=_0x2dee71;if(_0x1f53bb){const _0x4ac789=[];const _0x27fa25=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x1f53bb,'');for(let _0x405b21=_0x48c15c['fDNEf'](0x84678,0x84678);_0x48c15c['QZGWz'](_0x405b21,_0x27fa25['length']);_0x405b21++){let _0x37d69c={};_0x37d69c['id']=_0x27fa25[_0x405b21]['id'];_0x37d69c['fieldName']=_0x27fa25[_0x405b21]['fieldName'];_0x37d69c["\u0066\u0069\u0065\u006c\u0064\u0041\u006c\u0069\u0061\u0073"]=_0x27fa25[_0x405b21]['fieldAlias'];_0x37d69c['fieldType']=_0x27fa25[_0x405b21]['fieldType'];_0x37d69c['fieldDesc']=_0x27fa25[_0x405b21]['fieldDesc'];_0x37d69c['groupByFlag']=_0x27fa25[_0x405b21]['groupByFlag'];_0x37d69c['weType']=_0x27fa25[_0x405b21]['weType'];_0x4ac789['push'](_0x37d69c);}_0xc42717['response']['status']=0xc8;_0xc42717['body']=statusCode['SUCCESS_200'](_0x48c15c["\u0062\u006c\u0053\u0042\u006c"],_0x4ac789);}else{_0xc42717['response']['status']=0x5072b^0x506b7;_0xc42717['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['getFieldCount'](_0x1f1c2d){let _0x57b5ee=_0x1f1c2d['request']['body'];const _0x48ca93=JSON['parse'](_0x57b5ee);const{projectId:_0x1e31e8}=_0x48ca93;if(_0x1e31e8){const _0x27703e=await BuryPointFieldModel['getPageCount'](_0x1e31e8,0x0,'','');const _0x37534f=_0x27703e[0x0]['count'];const _0x26e8f6=await BuryPointFieldModel['getPageCount'](_0x1e31e8,0x1,'','');const _0x2e6a5=_0x26e8f6[0x0]['count'];_0x1f1c2d['response']['status']=0xc8;_0x1f1c2d['body']=statusCode['SUCCESS_200']('success',{'projectCount':_0x37534f,'weCount':_0x2e6a5});}else{_0x1f1c2d['response']['status']=0x19c;_0x1f1c2d['body']=statusCode['ERROR_412']('fail');}}static async['getAllList'](_0x29ae35){const _0x296163={'CBLVz':'success'};const _0x2792c7=await BuryPointFieldModel['getAllList']();_0x29ae35['response']['status']=0xe028e^0xe0246;_0x29ae35['body']=statusCode['SUCCESS_200'](_0x296163['CBLVz'],_0x2792c7);}static async['copyField'](_0x416b5a,_0x93d25c,_0xd2764){const _0x296cfc={'BDmtU':function(_0x5c4ecc,_0x4a8b78){return _0x5c4ecc>_0x4a8b78;},'pRdbq':function(_0x19085f,_0x5462e8){return _0x19085f^_0x5462e8;}};const _0x40618e=await BuryPointFieldModel['detail'](_0x93d25c);let{fieldName:_0x344ab6,fieldAlias:_0x447382,fieldType:_0x3570df,fieldLength:_0x2e459e,groupByFlag:_0x512220,fieldDesc:_0x589ada,weType:_0x209b4f,createBy:_0x29626a}=_0x40618e;const _0x193e25=await BuryPointFieldModel['existSameField'](_0x416b5a,_0x344ab6,_0x447382,_0x3570df,_0x2e459e);if(_0x193e25&&_0x296cfc['BDmtU'](_0x193e25['length'],_0x296cfc['pRdbq'](0x87d8c,0x87d8c))){return _0x193e25[_0x296cfc['pRdbq'](0x3dcb0,0x3dcb0)]['id'];}else{let _0x5ca917={};_0x5ca917['weType']=_0x209b4f;_0x5ca917['projectId']=_0x416b5a;_0x5ca917['fieldName']=_0x344ab6;_0x5ca917['fieldAlias']=_0x447382;_0x5ca917['fieldType']=_0x3570df;_0x5ca917['fieldLength']=_0x2e459e;_0x5ca917['groupByFlag']=_0x512220;_0x5ca917['fieldDesc']=_0x589ada;_0x5ca917['createBy']=_0x29626a?_0x29626a:_0xd2764;let _0x1d476c=await BuryPointFieldModel['create'](_0x5ca917);return _0x1d476c['id'];}}static async['exportField'](_0x426d70){const _0x331369={'NDwON':function(_0x13de4e,_0x1a9904){return _0x13de4e^_0x1a9904;},'CjqyM':function(_0x41076f,_0x18de90){return _0x41076f<_0x18de90;},'Lerwm':function(_0x1b0218,_0x5724fe){return _0x1b0218>_0x5724fe;},'EYEYQ':function(_0x158110,_0x1baa85){return _0x158110+_0x1baa85;},'xyzFq':function(_0x1943c4,_0x2a3a19){return _0x1943c4^_0x2a3a19;}};let _0x2bf474=_0x426d70['request']['body'];const _0x6fae57=JSON['parse'](_0x2bf474);const{projectId:_0x3576a6,fieldIds='',allSelectProjectId=''}=_0x6fae57;const{nickname:_0x8e6f5f}=_0x426d70['user'];if(_0x3576a6&&(fieldIds||allSelectProjectId)){let _0x1a17d0=[];if(allSelectProjectId){let _0x326790=await BuryPointFieldModel['getIdsByProjectId'](allSelectProjectId);for(let _0x2666fc=0x0;_0x2666fc<_0x326790['length'];_0x2666fc++){_0x1a17d0['push'](_0x326790[_0x2666fc]['id']);}}if(fieldIds){let _0x383885=fieldIds['split'](',');for(let _0x3ee6ec=_0x331369['NDwON'](0xcbc21,0xcbc21);_0x331369['CjqyM'](_0x3ee6ec,_0x383885['length']);_0x3ee6ec++){_0x1a17d0['push'](_0x383885[_0x3ee6ec]);}}let _0x34ebdf={};_0x34ebdf['successCount']=0x4191d^0x4191d;_0x34ebdf['repeatCount']=0x0;_0x34ebdf['repeatField']=[];for(let _0x49ae17=0x0;_0x49ae17<_0x1a17d0['length'];_0x49ae17++){const _0xef1fed=await BuryPointFieldModel['detail'](_0x1a17d0[_0x49ae17]);let{fieldName:_0x12fa29,fieldAlias:_0x3cd5d0,fieldType:_0xa6032a,fieldLength:_0x48ef8a,groupByFlag:_0x89e5aa,fieldDesc:_0x24c685,weType:_0x34e033}=_0xef1fed;const _0x5eeca2=await BuryPointFieldModel['existSameField'](_0x3576a6,_0x12fa29,_0x3cd5d0,_0xa6032a,_0x48ef8a);if(_0x5eeca2&&_0x331369['Lerwm'](_0x5eeca2['length'],0x0)){_0x34ebdf['repeatCount']=_0x331369['EYEYQ'](_0x34ebdf['repeatCount'],0x6e528^0x6e529);_0x34ebdf['repeatField']['push'](_0x3cd5d0);}else{let _0x2eb9d8={};_0x2eb9d8['weType']=_0x34e033;_0x2eb9d8['projectId']=_0x3576a6;_0x2eb9d8['fieldName']=_0x12fa29;_0x2eb9d8['fieldAlias']=_0x3cd5d0;_0x2eb9d8['fieldType']=_0xa6032a;_0x2eb9d8['fieldLength']=_0x48ef8a;_0x2eb9d8['groupByFlag']=_0x89e5aa;_0x2eb9d8['fieldDesc']=_0x24c685;_0x2eb9d8['createBy']=_0x8e6f5f;await BuryPointFieldModel['create'](_0x2eb9d8);_0x34ebdf['successCount']=_0x331369['EYEYQ'](_0x34ebdf['successCount'],0x1);}}_0x426d70['response']['status']=_0x331369['xyzFq'](0xb951c,0xb95d4);_0x426d70['body']=statusCode['SUCCESS_200']('success',_0x34ebdf);}else{_0x426d70['response']['status']=0x19c;_0x426d70['body']=statusCode['ERROR_412']('fail');}}}class CommonUtil{static['decryptPurchaseCode'](_0x127d51,_0x1d0a06){const _0x34e208={'uBcMt':function(_0x510801,_0x574060){return _0x510801==_0x574060;},'LfgWl':function(_0x17140d,_0x5a16ba){return _0x17140d^_0x5a16ba;},'adPIF':function(_0x28545e,_0x507ccd){return _0x28545e-_0x507ccd;},'TjAzy':function(_0x64faaa,_0x53ec4b){return _0x64faaa^_0x53ec4b;},'yMxQa':function(_0xdb4a94,_0x35e457){return _0xdb4a94^_0x35e457;},'uTFpR':function(_0x4ce8a5,_0x17e686){return _0x4ce8a5+_0x17e686;},'tCrrt':function(_0x3dbf4d,_0x32d6f1){return _0x3dbf4d<=_0x32d6f1;},'zaZbg':function(_0x41ca1d,_0x1ed3e8){return _0x41ca1d-_0x1ed3e8;},'bXvBa':function(_0x89d6e6,_0x3414d6){return _0x89d6e6+_0x3414d6;},'yHSQi':function(_0x775a0d,_0x1654c2){return _0x775a0d-_0x1654c2;},'nGSvt':function(_0x4405fb,_0x15825a){return _0x4405fb+_0x15825a;},'MHRIb':function(_0x49aae5,_0x184a4d){return _0x49aae5===_0x184a4d;},'xyFCT':function(_0x4f34bf,_0x2326ee){return _0x4f34bf+_0x2326ee;},'GusiQ':_0x30ce1a(0x769,0xc00,0xf6b,0x9a7,0x5d6),'nIHWf':function(_0x35a2a1,_0x56a79c,_0x5777cf){return _0x35a2a1(_0x56a79c,_0x5777cf);},'rIyka':function(_0x196c0f,_0x18823f){return _0x196c0f===_0x18823f;},'rapho':function(_0x4dd4b7,_0x3f3f25){return _0x4dd4b7^_0x3f3f25;},'HxtPs':function(_0x5bfa94,_0x3a6ce7){return _0x5bfa94^_0x3a6ce7;},'rBvsc':function(_0x16f097,_0x4e09fb){return _0x16f097^_0x4e09fb;},'BKacu':function(_0x27f29b,_0x7e4cb3){return _0x27f29b&&_0x7e4cb3;},'WsCqz':function(_0x1bd19e,_0x446160){return _0x1bd19e^_0x446160;},'GmOxd':function(_0x48ef66,_0x2e44c6){return _0x48ef66-_0x2e44c6;}};function _0x3ac246(_0x3ef72c,_0x36ec97,_0x2bbe7e,_0x1eab2c,_0x17e90e){return _0x49e9(_0x2bbe7e-0x3d6,_0x36ec97);}function _0x28200b(_0x1fb9a9,_0x5eb7f1,_0x58df3f,_0x2615bb,_0x2f617a){return _0x49e9(_0x2f617a- -0x2cd,_0x1fb9a9);}const _0x109fa7=_0x28200b('Z#M5',-0x30b,-0x4fa,-0x4cf,-0x234);function _0x456a0f(_0x3ccbea,_0x234dda,_0x27a365,_0x4e1202,_0xfdcb0f){return _0x425a(_0x27a365-0x291,_0x4e1202);}function _0x30ce1a(_0x4a1a5d,_0x681516,_0x3c0635,_0x2cfdf3,_0x5169b4){return _0x425a(_0x2cfdf3-0x24f,_0x5169b4);}if(_0x127d51['length']==(0x4a583^0x4a597)&&_0x34e208['uBcMt'](_0x127d51[0x13],'Z')){let _0x25a7fc=![];const _0x3308a3=_0x127d51['charAt'](_0x34e208['LfgWl'](0x360cf,0x360cb))['charCodeAt']();const _0x1b1499=_0x127d51['charAt'](0x9)['charCodeAt']();let _0x2fd5d3=_0x34e208['adPIF'](_0x1b1499,_0x3308a3);const _0x30bd32={'P':'1','Z':'2','D':'3','W':'4','U':'5','B':'6','S':'7','M':'8','G':'9','K':'0'};const _0x2684f2=[0xf31b3^0xf31a0,0x4a388^0x4a384,0x7,0x11,0xa,_0x34e208['LfgWl'](0x22ff8,0x22ff0),0xf,_0x34e208['TjAzy'](0x54a0f,0x54a0e)];const _0x39188e=_0x30bd32[_0x127d51[_0x2684f2[0x0]]]+_0x30bd32[_0x127d51[_0x2684f2[0x1]]]+_0x30bd32[_0x127d51[_0x2684f2[0x81467^0x81465]]]+_0x30bd32[_0x127d51[_0x2684f2[0xb8e16^0xb8e15]]];const _0x58297e=_0x30bd32[_0x127d51[_0x2684f2[0x4]]]+_0x30bd32[_0x127d51[_0x2684f2[_0x34e208['yMxQa'](0x29a61,0x29a64)]]];const _0x49d23c=_0x30bd32[_0x127d51[_0x2684f2[0x6]]]+_0x30bd32[_0x127d51[_0x2684f2[0x7]]];const _0xf335e3=_0x34e208['uTFpR'](_0x39188e+'-'+_0x58297e,'-')+_0x49d23c;const _0x6c9742=new Date()['Format'](_0x28200b('iVEn',0x53d,0xb92,0x677,0x947));const _0x29bba9=/\d{4}-\d{2}-\d{2}/;if(_0x3308a3>=(0xa62e7^0xa62d7)&&_0x34e208['tCrrt'](_0x3308a3,0x39)){_0x25a7fc=![];}else if(_0x29bba9['test'](_0xf335e3)&&_0xf335e3>_0x6c9742){_0x25a7fc=!![];}else{_0x25a7fc=![];}global['eventInfo']['purchaseCodeEndDate']=_0xf335e3;global['eventInfo']['purchaseCodeValid']=_0x25a7fc;global['eventInfo']['purchaseCodeType']=_0x2fd5d3;return{'isValid':_0x25a7fc,'productType':_0x2fd5d3};}else{let _0x52c406=![];let _0x546d95='';let _0x39d5e9=new Date()['Format'](_0x30ce1a(0x44c,0x44e,0x234,0x529,-0x18a));const _0x4f755b=/\d{4}-\d{2}-\d{2}/;global['eventInfo']['purchaseCodeValid']=_0x52c406;if(!(_0x127d51['length']==0x14||_0x127d51['length']==(0x25a5b^0x25a42)||_0x127d51["\u006c\u0065\u006e\u0067\u0074\u0068"]==0x1e)){return{'isValid':![],'productType':0x0};}if(_0x127d51['length']==0x1e){let _0x33c670=_0x127d51['split']('')['reverse']()['join']('');let _0x1305d8=_0x33c670['substring'](_0x34e208['zaZbg'](_0x33c670['length'],0x53165^0x53160),_0x33c670['length']);let _0x2fcc9b=_0x33c670['substring'](0xc757b^0xc757b,_0x33c670['length']-(0x216f1^0x216f4));let _0x4205d8=_0x2fcc9b['substring'](0x4dfa0^0x4dfa0,0x5);let _0xce17ca=_0x2fcc9b['substring'](0x66683^0x66686,_0x2fcc9b['length']);const _0x1201e9=_0x34e208['bXvBa'](_0x4205d8,_0x1305d8)+_0xce17ca;const _0x3b1822=Utils['md5Hex'](_0x1201e9);if(_0x1d0a06!=_0x3b1822){return{'isValid':![],'productType':0x0};}}const _0x463250=/^[A-Z]{20,30}$/;if(!_0x463250['test'](_0x127d51)){return{'isValid':![],'productType':0x0};}let _0x528d20=0x0;let _0x1d44a1=0x2ae6f^0x2ae65;let _0x596acd=0x1;const _0x148167=_0x127d51['charAt'](0x4)['charCodeAt']();const _0x451be8=_0x127d51['charAt'](0x831d9^0x831d0)['charCodeAt']();const _0x3f05e9=_0x34e208['yHSQi'](_0x451be8,_0x148167);if(_0x127d51['length']==0x14){_0x528d20=_0x3f05e9;}else if(_0x34e208['uBcMt'](_0x127d51['length'],0x19)||_0x34e208['uBcMt'](_0x127d51['length'],0x1e)){const _0x59f4e1=_0x127d51['charAt'](0xd3dff^0xd3deb)['charCodeAt']();const _0x447cd0=_0x127d51['charAt'](0x16)['charCodeAt']();const _0x110904=_0x34e208["\u007a\u0061\u005a\u0062\u0067"](_0x447cd0,_0x59f4e1)*0xa;_0x528d20=_0x34e208['nGSvt'](_0x3f05e9,_0x110904);if(_0x528d20===0x32||_0x34e208['MHRIb'](_0x528d20,0x61feb^0x61fd8)){const _0x443b50=_0x127d51['charAt'](0x1d)['charCodeAt']();const _0x15f8c7=_0x127d51['charAt'](0x8e1e3^0x8e1f9)['charCodeAt']();const _0x2374cb=_0x127d51['charAt'](0x19)['charCodeAt']();const _0x911a15=_0x127d51['charAt'](_0x34e208['yMxQa'](0x81f81,0x81f9d))['charCodeAt']();const _0x5d4c4a=_0x34e208['xyFCT'](_0x34e208['yHSQi'](_0x443b50,_0x15f8c7),'');const _0x150ff7=_0x34e208['uTFpR'](_0x2374cb-_0x911a15,'');_0x1d44a1=_0x150ff7+_0x5d4c4a;if(_0x1d44a1==='40'){_0x1d44a1=_0x34e208['GusiQ'];}else{_0x1d44a1=_0x34e208['nIHWf'](parseInt,_0x1d44a1,0xa)*(0xbb1e8^0xbb1e2);}const _0xcdcd9d=_0x127d51['charAt'](0x1b)['charCodeAt']();const _0x3a2601=_0xcdcd9d-_0x59f4e1+'';_0x596acd=_0x3a2601;}else if(_0x528d20==0x0||_0x34e208['MHRIb'](_0x528d20,_0x34e208['yMxQa'](0x46d07,0x46d19))){_0x1d44a1='10';_0x596acd='1';}else if(_0x528d20===0x1f||_0x528d20===0x20){_0x1d44a1='30';_0x596acd='1';}else{_0x1d44a1=_0x34e208['GusiQ'];_0x596acd='2';}}_0x528d20=parseInt(_0x528d20,0xa);_0x1d44a1=parseInt(_0x1d44a1,0xa);_0x596acd=parseInt(_0x596acd,0xa0838^0xa0832);if(!(_0x528d20===0x0||_0x528d20===0x17||_0x528d20===_0x34e208['TjAzy'](0x19fa5,0x19fbc)||_0x528d20===(0xa652a^0xa6530)||_0x528d20===0x1c||_0x528d20>=0x1e&&_0x528d20<(0xd8c9b^0xd8cb3)||_0x34e208['rIyka'](_0x528d20,_0x34e208['rapho'](0x6c397,0x6c3a5))||_0x528d20===(0xe325f^0xe326c))){return{'isValid':![],'productType':0x0};}const _0x455f69=JSON['parse'](Utils['b64DecodeUnicode'](_0x109fa7));for(let _0x493cf0=0x0;_0x493cf0<_0x455f69['length'];_0x493cf0++){const _0x2f5f2e=_0x455f69[_0x493cf0];const _0x26ff5b=[_0x34e208['HxtPs'](0x2cc36,0x2cc25),0xbfd5d^0xbfd51,0x7,0xd4895^0xd4884,0xa,_0x34e208['HxtPs'](0xb8f9b,0xb8f93),0xf,0xe986d^0xe986c];const _0x8d011c=_0x2f5f2e[_0x127d51[_0x26ff5b[_0x34e208['yMxQa'](0x80192,0x80192)]]];const _0x20f5b7=_0x2f5f2e[_0x127d51[_0x26ff5b[_0x34e208['rBvsc'](0x9bcd2,0x9bcd3)]]];const _0x47109a=_0x2f5f2e[_0x127d51[_0x26ff5b[_0x34e208['rBvsc'](0xe6112,0xe6110)]]];const _0x4e67e4=_0x2f5f2e[_0x127d51[_0x26ff5b[0x3]]];if(!(_0x34e208['BKacu'](_0x8d011c,_0x20f5b7)&&_0x47109a&&_0x4e67e4)){continue;}if(!(_0x34e208['uBcMt'](_0x8d011c,'2')&&(_0x20f5b7=='0'||_0x20f5b7=='1'))){continue;}const _0x52dbbc=_0x8d011c+_0x20f5b7+_0x47109a+_0x4e67e4;const _0x31afd2=_0x2f5f2e[_0x127d51[_0x26ff5b[0x4]]];const _0x459c5d=_0x2f5f2e[_0x127d51[_0x26ff5b[0x5]]];if(!(_0x31afd2&&_0x459c5d)){continue;}const _0x12b7ac=_0x31afd2+_0x459c5d;if(_0x12b7ac>'12'){continue;}const _0x3acdf8=_0x2f5f2e[_0x127d51[_0x26ff5b[0x6]]];const _0x58d178=_0x2f5f2e[_0x127d51[_0x26ff5b[_0x34e208["\u004c\u0066\u0067\u0057\u006c"](0x48b7c,0x48b7b)]]];if(!(_0x3acdf8&&_0x58d178)){continue;}const _0x11841a=_0x3acdf8+_0x58d178;if(_0x12b7ac>'31'){continue;}const _0x15ffd8=[0x0,0x2,_0x34e208['WsCqz'](0xb4128,0xb412b),0x5,0x6,0xb,0xe77fc^0xe77f1,0xe,0xdeb92^0xdeb82,0x12,0x15,0x17,0x18];if(_0x127d51['length']==0x14){for(let _0x50b154=0x0;_0x50b154<_0x34e208['zaZbg'](_0x15ffd8['length'],0x4);_0x50b154++){let _0x5975c6=_0x127d51['charAt'](_0x15ffd8[_0x50b154])['charCodeAt']();let _0x5c0d42=_0x127d51['charAt'](_0x15ffd8[_0x50b154+0x1])['charCodeAt']();if(_0x5c0d42-_0x5975c6!=0x1){return{'isValid':![],'productType':0x0};}}}else if(_0x127d51['length']==0x19||_0x127d51['length']==0x1e){for(let _0x314f15=0x0;_0x314f15<_0x15ffd8['length']-0x1;_0x314f15++){let _0x3f3561=_0x127d51['charAt'](_0x15ffd8[_0x314f15])['charCodeAt']();let _0x18b828=_0x127d51['charAt'](_0x15ffd8[_0x314f15+0x1])['charCodeAt']();if(_0x34e208['GmOxd'](_0x18b828,_0x3f3561)!=0x1){return{'isValid':![],'productType':0x0};}}}_0x546d95=_0x52dbbc+'-'+_0x12b7ac+'-'+_0x11841a;break;}if(_0x4f755b['test'](_0x546d95)&&_0x546d95>_0x39d5e9){_0x52c406=!![];}global['eventInfo']['purchaseCodeEndDate']=_0x546d95;global['eventInfo']['purchaseCodeValid']=_0x52c406;global['eventInfo']['purchaseCodeType']=_0x528d20;global['eventInfo']['purchaseCodeCardCount']=_0x1d44a1;let _0x18644c=Utils['b64DecodeUnicode'](ConstMsg['CARD_COUNT'])+'：'+_0x1d44a1;let _0x13e00c=Utils['b64DecodeUnicode'](ConstMsg['PROJECT_TYPE'])+'：';if(_0x528d20===0x32){_0x13e00c+=''+Utils['b64DecodeUnicode'](ConstMsg['PRODUCT_TYPE1']);}else if(_0x528d20===0x33){_0x13e00c+=''+Utils['b64DecodeUnicode'](ConstMsg['PRODUCT_TYPE2']);}let _0x13cb3b=Utils['b64DecodeUnicode'](ConstMsg['END_DATE'])+'：'+_0x546d95;console['log'](_0x13e00c['cyan']);console['log'](_0x18644c['cyan']);console['log'](_0x13cb3b['cyan']);return{'isValid':_0x52c406,'productType':_0x528d20,'cardCount':_0x1d44a1,'performanceType':_0x596acd};}}static async['consoleLogo'](){const _0x3d208a={'UhPcg':'\x20██║\x20\x20\x20\x20██║\x20██╔════╝\x20██╔══██╗\x20██╔════╝\x20██║\x20\x20\x20██║\x20████╗\x20\x20██║\x20████╗\x20\x20██║\x20╚██╗\x20██╔╝','BOrUw':'\x20██║\x20█╗\x20██║\x20█████╗\x20\x20\x20██████╔╝\x20█████╗\x20\x20\x20██║\x20\x20\x20██║\x20██╔██╗\x20██║\x20██╔██╗\x20██║\x20\x20╚████╔╝','BtXej':'\x20██║███╗██║\x20██╔══╝\x20\x20\x20██╔══██╗\x20██╔══╝\x20\x20\x20██║\x20\x20\x20██║\x20██║╚██╗██║\x20██║╚██╗██║\x20\x20\x20╚██╔╝'};console['log']('\x20██╗\x20\x20\x20\x20██╗\x20███████╗\x20██████╗\x20\x20███████╗\x20██╗\x20\x20\x20██╗\x20███╗\x20\x20\x20██╗\x20███╗\x20\x20\x20██╗\x20██╗\x20\x20\x20██╗'['cyan']);console['log'](_0x3d208a['UhPcg']['cyan']);console['log'](_0x3d208a['BOrUw']['cyan']);console['log'](_0x3d208a['BtXej']['cyan']);console['log']('\x20╚███╔███╔╝\x20███████╗\x20██████╔╝\x20██║\x20\x20\x20\x20\x20\x20╚██████╔╝\x20██║\x20╚████║\x20██║\x20╚████║\x20\x20\x20\x20██║'['cyan']);console['log']('\x20\x20╚══╝╚══╝\x20\x20╚══════╝\x20╚═════╝\x20\x20╚═╝\x20\x20\x20\x20\x20\x20\x20╚═════╝\x20\x20╚═╝\x20\x20╚═══╝\x20╚═╝\x20\x20╚═══╝\x20\x20\x20\x20╚═╝'['cyan']);console['log']('\x20');console['log']('\x20');console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['SERVER_STARTING']))['yellow']);console['log']('');}static async['consoleInfo'](_0xf7d0af){const _0x1cc1ec={'TltrD':function(_0x44175d,_0x186ccc){return _0x44175d>_0x186ccc;},'scYTc':function(_0x5ed53b,_0x79ccd2){return _0x5ed53b(_0x79ccd2);},'RzSiR':function(_0x57bce9,_0x5b3aac){return _0x57bce9+_0x5b3aac;},'vuRDE':function(_0x1dd2bf,_0x40a77b){return _0x1dd2bf+_0x40a77b;},'MoOuW':'npm\x20run\x20restart','YoXEi':'pm2\x20stop\x20webfunny_event\x20|\x20pm2\x20delete\x20webfunny_event','gxpiN':'https://github.com/a597873885/webfunny_monitor','hpzyS':function(_0x5717a2,_0x4bb2f5){return _0x5717a2*_0x4bb2f5;}};if(_0xf7d0af){console['log'](_0x1cc1ec['RzSiR'](_0x1cc1ec['RzSiR']('启动\x20',_0xf7d0af),'\x20模式...'));}console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['SERVER_START_SUCCESS']))['yellow']);console['log']('');console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['SERVER_AUTHOR']))['white']);console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['SERVER_WECHAT']))['white']);console['log']('\x20');console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG1']),('http://'+accountInfo['centerAssetsDomain']+'/webfunny_center/main.html\x20')['blue']['underline']);console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG2']),_0x1cc1ec['vuRDE']('http://'+accountInfo['localAssetsDomain'],'/webfunny_event/dataView.html\x20')['blue']['underline']);console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG3']),'http://www.webfunny.cn/website/faq.html'['blue']['underline']);console['log']('\x20');console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG4']),'npm\x20run\x20prd'['cyan']);console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG5']),_0x1cc1ec['MoOuW']['cyan']);console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG6']),_0x1cc1ec['YoXEi']['cyan']);console['log']('\x20');console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG7']))['cyan']);console['log'](''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG8']),'pm2\x20list'['cyan']);console['log']('\x20');console['log']((''+Utils['b64DecodeUnicode'](ConstMsg['STARTING_MSG9']))['green'],_0x1cc1ec['gxpiN']['cyan']['underline']);console['log']('\x20');const _0x33dc84=await UserModel['checkAdminAccount']();const _0x2996a6=_0x1cc1ec['hpzyS'](_0x33dc84[0x0]['count'],0x1);ConfigModel['getConfigByConfigName']('purchaseCode')['then'](_0x2e045f=>{if(_0x2e045f['length']){const _0x21f024=_0x1cc1ec['TltrD'](_0x2996a6,0x0)?'http://'+accountInfo["\u006c\u006f\u0063\u0061\u006c\u0041\u0073\u0073\u0065\u0074\u0073\u0044\u006f\u006d\u0061\u0069\u006e"]+'/webfunny_event/dataView.html':'http://'+accountInfo['localAssetsDomain']+'/webfunny_event/register.html?type=1';switch(process['platform']){case'darwin':_0x1cc1ec['scYTc'](exec,'open\x20'+_0x21f024);case'win32':exec('start\x20'+_0x21f024);default:exec('open\x20'+_0x21f024);}}});}static async['checkPurchase'](_0x417e12,_0x2eb45c){const _0x32325d={'IOzXS':'1.\x20网络异常，执行重启命令试一下$:\x20npm\x20run\x20restart','mcxno':function(_0x3eb94b,_0x462177){return _0x3eb94b+_0x462177;},'DfsVu':function(_0x2ce466,_0x158800){return _0x2ce466===_0x158800;},'pMHLR':function(_0x184267,_0x3f026e){return _0x184267===_0x3f026e;},'QstpI':'http://www.webfunny.cn/config/isBlacklist','WNYYu':'http://monitor.webfunny.cn/tracker/upEvent','Iehdg':function(_0x185902){return _0x185902();},"\u0043\u0066\u0064\u0053\u0074":'event1029','bdKMc':'not\x20get','ztjWJ':function(_0xf2a24a){return _0xf2a24a();}};const _0x54fdc8=(''+Utils['b64DecodeUnicode'](ConstMsg['VALID_MSG0']))['red'];const _0x3cf385=(''+Utils['b64DecodeUnicode'](ConstMsg['VALID_MSG1']))['red'];const _0x2ba5ba=_0x32325d['mcxno']((''+Utils['b64DecodeUnicode'](ConstMsg['VALID_MSG']))['green'],'http://www.webfunny.cn/purchase.html'['cyan']['underline']);const _0x5d1bd2=await ConfigModel['getConfigByConfigName']('purchaseCode');const _0xdeae8f=await ConfigModel['getConfigByConfigName']('secretCode');if(_0x32325d['DfsVu'](_0xdeae8f['length'],0x0)){await ConfigModel['createConfig']({'configName':'secretCode','configValue':''});CommonUtil['restartServer']();return;}if(_0x32325d['pMHLR'](_0x5d1bd2['length'],0x0)&&!accountInfo['purchaseCode']){Utils['postPoint']('http://monitor.webfunny.cn/tracker/upEvent',{'data':JSON['stringify']({'pointId':'10','projectId':'event1029','yong_hu_id':getmac['default']()||'not\x20get','shouQuanMaId':'ABCD','shouQuanMaLeiXing':'0','shiFouDaoQi':0x1,'shiFouYouXiao':0x2,'shiFouHeiMingDan':0x1})})['then'](_0x1a4fe4=>{})['catch'](_0x2234eb=>{});await Utils['get']('http://www.webfunny.cn/config/initPurchaseCode',{'webfunnyVersion':webfunnyVersion})['then'](async _0x49cd80=>{const _0x344ce3=_0x49cd80['data'];await ConfigModel['createConfig']({'configName':'purchaseCode','configValue':_0x344ce3});CommonUtil['restartServer']();return;})['catch'](_0x3a405b=>{console['log']('webfunny启动失败了，原因可能有两种：'['red']);console['log'](_0x32325d['IOzXS']['red']);console['log']('2.\x20贵公司的环境无法访问外部网络，无法获取激活码，请联系我们解决，微信号：webfunny2、webfunny_2020\x20'['red']);return;});return;}let _0x428b6e=accountInfo['purchaseCode']?accountInfo['purchaseCode']:_0x5d1bd2[0x0]?_0x5d1bd2[0x0]['configValue']:'';let _0x527a2a=accountInfo['secretCode']?accountInfo['secretCode']:_0xdeae8f[0x0]?_0xdeae8f[0x0]['configValue']:'';const _0x54c980=CommonUtil['decryptPurchaseCode'](accountInfo['purchaseCode'],accountInfo['secretCode']);if(_0x54c980['isValid']){_0x428b6e=accountInfo['purchaseCode'];_0x527a2a=accountInfo['secretCode'];}let _0xbb8d39=![];await Utils['postJson'](_0x32325d['QstpI'],{'cdkey':_0x428b6e,'secretCdKey':_0x527a2a,'webfunnyVersion':webfunnyVersion})['then'](_0x1f2b89=>{_0xbb8d39=_0x1f2b89['data'];})['catch'](_0x2c59ac=>{_0xbb8d39=![];});if(_0xbb8d39===!![]){setTimeout(function(){console['log']('\x20');console['log'](_0x54fdc8);console['log'](_0x3cf385);console['log']('\x20');console['log'](_0x2ba5ba);log['printError'](_0x2ba5ba);},0x1f40);Utils['postPoint'](_0x32325d['WNYYu'],{'data':JSON['stringify']({'pointId':'10','projectId':'event1029','yong_hu_id':getmac['default']()||'not\x20get','shouQuanMaId':Utils['md5'](_0x428b6e),'shouQuanMaLeiXing':'0','shiFouDaoQi':0x1,'shiFouYouXiao':0x2,'shiFouHeiMingDan':0x2})})['then'](_0x3656cb=>{})['catch'](_0x2ea356=>{});global['eventInfo']['purchaseCodeValid']=![];_0x32325d['Iehdg'](_0x2eb45c);return;}const{productType:_0xf1579,isValid:_0x9fdbf5}=CommonUtil['decryptPurchaseCode'](_0x428b6e,_0x527a2a);if(_0x9fdbf5==!![]){Utils['postPoint']('http://monitor.webfunny.cn/tracker/upEvent',{'data':JSON['stringify']({'pointId':'10','projectId':_0x32325d['CfdSt'],'yong_hu_id':getmac['default']()||_0x32325d['bdKMc'],'shouQuanMaId':Utils['md5'](_0x428b6e),'shouQuanMaLeiXing':_0xf1579+'','shiFouDaoQi':0x1,'shiFouYouXiao':0x1,'shiFouHeiMingDan':0x1})})['then'](()=>{})['catch'](()=>{});const _0x522722=IP['address']();const _0xce8aed=new Date()['getTime']();Utils['postJson']('http://www.webfunny.cn/config/memberActiveDeploy',{'cdkey':_0x428b6e,'ip':_0x522722,'webfunnyVersion':webfunnyVersion,'happenTime':_0xce8aed})['then'](()=>{})['catch'](_0x229e23=>{});global['eventInfo']['purchaseCodeValid']=!![];global['eventInfo']['productType']=_0xf1579;_0x32325d['Iehdg'](_0x417e12);}else{setTimeout(()=>{console['log']('\x20');console['log'](_0x54fdc8);console['log'](_0x3cf385);console['log']('\x20');console['log'](_0x2ba5ba);log['printError'](_0x2ba5ba);},0x1f40);_0x32325d['ztjWJ'](_0x2eb45c);Utils['postPoint'](_0x32325d['WNYYu'],{'data':JSON['stringify']({'pointId':'10','projectId':_0x32325d['CfdSt'],'yong_hu_id':getmac['default']()||'not\x20get','shouQuanMaId':Utils['md5'](_0x428b6e),'shouQuanMaLeiXing':_0xf1579+'','shiFouDaoQi':0x2,'shiFouYouXiao':0x2,'shiFouHeiMingDan':0x1})})['then'](_0x4c67ba=>{})['catch'](_0x31b4ca=>{});}}static async['restartServer'](){const _0x2d82ef={'QTPUP':'重启命令失败error：'};console['log']('即将执行重启命令...\x20如果未重启，请手动执行：npm\x20run\x20restart');process['exec']('npm\x20run\x20restart\x20&',function(_0x26ec2f,_0x58876b,_0x2ad460){if(_0x26ec2f){log['printError'](_0x2d82ef['QTPUP'],_0x26ec2f);log['printError']('重启命令失败stdout：',_0x58876b);log['printError']('重启命令失败stderr：',_0x2ad460);}});}}function _0x5254b7(_0x2dcf99,_0x3ba166,_0x2b6f9d,_0x55964a,_0x3208ff){return _0x49e9(_0x3208ff- -0x192,_0x2dcf99);}class BuryPointAlarmMessageController{static async['create'](_0x2e9df2){const _0x32c81f={'ihVsY':'创建成功','kxQWb':'创建失败,请查看失败原因'};try{let _0x364f4b=JSON['parse'](_0x2e9df2['request']['body']);const{urgency:_0x11ce90,projectId:_0xe9726c,alarmId:_0x2bf998,alarmName:_0x9f5f16,message:_0x196f59,notifyUsers:_0x5864e3,pageId:_0x9979f4}=_0x364f4b;if(_0x11ce90&&_0xe9726c&&_0x9f5f16&&_0x2bf998&&_0x196f59&&_0x5864e3&&_0x9979f4){await BuryPointAlarmMessageModel['create'](_0x364f4b);_0x2e9df2['response']['status']=0xc8;_0x2e9df2['body']=statusCode['SUCCESS_200'](_0x32c81f['ihVsY'],'');}else{_0x2e9df2['response']['status']=0x19c;_0x2e9df2['body']=statusCode['ERROR_412']('创建失败，请求参数不合法');}}catch(_0x16724b){console['log'](_0x16724b);_0x2e9df2['response']['status']=0x19d;_0x2e9df2['body']=statusCode['ERROR_413'](_0x32c81f['kxQWb']);}}static async['detail'](_0x5ba0f2){const _0x490164={'gkOxb':'success'};const _0x5e8202=Utils['parseQs'](_0x5ba0f2['request']['url']);let _0xa3cae7=_0x5e8202['id'];try{const _0x43e16f=await BuryPointAlarmMessageModel['detail'](_0xa3cae7);_0x5ba0f2['response']['status']=0xc8;_0x5ba0f2["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200'](_0x490164['gkOxb'],_0x43e16f);}catch(_0x5b5ccd){console['log'](_0x5b5ccd);_0x5ba0f2['response']['status']=0x19d;_0x5ba0f2['body']=statusCode['ERROR_413']('请求参数不合法');}}static async['list'](_0x2feb49){const _0x127490={'NBTWK':'success','TbNBd':'请求参数不合法'};const _0x1b2f94=JSON['parse'](_0x2feb49['request']['body']);const{userId:_0x4aab5f}=_0x2feb49['user'];_0x1b2f94['userId']=_0x4aab5f;if(!_0x1b2f94["\u0070\u0061\u0067\u0065"]){_0x1b2f94['page']=0x1;}if(!_0x1b2f94['pageSize']){_0x1b2f94['pageSize']=0xa;}try{const _0x10ecbc=await BuryPointAlarmMessageModel["\u0067\u0065\u0074\u004c\u0069\u0073\u0074"](_0x1b2f94);const{list:_0x4f330a,total:_0x593e1b}=_0x10ecbc;_0x2feb49['response']['status']=0xc8;_0x2feb49['body']=statusCode['SUCCESS_200'](_0x127490['NBTWK'],{"\u006c\u0069\u0073\u0074":_0x4f330a,'total':_0x593e1b});}catch(_0x64dd27){console['log'](_0x64dd27);_0x2feb49['response']['status']=0x19d;_0x2feb49['body']=statusCode['ERROR_413'](_0x127490['TbNBd']);}}static async['delete'](_0xbc2d46){const _0x367ec3={'hZUze':'请求参数不合法'};try{let{id:_0x12fe08}=JSON['parse'](_0xbc2d46['request']['body']);const _0x4c8a13=await BuryPointAlarmMessageModel['delete'](_0x12fe08);_0xbc2d46['response']['status']=0xc8;_0xbc2d46['body']=statusCode['SUCCESS_200']('success',_0x4c8a13);}catch(_0x35de97){console['log'](error);_0xbc2d46['response']['status']=0x19d;_0xbc2d46['body']=statusCode['ERROR_413'](_0x367ec3['hZUze']);}}static async['testSendNotice'](_0x2e2715){const _0x671559={'ZWLeS':function(_0x3b9c51,_0x138415){return _0x3b9c51<_0x138415;},'CWmdJ':function(_0x52a939,_0x2e84a1){return _0x52a939!==_0x2e84a1;},'FQqYN':'\x20and\x20FIND_IN_SET(calcFieldKey,\x20\x27'};let _0x4d06cd=[];let _0x2f0c7c=[];let _0x2d422e=[];let _0x52c0b5=[];let _0x546d0f=[];_0x4d06cd['push']({'calcFieldKey':'a','calcLength':0x1});_0x4d06cd['push']({'calcFieldKey':'d','calcLength':0x1});_0x2f0c7c['push']({'calcFieldKey':'a','calcLength':0x1});_0x2f0c7c['push']({'calcFieldKey':'b','calcLength':0x2});_0x2f0c7c['push']({'calcFieldKey':'c','calcLength':0x1});_0x2d422e['push']('a');_0x2d422e['push']('d');_0x52c0b5['push']('a');_0x52c0b5['push']('b');_0x52c0b5['push']('c');_0x546d0f=Utils['getArrDifference'](_0x2d422e,_0x52c0b5);for(let _0x452ac7=0x0;_0x671559['ZWLeS'](_0x452ac7,_0x2f0c7c['length']);_0x452ac7++){for(let _0x38210a=0x0;_0x38210a<_0x4d06cd['length'];_0x38210a++){if(_0x4d06cd[_0x38210a]['calcFieldKey']===_0x2f0c7c[_0x452ac7]['calcFieldKey']){if(_0x671559['CWmdJ'](_0x4d06cd[_0x38210a]['calcLength'],_0x2f0c7c[_0x452ac7]['calcLength'])){_0x546d0f['push'](_0x2f0c7c[_0x452ac7]['calcFieldKey']);}}else{continue;}}}console['log'](_0x546d0f);console['log'](JSON['stringify'](_0x546d0f));if(_0x546d0f['length']>0x0){let _0x3441e4='delete\x20from\x20BuryPointCardStatistics\x20where\x20cardId\x20=\x27'+'1'+'\x27';if(_0x546d0f!=''){_0x3441e4=_0x3441e4+_0x671559['FQqYN']+_0x546d0f+'\x27)';}console['log'](_0x3441e4);}}static async['alarmNotice'](_0x481ac0,_0x124841,_0x3d59af,_0x10cc36,_0x149040,_0x4aff20,_0x3da971,_0x12f38a,_0x5d3ff4){const _0x539336={'pmeBV':function(_0x4cdf23,_0x519b19){return _0x4cdf23===_0x519b19;},'JnpSm':function(_0x35b8ce,_0x121051){return _0x35b8ce===_0x121051;},'QQTPl':function(_0xa3096c,_0x500afd){return _0xa3096c<_0x500afd;},'CjeTa':function(_0x16f1a6,_0x299de7,_0x39aae3){return _0x16f1a6(_0x299de7,_0x39aae3);},'rMeGO':function(_0x4dc26a,_0x437d5d){return _0x4dc26a===_0x437d5d;},'BMixE':function(_0x4f1559,_0x38e326){return _0x4f1559>=_0x38e326;},'TpcqF':function(_0x541a84,_0x2c503c){return _0x541a84(_0x2c503c);},'RejLz':function(_0x5f0c4c,_0x52382b){return _0x5f0c4c+_0x52382b;},'RgNjZ':function(_0x5da75c,_0x3889e4){return _0x5da75c<=_0x3889e4;},'PSHWK':function(_0x6dadff,_0x50f0a5){return _0x6dadff===_0x50f0a5;},'IyFlB':function(_0x3367fe,_0x5f402d){return _0x3367fe+_0x5f402d;},'fFMqb':'/webfunny_event/dataView.html?dashboardType=3&showAddCardBtn=1&pageKey=','BZuIX':'yyyy-MM-dd\x20hh:mm:ss'};let _0x7da983={};_0x7da983['id']=_0x481ac0;_0x7da983['alarmStatus']=0x0;_0x7da983['updateTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');await BuryPointCardModel['update'](_0x481ac0,_0x7da983);if(!_0x149040||_0x149040===''||_0x539336['pmeBV'](_0x149040,undefined)){return;}if(!_0x3da971||_0x3da971===''||_0x3da971===undefined){return;}const _0x4be6e7=JSON['parse'](_0x3da971);if(!(_0x4be6e7&&_0x4be6e7['length'])){return;}const _0x349bf4=await BuryPointAlarmModel['detailById'](_0x149040,0x1);if(!_0x349bf4){return;}const{id:_0x4d743a,name:_0x14ff4e,projectId:_0x36bef3,frequency:_0x1bb000,frequencyUnit:_0x1675a7,silentTime:_0x1ecce0,urgency:_0x11ad93,rule:_0x45091f,content:_0xdd8f60}=_0x349bf4;let _0x4f10a1=0x0;if(!_0x1ecce0||_0x539336['JnpSm'](_0x1ecce0,'')){_0x4f10a1=0x0;}else{const _0x4d74c1=_0x1ecce0['split'](',');const _0x56a64c=new Date();let _0x53dfb2=_0x56a64c['Format']('hh:mm');for(let _0x2aa8f6=0x0;_0x539336['QQTPl'](_0x2aa8f6,_0x4d74c1['length']);_0x2aa8f6++){let _0x699587=_0x4d74c1[_0x2aa8f6]['split']('-');let _0xd689ac=_0x699587[0x0];let _0x3bb522=_0x699587[0x1];if(_0x53dfb2>=_0xd689ac&&_0x53dfb2<_0x3bb522){_0x4f10a1=0x1;return;}}}const _0x196645=_0x45091f['split'](',');const _0x14239e=_0x196645[0x0];let _0x2fda47=_0x196645[0x1];const _0x580768=_0x539336["\u0043\u006a\u0065\u0054\u0061"](parseInt,_0x196645[0x2],0xa);const _0x36da67=_0x196645[0x3];if(!global['eventInfo']['alarmInfoList'][_0x481ac0]){global['eventInfo']['alarmInfoList'][_0x481ac0]={};}if(!global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]){global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]=0x0;}const _0x3d448a=global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36];if(_0x539336['rMeGO'](_0x14239e,'greaterThanAndEqual')&&_0x539336['BMixE'](_0x539336['TpcqF'](parseFloat,_0x12f38a),parseFloat(_0x2fda47))){global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]=_0x539336['RejLz'](_0x3d448a,0x1);}else if(_0x539336['rMeGO'](_0x14239e,'lessThanAndEqual')&&_0x539336['RgNjZ'](parseFloat(_0x12f38a),parseFloat(_0x2fda47))){global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]=_0x3d448a+0x1;}if(_0x539336['PSHWK'](_0x4f10a1,0x1)){return;}if(global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]>=_0x580768){let _0x422b76='';if(_0x14239e==='greaterThanAndEqual'){_0x422b76='>=';}else if(_0x14239e==='lessThanAndEqual'){_0x422b76='<=';}if(_0x36da67&&_0x36da67==='percentage'){_0x422b76=_0x539336['IyFlB'](_0x422b76+_0x2fda47,'%');}else{_0x422b76=_0x422b76+_0x2fda47;}let _0x1d08ad='';if(_0x11ad93==='normal'){_0x1d08ad='一般';}else if(_0x11ad93==='critical'){_0x1d08ad='严重';}else{_0x1d08ad='紧急';}let _0x217cdf=_0xdd8f60['replace'](/{alarmName}/g,_0x124841)['replace'](/{calcData}/g,_0x3d59af)['replace'](/{urgency}/g,_0x1d08ad)['replace'](/{threshold}/g,_0x422b76)['replace'](/{happenCount}/g,_0x580768);_0x217cdf=_0x217cdf+'警报卡片：'+('http://'+accountInfo['localAssetsDomain'])+_0x539336['fFMqb']+_0x4aff20;AlarmUtil['alarmCallback'](_0x5d3ff4,_0x217cdf,_0x4be6e7);let _0x400557={};_0x400557['urgency']=_0x11ad93;_0x400557['projectId']=_0x36bef3;_0x400557['alarmId']=_0x4d743a;_0x400557['alarmName']=_0x14ff4e;_0x400557['pageId']=_0x4aff20;_0x400557['message']=_0x217cdf;let _0x48e2ab='';_0x4be6e7['forEach'](_0x26d9fa=>{_0x48e2ab=_0x48e2ab+_0x26d9fa['userId']+',';});_0x400557['notifyUsers']=_0x48e2ab['substring'](0x0,_0x48e2ab['lastIndexOf'](','));await BuryPointAlarmMessageModel['create'](_0x400557);let _0x77b18c={};_0x77b18c['id']=_0x481ac0;_0x77b18c['alarmStatus']=0x1;_0x77b18c['updateTime']=new Date()['Format'](_0x539336['BZuIX']);await BuryPointCardModel['update'](_0x481ac0,_0x77b18c);global['eventInfo']['alarmInfoList'][_0x481ac0][_0x10cc36]=0x0;}else{let _0x3d7cb4={};_0x3d7cb4['id']=_0x481ac0;_0x3d7cb4['alarmStatus']=0x0;_0x3d7cb4['updateTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');await BuryPointCardModel['update'](_0x481ac0,_0x3d7cb4);}}}class BuryPointCardController{static async['judgeCardCount'](_0x468bd7){const _0x2ae37f={'RONnP':function(_0x18452d,_0x4d0754,_0x20f5a4){return _0x18452d(_0x4d0754,_0x20f5a4);}};const _0x2eeb5a=await BuryPointCardModel['getCountByNoSysType']("".split("").reverse().join(""));let _0x5c8028=isNaN(_0x2eeb5a[0x0]['count'])?0x0:_0x2eeb5a[0x0]['count'];const _0xda1aa=global['eventInfo']["\u0070\u0075\u0072\u0063\u0068\u0061\u0073\u0065\u0043\u006f\u0064\u0065\u0043\u0061\u0072\u0064\u0043\u006f\u0075\u006e\u0074"]||0xa;if(parseInt(_0xda1aa,0xa)-parseInt(_0x5c8028,0xa)<_0x2ae37f['RONnP'](parseInt,_0x468bd7,0xa)){return 0x1;}return 0x0;}static async['create'](_0x3e0767){const _0x162ac9={'txIky':function(_0xf45a47,_0x6a19b2){return _0xf45a47===_0x6a19b2;},'VUGag':function(_0x2dce84,_0x1df505){return _0x2dce84>_0x1df505;},'Kaoiz':function(_0x3a90a5,_0x1a283c){return _0x3a90a5(_0x1a283c);},'FDGwH':function(_0x1b71b8,_0x306892){return _0x1b71b8>_0x306892;},'hIyEK':function(_0x249024,_0x1439db){return _0x249024===_0x1439db;},'POcFs':function(_0x5943af,_0x4bed70){return _0x5943af*_0x4bed70;}};let _0x4c83a3=JSON['parse'](_0x3e0767['request']['body']);const{nickname:_0xcc6544}=_0x3e0767['user'];_0x4c83a3['createBy']=_0xcc6544;if(!_0x4c83a3['pageId']||_0x4c83a3['pageId']===''||_0x4c83a3['pageId']===undefined){_0x3e0767["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412']("".split("").reverse().join("")+Utils['b64DecodeUnicode'](ConstMsg['CARD_CREATE_NO_CHOICE_PAGE']));return;}if(_0x4c83a3['name']&&_0x4c83a3['type']&&_0x4c83a3['pageId']&&_0x4c83a3['calcRule']){let _0x1f7746=[];let _0x67831e=await BuryPointCardController['judgeCardCount'](0x1);if(_0x162ac9['txIky'](_0x67831e,0x1)){_0x3e0767['response']['status']=0x19e;_0x3e0767['body']=statusCode['ERROR_CARD_BALANCE_414']('卡片余额不足');return;}const _0x33cf90=await BuryPointCardModel['checkName'](_0x4c83a3['name'],_0x4c83a3['pageId']);let _0x4c7e3a=_0x33cf90[0x0]['count'];if(_0x162ac9['VUGag'](_0x4c7e3a,0x0)){_0x3e0767['response']['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}const _0x320f5c=await BuryPointCardModel['getCountPageId'](_0x4c83a3['pageId']);let _0x4db11c=_0x162ac9['Kaoiz'](isNaN,_0x320f5c[0x0]['maxSort'])?0x0:_0x320f5c[0x0]['maxSort'];_0x4c83a3['sort']=parseInt(_0x4db11c,0xa)+0x1;let _0x1f76f1=_0x4c83a3['calcRule'];let _0x344685=[];if(_0x4c83a3['groupByFlag']===0x1&&(_0x162ac9['txIky'](_0x4c83a3['type'],0x2)||_0x4c83a3['type']===0x4||_0x4c83a3['type']===0x7)&&_0x1f76f1['length']>0x1){_0x3e0767['response']['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CARD_CREATE_GROUP_FAIL']));return;}if(_0x162ac9['txIky'](_0x4c83a3['type'],0x6)&&_0x162ac9['FDGwH'](_0x1f76f1['length'],0x4)){_0x3e0767['response']['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CARD_CREATE_NUMBER_FAIL']));return;}let _0x146b37=0x0;for(let _0x1f5372=0x0;_0x1f5372<_0x1f76f1['length'];_0x1f5372++){const{calcName:_0x587a7a}=_0x1f76f1[_0x1f5372];let _0x176844=_0x1f76f1[_0x1f5372];let _0x40c114=slugify(_0x587a7a)['replace'](/-/g,'')+new Date()['Format']('yyyyMMddhhmmss');_0x176844['calcNameKey']=_0x40c114;if(_0x4c83a3['type']===0x5){if(!_0x176844['prePoint']['calcField']['fieldName']){_0x176844['prePoint']['calcField']['fieldName']='weCustomerKey';}_0x1f7746['push'](_0x176844['prePoint']['pointId']);}if(_0x176844['prePoint']['calcField']['isRepeat']==="\u0034"||_0x176844['prePoint']['calcField']['isRepeat']==='5'){_0x146b37=_0x146b37+0x1;}_0x344685['push'](_0x176844);}if(_0x1f76f1['length']>0x1&&_0x146b37>=0x1){_0x3e0767['response']['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CARD_CREATE_GROUP_FAIL']));return;}if(_0x1f76f1['length']===0x1&&_0x162ac9['hIyEK'](_0x146b37,0x1)){_0x4c83a3['groupByFlag']=0x1;}_0x4c83a3['calcRule']=JSON['stringify'](_0x344685);_0x4c83a3['updatedAt']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');_0x4c83a3['alarmMembers']=JSON['stringify'](_0x4c83a3['alarmMembers']);_0x4c83a3['noticeWay']=JSON['stringify'](_0x4c83a3['noticeWay']);let _0x4bd405=await BuryPointCardModel['create'](_0x4c83a3);if(_0x4bd405){if(_0x4c83a3['type']===0x5){BuryPointCardController['saveFunnelPointRelation'](_0x1f7746,_0x4bd405['id']);}let _0x8637ea=parseInt(accountInfo['saveDays'],0xa);if(_0x8637ea>0xa){_0x8637ea=0xa;}for(let _0x2e18fa=0x0;_0x2e18fa<_0x8637ea;_0x2e18fa++){if(_0x4c83a3['type']&&_0x4c83a3['type']===0x5){TimerStatisticController['calculateFunnelDataByCard'](_0x4bd405,-0x1*_0x2e18fa,0x1);}else{if(_0x4c83a3['groupByFlag']&&_0x4c83a3['groupByFlag']===0x1){TimerStatisticController['calculateNoFunnelGroupByDataByCard'](_0x4bd405,-0x1*_0x2e18fa,0x1);}else{TimerStatisticController['calculateNoFunnelDataByCard'](_0x4bd405,_0x162ac9['POcFs'](-0x1,_0x2e18fa),0x1);}}}}_0x3e0767['response']['status']=0xc8;_0x3e0767['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x3e0767['response']['status']=0x19c;_0x3e0767['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['moveCard'](_0x226c9f){const _0x3e7ba4={'VBflq':function(_0x561048,_0x25ecb1){return _0x561048+_0x25ecb1;},'uHKcw':'success'};let _0x4fd96e=JSON['parse'](_0x226c9f['request']['body']);const{id:_0x4c268d,pageId:_0x273e7c,projectId:_0x21ef6b}=_0x4fd96e;const{nickname:_0x2b7e1b}=_0x226c9f['user'];if(_0x4c268d&&_0x273e7c&&_0x21ef6b){const _0x5d427a=await BuryPointCardModel['getCountPageId'](_0x4fd96e['pageId']);let _0x2ec3f1=isNaN(_0x5d427a[0x0]['maxSort'])?0x0:_0x5d427a[0x0]['maxSort'];let _0x4fed27={};_0x4fed27['pageId']=_0x273e7c;_0x4fed27['updateBy']=_0x2b7e1b;_0x4fed27['sort']=_0x3e7ba4['VBflq'](parseInt(_0x2ec3f1,0xa),0x1);await BuryPointCardModel['update'](_0x4c268d,_0x4fed27);let _0x1b6575={};_0x1b6575['pageId']=_0x273e7c;_0x1b6575['updateBy']=_0x2b7e1b;await BuryPointCardStatisticsModel['updateByCard'](_0x4c268d,_0x1b6575);let _0x15210d=_0x3e7ba4['VBflq']('BuryPointCardStatistics_',_0x21ef6b);await BuryPointCardStatisticsModel['updateStatisticByCard'](_0x15210d,_0x4c268d,_0x273e7c);_0x226c9f['response']['status']=0xc8;_0x226c9f['body']=statusCode['SUCCESS_200'](_0x3e7ba4['uHKcw'],'');}else{_0x226c9f['response']['status']=0x19c;_0x226c9f['body']=statusCode['ERROR_412']("\uFF01liaf".split("").reverse().join(""));}}static async['copyCard'](_0x31383f){const _0x5ca254={'RWfkv':function(_0x1988ca,_0x211341){return _0x1988ca>_0x211341;},'guZvk':function(_0x54debf,_0x3ee2be){return _0x54debf+_0x3ee2be;},'IumRA':function(_0x53fa09,_0x380bc4){return _0x53fa09===_0x380bc4;}};let _0x229615=JSON['parse'](_0x31383f['request']['body']);const{nickname:_0xadf2a7}=_0x31383f["\u0075\u0073\u0065\u0072"];_0x229615['createBy']=_0xadf2a7;if(_0x229615['cardId']&&_0x229615['cardName']&&_0x229615['pageId']){let _0x196073=await BuryPointCardController['judgeCardCount'](0x1);if(_0x196073===0x1){const _0x1392ca=global['eventInfo']['purchaseCodeCardCount']||0xa;_0x31383f['response']['status']=0x19e;_0x31383f['body']=statusCode['ERROR_CARD_BALANCE_414']('卡片余额不足');return;}const _0x3490c0=await BuryPointCardModel['checkName'](_0x229615['cardName'],_0x229615['pageId']);let _0x32c063=_0x3490c0[0x0]['count'];if(_0x5ca254['RWfkv'](_0x32c063,0x0)){_0x31383f['response']['status']=0x19c;_0x31383f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}let _0xe8a0c2=await BuryPointCardModel['detail'](_0x229615['cardId']);const _0x147792=await BuryPointCardModel['getCountPageId'](_0x229615['pageId']);let _0x2811c1=isNaN(_0x147792[0x0]['maxSort'])?0x0:_0x147792[0x0]['maxSort'];_0x229615['sort']=_0x5ca254['guZvk'](parseInt(_0x2811c1,0xa),0x1);_0x229615['type']=_0xe8a0c2['type'];_0x229615['name']=_0x229615['cardName'];_0x229615['calcRule']=_0xe8a0c2['calcRule'];_0x229615['conversionCycle']=_0xe8a0c2['conversionCycle'];_0x229615['groupByFlag']=_0xe8a0c2['groupByFlag'];_0x229615['chartTableShow']=_0xe8a0c2['chartTableShow'];_0x229615['togetherList']=_0xe8a0c2['togetherList'];_0x229615['refreshFrequency']=_0xe8a0c2['refreshFrequency'];_0x229615['alarmMembers']=_0xe8a0c2['alarmMembers'];_0x229615['noticeWay']=_0xe8a0c2['noticeWay'];_0x229615['updatedAt']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');let _0xe20519=await BuryPointCardModel['create'](_0x229615);let _0x598913=JSON['parse'](_0xe8a0c2['calcRule']);if(_0xe20519){if(_0x229615['type']===0x5){let _0x41aa55=[];for(let _0xfdbf6e=0x0;_0xfdbf6e<_0x598913['length'];_0xfdbf6e++){_0x41aa55['push'](_0x598913[_0xfdbf6e]['prePoint']['pointId']);}BuryPointCardController['saveFunnelPointRelation'](_0x41aa55,_0xe20519['id']);}let _0xb60848=parseInt(accountInfo['saveDays'],0xa);if(_0xb60848>0xa){_0xb60848=0xa;}for(let _0x17467b=0x0;_0x17467b<_0xb60848;_0x17467b++){if(_0x229615['type']&&_0x229615['type']===0x5){TimerStatisticController['calculateFunnelDataByCard'](_0xe20519,-0x1*_0x17467b,0x1);}else{if(_0x229615['groupByFlag']&&_0x5ca254['IumRA'](_0x229615['groupByFlag'],0x1)){TimerStatisticController['calculateNoFunnelGroupByDataByCard'](_0xe20519,-0x1*_0x17467b,0x1);}else{TimerStatisticController['calculateNoFunnelDataByCard'](_0xe20519,-0x1*_0x17467b,0x1);}}}}_0x31383f['response']['status']=0xc8;_0x31383f['body']=statusCode['SUCCESS_200']("".split("").reverse().join("")+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x31383f['response']['status']=0x19c;_0x31383f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['delete'](_0x379b47){let _0x36d9d7=JSON['parse'](_0x379b47['request']['body']);const{id:_0xdaebd7}=_0x36d9d7;await BuryPointCardController['deleteById'](_0xdaebd7);_0x379b47['response']['status']=0xc8;_0x379b47['body']=statusCode['SUCCESS_200']('success','');}static async['deleteBatch'](_0x2de427){const _0x4f662b={'CMINi':'success'};let _0x3a1fcf=JSON['parse'](_0x2de427['request']['body']);const{ids:_0x1bb2fe}=_0x3a1fcf;if(_0x1bb2fe){let _0x301894=_0x1bb2fe['split'](',');for(let _0x1c6dca=0x0;_0x1c6dca<_0x301894['length'];_0x1c6dca++){await BuryPointCardController['deleteById'](_0x301894[_0x1c6dca]);}}_0x2de427['response']['status']=0xc8;_0x2de427['body']=statusCode['SUCCESS_200'](_0x4f662b['CMINi'],'');}static async['deleteById'](_0x2eae00){const _0x36884c={'PVtjI':function(_0x476f00,_0x431804){return _0x476f00<_0x431804;},'KYmRY':function(_0x396884,_0x5e7750){return _0x396884+_0x5e7750;}};let _0x25d16e=await BuryPointCardModel['detail'](_0x2eae00);if(_0x25d16e){BuryPointRelationModel['deleteByCardId'](_0x2eae00);BuryPointCardStatisticsModel['deleteByCardId'](_0x2eae00,'');await BuryPointCardModel['delete'](_0x2eae00);const _0x107237=await BuryPointCardModel['getListByPageIdAndSort'](_0x25d16e['pageId'],_0x2eae00);for(let _0x4cbafc=0x0;_0x36884c['PVtjI'](_0x4cbafc,_0x107237['length']);_0x4cbafc++){_0x107237[_0x4cbafc]['sort']=_0x36884c['KYmRY'](_0x4cbafc,0x1);BuryPointCardModel['update'](_0x107237[_0x4cbafc]['id'],_0x107237[_0x4cbafc]);}}}static async['detail'](_0xfc9621){const _0x19a2da={'wVhPz':'success'};const _0x36758b=Utils['parseQs'](_0xfc9621['request']['url']);let _0x2401b8=_0x36758b['id'];let _0x1a2dcb=await BuryPointCardModel['detail'](_0x2401b8);let _0x30d859={};_0x30d859['id']=_0x1a2dcb['id'];_0x30d859['pageId']=_0x1a2dcb['pageId'];_0x30d859['type']=_0x1a2dcb['type'];_0x30d859['name']=_0x1a2dcb['name'];_0x30d859['calcRule']=_0x1a2dcb['calcRule'];_0x30d859['sort']=_0x1a2dcb['sort'];_0x30d859['conversionCycle']=_0x1a2dcb['conversionCycle'];_0x30d859['groupByFlag']=_0x1a2dcb['groupByFlag'];_0x30d859['chartTableShow']=_0x1a2dcb['chartTableShow'];_0x30d859['togetherList']=_0x1a2dcb['togetherList'];_0x30d859['refreshFrequency']=_0x1a2dcb['refreshFrequency'];_0x30d859['alarmStatus']=_0x1a2dcb['alarmStatus'];_0x30d859['noticeWay']=_0x1a2dcb['noticeWay'];_0x30d859['alarmMembers']=_0x1a2dcb['alarmMembers'];if(_0x1a2dcb['type']===0x5){let _0x54f95c='weCustomerKey';const _0x1b4e52=JSON['parse'](_0x1a2dcb['calcRule']);_0x54f95c=_0x1b4e52[0x0]['prePoint']['calcField']['fieldName'];_0x30d859['calculateId']=_0x54f95c;}_0xfc9621['response']['status']=0xc8;_0xfc9621['body']=statusCode['SUCCESS_200'](_0x19a2da['wVhPz'],_0x30d859);}static async['update'](_0x386d4d){const _0x2a2a0a={'kLYpD':function(_0x214647,_0x564a44){return _0x214647===_0x564a44;},'eEHSn':function(_0x4e99de,_0x280b5f){return _0x4e99de+_0x280b5f;},'tnwQE':'undefined','daKpz':function(_0x38f452,_0x1301fe){return _0x38f452>=_0x1301fe;},'lwyGw':function(_0x5f4fa9,_0x5f0e37){return _0x5f4fa9===_0x5f0e37;},'Wgupd':function(_0x2e24e4,_0x185717){return _0x2e24e4*_0x185717;}};let _0x5391bb=JSON['parse'](_0x386d4d['request']['body']);let _0x3a21af=_0x5391bb['id'];const{nickname:_0x3dfb08}=_0x386d4d['user'];_0x5391bb['updateBy']=_0x3dfb08;if(!_0x5391bb['pageId']||_0x5391bb['pageId']===''||_0x5391bb['pageId']===undefined){let _0x437423=await BuryPointCardModel['detail'](_0x3a21af);_0x5391bb['pageId']=_0x437423['pageId'];}if(_0x5391bb){let _0xc3e7b0=await BuryPointCardModel['detail'](_0x3a21af);let _0x4d01cc=_0x5391bb['calcRule'];let _0x28aa53=_0x5391bb['alarmMembers'];let _0x36995f=_0x5391bb['noticeWay'];_0x5391bb['alarmMembers']=JSON['stringify'](_0x28aa53);_0x5391bb['noticeWay']=JSON['stringify'](_0x36995f);if(Utils['equalsObj'](JSON['stringify'](_0x4d01cc),_0xc3e7b0['calcRule'])){_0x5391bb['calcRule']=JSON['stringify'](_0x4d01cc);await BuryPointCardModel['update'](_0x3a21af,_0x5391bb);_0x386d4d['response']['status']=0xc8;_0x386d4d['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),_0x5391bb);return;}else{let _0xaf4ef7=[];let _0x5b122d=[];let _0x457560=[];let _0xf023f7=[];let _0x5925f6=[];let _0x4efccc=[];let _0x31ea73=[];let _0x39e163=[];for(let _0x2f24ad=0x0;_0x2f24ad<_0x4d01cc['length'];_0x2f24ad++){_0xaf4ef7['push'](_0x4d01cc[_0x2f24ad]['prePoint']['pointId']);if(_0x2a2a0a['kLYpD'](_0x5391bb['type'],0x5)){_0x457560['push'](_0x4d01cc[_0x2f24ad]['prePoint']['pointId']);}if(_0x4d01cc[_0x2f24ad]['calcNameKey']){let _0x6452b1={};_0x6452b1['calcNameKey']=_0x4d01cc[_0x2f24ad]["\u0063\u0061\u006c\u0063\u004e\u0061\u006d\u0065\u004b\u0065\u0079"];_0x6452b1['calcLength']=JSON['stringify'](_0x4d01cc[_0x2f24ad]['prePoint'])['length']+(_0x4d01cc[_0x2f24ad]['endPoint']?JSON['stringify'](_0x4d01cc[_0x2f24ad]['endPoint'])['length']:0x0);_0xf023f7['push'](_0x6452b1);_0x4efccc['push'](_0x4d01cc[_0x2f24ad]['calcNameKey']);}}let _0x727ff0=JSON['parse'](_0xc3e7b0['calcRule']);for(let _0x576295=0x0;_0x576295<_0x727ff0['length'];_0x576295++){_0x5b122d['push'](_0x727ff0[_0x576295]['prePoint']['pointId']);let _0x2a6e7e={};_0x2a6e7e['calcNameKey']=_0x727ff0[_0x576295]['calcNameKey'];_0x2a6e7e['calcLength']=_0x2a2a0a['eEHSn'](JSON['stringify'](_0x727ff0[_0x576295]['prePoint'])['length'],_0x727ff0[_0x576295]['endPoint']?JSON['stringify'](_0x727ff0[_0x576295]['endPoint'])['length']:0x0);_0x5925f6['push'](_0x2a6e7e);_0x31ea73['push'](_0x727ff0[_0x576295]['calcNameKey']);}let _0x72af57=[...new Set(_0xaf4ef7)];let _0x4381c3=[...new Set(_0x5b122d)];if(_0x5391bb['type']===0x5&&!Utils['equalsObj'](_0x72af57,_0x4381c3)){await BuryPointRelationModel['deleteByCardId'](_0x3a21af);await BuryPointCardController['saveFunnelPointRelation'](_0x457560,_0x3a21af);}_0x39e163=Utils['getArrDifference'](_0x4efccc,_0x31ea73);for(let _0x14cba7=0x0;_0x14cba7<_0x5925f6['length'];_0x14cba7++){for(let _0x31952c=0x0;_0x31952c<_0xf023f7['length'];_0x31952c++){if(_0xf023f7[_0x31952c]['calcNameKey']===_0x5925f6[_0x14cba7]['calcNameKey']){if(_0xf023f7[_0x31952c]['calcLength']!==_0x5925f6[_0x14cba7]['calcLength']){_0x39e163["\u0070\u0075\u0073\u0068"](_0x5925f6[_0x14cba7]['calcNameKey']);}}else{continue;}}}if(_0x39e163['length']>0x0){await BuryPointCardStatisticsModel['deleteByCardId'](_0x3a21af,_0x39e163);}}let _0x1f44ae=[];let _0x215bf2=0x0;for(let _0x4b10be=0x0;_0x4b10be<_0x4d01cc['length'];_0x4b10be++){const{calcName:_0x372769,calcNameKey:_0x361a83}=_0x4d01cc[_0x4b10be];let _0x25f8da=_0x4d01cc[_0x4b10be];if(!_0x361a83||_0x361a83===''||_0x361a83===undefined||_0x361a83===_0x2a2a0a['tnwQE']){let _0x3ecc68=slugify(_0x372769)["\u0072\u0065\u0070\u006c\u0061\u0063\u0065"](/-/g,'')+new Date()['Format']('yyyyMMddhhmmss');_0x25f8da['calcNameKey']=_0x3ecc68;}if(_0x25f8da['prePoint']['calcField']['isRepeat']==='4'||_0x25f8da['prePoint']['calcField']['isRepeat']==='5'){_0x215bf2=_0x215bf2+0x1;}_0x1f44ae['push'](_0x25f8da);}if(_0x4d01cc['length']>0x1&&_0x2a2a0a['daKpz'](_0x215bf2,0x1)){_0x386d4d['response']['status']=0x19c;_0x386d4d['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CARD_UPDATE_GROUP_FAIL']));return;}if(_0x5391bb['type']===0x6&&_0x4d01cc['length']>0x4){_0x386d4d['response']['status']=0x19c;_0x386d4d['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CARD_UPDATE_NUMBER_FAIL']));return;}if(_0x4d01cc['length']===0x1&&_0x215bf2===0x1){_0x5391bb['groupByFlag']=0x1;}_0x5391bb['calcRule']=JSON['stringify'](_0x1f44ae);await BuryPointCardModel['update'](_0x3a21af,_0x5391bb);let _0x131c31=parseInt(accountInfo['saveDays'],0xa);if(_0x131c31>0xa){_0x131c31=0xa;}for(let _0xaddb96=0x0;_0xaddb96<_0x131c31;_0xaddb96++){if(_0x5391bb['type']&&_0x2a2a0a['lwyGw'](_0x5391bb['type'],0x5)){await TimerStatisticController['calculateFunnelDataByCard'](_0x5391bb,_0x2a2a0a["\u0057\u0067\u0075\u0070\u0064"](-0x1,_0xaddb96),0x1);}else{if(_0x5391bb['groupByFlag']&&_0x5391bb['groupByFlag']===0x1){TimerStatisticController['calculateNoFunnelGroupByDataByCard'](_0x5391bb,-0x1*_0xaddb96,0x1);}else{TimerStatisticController['calculateNoFunnelDataByCard'](_0x5391bb,-0x1*_0xaddb96,0x1);}}}_0x386d4d['response']['status']=0xc8;_0x386d4d['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),_0x5391bb);}else{_0x386d4d['response']['status']=0x19c;_0x386d4d['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['saveFunnelPointRelation'](_0x50713a,_0x1148ba){const _0x39ea54={'Fairj':function(_0x3cc8d8,_0x35faca){return _0x3cc8d8===_0x35faca;},'cMEum':function(_0x209da9,_0x3b528c){return _0x209da9<_0x3b528c;},'GZztT':function(_0x17ad24,_0x38094d){return _0x17ad24*_0x38094d;},'RQwIH':function(_0x5a453e,_0x1d999a){return _0x5a453e<_0x1d999a;},'RKSmt':function(_0x3ea394,_0x78e0f0){return _0x3ea394===_0x78e0f0;}};let _0x3dafe6=new Set(_0x50713a);let _0x5d5dbf=[..._0x3dafe6];for(let _0x568c5d=0x0;_0x568c5d<_0x5d5dbf['length'];_0x568c5d++){let _0x123fb2=_0x5d5dbf[_0x568c5d];const _0x4b3c2e=await BuryPointRelationModel['getListByPointIdAndCardId'](_0x123fb2,_0x1148ba);if(_0x39ea54['Fairj'](_0x4b3c2e['length'],0x1)){continue;}else{const _0x31a44f=await BuryPointRelationModel['getListByPointIdAndCardId'](_0x123fb2,'');let _0x4fa065=[];let _0x1bb548=0x1;for(let _0x90c07d=0x0;_0x39ea54['cMEum'](_0x90c07d,_0x31a44f['length']);_0x90c07d++){_0x4fa065['push'](_0x39ea54['GZztT'](_0x31a44f[_0x90c07d]['stepColum'],0x1));}for(let _0x24c058=0x1;_0x39ea54['RQwIH'](_0x24c058,0xb);_0x24c058++){if(_0x39ea54['RKSmt'](_0x4fa065['indexOf'](_0x24c058),-0x1)){_0x1bb548=_0x24c058;break;}}let _0x415406={};_0x415406['pointId']=_0x123fb2;_0x415406['stepColum']=_0x1bb548;_0x415406['cardId']=_0x1148ba;await BuryPointRelationModel['create'](_0x415406);}}}static async['refresh'](_0x1bba06){const _0x25ddd7={'gtqCt':'yyyy-MM-dd','aJpgC':function(_0x23e388,_0x50c209){return _0x23e388-_0x50c209;}};let _0x1b23b0=JSON['parse'](_0x1bba06['request']['body']);const{nickname:_0x178680}=_0x1bba06['user'];_0x1b23b0['updateBy']=_0x178680;if(_0x1b23b0['id']){let _0x157429=_0x1b23b0['id'];let _0x48591d=_0x1b23b0['dateValue'];let _0x58a19b=_0x1b23b0['queryStartDate'];let _0x1c0be8=_0x1b23b0['queryEndDate'];let _0x521f28;let _0xedb267;const _0x3840e5=0x18*0xe10*0x3e8;if(!_0x48591d&&!_0x58a19b&&!_0x1c0be8){_0x48591d='30';}if(_0x48591d){const _0x2c2541=new Date()['getTime']();let _0x42be02=accountInfo['isOpenTodayStatistic'];if(_0x42be02){_0x521f28=new Date(_0x2c2541-parseInt(_0x48591d,0xa)*_0x3840e5)['Format']('yyyy-MM-dd');_0xedb267=new Date(_0x2c2541)['Format'](_0x25ddd7['gtqCt'])+'\x2023:59';}else{_0x521f28=new Date(_0x2c2541-(parseInt(_0x48591d,0xa)+0x1)*_0x3840e5)['Format']('yyyy-MM-dd');_0xedb267=new Date(_0x2c2541-_0x3840e5)['Format']('yyyy-MM-dd')+'\x2023:59';}}else{_0x521f28=new Date(_0x25ddd7['aJpgC'](new Date(_0x58a19b)['getTime'](),_0x3840e5))['Format']('yyyy-MM-dd');_0xedb267=_0x1c0be8+'\x2023:59';}let _0xf64a5d=await BuryPointCardModel['detail'](_0x157429);if(_0xf64a5d['type']&&_0xf64a5d['type']===0x5){await TimerStatisticController['calculateFunnelDataByCard'](_0xf64a5d,0x0,0x2);}else{if(_0xf64a5d['groupByFlag']&&_0xf64a5d['groupByFlag']===0x1){await TimerStatisticController['calculateNoFunnelGroupByDataByCard'](_0xf64a5d,0x0,0x2);}else{await TimerStatisticController['calculateNoFunnelDataByCard'](_0xf64a5d,0x0,0x2);}}let _0x11d89a;if(_0xf64a5d['groupByFlag']&&_0xf64a5d['groupByFlag']===0x1){_0x11d89a=await BuryPointCardController['convertGroupByCardStatisticInfo'](_0xf64a5d,0x1,_0x521f28,_0xedb267);}else{_0x11d89a=await BuryPointCardController['convertCardStatisticInfo'](_0xf64a5d,_0x521f28,_0xedb267);}_0x11d89a['refreshTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');let _0x12b090={};_0x12b090['id']=_0x157429;_0x12b090['updateAt']=_0x11d89a['refreshTime'];BuryPointCardModel['update'](_0x157429,_0x12b090);_0x1bba06['response']['status']=0xc8;_0x1bba06['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['REFRESH_SUCCESS']),_0x11d89a);}else{_0x1bba06['response']['status']=0x19c;_0x1bba06['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['REFRESH_FAIL']));}}static async['groupByQuery'](_0x41cf7d){const _0x14771b={'GQaLZ':function(_0x25147e,_0x4f07c4){return _0x25147e&&_0x4f07c4;},'edTks':function(_0x5be11b,_0x55c13a){return _0x5be11b*_0x55c13a;},'lWWbN':function(_0x233989,_0x5199b9){return _0x233989+_0x5199b9;},'DNrcm':'\x2023:59','erkXu':function(_0x18089b,_0x25d6ef){return _0x18089b+_0x25d6ef;},'hfoHh':function(_0x19b9a5,_0x2f272d,_0x510602){return _0x19b9a5(_0x2f272d,_0x510602);},'kphgA':'yyyy-MM-dd'};let _0x980313=JSON['parse'](_0x41cf7d['request']['body']);if(_0x980313['id']){let _0x1da544=_0x980313['id'];let _0x566d16=_0x980313["\u0064\u0061\u0074\u0065\u0056\u0061\u006c\u0075\u0065"];let _0x5b372a=_0x980313['queryStartDate'];let _0x103d55=_0x980313['queryEndDate'];let _0x13fafe=_0x980313['topValue'];let _0x391f0f;let _0x57f7a8;const _0x212843=0x18*0xe10*0x3e8;if(_0x14771b['GQaLZ'](!_0x566d16,!_0x5b372a)&&!_0x103d55){_0x566d16='30';}if(_0x566d16){const _0xa4f138=new Date()['getTime']();let _0x1e5fd5=accountInfo['isOpenTodayStatistic'];if(_0x1e5fd5){_0x391f0f=new Date(_0xa4f138-_0x14771b['edTks'](parseInt(_0x566d16,0xa),_0x212843))['Format']('yyyy-MM-dd');_0x57f7a8=_0x14771b['lWWbN'](new Date(_0xa4f138)['Format']('yyyy-MM-dd'),_0x14771b['DNrcm']);}else{_0x391f0f=new Date(_0xa4f138-_0x14771b['erkXu'](_0x14771b['hfoHh'](parseInt,_0x566d16,0xa),0x1)*_0x212843)['Format'](_0x14771b['kphgA']);_0x57f7a8=new Date(_0xa4f138-_0x212843)['Format']('yyyy-MM-dd')+'\x2023:59';}}else{_0x391f0f=new Date(new Date(_0x5b372a)['getTime']()-_0x212843)['Format'](_0x14771b['kphgA']);_0x57f7a8=_0x103d55+'\x2023:59';}let _0x3607f4=await BuryPointCardModel['detail'](_0x1da544);let _0x57a891=await BuryPointCardController['convertGroupByCardStatisticInfo'](_0x3607f4,_0x13fafe,_0x391f0f,_0x57f7a8);_0x41cf7d['response']['status']=0xc8;_0x41cf7d['body']=statusCode['SUCCESS_200']('success',_0x57a891);}else{_0x41cf7d['response']['status']=0x19c;_0x41cf7d['body']=statusCode['ERROR_412']('fail！');}}static async['export'](_0x2b6af7){const _0x193006={"\u0076\u006b\u0055\u0075\u0071":function(_0x48c8bf,_0x3496fd){return _0x48c8bf===_0x3496fd;},'OvkBI':function(_0x11d69c,_0x55223b){return _0x11d69c-_0x55223b;},'bTbVI':function(_0x22f980,_0x106a9c){return _0x22f980+_0x106a9c;},'fNBBC':'\x2023:59','GOYYR':function(_0x47e45e,_0x3b88fc,_0x591d89){return _0x47e45e(_0x3b88fc,_0x591d89);},'QOCDQ':'yyyy-MM-dd','pnyLX':function(_0x37b47e,_0x161b0e){return _0x37b47e-_0x161b0e;},'HMumh':function(_0x348d13,_0x109bf4){return _0x348d13-_0x109bf4;},'aNTLe':function(_0x29215e,_0x551a75){return _0x29215e===_0x551a75;},'PzmHs':function(_0x334aab,_0x898bf1){return _0x334aab===_0x898bf1;},'lGrfT':function(_0x2e84f0,_0x135101){return _0x2e84f0===_0x135101;},'EloVN':function(_0x41bd89,_0x212d4c){return _0x41bd89+_0x212d4c;},'fDUtY':function(_0x100b04,_0x2c0b14){return _0x100b04===_0x2c0b14;},'dmLEZ':function(_0x16eef1,_0x25b06c){return _0x16eef1+_0x25b06c;},'nWpbs':'Content-type','rMUKu':'Content-Length','LRdHP':function(_0x26831e,_0x49eded){return _0x26831e(_0x49eded);}};const _0x514293=Utils['parseQs'](_0x2b6af7['request']['url']);const{id:_0x424e89,pageId:_0x56e322,cardName:_0x25aa1c,type:_0xd25daa,dateValue:_0x5b1565,topValue:_0x29746a,queryStartDate:_0x18716f,queryEndDate:_0x8adddd}=_0x514293;let _0x373fce;let _0x363388;const _0x330f50=0x18*0xe10*0x3e8;if(!_0x5b1565&&!_0x18716f&&!_0x8adddd){_0x5b1565='30';}if(_0x5b1565){const _0x461292=new Date()['getTime']();let _0x124296=accountInfo['isOpenTodayStatistic'];if(_0x124296){_0x373fce=new Date(_0x193006['OvkBI'](_0x461292,parseInt(_0x5b1565,0xa)*_0x330f50))['Format']('yyyy-MM-dd');_0x363388=_0x193006['bTbVI'](new Date(_0x461292)['Format']('yyyy-MM-dd'),_0x193006['fNBBC']);}else{_0x373fce=new Date(_0x461292-(_0x193006['GOYYR'](parseInt,_0x5b1565,0xa)+0x1)*_0x330f50)['Format'](_0x193006['QOCDQ']);_0x363388=new Date(_0x193006['pnyLX'](_0x461292,_0x330f50))['Format']('yyyy-MM-dd')+'\x2023:59';}}else{_0x373fce=new Date(_0x193006['HMumh'](new Date(_0x18716f)['getTime'](),_0x330f50))['Format'](_0x193006['QOCDQ']);_0x363388=_0x8adddd+_0x193006['fNBBC'];}let _0x3416f0=Utils['splitDate'](_0x373fce,_0x363388);const _0x54d19e=await BuryPointCardModel['detail'](_0x424e89);const _0x2a0761={};_0x2a0761['cardId']=_0x424e89;_0x2a0761['type']=_0x54d19e['type'];_0x2a0761['cardName']=_0x54d19e['name'];let _0x41158b=[];const _0x2129e3=JSON['parse'](_0x54d19e['calcRule']);const _0x29b772=[];const _0x440ddf=[];var _0x1676b4=['日期'];if((_0x193006['vkUuq'](_0x54d19e['type'],0x2)||_0x193006['aNTLe'](_0x54d19e['type'],0x4)||_0x193006['PzmHs'](_0x54d19e['type'],0x7))&&_0x54d19e['groupByFlag']&&_0x193006['lGrfT'](_0x54d19e['groupByFlag'],0x1)){let _0x48d1cd=await BuryPointProjectModel['detail'](_0x56e322);const{projectId:_0x441702}=_0x48d1cd;let _0x9f5c9=_0x193006['EloVN']('BuryPointCardStatistics_',_0x441702);_0x41158b=await BuryPointCardController['getGroupByCardStatistic'](_0x424e89,_0x56e322,_0x9f5c9,_0x29746a,_0x1676b4,_0x3416f0,_0x373fce,_0x363388);}else{_0x41158b=await BuryPointCardController['handleExportStatiscData'](_0x54d19e['type'],_0x2129e3,_0x56e322,_0x424e89,_0x373fce,_0x363388,_0x1676b4,_0x3416f0);}if(_0x54d19e['type']&&_0x193006['fDUtY'](_0x54d19e['type'],0x5)){await BuryPointCardController['calcFunnelConversionRate'](_0x41158b);}_0x2a0761['statisticList']=_0x41158b;_0x29b772['push'](_0x1676b4);if(_0x54d19e['type']&&_0x54d19e['type']===0x5){_0x440ddf['push'](_0x1676b4);}_0x3416f0['forEach']((_0x53af4f,_0x6307ce)=>{const _0x48b5ef={'PfkBL':function(_0x2499f4,_0x413e4f){return _0x193006['vkUuq'](_0x2499f4,_0x413e4f);}};var _0x3a744e=[];var _0x2415f4=[];_0x1676b4['forEach']((_0x3e1547,_0x2a0871)=>{if(_0x3e1547==='日期'){_0x3a744e['push'](_0x53af4f);_0x2415f4['push'](_0x53af4f);}else{_0x2a0761['statisticList']['forEach']((_0x4c96bb,_0x11a25d)=>{const _0x3a0e2d={'MClIU':'100%'};if(_0x48b5ef['PfkBL'](_0x4c96bb['calcName'],_0x3e1547)){_0x4c96bb['calcData']['forEach']((_0x24331d,_0x57a67)=>{if(_0x24331d['happenDate']===_0x53af4f){_0x3a744e['push'](_0x24331d["\u0063\u006f\u0075\u006e\u0074"]*0x1);if(_0x54d19e['type']&&_0x54d19e['type']===0x5){_0x2415f4['push'](_0x11a25d===0x0?_0x3a0e2d['MClIU']:_0x24331d['percentage']+'%');}}});}});}});_0x29b772['push'](_0x3a744e);if(_0x54d19e['type']&&_0x54d19e['type']===0x5){_0x440ddf['push'](_0x2415f4);}});var _0xb069d0=[];_0xb069d0['push']('汇总');var _0x59d5d0=[];_0x59d5d0['push']('汇总');_0x41158b['forEach']((_0x4a5943,_0x591f9f)=>{_0xb069d0['push'](_0x4a5943['calcTotail']);_0x59d5d0['push'](_0x4a5943['calcTotailRate']);});_0x29b772['push'](_0xb069d0);_0x440ddf['push'](_0x59d5d0);let _0x1d9ea2='';if(_0x5b1565){_0x1d9ea2=_0x193006['dmLEZ'](_0x193006['EloVN'](_0x54d19e['name']+'_',_0x5b1565),'.xlsx');}else{_0x1d9ea2=_0x193006['EloVN'](_0x193006['dmLEZ'](_0x54d19e['name'],'_')+_0x18716f+'~'+_0x8adddd,'.xlsx');}if(_0x54d19e['type']&&_0x54d19e['type']===0x5){const _0x50e191=xlsx['build']([{'name':'数量','data':_0x29b772},{'name':'占比','data':_0x440ddf}]);const _0x40b76b=_0x50e191['length'];_0x2b6af7['response']['status']=0xc8;_0x2b6af7['set']('Content-disposition','attachment;\x20filename='+encodeURIComponent(_0x1d9ea2));_0x2b6af7['set'](_0x193006['nWpbs'],'application/vnd.openxmlformats');_0x2b6af7['set'](_0x193006['rMUKu'],_0x40b76b);_0x2b6af7['body']=_0x50e191;}else{const _0x3905db=xlsx['build']([{'name':'sheet1',"\u0064\u0061\u0074\u0061":_0x29b772}]);const _0xfcb0bb=_0x3905db['length'];_0x2b6af7['response']['status']=0xc8;_0x2b6af7['set']('Content-disposition','attachment;\x20filename='+_0x193006['LRdHP'](encodeURIComponent,_0x1d9ea2));_0x2b6af7['set']('Content-type','application/vnd.openxmlformats');_0x2b6af7['set']('Content-Length',_0xfcb0bb);_0x2b6af7['body']=_0x3905db;}}static async['handleExportStatiscData'](_0x4b4577,_0x2480bf,_0x385af7,_0x5ddac1,_0x141448,_0x292fbc,_0x2be7c6,_0x4854dd){const _0x2e03df={'skELA':function(_0x30056c,_0x5723b7){return _0x30056c<_0x5723b7;},'ffsov':function(_0x433045,_0x212b62){return _0x433045+_0x212b62;},'nBulU':function(_0xb145d8,_0x255b13,_0x565428){return _0xb145d8(_0x255b13,_0x565428);},'CDzxp':function(_0x2d5aa4,_0x5df819){return _0x2d5aa4===_0x5df819;}};let _0x302a44=[];for(let _0xd8b26b=0x0;_0x2e03df['skELA'](_0xd8b26b,_0x2480bf['length']);_0xd8b26b++){let _0x20bb57=[];let _0x1dce3e={};let _0x1d18ce=_0x2480bf[_0xd8b26b];let _0x83c955=_0x1d18ce['calcType'];let _0xef00a5=_0x1d18ce['calcName'];let _0x1e901b=_0x1d18ce['calcNameKey'];let _0x49456b;if(_0x1e901b){_0x49456b=await BuryPointCardStatisticsModel['getList'](_0x385af7,_0x5ddac1,'',_0x1e901b,_0x141448,_0x292fbc);}else{_0x49456b=await BuryPointCardStatisticsModel['getList'](_0x385af7,_0x5ddac1,_0xef00a5,'',_0x141448,_0x292fbc);}_0x2be7c6['push'](_0xef00a5);let _0x2af2b4=0x0;for(let _0x4ad6d8=0x0;_0x4ad6d8<_0x4854dd['length'];_0x4ad6d8++){const _0x20cac1={};_0x20cac1['name']=_0xef00a5;_0x20cac1['count']=0x0;_0x20cac1['happenDate']=_0x4854dd[_0x4ad6d8];for(let _0x33db9c=0x0;_0x33db9c<_0x49456b['length'];_0x33db9c++){let _0x4d0d99=_0x49456b[_0x33db9c]['happenDate']['Format']('MM-dd');if(_0x4d0d99===_0x4854dd[_0x4ad6d8]){_0x20cac1['count']=_0x49456b[_0x33db9c]['count'];if(!(_0x4b4577===0x3&&_0x83c955==='/')){_0x2af2b4=_0x2e03df['ffsov'](_0x2e03df['nBulU'](parseInt,_0x2af2b4,0xa),parseInt(_0x49456b[_0x33db9c]['count'],0xa));}if(_0x2e03df['CDzxp'](_0x4b4577,0x5)){_0x20cac1['percentage']=_0x49456b[_0x33db9c]['percentage'];}break;}}_0x20bb57['push'](_0x20cac1);}_0x1dce3e['calcTotail']=_0x2af2b4;_0x1dce3e['calcName']=_0xef00a5;_0x1dce3e['calcType']=_0x83c955;_0x1dce3e['calcData']=_0x20bb57;_0x302a44['push'](_0x1dce3e);}return _0x302a44;}static async['tableDisplay'](_0x46afcc){const _0x5e764b={'RUTIN':function(_0x40ba3e,_0x5243cc){return _0x40ba3e<_0x5243cc;},'ogXMx':function(_0x415be6,_0x2f02ee){return _0x415be6===_0x2f02ee;},'TuRuM':function(_0x371fce,_0x63fc95){return _0x371fce*_0x63fc95;},'HJQRR':function(_0xb6c1c,_0x2c92ea){return _0xb6c1c*_0x2c92ea;},'xQpZc':function(_0x181eac,_0x4f07b3){return _0x181eac*_0x4f07b3;},'wxRJd':'yyyy-MM-dd','SVcwo':function(_0x3ba736,_0x53d0da){return _0x3ba736+_0x53d0da;},'dJiJj':function(_0x1f743a,_0x5c3355){return _0x1f743a-_0x5c3355;},'DoMsY':'\x2023:59','csvIU':function(_0x43b863,_0x45c0d3){return _0x43b863===_0x45c0d3;},'TsZyl':function(_0xa34c7f,_0x3171b2){return _0xa34c7f===_0x3171b2;},'JEpVf':function(_0x52fa85,_0x4603d7){return _0x52fa85==_0x4603d7;},'TvjMb':function(_0x5b1521,_0x1ed09b){return _0x5b1521===_0x1ed09b;},'eDhZC':'success'};const _0x536ef7={};const _0x3b219c=[];const _0x2add4b=Utils['parseQs'](_0x46afcc['request']['url']);const{id:_0x15277e,pageId:_0x8b609,cardName:_0x2efb49,type:_0x8baac8,dateValue:_0x4e9456,topValue:_0x53c0ac,queryStartDate:_0x45abea,queryEndDate:_0x3abe40}=_0x2add4b;let _0x23e5f1;let _0xcc8110;const _0x21df7f=_0x5e764b['HJQRR'](_0x5e764b['xQpZc'](0x18,0xe10),0x3e8);if(!_0x4e9456&&!_0x45abea&&!_0x3abe40){_0x4e9456='30';}if(_0x4e9456){const _0x5407f2=new Date()['getTime']();let _0x118292=accountInfo['isOpenTodayStatistic'];if(_0x118292){_0x23e5f1=new Date(_0x5407f2-parseInt(_0x4e9456,0xa)*_0x21df7f)['Format']('yyyy-MM-dd');_0xcc8110=new Date(_0x5407f2)['Format']('yyyy-MM-dd')+'\x2023:59';}else{_0x23e5f1=new Date(_0x5407f2-_0x5e764b['xQpZc'](parseInt(_0x4e9456,0xa)+0x1,_0x21df7f))['Format'](_0x5e764b['wxRJd']);_0xcc8110=_0x5e764b['SVcwo'](new Date(_0x5e764b['dJiJj'](_0x5407f2,_0x21df7f))['Format']('yyyy-MM-dd'),_0x5e764b['DoMsY']);}}else{_0x23e5f1=new Date(new Date(_0x45abea)['getTime']()-_0x21df7f)['Format']('yyyy-MM-dd');_0xcc8110=_0x3abe40+_0x5e764b['DoMsY'];}let _0x1e24f4=Utils['splitDate'](_0x23e5f1,_0xcc8110);const _0x184415=await BuryPointCardModel['detail'](_0x15277e);const _0x16f9df={};_0x16f9df['cardId']=_0x15277e;_0x16f9df['type']=_0x184415['type'];_0x16f9df['cardName']=_0x184415['name'];let _0x5d9281=new Map();if(_0x5e764b['csvIU'](_0x184415['type'],0x3)){let _0x10b85e=JSON['parse'](_0x184415['calcRule']);for(let _0x2fb3b8=0x0;_0x2fb3b8<_0x10b85e['length'];_0x2fb3b8++){let _0x175fcc=_0x10b85e[_0x2fb3b8]['calcType'];let _0x32dd41=_0x10b85e[_0x2fb3b8]['calcName'];if(_0x175fcc&&_0x175fcc==='/'){_0x5d9281['set'](_0x32dd41,'1');}else{_0x5d9281['set'](_0x32dd41,'0');}}}let _0x29e7af=[];const _0xf2b7e4=JSON['parse'](_0x184415['calcRule']);var _0x83ca8c=['日期'];_0x83ca8c['push']('总数');if((_0x184415['type']===0x2||_0x184415['type']===0x4||_0x184415['type']===0x7)&&_0x184415['groupByFlag']&&_0x5e764b['TsZyl'](_0x184415['groupByFlag'],0x1)){let _0xc6a58e=await BuryPointProjectModel["\u0064\u0065\u0074\u0061\u0069\u006c"](_0x8b609);const{projectId:_0x150b8a}=_0xc6a58e;let _0x3ab9d0='BuryPointCardStatistics_'+_0x150b8a;_0x29e7af=await BuryPointCardController['getGroupByCardStatistic'](_0x15277e,_0x8b609,_0x3ab9d0,_0x53c0ac,_0x83ca8c,_0x1e24f4,_0x23e5f1,_0xcc8110);}else{_0x29e7af=await BuryPointCardController['handleExportStatiscData'](_0x184415['type'],_0xf2b7e4,_0x8b609,_0x15277e,_0x23e5f1,_0xcc8110,_0x83ca8c,_0x1e24f4);}if(_0x184415['type']&&_0x5e764b['TsZyl'](_0x184415['type'],0x5)){await BuryPointCardController['calcFunnelConversionRate'](_0x29e7af);}_0x16f9df['statisticList']=_0x29e7af;const _0x5dac3d={};_0x5dac3d['happenDate']='总体';const _0x2776b4=[];_0x29e7af['forEach']((_0x2b4cdf,_0x47f7ef)=>{const _0x3d85c6={};_0x3d85c6['name']=_0x2b4cdf['calcName'];_0x3d85c6['count']=_0x2b4cdf['calcTotail']*0x1;_0x3d85c6['percentage']=_0x2b4cdf['calcTotailRate'];_0x2776b4['push'](_0x3d85c6);});_0x5dac3d['item']=_0x2776b4;_0x3b219c['push'](_0x5dac3d);_0x1e24f4['forEach']((_0x2b635f,_0x467134)=>{const _0x1432dd={};_0x1432dd['happenDate']=_0x2b635f;const _0x56dc51=[];for(let _0x3a8bff=0x0;_0x5e764b['RUTIN'](_0x3a8bff,_0x83ca8c['length']);_0x3a8bff++){for(let _0x4654ba=0x0;_0x4654ba<_0x16f9df['statisticList']['length'];_0x4654ba++){const _0x3a8721=_0x16f9df['statisticList'][_0x4654ba];if(_0x3a8721['calcName']===_0x83ca8c[_0x3a8bff]){for(let _0x2a42a8=0x0;_0x2a42a8<_0x3a8721['calcData']['length'];_0x2a42a8++){const _0x212eeb=_0x3a8721['calcData'][_0x2a42a8];if(_0x5e764b['ogXMx'](_0x212eeb['happenDate'],_0x2b635f)){const _0x2bb828={};_0x2bb828['name']=_0x3a8721['calcName'];_0x2bb828['count']=_0x5e764b['TuRuM'](_0x212eeb['count'],0x1);if(_0x184415['type']&&_0x184415['type']===0x5){_0x2bb828['percentage']=_0x212eeb['percentage'];}_0x56dc51['push'](_0x2bb828);}}}}}_0x1432dd['item']=_0x56dc51;_0x3b219c['push'](_0x1432dd);});const _0x41f227=[];for(let _0x4315a7=0x0;_0x4315a7<_0x3b219c['length'];_0x4315a7++){const _0x139296=[];const _0xb25039=_0x3b219c[_0x4315a7];const _0x2e2185={};_0x2e2185['happenDate']=_0xb25039['happenDate'];_0x139296['push'](_0x2e2185);const _0x53149b=_0xb25039['item'];const _0x12db32={};_0x12db32['name']='总数';let _0x5abb8f=0x0;for(let _0x1ddbee=0x0;_0x1ddbee<_0x53149b['length'];_0x1ddbee++){const _0x2f7494=_0x53149b[_0x1ddbee];if(!(_0x184415['type']===0x3&&_0x5d9281['get'](_0x2f7494['name'])==='1')){_0x5abb8f=parseInt(_0x5abb8f,0xa)+parseInt(_0x2f7494['count'],0xa);}}_0x12db32['count']=_0x5abb8f?_0x5abb8f:0x0;if(_0x53149b[0x0]){_0x12db32['percentage']=_0x53149b[0x0]['percentage'];}_0x139296['push'](_0x12db32);for(let _0x4d52cc=0x0;_0x4d52cc<_0x53149b['length'];_0x4d52cc++){const _0x3a6f27=_0x53149b[_0x4d52cc];if(_0x5e764b['JEpVf'](_0x4d52cc,0x0)&&_0x184415['type']===0x5){_0x3a6f27['percentage']=0x64;}if(_0x184415['type']===0x3&&_0x5e764b["\u0054\u0076\u006a\u004d\u0062"](_0x5d9281['get'](_0x3a6f27['name']),'1')){_0x3a6f27['count']=_0x3a6f27['count']+'%';}_0x139296['push'](_0x3a6f27);}_0x41f227['push'](_0x139296);}_0x536ef7['title']=_0x83ca8c;_0x536ef7['tableDataList']=_0x41f227;if(_0x184415['type']&&_0x184415['type']===0x5){_0x46afcc['response']['status']=0xc8;_0x46afcc['body']=statusCode['SUCCESS_200'](_0x5e764b['eDhZC'],_0x536ef7);}else{_0x46afcc['response']['status']=0xc8;_0x46afcc['body']=statusCode['SUCCESS_200']('success',_0x536ef7);}}static async['sort'](_0x5227a2){const _0x1ee598={'jzEbE':function(_0x4b5868,_0x1dc8a6){return _0x4b5868(_0x1dc8a6);},'DmtND':function(_0x15cea5,_0x4b331f){return _0x15cea5<_0x4b331f;},'RvAwq':'置顶成功！'};let _0x157cda=JSON['parse'](_0x5227a2['request']['body']);let _0x1eec26=_0x157cda['id'];let _0xfc5e67=_0x157cda['pageId'];const{nickname:_0x3d3e2d}=_0x5227a2['user'];_0x157cda['updateBy']=_0x3d3e2d;if(_0x157cda){let _0x1bcc7a=await BuryPointCardModel['detail'](_0x1eec26);const _0x3210b4=await BuryPointCardModel['getCountPageId'](_0xfc5e67);let _0x142d2f=_0x1ee598['jzEbE'](isNaN,_0x3210b4[0x0]['maxSort'])||_0x3210b4[0x0]['maxSort']===0x0?0x1:_0x3210b4[0x0]['maxSort'];_0x157cda['sort']=_0x142d2f;const _0x2a00dc=await BuryPointCardModel['getListByPageIdAndSort'](_0xfc5e67,_0x1bcc7a['id']);for(let _0x2ae315=0x0;_0x1ee598['DmtND'](_0x2ae315,_0x2a00dc['length']);_0x2ae315++){_0x2a00dc[_0x2ae315]['sort']=_0x2ae315+0x1;await BuryPointCardModel['update'](_0x2a00dc[_0x2ae315]['id'],_0x2a00dc[_0x2ae315]);}await BuryPointCardModel['update'](_0x1eec26,_0x157cda);_0x5227a2['response']['status']=0xc8;_0x5227a2['body']=statusCode['SUCCESS_200'](_0x1ee598['RvAwq'],'');}else{_0x5227a2['response']['status']=0x19c;_0x5227a2['body']=statusCode['ERROR_412']('置顶失败！');}}static async['order'](_0x409c93){const _0x17f14f={'PzEKg':'fail！'};let _0x38a308=JSON['parse'](_0x409c93['request']['body']);let _0x3b4ca3=_0x38a308['sortList'];const{nickname:_0x57b9e0}=_0x409c93['user'];if(_0x38a308){for(let _0x2ed418=0x0;_0x2ed418<_0x3b4ca3['length'];_0x2ed418++){const _0x5e927d={};_0x5e927d['id']=_0x3b4ca3[_0x2ed418]['cardId'];_0x5e927d['sort']=_0x3b4ca3[_0x2ed418]['sort'];_0x5e927d['updateBy']=_0x3b4ca3[_0x2ed418]['nickname'];await BuryPointCardModel['update'](_0x3b4ca3[_0x2ed418]['cardId'],_0x5e927d);}_0x409c93['response']["\u0073\u0074\u0061\u0074\u0075\u0073"]=0xc8;_0x409c93['body']=statusCode["\u0053\u0055\u0043\u0043\u0045\u0053\u0053\u005f\u0032\u0030\u0030"]('success','');}else{_0x409c93['response']['status']=0x19c;_0x409c93['body']=statusCode['ERROR_412'](_0x17f14f['PzEKg']);}}static async['getList'](_0x1e96b9){const _0x4d4948={'EcAwM':function(_0x425ba7,_0x4bf876){return _0x425ba7===_0x4bf876;},'FsKJl':function(_0x19604c,_0x1b18fc){return _0x19604c*_0x1b18fc;},'hyWwn':function(_0x2e1ead,_0x2dd299){return _0x2e1ead-_0x2dd299;},'WAFXI':function(_0x5dd4a1,_0x514e74){return _0x5dd4a1*_0x514e74;},'shQzI':'yyyy-MM-dd','KkJJs':function(_0x5636ec,_0xe365a0){return _0x5636ec*_0xe365a0;},'ICoaJ':function(_0x48b88d,_0x3d1974){return _0x48b88d+_0x3d1974;},'SJnjy':function(_0x523067,_0x9a8544){return _0x523067===_0x9a8544;},'RapUy':'success'};let _0x53e906=_0x1e96b9['request']['body'];const _0x2e3e47=JSON['parse'](_0x53e906);const{projectId='',sysType='',pageId:_0x522885,cardName:_0x1dccb1,type:_0x1d9adb,dateValue:_0x4c65cf,queryStartDate:_0x564ee6,queryEndDate:_0x4fe43c}=_0x2e3e47;let _0x4540db;let _0x3d9284;let _0x3de2a9=[];if(!_0x522885||_0x4d4948['EcAwM'](_0x522885,'')||_0x522885===undefined||_0x4d4948['EcAwM'](_0x522885,'undefined')){_0x1e96b9['response']['status']=0xc8;_0x1e96b9['body']=statusCode['SUCCESS_200']('success',_0x3de2a9);return;}const _0x3590df=_0x4d4948['FsKJl'](0x18*0xe10,0x3e8);if(!_0x4c65cf&&!_0x564ee6&&!_0x4fe43c){_0x2e3e47['dateValue']='30';}if(_0x2e3e47['dateValue']){const _0x253de2=new Date()['getTime']();let _0x4c4235=accountInfo['isOpenTodayStatistic'];if(_0x4c4235){_0x4540db=new Date(_0x4d4948['hyWwn'](_0x253de2,_0x4d4948['WAFXI'](parseInt(_0x2e3e47['dateValue'],0xa),_0x3590df)))['Format'](_0x4d4948['shQzI']);_0x3d9284=new Date(_0x253de2)['Format']("\u0079\u0079\u0079\u0079\u002d\u004d\u004d\u002d\u0064\u0064")+'\x2023:59';}else{_0x4540db=new Date(_0x253de2-_0x4d4948['KkJJs'](_0x4d4948['ICoaJ'](parseInt(_0x2e3e47['dateValue'],0xa),0x1),_0x3590df))['Format']('yyyy-MM-dd');_0x3d9284=_0x4d4948['ICoaJ'](new Date(_0x253de2-_0x3590df)['Format']('yyyy-MM-dd'),'\x2023:59');}}else{_0x4540db=new Date(new Date(_0x564ee6)['getTime']()-_0x3590df)['Format']('yyyy-MM-dd');_0x3d9284=_0x4fe43c+'\x2023:59';}if(projectId&&sysType&&(_0x4d4948['SJnjy'](sysType,0x1)||sysType==='1')){const _0x19f558=await BuryPointCardModel['getIdAndNameList'](_0x1dccb1,_0x522885,_0x1d9adb);for(let _0x210ab5=0x0;_0x210ab5<_0x19f558['length'];_0x210ab5++){const _0x38e87e=_0x19f558[_0x210ab5];const _0x4f23f4=_0x38e87e['id'];const _0x19ea53=_0x38e87e['name'];}let _0x461b04=[];for(let _0x42e582=0x0;_0x42e582<baseTemplateCardList['length'];_0x42e582++){const _0xcb9846=baseTemplateCardList[_0x42e582]['cardName'];for(let _0x1c2660=0x0;_0x1c2660<_0x19f558['length'];_0x1c2660++){const _0xe9a95c=_0x19f558[_0x1c2660];const _0x5892e8=_0xe9a95c['name'];if(_0xcb9846===_0x5892e8){baseTemplateCardList[_0x42e582]['cardId']=_0xe9a95c['id'];break;}}_0x461b04['push'](baseTemplateCardList[_0x42e582]);}let _0x48ea60=await BuryPointTemplateModel['getWeKeyByProjectIdAndType'](projectId,0x3);if(_0x48ea60&&_0x48ea60['length']>0x0){for(let _0x1b70c7=0x0;_0x1b70c7<_0x48ea60['length'];_0x1b70c7++){const{weKey:_0x442f6b}=_0x48ea60[_0x1b70c7];if(_0x442f6b&&_0x442f6b==='we-base-ac874f09-1909-872d-0adc-b2d55fad5b43'){_0x3de2a9=_0x461b04;break;}}}_0x1e96b9['response']['status']=0xc8;_0x1e96b9['body']=statusCode['SUCCESS_200'](_0x4d4948['RapUy'],_0x3de2a9);}else{const _0x271704=await BuryPointCardModel['getList'](_0x1dccb1,_0x522885,_0x1d9adb);for(let _0x3f88b9=0x0;_0x3f88b9<_0x271704['length'];_0x3f88b9++){const _0x21a236=_0x271704[_0x3f88b9];if(_0x21a236['groupByFlag']&&_0x21a236['groupByFlag']===0x1){_0x3de2a9['push'](await BuryPointCardController['convertGroupByCardStatisticInfo'](_0x21a236,0x1,_0x4540db,_0x3d9284));}else{_0x3de2a9['push'](await BuryPointCardController['convertCardStatisticInfo'](_0x21a236,_0x4540db,_0x3d9284));}}}_0x1e96b9['response']['status']=0xc8;_0x1e96b9['body']=statusCode['SUCCESS_200']('success',_0x3de2a9);}static async['getListByPageIdAndName'](_0x2c9cfa){const _0x29dc83={'AppRB':function(_0x33d8a2,_0x59a4cc){return _0x33d8a2===_0x59a4cc;}};let _0x4d77a3=_0x2c9cfa['request']['body'];const _0x294a12=JSON['parse'](_0x4d77a3);const{pageId:_0x41c0ea,cardName:_0x2959b5}=_0x294a12;if(!_0x41c0ea||_0x29dc83['AppRB'](_0x41c0ea,'')||_0x41c0ea===undefined){_0x2c9cfa['response']['status']=0x19c;_0x2c9cfa['body']=statusCode['ERROR_412']('页面id必传');return;}const _0x37b5b3=await BuryPointCardModel['getListByPageIdAndNameAndType'](_0x2959b5,_0x41c0ea,'');let _0x8d496e=[];for(let _0x10e975=0x0;_0x10e975<_0x37b5b3['length'];_0x10e975++){const _0x481985={};_0x481985['cardId']=_0x37b5b3[_0x10e975]['id'];_0x481985['sort']=_0x37b5b3[_0x10e975]['sort'];_0x481985['cardName']=_0x37b5b3[_0x10e975]["\u006e\u0061\u006d\u0065"];_0x481985['createdAt']=_0x37b5b3[_0x10e975]['createdAt'];_0x8d496e['push'](_0x481985);}_0x2c9cfa['response']['status']=0xc8;_0x2c9cfa['body']=statusCode['SUCCESS_200']('success',_0x8d496e);}static async['calcFunnelConversionRate'](_0x46ef5d){const _0x542ed0={'rWBzV':function(_0x56e193,_0x34f6b5){return _0x56e193-_0x34f6b5;},'brgQi':function(_0x3c1e46,_0xe21d1c,_0x1d675b){return _0x3c1e46(_0xe21d1c,_0x1d675b);},'KtKWF':function(_0x636801,_0x40ce14){return _0x636801===_0x40ce14;},'TkuGF':function(_0x252d17,_0x5e6323,_0x1ab09a){return _0x252d17(_0x5e6323,_0x1ab09a);},'gJPcA':function(_0x4c29b9,_0x41d5a4){return _0x4c29b9/_0x41d5a4;},'mrdaA':function(_0x60cbd0,_0x4bef34){return _0x60cbd0<_0x4bef34;},'YqYCY':function(_0x4aca2e,_0x4ab3aa){return _0x4aca2e===_0x4ab3aa;},'Eogym':function(_0x588b72,_0x59a07e){return _0x588b72===_0x59a07e;},'YSKxA':function(_0x2af0ac,_0x3472fd){return _0x2af0ac*_0x3472fd;},'rxLdY':function(_0x325609,_0x4eb08e){return _0x325609/_0x4eb08e;},'LnaNv':function(_0x4872d2,_0x3d5490,_0x597143){return _0x4872d2(_0x3d5490,_0x597143);},'Pocjh':function(_0x43ca7a,_0x737c90){return _0x43ca7a<_0x737c90;}};_0x46ef5d['sort'](function(_0x1ecd71,_0x193f64){return _0x542ed0['rWBzV'](_0x1ecd71['fieldIndex'],_0x193f64['fieldIndex']);});let _0x1e70e9=0x0;for(let _0x13d702=0x0;_0x13d702<_0x46ef5d['length'];_0x13d702++){_0x1e70e9=_0x542ed0['brgQi'](parseInt,_0x1e70e9,0xa)+parseInt(_0x46ef5d[_0x13d702]['calcTotail'],0xa);if(_0x13d702!==_0x46ef5d['length']-0x1){if(_0x542ed0['KtKWF'](_0x542ed0['TkuGF'](parseInt,_0x46ef5d[_0x13d702]['calcTotail'],0xa),0x0)){_0x46ef5d[_0x13d702+0x1]['calcTotailRate']=0x0;}else{let _0x557bc8=Utils['toFixed'](_0x542ed0['gJPcA'](parseInt(_0x46ef5d[_0x13d702+0x1]['calcTotail'],0xa),parseInt(_0x46ef5d[_0x13d702]['calcTotail'],0xa))*0x64,0x2);_0x46ef5d[_0x13d702+0x1]['calcTotailRate']=_0x557bc8?_0x557bc8:0x0;}let _0x57db52=_0x46ef5d[_0x13d702]['calcData'];for(let _0x3c49e2=0x0;_0x542ed0['mrdaA'](_0x3c49e2,_0x57db52['length']);_0x3c49e2++){let _0x13176e=_0x57db52[_0x3c49e2];if(parseInt(_0x13176e['count'],0xa)===0x0){_0x13176e['percentage']=0x0;continue;}let _0x5e3af0=_0x46ef5d[_0x13d702+0x1]['calcData'];for(let _0x370dbc=0x0;_0x542ed0['mrdaA'](_0x370dbc,_0x5e3af0['length']);_0x370dbc++){if(_0x542ed0['YqYCY'](_0x13176e['happenDate'],_0x5e3af0[_0x370dbc]['happenDate'])){let _0x2497c9=Utils['toFixed'](parseInt(_0x5e3af0[_0x370dbc]['count'],0xa)/parseInt(_0x13176e['count'],0xa)*0x64,0x2);_0x5e3af0[_0x370dbc]['percentage']=_0x2497c9?_0x2497c9:0x0;break;}}}}}if(_0x542ed0['Eogym'](_0x1e70e9,0x0)){_0x46ef5d[0x0]['calcTotailRate']=0x0;}else{let _0x17570c=Utils['toFixed'](_0x542ed0['YSKxA'](_0x542ed0['rxLdY'](_0x542ed0['LnaNv'](parseInt,_0x46ef5d[_0x46ef5d['length']-0x1]['calcTotail'],0xa),parseInt(_0x46ef5d[0x0]['calcTotail'],0xa)),0x64),0x2);_0x46ef5d[0x0]['calcTotailRate']=_0x17570c?_0x17570c:0x0;let _0x485de9=_0x46ef5d[0x0]['calcData'];for(let _0x4802b9=0x0;_0x542ed0['Pocjh'](_0x4802b9,_0x485de9['length']);_0x4802b9++){let _0x337bb4=_0x485de9[_0x4802b9];if(parseInt(_0x337bb4['count'],0xa)===0x0){_0x337bb4['percentage']=0x0;continue;}let _0x391925=_0x46ef5d[_0x46ef5d['length']-0x1]['calcData'];for(let _0x466948=0x0;_0x542ed0['Pocjh'](_0x466948,_0x391925['length']);_0x466948++){if(_0x337bb4['happenDate']===_0x391925[_0x466948]['happenDate']){let _0x4714d5=Utils['toFixed'](_0x542ed0['TkuGF'](parseInt,_0x391925[_0x466948]['count'],0xa)/parseInt(_0x337bb4['count'],0xa)*0x64,0x2);_0x337bb4['percentage']=_0x4714d5?_0x4714d5:0x0;break;}}}}}static async['convertFunnelConversionRate'](_0x1b05d3){const _0x5dd156={'IIRlz':function(_0xe45fd7,_0x311a05){return _0xe45fd7<_0x311a05;}};for(let _0x588be7=0x0;_0x588be7<_0x1b05d3['length'];_0x588be7++){let _0x72f820=_0x1b05d3[_0x588be7]['calcData'];let _0x124aef=[];for(let _0x4a058a=0x0;_0x5dd156['IIRlz'](_0x4a058a,_0x72f820['length']);_0x4a058a++){let _0xd05bf0=_0x72f820[_0x4a058a];let _0x24bf39={};if(!_0xd05bf0['percentage']||_0xd05bf0['percentage']===''||_0xd05bf0['percentage']===undefined){_0x24bf39['count']=0x0;}else{_0x24bf39['count']=_0xd05bf0['percentage'];}_0x24bf39['happenDate']=_0xd05bf0['happenDate'];_0x124aef['push'](_0x24bf39);}_0x1b05d3[_0x588be7]['calcData']=_0x124aef;}}static async['convertCardStatisticInfo'](_0x477865,_0x2a812a,_0x208d3c){let _0x264a45=Utils['splitDate'](_0x2a812a,_0x208d3c);const{id:_0x30b225,pageId:_0x4ab7b7,name:_0xda0b82,sort:_0xd2cacd,type:_0x1574ed,calcRule:_0x242cc9,conversionCycle:_0x58744a,groupByFlag:_0x5b9102,chartTableShow:_0x207c5f,togetherList:_0x52c4d6,refreshFrequency:_0x4e5953,updatedAt:_0x2d72ed,alarmStatus:_0x1651bc}=_0x477865;const _0xe9eba7={};_0xe9eba7['cardId']=_0x30b225;_0xe9eba7['type']=_0x1574ed;_0xe9eba7['cardName']=_0xda0b82;_0xe9eba7['conversionCycle']=_0x58744a;_0xe9eba7['groupByFlag']=_0x5b9102;_0xe9eba7['chartTableShow']=_0x207c5f;_0xe9eba7['togetherList']=_0x52c4d6;_0xe9eba7['refreshFrequency']=_0x4e5953;_0xe9eba7['refreshTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');_0xe9eba7['alarmStatus']=_0x1651bc;_0xe9eba7['sort']=_0xd2cacd;if(_0x2d72ed){_0xe9eba7['refreshTime']=_0x2d72ed;}let _0x4556bf=[];const _0x1d95d3=JSON['parse'](_0x242cc9);for(let _0x1ddbac=0x0;_0x1ddbac<_0x1d95d3['length'];_0x1ddbac++){let _0x16ab8e={};let _0x176786=_0x1d95d3[_0x1ddbac];let _0x257390=_0x176786['calcType'];let _0x4782d8=_0x176786['calcName'];let _0x249502=_0x176786['unit'];let _0x21426f=_0x176786['calcNameKey'];let _0x43109a=_0x176786['prePoint'];let _0x4422e8=_0x43109a['calcField'];let _0x5406cd=_0x4422e8['fieldIndex'];let _0x597462=[];if(_0x21426f){_0x597462=await BuryPointCardStatisticsModel['getList'](_0x4ab7b7,_0x30b225,'',_0x21426f,_0x2a812a,_0x208d3c);}else{_0x597462=await BuryPointCardStatisticsModel['getList'](_0x4ab7b7,_0x30b225,_0x4782d8,'',_0x2a812a,_0x208d3c);}await BuryPointCardController['convertStatisticList'](_0x16ab8e,_0x264a45,_0x597462);_0x16ab8e['fieldIndex']=_0x5406cd;_0x16ab8e['calcName']=_0x4782d8;_0x16ab8e['unit']=_0x249502;_0x16ab8e['calcType']=_0x257390;_0x4556bf['push'](_0x16ab8e);}if(_0x1574ed&&_0x1574ed===0x5){await BuryPointCardController['calcFunnelConversionRate'](_0x4556bf);await BuryPointCardController['convertFunnelConversionRate'](_0x4556bf);}_0xe9eba7['statisticList']=_0x4556bf;return _0xe9eba7;}static async['convertGroupByCardStatisticInfo'](_0x44a4dd,_0x2bac7f,_0x250505,_0x1c1a89){const _0x3e04aa={'bCrBW':'BuryPointCardStatistics_'};let _0xcbd140=Utils['splitDate'](_0x250505,_0x1c1a89);const{id:_0x299a26,pageId:_0x253c20,name:_0x2ced00,sort:_0x48dc5c,type:_0x6b646e,updatedAt:_0x4f87f5,conversionCycle:_0x543d2f,groupByFlag:_0x558e8c,chartTableShow:_0x241dde,togetherList:_0x56144c,refreshFrequency:_0x47800c,alarmStatus:_0x4bc573}=_0x44a4dd;const _0x4126ad={};_0x4126ad['cardId']=_0x299a26;_0x4126ad['type']=_0x6b646e;_0x4126ad['cardName']=_0x2ced00;_0x4126ad['conversionCycle']=_0x543d2f;_0x4126ad['groupByFlag']=_0x558e8c;_0x4126ad['chartTableShow']=_0x241dde;_0x4126ad['togetherList']=_0x56144c;_0x4126ad['refreshFrequency']=_0x47800c;_0x4126ad['refreshTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');_0x4126ad['alarmStatus']=_0x4bc573;_0x4126ad['sort']=_0x48dc5c;if(_0x4f87f5){_0x4126ad["\u0072\u0065\u0066\u0072\u0065\u0073\u0068\u0054\u0069\u006d\u0065"]=_0x4f87f5;}let _0x3ea06d=[];let _0x15415e=await BuryPointProjectModel['detail'](_0x253c20);const{projectId:_0x5d5579}=_0x15415e;let _0xb3fdf4=_0x3e04aa['bCrBW']+_0x5d5579;_0x4126ad['statisticList']=await BuryPointCardController['getGroupByCardStatistic'](_0x299a26,_0x253c20,_0xb3fdf4,_0x2bac7f,_0x3ea06d,_0xcbd140,_0x250505,_0x1c1a89);return _0x4126ad;}static async['getGroupByCardStatistic'](_0x4eee4a,_0x13d266,_0x5c74de,_0x323358,_0x33ecc1,_0x9984f,_0x1b67dc,_0x14d546){let _0x23fddf=[];let _0x203c82=await BuryPointCardStatisticsModel['getGroupByTopList'](_0x5c74de,_0x13d266,_0x4eee4a,_0x323358,_0x1b67dc,_0x14d546);for(let _0x131dbc=0x0;_0x131dbc<_0x203c82['length'];_0x131dbc++){let _0x2c8f6a={};let _0x483d63=_0x203c82[_0x131dbc];const{calcField:_0xc612aa}=_0x483d63;_0x33ecc1['push'](_0xc612aa);let _0x3b7a6e=await BuryPointCardStatisticsModel['getGroupByList'](_0x5c74de,_0x13d266,_0x4eee4a,_0xc612aa,_0x1b67dc,_0x14d546);await BuryPointCardController['convertStatisticList'](_0x2c8f6a,_0x9984f,_0x3b7a6e);_0x2c8f6a['fieldIndex']=_0x131dbc;_0x2c8f6a['calcName']=_0xc612aa;_0x23fddf['push'](_0x2c8f6a);}return _0x23fddf;}static async['convertStatisticList'](_0x272e99,_0x57f6e9,_0x460dcb){const _0x29e440={'aoXUX':function(_0x34c347,_0x1408ce){return _0x34c347<_0x1408ce;},'HVuyW':'MM-dd'};let _0x185d61=[];let _0x5b1f79=0x0;for(let _0x93161a=0x0;_0x93161a<_0x57f6e9['length'];_0x93161a++){const _0x4f873e={};_0x4f873e['count']=0x0;_0x4f873e['happenDate']=_0x57f6e9[_0x93161a];for(let _0x3ad28f=0x0;_0x29e440['aoXUX'](_0x3ad28f,_0x460dcb['length']);_0x3ad28f++){let _0x333f26=_0x460dcb[_0x3ad28f]['happenDate']['Format'](_0x29e440['HVuyW']);if(_0x333f26===_0x57f6e9[_0x93161a]){_0x5b1f79+=parseFloat(_0x460dcb[_0x3ad28f]['count']);_0x4f873e['count']=parseFloat(_0x460dcb[_0x3ad28f]['count']);break;}}_0x185d61['push'](_0x4f873e);}_0x272e99['calcTotail']=_0x5b1f79?_0x5b1f79:0x0;_0x272e99['calcData']=_0x185d61;return _0x272e99;}static async['calcConversionCycleData'](_0x3b4a1a,_0xc8f6ad){const _0x376e24={'cVUuV':function(_0x50f56d,_0x2a908c,_0x5a7e7f){return _0x50f56d(_0x2a908c,_0x5a7e7f);}};let _0x4c759c=[];for(let _0x38ea47=0x0;_0x38ea47<_0xc8f6ad['length'];_0x38ea47++){let _0x4cf47e=_0xc8f6ad[_0x38ea47];let _0x1e2ac9=0x0;for(let _0x374058=_0x38ea47;_0x374058<_0x38ea47+_0x3b4a1a;_0x374058++){if(_0x374058>=_0xc8f6ad['length']){_0x1e2ac9=_0x376e24['cVUuV'](parseInt,_0x1e2ac9,0xa)+parseInt(0x0,0xa);}else{_0x1e2ac9=parseInt(_0x1e2ac9,0xa)+parseInt(_0xc8f6ad[_0x374058]['count'],0xa);}}_0x4cf47e['count']=_0x1e2ac9?_0x1e2ac9:0x0;_0x4c759c['push'](_0x4cf47e);}return _0x4c759c;}}class BuryPointProjectController{static async['create'](_0x5d9628){const _0x3fa0c3={'IbjBb':'默认页面','FdYdE':function(_0x4fa99c,_0x5f2818){return _0x4fa99c>_0x5f2818;}};let _0x20264e=JSON['parse'](_0x5d9628['request']['body']);const{nickname:_0x31db98,companyId:_0xdca22e}=_0x5d9628['user'];_0x20264e['createBy']=_0x31db98;_0x20264e['createBy']=_0xdca22e;if(_0x20264e['name']&&_0x20264e['type']){let _0x5dbfa7;if(_0x20264e['type']==0x1){const _0x5bb533=await BuryPointProjectModel['getCountByNameAndType'](_0x20264e['name'],_0x20264e['type']);let _0x985222=_0x5bb533[0x0]['count'];if(_0x985222>0x0){_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}_0x5dbfa7=await BuryPointProjectController['createNewProject'](_0x20264e['name'],0x0,_0x31db98,_0xdca22e);let _0x4115c6={};_0x4115c6['type']=0x2;_0x4115c6['parentId']=_0x5dbfa7['id'];_0x4115c6['projectId']=_0x5dbfa7['projectId'];_0x4115c6['name']='默认分组';let _0x398f21=await BuryPointProjectModel['create'](_0x4115c6);let _0x37db1f={};_0x37db1f['type']=0x3;_0x37db1f['parentId']=_0x398f21['id'];_0x37db1f['projectId']=_0x5dbfa7['projectId'];_0x37db1f["\u006e\u0061\u006d\u0065"]=_0x3fa0c3['IbjBb'];let _0x960187=await BuryPointProjectModel['create'](_0x37db1f);await CommonInitDataController['handleWeCardData'](_0x5dbfa7['projectId'],_0x960187['id'],_0x31db98);}else if(_0x20264e['type']==0x2){if(_0x20264e['parentId']){const _0xacbbc3=await BuryPointProjectModel['getCountByNameAndParentAndType'](_0x20264e['name'],_0x20264e['parentId'],_0x20264e['type']);let _0x528597=_0xacbbc3[0x0]['count'];if(_0x3fa0c3['FdYdE'](_0x528597,0x0)){_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}let _0x545eb3=await BuryPointProjectModel['detail'](_0x20264e['parentId']);const{projectId:_0xbfd478}=_0x545eb3;_0x20264e['projectId']=_0xbfd478;_0x5dbfa7=await BuryPointProjectModel['create'](_0x20264e);}else{_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));return;}}else if(_0x20264e['type']==0x3){if(_0x20264e['parentId']){const _0x4e952b=await BuryPointProjectModel['getCountByNameAndParentAndType'](_0x20264e['name'],_0x20264e['parentId'],_0x20264e['type']);let _0x291975=_0x4e952b[0x0]['count'];if(_0x291975>0x0){_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}let _0x2929f2=await BuryPointProjectModel['detail'](_0x20264e['parentId']);const{projectId:_0x5ccc3a}=_0x2929f2;_0x20264e['projectId']=_0x5ccc3a;_0x5dbfa7=await BuryPointProjectModel['create'](_0x20264e);}else{_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));return;}}const _0x1e7bd4=await BuryPointProjectModel['detail'](_0x5dbfa7['id']);const _0x1324f2={};_0x1324f2['id']=_0x1e7bd4['id'];_0x1324f2['projectId']=_0x1e7bd4['projectId'];_0x1324f2['title']=_0x1e7bd4['name'];_0x1324f2['parentId']=_0x1e7bd4['parentId'];_0x1324f2['key']=_0x1e7bd4['id'];_0x1324f2['type']=_0x1e7bd4['type'];_0x5d9628['response']['status']=0xc8;_0x5d9628['body']=statusCode['SUCCESS_200'](''+Utils["\u0062\u0036\u0034\u0044\u0065\u0063\u006f\u0064\u0065\u0055\u006e\u0069\u0063\u006f\u0064\u0065"](ConstMsg['CREATE_SUCCESS']),_0x1324f2);}else{_0x5d9628['response']['status']=0x19c;_0x5d9628['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['createNewProject'](_0x1d0a2b,_0x2707af,_0x9ae62d,_0x5b0224){const _0x4e9a31={'nGSgg':function(_0x2617a9,_0xad3bd2){return _0x2617a9==_0xad3bd2;},'rFVMQ':function(_0x2699b6,_0x32d712){return _0x2699b6+_0x32d712;},'LQNZI':function(_0x76e5d0,_0x248b0e){return _0x76e5d0+_0x248b0e;}};let _0x33b2c0={};_0x33b2c0['name']=_0x1d0a2b;_0x33b2c0['sysType']=_0x2707af;_0x33b2c0['type']=0x1;_0x33b2c0['parentId']=-0x1;_0x33b2c0['delStatus']=0x0;_0x33b2c0['createBy']=_0x9ae62d;_0x33b2c0['companyId']=_0x5b0224;let _0x52c4a6=await BuryPointProjectModel['getMaxId']();if(!_0x52c4a6||_0x4e9a31['nGSgg'](_0x52c4a6['length'],0x0)||_0x52c4a6[0x0]['maxId']==null){_0x33b2c0['projectId']='event101';}else{_0x33b2c0['projectId']=_0x4e9a31['rFVMQ']('event10',_0x4e9a31['rFVMQ'](parseInt(_0x52c4a6[0x0]['maxId'],0xa),0x1));}let _0x1599ff=await BuryPointProjectModel['create'](_0x33b2c0);if(_0x1599ff){await CommonInitDataController['initWeFieldAndPointData'](_0x33b2c0['projectId'],_0x9ae62d);let _0x357288=_0x4e9a31['LQNZI']('BuryPointCardStatistics_',_0x33b2c0['projectId']);CommonModel['createStatisticsTable'](_0x357288);}return _0x1599ff;}static async['update'](_0x4a3c8a){let _0x3cccf9=JSON['parse'](_0x4a3c8a['request']['body']);let _0xae9f58=_0x3cccf9['id'];const{nickname:_0x390c6c}=_0x4a3c8a['user'];_0x3cccf9['updateBy']=_0x390c6c;if(_0x3cccf9){await BuryPointProjectModel['update'](_0xae9f58,_0x3cccf9);_0x4a3c8a['response']['status']=0xc8;_0x4a3c8a['body']=statusCode['SUCCESS_200'](""+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),'');}else{_0x4a3c8a['response']['status']=0x19c;_0x4a3c8a['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_FAIL']));}}static async['delete'](_0x3cb94a){const _0x356cc0={"\u0079\u0065\u0058\u0067\u0071":function(_0x55fa33,_0x44b4da){return _0x55fa33!==_0x44b4da;},'ijDty':function(_0x48907b,_0x4df7bf){return _0x48907b>_0x4df7bf;},'nkhhb':function(_0x1478e6,_0x63a2af){return _0x1478e6===_0x63a2af;}};let _0x5a4e6c=JSON['parse'](_0x3cb94a['request']['body']);const{id:_0x4bfd45,type:_0x23ad2c}=_0x5a4e6c;if(_0x4bfd45&&_0x23ad2c){if(_0x356cc0['yeXgq'](_0x23ad2c,0x3)){const _0x3d0ba3=await BuryPointProjectModel['getListByParentId'](_0x4bfd45);if(_0x356cc0['ijDty'](_0x3d0ba3['length'],0x0)){_0x3cb94a['response']['status']=0x19c;_0x3cb94a['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['PROJECT_DELETE_FAIL']));return;}if(_0x356cc0['nkhhb'](_0x23ad2c,0x1)){const _0x1a138a=await BuryPointProjectModel['detail'](_0x4bfd45);SdkReleaseModel['deleteByProjectId'](_0x1a138a['projectId']);let _0x5cc91d={};_0x5cc91d['projectId']='';_0x5cc91d['updateBy']=nickname;BuryPointTemplateModel['updateProjectId'](_0x1a138a['projectId'],updateTemplateDetail);}}else{const _0x47f83d=await BuryPointCardModel['checkName']('',_0x4bfd45);let _0x21dc12=_0x47f83d[0x0]['count'];if(_0x21dc12>0x0){_0x3cb94a['response']['status']=0x19c;_0x3cb94a['body']=statusCode['ERROR_412'](""+Utils['b64DecodeUnicode'](ConstMsg['PROJECT_EXIST_CARD_DELETE_FAIL']));return;}}await BuryPointProjectModel['delete'](_0x4bfd45);_0x3cb94a['response']['status']=0xc8;_0x3cb94a['body']=statusCode['SUCCESS_200']('success','');}else{_0x3cb94a['response']['status']=0x19c;_0x3cb94a["\u0062\u006f\u0064\u0079"]=statusCode['ERROR_412']('fail');}}static async['tree'](_0x169f9c){const _0x53c3e8={'oHbXs':function(_0x18f45b,_0x5eeb0a){return _0x18f45b<_0x5eeb0a;},'qwodv':function(_0x5c0043,_0x588b84){return _0x5c0043<_0x588b84;}};const{userId:_0x4eb5c8,userType:_0x2ecb05}=_0x169f9c['user'];const{teamProjectIds:_0x1279e6,sysType=''}=JSON['parse'](_0x169f9c['request']['body']);let _0x25774d=[];if(_0x2ecb05===USER_INFO['USER_TYPE_ADMIN']||_0x2ecb05===USER_INFO['USER_TYPE_SUPERADMIN']){_0x25774d=await BuryPointProjectModel['getAllProjectList'](sysType);}else{_0x25774d=await BuryPointProjectModel['getProjectListByWebMonitorIds'](_0x1279e6,sysType);}let _0x958bd6=_0x25774d;let _0x446ec3=[];for(let _0x2d38a9=0x0;_0x2d38a9<_0x958bd6['length'];_0x2d38a9++){const _0x486fcb=_0x958bd6[_0x2d38a9];const{id:_0x5ed04a}=_0x486fcb;const _0x32aff9={};_0x32aff9['id']=_0x5ed04a;_0x32aff9['title']=_0x958bd6[_0x2d38a9]['name'];_0x32aff9['parentId']=_0x958bd6[_0x2d38a9]['parentId'];_0x32aff9['key']=_0x958bd6[_0x2d38a9]['id'];_0x32aff9['type']=_0x958bd6[_0x2d38a9]['type'];const _0x53e7a4=await BuryPointProjectModel['getListByParentId'](_0x5ed04a);const _0x5d21c0=[];for(let _0x1bbb43=0x0;_0x53c3e8['oHbXs'](_0x1bbb43,_0x53e7a4['length']);_0x1bbb43++){const _0x4fcd57=_0x53e7a4[_0x1bbb43];const{id:_0x3c2b22}=_0x4fcd57;const _0x22fb74={};_0x22fb74['id']=_0x3c2b22;_0x22fb74['parentId']=_0x53e7a4[_0x1bbb43]['parentId'];_0x22fb74['title']=_0x53e7a4[_0x1bbb43]['name'];_0x22fb74['key']=_0x53e7a4[_0x1bbb43]['id'];_0x22fb74['type']=_0x53e7a4[_0x1bbb43]['type'];const _0x115694=await BuryPointProjectModel['getListByParentId'](_0x3c2b22);const _0x51861b=[];for(let _0x476f50=0x0;_0x53c3e8['qwodv'](_0x476f50,_0x115694['length']);_0x476f50++){const _0x5e4d98={};_0x5e4d98['id']=_0x115694[_0x476f50]['id'];_0x5e4d98['parentId']=_0x115694[_0x476f50]['parentId'];_0x5e4d98['title']=_0x115694[_0x476f50]['name'];_0x5e4d98['key']=_0x115694[_0x476f50]['id'];_0x5e4d98['type']=_0x115694[_0x476f50]['type'];_0x51861b['push'](_0x5e4d98);}_0x22fb74['children']=_0x51861b;_0x5d21c0['push'](_0x22fb74);}_0x32aff9['children']=_0x5d21c0;_0x446ec3['push'](_0x32aff9);}_0x169f9c['response']['status']=0xc8;_0x169f9c['body']=statusCode['SUCCESS_200']('success',_0x446ec3);}static async['getGroupAndPage'](_0x364164){const{projectId:_0x41e68a}=JSON['parse'](_0x364164['request']['body']);let _0x3d8833=[];let _0x493227=await BuryPointProjectModel['getProjectByProjectIdAndType'](_0x41e68a,0x2);for(let _0x3e404b=0x0;_0x3e404b<_0x493227['length'];_0x3e404b++){const _0x30eb90=_0x493227[_0x3e404b];const{id:_0x1d4244}=_0x30eb90;const _0x8d00c4={};_0x8d00c4['id']=_0x1d4244;_0x8d00c4['parentId']=_0x493227[_0x3e404b]['parentId'];_0x8d00c4['projectId']=_0x41e68a;_0x8d00c4['name']=_0x493227[_0x3e404b]['name'];_0x8d00c4['type']=_0x493227[_0x3e404b]['type'];const _0x56d371=await BuryPointProjectModel['getListByParentId'](_0x1d4244);_0x8d00c4['pageCount']=_0x56d371['length'];const _0x5c4cb8=[];for(let _0x41e8f1=0x0;_0x41e8f1<_0x56d371['length'];_0x41e8f1++){const _0x5a3a4e={};_0x5a3a4e['id']=_0x56d371[_0x41e8f1]['id'];_0x5a3a4e['parentId']=_0x56d371[_0x41e8f1]['parentId'];_0x5a3a4e['name']=_0x56d371[_0x41e8f1]['name'];_0x5a3a4e['type']=_0x56d371[_0x41e8f1]['type'];_0x5a3a4e['projectId']=_0x41e68a;_0x5c4cb8['push'](_0x5a3a4e);}_0x8d00c4['pageList']=_0x5c4cb8;_0x3d8833['push'](_0x8d00c4);}_0x364164['response']['status']=0xc8;_0x364164['body']=statusCode['SUCCESS_200']('success',_0x3d8833);}static async['getProjectTree'](_0x4ec403){const{projectId:_0x493210}=JSON['parse'](_0x4ec403['request']['body']);let _0xbc708f=[];if(_0x493210){let _0xf5cf95=await BuryPointProjectModel['getProjectByProjectIdAndType'](_0x493210,0x2);for(let _0x355f20=0x0;_0x355f20<_0xf5cf95['length'];_0x355f20++){const _0x38a6ad=_0xf5cf95[_0x355f20];const{id:_0x178da9}=_0x38a6ad;const _0x3e63e2={};_0x3e63e2['id']=_0x178da9;_0x3e63e2['parentId']=_0xf5cf95[_0x355f20]['parentId'];_0x3e63e2['title']=_0xf5cf95[_0x355f20]['name'];_0x3e63e2['key']=_0xf5cf95[_0x355f20]['id'];_0x3e63e2['type']=_0xf5cf95[_0x355f20]['type'];const _0x5649ca=await BuryPointProjectModel['getListByParentId'](_0x178da9);_0x3e63e2['pageCount']=_0x5649ca['length'];const _0x2576fb=[];for(let _0x211730=0x0;_0x211730<_0x5649ca['length'];_0x211730++){const _0x1af9bc={};_0x1af9bc['id']=_0x5649ca[_0x211730]['id'];_0x1af9bc['parentId']=_0x5649ca[_0x211730]['parentId'];_0x1af9bc['title']=_0x5649ca[_0x211730]['name'];_0x1af9bc['key']=_0x5649ca[_0x211730]['id'];_0x1af9bc['type']=_0x5649ca[_0x211730]['type'];let _0x401205=await BuryPointCardModel['coutCard']('',_0x1af9bc['id'],'');_0x1af9bc['cardCount']=_0x401205?_0x401205[0x0]['count']:0x0;_0x2576fb['push'](_0x1af9bc);}_0x3e63e2['children']=_0x2576fb;_0xbc708f['push'](_0x3e63e2);}}_0x4ec403['response']['status']=0xc8;_0x4ec403['body']=statusCode['SUCCESS_200']('success',_0xbc708f);}static async['sort'](_0x2fa0d4){const _0x50b1e7={'iLBnv':'success'};let _0x440d81=JSON['parse'](_0x2fa0d4['request']['body']);let _0x5e194e=_0x440d81['sortList'];const{nickname:_0x2ed858}=_0x2fa0d4['user'];if(_0x440d81){for(let _0x5a94f2=0x0;_0x5a94f2<_0x5e194e['length'];_0x5a94f2++){const _0x5bd48e={};_0x5bd48e['id']=_0x5e194e[_0x5a94f2]['id'];_0x5bd48e['sort']=_0x5a94f2+0x1;_0x5bd48e['updateBy']=_0x2ed858;await BuryPointProjectModel['update'](_0x5e194e[_0x5a94f2]['id'],_0x5bd48e);let _0x236b96=_0x5e194e[_0x5a94f2]['children'];for(let _0x73b3b5=0x0;_0x73b3b5<_0x236b96['length'];_0x73b3b5++){const _0x37ffb1={};_0x37ffb1['id']=_0x236b96[_0x73b3b5]['id'];_0x37ffb1['sort']=_0x73b3b5+0x1;_0x37ffb1['parentId']=_0x5e194e[_0x5a94f2]['id'];_0x37ffb1['updateBy']=_0x2ed858;await BuryPointProjectModel['update'](_0x236b96[_0x73b3b5]['id'],_0x37ffb1);}}_0x2fa0d4['response']['status']=0xc8;_0x2fa0d4['body']=statusCode['SUCCESS_200'](_0x50b1e7['iLBnv'],'');}else{_0x2fa0d4['response']['status']=0x19c;_0x2fa0d4['body']=statusCode['ERROR_412']('fail！');}}static async['movePage'](_0x368db4){const _0x4116c2={'pPtLs':'success','jvksF':'fail！'};let _0x1c8845=JSON['parse'](_0x368db4['request']['body']);const{nickname:_0x21b620}=_0x368db4['user'];if(_0x1c8845){_0x1c8845['updateBy']=_0x21b620;await BuryPointProjectModel['update'](_0x1c8845['id'],_0x1c8845);_0x368db4['response']['status']=0xc8;_0x368db4['body']=statusCode['SUCCESS_200'](_0x4116c2['pPtLs'],'');}else{_0x368db4['response']['status']=0x19c;_0x368db4['body']=statusCode['ERROR_412'](_0x4116c2['jvksF']);}}static async['getProjectList'](_0xed7862){const _0x507a45={'KrOvB':function(_0x2a6703,_0x23c649){return _0x2a6703<_0x23c649;},'BCpqa':function(_0xc037f3,_0x533ffd){return _0xc037f3(_0x533ffd);}};const{userId:_0x317f90,userType:_0x14d0ba}=_0xed7862['user'];const{teamProjectIds:_0x9fb50f,sysType=''}=JSON['parse'](_0xed7862['request']['body']);let _0x1e8b71=[];if(_0x14d0ba===USER_INFO['USER_TYPE_ADMIN']||_0x14d0ba===USER_INFO['USER_TYPE_SUPERADMIN']){_0x1e8b71=await BuryPointProjectModel['getAllProjectList'](sysType);}else{_0x1e8b71=await BuryPointProjectModel['getProjectListByWebMonitorIds'](_0x9fb50f,sysType);}let _0x32a4f1=_0x1e8b71;let _0x4d4246=[];for(let _0x148495=0x0;_0x507a45['KrOvB'](_0x148495,_0x32a4f1["\u006c\u0065\u006e\u0067\u0074\u0068"]);_0x148495++){const _0x5daa7f={};_0x5daa7f['id']=_0x32a4f1[_0x148495]['id'];_0x5daa7f['projectName']=_0x32a4f1[_0x148495]['name'];_0x5daa7f['name']=_0x32a4f1[_0x148495]["\u006e\u0061\u006d\u0065"];_0x5daa7f['projectId']=_0x32a4f1[_0x148495]['projectId'];_0x5daa7f['sysType']=_0x32a4f1[_0x148495]['sysType'];let _0x4d3e96=await BuryPointFieldModel['getPageCount'](_0x32a4f1[_0x148495]['projectId'],'','','');_0x5daa7f['fieldCount']=_0x507a45['BCpqa'](isNaN,_0x4d3e96[0x0]['count'])?0x0:_0x4d3e96[0x0]['count'];_0x4d4246['push'](_0x5daa7f);}_0xed7862['response']['status']=0xc8;_0xed7862['body']=statusCode['SUCCESS_200']('success',_0x4d4246);}static async['projectSimpleListByWebmonitorIds'](_0x5a0fe5){const _0x52f301=JSON['parse'](_0x5a0fe5['request']['body']);const _0x31c39b=await BuryPointProjectModel["\u0070\u0072\u006f\u006a\u0065\u0063\u0074\u0053\u0069\u006d\u0070\u006c\u0065\u004c\u0069\u0073\u0074\u0042\u0079\u0057\u0065\u0062\u006d\u006f\u006e\u0069\u0074\u006f\u0072\u0049\u0064\u0073"](_0x52f301);_0x5a0fe5['response']['status']=0xc8;_0x5a0fe5['body']=statusCode['SUCCESS_200']('success',_0x31c39b);}static async['getAllProjectList'](_0x5e9de9){const _0xa1850f={'MAKfg':'success'};const _0x3b1c37=await BuryPointProjectModel['getAllProjectList']('');_0x5e9de9['response']['status']=0xc8;_0x5e9de9['body']=statusCode['SUCCESS_200'](_0xa1850f['MAKfg'],_0x3b1c37);}static async['getAllList'](_0x7d02fa){const _0xc30e22=await BuryPointProjectModel['getAllList']();_0x7d02fa['response']['status']=0xc8;_0x7d02fa['body']=statusCode['SUCCESS_200']('success',_0xc30e22);}static async['addViewers'](_0x402e6a){const _0x5490ce={'gcSKL':'success'};const{webMonitorId:_0x264fb0,viewers:_0x438c09}=JSON['parse'](_0x402e6a['request']['body']);let _0x403e73=await BuryPointProjectModel['updateProjectByField']({'projectId':_0x264fb0,'viewers':_0x438c09,'parentId':-0x1});_0x402e6a['response']['status']=0xc8;_0x402e6a['body']=statusCode['SUCCESS_200'](_0x5490ce['gcSKL'],_0x403e73);}static async['copyPage'](_0x213bd9){const _0x4be49e={'IpEuo':function(_0x21be5d,_0x226cd7){return _0x21be5d+_0x226cd7;},'PTYvf':'执行{','ZlGhE':'_copy','hLYQu':'yyyyMMddhhmmss','LkvLt':function(_0x3f9693,_0xe507ed){return _0x3f9693+_0xe507ed;},'BCAjG':'v1.0.0','XhrpG':function(_0x324bee,_0x536770){return _0x324bee<_0x536770;}};let _0x8a1a5f=JSON['parse'](_0x213bd9['request']['body']);let _0x63dd97=_0x8a1a5f['pageId'];let _0x5bfab4=_0x8a1a5f['newPageName'];let _0x2e06e9=_0x8a1a5f['newProjectId'];let _0x5944b7=_0x8a1a5f['newGroupId'];const{nickname:_0x55262b}=_0x213bd9['user'];if(_0x8a1a5f){let _0xd6d634=await BuryPointCardModel['getList']('',_0x63dd97,'');let _0x47b84a=await BuryPointCardController['judgeCardCount'](_0xd6d634['length']);if(_0x47b84a===0x1){_0x213bd9['response']['status']=0x19e;_0x213bd9['body']=statusCode['ERROR_CARD_BALANCE_414']('卡片余额不足');return;}let _0x1dc5f6={};_0x1dc5f6["\u006e\u0061\u006d\u0065"]=_0x4be49e['IpEuo'](_0x5bfab4,_0x4be49e['ZlGhE']);_0x1dc5f6["\u0070\u0072\u006f\u006a\u0065\u0063\u0074\u0049\u0064"]=_0x2e06e9;_0x1dc5f6['type']=0x3;_0x1dc5f6['parentId']=_0x5944b7;_0x1dc5f6['createBy']=_0x55262b;let _0x35148e=await BuryPointProjectModel['create'](_0x1dc5f6);let _0x11a965=_0x35148e['id'];let _0x3687bc=[];for(let _0x599ac=0x0;_0x599ac<_0xd6d634['length'];_0x599ac++){let _0x46e0a6=_0xd6d634[_0x599ac];let _0x3ae067={};_0x3ae067['pageId']=_0x11a965;_0x3ae067['name']=_0x46e0a6['name'];_0x3ae067['type']=_0x46e0a6['type'];_0x3ae067['sort']=_0x46e0a6['sort'];_0x3ae067['conversionCycle']=_0x46e0a6['conversionCycle'];_0x3ae067['groupByFlag']=_0x46e0a6['groupByFlag'];_0x3ae067['chartTableShow']=_0x46e0a6['chartTableShow'];_0x3ae067['togetherList']=_0x46e0a6['togetherList'];_0x3ae067['refreshFrequency']=_0x46e0a6['refreshFrequency'];let _0x2a9078=JSON['parse'](_0x46e0a6['calcRule']);let _0x2aa471=[];let _0x4f900f=[];for(let _0x103068=0x0;_0x103068<_0x2a9078['length'];_0x103068++){let _0x20ca08=_0x2a9078[_0x103068];let _0x20690b=_0x20ca08['calcName'];_0x20ca08['calcNameKey']=slugify(_0x20690b)['replace'](/-/g,'')+new Date()['Format'](_0x4be49e['hLYQu']);let _0x1ea899=_0x20ca08['prePoint'];let _0x228b81=_0x1ea899['pointId'];let _0x28b7f9=await BuryPointWarehouseController['copyPoint'](_0x2e06e9,_0x228b81,_0x55262b);_0x3687bc['push'](_0x28b7f9);_0x20ca08['prePoint']['pointId']=_0x28b7f9;let _0x1a46fe=_0x20ca08['endPoint'];if(_0x1a46fe){let _0x4731ff=await BuryPointWarehouseController['copyPoint'](_0x2e06e9,_0x1a46fe['pointId'],_0x55262b);_0x3687bc['push'](_0x4731ff);_0x20ca08['endPoint']['pointId']=_0x4731ff;}_0x2aa471['push'](_0x20ca08);if(_0x3ae067['type']===0x5){_0x4f900f['push'](_0x28b7f9);}}_0x3ae067['calcRule']=JSON['stringify'](_0x2aa471);let _0x5586a8=await BuryPointCardModel['create'](_0x3ae067);if(_0x3ae067['type']===0x5){BuryPointCardController['saveFunnelPointRelation'](_0x4f900f,_0x5586a8['id']);}}let _0x1236e2=[...new Set(_0x3687bc)];let _0x4e0773={};_0x4e0773['projectId']=_0x2e06e9;_0x4e0773['releaseName']=_0x5bfab4+_0x4be49e['ZlGhE'];_0x4e0773['pointIds']=_0x4be49e['LkvLt'](_0x1236e2,'');_0x4e0773['releaseScript']='';_0x4e0773['status']=0x1;_0x4e0773['version']=_0x4be49e['BCAjG'];_0x4e0773['createBy']=_0x55262b;let _0x3b4eba=await SdkReleaseModel['create'](_0x4e0773);if(_0x3b4eba){let _0x9e0914=await BuryPointWarehouseModel['getPointIds'](_0x2e06e9,0x1);if(_0x9e0914&&_0x9e0914['length']>0x0){for(let _0x11bb14=0x0;_0x11bb14<_0x9e0914['length'];_0x11bb14++){_0x1236e2['push'](_0x9e0914[_0x11bb14]['id']);}}for(let _0x2677a4=0x0;_0x4be49e['XhrpG'](_0x2677a4,_0x1236e2['length']);_0x2677a4++){SdkReleaseController['createTableByDay'](_0x2e06e9,_0x1236e2[_0x2677a4],0x0)['catch'](_0x404e11=>{log['printError'](_0x4be49e['IpEuo'](_0x4be49e['PTYvf'],_0x2e06e9)+'_'+_0x1236e2[_0x2677a4]+'}创建表报错：',_0x404e11);});}}_0x213bd9['response']['status']=0xc8;_0x213bd9['body']=statusCode['SUCCESS_200']('success','');}else{_0x213bd9['response']['status']=0x19c;_0x213bd9['body']=statusCode["\u0045\u0052\u0052\u004f\u0052\u005f\u0034\u0031\u0032"]('fail！');}}static async['exportTemplate'](_0x500998){const _0x3f48ee={'PykEr':function(_0x142603,_0xc8c210){return _0x142603<_0xc8c210;},'kDIKs':function(_0x41fa98,_0x2503ad){return _0x41fa98===_0x2503ad;},'zmTuB':'success'};let _0x1d7d31=JSON['parse'](_0x500998['request']['body']);const{projectId:_0x31f67f,type:_0x41cde9,templateName=''}=_0x1d7d31;const{nickname:_0x241f5e,userId:_0x9f82b5}=_0x500998['user'];if(_0x31f67f&&_0x41cde9){let _0x41bbc5=await BuryPointProjectModel['getProjectByProjectIdAndType'](_0x31f67f,0x2);let _0x3c70fc=0x0;let _0x5e10ec=0x0;let _0x27ab93={};_0x27ab93['type']=0x1;_0x27ab93['projectId']=_0x31f67f;let _0x513a28=[];let _0x43161c=[];for(let _0x5a419a=0x0;_0x5a419a<_0x41bbc5['length'];_0x5a419a++){let _0xfbee0b={};_0xfbee0b['id']=_0x41bbc5[_0x5a419a]['id'];_0xfbee0b['name']=_0x41bbc5[_0x5a419a]['name'];_0xfbee0b['type']=_0x41bbc5[_0x5a419a]['type'];_0xfbee0b['sort']=_0x41bbc5[_0x5a419a]['sort'];let _0xcb001=await BuryPointProjectModel['getListByParentId'](_0x41bbc5[_0x5a419a]['id']);_0x3c70fc=_0x3c70fc+_0xcb001['length'];let _0x2bdeea=[];for(let _0x1fe6b1=0x0;_0x1fe6b1<_0xcb001['length'];_0x1fe6b1++){let _0x43270a={};_0x43270a['id']=_0xcb001[_0x1fe6b1]['id'];_0x43270a['name']=_0xcb001[_0x1fe6b1]['name'];_0x43270a['type']=_0xcb001[_0x1fe6b1]['type'];_0x43270a['sort']=_0xcb001[_0x1fe6b1]['sort'];let _0x26a84e=await BuryPointCardModel['getList']('',_0xcb001[_0x1fe6b1]['id'],'');_0x5e10ec=_0x5e10ec+_0x26a84e["\u006c\u0065\u006e\u0067\u0074\u0068"];let _0xc3036c=[];for(let _0xaf78f=0x0;_0x3f48ee['PykEr'](_0xaf78f,_0x26a84e['length']);_0xaf78f++){let _0x3ad150={};_0x3ad150['id']=_0x26a84e[_0xaf78f]['id'];_0x3ad150['name']=_0x26a84e[_0xaf78f]['name'];_0x3ad150['type']=_0x26a84e[_0xaf78f]['type'];_0x3ad150['pageId']=_0x26a84e[_0xaf78f]['pageId'];_0x3ad150['conversionCycle']=_0x26a84e[_0xaf78f]['conversionCycle'];_0x3ad150['groupByFlag']=_0x26a84e[_0xaf78f]['groupByFlag'];_0x3ad150['chartTableShow']=_0x26a84e[_0xaf78f]['chartTableShow'];_0x3ad150['togetherList']=_0x26a84e[_0xaf78f]['togetherList'];_0x3ad150['refreshFrequency']=_0x26a84e[_0xaf78f]['refreshFrequency'];_0x3ad150['calcRule']=_0x26a84e[_0xaf78f]['calcRule'];_0xc3036c["\u0070\u0075\u0073\u0068"](_0x3ad150);let _0x4ed0cf=JSON['parse'](_0x26a84e[_0xaf78f]['calcRule']);for(let _0x113431=0x0;_0x113431<_0x4ed0cf['length'];_0x113431++){let _0xf8f09e=_0x4ed0cf[_0x113431];_0x43161c['push'](_0xf8f09e["\u0070\u0072\u0065\u0050\u006f\u0069\u006e\u0074"]['pointId']);let _0x497a5e=_0xf8f09e['endPoint'];if(_0x497a5e){_0x43161c['push'](_0xf8f09e['endPoint']['pointId']);}}}_0x43270a['cardList']=_0xc3036c;_0x2bdeea['push'](_0x43270a);}_0xfbee0b['pageList']=_0x2bdeea;_0x513a28['push'](_0xfbee0b);}_0x27ab93['groupList']=_0x513a28;let _0x55e45b=[...new Set(_0x43161c)];let _0x3e70d7=[];for(let _0x43324f=0x0;_0x43324f<_0x55e45b['length'];_0x43324f++){let _0x4bcd1f={};let _0x4b6390=_0x55e45b[_0x43324f];let _0x595aa1=await BuryPointWarehouseModel['detail'](_0x4b6390);_0x4bcd1f['pointId']=_0x4b6390;_0x4bcd1f['pointName']=_0x595aa1['pointName'];_0x4bcd1f['pointDesc']=_0x595aa1['pointDesc'];_0x4bcd1f['weType']=_0x595aa1['weType'];_0x4bcd1f['replacePointIdKey']=_0x595aa1['replacePointIdKey'];let _0x2779ce=await BuryPointFieldModel['getListByFieldIds'](_0x595aa1['fields']);let _0xe45b6b=[];for(let _0x5a3b5a=0x0;_0x5a3b5a<_0x2779ce['length'];_0x5a3b5a++){let _0x346734={};_0x346734["\u0066\u0069\u0065\u006c\u0064\u004e\u0061\u006d\u0065"]=_0x2779ce[_0x5a3b5a]['fieldName'];_0x346734['fieldAlias']=_0x2779ce[_0x5a3b5a]['fieldAlias'];_0x346734['fieldType']=_0x2779ce[_0x5a3b5a]['fieldType'];_0x346734['fieldLength']=_0x2779ce[_0x5a3b5a]['fieldLength'];_0x346734['fieldDesc']=_0x2779ce[_0x5a3b5a]['fieldDesc'];_0x346734['groupByFlag']=_0x2779ce[_0x5a3b5a]['groupByFlag'];_0x346734['weType']=_0x2779ce[_0x5a3b5a]['weType'];_0xe45b6b['push'](_0x346734);}_0x4bcd1f['fieldList']=_0xe45b6b;_0x3e70d7['push'](_0x4bcd1f);}let _0x5d23d0={};_0x5d23d0['templatePoint']=JSON['stringify'](_0x3e70d7);_0x5d23d0['groupCount']=_0x41bbc5['length'];_0x5d23d0['pageCount']=_0x3c70fc;_0x5d23d0['cardCount']=_0x5e10ec;_0x5d23d0['userId']=_0x9f82b5;_0x5d23d0['detail']=JSON['stringify'](_0x27ab93);let _0x31a8b5=_0x41cde9['split'](',');for(let _0x4f26f8=0x0;_0x4f26f8<_0x31a8b5['length'];_0x4f26f8++){_0x5d23d0['type']=_0x31a8b5[_0x4f26f8];if(_0x5d23d0['type']===0x1||_0x3f48ee['kDIKs'](_0x5d23d0['type'],'1')){_0x5d23d0['projectId']=_0x31f67f;let _0x454c15=await BuryPointTemplateModel['existTempleta'](_0x31f67f,'',_0x9f82b5);if(_0x454c15&&_0x454c15['length']>0x0){_0x5d23d0['updateBy']=_0x241f5e;await BuryPointTemplateModel['update'](_0x454c15[0x0]['id'],_0x5d23d0);}else{_0x5d23d0['templateName']=templateName;_0x5d23d0['createBy']=_0x241f5e;await BuryPointTemplateModel['create'](_0x5d23d0);}}else{_0x5d23d0['templateName']=templateName;_0x5d23d0['createBy']=_0x241f5e;await BuryPointTemplateModel['create'](_0x5d23d0);}}_0x500998['response']['status']=0xc8;_0x500998['body']=statusCode['SUCCESS_200'](_0x3f48ee['zmTuB'],'');}else{_0x500998['response']['status']=0x19c;_0x500998['body']=statusCode['ERROR_412']('fail');}}static async['existTemplate'](_0x25a729){const _0x21362c={'vKLIu':function(_0x44aa3d,_0x4baf51){return _0x44aa3d>_0x4baf51;}};let _0x5a1d3e=JSON['parse'](_0x25a729['request']['body']);let _0x4b787f=_0x5a1d3e['projectId'];const{userId:_0x5995ce}=_0x25a729['user'];if(_0x4b787f){let _0x2e3ea6=await BuryPointTemplateModel['existTempleta'](_0x4b787f,0x1,_0x5995ce);_0x25a729['response']['status']=0xc8;if(_0x21362c['vKLIu'](_0x2e3ea6['length'],0x0)){_0x25a729['body']=statusCode['SUCCESS_200']('success','1');}else{_0x25a729['body']=statusCode['SUCCESS_200']('success','0');}}else{_0x25a729['response']['status']=0x19c;_0x25a729['body']=statusCode['ERROR_412']('fail！');}}}class BuryPointTemplateController{static async['create'](_0x2255b1){const _0x5dbbb1={'WCVAV':function(_0x401c4d,_0x512e08){return _0x401c4d==_0x512e08;}};let _0x429617=JSON['parse'](_0x2255b1['request']['body']);const{nickname:_0x381146}=_0x2255b1['user'];_0x429617['createBy']=_0x381146;if(_0x429617['templateName']&&_0x429617['type']){let _0x5de05c;if(_0x429617['type']==0x1){}else if(_0x429617['type']==0x2){const{userId:_0x3579eb,userType:_0x52be89}=_0x2255b1['user'];_0x429617['userId']=_0x3579eb;}else if(_0x5dbbb1['WCVAV'](_0x429617['type'],0x3)){}await BuryPointTemplateModel['create'](_0x429617);_0x2255b1['response']['status']=0xc8;_0x2255b1['body']=statusCode['SUCCESS_200']('创建成功','');}else{_0x2255b1['response']['status']=0x19c;_0x2255b1['body']=statusCode['ERROR_412']('创建成功失败，请求参数不能为空！');}}static async['copy'](_0xd2d590){let _0xf0fe98=JSON['parse'](_0xd2d590['request']['body']);const{nickname:_0x4fd8f0,userId:_0x4c4ae2}=_0xd2d590['user'];if(_0xf0fe98['templateName']&&_0xf0fe98['id']){let _0x48252a=await BuryPointTemplateModel['detail'](_0xf0fe98['id']);let _0x441847={};_0x441847['createBy']=_0x4fd8f0;_0x441847['templateName']=_0xf0fe98['templateName'];_0x441847['type']=0x1;_0x441847['detail']=_0x48252a['detail'];_0x441847['userId']=_0x4c4ae2;_0x441847['groupCount']=_0x48252a['groupCount'];_0x441847['pageCount']=_0x48252a['pageCount'];_0x441847['cardCount']=_0x48252a['cardCount'];_0x441847['templatePoint']=_0x48252a['templatePoint'];await BuryPointTemplateModel['create'](_0x441847);_0xd2d590['response']['status']=0xc8;_0xd2d590['body']=statusCode["\u0053\u0055\u0043\u0043\u0045\u0053\u0053\u005f\u0032\u0030\u0030"]('success','');}else{_0xd2d590['response']['status']=0x19c;_0xd2d590['body']=statusCode['ERROR_412']('fail！');}}static async['updateName'](_0x33d44c){const _0x32af09={'rPHyz':'更新信息失败！'};let _0x2708f4=JSON['parse'](_0x33d44c['request']['body']);let _0x23a923=_0x2708f4['id'];const{nickname:_0x157b9d}=_0x33d44c['user'];_0x2708f4['updateBy']=_0x157b9d;if(_0x2708f4){await BuryPointTemplateModel['update'](_0x23a923,_0x2708f4);_0x33d44c['response']['status']=0xc8;_0x33d44c['body']=statusCode['SUCCESS_200']('更新信息成功！','');}else{_0x33d44c['response']['status']=0x19c;_0x33d44c['body']=statusCode['ERROR_412'](_0x32af09['rPHyz']);}}static async['delete'](_0x2c0da5){let _0x35be52=JSON['parse'](_0x2c0da5['request']['body']);const{id:_0x91fd14}=_0x35be52;await BuryPointTemplateModel['delete'](_0x91fd14);_0x2c0da5['response']['status']=0xc8;_0x2c0da5['body']=statusCode['SUCCESS_200']('success','');}static async['deleteBatch'](_0x5a2998){const _0x9f8fc0={'mWWty':'success'};let _0x567958=JSON['parse'](_0x5a2998['request']['body']);const{ids:_0x404105}=_0x567958;if(_0x404105){let _0x22b882=_0x404105['split'](',');for(let _0x1f35cf=0x0;_0x1f35cf<_0x22b882['length'];_0x1f35cf++){await BuryPointTemplateModel['delete'](_0x22b882[_0x1f35cf]);}}_0x5a2998['response']['status']=0xc8;_0x5a2998['body']=statusCode['SUCCESS_200'](_0x9f8fc0['mWWty'],'');}static async['createProject'](_0x314f92){const _0x2a6e58={'pyAha':function(_0x261cb9,_0x23b52d){return _0x261cb9===_0x23b52d;},'NOpzg':function(_0x19f967,_0x384afc){return _0x19f967+_0x384afc;},'rlgmM':function(_0x2683e2,_0x46e7e4){return _0x2683e2>_0x46e7e4;},'ltsDI':function(_0x2b37ce,_0x1875a7){return _0x2b37ce<_0x1875a7;},'jjExU':function(_0x2fd946,_0x5260ca){return _0x2fd946<_0x5260ca;}};let _0xe696d5=JSON['parse'](_0x314f92['request']['body']);const{id:_0x475986,projectName:_0x5ec6f1,type:_0x4de095}=_0xe696d5;const{nickname:_0x4bfe63,companyId:_0x2cd787}=_0x314f92['user'];if(_0x475986&&_0x5ec6f1){let _0x3dc6c0=await BuryPointTemplateModel['detail'](_0x475986);let _0x399907=_0x3dc6c0['cardCount'];let _0x2e54d0=await BuryPointCardController['judgeCardCount'](_0x399907);if(_0x2a6e58['pyAha'](_0x2e54d0,0x1)){_0x314f92['response']['status']=0x19e;_0x314f92['body']=statusCode['ERROR_CARD_BALANCE_414']('卡片余额不足');return;}let _0x1f1543='';if(_0x3dc6c0){let _0x3ff773=[];let _0x10a87a=new Date()['Format']('yyyyMMddhhmmss');let _0x4fbab4=_0x3dc6c0['templateName'];let _0x7489dd=JSON['parse'](_0x3dc6c0['detail']);let _0x9ffb57=await BuryPointProjectController['createNewProject'](_0x5ec6f1,0x0,_0x4bfe63,_0x2cd787);_0x1f1543=_0x9ffb57['projectId'];_0x314f92['response']['status']=0xc8;_0x314f92["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200']('success',_0x1f1543);let _0x5e2e6f=_0x7489dd['groupList'];for(let _0x115ea6=0x0;_0x115ea6<_0x5e2e6f['length'];_0x115ea6++){let _0x289487={};_0x289487['name']=_0x5e2e6f[_0x115ea6]['name'];_0x289487['type']=0x2;_0x289487['sort']=_0x5e2e6f[_0x115ea6]['sort'];_0x289487['parentId']=_0x9ffb57['id'];_0x289487['projectId']=_0x1f1543;_0x289487['createBy']=_0x4bfe63;let _0x4751fc=await BuryPointProjectModel['create'](_0x289487);let _0x58760d=_0x5e2e6f[_0x115ea6]['pageList'];for(let _0x5f4903=0x0;_0x5f4903<_0x58760d['length'];_0x5f4903++){let _0xbae773={};_0xbae773['name']=_0x58760d[_0x5f4903]['name'];_0xbae773['type']=0x3;_0xbae773['sort']=_0x58760d[_0x5f4903]['sort'];_0xbae773['parentId']=_0x4751fc['id'];_0xbae773['projectId']=_0x1f1543;_0xbae773['createBy']=_0x4bfe63;let _0x1422ef=await BuryPointProjectModel['create'](_0xbae773);let _0x2d206a=_0x58760d[_0x5f4903]['cardList'];for(let _0x13d816=0x0;_0x13d816<_0x2d206a['length'];_0x13d816++){let _0x2994e3=_0x2d206a[_0x13d816];let _0x52fb7={};_0x52fb7['pageId']=_0x1422ef['id'];_0x52fb7['name']=_0x2994e3['name'];_0x52fb7['type']=_0x2994e3['type'];_0x52fb7['sort']=_0x2994e3['sort'];_0x52fb7['conversionCycle']=_0x2994e3['conversionCycle'];_0x52fb7['groupByFlag']=_0x2994e3['groupByFlag'];_0x52fb7['chartTableShow']=_0x2994e3['chartTableShow'];_0x52fb7['togetherList']=_0x2994e3['togetherList'];_0x52fb7['refreshFrequency']=_0x2994e3['refreshFrequency'];let _0x4f7514=JSON['parse'](_0x2994e3['calcRule']);let _0x47af23=[];let _0x4a3158=[];for(let _0x2b79a4=0x0;_0x2b79a4<_0x4f7514['length'];_0x2b79a4++){let _0x25984a=_0x4f7514[_0x2b79a4];let _0x5ef78b=_0x25984a['calcName'];_0x25984a['calcNameKey']=_0x2a6e58['NOpzg'](slugify(_0x5ef78b)['replace'](/-/g,''),new Date()['Format']('yyyyMMddhhmmss'));let _0x54a447=_0x25984a['prePoint'];let _0x196edb=_0x54a447['pointId'];let _0x59cad0=await BuryPointWarehouseController['copyPoint'](_0x1f1543,_0x196edb,_0x4bfe63);_0x3ff773['push'](_0x59cad0);_0x25984a['prePoint']['pointId']=_0x59cad0;let _0x47b134=_0x25984a['endPoint'];if(_0x47b134){let _0xf93563=await BuryPointWarehouseController['copyPoint'](_0x1f1543,_0x47b134['pointId'],_0x4bfe63);_0x3ff773['push'](_0xf93563);_0x25984a['endPoint']['pointId']=_0xf93563;}_0x47af23['push'](_0x25984a);if(_0x52fb7['type']===0x5){_0x4a3158['push'](_0x59cad0);}}_0x52fb7["\u0063\u0061\u006c\u0063\u0052\u0075\u006c\u0065"]=JSON['stringify'](_0x47af23);_0x52fb7['createBy']=_0x4bfe63;let _0x1bd1a3=await BuryPointCardModel['create'](_0x52fb7);if(_0x52fb7['type']===0x5){BuryPointCardController['saveFunnelPointRelation'](_0x4a3158,_0x1bd1a3['id']);}}}}let _0x2be670=[...new Set(_0x3ff773)];let _0x487096={};_0x487096['projectId']=_0x1f1543;_0x487096['releaseName']=_0x2a6e58['NOpzg'](_0x5ec6f1,_0x10a87a);_0x487096['pointIds']=_0x2be670+'';_0x487096['releaseScript']='';_0x487096['status']=0x1;_0x487096['version']='v1.0.0';_0x487096['createBy']=_0x4bfe63;let _0x25a776=await SdkReleaseModel['create'](_0x487096);if(_0x25a776){let _0x5548b8=await BuryPointWarehouseModel['getPointIds'](_0x1f1543,0x1);if(_0x5548b8&&_0x2a6e58['rlgmM'](_0x5548b8['length'],0x0)){for(let _0x49289=0x0;_0x2a6e58['ltsDI'](_0x49289,_0x5548b8['length']);_0x49289++){_0x2be670['push'](_0x5548b8[_0x49289]['id']);}}for(let _0x20f5d1=0x0;_0x2a6e58['jjExU'](_0x20f5d1,_0x2be670['length']);_0x20f5d1++){SdkReleaseController['createTableByDay'](_0x1f1543,_0x2be670[_0x20f5d1],0x0)['catch'](_0x29aba6=>{log['printError']('执行{'+_0x1f1543+'_'+_0x2be670[_0x20f5d1]+'}创建表报错：',_0x29aba6);});}}}if(_0x3dc6c0['type']===0x1){let _0x1fff2a={};_0x1fff2a['id']=_0x475986;_0x1fff2a['projectId']=_0x1f1543;_0x1fff2a['updateBy']=_0x4bfe63;await BuryPointTemplateModel['update'](_0x475986,_0x1fff2a);}}else{_0x314f92['response']['status']=0x19c;_0x314f92['body']=statusCode['ERROR_412']('fail！');}}static async['getCommonTemplatePageList'](_0x4164eb){const _0x80cd70={'CoaAt':'desc'};let _0x4d0188=JSON['parse'](_0x4164eb['request']['body']);const{templateName:_0x130374,userId:_0x92d9e2,startDate:_0x5013e4,endDate:_0x3dce52,orderBy:_0x261227,page:_0xc144d2,pageSize:_0x58115a}=_0x4d0188;if(!_0x261227){_0x261227=_0x80cd70['CoaAt'];}let _0x45a071=await BuryPointTemplateModel['getPageCount'](_0x130374,'',_0x5013e4,_0x3dce52,0x2,_0x92d9e2);let _0x1b552f=await BuryPointTemplateModel['getPageList'](_0x130374,'',_0x5013e4,_0x3dce52,0x2,_0x92d9e2,_0x261227,_0xc144d2,_0x58115a);let _0x53cb62=0x0;_0x53cb62=_0x45a071[0x0]['count'];_0x4164eb['response']['status']=0xc8;_0x4164eb['body']=statusCode['SUCCESS_200']('success',{'list':_0x1b552f,'totalCount':_0x53cb62});}static async['getSysTemplatePageList'](_0x333114){let _0x59c3b3=JSON['parse'](_0x333114['request']['body']);const{templateName:_0x34a419,userId='',startDate:_0x3defe2,endDate:_0x34f366,orderBy:_0x1ba621,page:_0x197317,pageSize:_0x754e07}=_0x59c3b3;if(!_0x1ba621){_0x1ba621='desc';}let _0xacb3c=await BuryPointTemplateModel['getPageCount'](_0x34a419,'',_0x3defe2,_0x34f366,0x3,userId);let _0x361a17=await BuryPointTemplateModel['getPageList'](_0x34a419,'',_0x3defe2,_0x34f366,0x3,userId,_0x1ba621,_0x197317,_0x754e07);let _0x186b22=0x0;_0x186b22=_0xacb3c[0x0]['count'];_0x333114['response']['status']=0xc8;_0x333114['body']=statusCode['SUCCESS_200']('success',{'list':_0x361a17,'totalCount':_0x186b22});}static async['getMyTemplatePageList'](_0x2b2b24){const{userId:_0x3040d3,userType:_0x95a8b9}=_0x2b2b24['user'];let _0x2c74e7=JSON['parse'](_0x2b2b24['request']['body']);const{templateName:_0x15bdc2,startDate:_0x55acd6,endDate:_0x5ede50,orderBy:_0x4c4c6a,page:_0x3b967f,pageSize:_0x9bb02f}=_0x2c74e7;if(!_0x4c4c6a){_0x4c4c6a='desc';}let _0x1bc783=await BuryPointTemplateModel["\u0067\u0065\u0074\u0050\u0061\u0067\u0065\u0043\u006f\u0075\u006e\u0074"](_0x15bdc2,'',_0x55acd6,_0x5ede50,0x1,_0x3040d3);let _0x26e686=await BuryPointTemplateModel['getPageList'](_0x15bdc2,'',_0x55acd6,_0x5ede50,0x1,_0x3040d3,_0x4c4c6a,_0x3b967f,_0x9bb02f);let _0xd77cfc=[];for(let _0x301fe7=0x0;_0x301fe7<_0x26e686['length'];_0x301fe7++){if(_0x26e686[_0x301fe7]['projectId']){let _0x514224=await BuryPointProjectModel['getNameByProjectIdAndType'](_0x26e686[_0x301fe7]['projectId'],0x1);if(_0x514224&&_0x514224['length']>0x0){_0x26e686[_0x301fe7]['projectName']=_0x514224[0x0]['name'];}}_0xd77cfc["\u0070\u0075\u0073\u0068"](_0x26e686[_0x301fe7]);}let _0x55d3f3=0x0;_0x55d3f3=_0x1bc783[0x0]['count'];_0x2b2b24['response']['status']=0xc8;_0x2b2b24['body']=statusCode['SUCCESS_200']('success',{'list':_0xd77cfc,'totalCount':_0x55d3f3});}static async['detail'](_0x15259f){let{id:_0x432f73}=JSON['parse'](_0x15259f['request']['body']);if(_0x432f73){let _0x6c9d03=await BuryPointTemplateModel['detail'](_0x432f73);_0x15259f['response']['status']=0xc8;_0x15259f['body']=statusCode['SUCCESS_200']('success',_0x6c9d03);}else{_0x15259f['response']['status']=0x19c;_0x15259f['body']=statusCode['ERROR_412']('fail');}}}function _0x36579a(_0xa9f5be,_0x2e684d,_0x3ede80,_0x21b27d,_0x213e66){return _0x49e9(_0x2e684d-0x395,_0x213e66);}class BuryPointTaskController{static async['create'](_0x2ddf86){let{taskName:_0x295134,taskDes='',projectId:_0x2f85ba,handleManId:_0x443d33,handleManName:_0x49d132,taskStatus:_0x26d45c,taskPoint:_0x23a4a3}=JSON['parse'](_0x2ddf86['request']['body']);const{userId:_0x309602,nickname:_0x272725}=_0x2ddf86['user'];const _0x4aecf2={'taskName':_0x295134,'taskDes':taskDes,'projectId':_0x2f85ba,'handleManId':_0x443d33,'handleManName':_0x49d132,'taskStatus':_0x26d45c,'createManId':_0x309602,'createManName':_0x272725,'taskPoint':JSON['stringify'](_0x23a4a3)};if(_0x295134&&_0x2f85ba&&_0x443d33){let _0x36e0a5=await BuryPointTaskModel['create'](_0x4aecf2);_0x2ddf86['response']['status']=0xc8;_0x2ddf86['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),_0x36e0a5);}else{_0x2ddf86['response']['status']=0x19c;_0x2ddf86['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['delete'](_0x38d7a7){let{taskId:_0x4cbaf9}=JSON['parse'](_0x38d7a7['request']['body']);await BuryPointTaskModel['delete'](_0x4cbaf9);_0x38d7a7['response']['status']=0xc8;_0x38d7a7['body']=statusCode['SUCCESS_200']('success',0x0);}static async['batchDeletion'](_0x132195){let{taskIds:_0x17a453}=JSON['parse'](_0x132195['request']['body']);if(_0x17a453){await BuryPointTaskModel['batchDeletion'](_0x17a453);}_0x132195['response']['status']=0xc8;_0x132195['body']=statusCode['SUCCESS_200']('success',0x0);}static async['update'](_0x46c2b1){let _0x1c7c78=JSON['parse'](_0x46c2b1['request']['body']);const{nickname:_0xdd819d}=_0x46c2b1['user'];if(_0x1c7c78['taskId']&&_0x1c7c78['taskName']&&_0x1c7c78['projectId']&&_0x1c7c78['taskPoint']&&_0x1c7c78['handleManId']&&_0x1c7c78['handleManName']){_0x1c7c78['taskPoint']=JSON['stringify'](_0x1c7c78['taskPoint']);let _0x5d0e9c=await BuryPointTaskModel['update'](_0x1c7c78);_0x46c2b1['response']['status']=0xc8;_0x46c2b1['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_SUCCESS']),_0x5d0e9c);}else{_0x46c2b1['response']['status']=0x19c;_0x46c2b1['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['UPDATE_PARAM_FAIL']));}}static async['list'](_0xe01c28){const _0x4ba2cc=JSON['parse'](_0xe01c28['request']['body']);const _0x19b4f5=await BuryPointTaskModel['list'](_0x4ba2cc);const{list:_0x30e3c0,total:_0x1fba6e}=_0x19b4f5;for(let _0x1fe2e2=0x0;_0x1fe2e2<_0x30e3c0['length'];_0x1fe2e2++){const _0x7c2e43=_0x30e3c0[_0x1fe2e2];const{projectId:_0x177fb0,taskPoint:_0x2da63c}=_0x7c2e43;let _0x5b7f4b=await BuryPointProjectModel['getProjectByProjectId'](_0x177fb0);const{name:_0x26c98a}=_0x5b7f4b[0x0];_0x7c2e43['projectName']=_0x26c98a;let _0x4c7299=[];if(_0x2da63c){let _0xe2198b=JSON['parse'](_0x2da63c);for(let _0x3bf718=0x0;_0x3bf718<_0xe2198b['length'];_0x3bf718++){let _0x1031ac=_0xe2198b[_0x3bf718]['pointId'];let _0x4e8d6b=await BuryPointWarehouseModel['detail'](_0x1031ac);const _0x1bff2b={};_0x1bff2b['pointName']=_0x4e8d6b['pointName'];_0x1bff2b['pointId']=_0x1031ac;_0x1bff2b['taskPointDes']=_0xe2198b[_0x3bf718]['taskPointDes'];_0x4c7299['push'](_0x1bff2b);}}_0x7c2e43['points']=_0x4c7299;}_0xe01c28['response']['status']=0xc8;_0xe01c28['body']=statusCode['SUCCESS_200']("sseccus".split("").reverse().join(""),{'list':_0x30e3c0,'total':_0x1fba6e});}static async['detail'](_0x291312){let{taskId:_0x561e9c}=JSON['parse'](_0x291312['request']['body']);const _0x152f46=await BuryPointTaskModel['detail'](_0x561e9c);const _0x520e9f=_0x152f46['length']?_0x152f46[0x0]:null;const{projectId:_0x4efec1,taskPoint:_0xf1ff9}=_0x520e9f;let _0x1590f8=await BuryPointProjectModel['getProjectByProjectId'](_0x4efec1);const{name:_0x2fcd13}=_0x1590f8[0x0];_0x520e9f['projectName']=_0x2fcd13;let _0x1b2bf6=[];if(_0xf1ff9){let _0x8c985=JSON['parse'](_0xf1ff9);for(let _0x2af0b0=0x0;_0x2af0b0<_0x8c985['length'];_0x2af0b0++){let _0x32d374=_0x8c985[_0x2af0b0]['pointId'];let _0x5f4ec9=await BuryPointWarehouseModel['detail'](_0x32d374);const _0x5684f8={};_0x5684f8['pointName']=_0x5f4ec9['pointName'];_0x5684f8['pointId']=_0x32d374;_0x5684f8['taskPointDes']=_0x8c985[_0x2af0b0]['taskPointDes'];let _0x274d35=await BuryPointFieldModel['getListByFieldIdsAndWeType'](_0x5f4ec9['fields'],0x0);_0x5684f8['fieldList']=_0x274d35;_0x1b2bf6['push'](_0x5684f8);}}_0x520e9f['points']=_0x1b2bf6;_0x291312['response']['status']=0xc8;_0x291312['body']=statusCode['SUCCESS_200']("sseccus".split("").reverse().join(""),_0x520e9f);}static async['updateStatus'](_0x105fa4){let{taskId:_0x5520b2,taskStatus:_0x36d879}=JSON['parse'](_0x105fa4['request']["\u0062\u006f\u0064\u0079"]);const _0x5e25bc=await BuryPointTaskModel['updateStatus'](_0x5520b2,_0x36d879);_0x105fa4['response']['status']=0xc8;_0x105fa4['body']=statusCode['SUCCESS_200']('success',_0x5e25bc);}static async['changeHandleMan'](_0x4ff766){let{taskId:_0x4ee2d8,handleManId:_0x56e9c3,handleManName:_0x54e914}=JSON['parse'](_0x4ff766['request']['body']);const _0x97250=await BuryPointTaskModel['changeHandleMan'](_0x4ee2d8,_0x56e9c3,_0x54e914);_0x4ff766['response']['status']=0xc8;_0x4ff766['body']=statusCode['SUCCESS_200']('success',_0x97250);}}function _0x28141f(_0x202845,_0x30dd5e,_0x58bec9,_0x3cc3e8,_0x48dfb1){return _0x425a(_0x3cc3e8- -0x3c0,_0x48dfb1);}class MessageController{static async['createNewMessage'](_0x1b28ab){let _0x4558c6=JSON['parse'](_0x1b28ab['request']['body']);const{id:_0xcd4f94,ruleName:_0x3a07b3,loopTime:_0x31f6cd,quietStartTime:_0x17c6fb,quietEndTime:_0x5de5ec}=_0x4558c6;const _0x23c65f=JSON['stringify'](_0x4558c6['ruleList']);const _0x14099={'ruleName':_0x3a07b3,'loopTime':_0x31f6cd,'quietStartTime':_0x17c6fb,'quietEndTime':_0x5de5ec,'ruleList':_0x23c65f};if(_0x3a07b3){if(_0xcd4f94){_0x14099['id']=_0xcd4f94;await MessageModel['updateMessage'](_0xcd4f94,_0x14099);}else{await MessageModel['createMessage'](_0x14099);}_0x1b28ab['response']['status']=0xc8;_0x1b28ab['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x1b28ab['response']["\u0073\u0074\u0061\u0074\u0075\u0073"]=0x19c;_0x1b28ab['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['getAllMessage'](_0x45e20e){let _0x58d5cb=_0x45e20e['request']['body'];const _0x45f5b1=JSON['parse'](_0x58d5cb);let _0x251b24=await MessageModel['getAllMessage'](_0x45f5b1);_0x45e20e['response']['status']=0xc8;_0x45e20e['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x251b24);}static async['getMessageByType'](_0x2a5ede){const _0x3fdcbf={'AVjpU':function(_0x4f65be,_0x509089,_0x183408){return _0x4f65be(_0x509089,_0x183408);}};let _0x37416f=_0x2a5ede['request']['body'];const _0x59ddff=JSON['parse'](_0x37416f);const{userId:_0x141cf0}=_0x2a5ede['user'];_0x59ddff['userId']=_0x141cf0;let _0x52bc58=await MessageModel['getMessageByType'](_0x59ddff);let _0x3ae302=await MessageModel['getUnReadMessageCountByType'](_0x59ddff);let _0x1255e7=0x0;let _0x5a8a2b=0x0;if(_0x3ae302){_0x3ae302['forEach'](_0x271aa6=>{if(_0x271aa6['isRead']===0x0){_0x1255e7=_0x3fdcbf['AVjpU'](parseInt,_0x271aa6['count'],0xa);}_0x5a8a2b+=parseInt(_0x271aa6['count'],0xa);});}const _0x5a5311={'messages':_0x52bc58,'unReadCount':_0x1255e7,'total':_0x5a8a2b};_0x2a5ede['response']['status']=0xc8;_0x2a5ede['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x5a5311);}static async['readMessage'](_0x5ee2d1){let _0x363b44=JSON['parse'](_0x5ee2d1['request']['body']);const{messageId:_0x45b714}=_0x363b44;const _0x529779=MessageModel['getMessageDetail'](_0x45b714);_0x529779['isRead']=0x1;await MessageModel['updateMessage'](_0x45b714,_0x529779);_0x5ee2d1['response']['status']=0xc8;_0x5ee2d1['body']=statusCode['SUCCESS_200']('查询信息列表成功！',0x0);}static async['readAll'](_0x391c63){let _0x31319f=JSON['parse'](_0x391c63['request']['body']);const{messageType:_0x35869e}=_0x31319f;const{userId:_0x59b037}=_0x391c63['user'];MessageModel['readAll'](_0x59b037,_0x35869e);_0x391c63["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x391c63['body']=statusCode['SUCCESS_200']('查询信息列表成功！',0x0);}static async['detail'](_0x33b8cb){return await MessageModel['getMessageDetail'](_0x33b8cb);}}class CommonInitDataController{static async['handleWeFieldData'](_0x2e780b,_0x2437e1){const _0x3c2733={'WNRFO':function(_0x3311a9,_0x2d147f){return _0x3311a9<_0x2d147f;}};for(let _0x53cb32=0x0;_0x3c2733['WNRFO'](_0x53cb32,weFieldList['length']);_0x53cb32++){let _0x2b8bb2=weFieldList[_0x53cb32];let{fieldName:_0x29fe91,fieldAlias:_0x1d5cf1,fieldType:_0xb31cc4,fieldLength:_0x94c5b8,groupByFlag:_0x28d86f,fieldDesc:_0x423c95,weType:_0x5151d4}=_0x2b8bb2;const _0xd08f65=await BuryPointFieldModel['existSameField'](_0x2e780b,_0x29fe91,_0x1d5cf1,_0xb31cc4,_0x94c5b8);if(!_0xd08f65||_0xd08f65&&_0xd08f65['length']===0x0){_0x2b8bb2['projectId']=_0x2e780b;_0x2b8bb2['createBy']=_0x2437e1;let _0x2c6e64=await BuryPointFieldModel['create'](_0x2b8bb2);}}}static async['handleWePointData'](_0x728c9a,_0x2e5f69){const _0x40bc19={'lIeIk':function(_0x3b3be7,_0x3eb892){return _0x3b3be7<_0x3eb892;},'oeNhq':function(_0x4df6ae,_0x29b818){return _0x4df6ae===_0x29b818;},'aMRiI':function(_0x15c500,_0x3fa7ae){return _0x15c500+_0x3fa7ae;}};for(let _0x13e2a1=0x0;_0x40bc19['lIeIk'](_0x13e2a1,wePointList['length']);_0x13e2a1++){let _0x35ee89=wePointList[_0x13e2a1];let{pointName:_0x4654bc,pointDesc:_0x444dc7,weType:_0x5b2fe1,replacePointIdKey:_0x5bc260,fieldList:_0x34012e}=_0x35ee89;let _0x1cdec7='';for(let _0x3cc3d2=0x0;_0x40bc19['lIeIk'](_0x3cc3d2,_0x34012e['length']);_0x3cc3d2++){let _0x4d9164=_0x34012e[_0x3cc3d2];let{fieldName:_0x547dd8,fieldAlias:_0x3f0ce9,fieldType:_0x7c37a4,fieldLength:_0x1a7db1,groupByFlag:_0xc27847,fieldDesc:_0x2f4afe,weType:_0x3f7a79}=_0x4d9164;const _0x2d0d4f=await BuryPointFieldModel['existSameField'](_0x728c9a,_0x547dd8,_0x3f0ce9,_0x7c37a4,_0x1a7db1);if(!_0x2d0d4f||_0x2d0d4f&&_0x40bc19['oeNhq'](_0x2d0d4f['length'],0x0)){_0x4d9164['projectId']=_0x728c9a;_0x4d9164['createBy']=_0x2e5f69;let _0x12546c=await BuryPointFieldModel['create'](_0x4d9164);_0x1cdec7=_0x40bc19['aMRiI'](_0x1cdec7+_0x12546c['id'],',');}else{_0x1cdec7=_0x1cdec7+_0x2d0d4f[0x0]['id']+',';}}_0x1cdec7=_0x1cdec7['substring'](0x0,_0x1cdec7['lastIndexOf'](','));let _0x2e31eb=await BuryPointWarehouseModel['getByProjectIdAndFieldIds'](_0x728c9a,_0x1cdec7);if(_0x2e31eb&&_0x2e31eb['length']>0x0){}else{_0x35ee89['fields']=_0x1cdec7;_0x35ee89['createBy']=_0x2e5f69;_0x35ee89['projectId']=_0x728c9a;await BuryPointWarehouseModel['create'](_0x35ee89);}}}static async['handleWeCardData'](_0x4a03f6,_0x2dfacf,_0x58c5d4){const _0x4038ce={'iFJOF':function(_0x212d0d,_0x31c0ae){return _0x212d0d>_0x31c0ae;},'ZAUyY':function(_0x1f5612,_0x2b11bc){return _0x1f5612+_0x2b11bc;}};let _0x4a9ff8=await BuryPointWarehouseModel['getWePointIdsByProjectId'](_0x4a03f6);let _0xed0cee=_0x4a9ff8&&_0x4038ce['iFJOF'](_0x4a9ff8['length'],0x0)?_0x4a9ff8[0x0]['id']:'';for(let _0x2d7655=0x0;_0x2d7655<weCardList['length'];_0x2d7655++){let _0x2fa374=weCardList[_0x2d7655];_0x2fa374['createBy']=_0x58c5d4;_0x2fa374['pageId']=_0x2dfacf;let _0x29b5b3=JSON['parse'](_0x2fa374['calcRule']);let _0x3d8dd9=[];for(let _0x1ebfcc=0x0;_0x1ebfcc<_0x29b5b3['length'];_0x1ebfcc++){let _0x233d6e=_0x29b5b3[_0x1ebfcc];let _0x595b3b=_0x233d6e['calcName'];_0x233d6e['calcNameKey']=_0x4038ce['ZAUyY'](slugify(_0x595b3b)['replace'](/-/g,''),new Date()['Format']('yyyyMMddhhmmss'));_0x233d6e['prePoint']['pointId']=_0xed0cee;_0x3d8dd9['push'](_0x233d6e);}_0x2fa374['calcRule']=JSON['stringify'](_0x3d8dd9);BuryPointCardModel['create'](_0x2fa374);}}static async['initWeFieldAndPointData'](_0x59ddcc,_0x3da17a){await CommonInitDataController['handleWePointData'](_0x59ddcc,_0x3da17a);await CommonInitDataController['handleWeFieldData'](_0x59ddcc,_0x3da17a);}static async['handleOldFieldData'](_0x567491,_0x5a4255){const _0x14e626={'gXGbc':function(_0x1f1317,_0x576a20){return _0x1f1317<_0x576a20;},'wKmff':function(_0x37199e,_0x2a881d){return _0x37199e>_0x2a881d;}};let _0x356669=await BuryPointFieldModel['getOldList']();for(let _0x66ab16=0x0;_0x14e626['gXGbc'](_0x66ab16,_0x356669['length']);_0x66ab16++){let{fieldName:_0x5ae411,fieldAlias:_0x18f4a0,fieldType:_0x19f451,fieldLength:_0xdca85,groupByFlag:_0x25a118,fieldDesc:_0x69fecd,weType:_0x12af23,createBy:_0x2f4eea}=_0x356669[_0x66ab16];const _0x5a7556=await BuryPointFieldModel['existSameField'](_0x567491,_0x5ae411,_0x18f4a0,_0x19f451,_0xdca85);if(_0x5a7556&&_0x14e626['wKmff'](_0x5a7556['length'],0x0)){}else{let _0xd6cc0c={};_0xd6cc0c['weType']=_0x12af23;_0xd6cc0c['projectId']=_0x567491;_0xd6cc0c['fieldName']=_0x5ae411;_0xd6cc0c['fieldAlias']=_0x18f4a0;_0xd6cc0c['fieldType']=_0x19f451;_0xd6cc0c['fieldLength']=_0xdca85;_0xd6cc0c['groupByFlag']=_0x25a118;_0xd6cc0c['fieldDesc']=_0x69fecd;_0xd6cc0c['createBy']=_0x2f4eea?_0x2f4eea:_0x5a4255;await BuryPointFieldModel['create'](_0xd6cc0c);}}}static async['handleData'](_0x3d0631,_0xbc44e4){const{id:_0x1c164b,projectId:_0xddaef3,name:_0x6b0b34,createBy:_0x5429cf}=_0x3d0631;let _0x230036=[];let _0x1479f2=new Date()['Format']('yyyyMMddhhmmss');let _0x3f0a48=await BuryPointProjectModel['getListByParentId'](_0x1c164b);for(let _0xd71070=0x0;_0xd71070<_0x3f0a48['length'];_0xd71070++){let _0x4dfc25=await BuryPointProjectModel['getListByParentId'](_0x3f0a48[_0xd71070]['id']);for(let _0x18d52b=0x0;_0x18d52b<_0x4dfc25['length'];_0x18d52b++){let _0x2c876b=_0x4dfc25[_0x18d52b]['id'];let _0x32da24=await BuryPointCardModel['getByPageId'](_0x2c876b);for(let _0x5ad544=0x0;_0x5ad544<_0x32da24['length'];_0x5ad544++){let _0x5e9b53=_0x32da24[_0x5ad544]['id'];let _0x37855c=_0x32da24[_0x5ad544]['type'];let _0x306d02=JSON['parse'](_0x32da24[_0x5ad544]['calcRule']);let _0x1f3de2=[];let _0x106a17=[];for(let _0x2050bb=0x0;_0x2050bb<_0x306d02['length'];_0x2050bb++){let _0x283a66=_0x306d02[_0x2050bb];let _0xf8e91=_0x283a66['prePoint'];let _0x2a407c=_0xf8e91['pointId'];let _0x11e5ae=await BuryPointWarehouseController['copyPoint'](_0xddaef3,_0x2a407c,_0x5429cf);_0x230036["\u0070\u0075\u0073\u0068"](_0x11e5ae);_0x283a66['prePoint']['pointId']=_0x11e5ae;let _0x1df220=_0x283a66['endPoint'];if(_0x1df220){let _0x1f7120=await BuryPointWarehouseController['copyPoint'](_0xddaef3,_0x1df220['pointId'],_0x5429cf);_0x230036['push'](_0x1f7120);_0x283a66['endPoint']['pointId']=_0x1f7120;}_0x1f3de2['push'](_0x283a66);if(_0x37855c===0x5){_0x106a17['push'](_0x11e5ae);}}_0x32da24[_0x5ad544]['calcRule']=JSON['stringify'](_0x1f3de2);if(_0x37855c===0x5){BuryPointCardController['saveFunnelPointRelation'](_0x106a17,_0x5e9b53);}BuryPointCardModel['update'](_0x5e9b53,_0x32da24[_0x5ad544]);}}}let _0x499108=[...new Set(_0x230036)];SdkReleaseController['createNewSdk'](_0xddaef3,_0x6b0b34+_0x1479f2,_0x499108,_0xbc44e4);}static async['initWeTemplatePointAndField'](_0x296fd5,_0x45ae37,_0x3ff603){const _0x4aafd2={'tcLfT':function(_0x3a44b6,_0x411675){return _0x3a44b6===_0x411675;},'zzBZY':function(_0x895f87,_0x5e9b4a){return _0x895f87+_0x5e9b4a;},'YScTm':function(_0x4cff69,_0x398b5e){return _0x4cff69+_0x398b5e;}};let _0x33bd1=JSON['parse'](_0x45ae37);let _0x402fe4=[];for(let _0x36ec61=0x0;_0x36ec61<_0x33bd1['length'];_0x36ec61++){let _0x4d4907={};let _0x34cae5=_0x33bd1[_0x36ec61];let{pointId:_0xb77e86,fieldList:_0x1384f3}=_0x34cae5;_0x4d4907['oldPointId']=_0xb77e86;let _0x31a804='';let _0x587158;for(let _0x174066=0x0;_0x174066<_0x1384f3['length'];_0x174066++){let _0x410ed9=_0x1384f3[_0x174066];let{fieldName:_0x500f52,fieldAlias:_0x6e789b,fieldType:_0xb495ce,fieldLength:_0x31e64f}=_0x410ed9;const _0x118862=await BuryPointFieldModel['existSameField'](_0x296fd5,_0x500f52,_0x6e789b,_0xb495ce,_0x31e64f);if(!_0x118862||_0x118862&&_0x4aafd2['tcLfT'](_0x118862['length'],0x0)){_0x410ed9['projectId']=_0x296fd5;_0x410ed9['createBy']=_0x3ff603;let _0x242394=await BuryPointFieldModel['create'](_0x410ed9);_0x31a804=_0x4aafd2['zzBZY'](_0x4aafd2['YScTm'](_0x31a804,_0x242394['id']),',');}else{_0x31a804=_0x31a804+_0x118862[0x0]['id']+',';}}_0x31a804=_0x31a804['substring'](0x0,_0x31a804['lastIndexOf'](','));let _0x5bbc55=await BuryPointWarehouseModel['getByProjectIdAndFieldIds'](_0x296fd5,_0x31a804);if(_0x5bbc55&&_0x5bbc55['length']>0x0){_0x587158=_0x5bbc55[0x0]['id'];}else{_0x34cae5['fields']=_0x31a804;_0x34cae5['createBy']=_0x3ff603;_0x34cae5['projectId']=_0x296fd5;let _0x25ca13=await BuryPointWarehouseModel['create'](_0x34cae5);_0x587158=_0x25ca13['id'];}_0x4d4907['newPointId']=_0x587158;_0x402fe4['push'](_0x4d4907);}return _0x402fe4;}static async['getNewPointId'](_0x5af98e,_0x23e0cd){for(let _0x20e236=0x0;_0x20e236<_0x23e0cd['length'];_0x20e236++){if(_0x5af98e===_0x23e0cd[_0x20e236]['oldPointId']){return _0x23e0cd[_0x20e236]['newPointId'];}}}}class TeamController{static async['create'](_0x3e8cbc){const _0x202393={'aRZwK':function(_0x3b89d6,_0x5d291a){return _0x3b89d6===_0x5d291a;},'hIIhu':function(_0x37a9b3,_0x32d224){return _0x37a9b3>=_0x32d224;},'uVtEg':function(_0x251026,_0x1f90c0){return _0x251026<=_0x1f90c0;},'AqEIG':'创建信息成功'};let _0x5dfe36=_0x3e8cbc['request']['body'];if(_0x5dfe36['title']&&_0x5dfe36['author']&&_0x5dfe36['content']&&_0x5dfe36['category']){const _0x4294f1=await TeamModel['getAllTeamList']();let _0xcb8333=0x0;_0x4294f1['forEach'](_0xaf7172=>{_0xcb8333++;});if((_0x202393['aRZwK'](global['eventInfo']['purchaseCodeType'],0x0)||_0x202393['hIIhu'](global['eventInfo']['purchaseCodeType'],0x1e)&&_0x202393['uVtEg'](global['eventInfo']['purchaseCodeType'],0x21))&&_0x202393['hIIhu'](_0xcb8333,0x2)){_0x3e8cbc['response']['status']=0x19c;_0x3e8cbc['body']=statusCode['ERROR_412']('您好，个人(试用)版用户最多只能够创建一个团队，升级为正式版，则可以无限创建团队哦。');return;}let _0x5ecfd7=await TeamModel['createTeam'](_0x5dfe36);let _0x2079bb=await TeamModel['getTeamDetail'](_0x5ecfd7['id']);_0x3e8cbc['response']['status']=0xc8;_0x3e8cbc['body']=statusCode['SUCCESS_200'](_0x202393['AqEIG'],_0x2079bb);}else{_0x3e8cbc['response']['status']=0x19c;_0x3e8cbc['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['createNewTeam'](_0x74c7ca){let _0x8d671f=JSON['parse'](_0x74c7ca['request']['body']);const{teamName:_0x43cc1e}=_0x8d671f;const{userId:_0x390e2c}=_0x74c7ca['user'];const _0x19e1cc={'teamName':_0x43cc1e,'leaderId':_0x390e2c,'members':_0x390e2c,'webMonitorIds':''};await TeamModel['createTeam'](_0x19e1cc);_0x74c7ca['response']['status']=0xc8;_0x74c7ca['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}static async['deleteTeam'](_0x2a9774){const _0x10c6cb={'TMbiC':'success'};let _0x4d6408=JSON['parse'](_0x2a9774['request']['body']);const{id:_0x17b60e}=_0x4d6408;const _0x4ca814=await TeamModel['getTeamDetail'](_0x17b60e);const _0x3244a5=_0x4ca814['webMonitorIds'];const _0x16855f=await BuryPointProjectModel['getProjectListByWebMonitorIds'](_0x3244a5,'');if(_0x16855f['length']<=0x0){await TeamModel['deleteTeam'](_0x17b60e);_0x2a9774['response']['status']=0xc8;_0x2a9774['body']=statusCode['SUCCESS_200'](_0x10c6cb['TMbiC'],'');}else{_0x2a9774['response']['status']=0xc8;_0x2a9774['body']=statusCode['SUCCESS_200']('success','当前team下还有项目，无法执行删除操作！');}}static async['moveProToTeam'](_0x34e747){let _0x3af677=JSON['parse'](_0x34e747['request']['body']);const{showMoveMonitorId:_0x426411,chooseTeamId:_0x31b566}=_0x3af677;const _0x5bb89d=await TeamModel['getTeamDetail'](_0x31b566);const _0x2f25a1=_0x5bb89d['webMonitorIds']+','+_0x426411;await TeamModel['updateTeam'](_0x31b566,{'webMonitorIds':_0x2f25a1});_0x34e747['response']['status']=0xc8;_0x34e747['body']=statusCode['SUCCESS_200']('success','');}static async['getTeamList'](_0xd39cc8){const{userId:_0x34a551,userType:_0x52df7d}=_0xd39cc8['user'];const _0x3bebab=await Utils['requestForTwoProtocol']('post',accountInfo['centerServerDomain']+'/wfManage/getTeamListWithoutToken',{'userId':_0x34a551,'userType':_0x52df7d});if(!_0x3bebab){_0xd39cc8['response']['status']=0x19c;_0xd39cc8['body']=statusCode['ERROR_412']('团队列表获取失败！');return;}const _0x463b70=_0x3bebab['data'];for(let _0x3a0eed=0x0;_0x3a0eed<_0x463b70['length'];_0x3a0eed++){const _0x4ff17a=_0x463b70[_0x3a0eed];const{leaderId:_0x43088f,members:_0x55903d,webMonitorIds:_0x2babf8}=_0x4ff17a;const _0x9e5c=await UserModel['getUserListByMembers'](_0x55903d);_0x4ff17a['members']=_0x9e5c;_0x9e5c['forEach'](_0x521147=>{if(_0x521147['userId']==_0x43088f){_0x4ff17a['leader']=_0x521147;return![];}});const _0x399a6b=await BuryPointProjectModel['getProjectListByWebMonitorIds'](_0x2babf8,'');_0x4ff17a['projects']=_0x399a6b;}_0xd39cc8['response']['status']=0xc8;_0xd39cc8['body']=statusCode['SUCCESS_200']('success',_0x463b70);}static async['getTeams'](_0x424138){const _0x568842={'Fsqcu':'团队列表获取失败！'};const{userId:_0x29ca33,userType:_0x21560b}=_0x424138['user'];const _0x4ee8e0=await Utils['requestForTwoProtocol']('post',MANAGE_API['GET_TEAMS'],{'userId':_0x29ca33,'userType':_0x21560b});if(!_0x4ee8e0){_0x424138['response']['status']=0x19c;_0x424138['body']=statusCode['ERROR_412'](_0x568842['Fsqcu']);return;}const _0x183cb=_0x4ee8e0['data'];_0x424138["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x424138['body']=statusCode['SUCCESS_200']('success',_0x183cb);}static async['addTeamMember'](_0x5cabf3){let _0x334896=JSON['parse'](_0x5cabf3['request']['body']);const{id:_0x2a985e,members:_0x4e275f}=_0x334896;await TeamModel['updateTeam'](_0x2a985e,{'members':_0x4e275f});_0x5cabf3['response']['status']=0xc8;_0x5cabf3['body']=statusCode['SUCCESS_200']('success','');}static async['updateTeamProjects'](_0x196f89){let _0x359e46=JSON['parse'](_0x196f89['request']['body']);const{id:_0x238263,webMonitorIds:_0x45ee61}=_0x359e46;await TeamModel['updateTeam'](_0x238263,{'webMonitorIds':_0x45ee61});_0x196f89['response']['status']=0xc8;_0x196f89['body']=statusCode['SUCCESS_200']('success','');}static async['getAllTeamList'](_0x3aa6aa){const _0x11e8b2=await TeamModel['getAllTeamList']();_0x3aa6aa['response']['status']=0xc8;_0x3aa6aa['body']=statusCode['SUCCESS_200']('success',_0x11e8b2);}}class ConfigController{static async['create'](_0x5d13d7){const _0x340530={'EAgsm':'创建信息成功'};let _0x2719f4=_0x5d13d7['request']['body'];if(_0x2719f4['title']&&_0x2719f4['author']&&_0x2719f4['content']&&_0x2719f4['category']){let _0x2b5f3d=await ConfigModel['createConfig'](_0x2719f4);let _0x640090=await ConfigModel['getConfigDetail'](_0x2b5f3d['id']);_0x5d13d7['response']['status']=0xc8;_0x5d13d7['body']=statusCode['SUCCESS_200'](_0x340530['EAgsm'],_0x640090);}else{_0x5d13d7['response']['status']=0x19c;_0x5d13d7['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['refreshTokenList'](){const _0x57e04b=await ConfigModel['getAllConfigList']();const _0x4e40c7={};_0x57e04b['forEach'](_0x596369=>{_0x4e40c7[_0x596369['configName']]=_0x596369['configValue'];});global['eventInfo']['tokenListInMemory']=_0x4e40c7;}static async['getConfig'](_0x5925fe){const _0x2707ce=await ConfigModel['getConfigByConfigName'](_0x5925fe);return _0x2707ce;}static async['updateConfig'](_0xd23c4a,_0x3f9529){const _0xd37929=await ConfigModel['getConfigByName'](_0xd23c4a);if(_0xd37929){await ConfigModel['updateConfig'](_0xd23c4a,_0x3f9529);}else{await ConfigModel['createConfig']({'configName':_0xd23c4a,..._0x3f9529});}}}let webfunnyVersion=_0x239d8a(-0x533,-0x143,0x1f0,0x143,-0x3d6);class Common{static async['consoleLogo'](){CommonUtil['consoleLogo']();}static async['consoleInfo'](_0x269a40){CommonUtil['consoleInfo'](_0x269a40);}static async['checkPurchase'](_0x5bbdb5,_0x327315){CommonUtil['checkPurchase'](_0x5bbdb5,_0x327315);}static async['upLog'](_0x3597c4){CommonUpLog['upLog'](_0x3597c4);}static async['startReceiveMsg'](){const _0x681b9e={'zoMsT':function(_0x5da053){return _0x5da053();},'oBtBC':function(_0x58f665){return _0x58f665();},'rnOnT':'获取消息失败'};try{const _0x1ccce5=new RabbitMq();_0x1ccce5['receiveQueueMsg']('upload_log_event',async(_0x2ea433,_0x4bb578)=>{try{const _0x57dbf3=JSON['parse'](_0x2ea433);SdkReleaseController['handleUpEventData'](_0x57dbf3);_0x681b9e['zoMsT'](_0x4bb578);}catch(_0x35b267){_0x681b9e['oBtBC'](_0x4bb578);log['printError'](_0x35b267);}},()=>{log['printError'](_0x681b9e['rnOnT']);});}catch(_0x270b69){log['printError']('消息队列接收端启动失败');}}static async['getAllTableList'](){const _0x56ee2d=await CommonModel['getAllTableList'](accountInfo['mysqlConfig']['write']['dataBaseName']);return _0x56ee2d;}static async['startDelete'](){const _0x10893e={'CnIYU':function(_0x3d3012,_0x723f8f){return _0x3d3012-_0x723f8f;},'qYCTs':function(_0x95b43f,_0x49a264,_0xd4771f){return _0x95b43f(_0x49a264,_0xd4771f);},'QqqUz':function(_0x92cfa9,_0x4f75d5){return _0x92cfa9-_0x4f75d5;}};let _0x5d89c7=_0x10893e['qYCTs'](parseInt,accountInfo['saveDays'],0xa)+0x1;const _0x414ac8=Utils['addDays'](_0x10893e['QqqUz'](0x0,_0x5d89c7))['replace'](/-/g,'');const _0x1dbc0c=[];const _0x47aa31=await Common['getAllTableList']();_0x47aa31['forEach'](_0x55b6bb=>{if(_0x55b6bb['tableName']['substr'](_0x10893e['CnIYU'](_0x55b6bb['tableName']['length'],0x8),_0x55b6bb['tableName']['length'])<_0x414ac8){_0x1dbc0c['push'](_0x55b6bb['tableName']);}});_0x1dbc0c['forEach'](async _0xc9e190=>{await Sequelize['dropSchema'](_0xc9e190)['then'](()=>{log['printInfo']('成功删除数据库表:\x20'+_0xc9e190);});});log['printInfo']("\u8868\u5220\u9664\u7a0b\u5e8f\u7ed3\u675f\u3011");}static async['deleteTableByWebMonitorId'](_0x4528d1,_0x11453f){const _0x5233dd={'UqhOx':function(_0x50edcf,_0x23d7f3){return _0x50edcf+_0x23d7f3;},'RDaLu':'开始删除数据库表\x20','qxhZU':'【根据projectId和pointId，即将开始表删除程序...'};log['printInfo'](_0x5233dd['qxhZU']);const _0x3ab1ac=Utils['addDays'](0x0-_0x11453f)['replace'](/-/g,'');const _0x45c68a=['BehaviorInfo'];try{_0x45c68a['forEach'](async _0x223101=>{let _0x1d899c=_0x4528d1+_0x223101+_0x3ab1ac;log['printInfo'](_0x5233dd['UqhOx'](_0x5233dd['RDaLu']+_0x1d899c,'...'));await Sequelize['dropSchema'](_0x1d899c)['then'](()=>{log['printInfo']('成功删除数据库表\x20'+_0x1d899c);});});}catch(_0x34e0cf){log['printError']('删除表操作报错',_0x34e0cf);}log['printInfo']('表删除程序结束】');}static async['pm2Flush'](){const _0x322788={'QDpUo':'pm2\x20flush\x20error：'};process['exec']('pm2\x20flush\x20&',function(_0x2fafcd,_0x214796,_0x4ef307){if(_0x2fafcd){log['printError'](_0x322788['QDpUo'],_0x2fafcd);}});}static async['pushInfo'](_0x1f4927){const _0x598ca7={'cgfdT':'success'};await Utils['get']('http://www.webfunny.cn/config/pushInfo',{})['then'](_0x2ead9a=>{const _0x13207d=_0x2ead9a['data'];_0x1f4927['response']['status']=0xc8;_0x1f4927['body']=statusCode['SUCCESS_200'](_0x598ca7['cgfdT'],_0x13207d);})['catch'](()=>{_0x1f4927['response']['status']=0xc8;_0x1f4927['body']=statusCode['SUCCESS_200']('success',null);});}static async['updateInfo'](_0x1b137f){const _0x2b21a7={'NYfPV':'success'};await Utils['get']('http://www.webfunny.cn/config/updateInfo',{})['then'](_0x54ee21=>{const _0x6bcde6=_0x54ee21['data'];_0x1b137f['response']['status']=0xc8;_0x1b137f['body']=statusCode['SUCCESS_200']('success',_0x6bcde6);})['catch'](()=>{_0x1b137f['response']['status']=0xc8;_0x1b137f['body']=statusCode['SUCCESS_200'](_0x2b21a7['NYfPV'],null);});}static async['projectVersion'](_0xa51e5b){_0xa51e5b['response']['status']=0xc8;_0xa51e5b['body']=statusCode['SUCCESS_200']('success',PROJECT_INFO['PROJECT_VERSION']);}static async['getConcurrencyByMinuteInHour'](_0x177954){const _0x4d3e15={'hwANV':'success'};const _0x3c0f8d=global['eventInfo']['logCountInMinuteList'];_0x177954['response']['status']=0xc8;_0x177954['body']=statusCode['SUCCESS_200'](_0x4d3e15['hwANV'],{'logCountInMinuteList':_0x3c0f8d});}static async['restartServer'](){CommonUtil['restartServer']();}static async['getSysInfo'](_0x376189){const _0x1720a3={'xDyNi':function(_0x146c41,_0x1e41b8){return _0x146c41(_0x1e41b8);},'arjdD':function(_0x533711,_0x57e18f,_0x345b2f){return _0x533711(_0x57e18f,_0x345b2f);},'TMhTs':'success'};const{accountInfo:_0x50dd2e}=AccountConfig;const _0xf0cdd2=await UserModel['checkAdminAccount']();const _0x5493c2=_0xf0cdd2[0x0]['count']*0x1;const{webfunnyNeedLogin:_0x125f48,messageQueue:_0xba1a73,localServerDomain:_0x2a647d,localServerPort:_0x1d8c6b,localAssetsDomain:_0x482b09,localAssetsPort:_0x5b6e0e,centerAssetsDomain:_0x1088e1,mainDomain:_0x561b11,openMonitor:_0x9fd0c9}=_0x50dd2e;const{purchaseCodeEndDate:_0xcfacc7,purchaseCodeValid:_0x44ebf4,purchaseCodeType:_0x53ef84,purchaseCodeCardCount:_0x2fc8cb}=global['eventInfo'];const _0x569bc2=await BuryPointCardModel['getCountByNoSysType']('');let _0x1e2ca3=_0x1720a3['xDyNi'](isNaN,_0x569bc2[0x0]['count'])?0x0:_0x569bc2[0x0]['count'];let _0xc01e75=_0x1720a3['arjdD'](parseInt,_0x2fc8cb,0xa)-parseInt(_0x1e2ca3,0xa);_0x376189['response']['status']=0xc8;_0x376189['body']=statusCode['SUCCESS_200'](_0x1720a3['TMhTs'],{'cardLeaveCount':_0xc01e75,'webfunnyVersion':webfunnyVersion,'webfunnyNeedLogin':_0x125f48,'messageQueue':_0xba1a73,'purchaseCodeEndDate':_0xcfacc7,'purchaseCodeValid':_0x44ebf4,'pct':_0x53ef84,'localServerDomain':_0x2a647d,'localServerPort':_0x1d8c6b,'localAssetsDomain':_0x482b09,'localAssetsPort':_0x5b6e0e,'centerAssetsDomain':_0x1088e1,'mainDomain':_0x561b11,'adminUserCount':_0x5493c2,'openMonitor':_0x9fd0c9});}static async['monitorVersion'](_0x24c9bc){const _0x14add6={'tCOFQ':'success'};_0x24c9bc['response']['status']=0xc8;_0x24c9bc['body']=statusCode['SUCCESS_200'](_0x14add6['tCOFQ'],PROJECT_INFO['MONITOR_VERSION']);}static async['dockerHealth'](_0x3f0882){_0x3f0882['response']['status']=0xc8;_0x3f0882['body']={'status':'OK'};}static async["tset".split("").reverse().join("")](_0x2a6954){_0x2a6954['response']['status']=0xc8;_0x2a6954['body']=statusCode['SUCCESS_200']('success',{'Success':!![],'IsSensitive':![],'SensitiveFields':[],'SensitiveLevel':'cell'});}}class BuryPointTestController{static async['getPageList'](_0x479098){const _0x3b2b75={'xKYSD':function(_0x3f36e9,_0x24ef0e){return _0x3f36e9===_0x24ef0e;},'ehVYh':function(_0x1d0d92,_0x574864){return _0x1d0d92===_0x574864;},'efpuj':function(_0x307a27,_0x574cef){return _0x307a27&&_0x574cef;},'rhosw':'yyyy-MM-dd\x20hh:mm:ss','pSTvQ':function(_0x2a4826,_0x4d9902){return _0x2a4826(_0x4d9902);},'MAYEI':function(_0x21f5b4,_0x459376){return _0x21f5b4>_0x459376;},'xikgp':'yyyyMMdd','EfuWI':function(_0x3d8674,_0x50017c){return _0x3d8674+_0x50017c;},'UQGiJ':'\x20select\x20count(*)\x20as\x20count\x20from\x20','CTgOL':'\x20where\x201=1\x20','uKCwg':function(_0x569704,_0x1c7eff){return _0x569704<_0x1c7eff;},'jhSwc':function(_0x5bfd7d,_0x1832d5){return _0x5bfd7d+_0x1832d5;},'LDIJv':'\x20from\x20','tSMNo':function(_0x1f258f,_0x2d8417){return _0x1f258f+_0x2d8417;},'ZVXjd':function(_0x4ec70d,_0x15a8b5){return _0x4ec70d+_0x15a8b5;},'mlfaj':'\x20and\x20createdAt\x20>=\x27','wMCdL':function(_0x43a512,_0x3d45b1){return _0x43a512+_0x3d45b1;},'fXKPj':'\x20and\x20createdAt\x20<=\x27','nkkWF':'\x20order\x20by\x20createdAt\x20desc\x20limit\x20','QzrMN':function(_0x5a7d24,_0x284eb7){return _0x5a7d24*_0x284eb7;}};let _0x4d33ca=_0x479098['request']['body'];const _0x4682e7=JSON['parse'](_0x4d33ca);const{projectId:_0x2cb116,pointId:_0x1cb484,queryStartDate:_0x34f4ec,queryEndDate:_0x444216,page:_0x53e84f,pageSize:_0x569a17}=_0x4682e7;let _0x52462a;let _0x24f8a9;let _0x3497c8;if(_0x2cb116===undefined||_0x2cb116===''||_0x3b2b75['xKYSD'](_0x2cb116,null)){_0x479098['response']['status']=0x19c;_0x479098['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['TEST_PROJECT_FAIL']));return;}if(_0x1cb484===undefined||_0x1cb484===''||_0x3b2b75['ehVYh'](_0x1cb484,null)){_0x479098['response']['status']=0x19c;_0x479098['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['TEST_POINT_ID_FAIL']));return;}if(_0x3b2b75['efpuj'](_0x34f4ec,_0x444216)){_0x3497c8=new Date(new Date(_0x34f4ec)['getTime']())['Format']('yyyyMMdd');_0x52462a=new Date(new Date(_0x34f4ec)['getTime']())['Format']('yyyy-MM-dd\x20hh:mm:ss');_0x24f8a9=new Date(new Date(_0x444216)['getTime']())['Format']('yyyy-MM-dd\x20hh:mm:ss');let _0xd2726b=parseInt(accountInfo['saveDays'],0xa);var _0x309eda=new Date(new Date(new Date(_0x34f4ec)['getTime']())['Format']('yyyy-MM-dd\x20hh:mm:ss'));var _0xba6730=new Date(new Date(new Date()['getTime']())['Format'](_0x3b2b75['rhosw']));var _0xd2986f=(_0xba6730-_0x309eda)/0x3e8;var _0x154f7f=_0x3b2b75['pSTvQ'](parseInt,_0xd2986f/0x15180);if(_0x3b2b75['MAYEI'](_0x154f7f,_0xd2726b)){_0x479098['response']['status']=0x19c;_0x479098['body']=statusCode['ERROR_412']('只能查询前'+_0xd2726b+'天的数据！');return;}}else{_0x52462a=new Date(new Date()['getTime']())['Format']('yyyy-MM-dd');_0x24f8a9=new Date(new Date()['getTime']())['Format']('yyyy-MM-dd\x20hh:mm:ss');_0x3497c8=new Date(new Date()['getTime']())['Format'](_0x3b2b75['xikgp']);}let _0x3c20dc=_0x2cb116+'_'+_0x1cb484+'_';let _0x320947=_0x3b2b75['EfuWI'](_0x3c20dc,_0x3497c8);let _0x6c231e=_0x3b2b75['UQGiJ']+_0x320947+_0x3b2b75['CTgOL'];let _0x441c00='id,';try{let _0x526d57=await BuryPointWarehouseModel['detail'](_0x1cb484);const{pointName:_0x14a65c,fields:_0x55898f}=_0x526d57;let _0x48bfe5=await BuryPointFieldModel['getListByFieldIds'](_0x55898f);for(let _0x73a6e=0x0;_0x3b2b75['uKCwg'](_0x73a6e,_0x48bfe5['length']);_0x73a6e++){_0x441c00=_0x441c00+_0x48bfe5[_0x73a6e]['fieldName']+',';}_0x441c00=_0x3b2b75['EfuWI'](_0x441c00,'DATE_FORMAT(createdAt,\x27%Y-%m-%d\x20%H:%i:%s\x27)\x20AS\x20createdAt\x20');let _0xa795de=_0x3b2b75['jhSwc']('\x20select\x20'+_0x441c00,_0x3b2b75['LDIJv'])+_0x320947+'\x20where\x201=1\x20';let _0x18b979='';if(_0x52462a){_0x18b979=_0x3b2b75['tSMNo'](_0x3b2b75['ZVXjd'](_0x3b2b75['ZVXjd'](_0x18b979,_0x3b2b75['mlfaj']),_0x52462a),'\x27');}if(_0x24f8a9){_0x18b979=_0x3b2b75['wMCdL'](_0x18b979+_0x3b2b75['fXKPj'],_0x24f8a9)+'\x27';}_0x6c231e=_0x6c231e+_0x18b979;_0xa795de=_0x3b2b75['wMCdL'](_0xa795de,_0x18b979);const _0x925360=await BuryPointCardModel["\u0073\u0074\u0061\u0074\u0069\u0073\u0074\u0069\u0063\u0044\u0061\u0074\u0061"](_0x6c231e);let _0x3d7570=_0x925360?_0x3b2b75['pSTvQ'](isNaN,_0x925360[0x0]['count'])?0x0:_0x925360[0x0]['count']:0x0;_0xa795de=_0x3b2b75['jhSwc'](_0xa795de+_0x3b2b75['nkkWF']+_0x3b2b75['QzrMN'](_0x53e84f-0x1,_0x569a17)+',',_0x569a17);const _0x565435=await BuryPointCardModel['statisticData'](_0xa795de);const _0x436702=[];for(let _0x49d0cb=0x0;_0x49d0cb<_0x565435['length'];_0x49d0cb++){const _0x590e2e={};_0x590e2e['pointId']=_0x1cb484;_0x590e2e['pointName']=_0x14a65c;_0x590e2e['eventJson']=_0x565435[_0x49d0cb];_0x590e2e['createdAt']=_0x565435[_0x49d0cb]['createdAt'];_0x436702['push'](_0x590e2e);}_0x479098['response']['status']=0xc8;_0x479098['body']=statusCode['SUCCESS_200']('success',{'list':_0x436702,'totalCount':_0x3d7570});}catch(_0x4427af){_0x479098['response']['status']=0xc8;_0x479098['body']=statusCode['SUCCESS_200']('success',{'list':[],'totalCount':'0'});}}static async['search'](_0xc1f11f){const _0x17bcbb={'lkWwE':'descend','iMqHS':'list','TFhWx':function(_0x3db64d,_0x21b237){return _0x3db64d+_0x21b237;},'trigA':'\x2023:59:59','sVYil':function(_0x49a204,_0x5c144c){return _0x49a204*_0x5c144c;},'KBkFl':function(_0x1d2068,_0x1c22b5){return _0x1d2068-_0x1c22b5;},'ZTiBO':function(_0x45d3e3,_0xd49e25){return _0x45d3e3>_0xd49e25;},'eGvFb':function(_0x55ddd4,_0x3a9c90){return _0x55ddd4===_0x3a9c90;},'qJaWT':'calc','dCtUH':'\x20order\x20by\x20PV\x20desc\x20','fSmqr':'\x20order\x20by\x20UV\x20desc\x20','LEtOH':'desc','UJEgr':function(_0x417e09,_0x12dbfa){return _0x417e09!==_0x12dbfa;},'jrvuC':'success'};let _0x1603b2=_0xc1f11f['request']['body'];const _0x500bcb=JSON['parse'](_0x1603b2);const{userId='',projectId:_0x59da13,selectedPointId:_0x56f59d,filterList:_0x11b6ce,page=0x0,pageSize=0xa,date:_0x3e0b3a,order=_0x17bcbb['lkWwE'],dataType=_0x17bcbb['iMqHS'],calcInfo:_0xc2a1ef}=_0x500bcb;const _0x78ad0c=_0x17bcbb['TFhWx'](_0x3e0b3a,'\x2000:00:00');const _0x54c520=_0x3e0b3a+_0x17bcbb['trigA'];const _0x4d34ec=new Date(_0x3e0b3a)['Format']('yyyyMMdd');const _0x5161ae=_0x17bcbb['TFhWx'](_0x17bcbb['TFhWx'](_0x17bcbb['TFhWx'](_0x59da13,'_'),_0x56f59d)+'_',_0x4d34ec);const _0xc46455=_0x17bcbb['sVYil'](_0x17bcbb['KBkFl'](page,0x1),pageSize);for(let _0x1c2440=0x0;_0x1c2440<_0x11b6ce['length'];_0x1c2440++){const{fieldName:_0x4f812c}=_0x11b6ce[_0x1c2440];await BuryPointFieldModel['getFieldTypeByKey'](_0x4f812c)['then'](_0x580196=>{if(_0x580196&&_0x580196['length']){_0x11b6ce[_0x1c2440]['type']=_0x580196[0x0]['fieldType'];}});}let _0x1dce56='';let _0x5438ec='and';if(_0x11b6ce&&_0x17bcbb['ZTiBO'](_0x11b6ce['length'],0x0)){_0x11b6ce['forEach'](_0xf8bb2c=>{const{fieldName:_0x414610,rule:_0x5af440,value:_0x33bdaf,type='',andOr='a'}=_0xf8bb2c;let _0x5d1ee5=_0x33bdaf;if(type['toLowerCase']()==='varchar'){_0x5d1ee5=_0x33bdaf;}if(andOr){_0x5438ec=Utils['convertAndOr'](andOr);}if(_0x414610){_0x1dce56+='\x20'+Utils['convertOperationSql'](_0x414610,_0x5af440,_0x5d1ee5)+_0x5438ec;}});_0x1dce56=_0x17bcbb['TFhWx']('\x20and\x20(',_0x1dce56['substring'](0x0,_0x1dce56['lastIndexOf'](_0x5438ec)))+')';}let _0x2c37b6={};if(_0x17bcbb['eGvFb'](dataType,_0x17bcbb['qJaWT'])){let _0xe713cf='';let _0x31f2ac='';let _0x248c44=[];if(_0xc2a1ef['calcField']['isRepeat']==='4'){_0xe713cf='\x20count('+_0xc2a1ef['calcField']['fieldName']+')\x20as\x20PV\x20';_0x31f2ac=_0x17bcbb['dCtUH'];_0x248c44=[{'fieldAlias':'PV','fieldName':'PV'}];}else if(_0xc2a1ef['calcField']['isRepeat']==='5'){_0xe713cf='\x20count(distinct\x20weCustomerKey)\x20as\x20UV\x20';_0x31f2ac=_0x17bcbb['fSmqr'];_0x248c44=[{'fieldAlias':'UV','fieldName':'UV'}];}let _0x3250f2='select\x20'+_0xc2a1ef['calcField']['fieldName']+',\x20'+_0xe713cf+'\x20from\x20'+_0x5161ae+'\x20where\x201=1\x20'+_0x1dce56+'\x20group\x20by\x20'+_0xc2a1ef['calcField']['fieldName']+'\x20'+_0x31f2ac+'\x20';const _0x428c68=await BuryPointCardModel['statisticData'](_0x3250f2);const _0x3756c9=_0x428c68['slice'](_0xc46455,(_0xc46455+0x1)*pageSize);const _0x1b491e=await BuryPointFieldModel['getFieldListByKey']('\x27'+_0xc2a1ef['calcField']['fieldName']+'\x27');const _0x233e1c=[..._0x1b491e,..._0x248c44];_0x2c37b6={'total':_0x428c68["\u006c\u0065\u006e\u0067\u0074\u0068"],'dataList':_0x3756c9||[],'fieldNameList':_0x233e1c};}else if(dataType==='list'){const _0x505794=order==='descend'?_0x17bcbb['LEtOH']:'asc';let _0x3547b4='\x20select\x20*\x20from\x20'+_0x5161ae+'\x20where\x201=1\x20'+_0x1dce56+'\x20and\x20createdAt>=\x27'+_0x78ad0c+'\x27\x20and\x20createdAt<=\x27'+_0x54c520+'\x27\x20order\x20by\x20createdAt\x20'+_0x505794+'\x20limit\x20'+_0xc46455+','+pageSize+'\x20';const _0x1f43a9=await BuryPointCardModel['statisticData'](_0x3547b4);let _0x3224b3='\x20select\x20count(id)\x20as\x20count\x20from\x20'+_0x5161ae+'\x20where\x201=1\x20'+_0x1dce56+'\x20and\x20createdAt>=\x27'+_0x78ad0c+'\x27\x20and\x20createdAt<=\x27'+_0x54c520+'\x27\x20';const _0xf74029=await BuryPointCardModel['statisticData'](_0x3224b3);let _0x28a713='\x27\x27';if(_0x1f43a9&&_0x1f43a9['length']){const _0x2dbee0=_0x1f43a9[0x0];for(let _0x3e4fae in _0x2dbee0){if(_0x17bcbb['UJEgr'](_0x3e4fae['indexOf']('weFirstStepDay_'),-0x1)||_0x17bcbb['eGvFb'](_0x3e4fae,'id')){continue;}_0x28a713+=',\x27'+_0x3e4fae+'\x27';}}let _0x212c55=0x0;if(_0xf74029&&_0xf74029['length']){_0x212c55=_0xf74029[0x0]['count']*0x1;}const _0xe25bb7=await BuryPointFieldModel['getFieldListByKey'](_0x28a713);_0x2c37b6={'total':_0x212c55,'dataList':_0x1f43a9||[],'fieldNameList':_0xe25bb7};}_0xc1f11f['response']['status']=0xc8;_0xc1f11f['body']=statusCode['SUCCESS_200'](_0x17bcbb['jrvuC'],_0x2c37b6);}static async['searchAllRecord'](_0x1cdfa3){const _0xc0eb2b={'plQAN':'success'};const _0x4e44b6=JSON['parse'](_0x1cdfa3['request']['body']);const{userId:_0x26150f,customerKey:_0x5272e6,searchDate:_0x435135,projectId=''}=_0x4e44b6;const _0x184856=await BuryPointWarehouseModel['getListByProjectIdAndOldType'](projectId);let _0x52cf7e={};const _0x52d793=new Date(_0x435135)['Format']('yyyyMMdd');let _0x5f1dc0='';if(_0x26150f){_0x5f1dc0='\x20where\x20weUserId\x20=\x20\x27'+_0x26150f+'\x27';}else if(_0x5272e6){_0x5f1dc0='\x20where\x20weCustomerKey\x20=\x20\x27'+_0x5272e6+'\x27';}if(_0x5f1dc0){for(let _0x342061=0x0;_0x342061<_0x184856['length'];_0x342061++){const{id:_0x38d92a,pointName:_0xb1bd36}=_0x184856[_0x342061];const _0x1164b7=projectId+'_'+_0x38d92a+'_'+_0x52d793;const _0x599beb='select\x20*\x20from\x20'+_0x1164b7+'\x20'+_0x5f1dc0;const _0xace24a=await BuryPointCardModel['statisticData'](_0x599beb);_0x52cf7e[_0x38d92a]={'name':_0xb1bd36,'list':_0xace24a||[]};}}_0x1cdfa3['response']['status']=0xc8;_0x1cdfa3['body']=statusCode['SUCCESS_200'](_0xc0eb2b['plQAN'],_0x52cf7e);}static async['searchFieldName'](_0x1520cd){const _0x471b26=JSON['parse'](_0x1520cd['request']['body']);const{fieldKeys:_0x2423d6}=_0x471b26;let _0x26b93f='\x27\x27';_0x2423d6['forEach'](_0x2d2a58=>{_0x26b93f+=',\x27'+_0x2d2a58+'\x27';});const _0x748501=await BuryPointFieldModel['getFieldListByKey'](_0x26b93f);_0x1520cd['response']['status']=0xc8;_0x1520cd['body']=statusCode['SUCCESS_200']('success',_0x748501);}static async['exportData'](_0x4a5b32){const _0x48d260={'aJXRP':'descend','wmoQQ':function(_0x410c66,_0x1ea827){return _0x410c66+_0x1ea827;},'nxebx':function(_0xc9d664,_0x30c89f){return _0xc9d664+_0x30c89f;},'ckIjB':function(_0x226181,_0x173792){return _0x226181+_0x173792;},'zWiUW':function(_0x36fdee,_0x1f11c6){return _0x36fdee>_0x1f11c6;},'fWLmq':'desc','YVfgs':'没有数据！','cffou':function(_0x11991b,_0x15ebd1){return _0x11991b<_0x15ebd1;},'BDKQZ':'yyyyMMddhhmmss','KkhEz':function(_0x530913,_0x2ebe60){return _0x530913+_0x2ebe60;}};const _0x5efc67=Utils['parseQs'](_0x4a5b32['request']['url']);const{projectId:_0x283a11,pointName:_0x5d2893,selectedPointId:_0x565f69,filterList='[]',startNum=0x0,endNum=0xa,date:_0xfbf7c3,order=_0x48d260['aJXRP']}=_0x5efc67;const _0x3cf175=_0xfbf7c3+'\x2000:00:00';const _0x41e5eb=_0xfbf7c3+'\x2023:59:59';const _0x295d50=new Date(_0xfbf7c3)['Format']('yyyyMMdd');const _0x583ccb=_0x48d260['wmoQQ'](_0x48d260['nxebx'](_0x48d260['ckIjB'](_0x283a11+'_',_0x565f69),'_'),_0x295d50);if(_0x48d260['zWiUW'](startNum,endNum)){_0x4a5b32['response']['status']=0x19c;_0x4a5b32['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}if(endNum>0x2710){endNum=0x2710;}let _0x471c02=JSON['parse'](filterList);for(let _0x1b3d0b=0x0;_0x1b3d0b<_0x471c02['length'];_0x1b3d0b++){const{fieldName:_0x20e8c9}=_0x471c02[_0x1b3d0b];await BuryPointFieldModel['getFieldTypeByKey'](_0x20e8c9)['then'](_0x7e2f58=>{if(_0x7e2f58&&_0x7e2f58['length']){_0x471c02[_0x1b3d0b]['type']=_0x7e2f58[0x0]['fieldType'];}});}let _0x239309='';let _0x38c371='and';if(_0x471c02&&_0x471c02['length']>0x0){_0x471c02['forEach'](_0x29692b=>{const{fieldName:_0x21b5f1,rule:_0x154a4a,value:_0x1d1527,type='',andOr='a'}=_0x29692b;let _0xdd08e0=_0x1d1527;if(type['toLowerCase']()==='varchar'){_0xdd08e0=_0x1d1527;}if(andOr){_0x38c371=Utils['convertAndOr'](andOr);}if(_0x21b5f1){_0x239309+='\x20'+_0x21b5f1+Utils['convertOper'](_0x154a4a)+'\x27'+_0xdd08e0+" '".split("").reverse().join("")+_0x38c371;}});_0x239309='\x20and\x20('+_0x239309['substr'](0x0,_0x239309['lastIndexOf'](_0x38c371))+')';}const _0x2ac5b4=order==='descend'?_0x48d260['fWLmq']:'asc';let _0x4a581b='\x20select\x20*\x20from\x20'+_0x583ccb+'\x20where\x201=1\x20'+_0x239309+'\x20and\x20createdAt>=\x27'+_0x3cf175+'\x27\x20and\x20createdAt<=\x27'+_0x41e5eb+'\x27\x20order\x20by\x20createdAt\x20'+_0x2ac5b4+'\x20limit\x20'+startNum+','+endNum+'\x20';const _0x1fda29=await BuryPointCardModel['statisticData'](_0x4a581b);if(!_0x1fda29){_0x4a5b32['response']['status']=0x19c;_0x4a5b32['body']=statusCode['ERROR_412'](_0x48d260['YVfgs']);return;}let _0x2e20b3='\x27\x27';if(_0x1fda29&&_0x1fda29['length']){const _0xaa460c=_0x1fda29[0x0];for(let _0x47330b in _0xaa460c){if(_0x47330b['indexOf']('weFirstStepDay_')!==-0x1||_0x47330b==='id'){continue;}_0x2e20b3+=',\x27'+_0x47330b+'\x27';}}const _0xb62667=await BuryPointFieldModel['getFieldListByKey'](_0x2e20b3);const _0x57c25f=[];var _0xaeedd2=['用户id','点位名称'];for(let _0x1e51c9=0x0;_0x48d260['cffou'](_0x1e51c9,_0xb62667['length']);_0x1e51c9++){_0xaeedd2['push'](_0xb62667[_0x1e51c9]['fieldAlias']);}_0xaeedd2['push']('创建时间');_0x57c25f['push'](_0xaeedd2);if(_0x1fda29){for(let _0x289c52=0x0;_0x289c52<_0x1fda29['length'];_0x289c52++){let _0x2f5194=_0x1fda29[_0x289c52];var _0x715c92=[];_0x715c92['push'](_0x2f5194['weCustomerKey']);_0x715c92['push'](_0x5d2893);for(let _0x54ac11=0x0;_0x54ac11<_0xb62667['length'];_0x54ac11++){_0x715c92['push'](_0x2f5194[_0xb62667[_0x54ac11]['fieldName']]);}_0x715c92['push'](_0x2f5194['createdAt']);_0x57c25f['push'](_0x715c92);}}let _0x3077aa=new Date()['Format'](_0x48d260['BDKQZ'])+'.xlsx';const _0x3c879b=xlsx['build']([{'name':'sheet1','data':_0x57c25f}]);const _0xeee2ba=_0x3c879b['length'];_0x4a5b32['response']["\u0073\u0074\u0061\u0074\u0075\u0073"]=0xc8;_0x4a5b32['set']('Content-disposition',_0x48d260['KkhEz']('attachment;\x20filename=',encodeURIComponent(_0x3077aa)));_0x4a5b32['set']('Content-type','application/vnd.openxmlformats');_0x4a5b32['set']('Content-Length',_0xeee2ba);_0x4a5b32['body']=_0x3c879b;}static async['apiExport'](_0x5c7b9d){const _0x84366b={'FehlB':function(_0x2f4ccd,_0x264c66){return _0x2f4ccd+_0x264c66;},'ZnTrH':function(_0xd923e0,_0x493841){return _0xd923e0+_0x493841;},'YaRmm':function(_0x465c8c,_0x35561f){return _0x465c8c<_0x35561f;},'NhRkw':'desc','DkZPx':'yyyyMMdd','RsUPw':function(_0x3c1a28,_0x36d6ee){return _0x3c1a28>_0x36d6ee;},'SZUkv':function(_0x21de1a,_0x435732){return _0x21de1a+_0x435732;},'byLBd':'\x20and\x20('};const{purchaseCodeCardCount:_0x4cb3dc}=global['eventInfo'];if(_0x84366b['YaRmm'](_0x4cb3dc,0x270f)){_0x5c7b9d['response']['status']=0x19c;_0x5c7b9d['body']=statusCode['ERROR_412']('您当前的版本无法使用API查询功能，卡片无限版可调用！');return;}let _0x5b3263=_0x5c7b9d['request']['body'];const _0x45eaee=JSON['parse'](_0x5b3263);const{userId='',calcInfo:_0x5803a5,projectId:_0x2744fc,selectedPointId:_0x35eb51,filterList:_0x75c584,page=0x0,pageSize=0xa,date:_0x2a30f9,order=_0x84366b['NhRkw']}=_0x45eaee;const _0x2a5ec9=new Date(_0x2a30f9)['Format'](_0x84366b['DkZPx']);const _0x51b784=_0x2744fc+'_'+_0x35eb51+'_'+_0x2a5ec9;const _0x413ea5=(page-0x1)*pageSize;for(let _0x2a1ddf=0x0;_0x84366b['YaRmm'](_0x2a1ddf,_0x75c584['length']);_0x2a1ddf++){const{fieldName:_0x33e106}=_0x75c584[_0x2a1ddf];await BuryPointFieldModel['getFieldTypeByKey'](_0x33e106)['then'](_0x108be9=>{if(_0x108be9&&_0x108be9['length']){_0x75c584[_0x2a1ddf]['type']=_0x108be9[0x0]['fieldType'];}});}let _0x1432cc='';let _0x3a3b60='and';if(_0x75c584&&_0x84366b['RsUPw'](_0x75c584['length'],0x0)){_0x75c584['forEach'](_0x17add2=>{const{fieldName:_0x30f100,rule:_0x1e0974,value:_0x34d465,type='',andOr='a'}=_0x17add2;let _0x159e0d=_0x34d465;if(type['toLowerCase']()==='varchar'){_0x159e0d=_0x34d465;}if(andOr){_0x3a3b60=Utils['convertAndOr'](andOr);}if(_0x30f100){_0x1432cc+=_0x84366b['FehlB'](_0x84366b['ZnTrH'](_0x84366b['ZnTrH']('\x20'+_0x30f100+Utils['convertOper'](_0x1e0974)+'\x27',_0x159e0d),'\x27\x20'),_0x3a3b60);}});_0x1432cc=_0x84366b['SZUkv'](_0x84366b['SZUkv'](_0x84366b['byLBd'],_0x1432cc['substr'](0x0,_0x1432cc['lastIndexOf'](_0x3a3b60))),')');}const _0x31173e=order;let _0x36c7ef={};if(_0x5803a5&&_0x5803a5['calcField']){let _0x2406db=Utils['setTableName'](_0x84366b['FehlB'](_0x2744fc+'_'+_0x35eb51,'_'),0x0);let _0x16047d=await TimerStatisticController['splicingSql'](_0x5803a5['calcField'],[],_0x2406db);const _0xaa7f39=await BuryPointCardModel['statisticData'](_0x16047d+'\x20'+_0x1432cc);if(_0xaa7f39&&_0xaa7f39['length']===0x1){_0x36c7ef=_0xaa7f39[0x0];}else if(_0xaa7f39&&_0xaa7f39['length']>0x1){_0x36c7ef=_0xaa7f39;}}else{let _0x3af5c2='\x20select\x20*\x20from\x20'+_0x51b784+'\x20where\x201=1\x20'+_0x1432cc+'\x20order\x20by\x20createdAt\x20'+_0x31173e+'\x20limit\x20'+_0x413ea5+','+pageSize+'\x20';const _0x56b2da=await BuryPointCardModel['statisticData'](_0x3af5c2);let _0x86d2ab='\x20select\x20count(id)\x20as\x20count\x20from\x20'+_0x51b784+'\x20where\x201=1\x20'+_0x1432cc+'\x20';const _0x22c25d=await BuryPointCardModel['statisticData'](_0x86d2ab);let _0x49a9c9=0x0;if(_0x22c25d&&_0x22c25d['length']){_0x49a9c9=_0x22c25d[0x0]['count']*0x1;}_0x36c7ef={'total':_0x49a9c9,'dataList':_0x56b2da||[]};}_0x5c7b9d['response']['status']=0xc8;_0x5c7b9d['body']=statusCode['SUCCESS_200']('success',_0x36c7ef);}}class FailController{static async['getSysInfo'](_0x30cafd){_0x30cafd['response']['status']=0xc8;_0x30cafd['body']=statusCode['SUCCESS_200']('success',{'invalid':!![]});}static async['createPurchaseCode'](_0x151145){const _0x27ef74={'TkdMh':'purchaseCode'};const _0x4e646e=_0x151145['request']['body'];const _0xd90431=JSON['parse'](_0x4e646e);const{inputPurchaseCode:_0x80ccfc,inputSecretCode:_0x19721a}=_0xd90431;await ConfigModel['updateConfig'](_0x27ef74['TkdMh'],{'configValue':_0x80ccfc});await ConfigModel['updateConfig']('secretCode',{'configValue':_0x19721a});FailController['restartServer']();_0x151145['response']['status']=0xc8;_0x151145['body']=statusCode['SUCCESS_200']('success',0x0);}static async['restartServer'](){const _0x18dea3={'fWHok':'win32','AJKBc':'npm','Jlquw':'prd_restart','DgfcC':'darwin','LEFEP':function(_0x418bde,_0x30291a,_0x2c484e,_0x3040d0,_0x8a455d){return _0x418bde(_0x30291a,_0x2c484e,_0x3040d0,_0x8a455d);}};switch(process['platform']){case'win32':spawn(process['platform']===_0x18dea3['fWHok']?'npm.cmd':_0x18dea3['AJKBc'],['run',_0x18dea3['Jlquw']],{'stdio':'inherit'});break;case _0x18dea3['DgfcC']:default:try{_0x18dea3['LEFEP'](execFile,'./restart.sh',[],null,function(_0x444fd0,_0x207226,_0x29defc){console['log']('服务已重启');});}catch(_0x2f630f){console['log']('服务重启失败，请手动重启');}break;}}}function _0x41d373(_0x541156,_0x3793bd,_0x5c1ce1,_0x1f3890,_0x29e81a){return _0x425a(_0x5c1ce1- -0x28a,_0x541156);}function _0x425a(_0x45f47b,_0x57b711){const _0x2b4986=_0x6f7a();_0x425a=function(_0x1dc43d,_0x6f7aef){_0x1dc43d=_0x1dc43d-0x0;let _0x425a03=_0x2b4986[_0x1dc43d];if(_0x425a['ccsnWq']===undefined){var _0x21c299=function(_0x459bed){const _0x20c0ae='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x49e96d='';let _0x20cc78='';for(let _0x58475a=0x0,_0x3cc2ee,_0x26684e,_0x5a7f39=0x0;_0x26684e=_0x459bed['charAt'](_0x5a7f39++);~_0x26684e&&(_0x3cc2ee=_0x58475a%0x4?_0x3cc2ee*0x40+_0x26684e:_0x26684e,_0x58475a++%0x4)?_0x49e96d+=String['fromCharCode'](0xff&_0x3cc2ee>>(-0x2*_0x58475a&0x6)):0x0){_0x26684e=_0x20c0ae['indexOf'](_0x26684e);}for(let _0x5e720b=0x0,_0x5a3178=_0x49e96d['length'];_0x5e720b<_0x5a3178;_0x5e720b++){_0x20cc78+='%'+('00'+_0x49e96d['charCodeAt'](_0x5e720b)["\u0074\u006f\u0053\u0074\u0072\u0069\u006e\u0067"](0x10))['slice'](-0x2);}return decodeURIComponent(_0x20cc78);};_0x425a['unWQJX']=_0x21c299;_0x45f47b=arguments;_0x425a['ccsnWq']=!![];}const _0x12deb0=_0x2b4986[0x0];const _0x270760=_0x1dc43d+_0x12deb0;const _0x3b4287=_0x45f47b[_0x270760];if(!_0x3b4287){_0x425a03=_0x425a['unWQJX'](_0x425a03);_0x45f47b[_0x270760]=_0x425a03;}else{_0x425a03=_0x3b4287;}return _0x425a03;};return _0x425a(_0x45f47b,_0x57b711);}class SdkReleaseController{static async['create'](_0x1b573e){let _0x541c64=JSON['parse'](_0x1b573e["\u0072\u0065\u0071\u0075\u0065\u0073\u0074"]['body']);const{nickname:_0x56e023}=_0x1b573e['user'];_0x541c64['createBy']=_0x56e023;_0x541c64['status']=0x1;_0x541c64['version']='v1.0.0';_0x541c64['releaseScript']='';if(_0x541c64['releaseName']&&_0x541c64['projectId']&&_0x541c64['pointIds']&&_0x541c64['status']&&_0x541c64['version']){let _0x10278e=_0x541c64['pointIds']['split'](',');await SdkReleaseController['createNewSdk'](_0x541c64['projectId'],_0x541c64['releaseName'],_0x10278e,_0x56e023);_0x1b573e['response']['status']=0xc8;_0x1b573e['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x1b573e['response']['status']=0x19c;_0x1b573e['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async["kdSweNetaerc".split("").reverse().join("")](_0x3ed362,_0x3988d9,_0x2e69bf,_0x548e0a){const _0x8f5da2={'tDRRK':function(_0x292872,_0x5caa0d){return _0x292872+_0x5caa0d;},'txgZP':function(_0xe8322f,_0x2aee6c){return _0xe8322f+_0x2aee6c;},'sEqfs':function(_0x177280,_0x38f750){return _0x177280+_0x38f750;}};let _0x2f2e26={};_0x2f2e26['projectId']=_0x3ed362;_0x2f2e26['releaseName']=_0x3988d9;_0x2f2e26['pointIds']=_0x8f5da2['sEqfs'](_0x2e69bf,'');_0x2f2e26['releaseScript']='';_0x2f2e26['status']=0x1;_0x2f2e26['version']='v1.0.0';_0x2f2e26['createBy']=_0x548e0a;let _0xe9f518=await SdkReleaseModel['create'](_0x2f2e26);if(_0xe9f518){let _0x29ddbc=await BuryPointWarehouseModel['getPointIds'](_0x3ed362,0x1);if(_0x29ddbc&&_0x29ddbc['length']>0x0){for(let _0x4dc3a2=0x0;_0x4dc3a2<_0x29ddbc['length'];_0x4dc3a2++){_0x2e69bf['push'](_0x29ddbc[_0x4dc3a2]['id']);}}for(let _0x3192d8=0x0;_0x3192d8<_0x2e69bf['length'];_0x3192d8++){SdkReleaseController['createTableByDay'](_0x3ed362,_0x2e69bf[_0x3192d8],0x0)['catch'](_0x366578=>{log['printError'](_0x8f5da2['tDRRK'](_0x8f5da2['txgZP'](_0x8f5da2['txgZP']('执行{'+_0x3ed362,'_'),_0x2e69bf[_0x3192d8]),'}创建表报错：'),_0x366578);});}}}static async['update'](_0x59d9f3){const _0x5c9ed1={'zPamG':'执行{','fhXjs':function(_0xa13610,_0x4f3d0c){return _0xa13610>_0x4f3d0c;},'sjQjH':"\u0066\u0061\u0069\u006c"};let _0x1dd944=JSON['parse'](_0x59d9f3['request']['body']);let _0x360415=_0x1dd944['id'];const{nickname:_0x4c3c90}=_0x59d9f3['user'];_0x1dd944['updateBy']=_0x4c3c90;if(_0x1dd944){const{projectId:_0x1637ae,pointIds:_0x36b90d}=_0x1dd944;let _0x3ceaf3=await SdkReleaseModel['detail'](_0x360415);const _0x55cab7=_0x3ceaf3['pointIds'];let _0x233644=await SdkReleaseModel['update'](_0x360415,_0x1dd944);if(_0x233644){const _0x5cf4f3=_0x36b90d['split'](',');let _0x3cfec4=await BuryPointWarehouseModel['getPointIds'](_0x1637ae,0x1);if(_0x3cfec4&&_0x5c9ed1['fhXjs'](_0x3cfec4['length'],0x0)){for(let _0x328dd9=0x0;_0x328dd9<_0x3cfec4['length'];_0x328dd9++){_0x5cf4f3['push'](_0x3cfec4[_0x328dd9]['id']);}}for(let _0x4b601f=0x0;_0x4b601f<_0x5cf4f3['length'];_0x4b601f++){SdkReleaseController['createTableByDay'](_0x1637ae,_0x5cf4f3[_0x4b601f],0x0)['catch'](_0x3b262f=>{log['printError'](_0x5c9ed1['zPamG']+_0x1637ae+'_'+_0x5cf4f3[_0x4b601f]+'}创建表报错：',_0x3b262f);});}SdkReleaseController['deleteLogTable'](_0x1637ae,_0x360415,_0x5cf4f3,_0x55cab7);_0x59d9f3['response']['status']=0xc8;_0x59d9f3['body']=statusCode['SUCCESS_200']('success','');}}else{_0x59d9f3['response']['status']=0x19c;_0x59d9f3['body']=statusCode['ERROR_412'](_0x5c9ed1["\u0073\u006a\u0051\u006a\u0048"]);}}static async['deleteLogTable'](_0xc38e88,_0x5cd475,_0x569eae,_0x29f1b3){const _0x50368b={'dWSyY':function(_0x12d4e9,_0x4e8b11){return _0x12d4e9<_0x4e8b11;},'cJwfn':function(_0x23ec4b,_0x1a52ac){return _0x23ec4b>_0x1a52ac;},'Koqyf':function(_0x50607c,_0x3e79c6){return _0x50607c+_0x3e79c6;},'EqeCy':function(_0x439625,_0x35aedb){return _0x439625+_0x35aedb;}};const _0x1aba6d=[];const _0x13bbfd=_0x29f1b3['split'](',');var _0x11c50d=_0x13bbfd['filter'](_0x24979b=>!_0x569eae['some'](_0x154b81=>_0x154b81===_0x24979b));for(let _0x144613=0x0;_0x50368b['dWSyY'](_0x144613,_0x11c50d['length']);_0x144613++){const _0x3d998e=await SdkReleaseModel['checkPointIdByOthers'](_0xc38e88,_0x11c50d[_0x144613],_0x5cd475)['catch'](_0x530a68=>{log['error'](_0x530a68);});let _0x4c509f=_0x3d998e[0x0]['count'];if(_0x50368b['cJwfn'](_0x4c509f,0x0)){continue;}let _0x4870c1=Utils['setTableName'](_0x50368b['Koqyf'](_0x50368b['EqeCy'](_0xc38e88,'_'),_0x11c50d[_0x144613])+'_',0x0);_0x1aba6d['push'](_0x4870c1);}if(_0x1aba6d&&_0x1aba6d['length']>0x0){let _0x4448e8=new Set(_0x1aba6d);let _0x3eea89=[..._0x4448e8];_0x3eea89['forEach'](async _0x443aca=>{const _0x3f4875={'ZWgHj':function(_0xee2aae,_0x455ba7){return _0xee2aae+_0x455ba7;}};await Sequelize['dropSchema'](_0x443aca)['then'](()=>{log['printInfo'](_0x3f4875['ZWgHj']('成功删除日志表:\x20',_0x443aca));});});}}static async['delete'](_0x3efbdc){let _0x14ad6e=JSON['parse'](_0x3efbdc['request']['body']);const{id:_0x2df062}=_0x14ad6e;await SdkReleaseModel['delete'](_0x2df062);_0x3efbdc['response']['status']=0xc8;_0x3efbdc['body']=statusCode['SUCCESS_200']('success','');}static async['detail'](_0xff7069){const _0x1767fb={'xWfRh':function(_0xfb4aa6,_0x49ad5e){return _0xfb4aa6<_0x49ad5e;},"\u0049\u0066\u0074\u004c\u0068":'success'};const _0x286cf3=Utils['parseQs'](_0xff7069['request']['url']);let _0x1e3a46=_0x286cf3['id'];if(_0x1e3a46){let _0x9beb7c=await SdkReleaseModel['detail'](_0x1e3a46);const{projectId:_0x54e1c2,pointIds:_0x52bf3a,uploadDomain:_0x1d1f65}=_0x9beb7c;let _0x688b6={'uploadDomain':_0x1d1f65};_0x688b6['projectId']=_0x54e1c2;let _0x476dd5=[];let _0x33afc9=await BuryPointWarehouseModel['getList'](_0x54e1c2,'',0x1);let _0x2b9cba=await BuryPointWarehouseModel['getListByPointIds'](_0x52bf3a);for(let _0x5d97aa=0x0;_0x1767fb['xWfRh'](_0x5d97aa,_0x2b9cba['length']);_0x5d97aa++){const _0x731c7f={};_0x731c7f['pointName']=_0x2b9cba[_0x5d97aa]['pointName'];_0x731c7f['pointId']=_0x2b9cba[_0x5d97aa]['id'];const _0x4157a6=await BuryPointWarehouseModel['detail'](_0x731c7f['pointId']);const{fields:_0x3c1ad0}=_0x4157a6;const _0x46e56b=[];const _0x10a1d9=await BuryPointFieldModel['getListByFieldIdsAndWeType'](_0x3c1ad0,0x0);for(let _0x59d2a1=0x0;_0x1767fb['xWfRh'](_0x59d2a1,_0x10a1d9['length']);_0x59d2a1++){const _0x5667cf={};_0x5667cf['fieldName']=_0x10a1d9[_0x59d2a1]['fieldName'];_0x5667cf['fieldAlias']=_0x10a1d9[_0x59d2a1]['fieldAlias'];_0x5667cf['fieldType']=_0x10a1d9[_0x59d2a1]['fieldType'];_0x5667cf['fieldDesc']=_0x10a1d9[_0x59d2a1]['fieldDesc'];_0x46e56b['push'](_0x5667cf);}_0x731c7f['fieldList']=_0x46e56b;_0x476dd5['push'](_0x731c7f);}_0x688b6['points']=_0x476dd5;let _0x5f4a92=await SdkReleaseController['getReleaseScript'](_0x9beb7c,_0x33afc9,_0x2b9cba,'H5');_0x688b6['h5Code']=decodeURIComponent(_0x5f4a92);let _0x5471dc=await SdkReleaseController['getReleaseScript'](_0x9beb7c,_0x33afc9,_0x2b9cba,'Uniapp');_0x688b6['uniappCode']=decodeURIComponent(_0x5471dc);let _0x3bc4b2=await SdkReleaseController['getReleaseScript'](_0x9beb7c,_0x33afc9,_0x2b9cba,'Wechat');_0x688b6['wechatCode']=decodeURIComponent(_0x3bc4b2);_0xff7069['response']['status']=0xc8;_0xff7069['body']=statusCode["\u0053\u0055\u0043\u0043\u0045\u0053\u0053\u005f\u0032\u0030\u0030"](_0x1767fb['IftLh'],_0x688b6);}else{_0xff7069['response']['status']=0x19c;_0xff7069['body']=statusCode['ERROR_412']('fail');}}static async['getPageList'](_0x3cd1a3){let _0x10caec=_0x3cd1a3['request']['body'];const _0x390076=JSON['parse'](_0x10caec);const{releaseName:_0x461d96,teamProjectIds:_0x567513,projectId:_0x4ca340,status:_0x3c10a0,page:_0x3dfd84,pageSize:_0x4ca77e}=_0x390076;const{userId:_0x4fceef,userType:_0x3897e8}=_0x3cd1a3['user'];let _0xc10262=[];let _0x3decaa=0x0;let _0x57fac1={};if(_0x3897e8===USER_INFO['USER_TYPE_ADMIN']||_0x3897e8===USER_INFO['USER_TYPE_SUPERADMIN']){_0xc10262=await SdkReleaseModel['getPageCount'](_0x461d96,'',_0x4ca340,_0x3c10a0);_0x57fac1=await SdkReleaseModel['getPageList'](_0x461d96,'',_0x4ca340,_0x3c10a0,_0x3dfd84,_0x4ca77e);}else{let _0x504610='';if(_0x567513){const _0x51dc7b=_0x567513['split'](',');for(let _0x3f8b35=0x0;_0x3f8b35<_0x51dc7b['length'];_0x3f8b35++){if(_0x51dc7b[_0x3f8b35]['indexOf']('event')!=-0x1){_0x504610=_0x504610+','+_0x51dc7b[_0x3f8b35];}}}_0xc10262=await SdkReleaseModel['getPageCount'](_0x461d96,_0x504610,_0x4ca340,_0x3c10a0);_0x57fac1=await SdkReleaseModel['getPageList'](_0x461d96,_0x504610,_0x4ca340,_0x3c10a0,_0x3dfd84,_0x4ca77e);}_0x3decaa=_0xc10262[0x0]['count'];for(let _0x160b8b=0x0;_0x160b8b<_0x57fac1['length'];_0x160b8b++){const _0x56fbc2=_0x57fac1[_0x160b8b];const{projectId:_0x30f878,pointIds:_0x57c6aa}=_0x56fbc2;let _0x540321=await BuryPointProjectModel['getProjectByProjectId'](_0x30f878);const{name:_0x16e923}=_0x540321[0x0];_0x56fbc2['projectName']=_0x16e923;let _0x50d5a6=[];let _0x397cd1=await BuryPointWarehouseModel['getListByPointIds'](_0x57c6aa);for(let _0x367135=0x0;_0x367135<_0x397cd1['length'];_0x367135++){const _0x54127c={};_0x54127c['pointName']=_0x397cd1[_0x367135]['pointName'];_0x54127c['pointId']=_0x397cd1[_0x367135]['id'];_0x50d5a6['push'](_0x54127c);}_0x56fbc2['points']=_0x50d5a6;}_0x3cd1a3['response']['status']=0xc8;_0x3cd1a3['body']=statusCode['SUCCESS_200']('success',{'list':_0x57fac1,'totalCount':_0x3decaa});}static async['getList'](_0x174e14){const _0x1232fe={'HYhrH':function(_0x34b8bb,_0x24e778){return _0x34b8bb<_0x24e778;},'FsUYn':function(_0x5c20d2,_0x73bbb7){return _0x5c20d2+_0x73bbb7;},'cNtJE':'success'};let _0x335d5=_0x174e14['request']['body'];const _0x326f76=JSON['parse'](_0x335d5);const{releaseName:_0x248185,projectId:_0xea93d4,status:_0x153897}=_0x326f76;const _0x5b496d=await SdkReleaseModel['getList'](_0x248185,_0xea93d4,_0x153897);for(let _0x17d2f7=0x0;_0x1232fe['HYhrH'](_0x17d2f7,_0x5b496d['length']);_0x17d2f7++){const _0x14e2a2=_0x5b496d[_0x17d2f7];let _0x17bb54='';const{projectId:_0x5e70a6,pointIds:_0x33af4e}=_0x14e2a2;let _0x5b0b47=await BuryPointProjectModel['getProjectByProjectId'](_0x5e70a6);const{name:_0x4775d5}=_0x5b0b47[0x0];_0x14e2a2['projectName']=_0x4775d5;let _0x45671e=await BuryPointWarehouseModel['getListByPointIds'](_0x33af4e);for(let _0xcc97fd=0x0;_0xcc97fd<_0x45671e['length'];_0xcc97fd++){_0x17bb54=_0x1232fe["\u0046\u0073\u0055\u0059\u006e"](_0x17bb54,_0x45671e[_0xcc97fd]['pointName'])+',';}_0x17bb54=_0x17bb54['substring'](0x0,_0x17bb54['lastIndexOf'](','));_0x14e2a2['pointNames']=_0x17bb54;}_0x174e14['response']['status']=0xc8;_0x174e14['body']=statusCode['SUCCESS_200'](_0x1232fe['cNtJE'],_0x5b496d);}static async['getAllList'](_0x42bf42){const _0x1f193f=await SdkReleaseModel['getAllList']();for(let _0x4a8d0=0x0;_0x4a8d0<_0x1f193f['length'];_0x4a8d0++){const _0x451272=_0x1f193f[_0x4a8d0];let _0x17e012='';const{pointIds:_0x5951f4}=_0x451272;let _0x75a756=await BuryPointWarehouseModel['getListByPointIds'](_0x5951f4);for(let _0x1024cb=0x0;_0x1024cb<_0x75a756['length'];_0x1024cb++){_0x17e012=_0x17e012+_0x75a756[_0x1024cb]['pointName']+',';}_0x17e012=_0x17e012['substring'](0x0,_0x17e012['lastIndexOf'](','));_0x451272['pointNames']=_0x17e012;}_0x42bf42['response']['status']=0xc8;_0x42bf42['body']=statusCode['SUCCESS_200']('success',_0x1f193f);}static async['getAllList'](_0x412b2d){const _0x2a5abe={'npnrJ':function(_0x3d3694,_0xa28b58){return _0x3d3694+_0xa28b58;}};const _0x3f72cc=await SdkReleaseModel['getAllList']();for(let _0x4e9037=0x0;_0x4e9037<_0x3f72cc['length'];_0x4e9037++){const _0xb5bbff=_0x3f72cc[_0x4e9037];let _0x3d0f8e='';const{pointIds:_0x40ce1d}=_0xb5bbff;let _0x30ce6d=await BuryPointWarehouseModel['getListByPointIds'](_0x40ce1d);for(let _0x25701a=0x0;_0x25701a<_0x30ce6d['length'];_0x25701a++){_0x3d0f8e=_0x2a5abe['npnrJ'](_0x3d0f8e,_0x30ce6d[_0x25701a]['pointName'])+',';}_0x3d0f8e=_0x3d0f8e['substring'](0x0,_0x3d0f8e['lastIndexOf'](','));_0xb5bbff['pointNames']=_0x3d0f8e;}_0x412b2d['response']['status']=0xc8;_0x412b2d['body']=statusCode['SUCCESS_200']('success',_0x3f72cc);}static async['createReleaseScript'](_0x5ab4cf){let _0x53d4c0=_0x5ab4cf['request']['body'];const _0x23313a=JSON['parse'](_0x53d4c0);const{id:_0x35790c,type:_0x22ec18}=_0x23313a;let _0x1bf204=await SdkReleaseModel['detail'](_0x35790c);const{projectId:_0x1b2fea,pointIds:_0x13e725}=_0x1bf204;let _0x4c2693=await BuryPointWarehouseModel['getList'](_0x1b2fea,'',0x1);let _0xda13f8=await BuryPointWarehouseModel['getListByPointIds'](_0x13e725);let _0x308a6e=await SdkReleaseController['getReleaseScript'](_0x1bf204,_0x4c2693,_0xda13f8,_0x22ec18);_0x5ab4cf['response']['status']=0xc8;_0x5ab4cf['body']=statusCode['SUCCESS_200']('success',_0x308a6e);}static async['getReleaseScript'](_0x250de7,_0x40e416,_0x36d352,_0x83ceb4){const _0x4fe068={'DlENf':function(_0x216270,_0x357ca2){return _0x216270<_0x357ca2;},'yrlrO':function(_0x840ac5,_0x789a30){return _0x840ac5==_0x789a30;},'uIHBs':function(_0x2dee46,_0x4c1d15){return _0x2dee46==_0x4c1d15;},'lBebM':'Wechat','NXpcc':'utf-8','EwqoL':'Java','UaDuG':function(_0x211b48,_0x32b193){return _0x211b48===_0x32b193;},'gPyvb':function(_0x525fed,_0x23c502){return _0x525fed<_0x23c502;},'uPeSA':'$$$webfunny-event-domain$$$'};const{projectId:_0x26c1da,uploadDomain:_0x4371b5}=_0x250de7;let _0x32bc71=[];let _0x5cafab=[];for(let _0x46ca80=0x0;_0x46ca80<_0x40e416['length'];_0x46ca80++){_0x32bc71['push'](_0x40e416[_0x46ca80]);const{id:_0x541a97,weType:_0x4d7137,replacePointIdKey:_0x4e7740}=_0x40e416[_0x46ca80];let _0x39dfc3=_0x541a97;_0x5cafab['push']({'pointId':_0x39dfc3,'weType':_0x4d7137,'replacePointIdKey':_0x4e7740});}for(let _0x4ef06a=0x0;_0x4fe068['DlENf'](_0x4ef06a,_0x36d352['length']);_0x4ef06a++){_0x32bc71['push'](_0x36d352[_0x4ef06a]);}let _0x3bce7b='';let _0x1eb345='window.';if(_0x4fe068['yrlrO'](_0x83ceb4,'H5')){_0x1eb345='window.';}else if(_0x83ceb4=='Uniapp'){_0x1eb345='uni.';}else if(_0x83ceb4=='Wechat'){_0x1eb345='wx.';}for(let _0x48acb6=0x0;_0x48acb6<_0x32bc71['length'];_0x48acb6++){let _0x128d33=_0x32bc71[_0x48acb6];const{id:_0x1c8c3a,fields:_0x4c1b82}=_0x128d33;let _0x24b9bc=_0x1c8c3a;let _0x199a84=await BuryPointFieldModel['getListByFieldIds'](_0x4c1b82);let _0xde600a='';for(let _0x1ff22b=0x0;_0x4fe068['DlENf'](_0x1ff22b,_0x199a84['length']);_0x1ff22b++){const _0x3f0f37=_0x199a84[_0x1ff22b];let{fieldName:_0x2d81a3,fieldType:_0x453820,fieldLength:_0x499e16}=_0x3f0f37;_0x453820=Utils['convertFieldType'](_0x453820);_0xde600a+=_0x2d81a3+':{required:true,type:\x27'+_0x453820+'\x27,length:'+_0x499e16+'},';}_0x3bce7b+=_0x24b9bc+':{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fields:{'+_0xde600a+'},\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20trackEvent(params){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if('+_0x1eb345+'webfunnyEventValidateParams(params,this.fields)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventUtils.setFirstActionTime(\x27'+_0x24b9bc+'\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\x20weFirstStepDay\x20=\x20'+_0x1eb345+'webfunnyEventUtils.getFirstActionTime(\x27'+_0x24b9bc+'\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\x20customerInfo\x20=\x20'+_0x1eb345+'webfunnyEventGetCustomerInfo();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20for\x20(var\x20key\x20in\x20params)\x20{\x20if\x20(typeof\x20params[key]\x20!==\x20\x22number\x22)\x20{\x20params[key]\x20=\x20'+_0x1eb345+'webfunnyEventUtils.b64Code(params[key])\x20}\x20};\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventUtils.combineObject(params,\x20{projectId:\x20\x27'+_0x26c1da+'\x27,\x20pointId:\x20\x27'+_0x24b9bc+'\x27});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventUtils.combineObject(params,\x20customerInfo);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventUtils.combineObject(params,\x20{weFirstStepDay});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if('+_0x1eb345+'WE_INIT_FLG\x20===\x20true){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventSendRequest([params]);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1eb345+'webfunnyEventStoreLogs(params);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20},';}_0x3bce7b=_0x3bce7b['replace'](/[\n][ ]*/g,'');_0x3bce7b='{'+_0x3bce7b+'}';let _0x5c1c33='';let _0x2612bf='//';if(_0x83ceb4=='H5'){_0x5c1c33=fs['readFileSync'](path['resolve'](__dirname,'..')+'/lib/webfunny-track.web.umd.js','utf-8');}else if(_0x83ceb4=='Uniapp'){_0x2612bf="//:sptth".split("").reverse().join("");_0x5c1c33=fs['readFileSync'](path['resolve'](__dirname,'..')+'/lib/webfunny-track.uni.umd.js','utf-8');}else if(_0x4fe068['uIHBs'](_0x83ceb4,_0x4fe068['lBebM'])){_0x2612bf='https://';_0x5c1c33=fs['readFileSync'](path['resolve'](__dirname,'..')+'/lib/webfunny-track.wx.umd.js',_0x4fe068['NXpcc']);}else if(_0x83ceb4==_0x4fe068['EwqoL']){}let _0x5bf847=accountInfo['uploadServerDomain'];if(!_0x5bf847||_0x4fe068['UaDuG'](_0x5bf847,'')||_0x5bf847===undefined){_0x5bf847=accountInfo['localServerDomain'];}for(let _0x1287df=0x0;_0x4fe068['gPyvb'](_0x1287df,_0x5cafab['length']);_0x1287df++){const{pointId:_0x5c0752,replacePointIdKey:_0xb5252}=_0x5cafab[_0x1287df];_0x5c1c33=_0x5c1c33['replace']("\u0024\u0024\u0024"+_0xb5252+'$$$',_0x5c0752);}let _0x31c0eb='';if(_0x4371b5===null){_0x31c0eb=_0x2612bf+_0x5bf847;}else if(_0x4fe068['UaDuG'](_0x4371b5,'')){_0x31c0eb=_0x4371b5;}else{_0x31c0eb=_0x2612bf+_0x4371b5;}let _0xadf9b=_0x5c1c33['toString']()['replace'](/"\$\$\$webfunny-event-code\$\$\$"/g,_0x3bce7b)['replace'](_0x4fe068["\u0075\u0050\u0065\u0053\u0041"],_0x31c0eb)['replace'](/\$\$\$projectId\$\$\$/g,_0x26c1da);let _0x97669f=encodeURIComponent(_0xadf9b);return _0x97669f;}static async['downloadScript'](_0x544fc4){const _0xc890ea={'uCcNd':function(_0x376929,_0x2e5360,_0x21bebc){return _0x376929(_0x2e5360,_0x21bebc);},'Iwbpz':function(_0x1f216d,_0x35a8ed){return _0x1f216d*_0x35a8ed;}};const _0x4f5300=Utils['parseQs'](_0x544fc4['request']['url']);let _0x475e44=_0x4f5300['id'];let _0x228eac=_0x4f5300['type'];const _0x4b8c70=await SdkReleaseController['createScript'](_0x475e44,_0x228eac);const _0x459a10='event/lib/'+_0x4b8c70;_0x544fc4['attachment'](_0x459a10);await _0xc890ea['uCcNd'](send,_0x544fc4,_0x459a10);setTimeout(()=>{fs['unlinkSync'](_0x459a10);},_0xc890ea['Iwbpz'](0x1770,0x64));}static async['createScript'](_0x1e6df,_0x313013){const _0x5810aa={'InnSh':function(_0x39878c,_0x3b11eb){return _0x39878c(_0x3b11eb);},'tFzsd':'path','EmpJb':function(_0x666136,_0x13e3d7){return _0x666136(_0x13e3d7);}};let _0x381a11=await SdkReleaseModel['detail'](_0x1e6df);const{projectId:_0x2c94e5,pointIds:_0x24b6eb}=_0x381a11;let _0x4cb790=await BuryPointWarehouseModel['getList'](_0x2c94e5,'',0x1);let _0x3c7a23=await BuryPointWarehouseModel['getListByPointIds'](_0x24b6eb);let _0x21d97d=await SdkReleaseController['getReleaseScript'](_0x381a11,_0x4cb790,_0x3c7a23,_0x313013);const _0xccaf15=require('fs');const _0x1b4786=_0x5810aa['InnSh'](require,_0x5810aa['tFzsd']);const _0x23944d='../lib/';let _0x55c2be=_0x1b4786['join'](__dirname,_0x23944d);let _0x21501c=_0x313013+'SdkReleaseScript'+new Date()['Format']('yyyyMMddhhmmss')+'.js';let _0x18ce40=_0x55c2be+_0x21501c;let _0x5708ac=_0x5810aa['EmpJb'](decodeURIComponent,_0x21d97d);_0xccaf15['writeFile'](_0x18ce40,_0x5708ac,_0x10301a=>{if(_0x10301a)throw _0x10301a;});return _0x21501c;}static async['initFunnelConfig'](_0x55992d){let _0x59ef99=[];const _0xcb59cb=_0x55992d['request']['body'];const{projectId:_0x81fb1}=_0xcb59cb;_0x59ef99=await SdkReleaseController['getCardAndPointList'](_0x81fb1);let _0x127a34={};_0x127a34['interval']=0x5;_0x127a34['funnel']=_0x59ef99;_0x55992d['response']['status']=0xc8;_0x55992d['body']=statusCode['SUCCESS_200']('success',_0x127a34);}static async['upEvent'](_0x209c98){const _0xa73dfc={'reCSc':'x-forwarded-for','KjFkr':function(_0x35c92e,_0x1bbe40){return _0x35c92e>_0x1bbe40;},'tprOK':function(_0x5403e1,_0x49da9e){return _0x5403e1-_0x49da9e;},'zGnps':function(_0x3bcf4c,_0x1c3166){return _0x3bcf4c||_0x1c3166;},'zPHDo':function(_0x26ce59,_0x22f1e4){return _0x26ce59===_0x22f1e4;},'larpB':function(_0x1060a1,_0x2069ad){return _0x1060a1!==_0x2069ad;},'yZHcK':'堆栈\x20--\x20'};const _0x440a7a=global['eventInfo'];if(_0x440a7a['purchaseCodeValid']!==!![]){_0x209c98['response']['status']=0xc8;_0x209c98['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['INVALID_MSG1']),![]);return;}let _0x314f3c=_0x209c98['request']['body']['data'];let _0x527e66;let _0x4ac233=_0x209c98['req']['headers'][_0xa73dfc['reCSc']]||_0x209c98['req']['connection']['remoteAddress']||_0x209c98['req']['socket']['remoteAddress']||_0x209c98['req']['connection']['socket']['remoteAddress'];const _0x42b3e1=_0x4ac233['replace'](/\s+/g,'')['split'](',');if(_0xa73dfc['KjFkr'](_0x42b3e1['length'],0x1)){_0x4ac233=_0x42b3e1[_0xa73dfc['tprOK'](_0x42b3e1['length'],0x1)];}else{_0x4ac233=_0x42b3e1[0x0];}if(_0x314f3c){_0x527e66=Utils['logParseJson'](_0x314f3c);}else{_0x527e66=Utils['logParseJson'](_0x209c98['request']['body']);}_0x527e66['weIp']=_0x4ac233;_0x527e66['weCountry']='';_0x527e66['weProvince']='';_0x527e66['weCity']='';try{const _0x2134e9=await searcher['btreeSearchSync'](_0xa73dfc["\u007a\u0047\u006e\u0070\u0073"](_0x4ac233,'255.255.255.255'));if(_0x2134e9){const{region:_0x15c9ab}=_0x2134e9;const _0xa6f3cf=_0x15c9ab['split']('|');_0x527e66['weCountry']=_0xa6f3cf[0x0]||'中国';_0x527e66['weProvince']=_0xa6f3cf[0x2]||'未知';_0x527e66['weCity']=_0xa6f3cf[0x3]||'未知';}}catch(_0x184418){log['printError']('IP定位失败'+_0x4ac233+'：',_0x184418);}const{projectId:_0x2e38e9,pointId:_0x25dd1d}=_0x527e66;let _0x492dc1='';try{const{messageQueue:_0x3916fc}=accountInfo;if(_0xa73dfc['zPHDo'](_0x3916fc,!![])&&_0xa73dfc['larpB'](global['eventInfo']['purchaseCodeType'],0x32)){const _0x35e627=JSON['stringify'](_0x527e66);sendMq['sendQueueMsg']('upload_log_event',_0x35e627,_0x473f8d=>{},_0x3d9cb9=>{log['printError']('消息队列推送报错:\x20',_0x3d9cb9);});}else{await SdkReleaseController['handleUpEventData'](_0x527e66);}}catch(_0x4a5908){const _0x4e5861=typeof _0x492dc1=='object'?JSON['stringify'](_0x492dc1):_0x492dc1;log['printError']('上报接口报错');log['printError'](_0x4e5861);log['printError'](_0xa73dfc['yZHcK'],_0x4a5908);}finally{let _0x4e93ad=await SdkReleaseController['getCardAndPointList'](_0x2e38e9);let _0x29b826={};_0x29b826['interval']=0x5;_0x29b826['funnel']=_0x4e93ad;_0x209c98['response']['status']=0xc8;_0x209c98['body']=statusCode["\u0053\u0055\u0043\u0043\u0045\u0053\u0053\u005f\u0032\u0030\u0030"](''+Utils['b64DecodeUnicode'](ConstMsg['UPEVENT_SUCCESS']),_0x29b826);}}static async['upEvents'](_0x234948){const _0xbe12b7={'FHFxp':'消息队列推送报错:\x20','Spfrr':'upload_log_event','zfEWX':function(_0x533e89,_0x197f45){return _0x533e89!==_0x197f45;},'OrCQJ':'上报接口报错'};const _0x5c2bad=global['eventInfo'];if(_0xbe12b7['zfEWX'](_0x5c2bad['purchaseCodeValid'],!![])){_0x234948['response']['status']=0xc8;_0x234948['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['INVALID_MSG1']),![]);return;}let _0x194ae8=_0x234948['request']['body']['data'];let _0x3f97e8;let _0x24aa6a=_0x234948['req']['headers']['x-forwarded-for']||_0x234948['req']['connection']['remoteAddress']||_0x234948['req']['socket']['remoteAddress']||_0x234948['req']['connection']["\u0073\u006f\u0063\u006b\u0065\u0074"]['remoteAddress'];const _0x38f45b=_0x24aa6a['replace'](/\s+/g,'')['split'](',');if(_0x38f45b['length']>0x1){_0x24aa6a=_0x38f45b[_0x38f45b['length']-0x1];}else{_0x24aa6a=_0x38f45b[0x0];}if(_0x194ae8){_0x3f97e8=Utils['logParseJson'](_0x194ae8);}else{_0x3f97e8=Utils['logParseJson'](_0x234948['request']['body']);}let _0x277ecb='';let _0x2e5c41='';let _0x52151c='';try{const _0x3d22e5=await searcher['btreeSearchSync'](_0x24aa6a||'255.255.255.255');if(_0x3d22e5){const{region:_0x180cdd}=_0x3d22e5;const _0x38b154=_0x180cdd['split']('|');_0x277ecb=_0x38b154[0x0]||'中国';_0x2e5c41=_0x38b154[0x2]||'未知';_0x52151c=_0x38b154[0x3]||'未知';}}catch(_0x4da581){log['printError']('IP定位失败'+_0x24aa6a+'：',_0x4da581);}_0x3f97e8['forEach'](_0x28fc35=>{_0x28fc35['weIp']=_0x24aa6a;_0x28fc35['weCountry']=_0x277ecb;_0x28fc35['weProvince']=_0x2e5c41;_0x28fc35['weCity']=_0x52151c;});let _0x2a2622='';try{const{messageQueue:_0x423285}=accountInfo;if(_0x423285===!![]&&global['eventInfo']['purchaseCodeType']!==0x32){_0x3f97e8['forEach'](_0x431019=>{const _0x3e4a34=JSON['stringify'](_0x431019);sendMq['sendQueueMsg'](_0xbe12b7['Spfrr'],_0x3e4a34,_0xee3bfb=>{},_0x2f7ada=>{log['printError'](_0xbe12b7['FHFxp'],_0x2f7ada);});});}else{_0x3f97e8['forEach'](_0x36b53e=>{SdkReleaseController['handleUpEventData'](_0x36b53e);});}}catch(_0x4105d9){const _0x46536b=typeof _0x2a2622=='object'?JSON['stringify'](_0x2a2622):_0x2a2622;log['printError'](_0xbe12b7['OrCQJ']);log['printError'](_0x46536b);log['printError']('堆栈\x20--\x20',_0x4105d9);}finally{_0x234948['response']['status']=0xc8;_0x234948['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['UPEVENT_SUCCESS']),'');}}static async['handleUpEventData'](_0x4f8968){const _0x2f4c8d={'AovlP':function(_0x277b86,_0x5161e8){return _0x277b86!==_0x5161e8;},'pgZpo':function(_0x57d469,_0x3254d8){return _0x57d469===_0x3254d8;},'gPIkU':function(_0x813e63,_0x108371){return _0x813e63===_0x108371;},'YoOCu':function(_0x4afc1b,_0x36e2de){return _0x4afc1b+_0x36e2de;},'yinMU':function(_0x5021a6,_0x833db7){return _0x5021a6<_0x833db7;},'KDNEm':function(_0x38c3be,_0x5d7235){return _0x38c3be+_0x5d7235;},'FMUBf':function(_0xad91d3,_0x3b03ad){return _0xad91d3+_0x3b03ad;},'pqJWO':'\x27\x27,','bWUtg':function(_0x13a30f,_0x4570aa){return _0x13a30f+_0x4570aa;},'wtYrZ':function(_0x4bb941,_0x3eb6a0){return _0x4bb941===_0x3eb6a0;},'vNOuD':function(_0x1fb334,_0x2741b4){return _0x1fb334+_0x2741b4;},'Mhzax':function(_0xd38151,_0x1f5d64){return _0xd38151+_0x1f5d64;},"\u0066\u0053\u0073\u0075\u006c":'weCustomerKey','lfjiy':'weUserId','JfhTm':function(_0x3c2969,_0x16ba12){return _0x3c2969<_0x16ba12;},'LMthT':'yyyy-MM-dd\x20hh:mm:ss'};const{projectId:_0x271419,pointId:_0x565a30}=_0x4f8968;if(!_0x565a30)return;global['eventInfo']['logCountInMinute']++;for(const _0x233ec9 in _0x4f8968){const _0x26850a=_0x4f8968[_0x233ec9];const _0x1d1145=parseInt(_0x26850a,0xa);if(!Utils['checkFieldNameValid'](_0x233ec9)){continue;}else if(!isNaN(_0x1d1145)&&typeof _0x1d1145==='number'){continue;}try{let _0x239314=Utils['b64DecodeUnicode'](_0x26850a);let _0x355791=!![];for(let _0x2b474a=0x0;_0x2b474a<DANGER_SQL_PARAMS['length'];_0x2b474a++){let _0x1dd91d=DANGER_SQL_PARAMS[_0x2b474a];if(_0x2f4c8d['AovlP'](_0x239314['indexOf'](_0x1dd91d),-0x1)){_0x239314=_0x239314['replace'](_0x1dd91d,'\x20');}}_0x4f8968[_0x233ec9]=_0x355791===!![]?_0x239314:'拦截';}catch(_0x33a059){log['printError'](_0x33a059);_0x4f8968[_0x233ec9]=_0x26850a;}}let _0x2a9598=await BuryPointWarehouseModel['detail'](_0x565a30);if(_0x2f4c8d['pgZpo'](_0x2a9598,null))return;const{fields:_0x8aae2,weType:_0x238991}=_0x2a9598;let _0x2cc41b=await BuryPointFieldModel['getListByFieldIds'](_0x8aae2);let _0xe0085a=[];if(_0x238991&&(_0x238991===0x2||_0x2f4c8d['gPIkU'](_0x238991,'2'))){_0xe0085a=_0x2cc41b;}else{const _0x4890ca=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x271419,0x1);_0xe0085a=[..._0x2cc41b,..._0x4890ca];}let _0x5ceffb='';let _0x526552='(';let _0x2a1999=[];let _0x226aa3=Utils['setTableName'](_0x2f4c8d['YoOCu'](_0x271419,'_')+_0x565a30+'_',0x0);for(let _0x2beede=0x0;_0x2f4c8d['yinMU'](_0x2beede,_0xe0085a['length']);_0x2beede++){const _0x2f6f32=_0xe0085a[_0x2beede];const{fieldName:_0x4e06a1,fieldAlias:_0xaf6484,fieldType:_0x271902,weType:_0x4d3a34}=_0x2f6f32;if(_0x4d3a34===0x0&&_0x4f8968[_0x4e06a1]===undefined){throw new Error(_0x2f4c8d['KDNEm'](_0x2f4c8d['FMUBf'](_0xaf6484+'(',_0x4e06a1),')')+'字段必传!');}if(_0x4f8968[_0x4e06a1]===undefined){if(_0x271902==='VARCHAR'){_0x5ceffb=_0x5ceffb+_0x4e06a1+',';_0x526552=_0x526552+_0x2f4c8d['pqJWO'];}else{_0x5ceffb=_0x2f4c8d['YoOCu'](_0x5ceffb+_0x4e06a1,',');_0x526552=_0x526552+'0,';}}else{_0x5ceffb=_0x2f4c8d['KDNEm'](_0x5ceffb,_0x4e06a1)+',';_0x526552=_0x2f4c8d['bWUtg'](_0x526552,'\x27')+_0x4f8968[_0x4e06a1]+'\x27,';}}if(_0x238991&&(_0x2f4c8d['wtYrZ'](_0x238991,0x2)||_0x2f4c8d['wtYrZ'](_0x238991,'2'))){if(_0x4f8968['weCustomerKey']){_0x5ceffb=_0x2f4c8d['FMUBf'](_0x2f4c8d['KDNEm'](_0x5ceffb,'weCustomerKey'),"\u002c");_0x526552=_0x2f4c8d['vNOuD'](_0x2f4c8d['Mhzax'](_0x526552,'\x27')+_0x4f8968[_0x2f4c8d['fSsul']],'\x27,');}if(_0x4f8968[_0x2f4c8d['lfjiy']]){_0x5ceffb=_0x5ceffb+'weUserId'+',';_0x526552=_0x526552+'\x27'+_0x4f8968['weUserId']+'\x27,';}}if(_0x4f8968['weFirstStepDay']){let _0x1ff093=[];let _0x45ca71=_0x4f8968['weFirstStepDay']['split'](',');for(let _0xd1094d=0x0;_0xd1094d<_0x45ca71['length']-0x1;_0xd1094d++){let _0x5dd4b1={};_0x5dd4b1['cardId']=parseInt(_0x45ca71[_0xd1094d]['split']('-')[0x0],0xa);_0x5dd4b1['date']=_0x45ca71[_0xd1094d]['split']('-')[0x1];_0x1ff093['push'](_0x5dd4b1);}let _0x3917d4=await BuryPointRelationModel['getListByPointIdAndCardId'](_0x565a30,'');for(let _0x4acaf3=0x0;_0x4acaf3<_0x1ff093['length'];_0x4acaf3++){for(let _0x158c82=0x0;_0x2f4c8d['JfhTm'](_0x158c82,_0x3917d4['length']);_0x158c82++){if(_0x3917d4[_0x158c82]['cardId']===_0x1ff093[_0x4acaf3]['cardId']){_0x5ceffb=_0x5ceffb+'weFirstStepDay_'+_0x3917d4[_0x158c82]['stepColum']+',';_0x526552=_0x2f4c8d['bWUtg'](_0x526552+'\x27',_0x1ff093[_0x4acaf3]['date'])+'\x27,';break;}}}}_0x5ceffb=_0x5ceffb+'createdAt';_0x526552=_0x526552+'\x27'+new Date()['Format'](_0x2f4c8d['LMthT'])+'\x27)';_0x2a1999['push'](_0x526552);SdkReleaseModel['saveValues'](_0x226aa3,_0x5ceffb,_0x2a1999);}static async['timerCreateTableByDay'](_0x4d6c1b){const _0x5b6cf5={'kmLhp':function(_0x5e644e,_0x20b88){return _0x5e644e(_0x20b88);},'dlYdF':function(_0x467b4e,_0xaa2a02){return _0x467b4e>_0xaa2a02;},'FAzYG':'定时执行生成今天和明天的表开始','Alftb':'定时执行生成今天和明天的表结束'};log['printInfo'](_0x5b6cf5['FAzYG']);const _0x594104=await SdkReleaseModel['getAllList']()['catch'](_0x87dc80=>{log['printError'](_0x87dc80);});let _0x53437d=setInterval(async()=>{const _0x5ebfcb={'dJBGY':function(_0x555333,_0x1c941d){return _0x555333+_0x1c941d;}};if(_0x53437d&&_0x594104&&_0x594104['length']===0x0){_0x5b6cf5['kmLhp'](clearInterval,_0x53437d);return;}let _0x4f854d=_0x594104['pop']();const{projectId:_0x228d37,pointIds:_0x55477d}=_0x4f854d;const _0x12607a=_0x55477d['split'](',');let _0x1ccae5=await BuryPointWarehouseModel['getPointIds'](_0x228d37,0x1);if(_0x1ccae5&&_0x5b6cf5['dlYdF'](_0x1ccae5['length'],0x0)){for(let _0x5d1576=0x0;_0x5d1576<_0x1ccae5['length'];_0x5d1576++){_0x12607a['push'](_0x1ccae5[_0x5d1576]['id']);}}for(let _0x2dea96=0x0;_0x2dea96<_0x12607a['length'];_0x2dea96++){SdkReleaseController['createTableByDay'](_0x228d37,_0x12607a[_0x2dea96],_0x4d6c1b)['catch'](_0x302145=>{log['printError'](_0x5ebfcb['dJBGY']('定时器执行{'+_0x228d37+'_'+_0x12607a[_0x2dea96],'}生成每天的表报错：'),_0x302145);});}},0xa*0x3e8);log['printInfo'](_0x5b6cf5['Alftb']);}static async['createTableByDay'](_0x6ccbf7,_0x2c1fa8,_0x3ac2fd){const _0x47b657={'naSCe':function(_0xc6f4cd,_0x376053){return _0xc6f4cd+_0x376053;}};let _0x219d4e=Utils['setTableName'](_0x47b657['naSCe'](_0x6ccbf7,'_')+_0x2c1fa8+'_',_0x3ac2fd);let _0x18bc2a=await BuryPointWarehouseModel['detail'](_0x2c1fa8)['catch'](_0xdf0713=>{log['error'](_0xdf0713);});if(_0x18bc2a){const{fields:_0x4c6de0}=_0x18bc2a;let _0x9fd8e7=[];_0x9fd8e7=await BuryPointFieldModel['getListByFieldIds'](_0x4c6de0)['catch'](_0x34d930=>{log['error'](_0x34d930);});const _0x303954=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x6ccbf7,0x1);if(_0x303954&&_0x303954['length']>0x0){for(let _0x25614c=0x0;_0x25614c<_0x303954['length'];_0x25614c++){_0x9fd8e7['push'](_0x303954[_0x25614c]);}}CommonModel['createLogTable'](_0x219d4e,_0x9fd8e7)['catch'](_0x2a878f=>{log['error'](_0x2a878f);});}}static async['getCardAndPointList'](_0x3ae25b){const _0x37b01b={'NCVbz':function(_0x41578e,_0xf035ba){return _0x41578e<_0xf035ba;}};let _0x33d5af=[];let _0x12d9a6=await BuryPointProjectModel['getProjectByProjectIdAndType'](_0x3ae25b,0x3);for(let _0x1524ae=0x0;_0x37b01b['NCVbz'](_0x1524ae,_0x12d9a6['length']);_0x1524ae++){const _0x1af776=_0x12d9a6[_0x1524ae];let _0x2e4c37=await BuryPointCardModel['getList']('',_0x1af776['id'],0x5);for(let _0x1f3dd4=0x0;_0x1f3dd4<_0x2e4c37['length'];_0x1f3dd4++){let _0x4030fe={};const _0x186a3f=_0x2e4c37[_0x1f3dd4];const{calcRule:_0x445fe3}=_0x186a3f;_0x4030fe['t']=_0x186a3f['conversionCycle'];_0x4030fe['c']=_0x186a3f['id'];let _0xcbdf23=JSON['parse'](_0x445fe3);if(_0xcbdf23){let _0x3d3366=[];for(let _0x5075a0=0x0;_0x37b01b['NCVbz'](_0x5075a0,_0xcbdf23['length']);_0x5075a0++){let _0xd7758d=_0xcbdf23[_0x5075a0]['prePoint'];let _0x2bc046=_0xd7758d['pointId'];_0x3d3366['push'](_0x2bc046);}_0x4030fe['s']=_0x3d3366;}_0x33d5af['push'](_0x4030fe);}}return _0x33d5af;}static async['changeUploadDomain'](_0x1d520e){const _0x1aaa9e=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x1d520e['request']['body']);const{id:_0x5399f8,uploadDomain:_0x5d0af9}=_0x1aaa9e;await SdkReleaseModel['update'](_0x5399f8,{'uploadDomain':_0x5d0af9});_0x1d520e['response']['status']=0xc8;_0x1d520e['body']=statusCode['SUCCESS_200']('success',0x0);}}class WeHandleDataController{static async['initWeFieldData'](_0x5db3e4){let _0x33a507='超级管理员';let _0x30c2e2=USER_INFO['USER_TYPE_SUPERADMIN'];let _0x25f3f3=await BuryPointProjectModel['getListByParentId'](-0x1);for(let _0x28bba3=0x0;_0x28bba3<_0x25f3f3['length'];_0x28bba3++){const{projectId:_0x1713aa}=_0x25f3f3[_0x28bba3];if(_0x1713aa==='event101'){await CommonInitDataController['handleWeFieldData'](_0x1713aa,_0x33a507);}}_0x5db3e4['response']['status']=0xc8;_0x5db3e4['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}static async['initWePointData'](_0x409cca){const _0x39e689={'AGQog':function(_0x3f2098,_0x31189f){return _0x3f2098<_0x31189f;}};let _0x169695='超级管理员';let _0x4cf519=USER_INFO['USER_TYPE_SUPERADMIN'];let _0x3c01d8=await BuryPointProjectModel['getListByParentId'](-0x1);for(let _0x30b82d=0x0;_0x39e689['AGQog'](_0x30b82d,_0x3c01d8['length']);_0x30b82d++){const{projectId:_0x41f989}=_0x3c01d8[_0x30b82d];if(_0x41f989==='event101'){await CommonInitDataController['handleWePointData'](_0x41f989,_0x169695);}}_0x409cca['response']['status']=0xc8;_0x409cca['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}static async['initWeTemplateData'](_0x12b8bc){const _0x53608f={'DcGch':function(_0x1b4a1a,_0x30ce58){return _0x1b4a1a>_0x30ce58;}};let _0x5c67eb="ynnufbew".split("").reverse().join("");let _0x426ce9=USER_INFO['USER_TYPE_SUPERADMIN'];if(weTemplateList&&_0x53608f['DcGch'](weTemplateList['length'],0x0)){for(let _0x307fa7=0x0;_0x307fa7<weTemplateList['length'];_0x307fa7++){await WeHandleDataController['createWeProject'](weTemplateList[_0x307fa7],_0x5c67eb);}_0x12b8bc['response']['status']=0xc8;_0x12b8bc['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'');}else{_0x12b8bc['response']['status']=0x19c;_0x12b8bc['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['createWeTemplateData'](){const _0x2288c3={'ZBYyW':function(_0x502bb6,_0x1316a4){return _0x502bb6>_0x1316a4;},'aPtiy':function(_0x1351d6,_0x4d86ee){return _0x1351d6<_0x4d86ee;}};log['printInfo']('创建系统模板和项目开始');let _0x105ea3='webfunny';if(weTemplateList&&_0x2288c3['ZBYyW'](weTemplateList['length'],0x0)){for(let _0x35da3e=0x0;_0x2288c3['aPtiy'](_0x35da3e,weTemplateList['length']);_0x35da3e++){await WeHandleDataController['createWeProject'](weTemplateList[_0x35da3e],_0x105ea3);}}}static async['upgradeVersion_2_0'](_0xab8e8c){const _0x230ce9={'KqZjW':function(_0x57b84e,_0x3d00d5){return _0x57b84e*_0x3d00d5;}};let _0x29229e='超级管理员';let _0x23fc70=USER_INFO['USER_TYPE_SUPERADMIN'];let _0x20c363=await BuryPointProjectModel['getListByParentIdAndSysType'](-0x1,0x0);_0xab8e8c['response']['status']=0xc8;_0xab8e8c['body']=statusCode['SUCCESS_200'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_SUCCESS']),'升级中，'+_0x230ce9['KqZjW'](_0x20c363['length'],0xa)+'秒内请务在进行其他操作...');for(let _0x228ef7=0x0;_0x228ef7<_0x20c363['length'];_0x228ef7++){const{projectId:_0x8290b7}=_0x20c363[_0x228ef7];CommonInitDataController['initWeFieldAndPointData'](_0x8290b7,_0x29229e);CommonInitDataController['handleOldFieldData'](_0x8290b7,_0x29229e);}}static async['createWeProject'](_0x3fc689,_0x7b9334){const _0x422c3d={'znlqu':function(_0x24a4a9,_0x565271){return _0x24a4a9+_0x565271;},'FXJMJ':function(_0x2a448e,_0x33518b){return _0x2a448e<_0x33518b;},'awsbr':function(_0x470985,_0x501c6d){return _0x470985+_0x501c6d;},'CSmXH':function(_0x3a4424,_0x1aa8f2){return _0x3a4424(_0x1aa8f2);},'HEdwh':'yyyyMMddhhmmss','pqmnC':function(_0xeb0502,_0x52d3f9){return _0xeb0502===_0x52d3f9;},'CfcbC':function(_0x2f8d67,_0x4a9dc6){return _0x2f8d67===_0x4a9dc6;},'EsKNT':function(_0x292fc7,_0x3e1db4){return _0x292fc7<_0x3e1db4;}};const{templateName:_0x48e259,weKey:_0x2b2eff,groupCount:_0x3840ce,pageCount:_0x3f4c8b,cardCount:_0x22b075,templatePoint:_0xf5db6b,detail:_0x190b70}=_0x3fc689;let _0x5dbed3=await BuryPointTemplateModel['existWeTempletaByWekey'](_0x2b2eff);if(_0x5dbed3&&_0x5dbed3['length']>0x0){return;}let _0x4079fe={};_0x4079fe['templateName']=_0x48e259;_0x4079fe['weKey']=_0x2b2eff;_0x4079fe['groupCount']=_0x3840ce;_0x4079fe['pageCount']=_0x3f4c8b;_0x4079fe['cardCount']=_0x22b075;_0x4079fe['createBy']=_0x7b9334;_0x4079fe['templatePoint']='{}';_0x4079fe['detail']='{}';_0x4079fe['type']=0x3;let _0x360541=await BuryPointTemplateModel['create'](_0x4079fe);let _0x3311f2=_0x190b70;let _0x3c304d=_0x422c3d['znlqu'](_0x48e259,'项目');let _0x44f635=await BuryPointProjectController['createNewProject'](_0x3c304d,0x1,_0x7b9334,'');let _0x320f4c=_0x44f635['projectId'];let _0x1b2752=await CommonInitDataController['initWeTemplatePointAndField'](_0x320f4c,_0xf5db6b,_0x7b9334);let _0x46fec4=_0x3311f2['groupList'];let _0x4c93a9=[];let _0x276c2e=[];for(let _0x566122=0x0;_0x566122<_0x46fec4['length'];_0x566122++){let _0x29fbc4={};_0x29fbc4['name']=_0x46fec4[_0x566122]['name'];_0x29fbc4["\u0074\u0079\u0070\u0065"]=0x2;_0x29fbc4['sort']=_0x46fec4[_0x566122]['sort'];_0x29fbc4['parentId']=_0x44f635['id'];_0x29fbc4['projectId']=_0x320f4c;_0x29fbc4['createBy']=_0x7b9334;let _0x2d03da=await BuryPointProjectModel['create'](_0x29fbc4);let _0x334ae6=_0x46fec4[_0x566122]['pageList'];let _0x5c2269={};_0x5c2269['id']=_0x2d03da['id'];_0x5c2269['name']=_0x46fec4[_0x566122]['name'];_0x5c2269['type']=_0x46fec4[_0x566122]['type'];_0x5c2269['sort']=_0x46fec4[_0x566122]['sort'];let _0x12e1f9=[];for(let _0x4e0c8d=0x0;_0x422c3d['FXJMJ'](_0x4e0c8d,_0x334ae6['length']);_0x4e0c8d++){let _0x2bb35e={};_0x2bb35e['name']=_0x334ae6[_0x4e0c8d]['name'];_0x2bb35e['type']=0x3;_0x2bb35e['sort']=_0x334ae6[_0x4e0c8d]['sort'];_0x2bb35e['parentId']=_0x2d03da['id'];_0x2bb35e['projectId']=_0x320f4c;_0x2bb35e['createBy']=_0x7b9334;let _0x45af6e=await BuryPointProjectModel['create'](_0x2bb35e);let _0x4bbde=_0x334ae6[_0x4e0c8d]['cardList'];let _0x3c5e97={};_0x3c5e97['id']=_0x45af6e['id'];_0x3c5e97["\u006e\u0061\u006d\u0065"]=_0x334ae6[_0x4e0c8d]['name'];_0x3c5e97['type']=_0x334ae6[_0x4e0c8d]['type'];_0x3c5e97['sort']=_0x334ae6[_0x4e0c8d]['sort'];let _0x1b4a45=[];for(let _0x3009e3=0x0;_0x3009e3<_0x4bbde['length'];_0x3009e3++){let _0x208876=_0x4bbde[_0x3009e3];let _0x4ec208={};_0x4ec208['pageId']=_0x45af6e['id'];_0x4ec208['name']=_0x208876['name'];_0x4ec208['type']=_0x208876['type'];_0x4ec208['sort']=_0x208876['sort'];_0x4ec208['conversionCycle']=_0x208876['conversionCycle'];_0x4ec208['groupByFlag']=_0x208876['groupByFlag'];_0x4ec208['chartTableShow']=_0x208876['chartTableShow'];_0x4ec208['togetherList']=_0x208876['togetherList'];_0x4ec208['refreshFrequency']=_0x208876['refreshFrequency'];let _0x1ce5a=JSON['parse'](_0x208876['calcRule']);let _0x57105c=[];let _0x3e1ed7=[];for(let _0x24880c=0x0;_0x24880c<_0x1ce5a['length'];_0x24880c++){let _0x59a82d=_0x1ce5a[_0x24880c];let _0x5ce6b4=_0x59a82d['calcName'];_0x59a82d['calcNameKey']=_0x422c3d['awsbr'](_0x422c3d['CSmXH'](slugify,_0x5ce6b4)['replace'](/-/g,''),new Date()['Format'](_0x422c3d['HEdwh']));let _0x3ad830=_0x59a82d['prePoint'];let _0x16f020=_0x3ad830['pointId'];let _0x211194=await CommonInitDataController['getNewPointId'](_0x16f020,_0x1b2752);_0x59a82d['prePoint']['pointId']=_0x211194;_0x276c2e['push'](_0x211194);let _0xf092cc=_0x59a82d['endPoint'];if(_0xf092cc){let _0x25545b=await CommonInitDataController['getNewPointId'](_0x16f020,_0x1b2752);_0x59a82d['endPoint']['pointId']=_0x25545b;_0x276c2e['push'](_0x25545b);}_0x57105c['push'](_0x59a82d);if(_0x422c3d['pqmnC'](_0x4ec208['type'],0x5)){_0x3e1ed7['push'](_0x211194);}}_0x4ec208['calcRule']=JSON['stringify'](_0x57105c);_0x4ec208['createBy']=_0x7b9334;let _0x19d022=await BuryPointCardModel['create'](_0x4ec208);if(_0x422c3d["\u0043\u0066\u0063\u0062\u0043"](_0x4ec208['type'],0x5)){BuryPointCardController['saveFunnelPointRelation'](_0x3e1ed7,_0x19d022['id']);}let _0xe354a7={};_0xe354a7['id']=_0x19d022['id'];_0xe354a7['name']=_0x4bbde[_0x3009e3]['name'];_0xe354a7['type']=_0x4bbde[_0x3009e3]['type'];_0xe354a7['conversionCycle']=_0x4bbde[_0x3009e3]['conversionCycle'];_0xe354a7['groupByFlag']=_0x4bbde[_0x3009e3]['groupByFlag'];_0xe354a7['chartTableShow']=_0x4bbde[_0x3009e3]['chartTableShow'];_0xe354a7['togetherList']=_0x4bbde[_0x3009e3]['togetherList'];_0xe354a7['refreshFrequency']=_0x4bbde[_0x3009e3]['refreshFrequency'];_0xe354a7['calcRule']=_0x4ec208['calcRule'];_0x1b4a45['push'](_0xe354a7);}_0x3c5e97['cardList']=_0x1b4a45;_0x12e1f9['push'](_0x3c5e97);}_0x5c2269['pageList']=_0x12e1f9;_0x4c93a9['push'](_0x5c2269);}let _0x29d0b5={};_0x29d0b5['groupList']=_0x4c93a9;let _0x413de6=[...new Set(_0x276c2e)];let _0x3c4467=[];for(let _0x1b3a56=0x0;_0x422c3d['EsKNT'](_0x1b3a56,_0x413de6['length']);_0x1b3a56++){let _0x2bd5f7={};let _0x5adbe4=_0x413de6[_0x1b3a56];let _0x27d1ae=await BuryPointWarehouseModel['detail'](_0x5adbe4);_0x2bd5f7['pointId']=_0x5adbe4;_0x2bd5f7['pointName']=_0x27d1ae['pointName'];_0x2bd5f7['pointDesc']=_0x27d1ae['pointDesc'];_0x2bd5f7['weType']=_0x27d1ae['weType'];_0x2bd5f7['replacePointIdKey']=_0x27d1ae['replacePointIdKey'];let _0x42ebad=await BuryPointFieldModel['getListByFieldIds'](_0x27d1ae['fields']);let _0x383d76=[];for(let _0x5e81fc=0x0;_0x422c3d['FXJMJ'](_0x5e81fc,_0x42ebad['length']);_0x5e81fc++){let _0x1df537={};_0x1df537['fieldName']=_0x42ebad[_0x5e81fc]['fieldName'];_0x1df537['fieldAlias']=_0x42ebad[_0x5e81fc]['fieldAlias'];_0x1df537['fieldType']=_0x42ebad[_0x5e81fc]['fieldType'];_0x1df537['fieldLength']=_0x42ebad[_0x5e81fc]['fieldLength'];_0x1df537['fieldDesc']=_0x42ebad[_0x5e81fc]['fieldDesc'];_0x1df537['groupByFlag']=_0x42ebad[_0x5e81fc]['groupByFlag'];_0x1df537['weType']=_0x42ebad[_0x5e81fc]['weType'];_0x383d76['push'](_0x1df537);}_0x2bd5f7['fieldList']=_0x383d76;_0x3c4467['push'](_0x2bd5f7);}let _0x4ad1f0={};_0x4ad1f0['templatePoint']=JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](_0x3c4467);_0x4ad1f0['projectId']=_0x320f4c;_0x4ad1f0['detail']=JSON['stringify'](_0x29d0b5);_0x4ad1f0['id']=_0x360541['id'];await BuryPointTemplateModel['update'](_0x4ad1f0['id'],_0x4ad1f0);}static async['createDemoTemplateData'](){const _0x981cec={'fxcvM':function(_0x31b8cb,_0x196207){return _0x31b8cb<_0x196207;},'suZRN':function(_0x5e5d18,_0x5ed826){return _0x5e5d18+_0x5ed826;}};let _0x2f9fe4=[];for(let _0x4f6c0e=0x0;_0x4f6c0e<baseTemplateCardList['length'];_0x4f6c0e++){let _0x472f5e=baseTemplateCardList[_0x4f6c0e];let _0x4e3dde=[];for(let _0x126a47=0x0;_0x981cec['fxcvM'](_0x126a47,_0x472f5e['statisticList']['length']);_0x126a47++){let _0x5844f1=_0x472f5e['statisticList'][_0x126a47];let _0x38f1b3=_0x5844f1['calcType'];let _0xfb5968=[];if(_0x38f1b3){for(let _0x22a3a9=0x0;_0x22a3a9<0x1e;_0x22a3a9++){let _0x1f89eb={};_0x1f89eb['count']=Math['floor'](Math['random']()*0x64);_0x1f89eb['happenDate']=_0x981cec['suZRN']('04-0',_0x22a3a9);_0xfb5968['push'](_0x1f89eb);}}else{for(let _0x53522d=0x0;_0x53522d<0x1e;_0x53522d++){let _0x10f59b={};_0x10f59b['count']=Math['floor'](Math['random']()*0x3e8+0x3e8);_0x10f59b['happenDate']='04-0'+_0x53522d;_0xfb5968['push'](_0x10f59b);}}_0x5844f1['calcData']=_0xfb5968;_0x4e3dde['push'](_0x5844f1);}_0x472f5e['statisticList']=_0x4e3dde;_0x2f9fe4['push'](_0x472f5e);}console['log'](JSON['stringify'](_0x2f9fe4));}}class UserController{static['sendEmail'](_0x574e2d,_0x27382a,_0x339dd1){const _0x40a1bb={'ONNAf':_0x1eec7b(0x7ba,0x7c9,0x147e,0xe64,0x13ff)};function _0x4b4c8d(_0x1af5b7,_0x15dd1f,_0xc7c11a,_0x58f4b6,_0x28bff2){return _0x49e9(_0x28bff2- -0xa8,_0x58f4b6);}function _0x3ef8d4(_0x6b2fcb,_0x57a139,_0x105450,_0x5dc153,_0x390a5c){return _0x49e9(_0x105450- -0x366,_0x5dc153);}function _0x1eec7b(_0x54e4df,_0x17b4bb,_0x19a527,_0x658689,_0xdb94b){return _0x425a(_0x658689-0xb9,_0x17b4bb);}if(accountInfo['useCusEmailSys']===!![]){CusUtils['sendEmail'](_0x574e2d,_0x27382a,_0x339dd1,accountInfo['emailUser'],accountInfo['emailPassword']);}else{fetch(_0x40a1bb['ONNAf'],{'method':_0x4b4c8d(-0xd1,-0x642,0x2e1,'Prj5',0xb9),'body':JSON['stringify']({'email':_0x574e2d,'title':_0x27382a,'content':_0x339dd1}),'headers':{'Content-Type':_0x3ef8d4(0xb88,0xf3,0x4cd,'oAFI',0x5a3)}})['catch'](_0x52e6a1=>{});}}static async['create'](_0x5a25b4){const _0x19fef2=JSON['parse'](_0x5a25b4['request']['body']);const{funnelName:_0x935ada,funnelIds:_0x22b6e5}=_0x19fef2;const _0x1a69f5={'funnelName':_0x935ada,'funnelIds':_0x22b6e5};if(_0x19fef2['funnelName']){let _0x2b2185=await UserModel['createUser'](_0x1a69f5);let _0x123847=await UserModel['getUserDetail'](_0x2b2185['id']);_0x5a25b4['response']['status']=0xc8;_0x5a25b4["\u0062\u006f\u0064\u0079"]=statusCode['SUCCESS_200']('创建信息成功',_0x123847||{});}else{_0x5a25b4['response']['status']=0x19c;_0x5a25b4['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['getUserList'](_0x371af0){let _0x7125b8=_0x371af0['request']['body'];if(_0x7125b8){const _0x262133=await UserModel['getUserList']();_0x371af0['response']['status']=0xc8;_0x371af0['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x262133);}else{_0x371af0['response']['status']=0x19c;_0x371af0['body']=statusCode['ERROR_412']('查询信息列表失败！');}}static async['getUserListByAdmin'](_0x1a8ce8){const _0x561558={'ighXQ':'admin','sllKr':'查询信息列表成功！'};let _0x154ac4=_0x1a8ce8['request']['body'];const{userType:_0x5aa33c}=_0x1a8ce8['user'];if(_0x5aa33c!==_0x561558['ighXQ']||_0x5aa33c!=='superAdmin'){_0x1a8ce8['response']['status']=0x19c;_0x1a8ce8['body']=statusCode['ERROR_412']('非管理员，无权调用此接口！');return;}if(_0x154ac4){const _0x1942ee=await UserModel['getUserListByAdmin']();_0x1a8ce8['response']['status']=0xc8;_0x1a8ce8['body']=statusCode['SUCCESS_200'](_0x561558['sllKr'],_0x1942ee);}else{_0x1a8ce8['response']['status']=0x19c;_0x1a8ce8['body']=statusCode['ERROR_412']('查询信息列表失败！');}}static async['getAllUserInfoForSimple'](_0x3dd81c){const _0x218346=await UserModel['getAllUserInfoForSimple']();_0x3dd81c['response']['status']=0xc8;_0x3dd81c['body']=statusCode['SUCCESS_200']('查询信息列表成功！',_0x218346);}static async['detail'](_0x454042){const _0x34f531={'nQWEV':'查询成功！'};let _0x43a4bb=_0x454042['params']['id'];if(_0x43a4bb){let _0x380d5c=await UserModel['getUserDetail'](_0x43a4bb);_0x454042['response']['status']=0xc8;_0x454042['body']=statusCode['SUCCESS_200'](_0x34f531['nQWEV'],_0x380d5c);}else{_0x454042['response']['status']=0x19c;_0x454042['body']=statusCode['ERROR_412']('信息ID必须传');}}static async['delete'](_0x1b655b){let _0x3d2d7d=JSON['parse'](_0x1b655b['request']['body']);let _0x57befd=_0x3d2d7d['id'];if(_0x57befd&&!isNaN(_0x57befd)){await UserModel["\u0064\u0065\u006c\u0065\u0074\u0065\u0055\u0073\u0065\u0072"](_0x57befd);_0x1b655b['response']['status']=0xc8;_0x1b655b['body']=statusCode['SUCCESS_200']('删除信息成功！');}else{_0x1b655b['response']['status']=0x19c;_0x1b655b['body']=statusCode['ERROR_412']('信息ID必须传！');}}static async['update'](_0x2d4d41){let _0x553f9=_0x2d4d41['request']['body'];let _0x2cb17f=_0x2d4d41['params']['id'];if(_0x553f9){await UserModel['updateUser'](_0x2cb17f,_0x553f9);let _0x30001d=await UserModel['getUserDetail'](_0x2cb17f);_0x2d4d41['response']['status']=0xc8;_0x2d4d41['body']=statusCode['SUCCESS_200']('更新信息成功！',_0x30001d);}else{_0x2d4d41['response']['status']=0x19c;_0x2d4d41['body']=statusCode['ERROR_412']('更新信息失败！');}}static async['setValidateCode'](){const _0x3e82d7={'xAard':'0123456789ABCDEFGHGKLMNOPQRSTUVWXYZabcdefghigkmnopqrstuvwxyz','RieFt':function(_0x4ef9d3,_0x15d01d){return _0x4ef9d3<_0x15d01d;}};const _0x24fe4d=_0x3e82d7['xAard'];let _0x125939='';for(let _0x39c9ae=0x0;_0x3e82d7['RieFt'](_0x39c9ae,0x4);_0x39c9ae++){const _0x487b09=Math['floor'](Math['random']()*(_0x24fe4d['length']-0x1)+0x1);_0x125939+=_0x24fe4d['charAt'](_0x487b09);}global['eventInfo']['loginValidateCode']=_0x125939;return _0x125939;}static async['refreshValidateCode'](_0x47795b){const _0x28f223={'hWSAR':function(_0x55a276,_0x4f4137){return _0x55a276(_0x4f4137);},'HMHwT':function(_0x4be5e5,_0x3519c3){return _0x4be5e5*_0x3519c3;}};const _0x2e7a8f=UserController['setValidateCode']();if(global['eventInfo']['loginValidateCodeTimer']){_0x28f223['hWSAR'](clearInterval,global['eventInfo']['loginValidateCodeTimer']);}else{global['eventInfo']['loginValidateCodeTimer']=setInterval(()=>{UserController['setValidateCode']();},_0x28f223['HMHwT'](0x5*0x3c,0x3e8));}_0x47795b['response']['status']=0xc8;_0x47795b['body']=statusCode['SUCCESS_200']('success',_0x2e7a8f);}static async['getValidateCode'](_0x725eaf){const _0x4730a3=global['eventInfo']['loginValidateCode'];_0x725eaf['response']['status']=0xc8;_0x725eaf['body']=statusCode['SUCCESS_200']('success',_0x4730a3);}static async['login'](_0x3c3967){const _0x4546fa={'nhndd':'验证码不正确，请重新输入！','UCtUq':function(_0x2aa251,_0x411dfa){return _0x2aa251===_0x411dfa;},"\u0054\u0063\u0053\u004f\u0066":'此账号尚未激活，请联系管理员激活！','ZKTqR':function(_0x33cd52,_0x51e637){return _0x33cd52*_0x51e637;}};const _0x23686b=JSON['parse'](_0x3c3967['request']['body']);const{emailName:_0x1f7ecb,password:_0x3093e4,code:_0x1eaa2e}=_0x23686b;const _0x1b507a=Utils['b64DecodeUnicode'](_0x3093e4)['split']('')['reverse']()['join']('');const _0x288da8=global['eventInfo']['loginValidateCode']['toLowerCase']();const _0x51447d=_0x1eaa2e['toLowerCase']();if(_0x288da8!=_0x51447d){UserController['setValidateCode']();_0x3c3967['response']['status']=0xc8;_0x3c3967['body']=statusCode['SUCCESS_200'](_0x4546fa['nhndd'],0x1);return;}const _0x1c43f4={'emailName':_0x1f7ecb,'password':Utils['md5'](_0x1b507a)};const _0x51e6b5=await UserModel['getUserForPwd'](_0x1c43f4);if(_0x51e6b5){const{userId:_0x47af29,userType:_0x1c4e2c,registerStatus:_0x1592b}=_0x51e6b5;if(_0x4546fa['UCtUq'](_0x1592b,0x0)){_0x3c3967['response']['status']=0xc8;_0x3c3967['body']=statusCode['SUCCESS_200'](_0x4546fa['TcSOf'],0x1);return;}const _0xc65fbf=jwt['sign']({'userId':_0x47af29,'userType':_0x1c4e2c,'emailName':_0x1f7ecb},secret['sign'],{'expiresIn':_0x4546fa['ZKTqR'](_0x4546fa['ZKTqR'](0x21*0x18*0x3c,0x3c),0x3e8)});global['eventInfo']['webfunnyTokenList']['push'](_0xc65fbf);UserController['setValidateCode']();_0x3c3967['response']['status']=0xc8;_0x3c3967['body']=statusCode['SUCCESS_200']('登录成功',_0xc65fbf);}else{UserController['setValidateCode']();_0x3c3967['response']['status']=0xc8;_0x3c3967['body']=statusCode['SUCCESS_200']('用户名密码不正确！',0x1);}}static async['forgetPwd'](_0x2bed35){const _0x3448e3={'uVoeS':'非管理员账号，请联系管理员获取登录密码！'};const _0x411e86=JSON['parse'](_0x2bed35['request']['body']);const{email:_0x56df8e}=_0x411e86;let _0x4edcda=await UserModel['isAdminAccount'](_0x56df8e,USER_INFO['USER_TYPE_ADMIN']);if(_0x4edcda){UserController['sendEmail'](_0x56df8e,'密码找回','管理员你好，\x20你的登录密码是：'+_0x4edcda['password']);_0x2bed35['response']['status']=0xc8;_0x2bed35['body']=statusCode['SUCCESS_200']('管理员你好，密码已发送至您的邮箱，请注意查收！',0x0);}else{_0x2bed35['response']['status']=0xc8;_0x2bed35['body']=statusCode['SUCCESS_200'](_0x3448e3['uVoeS'],0x1);}}static async['sendRegisterEmail'](_0x45c912){const _0x45f466={'inqvJ':function(_0x46ac22,_0x5b6cf1){return _0x46ac22+_0x5b6cf1;},'JOWEq':function(_0x4f736e,_0xb2aac3){return _0x4f736e*_0xb2aac3;},'AAcJB':'验证码发送太频繁','LHlUp':function(_0x557187,_0x3e8938){return _0x557187+_0x3e8938;},'ezjbF':function(_0x18abf2,_0x1c2446){return _0x18abf2+_0x1c2446;}};const _0x5e5c16=JSON['parse'](_0x45c912['request']['body']);const{email:_0x2a0dd3}=_0x5e5c16;const _0x308976='0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz';let _0x5d141b='';for(let _0x49a6e9=0x0;_0x49a6e9<0x4;_0x49a6e9++){const _0x2c08fd=Math['floor'](_0x45f466['inqvJ'](_0x45f466['JOWEq'](Math["\u0072\u0061\u006e\u0064\u006f\u006d"](),_0x308976['length']-0x1),0x1));_0x5d141b+=_0x308976['charAt'](_0x2c08fd);}if(global['eventInfo']['registerEmailCode'][_0x2a0dd3]){_0x45c912['response']['status']=0xc8;_0x45c912['body']=statusCode['SUCCESS_200'](_0x45f466['AAcJB'],0x1);return;}global['eventInfo']['registerEmailCode'][_0x2a0dd3]=_0x5d141b;global['eventInfo']['registerEmailCodeCheckError'][_0x2a0dd3]=0x0;setTimeout(()=>{delete global['eventInfo']['registerEmailCode'][_0x2a0dd3];},0x2*0x3c*0x3e8);const _0x59d958='注册验证码：'+_0x5d141b;const _0x1cca7f=_0x45f466['LHlUp'](_0x45f466['LHlUp'](_0x45f466['ezjbF']('<p>用户你好!</p>'+'<p>Webfunny注册的验证码为：',_0x5d141b),'</p>'),'<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>');UserController['sendEmail'](_0x2a0dd3,_0x59d958,_0x1cca7f);_0x45c912['response']['status']=0xc8;_0x45c912['body']=statusCode['SUCCESS_200']('验证码已发送',0x0);}static async['registerCheck'](_0x3c0f9b){const _0x4bc4b8={'Jmlgj':'<p>有用户申请注册你的监控系统，请点击注册链接，以完成注册：<a\x20href=\x27','AfWgj':'</a></p>'};const _0x925822=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x3c0f9b['request']['body']);const{name:_0x4bb65d,email:_0x36cc31,emailCode:_0x2c2faa,password:_0x1ed426}=_0x925822;const _0x48ee5a=global['eventInfo']['registerEmailCode'][_0x36cc31];const _0x1beec7=_0x2c2faa['toLowerCase']();if(!_0x48ee5a||_0x1beec7!=_0x48ee5a['toLowerCase']()){_0x3c0f9b['response']['status']=0xc8;_0x3c0f9b['body']=statusCode['SUCCESS_200']('验证码不正确或已失效！',0x1);return;}let _0x482d35=await UserModel['checkUserAccount'](_0x36cc31);if(_0x482d35){_0x3c0f9b['response']['status']=0xc8;_0x3c0f9b['body']=statusCode['SUCCESS_200']('邮箱已存在！',0x1);return;}Utils['postJson']('http://www.webfunny.cn/config/recordEmail',{'email':_0x36cc31,'purchaseCode':accountInfo['purchaseCode']})['catch'](_0x39f2ea=>{});let _0x31c37a=await UserModel['getAdminByType']('admin');if(!_0x31c37a){_0x3c0f9b['response']['status']=0xc8;_0x3c0f9b['body']=statusCode['SUCCESS_200']('请先初始化管理员账号',0x1);}else{const _0x96f9ec=_0x31c37a['emailName'];const{localServerDomain:_0x5f1f24}=accountInfo;const _0x1f10ea='http://'+_0x5f1f24+'/server/register?name='+_0x4bb65d+'&email='+_0x36cc31+'&password='+_0x1ed426;const _0x419cf0='管理员确认申请';const _0x29fffa='<p>管理员你好!</p>'+_0x4bc4b8['Jmlgj']+_0x1f10ea+'\x27>'+_0x1f10ea+_0x4bc4b8['AfWgj']+'<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>';UserController['sendEmail'](_0x96f9ec,_0x419cf0,_0x29fffa);_0x3c0f9b['response']['status']=0xc8;_0x3c0f9b['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}}static async['register'](_0x1dcfd2){const _0x3dc2bf={'vqNpH':'验证码失败次数达到上限，请重新获取验证码！','Zlrgo':function(_0x1745aa,_0xd74f84){return _0x1745aa+_0xd74f84;},'opyin':function(_0x19bd41,_0x119c71){return _0x19bd41+_0x119c71;},'iQxBw':'<p>账号：','aIYTU':'用户注册通知'};const _0x547a92=Utils['parseQs'](_0x1dcfd2['request']["\u0075\u0072\u006c"]);const{name:_0x2994be,email:_0x470e19,phone:_0x50d70a,password:_0x37affe,emailCode:_0x3dd7a0}=_0x547a92;const _0x3c486d=Utils['b64DecodeUnicode'](_0x37affe)['split']('')['reverse']()['join']('');const _0x4dcb48=Utils['getUuid']();const _0x25f2b0={'nickname':_0x2994be,'emailName':_0x470e19,'phone':_0x50d70a,"\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064":Utils['md5'](_0x3c486d),'userId':_0x4dcb48,'userType':'customer','registerStatus':0x0};const _0x288303=global['eventInfo']['registerEmailCodeCheckError'];if(_0x288303[_0x470e19]>=0x3){_0x1dcfd2['response']['status']=0xc8;_0x1dcfd2['body']=statusCode['SUCCESS_200'](_0x3dc2bf['vqNpH'],0x1);return;}const _0x36aa34=global['eventInfo']['registerEmailCode'][_0x470e19];const _0x11bfc3=_0x3dd7a0['toLowerCase']();if(!_0x36aa34||_0x11bfc3!=_0x36aa34['toLowerCase']()){if(!_0x288303[_0x470e19]){_0x288303[_0x470e19]=0x1;}else{_0x288303[_0x470e19]++;}_0x1dcfd2['response']['status']=0xc8;_0x1dcfd2['body']=statusCode['SUCCESS_200']('验证码不正确或已失效！',0x1);return;}let _0x43dcb4=await UserModel['checkUserAccount'](_0x470e19);if(_0x43dcb4){_0x1dcfd2['response']['status']=0xc8;_0x1dcfd2['body']=statusCode['SUCCESS_200']('邮箱已存在！',0x1);return;}if(_0x25f2b0['nickname']){let _0x26c35f=await UserModel['createUser'](_0x25f2b0);if(_0x26c35f&&_0x26c35f['id']){const _0x380a45='申请成功';const _0x4700c8=_0x3dc2bf["\u005a\u006c\u0072\u0067\u006f"](_0x3dc2bf['Zlrgo'](_0x3dc2bf['opyin'](_0x3dc2bf['Zlrgo'](_0x3dc2bf['opyin']('<p>用户你好!</p>'+'<p>你的账号已经申请成功，请联系管理员激活后，方可登录。</p>',_0x3dc2bf['iQxBw'])+_0x470e19,'\x20、\x20密码：'),_0x3c486d),'</p>'),'<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>');UserController['sendEmail'](_0x470e19,_0x380a45,_0x4700c8);const _0x2675a9=await UserModel['getUserForAdmin']();MessageModel["\u0063\u0072\u0065\u0061\u0074\u0065\u004d\u0065\u0073\u0073\u0061\u0067\u0065"]({'userId':_0x2675a9[0x0]['userId'],'title':_0x3dc2bf['aIYTU'],'content':'您好，用户【'+_0x470e19+'】正在申请注册webfunny账号，请及时处理！','type':'sys','isRead':0x0,'link':'http://'+accountInfo['localAssetsDomain']+'/webfunny_event/userList.html'});const _0x5d5722=_0x3dc2bf['aIYTU'];const _0x5cd179='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>尊敬的管理员：</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>您好，用户【'+_0x470e19+'】正在申请注册webfunny账号，请及时处理！</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>点击链接处理：http://'+accountInfo['localAssetsDomain']+'/webfunny_event/userList.html</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';UserController['sendEmail'](_0x2675a9[0x0]['emailName'],_0x5d5722,_0x5cd179);_0x1dcfd2['response']['status']=0xc8;_0x1dcfd2['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}}else{_0x1dcfd2['response']['status']=0x19c;_0x1dcfd2['body']=statusCode['ERROR_412']('创建信息失败，请求参数不能为空！');}}static async['resetPwd'](_0x3a2ce2){const _0xf84c99={'GOIPF':function(_0x42e934,_0xf6e10f){return _0x42e934>=_0xf6e10f;},'vmpzs':function(_0x43652f,_0x19a2e5){return _0x43652f!=_0x19a2e5;},'ScVhN':'密码重置成功！','qerDV':function(_0x366515,_0x2f72cf){return _0x366515+_0x2f72cf;},'zFhuY':'<p>账号：','eWuNd':'\x20、\x20密码：','ZxIlV':'</p>'};const _0xe110fc=Utils['parseQs'](_0x3a2ce2['request']['url']);const{email:_0x4ae763,password:_0x512c57,emailCode:_0x1f7ceb}=_0xe110fc;const _0x3d952d=Utils['b64DecodeUnicode'](_0x512c57)['split']('')['reverse']()['join']('');const _0x206d61={'emailName':_0x4ae763,'password':Utils['md5'](_0x3d952d),'emailCode':_0x1f7ceb};const _0x4217c5=global['eventInfo']['registerEmailCodeCheckError'];if(_0xf84c99['GOIPF'](_0x4217c5[_0x4ae763],0x3)){_0x3a2ce2['response']['status']=0xc8;_0x3a2ce2['body']=statusCode['SUCCESS_200']('验证码失败次数达到上限，请重新获取验证码！',0x1);return;}const _0x422405=global['eventInfo']['registerEmailCode'][_0x4ae763];const _0x38ba68=_0x1f7ceb['toLowerCase']();if(!_0x422405||_0xf84c99['vmpzs'](_0x38ba68,_0x422405['toLowerCase']())){if(!_0x4217c5[_0x4ae763]){_0x4217c5[_0x4ae763]=0x1;}else{_0x4217c5[_0x4ae763]++;}_0x3a2ce2['response']['status']=0xc8;_0x3a2ce2['body']=statusCode['SUCCESS_200']('验证码不正确或已失效！',0x1);return;}let _0x3472df=await UserModel['checkUserAccount'](_0x4ae763);if(!_0x3472df){_0x3a2ce2['response']['status']=0xc8;_0x3a2ce2['body']=statusCode['SUCCESS_200']('此邮箱不存在！',0x1);return;}let _0x25327a=await UserModel['resetPwd'](_0x4ae763,_0x206d61);if(_0x25327a){const _0x5f22ca=_0xf84c99['ScVhN'];const _0x41f1fc=_0xf84c99['qerDV'](_0xf84c99['qerDV'](_0xf84c99['qerDV']('<p>用户你好!</p>'+'<p>你的webfunny密码已重置。</p>',_0xf84c99['zFhuY']),_0x4ae763)+_0xf84c99['eWuNd']+_0x3d952d,_0xf84c99['ZxIlV'])+'<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>';UserController['sendEmail'](_0x4ae763,_0x5f22ca,_0x41f1fc);_0x3a2ce2['response']['status']=0xc8;_0x3a2ce2['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x3a2ce2['response']['status']=0xc8;_0x3a2ce2['body']=statusCode['SUCCESS_200']('重置密码失败！',0x1);}}static async['registerForAdmin'](_0x39fdf5){const _0x1f7006={'NLgNO':function(_0x25e869,_0x40157e){return _0x25e869*_0x40157e;},'mujqm':function(_0x13d5df,_0x170029){return _0x13d5df>_0x170029;},'PFbAs':'创建信息失败，请求参数不能为空！'};const _0x2a086e=JSON['parse'](_0x39fdf5['request']['body']);const{name:_0x1ae25a,email:_0xa55a4e,password:_0x2810f5,userType:_0xd3627c}=_0x2a086e;const _0x10683f=Utils["\u0062\u0036\u0034\u0044\u0065\u0063\u006f\u0064\u0065\u0055\u006e\u0069\u0063\u006f\u0064\u0065"](_0x2810f5)['split']('')["\u0072\u0065\u0076\u0065\u0072\u0073\u0065"]()['join']('');const _0x268b99=Utils['getUuid']();const _0x3843fa={'nickname':_0x1ae25a,'emailName':_0xa55a4e,'password':Utils['md5'](_0x10683f),'userType':_0xd3627c,'userId':_0x268b99,'registerStatus':0x1};Utils['postJson']('http://www.webfunny.cn/config/recordEmail',{'email':_0xa55a4e,'purchaseCode':accountInfo['purchaseCode']})['catch'](_0xc317ee=>{});if(_0x3843fa['nickname']){const _0x4d9410=await UserModel['checkAdminAccount']();const _0x36282d=_0x1f7006['NLgNO'](_0x4d9410[0x0]['count'],0x1);if(_0x1f7006['mujqm'](_0x36282d,0x0)){_0x39fdf5['response']['status']=0xc8;_0x39fdf5['body']=statusCode['SUCCESS_200']('管理员账号已存在，请勿重复创建',0x1);return;}await UserModel['createUser'](_0x3843fa);_0x39fdf5['response']['status']=0xc8;_0x39fdf5['body']=statusCode['SUCCESS_200']('创建信息成功',0x0);}else{_0x39fdf5['response']['status']=0x19c;_0x39fdf5['body']=statusCode['ERROR_412'](_0x1f7006['PFbAs']);}}static async['activeRegisterMember'](_0x43631c){const _0x2ed847={'dVoLE':'使用方法和常见问题请移步官网：www.webfunny.cn'};const _0x43157f=JSON['parse'](_0x43631c['request']['body']);const{userId:_0x13515f,emailName:_0x357d2a}=_0x43157f;if(_0x13515f){await UserModel['activeRegisterMember'](_0x13515f);MessageModel['createMessage']({'userId':_0x13515f,'title':'欢迎登录！','content':JSON['stringify'](['尊敬的用户您好，欢迎登录webfunny前端监控系统。','webfunny致力于解决前端的各种问题，纯私有化部署，支持千万级PV的日活量。','支持项目：H5前端、PC前端、微信小程序、uni-app。',_0x2ed847['dVoLE']]),'type':'sys','isRead':0x0,'link':'http://www.webfunny.cn'});const _0xdef0c4='用户激活通知';const _0x1f6f1d='\x0a\x20\x20\x20\x20\x20\x20<p>尊敬的用户：</p>\x0a\x20\x20\x20\x20\x20\x20<p>您好，您的账号已经被管理员激活了，快去登录吧！</p>\x0a\x20\x20\x20\x20\x20\x20<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>\x0a\x20\x20\x20\x20\x20\x20';UserController['sendEmail'](_0x357d2a,_0xdef0c4,_0x1f6f1d);_0x43631c['response']['status']=0xc8;_0x43631c['body']=statusCode['SUCCESS_200']('用户已激活',0x0);}else{_0x43631c['response']['status']=0x19c;_0x43631c['body']=statusCode['ERROR_412']('激活失败');}}static async['deleteRegisterMember'](_0x71b897){const _0x385a6a=JSON['parse'](_0x71b897['request']['body']);const{userId:_0x1eaa60}=_0x385a6a;if(_0x1eaa60){await UserModel['deleteUserByUserId'](_0x1eaa60);_0x71b897['response']['status']=0xc8;_0x71b897['body']=statusCode['SUCCESS_200']('用户信息删除成功',0x0);}else{_0x71b897['response']['status']=0x19c;_0x71b897['body']=statusCode['ERROR_412']('缺失userId！');}}static async['storeTokenToMemory'](_0xb6bdea){const _0x3494b6={'VRxGM':'token解析失败：','xgAKN':function(_0x4c8424,_0x1391c6,_0x237aad,_0x56fa0b){return _0x4c8424(_0x1391c6,_0x237aad,_0x56fa0b);}};const _0x5428d1=JSON['parse'](_0xb6bdea['request']['body']);const{accessToken:_0x506861}=_0x5428d1;_0x3494b6['xgAKN'](verify,_0x506861,secret['sign'],async(_0x40764b,_0x5e55be)=>{if(_0x40764b){log['printError'](_0x3494b6['VRxGM'],_0x40764b);return;}const{emailName:_0xba690a}=_0x5e55be;const _0x39857e=global['eventInfo']['tokenListInMemory']||{};_0x39857e[_0xba690a]=_0x506861;const _0x11e126=await ConfigModel['getConfigByName'](_0xba690a);if(_0x11e126){await ConfigModel['updateConfig'](_0xba690a,{'configValue':_0x506861});}else{await ConfigModel['createConfig']({'configName':_0xba690a,'configValue':_0x506861});}});_0xb6bdea['response']['status']=0xc8;_0xb6bdea['body']=statusCode['SUCCESS_200']("\u0054\u006f\u006b\u0065\u006e\u5b58\u50a8\u5b8c\u6210\uff01",0x0);}}class SysInfoController{static async['getSysInfo'](_0x1d4989){const _0x5ec0ca={'Eaeop':function(_0x25b5f3,_0x4ec407){return _0x25b5f3(_0x4ec407);},'tJLtw':function(_0x4d17e4,_0x2726b7){return _0x4d17e4(_0x2726b7);},'OWSQf':function(_0x25dcd0,_0xa21a25){return _0x25dcd0(_0xa21a25);}};const _0x16809c={};const{purchaseCodeEndDate:_0x385d44,purchaseCodeValid:_0x13d5ea,purchaseCodeType:_0x52432e,purchaseCodeCardCount:_0x33958c}=global['eventInfo'];_0x16809c['isValid']=_0x13d5ea;_0x16809c['version']=webfunnyVersion;_0x16809c['productType']=_0x52432e;_0x16809c['endDate']=_0x385d44;const _0x437d53=await BuryPointCardModel['getCountByNoSysType']("".split("").reverse().join(""));_0x16809c['cardCount']=_0x5ec0ca['Eaeop'](isNaN,_0x437d53[0x0]['count'])?0x0:_0x437d53[0x0]['count'];_0x16809c['cardTotalCount']=_0x33958c;const _0x2e0868=await BuryPointProjectModel['getCountByNameAndType']('',0x1);_0x16809c['projectCount']=_0x5ec0ca['Eaeop'](isNaN,_0x2e0868[0x0]['count'])?0x0:_0x2e0868[0x0]['count'];const _0x139d0d=await SdkReleaseModel['getPageCount']('','','','');_0x16809c['sdkReleaseCount']=isNaN(_0x139d0d[0x0]['count'])?0x0:_0x139d0d[0x0]['count'];const _0x4c1fd7=await BuryPointWarehouseModel['getPageCount']('','','');_0x16809c['pointCount']=_0x5ec0ca['tJLtw'](isNaN,_0x4c1fd7[0x0]['count'])?0x0:_0x4c1fd7[0x0]['count'];const _0x48a5d2=await BuryPointFieldModel['getPageCount']('','','','');_0x16809c['pointFieldCount']=_0x5ec0ca["\u004f\u0057\u0053\u0051\u0066"](isNaN,_0x48a5d2[0x0]['count'])?0x0:_0x48a5d2[0x0]['count'];_0x1d4989['response']['status']=0xc8;_0x1d4989['body']=statusCode['SUCCESS_200']('success',_0x16809c);}static async['getBaseInfo'](_0x582d89){const _0x5c7f13={'YymNL':function(_0xb66908,_0x99c3ff){return _0xb66908===_0x99c3ff;},'OVumw':function(_0x1dff41,_0x36fb61){return _0x1dff41===_0x36fb61;}};const _0x3ae856={};const{purchaseCodeType:_0x428f71,purchaseCodeCardCount:_0x481bf9}=global['eventInfo'];_0x3ae856['productType']=_0x428f71;if(_0x5c7f13['YymNL'](_0x428f71,0x17)||_0x5c7f13['OVumw'](_0x428f71,0x19)||_0x5c7f13['YymNL'](_0x428f71,0x1a)||_0x428f71===0x1c){_0x3ae856['isVIP']=0x1;}else{_0x3ae856['isVIP']=0x0;}const _0x414344=await BuryPointCardModel['getCountByNoSysType']('');let _0x4c902a=isNaN(_0x414344[0x0]['count'])?0x0:_0x414344[0x0]['count'];_0x3ae856['cardSurplus']=parseInt(_0x481bf9)-parseInt(_0x4c902a);_0x582d89['response']['status']=0xc8;_0x582d89['body']=statusCode['SUCCESS_200']('success',_0x3ae856);}}function _0x239d8a(_0x381e89,_0x39b782,_0x335095,_0xf00e3c,_0xf2eacd){return _0x425a(_0xf00e3c-0x90,_0x381e89);}class BuryPointWarehouseController{static async['create'](_0x45a18f){let _0x28a74a=JSON['parse'](_0x45a18f['request']['body']);const{nickname:_0x314dad}=_0x45a18f['user'];_0x28a74a['createBy']=_0x314dad;if(_0x28a74a['projectId']&&_0x28a74a['pointName']&&_0x28a74a['fields']){const _0x1afd02=await BuryPointWarehouseModel['checkName'](_0x28a74a['projectId'],_0x28a74a["\u0070\u006f\u0069\u006e\u0074\u004e\u0061\u006d\u0065"]);let _0x211a49=_0x1afd02[0x0]['count'];if(_0x211a49>0x0){_0x45a18f['response']['status']=0x19c;_0x45a18f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_FAIL_NAME_EXIST']));return;}_0x28a74a['weType']=0x0;let _0x345873=await BuryPointWarehouseModel['create'](_0x28a74a);await BuryPointWarehouseModel["\u0075\u0070\u0064\u0061\u0074\u0065\u0042\u0079\u0046\u0069\u0065\u006c\u0064\u0073"]({'id':_0x345873['id'],'pointId':_0x345873['id']});_0x45a18f['response']['status']=0xc8;_0x45a18f['body']=statusCode['SUCCESS_200']('success','');}else{_0x45a18f['response']['status']=0x19c;_0x45a18f['body']=statusCode['ERROR_412'](''+Utils['b64DecodeUnicode'](ConstMsg['CREATE_PARAM_FAIL']));}}static async['update'](_0x2f9024){let _0x37ca6c=JSON['parse'](_0x2f9024['request']['body']);let _0xc21b68=_0x37ca6c['id'];const{nickname:_0x441f6a}=_0x2f9024['user'];_0x37ca6c['updateBy']=_0x441f6a;if(_0x37ca6c){_0x37ca6c['pointId']=_0xc21b68;await BuryPointWarehouseModel['update'](_0xc21b68,_0x37ca6c);_0x2f9024['response']['status']=0xc8;_0x2f9024['body']=statusCode['SUCCESS_200']('success','');}else{_0x2f9024['response']['status']=0x19c;_0x2f9024['body']=statusCode['ERROR_412']('fail');}}static async['detail'](_0x129e78){const _0x260c6b={'jkSxe':'fail'};const _0x374415=Utils['parseQs'](_0x129e78['request']['url']);let _0x3e71f0=_0x374415['id'];if(_0x3e71f0){let _0x1e6f52=await BuryPointWarehouseModel['detail'](_0x3e71f0);const{fields:_0x241ca5}=_0x1e6f52;let _0x580dd0=await BuryPointFieldModel['getListByFieldIds'](_0x241ca5);const _0x48cbec={};_0x48cbec['id']=_0x3e71f0;_0x48cbec['pointId']=_0x1e6f52['pointId'];_0x48cbec['weType']=_0x1e6f52['weType'];_0x48cbec['pointName']=_0x1e6f52['pointName'];_0x48cbec['projectId']=_0x1e6f52['projectId'];_0x48cbec['pointDesc']=_0x1e6f52['pointDesc'];_0x48cbec['weType']=_0x1e6f52['weType'];_0x48cbec['replacePointIdKey']=_0x1e6f52['replacePointIdKey'];_0x48cbec['fields']=_0x1e6f52['fields'];_0x48cbec['buryPointFieldList']=_0x580dd0;_0x129e78['response']['status']=0xc8;_0x129e78['body']=statusCode['SUCCESS_200']('success',_0x48cbec);}else{_0x129e78["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0x19c;_0x129e78['body']=statusCode['ERROR_412'](_0x260c6b['jkSxe']);}}static async['delete'](_0x882a00){const _0x33bdac={'zrDhx':function(_0x2dd1da,_0x1ce7b4){return _0x2dd1da<_0x1ce7b4;}};let _0x5423e5=JSON['parse'](_0x882a00['request']['body']);const{id:_0x3fa5e3}=_0x5423e5;const _0x339a76=await SdkReleaseModel['getAllList']();for(let _0x55d373=0x0;_0x55d373<_0x339a76['length'];_0x55d373++){const _0x45c375=_0x339a76[_0x55d373];const{releaseName:_0x9924d9,pointIds:_0x53fe96}=_0x45c375;let _0x47917d=_0x53fe96['split'](',');for(let _0x58d4ba=0x0;_0x33bdac['zrDhx'](_0x58d4ba,_0x47917d['length']);_0x58d4ba++){if(parseInt(_0x3fa5e3,0xa)===parseInt(_0x47917d[_0x58d4ba],0xa)){_0x882a00['response']['status']=0x19c;let _0xeac15d=''+Utils['b64DecodeUnicode'](ConstMsg['POINT_DELETE_FAIL_1'])+_0x9924d9+(''+Utils['b64DecodeUnicode'](ConstMsg['POINT_DELETE_FAIL_2']));_0x882a00['body']=statusCode['ERROR_412'](_0xeac15d);return;}}}await BuryPointWarehouseModel['delete'](_0x3fa5e3);_0x882a00['response']['status']=0xc8;_0x882a00['body']=statusCode['SUCCESS_200']('success','');}static async['getPageList'](_0x4245cc){const _0x494819={'FplsG':function(_0x595d2e,_0x43f20f){return _0x595d2e<_0x43f20f;},'mcBvX':function(_0xe3916f,_0x17d95c){return _0xe3916f+_0x17d95c;},'QfNRu':'success'};let _0x1ad630=_0x4245cc['request']['body'];const _0xde9c32=JSON['parse'](_0x1ad630);const{projectId:_0x5d0122,pointName='',weType='',page:_0x37e99b,pageSize:_0x2e4e49}=_0xde9c32;const _0xb0842f=await BuryPointWarehouseModel['getPageCount'](_0x5d0122,pointName,weType);const _0x404809=_0xb0842f[0x0]['count'];const _0x17138f=await BuryPointWarehouseModel['getPageList'](_0x5d0122,pointName,weType,_0x37e99b,_0x2e4e49);const _0x2f333e=await SdkReleaseModel['getAllList']();for(let _0x58d1d2=0x0;_0x494819['FplsG'](_0x58d1d2,_0x17138f['length']);_0x58d1d2++){const _0x182377=_0x17138f[_0x58d1d2];let _0x3e2325='';const{fields:_0x40a380}=_0x182377;let _0xa1c405=await BuryPointFieldModel['getListByFieldIds'](_0x40a380);for(let _0xd30121=0x0;_0x494819['FplsG'](_0xd30121,_0xa1c405['length']);_0xd30121++){_0x3e2325=_0x494819['mcBvX'](_0x3e2325,_0xa1c405[_0xd30121]['fieldAlias'])+',';}_0x3e2325=_0x3e2325['substring'](0x0,_0x3e2325['lastIndexOf'](','));_0x182377['fieldNames']=_0x3e2325;let _0x16f766=0x1;for(let _0x58449e=0x0;_0x58449e<_0x2f333e['length'];_0x58449e++){const _0x218391=_0x2f333e[_0x58449e];const{pointIds:_0x33fe94}=_0x218391;let _0x25d216=_0x33fe94['split'](',');for(let _0x40e96c=0x0;_0x40e96c<_0x25d216['length'];_0x40e96c++){if(parseInt(_0x182377['id'],0xa)===parseInt(_0x25d216[_0x40e96c],0xa)){_0x16f766=0x0;}}}_0x182377['isEdit']=_0x16f766;}_0x4245cc['response']['status']=0xc8;_0x4245cc['body']=statusCode['SUCCESS_200'](_0x494819['QfNRu'],{'list':_0x17138f,'totalCount':_0x404809});}static async['getList'](_0x2867a4){const _0xa6355e={'tPQBX':function(_0x1737e8,_0x509a83){return _0x1737e8+_0x509a83;}};let _0x49b112=_0x2867a4['request']['body'];const _0x19091f=JSON['parse'](_0x49b112);const{projectId:_0xe306e6,pointName=''}=_0x19091f;const _0x274d5d=await BuryPointWarehouseModel['getList'](_0xe306e6,pointName,0x0);for(let _0x385871=0x0;_0x385871<_0x274d5d['length'];_0x385871++){const _0x2692b9=_0x274d5d[_0x385871];let _0x26ea8f='';const{fields:_0x422468}=_0x2692b9;let _0x386a51=await BuryPointFieldModel['getListByFieldIds'](_0x422468);for(let _0x197c40=0x0;_0x197c40<_0x386a51['length'];_0x197c40++){_0x26ea8f=_0xa6355e['tPQBX'](_0x26ea8f+_0x386a51[_0x197c40]['fieldAlias'],',');}_0x26ea8f=_0x26ea8f['substring'](0x0,_0x26ea8f['lastIndexOf'](','));_0x2692b9['fieldNames']=_0x26ea8f;}_0x2867a4['response']['status']=0xc8;_0x2867a4['body']=statusCode['SUCCESS_200']('success',_0x274d5d);}static async['getAllPointList'](_0x1b396a){const _0x2f980c={'zUmqB':function(_0x62566,_0x4d0b1f){return _0x62566<_0x4d0b1f;},'sSBsm':function(_0x3a57ac,_0x26e519){return _0x3a57ac+_0x26e519;},'GfoNE':'success'};let _0x44a576=_0x1b396a['request']['body'];const _0x1c8e34=JSON['parse'](_0x44a576);const{projectId:_0x247f91,pointName=''}=_0x1c8e34;const _0x289bb8=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x247f91,0x1);const _0x3c6ac4=await BuryPointWarehouseModel['getAllListByProjectId'](_0x247f91);for(let _0x3e747f=0x0;_0x3e747f<_0x3c6ac4['length'];_0x3e747f++){const _0x235205=_0x3c6ac4[_0x3e747f];let _0x4215a0='';let _0x1ea519='';let{fields:_0xdb9f11}=_0x235205;const _0x2bf9ac=await BuryPointFieldModel['getListByFieldIds'](_0xdb9f11);const _0x14ec1f=[..._0x2bf9ac,..._0x289bb8];for(let _0x151881=0x0;_0x2f980c['zUmqB'](_0x151881,_0x14ec1f['length']);_0x151881++){_0x4215a0=_0x2f980c['sSBsm'](_0x4215a0,_0x14ec1f[_0x151881]['fieldAlias'])+',';_0x1ea519+=_0x14ec1f[_0x151881]['fieldName']+',';}_0x4215a0=_0x4215a0['substring'](0x0,_0x4215a0['lastIndexOf'](','));_0x1ea519=_0x1ea519['substring'](0x0,_0x1ea519['lastIndexOf'](','));_0x235205['fieldNames']=_0x4215a0;_0x235205['fields']=_0x1ea519;}_0x1b396a['response']['status']=0xc8;_0x1b396a['body']=statusCode['SUCCESS_200'](_0x2f980c['GfoNE'],_0x3c6ac4);}static async['getProjectAndOldList'](_0x3b2dc4){const _0x37c9dc={'EKcZs':function(_0x59cba8,_0x46fe05){return _0x59cba8<_0x46fe05;},'dMNTW':'success'};let _0xcc2d5c=_0x3b2dc4['request']['body'];const _0xc35104=JSON['parse'](_0xcc2d5c);const{projectId:_0x40587a,pointName=''}=_0xc35104;const _0x293d82=await BuryPointFieldModel['getListByProjectIdAndWeType'](_0x40587a,0x1);const _0x421db4=await BuryPointWarehouseModel['getListByProjectIdAndOldType'](_0x40587a);for(let _0x1f598b=0x0;_0x1f598b<_0x421db4['length'];_0x1f598b++){const _0x3cd341=_0x421db4[_0x1f598b];let _0x1ebef1="".split("").reverse().join("");let _0x4b73f9='';let{fields:_0x1fccb9}=_0x3cd341;const _0x369b36=await BuryPointFieldModel['getListByFieldIds'](_0x1fccb9);const _0x259904=[..._0x369b36,..._0x293d82];for(let _0x53d2dd=0x0;_0x37c9dc['EKcZs'](_0x53d2dd,_0x259904['length']);_0x53d2dd++){_0x1ebef1=_0x1ebef1+_0x259904[_0x53d2dd]['fieldAlias']+',';_0x4b73f9+=_0x259904[_0x53d2dd]['fieldName']+',';}_0x1ebef1=_0x1ebef1['substring'](0x0,_0x1ebef1['lastIndexOf'](','));_0x4b73f9=_0x4b73f9['substring'](0x0,_0x4b73f9['lastIndexOf'](','));_0x3cd341['fieldNames']=_0x1ebef1;_0x3cd341['fields']=_0x4b73f9;}_0x3b2dc4['response']['status']=0xc8;_0x3b2dc4['body']=statusCode['SUCCESS_200'](_0x37c9dc['dMNTW'],_0x421db4);}static async['getAllList'](_0x1004b2){const _0x295b9d={'OXXzU':'success'};const _0x110a92=await BuryPointWarehouseModel['getAllList']();for(let _0x1080a3=0x0;_0x1080a3<_0x110a92['length'];_0x1080a3++){const _0x3ef0d8=_0x110a92[_0x1080a3];let _0x679735='';let _0x5268fc='';const{fields:_0x275137}=_0x3ef0d8;let _0x11e263=await BuryPointFieldModel['getListByFieldIds'](_0x275137);for(let _0x14932c=0x0;_0x14932c<_0x11e263['length'];_0x14932c++){_0x679735=_0x679735+_0x11e263[_0x14932c]['fieldAlias']+',';_0x5268fc=_0x5268fc+_0x11e263[_0x14932c]['fieldName']+',';}_0x679735=_0x679735['substring'](0x0,_0x679735['lastIndexOf'](','));_0x3ef0d8['fieldNames']=_0x679735;_0x5268fc=_0x5268fc['substring'](0x0,_0x5268fc['lastIndexOf'](','));_0x3ef0d8['fieldList']=_0x5268fc;}_0x1004b2['response']['status']=0xc8;_0x1004b2['body']=statusCode['SUCCESS_200'](_0x295b9d['OXXzU'],_0x110a92);}static async['copyPoint'](_0x521865,_0x1786ba,_0x88a20b){const _0x57846f={'Hepdp':function(_0xc1ec83,_0x5e12e9){return _0xc1ec83===_0x5e12e9;},'ScNaj':'_copy'};const _0x1d61ec=await BuryPointWarehouseModel['detail'](_0x1786ba);let{pointName:_0x3bfbfa,fields:_0x6667c9,pointDesc:_0x50c570,weType:_0x38e63a,createBy:_0x2b3d09}=_0x1d61ec;if(_0x38e63a&&(_0x57846f['Hepdp'](_0x38e63a,0x2)||_0x38e63a==='2')){return _0x1786ba;}let _0x3ec5e2={};const _0x1d7f8f=await BuryPointWarehouseModel['checkName'](_0x521865,_0x3bfbfa);let _0x4726b1=_0x1d7f8f[0x0]['count'];if(_0x4726b1>0x0){_0x3ec5e2['pointName']=_0x3bfbfa+_0x57846f['ScNaj'];}else{_0x3ec5e2['pointName']=_0x3bfbfa;}let _0x348b4b=_0x6667c9['split'](',');let _0x30105a='';for(let _0x1ce41e=0x0;_0x1ce41e<_0x348b4b['length'];_0x1ce41e++){let _0x43c172=await BuryPointFieldController['copyField'](_0x521865,_0x348b4b[_0x1ce41e],_0x88a20b);_0x30105a=_0x30105a+_0x43c172+',';}_0x30105a=_0x30105a['substring'](0x0,_0x30105a['lastIndexOf'](','));let _0x4b4ab7=await BuryPointWarehouseModel['getByProjectIdAndFieldIds'](_0x521865,_0x30105a);if(_0x4b4ab7&&_0x4b4ab7['length']>0x0){return _0x4b4ab7[0x0]['id'];}else{_0x3ec5e2['createBy']=_0x2b3d09?_0x2b3d09:_0x88a20b;_0x3ec5e2['pointDesc']=_0x50c570;_0x3ec5e2['fields']=_0x30105a;_0x3ec5e2['projectId']=_0x521865;_0x3ec5e2['weType']=_0x38e63a;let _0x34d9f9=await BuryPointWarehouseModel['create'](_0x3ec5e2);await BuryPointWarehouseModel['updateByFields']({'id':_0x34d9f9['id'],'pointId':_0x34d9f9['id']});return _0x34d9f9['id'];}}static async['exportPoint'](_0x219262){const _0x230d7a={'NHYKx':function(_0x19a28a,_0x15e88f){return _0x19a28a||_0x15e88f;},'OaRxH':function(_0x570cca,_0x3e0dd1){return _0x570cca>_0x3e0dd1;},'rgwLS':function(_0xdf338d,_0x53a74b){return _0xdf338d+_0x53a74b;},'odyzg':function(_0x4dbbf9,_0x3b7588){return _0x4dbbf9+_0x3b7588;},'LuSUC':function(_0x4b36cb,_0x125b53){return _0x4b36cb>_0x125b53;},'YCHIG':function(_0x44ca11,_0x4f7bcd){return _0x44ca11+_0x4f7bcd;},'siDlF':function(_0x217c8b,_0x5d76ce){return _0x217c8b+_0x5d76ce;},'ctNGP':'fail'};let _0xa375f5=_0x219262['request']['body'];const _0x5c6763=JSON['parse'](_0xa375f5);const{projectId:_0x567684,pointIds='',allSelectProjectId=''}=_0x5c6763;const{nickname:_0x41f001}=_0x219262['user'];if(_0x567684&&_0x230d7a['NHYKx'](pointIds,allSelectProjectId)){let _0x5efd6b=[];if(allSelectProjectId){let _0x49ce40=await BuryPointWarehouseModel['getIdsByProjetId'](allSelectProjectId);for(let _0x5b9930=0x0;_0x5b9930<_0x49ce40['length'];_0x5b9930++){_0x5efd6b['push'](_0x49ce40[_0x5b9930]['id']);}}if(pointIds){let _0x5cf81a=pointIds['split'](',');for(let _0x3fdbac=0x0;_0x3fdbac<_0x5cf81a['length'];_0x3fdbac++){_0x5efd6b['push'](_0x5cf81a[_0x3fdbac]);}}let _0x4fa1be={};_0x4fa1be['successCount']=0x0;_0x4fa1be['repeatCount']=0x0;_0x4fa1be['repeatPoint']=[];for(let _0x1cbf23=0x0;_0x1cbf23<_0x5efd6b['length'];_0x1cbf23++){const _0x58e74f=await BuryPointWarehouseModel['detail'](_0x5efd6b[_0x1cbf23]);let{pointName:_0x2bf3bb,fields:_0x58eeef,pointDesc:_0x174101}=_0x58e74f;let _0x4116b1={};const _0x26ce37=await BuryPointWarehouseModel['checkName'](_0x567684,_0x2bf3bb);let _0x2445a0=_0x26ce37[0x0]['count'];if(_0x230d7a['OaRxH'](_0x2445a0,0x0)){_0x4116b1['pointName']=_0x230d7a['rgwLS'](_0x2bf3bb,'_copy');}else{_0x4116b1['pointName']=_0x2bf3bb;}let _0x20bb25=_0x58eeef['split'](',');let _0xda7ecf='';for(let _0x350475=0x0;_0x350475<_0x20bb25['length'];_0x350475++){let _0x5b8941=await BuryPointFieldController['copyField'](_0x567684,_0x20bb25[_0x350475],_0x41f001);_0xda7ecf=_0x230d7a['odyzg'](_0xda7ecf,_0x5b8941)+',';}_0xda7ecf=_0xda7ecf['substring'](0x0,_0xda7ecf['lastIndexOf'](','));let _0x147597=await BuryPointWarehouseModel['getByProjectIdAndFieldIds'](_0x567684,_0xda7ecf);if(_0x147597&&_0x230d7a['LuSUC'](_0x147597['length'],0x0)){_0x4fa1be['repeatCount']=_0x230d7a['YCHIG'](_0x4fa1be['repeatCount'],0x1);_0x4fa1be['repeatPoint']['push'](_0x147597[0x0]['pointName']);}else{_0x4116b1['createBy']=_0x41f001;_0x4116b1['pointDesc']=_0x174101;_0x4116b1['fields']=_0xda7ecf;_0x4116b1['projectId']=_0x567684;_0x4116b1['weType']=0x0;let _0x21377e=await BuryPointWarehouseModel['create'](_0x4116b1);await BuryPointWarehouseModel['updateByFields']({'id':_0x21377e['id'],'pointId':_0x21377e['id']});_0x4fa1be['successCount']=_0x230d7a['siDlF'](_0x4fa1be['successCount'],0x1);}}_0x219262["\u0072\u0065\u0073\u0070\u006f\u006e\u0073\u0065"]['status']=0xc8;_0x219262['body']=statusCode['SUCCESS_200']('success',_0x4fa1be);}else{_0x219262['response']['status']=0x19c;_0x219262['body']=statusCode['ERROR_412'](_0x230d7a['ctNGP']);}}}class TimerStatisticController{static async['test'](){TimerStatisticController['calculateDataPreDay']('',0x0);}static async['calculateDataPreDay'](_0x5975aa,_0x4096d3){const _0x7ab9ef={'Ppaxs':function(_0x117c27,_0x5880f3){return _0x117c27===_0x5880f3;},'yZRuv':'yyyy-MM-dd\x20hh:mm:ss'};const _0x5ec622=await BuryPointCardModel['getAllList']();let _0x55e08b=setInterval(async()=>{if(_0x55e08b&&_0x7ab9ef['Ppaxs'](_0x5ec622['length'],0x0)){clearInterval(_0x55e08b);return;}let _0x4ec854=_0x5ec622['pop']();const{id:_0x2dd0f6,type:_0x244d1d,groupByFlag:_0x36bac0}=_0x4ec854;if(_0x244d1d&&_0x244d1d===0x5){TimerStatisticController['calculateFunnelDataByCard'](_0x4ec854,_0x4096d3,0x1);}else{if(_0x36bac0&&_0x36bac0===0x1){TimerStatisticController['calculateNoFunnelGroupByDataByCard'](_0x4ec854,_0x4096d3,0x1);}else{TimerStatisticController['calculateNoFunnelDataByCard'](_0x4ec854,_0x4096d3,0x1);}}let _0x5caafc={};_0x5caafc['id']=_0x2dd0f6;_0x5caafc['updateAt']=new Date()['Format'](_0x7ab9ef['yZRuv']);BuryPointCardModel['update'](_0x2dd0f6,_0x5caafc);},0xa*0x3e8);}static async['calculateNoFunnelGroupByDataByCard'](_0x1f0f7d,_0x3076f7,_0x31686e){const _0x1a9f48={'xvhKK':function(_0x35daf9,_0x2242a3){return _0x35daf9+_0x2242a3;},'qlSFT':function(_0x4dbc89,_0x481a9d){return _0x4dbc89===_0x481a9d;},'wwcCw':function(_0xcc421e,_0x8ffb34){return _0xcc421e===_0x8ffb34;},'LRbPO':function(_0x5e539b,_0x3c9f80){return _0x5e539b!==_0x3c9f80;},"\u0046\u006f\u0068\u0056\u004b":function(_0x4d653c,_0x1b971f){return _0x4d653c!==_0x1b971f;}};const{id:_0x598939,pageId:_0x58f6b6,name:_0x71235c,calcRule:_0x145fb7}=_0x1f0f7d;let _0x361fce=await BuryPointProjectModel['detail'](_0x58f6b6);if(_0x361fce){let _0x1b225e=_0x361fce['projectId'];let _0x517acf=_0x1a9f48['xvhKK']('BuryPointCardStatistics_',_0x1b225e);let _0x516d60=JSON['parse'](_0x145fb7);let _0x35808c=[];let _0x406883=new Date(_0x1a9f48['xvhKK'](new Date()['getTime'](),parseInt(_0x3076f7,0xa)*0x5265c00));for(let _0x5868fb=0x0;_0x5868fb<_0x516d60['length'];_0x5868fb++){let _0x74bf1a=_0x516d60[_0x5868fb]['prePoint'];let _0x3ac78d=_0x516d60[_0x5868fb]['calcName'];let _0x4e657f=_0x74bf1a['pointId'];let _0x1c0593=_0x74bf1a['calcField'];let _0x22ac98=_0x74bf1a['queryCriteria'];let _0x3b382a=_0x74bf1a['day'];if(!_0x3b382a||_0x1a9f48['qlSFT'](_0x3b382a,'')||_0x3b382a===undefined){_0x3b382a=0x0;}let _0x31a2d2=Utils['setTableName'](_0x1a9f48['xvhKK'](_0x1b225e+'_'+_0x4e657f,'_'),parseInt(_0x3076f7,0xa)+parseInt(_0x3b382a,0xa));let _0x578774=await TimerStatisticController['splicingGroupBySql'](_0x1c0593,_0x22ac98,_0x31a2d2);let _0x3eb3f=new Date(_0x1a9f48['xvhKK'](_0x406883['getTime'](),parseInt(_0x3b382a,0xa)*0x5265c00));let _0x43b342=await TimerStatisticController['getCountByTableName'](_0x578774);if(_0x43b342&&_0x43b342['length']>0x0){for(let _0x77995=0x0;_0x77995<_0x43b342['length'];_0x77995++){let _0x5d017f=_0x43b342[_0x77995]['groupByName'];let _0x34ef89=_0x43b342[_0x77995]['count'];const _0x2870ae={};_0x2870ae['pageId']=_0x58f6b6;_0x2870ae['cardId']=_0x598939;_0x2870ae['cardName']=_0x71235c;_0x2870ae['count']=isNaN(_0x34ef89)?0x0:_0x34ef89;_0x2870ae['calcField']=_0x5d017f;_0x2870ae['happenDate']=_0x3eb3f['Format']('yyyy-MM-dd')+'\x2000:00:00';_0x2870ae['percentage']=0x0;_0x35808c['push'](_0x2870ae);if(_0x1a9f48['wwcCw'](_0x3076f7,0x0)&&_0x1a9f48['LRbPO'](_0x31686e,0x2)){BuryPointAlarmMessageController['alarmNotice'](_0x598939,_0x71235c,_0x3ac78d,_0x5d017f,_0x516d60[_0x5868fb]['alarmId'],_0x58f6b6,_0x1f0f7d['alarmMembers'],_0x34ef89,_0x1f0f7d['noticeWay']);}}}else{if(_0x3076f7===0x0&&_0x1a9f48['FohVK'](_0x31686e,0x2)){let _0x46b081={};_0x46b081['id']=_0x598939;_0x46b081['alarmStatus']=0x0;_0x46b081['updateTime']=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');BuryPointCardModel['update'](_0x598939,_0x46b081);}}}await TimerStatisticController['saveOrUpdateGroupStatistic'](_0x517acf,'','',_0x35808c);}}static async['saveOrUpdateGroupStatistic'](_0x3fe06a,_0x17d96c,_0x2ff329,_0x2fdaa3){const _0x304bb3={'KYYeW':function(_0x2d71dd,_0x585386){return _0x2d71dd<_0x585386;}};if(_0x2fdaa3['length']>0x0){for(let _0x2dba7b=0x0;_0x304bb3["\u004b\u0059\u0059\u0065\u0057"](_0x2dba7b,_0x2fdaa3['length']);_0x2dba7b++){BuryPointCardStatisticsModel['createOrUpdate'](_0x2fdaa3[_0x2dba7b],_0x3fe06a);}}}static async['calculateNoFunnelDataByCard'](_0x1c7f8b,_0x57f424,_0x4737a9){const _0x4cfe3d={'chaLo':function(_0x2f21d0,_0x4de025){return _0x2f21d0*_0x4de025;},'ESOht':function(_0x1e1d8b,_0x3d9317){return _0x1e1d8b===_0x3d9317;},'GJIga':function(_0x410103,_0x53afb5){return _0x410103===_0x53afb5;},'dcxsx':function(_0x5b4a29,_0x5d1bbc){return _0x5b4a29+_0x5d1bbc;},'OWuHP':function(_0x54210b,_0x566326,_0x16e096){return _0x54210b(_0x566326,_0x16e096);},'Errao':function(_0x3c2574,_0x53a113,_0x529517){return _0x3c2574(_0x53a113,_0x529517);},'wuKdt':function(_0x2b7851,_0x3cc6a5,_0x36e561){return _0x2b7851(_0x3cc6a5,_0x36e561);}};const{id:_0x412065,pageId:_0x1bd78a,name:_0x343ce4,calcRule:_0x3e74b2,type:_0x796c34}=_0x1c7f8b;let _0xe5e817=await BuryPointProjectModel['detail'](_0x1bd78a);if(_0xe5e817){let _0x49b0b9=_0xe5e817['projectId'];let _0x23682a=JSON['parse'](_0x3e74b2);if(_0x23682a){let _0x345405=[];let _0x2f329b=[];let _0x1ae28a=[];let _0xcc75b5=new Date(new Date()['getTime']()+_0x4cfe3d['chaLo'](parseInt(_0x57f424,0xa),0x5265c00));for(let _0x39760e=0x0;_0x39760e<_0x23682a['length'];_0x39760e++){let _0x452df2=_0x23682a[_0x39760e]['prePoint'];let _0x31f45a=_0x23682a[_0x39760e]['calcName'];let _0x3a476b=_0x23682a[_0x39760e]['calcNameKey'];let _0x17f350=_0x23682a[_0x39760e]['calcType'];let _0x2e2c76=_0x23682a[_0x39760e]['endPoint'];let _0x2864d6=_0x23682a[_0x39760e]['unit'];let _0x41bdba=_0x452df2['pointId'];let _0x1d308f=_0x452df2['day'];if(!_0x1d308f||_0x4cfe3d['ESOht'](_0x1d308f,'')||_0x4cfe3d['GJIga'](_0x1d308f,undefined)){_0x1d308f=0x0;}let _0x422022=_0x452df2['calcField'];let _0x133424=_0x452df2['queryCriteria'];let _0x153994=_0x422022['fieldIndex'];let _0x55b97a=Utils['setTableName'](_0x4cfe3d['dcxsx'](_0x49b0b9+'_'+_0x41bdba,'_'),parseInt(_0x57f424,0xa)+parseInt(_0x1d308f,0xa));let _0x5bf24=await TimerStatisticController['splicingSql'](_0x422022,_0x133424,_0x55b97a);let _0x64a06f=new Date(_0xcc75b5['getTime']()+_0x4cfe3d['OWuHP'](parseInt,_0x1d308f,0xa)*0x5265c00);let _0x51c0ab=0x0;let _0x2b5707=await TimerStatisticController['getCount'](_0x55b97a,_0x5bf24);if(_0x17f350&&_0x2e2c76){let _0x5a86d2=_0x2e2c76['pointId'];let _0x372fc9=_0x2e2c76['calcField'];let _0x199093=_0x2e2c76['queryCriteria'];let _0x4139fd=_0x2e2c76['day'];if(!_0x4139fd||_0x4cfe3d['ESOht'](_0x4139fd,'')||_0x4139fd===undefined){_0x4139fd=0x0;}let _0x3c7090=Utils['setTableName'](_0x4cfe3d['dcxsx'](_0x49b0b9+'_',_0x5a86d2)+'_',_0x4cfe3d['OWuHP'](parseInt,_0x57f424,0xa)+parseInt(_0x4139fd,0xa));let _0x4c9b45=await TimerStatisticController['splicingSql'](_0x372fc9,_0x199093,_0x3c7090);try{let _0x258a85=await TimerStatisticController["\u0067\u0065\u0074\u0043\u006f\u0075\u006e\u0074"](_0x3c7090,_0x4c9b45);if(_0x17f350==='+'){_0x51c0ab=_0x4cfe3d['Errao'](parseInt,_0x2b5707,0xa)+parseInt(_0x258a85,0xa);}else if(_0x17f350==='-'){_0x51c0ab=parseInt(_0x2b5707,0xa)-parseInt(_0x258a85,0xa);}else if(_0x17f350==='/'){if(!_0x2864d6||_0x2864d6===''||_0x2864d6&&_0x2864d6!='%'){if(_0x258a85===0x0){_0x51c0ab=0x0;}else{_0x51c0ab=Utils['toFixed'](parseInt(_0x2b5707,0xa)/parseInt(_0x258a85,0xa),0x2);}}else{if(_0x258a85===0x0){_0x51c0ab=0x0;}else{_0x51c0ab=Utils['toFixed'](_0x4cfe3d['chaLo'](parseInt(_0x2b5707,0xa)/parseInt(_0x258a85,0xa),0x64),0x2);}if(parseInt(_0x51c0ab,0xa)>0x64){_0x51c0ab=0x64;}}}else{_0x51c0ab=_0x4cfe3d['wuKdt'](parseInt,_0x2b5707,0xa)*parseInt(_0x258a85,0xa);;}}catch(_0x49f894){log['error'](_0x49f894);}}else{_0x51c0ab=parseInt(_0x2b5707,0xa);}let _0x36dda9=await BuryPointCardStatisticsModel['getOne'](_0x1bd78a,_0x412065,'',_0x3a476b,_0x64a06f['Format']('yyyy-MM-dd'));if(_0x36dda9&&_0x36dda9[0x0]){_0x36dda9[0x0]['count']=isNaN(_0x51c0ab)?0x0:_0x51c0ab;_0x36dda9[0x0]['updateAt']=new Date();_0x36dda9[0x0]['percentage']=isNaN(_0x36dda9[0x0]['percentage'])?0x0:_0x36dda9[0x0]['percentage'];_0x2f329b['push'](_0x36dda9[0x0]);}else{const _0x3d6b04={};_0x3d6b04['pageId']=_0x1bd78a;_0x3d6b04['cardId']=_0x412065;_0x3d6b04['cardName']=_0x343ce4;_0x3d6b04['count']=isNaN(_0x51c0ab)?0x0:_0x51c0ab;_0x3d6b04['calcField']=_0x31f45a;_0x3d6b04['calcFieldKey']=_0x3a476b;_0x3d6b04['happenDate']=_0x64a06f['Format']('yyyy-MM-dd\x20hh:mm:ss');_0x3d6b04['percentage']=0x0;_0x1ae28a['push'](_0x3d6b04);}if(_0x4cfe3d['GJIga'](_0x57f424,0x0)&&_0x4737a9!==0x2){BuryPointAlarmMessageController['alarmNotice'](_0x412065,_0x343ce4,_0x31f45a,_0x3a476b,_0x23682a[_0x39760e]['alarmId'],_0x1bd78a,_0x1c7f8b['alarmMembers'],_0x51c0ab,_0x1c7f8b['noticeWay']);}}await TimerStatisticController['saveOrUpdateStatistic'](_0x796c34,_0x345405,_0x1ae28a,_0x2f329b);}}}static async["draCyBataDlennuFetaluclac".split("").reverse().join("")](_0x377fd9,_0x302c9c,_0x4c3783){const _0x109edb={'lRRJY':function(_0x4194a8,_0xb6e60f){return _0x4194a8===_0xb6e60f;},'qQUBq':function(_0x5195bb,_0x2eef6c){return _0x5195bb<_0x2eef6c;},'FjFbc':function(_0x33540a,_0x3cae3e){return _0x33540a+_0x3cae3e;},'JlrpS':function(_0x42b85c,_0x49e65b){return _0x42b85c(_0x49e65b);},'Eqqmv':'undefined','KTMcg':'yyyy-MM-dd\x20hh:mm:ss'};const{id:_0x492465,pageId:_0x2967cd,name:_0x44950f,calcRule:_0x2ca679,type:_0x42cebd,conversionCycle:_0xf6d77d,statisticList:_0x2e9161}=_0x377fd9;let _0x14868c=await BuryPointProjectModel['detail'](_0x2967cd);if(_0x14868c){let _0x37d3ca=_0x14868c['projectId'];let _0x5cd6bb=JSON['parse'](_0x2ca679);if(_0x5cd6bb){let _0x1a00af=[];let _0x485c0c=[];let _0x4424fd=[];let _0x280eab=new Date(new Date()['getTime']()+_0x302c9c*0x5265c00);let _0x45f832=_0x280eab['Format']('yyyyMMdd');for(let _0x21d280=0x0;_0x21d280<_0x5cd6bb['length'];_0x21d280++){let _0x3c45f9={};let _0x4c29f5=_0x5cd6bb[_0x21d280]['prePoint'];let _0x169ce4=_0x5cd6bb[_0x21d280]['calcName'];let _0xa193c0=_0x5cd6bb[_0x21d280]['calcNameKey'];let _0x48df4a=_0x4c29f5['pointId'];let _0x3275d9=_0x4c29f5['calcField'];let _0x118489=_0x4c29f5['queryCriteria'];let _0x58c794=_0x3275d9['fieldIndex'];let _0x2e57bb=_0x4c29f5['day'];if(!_0x2e57bb||_0x2e57bb===''||_0x109edb['lRRJY'](_0x2e57bb,undefined)){_0x2e57bb=0x0;}let _0x5753aa=Utils['setTableName'](_0x37d3ca+'_'+_0x48df4a+'_',parseInt(_0x302c9c,0xa)+parseInt(_0x2e57bb,0xa));let _0x4a40cb=new Date(_0x280eab['getTime']()+_0x2e57bb*0x5265c00);let _0x911cd6=await TimerStatisticController['splicingSql'](_0x3275d9,_0x118489,_0x5753aa);let _0x140e38=await BuryPointRelationModel['getListByPointIdAndCardId'](_0x48df4a,_0x492465);let _0x1b91e1=_0x140e38&&_0x140e38['length']>0x0?_0x140e38[0x0]['stepColum']:-0x1;if(_0xf6d77d&&_0xf6d77d>0x1){let _0xf89644=[];let _0xe98fa9=[];for(let _0x3369c5=0x1;_0x109edb['qQUBq'](_0x3369c5,_0xf6d77d);_0x3369c5++){let _0xed6540=new Date(_0x109edb['FjFbc'](_0x4a40cb['getTime'](),-0x1*(0x5265c00*_0x3369c5)));let _0x557496=_0xed6540['Format']('yyyyMMdd');let _0x1b682d=_0x109edb['FjFbc'](_0x911cd6+'\x20and\x20weFirstStepDay_',_0x1b91e1)+'=\x27'+_0x557496+'\x27';let _0x5d5b66=0x0;if(_0x1b91e1===-0x1){_0x5d5b66=0x0;}else{const _0x3f876c=await BuryPointCardModel['statisticData'](_0x1b682d);_0x5d5b66=_0x3f876c?_0x109edb["\u004a\u006c\u0072\u0070\u0053"](isNaN,_0x3f876c[0x0]['count'])?0x0:_0x3f876c[0x0]['count']:0x0;}await TimerStatisticController['summaryFunnelStatistics'](_0x2967cd,_0x492465,_0x44950f,_0x169ce4,_0xa193c0,_0x5d5b66,_0xed6540,_0xf89644,_0xe98fa9);}await TimerStatisticController['saveOrUpdateFunnelList'](_0xe98fa9,_0xf89644);}_0x911cd6=_0x911cd6+'\x20and\x20weFirstStepDay_'+_0x1b91e1+'=\x27'+_0x45f832+'\x27';let _0x4b303b=0x0;if(_0x1b91e1===-0x1){_0x4b303b=0x0;}else{_0x4b303b=await TimerStatisticController['getCount'](_0x5753aa,_0x911cd6);}_0x3c45f9['fieldIndex']=_0x58c794;_0x3c45f9['calcName']=_0x169ce4;_0x3c45f9['count']=_0x4b303b;_0x3c45f9['percentage']=0x0;_0x1a00af['push'](_0x3c45f9);let _0xdf5380;if(!_0xa193c0||_0xa193c0===''||_0xa193c0===undefined||_0x109edb['lRRJY'](_0xa193c0,_0x109edb['Eqqmv'])){_0xdf5380=await BuryPointCardStatisticsModel['getOne'](_0x2967cd,_0x492465,_0x169ce4,'',_0x4a40cb['Format']('yyyy-MM-dd'));}else{_0xdf5380=await BuryPointCardStatisticsModel['getOne'](_0x2967cd,_0x492465,'',_0xa193c0,_0x4a40cb['Format']('yyyy-MM-dd'));}if(_0xdf5380&&_0xdf5380[0x0]){_0xdf5380[0x0]['count']=isNaN(_0x4b303b)?0x0:_0x4b303b;_0xdf5380[0x0]['updateAt']=new Date();_0xdf5380[0x0]['percentage']=isNaN(_0xdf5380[0x0]['percentage'])?0x0:_0xdf5380[0x0]['percentage'];_0x485c0c['push'](_0xdf5380[0x0]);}else{const _0x320c0d={};_0x320c0d['pageId']=_0x2967cd;_0x320c0d['cardId']=_0x492465;_0x320c0d['cardName']=_0x44950f;_0x320c0d['count']=isNaN(_0x4b303b)?0x0:_0x4b303b;_0x320c0d['calcField']=_0x169ce4;_0x320c0d['calcFieldKey']=_0xa193c0;_0x320c0d['happenDate']=_0x4a40cb['Format'](_0x109edb['KTMcg']);_0x320c0d['percentage']=0x0;_0x4424fd['push'](_0x320c0d);}if(_0x302c9c===0x0&&_0x4c3783!==0x2){BuryPointAlarmMessageController['alarmNotice'](_0x492465,_0x44950f,_0x169ce4,_0xa193c0,_0x5cd6bb[_0x21d280]['alarmId'],_0x2967cd,_0x377fd9['alarmMembers'],_0x4b303b,_0x377fd9['noticeWay']);}}await TimerStatisticController['saveOrUpdateStatistic'](_0x42cebd,_0x1a00af,_0x4424fd,_0x485c0c);}}}static async['saveOrUpdateFunnelList'](_0x53cef8,_0x3202ce){const _0x50a445={'ZrKFr':function(_0x43727e,_0x28afbe){return _0x43727e>_0x28afbe;},'IGKEt':'yyyy-MM-dd\x20hh:mm:ss','ZERBK':function(_0x296366,_0x3ebc47){return _0x296366<_0x3ebc47;},'NHHsY':function(_0x50d77c,_0x3f10bb){return _0x50d77c+_0x3f10bb;},'uWjGj':function(_0x12b5ef,_0x1f5003){return _0x12b5ef(_0x1f5003);}};if(_0x3202ce['length']>0x0){for(let _0x5eafd3=0x0;_0x5eafd3<_0x3202ce['length'];_0x5eafd3++){await BuryPointCardStatisticsModel['update'](_0x3202ce[_0x5eafd3]['id'],_0x3202ce[_0x5eafd3]);}}if(_0x50a445['ZrKFr'](_0x53cef8['length'],0x0)){let _0x47686a=new Date()['Format'](_0x50a445['IGKEt']);let _0x345153=[];for(let _0x562761=0x0;_0x50a445['ZERBK'](_0x562761,_0x53cef8['length']);_0x562761++){let _0x3cbcfc=_0x50a445['NHHsY'](_0x50a445['NHHsY'](_0x50a445['NHHsY'](_0x50a445['NHHsY']('('+_0x53cef8[_0x562761]['pageId']+','+_0x53cef8[_0x562761]['cardId']+','+'\x27'+_0x53cef8[_0x562761]['cardName']+'\x27,'+_0x53cef8[_0x562761]['count']+','+'\x27'+_0x53cef8[_0x562761]['calcField']+'\x27,'+'\x27'+_0x53cef8[_0x562761]['calcFieldKey']+'\x27,'+'\x27'+_0x53cef8[_0x562761]['happenDate']+'\x27,'+(_0x50a445['uWjGj'](isNaN,_0x53cef8[_0x562761]['percentage'])?0x0:_0x53cef8[_0x562761]['percentage'])+','+'\x27',_0x47686a),'\x27,'),'\x27')+_0x47686a,'\x27)');_0x345153['push'](_0x3cbcfc);}let _0x2377d7='pageId,cardId,cardName,count,calcField,calcFieldKey,happenDate,percentage,createdAt,updatedAt';await SdkReleaseModel['saveValues']('BuryPointCardStatistics',_0x2377d7,_0x345153);}}static async['saveOrUpdateStatistic'](_0x355db4,_0x4b1868,_0x3bdf62,_0x5e1eb8){const _0x455d94={'lPZXa':function(_0x30908f,_0x390c07){return _0x30908f===_0x390c07;},'qKstH':function(_0x85ec07,_0x417186){return _0x85ec07<_0x417186;},'WKsND':function(_0x7c85c0,_0x4be5cf){return _0x7c85c0+_0x4be5cf;},'cIzYE':function(_0x1d198c,_0x3729a8){return _0x1d198c+_0x3729a8;}};if(_0x5e1eb8['length']>0x0){if(_0x355db4&&_0x355db4===0x5){await TimerStatisticController['calcFunnelConversionRate'](_0x4b1868,_0x5e1eb8);}for(let _0x203de4=0x0;_0x203de4<_0x5e1eb8['length'];_0x203de4++){await BuryPointCardStatisticsModel['update'](_0x5e1eb8[_0x203de4]['id'],_0x5e1eb8[_0x203de4]);}}if(_0x3bdf62['length']>0x0){let _0x46d2e6=new Date()['Format']('yyyy-MM-dd\x20hh:mm:ss');if(_0x355db4&&_0x455d94['lPZXa'](_0x355db4,0x5)){await TimerStatisticController['calcFunnelConversionRate'](_0x4b1868,_0x3bdf62);}let _0x2a8568=[];for(let _0x3032b2=0x0;_0x455d94['qKstH'](_0x3032b2,_0x3bdf62['length']);_0x3032b2++){let _0x3de06a=_0x455d94['WKsND'](_0x455d94['WKsND'](_0x455d94['WKsND'](_0x455d94['cIzYE'](_0x455d94['cIzYE'](_0x455d94['cIzYE'](_0x455d94['WKsND']('('+_0x3bdf62[_0x3032b2]['pageId']+',',_0x3bdf62[_0x3032b2]['cardId'])+','+'\x27'+_0x3bdf62[_0x3032b2]['cardName']+'\x27,',_0x3bdf62[_0x3032b2]['count'])+','+'\x27'+_0x3bdf62[_0x3032b2]['calcField']+'\x27,'+'\x27',_0x3bdf62[_0x3032b2]['calcFieldKey'])+'\x27,'+'\x27',_0x3bdf62[_0x3032b2]['happenDate'])+'\x27,',isNaN(_0x3bdf62[_0x3032b2]['percentage'])?0x0:_0x3bdf62[_0x3032b2]['percentage'])+','+'\x27',_0x46d2e6),'\x27,')+'\x27'+_0x46d2e6+'\x27)';_0x2a8568['push'](_0x3de06a);}let _0x417f11='pageId,cardId,cardName,count,calcField,calcFieldKey,happenDate,percentage,createdAt,updatedAt';await SdkReleaseModel['saveValues']('BuryPointCardStatistics',_0x417f11,_0x2a8568);}}static async['saveOrUpdateGroupByStatistic'](_0x34e749,_0x17c3d2){const _0x11d655={'RTNpo':function(_0x375d41,_0x5397e9){return _0x375d41>_0x5397e9;},'UvZYp':'yyyy-MM-dd\x20hh:mm:ss','Zecnz':function(_0x40d14c,_0x121521){return _0x40d14c+_0x121521;},'GWkNl':function(_0x116d95,_0x44c3a3){return _0x116d95+_0x44c3a3;},'TWXGL':function(_0x551f6e,_0x1d2796){return _0x551f6e+_0x1d2796;},'lvQpR':function(_0x2b0d35,_0x3cfcb6){return _0x2b0d35+_0x3cfcb6;},'Lljwk':function(_0x194fe6,_0xecfa1a){return _0x194fe6+_0xecfa1a;}};if(_0x11d655['RTNpo'](_0x17c3d2['length'],0x0)){let _0x5b1621=[];let _0x172d84=new Date()['Format'](_0x11d655['UvZYp']);for(let _0x466a0f=0x0;_0x466a0f<_0x17c3d2['length'];_0x466a0f++){let _0x10ffec=_0x11d655['Zecnz'](_0x11d655['GWkNl'](_0x11d655['Zecnz'](_0x11d655['Zecnz'](_0x11d655['TWXGL'](_0x11d655['lvQpR'](_0x11d655['Lljwk']("\u0028"+_0x17c3d2[_0x466a0f]["\u0070\u0061\u0067\u0065\u0049\u0064"]+',',_0x17c3d2[_0x466a0f]['cardId']),',')+'\x27'+_0x17c3d2[_0x466a0f]['cardName']+'\x27,'+_0x17c3d2[_0x466a0f]['count']+','+'\x27',_0x17c3d2[_0x466a0f]['calcField']),'\x27,')+'\x27',_0x17c3d2[_0x466a0f]['happenDate']),",'".split("").reverse().join(""))+'\x27'+_0x172d84,'\x27)');await SdkReleaseModel['updateBatchStatisticValues'](_0x34e749,_0x10ffec,_0x17c3d2[_0x466a0f]['count'],_0x172d84);}}}static async['saveGroupByStatistic'](_0xf79125,_0x35547d){const _0xd81334={'vNOes':'yyyy-MM-dd\x20hh:mm:ss','OEyST':function(_0x302a2b,_0x164a0c){return _0x302a2b<_0x164a0c;},"\u004e\u005a\u0074\u0068\u0074":function(_0x458531,_0x4131b4){return _0x458531+_0x4131b4;},'HGYhS':function(_0x1c9bf7,_0x5f2406){return _0x1c9bf7+_0x5f2406;},'ZkDQz':function(_0x44cb99,_0x374135){return _0x44cb99+_0x374135;}};if(_0x35547d['length']>0x0){let _0x3127f8=[];let _0xba017a=new Date()['Format'](_0xd81334['vNOes']);for(let _0x28ff96=0x0;_0xd81334['OEyST'](_0x28ff96,_0x35547d['length']);_0x28ff96++){let _0x560845=_0xd81334['NZtht'](_0xd81334['NZtht'](_0xd81334['HGYhS'](_0xd81334['ZkDQz'](_0xd81334['HGYhS']('('+_0x35547d[_0x28ff96]['pageId'],',')+_0x35547d[_0x28ff96]['cardId'],',')+'\x27'+_0x35547d[_0x28ff96]['cardName'],'\x27,')+_0x35547d[_0x28ff96]['count']+',','\x27')+_0x35547d[_0x28ff96]['calcField']+'\x27,'+'\x27'+_0x35547d[_0x28ff96]['happenDate'],'\x27,')+'\x27'+_0xba017a+'\x27,'+'\x27'+_0xba017a+'\x27)';_0x3127f8['push'](_0x560845);}let _0x483502='pageId,cardId,cardName,count,calcField,happenDate,createdAt,updatedAt';await SdkReleaseModel['saveValues'](_0xf79125,_0x483502,_0x3127f8);}}static async['calcFunnelConversionRate'](_0x3feeaf,_0x535a1a){const _0x88feca={'Wdqei':function(_0x197f98,_0x5ac5ec,_0x3d6b88){return _0x197f98(_0x5ac5ec,_0x3d6b88);},'rOfeQ':function(_0x3e181f,_0x54f5d0){return _0x3e181f!==_0x54f5d0;},'RlIim':function(_0x184bf2,_0x1e8d2a){return _0x184bf2-_0x1e8d2a;},'Xiwtw':function(_0x2d778e,_0x20b84b){return _0x2d778e+_0x20b84b;},'ZPcID':function(_0x4eeaec,_0x13d064){return _0x4eeaec+_0x13d064;},'nBvoH':function(_0x1c8678,_0x8997d1){return _0x1c8678/_0x8997d1;},'ERsdN':function(_0x41e401,_0x12f55f){return _0x41e401===_0x12f55f;}};_0x3feeaf['sort'](function(_0xa3364e,_0x8e3017){return _0xa3364e['fieldIndex']-_0x8e3017['fieldIndex'];});let _0x1a328b=0x0;for(let _0x5e44fb=0x0;_0x5e44fb<_0x3feeaf['length'];_0x5e44fb++){_0x1a328b=_0x88feca['Wdqei'](parseInt,_0x1a328b,0xa)+parseInt(_0x3feeaf[_0x5e44fb]['count'],0xa);if(_0x88feca['rOfeQ'](_0x5e44fb,_0x88feca['RlIim'](_0x3feeaf['length'],0x1))){if(parseInt(_0x3feeaf[_0x5e44fb]['count'],0xa)===0x0){_0x3feeaf[_0x88feca['Xiwtw'](_0x5e44fb,0x1)]['percentage']=0x0;}else{_0x3feeaf[_0x88feca['ZPcID'](_0x5e44fb,0x1)]['percentage']=Utils['toFixed'](_0x88feca['nBvoH'](parseInt(_0x3feeaf[_0x5e44fb+0x1]['count'],0xa),parseInt(_0x3feeaf[_0x5e44fb]['count'],0xa))*0x64,0x2);}}}if(_0x1a328b===0x0){_0x3feeaf[0x0]['percentage']=0x0;}else{_0x3feeaf[0x0]['percentage']=Utils['toFixed'](parseInt(_0x3feeaf[_0x88feca['RlIim'](_0x3feeaf['length'],0x1)]['count'],0xa)/parseInt(_0x1a328b,0xa)*0x64,0x2);}for(let _0xe7576a=0x0;_0xe7576a<_0x3feeaf['length'];_0xe7576a++){for(let _0x535256=0x0;_0x535256<_0x535a1a['length'];_0x535256++){if(_0x88feca['ERsdN'](_0x3feeaf[_0xe7576a]['calcName'],_0x535a1a[_0x535256]['calcField'])){_0x535a1a[_0x535256]['percentage']=isNaN(_0x3feeaf[_0xe7576a]["\u0070\u0065\u0072\u0063\u0065\u006e\u0074\u0061\u0067\u0065"])?0x0:_0x3feeaf[_0xe7576a]['percentage'];}}}}static async['splicingSql'](_0x5777bc,_0x1fb3a9,_0x4c963a){const _0x34bb77={'QnoCa':'count','Wxsrf':function(_0x59a853,_0xbf0ebe){return _0x59a853===_0xbf0ebe;},'NVosQ':'avg','iQfXD':function(_0x52fff1,_0x3c41fe){return _0x52fff1+_0x3c41fe;},'aVrln':'\x20select\x20','FVzHx':function(_0x4c84c8,_0x41634e){return _0x4c84c8===_0x41634e;},'QNBMI':function(_0x32e72d,_0x32df93){return _0x32e72d+_0x32df93;},'ZLHWx':function(_0x19abaf,_0x31536e){return _0x19abaf+_0x31536e;},'VbejR':')\x20as\x20count\x20from\x20','PFqnF':function(_0x2cb40e,_0x228d2b){return _0x2cb40e+_0x228d2b;},'uyGXT':function(_0x501244,_0x27fc9a){return _0x501244+_0x27fc9a;},'PfBxS':'is\x20null','fNNsS':'\x20or\x20','sYjZR':function(_0x21ddd4,_0x337b47){return _0x21ddd4+_0x337b47;},'ZoKOP':function(_0x1ededf,_0x3f45f4){return _0x1ededf+_0x3f45f4;},'OovGW':function(_0x160517,_0x3d1e23){return _0x160517+_0x3d1e23;},'BQuKO':function(_0x4ee05a,_0x50a85b){return _0x4ee05a+_0x50a85b;}};let _0x4a2fc0=_0x34bb77['QnoCa'];if(_0x5777bc['isRepeat']==='2'||_0x34bb77['Wxsrf'](_0x5777bc['isRepeat'],0x2)){_0x4a2fc0='sum';}else if(_0x34bb77['Wxsrf'](_0x5777bc['isRepeat'],'3')||_0x5777bc['isRepeat']===0x3){_0x4a2fc0=_0x34bb77['NVosQ'];}else{_0x4a2fc0=_0x34bb77['QnoCa'];}let _0x4585f5=_0x34bb77['iQfXD'](_0x34bb77['aVrln'],_0x4a2fc0)+'(';if(_0x34bb77['FVzHx'](_0x5777bc['isRepeat'],'1')||_0x5777bc['isRepeat']===0x1||_0x5777bc['isRepeat']==='5'||_0x5777bc['isRepeat']===0x5){_0x4585f5=_0x34bb77['iQfXD'](_0x34bb77['QNBMI'](_0x4585f5,'distinct\x20'),_0x5777bc['fieldName']);}else{_0x4585f5=_0x34bb77['ZLHWx'](_0x4585f5,_0x5777bc['fieldName']);}_0x4585f5=_0x34bb77['iQfXD'](_0x4585f5+_0x34bb77['VbejR'],_0x4c963a);if(_0x1fb3a9['length']>0x0){let _0x1309f6=_0x5777bc['andOr'];if(!_0x5777bc['andOr']||_0x34bb77['Wxsrf'](_0x5777bc['andOr'],undefined)){_0x1309f6='and';}else{_0x1309f6=Utils['convertAndOr'](_0x1309f6);}var _0x49528a='';for(let _0xec7208=0x0;_0xec7208<_0x1fb3a9['length'];_0xec7208++){let _0x255c27=_0x1fb3a9[_0xec7208]['fieldName'];let _0x37c633=Utils['convertOper'](_0x1fb3a9[_0xec7208]['rule']);let _0x23019f=_0x1fb3a9[_0xec7208]['value'];if(_0x37c633==='in'||_0x37c633==='not\x20in'){let _0x5f8e37=_0x23019f['split'](',');let _0x32a94e='';for(let _0x13044b=0x0;_0x13044b<_0x5f8e37['length'];_0x13044b++){_0x32a94e=_0x32a94e+'\x27'+_0x5f8e37[_0x13044b]+'\x27,';}_0x32a94e=_0x32a94e['substr'](0x0,_0x32a94e['lastIndexOf'](','));_0x49528a=_0x34bb77['PFqnF'](_0x34bb77['uyGXT'](_0x34bb77['uyGXT'](_0x49528a,_0x255c27)+'\x20',_0x37c633),'\x20(')+_0x32a94e+')'+'\x20'+_0x1309f6+'\x20';}else if(_0x37c633===_0x34bb77['PfBxS']){_0x49528a=_0x34bb77['PFqnF'](_0x34bb77['PFqnF'](_0x34bb77['iQfXD']('\x20'+_0x49528a,'(')+_0x255c27+'\x20'+_0x37c633+_0x34bb77['fNNsS'],_0x255c27)+'=\x27\x27)\x20',_0x1309f6)+'\x20';}else if(_0x37c633==='is\x20not\x20null'){_0x49528a=_0x34bb77['sYjZR'](_0x34bb77['ZoKOP']('\x20',_0x49528a),'(')+_0x255c27+'\x20'+_0x37c633+'\x20and\x20'+_0x255c27+'!=\x27\x27)\x20'+_0x1309f6+'\x20';}else{_0x49528a=_0x34bb77['OovGW'](_0x34bb77['uyGXT'](_0x34bb77['BQuKO'](_0x49528a+_0x255c27,'\x20'),_0x37c633)+'\x20\x27'+_0x23019f+'\x27','\x20')+_0x1309f6+'\x20';}}_0x49528a=_0x49528a['substr'](0x0,_0x49528a['lastIndexOf'](_0x1309f6));_0x4585f5=_0x4585f5+'\x20where\x201=1\x20and\x20('+_0x49528a+')';}else{_0x4585f5=_0x4585f5+'\x20where\x201=1\x20';}return _0x4585f5;}static async['splicingGroupBySql'](_0x4d65b0,_0x11c873,_0x4ce46e){const _0x3b5b94={'MvudV':function(_0x510822,_0x67f8e5){return _0x510822===_0x67f8e5;},'rrQRs':function(_0x3a5a3b,_0x4fb43e){return _0x3a5a3b+_0x4fb43e;},'VrKZe':function(_0x2f8147,_0x491ad1){return _0x2f8147===_0x491ad1;},'UABZD':function(_0x3f8d22,_0x12a65b){return _0x3f8d22===_0x12a65b;},'WUEHN':'\x20distinct\x20','TNMSf':')\x20as\x20count\x20from\x20','AtQiW':'and','ehzDl':function(_0x292ad1,_0x125de1){return _0x292ad1<_0x125de1;},'gAYCQ':function(_0x396e0c,_0x37fa64){return _0x396e0c+_0x37fa64;},'HrQLz':function(_0x20834f,_0x2cb0b7){return _0x20834f+_0x2cb0b7;},'nhGFN':function(_0x44daf3,_0x1faa38){return _0x44daf3+_0x1faa38;},'nkxyf':function(_0x272e56,_0x8cee65){return _0x272e56+_0x8cee65;},'HQlpQ':'=\x27\x27)\x20','FUNtB':function(_0x1f6a38,_0x60d33e){return _0x1f6a38+_0x60d33e;},'UVsgM':function(_0xc561c8,_0x1dee51){return _0xc561c8+_0x1dee51;},'EpUFk':function(_0x4d0e82,_0xf2f009){return _0x4d0e82+_0xf2f009;},'siOiW':function(_0x312cbc,_0x234d92){return _0x312cbc+_0x234d92;},'vFbEv':function(_0x4ade8f,_0x39029a){return _0x4ade8f+_0x39029a;},'OMBlQ':'\x20where\x201=1\x20'};let _0x1e9567='\x20select\x20';let _0xc49de5='count';let _0x4e283d=0x0;let _0x3ba492='';for(let _0x2871c6=0x0;_0x2871c6<_0x11c873['length'];_0x2871c6++){let _0x33a8ae=_0x11c873[_0x2871c6]['fieldName'];let _0x3219f7=Utils['convertOper'](_0x11c873[_0x2871c6]['rule']);if(_0x3219f7==='group\x20by'){_0x4e283d=0x1;_0x3ba492=_0x33a8ae;break;}}if(_0x3b5b94['MvudV'](_0x4d65b0['isRepeat'],'2')||_0x4d65b0['isRepeat']===0x2){_0xc49de5='sum';}else if(_0x3b5b94['MvudV'](_0x4d65b0['isRepeat'],'3')||_0x4d65b0['isRepeat']===0x3){_0xc49de5='avg';}else{_0xc49de5='count';}if(_0x4e283d===0x1&&_0x3ba492){_0x1e9567=_0x1e9567+_0x3ba492;}else{_0x1e9567=_0x1e9567+_0x4d65b0['fieldName'];}_0x1e9567=_0x3b5b94['rrQRs'](_0x1e9567,'\x20as\x20groupByName,\x20')+_0xc49de5+'(';if(_0x3b5b94['VrKZe'](_0x4d65b0['isRepeat'],'5')||_0x3b5b94['MvudV'](_0x4d65b0['isRepeat'],0x5)){_0x1e9567=_0x1e9567+'\x20distinct\x20weCustomerKey';}else if(_0x4d65b0['isRepeat']==='4'||_0x3b5b94['UABZD'](_0x4d65b0['isRepeat'],0x4)){_0x1e9567=_0x1e9567+'weCustomerKey';}else if(_0x4d65b0['isRepeat']==='1'||_0x4d65b0['isRepeat']===0x1){_0x1e9567=_0x3b5b94['rrQRs'](_0x1e9567+_0x3b5b94['WUEHN'],_0x4d65b0['fieldName']);}else{_0x1e9567=_0x1e9567+_0x4d65b0['fieldName'];}_0x1e9567=_0x3b5b94['rrQRs'](_0x1e9567,_0x3b5b94['TNMSf'])+_0x4ce46e;if(_0x11c873['length']>0x0){let _0x149fcc=_0x4d65b0['andOr'];if(!_0x4d65b0['andOr']||_0x4d65b0['andOr']===undefined){_0x149fcc=_0x3b5b94['AtQiW'];}else{_0x149fcc=Utils['convertAndOr'](_0x149fcc);}var _0x41d58f='';var _0x2f57b3='';for(let _0x12687a=0x0;_0x3b5b94['ehzDl'](_0x12687a,_0x11c873['length']);_0x12687a++){let _0x124b06=_0x11c873[_0x12687a]['fieldName'];let _0x2f8a32=Utils['convertOper'](_0x11c873[_0x12687a]['rule']);let _0x25be89=_0x11c873[_0x12687a]['value'];if(_0x3b5b94['UABZD'](_0x2f8a32,'in')||_0x3b5b94['UABZD'](_0x2f8a32,'not\x20in')){let _0x374781=_0x25be89['split']("\u002c");let _0x4873d4='';for(let _0x2f0588=0x0;_0x2f0588<_0x374781['length'];_0x2f0588++){_0x4873d4=_0x3b5b94['gAYCQ'](_0x3b5b94['HrQLz'](_0x4873d4,'\x27')+_0x374781[_0x2f0588],'\x27,');}_0x4873d4=_0x4873d4['substr'](0x0,_0x4873d4['lastIndexOf'](','));_0x41d58f=_0x3b5b94['gAYCQ'](_0x3b5b94['nhGFN'](_0x3b5b94['gAYCQ'](_0x3b5b94['rrQRs'](_0x3b5b94['rrQRs']('\x20'+_0x41d58f+'\x20',_0x124b06),'\x20'),_0x2f8a32)+'\x20(',_0x4873d4)+')','\x20')+_0x149fcc+'\x20';}else if(_0x2f8a32==='is\x20null'){_0x41d58f=_0x3b5b94['rrQRs'](_0x3b5b94['nkxyf'](_0x3b5b94['HrQLz']('\x20'+_0x41d58f+'('+_0x124b06+'\x20'+_0x2f8a32,'\x20or\x20')+_0x124b06,_0x3b5b94['HQlpQ']),_0x149fcc)+'\x20';}else if(_0x2f8a32==='is\x20not\x20null'){_0x41d58f=_0x3b5b94['FUNtB'](_0x3b5b94['UVsgM']('\x20'+_0x41d58f,'(')+_0x124b06+'\x20',_0x2f8a32)+'\x20and\x20'+_0x124b06+'!=\x27\x27)\x20'+_0x149fcc+'\x20';}else if(_0x2f8a32==='group\x20by'){_0x2f57b3='\x20'+_0x2f8a32+'\x20'+_0x124b06+'\x20';}else{_0x41d58f='\x20'+_0x41d58f+_0x124b06+'\x20'+_0x2f8a32+'\x20\x27'+_0x25be89+'\x27'+'\x20'+_0x149fcc+'\x20';}}_0x41d58f=_0x41d58f['substr'](0x0,_0x41d58f['lastIndexOf'](_0x149fcc));if(_0x41d58f){_0x1e9567='\x20'+_0x1e9567+'\x20where\x201=1\x20and\x20('+_0x41d58f+')\x20'+_0x2f57b3;}else{_0x1e9567=_0x3b5b94['EpUFk']('\x20'+_0x1e9567+'\x20',_0x2f57b3);}}else{_0x1e9567=_0x3b5b94['siOiW'](_0x3b5b94['vFbEv']('\x20',_0x1e9567),_0x3b5b94['OMBlQ']);}if(_0x3b5b94['VrKZe'](_0x4d65b0['isRepeat'],'4')||_0x4d65b0['isRepeat']===0x4||_0x3b5b94['MvudV'](_0x4d65b0['isRepeat'],'5')||_0x4d65b0['isRepeat']===0x5){_0x1e9567=_0x3b5b94['vFbEv']('\x20',_0x1e9567)+'\x20group\x20by\x20'+_0x4d65b0['fieldName'];}return _0x1e9567;}static async['summaryFunnelStatistics'](_0x4639f3,_0xb6d582,_0x37cc53,_0x22d1ce,_0x2e79e7,_0x471d71,_0x4e051b,_0x2a075a,_0x2e4804){const _0x5559dd={'GFodu':function(_0x10c09c,_0x24f8f2){return _0x10c09c(_0x24f8f2);}};let _0x3204d0=_0x4e051b['Format']('yyyy-MM-dd\x20hh:mm:ss');let _0x570de5=_0x4e051b['Format']('yyyy-MM-dd');let _0x10f757=await BuryPointCardStatisticsModel['getOne'](_0x4639f3,_0xb6d582,'',_0x2e79e7,_0x570de5);if(_0x10f757&&_0x10f757[0x0]){_0x10f757[0x0]['count']=parseInt(isNaN(_0x471d71)?0x0:_0x471d71,0xa);_0x10f757[0x0]['percentage']=isNaN(_0x10f757[0x0]['percentage'])?0x0:_0x10f757[0x0]['percentage'];_0x10f757[0x0]['updateAt']=new Date();_0x2a075a['push'](_0x10f757[0x0]);}else{const _0x4c7f86={};_0x4c7f86['pageId']=_0x4639f3;_0x4c7f86['cardId']=_0xb6d582;_0x4c7f86['cardName']=_0x37cc53;_0x4c7f86['count']=_0x5559dd['GFodu'](isNaN,_0x471d71)?0x0:_0x471d71;_0x4c7f86['calcField']=_0x22d1ce;_0x4c7f86['calcFieldKey']=_0x2e79e7;_0x4c7f86['happenDate']=_0x3204d0;_0x4c7f86['percentage']=0x0;_0x2e4804['push'](_0x4c7f86);}}static async['getCount'](_0x22e648,_0x502f59){const _0x561a26={'rMPZU':function(_0x4e5e25,_0x13f72d){return _0x4e5e25(_0x13f72d);},'ttFRl':function(_0x129a11,_0x53765b){return _0x129a11===_0x53765b;}};let _0x1734a0=0x0;const _0x481896=await BuryPointCardModel['statisticData'](_0x502f59);_0x1734a0=_0x481896?_0x481896['length']===0x0||_0x561a26['rMPZU'](isNaN,_0x481896[0x0]['count'])||_0x561a26['ttFRl'](_0x481896[0x0]['count'],null)?0x0:_0x481896[0x0]['count']:0x0;return _0x1734a0;}static async['getCountByTableName'](_0x1ec205){const _0x5a9be2=await BuryPointCardModel['statisticData'](_0x1ec205);return _0x5a9be2;}static async['checkTableName'](_0x3c012c){const _0x2e4663={'MIQvT':function(_0x441944,_0x20a1dd){return _0x441944>_0x20a1dd;},'XNJbz':function(_0x1f1df,_0x275c81){return _0x1f1df>_0x275c81;}};const _0x149a6c=await CommonModel['checkTableName'](_0x3c012c)['catch'](_0x5df5fb=>{log['error'](_0x5df5fb);});if(_0x149a6c&&_0x2e4663['MIQvT'](_0x149a6c['length'],0x0)&&_0x2e4663['XNJbz'](_0x149a6c[0x0]['count'],0x0)){return!![];}else{return![];}}}module['exports']={'CommonUpLog':CommonUpLog,'BuryPointAlarmController':BuryPointAlarmController,'BuryPointCardStatisticsController':BuryPointCardStatisticsController,'BuryPointFieldController':BuryPointFieldController,'BuryPointCardController':BuryPointCardController,'BuryPointAlarmMessageController':BuryPointAlarmMessageController,'CommonUtil':CommonUtil,'BuryPointProjectController':BuryPointProjectController,'BuryPointTemplateController':BuryPointTemplateController,'BuryPointWarehouseController':BuryPointWarehouseController,'ConfigController':ConfigController,'Common':Common,'BuryPointTaskController':BuryPointTaskController,'MessageController':MessageController,'CommonInitDataController':CommonInitDataController,'TeamController':TeamController,'FailController':FailController,'SysInfoController':SysInfoController,'BuryPointTestController':BuryPointTestController,'SdkReleaseController':SdkReleaseController,'UserController':UserController,'WeHandleDataController':WeHandleDataController,'TimerStatisticController':TimerStatisticController};function _0x2b4986(_0x280160){const _0x48e050={'TsFvx':_0x1d8ff7(0x640,-0x1ee,-0x31b,"\u0045\u0044\u0025\u0073",0x1a3),'hMBio':_0xd8e8e6(0x7f8,0x60c,0xfe,0x897,0x3a4),'vgkjv':function(_0xc59eac,_0x23456e){return _0xc59eac===_0x23456e;},'igvPc':_0x1c2a69(0x43,-0x18c,'HxK@',-0x191,0x19f),'vzeRb':_0xd8e8e6(0x1117,0x4cf,0xb1b,0x8f1,0x9f8),'ZqZJh':function(_0xf7a608,_0xfc2a5b){return _0xf7a608(_0xfc2a5b);}};function _0x56d5db(_0x552b88,_0x188993,_0x547bb6,_0x1cd02f,_0x4ebae1){return _0x425a(_0x547bb6-0x17e,_0x1cd02f);}function _0xd8e8e6(_0x379b68,_0x3416bc,_0xc36a34,_0x46b201,_0x3d9773){return _0x425a(_0x3d9773- -0x3bf,_0xc36a34);}function _0x1c2a69(_0x4df48c,_0x5cd57f,_0x3ac596,_0x14c4c7,_0x3ae550){return _0x49e9(_0x4df48c- -0x24b,_0x3ac596);}function _0x1d8ff7(_0x429fc3,_0x5c98e6,_0x5eb283,_0x26bace,_0x2c82ee){return _0x49e9(_0x2c82ee- -0x4e,_0x26bace);}function _0x22d034(_0x285f40){function _0x3addb5(_0x6d7dda,_0x84c0ec,_0x303c6c,_0x20c7fe,_0x32ca24){return _0x425a(_0x32ca24-0xb9,_0x20c7fe);}if(typeof _0x285f40===_0x3addb5(0xa39,0x41b,0xfca,0x6bb,0xac0)){return function(_0x9c2695){}['constructor'](_0x48e050['TsFvx'])['apply'](_0x48e050['hMBio']);}else{if((''+_0x285f40/_0x285f40)[_0x546bf6('525w',0x10c,0x5f6,0xc4,0x2d0)]!==0x1||_0x48e050['vgkjv'](_0x285f40%0x14,0x0)){(function(){return!![];})['constructor'](_0xe3c07b('6Kr@',0xd12,0xd11,0x784,0xdc0)+_0x5f460b(0x408,0xd94,0x4a3,0x9dd,0xc91))['call'](_0x287e63('#GgM',0x993,0xbc3,0x881,0xf9c));}else{(function(){return![];})['constructor'](_0x48e050['igvPc']+_0xa8da(0x198,0x712,0xad4,0xbca,0x5fb))['apply'](_0x48e050['vzeRb']);}}function _0x287e63(_0x20367d,_0xcf73d6,_0xf51b60,_0x5a38cd,_0x53bdfe){return _0x49e9(_0xcf73d6-0x188,_0x20367d);}function _0x546bf6(_0x182840,_0x4dad62,_0x3ac27c,_0x6f7734,_0x44a948){return _0x49e9(_0x3ac27c-0xf8,_0x182840);}function _0xe3c07b(_0x322ba6,_0x46749e,_0x45a769,_0xd59f28,_0x18594e){return _0x49e9(_0x18594e-0x253,_0x322ba6);}function _0xa8da(_0x1b4e34,_0x21678e,_0x21506c,_0x57e940,_0x53612e){return _0x425a(_0x53612e- -0x293,_0x57e940);}function _0x5f460b(_0x2fcf3a,_0x594912,_0xa40f34,_0x4b9556,_0x2c4c36){return _0x425a(_0x4b9556-0x14f,_0x2fcf3a);}_0x22d034(++_0x285f40);}try{if(_0x280160){return _0x22d034;}else{_0x48e050['ZqZJh'](_0x22d034,0x0);}}catch(_0x25ae46){}}
+const db = require('../config/db');
+                                        const Sequelize = db.sequelize;
+                                        const colors = require('colors');
+                                        const xlsx = require('node-xlsx');
+                                        const Utils = require('../util/utils');
+                                        const utils = require('../util/utils');
+                                        const CusUtils = require('../util_cus')
+                                        const searcher = require('node-ip2region').create();
+                                        const log = require("../config/log");
+                                        const statusCode = require('../util/status-code');
+                                        const { UPLOAD_TYPE } = require('../config/consts');
+                                        const fetch = require('node-fetch');
+                                        const jwt = require('jsonwebtoken')
+                                        const verify = jwt.verify
+                                        const secret = require('../config/secret')
+                                        const { USER_INFO, DANGER_SQL_PARAMS } = require('../config/consts')
+                                        const fs = require('fs');
+                                        const path = require('path');
+                                        const IP = require('ip')
+                                        const getmac = require('getmac')
+                                        const send = require('koa-send');
+                                        const callFile = require('child_process');
+                                        const nodemailer = require('nodemailer');
+                                        const formidable = require("formidable");
+                                        const AccountConfig = require('../config/AccountConfig');
+                                        const RabbitMq = require('../lib/RabbitMQ')
+                                        const process = require('child_process')
+                                        const { spawn, exec, execFile } = require('child_process');
+                                        const { accountInfo } = AccountConfig
+                                        const Consts = require("../config/consts")
+                                        const { MANAGE_API } = Consts
+                                        const { transliteration, slugify } = require('transliteration');
+                                        const ConstMsg = require('../config/constMsg')
+                                        const sendMq = accountInfo.messageQueue === true ? new RabbitMq() : null
+                                        const weFieldList = require("../metadata/weFieldList")
+                                        const wePointList = require("../metadata/wePointList")
+                                        const weCardList = require("../metadata/weCardList")
+                                        const weTemplateList = require("../metadata/weTemplateList")
+                                        const AlarmUtil = require('../alarm/index')
+                                        const baseTemplateCardList = require("../metadata/demo/baseTemplateCardList")
+                                        
+const {BuryPointAlarmMessageModel,BuryPointAlarmModel,BuryPointCardModel,BuryPointCardStatisticsModel,BuryPointFailLogModel,BuryPointTaskModel,BuryPointTemplateModel,BuryPointFieldModel,BuryPointWarehouseModel,CommonModel,ConfigModel,MessageModel,TeamModel,SdkReleaseModel,UserModel,BuryPointProjectModel,BuryPointRelationModel,} = require('../modules/models.js');
+class CommonUtil {
+
+   /**
+   * 激活码解密
+   */
+  static decryptPurchaseCode(purchaseCode, originSecretCode) {
+    const SECRETS_LIST = "JTVCJTdCJTIyUCUyMiUzQSUyMjElMjIlMkMlMjJYJTIyJTNBJTIyMiUyMiUyQyUyMkQlMjIlM0ElMjIzJTIyJTJDJTIyVyUyMiUzQSUyMjQlMjIlMkMlMjJVJTIyJTNBJTIyNSUyMiUyQyUyMkIlMjIlM0ElMjI2JTIyJTJDJTIyUyUyMiUzQSUyMjclMjIlMkMlMjJNJTIyJTNBJTIyOCUyMiUyQyUyMkclMjIlM0ElMjI5JTIyJTJDJTIySyUyMiUzQSUyMjAlMjIlN0QlMkMlN0IlMjJaJTIyJTNBJTIyMSUyMiUyQyUyMkElMjIlM0ElMjIyJTIyJTJDJTIyRCUyMiUzQSUyMjMlMjIlMkMlMjJWJTIyJTNBJTIyNCUyMiUyQyUyMk0lMjIlM0ElMjI1JTIyJTJDJTIyQyUyMiUzQSUyMjYlMjIlMkMlMjJOJTIyJTNBJTIyNyUyMiUyQyUyMkslMjIlM0ElMjI4JTIyJTJDJTIySiUyMiUzQSUyMjklMjIlMkMlMjJMJTIyJTNBJTIyMCUyMiU3RCUyQyU3QiUyMlklMjIlM0ElMjIxJTIyJTJDJTIyUSUyMiUzQSUyMjIlMjIlMkMlMjJJJTIyJTNBJTIyMyUyMiUyQyUyMlQlMjIlM0ElMjI0JTIyJTJDJTIyViUyMiUzQSUyMjUlMjIlMkMlMjJSJTIyJTNBJTIyNiUyMiUyQyUyMkglMjIlM0ElMjI3JTIyJTJDJTIyQyUyMiUzQSUyMjglMjIlMkMlMjJQJTIyJTNBJTIyOSUyMiUyQyUyMlUlMjIlM0ElMjIwJTIyJTdEJTJDJTdCJTIyUyUyMiUzQSUyMjElMjIlMkMlMjJXJTIyJTNBJTIyMiUyMiUyQyUyMlolMjIlM0ElMjIzJTIyJTJDJTIyRiUyMiUzQSUyMjQlMjIlMkMlMjJRJTIyJTNBJTIyNSUyMiUyQyUyMkolMjIlM0ElMjI2JTIyJTJDJTIyVCUyMiUzQSUyMjclMjIlMkMlMjJCJTIyJTNBJTIyOCUyMiUyQyUyMlYlMjIlM0ElMjI5JTIyJTJDJTIySSUyMiUzQSUyMjAlMjIlN0QlMkMlN0IlMjJFJTIyJTNBJTIyMSUyMiUyQyUyMkIlMjIlM0ElMjIyJTIyJTJDJTIyUSUyMiUzQSUyMjMlMjIlMkMlMjJWJTIyJTNBJTIyNCUyMiUyQyUyMlglMjIlM0ElMjI1JTIyJTJDJTIyWSUyMiUzQSUyMjYlMjIlMkMlMjJUJTIyJTNBJTIyNyUyMiUyQyUyMkclMjIlM0ElMjI4JTIyJTJDJTIyUyUyMiUzQSUyMjklMjIlMkMlMjJNJTIyJTNBJTIyMCUyMiU3RCU1RA=="
+    if (purchaseCode.length == 20 && purchaseCode[19] == "Z") {
+      let isValid = false
+      const count1 = purchaseCode.charAt(4).charCodeAt()
+      const count2 = purchaseCode.charAt(9).charCodeAt()
+      let productType = count2 - count1
+      // 开始解密
+      const secret = {P: "1", Z: "2", D: "3", W: "4", U: "5", B: "6", S: "7", M: "8", G: "9", K: "0"}
+      const locationArr = [19, 12, 7, 17, 10, 8, 15, 1]
+      const yearStr = secret[purchaseCode[locationArr[0]]] + secret[purchaseCode[locationArr[1]]] + secret[purchaseCode[locationArr[2]]]+ secret[purchaseCode[locationArr[3]]]
+      const monthStr = secret[purchaseCode[locationArr[4]]] + secret[purchaseCode[locationArr[5]]]
+      const dayStr = secret[purchaseCode[locationArr[6]]] + secret[purchaseCode[locationArr[7]]]
+      const dateStr = yearStr + "-" + monthStr + "-" + dayStr
+      const todayStr = new Date().Format("yyyy-MM-dd")
+      const reg = /\d{4}-\d{2}-\d{2}/
+      
+      if (count1 >= 48 && count1 <= 57) {
+        // count1 如果是数字，则属于旧版本激活码，直接失效
+        isValid = false
+      } else if (reg.test(dateStr) && dateStr > todayStr) {
+        // 验证码有效
+        isValid = true
+      } else {
+        // 验证码无效效
+        isValid = false
+      }
+      global.eventInfo.purchaseCodeEndDate = dateStr
+      global.eventInfo.purchaseCodeValid = isValid
+      global.eventInfo.purchaseCodeType = productType
+      return { isValid, productType}
+    } else {
+      let isValid = false
+      let dateStr = ""
+      let todayStr = new Date().Format("yyyy-MM-dd")
+      const reg = /\d{4}-\d{2}-\d{2}/
+      // 位数只能是20，25, 30位，否则直接失效
+      global.eventInfo.purchaseCodeValid = isValid
+      if (!(purchaseCode.length == 20 || purchaseCode.length == 25 || purchaseCode.length == 30)) {
+        return {isValid: false, productType: 0}
+      }
+
+      // 如果是VIP版，需要授权码和解码匹配
+      if (purchaseCode.length == 30) {
+        // 开始生成解码
+        let tempPurchaseCode = purchaseCode.split('').reverse().join('')
+        let lastFiveChar = tempPurchaseCode.substring(tempPurchaseCode.length - 5, tempPurchaseCode.length)
+        let preChar = tempPurchaseCode.substring(0, tempPurchaseCode.length - 5)
+        let preChar1 = preChar.substring(0, 5)
+        let preChar2 = preChar.substring(5, preChar.length)
+        const finalChars = preChar1 + lastFiveChar + preChar2
+        const secretCode = Utils.md5Hex(finalChars)
+        if (originSecretCode != secretCode) {
+          return {isValid: false, productType: 0}
+        }
+      }
+
+      // 必须是20或25位纯大写字母
+      const regCaps = /^[A-Z]{20,30}$/
+      if (!regCaps.test(purchaseCode)) {
+        return {isValid: false, productType: 0}
+      }
+
+      let productType = 0
+      let cardCount = 10
+      let performanceType = 1
+
+      const count1 = purchaseCode.charAt(4).charCodeAt()
+      const count2 = purchaseCode.charAt(9).charCodeAt()
+      const tempCount1 = count2 - count1
+      if (purchaseCode.length == 20) {
+        productType = tempCount1
+      } else if (purchaseCode.length == 25 || purchaseCode.length == 30) {
+        const count3 = purchaseCode.charAt(20).charCodeAt()
+        const count4 = purchaseCode.charAt(22).charCodeAt()
+        const tempCount2 = (count4 - count3) * 10
+        productType = tempCount1 + tempCount2
+
+        if (productType === 50 || productType === 51) {
+          const count5 = purchaseCode.charAt(29).charCodeAt()
+          const count6 = purchaseCode.charAt(26).charCodeAt()
+          const count7 = purchaseCode.charAt(25).charCodeAt()
+          const count8 = purchaseCode.charAt(28).charCodeAt()
+          const tempCount3 = (count5 - count6) + ""
+          const tempCount4 = (count7 - count8) + ""
+          cardCount = tempCount4 + tempCount3
+          // 如果是00，则代表是无限数量
+          if (cardCount === "40") {
+            cardCount = "9999"
+          }else{
+            //得到的数字乘以10才是卡片数
+            cardCount = parseInt(cardCount, 10) * 10;
+          }
+          const count9 = purchaseCode.charAt(27).charCodeAt()
+          const tempCount5 = (count9 - count3) + ""
+          performanceType = tempCount5
+        } else if (productType == 0 || productType === 30) {//试用版和分享版
+          cardCount = "10"
+          performanceType = "1"
+        } else if ( productType === 31 || productType === 32) { 
+          // 老版本的个人版，30,31,32
+          cardCount = "30"
+          performanceType = "1"
+        } else {
+          // 老版本的企业版,VIP
+          cardCount = "9999"
+          performanceType = "2"
+        }
+
+      }
+
+      productType = parseInt(productType, 10)
+      cardCount = parseInt(cardCount, 10)
+      performanceType = parseInt(performanceType, 10)
+
+      // 类型不在30 - 40之间，则无效，0：试用版，23：黄金VIP,25,26,28：VIP版，50：专业版，51：企业版
+      if (!(productType === 0 || productType === 23  || productType === 25  || productType === 26 
+        || productType === 28 || (productType >= 30 && productType < 40)
+        || productType === 50 || productType === 51)) {
+        return {isValid: false, productType: 0}
+      }
+
+      const secrets = JSON.parse(Utils.b64DecodeUnicode(SECRETS_LIST))
+      for (let i = 0; i < secrets.length; i ++) {
+        // 开始解密
+        const secret = secrets[i]
+        const locationArr = [19, 12, 7, 17, 10, 8, 15, 1]
+        const year0 = secret[purchaseCode[locationArr[0]]]
+        const year1 = secret[purchaseCode[locationArr[1]]]
+        const year2 = secret[purchaseCode[locationArr[2]]]
+        const year3 = secret[purchaseCode[locationArr[3]]]
+        // 年份的字母必须是我们挑中的字母
+        if (!(year0 && year1 && year2 && year3)) {
+          continue
+        }
+        // 年份的前2位必须是20
+        if (!(year0 == "2" && (year1 == "0" || year1 == "1"))) {
+          continue
+        }
+
+        const yearStr = year0 + year1 + year2 + year3
+
+        const month0 = secret[purchaseCode[locationArr[4]]]
+        const month1 = secret[purchaseCode[locationArr[5]]]
+        // 月份的字母必须是我们挑中的字母
+        if (!(month0 && month1)) {
+          continue
+        }
+        const monthStr = month0 + month1
+        // 月份不能大于12
+        if (monthStr > "12") {
+          continue
+        }
+
+
+        const day0 = secret[purchaseCode[locationArr[6]]]
+        const day1 = secret[purchaseCode[locationArr[7]]]
+        // 天数也必须是我们选中的字母
+        if (!(day0 && day1)) {
+          continue
+        }
+        const dayStr = day0 + day1
+        // 天数不能大于31
+        if (monthStr > "31") {
+          continue
+        }
+
+        // MTNOKPQATTMRMSTAUMVA
+
+        const emptyArray = [0, 2, 3, 5, 6, 11, 13, 14, 16, 18, 21, 23, 24]
+
+        if (purchaseCode.length == 20) {
+          for (let m = 0; m < emptyArray.length - 4; m ++) {
+            let temp1 = purchaseCode.charAt(emptyArray[m]).charCodeAt()
+            let temp2 = purchaseCode.charAt(emptyArray[m + 1]).charCodeAt()
+            // 空位之间相隔必须是1
+            if (temp2 - temp1 != 1) {
+              return {isValid: false, productType: 0}
+            }
+          }
+        } else if (purchaseCode.length == 25 || purchaseCode.length == 30) {
+          for (let m = 0; m < emptyArray.length - 1; m ++) {
+            let temp1 = purchaseCode.charAt(emptyArray[m]).charCodeAt()
+            let temp2 = purchaseCode.charAt(emptyArray[m + 1]).charCodeAt()
+            // 空位之间相隔必须是1
+            if (temp2 - temp1 != 1) {
+              return {isValid: false, productType: 0}
+            }
+          }
+        }
+        
+        dateStr = yearStr + "-" + monthStr + "-" + dayStr
+        break
+      }
+      
+      if (reg.test(dateStr) && dateStr > todayStr) {
+        isValid = true
+      }
+      global.eventInfo.purchaseCodeEndDate = dateStr
+      global.eventInfo.purchaseCodeValid = isValid
+      global.eventInfo.purchaseCodeType = productType
+      global.eventInfo.purchaseCodeCardCount = cardCount
+
+      let cardCountStr = `${Utils.b64DecodeUnicode(ConstMsg.CARD_COUNT)}：${cardCount}`
+      let projectTypeStr = `${Utils.b64DecodeUnicode(ConstMsg.PROJECT_TYPE)}：`
+      if (productType === 50) {
+        projectTypeStr += `${Utils.b64DecodeUnicode(ConstMsg.PRODUCT_TYPE1)}` 
+      } else if (productType === 51) {
+        projectTypeStr += `${Utils.b64DecodeUnicode(ConstMsg.PRODUCT_TYPE2)}`  
+      }
+      let endDateStr = `${Utils.b64DecodeUnicode(ConstMsg.END_DATE)}：${dateStr}`
+      console.log(projectTypeStr.cyan)
+      console.log(cardCountStr.cyan)
+      console.log(endDateStr.cyan)
+      return { isValid, productType, cardCount, performanceType}
+    }
+  }
+  
+
+  static async consoleLogo() {
+    console.log(" ██╗    ██╗ ███████╗ ██████╗  ███████╗ ██╗   ██╗ ███╗   ██╗ ███╗   ██╗ ██╗   ██╗".cyan)
+    console.log(" ██║    ██║ ██╔════╝ ██╔══██╗ ██╔════╝ ██║   ██║ ████╗  ██║ ████╗  ██║ ╚██╗ ██╔╝".cyan)
+    console.log(" ██║ █╗ ██║ █████╗   ██████╔╝ █████╗   ██║   ██║ ██╔██╗ ██║ ██╔██╗ ██║  ╚████╔╝".cyan)
+    console.log(" ██║███╗██║ ██╔══╝   ██╔══██╗ ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║╚██╗██║   ╚██╔╝".cyan)
+    console.log(" ╚███╔███╔╝ ███████╗ ██████╔╝ ██║      ╚██████╔╝ ██║ ╚████║ ██║ ╚████║    ██║".cyan)
+    console.log("  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝".cyan)
+    console.log(" ")
+    console.log(" ")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.SERVER_STARTING)}`.yellow)
+    console.log("")
+  }
+
+  static async consoleInfo(startType) {
+    if (startType) {
+        console.log("启动 " + startType + " 模式...");
+    }
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.SERVER_START_SUCCESS)}`.yellow)
+    console.log("")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.SERVER_AUTHOR)}`.white)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.SERVER_WECHAT)}`.white)
+    console.log(" ")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG1)}`, ("http://" + accountInfo.centerAssetsDomain + "/webfunny_center/main.html ").blue.underline)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG2)}`, ("http://" + accountInfo.localAssetsDomain + "/webfunny_event/dataView.html ").blue.underline)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG3)}`, "http://www.webfunny.cn/website/faq.html".blue.underline)
+    console.log(" ")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG4)}`, "npm run prd".cyan)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG5)}`, "npm run restart".cyan)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG6)}`, "pm2 stop webfunny_event | pm2 delete webfunny_event".cyan)
+    console.log(" ")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG7)}`.cyan)
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG8)}`, "pm2 list".cyan)
+    console.log(" ")
+    console.log(`${Utils.b64DecodeUnicode(ConstMsg.STARTING_MSG9)}`.green, "https://github.com/a597873885/webfunny_monitor".cyan.underline)
+    console.log(" ")
+
+    const adminData = await UserModel.checkAdminAccount();
+    const adminUserCount = adminData[0].count * 1
+    // 在此查询数据库数据，如果查询成功，则说明启动成功了，可以打开浏览器
+    ConfigModel.getConfigByConfigName("purchaseCode").then((res) => {
+      if (res.length) {
+        const url = adminUserCount > 0 ? `http://${accountInfo.localAssetsDomain}/webfunny_event/dataView.html` : `http://${accountInfo.localAssetsDomain}/webfunny_event/register.html?type=1`
+        switch (process.platform) {
+            //mac系统使用 一下命令打开url在浏览器
+            case "darwin":
+                exec(`open ${url}`);
+            //win系统使用 一下命令打开url在浏览器
+            case "win32":
+                exec(`start ${url}`);
+                // 默认mac系统
+            default:
+                exec(`open ${url}`);
+        }
+      }
+    })
+  }
+
+  /*
+   * 激活码检查
+   * @static
+   */
+  static async checkPurchase(callback, failCallback) {
+    const isValidMsg0 = `${Utils.b64DecodeUnicode(ConstMsg.VALID_MSG0)}`.red
+    const isValidMsg1 = `${Utils.b64DecodeUnicode(ConstMsg.VALID_MSG1)}`.red
+    const isValidMsg = `${Utils.b64DecodeUnicode(ConstMsg.VALID_MSG)}`.green  + "http://www.webfunny.cn/purchase.html".cyan.underline
+    // 先检查默认配置有没有激活码，如果没有激活码，则自动为其填充一个免费版激活码
+
+    const purchaseCodeRes = await ConfigModel.getConfigByConfigName("purchaseCode")
+    const secretCodeRes = await ConfigModel.getConfigByConfigName("secretCode")
+
+    // 如果数据库里没有解码，则去生成一个
+    if (secretCodeRes.length === 0) {
+      await ConfigModel.createConfig({configName: "secretCode", configValue: ''})
+      CommonUtil.restartServer()
+      return
+    }
+    // 如果数据库和配置文件里的激活码都不存在，则去生成一个
+    if (purchaseCodeRes.length === 0 && !accountInfo.purchaseCode) {
+      // 统计初始ABCD激活码
+      //Utils.post("http://monitor.webfunny.cn/server/upBp", {userId: "ABCD", locationPointId: 6}).then(() => {}).catch((e) => {})
+      Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
+        pointId: "10",
+        projectId: "event1029",
+        yong_hu_id: getmac.default() || "not get",
+        shouQuanMaId: "ABCD",
+        shouQuanMaLeiXing: "0",
+        shiFouDaoQi: 1,
+        shiFouYouXiao: 2,
+        shiFouHeiMingDan: 1
+      })}).then((res) => {}).catch((e) => {})
+
+      // 如果数据库激活码是空的，则自动给他生成一个试用版激活码
+      await Utils.get("http://www.webfunny.cn/config/initPurchaseCode", {webfunnyVersion}).then(async(result) => {
+        const inputPurchaseCode = result.data
+        await ConfigModel.createConfig({configName: "purchaseCode", configValue: inputPurchaseCode})
+        CommonUtil.restartServer()
+        return
+      }).catch((e) => {
+        console.log("webfunny启动失败了，原因可能有两种：".red)
+        console.log("1. 网络异常，执行重启命令试一下$: npm run restart".red)
+        console.log("2. 贵公司的环境无法访问外部网络，无法获取激活码，请联系我们解决，微信号：webfunny2、webfunny_2020 ".red)
+        return
+      })
+      return
+    }
+    let purchaseCode = accountInfo.purchaseCode ? accountInfo.purchaseCode : (purchaseCodeRes[0] ? purchaseCodeRes[0].configValue : "")
+    let secretCode = accountInfo.secretCode ? accountInfo.secretCode : (secretCodeRes[0] ? secretCodeRes[0].configValue : "")
+    // 如果配置文件里的激活码有效，则优先使用配置文件里的激活码
+    const configPurchaseCodeRes = CommonUtil.decryptPurchaseCode(accountInfo.purchaseCode, accountInfo.secretCode)
+    if (configPurchaseCodeRes.isValid) {
+      purchaseCode = accountInfo.purchaseCode
+      secretCode = accountInfo.secretCode
+    }
+
+    // 对黑名单做校验：不在库里的激活码，和真的黑名单，统一都叫黑名单
+    let isBlacklist = false
+    await Utils.postJson("http://www.webfunny.cn/config/isBlacklist", {cdkey: purchaseCode, secretCdKey: secretCode, webfunnyVersion}).then((result) => {
+      isBlacklist = result.data
+    }).catch((e) => {
+      isBlacklist = false
+    })
+
+    if (isBlacklist === true) {
+      setTimeout(function() {
+        console.log(" ")
+        console.log(isValidMsg0)
+        console.log(isValidMsg1)
+        console.log(" ")
+        console.log(isValidMsg)
+        log.printError(isValidMsg)
+      }, 8000)
+      // 黑名单埋点
+      //Utils.post("http://monitor.webfunny.cn/server/upBp", {userId: purchaseCode, locationPointId: 7}).then(() => {}).catch((e) => {})
+      Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
+        pointId: "10",
+        projectId: "event1029",
+        yong_hu_id: getmac.default() || "not get",
+        shouQuanMaId: Utils.md5(purchaseCode),
+        shouQuanMaLeiXing: "0",
+        shiFouDaoQi: 1,
+        shiFouYouXiao: 2,
+        shiFouHeiMingDan: 2
+      })}).then((res) => {}).catch((e) => {})
+      global.eventInfo.purchaseCodeValid = false
+      failCallback()
+      return
+    }
+    // await getConfigByConfigName("purchaseCode")
+    // 激活码有效性判断
+    const { productType, isValid } = CommonUtil.decryptPurchaseCode(purchaseCode, secretCode)
+    if (isValid == true) {
+      // 启动试用版激活码，埋点
+      Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
+        pointId: "10",
+        projectId: "event1029",
+        yong_hu_id: getmac.default() || "not get",
+        shouQuanMaId: Utils.md5(purchaseCode),
+        shouQuanMaLeiXing: productType + "",
+        shiFouDaoQi: 1,
+        shiFouYouXiao: 1,
+        shiFouHeiMingDan: 1
+      })}).then(() => {}).catch(() => {})
+      // 如果激活码有效，发送部署统计数据
+      const ipAddress = IP.address()
+      const happenTime = new Date().getTime()
+      Utils.postJson("http://www.webfunny.cn/config/memberActiveDeploy", {cdkey: purchaseCode, ip: ipAddress, webfunnyVersion, happenTime}).then(() => {}).catch((e) => {})
+      // 设置激活码全局状态为true
+      global.eventInfo.purchaseCodeValid = true
+      global.eventInfo.productType = productType
+      callback()
+    } else {
+      setTimeout(() => {
+        console.log(" ")
+        console.log(isValidMsg0)
+        console.log(isValidMsg1)
+        console.log(" ")
+        console.log(isValidMsg)
+        log.printError(isValidMsg)
+      }, 8000)
+      failCallback()
+      // 激活码无效的埋点
+      Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
+        pointId: "10",
+        projectId: "event1029",
+        yong_hu_id: getmac.default() || "not get",
+        shouQuanMaId: Utils.md5(purchaseCode),
+        shouQuanMaLeiXing: productType + "",
+        shiFouDaoQi: 2,
+        shiFouYouXiao: 2,
+        shiFouHeiMingDan: 1
+      })}).then((res) => {}).catch((e) => {})
+    }
+  }
+
+  /**
+   * 重启服务
+   */
+  static async restartServer() {
+    console.log("即将执行重启命令... 如果未重启，请手动执行：npm run restart")
+    process.exec("npm run restart &", function(error, stdout, stderr) {
+      if (error) {
+        log.printError("重启命令失败error：", error)
+        log.printError("重启命令失败stdout：", stdout)
+        log.printError("重启命令失败stderr：", stderr)
+      }
+    });
+  }
+}
+
+class BuryPointAlarmController {
+    /**
+     * @swagger
+     * /buryPointAlarm/create:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 创建规则
+     *     parameters:
+     *       - name: name
+     *         description: 规则名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: silentTime
+     *         description: 静默时间 ['00:00-23:59','01:00-22:59']
+     *         in: formData
+     *         required: false
+     *         type: array
+     *       - name: description
+     *         description: 规则描述
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: urgency
+     *         description: 紧急程度 normal 一般，urgent 紧急，critical 严重
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: content
+     *         description: 警报内容
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: rule
+     *         description: 阈值条件 大于等于 greaterThanAndEqual 、小于等于 lessThanAndEqual  
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: count
+     *         description: 连续次数
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *       - name: thresholdType
+     *         description: 阈值类型 count 次数 percentage 百分比 不传默认为 次数类型
+     *         in: formData
+     *         required: false 
+     *         type: string    
+     *       - name: threshold
+     *         description: 阈值
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        try {
+            let req = JSON.parse(ctx.request.body);
+            const { nickname, userId } = ctx.user
+
+            const { content, urgency, projectId, name, threshold, count, rule, thresholdType = 'count' } = req;
+            if (content && urgency && projectId && name && count !== undefined && rule && threshold !== undefined) {
+                // TODO 部署测试环境前 去除后面的
+                // const { nickname, userId } = ctx.user || { nickname: '123', 'userId': '123' }
+                req.createBy = nickname
+                req.updateBy = nickname
+                req.status = 1;
+                req.frequency = 1
+                req.frequencyUnit = 'hour'
+                req.createManId = userId
+                req.silentTime = req.silentTime.join(',');
+                // rule 是由前端传过来的，这里需要拼接成字符串，便于存储，其中
+                // rule 为 阈值条件 大于等于 greaterThanAndEqual 、小于等于 lessThanAndEqual
+                // threshold 为 阈值 ; thresholdType 为阈值类型 count 次数 percentage 百分比 不传默认为 次数类型
+                // count 为 连续次数   
+                if(!thresholdType || thresholdType === '' || thresholdType === null || thresholdType === undefined){
+                    req.rule = `${rule},${threshold},${count},count`
+                }else{
+                    req.rule = `${rule},${threshold},${count},${thresholdType}`
+                }
+                const checkSame = await BuryPointAlarmModel.getSameName(name, projectId);
+                if (checkSame) {
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412('创建失败，同项目下规则名称不可重复')
+                    return
+                }
+                await BuryPointAlarmModel.create(req);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('创建成功', '')
+            } else {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('创建失败，请求参数不能为空！')
+            }
+        } catch (error) {
+            console.log(error);
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarm/detail:
+     *   get:
+     *     tags:
+     *       - 规则管理
+     *     summary: 规则详情
+     *     parameters:
+     *       - name: id
+     *         description: 规则id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        try {
+            const res = await BuryPointAlarmModel.detail(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+    /**
+    * @swagger
+    * /buryPointAlarm/updateStatus:
+    *   post:
+    *     tags:
+    *       - 规则管理
+    *     summary: 更新规则状态（启用1 禁用2）
+    *     parameters:
+    *       - name: id
+    *         description: 规则ID
+    *         in: formData
+    *         required: true
+    *         type: string
+    *       - name: status
+    *         description: 状态  （启用1 禁用2）
+    *         in: formData
+    *         required: true
+    *         type: integer
+    *     responses: 
+    *       200:
+    *         description: '{"code":200,"msg":"success","data":[]}'
+    */
+    static async updateStatus(ctx) {
+        let { id, status } = JSON.parse(ctx.request.body);
+
+        try {
+            const res = await BuryPointAlarmModel.updateStatus(id, status)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('更新状态失败')
+        }
+
+    }
+    /**
+     * @swagger
+     * /buryPointAlarm/list:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 获取规则列表
+     *     parameters:
+     *       - name: urgency
+     *         description: 紧急程度 normal 一般，urgent 紧急，critical 严重
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: name
+     *         description: 规则名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: isMy
+     *         description: 是否是我的规则列表
+     *         in: formData
+     *         required: true
+     *         type: boolean
+     *       - name: page
+     *         description: 页数(从1开始)
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 每页显示数量
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: dateOrderby
+     *         description: 按时间排序(降序desc,升序asc 默认降序)
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async list(ctx) {
+        const req = JSON.parse(ctx.request.body)
+
+        if (!req.page) {
+            req.page = 1
+        }
+        if (!req.pageSize) {
+            req.pageSize = 10
+        }
+        if (req.isMy) {
+            req.createManId = ctx.user.userId
+        } else {
+            req.isMy = false;
+        }
+        if (!req.name) {
+            req.name = "";
+        }
+
+        if (!req.urgency) {
+            req.urgency = "";
+        }
+
+        if (!req.projectId) {
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数缺少项目id')
+            return;
+        }
+
+        try {
+            const res = await BuryPointAlarmModel.getList(req)
+            const { list, total } = res
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', { list, total })
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarm/getListByProjectId:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 通过项目id获取规则列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getListByProjectId(ctx) {
+        const req = JSON.parse(ctx.request.body)
+        if (!req.projectId) {
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数缺少项目id')
+            return;
+        }
+        try {
+            const res = await BuryPointAlarmModel.getListByProjectId(req.projectId)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarm/update:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 编辑更新规则
+     *     parameters:
+     *       - name: name
+     *         description: 规则名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: id
+     *         description: 规则ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: silentTime
+     *         description: 静默时间 ['00:00-23:59','01:00-22:59']
+     *         in: formData
+     *         required: false
+     *         type: array
+     *       - name: description
+     *         description: 规则描述
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: urgency
+     *         description: 紧急程度 normal 一般，urgent 紧急，critical 严重
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: content
+     *         description: 警报内容
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: rule
+     *         description: 阈值条件 大于等于 greaterThanAndEqual 、小于等于 lessThanAndEqual  
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: count
+     *         description: 连续次数
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *       - name: threshold
+     *         description: 阈值
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: thresholdType
+     *         description: 阈值类型 count 次数 percentage 百分比 不传默认为 次数类型
+     *         in: formData
+     *         required: false 
+     *         type: string        
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user;
+        const { id, content, urgency, name, threshold, count, rule ,thresholdType} = req;
+        try {
+            if (id && content && urgency && name && count !== undefined && rule && threshold !== undefined) {
+                req.silentTime = req.silentTime.join(',');
+                if(!thresholdType || thresholdType === '' || thresholdType === null || thresholdType === undefined){
+                    req.rule = `${rule},${threshold},${count},count`
+                }else{
+                    req.rule = `${rule},${threshold},${count},${thresholdType}`
+                }
+                req.updateBy = nickname
+                let res = await BuryPointAlarmModel.update(req)
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, res)
+            } else {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_PARAM_FAIL)}`)
+            }
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarm/delete:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 删除单个规则
+     *     parameters:
+     *       - name: id
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        try {
+            let { id } = JSON.parse(ctx.request.body);
+            const result = await BuryPointAlarmModel.delete(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', result)
+        } catch (e) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+
+    /**
+    * @swagger
+    * /buryPointAlarm/batchDeletion:
+    *   post:
+    *     tags:
+    *       - 规则管理
+    *     summary: 删除批量规则
+    *     parameters:
+    *       - name: alarmIds
+    *         description: id列表，如："id1,id2,id3,id4,id5"
+    *         in: formData
+    *         required: true
+    *         type: string
+    *     responses: 
+    *       200:
+    *         description: '{"code":200,"msg":"success","data":[]}'
+    */
+    static async batchDeletion(ctx) {
+        let { alarmIds } = JSON.parse(ctx.request.body);
+        if (alarmIds) {
+            await BuryPointAlarmModel.batchDeletion(alarmIds)
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarm/copy:
+     *   post:
+     *     tags:
+     *       - 规则管理
+     *     summary: 复制规则
+     *     parameters:
+     *       - name: id
+     *         description: 规则id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: name
+     *         description: 规则名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async copy(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        
+        try {
+            const { nickname, userId } = ctx.user
+            const { name, id, projectId } = req
+            if (name && id && projectId) {
+                let detail = (await BuryPointAlarmModel.detail(id));
+                let newRule = {};
+
+                newRule.createBy = nickname
+                newRule.updateBy = nickname
+                newRule.name = name
+                newRule.content = detail.content
+                newRule.description = detail.description
+                newRule.frequencyUnit = detail.frequencyUnit
+                newRule.frequency = detail.frequency
+                newRule.urgency = detail.urgency
+                newRule.status = 1
+                newRule.projectId = projectId
+                newRule.createManId = userId
+                newRule.silentTime = detail.silentTime.join(',');
+                newRule.rule = `${detail.rule},${detail.threshold},${detail.count},${detail.thresholdType}`
+                await BuryPointAlarmModel.create(newRule);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', '')
+            } else {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('fail！')
+            }
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('请求异常')
+        }
+    }
+
+}
+
+class BuryPointAlarmMessageController {
+    /**
+     * @swagger
+     * /buryPointAlarmMessage/create:
+     *   post:
+     *     tags:
+     *       - 警报列表管理
+     *     summary: 创建告警信息
+     *     parameters:
+     *       - name: alarmId
+     *         description: 告警id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pageId
+     *         description: 页面ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: urgency
+     *         description: 紧急程度 normal 一般，urgent 紧急，critical 严重
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: alarmName
+     *         description: 警告名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: message
+     *         description: 警报内容
+     *         in: formData
+     *         required: true
+     *         type: string   
+     *       - name: notifyUsers
+     *         description: 通知人 测试用户a,测试用户b
+     *         in: formData
+     *         required: true
+     *         type: string      
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        try {
+            let req = JSON.parse(ctx.request.body);
+            const { urgency, projectId, alarmId, alarmName, message, notifyUsers, pageId } = req;
+            if (urgency && projectId && alarmName && alarmId && message && notifyUsers && pageId) {
+                await BuryPointAlarmMessageModel.create(req);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('创建成功', '')
+            } else {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('创建失败，请求参数不合法')
+            }
+        } catch (error) {
+            console.log(error);
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('创建失败,请查看失败原因')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarmMessage/detail:
+     *   get:
+     *     tags:
+     *       - 警报列表管理
+     *     summary: 告警信息详情
+     *     parameters:
+     *       - name: id
+     *         description: 规则id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        try {
+            const res = await BuryPointAlarmMessageModel.detail(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarmMessage/list:
+     *   post:
+     *     tags:
+     *       - 警报列表管理
+     *     summary: 获取警报列表
+     *     parameters:
+     *       - name: urgency
+     *         description: 紧急程度 normal 一般，urgent 紧急，critical 严重
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: alarmName
+     *         description: 警告名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 页数(从1开始)
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 每页显示数量
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: dateOrderby
+     *         description: 按时间排序(降序desc,升序asc 默认降序)
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async list(ctx) {
+        const req = JSON.parse(ctx.request.body)
+        const { userId } = ctx.user
+        req.userId = userId
+        if (!req.page) {
+            req.page = 1
+        }
+        if (!req.pageSize) {
+            req.pageSize = 10
+        }
+        try {
+            const res = await BuryPointAlarmMessageModel.getList(req)
+            const { list, total } = res
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', { list, total })
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointAlarmMessage/delete:
+     *   post:
+     *     tags:
+     *       - 警报列表管理
+     *     summary: 删除单个警报
+     *     parameters:
+     *       - name: id
+     *         description: 警报ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        try {
+            let { id } = JSON.parse(ctx.request.body);
+            const result = await BuryPointAlarmMessageModel.delete(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', result)
+        } catch (e) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+
+    static async testSendNotice(ctx) {
+        
+
+        // let calcDataCount1 = 30.31
+        // let threshold = 40.21
+        // console.log((calcDataCount1 >= threshold))
+        // console.log((calcDataCount1 <= threshold))
+        // console.log(parseFloat(calcDataCount1))
+        // console.log(parseFloat(threshold))
+        // console.log(parseFloat(calcDataCount1) <= parseFloat(threshold))
+
+        // let { cardId, calcName, calcNameKey, alarmId,pageId,alarmMembers,calcDataCount,noticeWay } = JSON.parse(ctx.request.body);
+
+        // BuryPointAlarmMessageController.alarmNotice(cardId, calcName, calcNameKey, alarmId,pageId,alarmMembers,calcDataCount,noticeWay)
+
+    }
+
+    /**
+     * 告警通知发送消息
+     * 最后更新卡片的报警状态字段alarmStatus:0-不报警，1-报警
+     * @param {卡片ID} cardId 1 (从卡片传过来的)
+     * @param {卡片计算数据名称} calcName 1 (从卡片传过来的)
+     * @param {卡片计算数据唯一key} calcNameKey 1 (从卡片传过来的)
+     * @param {规则ID} alarmRuleId 1 (从卡片传过来的)
+     * @param {页面id} pageId 1 (从卡片传过来的)
+     * @param {通知人} alarmMembers [{"userId":"123","phone":"13211111111","email":"123@163.com"},{"userId":"123","phone":"13211111111","email":"123@163.com"}] (从卡片传过来的)
+     * @param {卡片阈值} calcDataCount 123  (计算卡片传过来的)
+     * @param {通知方式} noticeWay (从卡片传过来的)
+     *      [
+                { type: "email" },
+                { type: "robot", robotType: "dingding", webhook: "" }
+            ] 
+     **/
+    static async alarmNotice(cardId, cardName, calcName,calcNameKey, 
+        alarmRuleId,pageId,alarmMembers,calcDataCount,noticeWay) {
+        //更新卡片报警状态字段alarmStatus:0-不报警
+        let cardUpdate = {};
+        cardUpdate.id = cardId
+        cardUpdate.alarmStatus = 0
+        cardUpdate.updateTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+        await BuryPointCardModel.update(cardId, cardUpdate);
+        // 如果警报Id和警报通知人不存在
+        if (!alarmRuleId || alarmRuleId === '' || alarmRuleId === undefined) {
+            return
+        }
+        if (!alarmMembers || alarmMembers === '' || alarmMembers === undefined) {
+            return
+        }
+        //获取用户信息
+        const users = JSON.parse(alarmMembers)
+        if(!(users && users.length)) {
+            return
+        }
+
+        //通过卡片绑定的规则id获取规则信息，1非禁用的
+        const alarmData = await BuryPointAlarmModel.detailById(alarmRuleId,1);
+        if(!alarmData){//规则没找到，不处理
+            return
+        }
+        const { id,name,projectId,frequency,frequencyUnit,silentTime,urgency,rule,content } = alarmData
+        let silentFlag = 0;//非静默
+        if(!silentTime || silentTime === ''){//非静默，告警
+            silentFlag = 0;
+        }else{
+            const silentTimeArr = silentTime.split(",") //静默时间，数据：05:00-12:00,01:00-02:00,09:00-10:00
+            // 判断是否处于静默时间
+            const tempDate = new Date()
+            let hourMinuteStr = tempDate.Format("hh:mm")
+            for(let i = 0; i < silentTimeArr.length; i++) {
+                let silentTimeData = silentTimeArr[i].split("-");
+                let quietStartTime = silentTimeData[0];//静默开始时间
+                let quietEndTime = silentTimeData[1];//静默结束时间
+                if (hourMinuteStr >= quietStartTime && hourMinuteStr < quietEndTime) {
+                    silentFlag = 1//静默
+                    return
+                }
+            }
+        }
+        //条件组成：大于等于,连续次数,阈值,是否百分比
+        //thresholdType：%百分比 不传默认为 次数类型
+        const ruleArr = rule.split(",") //数据：greaterThanAndEqual,1,2
+        const compareType = ruleArr[0] //大于等于(greaterThanAndEqual)、小于等于(lessThanAndEqual)
+        let threshold = ruleArr[1] //:阈值，和卡片里面统计数据作比较 
+        const happenCount = parseInt(ruleArr[2],10) //连续发生次数
+        const thresholdType  = ruleArr[3]// count非百分比，percentage百分比
+        if (!global.eventInfo.alarmInfoList[cardId]) {
+            global.eventInfo.alarmInfoList[cardId] = {}
+        }
+        if (!global.eventInfo.alarmInfoList[cardId][calcNameKey]) {
+            global.eventInfo.alarmInfoList[cardId][calcNameKey] = 0
+        }
+        const lastValue = global.eventInfo.alarmInfoList[cardId][calcNameKey]
+        if (compareType === "greaterThanAndEqual" && parseFloat(calcDataCount) >= parseFloat(threshold)) {
+            global.eventInfo.alarmInfoList[cardId][calcNameKey] = lastValue + 1
+        } else if (compareType === "lessThanAndEqual" && parseFloat(calcDataCount) <= parseFloat(threshold)) {
+            global.eventInfo.alarmInfoList[cardId][calcNameKey] = lastValue + 1
+        }
+        //静默时间内的，不报警
+        if(silentFlag === 1){
+            return
+        }
+        // 到达发生次数，需要发出通知：全局变量：卡片id+计算数据唯一key
+        if (global.eventInfo.alarmInfoList[cardId][calcNameKey] >= happenCount) {
+            // log.printInfo(calcName + ":发出告警，阈值条件：" + JSON.stringify(rule) + ",数值：" + calcDataCount 
+        // + ",发送次数：" + global.eventInfo.alarmInfoList[cardId][calcNameKey])
+            //告警内容替换，加上概览访问地址:https://monitor.webfunny.cn/webfunny_event/dataView.html?dashboardType=3&pageKey=209&showAddCardBtn=1
+            let thresholdStr = "";
+            if (compareType === "greaterThanAndEqual") {
+                thresholdStr = ">="
+            } else if (compareType === "lessThanAndEqual") {
+                thresholdStr = "<="
+            }
+            if(thresholdType && thresholdType === 'percentage'){
+                thresholdStr = thresholdStr + threshold + '%';
+            }else{
+                thresholdStr = thresholdStr + threshold
+            }
+            let urgencyStr = "";//normal 一般，urgent 紧急，critical 严重
+            if(urgency === 'normal'){
+                urgencyStr = '一般';
+            }else if (urgency === 'critical'){
+                urgencyStr = '严重'
+            }else{
+                urgencyStr = "紧急"
+            }
+            let contentStr = content.replace(/{alarmName}/g,cardName)
+            .replace(/{calcData}/g,calcName)
+            .replace(/{urgency}/g,urgencyStr)
+            .replace(/{threshold}/g,thresholdStr)
+            .replace(/{happenCount}/g,happenCount)
+            contentStr = contentStr + "警报卡片：" + `http://${accountInfo.localAssetsDomain}` + "/webfunny_event/dataView.html?dashboardType=3&showAddCardBtn=1&pageKey=" + pageId
+            // 发出告警通知
+            AlarmUtil.alarmCallback(noticeWay, contentStr, users)
+
+            let alarmMessage = {};
+            alarmMessage.urgency = urgency
+            alarmMessage.projectId = projectId
+            alarmMessage.alarmId = id
+            alarmMessage.alarmName = name
+            alarmMessage.pageId = pageId
+            alarmMessage.message = contentStr
+            //通知人userId
+            let alarmMemberUserIds = "";
+            users.forEach((user) => {
+                // alarmMemberNames = alarmMemberNames + user.nickname + ","
+                alarmMemberUserIds = alarmMemberUserIds + user.userId + ","
+            })
+            alarmMessage.notifyUsers = alarmMemberUserIds.substring(0, alarmMemberUserIds.lastIndexOf(','))
+            //保存通知人姓名
+            await BuryPointAlarmMessageModel.create(alarmMessage);
+            //更新卡片报警状态字段alarmStatus:1-报警，0-不报警
+            let cardUpdate = {};
+            cardUpdate.id = cardId
+            cardUpdate.alarmStatus = 1
+            cardUpdate.updateTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            await BuryPointCardModel.update(cardId, cardUpdate);
+            // 发出通知后，计数清零
+            global.eventInfo.alarmInfoList[cardId][calcNameKey] = 0
+        }else{
+            //更新卡片报警状态字段alarmStatus:1-报警，0-不报警
+            let cardUpdate = {};
+            cardUpdate.id = cardId
+            cardUpdate.alarmStatus = 0
+            cardUpdate.updateTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            await BuryPointCardModel.update(cardId, cardUpdate);
+        }
+    }
+}
+
+class CommonUpLog {
+  static async checkStatus(ctx) {
+    const eventInfo = global.eventInfo
+    if (eventInfo.purchaseCodeValid !== true) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200("激活码失效了，请联系我们，微信号：webfunny2、webfunny_2020。", false)
+      return false
+    }
+    if (eventInfo.logServerStatus !== true) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200("服务已暂停", false)
+      return false
+    }
+  }
+
+  
+  /**
+     * tracker/initCf
+     * 漏斗初始化接口
+     * @param ctx proojectId
+     * @returns {Promise.<void>}
+     * [
+             {
+                 "cardId": "123",
+                 "stepList": ["1", "2", "3", "4", "5"]
+             },
+             {
+                 "cardId": "456",
+                 "stepList": ["1", "2", "3", "4", "5"]
+             }
+         ]
+     */
+      static async initFunnelConfig(ctx) {
+          let resList = [];
+          const params = ctx.request.body
+          const { projectId } = params;
+          //找到项目下所有页面，页面下漏斗的数据
+          resList = await SdkReleaseController.getCardAndPointList(projectId);
+          let ret = {};
+          ret.interval = 5;
+          ret.funnel = resList
+          ctx.response.status = 200;
+          ctx.body = statusCode.SUCCESS_200('success', ret);
+      }
+  
+        /**
+        * 上报接口
+        * @param ctx
+        * {"yong_hu_id":"123","ye_mian_biao_shi":"张三","user_id":"123213123","projectId":"event101","pointId":"3",
+        * "weCustomerKey":"a2469694-008c-44f9-8c5d-28f0e019a21d-20220618HH213976",
+        * "weUserId":"",
+        * "weFirstStepDay":"10-20220618,11-20220618,"}
+        * @returns 
+        *   [
+                {
+                    "cardId": "123",
+                    "stepList": ["1", "2", "3", "4", "5"]
+                },
+                {
+                    "cardId": "456",
+                    "stepList": ["1", "2", "3", "4", "5"]
+                }
+            ]
+        */
+        static async upEvent(ctx) {
+            // 进来一个日志，全局变量加1
+            global.eventInfo.logCountInMinute ++
+    
+            //激活码到期，停止上报
+            const eventInfo = global.eventInfo
+            if (eventInfo.purchaseCodeValid !== true) {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.INVALID_MSG1)}`, false)
+                return
+            }
+            let req = ctx.request.body.data
+            let params;
+            let clientIpString = ctx.req.headers['x-forwarded-for'] ||
+            ctx.req.connection.remoteAddress ||
+            ctx.req.socket.remoteAddress ||
+            ctx.req.connection.socket.remoteAddress;
+            // 有可能会有多个ip，需要进行拆分，如果：10.33.113.46, 60.12.11.49
+            const tempIpArr = clientIpString.replace(/\s+/g, "").split(",")
+            if (tempIpArr.length > 1) {
+                clientIpString = tempIpArr[tempIpArr.length - 1]
+            } else {
+                clientIpString = tempIpArr[0]
+            }
+            
+            if (req) {
+                params = Utils.logParseJson(req)
+            } else {
+                params = Utils.logParseJson(ctx.request.body)
+            }
+            params.weIp = clientIpString
+            params.weCountry = ""
+            params.weProvince = ""
+            params.weCity = ""
+            // 根据IP地址获取位置
+            try {
+                const res = await searcher.btreeSearchSync(clientIpString || "255.255.255.255")
+                if (res) {
+                    const { region } = res
+                    const locationArray = region.split("|")
+                    params.weCountry = locationArray[0] || "中国"
+                    params.weProvince = locationArray[2] || "未知"
+                    params.weCity = locationArray[3] || "未知"
+                }
+            } catch(e) {
+                log.printError(`IP定位失败${clientIpString}：`, e)
+            }
+            //上报
+            const { projectId, pointId } = params;
+            let errMessage = '';
+            //console.log("上报参数：" + JSON.stringify(ctx.request.body));
+            try {
+                //验证参数必传
+                // 这个位置决定是否放入到消息队列中
+                const { messageQueue } = accountInfo
+                if (messageQueue === true && global.eventInfo.purchaseCodeType !== 50) {
+                    //数据放到消息队列中
+                    const logInfoMsg = JSON.stringify(params)
+                    sendMq.sendQueueMsg("upload_log_event", logInfoMsg, (res) => {
+    
+                    }, (error) => {
+                        log.printError("消息队列推送报错: " , error)
+                    })
+                } else {
+                    //处理上报数据
+                    CommonUpLog.handleUpEventData(params);
+                } 
+            } catch(e) {
+                const logMsg = typeof errMessage == "object" ? JSON.stringify(errMessage) : errMessage
+                log.printError("上报接口报错")
+                log.printError(logMsg)
+                log.printError("堆栈 -- ", e)
+            }finally{
+                //找到项目下所有页面，页面下漏斗的数据
+                //调整从缓存取
+                let resList = await SdkReleaseController.getCardAndPointList(projectId);
+                let ret = {};
+                ret.interval = 5;
+                ret.funnel = resList
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPEVENT_SUCCESS)}`, ret)
+            }
+        }
+
+        /**
+     * 批量上报，接受数组
+     * [
+     * {"yong_hu_id":"123","ye_mian_biao_shi":"张三","user_id":"123213123","projectId":"event101","pointId":"3",
+        *    "weCustomerKey":"a2469694-008c-44f9-8c5d-28f0e019a21d-20220618HH213976",
+        *    "weUserId":"",
+        *    "weFirstStepDay":"10-20220618,11-20220618,"},
+        *  {"yong_hu_id":"123","ye_mian_biao_shi":"张三","user_id":"123213123","projectId":"event101","pointId":"3",
+        *   "weCustomerKey":"a2469694-008c-44f9-8c5d-28f0e019a21d-20220618HH213976",
+        *   "weUserId":"",
+        *   "weFirstStepDay":"10-20220618,11-20220618,"}
+        * ]
+        * @param {*} ctx 
+        */
+        static async upEvents(ctx) {
+            // 进来一个日志，全局变量加1
+            global.eventInfo.logCountInMinute ++
+            //激活码到期，停止上报
+            const eventInfo = global.eventInfo
+            if (eventInfo.purchaseCodeValid !== true) {
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.INVALID_MSG1)}`, false)
+                return
+            }
+            let req = ctx.request.body.data
+            let params;
+            let clientIpString = ctx.req.headers['x-forwarded-for'] ||
+            ctx.req.connection.remoteAddress ||
+            ctx.req.socket.remoteAddress ||
+            ctx.req.connection.socket.remoteAddress;
+            // 有可能会有多个ip，需要进行拆分，如果：10.33.113.46, 60.12.11.49
+            const tempIpArr = clientIpString.replace(/\s+/g, "").split(",")
+            if (tempIpArr.length > 1) {
+                clientIpString = tempIpArr[tempIpArr.length - 1]
+            } else {
+                clientIpString = tempIpArr[0]
+            }
+            
+            if (req) {
+                params = Utils.logParseJson(req)
+            } else {
+                params = Utils.logParseJson(ctx.request.body)
+            }
+            //数组
+            let weCountry = ""
+            let weProvince = ""
+            let weCity = ""
+            // 根据IP地址获取位置
+            try {
+                const res = await searcher.btreeSearchSync(clientIpString || "255.255.255.255")
+                if (res) {
+                    const { region } = res
+                    const locationArray = region.split("|")
+                    weCountry = locationArray[0] || "中国"
+                    weProvince = locationArray[2] || "未知"
+                    weCity = locationArray[3] || "未知"
+                }
+            } catch(e) {
+                log.printError(`IP定位失败${clientIpString}：`, e)
+            }
+            params.forEach((param) => {
+                param.weIp = clientIpString
+                param.weCountry = weCountry
+                param.weProvince = weProvince
+                param.weCity = weCity
+            })
+            //上报
+            let errMessage = '';
+            try {
+                //验证参数必传
+                // 这个位置决定是否放入到消息队列中
+                const { messageQueue } = accountInfo
+                if (messageQueue === true && global.eventInfo.purchaseCodeType !== 50) {
+                    //数据放到消息队列中
+                    params.forEach((param) => {
+                        const logInfoMsg = JSON.stringify(param)
+                        sendMq.sendQueueMsg("upload_log_event", logInfoMsg, (res) => {
+
+                        }, (error) => {
+                            log.printError("消息队列推送报错: " , error)
+                        })
+                    })
+                } else {
+                    //处理上报数据
+                    params.forEach((param) => {
+                        CommonUpLog.handleUpEventData(param);
+                    })
+                } 
+            } catch(e) {
+                const logMsg = typeof errMessage == "object" ? JSON.stringify(errMessage) : errMessage
+                log.printError("上报接口报错")
+                log.printError(logMsg)
+                log.printError("堆栈 -- ", e)
+            }finally{
+                //找到项目下所有页面，页面下漏斗的数据
+                // let resList = await SdkReleaseController.getCardAndPointList(projectId);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPEVENT_SUCCESS)}`, '')
+            }
+        }
+
+        /**
+         * 处理上报数据
+         * param:projectId 项目id
+         * param:pointId 点位id
+         */
+        static async handleUpEventData(params) {
+            const { projectId, pointId } = params;
+            if (!pointId) {
+                let failLogPoint = {}
+                failLogPoint.projectId = projectId
+                failLogPoint.message = "点位id(" + pointId + ")为空"
+                failLogPoint.params = JSON.stringify(params);
+                BuryPointFailLogModel.create(failLogPoint);
+                return
+            }
+            if (!projectId) {
+                let failLogPoint = {}
+                failLogPoint.pointId = pointId
+                failLogPoint.message = "项目id(" + projectId + ")为空"
+                failLogPoint.params = JSON.stringify(params);
+                BuryPointFailLogModel.create(failLogPoint);
+                return
+            }
+            for (const key in params) {
+                const element = params[key];
+                const parseElement = parseInt(element, 10)
+    
+                if (!Utils.checkFieldNameValid(key)) {
+                    continue
+                } else if (!isNaN(parseElement) && typeof parseElement === "number") {
+                    continue
+                }
+                try {
+                    let tempParamValue = Utils.b64DecodeUnicode(element);
+                    // 判断sql注入
+                    let flag = true
+                    for (let i = 0; i < DANGER_SQL_PARAMS.length; i ++) {
+                        let dangerItem = DANGER_SQL_PARAMS[i]
+                        if (tempParamValue.indexOf(dangerItem) !== -1) {
+                            //flag = false
+                            //break
+                        }
+                    }
+                    params[key] = flag === true ? tempParamValue : "拦截"
+                } catch(e) {
+                    log.printError(e)
+                    params[key] = element
+                }
+            }
+            //上报
+            //查询点位和字段信息，从缓存中取，没有就取数据库，然后放缓存
+            let weType;
+            let finalFieldList = [];
+            if(global.eventInfo.pointAndFields[pointId]){
+              weType = global.eventInfo.pointAndFields[pointId].weType
+              finalFieldList = global.eventInfo.pointAndFields[pointId].finalFieldList
+            }else{
+              const pointInfo = await BuryPointWarehouseModel.detail(pointId);
+              if(!pointInfo){
+                log.printError("点位id(" + pointId + ")" + "不存在!");
+
+                let failLogPoint = {}
+                failLogPoint.projectId = projectId
+                failLogPoint.pointId = pointId
+                failLogPoint.message = "点位id(" + pointId + ")" + "不存在!"
+                failLogPoint.params = JSON.stringify(params);
+                BuryPointFailLogModel.create(failLogPoint);
+
+                return;
+              }
+              weType = pointInfo.weType
+              let buryPointFields = await BuryPointFieldModel.getSomeListByProjectIdAndWeType(pointInfo.fields,'','')
+              if(weType && (weType ===2||weType === '2')){
+                  //获取项目字段
+                  finalFieldList = buryPointFields
+              }else{
+                  // 获取通用字段
+                  const weFieldList = await BuryPointFieldModel.getSomeListByProjectIdAndWeType('',projectId,1);
+                  finalFieldList = [...buryPointFields, ...weFieldList]
+              }
+              const pointAndFields = global.eventInfo.pointAndFields
+              let pointData = {}
+              pointData.finalFieldList = finalFieldList
+              pointData.pointId = pointId
+              pointData.weType = weType
+              pointAndFields[pointId] = pointData
+            }
+            let keys = "";
+            let value = "(";
+            let values = [];
+            let tableName = Utils.setTableName(projectId + "_" + pointId + "_", 0);
+            for (let j = 0; j < finalFieldList.length; j++) {
+                const field = finalFieldList[j];
+                const { fieldName, fieldAlias,fieldType, fieldLength, weType } = field
+                //非通用字段必传
+                if (weType === 0 && (params[fieldName] === undefined)) {
+                    log.printError(fieldAlias + "(" + fieldName + ")" + "字段必传!")
+                    
+                    let failLogPoint = {}
+                    failLogPoint.projectId = projectId
+                    failLogPoint.pointId = pointId
+                    failLogPoint.message = fieldAlias + "(" + fieldName + ")" + "字段必传!"
+                    failLogPoint.params = JSON.stringify(params);
+                    BuryPointFailLogModel.create(failLogPoint);  
+                } else if(weType === 0 && ((params[fieldName]+"").length > fieldLength)) {
+                    //TODO 长度校验
+                    log.printError(fieldAlias + "(" + fieldName + ")" + "超过字段长度" + fieldLength + "!")
+                        
+                    let failLogPoint = {}
+                    failLogPoint.projectId = projectId
+                    failLogPoint.pointId = pointId
+                    failLogPoint.message = fieldAlias + "(" + fieldName + ")" + "超过字段长度" + fieldLength + "!"
+                    failLogPoint.params = JSON.stringify(params);
+                    BuryPointFailLogModel.create(failLogPoint);
+                }
+                
+                //兼容自定义上报
+                if (params[fieldName] === undefined) {
+                    if (fieldType === 'VARCHAR') {
+                        keys = keys + fieldName + ",";
+                        value = value + "'',";
+                    }else {
+                        keys = keys + fieldName + ",";
+                        value = value + "0,";
+                    }
+                }else {
+                    keys = keys + fieldName + ",";
+                    value = value + "'" + params[fieldName] + "',";
+                }
+            }
+            //备用点位（老点位）处理逻辑
+            if(weType && (weType ===2||weType === '2')){
+                 //通用字段上报
+                if (params["weCustomerKey"]) {
+                    keys = keys + "weCustomerKey" + ",";
+                    value = value + "'" + params["weCustomerKey"] + "',";
+                }
+                if (params["weUserId"]) {
+                    keys = keys + "weUserId" + ",";
+                    value = value + "'" + params["weUserId"] + "',";
+                }
+            }
+            //漏斗新加字段解析：
+            //"weFirstStepDay":"10-20220618,11-20220618,"
+            //10-20220618：10表示cardId，20220618表示第一次访问时间
+            if (params["weFirstStepDay"]) {
+                //放到map存("10","20220618")
+                let weFirstStepDayList = [];
+                let weFirstStepDayArr = params["weFirstStepDay"].split(",");
+                for (let i = 0; i < weFirstStepDayArr.length - 1; i++) {
+                    let weFirstStepDayInfo = {}
+                    weFirstStepDayInfo.cardId = parseInt(weFirstStepDayArr[i].split("-")[0], 10);
+                    weFirstStepDayInfo.date = weFirstStepDayArr[i].split("-")[1];
+                    weFirstStepDayList.push(weFirstStepDayInfo);
+                }
+                //获取点位关系表
+                let cardIndexRes = await BuryPointRelationModel.getListByPointIdAndCardId(pointId, "");
+                for (let i = 0; i < weFirstStepDayList.length; i++) {
+                    for (let j = 0; j < cardIndexRes.length; j++) {
+                        if (cardIndexRes[j].cardId === weFirstStepDayList[i].cardId) {
+                            keys = keys + "weFirstStepDay_" + cardIndexRes[j].stepColum + ",";
+                            value = value + "'" + weFirstStepDayList[i].date + "',";
+                            break;
+                        }
+                    }
+                }
+            }
+            keys = keys + "createdAt";
+            value = value + "'" + new Date().Format("yyyy-MM-dd hh:mm:ss") + "')";
+            // console.log("keys:" + keys);
+            values.push(value);
+            // console.log("values:" + JSON.stringify(values));
+            // SdkReleaseModel.saveValues(tableName, keys, values);
+            params.tableName = tableName
+            params.keys = keys
+            params.values = values
+            params.happenTime = new Date().Format("yyyy-MM-dd hh:mm:ss")
+            //批量上报
+            CommonUpLog.selectLogInfoIntoQueue(params, '', "")
+        }
+  
+  
+     /**
+     * 处理日志，判断是否要放入到队列中
+     * @param pointId 日志类型 如：点位ID
+     * @param logInfo 日志对象
+     * @param insertFunForOne 单个插入的方法名
+     * @param insertFunForMulti 批量插入的方法名
+     */
+     static async selectLogInfoIntoQueue(logInfo, insertFunForOne, insertFunForMulti) {
+      const { batchInsert } = accountInfo
+      const { limitQueueLength } = batchInsert
+      if (!global.eventInfo.lastRecordTime) {
+        global.eventInfo.lastRecordTime = new Date().getTime()
+      }
+      const projectId = logInfo.projectId
+      const pointId = logInfo.pointId
+      const logInfoQueue = global.eventInfo.logInfoQueue
+      // 如果不是今天的日志，就直接丢弃，
+      let happenDateStr = logInfo.happenTime.substring(0, 10)
+      let currentDateStr = new Date().Format("yyyy-MM-dd")
+      if (happenDateStr !== currentDateStr) {
+        // await tempModel[insertFunForOne](logInfo);
+        return
+      }
+      // 日志进队列操作
+      if (!logInfoQueue[projectId]) {
+        logInfoQueue[projectId] = {}
+      }
+  
+      if (!logInfoQueue[projectId][pointId]) {
+        logInfoQueue[projectId][pointId] = []
+      }
+      // 如果队列数量小于上限，并且还没到时间上限，就添加到数组中，否则就立即上报
+      if (logInfoQueue[projectId][pointId].length < limitQueueLength) {
+        let tableName = logInfo.tableName
+        let keys =  logInfo.keys
+        let values = logInfo.values
+        let logData = {}
+        logData.tableName = tableName
+        logData.keys = keys
+        logData.values = values
+        logInfoQueue[projectId][pointId].push(logData)
+      } else {
+        // let currentInfoArray = logInfoQueue[projectId][pointId]
+        let tableName = logInfo.tableName
+        let keys =  logInfo.keys
+        let values = logInfo.values
+        SdkReleaseModel.saveValues(tableName, keys, values);
+        global.eventInfo.lastRecordTime = new Date().getTime()
+        logInfoQueue[projectId][pointId] = []
+      }
+    }
+  
+    /**
+     * 每隔10s中会调用此方法
+     * 开始消费内存中的日志信息
+     */
+    static async handleLogInfoQueue() {
+      const logInfoQueue = global.eventInfo.logInfoQueue
+      for (let projectId in logInfoQueue) {
+        let tempLogInfo = logInfoQueue[projectId]
+        for (let pointId in tempLogInfo) {
+          if (tempLogInfo[pointId]) {
+            let logInfoValues = []
+            let logInfoTableName = "";
+            let logInfoKeys = "";
+            for (let logData in tempLogInfo[pointId]) {
+              if (logData) {
+                const {tableName, keys, values } =  tempLogInfo[pointId][logData]
+                logInfoTableName = tableName
+                logInfoKeys = keys
+                logInfoValues.push(values)
+              }
+            }
+            if(logInfoTableName && logInfoKeys && logInfoValues.length > 0){
+              SdkReleaseModel.saveValues(logInfoTableName, logInfoKeys, logInfoValues)
+            }
+          }
+        }
+        logInfoQueue[projectId] = []
+      }
+    }
+
+}
+
+class BuryPointCardStatisticsController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname} = ctx.user
+        req.createBy = nickname
+        if (req.pageId && req.cardId && req.cardName && req.count) {
+            let ret = await BuryPointCardStatisticsModel.create(req);
+            // let data = await BuryPointCardStatisticsModel.detail(ret.id);
+            // ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL)}`)
+        }
+    }
+
+    
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        // TODO,删除前，先检查所有点位仓库是否有该字段
+        const res = await BuryPointCardStatisticsModel.getListByFieldId(id);
+        if(res[0].count > 0){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.STATISTIC_DELETE_FAIL)}`)
+        }else {
+            await BuryPointFieldModel.delete(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', "")
+        }
+    }
+
+    static async getAllList(ctx) {
+        const res = await BuryPointCardStatisticsModel.getAllList()
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+}
+
+class BuryPointTaskController {
+
+    /**
+     * @swagger
+     * /buryPointTask/create:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 创建任务
+     *     parameters:
+     *       - name: taskName
+     *         description: 任务名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskDes
+     *         description: 任务描述
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: handleManId
+     *         description: 处理人userId
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: handleManName
+     *         description: 处理人名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskPoint
+     *         description: 点位信息列表([{"pointId":3,"taskPointDes":"22222"},{"pointId":6,"taskPointDes":"22222"}])
+     *         in: formData
+     *         required: true
+     *         type: array
+     *       - name: taskStatus
+     *         description: 任务状态
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        let { taskName, taskDes = "", projectId, handleManId,handleManName,taskStatus, taskPoint } = JSON.parse(ctx.request.body);
+        const {userId,nickname} = ctx.user
+        // const userId = "dd1685b0-d530-11ec-9bd6-3d0b63aef8ce"
+        // const nickname = "超级管理员"
+        const data = {
+            taskName, taskDes, projectId, handleManId, handleManName, taskStatus,
+            createManId: userId,
+            createManName: nickname,
+            taskPoint: JSON.stringify(taskPoint),
+        }
+        if (taskName && projectId && handleManId) {
+            // if(taskPoint && taskStatus !== '10'){
+            //     let currDate = new Date().Format("yyyyMMddhhmmss");
+            //     let releaseName = taskName + currDate
+            //     let pointIds = []
+            //     for(let i=0;i<taskPoint.length;i++){
+            //         pointIds.push(taskPoint[i].pointId)
+            //     }
+            //     data.sdkId = await SdkReleaseController.createNewSdk(projectId,releaseName,pointIds,nickname)
+            // }
+            let res = await BuryPointTaskModel.create(data)
+            
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, res)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointTask/delete:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 单个删除任务
+     *     parameters:
+     *       - name: taskId
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        let {taskId} = JSON.parse(ctx.request.body);
+        await BuryPointTaskModel.delete(taskId)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+    /**
+     * @swagger
+     * /buryPointTask/batchDeletion:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 批量删除任务
+     *     parameters:
+     *       - name: taskIds
+     *         description: 任务ID列表，如："id1,id2,id3,id4,id5"
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses:
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async batchDeletion(ctx) {
+        let { taskIds } = JSON.parse(ctx.request.body);
+        if(taskIds){
+            await BuryPointTaskModel.batchDeletion(taskIds)
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0)
+    }
+    
+    /**
+     * @swagger
+     * /buryPointTask/update:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 更新任务(存草稿、保存、发布任务)
+     *     parameters:
+     *       - name: taskId
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskName
+     *         description: 任务名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskDes
+     *         description: 任务描述
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: handleManId
+     *         description: 处理人userId
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: handleManName
+     *         description: 处理人名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskPoint
+     *         description: 点位信息列表([{"pointId":3,"taskPointDes":"22222"},{"pointId":6,"taskPointDes":"22222"}])
+     *         in: formData
+     *         required: true
+     *         type: array
+     *       - name: taskStatus
+     *         description: 任务状态
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname} = ctx.user
+        if (req.taskId && req.taskName && req.projectId && 
+            req.taskPoint && req.handleManId && req.handleManName) {
+            req.taskPoint = JSON.stringify(req.taskPoint)
+            // if(req.taskPoint && req.taskStatus !== '10'){
+            //     let currDate = new Date().Format("yyyyMMddhhmmss");
+            //     let releaseName = req.taskName + currDate
+            //     let pointIds = []
+            //     for(let i=0;i<req.taskPoint.length;i++){
+            //         pointIds.push(req.taskPoint[i].pointId)
+            //     }
+            //     req.sdkId = await SdkReleaseController.createNewSdk(req.projectId,releaseName,pointIds,nickname)
+            // }
+            let res = await BuryPointTaskModel.update(req)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, res)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointTask/list:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 获取任务列表
+     *     parameters:
+     *       - name: taskType
+     *         description: 任务类型 1：所有任务，2：我的任务，3：草稿箱
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: myTaskType
+     *         description: 我的任务类型 1：所有和我相关的任务，2：我创建的，3：我处理的
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: taskName
+     *         description: 任务名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: taskStatus
+     *         description: 任务状态 10：草稿， 20：未完成（发布后）30：已完成（发布后）40：已结束
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: handleManId
+     *         description: 处理人userId
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: createManId
+     *         description: 创建人userId
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 页数(从1开始)
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 每页显示数量
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: dateOrderby
+     *         description: 按时间排序(降序desc,升序asc 默认降序)
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async list(ctx) {
+        const params = JSON.parse(ctx.request.body)
+        const res = await BuryPointTaskModel.list(params)
+        const { list, total } = res
+        for (let i = 0; i < list.length; i++) {
+            const task = list[i]
+            const { projectId, taskPoint} = task
+            let projectInfo = await BuryPointProjectModel.getProjectByProjectId(projectId)
+            const { name } = projectInfo[0]
+            task.projectName = name;
+            let points = [];
+            if(taskPoint){
+                let taskPointArry = JSON.parse(taskPoint);
+                //[{"pointId":3,"taskPointDes":"22222"},{"pointId":6,"taskPointDes":"22222"}]
+                for (let j = 0; j < taskPointArry.length; j++) {
+                    let pointId = taskPointArry[j].pointId;
+                    let buryPointWarehouse = await BuryPointWarehouseModel.detail(pointId)
+                    const point = {}
+                    point.pointName = buryPointWarehouse.pointName
+                    point.pointId = pointId
+                    point.taskPointDes = taskPointArry[j].taskPointDes
+                    // let buryPointFieldList = await BuryPointFieldModel.getListByFieldIdsAndWeType(buryPointWarehouse.fields,0)
+                    // point.fieldList = buryPointFieldList
+                    points.push(point)
+                }
+            }
+            task.points = points
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', { list, total })
+    }
+
+    /**
+     * @swagger
+     * /buryPointTask/detail:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 任务详情
+     *     parameters:
+     *       - name: taskId
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx) {
+        let {taskId} = JSON.parse(ctx.request.body);
+        const res = await BuryPointTaskModel.detail(taskId)
+        const task = res.length ? res[0] : null
+        const { projectId, taskPoint} = task
+        let projectInfo = await BuryPointProjectModel.getProjectByProjectId(projectId)
+        const { name } = projectInfo[0]
+        task.projectName = name;
+        let points = [];
+        if(taskPoint){
+            let taskPointArry = JSON.parse(taskPoint);
+            //[{"pointId":3,"taskPointDes":"22222"},{"pointId":6,"taskPointDes":"22222"}]
+            for (let j = 0; j < taskPointArry.length; j++) {
+                let pointId = taskPointArry[j].pointId;
+                let buryPointWarehouse = await BuryPointWarehouseModel.detail(pointId)
+                const point = {}
+                point.pointName = buryPointWarehouse.pointName
+                point.pointId = pointId
+                point.taskPointDes = taskPointArry[j].taskPointDes
+                let buryPointFieldList = await BuryPointFieldModel.getListByFieldIdsAndWeType(buryPointWarehouse.fields,0)
+                point.fieldList = buryPointFieldList
+                points.push(point)
+            }
+        }
+        task.points = points
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', task)
+    }
+
+    /**
+     * @swagger
+     * /buryPointTask/updateStatus:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 更新任务状态（完成埋点，结束任务）
+     *     parameters:
+     *       - name: taskId
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: taskStatus
+     *         description: 任务状态  30：已完成、40：已结束
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async updateStatus(ctx) {
+        let {taskId, taskStatus} = JSON.parse(ctx.request.body);
+        const res = await BuryPointTaskModel.updateStatus(taskId, taskStatus)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * @swagger
+     * /buryPointTask/changeHandleMan:
+     *   post:
+     *     tags:
+     *       - 任务管理
+     *     summary: 更改处理人
+     *     parameters:
+     *       - name: taskId
+     *         description: 任务ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: handleManId
+     *         description: 处理人的userId
+     *         in: formData
+     *         required: true
+     *         type: string 
+     *       - name: handleManName
+     *         description: 处理人的名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async changeHandleMan(ctx) {
+        let {taskId, handleManId, handleManName} = JSON.parse(ctx.request.body);
+        const res = await BuryPointTaskModel.changeHandleMan(taskId, handleManId,handleManName)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+}
+
+class BuryPointCardController {
+
+    /**
+     * 判断卡片余额是否充足
+     * @returns 
+     */
+    static async judgeCardCount(cardCount){
+        const retCardCount = await BuryPointCardModel.getCountByNoSysType("");
+        let totalCount = isNaN(retCardCount[0].count) ? 0 : retCardCount[0].count;
+        const purchaseCodeCardCount = global.eventInfo.purchaseCodeCardCount || 10
+        if ((parseInt(purchaseCodeCardCount, 10) - parseInt(totalCount, 10)) < parseInt(cardCount, 10)) {
+            return 1;
+        }
+        return 0;
+    }
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user
+        req.createBy = nickname
+        if(!req.pageId || req.pageId === '' || req.pageId === undefined){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_CREATE_NO_CHOICE_PAGE)}`)
+            return
+        }
+        if (req.name && req.type && req.pageId && req.calcRule) {
+            let pointAndStepNameList = [];
+            //判断卡片余额
+            let flag = await BuryPointCardController.judgeCardCount(1);
+            if(flag === 1){
+                ctx.response.status = 414;
+                ctx.body = statusCode.ERROR_CARD_BALANCE_414("卡片余额不足")
+                return
+            }
+            const res = await BuryPointCardModel.checkName(req.name, req.pageId);
+            let count = res[0].count
+            if (count > 0) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_CARD_NAME_EXIST)}`)
+                return
+            }
+            const resMaxSort = await BuryPointCardModel.getCountPageId(req.pageId);
+            let maxSort = isNaN(resMaxSort[0].maxSort) ? 0 : resMaxSort[0].maxSort;
+            req.sort = parseInt(maxSort,10) + 1;
+            let calcRule = req.calcRule;
+            let newCalcRule = []
+            //多折线图或者堆叠图或者地图是归类的话，只能有一个
+            if (req.groupByFlag === 1 && (req.type === 2 || req.type === 4 || req.type === 7)
+              && calcRule.length > 1) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_CREATE_GROUP_FAIL)}`)
+                return
+            }
+            //数值图的话话，最多只能有四个
+            if (req.type === 6 && calcRule.length > 4) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_CREATE_NUMBER_FAIL)}`)
+                return
+            }
+            let groupByCount = 0;
+            for (let i = 0; i < calcRule.length; i++) {
+                const { calcName } = calcRule[i];
+                let calcData = calcRule[i];
+                //calcName为统计表calcField
+                //calcNameKey为统计表calcFieldKey
+                let calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                calcData.calcNameKey = calcNameKey;
+                if (req.type === 5) {
+                    //漏斗图，默认计数字段是weCustomerKey或者weUserId，去重
+                    // calcData.prePoint.calcField.fieldName = 'weCustomerKey';
+                    if(!calcData.prePoint.calcField.fieldName){
+                        calcData.prePoint.calcField.fieldName = 'weCustomerKey';
+                    }
+                    pointAndStepNameList.push(calcData.prePoint.pointId);
+                }
+                if(calcData.prePoint.calcField.isRepeat === '4' || calcData.prePoint.calcField.isRepeat === '5'){
+                    groupByCount = groupByCount + 1;
+                }
+                newCalcRule.push(calcData);
+            }
+            if (calcRule.length > 1 && groupByCount >=1) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_CREATE_GROUP_FAIL)}`)
+                return
+            }
+            if (calcRule.length === 1 && groupByCount === 1) {
+                req.groupByFlag = 1
+            }
+            req.calcRule = JSON.stringify(newCalcRule);
+            req.updatedAt = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            req.alarmMembers = JSON.stringify(req.alarmMembers);
+            req.noticeWay = JSON.stringify(req.noticeWay);
+            let ret = await BuryPointCardModel.create(req);
+            if (ret) {
+                if (req.type === 5) {
+                    BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, ret.id);
+                }
+                //统计配置文件里面存储的天数
+                let countDay = parseInt(accountInfo.saveDays, 10)
+                if (countDay > 10) {
+                    countDay = 10
+                }
+                for (let day = 0; day < countDay; day++) {
+                    if(req.type && req.type === 5){
+                        //漏斗图计算
+                        TimerStatisticController.calculateFunnelDataByCard(ret, (-1) * day,1);
+                    } else {
+                        //非漏斗图计算
+                        if(req.groupByFlag && req.groupByFlag === 1){
+                            TimerStatisticController.calculateNoFunnelGroupByDataByCard(ret, (-1) * day,1);
+                        }else {
+                            TimerStatisticController.calculateNoFunnelDataByCard(ret, (-1) * day,1);
+                        }
+                    }
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * 单个卡片移动到其他分组
+     * {
+         "id":1, //卡片id
+         "pageId":1, //"看板ID"
+         "projectId":1 //"项目ID"
+        }
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async moveCard(ctx) {
+        let req = JSON.parse(ctx.request.body);  
+        const {id,pageId,projectId}  = req
+        const { nickname } = ctx.user
+        if (id && pageId && projectId) {
+            const resMaxSort = await BuryPointCardModel.getCountPageId(req.pageId);
+            let maxSort = isNaN(resMaxSort[0].maxSort) ? 0 : resMaxSort[0].maxSort;
+             //分析统计表改变pageId
+             let cardUpdate ={}
+             cardUpdate.pageId = pageId
+             cardUpdate.updateBy = nickname
+             cardUpdate.sort = parseInt(maxSort,10) + 1;
+            await BuryPointCardModel.update(id, cardUpdate);
+            //分析统计表改变pageId
+            let statisticUpdate ={}
+            statisticUpdate.pageId = pageId
+            statisticUpdate.updateBy = nickname
+            await BuryPointCardStatisticsModel.updateByCard(id, statisticUpdate);
+            //统计分析表
+            let tableNameGroubBy = "BuryPointCardStatistics_" + projectId;
+            await BuryPointCardStatisticsModel.updateStatisticByCard(tableNameGroubBy,id, pageId);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {               
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+     /**
+     * 复制卡片
+     * 同一个项目下的
+     * 选择分组-->选择看板
+     * {
+     *   "cardId":2,//要复制的卡片id
+     *   "cardName":"卡片名称",
+     *   "pageId":1 //看板id
+     * }
+     */
+    /**
+     * @swagger
+     * /buryPointCard/card/copy:
+     *   post:
+     *     tags:
+     *       - 项目管理
+     *     summary: 复制卡片
+     *     parameters:
+     *       - name: cardId
+     *         description: 要复制的卡片id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: cardName
+     *         description: 卡片名称
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: pageId
+     *         description: 看板id
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+     static async copyCard(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user
+        req.createBy = nickname
+        if (req.cardId && req.cardName && req.pageId) {
+            //判断卡片余额
+            let flag = await BuryPointCardController.judgeCardCount(1);
+            if(flag === 1){
+                const purchaseCodeCardCount = global.eventInfo.purchaseCodeCardCount || 10
+                ctx.response.status = 414;
+                ctx.body = statusCode.ERROR_CARD_BALANCE_414("卡片余额不足")
+                return
+            }
+            const res = await BuryPointCardModel.checkName(req.cardName, req.pageId);
+            let count = res[0].count
+            if (count > 0) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_CARD_NAME_EXIST)}`)
+                return
+            }
+            let cardInfo = await BuryPointCardModel.detail(req.cardId);
+            const resMaxSort = await BuryPointCardModel.getCountPageId(req.pageId);
+            let maxSort = isNaN(resMaxSort[0].maxSort) ? 0 : resMaxSort[0].maxSort;
+            req.sort = parseInt(maxSort,10) + 1;
+            req.type = cardInfo.type;
+            req.name = req.cardName;
+            req.calcRule = cardInfo.calcRule;
+            req.conversionCycle = cardInfo.conversionCycle;
+            req.groupByFlag = cardInfo.groupByFlag;
+            req.chartTableShow = cardInfo.chartTableShow;
+            req.togetherList = cardInfo.togetherList;
+            req.refreshFrequency = cardInfo.refreshFrequency;
+            req.alarmMembers = cardInfo.alarmMembers;
+            req.noticeWay = cardInfo.noticeWay;
+            req.updatedAt = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            let ret = await BuryPointCardModel.create(req);
+            let calcRule = JSON.parse(cardInfo.calcRule)
+            if (ret) {
+                if (req.type === 5) {
+                    let pointAndStepNameList = []
+                    for (let i = 0; i < calcRule.length; i++) {
+                        pointAndStepNameList.push(calcRule[i].prePoint.pointId);
+                    }
+                    BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, ret.id);
+                }
+                //统计配置文件里面存储的天数
+                let countDay = parseInt(accountInfo.saveDays, 10)
+                if (countDay > 10) {
+                    countDay = 10
+                }
+                for (let day = 0; day < countDay; day++) {
+                    if(req.type && req.type === 5){
+                        //漏斗图计算
+                        TimerStatisticController.calculateFunnelDataByCard(ret, (-1) * day, 1);
+                    } else {
+                        //非漏斗图计算
+                        if(req.groupByFlag && req.groupByFlag === 1){
+                            TimerStatisticController.calculateNoFunnelGroupByDataByCard(ret, (-1) * day, 1);
+                        }else {
+                            TimerStatisticController.calculateNoFunnelDataByCard(ret, (-1) * day, 1);
+                        }
+                    }
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        await BuryPointCardController.deleteById(id);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    /**
+     * 批量删除卡片
+     * ids:"1,2,3"
+     * @param {*} ctx 
+     */
+    static async deleteBatch(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { ids } = param
+        if(ids){
+            let cardIdArray = ids.split(",")
+            for (let i = 0;i<cardIdArray.length; i++){
+                await BuryPointCardController.deleteById(cardIdArray[i]);
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    /**
+     * 根据id删除卡片
+     * @param {*} id 
+     */
+    static async deleteById(id){
+        let res = await BuryPointCardModel.detail(id);
+        if (res) {
+            //根据cardId，删除该页面所有点位关联关系
+            BuryPointRelationModel.deleteByCardId(id);
+            //删除所有统计数据
+            BuryPointCardStatisticsModel.deleteByCardId(id,'');
+            //TODO 删除BuryPointCardStatistics_项目id
+
+            // 删除卡片
+            await BuryPointCardModel.delete(id);
+
+            //根据pageId，获取该页面所有卡片
+            const resCards = await BuryPointCardModel.getListByPageIdAndSort(res.pageId, id);
+            for (let i = 0; i < resCards.length; i++) {
+                resCards[i].sort = i + 1;
+                //更新卡片顺序
+                BuryPointCardModel.update(resCards[i].id, resCards[i]);
+            }
+        }
+    }
+
+    static async detail(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        let res = await BuryPointCardModel.detail(id)
+        let cardDetail = {};
+        cardDetail.id = res.id;
+        cardDetail.pageId = res.pageId;
+        cardDetail.type = res.type;
+        cardDetail.name = res.name;
+        cardDetail.calcRule = res.calcRule;
+        cardDetail.sort = res.sort;
+        cardDetail.conversionCycle = res.conversionCycle;//窗口期，默认1天
+        cardDetail.groupByFlag = res.groupByFlag;//是否归类图形，1-是，0-否
+        cardDetail.chartTableShow = res.chartTableShow;//图表展示：chart-图\table-表格\trend-趋势（漏斗）
+        cardDetail.togetherList = res.togetherList;//合计-total、均值-average、同比-yoyRatio、环比-ringRatio
+        cardDetail.refreshFrequency = res.refreshFrequency;//调用刷新接口频率，5s，10s，20s等
+        cardDetail.alarmStatus = res.alarmStatus;//告警状态
+        cardDetail.noticeWay = res.noticeWay;//告警方式
+        cardDetail.alarmMembers = res.alarmMembers;//告警通知人
+        if(res.type === 5){//漏斗图，返回计数ID
+            let calculateId = "weCustomerKey"
+            const calcRuleArr = JSON.parse(res.calcRule)
+            calculateId = calcRuleArr[0].prePoint.calcField.fieldName
+            cardDetail.calculateId = calculateId
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', cardDetail)
+    }
+
+    /**
+     * 更新
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const {nickname} = ctx.user
+        req.updateBy = nickname
+        if(!req.pageId || req.pageId === '' || req.pageId === undefined){
+            let res = await BuryPointCardModel.detail(id);
+            req.pageId = res.pageId
+        }
+        if (req) {
+            //首先要更新的分析规则和数据库的作比较
+            let cardDetail = await BuryPointCardModel.detail(id);
+            let calcRule = req.calcRule;
+            let alarmMembers = req.alarmMembers;
+            let noticeWay = req.noticeWay;
+            req.alarmMembers = JSON.stringify(alarmMembers);
+            req.noticeWay = JSON.stringify(noticeWay);
+            //a、给的json数据和存的数据一样，不更新，也不删除关系，什么也不用做，直接return
+            //去掉alarmId在比较
+            if(Utils.equalsObj(JSON.stringify(calcRule),cardDetail.calcRule)){
+                req.calcRule = JSON.stringify(calcRule)
+                await BuryPointCardModel.update(id, req);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, req);
+                return
+            }else{
+            //b、给的json数据和存的数据不一样：
+                let pointIdsUpdate = [];
+                let pointIdsExiste = [];
+                let pointAndStepNameList = [];
+                let pointsUpdate = [];
+                let pointsExiste = [];
+                let pointsUpdateList = [];
+                let pointsExisteList = [];
+                let deleteCalcNameKeyList = [];
+                for (let i = 0; i < calcRule.length; i++) {
+                    pointIdsUpdate.push(calcRule[i].prePoint.pointId);
+                    if (req.type === 5) {
+                        pointAndStepNameList.push(calcRule[i].prePoint.pointId);
+                    }
+                    if(calcRule[i].calcNameKey){
+                        let pointUpdate = {};
+                        pointUpdate.calcNameKey = calcRule[i].calcNameKey
+                        pointUpdate.calcLength = JSON.stringify(calcRule[i].prePoint).length + (calcRule[i].endPoint?JSON.stringify(calcRule[i].endPoint).length:0)
+                        pointsUpdate.push(pointUpdate);
+                        pointsUpdateList.push(calcRule[i].calcNameKey)
+                    }
+                }
+                let calcRuleExiste = JSON.parse(cardDetail.calcRule)
+                for (let i = 0; i < calcRuleExiste.length; i++) {
+                    pointIdsExiste.push(calcRuleExiste[i].prePoint.pointId);
+                    let pointExiste = {};
+                    pointExiste.calcNameKey = calcRuleExiste[i].calcNameKey
+                    pointExiste.calcLength = JSON.stringify(calcRuleExiste[i].prePoint).length + (calcRuleExiste[i].endPoint?JSON.stringify(calcRuleExiste[i].endPoint).length:0)
+                    pointsExiste.push(pointExiste);
+                    pointsExisteList.push(calcRuleExiste[i].calcNameKey)
+                }
+                //去掉重复pointId
+                let pointIdsUpdateSetArr = [...new Set(pointIdsUpdate)];
+                let pointIdsExisteSetArr = [...new Set(pointIdsExiste)];
+                if (req.type === 5 && !Utils.equalsObj(pointIdsUpdateSetArr,pointIdsExisteSetArr)) {
+                    //1>点位id和顺序是一样的，查询条件不一样，保存json，但是不删除关系，清除数据（所有分析数据）
+                    //2>其他都要删除关系，清除数据（所有分析数据）
+                    //根据cardId，删除该页面所有点位关联关系，然后重新生成
+                    await BuryPointRelationModel.deleteByCardId(id);
+                    await BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, id);
+                }
+                //要不要删除所有统计数据,如果计算规则数据(prePoint和endPoint)有变化,目前是比较长度，长度一样就不删除
+                deleteCalcNameKeyList = Utils.getArrDifference(pointsUpdateList,pointsExisteList);//1、找到不一样的key
+                for(let i = 0; i < pointsExiste.length; i++){
+                    for(let j = 0; j < pointsUpdate.length; j++){
+                        if(pointsUpdate[j].calcNameKey === pointsExiste[i].calcNameKey){
+                            if(pointsUpdate[j].calcLength !== pointsExiste[i].calcLength){//2、长度不一样
+                                deleteCalcNameKeyList.push(pointsExiste[i].calcNameKey);  
+                            }
+                        }else{
+                            continue
+                        }
+                    }
+                }
+                if(deleteCalcNameKeyList.length>0){
+                    await BuryPointCardStatisticsModel.deleteByCardId(id,deleteCalcNameKeyList); 
+                }
+            }
+            let newCalcRule = []
+            let groupByCount = 0;
+            for (let i = 0; i < calcRule.length; i++) {
+                const { calcName, calcNameKey } = calcRule[i];
+                let calcData = calcRule[i];
+                //如果有两个一样的calcNameKey，就重命名一个calcNameKey
+                //calcName为统计表calcField
+                //calcNameKey为统计表calcFieldKey
+                if (!calcNameKey || calcNameKey === '' || calcNameKey === undefined || calcNameKey === 'undefined') {
+                    let calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                    calcData.calcNameKey = calcNameKey;
+                }
+                if(calcData.prePoint.calcField.isRepeat === '4' || calcData.prePoint.calcField.isRepeat === '5'){
+                    groupByCount = groupByCount + 1;
+                }
+                newCalcRule.push(calcData);
+            }
+            if (calcRule.length > 1 && groupByCount >= 1) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_UPDATE_GROUP_FAIL)}`)
+                return
+            }
+            //数值图的话，最多只能有四个
+            if (req.type === 6 && calcRule.length > 4) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CARD_UPDATE_NUMBER_FAIL)}`)
+                return
+            }
+            if (calcRule.length === 1 && groupByCount === 1) {
+                req.groupByFlag = 1
+            }
+            req.calcRule = JSON.stringify(newCalcRule);
+            await BuryPointCardModel.update(id, req);
+            //统计配置文件里面存储的天数，只会统计分析前十天的日志
+            let countDay = parseInt(accountInfo.saveDays, 10)
+            if (countDay > 10) {
+                countDay = 10
+            }
+            for (let day = 0; day < countDay; day++) {
+                if(req.type && req.type === 5){
+                    //漏斗图计算
+                    await TimerStatisticController.calculateFunnelDataByCard(req, (-1) * day, 1);
+                } else {
+                    //非漏斗图计算
+                    if(req.groupByFlag && req.groupByFlag === 1){
+                        TimerStatisticController.calculateNoFunnelGroupByDataByCard(req, (-1) * day, 1);
+                    }else {
+                        TimerStatisticController.calculateNoFunnelDataByCard(req, (-1) * day, 1);
+                    }
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, req);
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * 保存漏斗点位关系表
+     * TODO: 
+     * 1、更新卡片，给的json数据和存的数据一样，不更新，也不删除关系
+     * @param {卡片类型} type 
+     * @param {*} pointAndStepNameList 
+     */
+    static async saveFunnelPointRelation(pointAndStepNameList, cardId) {
+        let pointSet = new Set(pointAndStepNameList);
+        let pointSetArr = [...pointSet];
+        for (let i = 0; i < pointSetArr.length; i++) {
+            let pointId = pointSetArr[i];
+            const pointIdStepColumRes = await BuryPointRelationModel.getListByPointIdAndCardId(pointId, cardId);
+            if (pointIdStepColumRes.length === 1) {
+                continue;
+            } else {
+                const pointIdStepColumList = await BuryPointRelationModel.getListByPointIdAndCardId(pointId, "");
+                let stepColumList = [];
+                let stepColumIndex = 1;
+                for (let k = 0; k < pointIdStepColumList.length; k++) {
+                    stepColumList.push(pointIdStepColumList[k].stepColum * 1);
+                }
+                for (let j = 1; j < 11; j++) {
+                    if (stepColumList.indexOf(j) === -1) {
+                        stepColumIndex = j;
+                        break;
+                    }
+                }
+                // if(!stepColumIndex){
+                //     ctx.response.status = 412;
+                //     ctx.body = statusCode.ERROR_412('【' + pointAndStepNameList[i].calcName + '】关联的点位不能超过十次！')
+                //     return
+                // }
+                let buryPointRelation = {}
+                buryPointRelation.pointId = pointId;
+                buryPointRelation.stepColum = stepColumIndex;
+                buryPointRelation.cardId = cardId;
+                await BuryPointRelationModel.create(buryPointRelation);
+            }
+        }
+    }
+
+    /**
+    * 刷新卡片，触发统计，达到实时效果
+    * TODO 如果是系统项目的卡片，刷新
+    * if(req.id === '1' || req.id === 1){
+        let todayDate = new Date().Format("MM-dd");
+        let refreshCardInfo = getRefreshCard;
+        let calcData = refreshCardInfo.statisticList[0].calcData;
+        calcData[calcData.length-1].happenDate = todayDate;
+        calcData[calcData.length-1].count = Math.floor((Math.random()*1000)+1000);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('卡片刷新成功',refreshCardInfo)
+    }
+    * @param ctx
+    * @returns {Promise.<void>}
+    */
+    static async refresh(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user
+        req.updateBy = nickname
+        if (req.id) {
+            let id = req.id;
+            //查询条件
+            let dateValue = req.dateValue;
+            let queryStartDate = req.queryStartDate;
+            let queryEndDate = req.queryEndDate;
+            let startDate;
+            let endDate;
+            const oneDayTime = 24 * 3600 * 1000;
+            if (!dateValue && !queryStartDate && !queryEndDate){
+                dateValue = '30';
+            }
+            if (dateValue) {
+                const timestamp = new Date().getTime()
+                let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic;
+                if (isOpenTodayStatistic) {
+                    startDate = new Date(timestamp - (parseInt(dateValue, 10)) * oneDayTime).Format("yyyy-MM-dd")
+                    endDate = new Date(timestamp).Format("yyyy-MM-dd") + " 23:59"
+                } else {
+                    startDate = new Date(timestamp - (parseInt(dateValue, 10) + 1) * oneDayTime).Format("yyyy-MM-dd")
+                    endDate = new Date(timestamp - oneDayTime).Format("yyyy-MM-dd") + " 23:59"
+                }
+            } else {
+                startDate = new Date(new Date(queryStartDate).getTime() - oneDayTime).Format("yyyy-MM-dd")
+                endDate = queryEndDate + " 23:59"
+            }
+            let card = await BuryPointCardModel.detail(id);
+            //触发今天(0)的分析统计数据
+            if(card.type && card.type === 5){
+                //漏斗图计算
+                await TimerStatisticController.calculateFunnelDataByCard(card, 0, 2);
+            } else {
+                //非漏斗图计算
+                if(card.groupByFlag && card.groupByFlag === 1){
+                    await TimerStatisticController.calculateNoFunnelGroupByDataByCard(card, 0, 2);
+                }else {
+                    await TimerStatisticController.calculateNoFunnelDataByCard(card, 0, 2);
+                }
+            }
+            let resCard;
+            if(card.groupByFlag && card.groupByFlag === 1){
+                resCard = await BuryPointCardController.convertGroupByCardStatisticInfo(card, 1,startDate, endDate);
+            }else{
+                resCard = await BuryPointCardController.convertCardStatisticInfo(card, startDate, endDate);
+            }
+            resCard.refreshTime = new Date().Format("yyyy-MM-dd hh:mm:ss");//卡片的更新刷新时间
+            //更新卡片时间为刷新时间
+            let updateCard = {};
+            updateCard.id = id;
+            updateCard.updateAt = resCard.refreshTime;
+            BuryPointCardModel.update(id,updateCard);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.REFRESH_SUCCESS)}`, resCard);
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.REFRESH_FAIL)}`)
+        }
+    }
+
+    /**
+    * 归类卡片top几筛选查询
+    * top10-1,
+    * top30-2,
+    * top50-3,
+    * 无限-4
+    * @param ctx
+    * @returns {Promise.<void>}
+    */
+    static async groupByQuery(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        if (req.id) {
+            let id = req.id;
+            //查询条件
+            let dateValue = req.dateValue;
+            let queryStartDate = req.queryStartDate;
+            let queryEndDate = req.queryEndDate;
+            let topValue = req.topValue;//top10-1,top30-2,top50-3,无限-4
+            let startDate;
+            let endDate;
+            const oneDayTime = 24 * 3600 * 1000;
+            if (!dateValue && !queryStartDate && !queryEndDate){
+                dateValue = '30';
+            }
+            if (dateValue) {
+                const timestamp = new Date().getTime()
+                let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic;
+                if (isOpenTodayStatistic) {
+                    startDate = new Date(timestamp - (parseInt(dateValue, 10)) * oneDayTime).Format("yyyy-MM-dd")
+                    endDate = new Date(timestamp).Format("yyyy-MM-dd") + " 23:59"
+                } else {
+                    startDate = new Date(timestamp - (parseInt(dateValue, 10) + 1) * oneDayTime).Format("yyyy-MM-dd")
+                    endDate = new Date(timestamp - oneDayTime).Format("yyyy-MM-dd") + " 23:59"
+                }
+            } else {
+                startDate = new Date(new Date(queryStartDate).getTime() - oneDayTime).Format("yyyy-MM-dd")
+                endDate = queryEndDate + " 23:59"
+            }
+            let card = await BuryPointCardModel.detail(id);
+            let resCard = await BuryPointCardController.convertGroupByCardStatisticInfo(card, topValue, startDate, endDate);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', resCard);
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * 导出卡片表格形式
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async export(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        const { id, pageId, cardName, type, dateValue,topValue, queryStartDate, queryEndDate } = param;
+        let startDate;
+        let endDate;
+        const oneDayTime = 24 * 3600 * 1000
+        if (!dateValue && !queryStartDate && !queryEndDate){
+            dateValue = '30';
+        }
+        if (dateValue) {
+            const timestamp = new Date().getTime()
+            let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic;
+            if (isOpenTodayStatistic) {
+                startDate = new Date(timestamp - (parseInt(dateValue, 10)) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp).Format("yyyy-MM-dd") + " 23:59"
+            } else {
+                startDate = new Date(timestamp - (parseInt(dateValue, 10) + 1) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp - oneDayTime).Format("yyyy-MM-dd") + " 23:59"
+            }
+        } else {
+            startDate = new Date(new Date(queryStartDate).getTime() - oneDayTime).Format("yyyy-MM-dd")
+            endDate = queryEndDate + " 23:59"
+        }
+        let dateList = Utils.splitDate(startDate, endDate);
+        // 查询该页面对应所有卡片，
+        const card = await BuryPointCardModel.detail(id);
+        const cardRes = {}
+        cardRes.cardId = id;
+        cardRes.type = card.type;//卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图
+        cardRes.cardName = card.name;
+        let statisticData = [];
+        const calcRuleArr = JSON.parse(card.calcRule)
+        const dateArray = [];//数量列表
+        const datePercentageArray = [];//百分比列表
+        var title = ['日期'] //这是第一行 俗称列名
+        //堆叠图、多折线图、地图才有归类统计
+        if ((card.type === 2 || card.type === 4 || card.type === 7) && 
+            (card.groupByFlag && card.groupByFlag === 1)) {
+            //通过pageId查询项目获取项目id（event101）
+            let projectInfo = await BuryPointProjectModel.detail(pageId);
+            const { projectId } = projectInfo;
+            //分析表名
+            let statiscTableName = "BuryPointCardStatistics_" + projectId;
+            statisticData = await BuryPointCardController.getGroupByCardStatistic(id, pageId, statiscTableName, topValue,title, dateList, startDate, endDate)
+        }else{
+            //按照保存的JSON规则，处理数据
+            statisticData = await BuryPointCardController.handleExportStatiscData(card.type,calcRuleArr, 
+                pageId, id,startDate, endDate, title, dateList);
+        }
+        //如果是漏斗图，计算每一步查询时间段的统计总数
+        if (card.type && card.type === 5) {
+            await BuryPointCardController.calcFunnelConversionRate(statisticData)
+        }
+        cardRes.statisticList = statisticData;
+        dateArray.push(title);
+        //如果是漏斗图，个数放一个sheet里面，百分比放一个sheet里面
+        if(card.type && card.type === 5){
+            datePercentageArray.push(title);
+        }
+        dateList.forEach((date, dateIndex) => {
+            var arrInner = [];
+            var arrPerInner = [];
+            title.forEach((titleStr, titleIndex) => {
+                if (titleStr === '日期') {
+                    arrInner.push(date);
+                    arrPerInner.push(date);
+                } else {
+                    cardRes.statisticList.forEach((item, itemIndex) => {
+                        if (item.calcName === titleStr) {
+                            item.calcData.forEach((calcDatatItem, calcDataIndex) => {
+                                if (calcDatatItem.happenDate === date) {
+                                    arrInner.push(calcDatatItem.count * 1);
+                                    if(card.type && card.type === 5){
+                                        arrPerInner.push(itemIndex === 0?'100%':calcDatatItem.percentage + "%");
+                                    }
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+            dateArray.push(arrInner); // data中添加的要是数组，可以将对象的值分解添加进数组，例如：['1','name','上海']
+            if(card.type && card.type === 5){
+                datePercentageArray.push(arrPerInner);
+            }
+        });
+        var arrInner = [];
+        arrInner.push("汇总");
+        var arrPerInner = [];
+        arrPerInner.push("汇总");
+        statisticData.forEach((item, totalCountIndex) => {
+            arrInner.push(item.calcTotail);
+            arrPerInner.push(item.calcTotailRate);
+        });
+        dateArray.push(arrInner); // 汇总
+        datePercentageArray.push(arrPerInner); // 汇总
+        let filename = '';
+        if (dateValue) {
+            filename = card.name + "_" + dateValue + ".xlsx"
+        } else {            
+            filename = card.name + "_" + queryStartDate + "~" + queryEndDate + ".xlsx"
+        }
+        if(card.type && card.type === 5){
+            const buffer = xlsx.build([{ name: '数量', data: dateArray },
+                { name: '占比', data: datePercentageArray }]);
+            const fileSize = buffer.length;
+            ctx.response.status = 200;
+            ctx.set('Content-disposition', 'attachment; filename=' + encodeURIComponent(filename))
+            ctx.set('Content-type', 'application/vnd.openxmlformats')
+            ctx.set('Content-Length', fileSize)
+            ctx.body = buffer
+        }else {
+            const buffer = xlsx.build([{ name: 'sheet1', data: dateArray }]);
+            const fileSize = buffer.length;
+            ctx.response.status = 200;
+            ctx.set('Content-disposition', 'attachment; filename=' + encodeURIComponent(filename))
+            ctx.set('Content-type', 'application/vnd.openxmlformats')
+            ctx.set('Content-Length', fileSize)
+            ctx.body = buffer
+        }
+    }
+
+    /**
+     * 处理导出数据
+     * @param {}} calcRuleArr 
+     * @param {*} statisticData 
+     * @param {*} totalCountList 
+     */
+    static async handleExportStatiscData(type,calcRuleArr, 
+        pageId, cardId, startDate, endDate, title, dateList){
+        let statisticData = [];
+        //先把数据1按分类提取出来，然后遍历，寻找和时间匹配，匹配到了更新到时间段中
+        for (let j = 0; j < calcRuleArr.length; j++) {
+            let calcData = [];
+            let statistics = {};
+            let calcRuleInfo = calcRuleArr[j];
+            //计算符号，可能为空
+            let calcType = calcRuleInfo.calcType;
+            let calcName = calcRuleInfo.calcName;
+            let calcNameKey = calcRuleInfo.calcNameKey;
+            let resStatistic;
+            if (calcNameKey) {
+                resStatistic = await BuryPointCardStatisticsModel.getList(pageId, cardId, '', calcNameKey, startDate, endDate)
+            } else {
+                //兼容老客户卡片规则里面没有calcNameKey，还是按照以前calcName查询
+                resStatistic = await BuryPointCardStatisticsModel.getList(pageId, cardId, calcName, '', startDate, endDate)
+            }
+            title.push(calcName);
+            //总量
+            let calcTotail = 0;
+            for (let k = 0; k < dateList.length; k++) {
+                //统计数据入库统计表
+                const cardStatistic = {}
+                cardStatistic.name = calcName;
+                cardStatistic.count = 0;
+                cardStatistic.happenDate = dateList[k];
+                for (let s = 0; s < resStatistic.length; s++) {
+                    let happenDate = resStatistic[s].happenDate.Format("MM-dd");
+                    if (happenDate === dateList[k]) {
+                        cardStatistic.count = resStatistic[s].count;
+                        if (!(type ===3 && calcType === "/")){
+                            calcTotail = parseInt(calcTotail, 10) + parseInt(resStatistic[s].count, 10);
+                        }
+                        //如果是漏斗，导出百分数
+                        if (type ===5){
+                            cardStatistic.percentage = resStatistic[s].percentage;
+                        }
+                        break;
+                    }
+                }
+                calcData.push(cardStatistic);
+            }
+            statistics.calcTotail = calcTotail;
+            statistics.calcName = calcName;
+            statistics.calcType = calcType;
+            statistics.calcData = calcData;
+            statisticData.push(statistics);
+        }
+        return statisticData;
+    }
+
+    /**
+     * 表格展示数据
+     * @param {*} ctx 
+     */
+    static async tableDisplay(ctx){
+        const tableData = {}; 
+        const tableDataList = []; 
+        const param = Utils.parseQs(ctx.request.url)
+        const { id, pageId, cardName, type, dateValue, topValue, queryStartDate, queryEndDate } = param;
+        let startDate;
+        let endDate;
+        const oneDayTime = 24 * 3600 * 1000
+        if (!dateValue && !queryStartDate && !queryEndDate){
+            dateValue = '30';
+        }
+        if (dateValue) {
+            const timestamp = new Date().getTime()
+            let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic;
+            if (isOpenTodayStatistic) {
+                startDate = new Date(timestamp - (parseInt(dateValue, 10)) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp).Format("yyyy-MM-dd") + " 23:59"
+            } else {
+                startDate = new Date(timestamp - (parseInt(dateValue, 10) + 1) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp - oneDayTime).Format("yyyy-MM-dd") + " 23:59"
+            }
+        } else {
+            startDate = new Date(new Date(queryStartDate).getTime() - oneDayTime).Format("yyyy-MM-dd")
+            endDate = queryEndDate + " 23:59"
+        }
+        let dateList = Utils.splitDate(startDate, endDate);
+        // 查询该页面对应所有卡片，
+        const card = await BuryPointCardModel.detail(id);
+        const cardRes = {}
+        cardRes.cardId = id;
+        cardRes.type = card.type;//卡片类型：1-柱状图，2-多折线，3-柱线图，4-堆叠图，5-漏斗图
+        cardRes.cardName = card.name;
+        //柱线图要判断是否有/
+        //存放柱线图标识数据，[{'name':'柱','isCalc':'false'},{'name':'线','isCalc':'true'}]
+        let columnLineMap = new Map();
+        if (card.type === 3) {
+            //解析计算规则
+            let calcRuleJson = JSON.parse(card.calcRule);
+            for (let i = 0; i < calcRuleJson.length; i++) {
+                let calcType = calcRuleJson[i].calcType;
+                let calcName = calcRuleJson[i].calcName;
+                if(calcType && calcType === '/'){
+                    columnLineMap.set(calcName,'1');
+                }else{
+                    columnLineMap.set(calcName,'0');
+                }
+            }
+        }
+
+        let statisticData = [];
+        const calcRuleArr = JSON.parse(card.calcRule)
+        var title = ['日期'] //这是第一行 俗称列名
+        title.push('总数');
+        //堆叠图、多折线图、地图有归类属性
+        if ((card.type === 2 || card.type === 4 || card.type === 7) && 
+            (card.groupByFlag && card.groupByFlag === 1)) {
+            //通过pageId查询项目获取项目id（event101）
+            let projectInfo = await BuryPointProjectModel.detail(pageId);
+            const { projectId } = projectInfo;
+            //分析表名
+            let statiscTableName = "BuryPointCardStatistics_" + projectId;
+            statisticData = await BuryPointCardController.getGroupByCardStatistic(id, pageId, statiscTableName, topValue,title, dateList, startDate, endDate)
+        }else{
+            //按照保存的JSON规则，处理数据
+            statisticData = await BuryPointCardController.handleExportStatiscData(card.type,calcRuleArr, 
+                pageId, id,startDate, endDate, title, dateList);
+        }
+        //如果是漏斗图，计算每一步查询时间段的统计总数
+        if (card.type && card.type === 5) {
+            await BuryPointCardController.calcFunnelConversionRate(statisticData)
+            // await BuryPointCardController.convertFunnelConversionRate(statisticData)
+        }
+        cardRes.statisticList = statisticData;
+        //汇总
+        const tableSummaryDataInfo = {};
+        tableSummaryDataInfo.happenDate = '总体'
+        const tableDataInfoItem = [];
+        statisticData.forEach((item, totalCountIndex) => {
+            const itemInfo = {};
+            itemInfo.name = item.calcName;
+            itemInfo.count = item.calcTotail * 1;
+            itemInfo.percentage = item.calcTotailRate;
+            tableDataInfoItem.push(itemInfo);
+        });
+        tableSummaryDataInfo.item = tableDataInfoItem;
+        tableDataList.push(tableSummaryDataInfo);
+        dateList.forEach((date, dateIndex) => {
+            const tableDataInfo = {};
+            tableDataInfo.happenDate = date
+            const tableDataInfoItem = [];
+            for(let i = 0;i<title.length;i++){
+                for(let j = 0;j<cardRes.statisticList.length;j++){
+                    const item = cardRes.statisticList[j];
+                    if (item.calcName === title[i]) {
+                        for(let k = 0;k<item.calcData.length;k++){
+                            const calcDatatItem = item.calcData[k];
+                            if (calcDatatItem.happenDate === date) {
+                                const itemInfo = {};
+                                itemInfo.name = item.calcName;
+                                itemInfo.count = calcDatatItem.count * 1;
+                                if(card.type && card.type === 5){
+                                    itemInfo.percentage = calcDatatItem.percentage;
+                                }
+                                tableDataInfoItem.push(itemInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            tableDataInfo.item = tableDataInfoItem
+            tableDataList.push(tableDataInfo);
+        });
+        const tableDataSummaryList = [];
+        for (let i = 0; i<tableDataList.length;i++){
+            const newItemList = [];
+            const tableDataInfo = tableDataList[i]
+            const itemHappenDate = {};
+            itemHappenDate.happenDate = tableDataInfo.happenDate;
+            newItemList.push(itemHappenDate);
+
+            const itemList = tableDataInfo.item;
+            const itemTotalItem = {};
+            itemTotalItem.name = '总数';
+            let itemTotalItemCount = 0;
+            
+            for(let j = 0; j<itemList.length;j++){
+                const item = itemList[j];
+                if (!(card.type ===3 && (columnLineMap.get(item.name) === '1'))){
+                    itemTotalItemCount = parseInt(itemTotalItemCount, 10) + parseInt(item.count, 10);
+                }
+            }
+            itemTotalItem.count = itemTotalItemCount?itemTotalItemCount:0;
+            if(itemList[0]){
+                itemTotalItem.percentage = itemList[0].percentage;
+            }
+            // itemTotalItem.percentage = (!itemList[0] || itemList[0].percentage === undefined)?null:itemList[0].percentage;
+            newItemList.push(itemTotalItem);
+            for(let j = 0; j<itemList.length;j++){
+                const item = itemList[j]
+                //第一步没有转化率
+                if (j == 0 && card.type === 5){
+                    item.percentage = 100;
+                }
+                //柱线图，如果勾选了计算数据，带有"/"，count就是百分比，不计入总数中
+                if(card.type ===3 && columnLineMap.get(item.name) === '1'){
+                    item.count = item.count + '%';
+                }
+                newItemList.push(item);
+            }
+            tableDataSummaryList.push(newItemList);
+        }
+        tableData.title = title;
+        tableData.tableDataList = tableDataSummaryList;
+        if(card.type && card.type === 5){
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', tableData)
+        }else {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', tableData)
+        }
+    }
+
+    /**
+     * 置顶
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async sort(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        let pageId = req.pageId;
+        const { nickname } = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            let currentCard = await BuryPointCardModel.detail(id);
+            const resMaxSort = await BuryPointCardModel.getCountPageId(pageId);
+            let maxSort = (isNaN(resMaxSort[0].maxSort) || resMaxSort[0].maxSort === 0) ? 1 : resMaxSort[0].maxSort;
+            req.sort = maxSort;
+            const resUpdateSortCards = await BuryPointCardModel.getListByPageIdAndSort(pageId, currentCard.id);
+            for (let i = 0; i < resUpdateSortCards.length; i++) {
+                resUpdateSortCards[i].sort = i + 1;
+                await BuryPointCardModel.update(resUpdateSortCards[i].id, resUpdateSortCards[i]);
+            }
+            await BuryPointCardModel.update(id, req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('置顶成功！', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('置顶失败！')
+        }
+    }
+
+    /**
+     * 排序
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async order(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let sortList = req.sortList;
+        const { nickname } = ctx.user
+        if (req) {
+            for (let i = 0; i < sortList.length; i++) {
+                const cardInfo = {};
+                cardInfo.id = sortList[i].cardId
+                cardInfo.sort = sortList[i].sort
+                cardInfo.updateBy = sortList[i].nickname
+                await BuryPointCardModel.update(sortList[i].cardId, cardInfo);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointCard/list:
+     *   post:
+     *     tags:
+     *       - 数据概览
+     *     summary: 获取看板里的卡片列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: sysType
+     *         description: 系统项目标识
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *       - name: cardName
+     *         description: 卡片名字
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: dateValue
+     *         description: 默认查询天数
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageId
+     *         description: 看板ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: queryStartDate
+     *         description: 查询开始日期
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: queryEndDate
+     *         description: 查询结束日期
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: type
+     *         description: 卡片类型
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId="",sysType="", pageId, cardName, type, dateValue, queryStartDate, queryEndDate } = params;
+        let startDate;
+        let endDate;
+        let cards = [];
+        if(!pageId || pageId === '' || pageId === undefined || pageId === 'undefined'){
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', cards)
+            return;
+        }
+        const oneDayTime = 24 * 3600 * 1000
+        if (!dateValue && !queryStartDate && !queryEndDate){
+            params.dateValue = '30';
+        }
+        if (params.dateValue) {
+            const timestamp = new Date().getTime()
+            let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic;
+            if (isOpenTodayStatistic) {
+                startDate = new Date(timestamp - (parseInt(params.dateValue, 10)) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp).Format("yyyy-MM-dd") + " 23:59"
+            } else {
+                startDate = new Date(timestamp - (parseInt(params.dateValue, 10) + 1) * oneDayTime).Format("yyyy-MM-dd")
+                endDate = new Date(timestamp - oneDayTime).Format("yyyy-MM-dd") + " 23:59"
+            }
+        } else {
+            startDate = new Date(new Date(queryStartDate).getTime() - oneDayTime).Format("yyyy-MM-dd")
+            endDate = queryEndDate + " 23:59"
+        }
+        if(projectId && sysType && (sysType === 1 || sysType === '1')){
+            // 查询该页面对应所有卡片，
+            const resCards = await BuryPointCardModel.getIdAndNameList(cardName, pageId, type);
+            // console.log("卡片信息:" + JSON.stringify(resCards));
+            for (let i = 0; i < resCards.length; i++) {
+                const card = resCards[i];
+                const cardId = card.id;
+                //"cardName": "心跳次数",
+                const cardName = card.name;
+            }
+            let newBaseTemplateCardList = []
+            for (let i = 0; i < baseTemplateCardList.length; i++) {
+                //"cardName": "心跳次数",
+                const baseCardName = baseTemplateCardList[i].cardName;
+                for (let j = 0; j < resCards.length; j++) {
+                    const card = resCards[j];
+                    //"cardName": "心跳次数",
+                    const cardName = card.name;
+                    if(baseCardName === cardName){
+                        baseTemplateCardList[i].cardId = card.id
+                        break;
+                    }
+                }
+                newBaseTemplateCardList.push(baseTemplateCardList[i])
+            }
+            //走系统项目查询
+            let weKeyRet = await BuryPointTemplateModel.getWeKeyByProjectIdAndType(projectId, 3) 
+            if(weKeyRet && weKeyRet.length >0){
+                for(let i=0;i<weKeyRet.length;i++){
+                    const {weKey} =  weKeyRet[i];
+                    if(weKey && weKey === 'we-base-ac874f09-1909-872d-0adc-b2d55fad5b43'){
+                        cards = newBaseTemplateCardList;
+                        break;
+                    }
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', cards)
+        }else{
+            // 查询该页面对应所有卡片，
+            const resCards = await BuryPointCardModel.getList(cardName, pageId, type);
+            // console.log("卡片信息:" + JSON.stringify(resCards));
+            for (let i = 0; i < resCards.length; i++) {
+                const card = resCards[i];
+                if(card.groupByFlag && card.groupByFlag === 1){
+                    //参数1代表默认top10
+                    cards.push(await BuryPointCardController.convertGroupByCardStatisticInfo(card, 1,startDate, endDate));
+                }else{
+                    cards.push(await BuryPointCardController.convertCardStatisticInfo(card, startDate, endDate));
+                }
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', cards)
+    }
+
+    /**
+     * 根据页面ID和卡片名称查询卡片列表
+     * @param {} ctx 
+     */
+    static async getListByPageIdAndName(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { pageId, cardName } = params
+        if(!pageId || pageId === '' || pageId === undefined){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('页面id必传')
+            return
+        }
+        // 查询该页面对应所有卡片，
+        const resCards = await BuryPointCardModel.getListByPageIdAndNameAndType(cardName, pageId, '');
+        let cards = [];
+        for (let i = 0; i < resCards.length; i++) {
+            const card = {};
+            card.cardId = resCards[i].id;
+            card.sort = resCards[i].sort;
+            card.cardName = resCards[i].name;
+            card.createdAt = resCards[i].createdAt;
+            cards.push(card);
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', cards)
+    }
+
+    /**
+     * 漏斗图：计算每一步转化率
+     * @returns {Promise.<void>}
+     */
+    static async calcFunnelConversionRate(statisticList) {
+        //升序
+        statisticList.sort(function (a, b) {
+            return a.fieldIndex - b.fieldIndex;
+        });
+        let totalCount = 0;
+        for (let i = 0; i < statisticList.length; i++) {
+            totalCount = parseInt(totalCount, 10) + parseInt(statisticList[i].calcTotail, 10);
+            if (i !== statisticList.length - 1) {//第一步不计算总转化率
+                if (parseInt(statisticList[i].calcTotail, 10) === 0) {
+                    statisticList[i + 1].calcTotailRate = 0;
+                } else {//计算每一步总转化率
+                    let rate = Utils.toFixed((parseInt(statisticList[i + 1].calcTotail, 10) / parseInt(statisticList[i].calcTotail, 10)) * 100, 2);
+                    statisticList[i + 1].calcTotailRate = rate?rate:0;
+                }
+                let calcDataList = statisticList[i].calcData;
+                for (let j = 0; j < calcDataList.length; j++) {//计算每一步每天转化率
+                    let calcDataInfo = calcDataList[j];
+                    if (parseInt(calcDataInfo.count, 10) === 0) {
+                        calcDataInfo.percentage = 0;
+                        continue;
+                    }
+                    let calcDataNextStepList = statisticList[i + 1].calcData;
+                    for (let k = 0; k < calcDataNextStepList.length; k++) {//和下一步对应哪一天的计算转化率
+                        if (calcDataInfo.happenDate === calcDataNextStepList[k].happenDate) {
+                            let percent = Utils.toFixed((parseInt(calcDataNextStepList[k].count, 10) / parseInt(calcDataInfo.count, 10)) * 100, 2);
+                            calcDataNextStepList[k].percentage = percent?percent:0;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+         //总转化率计算：最后一步除以第一步
+        if (totalCount === 0) {
+            statisticList[0].calcTotailRate = 0;
+        } else {
+            let rate = Utils.toFixed((parseInt(statisticList[statisticList.length - 1].calcTotail, 10) / parseInt(statisticList[0].calcTotail, 10)) * 100, 2)
+            statisticList[0].calcTotailRate = rate?rate:0;
+           
+            let calcDataList = statisticList[0].calcData;
+            for (let i = 0; i < calcDataList.length; i++) {
+                let calcDataInfo = calcDataList[i];
+                if (parseInt(calcDataInfo.count, 10) === 0) {
+                    calcDataInfo.percentage = 0;
+                    continue;
+                }
+                let calcDataNextStepList = statisticList[statisticList.length - 1].calcData;
+                for (let k = 0; k < calcDataNextStepList.length; k++) {
+                    if (calcDataInfo.happenDate === calcDataNextStepList[k].happenDate) {
+                        let percent = Utils.toFixed((parseInt(calcDataNextStepList[k].count, 10) / parseInt(calcDataInfo.count, 10)) * 100, 2);
+                        calcDataInfo.percentage = percent?percent:0;
+                        break;
+                    }
+                }
+            }
+        }
+        // console.log("卡片计算后的数据:" + JSON.stringify(statisticList));
+    }
+    
+    /**
+     * 漏斗图：count换成转化率
+     * @returns {Promise.<void>}
+     */
+    static async convertFunnelConversionRate(statisticList) {
+        for (let i = 0; i < statisticList.length; i++) {
+            let calcDataList = statisticList[i].calcData;
+            let newCalcDataList = [];
+            for (let j = 0; j < calcDataList.length; j++) {
+                let calcDataInfo = calcDataList[j];
+                let newCalcData = {};
+                if(!calcDataInfo.percentage || calcDataInfo.percentage === '' || calcDataInfo.percentage === undefined){
+                    newCalcData.count = 0
+                }else {
+                    newCalcData.count = calcDataInfo.percentage;
+                }
+                newCalcData.happenDate = calcDataInfo.happenDate;
+                newCalcDataList.push(newCalcData);
+            }
+            statisticList[i].calcData = newCalcDataList;
+        }
+        // console.log("卡片计算后的数据:" + JSON.stringify(statisticList));
+    }
+
+    /**
+     * 转换卡片分析统计数据
+     * @returns {Promise.<void>}
+     */
+    static async convertCardStatisticInfo(card, startDate, endDate) {
+        //日期列表
+        let dateList = Utils.splitDate(startDate, endDate);
+        const { id, pageId, name, sort,type, calcRule, conversionCycle,groupByFlag, 
+            chartTableShow,togetherList,refreshFrequency,updatedAt,alarmStatus } = card
+        const cardRes = {}
+        cardRes.cardId = id;
+        cardRes.type = type;
+        cardRes.cardName = name;
+        cardRes.conversionCycle = conversionCycle;//窗口期，默认1天
+        cardRes.groupByFlag = groupByFlag;//是否归类图形，1-是，0-否
+        cardRes.chartTableShow = chartTableShow;//图表展示：chart-图\table-表格\trend-趋势（漏斗）
+        cardRes.togetherList = togetherList;//合计-total、均值-average、同比-yoyRatio、环比-ringRatio
+        cardRes.refreshFrequency = refreshFrequency;//调用刷新接口频率，5s，10s，20s等
+        cardRes.refreshTime = new Date().Format("yyyy-MM-dd hh:mm:ss");//卡片的更新刷新时间
+        cardRes.alarmStatus = alarmStatus;//告警状态
+        cardRes.sort = sort;//排序
+        if(updatedAt){
+            cardRes.refreshTime = updatedAt;//卡片的更新刷新时间
+        }
+        let statisticData = [];
+        const calcRuleArr = JSON.parse(calcRule)
+        //先把数据1按分类提取出来，然后遍历，寻找和时间匹配，匹配到了更新到时间段中
+        for (let j = 0; j < calcRuleArr.length; j++) {
+            let statistics = {};
+            let calcRuleInfo = calcRuleArr[j];
+            //计算符号，可能为空
+            let calcType = calcRuleInfo.calcType;
+            let calcName = calcRuleInfo.calcName;
+            let unit = calcRuleInfo.unit;
+            let calcNameKey = calcRuleInfo.calcNameKey;
+            let prePoint = calcRuleInfo.prePoint;
+            let calcFieldPre = prePoint.calcField;
+            //fieldIndex：排序索引
+            let fieldIndex = calcFieldPre.fieldIndex;
+            let resStatistic = [];
+            if (calcNameKey) {
+                resStatistic = await BuryPointCardStatisticsModel.getList(pageId, id, '', calcNameKey, startDate, endDate)
+            } else {
+                //兼容老客户卡片规则里面没有calcNameKey，还是按照以前calcName查询
+                resStatistic = await BuryPointCardStatisticsModel.getList(pageId, id, calcName, '', startDate, endDate)
+            }
+            await BuryPointCardController.convertStatisticList(statistics, dateList, resStatistic);
+            statistics.fieldIndex = fieldIndex;
+            statistics.calcName = calcName;
+            statistics.unit = unit;
+            statistics.calcType = calcType;
+            statisticData.push(statistics);
+        }
+        //如果是漏斗图，计算每一步查询时间段的统计总数
+        if (type && type === 5) {
+            await BuryPointCardController.calcFunnelConversionRate(statisticData)
+            await BuryPointCardController.convertFunnelConversionRate(statisticData)
+        }
+        cardRes.statisticList = statisticData
+        return cardRes;
+    }
+
+    /**
+     * 转换归类卡片分析统计数据
+     * @returns {Promise.<void>}
+     */
+    static async convertGroupByCardStatisticInfo(card, topValue,startDate, endDate) {
+        //日期列表
+        let dateList = Utils.splitDate(startDate, endDate);
+        const { id, pageId, name, sort,type, updatedAt, conversionCycle,groupByFlag,chartTableShow,togetherList,refreshFrequency,alarmStatus } = card
+        const cardRes = {}
+        cardRes.cardId = id;
+        cardRes.type = type;
+        cardRes.cardName = name;
+        cardRes.conversionCycle = conversionCycle;//窗口期，默认1天
+        cardRes.groupByFlag = groupByFlag;//是否归类图形，1-是，0-否
+        cardRes.chartTableShow = chartTableShow;//图表展示：chart-图\table-表格\trend-趋势（漏斗）
+        cardRes.togetherList = togetherList;//合计-total、均值-average、同比-yoyRatio、环比-ringRatio
+        cardRes.refreshFrequency = refreshFrequency;//调用刷新接口频率，5s，10s，20s等
+        cardRes.refreshTime = new Date().Format("yyyy-MM-dd hh:mm:ss");//卡片的更新刷新时间
+        cardRes.alarmStatus = alarmStatus;//告警状态
+        cardRes.sort = sort;//排序
+        if(updatedAt){
+            cardRes.refreshTime = updatedAt;//卡片的更新刷新时间
+        }
+        let title = [];
+        //通过pageId查询项目获取项目id（event101）
+        let projectInfo = await BuryPointProjectModel.detail(pageId);
+        const { projectId } = projectInfo;
+        //分析表名
+        let statiscTableName = "BuryPointCardStatistics_" + projectId;
+        cardRes.statisticList = await BuryPointCardController.getGroupByCardStatistic(id, pageId, statiscTableName, topValue, title, dateList, startDate, endDate)
+        return cardRes;
+    }
+
+    /**
+     * 转换归类卡片分析统计数据
+     * @returns {Promise.<void>}
+     */
+    static async getGroupByCardStatistic(cardId, pageId, statiscTableName, topValue, title,dateList, startDate, endDate) {
+        let statisticData = [];
+        //如果是归类图形，要查询自己的分析统计表
+        //默认top10
+        let groupByTopData = await BuryPointCardStatisticsModel.getGroupByTopList(statiscTableName,pageId,cardId,topValue, startDate, endDate)
+        // console.log("top几:" + JSON.stringify(groupByTopData));
+        //分类
+        //先把数据1按分类提取出来，然后遍历，寻找和时间匹配，匹配到了更新到时间段中
+        for (let i = 0; i < groupByTopData.length; i++) {
+            let statistics = {};
+            let groupByTopInfo = groupByTopData[i];
+            const { calcField } = groupByTopInfo;
+            title.push(calcField);
+            //分类
+            let groupByStatiscData = await BuryPointCardStatisticsModel.getGroupByList(statiscTableName, pageId, cardId,calcField, startDate, endDate)
+            await BuryPointCardController.convertStatisticList(statistics, dateList, groupByStatiscData);
+            statistics.fieldIndex = i;
+            statistics.calcName = calcField;
+            statisticData.push(statistics);
+        }
+        return statisticData;
+    }
+
+    /**
+     * 转换每个卡片返回统计的数据
+     * @param {新的} statistics 
+     * @param {时间} dateList 
+     * @param {查询每个卡片统计数据} resStatistic 
+     * @returns 
+     */
+    static async convertStatisticList(statistics, dateList, resStatistic){
+        let calcData = [];
+        //总量
+        let calcTotail = 0;
+        for (let k = 0; k < dateList.length; k++) {
+            //统计数据入库统计表
+            const cardStatistic = {}
+            cardStatistic.count = 0;
+            cardStatistic.happenDate = dateList[k];
+            for (let s = 0; s < resStatistic.length; s++) {
+                let happenDate = resStatistic[s].happenDate.Format("MM-dd");
+                if (happenDate === dateList[k]) {
+                    calcTotail += parseFloat(resStatistic[s].count);
+                    cardStatistic.count = parseFloat(resStatistic[s].count);
+                    break;
+                }
+            }
+            calcData.push(cardStatistic);
+        }
+        statistics.calcTotail = calcTotail?calcTotail:0;
+        statistics.calcData = calcData;
+        return statistics;
+    }
+    /**
+     * 计算转化周期数据
+     * @param {转化周期} conversionCycle 
+     * @param {查询数据集合} statisticList 
+     */
+    static async calcConversionCycleData(conversionCycle, statisticList) {
+        let resStatistic = [];
+        for (let i = 0; i < statisticList.length; i++) {
+            let statistic = statisticList[i];
+            let count = 0;
+            for (let j = i; j < (i + conversionCycle); j++) {
+                if (j >= statisticList.length) {
+                    count = parseInt(count, 10) + parseInt(0, 10);
+                } else {
+                    count = parseInt(count, 10) + parseInt(statisticList[j].count, 10);
+                }
+            }
+            statistic.count = count?count:0;
+            resStatistic.push(statistic);
+        }
+        return resStatistic;
+    }
+
+}
+
+class BuryPointTemplateController {
+    /**
+     * @swagger
+     * /buryPointTemplate/create:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 创建模板
+     *     parameters:
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: type
+     *         description: 模板类型：1-我的模板，2-公共模板，3-系统模板
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: groupCount
+     *         description: 分组个数
+     *         in: formData
+     *         required: integer
+     *         type: string
+     *       - name: pageCount
+     *         description: 看板个数
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: cardCount
+     *         description: 卡片个数
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *       - name: detail
+     *         description: 详情JSON
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname} = ctx.user
+        req.createBy = nickname
+        if (req.templateName && req.type) {
+            //type=1公共模板,=2我的模板
+            let ret;
+            if (req.type == 1) {
+                
+            }else if (req.type == 2) {
+                //我的模板
+                const {userId, userType} = ctx.user
+                req.userId = userId;
+            }else if (req.type == 3) {
+                //系统模板
+            }
+            await BuryPointTemplateModel.create(req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建成功', '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建成功失败，请求参数不能为空！')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/copy:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 复制模板
+     *     parameters:
+     *       - name: id
+     *         description: 模板主键id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async copy(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname,userId} = ctx.user
+        if (req.templateName && req.id) {
+            let templateDetail = await BuryPointTemplateModel.detail(req.id);
+            let newTemplate = {};
+            //type=1公共模板,=2我的模板
+            newTemplate.createBy = nickname
+            newTemplate.templateName = req.templateName
+            newTemplate.type = 1
+            newTemplate.detail = templateDetail.detail
+            newTemplate.userId = userId
+            newTemplate.groupCount = templateDetail.groupCount
+            newTemplate.pageCount = templateDetail.pageCount
+            newTemplate.cardCount = templateDetail.cardCount
+            newTemplate.templatePoint = templateDetail.templatePoint
+            await BuryPointTemplateModel.create(newTemplate);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/updateName:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 更新模板名称
+     *     parameters:
+     *       - name: id
+     *         description: 模板主键id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async updateName(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const {nickname} = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            await BuryPointTemplateModel.update(id, req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('更新信息成功！', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('更新信息失败！')
+        }
+    }
+
+     /**
+     * @swagger
+     * /buryPointTemplate/delete:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 删除单个模板
+     *     parameters:
+     *       - name: id
+     *         description: 模板ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        // 删除前，先检查是否还有
+        await BuryPointTemplateModel.delete(id)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+    
+    /**
+     * @swagger
+     * /buryPointTemplate/deleteBatch:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 批量删除
+     *     parameters:
+     *       - name: ids
+     *         description: 模板IDS（1,2）
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async deleteBatch(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { ids} = param
+        // 删除前，先检查是否还有
+        if(ids){
+            let templateIdArray = ids.split(",")
+            for (let i = 0;i<templateIdArray.length; i++){
+                await BuryPointTemplateModel.delete(templateIdArray[i]);
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/createProject:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 创建项目
+     *     parameters:
+     *       - name: id
+     *         description: 模板ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: projectName
+     *         description: 项目名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async createProject(ctx){
+        let param = JSON.parse(ctx.request.body);
+        const { id,projectName,type } = param
+        const {nickname,companyId} = ctx.user
+        // let nickname = "小鱼";
+        if(id && projectName){
+            let templateDetail = await BuryPointTemplateModel.detail(id);
+            //TODO 判断卡片数是否足够
+            let cardCout = templateDetail.cardCount;
+            let flag = await BuryPointCardController.judgeCardCount(cardCout);
+            if(flag === 1){
+                ctx.response.status = 414;
+                ctx.body = statusCode.ERROR_CARD_BALANCE_414("卡片余额不足")
+                return
+            }
+            let newProjectId = '';
+            if(templateDetail){
+                let newPointIdArray=[];
+                let currDate = new Date().Format("yyyyMMddhhmmss");
+                let templateName = templateDetail.templateName;
+                let projectJson = JSON.parse(templateDetail.detail);
+                //1、新建项目
+                //我的项目
+                let retProject = await BuryPointProjectController.createNewProject(projectName,0,nickname,companyId);
+                newProjectId = retProject.projectId
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', newProjectId)
+                //2、新建分组
+                let groupList = projectJson.groupList
+                for(let i=0;i<groupList.length;i++){
+                    let groupInfo = {}
+                    groupInfo.name =  groupList[i].name;
+                    groupInfo.type = 2
+                    groupInfo.sort = groupList[i].sort
+                    groupInfo.parentId = retProject.id
+                    groupInfo.projectId = newProjectId
+                    // groupInfo.delStatus = 0
+                    groupInfo.createBy = nickname
+                    let retGroup = await BuryPointProjectModel.create(groupInfo);
+                    //3、新建看板
+                    let pageList = groupList[i].pageList
+                    for(let j=0;j<pageList.length;j++){
+                        let pageInfo = {}
+                        pageInfo.name =  pageList[j].name;
+                        pageInfo.type = 3
+                        pageInfo.sort = pageList[j].sort
+                        pageInfo.parentId = retGroup.id
+                        pageInfo.projectId = newProjectId
+                        // pageInfo.delStatus = 0
+                        pageInfo.createBy = nickname
+                        let retPage = await BuryPointProjectModel.create(pageInfo);
+                        //4、新建卡片
+                        let cardList = pageList[j].cardList
+                        for(let k=0;k<cardList.length;k++){
+                            let oldCard = cardList[k];
+                            let newCard = {};
+                            newCard.pageId = retPage.id;
+                            newCard.name = oldCard.name;
+                            newCard.type = oldCard.type;
+                            newCard.sort = oldCard.sort;
+                            newCard.conversionCycle = oldCard.conversionCycle;
+                            newCard.groupByFlag = oldCard.groupByFlag;
+                            newCard.chartTableShow = oldCard.chartTableShow;
+                            newCard.togetherList = oldCard.togetherList;
+                            newCard.refreshFrequency = oldCard.refreshFrequency;
+                            let calcRuleJSON = JSON.parse(oldCard.calcRule);       
+                            let newCalcRule = []
+                            let pointAndStepNameList = []
+                            for (let m = 0; m < calcRuleJSON.length;m++) {
+                                //重新设置calcNameKey和点位id
+                                let calcData = calcRuleJSON[m];
+                                let calcName = calcData.calcName;
+                                calcData.calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                                let prePoint = calcData.prePoint;
+                                let pointId = prePoint.pointId;
+                                //5、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                                let newPointId = await BuryPointWarehouseController.copyPoint(newProjectId, pointId, nickname);
+                                newPointIdArray.push(newPointId);
+                                calcData.prePoint.pointId = newPointId;
+                                let endPoint = calcData.endPoint;
+                                if(endPoint){
+                                    //6、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                                    let newEndPointId = await BuryPointWarehouseController.copyPoint(newProjectId, endPoint.pointId, nickname);
+                                    newPointIdArray.push(newEndPointId);
+                                    calcData.endPoint.pointId = newEndPointId;
+                                }       
+                                newCalcRule.push(calcData);
+                                if (newCard.type === 5) {
+                                    pointAndStepNameList.push(newPointId);
+                                }
+                            }
+                            newCard.calcRule = JSON.stringify(newCalcRule);
+                            newCard.createBy = nickname
+                            //7、创建卡片
+                            let retCard = await BuryPointCardModel.create(newCard);
+                            //8、漏斗图创建点位和步骤关系
+                            if (newCard.type === 5) {
+                                BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, retCard.id);
+                            }
+                        }
+                    }
+                }
+                //9、新建一个SDK发布
+                //点位ids去重
+                let newPointIdArraySetArr = [...new Set(newPointIdArray)];
+                // console.log("新点位 : " + JSON.stringify(newPointIdArraySetArr));
+                let newSdkRelease = {};
+                newSdkRelease.projectId = newProjectId;
+                newSdkRelease.releaseName = projectName + currDate;
+                newSdkRelease.pointIds = newPointIdArraySetArr + "";
+                newSdkRelease.releaseScript = "";
+                newSdkRelease.status = 1;
+                newSdkRelease.version = 'v1.0.0';
+                newSdkRelease.createBy = nickname
+                let ret = await SdkReleaseModel.create(newSdkRelease);
+                if (ret) {
+                    let wePointIds = await BuryPointWarehouseModel.getPointIds(newProjectId, 1);
+                    if(wePointIds && wePointIds.length > 0){
+                        for(let i=0;i<wePointIds.length;i++){
+                            newPointIdArraySetArr.push(wePointIds[i].id);
+                        }
+                    }
+                   //10、创建完成，要生成日志表表，选了几个点位仓库，就生成几张表
+                    for (let i = 0; i < newPointIdArraySetArr.length; i++) {
+                        //默认生成今天的表
+                        SdkReleaseController.createTableByDay(newProjectId, newPointIdArraySetArr[i], 0).catch((e) => {
+                            log.printError("执行{" + newProjectId + "_" + newPointIdArraySetArr[i] + "}创建表报错：", e)
+                        });
+                    }
+                }
+            }
+            //11、更新模板projectId，只有我的模板才有projectId
+            if(templateDetail.type === 1){
+                let updateTemplateDetail = {}
+                updateTemplateDetail.id = id
+                updateTemplateDetail.projectId = newProjectId
+                updateTemplateDetail.updateBy = nickname
+                await BuryPointTemplateModel.update(id, updateTemplateDetail);
+            }
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/getCommonList:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 获取公共模版列表
+     *     parameters:
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: userId
+     *         description: 创建人
+     *         in: formData
+     *         required: false
+     *         type: string  
+     *       - name: startDate
+     *         description: 开始时间
+     *         in: formData
+     *         required: false
+     *         type: string   
+     *       - name: endDate
+     *         description: 结束时间
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: orderBy
+     *         description: 创建时间排序（desc/asc）
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getCommonTemplatePageList(ctx) {        
+        let param = JSON.parse(ctx.request.body);
+        const { templateName,userId,startDate,endDate,orderBy,page, pageSize  } = param
+        if(!orderBy){
+            orderBy = 'desc'
+        }
+        let total = await BuryPointTemplateModel.getPageCount(templateName,'',startDate, endDate,2,userId);
+        let commonTemplateList = await BuryPointTemplateModel.getPageList(templateName,'',startDate, endDate,2,userId,orderBy,page,pageSize);
+        let totalCount = 0
+        totalCount = total[0].count
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', { list: commonTemplateList, totalCount })
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/getSysList:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 获取系统模版列表
+     *     parameters:
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: startDate
+     *         description: 开始时间
+     *         in: formData
+     *         required: false
+     *         type: string   
+     *       - name: endDate
+     *         description: 结束时间
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: orderBy
+     *         description: 创建时间排序（desc/asc）
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getSysTemplatePageList(ctx) {        
+        let param = JSON.parse(ctx.request.body);
+        const { templateName,userId="",startDate,endDate,orderBy,page, pageSize  } = param
+        if(!orderBy){
+            orderBy = 'desc'
+        }
+        let total = await BuryPointTemplateModel.getPageCount(templateName,'',startDate, endDate,3,userId);
+        let sysTemplateList = await BuryPointTemplateModel.getPageList(templateName,'',startDate, endDate,3,userId,orderBy,page,pageSize);
+        let totalCount = 0
+        totalCount = total[0].count
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', { list: sysTemplateList, totalCount })
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/getMyList:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 获取我的模版列表
+     *     parameters:
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: startDate
+     *         description: 开始时间
+     *         in: formData
+     *         required: false
+     *         type: string   
+     *       - name: endDate
+     *         description: 结束时间
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: orderBy
+     *         description: 创建时间排序（desc/asc）
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getMyTemplatePageList(ctx) {        
+        const {userId, userType} = ctx.user
+        let param = JSON.parse(ctx.request.body);
+        const { templateName,startDate, endDate,orderBy,page, pageSize } = param
+        if(!orderBy){
+            orderBy = 'desc'
+        }
+        let total = await BuryPointTemplateModel.getPageCount(templateName,'',startDate, endDate,1,userId);
+        let myTemplateList = await BuryPointTemplateModel.getPageList(templateName,'',startDate, endDate,1,userId,orderBy,page,pageSize);
+        let newList = []
+        for(let i = 0;i<myTemplateList.length;i++){
+            if(myTemplateList[i].projectId){
+                let retProject = await BuryPointProjectModel.getNameByProjectIdAndType(myTemplateList[i].projectId,1);
+                if(retProject && retProject.length>0){
+                    myTemplateList[i].projectName = retProject[0].name
+                }
+            } 
+            newList.push(myTemplateList[i]);
+        }
+        let totalCount = 0
+        totalCount = total[0].count
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', { list: newList, totalCount })
+    }
+
+    /**
+     * @swagger
+     * /buryPointTemplate/detail:
+     *   post:
+     *     tags:
+     *       - 模板管理
+     *     summary: 详情
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx){
+        let {id} = JSON.parse(ctx.request.body);
+        if (id) {
+            let template = await BuryPointTemplateModel.detail(id);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', template)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail');
+        }
+    }
+
+}
+
+class TestController {
+
+    static async test1(ctx) { 
+        let req = "{\"stayTime\":0,\"boKeBianHao\":\"MjA3\"}"
+        let params = Utils.logParseJson(req)
+        let fieldLength = 0;
+        let fieldName = "stayTime";
+        console.log((params[fieldName]+"").length)
+        console.log((params[fieldName]+"").length > fieldLength)
+        if((params[fieldName]+"").length > fieldLength){
+            console.log("长度超过字段长度了")
+        }
+        
+    }
+
+}
+
+class BuryPointTestController {
+
+    /**
+     * 获取打点测试列表
+     * @param {} ctx 
+     */
+    static async getPageList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, pointId, queryStartDate, queryEndDate, page, pageSize } = params;
+        let startTime;
+        let endTime;
+        let tableEndName;
+        if (projectId === undefined || projectId === '' || projectId === null){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.TEST_PROJECT_FAIL)}`)
+            return;
+        }
+        if (pointId === undefined || pointId === '' || pointId === null){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.TEST_POINT_ID_FAIL)}`)
+            return;
+        }
+        if (queryStartDate && queryEndDate){
+            tableEndName = new Date(new Date(queryStartDate).getTime()).Format("yyyyMMdd");
+            startTime = new Date(new Date(queryStartDate).getTime()).Format("yyyy-MM-dd hh:mm:ss");
+            endTime = new Date(new Date(queryEndDate).getTime()).Format("yyyy-MM-dd hh:mm:ss");
+            //统计配置文件里面存储的天数
+            let countDay = parseInt(accountInfo.saveDays, 10)
+            var startDate = new Date(new Date(new Date(queryStartDate).getTime()).Format("yyyy-MM-dd hh:mm:ss"));
+            var currentDate = new Date(new Date(new Date().getTime()).Format("yyyy-MM-dd hh:mm:ss"));
+            var difftime = (currentDate - startDate)/1000; //计算时间差,并把毫秒转换成秒
+            var days = parseInt(difftime/86400); // 天  24*60*60*1000
+            if (days > countDay){
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('只能查询前' + countDay + '天的数据！')
+                return;
+            }
+        } else {
+             //当天
+            startTime = new Date(new Date().getTime()).Format("yyyy-MM-dd");
+            endTime = new Date(new Date().getTime()).Format("yyyy-MM-dd hh:mm:ss");
+            tableEndName = new Date(new Date().getTime()).Format("yyyyMMdd");
+        }
+        let tablePreName = projectId + "_" + pointId + "_";
+        let tableName = tablePreName + tableEndName;
+        let queryTotalSql = " select count(*) as count from " + tableName + " where 1=1 ";
+        //查询点位字段
+        let queryFieldsSql = "id,";
+        try {
+            let buryPointWarehouse = await BuryPointWarehouseModel.detail(pointId);
+            const { pointName,fields } = buryPointWarehouse
+            let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for(let i = 0; i < buryPointFieldList.length; i ++){
+                queryFieldsSql = queryFieldsSql + buryPointFieldList[i].fieldName + ','
+            }
+            queryFieldsSql = queryFieldsSql + "DATE_FORMAT(createdAt,'%Y-%m-%d %H:%i:%s') AS createdAt ";
+            let querySql = " select " + queryFieldsSql + " from " + tableName + " where 1=1 ";
+            let conditionSql = "";
+            if (startTime) {
+                conditionSql = conditionSql + " and createdAt >='" + startTime + "'";
+            } 
+            if (endTime) {
+                conditionSql = conditionSql + " and createdAt <='" + endTime + "'";
+            }
+            queryTotalSql = queryTotalSql + conditionSql;
+            querySql = querySql + conditionSql;
+            // console.log("打点测试，执行查询总数sql：" + queryTotalSql);
+            const resCount = await BuryPointCardModel.statisticData(queryTotalSql);
+            let totalCount = (resCount)?(isNaN(resCount[0].count) ? 0 : resCount[0].count):0;
+            querySql = querySql + " order by createdAt desc limit " + (page - 1) * pageSize + "," + pageSize
+            // console.log("打点测试，执行查询分页sql：" + querySql);
+            const res = await BuryPointCardModel.statisticData(querySql);
+            const result = [];
+            for (let i = 0; i < res.length; i++) {
+                const record = {};
+                record.pointId = pointId;
+                record.pointName = pointName;
+                record.eventJson = res[i];
+                record.createdAt = res[i].createdAt;
+                result.push(record);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', { list: result, totalCount })
+        } catch(e) {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200("success", {list: [], totalCount: "0"})
+        }
+        
+    }
+
+    /**
+     * 根据userId搜素
+     * @param {} ctx 
+     */
+    static async search(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { userId = "", projectId, selectedPointId, filterList, page = 0, pageSize = 10, date, order = "descend", dataType = "list", calcInfo} = params;
+        const startTime = date + " 00:00:00"
+        const endTime = date + " 23:59:59"
+        const tableEndName = new Date(date).Format("yyyyMMdd");
+        const tableName = projectId + "_" + selectedPointId + "_" + tableEndName;
+        const start = (page - 1) * pageSize
+
+        // 获取筛选条件的数值类型
+        for (let i = 0; i < filterList.length; i ++) {
+            const { fieldName } = filterList[i]
+            await BuryPointFieldModel.getFieldTypeByKey(fieldName).then((res) => {
+                if (res && res.length) {
+                    filterList[i].type = res[0].fieldType
+                }
+            })
+        }
+
+        let filterSql = ""
+        let andOrStr = "and"
+        if(filterList && filterList.length>0){
+            filterList.forEach((filter) => {
+                const { fieldName, rule, value, type = "",andOr="a" } = filter
+                let valueStr = value
+                if (type.toLowerCase() === "varchar") {
+                    valueStr = value
+                }
+                if(andOr){
+                    andOrStr = Utils.convertAndOr(andOr);
+                }
+                if (fieldName) {
+                    filterSql += " " + Utils.convertOperationSql(fieldName, rule, valueStr) + andOrStr
+                }
+            })
+            filterSql = " and (" +filterSql.substring(0, filterSql.lastIndexOf(andOrStr)) + ")";
+        }
+
+
+        let result = {}
+        // if (calcInfo && calcInfo.calcField) {
+        if (dataType === "calc") {
+            let countSql = ""
+            let orderBySql = ""
+            let fieldNameArr = []
+            if (calcInfo.calcField.isRepeat === "4") {
+                countSql = ` count(${calcInfo.calcField.fieldName}) as PV `
+                orderBySql = " order by PV desc "
+                fieldNameArr = [{fieldAlias: "PV", fieldName: "PV"}]
+            } else if (calcInfo.calcField.isRepeat === "5") {
+                countSql = ` count(distinct weCustomerKey) as UV `
+                orderBySql = " order by UV desc "
+                fieldNameArr = [{fieldAlias: "UV", fieldName: "UV"}]
+            }
+            let querySql = `select ${calcInfo.calcField.fieldName}, ${countSql} from ${tableName} where 1=1 ${filterSql} group by ${calcInfo.calcField.fieldName} ${orderBySql} `
+
+            const tempResult = await BuryPointCardModel.statisticData(querySql);
+            // if (tempResult && tempResult.length === 1) {
+            //     result = tempResult[0]
+            // } else if (tempResult && tempResult.length > 1) {
+            //     result = tempResult
+            // }
+            const finalDataList = tempResult.slice(start, (start + 1) * pageSize)
+            const fieldRes = await BuryPointFieldModel.getFieldListByKey(`'${calcInfo.calcField.fieldName}'`)
+            const fieldResArr = [...fieldRes, ...fieldNameArr]
+            result = {total: tempResult.length, dataList: finalDataList || [], fieldNameList: fieldResArr}
+        } else if (dataType === "list") {
+            const orderStr = order === "descend" ? "desc" : "asc"
+            let queryTotalSql = ` select * from ${tableName} where 1=1 ${filterSql} and createdAt>='${startTime}' and createdAt<='${endTime}' order by createdAt ${orderStr} limit ${start},${pageSize} `
+            const res = await BuryPointCardModel.statisticData(queryTotalSql);
+            let queryTotalCountSql = ` select count(id) as count from ${tableName} where 1=1 ${filterSql} and createdAt>='${startTime}' and createdAt<='${endTime}' `
+            const totalRes = await BuryPointCardModel.statisticData(queryTotalCountSql);
+            let fieldKeys = "''"
+            if (res && res.length) {
+                const tempData = res[0]
+                for(let key in tempData) {
+                    if (key.indexOf("weFirstStepDay_") !== -1 || key === "id") {
+                        continue
+                    }
+                    fieldKeys += `,'${key}'`
+                }
+            }
+            let total = 0
+            if (totalRes && totalRes.length) {
+                total = totalRes[0].count * 1
+            }
+            // TODO 这里的逻辑需要调整，根据projectId获取字段的名称
+            const fieldRes = await BuryPointFieldModel.getFieldListByKey(fieldKeys)
+
+            result = {total, dataList: res || [], fieldNameList: fieldRes}
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200("success", result)
+    }
+
+    /**
+     * @swagger
+     * /buryPointTest/failList:
+     *   post:
+     *     tags:
+     *       - 点位测试
+     *     summary: 获取失败点位测试列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 所属项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointId
+     *         description: 点位ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: page
+     *         description: 页数(从1开始)
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 每页显示数量
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: date
+     *         description: 日期
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async failList(ctx) {
+        const req = JSON.parse(ctx.request.body)
+
+        if (!req.page) {
+            req.page = 1
+        }
+        if (!req.pageSize) {
+            req.pageSize = 10
+        }
+        if (!req.projectId) {
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数缺少项目id')
+            return;
+        }
+        if (!req.pointId) {
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数缺少点位id')
+            return;
+        }
+        if (!req.date) {
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数缺少日期')
+            return;
+        }
+
+        const startTime = req.date + " 00:00:00"
+        const endTime = req.date + " 23:59:59"
+
+        try {
+            const res = await BuryPointFailLogModel.getList({...req, startTime, endTime})
+            const { list, total } = res
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', { list, total })
+        } catch (error) {
+            console.log(error)
+            ctx.response.status = 413;
+            ctx.body = statusCode.ERROR_413('请求参数不合法')
+        }
+    }
+
+    static async searchAllRecord(ctx) {
+        const params = JSON.parse(ctx.request.body)
+        const { userId, customerKey, searchDate, projectId = "" } = params
+        // TODO 这里的逻辑需要调整，根据projectId获取点位列表
+        const pointList = await BuryPointWarehouseModel.getListByProjectIdAndOldType(projectId)
+        let result = {}
+        const tableEndName = new Date(searchDate).Format("yyyyMMdd");
+        let querySql = ""
+        if (userId) {
+            querySql = ` where weUserId = '${userId}'`
+        } else if (customerKey) {
+            querySql = ` where weCustomerKey = '${customerKey}'`
+        }
+        if (querySql) {
+            for(let i = 0; i < pointList.length; i ++) {
+                const { id, pointName } = pointList[i]
+                const tableName = projectId + "_" + id + "_" + tableEndName;
+                const searchSql = `select * from ${tableName} ${querySql}`
+                const recordRes = await BuryPointCardModel.statisticData(searchSql);
+                result[id] = {
+                    name: pointName,
+                    list: recordRes || []
+                }
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200("success", result)
+    }
+
+    static async searchFieldName(ctx) {
+        const params = JSON.parse(ctx.request.body)
+        const { fieldKeys } = params
+        let fieldKeySql = "''"
+        fieldKeys.forEach((key) => {
+            fieldKeySql += `,'${key}'`
+        })
+        // TODO 这里的逻辑需要调整，根据projectId获取字段的名称
+        const fieldRes = await BuryPointFieldModel.getFieldListByKey(fieldKeySql)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200("success", fieldRes)
+    }
+
+    /**
+     * 导出数据
+     * filterList : [{"fieldName":"stayTime","rule":"等于","value":"1"},{"fieldName":"weCustomerKey","rule":"等于","value":"2"}]
+     * @param {*} ctx 
+     */
+    static async exportData(ctx){
+        const params = Utils.parseQs(ctx.request.url)
+        const { projectId, pointName ,selectedPointId, filterList = '[]', startNum = 0, endNum = 10, date, order = "descend" } = params;
+        const startTime = date + " 00:00:00"
+        const endTime = date + " 23:59:59"
+        const tableEndName = new Date(date).Format("yyyyMMdd");
+        const tableName = projectId + "_" + selectedPointId + "_" + tableEndName;
+
+        if(startNum > endNum){
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+        if(endNum > 10000){
+            endNum = 10000
+        }
+        // 获取筛选条件的数值类型
+        let filterListArr = JSON.parse(filterList);
+        for (let i = 0; i < filterListArr.length; i ++) {
+            const { fieldName } = filterListArr[i]
+            await BuryPointFieldModel.getFieldTypeByKey(fieldName).then((res) => {
+                if (res && res.length) {
+                    filterListArr[i].type = res[0].fieldType
+                }
+            })
+        }
+
+        let filterSql = ""
+        let andOrStr = "and"
+        if(filterListArr && filterListArr.length>0){
+            filterListArr.forEach((filter) => {
+                const { fieldName, rule, value, type = "",andOr="a" } = filter
+                let valueStr = value
+                if (type.toLowerCase() === "varchar") {
+                    valueStr = value
+                }
+                if(andOr){
+                    andOrStr = Utils.convertAndOr(andOr);
+                }
+                if (fieldName) {
+                    filterSql += " "+ fieldName + Utils.convertOper(rule) + "'" + valueStr + "' " + andOrStr
+                }
+            })
+            filterSql = " and (" +filterSql.substr(0, filterSql.lastIndexOf(andOrStr)) + ")";
+        }
+        const orderStr = order === "descend" ? "desc" : "asc"
+        let queryTotalSql = ` select * from ${tableName} where 1=1 ${filterSql} and createdAt>='${startTime}' and createdAt<='${endTime}' order by createdAt ${orderStr} limit ${startNum},${endNum} `
+        const res = await BuryPointCardModel.statisticData(queryTotalSql);
+
+        if (!res) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('没有数据！')
+            return
+        }
+
+        let fieldKeys = "''"
+        if (res && res.length) {
+            const tempData = res[0]
+            for(let key in tempData) {
+                if (key.indexOf("weFirstStepDay_") !== -1 || key === "id") {
+                    continue
+                }
+                fieldKeys += `,'${key}'`
+            }
+        }
+        // TODO 这里的逻辑需要调整，根据projectId获取字段的名称
+        const fieldRes = await BuryPointFieldModel.getFieldListByKey(fieldKeys)
+        const dateArray = [];//数量列表
+        var title = ['用户id','点位名称'] //这是第一行 俗称列名
+        for(let i = 0;i < fieldRes.length; i++){
+            title.push(fieldRes[i].fieldAlias);
+        }
+        title.push('创建时间');
+        dateArray.push(title);
+        if(res){
+            for(let i = 0;i < res.length; i++){
+                let dataInfo = res[i]
+                var arrInner = [];
+                arrInner.push(dataInfo.weCustomerKey);
+                arrInner.push(pointName);
+                for(let j = 0;j < fieldRes.length; j++){
+                    arrInner.push(dataInfo[fieldRes[j].fieldName]);
+                }
+                arrInner.push(dataInfo.createdAt);
+                dateArray.push(arrInner);
+            }
+        }
+        let filename = new Date().Format("yyyyMMddhhmmss")+ ".xlsx"
+        const buffer = xlsx.build([{ name: 'sheet1', data: dateArray }]);
+        const fileSize = buffer.length;
+        ctx.response.status = 200;
+        ctx.set('Content-disposition', 'attachment; filename=' + encodeURIComponent(filename))
+        ctx.set('Content-type', 'application/vnd.openxmlformats')
+        ctx.set('Content-Length', fileSize)
+        ctx.body = buffer
+    }
+
+    /**
+     * api导出数据接口
+     * @param {} ctx 
+     */
+    static async apiExport(ctx) {
+        const { purchaseCodeCardCount } = global.eventInfo
+        if (purchaseCodeCardCount < 9999) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412("您当前的版本无法使用API查询功能，卡片无限版可调用！")
+            return
+        }
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { userId = "", calcInfo, projectId, selectedPointId, filterList, page = 0, pageSize = 10, date, order = "desc" } = params;
+        const tableEndName = new Date(date).Format("yyyyMMdd");
+        const tableName = projectId + "_" + selectedPointId + "_" + tableEndName;
+        const start = (page - 1) * pageSize
+
+        // 获取筛选条件的数值类型
+        for (let i = 0; i < filterList.length; i ++) {
+            const { fieldName } = filterList[i]
+            await BuryPointFieldModel.getFieldTypeByKey(fieldName).then((res) => {
+                if (res && res.length) {
+                    filterList[i].type = res[0].fieldType
+                }
+            })
+        }
+
+        let filterSql = ""
+        let andOrStr = "and"
+        if(filterList && filterList.length>0){
+            filterList.forEach((filter) => {
+                const { fieldName, rule, value, type = "",andOr="a" } = filter
+                let valueStr = value
+                if (type.toLowerCase() === "varchar") {
+                    valueStr = value
+                }
+                if(andOr){
+                    andOrStr = Utils.convertAndOr(andOr);
+                }
+                if (fieldName) {
+                    filterSql += " "+ fieldName + Utils.convertOper(rule) + "'" + valueStr + "' " + andOrStr
+                }
+            })
+            filterSql = " and (" +filterSql.substr(0, filterSql.lastIndexOf(andOrStr)) + ")";
+        }
+        const orderStr = order
+
+        let result = {}
+        if (calcInfo && calcInfo.calcField) {
+            let tableNamePre = Utils.setTableName(projectId + "_" + selectedPointId + "_", 0)
+            let querySql = await TimerStatisticController.splicingSql(calcInfo.calcField, [], tableNamePre);
+            const tempResult = await BuryPointCardModel.statisticData(`${querySql} ${filterSql}`);
+            if (tempResult && tempResult.length === 1) {
+                result = tempResult[0]
+            } else if (tempResult && tempResult.length > 1) {
+                result = tempResult
+            }
+        } else {
+            let queryTotalSql = ` select * from ${tableName} where 1=1 ${filterSql} order by createdAt ${orderStr} limit ${start},${pageSize} `
+            const res = await BuryPointCardModel.statisticData(queryTotalSql);
+            let queryTotalCountSql = ` select count(id) as count from ${tableName} where 1=1 ${filterSql} `
+            const totalRes = await BuryPointCardModel.statisticData(queryTotalCountSql);
+            let total = 0
+            if (totalRes && totalRes.length) {
+                total = totalRes[0].count * 1
+            }
+            result = {total, dataList: res || []}
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200("success", result)
+    }
+}
+
+
+/**
+ * 初始化数据
+ */
+class CommonInitDataController {
+
+    /**
+     * 初始化通用字段
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async handleWeFieldData(projectId,nickname){
+        //2、判断通用字段是否已经在项目中了
+        for(let i=0;i<weFieldList.length;i++){
+            let fieldDetail = weFieldList[i]
+            let {fieldName,fieldAlias,fieldType,fieldLength,groupByFlag,fieldDesc,weType} = fieldDetail;
+            const resWeField = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+            if(!resWeField || (resWeField && resWeField.length === 0)){
+                //新建
+                fieldDetail.projectId = projectId
+                fieldDetail.createBy = nickname
+                let ret = await BuryPointFieldModel.create(fieldDetail);
+            }
+        }
+    }
+     /**
+     * 初始化通用点位
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async handleWePointData(projectId,nickname){
+        //2、判断通用字段是否已经在项目中了
+        for(let i=0;i<wePointList.length;i++){
+            let pointDetail = wePointList[i]
+            let {pointName,pointDesc,weType,replacePointIdKey,fieldList} = pointDetail;
+            let newFieldIds = "";
+            for(let j=0;j<fieldList.length;j++){
+                let fieldDetail = fieldList[j]
+                let {fieldName,fieldAlias,fieldType,fieldLength,groupByFlag,fieldDesc,weType} = fieldDetail;
+                const resWeField = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+                if(!resWeField || (resWeField && resWeField.length === 0)){
+                    //新建
+                    fieldDetail.projectId = projectId
+                    fieldDetail.createBy = nickname
+                    let ret = await BuryPointFieldModel.create(fieldDetail);
+                    newFieldIds = newFieldIds + ret.id + ",";
+                }else{
+                    newFieldIds = newFieldIds + resWeField[0].id + ",";
+                }
+            }
+            newFieldIds = newFieldIds.substring(0, newFieldIds.lastIndexOf(','));
+            //根据projectId 和新字段ids，查询是否有一样的点位，一样就不创建，直接用
+            let pointInfo = await BuryPointWarehouseModel.getByProjectIdAndFieldIds(projectId,newFieldIds)
+            if(pointInfo && pointInfo.length > 0){
+                
+            }else {
+                pointDetail.fields=newFieldIds
+                pointDetail.createBy=nickname
+                pointDetail.projectId =projectId
+                await BuryPointWarehouseModel.create(pointDetail);
+            }
+        }
+    }
+
+    /**
+     * 初始化通用卡片(目前是心跳次数卡片)
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async handleWeCardData(projectId,pageId,nickname){
+        //1、查询心跳检测点位id
+        let wePontIdsRet = await BuryPointWarehouseModel.getWePointIdsByProjectId(projectId);
+        let heartBeatPointId = wePontIdsRet && wePontIdsRet.length>0?wePontIdsRet[0].id:"";
+        //2、判断通用字段是否已经在项目中了
+        for(let i=0;i<weCardList.length;i++){
+            let cardDetail = weCardList[i]
+            cardDetail.createBy = nickname
+            cardDetail.pageId = pageId
+            let calcRuleJSON = JSON.parse(cardDetail.calcRule);
+            let newCalcRule = []
+            for (let j = 0; j < calcRuleJSON.length; j++) {
+                //重新设置calcNameKey和点位id
+                let calcData = calcRuleJSON[j];
+                let calcName = calcData.calcName;
+                calcData.calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                calcData.prePoint.pointId = heartBeatPointId;     
+                newCalcRule.push(calcData);
+            }
+            cardDetail.calcRule = JSON.stringify(newCalcRule);
+            //4、创建卡片
+            BuryPointCardModel.create(cardDetail);
+        }
+    }
+
+    /**
+     * 初始化通用点位和通用字段
+     * @param {项目id} projectId 
+     * @param {用户名} nickname 
+     */
+    static async initWeFieldAndPointData(projectId,nickname){
+        //1、初始化通用点位
+        await CommonInitDataController.handleWePointData(projectId,nickname);
+        //2、初始化通用字段
+        await CommonInitDataController.handleWeFieldData(projectId,nickname);
+    }
+
+    /**
+     * 老字段为每个项目都创建一遍
+     * @param {项目id} projectId 
+     * @param {用户名} nickname 
+     */
+    static async handleOldFieldData(projectId,nickname){
+       let oldFieldList =  await BuryPointFieldModel.getOldList();
+       for(let i = 0;i<oldFieldList.length;i++){
+            let {fieldName,fieldAlias,fieldType,fieldLength,groupByFlag,fieldDesc,weType,createBy} = oldFieldList[i];
+            const res = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+            if(res && res.length > 0){
+                
+            }else {
+                //新建
+                let req = {};
+                req.weType = weType
+                req.projectId = projectId
+                req.fieldName = fieldName
+                req.fieldAlias = fieldAlias
+                req.fieldType = fieldType
+                req.fieldLength = fieldLength
+                req.groupByFlag = groupByFlag
+                req.fieldDesc = fieldDesc
+                req.createBy = createBy?createBy:nickname
+                await BuryPointFieldModel.create(req);
+            }
+       }
+    }
+
+    /**
+     * 
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async handleData(projectInfo,nickname){
+        //遍历项目下所有分组，遍历分组下所有看板，遍历看板下所有卡片
+        const {id,projectId,name,createBy} = projectInfo
+        let newPointIdArray=[];
+        let currDate = new Date().Format("yyyyMMddhhmmss");
+        let groupList = await BuryPointProjectModel.getListByParentId(id)
+        for(let i=0;i<groupList.length;i++){
+            let pageList = await BuryPointProjectModel.getListByParentId(groupList[i].id)
+            for(let j=0;j<pageList.length;j++){
+                let pageId = pageList[j].id
+                let cardList = await BuryPointCardModel.getByPageId(pageId)
+                for(let k=0;k<cardList.length;k++){
+                    let cardId = cardList[k].id
+                    let type = cardList[k].type
+                    let calcRuleJSON = JSON.parse(cardList[k].calcRule);
+                    let newCalcRule = []
+                    let pointAndStepNameList = []
+                    for (let m = 0; m < calcRuleJSON.length;m++) {
+                        //重新设置calcNameKey和点位id
+                        let calcData = calcRuleJSON[m];
+                        let prePoint = calcData.prePoint;
+                        let pointId = prePoint.pointId;
+                        //5、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                        let newPointId = await BuryPointWarehouseController.copyPoint(projectId, pointId, createBy);
+                        newPointIdArray.push(newPointId);
+                        calcData.prePoint.pointId = newPointId;
+                        let endPoint = calcData.endPoint;
+                        if(endPoint){
+                            //6、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                            let newEndPointId = await BuryPointWarehouseController.copyPoint(projectId, endPoint.pointId, createBy);
+                            newPointIdArray.push(newEndPointId);
+                            calcData.endPoint.pointId = newEndPointId;
+                        }       
+                        newCalcRule.push(calcData);
+                        if (type === 5) {
+                            pointAndStepNameList.push(newPointId);
+                        }
+                    }
+                    cardList[k].calcRule = JSON.stringify(newCalcRule);
+                    //8、漏斗图创建点位和步骤关系
+                    if (type === 5) {
+                       BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, cardId);
+                    }
+                   //更新卡片
+                   BuryPointCardModel.update(cardId,cardList[k])
+                }
+            }
+        }
+        //9、新建一个SDK发布
+        //点位ids去重
+        let newPointIdArraySetArr = [...new Set(newPointIdArray)];
+        SdkReleaseController.createNewSdk(projectId,name + currDate,newPointIdArraySetArr,nickname)
+    }
+
+    /**
+     * 初始化系统模板中的点位的字段
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async initWeTemplatePointAndField(projectId,templatePoint,nickname){
+        let pointList = JSON.parse(templatePoint)
+        let pointRelationList = []
+        //2、判断通用字段是否已经在项目中了
+        for(let i=0;i<pointList.length;i++){
+            let pointRelation = {};
+            let pointDetail = pointList[i]
+            let {pointId,fieldList} = pointDetail;
+            pointRelation.oldPointId = pointId
+            let newFieldIds = "";
+            let newPointId;
+            for(let j=0;j<fieldList.length;j++){
+                let fieldDetail = fieldList[j]
+                let {fieldName,fieldAlias,fieldType,fieldLength} = fieldDetail;
+                const resWeField = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+                if(!resWeField || (resWeField && resWeField.length === 0)){
+                    //新建
+                    fieldDetail.projectId = projectId
+                    fieldDetail.createBy = nickname
+                    let ret = await BuryPointFieldModel.create(fieldDetail);
+                    newFieldIds = newFieldIds + ret.id + ",";
+                }else{
+                    newFieldIds = newFieldIds + resWeField[0].id + ",";
+                }
+            }
+            newFieldIds = newFieldIds.substring(0, newFieldIds.lastIndexOf(','));
+             //根据projectId 和新字段ids，查询是否有一样的点位，一样就不创建，直接用
+            let pointInfo = await BuryPointWarehouseModel.getByProjectIdAndFieldIds(projectId,newFieldIds)
+            if(pointInfo && pointInfo.length > 0){
+                newPointId = pointInfo[0].id;
+            }else {
+                pointDetail.fields = newFieldIds
+                pointDetail.createBy = nickname
+                pointDetail.projectId = projectId
+                let newPointRet = await BuryPointWarehouseModel.create(pointDetail);
+                newPointId = newPointRet.id
+            }
+            pointRelation.newPointId = newPointId
+            pointRelationList.push(pointRelation);
+        }
+        return pointRelationList;
+    }
+
+    /**
+     * 初始化系统模板中的点位的字段
+     * @param {*} projectId 
+     * @param {*} nickname 
+     */
+    static async getNewPointId(oldPointId,pointRelationList){
+        //2、判断通用字段是否已经在项目中了
+        for(let i=0;i<pointRelationList.length;i++){
+            if(oldPointId === pointRelationList[i].oldPointId){
+                return pointRelationList[i].newPointId
+            } 
+            
+        }
+    }
+
+
+    /**
+     * 通过计算规则，创建字段和点位
+     * [
+            {
+                "calcName":"曝光量",
+                "prePoint":{
+                    "calcField":{
+                        "fieldName":"weCustomerKey",
+                        "isRepeat":"0"
+                    },
+                    "pointId":21,
+                    "queryCriteria":[
+                        {
+                            "fieldName":"puGuangNeiRongKeGuiLei",
+                            "rule":"等于",
+                            "value":"webfunny价格页"
+                        },
+                        {
+                            "fieldName":"yeMianLuJing",
+                            "rule":"等于",
+                            "value":"/price"
+                        }
+                    ]
+                },
+                "calcNameKey":"puguangliang20230221003738",
+                "combineType":"a"
+            },
+       ]
+     */
+
+}
+
+class ConfigController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+            let ret = await ConfigModel.createConfig(req);
+            let data = await ConfigModel.getConfigDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+    static async refreshTokenList() {
+        const configList = await ConfigModel.getAllConfigList()
+        const tokenList = {}
+        configList.forEach((item) => {
+            tokenList[item.configName] = item.configValue
+        })
+        global.eventInfo.tokenListInMemory = tokenList
+    }
+
+    static async getConfig(configName) {
+        const res = await ConfigModel.getConfigByConfigName(configName)
+        return res
+    }
+
+    static async updateConfig(configName, data) {
+        const res = await ConfigModel.getConfigByName(configName)
+        if (res) {
+            await ConfigModel.updateConfig(configName, data)
+        } else {
+            await ConfigModel.createConfig({configName, ...data})
+        }
+    }
+}
+
+class BuryPointFieldController {
+
+    /**
+     * @swagger
+     * /buryPointField/create:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 创建
+     *     parameters:
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldAlias
+     *         description: 字段名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldType
+     *         description: 字段类型
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldLength
+     *         description: 字段长度
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: fieldDesc
+     *         description: 字段描述
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: groupByFlag
+     *         description: 是否可归类：1-是，0-否
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *       - name: weType
+     *         description: 是否通用字段标识（1-通用字段，0-项目字段）
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname} = ctx.user
+        req.createBy = nickname
+        if (req.projectId && req.fieldAlias && req.fieldType && req.fieldLength && req.fieldDesc) {
+            //如果用户填了通用字段，提示不可用，因为创建表的时候，默认有个自增id字段了
+            //通用字段：id,wfType,wfIsFirstDayBrowse,wfHapppenHour,wfHapppenMinute,wfCustomerKey,wfUserId,wfSysVersion,wfCity,wfCountry,wfSimpleUrl,wfBrowser,wfOs,wfDeviceSize,createdAt
+            if (!Utils.checkFieldNameValid(req.fieldAlias)){
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.FIELD_CREATE_FAIL)}`)
+                return
+            }
+            //数字类型，长度不能超过255
+            //INT 4 -2147483648 2147483647
+            //BIGINT 8 -9223372036854775808 9223372036854775807
+            if (req.fieldType === 'INT'){
+              if (req.fieldLength >= 255){
+                 req.fieldLength = 255;
+                 req.fieldType = 'BIGINT'
+              }else if(req.fieldLength < 255 && req.fieldLength > 10){
+                req.fieldType = 'BIGINT'
+              }
+            }
+            //1、"用户id"转成拼音yong_hu_id;
+            req.fieldName = Utils.pinYinToHump(req.fieldAlias);
+            //同一个项目下，拼音转换后的字段不能重复
+            const res = await BuryPointFieldModel.checkFieldName('',req.projectId,req.fieldAlias,'');
+            let count = res[0].count
+            if(count > 0){
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_FIELD_NAME_EXIST)}`)
+                return
+            }
+            //通用字段标识：1-是，0-否
+            req.weType = 0
+            let ret = await BuryPointFieldModel.create(req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/detail:
+     *   get:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 详情
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        if (id) {
+            let data = await BuryPointFieldModel.detail(id);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', data)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+    }
+
+   /**
+     * @swagger
+     * /buryPointField/update:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 更新
+     *     parameters:
+     *       - name: id 
+     *         description: 主键id
+     *         in: formData
+     *         required: true
+     *         type: integer 
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldAlias
+     *         description: 字段名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldType
+     *         description: 字段类型
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldLength
+     *         description: 字段长度
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: fieldDesc
+     *         description: 字段描述
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: groupByFlag
+     *         description: 是否可归类：1-是，0-否
+     *         in: formData
+     *         required: false
+     *         type: integer,
+     *       - name: weType
+     *         description: 是否通用字段标识（1-通用字段，0-项目字段）
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const {nickname} = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            if (!Utils.checkFieldNameValid(req.fieldAlias)){
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.FIELD_CREATE_FAIL)}`)
+                return
+            }
+            //数字类型，长度不能超过255
+            if (req.fieldType === 'INT'){
+                if (req.fieldLength >= 255){
+                   req.fieldLength = 255;
+                   req.fieldType = 'BIGINT'
+                }else if(req.fieldLength < 255 && req.fieldLength > 10){
+                  req.fieldType = 'BIGINT'
+                }
+            }
+            //数字INT类型，长度不能超过11
+            if (req.fieldType === 'BIGINT'){
+                if (req.fieldLength < 11){
+                    req.fieldType = 'INT'
+                }else if(req.fieldLength >= 255){
+                    req.fieldLength = 255;
+                }
+            }
+             //1、"用户id"转成拼音yong_hu_id;
+             req.fieldName = Utils.pinYinToHump(req.fieldAlias);
+             //同一个项目下，拼音转换后的字段不能重复
+            const res = await BuryPointFieldModel.checkFieldName(id,req.projectId,req.fieldAlias,'');
+             let count = res[0].count
+             if(count > 0){
+                 ctx.response.status = 412;
+                 ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_PARAM_FAIL)}`)
+                 return
+             }
+            await BuryPointFieldModel.update(id, req);
+            let data = await BuryPointFieldModel.detail(id);
+        
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, data);
+        } else {
+    
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+   
+   /**
+     * @swagger
+     * /buryPointField/delete:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 删除
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        // 删除前，先检查所有点位仓库是否有该字段
+        const resPointList = await BuryPointWarehouseModel.getAllList('');
+        for (let i = 0 ; i < resPointList.length; i++) {
+            const point = resPointList[i];
+            const { pointName,fields } = point
+            let fieldIdArray = fields.split(",")
+            for (let j = 0;j<fieldIdArray.length; j++){
+                if (parseInt(id,10) === parseInt(fieldIdArray[j],10)){
+                    ctx.response.status = 412;
+                    let message = `${Utils.b64DecodeUnicode(ConstMsg.FIELD_DELETE_FAIL_1)}`+ pointName +`${Utils.b64DecodeUnicode(ConstMsg.FIELD_DELETE_FAIL_2)}`
+                    ctx.body = statusCode.ERROR_412(message)
+                    return;
+                }
+            }
+        }
+        await BuryPointFieldModel.delete(id)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/page:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 获取分页列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: fieldType
+     *         description: 字段类型
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *       - name: fieldAlias
+     *         description: 字段名称
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *       - name: weType
+     *         description: 是否通用字段标识（1-通用字段，0-项目字段）
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getPageList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const {projectId, fieldType="", fieldAlias="",weType="", page, pageSize } = params;
+        if(projectId){
+            const total = await BuryPointFieldModel.getPageCount(projectId,weType,fieldType,fieldAlias)
+            const totalCount = total[0].count
+            const res = await BuryPointFieldModel.getPageList(projectId,weType,fieldType,fieldAlias, page, pageSize)
+            const resPointList = await BuryPointWarehouseModel.getAllList(projectId);
+            for (let i = 0 ; i < res.length; i++) {
+                const {id,weType} = res[i]
+                let isEdit = 1
+                if(weType && weType === 1){
+                    isEdit = 0;
+                }else{
+                    // 是否可编辑，先检查所有点位仓库是否有该字段
+                    for (let j = 0 ; j < resPointList.length; j++) {
+                        const point = resPointList[j];
+                        const { fields } = point
+                        let fieldIdArray = fields.split(",")
+                        for (let k = 0;k<fieldIdArray.length; k++){
+                            if (parseInt(id,10) === parseInt(fieldIdArray[k],10)){
+                                isEdit = 0;
+                            }
+                        }
+                    }
+                }
+                res[i].isEdit = isEdit
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', {list: res,totalCount})
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+        
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/list:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 获取列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *       - name: fieldType
+     *         description: 字段类型
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *       - name: fieldAlias
+     *         description: 字段名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getNoWeList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, fieldType="", fieldAlias="" } = params;
+        if(projectId){
+            const res = await BuryPointFieldModel.getList(projectId,0, fieldType,fieldAlias)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/getListByPointId:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 通过点位id获取字段列表
+     *     parameters:
+     *       - name: pointId
+     *         description: 点位id
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getListByPointId(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { pointId } = params;
+        if(pointId){
+            const point = await BuryPointWarehouseModel.detail(pointId);
+            const { fields } = point
+            const res = [];
+            const resList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for (let j = 0 ; j < resList.length; j++) {
+                res.push(resList[j]);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/getListAndWfByPointId:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 通过点位id获取项目字段和通用字段列表
+     *     parameters:
+     *       - name: pointId
+     *         description: 点位id
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getListAndWfByPointId(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { pointId } = params;
+        if(pointId){
+            const point = await BuryPointWarehouseModel.detail(pointId);
+            const { fields,projectId } = point
+            const res = [];
+            //1、首先获取通用字段
+            //2、然后获取项目字段
+            //3、内置id排在最上面，然后是项目字段，最后是其他通用字段
+            const weFieldList = await BuryPointFieldModel.getListByProjectIdAndWeType(projectId,1);
+            for (let j = 0 ; j < weFieldList.length; j++) {
+                if(weFieldList[j].fieldName.toString().toLowerCase()=== 'wecustomerkey'){
+                    res.push(weFieldList[j]);
+                    break;
+                }
+            }
+            const resList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for (let j = 0 ; j < resList.length; j++) {
+                res.push(resList[j]);
+            }
+            for (let j = 0 ; j < weFieldList.length; j++) {
+                if(weFieldList[j].fieldName.toString().toLowerCase()!== 'wecustomerkey'){
+                    res.push(weFieldList[j]);
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/getListAndWfByProjectId:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 通过项目id获取项目字段和通用字段列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getListAndWfByProjectId(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId } = params;
+        if(projectId){
+            const res = [];
+            const resList = await BuryPointFieldModel.getListByProjectIdAndWeType(projectId,'')
+            for (let i = 0 ; i < resList.length; i++) {
+                let fieldInfo = {}
+                //id,projectId,weType,fieldAlias,fieldName,fieldType,fieldLength,fieldDesc,groupByFlag
+                fieldInfo.id  = resList[i].id
+                fieldInfo.fieldName  = resList[i].fieldName
+                fieldInfo.fieldAlias  = resList[i].fieldAlias
+                fieldInfo.fieldType  = resList[i].fieldType
+                fieldInfo.fieldDesc  = resList[i].fieldDesc
+                fieldInfo.groupByFlag  = resList[i].groupByFlag
+                fieldInfo.weType  = resList[i].weType
+                res.push(fieldInfo);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', res)
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/getFieldCount:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 获取项目字段个数和通用字段个数
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getFieldCount(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId} = params;
+        if(projectId){
+            const total = await BuryPointFieldModel.getPageCount(projectId,0,'','')
+            const projectCount = total[0].count
+            const weTotal = await BuryPointFieldModel.getPageCount(projectId,1,'','')
+            const weCount = weTotal[0].count
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', {projectCount,weCount})
+        }else{
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+        
+    }
+
+    /**
+     * @swagger
+     * /buryPointField/AllList:
+     *   get:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 通过所有字段列表
+     *     parameters:  
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getAllList(ctx) {
+        const res = await BuryPointFieldModel.getAllList()
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+     /**
+     * 复制字段
+     * 参数：projectId-要复制到的项目id，fieldId-被复制的字段id
+     * 逻辑：
+     * 新建字段，判断是否一样的标准：fieldName，fieldAlias，fieldType，fieldLength都一样不用复制，不一样就新建一个字段
+     * @param 
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /buryPointField/copy:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 复制字段
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldId
+     *         description: 要复制的字段id
+     *         in: formData
+     *         required: true
+     *         type: integer    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+     static async copyField(projectId,fieldId,nickname) {
+        const fieldDetail = await BuryPointFieldModel.detail(fieldId);
+        let {fieldName,fieldAlias,fieldType,fieldLength,groupByFlag,fieldDesc,weType,createBy} = fieldDetail;
+        const res = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+        
+        if(res && res.length > 0){
+            return res[0].id;
+        }else {
+            //新建
+            let req = {};
+            req.weType = weType
+            req.projectId = projectId
+            req.fieldName = fieldName
+            req.fieldAlias = fieldAlias
+            req.fieldType = fieldType
+            req.fieldLength = fieldLength
+            req.groupByFlag = groupByFlag
+            req.fieldDesc = fieldDesc
+            req.createBy = createBy?createBy:nickname
+            let ret = await BuryPointFieldModel.create(req);
+            return ret.id;
+        }
+     }
+
+     /**
+     * 导入字段
+     * 参数：projectId-要导入到的项目id，fieldId-被导入的字段id
+     * 逻辑：
+     * 新建字段，判断是否一样的标准：fieldName，fieldAlias，fieldType，fieldLength都一样不用复制，不一样就新建一个字段
+     * @param 
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /buryPointField/fieldExport:
+     *   post:
+     *     tags:
+     *       - 字段仓库
+     *     summary: 导入字段
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id(event101)
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: fieldIds
+     *         description: 字段ids("1,2")
+     *         in: formData
+     *         required: false
+     *         type: string    
+     *       - name: allSelectProjectId
+     *         description: 全选的项目id("event101")
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async exportField(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId,fieldIds="",allSelectProjectId="" } = params;
+        const { nickname } = ctx.user;
+        if(projectId && (fieldIds || allSelectProjectId)){
+            let fieldArray = [];
+            if(allSelectProjectId){
+                let resFieldIds = await BuryPointFieldModel.getIdsByProjectId(allSelectProjectId);
+                for (let j = 0; j< resFieldIds.length; j++){
+                    fieldArray.push(resFieldIds[j].id)
+                }
+            }
+            if(fieldIds){
+                let fieldIdArray = fieldIds.split(",");
+                for (let i = 0; i< fieldIdArray.length; i++){
+                    fieldArray.push(fieldIdArray[i]);
+                }  
+            }
+            let countInfo = {};
+            countInfo.successCount = 0;
+            countInfo.repeatCount = 0;
+            countInfo.repeatField = [];
+            for (let i = 0; i< fieldArray.length; i++){
+                // await BuryPointFieldController.copyField(projectId,fieldArray[i],nickname);
+                const fieldDetail = await BuryPointFieldModel.detail(fieldArray[i]);
+                let {fieldName,fieldAlias,fieldType,fieldLength,groupByFlag,fieldDesc,weType} = fieldDetail;
+                const res = await BuryPointFieldModel.existSameField(projectId,fieldName,fieldAlias,fieldType,fieldLength);
+                if(res && res.length > 0){
+                    countInfo.repeatCount = countInfo.repeatCount + 1
+                    countInfo.repeatField.push(fieldAlias)
+                }else {
+                    //新建
+                    let req = {};
+                    req.weType = weType
+                    req.projectId = projectId
+                    req.fieldName = fieldName
+                    req.fieldAlias = fieldAlias
+                    req.fieldType = fieldType
+                    req.fieldLength = fieldLength
+                    req.groupByFlag = groupByFlag
+                    req.fieldDesc = fieldDesc
+                    req.createBy = nickname
+                    await BuryPointFieldModel.create(req);
+                    countInfo.successCount = countInfo.successCount + 1
+                }
+            } 
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', countInfo)
+        }else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+     }
+}
+
+class MessageController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async createNewMessage(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { id, ruleName, loopTime, quietStartTime, quietEndTime } = req
+        const ruleList = JSON.stringify(req.ruleList)
+        const paramData = { ruleName, loopTime, quietStartTime, quietEndTime, ruleList }
+        if (ruleName) {
+            if (id) {
+                paramData.id = id
+                await MessageModel.updateMessage(id, paramData)
+            } else {
+                await MessageModel.createMessage(paramData);
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async getAllMessage(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        let data = await MessageModel.getAllMessage(params);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    }
+
+    static async getMessageByType(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { userId } = ctx.user
+        params.userId = userId
+        // 获取分页消息
+        let data = await MessageModel.getMessageByType(params);
+        // 获取有多少条未读消息
+        let readCountInfo = await MessageModel.getUnReadMessageCountByType(params);
+        let unReadCount = 0
+        let total = 0
+        if (readCountInfo) {
+            readCountInfo.forEach((readInfo) => {
+                if (readInfo.isRead === 0) {
+                    unReadCount = parseInt(readInfo.count, 10)
+                }
+                total += parseInt(readInfo.count, 10)
+            })
+        }
+        const result = {
+            messages: data,
+            unReadCount,
+            total,
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', result)
+    }
+
+    static async readMessage(ctx) {
+        let req = JSON.parse(ctx.request.body)
+        const { messageId } = req
+        const message = MessageModel.getMessageDetail(messageId)
+        message.isRead = 1
+        await MessageModel.updateMessage(messageId, message);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', 0)
+    }
+
+    static async readAll(ctx) {
+        let req = JSON.parse(ctx.request.body)
+        const { messageType } = req
+        const { userId } = ctx.user
+        MessageModel.readAll(userId, messageType)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', 0)
+    }
+
+    /**
+     * 查询单条信息数据
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async detail(id) {
+        return await MessageModel.getMessageDetail(id)
+    }
+}
+
+class SysInfoController {
+
+    static async getSysInfo(ctx){
+        const sysInfoData = {};
+
+        const { purchaseCodeEndDate, purchaseCodeValid, purchaseCodeType,purchaseCodeCardCount } = global.eventInfo
+        sysInfoData.isValid = purchaseCodeValid;
+        //版本号
+        sysInfoData.version = webfunnyVersion;
+        //产品名称
+        sysInfoData.productType = purchaseCodeType;
+        //到期时间
+        sysInfoData.endDate = purchaseCodeEndDate;
+        
+        //卡片总数(项目个数)
+        const retCardCount = await BuryPointCardModel.getCountByNoSysType("");
+        sysInfoData.cardCount = isNaN(retCardCount[0].count) ? 0 : retCardCount[0].count;
+        sysInfoData.cardTotalCount = purchaseCodeCardCount;
+        //项目总数
+        const retProjectCount = await BuryPointProjectModel.getCountByNameAndType("",1);
+        sysInfoData.projectCount = isNaN(retProjectCount[0].count) ? 0 : retProjectCount[0].count;
+        //SDK发布总数
+        const retSdkReleaseCount = await SdkReleaseModel.getPageCount("","","","");
+        sysInfoData.sdkReleaseCount = isNaN(retSdkReleaseCount[0].count) ? 0 : retSdkReleaseCount[0].count;
+        //点位总数
+        const retPointCount = await BuryPointWarehouseModel.getPageCount("","","");
+        sysInfoData.pointCount = isNaN(retPointCount[0].count) ? 0 : retPointCount[0].count;
+        //点位字段总数
+        const retPointFieldCount = await BuryPointFieldModel.getPageCount('','','', '');
+        sysInfoData.pointFieldCount = isNaN(retPointFieldCount[0].count) ? 0 : retPointFieldCount[0].count;
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', sysInfoData)
+    }
+
+    /**
+     * @swagger
+     * /baseInfo:
+     *   post:
+     *     tags:
+     *       - 系统信息
+     *     summary: 系统信息
+     *     parameters:    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getBaseInfo(ctx){
+        const baseInfoData = {};
+        const { purchaseCodeType,purchaseCodeCardCount } = global.eventInfo
+        //产品类型：23：黄金VIP,25,26,28：VIP版
+        baseInfoData.productType = purchaseCodeType;
+        if(purchaseCodeType === 23
+            || purchaseCodeType === 25|| purchaseCodeType === 26
+            || purchaseCodeType === 28){
+            baseInfoData.isVIP = 1;
+        }else {
+            baseInfoData.isVIP = 0;
+        }
+        //卡片总数(项目个数)
+        const retCardCount = await BuryPointCardModel.getCountByNoSysType("");
+        let cardCount = isNaN(retCardCount[0].count) ? 0 : retCardCount[0].count;
+        // baseInfoData.cardTotalCount = purchaseCodeCardCount;
+        baseInfoData.cardSurplus = parseInt(purchaseCodeCardCount) - parseInt(cardCount);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', baseInfoData)
+    }
+
+}
+
+class TeamController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = ctx.request.body;
+
+        if (req.title && req.author && req.content && req.category) {
+
+            const teamList = await TeamModel.getAllTeamList()
+            let totalCount = 0
+            teamList.forEach((team) => {
+                totalCount ++
+            })
+
+            if ((global.eventInfo.purchaseCodeType === 0 ||
+                (global.eventInfo.purchaseCodeType >= 30 && global.eventInfo.purchaseCodeType <= 33)) 
+                && totalCount >= 2) {
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412('您好，个人(试用)版用户最多只能够创建一个团队，升级为正式版，则可以无限创建团队哦。')
+                return
+            }
+
+            let ret = await TeamModel.createTeam(req);
+            let data = await TeamModel.getTeamDetail(ret.id);
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('创建信息成功', data)
+        } else {
+
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+        }
+    }
+
+    static async createNewTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        
+        const { teamName } = param
+        const { userId } = ctx.user
+        const team = {teamName, leaderId: userId, members: userId, webMonitorIds: ""}
+        await TeamModel.createTeam(team);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    }
+
+    static async deleteTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+
+        // 删除前，先检查team下是否还有团队
+        const teamDetail = await TeamModel.getTeamDetail(id)
+        const webMonitorIds = teamDetail.webMonitorIds
+        const projects = await BuryPointProjectModel.getProjectListByWebMonitorIds(webMonitorIds,"")
+        if (projects.length <= 0) {
+            await TeamModel.deleteTeam(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', "")
+        } else {
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', "当前team下还有项目，无法执行删除操作！")
+        }
+        
+    }
+
+    static async moveProToTeam(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { showMoveMonitorId, chooseTeamId } = param
+        const team = await TeamModel.getTeamDetail(chooseTeamId)
+        const tempProjects = team.webMonitorIds + "," + showMoveMonitorId
+        await TeamModel.updateTeam(chooseTeamId, {webMonitorIds: tempProjects})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async getTeamList(ctx) {
+        const { userId, userType } = ctx.user
+
+        // const res = await TeamModel.getTeamList(userId, userType)
+        //改为从接口获取teamList
+        // const response = await Utils.postJson(`http://${accountInfo.centerServerDomain}/wfManage/getTeamListWithoutToken`, {userId, userType}).catch((e) => {
+        //     if (typeof e === "object") {
+        //         log.printError(`http://${accountInfo.centerServerDomain}/wfManage/getTeamListWithoutToken ->` + JSON.stringify(e))
+        //     } 
+        // })
+
+        const teamListRes = await Utils.requestForTwoProtocol("post", `${accountInfo.centerServerDomain}/wfManage/getTeamListWithoutToken`, {userId, userType})
+
+        if (!teamListRes) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('团队列表获取失败！')
+            return
+        }
+
+        const res = teamListRes.data
+        for (let i = 0; i < res.length; i ++) {
+            const team = res[i]
+            const { leaderId, members, webMonitorIds } = team
+            const users = await UserModel.getUserListByMembers(members)
+            team.members = users
+            users.forEach((user) => {
+                if (user.userId == leaderId) {
+                    team.leader = user
+                    return false
+                }
+            })
+            const projects = await BuryPointProjectModel.getProjectListByWebMonitorIds(webMonitorIds,"")
+            team.projects = projects
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async getTeams(ctx) {
+
+        const { userId, userType } = ctx.user
+        
+        const teamListRes = await Utils.requestForTwoProtocol("post", MANAGE_API.GET_TEAMS, {userId, userType})
+
+        if (!teamListRes) {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('团队列表获取失败！')
+            return
+        }
+
+        const res = teamListRes.data
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async addTeamMember(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id, members } = param
+        await TeamModel.updateTeam(id, {members})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async updateTeamProjects(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id, webMonitorIds } = param
+        await TeamModel.updateTeam(id, {webMonitorIds})
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    static async getAllTeamList(ctx) {
+        const res = await TeamModel.getAllTeamList()
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+}
+
+
+class UserController {
+  /**
+   * webfunny
+   */
+  static sendEmail(email, title, content) {
+
+    if (accountInfo.useCusEmailSys === true) {
+      CusUtils.sendEmail(email, title, content, accountInfo.emailUser, accountInfo.emailPassword)
+    } else {
+      fetch("http://www.webfunny.cn/config/sendEmail",
+      {
+          method: "POST", 
+          body: JSON.stringify({email, title, content}),
+          headers: {
+              "Content-Type": "application/json;charset=utf-8"
+          }
+      }).catch((e) => {
+      })
+    }
+  }
+
+  /**
+   * 创建信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async create(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { funnelName, funnelIds } = param
+    const data = {funnelName, funnelIds}
+    /* 判断参数是否合法 */
+    if (param.funnelName) {
+      let ret = await UserModel.createUser(data);
+      let res = await UserModel.getUserDetail(ret.id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', res || {})
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  
+  /**
+   * 获取信息列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserList(ctx) {
+    let req = ctx.request.body
+  
+    if (req) {
+      const data = await UserModel.getUserList();
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+
+  /**
+   * 管理员获取用户列表
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getUserListByAdmin(ctx) {
+    let req = ctx.request.body
+    const { userType } = ctx.user
+    if (userType !== "admin" || userType !== "superAdmin") {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('非管理员，无权调用此接口！');
+      return
+    }
+    if (req) {
+      const data = await UserModel.getUserListByAdmin();
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('查询信息列表失败！');
+    }
+  
+  }
+
+  /**
+   * 获取所有用户列表，只返回userId, name
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async getAllUserInfoForSimple(ctx) {
+    const data = await UserModel.getAllUserInfoForSimple();
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('查询信息列表成功！', data)
+  }
+
+  /**
+   * 查询单条信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async detail(ctx) {
+    let id = ctx.params.id;
+  
+    if (id) {
+      let data = await UserModel.getUserDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('查询成功！', data)
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传');
+    }
+  }
+  
+  
+  /**
+   * 删除信息数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async delete(ctx) {
+    let params = JSON.parse(ctx.request.body)
+    let id = params.id;
+  
+    if (id && !isNaN(id)) {
+      await UserModel.deleteUser(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('删除信息成功！')
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('信息ID必须传！');
+    }
+  }
+  
+  /**
+   * 更新导航条数据
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async update(ctx) {
+    let req = ctx.request.body;
+    let id = ctx.params.id;
+  
+    if (req) {
+      await UserModel.updateUser(id, req);
+      let data = await UserModel.getUserDetail(id);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('更新信息成功！', data);
+    } else {
+  
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('更新信息失败！')
+    }
+  }
+  
+  static async setValidateCode() {
+    const charArr = "0123456789ABCDEFGHGKLMNOPQRSTUVWXYZabcdefghigkmnopqrstuvwxyz"
+    let code = ""
+    for (let i = 0; i < 4; i ++) {
+      const tempIndex = Math.floor(Math.random() * (charArr.length - 1) + 1)
+      code += charArr.charAt(tempIndex)
+    }
+    global.eventInfo.loginValidateCode = code
+    return code
+  }
+
+  static async refreshValidateCode(ctx) {
+    const code = UserController.setValidateCode()
+    if (global.eventInfo.loginValidateCodeTimer) {
+      clearInterval(global.eventInfo.loginValidateCodeTimer)
+    } else {
+      global.eventInfo.loginValidateCodeTimer = setInterval(() => {
+        UserController.setValidateCode()
+      }, 5 * 60 * 1000)
+    }
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', code)
+  }
+
+  static async getValidateCode(ctx) {
+    const code = global.eventInfo.loginValidateCode
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', code)
+  }
+  /**
+   * 登录并创建token
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async login(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { emailName, password, code } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const loginValidateCode = global.eventInfo.loginValidateCode.toLowerCase()
+    const loginCode = code.toLowerCase()
+    if (loginValidateCode != loginCode) {
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确，请重新输入！', 1)
+      return
+    }
+
+    // registerStatus = 1 代表激活状态
+    const data = {emailName, password: Utils.md5(decodePwd)}
+    const userData = await UserModel.getUserForPwd(data)
+    if (userData) {
+      const { userId, userType, registerStatus } = userData
+      if (registerStatus === 0) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('此账号尚未激活，请联系管理员激活！', 1)
+        return
+      }
+      const accessToken = jwt.sign({userId, userType, emailName}, secret.sign, {expiresIn: 33 * 24 * 60 * 60 * 1000})
+      global.eventInfo.webfunnyTokenList.push(accessToken)
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('登录成功', accessToken)
+    } else {
+      UserController.setValidateCode()
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户名密码不正确！', 1)
+    }
+    
+  }
+
+  static async forgetPwd(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { email } = param
+    // 判断是否为管理员
+    let adminData = await UserModel.isAdminAccount(email, USER_INFO.USER_TYPE_ADMIN)
+    if (adminData) {
+      UserController.sendEmail(email, "密码找回", "管理员你好， 你的登录密码是：" + adminData.password)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('管理员你好，密码已发送至您的邮箱，请注意查收！', 0)
+    } else {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('非管理员账号，请联系管理员获取登录密码！', 1)
+    }
+  }
+  
+
+  /**
+   * 发送注册验证码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async sendRegisterEmail(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { email } = param
+    const charArr = "0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz"
+    let code = ""
+    for (let i = 0; i < 4; i ++) {
+      const tempIndex = Math.floor(Math.random() * (charArr.length - 1) + 1)
+      code += charArr.charAt(tempIndex)
+    }
+    if (global.eventInfo.registerEmailCode[email]) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码发送太频繁', 1)
+      return
+    }
+    global.eventInfo.registerEmailCode[email] = code
+    // 邮箱验证失败次数清零
+    global.eventInfo.registerEmailCodeCheckError[email] = 0
+    // 1分钟后失效
+    setTimeout(() => {
+      delete global.eventInfo.registerEmailCode[email]
+    }, 2 * 60 * 1000)
+    const title = "注册验证码：" + code
+    const content = "<p>用户你好!</p>" + 
+    "<p>Webfunny注册的验证码为：" + code + "</p>" +
+    "<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>"
+    UserController.sendEmail(email, title, content)
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('验证码已发送', 0)
+  }
+
+  /**
+   * 给管理员发送检查邮件
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerCheck(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { name, email, emailCode, password } = param
+    const registerEmailCode = global.eventInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('邮箱已存在！', 1)
+      return
+    }
+
+    // 记录注册邮箱
+    Utils.postJson("http://www.webfunny.cn/config/recordEmail", {email, purchaseCode: accountInfo.purchaseCode}).catch((e) => {})
+
+    let adminData = await UserModel.getAdminByType("admin")
+
+    if (!adminData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('请先初始化管理员账号', 1)
+    } else {
+      const adminEmail = adminData.emailName
+      const { localServerDomain } = accountInfo
+      // 此处需要支持http协议
+      const confirmUrl = `http://${localServerDomain}/server/register?name=${name}&email=${email}&password=${password}`
+      const title = "管理员确认申请"
+      const content = "<p>管理员你好!</p>" + 
+      "<p>有用户申请注册你的监控系统，请点击注册链接，以完成注册：<a href='" + confirmUrl + "'>" + confirmUrl + "</a></p>" +
+      "<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>"
+      UserController.sendEmail(adminEmail, title, content)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    }
+  }
+
+  /**
+   * 注册用户
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async register(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { name, email, phone, password, emailCode } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const userId = Utils.getUuid()
+    const data = {nickname: name, emailName: email, phone, password: Utils.md5(decodePwd), userId, userType: "customer", registerStatus: 0}
+    
+    const registerEmailCodeCheckError = global.eventInfo.registerEmailCodeCheckError
+    if (registerEmailCodeCheckError[email] >= 3) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码失败次数达到上限，请重新获取验证码！', 1)
+      return
+    }
+    const registerEmailCode = global.eventInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      if (!registerEmailCodeCheckError[email]) {
+        registerEmailCodeCheckError[email] = 1
+      } else {
+        registerEmailCodeCheckError[email] ++
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+    
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('邮箱已存在！', 1)
+      return
+    }
+
+    /* 判断参数是否合法 */
+    if (data.nickname) {
+      let ret = await UserModel.createUser(data);
+      if (ret && ret.id) {
+        // 通知用户注册的账号密码
+        const title = "申请成功"
+        const content = "<p>用户你好!</p>" + 
+        "<p>你的账号已经申请成功，请联系管理员激活后，方可登录。</p>" +
+        "<p>账号：" + email + " 、 密码：" + decodePwd + "</p>" +
+        "<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>"
+        UserController.sendEmail(email, title, content)
+
+        // 获取管理员账号
+        const adminUser = await UserModel.getUserForAdmin()
+        // 给管理员发送一条系统消息
+        MessageModel.createMessage({
+          userId: adminUser[0].userId,
+          title: "用户注册通知",
+          content: `您好，用户【${email}】正在申请注册webfunny账号，请及时处理！`,
+          type: "sys",
+          isRead: 0,
+          link: `http://${accountInfo.localAssetsDomain}/webfunny_event/userList.html`
+        })
+        // 给管理员发送一封邮件
+        const adminTitle = "用户注册通知"
+        const adminContent = `
+        <p>尊敬的管理员：</p>
+        <p>您好，用户【${email}】正在申请注册webfunny账号，请及时处理！</p>
+        <p>点击链接处理：http://${accountInfo.localAssetsDomain}/webfunny_event/userList.html</p>
+        <p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>
+        `
+        UserController.sendEmail(adminUser[0].emailName, adminTitle, adminContent)
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+      }
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  /**
+   * 重置密码
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async resetPwd(ctx) {
+    const param = Utils.parseQs(ctx.request.url)
+    const { email, password, emailCode } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const data = {emailName: email, password: Utils.md5(decodePwd), emailCode}
+
+    const registerEmailCodeCheckError = global.eventInfo.registerEmailCodeCheckError
+    if (registerEmailCodeCheckError[email] >= 3) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码失败次数达到上限，请重新获取验证码！', 1)
+      return
+    }
+    const registerEmailCode = global.eventInfo.registerEmailCode[email]
+    const emailCodeStr = emailCode.toLowerCase()
+    // 判断验证码是否正确或是否失效
+    if (!registerEmailCode || emailCodeStr != registerEmailCode.toLowerCase()) {
+      if (!registerEmailCodeCheckError[email]) {
+        registerEmailCodeCheckError[email] = 1
+      } else {
+        registerEmailCodeCheckError[email] ++
+      }
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('验证码不正确或已失效！', 1)
+      return
+    }
+
+    // 判断用户名或者账号是否已经存在
+    let emailData = await UserModel.checkUserAccount(email)
+    if (!emailData) {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('此邮箱不存在！', 1)
+      return
+    }
+    let ret = await UserModel.resetPwd(email, data);
+    if (ret) {
+      // 通知用户注册的账号密码
+      const title = "密码重置成功！"
+      const content = "<p>用户你好!</p>" + 
+      "<p>你的webfunny密码已重置。</p>" +
+      "<p>账号：" + email + " 、 密码：" + decodePwd + "</p>" +
+      "<p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>"
+      UserController.sendEmail(email, title, content)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    } else {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('重置密码失败！', 1)
+    }
+  }
+  /**
+   * 注册管理员账号
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async registerForAdmin(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { name, email, password, userType } = param
+    const decodePwd = Utils.b64DecodeUnicode(password).split("").reverse().join("")
+    const userId = Utils.getUuid()
+    const data = {nickname: name, emailName: email, password: Utils.md5(decodePwd), userType, userId, registerStatus: 1}
+
+    // 记录注册邮箱
+    Utils.postJson("http://www.webfunny.cn/config/recordEmail", {email, purchaseCode: accountInfo.purchaseCode}).catch((e) => {})
+
+    /* 判断参数是否合法 */
+    if (data.nickname) {
+      const adminData = await UserModel.checkAdminAccount();
+      const adminUserCount = adminData[0].count * 1
+      if (adminUserCount > 0) {
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('管理员账号已存在，请勿重复创建', 1)
+        return
+      }
+      await UserModel.createUser(data);
+  
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('创建信息成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('创建信息失败，请求参数不能为空！')
+    }
+  }
+  /**
+   * 激活注册用户
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async activeRegisterMember(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId, emailName } = param
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.activeRegisterMember(userId);
+
+      MessageModel.createMessage({
+        userId: userId,
+        title: "欢迎登录！",
+        content: JSON.stringify([
+          "尊敬的用户您好，欢迎登录webfunny前端监控系统。",
+          "webfunny致力于解决前端的各种问题，纯私有化部署，支持千万级PV的日活量。",
+          "支持项目：H5前端、PC前端、微信小程序、uni-app。",
+          "使用方法和常见问题请移步官网：www.webfunny.cn"
+        ]),
+        type: "sys",
+        isRead: 0,
+        link: `http://www.webfunny.cn`
+      })
+      // 给用户发送一封邮件
+      const activeTitle = "用户激活通知"
+      const activeContent = `
+      <p>尊敬的用户：</p>
+      <p>您好，您的账号已经被管理员激活了，快去登录吧！</p>
+      <p>如有疑问，请联系作者，微信号：webfunny2、webfunny_2020</p>
+      `
+      UserController.sendEmail(emailName, activeTitle, activeContent)
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户已激活', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('激活失败')
+    }
+  }
+  /**
+   * 删除
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async deleteRegisterMember(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { userId } = param
+    /* 判断参数是否合法 */
+    if (userId) {
+      await UserModel.deleteUserByUserId(userId);
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('用户信息删除成功', 0)
+    } else {
+      ctx.response.status = 412;
+      ctx.body = statusCode.ERROR_412('缺失userId！')
+    }
+  }
+  /**
+   * 保存token
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async storeTokenToMemory(ctx) {
+    const param = JSON.parse(ctx.request.body)
+    const { accessToken } = param
+
+    // 判断token是否合法
+    verify(accessToken, secret.sign, async (err, decode) => {
+      if (err) {
+        log.printError("token解析失败：", err)
+        return
+      }
+      const { emailName } = decode
+      const tokenList = global.eventInfo.tokenListInMemory || {}
+      tokenList[emailName] = accessToken
+      // 检查 emailName 对应的token是否存在
+      const lastTokenInfo = await ConfigModel.getConfigByName(emailName)
+      if (lastTokenInfo) {
+        // 如果存在就更新
+        await ConfigModel.updateConfig(emailName, {configValue: accessToken})
+      } else {
+        // 如果不存在，则新赠
+        await ConfigModel.createConfig({configName: emailName, configValue: accessToken})
+      }
+    })
+
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('Token存储完成！', 0)
+  }
+}
+
+class BuryPointWarehouseController {
+    /**
+     * @swagger
+     * /buryPointWarehouse/create:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 创建
+     *     parameters:
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointDesc
+     *         description: 点位描述
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: fields
+     *         description: 字段IDS
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname} = ctx.user
+        req.createBy = nickname
+        if (req.projectId && req.pointName && req.fields) {
+            const res = await BuryPointWarehouseModel.checkName(req.projectId,req.pointName);
+            let count = res[0].count
+            if(count > 0){
+                ctx.response.status = 412;
+                ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_POINT_NAME_EXIST)}`)
+                return
+            }
+            req.weType = 0;
+            let ret = await BuryPointWarehouseModel.create(req);
+            //更新pointId为id
+            await BuryPointWarehouseModel.updateByFields({id:ret.id, pointId:ret.id});
+            //TODO 往缓存存放字段和点位信息
+            const { fields,weType } = ret
+            let buryPointFields = await BuryPointFieldModel.getSomeListByProjectIdAndWeType(fields,'','')
+            let finalFieldList = [];
+            if(weType && (weType ===2||weType === '2')){
+                //获取项目字段
+                finalFieldList = buryPointFields
+            }else{
+                // 获取通用字段
+                const weFieldList = await BuryPointFieldModel.getSomeListByProjectIdAndWeType('',req.projectId,1);
+                finalFieldList = [...buryPointFields, ...weFieldList]
+            }
+            const pointAndFields = global.eventInfo.pointAndFields
+            let pointData = {}
+            pointData.finalFieldList = finalFieldList
+            pointData.pointId = ret.id
+            pointData.weType = weType
+            pointAndFields[pointId] = pointData
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '')
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/update:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 更新
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointDesc
+     *         description: 点位描述
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: fields
+     *         description: 字段IDS
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const {nickname} = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            req.pointId = id
+            await BuryPointWarehouseModel.update(id, req);
+
+            //TODO 往缓存存放字段和点位信息
+            const { pointId, fields,weType } = req
+            let buryPointFields = await BuryPointFieldModel.getSomeListByProjectIdAndWeType(fields,'','')
+            let finalFieldList = [];
+            if(weType && (weType ===2||weType === '2')){
+                //获取项目字段
+                finalFieldList = buryPointFields
+            }else{
+                // 获取通用字段
+                const weFieldList = await BuryPointFieldModel.getSomeListByProjectIdAndWeType('',req.projectId,1);
+                finalFieldList = [...buryPointFields, ...weFieldList]
+            }
+            const pointAndFields = global.eventInfo.pointAndFields
+            let pointData = {}
+            pointData.finalFieldList = finalFieldList
+            pointData.pointId = pointId
+            pointData.weType = weType
+            pointAndFields[pointId] = pointData
+
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/detail:
+     *   get:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 详情
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        if (id) {
+            let data = await BuryPointWarehouseModel.detail(id);
+            const { fields } = data
+            let buryPointFields = await BuryPointFieldModel.getListByFieldIds(fields)
+            const point = {};
+            point.id = id
+            point.pointId = data.pointId
+            point.weType = data.weType
+            point.pointName = data.pointName
+            point.projectId = data.projectId
+            point.pointDesc = data.pointDesc
+            point.weType = data.weType
+            point.replacePointIdKey = data.replacePointIdKey
+            point.fields = data.fields
+            point.buryPointFieldList = buryPointFields
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', point)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail');
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/delete:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 删除
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        // 删除前，先检查是否sdk发布还有该点位仓库
+        const resSdkList = await SdkReleaseModel.getAllList();
+        for (let i = 0 ; i < resSdkList.length; i++) {
+            const sdk = resSdkList[i];
+            const { releaseName,pointIds } = sdk
+            let pointIdArray = pointIds.split(",")
+            for (let j = 0;j<pointIdArray.length; j++){
+                if (parseInt(id,10) === parseInt(pointIdArray[j],10)){
+                    ctx.response.status = 412;
+                    let message = `${Utils.b64DecodeUnicode(ConstMsg.POINT_DELETE_FAIL_1)}`+ releaseName +`${Utils.b64DecodeUnicode(ConstMsg.POINT_DELETE_FAIL_2)}`
+                    ctx.body = statusCode.ERROR_412(message)
+                    return;
+                }
+            }
+        }    
+        await BuryPointWarehouseModel.delete(id)
+        //清空
+        global.eventInfo.pointAndFields[id] = {}
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+        
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/page:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 获取分页列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getPageList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, pointName="", weType='',page, pageSize } = params;
+        const total = await BuryPointWarehouseModel.getPageCount(projectId, pointName, weType)
+        const totalCount = total[0].count
+        const res = await BuryPointWarehouseModel.getPageList(projectId, pointName,weType, page, pageSize)
+        const resSdkList = await SdkReleaseModel.getAllList();
+        for (let i = 0; i < res.length; i ++) {
+            const buryPointWarehouse = res[i]
+            let fieldNames = '';
+            const { fields } = buryPointWarehouse
+            let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for(let j = 0; j < buryPointFieldList.length; j ++){
+                fieldNames = fieldNames + buryPointFieldList[j].fieldAlias + ','
+            }
+            //第一种方法、将字符串中最后一个元素","逗号去掉，
+            fieldNames = fieldNames.substring(0, fieldNames.lastIndexOf(','));
+            buryPointWarehouse.fieldNames = fieldNames
+            // 是否可编辑，先检查是否sdk发布还有该点位仓库
+            let isEdit = 1
+            for (let k = 0 ; k < resSdkList.length; k++) {
+                const sdk = resSdkList[k];
+                const { pointIds } = sdk
+                let pointIdArray = pointIds.split(",")
+                for (let s = 0;s<pointIdArray.length; s++){
+                    if (parseInt(buryPointWarehouse.id,10) === parseInt(pointIdArray[s],10)){
+                        isEdit = 0
+                    }
+                }
+            }  
+            buryPointWarehouse.isEdit = isEdit
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', {list: res,totalCount})
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/list:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 获取列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, pointName=""} = params;
+        //只显示项目点位，不显示通用点位和备用点位
+        const res = await BuryPointWarehouseModel.getList(projectId,pointName,0)
+        for (let i = 0; i < res.length; i ++) {
+            const buryPointWarehouse = res[i]
+            let fieldNames = '';
+            const { fields } = buryPointWarehouse
+            let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for(let j = 0; j < buryPointFieldList.length; j ++){
+                fieldNames = fieldNames + buryPointFieldList[j].fieldAlias + ','
+            }
+            //第一种方法、将字符串中最后一个元素","逗号去掉，
+            fieldNames = fieldNames.substring(0, fieldNames.lastIndexOf(','));
+            buryPointWarehouse.fieldNames = fieldNames
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/getProjectAndWeList:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 获取项目点位和通用点位列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getAllPointList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, pointName=""} = params;
+        // 获取通用字段
+        const weFieldList = await BuryPointFieldModel.getListByProjectIdAndWeType(projectId,1);
+        //显示项目点位0,通用点位1,备用点位2（老点位）
+        const res = await BuryPointWarehouseModel.getAllListByProjectId(projectId);
+        for (let i = 0; i < res.length; i ++) {
+            const buryPointWarehouse = res[i]
+            let fieldNames = '';
+            let fieldIds = ''
+            let { fields } = buryPointWarehouse
+            const buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            
+            const finalFieldList = [...buryPointFieldList, ...weFieldList]
+            for(let j = 0; j < finalFieldList.length; j ++){
+                fieldNames = fieldNames + finalFieldList[j].fieldAlias + ','
+                fieldIds += finalFieldList[j].fieldName + ','
+            }
+            //第一种方法、将字符串中最后一个元素","逗号去掉，
+            fieldNames = fieldNames.substring(0, fieldNames.lastIndexOf(','));
+            fieldIds = fieldIds.substring(0, fieldIds.lastIndexOf(','));
+            buryPointWarehouse.fieldNames = fieldNames
+            buryPointWarehouse.fields = fieldIds
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/getProjectAndOldList:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 获取项目点位和备用点位列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointName
+     *         description: 点位名称
+     *         in: formData
+     *         required: false
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getProjectAndOldList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId, pointName=""} = params;
+        // 获取通用字段
+        const weFieldList = await BuryPointFieldModel.getListByProjectIdAndWeType(projectId,1);
+        //显示项目点位0,通用点位1,备用点位2（老点位）
+        const res = await BuryPointWarehouseModel.getListByProjectIdAndOldType(projectId);
+        for (let i = 0; i < res.length; i ++) {
+            const buryPointWarehouse = res[i]
+            let fieldNames = '';
+            let fieldIds = ''
+            let { fields } = buryPointWarehouse
+            const buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            
+            const finalFieldList = [...buryPointFieldList, ...weFieldList]
+            for(let j = 0; j < finalFieldList.length; j ++){
+                fieldNames = fieldNames + finalFieldList[j].fieldAlias + ','
+                fieldIds += finalFieldList[j].fieldName + ','
+            }
+            //第一种方法、将字符串中最后一个元素","逗号去掉，
+            fieldNames = fieldNames.substring(0, fieldNames.lastIndexOf(','));
+            fieldIds = fieldIds.substring(0, fieldIds.lastIndexOf(','));
+            buryPointWarehouse.fieldNames = fieldNames
+            buryPointWarehouse.fields = fieldIds
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * @swagger
+     * /buryPointWarehouse/AllList:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 获取所有点位列表
+     *     parameters:
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getAllList(ctx) {
+        const res = await BuryPointWarehouseModel.getAllList()
+        for (let i = 0; i < res.length; i ++) {
+            const buryPointWarehouse = res[i]
+            let fieldNames = '';
+            let fieldList = '';
+            const { fields } = buryPointWarehouse
+            let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(fields)
+            for(let j = 0; j < buryPointFieldList.length; j ++){
+                fieldNames = fieldNames + buryPointFieldList[j].fieldAlias + ','
+                fieldList = fieldList + buryPointFieldList[j].fieldName + ','
+            }
+            fieldNames = fieldNames.substring(0, fieldNames.lastIndexOf(','));
+            buryPointWarehouse.fieldNames = fieldNames
+            fieldList = fieldList.substring(0, fieldList.lastIndexOf(','));
+            buryPointWarehouse.fieldList = fieldList
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * 复制点位
+     * 参数：
+     *   projectId-要复制到的项目id，
+     *   pointId-被复制的点位id
+     *   fieldIds-新字段ids
+     * 逻辑：
+     *   新建点位，判断逻辑：根据projectId 和新字段ids，查询是否有一样的点位，
+     *   一样就不创建，直接用，
+     *   不一样就新建一个点位，名字重复就+"_copy"，不重复直接用改名字
+     *   系统模板中：一开始没有点位和字段，要创建新的
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /buryPointWarehouse/copy:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 复制点位
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointId
+     *         description: 点位id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: createBy
+     *         description: 
+     *         in: formData
+     *         required: false
+     *         type: string    
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async copyPoint(projectId, pointId,nickname) {
+        const pointDetail = await BuryPointWarehouseModel.detail(pointId);
+        let {pointName,fields, pointDesc,weType,createBy} = pointDetail
+        //老点位（备用点位）就直接返回pointId直接用
+        if(weType && (weType === 2 || weType === '2' )){
+            return pointId;
+        }
+        let newPoint = {};
+        const res = await BuryPointWarehouseModel.checkName(projectId,pointName);
+        let count = res[0].count
+        if(count > 0){
+            newPoint.pointName = pointName + '_copy'
+        }else {
+            newPoint.pointName = pointName 
+        }
+        let fieldList = fields.split(",");
+        let newFieldIds = "";
+        for(let i = 0;i<fieldList.length;i++){
+            //新建字段，判断是否一样的标准：fieldName，fieldAlias，fieldType，fieldLength都一样才用，不一样就新建一个字段
+            let retFieldId = await BuryPointFieldController.copyField(projectId,fieldList[i],nickname);
+            newFieldIds = newFieldIds + retFieldId + ",";
+        }
+        newFieldIds = newFieldIds.substring(0, newFieldIds.lastIndexOf(','));
+        //根据projectId 和新字段ids，查询是否有一样的点位，一样就不创建，直接用
+        let pointInfo = await BuryPointWarehouseModel.getByProjectIdAndFieldIds(projectId,newFieldIds)
+        if(pointInfo && pointInfo.length > 0){
+            return pointInfo[0].id;
+        }else {
+            newPoint.createBy = createBy?createBy:nickname;
+            newPoint.pointDesc = pointDesc;
+            newPoint.fields = newFieldIds;
+            newPoint.projectId = projectId;
+            newPoint.weType = weType;
+            let ret = await BuryPointWarehouseModel.create(newPoint);
+            await BuryPointWarehouseModel.updateByFields({id:ret.id, pointId:ret.id});
+            return ret.id;
+        }
+    }
+
+     /**
+     * 导入点位
+     * 参数：
+     *   projectId-要导入到的项目id，
+     *   pointId-被导入的点位id
+     * 逻辑：
+     *   新建点位，判断逻辑：肯定会新建一个点位，名字重复就+"_copy"，不重复直接用改名字
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /buryPointWarehouse/pointExport:
+     *   post:
+     *     tags:
+     *       - 点位仓库
+     *     summary: 导入点位
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id(event101)
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointIds
+     *         description: 点位ids
+     *         in: formData
+     *         required: false
+     *         type: string
+     *       - name: allSelectProjectId
+     *         description: 全选的项目id("event101")
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async exportPoint(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { projectId,pointIds="",allSelectProjectId="" } = params;
+        const {nickname} = ctx.user
+        // let nickname = "小鱼儿"
+        if(projectId && (pointIds||allSelectProjectId)){
+            let pointArray = [];
+            if(allSelectProjectId){
+                let resPointIds = await BuryPointWarehouseModel.getIdsByProjetId(allSelectProjectId);
+                for (let j = 0; j< resPointIds.length; j++){
+                    pointArray.push(resPointIds[j].id)
+                }
+            }
+            if(pointIds){
+                let pointIdArray = pointIds.split(",");
+                for (let i = 0; i< pointIdArray.length; i++){
+                    pointArray.push(pointIdArray[i]);
+                }
+            }
+            let countInfo = {};
+            countInfo.successCount = 0;
+            countInfo.repeatCount = 0;
+            countInfo.repeatPoint = [];
+            for (let i = 0; i< pointArray.length; i++){
+                // await BuryPointWarehouseController.copyPoint(projectId,pointArray[i],nickname);
+                const pointDetail = await BuryPointWarehouseModel.detail(pointArray[i]);
+                let {pointName,fields, pointDesc} = pointDetail
+                let newPoint = {};
+                const res = await BuryPointWarehouseModel.checkName(projectId,pointName);
+                let count = res[0].count
+                if(count > 0){
+                    newPoint.pointName = pointName + '_copy'
+                }else {
+                    newPoint.pointName = pointName 
+                }
+                let fieldList = fields.split(",");
+                let newFieldIds = "";
+                for(let i = 0;i<fieldList.length;i++){
+                    //新建字段，判断是否一样的标准：fieldName，fieldAlias，fieldType，fieldLength都一样才用，不一样就新建一个字段
+                    let retFieldId = await BuryPointFieldController.copyField(projectId,fieldList[i],nickname);
+                    newFieldIds = newFieldIds + retFieldId + ",";
+                }
+                newFieldIds = newFieldIds.substring(0, newFieldIds.lastIndexOf(','));
+                //根据projectId 和新字段ids，查询是否有一样的点位，一样就不创建，直接用
+                let pointInfo = await BuryPointWarehouseModel.getByProjectIdAndFieldIds(projectId,newFieldIds)
+                if(pointInfo && pointInfo.length > 0){
+                    countInfo.repeatCount = countInfo.repeatCount + 1
+                    countInfo.repeatPoint.push(pointInfo[0].pointName)
+                }else {
+                    newPoint.createBy = nickname;
+                    newPoint.pointDesc = pointDesc;
+                    newPoint.fields = newFieldIds;
+                    newPoint.projectId = projectId;
+                    newPoint.weType = 0;
+                    let ret = await BuryPointWarehouseModel.create(newPoint);
+                    await BuryPointWarehouseModel.updateByFields({id:ret.id, pointId:ret.id});
+                    countInfo.successCount = countInfo.successCount + 1
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', countInfo)
+        }else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+    }
+}
+
+let webfunnyVersion = "1.5.42"
+class Common {
+
+  static async consoleLogo() {
+    CommonUtil.consoleLogo()
+  }
+  static async consoleInfo(startType) {
+    CommonUtil.consoleInfo(startType)
+  }
+  // 激活码检查
+  static async checkPurchase(callback, failCallback) {
+    CommonUtil.checkPurchase(callback, failCallback)
+  }
+  // 接受并分类处理上传的日志
+  static async handleLogInfoQueue() {
+    CommonUpLog.handleLogInfoQueue()
+  }
+
+  // 接收消息队列里的信息
+  static async startReceiveMsg() {
+    try {
+      const receiveMq = new RabbitMq()
+      receiveMq.receiveQueueMsg("upload_log_event", async (logInfoStr, channelAck) => {
+        try {
+          const logInfo = JSON.parse(logInfoStr)
+          //处理上报数据
+          SdkReleaseController.handleUpEventData(logInfo);
+          // 只有存储成功了才会ack消息
+          channelAck()
+        } catch (e) {
+          channelAck()
+          log.printError(e)
+        }
+      }, () => {
+        log.printError("获取消息失败")
+      })
+    } catch (e) {
+      log.printError("消息队列接收端启动失败")
+    }
+  }
+
+  /**
+   * 获取所有的表名
+   */
+  static async getAllTableList() {
+    const res = await CommonModel.getAllTableList(accountInfo.mysqlConfig.write.dataBaseName)
+    return res
+  }
+
+  /**
+   * 启动数据删除
+   */
+  static async startDelete() {
+    let countDay = parseInt(accountInfo.saveDays, 10) + 1
+    const dateStr = Utils.addDays(0 - countDay).replace(/-/g, "")
+    //获取所有event开头的表名
+    const invalidTables = []
+    const allTableList = await Common.getAllTableList();
+    // console.log("数据库表:" + JSON.stringify(allTableList));
+    allTableList.forEach((item) => {
+      if (item.tableName.substr(item.tableName.length-8, item.tableName.length) < dateStr) {
+        invalidTables.push(item.tableName)
+      }
+    })
+    // console.log("删除数据库表:" + JSON.stringify(invalidTables));
+    invalidTables.forEach(async (tableName) => {
+      await Sequelize.dropSchema(tableName).then(() => {
+        log.printInfo("成功删除数据库表: " + tableName)
+      })
+    })
+    log.printInfo("表删除程序结束】")
+  }
+
+  static async deleteTableByWebMonitorId(webMonitorId, countDay) {
+    log.printInfo("【根据projectId和pointId，即将开始表删除程序...")
+    const dateStr = Utils.addDays(0 - countDay).replace(/-/g, "")
+
+    const tables1 = [
+      "BehaviorInfo",
+    ]
+    try {
+      tables1.forEach(async (tempTable) => {
+        let tableName = webMonitorId + tempTable + dateStr
+        log.printInfo("开始删除数据库表 " + tableName + "...")
+        await Sequelize.dropSchema(tableName).then(() => {
+          log.printInfo("成功删除数据库表 " + tableName)
+        })
+      })
+    } catch (e) {
+      log.printError("删除表操作报错", e)
+    }
+    log.printInfo("表删除程序结束】")
+  }
+
+  /**
+   * 清理pm2日志
+   */
+  static async pm2Flush() {
+    process.exec("pm2 flush &", function(error, stdout, stderr) {
+      if (error) {
+        log.printError("pm2 flush error：", error)
+      }
+    });
+  }
+
+  /**
+   * 推送信息配置
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async pushInfo(ctx) {
+    await Utils.get("http://www.webfunny.cn/config/pushInfo", {}).then((result) => {
+      const pushInfo = result.data
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', pushInfo)
+    }).catch(() => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', null)
+    })
+  }
+
+  /**
+   * 推送信息配置
+   * @param ctx
+   * @returns {Promise.<void>}
+   */
+  static async updateInfo(ctx) {
+    await Utils.get("http://www.webfunny.cn/config/updateInfo", {}).then((result) => {
+      const updateInfo = result.data
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', updateInfo)
+    }).catch(() => {
+      ctx.response.status = 200;
+      ctx.body = statusCode.SUCCESS_200('success', null)
+    })
+  }
+
+  /**
+   * 获取项目版本号
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async projectVersion(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', PROJECT_INFO.PROJECT_VERSION)
+  }
+  
+  /**
+   * 获取日志并发量列表
+   */
+  static async getConcurrencyByMinuteInHour(ctx) {
+    const logCountInMinuteList = global.eventInfo.logCountInMinuteList
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', {logCountInMinuteList})
+  }
+
+  
+  /**
+   * 重启服务
+   */
+  static async restartServer() {
+    CommonUtil.restartServer()
+  }
+
+  /**
+   * 获取日志服务所有相关信息
+   */
+  static async getSysInfo(ctx) {
+    const { accountInfo } = AccountConfig
+    // 检查是否有管理员账号
+    const adminData = await UserModel.checkAdminAccount();
+    const adminUserCount = adminData[0].count * 1
+    // 激活码、消息队列
+    // 端口号相关
+    const { webfunnyNeedLogin, messageQueue, localServerDomain, localServerPort, localAssetsDomain, localAssetsPort, centerAssetsDomain, mainDomain, openMonitor } = accountInfo
+    const { purchaseCodeEndDate, purchaseCodeValid, purchaseCodeType,purchaseCodeCardCount } = global.eventInfo
+    //卡片总数(项目个数)
+    const retCardCount = await BuryPointCardModel.getCountByNoSysType("");
+    let cardUsedCount = isNaN(retCardCount[0].count) ? 0 : retCardCount[0].count;
+    let cardLeaveCount = parseInt(purchaseCodeCardCount, 10) - parseInt(cardUsedCount, 10);
+
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', 
+      {
+        cardLeaveCount,webfunnyVersion, webfunnyNeedLogin, messageQueue, purchaseCodeEndDate, purchaseCodeValid, pct: purchaseCodeType,
+        localServerDomain, localServerPort, localAssetsDomain, localAssetsPort, centerAssetsDomain, mainDomain, adminUserCount, openMonitor
+      })
+  }
+  
+  /**
+   * 版本信息
+   * @param ctx
+   * @returns {Promise.<void>}
+   * {per_page: 100, page: 3}
+   */
+  static async monitorVersion(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', PROJECT_INFO.MONITOR_VERSION)
+  }
+
+  static async dockerHealth(ctx) {
+    ctx.response.status = 200;
+    ctx.body = {status: "OK"}
+  }
+
+  static async test(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', {"Success":true,"IsSensitive":false,"SensitiveFields":[],"SensitiveLevel":"cell"})
+  }
+}
+
+
+class BuryPointProjectController {
+    /**
+     * 创建信息
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const {nickname,companyId } = ctx.user
+        req.createBy = nickname
+        req.createBy = companyId
+        if (req.name && req.type) {
+            //项目
+            let ret;
+            if (req.type == 1) {
+                const res = await BuryPointProjectModel.getCountByNameAndType(req.name, req.type);
+                let count = res[0].count
+                if(count > 0){
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_PROJECT_NAME_EXIST)}`)
+                    return
+                }
+                //我的项目
+                ret = await BuryPointProjectController.createNewProject(req.name,0,nickname,companyId);
+                //默认创建该项目下的分组和分组下的页面
+                let projectGroup = {};
+                projectGroup.type = 2
+                projectGroup.parentId = ret.id
+                projectGroup.projectId = ret.projectId
+                projectGroup.name = "默认分组"
+                let projectGroupRet = await BuryPointProjectModel.create(projectGroup);
+                let projectPage = {};
+                projectPage.type = 3
+                projectPage.parentId = projectGroupRet.id
+                projectPage.projectId = ret.projectId
+                projectPage.name = "默认页面"
+                let pageRet = await BuryPointProjectModel.create(projectPage);
+                //默认创建心跳检测数值卡片
+                await CommonInitDataController.handleWeCardData(ret.projectId,pageRet.id,nickname);
+            }else if (req.type == 2) {
+                //分组
+                if(req.parentId){
+                    const res = await BuryPointProjectModel.getCountByNameAndParentAndType(req.name, req.parentId, req.type);
+                    let count = res[0].count
+                    if(count > 0){
+                        ctx.response.status = 412;
+                        ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_GROUP_NAME_EXIST)}`)
+                        return
+                    }
+                    let parent = await BuryPointProjectModel.detail(req.parentId);
+                    const {projectId} = parent
+                    req.projectId = projectId
+                    ret = await BuryPointProjectModel.create(req);
+                }else {
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+                    return;
+                }
+            }else if (req.type == 3) {
+                //页面
+                if(req.parentId){
+                    const res = await BuryPointProjectModel.getCountByNameAndParentAndType(req.name, req.parentId, req.type);
+                    let count = res[0].count
+                    if(count > 0){
+                        ctx.response.status = 412;
+                        ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_PAGE_NAME_EXIST)}`)
+                        return
+                    }
+                    let parent = await BuryPointProjectModel.detail(req.parentId);
+                    const {projectId} = parent
+                    req.projectId = projectId
+                    ret = await BuryPointProjectModel.create(req);
+                }else {
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+                    return;
+                }
+            }
+            const resProject = await BuryPointProjectModel.detail(ret.id);
+            const project = {};
+            project.id = resProject.id;
+            project.projectId = resProject.projectId;
+            project.title = resProject.name;
+            project.parentId = resProject.parentId;
+            project.key = resProject.id;
+            project.type = resProject.type;
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, project)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * 创建项目和项目下相关信息（通用字段、通用点位，分析表），返回项目信息
+     * @param {*} projectInfo 
+     * @param {*} nickname 
+     * @returns 
+     */
+    static async createNewProject(projectName,sysType,nickname,companyId){
+        let projectInfo = {}
+        projectInfo.name = projectName
+        projectInfo.sysType = sysType
+        projectInfo.type = 1
+        projectInfo.parentId = -1
+        projectInfo.delStatus = 0
+        projectInfo.createBy = nickname
+        projectInfo.companyId = companyId
+        let maxId = await BuryPointProjectModel.getMaxId();
+        if(!maxId || maxId.length == 0 || maxId[0].maxId == null){
+            projectInfo.projectId = "event101";
+        }else{
+            projectInfo.projectId = "event10" + (parseInt(maxId[0].maxId,10) + 1);
+        }
+        let ret = await BuryPointProjectModel.create(projectInfo);
+        if(ret){
+            //创建通用点位和通用字段
+            await CommonInitDataController.initWeFieldAndPointData(projectInfo.projectId,nickname);
+            //生成一个归类统计分析表
+            let tableNameGroubBy = "BuryPointCardStatistics_" + projectInfo.projectId;
+            CommonModel.createStatisticsTable(tableNameGroubBy);  
+        }
+        return ret;   
+    }
+
+    /**
+     * 更新
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const {nickname} = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            await BuryPointProjectModel.update(id, req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_SUCCESS)}`, '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.UPDATE_FAIL)}`)
+        }
+    }
+
+    /**
+     * 删除
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id ,type} = param
+        // 删除前，先检查是否还有
+        if(id && type){
+            if(type !== 3){
+                // 删除分组前，先检查是否还有子项
+                const resProject = await BuryPointProjectModel.getListByParentId(id);
+                if (resProject.length > 0) {
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.PROJECT_DELETE_FAIL)}`)
+                    return
+                }
+                if(type === 1){
+                    // 删除项目前，先检查是否还有SDK发布在使用,有的话，删除掉SDK，提醒用户下线对应探针
+                    const resBuryPointProject = await BuryPointProjectModel.detail(id);
+                    SdkReleaseModel.deleteByProjectId(resBuryPointProject.projectId);
+                    //解除模板关系，把模板projectId置为空
+                    let updateTemplate = {}
+                    updateTemplate.projectId = ''
+                    updateTemplate.updateBy = nickname
+                    BuryPointTemplateModel.updateProjectId(resBuryPointProject.projectId, updateTemplateDetail);
+                }
+            }else {
+                // 删除页面前，先检查是否还有卡片
+                const resCard = await BuryPointCardModel.checkName('',id);
+                let count = resCard[0].count
+                if(count > 0){
+                    ctx.response.status = 412;
+                    ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.PROJECT_EXIST_CARD_DELETE_FAIL)}`)
+                    return
+                }
+            }
+            await BuryPointProjectModel.delete(id)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', "")
+        }else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+        
+    }
+
+    /**
+     * tree
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async tree(ctx) {        
+        const {userId, userType} = ctx.user
+        const { teamProjectIds ,sysType=""} = JSON.parse(ctx.request.body)
+        let projectList = []
+        if (userType === USER_INFO.USER_TYPE_ADMIN || userType === USER_INFO.USER_TYPE_SUPERADMIN) {
+            projectList = await BuryPointProjectModel.getAllProjectList(sysType)
+        } else {
+            projectList = await BuryPointProjectModel.getProjectListByWebMonitorIds(teamProjectIds,sysType)
+        }
+
+        // 如果激活码到期或者无效，永远只取第一个项目
+        let result = projectList;
+        // if (global.eventInfo.purchaseCodeValid && global.eventInfo.purchaseCodeValid === true) {
+        //     result = projectList
+        // } else if (projectList.length > 0) {
+        //     result.push(projectList[0])
+        // }
+        let projectInfo = [];
+        for (let i = 0; i < result.length; i ++) {
+            const buryPointProject = result[i] 
+            const { id } = buryPointProject
+            const project = {};
+            project.id = id;
+            project.title = result[i].name;
+            project.parentId = result[i].parentId;
+            project.key = result[i].id;
+            project.type = result[i].type;
+            const groupList = await BuryPointProjectModel.getListByParentId(id);
+            const groupInfo = [];
+            for (let j = 0; j < groupList.length; j ++) {
+                const buryPointGroup = groupList[j] 
+                const { id } = buryPointGroup
+                const group = {};
+                group.id = id;
+                group.parentId = groupList[j].parentId;
+                group.title = groupList[j].name;
+                group.key = groupList[j].id;
+                group.type = groupList[j].type;
+                const pageList = await BuryPointProjectModel.getListByParentId(id);
+                const pageInfo = [];
+                for (let k = 0; k < pageList.length; k ++) {
+                    const page = {};
+                    page.id = pageList[k].id;
+                    page.parentId = pageList[k].parentId;
+                    page.title = pageList[k].name;
+                    page.key = pageList[k].id;
+                    page.type = pageList[k].type;
+                    pageInfo.push(page);
+                }
+                group.children = pageInfo;
+                groupInfo.push(group);
+            }
+            project.children = groupInfo;
+            projectInfo.push(project);
+        }
+
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', projectInfo)
+    }
+
+     /**
+     * 得到项目下分组和看板
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+     static async getGroupAndPage(ctx) {        
+        const { projectId } = JSON.parse(ctx.request.body)
+        let groupInfoList = []
+        let groupList = await BuryPointProjectModel.getProjectByProjectIdAndType(projectId, 2);
+        for (let i = 0; i < groupList.length; i ++) {
+            const buryPointGroup = groupList[i] 
+            const { id } = buryPointGroup   
+            const group = {};
+            group.id = id;
+            group.parentId = groupList[i].parentId;
+            group.projectId = projectId;
+            group.name = groupList[i].name;
+            group.type = groupList[i].type;
+            const pageList = await BuryPointProjectModel.getListByParentId(id);
+            group.pageCount = pageList.length;
+            const pageInfoList = [];
+            for (let j = 0; j < pageList.length; j ++) {
+                const page = {};
+                page.id = pageList[j].id;
+                page.parentId = pageList[j].parentId;
+                page.name = pageList[j].name;
+                page.type = pageList[j].type;
+                page.projectId = projectId;
+                pageInfoList.push(page);
+            }
+            group.pageList = pageInfoList;
+            groupInfoList.push(group);
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', groupInfoList)
+    }
+
+    /**
+     * 获取单个项目tree
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getProjectTree(ctx) {        
+        const { projectId } = JSON.parse(ctx.request.body)
+        let groupInfoList = []
+        if(projectId){
+            let groupList = await BuryPointProjectModel.getProjectByProjectIdAndType(projectId, 2);
+            for (let i = 0; i < groupList.length; i ++) {
+                const buryPointGroup = groupList[i] 
+                const { id } = buryPointGroup
+                const group = {};
+                group.id = id;
+                group.parentId = groupList[i].parentId;
+                group.title = groupList[i].name;
+                group.key = groupList[i].id;
+                group.type = groupList[i].type;
+                const pageList = await BuryPointProjectModel.getListByParentId(id);
+                group.pageCount = pageList.length;
+                const pageInfo = [];
+                for (let j = 0; j < pageList.length; j ++) {
+                    const page = {};
+                    page.id = pageList[j].id;
+                    page.parentId = pageList[j].parentId;
+                    page.title = pageList[j].name;
+                    page.key = pageList[j].id;
+                    page.type = pageList[j].type;
+                    //2、查询所有卡片
+                    let resCard = await BuryPointCardModel.coutCard('',page.id,'');
+                    page.cardCount = resCard?resCard[0].count:0;
+                    pageInfo.push(page);
+                }
+                group.children = pageInfo;
+                groupInfoList.push(group);
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', groupInfoList)
+
+    }
+
+    /**
+     * 排序
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async sort(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let sortList = req.sortList;
+        const { nickname } = ctx.user
+        if (req) {
+            for (let i = 0; i < sortList.length; i++) {
+                const groupInfo = {};
+                groupInfo.id = sortList[i].id
+                groupInfo.sort = i + 1;
+                groupInfo.updateBy = nickname
+                await BuryPointProjectModel.update(sortList[i].id, groupInfo);
+                let children = sortList[i].children;
+                for (let j = 0; j < children.length; j++) {
+                    const pageInfo = {};
+                    pageInfo.id = children[j].id
+                    pageInfo.sort = j + 1;
+                    pageInfo.parentId = sortList[i].id;
+                    pageInfo.updateBy = nickname
+                    await BuryPointProjectModel.update(children[j].id, pageInfo);
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * 单个看板移动到其他分组
+     * {
+         "id":1, //看板id
+         "parentId":1 //"分组ID"
+        }
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async movePage(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user
+        if (req) {
+            req.updateBy = nickname
+            await BuryPointProjectModel.update(req.id, req);
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+    /**
+     * getProjectList
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getProjectList(ctx) {        
+        const {userId, userType} = ctx.user
+        const { teamProjectIds,sysType="" } = JSON.parse(ctx.request.body)
+        // console.log("" + ctx.request.body);
+        let projectList = []
+        if (userType === USER_INFO.USER_TYPE_ADMIN || userType === USER_INFO.USER_TYPE_SUPERADMIN) {
+            projectList = await BuryPointProjectModel.getAllProjectList(sysType)
+        } else {
+            projectList = await BuryPointProjectModel.getProjectListByWebMonitorIds(teamProjectIds,sysType)
+        }
+        // 如果激活码到期或者无效，永远只取第一个项目
+        let result = projectList;
+        // if (global.eventInfo.purchaseCodeValid && global.eventInfo.purchaseCodeValid === true) {
+        //     result = projectList
+        // } else if (projectList.length > 0) {
+        //     result.push(projectList[0])
+        // }
+        let projectInfo = [];
+        for (let i = 0; i < result.length; i ++) {
+            const project = {};
+            project.id = result[i].id;
+            project.projectName = result[i].name;
+            project.name = result[i].name;
+            project.projectId = result[i].projectId;
+            project.sysType = result[i].sysType;
+            let reFieldCount = await BuryPointFieldModel.getPageCount(result[i].projectId,'','', '') ;
+            project.fieldCount = isNaN(reFieldCount[0].count) ? 0 : reFieldCount[0].count;
+            projectInfo.push(project);
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', projectInfo)
+    }
+
+    /**
+     * 获取简单信息列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async projectSimpleListByWebmonitorIds(ctx) {
+        const param = JSON.parse(ctx.request.body)
+        const data = await BuryPointProjectModel.projectSimpleListByWebmonitorIds(param);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', data)
+    }
+
+    static async getAllProjectList(ctx) {
+        const res = await BuryPointProjectModel.getAllProjectList("")
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async getAllList(ctx) {
+        const res = await BuryPointProjectModel.getAllList()
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    static async addViewers(ctx) {
+        const {webMonitorId, viewers} = JSON.parse(ctx.request.body)
+        let res = await BuryPointProjectModel.updateProjectByField({projectId: webMonitorId, viewers, parentId: -1});
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * 复制看板到哪个项目哪个分组下
+     * @param ctx
+     * {
+     *   "pageId":1,
+     *   "newPageName":"看板新名称",
+     *   "newProjectId":"event101",
+     *   "newGroupId":12
+     * }
+     * 逻辑：
+     * 1、根据pageId查询下面所有卡片
+     * 2、遍历卡片，单个处理卡片，找到每个计算数据中的pointId
+     * 3、根据pointId找到下面的点位字段
+     * 4、根据字段名称判断该项目下是否有该点位字段，相同的字段名称的话，就新增一个字段+时间戳，key可以不变，
+     * 比如性别字段：name就是性别20230404，key：xingBie
+     * 5、点位也重新创建
+     * 6、新建看板
+    */
+    /**
+     * @swagger
+     * /buryPointProject/copyPage:
+     *   post:
+     *     tags:
+     *       - 项目管理
+     *     summary: 复制看板
+     *     parameters:
+     *       - name: pageId
+     *         description: 要复制的页面ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: newPageName
+     *         description: 看板新名称
+     *         in: formData
+     *         required: true
+     *         type: string 
+     *       - name: newProjectId
+     *         description: 新项目id（event101）
+     *         in: formData
+     *         required: true
+     *         type: string 
+     *       - name: newGroupId
+     *         description: 新分组id
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async copyPage(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let pageId = req.pageId;
+        let newPageName = req.newPageName;
+        let newProjectId = req.newProjectId;
+        let newGroupId = req.newGroupId;
+        const { nickname } = ctx.user
+        if (req) {
+            //1、查询所有卡片
+            let cardList = await BuryPointCardModel.getList('',pageId,'');
+            //2、判断卡片余额
+            let flag = await BuryPointCardController.judgeCardCount(cardList.length);
+            if(flag === 1){
+                ctx.response.status = 414;
+                ctx.body = statusCode.ERROR_CARD_BALANCE_414("卡片余额不足")
+                return
+            }
+            //3、检测新分组下是否有重名的看板，有的话加个时间戳
+            let newPage = {};
+            newPage.name = newPageName+ "_copy"
+            newPage.projectId = newProjectId
+            newPage.type = 3
+            newPage.parentId = newGroupId
+            newPage.createBy = nickname
+            let retNewPage = await BuryPointProjectModel.create(newPage);
+            let newPageId = retNewPage.id;
+            let newPointIdArray = [];
+            for(let i = 0;i < cardList.length;i++){
+                let oldCard = cardList[i];
+                let newCard = {};
+                newCard.pageId = newPageId;
+                newCard.name = oldCard.name;
+                newCard.type = oldCard.type;
+                newCard.sort = oldCard.sort;
+                newCard.conversionCycle = oldCard.conversionCycle;
+                newCard.groupByFlag = oldCard.groupByFlag;
+                newCard.chartTableShow = oldCard.chartTableShow;
+                newCard.togetherList = oldCard.togetherList;
+                newCard.refreshFrequency = oldCard.refreshFrequency;
+                let calcRuleJSON = JSON.parse(oldCard.calcRule);
+                let newCalcRule = []
+                let pointAndStepNameList = []
+                for (let j = 0; j < calcRuleJSON.length; j++) {
+                    //重新设置calcNameKey和点位id
+                    let calcData = calcRuleJSON[j];
+                    let calcName = calcData.calcName;
+                    calcData.calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                    let prePoint = calcData.prePoint;
+                    let pointId = prePoint.pointId;
+                    //3、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                    let newPointId = await BuryPointWarehouseController.copyPoint(newProjectId, pointId, nickname);
+                    newPointIdArray.push(newPointId);
+                    calcData.prePoint.pointId = newPointId;
+                    let endPoint = calcData.endPoint;
+                    if(endPoint){
+                        //3、新建点位，判断逻辑：新建或者取存在的一个点位，名字重复就+"_copy"，不重复直接用改名字
+                        let newEndPointId = await BuryPointWarehouseController.copyPoint(newProjectId, endPoint.pointId, nickname);
+                        newPointIdArray.push(newEndPointId);
+                        calcData.endPoint.pointId = newEndPointId;
+                    }       
+                    newCalcRule.push(calcData);
+                    if (newCard.type === 5) {
+                        pointAndStepNameList.push(newPointId);
+                    }
+                }
+                newCard.calcRule = JSON.stringify(newCalcRule);
+                //4、创建卡片
+                let retCard = await BuryPointCardModel.create(newCard);
+                //5、漏斗图创建点位和步骤关系
+                if (newCard.type === 5) {
+                    BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, retCard.id);
+                }
+            }
+            //6、新建一个SDK发布
+            // console.log("新点位 : " + JSON.stringify(newPointIdArray));
+            //点位ids去重
+            let newPointIdArraySetArr = [...new Set(newPointIdArray)];
+            let newSdkRelease = {};
+            newSdkRelease.projectId = newProjectId;
+            newSdkRelease.releaseName = newPageName + '_copy';
+            newSdkRelease.pointIds = newPointIdArraySetArr + "";
+            newSdkRelease.releaseScript = "";
+            newSdkRelease.status = 1;
+            newSdkRelease.version = 'v1.0.0';
+            newSdkRelease.createBy = nickname
+            let ret = await SdkReleaseModel.create(newSdkRelease);
+            if (ret) {
+                let wePointIds = await BuryPointWarehouseModel.getPointIds(newProjectId, 1);
+                if(wePointIds && wePointIds.length > 0){
+                    for(let i=0;i<wePointIds.length;i++){
+                        newPointIdArraySetArr.push(wePointIds[i].id);
+                    }
+                }
+                //7、创建完成，要生成日志表表，选了几个点位仓库，就生成几张表
+                for (let i = 0; i < newPointIdArraySetArr.length; i++) {
+                    //默认生成今天的表
+                    SdkReleaseController.createTableByDay(newProjectId, newPointIdArraySetArr[i], 0).catch((e) => {
+                        log.printError("执行{" + newProjectId + "_" + newPointIdArraySetArr[i] + "}创建表报错：", e)
+                    });
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+
+     /**
+     * 项目导出为我的模块或者公共模板
+     * 1、空数据：type=1,2，两个都生成
+     * 2、我的模板存在了，点了保存，type=1，更新操作
+     * 3、我的模板存在了，点了导出，type=1,2，更新或者新增
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /buryPointProject/templateExport:
+     *   post:
+     *     tags:
+     *       - 项目管理
+     *     summary: 项目导出
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: type
+     *         description: 导出模板类型：1-我的模板，2-公共模板("1,2")
+     *         in: formData
+     *         required: true
+     *         type: string 
+     *       - name: templateName
+     *         description: 模板名称
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async exportTemplate(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        //projectId:项目id；type:1-公共模板，2-我的模版;templateName:模板名称
+        const {projectId,type,templateName=""} = req
+        const {nickname,userId} = ctx.user
+        // let nickname = "小鱼儿"
+        // let userId = 'f8589080-c886-11ed-9d76-09adb8624268'
+        if (projectId && type) {
+            //根据id查询分组和分组下的页面以及页面下的所有卡片
+            let groupList = await BuryPointProjectModel.getProjectByProjectIdAndType(projectId, 2);
+            let pageCount = 0
+            let cardCount = 0
+            let projectDetail = {};
+            projectDetail.type = 1;
+            projectDetail.projectId = projectId;
+            let newGroupList = [];
+            //点位id汇总
+            let pointIds = [];
+            for (let i = 0; i < groupList.length; i ++) {
+                let groupDetail = {};
+                groupDetail.id = groupList[i].id;
+                groupDetail.name = groupList[i].name;
+                groupDetail.type = groupList[i].type;
+                groupDetail.sort = groupList[i].sort;
+                let pageList = await BuryPointProjectModel.getListByParentId(groupList[i].id);
+                pageCount = pageCount + pageList.length;
+                let newPageList = [];
+                for (let j = 0; j < pageList.length; j++) {
+                    let pageDetail = {};
+                    pageDetail.id = pageList[j].id;
+                    pageDetail.name = pageList[j].name;
+                    pageDetail.type = pageList[j].type;
+                    pageDetail.sort = pageList[j].sort;
+                    let cardList = await BuryPointCardModel.getList('',pageList[j].id,'');
+                    cardCount = cardCount + cardList.length;
+                    let newCardList = [];
+                    for (let k = 0; k < cardList.length; k++) {
+                        let cardDetail = {};
+                        cardDetail.id = cardList[k].id
+                        cardDetail.name = cardList[k].name;
+                        cardDetail.type = cardList[k].type;
+                        cardDetail.pageId = cardList[k].pageId;
+                        cardDetail.conversionCycle = cardList[k].conversionCycle;
+                        cardDetail.groupByFlag = cardList[k].groupByFlag;
+                        cardDetail.chartTableShow = cardList[k].chartTableShow;
+                        cardDetail.togetherList = cardList[k].togetherList
+                        cardDetail.refreshFrequency = cardList[k].refreshFrequency
+                        cardDetail.calcRule = cardList[k].calcRule
+                        newCardList.push(cardDetail);
+                        let calcRuleJSON = JSON.parse(cardList[k].calcRule)
+                        for (let m = 0; m < calcRuleJSON.length;m++) {
+                            let calcData = calcRuleJSON[m];
+                            pointIds.push(calcData.prePoint.pointId);
+                            let endPoint = calcData.endPoint;
+                            if(endPoint){
+                                pointIds.push(calcData.endPoint.pointId);
+                            }       
+                        }
+                    }
+                    pageDetail.cardList = newCardList
+                    newPageList.push(pageDetail);
+                }
+                groupDetail.pageList = newPageList
+                newGroupList.push(groupDetail);
+            }
+            projectDetail.groupList = newGroupList
+            //点位ids去重
+            let newPointIdArraySetArr = [...new Set(pointIds)];
+            let pointList = [];
+            for(let i=0;i<newPointIdArraySetArr.length;i++){
+                let point = {}
+                let pointId = newPointIdArraySetArr[i]
+                let pointDetail = await BuryPointWarehouseModel.detail(pointId);
+                point.pointId = pointId
+                point.pointName = pointDetail.pointName
+                point.pointDesc = pointDetail.pointDesc
+                point.weType = pointDetail.weType
+                point.replacePointIdKey = pointDetail.replacePointIdKey
+                let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(pointDetail.fields)
+                let fieldList = []
+                for(let j = 0; j < buryPointFieldList.length; j ++){
+                    let fieldDetail = {}
+                    fieldDetail.fieldName = buryPointFieldList[j].fieldName
+                    fieldDetail.fieldAlias = buryPointFieldList[j].fieldAlias
+                    fieldDetail.fieldType = buryPointFieldList[j].fieldType
+                    fieldDetail.fieldLength = buryPointFieldList[j].fieldLength
+                    fieldDetail.fieldDesc = buryPointFieldList[j].fieldDesc
+                    fieldDetail.groupByFlag = buryPointFieldList[j].groupByFlag
+                    fieldDetail.weType = buryPointFieldList[j].weType
+                    fieldList.push(fieldDetail)
+                }
+                point.fieldList = fieldList
+                pointList.push(point);
+            }
+            let template = {};
+            template.templatePoint = JSON.stringify(pointList);
+            template.groupCount = groupList.length
+            template.pageCount = pageCount
+            template.cardCount = cardCount
+            template.userId = userId
+            template.detail = JSON.stringify(projectDetail);
+            let typeArray = type.split(",");
+            for(let i = 0;i < typeArray.length;i++){
+                template.type = typeArray[i]
+                if(template.type  === 1 || template.type  === '1'){
+                    //我的模板：新增;公共模板：新增，不关联项目，没有projectId
+                    template.projectId = projectId 
+                    let existeTemplate = await BuryPointTemplateModel.existTempleta(projectId, '', userId);
+                    if(existeTemplate && existeTemplate.length > 0){
+                        template.updateBy = nickname;
+                        await BuryPointTemplateModel.update(existeTemplate[0].id,template);
+                    }else {
+                        template.templateName = templateName
+                        template.createBy = nickname;
+                        await BuryPointTemplateModel.create(template);
+                    }
+                }else{
+                    template.templateName = templateName
+                    template.createBy = nickname;
+                    await BuryPointTemplateModel.create(template);
+                }
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', '');
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+    }
+
+    /**
+     * @swagger
+     * /buryPointProject/existTemplate:
+     *   post:
+     *     tags:
+     *       - 项目管理
+     *     summary: 项目是否有模板
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async existTemplate(ctx){
+        let req = JSON.parse(ctx.request.body);
+        let projectId = req.projectId;
+        const { userId } = ctx.user
+        if(projectId){
+            let res = await BuryPointTemplateModel.existTempleta(projectId, 1, userId);
+            ctx.response.status = 200;
+            if (res.length > 0) {
+                ctx.body = statusCode.SUCCESS_200('success', '1');
+            }else {
+                ctx.body = statusCode.SUCCESS_200('success', '0');
+            }
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail！')
+        }
+    }
+}
+
+class FailController {
+  static async getSysInfo(ctx) {
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', {invalid: true})
+  }
+  static async createPurchaseCode(ctx) {
+    const req = ctx.request.body
+    const param = JSON.parse(req)
+    const { inputPurchaseCode, inputSecretCode } = param
+
+    // const newString = `"purchase": {
+    //   "purchaseCode": '${inputPurchaseCode}',
+    //   "secretCode": '${inputSecretCode}',
+    // }`
+    // await fs.writeFile("./config_variable/config.json", newString, (err) => {
+    //   if (err) {
+    //     throw err;
+    //   }
+    // });
+
+    await ConfigModel.updateConfig("purchaseCode", {configValue: inputPurchaseCode})
+    await ConfigModel.updateConfig("secretCode", {configValue: inputSecretCode})
+
+    FailController.restartServer()
+    ctx.response.status = 200;
+    ctx.body = statusCode.SUCCESS_200('success', 0)
+  }
+
+  /**
+   * 重启服务
+   */
+  static async restartServer() {
+
+    switch (process.platform) {
+      // windows系统下
+      case "win32":
+          spawn(process.platform === "win32" ? "npm.cmd" : "npm", ['run', 'prd_restart'], { stdio: 'inherit' });
+          break;
+      case "darwin":  // 默认mac系统
+      default:
+          try {
+              execFile('./restart.sh', [], null, function (err, stdout, stderr) {
+                  console.log("服务已重启")
+              });
+          } catch(e) {
+            console.log("服务重启失败，请手动重启")
+          }
+          break;
+    }
+
+  }
+}
+
+
+/**
+ * 处理升级数据
+ */
+class WeHandleDataController {
+
+    /**
+     * 处理通用字段
+     */
+    /**
+     * @swagger
+     * /initWeFieldData:
+     *   get:
+     *     tags:
+     *       - 处理数据
+     *     summary: 处理通用字段数据
+     *     parameters:
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async initWeFieldData(ctx){
+        // const {nickname,userType} = ctx.user
+        let nickname = "超级管理员"
+        let userType = USER_INFO.USER_TYPE_SUPERADMIN
+        //
+        // if (userType !== USER_INFO.USER_TYPE_SUPERADMIN) {
+        //     ctx.response.status = 200;
+        //     ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        //     return
+        // }
+        //1、查询项目
+        let projectList = await BuryPointProjectModel.getListByParentId(-1);
+        for(let i=0;i<projectList.length;i++){
+            const {projectId} = projectList[i]
+            if(projectId === 'event101'){
+                 await CommonInitDataController.handleWeFieldData(projectId,nickname)
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')   
+    }
+
+    /**
+     * 处理通用字段
+     */
+    /**
+     * @swagger
+     * /initWePointData:
+     *   get:
+     *     tags:
+     *       - 处理数据
+     *     summary: 处理通用点位数据
+     *     parameters:
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async initWePointData(ctx){
+        // const {nickname,userType} = ctx.user
+        let nickname = "超级管理员"
+        let userType = USER_INFO.USER_TYPE_SUPERADMIN
+        //1、查询项目
+        let projectList = await BuryPointProjectModel.getListByParentId(-1);
+        for(let i=0;i<projectList.length;i++){
+            const {projectId} = projectList[i]
+            if(projectId === 'event101'){
+                await CommonInitDataController.handleWePointData(projectId,nickname)
+            }
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+    }
+
+    /**
+     * 处理系统模板:
+     * 1、从项目里面导出模板
+     * 2、取出模板的detail字段里面内容，存到json文件中，文件给一个唯一的key标识，存在json中，防止重复创建
+     * 3、默认生成两个模板：基础模板》一个简单的，只有demo里面6个卡片，创建项目；系统模板》一个是复杂点的，就是我们的电商模板，默认不创建项目
+     * 4、怎么生成：
+        拿到json中的唯一key，和模板表中字段key做比较，存在就更新，不存在就新增；
+        模板创建项目：无限版都创建项目，非无限版只创建一个基础模板的项目
+     * 5、系统项目每天不创建日志表
+     */
+    /**
+     * @swagger
+     * /initWeTemplateData:
+     *   get:
+     *     tags:
+     *       - 处理数据
+     *     summary: 处理系统模板
+     *     parameters:
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async initWeTemplateData(ctx){
+        // const {nickname,userType} = ctx.user
+        let nickname = "webfunny"
+        let userType = USER_INFO.USER_TYPE_SUPERADMIN
+        if (weTemplateList && weTemplateList.length >0) {
+            for(let i=0;i<weTemplateList.length;i++){
+                //创建系统项目
+                await WeHandleDataController.createWeProject(weTemplateList[i],nickname)    
+            }
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')
+        }else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    static async createWeTemplateData(){
+        log.printInfo("创建系统模板和项目开始");
+        let nickname = "webfunny"
+        if (weTemplateList && weTemplateList.length >0) {
+            for(let i=0;i<weTemplateList.length;i++){
+                //创建系统项目
+                await WeHandleDataController.createWeProject(weTemplateList[i],nickname)    
+            }
+        }
+    }
+
+
+    /**
+     * 埋点2.0升级
+     * 字段和点位处理，跟项目绑定
+     * 项目：sysType数据库sql新增该字段初始化0
+     * 点位：weType数据库sql新增该字段初始化0
+     * 字段：weType数据库sql新增该字段初始化0
+     * 1、查询所有项目（设置sysType：0-我的项目，1-系统项目）
+     * 2、遍历项目，查询每个项目的SDK发布
+     * 3、遍历SDK发布，查询每个SDK下的点位
+     * 4、遍历点位，查询每个点位下的字段（设置weType：0-项目点位，1-通用项目）
+     * 5、遍历字段，为每个项目都创建一份字段（设置weType：0-项目字段，1-通用字段）
+     * 6、遍历看板，为每个看板下的卡片找到对应的点位id
+     */
+    /**
+     * @swagger
+     * /upgradeVersion:
+     *   get:
+     *     tags:
+     *       - 处理数据
+     *     summary: 一键升级
+     *     parameters:
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async upgradeVersion_2_0(ctx){
+        // const {nickname,userType} = ctx.user
+        let nickname = "超级管理员"
+        let userType = USER_INFO.USER_TYPE_SUPERADMIN
+        //1、查询项目
+        let projectList = await BuryPointProjectModel.getListByParentIdAndSysType(-1,0);
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, `升级中，${projectList.length*10}秒内请务在进行其他操作...`)
+        for(let i=0;i<projectList.length;i++){
+            const {projectId} = projectList[i]
+            // if(projectId === 'event1075'){
+                 //创建通用点位和通用字段
+                CommonInitDataController.initWeFieldAndPointData(projectId,nickname);
+                //升级字段，为每个项目重新创建一遍老的字段
+                CommonInitDataController.handleOldFieldData(projectId,nickname)
+                //升级字段，点位，卡片
+                // CommonInitDataController.handleData(projectList[i],nickname)
+            // }
+        }
+    }
+
+    /**
+     * 创建系统项目
+     * @param {} weTemplate 
+     */
+    static async createWeProject(weTemplate,nickname){
+        const { templateName, weKey,groupCount,pageCount,cardCount,templatePoint,detail } = weTemplate
+        let existeTemplate = await BuryPointTemplateModel.existWeTempletaByWekey(weKey);
+        if(existeTemplate && existeTemplate.length > 0){
+            return
+        }    
+        let templateReq = {}
+        templateReq.templateName = templateName
+        templateReq.weKey = weKey
+        templateReq.groupCount = groupCount
+        templateReq.pageCount = pageCount
+        templateReq.cardCount = cardCount
+        templateReq.createBy = nickname;
+        templateReq.templatePoint = "{}";
+        templateReq.detail = "{}";
+        templateReq.type = 3;
+        let retTemplate = await BuryPointTemplateModel.create(templateReq);
+
+        // let projectJson = JSON.parse(detail);
+        let projectJson = detail;
+        //1、新建项目
+        let projectName = templateName + "项目";
+        //系统项目:sysType = 1
+        let retProject = await BuryPointProjectController.createNewProject(projectName,1,nickname,'');
+        let newProjectId = retProject.projectId
+        //2、创建系统项目下的点位和字段，并返回点位id的对应关系，为创建卡片找到对应的点位和字段
+        let pointRelationList = await CommonInitDataController.initWeTemplatePointAndField(newProjectId,templatePoint,nickname);
+        //3、新建分组
+        let groupList = projectJson.groupList
+        let newGroupList = [];
+        //点位id汇总
+        let pointIds = [];
+        for(let i=0;i<groupList.length;i++){
+            let groupInfo = {}
+            groupInfo.name =  groupList[i].name;
+            groupInfo.type = 2
+            groupInfo.sort = groupList[i].sort
+            groupInfo.parentId = retProject.id
+            groupInfo.projectId = newProjectId
+            groupInfo.createBy = nickname
+            let retGroup = await BuryPointProjectModel.create(groupInfo);
+            //3、新建看板
+            let pageList = groupList[i].pageList
+            
+            //新模版分组
+            let groupDetail = {}
+            groupDetail.id = retGroup.id;
+            groupDetail.name = groupList[i].name;
+            groupDetail.type = groupList[i].type;
+            groupDetail.sort = groupList[i].sort;
+            let newPageList = [];
+
+            for(let j=0;j<pageList.length;j++){
+                let pageInfo = {}
+                pageInfo.name =  pageList[j].name;
+                pageInfo.type = 3
+                pageInfo.sort = pageList[j].sort
+                pageInfo.parentId = retGroup.id
+                pageInfo.projectId = newProjectId
+                pageInfo.createBy = nickname
+                let retPage = await BuryPointProjectModel.create(pageInfo);
+                //4、新建卡片
+                let cardList = pageList[j].cardList
+                
+                //新模版看板
+                let pageDetail = {};
+                pageDetail.id = retPage.id;
+                pageDetail.name = pageList[j].name;
+                pageDetail.type = pageList[j].type;
+                pageDetail.sort = pageList[j].sort;
+                let newCardList = [];
+
+                for(let k=0;k<cardList.length;k++){
+                    let oldCard = cardList[k];
+                    let newCard = {};
+                    newCard.pageId = retPage.id;
+                    newCard.name = oldCard.name;
+                    newCard.type = oldCard.type;
+                    newCard.sort = oldCard.sort;
+                    newCard.conversionCycle = oldCard.conversionCycle;
+                    newCard.groupByFlag = oldCard.groupByFlag;
+                    newCard.chartTableShow = oldCard.chartTableShow;
+                    newCard.togetherList = oldCard.togetherList;
+                    newCard.refreshFrequency = oldCard.refreshFrequency;
+                    let calcRuleJSON = JSON.parse(oldCard.calcRule);       
+                    let newCalcRule = []
+                    let pointAndStepNameList = []
+                    for (let m = 0; m < calcRuleJSON.length;m++) {
+                        //重新设置calcNameKey和点位id
+                        let calcData = calcRuleJSON[m];
+                        let calcName = calcData.calcName;
+                        calcData.calcNameKey = slugify(calcName).replace(/-/g, "") + new Date().Format("yyyyMMddhhmmss");
+                        let prePoint = calcData.prePoint;
+                        let pointId = prePoint.pointId;
+                        //5、得到新点位
+                        let newPointId = await CommonInitDataController.getNewPointId(pointId,pointRelationList);
+                        // newPointIdArray.push(newPointId);
+                        calcData.prePoint.pointId = newPointId;
+                        pointIds.push(newPointId);
+                        let endPoint = calcData.endPoint;
+                        if(endPoint){
+                            //6、得到新点位
+                            let newEndPointId = await CommonInitDataController.getNewPointId(pointId,pointRelationList);
+                            // newPointIdArray.push(newEndPointId);
+                            calcData.endPoint.pointId = newEndPointId;
+                            pointIds.push(newEndPointId);
+                        }       
+                        newCalcRule.push(calcData);
+                        if (newCard.type === 5) {
+                            pointAndStepNameList.push(newPointId);
+                        }
+                    }
+                    newCard.calcRule = JSON.stringify(newCalcRule);
+                    newCard.createBy = nickname
+                    //7、创建卡片
+                    let retCard = await BuryPointCardModel.create(newCard);
+                    //8、漏斗图创建点位和步骤关系
+                    if (newCard.type === 5) {
+                        BuryPointCardController.saveFunnelPointRelation(pointAndStepNameList, retCard.id);
+                    }
+
+                    //新模版卡片
+                    let cardDetail = {};
+                    cardDetail.id = retCard.id;
+                    cardDetail.name = cardList[k].name;
+                    cardDetail.type = cardList[k].type;
+                    cardDetail.conversionCycle = cardList[k].conversionCycle;
+                    cardDetail.groupByFlag = cardList[k].groupByFlag;
+                    cardDetail.chartTableShow = cardList[k].chartTableShow;
+                    cardDetail.togetherList = cardList[k].togetherList
+                    cardDetail.refreshFrequency = cardList[k].refreshFrequency
+                    cardDetail.calcRule = newCard.calcRule
+                    newCardList.push(cardDetail);
+
+                }
+                pageDetail.cardList = newCardList
+                newPageList.push(pageDetail);
+            }
+            groupDetail.pageList = newPageList
+            newGroupList.push(groupDetail);
+        }
+        //最后更新还是创建模板
+        let projectDetail = {};
+        projectDetail.groupList = newGroupList
+        //点位ids去重
+        let newPointIdArraySetArr = [...new Set(pointIds)];
+        let pointList = [];
+        for(let i=0;i<newPointIdArraySetArr.length;i++){
+            let point = {}
+            let pointId = newPointIdArraySetArr[i]
+            let pointDetail = await BuryPointWarehouseModel.detail(pointId);
+            point.pointId = pointId
+            point.pointName = pointDetail.pointName
+            point.pointDesc = pointDetail.pointDesc
+            point.weType = pointDetail.weType
+            point.replacePointIdKey = pointDetail.replacePointIdKey
+            let buryPointFieldList = await BuryPointFieldModel.getListByFieldIds(pointDetail.fields)
+            let fieldList = []
+            for(let j = 0; j < buryPointFieldList.length; j ++){
+                let fieldDetail = {}
+                fieldDetail.fieldName = buryPointFieldList[j].fieldName
+                fieldDetail.fieldAlias = buryPointFieldList[j].fieldAlias
+                fieldDetail.fieldType = buryPointFieldList[j].fieldType
+                fieldDetail.fieldLength = buryPointFieldList[j].fieldLength
+                fieldDetail.fieldDesc = buryPointFieldList[j].fieldDesc
+                fieldDetail.groupByFlag = buryPointFieldList[j].groupByFlag
+                fieldDetail.weType = buryPointFieldList[j].weType
+                fieldList.push(fieldDetail)
+            }
+            point.fieldList = fieldList
+            pointList.push(point);
+        }
+        let templateUpdate = {}
+        templateUpdate.templatePoint = JSON.stringify(pointList);
+        templateUpdate.projectId = newProjectId
+        templateUpdate.detail = JSON.stringify(projectDetail);
+        templateUpdate.id = retTemplate.id;
+        await BuryPointTemplateModel.update(templateUpdate.id,templateUpdate);    
+    }
+
+    /**
+     * {
+    "cardId": 319,
+    "type": 6,
+    "cardName": "心跳次数",
+    "conversionCycle": 1,
+    "groupByFlag": 0,
+    "chartTableShow": "chart",
+    "togetherList": "total,average,yoyRatio,ringRatio",
+    "refreshFrequency": 30,
+    "refreshTime": "2023-04-29 23:26:42",
+    "statisticList": [{
+        "calcTotail": 1,
+        "calcData": [],
+        "calcName": "数量",
+        "unit": "次"
+    }]
+}
+     */
+    static async createDemoTemplateData(){
+        let newBaseTemplateCardList = []
+        for(let i=0;i<baseTemplateCardList.length;i++){
+            let cardDetail = baseTemplateCardList[i]
+            let newStatisticDetail = []
+            // console.log("cardDetail:" + JSON.stringify(cardDetail))
+            for(let j=0;j<cardDetail.statisticList.length;j++){
+                let statisticDetail = cardDetail.statisticList[j]
+                let calcType = statisticDetail.calcType
+                let newCalcData = []
+                if(calcType){
+                    for(let k = 0;k<30;k++){
+                        let info = {}
+                        info.count = Math.floor((Math.random()*100));
+                        info.happenDate = "04-0" + k;
+                        newCalcData.push(info);
+                    }
+                }else{
+                    for(let k = 0;k<30;k++){
+                        let info = {}
+                        info.count = Math.floor((Math.random()*1000)+1000);
+                        info.happenDate = "04-0" + k;
+                        newCalcData.push(info);
+                    }
+                }
+                statisticDetail.calcData = newCalcData
+                newStatisticDetail.push(statisticDetail)
+            }
+            cardDetail.statisticList = newStatisticDetail
+            newBaseTemplateCardList.push(cardDetail)
+        }
+        console.log(JSON.stringify(newBaseTemplateCardList))
+    }
+}
+
+class SdkReleaseController {
+    /**
+     * @swagger
+     * /sdkRelease/create:
+     *   post:
+     *     tags:
+     *       - SDK发布
+     *     summary: 创建
+     *     parameters:
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: releaseName
+     *         description: SDK名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointIds
+     *         description: 点位ids
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async create(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        const { nickname } = ctx.user
+        req.createBy = nickname
+        //根据选的点位和点位下的字段，调用生成脚本的模块，生成脚本，然后保存入库
+        req.status = 1; //1发布成功，2发布失败
+        req.version = 'v1.0.0';
+        req.releaseScript = '';
+        if (req.releaseName && req.projectId && req.pointIds && req.status && req.version) {
+            // const res = await SdkReleaseModel.checkName('',req.releaseName, req.projectId).catch((e) => {
+            //     log.error(e)
+            // });
+            // let count = (res)?res[0].count:0;
+            // if (count > 0) {
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_NAME_EXIST)}`)
+            //     return
+            // }
+            let poindIdArr = req.pointIds.split(",")
+            await SdkReleaseController.createNewSdk(req.projectId,req.releaseName,poindIdArr,nickname)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_SUCCESS)}`, '')    
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_PARAM_FAIL)}`)
+        }
+    }
+
+    /**
+     * 创建sdk
+     * @param {*} projectId 
+     * @param {*} pointIds 
+     * @param {*} nickname 
+     * @returns 
+     */
+    static async createNewSdk(projectId,releaseName,pointIds,nickname){
+        let newSdkRelease = {};
+        newSdkRelease.projectId = projectId;
+        newSdkRelease.releaseName = releaseName;
+        newSdkRelease.pointIds = pointIds + "";
+        newSdkRelease.releaseScript = "";
+        newSdkRelease.status = 1;
+        newSdkRelease.version = 'v1.0.0';
+        newSdkRelease.createBy = nickname
+        let ret = await SdkReleaseModel.create(newSdkRelease);
+        if (ret) {
+            //获取通用点位
+            let wePointIds = await BuryPointWarehouseModel.getPointIds(projectId, 1);
+            if(wePointIds && wePointIds.length > 0){
+                for(let i=0;i<wePointIds.length;i++){
+                    pointIds.push(wePointIds[i].id);
+                }
+            }
+           //10、创建完成，要生成日志表表，选了几个点位仓库，就生成几张表
+            for (let i = 0; i < pointIds.length; i++) {
+                //默认生成今天的表
+                SdkReleaseController.createTableByDay(projectId, pointIds[i], 0).catch((e) => {
+                    log.printError("执行{" + projectId + "_" + pointIds[i] + "}创建表报错：", e)
+                });
+            }
+        }
+    }
+
+    /**
+     * 更新
+     * 点位的变动，需要重新下载sdk，也将删除旧的日志表，今天的数据会丢失，请谨慎操作
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /sdkRelease/update:
+     *   post:
+     *     tags:
+     *       - SDK发布
+     *     summary: 更新
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: projectId 
+     *         description: 项目ID
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: releaseName
+     *         description: SDK名称
+     *         in: formData
+     *         required: true
+     *         type: string
+     *       - name: pointIds
+     *         description: 点位ids
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async update(ctx) {
+        let req = JSON.parse(ctx.request.body);
+        let id = req.id;
+        const { nickname } = ctx.user
+        req.updateBy = nickname
+        if (req) {
+            const { projectId, pointIds } = req
+            // const res = await SdkReleaseModel.checkName(id,req.releaseName, req.projectId).catch((e) => {
+            //     log.error(e)
+            // });
+            // let count = (res)?res[0].count:0;
+            // if (count > 0) {
+            //     ctx.response.status = 412;
+            //     ctx.body = statusCode.ERROR_412(`${Utils.b64DecodeUnicode(ConstMsg.CREATE_FAIL_NAME_EXIST)}`)
+            //     return
+            // }
+            //和以前的点位作比较，移除的点位，要drop对应的日志表，
+            //但是如果被同一个项目的其他sdk所用，也不支持删除日志表
+            let oldRet = await SdkReleaseModel.detail(id);
+            const oldPointIds = oldRet.pointIds;
+            let ret = await SdkReleaseModel.update(id, req);
+            if (ret) {
+                //创建完成，要生成表，选了几个点位仓库，就生成几张表
+                const pointIdArray = pointIds.split(",")
+                //获取通用点位
+                let wePointIds = await BuryPointWarehouseModel.getPointIds(projectId, 1);
+                if(wePointIds && wePointIds.length > 0){
+                    for(let i=0;i<wePointIds.length;i++){
+                        pointIdArray.push(wePointIds[i].id);
+                    }
+                }
+                for (let i = 0; i < pointIdArray.length; i++) {
+                    //默认生成今天的表
+                    SdkReleaseController.createTableByDay(projectId, pointIdArray[i], 0).catch((e) => {
+                        log.printError("执行{" + projectId + "_" + pointIdArray[i] + "}创建表报错：", e)
+                    });
+                }
+                SdkReleaseController.deleteLogTable(projectId, id, pointIdArray, oldPointIds);
+                ctx.response.status = 200;
+                ctx.body = statusCode.SUCCESS_200('success', '');
+            }
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail')
+        }
+    }
+
+    /**
+     * 编辑删除移除的点位日志表
+     * 和以前的点位作比较，移除的点位，要drop对应的日志表，
+     * 要比较两个点位列表是否有不一样的点位，有的话，再拿出来查询其他sdk是否有用到
+     * 但是如果被同一个项目的其他sdk所用，也不支持删除日志表
+     * @param {表名} invalidTables 
+     */
+    static async deleteLogTable(projectId, sdkId, pointIdArray, oldPointIds){
+        const invalidTables = [];
+        const oldPointIdArray = oldPointIds.split(",")
+        //遍历老的，和新的比较，不一样再去查询是否其他sdk所用到
+        var deletePointList = oldPointIdArray.filter(v => !pointIdArray.some((item) => item === v));
+        for (let i = 0; i < deletePointList.length; i++) {
+            const res = await SdkReleaseModel.checkPointIdByOthers(projectId, deletePointList[i],sdkId).catch((e) => {
+                log.error(e)
+            });
+            let count = res[0].count
+            if( count > 0){
+                continue;
+            }
+            let tableName = Utils.setTableName(projectId + "_" + deletePointList[i] + "_", 0)
+            invalidTables.push(tableName);     
+        }
+        if(invalidTables && invalidTables.length >0){
+            let invalidTablesSet = new Set(invalidTables);
+            let invalidTablesSetArr = [...invalidTablesSet];
+            invalidTablesSetArr.forEach(async (tableName) => {
+                await Sequelize.dropSchema(tableName).then(() => {
+                    log.printInfo("成功删除日志表: " + tableName)
+                })
+            })
+        }
+        
+    }
+
+    /**
+     * 删除
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    /**
+     * @swagger
+     * /sdkRelease/delete:
+     *   post:
+     *     tags:
+     *       - SDK发布
+     *     summary: 删除
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async delete(ctx) {
+        let param = JSON.parse(ctx.request.body);
+        const { id } = param
+        // 删除前，先检查是否还有
+        await SdkReleaseModel.delete(id)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', "")
+    }
+
+    /**
+     * 获取sdk详情
+     * 1、探针代码
+     * 2、点位列表
+     * @param {*} ctx 
+     */
+    /**
+     * @swagger
+     * /sdkRelease/detail:
+     *   get:
+     *     tags:
+     *       - SDK发布
+     *     summary: 详情
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async detail(ctx){
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        if (id) {
+            let sdkRelease = await SdkReleaseModel.detail(id);
+            const { projectId, pointIds, uploadDomain } = sdkRelease
+            let sdkReleaseRes = {uploadDomain};
+            sdkReleaseRes.projectId = projectId;
+            let points = [];
+            let wePointList = await BuryPointWarehouseModel.getList(projectId, '',1);
+            let projectPointList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+            for (let i = 0; i < projectPointList.length; i++) {
+                const point = {}
+                point.pointName = projectPointList[i].pointName
+                point.pointId = projectPointList[i].id
+                const pointData = await BuryPointWarehouseModel.detail(point.pointId);
+                const { fields } = pointData
+                const resFields = [];
+                const resList = await BuryPointFieldModel.getListByFieldIdsAndWeType(fields,0)
+                for (let j = 0 ; j < resList.length; j++) {
+                    const resField = {};
+                    resField.fieldName = resList[j].fieldName
+                    resField.fieldAlias = resList[j].fieldAlias
+                    resField.fieldType = resList[j].fieldType
+                    resField.fieldDesc = resList[j].fieldDesc
+                    resFields.push(resField);
+                }
+                point.fieldList = resFields
+                points.push(point)
+            }
+            sdkReleaseRes.points = points
+            //生成探针
+            let releaseScriptH5 = await SdkReleaseController.getReleaseScript(sdkRelease, wePointList, projectPointList,"H5")
+            sdkReleaseRes.h5Code = decodeURIComponent(releaseScriptH5)
+            let releaseScriptUniapp = await SdkReleaseController.getReleaseScript(sdkRelease, wePointList, projectPointList, "Uniapp")
+            sdkReleaseRes.uniappCode = decodeURIComponent(releaseScriptUniapp)
+            let releaseScriptWechat = await SdkReleaseController.getReleaseScript(sdkRelease, wePointList, projectPointList, "Wechat")
+            sdkReleaseRes.wechatCode = decodeURIComponent(releaseScriptWechat)
+            ctx.response.status = 200;
+            ctx.body = statusCode.SUCCESS_200('success', sdkReleaseRes)
+        } else {
+            ctx.response.status = 412;
+            ctx.body = statusCode.ERROR_412('fail');
+        }
+    }
+    /**
+     * @swagger
+     * /sdkRelease/page:
+     *   post:
+     *     tags:
+     *       - SDK发布
+     *     summary: 获取分页列表
+     *     parameters:
+     *       - name: projectId
+     *         description: 项目id
+     *         in: formData
+     *         required: false
+     *         type: string    
+     *       - name: releaseName
+     *         description: SDK名称
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *       - name: teamProjectIds
+     *         description: 所属项目ids
+     *         in: formData
+     *         required: false
+     *         type: string 
+     *       - name: status
+     *         description: 状态
+     *         in: formData
+     *         required: false
+     *         type: integer
+     *       - name: page
+     *         description: 当前页
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *       - name: pageSize
+     *         description: 页面大小
+     *         in: formData
+     *         required: true
+     *         type: integer
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async getPageList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { releaseName, teamProjectIds, projectId, status, page, pageSize } = params;
+        const {userId, userType} = ctx.user
+        let total = []
+        let totalCount = 0
+        let res = {} 
+        if (userType === USER_INFO.USER_TYPE_ADMIN || userType === USER_INFO.USER_TYPE_SUPERADMIN) {
+            total = await SdkReleaseModel.getPageCount(releaseName, '',projectId, status)
+            res = await SdkReleaseModel.getPageList(releaseName, '',projectId, status, page, pageSize)
+        } else {
+            let projectList = "";
+            if(teamProjectIds){
+                const projectIdArray = teamProjectIds.split(",")
+                for (let i = 0; i < projectIdArray.length; i++) {
+                    if(projectIdArray[i].indexOf("event") != -1){
+                        projectList = projectList + ',' + projectIdArray[i]
+                    }
+                }
+            }
+            total  = await SdkReleaseModel.getPageCount(releaseName, projectList, projectId, status)
+            res = await SdkReleaseModel.getPageList(releaseName, projectList, projectId, status, page, pageSize)
+        }
+        totalCount = total[0].count
+        for (let i = 0; i < res.length; i++) {
+            const sdkRelease = res[i]
+            const { projectId, pointIds } = sdkRelease
+            let projectInfo = await BuryPointProjectModel.getProjectByProjectId(projectId)
+            const { name } = projectInfo[0]
+            sdkRelease.projectName = name;
+            let points = [];
+            let buryPointWarehouseList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+            for (let j = 0; j < buryPointWarehouseList.length; j++) {
+                const point = {}
+                point.pointName = buryPointWarehouseList[j].pointName
+                point.pointId = buryPointWarehouseList[j].id
+                points.push(point)
+            }
+            sdkRelease.points = points
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', { list: res, totalCount })
+    }
+
+    /**
+     * 列表
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getList(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { releaseName, projectId, status } = params;
+        const res = await SdkReleaseModel.getList(releaseName, projectId, status)
+        for (let i = 0; i < res.length; i++) {
+            const sdkRelease = res[i]
+            let pointNames = '';
+            const { projectId, pointIds } = sdkRelease
+            let projectInfo = await BuryPointProjectModel.getProjectByProjectId(projectId)
+            const { name } = projectInfo[0]
+            sdkRelease.projectName = name;
+            let buryPointWarehouseList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+            for (let j = 0; j < buryPointWarehouseList.length; j++) {
+                pointNames = pointNames + buryPointWarehouseList[j].pointName + ","
+            }
+            pointNames = pointNames.substring(0, pointNames.lastIndexOf(','));
+            sdkRelease.pointNames = pointNames
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * 全部
+     * @param ctx
+     * @returns {Promise.<void>}
+     */
+    static async getAllList(ctx) {
+        const res = await SdkReleaseModel.getAllList()
+        for (let i = 0; i < res.length; i++) {
+            const sdkRelease = res[i]
+            let pointNames = '';
+            const { pointIds } = sdkRelease
+            let buryPointWarehouseList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+            for (let j = 0; j < buryPointWarehouseList.length; j++) {
+                pointNames = pointNames + buryPointWarehouseList[j].pointName + ","
+            }
+            pointNames = pointNames.substring(0, pointNames.lastIndexOf(','));
+            sdkRelease.pointNames = pointNames
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+    * 全部
+    * @param ctx
+    * @returns {Promise.<void>}
+    */
+    static async getAllList(ctx) {
+        const res = await SdkReleaseModel.getAllList()
+        for (let i = 0; i < res.length; i++) {
+            const sdkRelease = res[i]
+            let pointNames = '';
+            const { pointIds } = sdkRelease
+            let buryPointWarehouseList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+            for (let j = 0; j < buryPointWarehouseList.length; j++) {
+                pointNames = pointNames + buryPointWarehouseList[j].pointName + ","
+            }
+            pointNames = pointNames.substring(0, pointNames.lastIndexOf(','));
+            sdkRelease.pointNames = pointNames
+        }
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', res)
+    }
+
+    /**
+     * 创建执行脚本请求
+     */
+    static async createReleaseScript(ctx) {
+        let req = ctx.request.body
+        const params = JSON.parse(req)
+        const { id, type } = params;
+        let sdkRelease = await SdkReleaseModel.detail(id)
+        const { projectId, pointIds } = sdkRelease
+        let wePointList = await BuryPointWarehouseModel.getList(projectId, '',1);
+        let projectPointList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+        let releaseScript = await SdkReleaseController.getReleaseScript(sdkRelease, wePointList,projectPointList, type)
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', releaseScript)
+    }
+
+    /**
+     * 创建执行脚本方法
+     * type取值H5，Uniapp，Wechat,Java
+     */
+    static async getReleaseScript(project, wePointList, projectPointList, type) {
+        const { projectId, uploadDomain } = project
+        let allPoints = [];
+        let wePointIdList = []
+        for (let i = 0; i < wePointList.length; i++) {
+            allPoints.push(wePointList[i])
+            const { id, weType,replacePointIdKey} = wePointList[i]
+            let pointId = id
+            wePointIdList.push({
+                pointId,weType,replacePointIdKey
+            });
+        }
+        for (let i = 0; i < projectPointList.length; i++) {
+            allPoints.push(projectPointList[i])
+        }
+        let releaseScript = '';
+        let typeFunction = 'window.';
+        if (type == 'H5') {
+            typeFunction = 'window.';
+        } else if (type == 'Uniapp') {
+            typeFunction = 'uni.';
+        } else if (type == 'Wechat') {
+            typeFunction = 'wx.';
+        }
+        for (let i = 0; i < allPoints.length; i++) {
+            let point = allPoints[i]
+            const { id, fields } = point
+            let pointId = id;
+            let buryPointFields = await BuryPointFieldModel.getListByFieldIds(fields)
+            let fieldStr = '';
+            for (let j = 0; j < buryPointFields.length; j++) {
+                const field = buryPointFields[j];
+                let { fieldName, fieldType, fieldLength } = field
+                fieldType = Utils.convertFieldType(fieldType)
+                fieldStr +=
+                    `${fieldName}:{required:true,type:'${fieldType}',length:${fieldLength}},`;
+            }
+            releaseScript +=
+                `${pointId}:{
+                    fields:{${fieldStr}},
+                    trackEvent(params){
+                        if(${typeFunction}webfunnyEventValidateParams(params,this.fields)){
+                            ${typeFunction}webfunnyEventUtils.setFirstActionTime('${pointId}');
+                            var weFirstStepDay = ${typeFunction}webfunnyEventUtils.getFirstActionTime('${pointId}');
+                            var customerInfo = ${typeFunction}webfunnyEventGetCustomerInfo();
+                            for (var key in params) { if (typeof params[key] !== "number") { params[key] = ${typeFunction}webfunnyEventUtils.b64Code(params[key]) } };
+                            ${typeFunction}webfunnyEventUtils.combineObject(params, {projectId: '${projectId}', pointId: '${pointId}'});
+                            ${typeFunction}webfunnyEventUtils.combineObject(params, customerInfo);
+                            ${typeFunction}webfunnyEventUtils.combineObject(params, {weFirstStepDay});
+                            if(${typeFunction}WE_INIT_FLG === true){
+                                ${typeFunction}webfunnyEventSendRequest([params]);
+                            } else {
+                                ${typeFunction}webfunnyEventStoreLogs(params);
+                            }
+                        }
+                    }
+                },`
+        }
+        releaseScript = releaseScript.replace(/[\n][ ]*/g, "")
+        releaseScript = "{" + releaseScript + "}";
+        // let eventTempleteCode = fs.readFileSync(`${path.resolve(__dirname, '..')}/lib/webfunny-track.web.umd.js`, 'utf-8');
+        // eventTempleteCode = eventTempleteCode.replace(/$$$projectId$$$/g, projectId)
+        let eventTempleteCode = ""
+        let urlPath = "//";
+        if (type == 'H5') {
+            eventTempleteCode = fs.readFileSync(`${path.resolve(__dirname, '..')}/lib/webfunny-track.web.umd.js`, 'utf-8');
+        } else if (type == 'Uniapp') {
+            urlPath = "https://";
+            eventTempleteCode = fs.readFileSync(`${path.resolve(__dirname, '..')}/lib/webfunny-track.uni.umd.js`, 'utf-8');
+        } else if (type == 'Wechat') {
+            urlPath = "https://";
+            eventTempleteCode = fs.readFileSync(`${path.resolve(__dirname, '..')}/lib/webfunny-track.wx.umd.js`, 'utf-8');
+        } else if (type == 'Java') {
+
+        }
+        // let eventCode = encodeURIComponent(eventTempleteCode.toString().replace(/\$\$\$webfunny-event-code\$\$\$/g, releaseScript));
+        let uploadServerDomain = accountInfo.uploadServerDomain;
+        if (!uploadServerDomain || uploadServerDomain === '' || uploadServerDomain === undefined) {
+            uploadServerDomain = accountInfo.localServerDomain;
+        }
+        for (let i = 0; i < wePointIdList.length; i++) {
+            const{ pointId, replacePointIdKey } = wePointIdList[i];
+            eventTempleteCode = eventTempleteCode.replace(`$$$${replacePointIdKey}$$$`, pointId);
+        }
+        let finalUploadDomain = ""
+
+        if (uploadDomain === null) {
+            // null, 说明这个项目还未更新过uploadDomain，直接使用系统的
+            finalUploadDomain = urlPath + uploadServerDomain
+        } else if (uploadDomain === "") {
+            // 空, 说明这个项目被用户主动设置了空uploadDomain，想使用location.origin进行上报
+            finalUploadDomain = uploadDomain
+        } else {
+            // 有效, 正常赋值
+            finalUploadDomain = urlPath + uploadDomain
+        }
+
+        let eventCodeNoEncode = eventTempleteCode.toString()
+            .replace(/"\$\$\$webfunny-event-code\$\$\$"/g, releaseScript)
+            .replace("$$$webfunny-event-domain$$$", finalUploadDomain)
+            .replace(/\$\$\$projectId\$\$\$/g, projectId);
+        let eventCode = encodeURIComponent(eventCodeNoEncode);
+        return eventCode;
+    }
+
+    /**
+     * 下载脚本文件
+     * @param {}} ctx 
+     */
+    /**
+     * @swagger
+     * /sdkRelease/downLoad:
+     *   get:
+     *     tags:
+     *       - SDK发布
+     *     summary: 下载
+     *     parameters:
+     *       - name: id 
+     *         description: 主键ID
+     *         in: formData
+     *         required: true
+     *         type: integer 
+     *       - name: type 
+     *         description: 类型（H5，Uniapp，Wechat）
+     *         in: formData
+     *         required: true
+     *         type: string
+     *     responses: 
+     *       200:
+     *         description: '{"code":200,"msg":"success","data":[]}'
+     */
+    static async downloadScript(ctx) {
+        const param = Utils.parseQs(ctx.request.url)
+        let id = param.id;
+        //TODO type取值H5，Uniapp，Wechat
+        let type = param.type;
+        //脚本写入文件
+        const sdkPath = await SdkReleaseController.createScript(id, type);
+        // 本地运行，可以改成 const path = `lib/` + sdkPath;
+        const path = `event/lib/` + sdkPath;
+        ctx.attachment(path);
+        await send(ctx, path);
+        /**
+         * 定时任务 定时删除生成的脚本  开始 
+         * */
+        setTimeout(() => {
+            //十分钟后删除脚本文件
+            fs.unlinkSync(path);
+        }, 6000 * 100);
+
+    }
+
+    /**
+     * 生成脚本文件，返回路径
+     * type取值H5，Uniapp，Wechat, Java
+     */
+    static async createScript(id, type) {
+        let sdkRelease = await SdkReleaseModel.detail(id)
+        const { projectId, pointIds } = sdkRelease
+        let wePointList = await BuryPointWarehouseModel.getList(projectId, '',1);
+        let projectPointList = await BuryPointWarehouseModel.getListByPointIds(pointIds)
+
+        let releaseScript = await SdkReleaseController.getReleaseScript(sdkRelease, wePointList,projectPointList, type)
+
+        const fs = require('fs');
+        const path = require('path');
+        const scriptPath = '../lib/';
+        let templetePath = path.join(__dirname, scriptPath);
+        let fileName = type + 'SdkReleaseScript' + new Date().Format('yyyyMMddhhmmss') + '.js';
+        let targetFilePath = templetePath + fileName;
+        let content = decodeURIComponent(releaseScript);
+        fs.writeFile(targetFilePath, content, (err) => {
+            if (err) throw err;
+        });
+        return fileName;
+    }
+
+    /**
+     * 获取项目下卡片id和点位列表
+     * @param {项目id} projectId 
+     */
+    static async getCardAndPointList(projectId) {
+        let resList = [];
+        if(global.eventInfo.funnelCardAndPointRelations[projectId]){
+            resList = global.eventInfo.funnelCardAndPointRelations[projectId]
+        }else{
+            //找到项目下所有页面，页面下漏斗的数据
+            let funnelCards = await BuryPointCardModel.getFunnelList(projectId);
+            for (let j = 0; j < funnelCards.length; j++) {
+                let cardReturn = {}
+                const card = funnelCards[j];
+                cardReturn.t = card.conversionCycle;
+                cardReturn.c = card.id;
+                //解析计算规则
+                let calcRuleJson = JSON.parse(card.calcRule);
+                if (calcRuleJson) {
+                    let pointList = []
+                    for (let k = 0; k < calcRuleJson.length; k++) {
+                        let prePoint = calcRuleJson[k].prePoint;
+                        let pointId = prePoint.pointId;
+                        pointList.push(pointId);
+                    }
+                    cardReturn.s = pointList;
+                }
+                resList.push(cardReturn);
+            }
+            const funnelCardAndPointRelations = global.eventInfo.funnelCardAndPointRelations
+            funnelCardAndPointRelations[projectId] = resList
+        }
+        return resList;
+    }
+
+    /**
+    * 定时生成表
+    */
+    static async timerCreateTableByDay(day) {
+        log.printInfo('定时执行生成今天和明天的表开始');
+        const sdkReleaseList = await SdkReleaseModel.getAllList().catch((e) => {
+            log.printError(e)
+        });
+        let createTableTimer = setInterval(async () => {
+            //停掉timer
+            if (createTableTimer && (sdkReleaseList && sdkReleaseList.length === 0)) {
+                clearInterval(createTableTimer);
+                return
+            }
+            let tempSdkRelease = sdkReleaseList.pop();
+            //创建完成，要生成表，选了几个点位仓库，就生成几张表
+            const { projectId, pointIds } = tempSdkRelease;
+            const pointIdArray = pointIds.split(",")
+            let wePointIds = await BuryPointWarehouseModel.getPointIds(projectId, 1);
+            if(wePointIds && wePointIds.length > 0){
+                for(let i=0;i<wePointIds.length;i++){
+                    pointIdArray.push(wePointIds[i].id);
+                }
+            }
+            for (let j = 0; j < pointIdArray.length; j++) {
+                //默认生成今天和明天的表
+                SdkReleaseController.createTableByDay(projectId, pointIdArray[j], day).catch((e) => {
+                    log.printError("定时器执行{" + projectId + "_" + pointIdArray[j] + "}生成每天的表报错：", e)
+                });
+            }
+        }, 10 * 1000);
+        log.printInfo('定时执行生成今天和明天的表结束');
+    }
+
+    /**
+     * 生成表：项目字段和通用字段
+     */
+    static async createTableByDay(projectId, pointId, day) {
+        //创建表 表名：项目ID+点位仓库ID+日期
+        let tableName = Utils.setTableName(projectId + "_" + pointId + "_", day);
+        let rePoint = await BuryPointWarehouseModel.detail(pointId).catch((e) => {
+            log.error(e)
+        });
+        if(rePoint){
+            const { fields } = rePoint
+            let fieldList = [];
+            //项目字段
+            fieldList = await BuryPointFieldModel.getListByFieldIds(fields).catch((e) => {
+                log.error(e)
+            });
+            //通用字段
+            const weFieldList = await BuryPointFieldModel.getListByProjectIdAndWeType(projectId,1);
+            if(weFieldList && weFieldList.length >0){
+                for (let i = 0 ; i < weFieldList.length; i++) {
+                    fieldList.push(weFieldList[i]);
+                }
+            }
+            CommonModel.createLogTable(tableName,fieldList).catch((e) => {
+                log.error(e)
+            });
+        }
+    }
+
+    /**
+     * 获取项目下卡片id和点位列表
+     * @param {项目id} projectId 
+     */
+    static async getCardAndPointList(projectId) {
+        let resList = [];
+        //找到项目下所有页面，页面下漏斗的数据
+        let funnelPages = await BuryPointProjectModel.getProjectByProjectIdAndType(projectId, 3);
+        for (let i = 0; i < funnelPages.length; i++) {
+            const page = funnelPages[i];
+            let funnelCards = await BuryPointCardModel.getList("", page.id, 5);
+            for (let j = 0; j < funnelCards.length; j++) {
+                let cardReturn = {}
+                const card = funnelCards[j];
+                const { calcRule } = card
+                cardReturn.t = card.conversionCycle;
+                cardReturn.c = card.id;
+                //解析计算规则
+                let calcRuleJson = JSON.parse(calcRule);
+                if (calcRuleJson) {
+                    let pointList = []
+                    for (let k = 0; k < calcRuleJson.length; k++) {
+                        let prePoint = calcRuleJson[k].prePoint;
+                        let pointId = prePoint.pointId;
+                        pointList.push(pointId);
+                    }
+                    cardReturn.s = pointList;
+                }
+                resList.push(cardReturn);
+            }
+        }
+        return resList;
+    }
+    /**
+     * 更新上报域名
+     */
+    static async changeUploadDomain(ctx) {
+        const params = JSON.parse(ctx.request.body)
+        const { id, uploadDomain } = params;
+        //找到项目下所有页面，页面下漏斗的数据
+        await SdkReleaseModel.update(id, { uploadDomain })
+        ctx.response.status = 200;
+        ctx.body = statusCode.SUCCESS_200('success', 0);
+    }
+}
+
+/**
+ * 定时任务统计数据
+ */
+class TimerStatisticController {
+
+    /**
+     * 定时任务统计
+     * @param type :类型
+     * @returns {Promise.<void>}
+     */
+    static async test() {
+        //TODO 统计数据入库统计表，重复就更新，不存在就插入
+        // let existeData = await BuryPointCardModel.detail("49");
+        // console.log(JSON.stringify(existeData));
+        // TimerStatisticController.calculateDataPreDay('5', -1);
+        TimerStatisticController.calculateDataPreDay('', 0);
+    }
+
+    /**
+     * 定时任务统计
+     * @param type :类型
+     * @returns {Promise.<void>}
+     */
+    static async calculateDataPreDay(cardType, days) {
+        //查询所有卡片，
+        const resCards = await BuryPointCardModel.getAllList();
+        let calcRuleTimer = setInterval(async () => {
+            //停掉timer
+            if (calcRuleTimer && resCards.length === 0) {
+                clearInterval(calcRuleTimer);
+                return
+            }
+            //删除最后一个，并返回最后一个
+            let tempCard = resCards.pop();
+            const { id,type,groupByFlag } = tempCard;
+            if(type && type === 5){
+                //漏斗图计算
+                TimerStatisticController.calculateFunnelDataByCard(tempCard, days, 1);
+            } else {
+                //非漏斗图计算
+                if(groupByFlag && groupByFlag === 1){
+                    TimerStatisticController.calculateNoFunnelGroupByDataByCard(tempCard, days,1);
+                }else {
+                    TimerStatisticController.calculateNoFunnelDataByCard(tempCard, days,1);
+                }
+            }
+            //更新卡片时间为刷新时间
+            let updateCard = {};
+            updateCard.id = id;
+            updateCard.updateAt = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            BuryPointCardModel.update(id,updateCard);
+        }, 10 * 1000);
+    }
+
+    /**
+     * 定时任务统计
+     * 归类的：2-多折线图，4-堆叠图,7-地图
+     * 定时任务统计:
+     * 不存在的记录，直接插入，存在的就更新
+     * @param card :卡片
+     * @param days :时间
+     * @param refreshFlag :是否刷新操作，2-是，其他否
+     * @returns {Promise.<void>}
+     */
+    static async calculateNoFunnelGroupByDataByCard(card, days, refreshFlag) {
+        //type ：卡片类型，1-柱状图，2-多折线图，3-柱线图，4-堆叠图，5-漏斗图，6-数值，7-地图
+        const { id, pageId, name, calcRule } = card
+        //查询projectId
+        let pageInfo = await BuryPointProjectModel.detail(pageId);
+        if (pageInfo) {
+            let projectId = pageInfo.projectId;
+            //归类统计表：
+            let statisticGroupByTableName = "BuryPointCardStatistics_" + projectId;
+            //解析计算规则
+            let calcRuleJson = JSON.parse(calcRule);
+            //存放要新增或者更新的分析数据
+            let saveOrUpdateCardStatisticList = [];
+            let happenDate = new Date(new Date().getTime() + (parseInt(days,10)) * 86400000);
+            for (let i = 0; i < calcRuleJson.length; i++) {
+                let prePoint = calcRuleJson[i].prePoint;
+                let calcName = calcRuleJson[i].calcName;                
+                let pointIdPre = prePoint.pointId;
+                let calcFieldPre = prePoint.calcField;
+                let queryCriteriaPre = prePoint.queryCriteria;
+                //查询天数偏移量,计算留存率，取值为0,-1.-2,-3到-6，老卡片没有day，默认为0（当天）
+                let day = prePoint.day;
+                if(!day || day === '' || day === undefined){
+                    day = 0
+                }
+                //当天的数据
+                let tableNamePre = Utils.setTableName(projectId + "_" + pointIdPre + "_", parseInt(days,10) + parseInt(day,10))
+                let querySql = await TimerStatisticController.splicingGroupBySql(calcFieldPre, queryCriteriaPre, tableNamePre);
+                let happenDateByDay = new Date(happenDate.getTime() + parseInt(day,10) * 86400000);
+                //多个分组
+                let groupByCountList = await TimerStatisticController.getCountByTableName(querySql)
+                if(groupByCountList && groupByCountList.length > 0){
+                    //统计数据入库统计表，重复就更新，不存在就插入
+                    for(let j = 0; j < groupByCountList.length; j++){
+                        let groupByName = groupByCountList[j].groupByName;
+                        let count = groupByCountList[j].count;
+                        const cardStatistic = {}
+                        cardStatistic.pageId = pageId;
+                        cardStatistic.cardId = id;
+                        cardStatistic.cardName = name;
+                        cardStatistic.count = isNaN(count) ? 0 : count;
+                        cardStatistic.calcField = groupByName;
+                        cardStatistic.happenDate = happenDateByDay.Format("yyyy-MM-dd") + ' 00:00:00';                         
+                        cardStatistic.percentage = 0;
+                        saveOrUpdateCardStatisticList.push(cardStatistic);
+                        //报警：只统计当天的
+                        if(days === 0 && refreshFlag !==2){
+                            BuryPointAlarmMessageController.alarmNotice(id, name , calcName, groupByName, calcRuleJson[i].alarmId, pageId,card.alarmMembers,count,card.noticeWay);
+                        }
+                    }
+                }else{
+                     //报警：只统计当天的
+                     if(days === 0 && refreshFlag !==2){
+                        //更新卡片报警状态字段alarmStatus:0-不报警
+                        let cardUpdate = {};
+                        cardUpdate.id = id
+                        cardUpdate.alarmStatus = 0
+                        cardUpdate.updateTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+                        BuryPointCardModel.update(id, cardUpdate);   
+                    }
+                }
+             
+                // if(statisticGroubByTableName && pageId && id && happenDateByDay){
+                //     await SdkReleaseModel.deleteStatisticValues(
+                //         statisticGroubByTableName,pageId,id,'',happenDateByDay.Format("yyyy-MM-dd"));
+                // }
+            }
+            //批量操作
+            // await TimerStatisticController.saveGroupByStatistic(statisticGroupByTableName,saveOrUpdateCardStatisticList);
+            //批量操作
+            await TimerStatisticController.saveOrUpdateGroupStatistic(statisticGroupByTableName,'', '',saveOrUpdateCardStatisticList);
+
+        }
+    }
+
+    /**
+     * 新增或者更新统计表数据
+     * @param {*} countAndPercentageArr 
+     * @param {*} saveCardStatisticList 
+     * @param {*} updateCardStatisticList 
+     */
+    static async saveOrUpdateGroupStatistic(staticTableName,type,countAndPercentageArr,saveOrUpdateStatisticList){
+        if (saveOrUpdateStatisticList.length > 0) {
+            for (let i = 0; i < saveOrUpdateStatisticList.length; i++) {
+                BuryPointCardStatisticsModel.createOrUpdate(saveOrUpdateStatisticList[i],staticTableName);
+            }
+        }
+    }
+
+     /**
+     * 非归类的：1-柱状图，2-多折线图，3-柱线图，4-堆叠图，5-漏斗图，6-数值，7-地图
+     * 定时任务统计
+     * @param card :卡片
+     * @param days :时间
+     * @param refreshFlag :是否刷新操作，2-是，其他否
+     * @returns {Promise.<void>}
+     */
+      static async calculateNoFunnelDataByCard(card, days,refreshFlag) {
+        //type ：卡片类型，1-柱状图，2-多折线图，3-柱线图，4-堆叠图，5-漏斗图
+        const { id, pageId, name, calcRule, type } = card
+        //查询projectId
+        let pageInfo = await BuryPointProjectModel.detail(pageId);
+        if (pageInfo) {
+            let projectId = pageInfo.projectId;
+            //解析计算规则
+            let calcRuleJson = JSON.parse(calcRule);
+            if (calcRuleJson) {
+                //存放每一步总数，好进行转化率计算
+                let countAndPercentageArr = [];
+                //存放要更新的分析数据
+                let updateCardStatisticList = [];
+                //存放要新增的分析数据
+                let saveCardStatisticList = [];
+                let happenDate = new Date(new Date().getTime() + parseInt(days,10) * 86400000);
+                for (let i = 0; i < calcRuleJson.length; i++) {
+                    let prePoint = calcRuleJson[i].prePoint;
+                    let calcName = calcRuleJson[i].calcName;
+                    let calcNameKey = calcRuleJson[i].calcNameKey;
+                    let calcType = calcRuleJson[i].calcType;
+                    let endPoint = calcRuleJson[i].endPoint;
+                    //单位：老卡片为空
+                    let unit = calcRuleJson[i].unit;
+
+                    let pointIdPre = prePoint.pointId;
+                    //查询天数偏移量,计算留存率，取值为0,-1.-2,-3到-6，老卡片没有day，默认为0（当天）
+                    let day = prePoint.day;
+                    if(!day || day === '' || day === undefined){
+                        day = 0
+                    }
+                    let calcFieldPre = prePoint.calcField;
+                    let queryCriteriaPre = prePoint.queryCriteria;
+                    let fieldIndex = calcFieldPre.fieldIndex;
+
+                    //当天的数据
+                    let tableNamePre = Utils.setTableName(projectId + "_" + pointIdPre + "_", parseInt(days,10) + parseInt(day,10))
+                    let querySql = await TimerStatisticController.splicingSql(calcFieldPre, queryCriteriaPre, tableNamePre);
+                    let happenDateDay = new Date(happenDate.getTime() + parseInt(day,10) * 86400000);
+                    let count = 0;
+                    let countPre = await TimerStatisticController.getCount(tableNamePre, querySql)
+                    if (calcType && endPoint) {
+                        let pointIdEnd = endPoint.pointId;
+                        let calcFieldEnd = endPoint.calcField;
+                        let queryCriteriaEnd = endPoint.queryCriteria;
+                        //查询天数偏移量,计算留存率，取值为0,-1.-2,-3到-6，老卡片没有day，默认为0（当天）
+                        let day = endPoint.day;
+                        if(!day || day === '' || day === undefined){
+                            day = 0
+                        }
+                        //当天的数据
+                        let tableNameEnd = Utils.setTableName(projectId + "_" + pointIdEnd + "_", parseInt(days,10) + parseInt(day,10))
+                        let queryEndSql = await TimerStatisticController.splicingSql(calcFieldEnd, queryCriteriaEnd, tableNameEnd);
+                        try {
+                            let countEnd = await TimerStatisticController.getCount(tableNameEnd, queryEndSql);
+                            if (calcType === '+') {
+                                count = parseInt(countPre, 10) + parseInt(countEnd, 10);
+                            } else if (calcType === '-') {
+                                count = parseInt(countPre, 10) - parseInt(countEnd, 10);
+                            } else if (calcType === '/') {
+                                //单位是%的，就按照百分比计算
+                                if((!unit) || unit === '' || (unit && unit != '%')){
+                                   // 非百分比
+                                   if (countEnd === 0) {
+                                        count = 0;
+                                    } else {
+                                        count = Utils.toFixed(parseInt(countPre, 10) / parseInt(countEnd, 10), 2);
+                                    }
+                                }else{
+                                    // 百分比，保存乘以100后的值
+                                    if (countEnd === 0) {
+                                        count = 0;
+                                    } else {
+                                        count = Utils.toFixed((parseInt(countPre, 10) / parseInt(countEnd, 10)) * 100, 2);
+                                    }
+                                    if(parseInt(count, 10)>100){
+                                        count = 100
+                                    }
+                                }
+                            } else {
+                                count = parseInt(countPre, 10) * parseInt(countEnd, 10);;
+                            }
+                        } catch (e) {
+                            log.error(e)
+                        }
+                    }else {
+                        count = parseInt(countPre, 10)
+                    }
+                    //统计数据入库统计表，重复就更新，不存在就插入
+                    //根据页面id，卡片id，计数名称，计数名称key，时间来查询已经统计过的数据
+                    let existeData = await BuryPointCardStatisticsModel.getOne(pageId, id, '', calcNameKey, happenDateDay.Format("yyyy-MM-dd"));
+                    if (existeData && existeData[0]) {
+                        existeData[0].count = isNaN(count) ? 0 : count;
+                        existeData[0].updateAt = new Date();
+                        existeData[0].percentage = isNaN(existeData[0].percentage) ? 0 : existeData[0].percentage;
+                        updateCardStatisticList.push(existeData[0]);
+                    } else {
+                        const cardStatistic = {}
+                        cardStatistic.pageId = pageId;
+                        cardStatistic.cardId = id;
+                        cardStatistic.cardName = name;
+                        cardStatistic.count = isNaN(count) ? 0 : count;
+                        cardStatistic.calcField = calcName;
+                        cardStatistic.calcFieldKey = calcNameKey;
+                        cardStatistic.happenDate = happenDateDay.Format("yyyy-MM-dd hh:mm:ss");
+                        cardStatistic.percentage = 0;
+                        saveCardStatisticList.push(cardStatistic);
+                    }
+                    //报警：只统计当天的
+                    if(days === 0 && refreshFlag !== 2){
+                       BuryPointAlarmMessageController.alarmNotice(id, name , calcName, calcNameKey, calcRuleJson[i].alarmId, pageId,card.alarmMembers,count,card.noticeWay);
+                    }
+                }
+                // console.log("要更新的：" + JSON.stringify(updateCardStatisticList));
+                // console.log("要新增的：" + JSON.stringify(saveCardStatisticList));
+                //批量操作
+                await TimerStatisticController.saveOrUpdateStatistic(type, countAndPercentageArr,saveCardStatisticList,updateCardStatisticList);
+            }
+        }
+    }
+
+    /**
+     * 5-漏斗图
+     * 定时任务统计
+     * @param card :卡片
+     * @param days :时间
+     * @param refreshFlag :是否刷新操作，2-是，其他否
+     * @returns {Promise.<void>}
+     */
+    static async calculateFunnelDataByCard(card, days,refreshFlag) {
+        //type ：卡片类型，1-柱状图，2-多折线图，3-柱线图，4-堆叠图，5-漏斗图
+        const { id, pageId, name, calcRule, type, conversionCycle, statisticList } = card
+        //查询projectId
+        let pageInfo = await BuryPointProjectModel.detail(pageId);
+        if (pageInfo) {
+            let projectId = pageInfo.projectId;
+            //解析计算规则
+            let calcRuleJson = JSON.parse(calcRule);
+            if (calcRuleJson) {
+                //存放每一步总数，好进行转化率计算
+                let countAndPercentageArr = [];
+                //存放要更新的分析数据
+                let updateCardStatisticList = [];
+                //存放要新增的分析数据
+                let saveCardStatisticList = [];
+                let happenDate = new Date(new Date().getTime() + days * 86400000);
+                let weFirstStepDay = happenDate.Format("yyyyMMdd");
+                for (let i = 0; i < calcRuleJson.length; i++) {
+                    let countAndPercentage = {};
+                    let prePoint = calcRuleJson[i].prePoint;
+                    let calcName = calcRuleJson[i].calcName;
+                    let calcNameKey = calcRuleJson[i].calcNameKey;
+                    let pointIdPre = prePoint.pointId;
+                    let calcFieldPre = prePoint.calcField;
+                    let queryCriteriaPre = prePoint.queryCriteria;
+                    let fieldIndex = calcFieldPre.fieldIndex;
+                    //查询天数偏移量,计算留存率，取值为0,-1.-2,-3到-6，老卡片没有day，默认为0（当天）
+                    let day = prePoint.day;
+                    if(!day || day === '' || day === undefined){
+                        day = 0
+                    }
+                    //当天的数据
+                    let tableNamePre = Utils.setTableName(projectId + "_" + pointIdPre + "_", parseInt(days,10) + parseInt(day,10))
+                    let happenDateDay = new Date(happenDate.getTime() + day * 86400000)
+                    let querySql = await TimerStatisticController.splicingSql(calcFieldPre, queryCriteriaPre, tableNamePre);
+                    //如果是漏斗图，统计(weFirstStepDay_1 = 20220620) 的数据
+                    //获取点位关系表
+                    let cardIndexRes = await BuryPointRelationModel.getListByPointIdAndCardId(pointIdPre, id);
+                    let stepColum = (cardIndexRes && cardIndexRes.length>0)?cardIndexRes[0].stepColum:-1;
+                    // 今天时间减去7，然后计算fristStepDay = 1到 6 的数据，更新到对应统计表中
+                    if (conversionCycle && conversionCycle > 1) {
+                        //存放要更新的分析数据
+                        let updateFunnelList = [];
+                        //存放要新增的分析数据
+                        let saveFunnelList = [];
+                        for (let firstStepDay = 1; firstStepDay < conversionCycle; firstStepDay++) {
+                            let calDate = new Date(happenDateDay.getTime() + (-1) * (86400000 * (firstStepDay)));
+                            let calDateHappenDate = calDate.Format("yyyyMMdd");
+                            let calDaySql = querySql + " and weFirstStepDay_" + stepColum + "='" + calDateHappenDate + "'";
+                            let count = 0
+                            if(stepColum === -1){
+                                count = 0
+                            }else{
+                                const resCount = await BuryPointCardModel.statisticData(calDaySql);
+                                count = (resCount) ? (isNaN(resCount[0].count) ? 0 : resCount[0].count) : 0;
+                            }
+                            await TimerStatisticController.summaryFunnelStatistics(pageId, id, name, calcName, calcNameKey, count, calDate, updateFunnelList, saveFunnelList);
+                        }
+                        // console.log("前六天要更新的数据：" + JSON.stringify(updateFunnelList));
+                        // console.log("前六天要新增的数据:" + JSON.stringify(saveFunnelList));
+                        //批量操作
+                        await TimerStatisticController.saveOrUpdateFunnelList(saveFunnelList, updateFunnelList);
+                    }
+                    //计算今日数据
+                    querySql = querySql + " and weFirstStepDay_" + stepColum + "='" + weFirstStepDay + "'";
+                    // console.log("sql：" + querySql);
+                    //转化周期是7的话，就查询7天的日志表，然后汇总
+                    let count = 0
+                    if(stepColum === -1){
+                        count = 0
+                    }else{
+                        count = await TimerStatisticController.getCount(tableNamePre, querySql)
+                    }
+                    
+                    //如果是漏斗图，统计每一步的人数，放在一个list中，进行下一步处理，更新到统计分析表中
+                    //排序字段
+                    countAndPercentage.fieldIndex = fieldIndex;
+                    countAndPercentage.calcName = calcName;
+                    countAndPercentage.count = count;
+                    countAndPercentage.percentage = 0;
+                    countAndPercentageArr.push(countAndPercentage);
+                    //统计数据入库统计表，重复就更新，不存在就插入
+                    //根据页面id，卡片id，计数名称，计数名称key，时间来查询已经统计过的数据
+                    let existeData;
+                    if (!calcNameKey || calcNameKey === '' || calcNameKey === undefined || calcNameKey === 'undefined') {
+                        existeData = await BuryPointCardStatisticsModel.getOne(pageId, id, calcName, '', happenDateDay.Format("yyyy-MM-dd"));
+                    }else {
+                        existeData = await BuryPointCardStatisticsModel.getOne(pageId, id, '', calcNameKey, happenDateDay.Format("yyyy-MM-dd"));
+                    }
+                    if (existeData && existeData[0]) {
+                        existeData[0].count = isNaN(count) ? 0 : count;
+                        existeData[0].updateAt = new Date();
+                        existeData[0].percentage = isNaN(existeData[0].percentage) ? 0 : existeData[0].percentage;
+                        updateCardStatisticList.push(existeData[0]);
+                    } else {
+                        const cardStatistic = {}
+                        cardStatistic.pageId = pageId;
+                        cardStatistic.cardId = id;
+                        cardStatistic.cardName = name;
+                        cardStatistic.count = isNaN(count) ? 0 : count;
+                        cardStatistic.calcField = calcName;
+                        cardStatistic.calcFieldKey = calcNameKey;
+                        cardStatistic.happenDate = happenDateDay.Format("yyyy-MM-dd hh:mm:ss");
+                        cardStatistic.percentage = 0;
+                        saveCardStatisticList.push(cardStatistic);
+                    }
+                    //报警：只统计当天的
+                    if(days === 0 && refreshFlag !== 2){
+                        BuryPointAlarmMessageController.alarmNotice(id, name , calcName, calcNameKey, calcRuleJson[i].alarmId, pageId,card.alarmMembers,count,card.noticeWay);
+                    }
+                }
+                // console.log("要更新的：" + JSON.stringify(updateCardStatisticList));
+                // console.log("要新增的：" + JSON.stringify(saveCardStatisticList));
+                //批量操作
+                await TimerStatisticController.saveOrUpdateStatistic(type, countAndPercentageArr,saveCardStatisticList,updateCardStatisticList);
+            }
+        }
+    }
+
+    /**
+     * 新增或者更新漏斗数据：转化周期是7天的，计算fristStepDay = 1到 6 的数据，更新到对应统计表中
+     * @param {*} saveFunnelList 
+     * @param {*} updateFunnelList 
+     */
+    static async saveOrUpdateFunnelList(saveFunnelList, updateFunnelList){
+        if (updateFunnelList.length > 0) {
+            for (let i = 0; i < updateFunnelList.length; i++) {
+                await BuryPointCardStatisticsModel.update(updateFunnelList[i].id, updateFunnelList[i]);
+            }
+        }
+        if (saveFunnelList.length > 0) {
+            let currTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            let values = [];
+            for (let i = 0; i < saveFunnelList.length; i++) {
+                let value = "(" + saveFunnelList[i].pageId + ","
+                    + saveFunnelList[i].cardId + ","
+                    + "'" + saveFunnelList[i].cardName + "',"
+                    + saveFunnelList[i].count + ","
+                    + "'" + saveFunnelList[i].calcField + "',"
+                    + "'" + saveFunnelList[i].calcFieldKey + "',"
+                    + "'" + saveFunnelList[i].happenDate + "',"
+                    + (isNaN(saveFunnelList[i].percentage) ? 0 : saveFunnelList[i].percentage) + ","
+                    + "'" + currTime +  "',"
+                    + "'" + currTime + "')";
+                values.push(value);
+            }
+            let keys = "pageId,cardId,cardName,count,calcField,calcFieldKey,happenDate,percentage,createdAt,updatedAt";
+            await SdkReleaseModel.saveValues('BuryPointCardStatistics', keys, values);
+        }
+    }
+    /**
+     * 新增或者更新统计表数据
+     * @param {*} countAndPercentageArr 
+     * @param {*} saveCardStatisticList 
+     * @param {*} updateCardStatisticList 
+     */
+    static async saveOrUpdateStatistic(type,countAndPercentageArr,saveCardStatisticList,updateCardStatisticList){
+        if (updateCardStatisticList.length > 0) {
+            if(type && type === 5){
+                await TimerStatisticController.calcFunnelConversionRate(countAndPercentageArr, updateCardStatisticList);
+            }
+            for (let i = 0; i < updateCardStatisticList.length; i++) {
+                await BuryPointCardStatisticsModel.update(updateCardStatisticList[i].id, updateCardStatisticList[i]);
+            }
+        }
+        if (saveCardStatisticList.length > 0) {
+            let currTime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            if(type && type === 5){
+                await TimerStatisticController.calcFunnelConversionRate(countAndPercentageArr, saveCardStatisticList)
+            }
+            let values = [];
+            for (let i = 0; i < saveCardStatisticList.length; i++) {
+                let value = "(" + saveCardStatisticList[i].pageId + ","
+                    + saveCardStatisticList[i].cardId + ","
+                    + "'" + saveCardStatisticList[i].cardName + "',"
+                    + saveCardStatisticList[i].count + ","
+                    + "'" + saveCardStatisticList[i].calcField + "',"
+                    + "'" + saveCardStatisticList[i].calcFieldKey + "',"
+                    + "'" + saveCardStatisticList[i].happenDate + "',"
+                    + (isNaN(saveCardStatisticList[i].percentage) ? 0 : saveCardStatisticList[i].percentage) + ","
+                    + "'" + currTime +  "',"
+                    + "'" + currTime + "')";
+                values.push(value);
+            }
+            let keys = "pageId,cardId,cardName,count,calcField,calcFieldKey,happenDate,percentage,createdAt,updatedAt";
+            await SdkReleaseModel.saveValues('BuryPointCardStatistics', keys, values);
+        }
+    }
+
+    /**
+     * 新增或者更新归类统计表数据
+     * @param {*} saveCardStatisticList 
+     * @param {*} updateCardStatisticList 
+     */
+    static async saveOrUpdateGroupByStatistic(tableName,saveOrUpdateCardStatisticList){
+        if (saveOrUpdateCardStatisticList.length > 0) {
+            let values = [];
+            let currDate = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            for (let i = 0; i < saveOrUpdateCardStatisticList.length; i++) {
+                let value = "(" + saveOrUpdateCardStatisticList[i].pageId + ","
+                    + saveOrUpdateCardStatisticList[i].cardId + ","
+                    + "'" + saveOrUpdateCardStatisticList[i].cardName + "',"
+                    + saveOrUpdateCardStatisticList[i].count + ","
+                    + "'" + saveOrUpdateCardStatisticList[i].calcField + "',"
+                    + "'" + saveOrUpdateCardStatisticList[i].happenDate + "',"
+                    + "'" + currDate + "')";
+                // values.push(value);
+                await SdkReleaseModel.updateBatchStatisticValues(
+                    tableName, 
+                    value,
+                    saveOrUpdateCardStatisticList[i].count,
+                    currDate
+                );
+            }
+        }
+    }
+
+    /**
+     * 先删除在新增归类统计表数据
+     * @param {*} saveCardStatisticList 
+     * @param {*} updateCardStatisticList 
+     */
+    static async saveGroupByStatistic(tableName,saveOrupdateCardStatisticList){
+        if (saveOrupdateCardStatisticList.length > 0) {
+            let values = [];
+            let currDate = new Date().Format("yyyy-MM-dd hh:mm:ss");
+            for (let i = 0; i < saveOrupdateCardStatisticList.length; i++) {
+                let value = "(" + saveOrupdateCardStatisticList[i].pageId + ","
+                    + saveOrupdateCardStatisticList[i].cardId + ","
+                    + "'" + saveOrupdateCardStatisticList[i].cardName + "',"
+                    + saveOrupdateCardStatisticList[i].count + ","
+                    + "'" + saveOrupdateCardStatisticList[i].calcField + "',"
+                    + "'" + saveOrupdateCardStatisticList[i].happenDate + "',"
+                    + "'" + currDate + "',"+ "'" + currDate + "')";
+                    values.push(value);
+            }
+            let keys = "pageId,cardId,cardName,count,calcField,happenDate,createdAt,updatedAt";
+            await SdkReleaseModel.saveValues(tableName, keys, values);
+        }
+    }
+
+    /**
+     * 漏斗图：计算每一步转化率
+     * @returns {Promise.<void>}
+     */
+    static async calcFunnelConversionRate(countAndPercentageList, cardStatisticList) {
+        //升序
+        countAndPercentageList.sort(function (a, b) {
+            return a.fieldIndex - b.fieldIndex;
+        });
+        let totalCount = 0;
+        for (let i = 0; i < countAndPercentageList.length; i++) {
+            totalCount = parseInt(totalCount, 10) + parseInt(countAndPercentageList[i].count, 10);
+            if (i !== countAndPercentageList.length - 1) {
+                if (parseInt(countAndPercentageList[i].count, 10) === 0) {
+                    countAndPercentageList[i + 1].percentage = 0;
+                } else {
+                    countAndPercentageList[i + 1].percentage = Utils.toFixed((parseInt(countAndPercentageList[i + 1].count, 10) / parseInt(countAndPercentageList[i].count, 10)) * 100, 2);
+                }
+            }
+        }
+        if (totalCount === 0) {
+            countAndPercentageList[0].percentage = 0;
+        } else {
+            countAndPercentageList[0].percentage =
+                Utils.toFixed((parseInt(countAndPercentageList[countAndPercentageList.length - 1].count, 10) / parseInt(totalCount, 10)) * 100, 2);
+        }
+        // log.printInfo("计算后的数据:" + JSON.stringify(countAndPercentageList));
+        for (let i = 0; i < countAndPercentageList.length; i++) {
+            for (let j = 0; j < cardStatisticList.length; j++) {
+                if (countAndPercentageList[i].calcName === cardStatisticList[j].calcField) {
+                    cardStatisticList[j].percentage = isNaN(countAndPercentageList[i].percentage) ? 0 : countAndPercentageList[i].percentage
+                }
+            }
+        }
+        // log.printInfo("分析后的数据:" + JSON.stringify(cardStatisticList));
+    }
+
+    /**
+     * 非归类的拼接sql
+     * @param calcField :点位字段信息
+     * @param queryCriteria :查询条件
+     * @param tableName :表名
+     * @returns {Promise.<void>}
+     */
+    static async splicingSql(calcField, queryCriteria, tableName) {
+        let sumOrCountFlag = "count";
+        //是否去重，1是，0否，2求和，3-求平均值，4-归类(pv)，5-归类(uv)
+        if (calcField.isRepeat === '2' || calcField.isRepeat === 2) {
+            sumOrCountFlag = "sum";
+        } else if (calcField.isRepeat === '3' || calcField.isRepeat === 3) {
+            sumOrCountFlag = "avg";
+        } else {
+            sumOrCountFlag = "count";
+        } 
+        let querySql = " select " + sumOrCountFlag + "(";
+        if (calcField.isRepeat === '1' || calcField.isRepeat === 1
+            || calcField.isRepeat === '5' || calcField.isRepeat === 5) {//去重
+            querySql = querySql + "distinct " + calcField.fieldName;
+        } else {//不去重
+            querySql = querySql + calcField.fieldName;
+        }
+        querySql = querySql + ") as count from " + tableName;
+        if (queryCriteria.length > 0) {
+            // 获取 “且”-and 还是 “或”-or
+            let andOr = calcField.andOr;
+            //兼容老版本
+            if (!calcField.andOr || calcField.andOr === undefined) {
+                andOr = 'and'
+            } else {
+                andOr = Utils.convertAndOr(andOr);
+            }
+            var criteriaSql = ''
+            for (let j = 0; j < queryCriteria.length; j++) {
+                let fieldName = queryCriteria[j].fieldName;
+                let rule = Utils.convertOper(queryCriteria[j].rule)
+                let value = queryCriteria[j].value 
+                if (rule === 'is null') {
+                    criteriaSql = " " + criteriaSql + "("+ fieldName + " " + rule + " or " + fieldName + "='') " + andOr + " ";
+                } else if (rule === 'is not null') {
+                    criteriaSql = " " + criteriaSql + "("+ fieldName + " " + rule + " and " + fieldName + "!='') " + andOr + " ";
+                } else if (rule === 'like') {
+                    criteriaSql = " " + criteriaSql + fieldName + " " + rule + "  '%" + value + "%' " + andOr + " ";
+                } else if (rule === 'in') {
+                    let valueArray = value.split(",");
+                    let valueListStr = '';
+                    for (let k = 0; k < valueArray.length; k++) {
+                        valueListStr +=  fieldName + " like '%" + valueArray[k]  + "%' "  + " or ";
+                    }
+                    valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('or'));
+                    criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
+                } else if (rule === 'not in') {
+                    let valueArray = value.split(",");
+                    let valueListStr = '';
+                    for (let k = 0; k < valueArray.length; k++) {
+                        valueListStr +=  fieldName + " not like '%" + valueArray[k]  + "%' "  + " and ";
+                    }
+                    valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('and'));
+                    criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
+                } else {
+                    criteriaSql = criteriaSql + fieldName + " " + rule + " '" + value + "'" + " " + andOr + " ";
+                }
+            }
+            criteriaSql = criteriaSql.substring(0, criteriaSql.lastIndexOf(andOr));
+            querySql = querySql + " where 1=1 and (" + criteriaSql + ")";
+        }else {
+            querySql = querySql + " where 1=1 "
+        }
+        console.log(querySql)
+        return querySql;
+    }
+
+    /**
+     * 归类的拼接sql
+     * select fangWenDiZhi as groupByName, count(weCustomerKey) as count 
+     * from event10181_79_20230528 
+     * where 1=1  and 字段 = '1' 
+     * group by fangWenDiZhi
+     * @param calcField :点位字段信息
+     * @param queryCriteria :查询条件
+     * @param tableName :表名
+     * @returns {Promise.<void>}
+     */
+    static async splicingGroupBySql(calcField, queryCriteria, tableName) {
+        let querySql = " select ";
+        let sumOrCountFlag = "count";
+        let fieldGroupByFlag = 0;
+        let fieldGroupByName = '';
+        //筛选条件有归类的话，拼接 groupByName查询字段
+        for (let i = 0; i < queryCriteria.length; i++) {
+            let fieldName = queryCriteria[i].fieldName;
+            let rule = Utils.convertOper(queryCriteria[i].rule)
+            if (rule === 'group by') {
+                fieldGroupByFlag = 1;
+                fieldGroupByName = fieldName;
+                break
+            } 
+        }
+        //是否去重，1是，0否，2求和，3-求平均值，4-归类(pv)，5-归类(uv)
+        if (calcField.isRepeat === '2' || calcField.isRepeat === 2) {
+            sumOrCountFlag = "sum";
+        } else if (calcField.isRepeat === '3' || calcField.isRepeat === 3) {
+            sumOrCountFlag = "avg";
+        } else{
+            sumOrCountFlag = "count";
+        }
+        if (fieldGroupByFlag === 1 && fieldGroupByName) {
+            querySql = querySql + fieldGroupByName 
+        }else {
+            querySql = querySql + calcField.fieldName
+        }
+        querySql = querySql + " as groupByName, " + sumOrCountFlag + "("
+        if (calcField.isRepeat === '5' || calcField.isRepeat === 5) {//归类去重
+            querySql = querySql + " distinct weCustomerKey";
+        } else if(calcField.isRepeat === '4' || calcField.isRepeat === 4){//归类不去重
+            querySql = querySql + "weCustomerKey";
+        }else if(calcField.isRepeat === '1' || calcField.isRepeat === 1){//groupby去重
+            querySql = querySql + " distinct " + calcField.fieldName;
+        }else {//groupby不去重
+            querySql = querySql + calcField.fieldName;
+        }
+        querySql = querySql + ") as count from " + tableName;
+        if (queryCriteria.length > 0) {
+            // 获取 “且”-and 还是 “或”-or
+            let andOr = calcField.andOr;
+            //兼容老版本
+            if (!calcField.andOr || calcField.andOr === undefined) {
+                andOr = 'and'
+            } else {
+                andOr = Utils.convertAndOr(andOr);
+            }
+            var criteriaSql = ''
+            var groupBySql = '';
+            for (let j = 0; j < queryCriteria.length; j++) {
+                let fieldName = queryCriteria[j].fieldName;
+                let rule = Utils.convertOper(queryCriteria[j].rule)
+                let value = queryCriteria[j].value
+                if (rule === 'is null') {
+                    criteriaSql = " " + criteriaSql + "("+ fieldName + " " + rule + " or " + fieldName + "='') " + andOr + " ";
+                }  else if (rule === 'is not null') {
+                    criteriaSql = " " + criteriaSql + "("+ fieldName + " " + rule + " and " + fieldName + "!='') " + andOr + " ";
+                } else if (rule === 'like') {
+                    criteriaSql = " " + criteriaSql + fieldName + " " + rule + "  %" + value + "% " + andOr + " ";
+                } else if (rule === 'group by') {
+                    // 筛选条件归类 ： where 字段 = '' and group by 字段
+                    groupBySql =  " " + rule + " " + fieldName + " "
+                } else if (rule === 'in') {
+                    let valueArray = value.split(",");
+                    let valueListStr = '';
+                    for (let k = 0; k < valueArray.length; k++) {
+                        valueListStr +=  fieldName + " like '%" + valueArray[k]  + "%' "  + " or ";
+                    }
+                    valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('or'));
+                    criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
+                } else if (rule === 'not in') {
+                    let valueArray = value.split(",");
+                    let valueListStr = '';
+                    for (let k = 0; k < valueArray.length; k++) {
+                        valueListStr +=  fieldName + " not like '%" + valueArray[k]  + "%' "  + " and ";
+                    }
+                    valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('and'));
+                    criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
+                } else {
+                    criteriaSql = " " + criteriaSql + fieldName + " " + rule + " '" + value + "'" + " " + andOr + " ";
+                }
+            }
+            criteriaSql = criteriaSql.substring(0, criteriaSql.lastIndexOf(andOr));
+            if(criteriaSql){
+                querySql = " " + querySql + " where 1=1 and (" + criteriaSql + ") " + groupBySql;
+            }else {
+                querySql = " " + querySql + " " + groupBySql;
+            }
+        }else {
+            querySql = " " + querySql + " where 1=1 "
+        }
+        //计算条件归类 ： group by
+        if ((calcField.isRepeat === '4' || calcField.isRepeat === 4)
+            || (calcField.isRepeat === '5' || calcField.isRepeat === 5)) {
+            querySql = " " + querySql + " group by " + calcField.fieldName;
+        }
+        console.log(querySql)
+        return querySql;
+    }
+
+    /**
+     * 汇总统计漏斗分析数据
+     * @param calcField :点位字段信息
+     * @param queryCriteria :查询条件
+     * @param tableName :表名
+     * @returns {Promise.<void>}
+     */
+    static async summaryFunnelStatistics(pageId, cardId, cardName, calcName, calcNameKey, count, calDate, updateFunnelList, saveFunnelList) {
+        //统计数据入库统计表，重复就更新，不存在就插入
+        //根据页面id，卡片id，计数名称，计数名称key，时间来查询已经统计过的数据
+        let happenDateTime = calDate.Format("yyyy-MM-dd hh:mm:ss");
+        let happenDate = calDate.Format("yyyy-MM-dd");
+        let existeData = await BuryPointCardStatisticsModel.getOne(pageId, cardId, '', calcNameKey, happenDate);
+        // console.log("数量：" + count + ":" + happenDate + "要更新的数据：" + JSON.stringify(existeData));
+        if (existeData && existeData[0]) {
+            existeData[0].count = parseInt((isNaN(count) ? 0 : count), 10);
+            existeData[0].percentage = isNaN(existeData[0].percentage) ? 0 : existeData[0].percentage;
+            existeData[0].updateAt = new Date();
+            updateFunnelList.push(existeData[0]);
+        } else {
+            const cardStatistic = {}
+            cardStatistic.pageId = pageId;
+            cardStatistic.cardId = cardId;
+            cardStatistic.cardName = cardName;
+            cardStatistic.count = isNaN(count) ? 0 : count;
+            cardStatistic.calcField = calcName;
+            cardStatistic.calcFieldKey = calcNameKey;
+            cardStatistic.happenDate = happenDateTime;
+            cardStatistic.percentage = 0;
+            saveFunnelList.push(cardStatistic);
+        }
+    }
+
+    /**
+     * 查询数量
+     * 首先查询表名是否存在，不存在，count直接设置为0
+     * @param {表名} tableName 
+     * @returns 
+     */
+    static async getCount(tableName, querySql) {
+        let count = 0;
+        // let flag = await TimerStatisticController.checkTableName(tableName);
+        // if (flag === true) {
+        // console.log("统计查询sql：" + querySql);
+        const resCount = await BuryPointCardModel.statisticData(querySql);
+        count = (resCount) ? ((resCount.length === 0||isNaN(resCount[0].count) || resCount[0].count === null) ? 0 : resCount[0].count) : 0;
+        // }else {
+        //     count = 0;
+        // }
+        return count;
+    }
+
+    /**
+     * 查询归类分析表
+     * @param {表名} tableName 
+     * @returns 
+     */
+    static async getCountByTableName(querySql) {
+        const res = await BuryPointCardModel.statisticData(querySql);
+        return res;
+    }
+
+    /**
+   * 检测表名是否存在
+   */
+    static async checkTableName(tableName) {
+        const checkTableRes = await CommonModel.checkTableName(tableName).catch((e) => {
+            log.error(e)
+        });
+        if (checkTableRes && checkTableRes.length > 0 && checkTableRes[0].count > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+module.exports = {CommonUtil,BuryPointAlarmController,BuryPointAlarmMessageController,CommonUpLog,BuryPointCardStatisticsController,BuryPointTaskController,BuryPointTemplateController,BuryPointCardController,BuryPointFieldController,Common,BuryPointProjectController,TestController,BuryPointTestController,CommonInitDataController,ConfigController,FailController,MessageController,SysInfoController,TeamController,UserController,BuryPointWarehouseController,WeHandleDataController,SdkReleaseController,TimerStatisticController}

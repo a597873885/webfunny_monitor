@@ -5,7 +5,7 @@ const createRoutes = (router) => {
      * 日志相关处理
      */
     // 用户上传日志（h5）
-    router.post('/upLog', Common.upLog);
+    // router.post('/upLog', Common.upLog);
 
     // 添加team
     router.post('/config', ConfigController.create);
@@ -161,9 +161,9 @@ const createRoutes = (router) => {
     router.post('/sdkRelease/page', SdkReleaseController.getPageList);
     router.post('/sdkRelease/list', SdkReleaseController.getList);
     router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
-    router.post('/initCf', SdkReleaseController.initFunnelConfig);
-    router.post('/upEvent', SdkReleaseController.upEvent);
-    router.post('/upEvents', SdkReleaseController.upEvents);
+    router.post('/initCf', CommonUpLog.initFunnelConfig);
+    router.post('/upEvent', CommonUpLog.upEvent);
+    router.post('/upEvents', CommonUpLog.upEvents);
     router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
     router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
 
@@ -210,6 +210,8 @@ const createRoutes = (router) => {
      * 打点测试
      */
     router.post('/buryPointTest/page', BuryPointTestController.getPageList);
+    // 查询失败的
+    router.post('/buryPointTest/page/error', BuryPointTestController.failList);
     // 点位查询
     router.post('/buryPointTest/search', BuryPointTestController.search);
     // api导出数据
