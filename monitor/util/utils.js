@@ -50,7 +50,7 @@ const Utils = {
         if (tempDate === result[j].day) {
           tempObj.count = result[j].count;
           tempObj.loadTime = result[j].loadTime ? result[j].loadTime : 0;
-          continue;
+          break;
         }
       }
       newResult.push(tempObj);
@@ -426,7 +426,7 @@ const Utils = {
    */
   logParseJson(data) {
     if (!data) return []
-    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{").replace(/#/g, " ")
+    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
     const param = JSON.parse(paramStr)
     const { logInfo } = param
     if (!logInfo) {
