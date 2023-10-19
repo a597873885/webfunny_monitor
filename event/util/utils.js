@@ -628,7 +628,7 @@ const Utils = {
     return newStr;
   },
   checkFieldNameValid(fieldName){
-    const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
+    const fieldParams = ["id","wefirststepday","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
     "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
     "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
