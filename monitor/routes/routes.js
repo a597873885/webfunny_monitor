@@ -7,7 +7,6 @@ const createRoutes = (router) => {
      */
     // 用户上传日志（h5）
     router.post('/upLog', Common.upLog);
-    // 用户上传日志（h5）
     router.get('/upLog', Common.upLogGet);
     // 用户上传自定义日志（h5）
     router.post('/upMyLog', Common.upMyLog);
@@ -101,10 +100,6 @@ const createRoutes = (router) => {
      */
     // 添加应用
     router.post('/project', ProjectController.create);
-    // 删除应用
-    router.post('/deleteProject', ProjectController.delete);
-    // 禁用项目
-    router.post('/forbiddenProject', ProjectController.forbiddenProject);
     // 获取应用详细信息
     router.get('/projectDetail', ProjectController.detail);
     // 获取应用列表
@@ -133,7 +128,11 @@ const createRoutes = (router) => {
     router.post('/createNewProject', ProjectController.createNewProject);
     // 创建新的监控项目API
     router.post('/createNewProjectForApi', ProjectController.createNewProjectForApi);
-    // 创建新的监控项目
+    // 禁用项目
+    router.post('/forbiddenProject', ProjectController.forbiddenProject);
+    // 删除应用
+    router.post('/deleteProject', ProjectController.delete);
+    // 检查项目个数
     router.get('/checkProjectCount', ProjectController.checkProjectCount);
     // 获取userTags
     router.post('/getUserTags', ProjectController.getUserTags)
@@ -291,9 +290,11 @@ const createRoutes = (router) => {
     // 创建加载信息
     router.post('/pageLoad', PageLoadInfoController.create);
     router.post('/getPageLoadOverview', PageLoadInfoController.getPageLoadOverview);
+    router.post('/getPageLoadOverviewSimple', PageLoadInfoController.getPageLoadOverviewSimple);
     router.post('/getPerformanceDataForMinute', PageLoadInfoController.getPerformanceDataForMinute);
     router.post('/getFastSlowDataForMinute', PageLoadInfoController.getFastSlowDataForMinute);
     router.post('/getPerfDataForUrlByDay', PageLoadInfoController.getPerfDataForUrlByDay);
+    router.post('/getPerfDataForUrlByDaySimple', PageLoadInfoController.getPerfDataForUrlByDaySimple);
     router.post('/getPerfDataForWaterfall', PageLoadInfoController.getPerfDataForWaterfall);
     router.post('/getPerfDataForUrlDetail', PageLoadInfoController.getPerfDataForUrlDetail);
     router.post('/getPerfDataForMap', PageLoadInfoController.getPerfDataForMap);
@@ -454,6 +455,7 @@ const createRoutes = (router) => {
     router.post('/getHttpLoadTimeForAll', HttpLogInfoController.getHttpLoadTimeForAll);
     // 获取接口加载耗时占比
     router.post('/getHttpLoadTimePercent', HttpLogInfoController.getHttpLoadTimePercent);
+    router.post('/getHttpLoadTimePercentSimple', HttpLogInfoController.getHttpLoadTimePercentSimple);
     router.post('/getHttpLoadTimeListByUrl', HttpLogInfoController.getHttpLoadTimeListByUrl);
 
     /**大屏数据相关 */
