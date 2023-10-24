@@ -49,6 +49,9 @@ const setVariableInfo = (databaseInfo) => {
             "logSaveDays": 8,
             "isOpenTodayStatistic": true,
             "business": {
+              "batchInsert": {
+                "limitQueueLength": 100
+              },
               "userStayTimeScope": {
                 "min": 100,
                 "max": 100000
