@@ -55,6 +55,8 @@ module.exports = async () => {
             try {
                 // 每隔10秒钟，取日志队列里的日志，执行入库操作
                 if (minuteTimeStr.substring(4) == "0") {
+                    // 取日志队列批量插入
+                    Common.handleLogInfoQueue()
                     // 更新内存中的token
                     ConfigController.refreshTokenList()
                 }

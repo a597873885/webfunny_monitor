@@ -39,6 +39,7 @@ const accountInfo = {
     openMonitor: conf.openMonitor,                    // 开启系统监控
 
     saveDays: conf.logSaveDays,                       // 日志保存周期
+    batchInsert: conf.business.batchInsert,                  // 日志批量插入配置，limitSecond （时间限制，到达时间后立即上报），limitQueueLength（日志队列长度达到后，立即上报）
 
     isOpenTodayStatistic: conf.isOpenTodayStatistic,           //是否开启统计今天的数据（每小时分析一次，true：开启，false：不开启，默认开启）
 
