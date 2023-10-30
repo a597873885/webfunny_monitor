@@ -4,24 +4,13 @@
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
-    "bootstrap": "node center/config_bin_init.js && node event/config_bin_init.js && node monitor/config_bin_init.js",
+    "bootstrap": "node ./webfunny_init/alarm.init.js && node ./webfunny_init/config.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
+    "start": "node webfunny.js",
     "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
     "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
     "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
-    "prd": "npm run center && npm run event && npm run monitor && pm2 log",
-    "stop": "pm2 stop webfunny_center webfunny_event webfunny_monitor",
-    "delete": "pm2 delete webfunny_center webfunny_event webfunny_monitor",
-    "restart": "npm run stop && npm run delete && npm run prd",
-    "event_prd": "npm run center && npm run event && pm2 log",
-    "event_stop": "pm2 stop webfunny_center webfunny_event",
-    "event_delete": "pm2 delete webfunny_center webfunny_event",
-    "event_restart": "npm run event_stop && npm run event_delete && npm run event_prd",
-    "monitor_prd": "npm run center && npm run monitor && pm2 log",
-    "monitor_stop": "pm2 stop webfunny_center webfunny_monitor",
-    "monitor_delete": "pm2 delete webfunny_center webfunny_monitor",
-    "monitor_restart": "npm run monitor_stop && npm run monitor_delete && npm run monitor_prd",
-    "event_slave": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event_slave.js && pm2 log",
-    "monitor_slave": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor_slave.js && pm2 log"
+    "prd": "node ./webfunny_init/initResource.js && pm2 start webfunny.js && pm2 log",
+    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && pm2 start webfunny.js && pm2 log"
   },
   "repository": {
     "type": "git",
@@ -84,6 +73,7 @@
   },
   "devDependencies": {
     "child_process": "^1.0.2",
+    "copy-dir": "^1.3.0",
     "fs": "0.0.1-security",
     "nodemon": "^2.0.15",
     "single-line-log": "^1.1.2",

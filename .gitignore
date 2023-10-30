@@ -22,9 +22,9 @@ bin/*
 interceptor
 config/db.js
 lib/temp.min.js.map
-webfunny_center
-webfunny/
-webfunny_event
+views/webfunny_center/
+views/webfunny/
+views/webfunny_event/
 schema_temp/
 alarm/
 sso/
@@ -32,3 +32,4 @@ util_cus/
 .eslintrc
 lib/*.map
 H5SdkReleaseScript*.js
+webfunny.config.js
