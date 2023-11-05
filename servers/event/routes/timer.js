@@ -1,7 +1,7 @@
 const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
-const { WeHandleDataController,Common, ConfigController, SdkReleaseController, TimerStatisticController } = require("../controllers/controllers.js")
+const { WeHandleDataController,Common, ConfigController, SdkReleaseController, TimerStatisticController, CommonInitDataController } = require("../controllers/controllers.js")
 const timerUtil = require("../../../utils/timer.js")
 const Utils = require("../util/utils")
 const masterUuidKey = "event-master-uuid"
@@ -40,7 +40,11 @@ module.exports = async () => {
         WeHandleDataController.createWeTemplateData().catch((e)=>{
             log.printError(e)
         });
-        
+        //创建项目和初始化五个卡片
+        CommonInitDataController.initData().catch((e)=>{
+            log.printError(e)
+        });
+
         //启动一个定时器
         timerUtil((dateTime) => {
             const hourTimeStr = dateTime.Format("hh:mm:ss")
@@ -48,6 +52,8 @@ module.exports = async () => {
             try {
                 // 每隔10秒钟，取日志队列里的日志，执行入库操作
                 if (minuteTimeStr.substring(4) == "0") {
+                    // 取日志队列批量插入
+                    Common.handleLogInfoQueue()
                     // 更新内存中的token
                     ConfigController.refreshTokenList()
                 }

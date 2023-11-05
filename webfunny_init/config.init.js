@@ -97,7 +97,11 @@ const otherConfig = {
   "messageQueue": false,
   "openMonitor": true,
   "logSaveDays": 8,
+  "isOpenTodayStatistic": true,
   "business": {
+    "batchInsert": {
+      "limitQueueLength": 1000
+    },
     "userStayTimeScope": {
       "min": 100,
       "max": 100000
@@ -114,7 +118,8 @@ const otherConfig = {
   "phoneNeeded": {
     "need": true,
     "requireVerify": false
-  }
+  },
+  "uploadServerErrorToWebfunny": true, // 是否上报错误日志至Webfunny服务（推荐开启，便于排查问题）
 }
 module.exports = {
   licenseConfig, domainConfig, mysqlConfig, otherConfig

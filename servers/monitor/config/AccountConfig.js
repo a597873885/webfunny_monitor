@@ -25,6 +25,7 @@ const accountInfo = {
     saveDays: otherConfig.logSaveDays,                       // 日志保存周期
 
     stayTimeScope: otherConfig.business.userStayTimeScope,                  // 用户停留时间范围
+    batchInsert: otherConfig.business.batchInsert,
 
     mysqlConfig: mysqlConfig.monitor,
 

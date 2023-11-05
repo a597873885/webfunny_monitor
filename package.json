@@ -1,16 +1,17 @@
 {
   "name": "webfunny_monitor",
-  "version": "3.1.6",
+  "version": "3.2.0",
   "description": "这是webfunny的安装包",
   "main": "app.js",
   "scripts": {
     "bootstrap": "node ./webfunny_init/alarm.init.js && node ./webfunny_init/config.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
     "start": "node webfunny.js",
+    "publish": "node publish.js",
     "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
     "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
     "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
-    "prd": "node ./webfunny_init/initResource.js && pm2 start webfunny.js && pm2 log",
-    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && pm2 start webfunny.js && pm2 log"
+    "prd": "node ./webfunny_init/initResource.js && pm2 start webfunny.js && pm2 log webfunny",
+    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && npm run prd"
   },
   "repository": {
     "type": "git",
