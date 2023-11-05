@@ -2,6 +2,7 @@ var fs = require('fs');
 const fetch = require('node-fetch')
 const path = require('path')
 const rootPath = path.resolve(__dirname, "..")
+const UpEvents = require("../config/upEvents")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
   const variableJsonPath = rootPath + "/webfunny.config.js"
@@ -46,11 +47,14 @@ const domainConfig = {
 
 /**
 * mysql数据库设置
-* monitor：前端监控数据库（与应用中心共用）
+* center: 应用中心数据库
+* monitor：前端监控数据库
 * event: 埋点系统数据库
+* 三个可以共用一台数据库
 * 配置更改后，需重启
 */
 const mysqlConfig = {
+  // 应用中心
   "center": {
     "write": {
       "ip": "${databaseInfo.ip}",
@@ -61,6 +65,7 @@ const mysqlConfig = {
     },
     "read": []
   },
+  // 监控
   "monitor": {
     "write": {
       "ip": "${databaseInfo.ip}",
@@ -71,6 +76,7 @@ const mysqlConfig = {
     },
     "read": []
   },
+  // 埋点
   "event": {
     "write": {
       "ip": "${databaseInfo.ip}",
@@ -89,37 +95,38 @@ const mysqlConfig = {
 */
 const otherConfig = {
   "email": {
-    "useCusEmailSys": false, 
-    "emailUser": "",
-    "emailPassword": ""
+    "useCusEmailSys": false, // 是否使用用户自己公司的邮箱系统
+    "emailUser": "",         // 邮箱
+    "emailPassword": ""      // 密码
   },
-  "protocol": "",
-  "messageQueue": false,
-  "openMonitor": true,
-  "logSaveDays": 8,
-  "isOpenTodayStatistic": true,
+  "protocol": "",            // 内部通讯协议（一般用不上）
+  "messageQueue": false,     // 是否开启消息队列
+  "openMonitor": true,       // 是否开启可视化页面的监控
+  "uploadServerErrorToWebfunny": true, // 是否上报后端错误日志至Webfunny服务（推荐开启，便于排查问题）
+  "logSaveDays": 8,          // 日志存储周期
+  "isOpenTodayStatistic": true, // 
   "business": {
     "batchInsert": {
-      "limitQueueLength": 1000
+      "limitQueueLength": 1000  // 一次批量插入最大数量
     },
-    "userStayTimeScope": {
+    "userStayTimeScope": {      // 记录停留时间范围（即将废弃）
       "min": 100,
       "max": 100000
     }
   },
-  "registerEntry": true,
-  "resetPwdEntry": true,
-  "ssoCheckUrl": "",
-  "activationRequired": false,
+  "registerEntry": true,        // 是否允许注册
+  "resetPwdEntry": true,        // 是否允许重置密码
+  "ssoCheckUrl": "",            // SSO校验URL
+  "activationRequired": false,  // 注册用户是否需要管理员激活
   "emailNeeded": {
-    "need": true,
-    "requireVerify": true
+    "need": true,               // 注册时，是否需要邮箱
+    "requireVerify": true       // 注册时，是否需要验证邮箱的有效性
   },
   "phoneNeeded": {
-    "need": true,
-    "requireVerify": false
+    "need": true,               // 注册时，是否需要手机号
+    "requireVerify": false      // 注册时，是否需要验证手机号的有效性
   },
-  "uploadServerErrorToWebfunny": true, // 是否上报错误日志至Webfunny服务（推荐开启，便于排查问题）
+  
 }
 module.exports = {
   licenseConfig, domainConfig, mysqlConfig, otherConfig
@@ -171,6 +178,9 @@ const run = async () => {
     console.log("2. 贵公司的环境无法访问外部网络，无法获取授权码，请联系我们解决，微信号：webfunny2、webfunny_2020 ".red)
   })
   setVariableInfo(databaseInfo, inputPurchaseCode)
+
+  // 执行初始化点位
+  UpEvents.bootstrap()
 }
 
 run()

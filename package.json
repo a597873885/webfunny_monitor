@@ -1,7 +1,7 @@
 {
   "name": "webfunny_monitor",
   "version": "3.2.0",
-  "description": "这是webfunny的安装包",
+  "description": "这是webfunny的集群版",
   "main": "app.js",
   "scripts": {
     "bootstrap": "node ./webfunny_init/alarm.init.js && node ./webfunny_init/config.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
