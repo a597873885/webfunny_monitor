@@ -7,6 +7,7 @@ var stat = fs.stat;
 
 const WebfunnyConfig = require("../webfunny.config")
 const { domainConfig } = WebfunnyConfig
+const UpEvents = require("../config/upEvents")
 
 const mainDomain = ""
 const localServerDomain = domainConfig.host.be
@@ -184,4 +185,6 @@ for (let p = 0; p < pathList.length; p ++) {
     }
   }, 3000 + p * 1000)
 }
+// 执行启动点位
+UpEvents.prd()
 

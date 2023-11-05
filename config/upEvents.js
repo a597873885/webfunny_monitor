@@ -22,22 +22,22 @@ const osInfo = os.type()
 const macId = Utils.getMac()
 const version = packageConf.version
 
-const projectId = "event_20231105_134041444"
-const upEventUrl = "https://cloud.webfunny.com/wfEvent/upEvent"
-
+const projectId = "event1029"
+const upEventUrl = "https://monitor.webfunny.cn/tracker/upEvents"
+// const upEventUrl = "http://localhost:9011/wfEvent/upEvent"
 module.exports = {
   bootstrap: () => {
     // 执行初始化
     fetch(upEventUrl,
     {
         method: "POST", 
-        body: JSON.stringify({
+        body: JSON.stringify([{
           projectId,
-          pointId: "19",
-          banBenHao: version, // 版本号 | 类型：文本 | 描述：从package.json文件中获取的版不能号
-          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 描述：操作系统信息
-          macdiZhi: macId, // mac地址 | 类型：文本 | 描述：服务器的mac地址
-        }),
+          pointId: "209",
+          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
+          macdiZhi: macId, // Mac地址 | 类型：文本 | 长度：30 | 描述：服务器的mac地址
+          banBenHao: version, // 版本号 | 类型：文本 | 长度：20 | 描述：从package.json文件中获取的版不能号
+        }]),
         headers: {
           "Content-Type": "application/json;charset=utf-8"
         }
@@ -48,14 +48,14 @@ module.exports = {
     fetch(upEventUrl,
     {
         method: "POST", 
-        body: JSON.stringify({
+        body: JSON.stringify([{
           projectId,
-          pointId: "20",
-          yuMing: domainConfig.host.be, // 域名 | 类型：文本 | 描述：启动时配置的域名
-          banBenHao: version, // 版本号 | 类型：文本 | 描述：从package.json文件中获取的版不能号
-          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 描述：操作系统信息
-          macdiZhi: macId, // mac地址 | 类型：文本 | 描述：服务器的mac地址
-        }),
+          pointId: "210",
+          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
+          macdiZhi: macId, // Mac地址 | 类型：文本 | 长度：30 | 描述：服务器的mac地址
+          banBenHao: version, // 版本号 | 类型：文本 | 长度：20 | 描述：从package.json文件中获取的版不能号
+          xiTongYuMing: domainConfig.host.be, // 系统域名 | 类型：文本 | 长度：100 | 描述：启动时配置的域名
+        }]),
         headers: {
           "Content-Type": "application/json;charset=utf-8"
         }
