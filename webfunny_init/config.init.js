@@ -2,7 +2,6 @@ var fs = require('fs');
 const fetch = require('node-fetch')
 const path = require('path')
 const rootPath = path.resolve(__dirname, "..")
-const UpEvents = require("../config/upEvents")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
   const variableJsonPath = rootPath + "/webfunny.config.js"
@@ -179,8 +178,6 @@ const run = async () => {
   })
   setVariableInfo(databaseInfo, inputPurchaseCode)
 
-  // 执行初始化点位
-  UpEvents.bootstrap()
 }
 
 run()
