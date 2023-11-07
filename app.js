@@ -10,13 +10,14 @@ const logger = require('./middlreware/logger')
 const sqlCheck = require('./middlreware/sqlCheck')
 const cacheData = require('./middlreware/cacheData')
 const loggerUpload = require('./middlreware/loggerUpload')
-
+const WebfunnyConfig = require('./webfunny.config')
+const { headers } = WebfunnyConfig.otherConfig.extraCors
 const app = new Koa()
 
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
-    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t")
+    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t" + headers)
     ctx.set("Access-Control-Allow-Credentials", true)
     ctx.set("X-Powered-By", "3.2.1")
     ctx.set("Content-Type", "application/json;charset=utf-8")

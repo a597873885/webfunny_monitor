@@ -2,6 +2,7 @@ var fs = require('fs');
 const fetch = require('node-fetch')
 const path = require('path')
 const rootPath = path.resolve(__dirname, "..")
+const UpEvents = require("../config/upEvents")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
   const variableJsonPath = rootPath + "/webfunny.config.js"
@@ -125,7 +126,10 @@ const otherConfig = {
     "need": true,               // 注册时，是否需要手机号
     "requireVerify": false      // 注册时，是否需要验证手机号的有效性
   },
-  
+  "uploadServerErrorToWebfunny": true, // 是否上报后端错误至Webfunny服务（推荐开启，便于排查问题）
+  "extraCors": {                // 额外的cors配置
+    "headers": ""
+  },
 }
 module.exports = {
   licenseConfig, domainConfig, mysqlConfig, otherConfig
@@ -178,6 +182,8 @@ const run = async () => {
   })
   setVariableInfo(databaseInfo, inputPurchaseCode)
 
+  // 执行初始化点位
+  UpEvents.bootstrap()
 }
 
 run()

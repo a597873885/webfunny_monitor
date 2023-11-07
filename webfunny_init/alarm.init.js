@@ -1,7 +1,6 @@
 var fs = require('fs');
 var path = require('path');
 const rootPath = path.resolve(__dirname, "..")
-const UpEvents = require("../config/upEvents")
 
 /**
  * 初始化alarm目录
@@ -156,5 +155,3 @@ fs.mkdir( rootPath + "/alarm", function(err){
       });
   })
 });
-// 执行初始化点位
-UpEvents.bootstrap()
