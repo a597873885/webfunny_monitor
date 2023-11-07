@@ -2,7 +2,6 @@ var fs = require('fs');
 const fetch = require('node-fetch')
 const path = require('path')
 const rootPath = path.resolve(__dirname, "..")
-const UpEvents = require("../config/upEvents")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
   const variableJsonPath = rootPath + "/webfunny.config.js"
@@ -181,9 +180,6 @@ const run = async () => {
     console.log("2. 贵公司的环境无法访问外部网络，无法获取授权码，请联系我们解决，微信号：webfunny2、webfunny_2020 ".red)
   })
   setVariableInfo(databaseInfo, inputPurchaseCode)
-
-  // 执行初始化点位
-  UpEvents.bootstrap()
 }
 
 run()
