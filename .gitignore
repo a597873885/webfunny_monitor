@@ -32,4 +32,4 @@ util_cus/
 .eslintrc
 lib/*.map
 H5SdkReleaseScript*.js
-webfunny.config.js
+webfunny.config

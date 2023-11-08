@@ -36,12 +36,16 @@ module.exports = async () => {
         SdkReleaseController.timerCreateTableByDay(0).catch((e)=>{
             log.printError(e)
         });
-        // 创建系统模板和系统项目
-        WeHandleDataController.createWeTemplateData().catch((e)=>{
-            log.printError(e)
-        });
-        //创建项目和初始化五个卡片
-        CommonInitDataController.initData().catch((e)=>{
+
+        setTimeout(() => {
+            //创建项目和初始化五个卡片
+            CommonInitDataController.initData().catch((e)=>{
+                log.printError(e)
+           });  
+        }, 5000)
+
+         // 创建系统模板和系统项目
+         WeHandleDataController.createWeTemplateData().catch((e)=>{
             log.printError(e)
         });
 

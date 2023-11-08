@@ -4,7 +4,7 @@ const path = require('path')
 const rootPath = path.resolve(__dirname, "..")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
-  const variableJsonPath = rootPath + "/webfunny.config.js"
+  const variableJsonPath = rootPath + "/webfunny.config/index.js"
   fs.readFile(variableJsonPath, "", (err) => {
     if (err) {
         console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
@@ -179,7 +179,15 @@ const run = async () => {
     console.log("1. 网络异常，执行重启命令试一下$: npm run restart".red)
     console.log("2. 贵公司的环境无法访问外部网络，无法获取授权码，请联系我们解决，微信号：webfunny2、webfunny_2020 ".red)
   })
-  setVariableInfo(databaseInfo, inputPurchaseCode)
+
+  fs.mkdir( rootPath + "/webfunny.config", function(err){
+    if ( err ) { 
+      console.log(`= 文件夹 ${rootPath}/webfunny.config 已经存在`)
+    } else {
+      console.log(`= 创建文件夹 ${rootPath}/webfunny.config`)
+    }
+    setVariableInfo(databaseInfo, inputPurchaseCode)
+  })
 }
 
 run()
