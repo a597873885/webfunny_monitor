@@ -10,17 +10,17 @@ const BuryPointField = function (sequelize, DataTypes) {
       allowNull: false,
       autoIncrement: true,
     },
-     // 项目ID event1001开始
-     projectId: {
-      type: DataTypes.STRING(100),
-      allowNull: true,
-      field: 'projectId'
-    },
     // 通用字段标识：1-是，0-否
-    weType: {
+     weType: {
       type: DataTypes.INTEGER(1),
       allowNull: true,
       field: 'weType'
+    },
+    // 项目id
+    projectId: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'projectId'
     },
     // 字段名称英文
     fieldName: {

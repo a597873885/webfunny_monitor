@@ -5,11 +5,12 @@ const WebfunnyConfig = require("../webfunny.config")
 const { otherConfig } = WebfunnyConfig
 const statusCode = require('../utils/status-code')
 const loggerUpload = require("./loggerUpload");
+const Utils = require("../utils/utils")
 module.exports = function () {
     return async function (ctx, next) {
         const { url, query } = ctx
         const { body } = ctx.request
-        const wfTraceId = ctx.header['wf-t'] || ""  // 获取traceId
+        const wfTraceId = ctx.header['wf-t'] || Utils.getUuid()  // 获取traceId
         
         const start = new Date()
         let ms = 0

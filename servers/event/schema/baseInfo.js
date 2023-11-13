@@ -33,7 +33,7 @@ module.exports = (DataTypes) => {
     },
     // 用户标识ID
     customerKey: {
-      type: DataTypes.STRING(55),
+      type: DataTypes.STRING(50),
       allowNull: true,
       field: 'customerKey'
     },

@@ -17,7 +17,7 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'pointId'
     },
-    // 项目ID event1001开始
+    // 项目id
     projectId: {
       type: DataTypes.STRING(100),
       allowNull: true,
