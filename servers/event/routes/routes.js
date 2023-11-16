@@ -164,6 +164,7 @@ const createRoutes = (router) => {
     router.post('/initCf', CommonUpLog.initFunnelConfig);
     router.post('/upEvent', CommonUpLog.upEvent);
     router.post('/upEvents', CommonUpLog.upEvents);
+    router.post('/upMyEvents', CommonUpLog.upMyEvents);
     router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
     router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
 
