@@ -21,7 +21,7 @@ logs/
 bin/*
 interceptor
 config/db.js
-lib/temp.min.js.map
+temp.min.js.map
 views/webfunny_center/
 views/webfunny/
 views/webfunny_event/
