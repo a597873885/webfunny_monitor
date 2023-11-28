@@ -2,7 +2,7 @@ require("colors")
 const { UserController, CommonTableController, ApplicationConfigController, TimerCalculateController } = require("../controllers/controllers.js")
 const timerUtil = require("../../../utils/timer.js")
 const Utils = require('../util/utils.js');
-const log = require("../config/log.js");
+const log = require("../../../config/log.js");
 /**
  * 定时任务
  */

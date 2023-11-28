@@ -4,7 +4,8 @@
 const WebfunnyConfig = require("../webfunny.config")
 const { otherConfig } = WebfunnyConfig
 const statusCode = require('../utils/status-code')
-const loggerUpload = require("./loggerUpload");
+const loggerUpload = require("./loggerUpload")
+const log = require("../config/log")
 const Utils = require("../utils/utils")
 module.exports = function () {
     return async function (ctx, next) {
@@ -29,6 +30,8 @@ module.exports = function () {
             })
             errorRes = {traceId: wfTraceId}
             errorMsg = "服务器异常，请查看错误日志"
+          } else {
+            log.error(error)
           }
           ctx.response.status = 500;
           ctx.body = statusCode.ERROR_500(errorMsg, errorRes)

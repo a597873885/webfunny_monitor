@@ -1,4 +1,4 @@
-const log = require("../config/log");
+const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
 const { WeHandleDataController,Common, ConfigController, SdkReleaseController, TimerStatisticController, CommonInitDataController } = require("../controllers/controllers.js")

@@ -2,7 +2,7 @@ const {
     Common, AlarmController, UserController, TimerCalculateController,
     MessageController, ProjectController, ConfigController
 } = require("../controllers/controllers.js")
-const log = require("../config/log");
+const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig
 const timerUtil = require("../../../utils/timer.js")

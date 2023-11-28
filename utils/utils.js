@@ -1,4 +1,6 @@
 require("./extension")
+const path = require('path')
+const jsonfile = require('jsonfile')
 const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
@@ -401,6 +403,21 @@ const Utils = {
       "Content-Type": "application/json;charset=utf-8"
     }
     return Object.assign({}, { headers })
+  },
+  /**
+   * 解析json文件
+   */
+  getJsonData() {
+    const basePath = path.resolve(__dirname, "../")
+    const file = basePath + '/package.json'
+    let conf = {}
+    try {
+      conf = jsonfile.readFileSync(file);
+    } catch (error) {
+        console.log('read json config err:', error);
+        throw new Error('解析package.json失败')
+    }
+    return conf
   },
   /**
    * img上报日志转JOSN
