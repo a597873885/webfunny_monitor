@@ -1,8 +1,18 @@
 const fetch = require('node-fetch')
 const Utils = require('../utils/utils')
 module.exports = ({projectId = "webfunny_log_123", userId = Utils.getMac(), error = {message: "", stack: ""}, url = "", traceId = ""}) => {
-  const message = error.message.replace(/\'/g, " ")
-  const stack = error.stack.replace(/\'/g, " ")
+  let message = ""
+  let stack = ""
+  try {
+    if (error.message && typeof error.message === "string") {
+      message = error.message.replace(/\'/g, " ")
+    }
+    if (error.stack && typeof error.stack === "string") {
+      message = error.stack.replace(/\'/g, " ")
+    }
+  } catch(e) {
+    console.log(e)
+  }
   const { version } = Utils.getJsonData()
   fetch("https://cloud.webfunny.com/wfLog/upLogs",
   {

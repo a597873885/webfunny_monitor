@@ -292,6 +292,7 @@ const createRoutes = (router) => {
     router.post('/getPageLoadOverview', PageLoadInfoController.getPageLoadOverview);
     router.post('/getPageLoadOverviewSimple', PageLoadInfoController.getPageLoadOverviewSimple);
     router.post('/getPerformanceDataForMinute', PageLoadInfoController.getPerformanceDataForMinute);
+    router.post('/getPageCompleteLoadedDataForHour', PageLoadInfoController.getPageCompleteLoadedDataForHour);
     router.post('/getFastSlowDataForMinute', PageLoadInfoController.getFastSlowDataForMinute);
     router.post('/getPerfDataForUrlByDay', PageLoadInfoController.getPerfDataForUrlByDay);
     router.post('/getPerfDataForUrlByDaySimple', PageLoadInfoController.getPerfDataForUrlByDaySimple);
