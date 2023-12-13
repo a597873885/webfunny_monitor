@@ -3,7 +3,7 @@ module.exports = [
     "/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register",
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
-    "/projectSimpleListByWebmonitorIds", "/addViewers", "/forbiddenProject", "/deleteProject",
+    "/projectSimpleListByWebmonitorIds", "/addViewers", "/forbiddenProject",
     "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource",
 
     // center
@@ -19,5 +19,5 @@ module.exports = [
     "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
-    "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport"
+    "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "/buryPointTest/searchExport"
 ]
