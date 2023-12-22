@@ -4,7 +4,7 @@ const { createRouter } = require("./routes");
 const timerTask = require("./timer");
 
 
-global.monitorInfo = {
+global.centerInfo = {
     ssoForFeiShu: {},
     purchaseCodeProjectCount: 3,
     registerEmailCode: {},
