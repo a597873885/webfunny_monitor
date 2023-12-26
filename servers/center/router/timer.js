@@ -7,7 +7,7 @@ const log = require("../../../config/log.js");
  * 定时任务
  */
 module.exports = async () => {
-    global.monitorInfo.loginValidateCodeTimer = setInterval(() => {
+    global.centerInfo.loginValidateCodeTimer = setInterval(() => {
         UserController.setValidateCode()
     }, 5 * 60 * 1000)
     setTimeout(() => {
