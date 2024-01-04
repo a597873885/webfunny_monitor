@@ -34,7 +34,7 @@ global.eventInfo = {
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
     tokenListInMemory: {}, //内存中的token列表 
-    pointAndFields: {}, // 存放点位下的字段信息
+    pointAndFields: [], // 存放点位下的字段信息
     funnelCardAndPointRelations: {}, // 存放漏斗卡片关系数据
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")

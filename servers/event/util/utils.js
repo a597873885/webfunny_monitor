@@ -510,77 +510,86 @@ const Utils = {
    */
  convertOperationSql(fieldName, rule, valueStr) {
   let str = rule
-  let tempValueStr = ""
-  if (rule === "包含" || rule === "不包含" ) {
-    let valArray = valueStr.split(",")
-    let valInStr = ""
-    valArray.forEach((val) => {
-      valInStr += `'${val}',`
-    })
-    if (valInStr.length > 0) {
-      valInStr = valInStr.substring(0, valInStr.length - 1)
+    let tempValueStr = ""
+    if (rule === "包含" || rule === "不包含" ) {
+      let valArray = valueStr.split(",")
+      let valInStr = ""
+      valArray.forEach((val) => {
+        if(rule === "包含"){
+          valInStr += ` ${fieldName} like '%${val}%' or `
+        }else if(rule === "不包含"){
+          valInStr += ` ${fieldName} not like '%${val}%' and`
+        }
+      })
+      if (valInStr.length > 0) {
+        valInStr = valInStr.substring(0, valInStr.length - 3)//去掉最后一个or或者and
+      }
+      tempValueStr = ` (${valInStr}) `
+    } else {
+        tempValueStr = "'" + valueStr + "' "
     }
-    tempValueStr = ` (${valInStr}) `
-  } else {
-      tempValueStr = "'" + valueStr + "' "
-  }
-  let valueStrSql = valueStr ? tempValueStr : ""
+    let valueStrSql = valueStr ? tempValueStr : ""
 
-  let newStr;
-  let sql = ""
-  switch(str) {
-    case "为空":
-      newStr = " is null "
-      sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
-    break
-    case "不为空":
-      newStr = " is not null "
-      sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
-    break
-    case "包含":
-      newStr = " in "
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "不包含":
-      newStr = " not in "
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "区间":
-      newStr = ""
-    break
-    case "大于":
-      newStr = ">"
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "大于等于":
-      newStr = ">="
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "小于":
-      newStr = "<"
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "小于等于":
-      newStr = "<="
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "等于":
-      newStr = "="
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "不等于":
-      newStr = "!="
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    case "归类":
-      newStr = "group by"
-      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-    break
-    default:
+    let newStr;
+    let sql = ""
+    switch(str) {
+      case "为空":
+        newStr = " is null "
+        sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
       break
-  }
-
-  return sql
+      case "不为空":
+        newStr = " is not null "
+        sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
+      break
+      case "包含":
+        // newStr = " like "
+        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+        sql = ` ${valueStrSql}`
+      break
+      case "不包含":
+        // newStr = " not like "
+        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+        sql = ` ${valueStrSql}`
+      break
+      case "区间":
+        newStr = ""
+      break
+      case "大于":
+        newStr = ">"
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "大于等于":
+        newStr = ">="
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "小于":
+        newStr = "<"
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "小于等于":
+        newStr = "<="
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "等于":
+        newStr = "="
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "不等于":
+        newStr = "!="
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "归类":
+        newStr = "group by"
+        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      break
+      case "模糊匹配":
+        newStr = "like"
+        sql = ` ${fieldName} ${newStr} %${valueStrSql}%`
+      break
+      default:
+        break
+    }
+    return sql
 },
 
   /**
