@@ -3133,6 +3133,7 @@ module.exports = [{
 	"chartTableShow": "table",
 	"togetherList": "total,average,yoyRatio,ringRatio",
 	"refreshFrequency": 0,
+	"calcRule":"[{\"calcName\":\"PV量\",\"unit\":\"次\",\"prePoint\":{\"calcField\":{\"fieldName\":\"fangWenDiZhi\",\"isRepeat\":\"4\"},\"pointId\":126,\"queryCriteria\":[]},\"calcNameKey\":\"pvliang20230429222200\"}]",
 	"refreshTime": "2023-04-29 22:47:20",
 	"statisticList": [{
 		"calcTotail": 2,
