@@ -450,6 +450,27 @@ const Utils = {
     return temp;
   },
 
+   /**
+   * 时间按照每天每隔切分，返回时间倒序list
+   * 开始时间：startDate
+   * 结束时间：endDate
+   * 分钟：amount
+   */
+   splitDescDate(startDate, endDate) {
+    var endTime= new Date(startDate),
+    startTime = new Date(endDate);
+    var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+    var temp = [];
+    for (var i = 0; i < days; i++) {
+      startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
+      temp[i] = new Date(startTime.getTime());
+      temp[i] = temp[i].Format("MM-dd")  //分割天
+      // console.log(temp[i].format('hh:mm'))
+    }
+    return temp;
+  },
+
   /**
    * 中文转符号
    * 大于等于转 >=
