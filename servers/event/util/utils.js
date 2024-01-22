@@ -461,6 +461,7 @@ const Utils = {
     startTime = new Date(endDate);
     var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
     var days = parseInt(difftime/86400); // 天  24*60*60*1000
+    startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000)
     var temp = [];
     for (var i = 0; i < days; i++) {
       startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
