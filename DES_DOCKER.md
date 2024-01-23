@@ -6,11 +6,11 @@
 
 0.完成正常部署后，就可以将整个系统作为镜像文件进行打包。
 
-1.项目内我增加了dockerfile, 生成image文件，执行命令$: docker image build -t webfunny_monitor .
+1.项目内我增加了dockerfile, 生成image文件，执行命令$: docker image build -t webfunny_monitor --platform linux/amd64 .
 
-2.生成容器，执行命令$: docker container run -p 8008:8008 -p 8009:8009 -p 8010:8010 -p 8011:8011 -p 8014:8014 -p 8015:8015 -it webfunny_monitor
+2.生成容器，执行命令$: docker container run -p 8010:8010 -p 8011:8011 -it webfunny_monitor
 
-        监控系统会使用两个端口号：8008、8009、8010、8011、8014、8015 ，所以需要映射出来;
+        监控系统会使用两个端口号：8010、8011，所以需要映射出来;
 
 3.你可以自己将镜像文件发布到云上，然后再使用。
 
