@@ -30,7 +30,7 @@ const getTableProperty = (DataTypes) => {
     },
     // 流量来源, 套餐-subscribe，流量包-package
     flowOrigin: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(12),
       allowNull: true,
       field: 'flowOrigin'
     },

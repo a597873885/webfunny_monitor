@@ -3,6 +3,7 @@ const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
+const searcher = require('node-ip2region').create();
 const { base64encode, base64decode } = require('nodejs-base64');
 const getmac = require('getmac')
 const log = require("../../../config/log");
@@ -50,7 +51,7 @@ const Utils = {
         if (tempDate === result[j].day) {
           tempObj.count = result[j].count;
           tempObj.loadTime = result[j].loadTime ? result[j].loadTime : 0;
-          break;
+          continue;
         }
       }
       newResult.push(tempObj);
@@ -478,6 +479,37 @@ const Utils = {
     }
     return timeSql
   },
+  /**
+   * 处理time scope Sql
+   */
+  handleTimeScopeSql(timeSize, scope) {
+    const oneDayTime = 24 * 3600 * 1000
+    timeSize = parseInt(timeSize, 10)
+    scope = parseInt(scope, 10) - 1
+    const nowTime = new Date().getTime() - scope * oneDayTime
+    const startTime = nowTime + (timeSize - 1) * oneDayTime
+    const endTime = nowTime + (timeSize) * oneDayTime
+    let startHour = new Date(startTime).Format("yyyy-MM-dd hh:00:00")
+    let endHour = new Date(endTime).Format("yyyy-MM-dd hh:59:59")
+    let timeSql = " happenDate>='" + startHour + "' and happenDate<='" + endHour + "' "
+    if (timeSize > 0) {
+      const startHour = new Date(startTime + oneDayTime).Format("yyyy-MM-dd hh:00:00")
+      const endHour = new Date(endTime + oneDayTime).Format("yyyy-MM-dd hh:59:59")
+      timeSql = " happenDate>='" + startHour + "' and happenDate<='" + endHour + "' "
+    }
+    return timeSql
+  },
+
+  /**
+   * 处理whole day Sql
+   */
+  handleWholeDaySql(timeSize) {
+    const useDay = Utils.addDays(timeSize)
+    let startDay = useDay + " 00:00:00"
+    let endDay = useDay + " 23:59:59"
+    let timeSql = " happenDate>='" + startDay + "' and happenDate<='" + endDay + "' "
+    return timeSql
+  },
 
   /**
    * 时间按照分钟每隔切分，返回时间list
@@ -601,6 +633,31 @@ const Utils = {
       }
       return protocolRes
     }
+  },
+  // 根据ip获取地理位置
+  async analysisIp(monitorIp) {
+    let ipInfo = {
+      country: "未知",
+      province: "未知",
+      city: "未知",
+      operators: "未知"
+    }
+    if (!monitorIp) return ipInfo;
+    
+    try {
+      const res = await searcher.btreeSearchSync(monitorIp)
+      if (res) {
+          const { region } = res
+          const locationArray = region.split("|")
+          ipInfo.country = locationArray.length > 0 ? locationArray[0] || "未知" : "未知"
+          ipInfo.province = locationArray.length > 1 ? locationArray[2] || "未知" : "未知"
+          ipInfo.city = locationArray.length > 2 ? locationArray[3] || "未知" : "未知"
+          ipInfo.operators = locationArray.length > 3 ? locationArray[4] || "未知" : "未知"
+      }
+    } catch(e) {
+        log.printError("IP定位失败：", monitorIp)
+    }
+    return ipInfo
   },
 }
 

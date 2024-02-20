@@ -1,0 +1,2 @@
+# webfunny_log_server
+这是webfunny日志系统的服务端

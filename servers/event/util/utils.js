@@ -428,7 +428,27 @@ const Utils = {
     }
     return temp;
   },
-
+  /**
+     * 时间按照每天每隔切分，返回时间倒序list
+     * 开始时间：startDate
+     * 结束时间：endDate
+     * 分钟：amount
+     */
+  splitDescDate(startDate, endDate) {
+    var endTime= new Date(startDate),
+    startTime = new Date(endDate);
+    var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+    startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
+    var temp = [];
+    for (var i = 0; i < days; i++) {
+      startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
+      temp[i] = new Date(startTime.getTime());
+      temp[i] = temp[i].Format("MM-dd")  //分割天
+      // console.log(temp[i].format('hh:mm'))
+    }
+    return temp;
+  },
   /**
    * 时间按照每天每隔切分，返回时间list
    * 开始时间：startDate
@@ -449,29 +469,114 @@ const Utils = {
     }
     return temp;
   },
-
-   /**
-   * 时间按照每天每隔切分，返回时间倒序list
-   * 开始时间：startDate
-   * 结束时间：endDate
-   * 分钟：amount
+/**
+ * 时间按照每天每隔切分，返回时间倒序list
+ * 开始时间：startDate
+ * 结束时间：endDate
+ * 分钟：amount
+ */
+splitDescDate(startDate, endDate) {
+  var endTime= new Date(startDate),
+  startTime = new Date(endDate);
+  var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
+  var days = parseInt(difftime/86400); // 天  24*60*60*1000
+  startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
+  var temp = [];
+  for (var i = 0; i < days; i++) {
+    startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
+    temp[i] = new Date(startTime.getTime());
+    temp[i] = temp[i].Format("MM-dd")  //分割天
+    // console.log(temp[i].format('hh:mm'))
+  }
+  return temp;
+},
+/**
+   * 中文转符号，生成sql
+   * 大于等于转 >=
    */
-   splitDescDate(startDate, endDate) {
-    var endTime= new Date(startDate),
-    startTime = new Date(endDate);
-    var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
-    startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000)
-    var temp = [];
-    for (var i = 0; i < days; i++) {
-      startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
-      temp[i] = new Date(startTime.getTime());
-      temp[i] = temp[i].Format("MM-dd")  //分割天
-      // console.log(temp[i].format('hh:mm'))
+convertOperationSql(fieldName, rule, valueStr) {
+  let str = rule
+  let tempValueStr = ""
+  if (rule === "包含" || rule === "不包含" ) {
+    let valArray = valueStr.split(",")
+    let valInStr = ""
+    valArray.forEach((val) => {
+      if(rule === "包含"){
+        valInStr += ` ${fieldName} like '%${val}%' or `
+      }else if(rule === "不包含"){
+        valInStr += ` ${fieldName} not like '%${val}%' and`
+      }
+    })
+    if (valInStr.length > 0) {
+      valInStr = valInStr.substring(0, valInStr.length - 3)//去掉最后一个or或者and
     }
-    return temp;
-  },
+    tempValueStr = ` (${valInStr}) `
+  } else {
+      tempValueStr = "'" + valueStr + "' "
+  }
+  let valueStrSql = valueStr ? tempValueStr : ""
 
+  let newStr;
+  let sql = ""
+  switch(str) {
+    case "为空":
+      newStr = " is null "
+      sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
+    break
+    case "不为空":
+      newStr = " is not null "
+      sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
+    break
+    case "包含":
+      // newStr = " like "
+      // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      sql = ` ${valueStrSql}`
+    break
+    case "不包含":
+      // newStr = " not like "
+      // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+      sql = ` ${valueStrSql}`
+    break
+    case "区间":
+      newStr = ""
+    break
+    case "大于":
+      newStr = ">"
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "大于等于":
+      newStr = ">="
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "小于":
+      newStr = "<"
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "小于等于":
+      newStr = "<="
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "等于":
+      newStr = "="
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "不等于":
+      newStr = "!="
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "归类":
+      newStr = "group by"
+      sql = ` ${fieldName} ${newStr} ${valueStrSql}`
+    break
+    case "模糊匹配":
+      newStr = "like"
+      sql = ` ${fieldName} ${newStr} %${valueStrSql}%`
+    break
+    default:
+      break
+  }
+  return sql
+},
   /**
    * 中文转符号
    * 大于等于转 >=
@@ -526,93 +631,6 @@ const Utils = {
     }
     return newStr;
   },
- /**
-   * 中文转符号，生成sql
-   * 大于等于转 >=
-   */
- convertOperationSql(fieldName, rule, valueStr) {
-  let str = rule
-    let tempValueStr = ""
-    if (rule === "包含" || rule === "不包含" ) {
-      let valArray = valueStr.split(",")
-      let valInStr = ""
-      valArray.forEach((val) => {
-        if(rule === "包含"){
-          valInStr += ` ${fieldName} like '%${val}%' or `
-        }else if(rule === "不包含"){
-          valInStr += ` ${fieldName} not like '%${val}%' and`
-        }
-      })
-      if (valInStr.length > 0) {
-        valInStr = valInStr.substring(0, valInStr.length - 3)//去掉最后一个or或者and
-      }
-      tempValueStr = ` (${valInStr}) `
-    } else {
-        tempValueStr = "'" + valueStr + "' "
-    }
-    let valueStrSql = valueStr ? tempValueStr : ""
-
-    let newStr;
-    let sql = ""
-    switch(str) {
-      case "为空":
-        newStr = " is null "
-        sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
-      break
-      case "不为空":
-        newStr = " is not null "
-        sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
-      break
-      case "包含":
-        // newStr = " like "
-        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-        sql = ` ${valueStrSql}`
-      break
-      case "不包含":
-        // newStr = " not like "
-        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-        sql = ` ${valueStrSql}`
-      break
-      case "区间":
-        newStr = ""
-      break
-      case "大于":
-        newStr = ">"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "大于等于":
-        newStr = ">="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "小于":
-        newStr = "<"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "小于等于":
-        newStr = "<="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "等于":
-        newStr = "="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "不等于":
-        newStr = "!="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "归类":
-        newStr = "group by"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "模糊匹配":
-        newStr = "like"
-        sql = ` ${fieldName} ${newStr} %${valueStrSql}%`
-      break
-      default:
-        break
-    }
-    return sql
-},
 
   /**
    * 字段类型转换

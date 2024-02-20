@@ -22,9 +22,10 @@ bin/*
 interceptor
 config/db.js
 temp.min.js.map
-views/webfunny_center/
-views/webfunny/
-views/webfunny_event/
+views/wf_center
+views/wf_monitor
+views/wf_event
+views/wf_logger
 schema_temp/
 alarm/
 sso/

@@ -1,14 +1,13 @@
+require("colors")
 const Koa = require('koa')
-// 路由
 const bodyParser = require('koa-bodyparser')
-const httpRoute = require('./routes')
-const wsRoute = require('./routes/ws')
-const log = require("./config/log")
-let WebSocket = require("koa-websocket")
+const cors = require('koa2-cors')
+const httpRoute = require('./router')
+const log = require("../../config/log")
+let WebSocket = require("koa-websocket");
 const statusCode = require('./util/status-code')
 const auth = require('./middlreware/auth')
 const sqlCheck = require('./middlreware/sqlCheck')
-const cacheData = require('./middlreware/cacheData')
 const app = WebSocket(new Koa())
 
 app.use(async (ctx, next) => {
@@ -38,8 +37,6 @@ app.use(bodyParser({
 // 防sql注入
 app.use(sqlCheck())
 
-// 缓存数据拦截
-app.use(cacheData())
 
 app.use(async (ctx, next) => {
     const start = new Date()
@@ -57,12 +54,15 @@ app.use(async (ctx, next) => {
 
 // routes
 app.use(httpRoute.routes(), httpRoute.allowedMethods())
-app.ws.use(wsRoute.routes(), wsRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
     console.error('server error', err, ctx)
+    log.error(ctx, err, new Date().Format("yyyy-MM-dd hh:mm:ss"))
+});
+app.on('UnhandledPromiseRejectionWarning', (err, ctx) => {
+    console.error('UnhandledPromiseRejectionWarning error', err, ctx)
+    log.error(ctx, err, new Date().Format("yyyy-MM-dd hh:mm:ss"))
 });
 
 module.exports = app
-

@@ -14,7 +14,6 @@ const User = function (sequelize, DataTypes) {
     companyId: {
       type: DataTypes.STRING(50),
       allowNull: true,
-      defaultValue: '1',
       field: 'companyId'
     },
     // 用户唯一标识

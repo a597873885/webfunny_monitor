@@ -1,11 +1,12 @@
 const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
 const httpRoute = require('./router')
-const log = require("./config/log")
+const log = require("../..//config/log")
 let WebSocket = require("koa-websocket");
 const statusCode = require('./util/status-code')
 const auth = require('./middlreware/auth')
 const sqlCheck = require('./middlreware/sqlCheck')
+const wfParam = require('./middlreware/wfParam')
 const app = WebSocket(new Koa())
 // const fundebug = require("fundebug-nodejs");
 // fundebug.apikey="79b855b16c8daa6b28bccf99e22c20a9b18ecfbde2b7576fd243335af21b8f8a";
@@ -28,6 +29,8 @@ app.use(async (ctx, next) => {
 })
 // 登录校验
 app.use(auth())
+// 参数转换
+app.use(wfParam())
 // middlewares
 app.use(bodyParser({
     enableTypes: ['json', 'form', 'text'],

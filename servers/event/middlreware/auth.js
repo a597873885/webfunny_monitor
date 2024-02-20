@@ -1,33 +1,31 @@
 const jwt = require('jsonwebtoken')
-const secret = require('../config/secret')
 const { ConfigModel } = require('../modules/models')
+const secret = require('../config/secret')
 const verify = jwt.verify
 const statusCode = require('../util/status-code')
-// 检查登录白名单
-const ignorePaths = [
-    "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",
-    "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
-    "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
-    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
-    "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport"
-]
 
 /**
  * 判断token是否可用
  */
+// 检查登录白名单
+const ignorePaths = [
+    "/sysInfo", "/health", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent",
+    "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
+    "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
+    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
+    "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
+    "/buryPointCard/getHeatMapPerData"
+]
 module.exports = function () {
     return async function (ctx, next) {
         const login_error = "登录已失效，请重新登录"
         const token = ctx.header['access-token']  // 获取jwt
-        let { url } = ctx
-        url = url.split("?")[0]
+        const { url } = ctx
         // 如果是上报接口，直接通过
-        if ( !(url.indexOf("upLog") === -1 &&
+        if (!(url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&
             url.indexOf("upDLog") === -1 &&
-            url.indexOf("upEvent") === -1 &&
-            url.indexOf("upEvents") === -1 &&
-            url.indexOf("upMog") === -1) ) {
+            url.indexOf("upMog") === -1)) {
             await next();
             return
         }
@@ -55,11 +53,11 @@ module.exports = function () {
                     ctx.body = statusCode.ERROR_401(login_error);
                     return
                 }
-                const { emailName, userId, userType, nickname } = decode
+                const { emailName, userId, userType, nickname, companyId } = decode
                 loginName = emailName
                 // 解密payload，获取用户名和ID
                 ctx.user = {
-                    emailName, userId, userType, token, nickname
+                    emailName, userId, userType, token, nickname, companyId
                 }
             })
 

@@ -14,8 +14,8 @@ if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("htt
   return
 }
 
-if (localServerPort != "8011" || localAssetsPort != "8010") {
-  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8010、8011，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
+if (localServerPort != "8022" || localAssetsPort != "8023") {
+  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8022、8023，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
 }
 
 /**
@@ -105,21 +105,21 @@ var exists = function( src, dst, callback ){
 
 var fs = require('fs');
 stat = fs.stat;
-delDir(__dirname + "/views/webfunny")
-fs.mkdir( __dirname + "/views/webfunny", function(err){
+delDir(__dirname + "/views/wf_monitor")
+fs.mkdir( __dirname + "/views/wf_monitor", function(err){
   if ( err ) { 
-    console.log("= 文件夹 /views/webfunny 已经存在")
+    console.log("= 文件夹 /views/wf_monitor 已经存在")
   } else {
-    console.log("= 创建文件夹 /views/webfunny")
+    console.log("= 创建文件夹 /views/wf_monitor")
   }
 });
 
 // 生成探针结束
-copy(__dirname + "/views/resource/", __dirname + "/views/webfunny")
-copy(__dirname + "/views/images/", __dirname + "/views/webfunny")
+copy(__dirname + "/views/resource/", __dirname + "/views/wf_monitor")
+copy(__dirname + "/views/images/", __dirname + "/views/wf_monitor")
 console.log("= 正在执行编译，请稍等...")
 setTimeout(function() {
-  let path = __dirname + '/views/webfunny/js';
+  let path = __dirname + '/views/wf_monitor/js';
   let files = fs.readdirSync(path);
   for(let i = 0; i < files.length; i++){
     if ( !(files[i].indexOf(".js") >= 0 || files[i].indexOf(".html") >= 0) ) {
@@ -144,7 +144,7 @@ setTimeout(function() {
   const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
                           .replace(/&&&www.webfunny.cn&&&/g, localServerDomain)
                           .replace(/&&&webfunny.cn&&&/g, mainDomain);
-  const webfunnyJsTargePath = __dirname + "/views/webfunny/w.js"
+  const webfunnyJsTargePath = __dirname + "/views/wf_monitor/w.js"
   fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
   console.log("= 探针代码创建完成！")
 }, 3000)

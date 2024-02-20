@@ -1,7 +1,7 @@
 const Koa = require('koa')
 // 路由
 const bodyParser = require('koa-bodyparser')
-const httpRoute = require('./routes')
+const httpRoute = require('./router')
 const log = require("./config/log")
 let WebSocket = require("koa-websocket")
 const statusCode = require('./util/status-code')

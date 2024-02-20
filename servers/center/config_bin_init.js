@@ -9,19 +9,19 @@ const setVariableInfo = (databaseInfo) => {
         console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
         var variableJsonFile = `{
           "domain": {
-            "localAssetsDomain": "localhost:8008",
-            "localServerDomain": "localhost:8009",
-            "localAssetsPort": "8008",
-            "localServerPort": "8009",
+            "localAssetsDomain": "localhost:8020",
+            "localServerDomain": "localhost:8021",
+            "localAssetsPort": "8020",
+            "localServerPort": "8021",
             "mainDomain": ""
           },
           "monitorDomain": {
-            "localServerDomain": "localhost:8011",
-            "localAssetsDomain": "localhost:8010"
+            "localAssetsDomain": "localhost:8022"
+            "localServerDomain": "localhost:8023",
           },
           "eventDomain": {
-            "localServerDomain": "localhost:8015",
-            "localAssetsDomain": "localhost:8014"
+            "localAssetsDomain": "localhost:8024",
+            "localServerDomain": "localhost:8025"
           },
           "mysqlConfig": {
               "write": {

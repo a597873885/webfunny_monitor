@@ -1,7 +1,4 @@
 var log4js = require("./log_config");
-var loggerUpload = require("../middlreware/loggerUpload")
-const WebfunnyConfig = require("../webfunny.config")
-const { otherConfig } = WebfunnyConfig
 
 var errorLog = log4js.getLogger("errorLog"); //此处使用category的值
 var resLog = log4js.getLogger("responseLog"); //此处使用category的值
@@ -14,9 +11,6 @@ log.info = function(ctx, resTime) {
 log.error = function(ctx, error, resTime) {
   if (ctx && error) {
     errorLog.error(formatError(ctx, error, resTime));
-  } else if (ctx) {
-    // 只有ctx，说明传入的只有一个error, ctx就是error
-    errorLog.error(ctx);
   }
 };
 log.printInfo = function (msg, err) {
@@ -32,26 +26,20 @@ log.printInfo = function (msg, err) {
   resLog.info(logText)
 }
 
-log.printError = function (msg = "", err = {}) {
-  if (otherConfig.uploadServerErrorToWebfunny === true) {
-    const error = {
-      message: `${msg} - ${err.message || ""}`,
-      stack: err.stack || ""
-    }
-    loggerUpload({error})
-  } else {
-    var errorText = "msg: " + msg + "\n";
-    if (err) {
-      //错误名称
-      errorText += "err name: " + err.name + "\n";
-      //错误信息
-      errorText += "err message: " + err.message + "\n";
-      //错误详情
-      errorText += "err stack: " + err.stack + "\n";
-    }
-    errorLog.error(errorText)
+log.printError = function (msg, err) {
+  var errorText = "msg: " + msg + "\n";
+  if (err) {
+    //错误名称
+    errorText += "err name: " + err.name + "\n";
+    //错误信息
+    errorText += "err message: " + err.message + "\n";
+    //错误详情
+    errorText += "err stack: " + err.stack + "\n";
   }
+  errorLog.error(errorText)
+  // console.log(errorText)
 }
+
 log.errorDetail = function(param, err) {
   if (param && err) {
     var logText = "param: " + param + "\n";

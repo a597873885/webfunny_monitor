@@ -28,8 +28,8 @@ if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("htt
   return
 }
 
-if (localServerPort != "8011" || localAssetsPort != "8010") {
-  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8010、8011，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
+if (localServerPort != "9011" || localAssetsPort != "9010") {
+  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号9010、9011，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
 }
 
 /**
@@ -120,71 +120,72 @@ var exists = function( src, dst, callback ){
 };
 
 
-var pathList = ["webfunny", "webfunny_center", "webfunny_event"]
+var pathList = ["wf_center", "wf_monitor", "wf_event", "wf_logger"]
 
 var originPath = path.resolve(__dirname, '..')
 
 for (let i = 0; i < pathList.length; i ++) {
   let tempPath = pathList[i]
   delDir(`${originPath}/views/${tempPath}`)
-  delDir(`${originPath}/views/${tempPath}`)
-  delDir(`${originPath}/views/${tempPath}`)
 }
 
-for (let i = 0; i < pathList.length; i ++) {
-  let tempPath = pathList[i]
-  fs.mkdir(`${originPath}/views/${tempPath}`, function(err){
-    if ( err ) { 
-      console.log(`= 文件夹 /views/${tempPath} 已经存在`)
-    } else {
-      console.log(`= 创建文件夹 /views/${tempPath}`)
-    }
-  });
-}
+setTimeout(() => {
 
-for (let i = 0; i < pathList.length; i ++) {
-  let tempPath = pathList[i]
-  copy(`${originPath}/views/resource/${tempPath}`, `${originPath}/views/${tempPath}`)
-  copy(`${originPath}/views/images/`, `${originPath}/views/${tempPath}`)
-}
-
-for (let p = 0; p < pathList.length; p ++) {
-  let tempPath = pathList[p]
-  
-  setTimeout(function() {
-    console.log(`正在配置${tempPath}目录的域名，请稍等...`)
-    let jsPath = `${originPath}/views/${tempPath}/js`;
-    let files = fs.readdirSync(jsPath);
-    for(let i = 0; i < files.length; i++){
-      if ( !(files[i].indexOf(".js") >= 0 || files[i].indexOf(".html") >= 0) ) {
-        continue
+  for (let i = 0; i < pathList.length; i ++) {
+    let tempPath = pathList[i]
+    fs.mkdir(`${originPath}/views/${tempPath}`, function(err){
+      if ( err ) { 
+        console.log(`= 文件夹 /views/${tempPath} 已经存在`)
+      } else {
+        console.log(`= 创建文件夹 /views/${tempPath}`)
       }
-      fs.readFile(`${jsPath}/${files[i]}`,function(err, data){
-          if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-            let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_center_server_url/g, default_center_server_url).replace(/default_monitor_server_url/g, default_monitor_server_url).replace(/default_event_server_url/g, default_event_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort) // .replace(/webfunny_secret_code/g, secretCode)
-            fs.writeFile(`${jsPath}/${files[i]}`, newString, (err) => {
-              if (err) throw err;
-              console.log("= " + files[i] + "  接口域名配置成功！");
-            });
-          }
-      })
-    }
+    });
+  }
 
-    if (tempPath === "webfunny") {
-      // 生成探针开始
-      console.log("===========================")
-      console.log("= 正在生成探针代码，请稍等...")
-      const webfunnyJsPath = `${originPath}/servers/monitor/lib/webfunny.min.js`
-      const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
-      const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
-                              .replace(/&&&www.webfunny.cn&&&/g, localServerDomain)
-                              .replace(/&&&webfunny.cn&&&/g, mainDomain);
-      const webfunnyJsTargePath = `${originPath}/views/webfunny/w.js`
-      fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
-      console.log("= 探针代码创建完成！")
-    }
-  }, 3000 + p * 1000)
-}
+  for (let i = 0; i < pathList.length; i ++) {
+    let tempPath = pathList[i]
+    copy(`${originPath}/views/resource/${tempPath}`, `${originPath}/views/${tempPath}`)
+    copy(`${originPath}/views/images/`, `${originPath}/views/${tempPath}`)
+  }
+
+  for (let p = 0; p < pathList.length; p ++) {
+    let tempPath = pathList[p]
+    
+    setTimeout(function() {
+      console.log(`正在配置${tempPath}目录的域名，请稍等...`)
+      let jsPath = `${originPath}/views/${tempPath}/js`;
+      let files = fs.readdirSync(jsPath);
+      for(let i = 0; i < files.length; i++){
+        if ( !(files[i].indexOf(".js") >= 0 || files[i].indexOf(".html") >= 0) ) {
+          continue
+        }
+        fs.readFile(`${jsPath}/${files[i]}`,function(err, data){
+            if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
+              let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_center_server_url/g, default_center_server_url).replace(/default_monitor_server_url/g, default_monitor_server_url).replace(/default_event_server_url/g, default_event_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort) // .replace(/webfunny_secret_code/g, secretCode)
+              fs.writeFile(`${jsPath}/${files[i]}`, newString, (err) => {
+                if (err) throw err;
+                console.log("= " + files[i] + "  接口域名配置成功！");
+              });
+            }
+        })
+      }
+
+      if (tempPath === "webfunny") {
+        // 生成探针开始
+        console.log("===========================")
+        console.log("= 正在生成探针代码，请稍等...")
+        const webfunnyJsPath = `${originPath}/servers/monitor/lib/webfunny.min.js`
+        const webfunnyCode = fs.readFileSync(webfunnyJsPath, 'utf-8')
+        const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
+                                .replace(/&&&www.webfunny.cn&&&/g, localServerDomain)
+                                .replace(/&&&webfunny.cn&&&/g, mainDomain);
+        const webfunnyJsTargePath = `${originPath}/views/webfunny/w.js`
+        fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
+        console.log("= 探针代码创建完成！")
+      }
+    }, 3000 + p * 1000)
+  }
+}, 5000)
+
 // 执行启动点位
 UpEvents.prd()
-

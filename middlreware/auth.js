@@ -1,9 +1,9 @@
 const jwt = require('jsonwebtoken')
-const { ConfigModel } = require('../servers/center/modules/models')
 const secret = require('../config/secret')
 const verify = jwt.verify
 const statusCode = require('../utils/status-code')
 const ignorePaths = require('./ignorePathRes')
+const { UserTokenController } = require("../servers/center/controllers/controllers.js")
 
 /**
  * 判断token是否可用
@@ -18,6 +18,12 @@ module.exports = function () {
         if (!token && url === "/") {
             ctx.response.status = 200;
             ctx.body = {status: "OK"}
+            return
+        }
+
+        // 如果日志服务的接口，也不校验登录
+        if ( !(url.indexOf("/wfLog") === -1)) {
+            await next();
             return
         }
 
@@ -54,11 +60,20 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
+            // if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
+            //     ctx.response.status = 401;
+            //     ctx.body = statusCode.ERROR_401("用户未登录");
+            //     return
+            // }
+            // 第一步判断数据库中是否有登录过的token, localhost不做内存里的登录态校验
+            const userTokenDetail = await UserTokenController.getUserTokenDetailByToken(token)
+            if (!userTokenDetail && ctx.header.host !== "localhost") {
+                ctx.response.status = 401;
+                ctx.body = statusCode.ERROR_401("用户未登录");
+                return
+            }
 
-            const tokenList = global.monitorInfo.tokenListInMemory
-            let loginName = ""
-
-            // 第一步，判断token是否合法
+            // 第二步，判断token是否合法
             await verify(token, secret.sign, async (err, decode) => {
                 if (err) {
                     ctx.response.status = 401;
@@ -66,37 +81,12 @@ module.exports = function () {
                     return
                 }
                 const { emailName, userId, userType, nickname, companyId } = decode
-                loginName = emailName
                 // 解密payload，获取用户名和ID
                 ctx.user = {
                     emailName, userId, userType, nickname, companyId
                 }
-            })
-
-            let tokenValid = false
-            // 第一步判断数据库中是否有登录过的token
-            if (tokenList[loginName]) {
-                tokenValid = false
-            } else {
-                tokenValid = true
-            }
-
-            // 如果内存的token无效，则去数据库验证
-            if (!tokenValid) {
-                const tokenInfo = await ConfigModel.getConfigByName(loginName)
-                if (tokenInfo) {
-                    tokenValid = true
-                } else {
-                    tokenValid = false
-                }
-            }
-
-            if (tokenValid === false) {
-                ctx.response.status = 401;
-                ctx.body = statusCode.ERROR_401("用户未登录");
-            } else {
                 await next();
-            }
+            })
         }
     }
 }

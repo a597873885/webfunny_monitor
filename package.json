@@ -1,29 +1,26 @@
 {
-  "name": "webfunny_monitor",
-  "version": "3.2.0",
-  "description": "这是webfunny的集群版",
+  "name": "webfunny_monitor_cluster",
+  "version": "0.0.1",
+  "description": "这是webfunny_cluster的安装包",
   "main": "app.js",
   "scripts": {
-    "bootstrap": "node ./webfunny_init/config.init.js && node ./webfunny_init/alarm.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
-    "start": "node webfunny.js",
+    "bootstrap": "node ./webfunny_init/alarm.init.js && node ./webfunny_init/config.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
     "publish": "node publish.js",
-    "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
-    "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
-    "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
-    "prd": "node ./webfunny_init/initResource.js && pm2 start webfunny.js && pm2 log webfunny",
-    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && npm run prd"
+    "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 log webfunny_cluster",
+    "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a597873885/webfunny_monitor"
+    "url": "git+https://github.com/a597873885/webfunny_monitor_cluster"
   },
   "author": "jeffery",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a597873885/webfunny_monitor/issues"
+    "url": "https://github.com/a597873885/webfunny_monitor_cluster/issues"
   },
-  "homepage": "https://github.com/a597873885/webfunny_monitor#readme",
+  "homepage": "https://github.com/a597873885/webfunny_monitor_cluster#readme",
   "dependencies": {
+    "@clickhouse/client": "^0.1.0",
     "amqplib": "^0.8.0",
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
@@ -54,7 +51,7 @@
     "koa-views": "^5.2.1",
     "koa-websocket": "^6.0.0",
     "koa2-cors": "^2.0.6",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.4",
     "lz-string": "^1.4.4",
     "mysql": "^2.15.0",
     "mysql2": "^2.1.0",
@@ -70,7 +67,8 @@
     "source-map": "^0.5.6",
     "transliteration": "^2.3.5",
     "util": "^0.11.0",
-    "webfunny-monitor": "^1.2.8"
+    "webfunny-monitor": "^1.2.8",
+    "webfunny-node-clickhouse": "^1.0.23"
   },
   "devDependencies": {
     "child_process": "^1.0.2",

@@ -14,8 +14,8 @@ if (localAssetsDomain.indexOf("http://") != -1 || localAssetsDomain.indexOf("htt
   return
 }
 
-if (localServerPort != "8009" || localAssetsPort != "8008") {
-  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8008、8009，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
+if (localServerPort != "8020" || localAssetsPort != "8021") {
+  console.log("\x1B[33m%s\x1b[0m", "您没有使用标准端口号8020、8021，请确认你已经了解了端口号的配置规则。随意更改端口号可能导致服务无法正常运行。")
 }
 
 /**
@@ -106,21 +106,21 @@ var exists = function( src, dst, callback ){
 
 var fs = require('fs');
 stat = fs.stat;
-delDir(__dirname + "/views/webfunny_center")
-fs.mkdir( __dirname + "/views/webfunny_center", function(err){
+delDir(__dirname + "/views/wf_center")
+fs.mkdir( __dirname + "/views/wf_center", function(err){
   if ( err ) { 
-    console.log("= 文件夹 /views/webfunny_center 已经存在")
+    console.log("= 文件夹 /views/wf_center 已经存在")
   } else {
-    console.log("= 创建文件夹 /views/webfunny_center")
+    console.log("= 创建文件夹 /views/wf_center")
   }
 });
 
 // 生成探针结束
-copy(__dirname + "/views/resource/", __dirname + "/views/webfunny_center")
-copy(__dirname + "/views/images/", __dirname + "/views/webfunny_center")
+copy(__dirname + "/views/resource/", __dirname + "/views/wf_center")
+copy(__dirname + "/views/images/", __dirname + "/views/wf_center")
 console.log("= 正在执行编译，请稍等...")
 setTimeout(function() {
-  let path = __dirname + '/views/webfunny_center/js';
+  let path = __dirname + '/views/wf_center/js';
   let files = fs.readdirSync(path);
   for(let i = 0; i < files.length; i++){
     // if ( !(files[i].indexOf(".js") >= 0 || files[i].indexOf(".html") >= 0) ) {
@@ -142,7 +142,7 @@ setTimeout(function() {
 }, 3000)
 
 setTimeout(function() {
-  let path = __dirname + '/views/webfunny_center';
+  let path = __dirname + '/views/wf_center';
   let files = fs.readdirSync(path);
   for(let i = 0; i < files.length; i++){
     if (files[i].indexOf(".html") >= 0) {

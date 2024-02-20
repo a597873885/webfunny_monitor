@@ -70,6 +70,7 @@ const UPLOAD_TYPE = {
     NEW_COUNT_DAY: "new_count_day",  // 一天的新访客数量
     PV_COUNT_DAY: "pv_count_day",  // 一天的PV数量
     IP_COUNT_DAY: "ip_count_day",  // 一天的IP数量
+    HEALTH_SCORE_DAY: "health_score_day",  // 一天的健康分
 
     DEVICE_COUNT_HOUR: "device_count_hour",  // 每小时的设备数量
     CITY_COUNT_HOUR: "city_count_hour",  // 每小时的城市数量
@@ -114,6 +115,31 @@ const UPLOAD_TYPE = {
 
 }
 
+// 流量数据类型
+const FLOW_TYPE = {
+    TOTAL_FLOW_COUNT: "total_flow_count", // 总流量
+    PV_FLOW_COUNT: "pv_flow_count", // PV流量
+    BEHAVIOR_FLOW_COUNT: "behavior_flow_count", // 行为流量
+    HTTP_FLOW_COUNT: "http_flow_count", // 接口流量(请求，返回，错误)
+    ERROR_FLOW_COUNT: "error_flow_count", // 错误流量(代码错误，静态资源错误)
+    PERF_FLOW_COUNT: "perf_flow_count", // 性能流量(页面加载)
+    OTHER_FLOW_COUNT: "other_flow_count", // 其他流量(自定义日志)
+}
+
+// 上报日志类型
+const UP_LOG_TYPE = {
+    CUSTOMER_PV: "CUSTOMER_PV", // PV
+    HTTP_LOG: "HTTP_LOG", // 接口请求
+    HTTP_ERROR: "HTTP_ERROR", // 接口报错
+    ELE_BEHAVIOR: "ELE_BEHAVIOR", // 行为事件
+    JS_ERROR: "JS_ERROR", // 代码错误
+    RESOURCE_LOAD: "RESOURCE_LOAD", // 静态资源错误
+    PAGE_LOAD: "PAGE_LOAD", // 页面加载信息
+    CUS_LEAVE: "CUS_LEAVE", // 用户跳出
+    STAY_TIME: "STAY_TIME", // 用户停留时间
+    CUSTOMIZE_BEHAVIOR: "CUSTOMIZE_BEHAVIOR", // 自定义日志
+}
+
 const PERF_KEYS = {
     PERF_SAMPLING_PV: "samplingPv",
     PERF_FIRST_BYTE: "firstByte",
@@ -138,7 +164,8 @@ const PROJECT_INFO = {
 }
 
 const CENTER_API = {
-    GET_USER_INFO: "/wfManage/getUserInfo",
+    GET_USER_INFO: "/wfCenter/getUserInfo",
+    CREATE_FLOW_DATA: "/wfCenter/createFlowData",
 }
 
 const PROJECT_CONFIG = JSON.stringify({
@@ -182,5 +209,7 @@ module.exports = {
     PROJECT_INFO,
     CENTER_API,
     PERF_KEYS,
-    PROJECT_CONFIG
+    PROJECT_CONFIG,
+    FLOW_TYPE,
+    UP_LOG_TYPE
 }

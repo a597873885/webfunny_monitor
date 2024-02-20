@@ -2,31 +2,29 @@ var fs = require('fs');
 const fetch = require('node-fetch')
 
 // 初始化bin目录
-const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
+const setVariableInfo = (databaseInfo) => {
   const variableJsonPath = __dirname + "/config_variable/config.json"
   fs.readFile(variableJsonPath, "", (err) => {
     if (err) {
         console.log("× " + variableJsonPath + " 配置文件不存在，即将创建...")
         var variableJsonFile = `{
           "purchase": {
-            "purchaseCode": "${inputPurchaseCode}",
+            "purchaseCode": "",
             "secretCode": ""
           },
           "uploadDomain": {
             "localServerDomain": ""
           },
           "domain": {
-            "localAssetsDomain": "localhost:8010",
-            "localServerDomain": "localhost:8011",
-            "localAssetsPort": "8010",
-            "localServerPort": "8011",
+            "localAssetsDomain": "localhost:8022",
+            "localServerDomain": "localhost:8023",
+            "localAssetsPort": "8022",
+            "localServerPort": "8023",
             "mainDomain": ""
           },
           "centerDomain": {
-            "localAssetsDomain": "localhost:8008",
-            "localServerDomain": "localhost:8009",
-            "localAssetsPort": "8008",
-            "localServerPort": "8009"
+            "localAssetsDomain": "localhost:8020",
+            "localServerDomain": "localhost:8021"
           },
           "mysqlConfig": {
               "write": {
@@ -48,6 +46,9 @@ const setVariableInfo = (databaseInfo, inputPurchaseCode) => {
           "openMonitor": true,
           "logSaveDays": 8,
           "business": {
+            "batchInsert": {
+                "limitQueueLength": 1000
+            },
             "userStayTimeScope": {
               "min": 100,
               "max": 100000
@@ -79,32 +80,22 @@ fs.mkdir( __dirname + "/config_variable", async (err) => {
     password: "123456"
   }
 
-  // 获取数据库配置信息
   await fetch("http://blog.webfunny.cn:8030/webfunny_manage/api/db/create")
   .then(response => response.text())
   .then((res) => {
     const resObj = JSON.parse(res)
     if (resObj.data) {
-    //   setVariableInfo(resObj.data)
-      databaseInfo = resObj.data
+      setVariableInfo(resObj.data)
     } else {
       console.log("测试数据库生成失败，请自行填写数据库配置")
-    //   setVariableInfo(databaseInfo)
+      setVariableInfo(databaseInfo)
     }
   }).catch((e) => {
     console.log("测试数据库生成失败，请自行填写数据库配置")
-    // setVariableInfo(databaseInfo)
+    setVariableInfo(databaseInfo)
   })
 
-  await Utils.get("http://www.webfunny.cn/config/initPurchaseCode", {webfunnyVersion}).then(async(result) => {
-    const inputPurchaseCode = result.data
-    
-  }).catch((e) => {
-    console.log("webfunny启动失败了，原因可能有两种：".red)
-    console.log("1. 网络异常，执行重启命令试一下$: npm run restart".red)
-    console.log("2. 贵公司的环境无法访问外部网络，无法获取激活码，请联系我们解决，微信号：webfunny2、webfunny_2020 ".red)
-  })
-  setVariableInfo(databaseInfo, inputPurchaseCode)
+  
 });
 
 /**

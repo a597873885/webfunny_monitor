@@ -6,4 +6,8 @@ module.exports = (router) => {
     router.get('/getTotalFlowData', FlowDataInfoByDayController.getTotalFlowData);
     // 获取流量趋势数据
     router.get('/getFlowTrendData', FlowDataInfoByDayController.getFlowTrendData);
+    // 获取流量列表数据
+    router.get('/getFlowTableListData', FlowDataInfoByDayController.getFlowTableListData);
+    // 获取流量列表数据
+    router.get('/getFlowListByCompanyIdAndProjectIds', FlowDataInfoByDayController.getFlowListByCompanyIdAndProjectIds);
 }

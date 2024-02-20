@@ -16,17 +16,15 @@ const setVariableInfo = (databaseInfo) => {
               "localServerDomain": ""
             },
             "domain": {
-              "localAssetsDomain": "localhost:8014",
-              "localServerDomain": "localhost:8015",
-              "localAssetsPort": "8014",
-              "localServerPort": "8015",
+              "localAssetsDomain": "localhost:8024",
+              "localServerDomain": "localhost:8025",
+              "localAssetsPort": "8024",
+              "localServerPort": "8025",
               "mainDomain": ""
             },
             "centerDomain": {
-              "localAssetsDomain": "localhost:8008",
-              "localServerDomain": "localhost:8009",
-              "localAssetsPort": "8008",
-              "localServerPort": "8009"
+              "localAssetsDomain": "localhost:8020",
+              "localServerDomain": "localhost:8021"
             },
             "mysqlConfig": {
                 "write": {
@@ -49,6 +47,9 @@ const setVariableInfo = (databaseInfo) => {
             "logSaveDays": 8,
             "isOpenTodayStatistic": true,
             "business": {
+              "batchInsert": {
+                "limitQueueLength": 1000
+              },
               "userStayTimeScope": {
                 "min": 100,
                 "max": 100000

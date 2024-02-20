@@ -1,5 +1,5 @@
 module.exports = [{
-	"cardId": 319,
+	"cardId": "3815a862-bd91-d23e-8df6-b4d9d6e92ea3",
 	"type": 6,
 	"cardName": "心跳次数",
 	"conversionCycle": 1,
@@ -105,7 +105,7 @@ module.exports = [{
 		"unit": "次"
 	}]
 }, {
-	"cardId": 322,
+	"cardId": "96c3ef51-c0ae-8a2b-9d25-e6489f0574c2",
 	"type": 6,
 	"cardName": "实时流量",
 	"conversionCycle": 1,
@@ -497,7 +497,7 @@ module.exports = [{
 		"calcType": "/"
 	}]
 }, {
-	"cardId": 331,
+	"cardId": "06b08527-7fa3-8962-b5eb-c5f946a849e9",
 	"type": 5,
 	"cardName": "注册漏斗图",
 	"conversionCycle": 1,
@@ -796,7 +796,7 @@ module.exports = [{
 		"calcTotailRate": 100
 	}]
 }, {
-	"cardId": 333,
+	"cardId": "c1cf7214-d292-9d62-eb21-d39c6175bc2c",
 	"type": 4,
 	"cardName": "页面访问量堆叠图",
 	"conversionCycle": 1,
@@ -1472,7 +1472,7 @@ module.exports = [{
 		"calcName": "/home6.html"
 	}]
 }, {
-	"cardId": 334,
+	"cardId": "546308c7-153f-26bd-e036-a64ddc63a30a",
 	"type": 4,
 	"cardName": "页面访问量占比",
 	"conversionCycle": 1,
@@ -2148,7 +2148,7 @@ module.exports = [{
 		"calcName": "/home6.html"
 	}]
 }, {
-	"cardId": 335,
+	"cardId": "01b4dabb-c52c-64ab-978b-c19627f42a76",
 	"type": 2,
 	"cardName": "每个页面访问人数",
 	"conversionCycle": 1,
@@ -2817,7 +2817,7 @@ module.exports = [{
 		"calcName": "关于"
 	}]
 }, {
-	"cardId": 336,
+	"cardId": "18383eb0-3004-a857-43f3-a8f437d1c330",
 	"type": 3,
 	"cardName": "注册人数、下单转化率",
 	"conversionCycle": 1,
@@ -3019,7 +3019,7 @@ module.exports = [{
 		"calcType": "/"
 	}]
 }, {
-	"cardId": 337,
+	"cardId": "533bf7ec-7ce0-007b-fcc6-7abfe1a9fa03",
 	"type": 1,
 	"cardName": "下单量",
 	"conversionCycle": 1,
@@ -3125,7 +3125,7 @@ module.exports = [{
 		"unit": "个"
 	}]
 }, {
-	"cardId": 338,
+	"cardId": "ba7763a6-5e39-94bd-091f-713731259ce8",
 	"type": 4,
 	"cardName": "页面访问量图表",
 	"conversionCycle": 1,

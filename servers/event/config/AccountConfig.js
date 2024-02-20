@@ -23,6 +23,7 @@ const accountInfo = {
 
     saveDays: otherConfig.logSaveDays,                       // 日志保存周期
     isOpenTodayStatistic: otherConfig.isOpenTodayStatistic,           //是否开启统计今天的数据（每小时分析一次，true：开启，false：不开启，默认开启）
+
     stayTimeScope: otherConfig.business.userStayTimeScope,                  // 用户停留时间范围
     batchInsert: otherConfig.business.batchInsert,
 

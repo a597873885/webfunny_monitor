@@ -1,0 +1,15 @@
+.DS_Store
+npm-debug.*
+package-lock.json
+node_modules
+dist
+*.swp
+*.swo
+.idea/
+.vscode/
+logs/
+api_wiki/
+varsion.js
+schema_temp/
+lib/upload*
+.eslintrc

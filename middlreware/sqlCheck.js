@@ -13,10 +13,7 @@ module.exports = function () {
         if ( url.indexOf("upLog") === -1 &&
             url.indexOf("upMyLog") === -1 &&
             url.indexOf("upDLog") === -1 &&
-            url.indexOf("upMog") === -1 &&
-            url.indexOf("upEvent") === -1 &&
-            url.indexOf("upEvents") === -1 &&
-            url.indexOf("upMyEvents") === -1) {
+            url.indexOf("upMog") === -1 ) {
             let goOnFlag = true
             const tempQuery = JSON.stringify(query).toLowerCase()
             const tempBody = JSON.stringify(body).toLowerCase()
@@ -29,7 +26,7 @@ module.exports = function () {
             })
             if (!goOnFlag) {
                 ctx.response.status = 413;
-                ctx.body = statusCode.ERROR_413(`请求参数包含不合法字段`);
+                ctx.body = statusCode.ERROR_413(`请求参数不合法`);
                 return
             }
         }

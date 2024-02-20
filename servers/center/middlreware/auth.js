@@ -48,7 +48,7 @@ module.exports = function () {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {
-            // if (global.monitorInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
+            // if (global.centerInfo.webfunnyTokenList.indexOf(token) === -1 && ctx.header.host !== "localhost") {
             //     ctx.response.status = 401;
             //     ctx.body = statusCode.ERROR_401("用户未登录");
             //     return

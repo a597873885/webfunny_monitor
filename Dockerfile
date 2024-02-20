@@ -7,6 +7,6 @@ RUN npm install
 RUN npm run bootstrap
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
-EXPOSE 8010
-EXPOSE 8011
+EXPOSE 9010
+EXPOSE 9011
 CMD npm run prd

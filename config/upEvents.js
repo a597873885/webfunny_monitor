@@ -34,7 +34,7 @@ module.exports = {
         body: JSON.stringify([{
           projectId,
           pointId: "209",
-          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
+          xiTongXinXi: "cluster-" + osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
           macdiZhi: macId, // Mac地址 | 类型：文本 | 长度：30 | 描述：服务器的mac地址
           banBenHao: version, // 版本号 | 类型：文本 | 长度：20 | 描述：从package.json文件中获取的版不能号
         }]),
@@ -51,7 +51,7 @@ module.exports = {
         body: JSON.stringify([{
           projectId,
           pointId: "210",
-          xiTongXinXi: osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
+          xiTongXinXi: "cluster-" + osInfo, // 系统信息 | 类型：文本 | 长度：100 | 描述：操作系统信息
           macdiZhi: macId, // Mac地址 | 类型：文本 | 长度：30 | 描述：服务器的mac地址
           banBenHao: version, // 版本号 | 类型：文本 | 长度：20 | 描述：从package.json文件中获取的版不能号
           xiTongYuMing: domainConfig.host.be, // 系统域名 | 类型：文本 | 长度：100 | 描述：启动时配置的域名

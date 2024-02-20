@@ -1,4 +1,4 @@
-const { DataTypes } = require("sequelize");
+const { DataTypes } = require("../node_clickhouse/consts");
 
 const PageLoadInfoByMinuteSchema = require('./pageLoadInfoByMinute')
 const PageLoadInfoByMinuteConfig = PageLoadInfoByMinuteSchema(DataTypes)
