@@ -129,7 +129,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                         monitorMasterUuidInDb = uuidRes[0].configValue
                     }
                 })
-                
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     // 检查警报规则是否出发
                     AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
@@ -171,7 +170,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
             // 如果是凌晨，则计算上一天的分析数据
             if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                console.log("第二天的分析判断开始：", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
+                // console.log("第二天的分析判断开始：", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
                 }
