@@ -4,7 +4,7 @@
   "description": "这是webfunny_cluster的安装包",
   "main": "app.js",
   "scripts": {
-    "bootstrap": "node ./webfunny_init/alarm.init.js && node ./webfunny_init/config.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
+    "bootstrap": "node ./webfunny_init/config.init.js && node ./webfunny_init/alarm.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
     "publish": "node publish.js",
     "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 log webfunny_cluster",
     "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd"
