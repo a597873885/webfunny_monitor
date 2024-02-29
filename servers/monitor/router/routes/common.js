@@ -5,6 +5,7 @@ module.exports = (router) => {
  router.post('/upLog', Common.upLog);
  router.post('/upLogs', Common.upLogs);
  router.get('/upLog', Common.upLogGet);
+ 
  // 用户上传自定义日志（h5）
  router.post('/upMyLog', Common.upMyLog);
  // 用户上传日志 (小程序)
@@ -13,6 +14,8 @@ module.exports = (router) => {
  router.post('/upDLog', Common.upDLog);
  // 上传拓展日志
  router.post('/uploadExtendLog', Common.uploadExtendLog);
+
+ router.post('/otel/trace', Common.trace);
 
  // 查询用户的行为列表
  router.post('/searchCustomerBehaviors', Common.searchBehaviorsRecord);
