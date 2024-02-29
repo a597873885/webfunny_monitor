@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const ConfigModel = require('../models/config')
+const ConfigModel = require('../modules/config')
 const secret = require('../config/secret')
 const Utils = require('../util/utils')
 const verify = jwt.verify

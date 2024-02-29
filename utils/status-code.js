@@ -1,8 +1,9 @@
 const statusCode = {
-    ERROR_500: (msg) => {
+    ERROR_500: (msg, data) => {
         return {
             code: 500,
-            msg
+            msg,
+            data
         }
     },
     ERROR_401: (msg) => {

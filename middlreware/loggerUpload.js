@@ -1,5 +1,7 @@
 const fetch = require('node-fetch')
 const Utils = require('../utils/utils')
+const WebfunnyConfig = require("../webfunny.config")
+const { domainConfig } = WebfunnyConfig
 module.exports = ({projectId = "webfunny_log_123", userId = Utils.getMac(), error = {message: "", stack: ""}, url = "", traceId = ""}) => {
   let message = ""
   let stack = ""
@@ -14,7 +16,7 @@ module.exports = ({projectId = "webfunny_log_123", userId = Utils.getMac(), erro
     console.log(e)
   }
   const { version } = Utils.getJsonData()
-  fetch("https://cloud.webfunny.com/wfLog/upLogs",
+  fetch(`http://${domainConfig.host.be}/wfLog/upLogs`,
   {
       method: "POST", 
       body: JSON.stringify([{

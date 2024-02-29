@@ -10,6 +10,12 @@ const Utils = require("../utils/utils")
 module.exports = function () {
     return async function (ctx, next) {
         const { url, query } = ctx
+        // 如果是上报接口，则直接过滤
+        if (url.indexOf("wfLog/upLogs") !== -1) {
+          await next();
+          return
+        }
+
         const { body } = ctx.request
         const wfTraceId = ctx.header['wf-t'] || Utils.getUuid()  // 获取traceId
         

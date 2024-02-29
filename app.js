@@ -4,7 +4,7 @@ const bodyParser = require('koa-bodyparser')
 const centerRoute = require('./servers/center/router')
 const monitorRoute = require('./servers/monitor/router')
 const eventRoute = require('./servers/event/router')
-// const loggerRoute = require('./servers/logger/router')
+const loggerRoute = require('./servers/logger/router')
 const log = require("./config/log")
 const statusCode = require('./utils/status-code')
 const auth = require('./middlreware/auth')
@@ -39,7 +39,7 @@ app.use(bodyParser({
 }))
 
 // 防sql注入
-// app.use(sqlCheck())
+app.use(sqlCheck())
 
 // 缓存数据拦截
 app.use(cacheData())
@@ -50,23 +50,24 @@ app.use(logger())
 app.use(async (ctx, next) => {
     const start = new Date()
     let ms = 0
-    try {
-        await next();
-        ms = new Date() - start
-    } catch (error) {
-        //记录异常日志
-        console.log(error)
-        log.error(ctx, error, ms);
-        ctx.response.status = 500;
-        ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
-    }
+    await next();
+    // try {
+    //     await next();
+    //     ms = new Date() - start
+    // } catch (error) {
+    //     //记录异常日志
+    //     console.log(error)
+    //     log.error(ctx, error, ms);
+    //     ctx.response.status = 500;
+    //     ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
+    // }
 })
 
 // routes
 app.use(centerRoute.routes(), centerRoute.allowedMethods())
 app.use(monitorRoute.routes(), monitorRoute.allowedMethods())
 app.use(eventRoute.routes(), eventRoute.allowedMethods())
-// app.use(loggerRoute.routes(), loggerRoute.allowedMethods())
+app.use(loggerRoute.routes(), loggerRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
