@@ -2,18 +2,24 @@
  * 判断判断是否有sql注入逻辑
  */
 const statusCode = require('../utils/status-code')
-const dangerParams = [";", "'", "<", ">", "(", ")", "update ",
-                    "select ", "union ", "and ", "or ", "from ", "insert ",
-                    "delete ", "database ", "drop ", "truncate ", "create ", "like "]
+const dangerParams = [//";", "'", "<", ">", "(", ")", 
+                    " select ", " union ", " and ", " or ", " from ", " insert ", " update ",
+                    " delete ", " database ", " drop ", " truncate ", " create ", " like "]
 module.exports = function () {
     return async function (ctx, next) {
         const { url, query } = ctx
         const { body } = ctx.request
         // 过滤掉一些接口
-        if ( url.indexOf("upLog") === -1 &&
+        if ( 
+            url.indexOf("/wfLog/") === -1 &&
+            url.indexOf("upLog") === -1 &&
+            url.indexOf("upLogs") === -1 &&
             url.indexOf("upMyLog") === -1 &&
             url.indexOf("upDLog") === -1 &&
-            url.indexOf("upMog") === -1 ) {
+            url.indexOf("upMog") === -1 &&
+            url.indexOf("upEvent") === -1 &&
+            url.indexOf("upEvents") === -1
+            ) {
             let goOnFlag = true
             const tempQuery = JSON.stringify(query).toLowerCase()
             const tempBody = JSON.stringify(body).toLowerCase()

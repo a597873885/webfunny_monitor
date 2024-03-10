@@ -2,9 +2,9 @@
  * 判断判断是否有sql注入逻辑
  */
 const statusCode = require('../util/status-code')
-const dangerParams = [";", "'", "<", ">", "(", ")", "update ",
-                    "select ", "union ", "and ", "or ", "from ", "insert ",
-                    "delete ", "database ", "drop ", "truncate ", "create ", "like "]
+const dangerParams = [" update ",
+                    " select ", " union ", " and ", " or ", " from ", " insert ",
+                    " delete ", " database ", " drop ", " truncate ", " create ", " like "]
 module.exports = function () {
     return async function (ctx, next) {
         const { url, query } = ctx

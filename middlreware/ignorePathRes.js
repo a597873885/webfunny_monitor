@@ -3,8 +3,8 @@ module.exports = [
     "/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register",
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
-    "/projectSimpleListByWebmonitorIds", "/addViewers", "/otel/trace",
-    "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource", "/otel/trace",
+    "/projectSimpleListByWebmonitorIds", "/addViewers", "/otel/trace", "/project/list/all",
+    "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource", 
     
     // center
     "/hasSuperAdminAccount", "/getValidateCode", "/refreshValidateCode", "/login", "/register",
