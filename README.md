@@ -20,7 +20,7 @@ Webfunny招聘兼职和外协岗位
 1. 有1 ~ 3年或以上的工作经验
 2. 有较稳定的业余时间
 
-联系方式： 微信号（webfunny2）、邮箱（webfunny@163.com）
+联系方式： 微信号（webfunny_2020）、邮箱（webfunny@163.com）
 
 #### [Webfunny前端监控系统](https://www.webfunny.cn/webfunnyMonitor) 
 实时大屏、运营数据分析、前端错误分析、页面性能分析、接口性能分析、用户细查、用户连线。
