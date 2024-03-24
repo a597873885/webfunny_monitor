@@ -33,12 +33,6 @@ const Columns = {
       allowNull: true,
       field: 'showName'
     },
-    // 日志类型
-    infoType: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      field: 'infoType'
-    },
     // 每天的数量
     dayCount: {
       type: DataTypes.FLOAT(32),
