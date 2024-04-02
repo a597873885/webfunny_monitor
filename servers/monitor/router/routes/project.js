@@ -22,6 +22,8 @@ module.exports = (router) => {
   router.get('/project/updateMonitorCode', ProjectController.updateMonitorCode);
   // 获取所有应用列表
   router.get('/project/list/all', ProjectController.getAllProjectList);
+  // 获取公司下所有应用列表
+  router.get('/getAllProjectWithCompanyId', ProjectController.getAllProjectWithCompanyId);
   // 根据公司ID, 获取所有应用列表, 健康分排序
   router.get('/getAllProjectListByCompanyId', ProjectController.getAllProjectListByCompanyId);
   // 获取所有应用列表详情
