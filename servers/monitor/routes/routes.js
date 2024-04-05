@@ -154,6 +154,8 @@ const createRoutes = (router) => {
     router.post('/setWebHook', ProjectController.setWebHook);
     // 设置观察者
     router.post('/addViewers', ProjectController.addViewers);
+    // 更新项目名称
+    router.post('/saveNewProjectName', ProjectController.saveNewProjectName);
     /**
      * 用户访问信息接口
      */
