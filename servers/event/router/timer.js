@@ -155,12 +155,12 @@ module.exports = async () => {
                 }
             
                 // 每个小时的最后一秒执行
-                if (minuteTimeStr == "59:00") {
-                    const dayName = tempDate.Format("yyyy-MM-dd")
-                    const hourName = tempDate.Format("yyyy-MM-dd hh")
-                    // 每分钟更新流量信息
-                    TimerCalculateController.saveFlowDataByHour(dayName, hourName)
-                }
+                // if (minuteTimeStr == "59:00") {
+                //     const dayName = tempDate.Format("yyyy-MM-dd")
+                //     const hourName = tempDate.Format("yyyy-MM-dd hh")
+                //     // 每分钟更新流量信息
+                //     TimerCalculateController.saveFlowDataByHour(dayName, hourName)
+                // }
 
             } catch(e) {
                 log.printError("定时器执行报错：", e)

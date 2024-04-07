@@ -56,7 +56,7 @@ module.exports = function () {
             return
         }
 
-        if (isIgnore) {
+        if (isIgnore || ctx.header.host.indexOf("127.0.0.1") !== -1) {
             // 如果是接口上报，则忽略登录状态判断
             await next();
         } else {

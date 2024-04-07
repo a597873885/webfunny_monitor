@@ -96,6 +96,8 @@ module.exports = (router) => {
   */
  // 获取应用项目的基础信息
  router.post('/monitorBaseInfo', Common.monitorBaseInfo);
+ // 获取某一天所有项目的日志总量
+ router.post('/getLogCountInfoByDay', Common.getLogCountInfoByDay);
 
  /**
   * Docker 心跳检测

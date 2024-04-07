@@ -5,6 +5,8 @@ module.exports = (router) => {
   router.get('/getSysInfo', Common.getSysInfo);
   // 获服务并发日志量
   router.post('/getConcurrencyByMinuteInHour', Common.getConcurrencyByMinuteInHour);
+  // 获取某一天所有项目的日志总量
+  router.post('/getLogCountInfoByDay', Common.getLogCountInfoByDay);
   /**
      * Docker 心跳检测
      */
