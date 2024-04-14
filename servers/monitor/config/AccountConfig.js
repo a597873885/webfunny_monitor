@@ -3,6 +3,8 @@ const { domainConfig, licenseConfig, mysqlConfig, otherConfig } = WebfunnyConfig
 
 
 const accountInfo = {
+    isCloud: otherConfig.isCloud,              // 云服务模式
+
     uploadServerDomain: domainConfig.uploadDomain.monitor, // 上报域名
     
     localServerDomain: domainConfig.host.be,   // 监控系统后端服务域名 

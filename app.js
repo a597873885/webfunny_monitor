@@ -14,6 +14,13 @@ const logger = require('./middlreware/logger')
 const loggerUpload = require('./middlreware/loggerUpload')
 const app = new Koa()
 
+// import skAgent from 'skywalking-backend-js'
+// skAgent.start({
+//     serviceName: 'Webfunny服务端',
+//     serviceInstance: 'webfunny_server_instance_name',
+//     collectorAddress: '61.132.92.90:11800',
+// });
+
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")

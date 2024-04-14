@@ -47,6 +47,8 @@ const DANGER_SQL_PARAMS = [";", "'", "<", ">", "update ",
                     "select ", "union ", "and ", "or ", "from ", "insert ",
                     "delete ", "database ", "drop ", "truncate ", "create ", "like "]
 
+const LOCAL_SERVER = 'http://127.0.0.1:9011'
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
@@ -54,5 +56,6 @@ module.exports = {
     MANAGE_API,
     CENTER_API,
     FLOW_TYPE,
-    DANGER_SQL_PARAMS
+    DANGER_SQL_PARAMS,
+    LOCAL_SERVER
 }

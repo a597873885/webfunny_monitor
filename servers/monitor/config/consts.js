@@ -168,6 +168,8 @@ const CENTER_API = {
     CREATE_FLOW_DATA: "/wfCenter/createFlowData",
 }
 
+const LOCAL_SERVER = 'http://127.0.0.1:9011'
+
 const PROJECT_CONFIG = JSON.stringify({
     s: true,
     ia: [""], // 停止所有的监控
@@ -211,5 +213,6 @@ module.exports = {
     PERF_KEYS,
     PROJECT_CONFIG,
     FLOW_TYPE,
-    UP_LOG_TYPE
+    UP_LOG_TYPE,
+    LOCAL_SERVER
 }

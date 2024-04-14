@@ -37,6 +37,8 @@ const START_YEAR = 2023
 
 const PRODUCT_INFO_URI = '139.224.102.107:8030'
 
+const LOCAL_SERVER = 'http://127.0.0.1:9011'
+
 module.exports = {
     FLOW_TYPE,
     USER_INFO,
@@ -44,5 +46,6 @@ module.exports = {
     PROJECT_API,
     WEBFUNNY_CONFIG_URI,
     START_YEAR,
-    PRODUCT_INFO_URI
+    PRODUCT_INFO_URI,
+    LOCAL_SERVER
 }

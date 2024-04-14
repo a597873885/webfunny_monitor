@@ -7,6 +7,8 @@ const timerTask = require("./timer");
 const Config = new NodeClickHouse("../schema/config")
 
 global.monitorInfo = {
+    invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
+
     purchaseCodeProjectCount: 3,
     registerEmailCode: {},
     registerEmailCodeCheckError: {},

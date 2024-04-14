@@ -7,6 +7,8 @@ const Config = new NodeClickHouse("../schema/config")
 
 
 global.eventInfo = {
+    invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
+    
     purchaseCodeCardCount: 10,
     webfunnyTokenList: [],
     registerEmailCode: {},

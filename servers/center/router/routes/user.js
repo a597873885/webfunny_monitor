@@ -41,6 +41,8 @@ module.exports = (router) => {
     router.get('/registerForSaas', UserController.registerForSaas);
     // 注册用户API
     router.post('/registerForApi', UserController.registerForApi);
+    // 注册用户API
+    router.post('/registerForSaasWithWebsite', UserController.registerForSaasWithWebsite);
     // 重置密码
     router.get('/resetPwd', UserController.resetPwd);
     // 激活用户

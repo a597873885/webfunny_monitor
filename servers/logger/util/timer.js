@@ -1,5 +1,6 @@
 /** 定时器逻辑 */
-const log = require("../config/log");
+// const log = require("../config/log");
+const log = require("../../../config/log");
 module.exports = (callback) => {
   const startTime = new Date().getTime();
   let count = 0;

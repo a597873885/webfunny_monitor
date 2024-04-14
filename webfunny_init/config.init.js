@@ -104,6 +104,7 @@ const mysqlConfig = {
 * 配置更改后，需重启
 */
 const otherConfig = {
+  isCloud: false,            // 云服务模式
   "email": {
     "useCusEmailSys": false, // 是否使用用户自己公司的邮箱系统
     "emailUser": "",         // 邮箱

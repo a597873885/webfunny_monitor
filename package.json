@@ -6,7 +6,7 @@
   "scripts": {
     "bootstrap": "node ./webfunny_init/config.init.js && node ./webfunny_init/alarm.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
     "publish": "node publish.js",
-    "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 log webfunny_cluster",
+    "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js --interpreter babel-node && pm2 log webfunny_cluster",
     "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd"
   },
   "repository": {
@@ -72,11 +72,15 @@
     "webfunny-node-clickhouse": "^1.0.23"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.8",
     "child_process": "^1.0.2",
     "copy-dir": "^1.3.0",
     "fs": "0.0.1-security",
     "nodemon": "^2.0.15",
     "single-line-log": "^1.1.2",
+    "skywalking-backend-js": "^0.7.0",
     "uglify-js": "^3.6.0",
     "util": "^0.11.0"
   }

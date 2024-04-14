@@ -1,7 +1,7 @@
 // const Common = require('../controllers/common')
 const { Common } = require("../controllers/controllers")
 const TimerUtil = require("../util/timer")
-const log = require("../config/log");
+// const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, localAssetsDomain } = AccountConfig
 const masterUuidKey = "monitor-master-uuid"

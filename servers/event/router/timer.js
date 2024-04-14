@@ -49,6 +49,11 @@ module.exports = async () => {
             });
         }, 5000)
 
+        setTimeout(() => {
+            // 更新流量上限信息
+            TimerCalculateController.checkLimitForCloud()
+        }, 25 * 1000)
+
         // 创建系统模板和系统项目
         WeHandleDataController.createWeTemplateData().catch((e)=>{
             log.printError("创建系统模板和系统项目",e)
@@ -67,6 +72,11 @@ module.exports = async () => {
             const hourTimeStr = tempDate.Format("hh:mm:ss")
             const minuteTimeStr = tempDate.Format("mm:ss")
             try {
+                // 每隔10分钟，判断是否流量已达上限
+                if (minuteTimeStr.substring(1) == "0:00") {
+                    TimerCalculateController.checkLimitForCloud()
+                }
+
                 // 每隔1分钟执行
                 if (minuteTimeStr.substring(3) == "00") {
                     ConfigController.getConfig(masterUuidKey).then((uuidRes) => {

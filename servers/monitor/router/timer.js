@@ -23,10 +23,14 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         setTimeout(() => {
             console.log("启动监控项目列表：", JSON.stringify(global.monitorInfo.cacheWebMonitorIdList))
         }, 10000)
-        
         // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
         // Common.setStopWebMonitorIdList()
     }, 3000)
+
+    setTimeout(() => {
+        // 更新流量上限信息
+        TimerCalculateController.checkLimitForCloud()
+    }, 25 * 1000)
     /**
      * 2秒后开始进行第一次分析
      * */
@@ -96,7 +100,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             const hourTimeStr = dateTime.Format("hh:mm:ss")
             const minuteTimeStr = dateTime.Format("mm:ss")
 
-            // console.log("监控定时器：" + hourTimeStr)
+            // 每隔10分钟，判断是否流量已达上限
+            if (minuteTimeStr.substring(1) == "0:00") {
+                TimerCalculateController.checkLimitForCloud()
+            }
 
             // 每隔10秒钟，取日志队列里的日志，执行入库操作
             if (minuteTimeStr.substring(4) == "0") {

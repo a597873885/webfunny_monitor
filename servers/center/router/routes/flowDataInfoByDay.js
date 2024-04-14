@@ -10,4 +10,6 @@ module.exports = (router) => {
     router.get('/getFlowTableListData', FlowDataInfoByDayController.getFlowTableListData);
     // 获取流量列表数据
     router.get('/getFlowListByCompanyIdAndProjectIds', FlowDataInfoByDayController.getFlowListByCompanyIdAndProjectIds);
+    // 获取流量耗尽的公司id
+    router.get('/getLimitCompanyIdForCloud', FlowDataInfoByDayController.getLimitCompanyIdForCloud);
 }
