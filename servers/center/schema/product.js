@@ -40,6 +40,12 @@ const Product = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'maxFlowCount'
     },
+    // 项目个数
+    projectCount: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'projectCount'
+    },
     // 月份  2023-07
     month: {
       type: DataTypes.STRING(15),

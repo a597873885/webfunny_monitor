@@ -23,7 +23,7 @@ const macId = Utils.getMac()
 const version = packageConf.version
 
 const projectId = "event1029"
-const upEventUrl = "https://monitor.webfunny.cn/tracker/upEvents"
+const upEventUrl = "https://cloud.webfunny.com/wfEvent/upEvents"
 // const upEventUrl = "http://localhost:9011/wfEvent/upEvent"
 module.exports = {
   bootstrap: () => {
