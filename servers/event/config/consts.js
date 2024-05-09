@@ -43,11 +43,46 @@ const FLOW_TYPE = {
 }
 
 // 防注入参数
-const DANGER_SQL_PARAMS = [";", "'", "<", ">", "update ",
-                    "select ", "union ", "and ", "or ", "from ", "insert ",
-                    "delete ", "database ", "drop ", "truncate ", "create ", "like "]
+const DANGER_SQL_PARAMS = ["update ", "select ", "union ", "and ", "or ", "from ", "insert ",
+    "delete ", "database ", "drop ", "truncate ", "create ", "like "]
 
-const LOCAL_SERVER = 'http://127.0.0.1:9011'
+//留存日期格式
+const KEEP_TIME_FORMAT_TYPE = {
+    FOUR_ITEMS: ["当日","次日","第7日","第30日"], // 
+    SECOND_ITEMS: ["当日","次日"], //
+    SEVEN_ITEMS: ["当日","次日","第2日","第3日","第4日","第5日","第6日","第7日"], //
+    THIRTY_ITEMS: ["当日","次日,第2日,第3日,第4日,第5日,第6日,第7日",
+    "第8日","第9日","第10日","第11日","第12日","第13日","第14日",
+    "第15日","第16日","第17日","第18日","第19日","第20日","第21日","第22日"
+    ,"第23日","第24日","第25日","第26日","第27日","第28日","第29日","第30日"] //
+}
+//流水日期格式
+const LOSS_TIME_FORMAT_TYPE = {
+    FOUR_ITEMS: ["次日","第7日","第30日"], // 
+    SECOND_ITEMS: ["次日"], //
+    SEVEN_ITEMS: ["次日","第2日","第3日","第4日","第5日","第6日","第7日"], //
+    THIRTY_ITEMS: ["次日,第2日,第3日,第4日,第5日,第6日,第7日",
+    "第8日","第9日","第10日","第11日","第12日","第13日","第14日",
+    "第15日","第16日","第17日","第18日","第19日","第20日","第21日","第22日"
+    ,"第23日","第24日","第25日","第26日","第27日","第28日","第29日","第30日"]
+}
+
+// 留存计算的日期列表
+const RETENTION_CALC_INFO = {
+    defaultFourItems: [0, 1, 7, 30],
+    secondItems: [0, 1],
+    sevenItems: [0, 1, 2, 3, 4, 5, 6, 7],
+    thirtyItems: [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+        10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        30
+    ],
+}
+// 留存计算的日期列表
+const WEEK_NAME = ['日', '一', '二', '三', '四', '五', '六']
+
+const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.centerServerPort}`
 
 module.exports = {
     UPLOAD_TYPE,
@@ -57,5 +92,7 @@ module.exports = {
     CENTER_API,
     FLOW_TYPE,
     DANGER_SQL_PARAMS,
-    LOCAL_SERVER
+    LOCAL_SERVER,
+    RETENTION_CALC_INFO,
+    WEEK_NAME
 }

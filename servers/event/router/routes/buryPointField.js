@@ -16,4 +16,5 @@ module.exports = (router) => {
     router.get('/buryPointField/AllList', BuryPointFieldController.getAllList);
     router.post('/buryPointField/fieldExport', BuryPointFieldController.exportField);
     router.post('/buryPointField/getFieldCount', BuryPointFieldController.getFieldCount);
+    router.post('/buryPointField/getCommonFieldList', BuryPointFieldController.getCommonFieldList);
 }

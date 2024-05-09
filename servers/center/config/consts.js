@@ -1,3 +1,4 @@
+const { accountInfo } = require("../config/AccountConfig")
 // 流量数据类型
 const FLOW_TYPE = {
     TOTAL_FLOW_COUNT: "total_flow_count", // 总流量
@@ -20,24 +21,24 @@ const PROJECT_INFO = {
 }
 
 const PROJECT_API = {
-    MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: "/server/projectSimpleListByWebmonitorIds",
-    MONITOR_ADD_VIEWERS: "/server/addViewers",
-    MONITOR_BASE_INFO: "/server/monitorBaseInfo",
-    FORBIDDEN_PROJECT: "/server/forbiddenProject",
-    DELETE_PROJECT: "/server/deleteProject",
+    MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.MONITOR_PUBLISH_PREFIX}/projectSimpleListByWebmonitorIds`,
+    MONITOR_ADD_VIEWERS: `${global.MONITOR_PUBLISH_PREFIX}/addViewers`,
+    MONITOR_BASE_INFO: `${global.MONITOR_PUBLISH_PREFIX}/monitorBaseInfo`,
+    FORBIDDEN_PROJECT: `${global.MONITOR_PUBLISH_PREFIX}/forbiddenProject`,
+    DELETE_PROJECT: `${global.MONITOR_PUBLISH_PREFIX}/deleteProject`,
 
-    EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: "/tracker/buryPointProject/projectSimpleListByWebmonitorIds",
-    EVENT_ADD_VIEWERS: "/tracker/buryPointProject/addViewers",
+    EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/projectSimpleListByWebmonitorIds`,
+    EVENT_ADD_VIEWERS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/addViewers`,
 
     SAAS_PRODUCT_INFO: "/webfunny_manage/api/productInfo/get",
 }
 const WEBFUNNY_CONFIG_URI = "http://www.webfunny.cn"
 
-const START_YEAR = 2023
+const START_YEAR = 2024
 
 const PRODUCT_INFO_URI = '139.224.102.107:8030'
 
-const LOCAL_SERVER = 'http://127.0.0.1:9011'
+const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.localServerPort}`
 
 module.exports = {
     FLOW_TYPE,

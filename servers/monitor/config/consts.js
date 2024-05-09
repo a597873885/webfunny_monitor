@@ -1,3 +1,4 @@
+const { accountInfo } = require("../config/AccountConfig")
 const UPLOAD_TYPE = {
     ON_ERROR: "on_error",
     CONSOLE_ERROR: "console_error",
@@ -168,7 +169,7 @@ const CENTER_API = {
     CREATE_FLOW_DATA: "/wfCenter/createFlowData",
 }
 
-const LOCAL_SERVER = 'http://127.0.0.1:9011'
+const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.centerServerPort}`
 
 const PROJECT_CONFIG = JSON.stringify({
     s: true,

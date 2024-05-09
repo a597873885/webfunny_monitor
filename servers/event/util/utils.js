@@ -469,6 +469,26 @@ const Utils = {
     }
     return temp;
   },
+  /**
+   * 时间按照每天每隔切分，返回时间list
+   * 开始时间：startDate
+   * 结束时间：endDate
+   * 分钟：amount
+   * 返回：['2024-04-14','2024-04-15']
+   */
+  splitYMDDate(startDate, endDate) {
+    var startTime = new Date(startDate),
+     endTime = new Date(endDate);
+    var difftime = (endTime - startTime)/1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+    var temp = [];
+    for (var i = 0; i < days; i++) {
+      startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
+      temp[i] = new Date(startTime.getTime());
+      temp[i] = temp[i].Format("yyyy-MM-dd")  //分割天
+    }
+    return temp;
+  },
 /**
  * 时间按照每天每隔切分，返回时间倒序list
  * 开始时间：startDate
@@ -755,7 +775,9 @@ convertOperationSql(fieldName, rule, valueStr) {
     return fieldName;
   },
   // 获取双协议结果
-  async requestForTwoProtocol(method = "post", url, param) {
+  async requestForTwoProtocol(method = "post", originUrl, param) {
+    // 先将url中的协议去掉
+    const url = originUrl.replace("https://", "").replace("http://", "")
     const methodName = method === "post" ? "postJson" : ""
     
     if (accountInfo.protocol) {

@@ -15,6 +15,7 @@ module.exports = (router) => {
   router.post('/buryPointCard/sort', BuryPointCardController.sort);
   router.post('/buryPointCard/order', BuryPointCardController.order);
   router.post('/buryPointCard/refresh', BuryPointCardController.refresh);
+  router.post('/buryPointCard/getTempBuryPointCardList', BuryPointCardController.getTempBuryPointCardList);
   router.post('/buryPointCard/groupByQuery', BuryPointCardController.groupByQuery);
   router.get('/buryPointCard/export', BuryPointCardController.export);
   router.get('/buryPointCard/tableDisplay', BuryPointCardController.tableDisplay);
@@ -23,4 +24,5 @@ module.exports = (router) => {
   router.post('/buryPointCard/getPageWidthList', BuryPointCardController.getPageWidthList);
   router.post('/buryPointCard/getHeatMapPerData', BuryPointCardController.getHeatMapPerStatisticData);
   router.post('/buryPointCard/getHeatMapValueTimeSlotData', BuryPointCardController.getHeatMapValueTimeSlotStatisticData);
+  router.post('/buryPointCard/getFunnelEveryDay', BuryPointCardController.getFunnelEveryDayStatisticList);
 }

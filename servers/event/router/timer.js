@@ -1,4 +1,4 @@
-const { Common, CommonInitDataController,SdkReleaseController, TimerStatisticController, WeHandleDataController, ConfigController, TimerCalculateController } = require("../controllers/controllers")
+const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, TimerStatisticController, WeHandleDataController, ConfigController, TimerCalculateController } = require("../controllers/controllers")
 const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, mysqlConfig } = AccountConfig
@@ -51,7 +51,7 @@ module.exports = async () => {
 
         setTimeout(() => {
             // 更新流量上限信息
-            TimerCalculateController.checkLimitForCloud()
+            // TimerCalculateController.checkLimitForCloud()
         }, 25 * 1000)
 
         // 创建系统模板和系统项目
@@ -159,7 +159,7 @@ module.exports = async () => {
                 // 每隔10秒钟，取日志队列里的日志，执行入库操作
                 if (minuteTimeStr.substring(4) == "0") {
                     // 取日志队列批量插入
-                    Common.handleLogInfoQueue()
+                    CommonUpLog.handleLogInfoQueue()
                     // 更新内存中的token
                     ConfigController.refreshTokenList()
                 }

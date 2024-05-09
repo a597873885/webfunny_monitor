@@ -35,6 +35,8 @@ module.exports = (router) => {
     // 管理员注册接口
     router.post('/registerForAdmin', UserController.registerForAdmin);
     
+    // 管理员创建账号
+    router.post('/addNewCustomer', UserController.addNewCustomer);
     // 注册用户
     router.get('/register', UserController.register);
     // 注册用户(saas)
