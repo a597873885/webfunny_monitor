@@ -115,7 +115,7 @@ const otherConfig = {
   "messageQueue": false,     // 是否开启消息队列
   "openMonitor": true,       // 是否开启可视化页面的监控
   "uploadServerErrorToWebfunny": true, // 是否上报后端错误日志至logger服务（推荐开启，便于排查问题）
-  "logSaveDays": 8,          // 日志存储周期
+  "logSaveDays": 366,          // 日志存储周期
   "isOpenTodayStatistic": true, // 
   "business": {
     "batchInsert": {

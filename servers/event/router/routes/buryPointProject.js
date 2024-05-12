@@ -27,4 +27,7 @@ module.exports = (router) => {
   router.post('/openFlowSwitch', BuryPointProjectController.openFlowSwitch)
   // 关闭服务器流量插入（关闭流量，却不会关闭上报，上报也需要消耗流量的钱，需要优化成探针侧关闭上报）
   router.post('/closeFlowSwitch', BuryPointProjectController.closeFlowSwitch)
+
+  // 设置日志保存时间
+  router.post('/buryPointProject/resetSaveDays', BuryPointProjectController.resetSaveDays);
 }

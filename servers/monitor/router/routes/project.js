@@ -72,4 +72,6 @@ module.exports = (router) => {
   router.post('/addViewers', ProjectController.addViewers);
   // 更改项目名称
   router.post('/saveNewProjectName', ProjectController.saveNewProjectName);
+  // 设置日志保存时间
+  router.post('/project/resetSaveDays', ProjectController.resetSaveDays);
 }

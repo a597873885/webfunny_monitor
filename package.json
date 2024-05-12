@@ -69,7 +69,7 @@
     "transliteration": "^2.3.5",
     "util": "^0.11.0",
     "webfunny-monitor": "^1.2.8",
-    "webfunny-node-clickhouse": "^1.0.23"
+    "webfunny-node-clickhouse": "^1.0.24"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
