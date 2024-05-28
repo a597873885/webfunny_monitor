@@ -66,4 +66,5 @@ module.exports = (router) => {
  router.post('/getInitErrorInfoInRealTimeByTimeSize', CustomerPVController.getInitErrorInfoInRealTimeByTimeSize);
 
  router.post('/getAccessCalendar', CustomerPVController.getAccessCalendar);
+ router.post('/getFootPrints', CustomerPVController.getFootPrints);
 }

@@ -54,6 +54,8 @@ module.exports = (router) => {
   router.post('/getProjectHealthByScore', ProjectController.getProjectHealthByScore)
   // 保存项目配置
   router.post('/saveProjectConfig', ProjectController.saveProjectConfig)
+  // 保存项目SDK配置
+  router.post('/saveProjectSdkConfig', ProjectController.saveProjectSdkConfig)
   // 查询项目流量开启状态
   router.post('/getFlowSwitch', ProjectController.getFlowSwitch)
   // 开启服务器流量插入

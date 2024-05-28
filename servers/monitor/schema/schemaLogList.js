@@ -9,6 +9,7 @@ module.exports = [
     "../schema/HttpLogReqInfo",
     "../schema/javascriptErrorInfo",
     "../schema/pageLoadInfo",
+    "../schema/screenShotInfo",
     "../schema/pageLoadInfoByMinute",
     "../schema/resourceLoadInfo",
     "../schema/infoCountByDay",

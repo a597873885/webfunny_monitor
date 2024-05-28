@@ -177,7 +177,6 @@ const run = async () => {
     const resObj = JSON.parse(res)
     if (resObj.data) {
       const dbArr = resObj.data
-      console.log(dbArr)
       dbArr.forEach((item) => {
         if (item.type === 1) {
           databaseInfo = item

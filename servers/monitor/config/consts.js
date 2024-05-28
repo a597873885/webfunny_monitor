@@ -203,6 +203,12 @@ const PROJECT_CONFIG = JSON.stringify({
     sc: {
         r: 100,  // 采样率
         c: 3     // 生效周期（单位：天）
+    },
+    whiteS: {
+        s: false,   // 是否开启白屏截图
+        sureW: 10,  // 极可能白屏的默认dom数量
+        possW: 20,   // 疑似白屏的默认dom数量
+        scale: 0.3,  // 截屏质量，默认缩放0.3
     }
 })
 

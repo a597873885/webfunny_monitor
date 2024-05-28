@@ -5,7 +5,6 @@ module.exports = (router) => {
  router.post('/upLog', Common.upLog);
  router.post('/upLogs', Common.upLogs);
  router.get('/upLog', Common.upLogGet);
- 
  // 用户上传自定义日志（h5）
  router.post('/upMyLog', Common.upMyLog);
  // 用户上传日志 (小程序)
@@ -25,6 +24,8 @@ module.exports = (router) => {
  router.post('/searchCustomerInfo', Common.searchCustomerInfo);
  // 查询用户的基本信息2
  router.post('/getCustomerBaseInfo', Common.getCustomerBaseInfo);
+ // 获取当前用户的性能信息
+ router.post('/searchCustomerPerfInfo', Common.searchCustomerPerfInfo);
  // 查询报错情况
  router.post('/getErrorInfo', Common.getErrorInfo);
  // 获取警报信息
@@ -96,7 +97,7 @@ module.exports = (router) => {
   */
  // 获取应用项目的基础信息
  router.post('/monitorBaseInfo', Common.monitorBaseInfo);
- // 获取某一天所有项目的日志总量
+  // 获取某一天所有项目的日志总量
  router.post('/getLogCountInfoByDay', Common.getLogCountInfoByDay);
 
  /**
@@ -113,4 +114,9 @@ module.exports = (router) => {
   * 获取所有数据库表名
   */
  router.get('/getAllTableList', Common.getAllTableList);
+
+ /**
+  * echarts相关的静态数据
+  */
+ router.get('/getEchartStatic', Common.getEchartStatic);
 }

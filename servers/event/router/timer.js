@@ -113,9 +113,9 @@ module.exports = async () => {
                 // }
                 //每天凌晨0点10分开始分析昨天的执行计算规则
                 if (hourTimeStr === '00:10:00'){
-                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        TimerStatisticController.calculateDataPreDay('', -1);
-                    }
+                    // if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
+                    //     TimerStatisticController.calculateDataPreDay('', -1);
+                    // }
                 }
                 // console.log(minuteTimeStr, eventMasterUuidInDb, global.eventInfo.eventMasterUuid)
                 // 每小时的46分，开始统计今天的数据
@@ -127,17 +127,17 @@ module.exports = async () => {
                 // }
                 // 凌晨0点03分，开始统计昨天的数据
                 if (isOpenTodayStatistic && hourTimeStr == "00:03:00") {
-                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        TimerStatisticController.calculateDataPreDay('', -1);
-                    }
+                    // if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
+                    //     TimerStatisticController.calculateDataPreDay('', -1);
+                    // }
                 }
                 // 凌晨2点30开始删除过期的数据库表
                 if (hourTimeStr == "02:00:00") {
-                    if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        Common.startDelete()
-                    }
+                    // if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
+                    //     Common.startDelete()
+                    // }
                 } else if (hourTimeStr == "02:30:00") {
-                    Common.startDelete()
+                    // Common.startDelete()
                 }
                 // 每隔1分钟，取出全局变量global.eventInfo.logCountInMinute的值，并清0
                 if (minuteTimeStr.substring(3) == "00") {

@@ -11,4 +11,8 @@ module.exports = (router) => {
      * Docker 心跳检测
      */
   router.get('/health', Common.dockerHealth);
+  /**
+   * echarts相关的静态数据
+   */
+  router.get('/getEchartStatic', Common.getEchartStatic);
 }

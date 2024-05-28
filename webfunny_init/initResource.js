@@ -146,6 +146,7 @@ setTimeout(() => {
     let tempPath = pathList[i]
     copy(`${originPath}/views/resource/${tempPath}`, `${originPath}/views/${tempPath}`)
     copy(`${originPath}/views/images/`, `${originPath}/views/${tempPath}`)
+    // copy(`${originPath}/views/libs/`, `${originPath}/views/${tempPath}`)
   }
 
   for (let p = 0; p < pathList.length; p ++) {
