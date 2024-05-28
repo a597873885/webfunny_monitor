@@ -1,5 +1,5 @@
 <p align=center>
-    <img width=400 src="http://www.webfunny.cn/resource/logo-letter.png"/>
+    <img width=400 src="http://www.webfunny.cn/resource/logo-letter.png?t=1"/>
 </p>
 
 <p align="center">
