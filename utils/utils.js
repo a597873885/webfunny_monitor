@@ -171,7 +171,7 @@ const Utils = {
       let temp = result
       if (len > 1) {
         for (; i < len - 1; i++) {
-          if (!temp[splitting[i]] || !this.isObject(temp[splitting[i]])) temp[splitting[i]] = {}
+          if (!temp[splitting[i]] || !Utils.isObject(temp[splitting[i]])) temp[splitting[i]] = {}
           temp = temp[splitting[i]]
         }
       }
@@ -295,32 +295,32 @@ const Utils = {
   get(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "GET"
     const fetchUrl = url + Utils.qs(params)
-    const fetchParams = Object.assign({}, { method }, this.getHeaders())
+    const fetchParams = Object.assign({}, { method }, Utils.getHeaders())
     return Utils.handleFetchData(fetchUrl, fetchParams, httpCustomerOperation)
   },
   post(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "POST"
     const body = JSON.stringify(params)
-    const fetchParams = Object.assign({}, { method, body }, this.getHeaders())
+    const fetchParams = Object.assign({}, { method, body }, Utils.getHeaders())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   getJson(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "GET"
     const fetchUrl = url + Utils.qs(params)
-    const fetchParams = Object.assign({}, { method }, this.getHeadersJson())
+    const fetchParams = Object.assign({}, { method }, Utils.getHeadersJson())
     return Utils.handleFetchData(fetchUrl, fetchParams, httpCustomerOperation)
   },
   postJson(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     if (!url) return null
     const method = "POST"
     const body = JSON.stringify(params)
-    const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
+    const fetchParams = Object.assign({}, { method, body }, Utils.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "POST"
     const body = JSON.stringify(params)
-    const fetchParams = Object.assign({}, { method, body}, this.getHeadersJson())
+    const fetchParams = Object.assign({}, { method, body}, Utils.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {

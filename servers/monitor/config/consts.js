@@ -206,8 +206,9 @@ const PROJECT_CONFIG = JSON.stringify({
     },
     whiteS: {
         s: false,   // 是否开启白屏截图
-        sureW: 10,  // 极可能白屏的默认dom数量
-        possW: 20,   // 疑似白屏的默认dom数量
+        ignoreD: 100, // DOM数量大于100，直接忽略
+        sureW: 20,  // 极可能白屏的默认dom数量
+        possW: 50,   // 疑似白屏的默认dom数量
         scale: 0.3,  // 截屏质量，默认缩放0.3
     }
 })
