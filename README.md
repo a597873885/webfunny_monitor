@@ -12,30 +12,18 @@
 
 > Webfunny是一款集前端监控和埋点于一体的系统，非常轻量易用，纯私有化部署，只需要简单几步就可以搭建一套自己的监控埋点系统。
 
-#### [Webfunny前端监控系统](https://www.webfunny.com/webfunnyMonitor) 
+#### [Webfunny前端监控系统](https://www.webfunny.cn/webfunnyMonitor) 
 实时大屏、运营数据分析、前端错误分析、页面性能分析、接口性能分析、用户细查、用户连线。
 
 <p>
-    <img width=800 src="https://www.webfunny.cn/resource/webfunny_home.png?t=2"/>
+    <img width=800 src="https://www.webfunny.cn/resource/webfunny_home.png"/>
 </p>
 
-<p>
-    <img width=800 src="https://www.webfunny.cn/resource/webfunny_error.png?t=2"/>
-</p>
-
-<p>
-    <img width=800 src="https://www.webfunny.cn/resource/webfunny_behavior.png?t=2"/>
-</p>
-
-#### [Webfunny埋点系统](https://www.webfunny.com/webfunnyEvent) 
+#### [Webfunny埋点系统](https://www.webfunny.cn/webfunnyEvent) 
 业务数据分析、多样的可视化看板、高度自由的字段和点位设计、SDK发布。数据分析、留存分析、转化率分析、漏斗分析。
 
 <p>
-    <img width=800 src="https://www.webfunny.cn/resource/event_home.png?t=2"/>
-</p>
-
-<p>
-    <img width=800 src="https://www.webfunny.cn/resource/event_hot.png?t=2"/>
+    <img width=800 src="https://www.webfunny.cn/resource/event_home.png?t=1"/>
 </p>
 
 

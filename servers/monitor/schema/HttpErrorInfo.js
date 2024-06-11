@@ -47,9 +47,21 @@ const Columns = {
       allowNull: true,
       field: 'statusResult'
     },
+    // 接口请求的参数
+    requestText: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'requestText'
+    },
+    // 接口的返回结果
+    responseText: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'responseText'
+    },
     // 接口耗时
     loadTime: {
-      type: DataTypes.STRING,
+      type: DataTypes.INT(64),
       allowNull: true,
       field: 'loadTime'
     }
