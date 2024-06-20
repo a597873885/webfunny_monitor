@@ -14,6 +14,8 @@ module.exports = (router) => {
     router.post('/refreshValidateCode', UserController.refreshValidateCode)
     // 获取验证码
     router.post('/getValidateCode', UserController.getValidateCode)
+    // 根据手机号获取用户
+    router.post('/getUserByPhone', UserController.getUserByPhone);
     // 获取用户列表
     router.post('/getUserList', UserController.getUserList);
     // 获取当前项目所在团队的用户列表
