@@ -4,6 +4,7 @@
 var fs = require('fs');
 const path = require('path')
 var stat = fs.stat;
+const { feiShuConfig } = require('../sso')
 
 const WebfunnyConfig = require("../webfunny.config")
 const { domainConfig } = WebfunnyConfig
@@ -119,6 +120,25 @@ var exists = function( src, dst, callback ){
   });
 };
 
+function handleSsoFile() {
+  let finalPath = path.resolve(__dirname, '..') + '/views/wf_center';
+  let files = fs.readdirSync(finalPath);
+  for(let i = 0; i < files.length; i++){
+    if (files[i].indexOf("ssoLoading.html") >= 0) {
+      fs.readFile(`${finalPath}/${files[i]}`,function(err, data){
+        if (feiShuConfig.appId && data.indexOf("<!-- feishu -->") >= 0) {
+          let newString = data.toString().replace(/<!-- feishu -->/g, `<script type = "text/javascript" src = "${feiShuConfig.jsSdk}"></script>`)
+          fs.writeFile(`${finalPath}/${files[i]}`, newString, (err) => {
+            if (err) throw err;
+            console.log("= " + files[i] + "  jsSdk文件配置成功！");
+          });
+        }
+      })
+    }
+    
+  }
+}
+
 
 var pathList = ["wf_center", "wf_monitor", "wf_event", "wf_logger"]
 
@@ -171,7 +191,7 @@ setTimeout(() => {
         })
       }
 
-      if (tempPath === "webfunny") {
+      if (tempPath === "wf_monitor") {
         // 生成探针开始
         console.log("===========================")
         console.log("= 正在生成探针代码，请稍等...")
@@ -180,13 +200,17 @@ setTimeout(() => {
         const monitorCode = webfunnyCode.toString().replace(/jeffery_webmonitor/g, "1")
                                 .replace(/&&&www.webfunny.cn&&&/g, localServerDomain)
                                 .replace(/&&&webfunny.cn&&&/g, mainDomain);
-        const webfunnyJsTargePath = `${originPath}/views/webfunny/w.js`
+        const webfunnyJsTargePath = `${originPath}/views/wf_monitor/w.js`
         fs.writeFileSync(webfunnyJsTargePath, monitorCode, 'utf-8')
         console.log("= 探针代码创建完成！")
       }
     }, 3000 + p * 1000)
   }
 }, 5000)
+
+setTimeout(() => {
+  handleSsoFile()
+}, 15 * 1000)
 
 // 执行启动点位
 UpEvents.prd()

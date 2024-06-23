@@ -141,6 +141,7 @@ const otherConfig = {
   "extraCors": {                // 额外的cors配置
     "headers": ""
   },
+  "defaultCompanyId": "1",      // 默认公司Id，用于飞书登录
 }
 module.exports = {
   licenseConfig, domainConfig, mysqlConfig, otherConfig

@@ -16,6 +16,8 @@ module.exports = (router) => {
   router.delete('/javascriptErrorInfo/:id', JavascriptErrorInfoController.delete);
   // 更改JS错误
   router.put('/javascriptErrorInfo/:id', JavascriptErrorInfoController.update);
+  // 获取每个页面的错误量分类
+  router.post('/javascriptErrorCountByUrl', JavascriptErrorInfoController.javascriptErrorCountByUrl);
   // 获取每分钟的js错误量
   router.post('/getJavascriptErrorCountByMinute', JavascriptErrorInfoController.getJavascriptErrorCountByMinute);
   // 获取每分钟的js错误量
@@ -71,6 +73,9 @@ module.exports = (router) => {
   router.post('/getJsErrorCountByVersion', JavascriptErrorInfoController.getJsErrorCountByVersion);
   // 根据版本号获取JS错误数量,的相关详情
   router.post('/getJsErrorVersionSortInfo', JavascriptErrorInfoController.getJsErrorVersionSortInfo);
+
+  // 获取解决思路
+  // router.post('/getResolveIdea', JavascriptErrorInfoController.getResolveIdea);
 
   /**大屏数据相关 */
   router.post('/getErrorInfoInRealTimeByMinute', JavascriptErrorInfoController.getErrorInfoInRealTimeByMinute);

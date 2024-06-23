@@ -75,10 +75,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
     setTimeout(() => {
         Common.consoleInfo()
-        // if (process.env.LOGNAME === "jeffery") {
-        //     console.log("=====本地服务，不再启动定时器====")
-        //     return
-        // }
+        if (process.env.LOGNAME === "jeffery") {
+            console.log("=====本地服务，不再启动定时器====")
+            return
+        }
         Common.createTable(0)
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
@@ -94,7 +94,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         }, 2000)
 
         //启动一个定时器
-        timerUtil((dateTime) => {
+        timerUtil(async (dateTime) => {
             const tempDate = new Date()
             const hourMinuteStr = dateTime.Format("hh:mm")
             const hourTimeStr = dateTime.Format("hh:mm:ss")
@@ -131,7 +131,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             }
             // 每隔1分钟执行
             if (minuteTimeStr.substring(3) == "00") {
-                ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                await ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
                     if (uuidRes && uuidRes.length) {
                         monitorMasterUuidInDb = uuidRes[0].configValue
                     }

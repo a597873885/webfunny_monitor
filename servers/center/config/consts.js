@@ -21,14 +21,14 @@ const PROJECT_INFO = {
 }
 
 const PROJECT_API = {
-    MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.MONITOR_PUBLISH_PREFIX}/projectSimpleListByWebmonitorIds`,
+    MONITOR_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `/projectSimpleListByWebmonitorIds`,
     MONITOR_ADD_VIEWERS: `${global.MONITOR_PUBLISH_PREFIX}/addViewers`,
     MONITOR_BASE_INFO: `${global.MONITOR_PUBLISH_PREFIX}/monitorBaseInfo`,
     FORBIDDEN_PROJECT: `${global.MONITOR_PUBLISH_PREFIX}/forbiddenProject`,
     DELETE_PROJECT: `${global.MONITOR_PUBLISH_PREFIX}/deleteProject`,
 
-    EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/projectSimpleListByWebmonitorIds`,
-    EVENT_ADD_VIEWERS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/addViewers`,
+    EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `/buryPointProject/projectSimpleListByWebmonitorIds`,
+    EVENT_ADD_VIEWERS: `/buryPointProject/addViewers`,
 
     SAAS_PRODUCT_INFO: "/webfunny_manage/api/productInfo/get",
 }
