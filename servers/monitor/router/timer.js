@@ -75,11 +75,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
     setTimeout(() => {
         Common.consoleInfo()
-        if (process.env.LOGNAME === "jeffery") {
-            console.log("=====本地服务，不再启动定时器====")
-            return
+        if (process.env.LOGNAME !== "jeffery") {
+            Common.createTable(0)
         }
-        Common.createTable(0)
+        
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
@@ -178,9 +177,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             // 如果是凌晨，则计算上一天的分析数据
             if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
                 // console.log("第二天的分析判断开始：", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
-                // if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-                //     TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
-                // }
+                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
+                    TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+                }
             } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
                 // if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                 //     TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)

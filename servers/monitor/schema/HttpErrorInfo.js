@@ -47,6 +47,12 @@ const Columns = {
       allowNull: true,
       field: 'statusResult'
     },
+    // 接口请求头
+    headerText: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'headerText'
+    },
     // 接口请求的参数
     requestText: {
       type: DataTypes.STRING,

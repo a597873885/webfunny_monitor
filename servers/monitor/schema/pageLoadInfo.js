@@ -16,6 +16,7 @@ const Columns = {
       allowNull: true,
       field: 'loadType'
     },
+    // h5: 首字节 // 小程序：首次渲染
     firstByte: {
       type: DataTypes.INT(32),
       allowNull: true,
@@ -77,6 +78,12 @@ const Columns = {
       type: DataTypes.STRING,
       allowNull: true,
       field: 'effectiveType'
+    },
+    // 页面DOM节点数量
+    domCount: {
+      type: DataTypes.INT(32),
+      allowNull: true,
+      field: 'domCount'
     },
     // 国家
     country: {

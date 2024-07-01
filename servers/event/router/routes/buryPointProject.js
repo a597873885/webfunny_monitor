@@ -2,11 +2,12 @@ const { BuryPointProjectController } = require("../../controllers/controllers")
 
 module.exports = (router) => {
   /**
-    * 点位项目接口
-    */
+  * 点位项目接口
+  */
   router.post('/buryPointProject/create', BuryPointProjectController.create);
   router.post('/buryPointProject/update', BuryPointProjectController.update);
   router.post('/buryPointProject/delete', BuryPointProjectController.delete);
+  router.post('/buryPointProject/deleteProject', BuryPointProjectController.deleteProject);
   router.post('/buryPointProject/tree', BuryPointProjectController.tree);
   router.post('/buryPointProject/getProjectList', BuryPointProjectController.getProjectList);
   router.post('/buryPointProject/projectSimpleListByWebmonitorIds', BuryPointProjectController.projectSimpleListByWebmonitorIds);

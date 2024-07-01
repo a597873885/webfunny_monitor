@@ -646,6 +646,7 @@ const Utils = {
     }
     if (!monitorIp) return ipInfo;
     
+    let finalIpInfo = {}
     try {
       const res = await searcher.btreeSearchSync(monitorIp)
       if (res) {
@@ -655,11 +656,16 @@ const Utils = {
           ipInfo.province = locationArray.length > 1 ? locationArray[2] || "未知" : "未知"
           ipInfo.city = locationArray.length > 2 ? locationArray[3] || "未知" : "未知"
           ipInfo.operators = locationArray.length > 3 ? locationArray[4] || "未知" : "未知"
+
+          finalIpInfo = ipInfo
       }
     } catch(e) {
-        log.printError("IP定位失败：", monitorIp)
+      // log.printError("IP定位失败：", monitorIp)
+      if (global.WebfunnyIpStores) {
+        finalIpInfo = global.WebfunnyIpStores[monitorIp] || ipInfo
+      }
     }
-    return ipInfo
+    return finalIpInfo
   },
 }
 

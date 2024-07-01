@@ -6,13 +6,16 @@ const rootPath = path.resolve(__dirname, "..")
 /**
  * 初始化util_cus目录
  */
-var cusUtilPathArray = [rootPath + '/util_cus/index.js', rootPath + '/util_cus/sendEmail.js']
+var cusUtilPathArray = [rootPath + '/util_cus/index.js', rootPath + '/util_cus/sendEmail.js', rootPath + '/util_cus/ipCovert.js', rootPath + '/util_cus/ip.csv']
 var cusUtilFileArray = [
   `const sendEmail = require("./sendEmail")
+const { storeIpList } = require("./ipCovert")
 
-  module.exports = {
-      sendEmail
-  }`,
+module.exports = {
+    sendEmail,
+    storeIpList
+}`,
+
   `const nodemailer = require('nodemailer')
   const WebfunnyConfig = require("../webfunny.config")
   const { otherConfig } = WebfunnyConfig
@@ -41,7 +44,64 @@ var cusUtilFileArray = [
           html: emailContent // html body
       });
   }
-  module.exports = sendEmail`
+  module.exports = sendEmail`,
+
+  `const fs = require("fs");
+const path = require("path");
+const readline = require("readline");
+
+module.exports = {
+  /**
+   * 接口获取地理位置
+   */
+  async getIpInfoFromApi(ip) {
+    const ipRes = await Utils.requestForTwoProtocol("post", "your.domain.com", {ip})
+    const { country = "未知", province = "未知", city = "未知", operators = "未知" } = ipRes ? ipRes.data : {}
+    return new Promise((resolve, reject) => {
+      if (ipRes && ipRes.data) {
+        resolve({ country, province, city, operators })
+      } else {
+        reject("ip covert error")
+      }
+    })
+  },
+
+  // 将csv中的ip信息存放内存中
+  storeIpList() {
+    const results = {};
+  
+    const rl = readline.createInterface({
+      input: fs.createReadStream(path.resolve(__dirname, "") + "/ip.csv"),
+      crlfDelay: Infinity
+    });
+    
+    rl.on("line", (line) => {
+      // 解析CSV行数据，可以使用split(",")进行简单的切割
+      const data = line.split(",");
+      if (data && data.length > 0) {
+
+        if (data[0] !== "ip") {
+          results[data[0]] = {
+            country: data[1],
+            province: data[2],
+            city: data[3],
+            operators: data[4]
+          }
+        }
+
+      }
+      
+    });
+    
+    rl.on("close", () => {
+      // csv文件中的ip都存放到内存中
+      global.WebfunnyIpStores = results
+    });
+  }
+
+}`,
+
+`255.255.255.255,中国,江苏省,苏州市,联通`
 ]
 fs.mkdir( rootPath + "/util_cus", function(err){
   if ( err ) { 

@@ -31,11 +31,12 @@ const accountInfo = {
 
     mysqlConfig: mysqlConfig.monitor,
     
-    segmentUrl: otherConfig.segmentUrl, // segment上报地址，跟skyWalking进行接入
+    segmentUrl: otherConfig.segmentUrl,                      // segment上报地址，跟skyWalking进行接入
 
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,
     emailPassword: otherConfig.email.emailPassword,
+    isIpCovert: otherConfig.isIpCovert || false,             // 是否使用ip地址转换
 }
 
 module.exports = {

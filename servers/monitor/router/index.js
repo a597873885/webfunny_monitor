@@ -6,6 +6,7 @@ const { customerWarningCallback } = require("../../../interceptor/customerWarnin
 const timerTask = require("./timer");
 const Config = new NodeClickHouse("../schema/config")
 
+
 global.monitorInfo = {
     invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
 
@@ -42,6 +43,7 @@ global.monitorInfo = {
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
+
 
 const router = new Router({
     prefix: '/wfMonitor'

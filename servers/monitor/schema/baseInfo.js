@@ -43,6 +43,12 @@ module.exports = (DataTypes) => {
       allowNull: true,
       field: 'customerKey'
     },
+    // sessionId
+    sessionId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'sessionId'
+    },
     // 发生的页面URL
     simpleUrl: {
       type: DataTypes.STRING,
