@@ -75,6 +75,20 @@ const publicServer = server(path.resolve(__dirname, '') + '/views');
 const redirect = ctx => {
   ctx.response.redirect('/wf_center/main.html')
 };
+appStatic.use(async (ctx, next) => {
+  ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
+  ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
+  ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t,wf-user-info,sw8")
+  ctx.set("Access-Control-Allow-Credentials", true)
+  ctx.set("X-Powered-By", "3.2.1")
+  ctx.set("Content-Type", "application/json;charset=utf-8")
+  ctx.set("Connection", "close")
+  if (ctx.method == 'OPTIONS') {
+      ctx.body = 200; 
+  } else {
+      await next();
+  }
+})
 // 3.分配路由
 appStatic.use(compress(options))
 appStatic.use(async (ctx, next) => {
