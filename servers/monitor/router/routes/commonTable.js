@@ -17,4 +17,5 @@ module.exports = (router) => {
      * 更新表结构
      */
     router.post('/updateTableBySql', CommonTableController.updateTableBySql);
+    router.post('/updateFieldBySql', CommonTableController.updateFieldBySql);
 }
