@@ -195,11 +195,29 @@ const Columns = {
       allowNull: true,
       field: 'healthScore'
     },
+    // 性能分
+    perfScore: {
+      type: DataTypes.FLOAT(32),
+      allowNull: true,
+      field: 'perfScore'
+    },
+    // 项目是否活跃  1活跃  0不活跃
+    isAliveCount: {
+      type: DataTypes.INT(8),
+      allowNull: true,
+      field: 'isAliveCount'
+    },
     // 活跃人数
     aliveCount: {
       type: DataTypes.INT(32),
       allowNull: true,
       field: 'aliveCount'
+    },
+    // 当天总人数
+    uvCountForDay: {
+      type: DataTypes.INT(32),
+      allowNull: true,
+      field: 'uvCountForDay'
     },
     // 创建时间
     createdAt: {
