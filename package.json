@@ -11,7 +11,10 @@
     "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
     "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
     "prd": "node ./webfunny_init/initResource.js && pm2 start webfunny.js && pm2 log webfunny",
-    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && npm run prd"
+    "restart": "pm2 flush && pm2 stop webfunny && pm2 delete webfunny && npm run prd",
+    "publish_center": "node publish.js --serverType center",
+    "publish_monitor": "node publish.js --serverType monitor",
+    "publish_event": "node publish.js --serverType event"
   },
   "repository": {
     "type": "git",
