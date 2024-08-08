@@ -1,6 +1,6 @@
 module.exports = [
     {
-        "templateName":"系统基础模版",
+        "templateName":"基础模版(仅演示)",
         "weKey":"we-base-ac874f09-1909-872d-0adc-b2d55fad5b43",
         "groupCount":1,
         "pageCount":1,

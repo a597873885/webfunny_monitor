@@ -106,6 +106,27 @@ const Columns = {
     allowNull: true,
     field: 'describe'
    },
+   //分组:多个以逗号隔开(点位共同字段组合)
+   //"groupFields":"userId,xingMing",
+   groupFields: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'groupFields'
+    },
+    //留存规则：按天（默认/次日/7日/30日），是否显示当日，留存/流失，百分/数字
+    //"keepAnalysisRule":{"timeCalcType":"day","timeFormat":"defaultFourItems","showCurrentDate":"yes","keepOrloss":"keep","dataShowType":""},
+    keepAnalysisRule: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'keepAnalysisRule'
+    },
+    //卡片表格展示形式：stratify-分层，tile-平铺
+    //"tableShowType":"stratify"
+    tableShowType: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'tableShowType'
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING,

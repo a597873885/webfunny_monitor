@@ -18,4 +18,5 @@ module.exports = (router) => {
   router.post('/getPerfInfoByVersion', PageLoadInfoController.getPerfInfoByVersion);
   router.post('/getPerfInfoByNetWork', PageLoadInfoController.getPerfInfoByNetWork);
   router.post('/getPerfInfoByOs', PageLoadInfoController.getPerfInfoByOs);
+  router.post('/getPageCompleteLoadedDataForHour', PageLoadInfoController.getPageCompleteLoadedDataForHour);
 }
