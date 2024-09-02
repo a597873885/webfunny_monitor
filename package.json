@@ -6,7 +6,6 @@
   "scripts": {
     "bootstrap": "node ./webfunny_init/config.init.js && node ./webfunny_init/alarm.init.js && node ./webfunny_init/interceptor.init.js && node ./webfunny_init/util.cus.js && node ./webfunny_init/sso.init.js",
     "start": "node webfunny.js",
-    "publish": "node publish.js",
     "center": "node center/config_db_local.js && node center/config.js && pm2 flush && pm2 start center/config/webfunny_center.js",
     "event": "node event/config_db_local.js && node event/config.js && pm2 flush && pm2 start event/config/webfunny_event.js",
     "monitor": "node monitor/config_db_local.js && node monitor/config.js && pm2 flush && pm2 start monitor/config/webfunny_monitor.js",
