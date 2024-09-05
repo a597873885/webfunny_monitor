@@ -1,7 +1,7 @@
-const {BuryPointAlarmController, BuryPointAlarmMessageController,WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController} = require("../controllers/controllers.js")
+const {BuryPointAlarmController, BuryPointAlarmMessageController,WeHandleDataController,BuryPointTaskController,SysInfoController,CommonUpLog,BuryPointCardController,BuryPointCardStatisticsController,BuryPointFieldController,BuryPointWarehouseController,BuryPointTestController,ConfigController,MessageController,TeamController,TimerStatisticController,CommonUtil,BuryPointProjectController,BuryPointTemplateController,Common,SdkReleaseController,UserController,FailController, CommonInitDataController} = require("../controllers/controllers.js")
 
 const createRoutes = (router) => {
-     /**
+ /**
      * 日志相关处理
      */
     // 用户上传日志（h5）
@@ -269,6 +269,7 @@ const createRoutes = (router) => {
 
     router.get('/test/calcu', TimerStatisticController.calculateDataPreDay);
     router.get('/test/statistic', TimerStatisticController.test);
+    router.get('/statistic/repairStatistic', TimerStatisticController.repairStatistic);//修补数据，传天数-1，-2
 
 
     router.get('/test/deleteTable', Common.startDelete);
@@ -278,6 +279,7 @@ const createRoutes = (router) => {
     router.get('/initWeFieldData', WeHandleDataController.initWeFieldData);
     router.get('/initWePointData', WeHandleDataController.initWePointData);
     router.get('/initWeTemplateData', WeHandleDataController.initWeTemplateData);
+    router.get('/initData', CommonInitDataController.initData);
     /**升级2.0版本 */
     router.get('/upgradeVersion', WeHandleDataController.upgradeVersion_2_0);
     router.get('/createDemoTemplateData', WeHandleDataController.createDemoTemplateData);

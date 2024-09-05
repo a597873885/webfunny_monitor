@@ -99,7 +99,7 @@ module.exports = async () => {
                 //每天凌晨0点10分开始分析昨天的执行计算规则
                 if (hourTimeStr === '00:10:00'){
                     if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        TimerStatisticController.calculateDataPreDay('', -1);
+                        TimerStatisticController.calculateDataPreDay('', -1, 1);
                     }
                 }
                 // console.log(minuteTimeStr, eventMasterUuidInDb, global.eventInfo.eventMasterUuid)
@@ -107,7 +107,7 @@ module.exports = async () => {
                 let isOpenTodayStatistic = accountInfo.isOpenTodayStatistic
                 if (isOpenTodayStatistic && minuteTimeStr == "46:00") {
                     if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        TimerStatisticController.calculateDataPreDay('', 0);
+                        TimerStatisticController.calculateDataPreDay('', 0, 0);
                     }
                 }
                 // 凌晨2点30开始删除过期的数据库表
