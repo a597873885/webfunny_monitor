@@ -17,12 +17,13 @@ var alarmFileArray = [
     httpError: "接口错误次数",
     resourceError: "静态资源错误次数",
   }`,
-  `/**
+  `const Utils = require('../utils/utils');
+/**
     * 这里是钉钉机器人（关键字）的相关配置
     * 关键字列表： 
     * 1. 警报
     */
-  module.exports = {
+  module.exports = Utils.deepCopy({
       url: "", // 钉钉机器人的 webHook URL
       config: {
           "msgtype": "text",
@@ -36,13 +37,14 @@ var alarmFileArray = [
               "isAtAll": false  // 是否@所有人
           }
         }
-  }`,
-  `/**
+  })`,
+  `const Utils = require('../utils/utils');
+/**
   * 这里是飞书的机器人（关键字）的相关配置
   * 关键字列表： 
   * 1. 警报
   */
- module.exports = {
+ module.exports = Utils.deepCopy({
      url: "", // 飞书机器人的URL
      config: {
          "msg_type": "text",
@@ -50,11 +52,12 @@ var alarmFileArray = [
              "text": ""
          },
        }
- }`,
-  `/**
+ })`,
+  `const Utils = require('../utils/utils');
+/**
   * 这里是企业微信机器人的相关配置
   */
- module.exports = {
+ module.exports = Utils.deepCopy({
      url: "", // 企业微信机器人的 webHook URL
      config: {
          "msgtype": "text",
@@ -64,7 +67,7 @@ var alarmFileArray = [
              "mentioned_mobile_list":["182xxxx4111"]  // 将要艾特的人
          }
      }
- }`,
+ })`,
   `const sendEmail = require('../util_cus/sendEmail');
   const dingDing = require('../alarm/dingding')
   const weiXin = require('../alarm/weixin')

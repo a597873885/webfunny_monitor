@@ -13,6 +13,8 @@ const commonUpLogRouter = require('./commonUpLog')
 const sysInfoRouter = require('./sysInfo')
 const timerStatisticRouter = require('./timerStatistic')
 const weHandleDataRouter = require('./weHandleData')
+const buryPointCircleSelectRouter = require('./buryPointCircleSelect')
+const buryPointVisualTrackingRouter = require('./buryPointVisualTracking')
 
 const createRouter = (router) => {
   buryPointFieldRouter(router)
@@ -30,6 +32,8 @@ const createRouter = (router) => {
   weHandleDataRouter(router)
   buryPointTestRouter(router)
   buryPointTemplateRouter(router)
+  buryPointCircleSelectRouter(router)
+  buryPointVisualTrackingRouter(router)
 }
 
 module.exports = {

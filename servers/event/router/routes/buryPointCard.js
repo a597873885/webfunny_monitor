@@ -25,4 +25,5 @@ module.exports = (router) => {
   router.post('/buryPointCard/getHeatMapPerData', BuryPointCardController.getHeatMapPerStatisticData);
   router.post('/buryPointCard/getHeatMapValueTimeSlotData', BuryPointCardController.getHeatMapValueTimeSlotStatisticData);
   router.post('/buryPointCard/getFunnelEveryDay', BuryPointCardController.getFunnelEveryDayStatisticList);
+  router.post('/buryPointCard/getRealOnlineCount', BuryPointCardController.getRealOnlineCount);
 }

@@ -31,6 +31,7 @@ const accountInfo = {
     stayTimeScope: otherConfig.business.userStayTimeScope,                  // 用户停留时间范围
 
     mysqlConfig: mysqlConfig.center,
+    loggerConfig: mysqlConfig.logger,  // logger的数据库连接
 
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,
@@ -43,6 +44,7 @@ const accountInfo = {
     emailNeeded: otherConfig.emailNeeded,  // 注册是否需要email
     phoneNeeded: otherConfig.phoneNeeded,  // 注册是否需要手机号
     defaultCompanyId: otherConfig.defaultCompanyId || "1", // 默认公司ID, 用于飞书登录
+    invoiceHookForDingding: otherConfig.invoiceHookForDingding, // 钉钉的发票hook地址
 }
 
 module.exports = {

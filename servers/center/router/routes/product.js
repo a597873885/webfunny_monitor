@@ -2,6 +2,7 @@
 const { ProductController } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
+    /** 旧版接口，已无效 */
     // 获取当月生效的产品
     router.post('/getProjectByCompanyIdForMonth', ProductController.getProjectByCompanyIdForMonth);
     // 创建产品
@@ -12,4 +13,8 @@ module.exports = (router) => {
     router.post('/batchUpdateProduct', ProductController.batchUpdateProduct);
     // 批量更新和创建产品
     router.post('/batchCreateOrUpdateProduct', ProductController.batchCreateOrUpdateProduct);
+    /** 旧版接口，已无效 */
+
+    // 获取当前有效的产品
+    router.post('/getValidProduct', ProductController.getValidProduct);
 }

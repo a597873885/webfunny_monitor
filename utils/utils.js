@@ -682,6 +682,23 @@ const Utils = {
     }
     return finalIpInfo
   },
+  // 深拷贝方法. 注意: 如果对象里边包含function, 则对function的拷贝依然是浅拷贝
+  deepCopy(o) {
+    if (o instanceof Array) {
+      const n = []
+      for (let i = 0; i < o.length; ++i) {
+        n[i] = this.deepCopy(o[i])
+      }
+      return n
+    } else if (o instanceof Object) {
+      const n = {}
+      for (const i in o) {
+        n[i] = this.deepCopy(o[i])
+      }
+      return n
+    }
+    return o
+  },
 }
 
 module.exports = Utils

@@ -119,4 +119,9 @@ module.exports = (router) => {
   * echarts相关的静态数据
   */
  router.get('/getEchartStatic', Common.getEchartStatic);
+
+  /**
+   * 告警相关
+   */
+ router.post('/checkAlarmResult', Common.checkAlarmResult);
 }

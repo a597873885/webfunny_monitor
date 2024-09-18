@@ -12,7 +12,9 @@
     "publish_logger": "node publish.js --serverType logger",
     "publish_single": "node publish_single.js",
     "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 log webfunny_cluster",
-    "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd"
+    "prd_test": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster_test.js && pm2 log webfunny_cluster_test",
+    "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd",
+    "restart_test": "pm2 delete webfunny_cluster_test && pm2 flush && npm run prd_test"
   },
   "repository": {
     "type": "git",

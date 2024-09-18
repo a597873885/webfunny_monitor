@@ -881,6 +881,38 @@ const Utils = {
       console.log(e)
     })
   },
+  /**
+   * 设置内存中存储登录用户对象
+   * @param {String} projectId 项目ID
+   * @param {Object} user 存储的用户信息 {userId, nickname}
+   * @param {Number} maxLen 数组最大长度，默认100
+   */
+  setFixedLengthQueue(projectId, user, maxLen = 100) {
+    if (!global.clientUsers) {
+      global.clientUsers = {}
+    }
+    if (global.clientUsers[projectId]) {
+      //判断数组中是否存在，存在就不添加
+      const hasOne = global.clientUsers[projectId].some(item => item.userId === user.userId)
+      if (!hasOne) {
+        //判断是否超出长度，
+        if (global.clientUsers[projectId].length >= maxLen) {
+          global.clientUsers[projectId].shift(); // 移除队列的第一个元素
+        }
+        global.clientUsers[projectId].push(user); // 添加新元素到队列的末尾
+      }
+    } else {
+      global.clientUsers[projectId] = [user]
+    }
+  },
+  /**
+   * 获取内存中存储登录用户对象
+   * @param {String} projectId 项目ID
+   */
+  getFixedLengthQueue(projectId) {
+    if (!global.clientUsers) global.clientUsers = {}
+    return global.clientUsers[projectId] ? global.clientUsers[projectId] : []
+  }
 }
 
 module.exports = Utils

@@ -1,4 +1,4 @@
-const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, TimerStatisticController, WeHandleDataController, ConfigController, TimerCalculateController } = require("../controllers/controllers")
+const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController } = require("../controllers/controllers")
 const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, mysqlConfig } = AccountConfig
@@ -171,6 +171,12 @@ module.exports = async () => {
                 //     // 每分钟更新流量信息
                 //     TimerCalculateController.saveFlowDataByHour(dayName, hourName)
                 // }
+
+                if (hourTimeStr == "00:09:00") {
+                    BuryPointCircleSelectController.scheduledUpdateEnableFlag().catch((e)=>{
+                        log.printError("定时执行更新圈选用户是否过期异常",e)
+                    });
+                }
 
             } catch(e) {
                 log.printError("定时器执行报错：", e)

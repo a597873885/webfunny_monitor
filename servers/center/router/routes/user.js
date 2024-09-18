@@ -36,23 +36,29 @@ module.exports = (router) => {
     router.post('/registerCheck', UserController.registerCheck);
     // 管理员注册接口
     router.post('/registerForAdmin', UserController.registerForAdmin);
-    
     // 管理员创建账号
     router.post('/addNewCustomer', UserController.addNewCustomer);
+    
     // 注册用户
     router.get('/register', UserController.register);
     // 注册用户(saas)
     router.get('/registerForSaas', UserController.registerForSaas);
+    // 注册用户(cloud)
+    router.get('/registerForCloud', UserController.registerForCloud);
+    // 官网注册用户(云服务版)
+    router.get('/registerForSaasWithWebsite', UserController.registerForSaasWithWebsite);
     // 注册用户API
     router.post('/registerForApi', UserController.registerForApi);
-    // 注册用户API
-    router.post('/registerForSaasWithWebsite', UserController.registerForSaasWithWebsite);
     // 重置密码
     router.get('/resetPwd', UserController.resetPwd);
     // 激活用户
     router.post('/activeRegisterMember', UserController.activeRegisterMember);
     // 删除用户
     router.post('/deleteRegisterMember', UserController.deleteRegisterMember);
+    // 绑定公众号
+    router.post('/bindOpenid', UserController.bindOpenid);
+    // 检查openid绑定账号
+    router.post('/checkUserByOpenid', UserController.checkUserByOpenid);
 
     // 将用户设置为管理员
     router.post('/setAdmin', UserController.setAdmin);

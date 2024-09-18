@@ -7,7 +7,7 @@
  */
     module.exports = [
         {
-            "pointName": "心跳检测",
+            "pointName": "【全埋点】心跳",
             "pointDesc": "心跳检测点位，包含停留时间",
             "weType": 1,
             "replacePointIdKey": "HeartBeatPointId",
@@ -24,7 +24,7 @@
             ]
         }, 
         {
-            "pointName": "停留分析",
+            "pointName": "【全埋点】停留",
             "pointDesc": "鼠标停留分析点位，包含行为类型：点击/停留，页面地址：url，坐标x和y",
             "weType": 1,
             "replacePointIdKey": "HeatMapStopPointId",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "pointName": "点击分析",
+            "pointName": "【全埋点】点击",
             "pointDesc": "鼠标点击分析点位，包含行为类型：点击/停留，页面地址：url，坐标x和y",
             "weType": 1,
             "replacePointIdKey": "HeatMapClickPointId",
@@ -213,6 +213,50 @@
                     "fieldType": "VARCHAR",
                     "fieldLength": 50,
                     "fieldDesc": "表示行为的类型：如：点击, 停留等",
+                    "groupByFlag": 1,
+                    "weType": 0
+                },
+            ]
+        },
+        {
+            "pointName": "【全埋点】浏览记录",
+            "pointDesc": "用户访问页面的点位信息，包括页面路径,页面标题,访问地址,网站来源",
+            "weType": 1,
+            "replacePointIdKey": "BrowsingHistoryPointId",
+            "fieldList": [
+                {
+                    "fieldName": "wePagePath",
+                    "fieldAlias": "页面路径",
+                    "fieldType": "VARCHAR",
+                    "fieldLength": 100,
+                    "fieldDesc": "页面简单的path信息，获取方式:window.location.pathname",
+                    "groupByFlag": 1,
+                    "weType": 0
+                },
+                {
+                    "fieldName": "wePageTitle",
+                    "fieldAlias": "页面标题",
+                    "fieldType": "VARCHAR",
+                    "fieldLength": 200,
+                    "fieldDesc": "访问页面的title，一般获取方式document.title",
+                    "groupByFlag": 1,
+                    "weType": 0
+                }, 
+                {
+                    "fieldName": "weAccessAddress",
+                    "fieldAlias": "访问地址",
+                    "fieldType": "VARCHAR",
+                    "fieldLength": 200,
+                    "fieldDesc": "访问页面的完整地址，不带参数，一般获取方式为window.location.href",
+                    "groupByFlag": 1,
+                    "weType": 0
+                },
+                 {
+                    "fieldName": "weWebsitSource",
+                    "fieldAlias": "网站来源",
+                    "fieldType": "VARCHAR",
+                    "fieldLength": 200,
+                    "fieldDesc": "访问网站来源地址，一般获取方式为document.referrer",
                     "groupByFlag": 1,
                     "weType": 0
                 },

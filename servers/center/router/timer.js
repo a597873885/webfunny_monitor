@@ -1,7 +1,8 @@
 require("colors")
-const { UserController, CommonTableController, ApplicationConfigController, TimerCalculateController, ProductController } = require("../controllers/controllers.js")
+const { UserController, CommonTableController, AlarmListController, TimerCalculateController } = require("../controllers/controllers.js")
 const Utils = require('../util/utils');
 const log = require("../../../config/log");
+const weekDays = [0,1,2,3,4,5,6];
 /**
  * 定时任务
  */
@@ -41,6 +42,7 @@ module.exports = async () => {
         CommonTableController.createTable(0)
         const startTime = new Date().getTime();
         let count = 0;
+        let oneMinuteCount = 0;
         const fixed = async () => {
             count ++;
             const tempDate = new Date()
@@ -52,11 +54,19 @@ module.exports = async () => {
             const hourMinuteStr = tempDate.Format("hh:mm")
             const hourTimeStr = tempDate.Format("hh:mm:ss")
             const minuteTimeStr = tempDate.Format("mm:ss")
+            const day = tempDate.getDay()
+            const weekDay = weekDays[day]
             try {
 
                 // 每个小时更新两次流量信息
                 if (minuteTimeStr == "20:00" || minuteTimeStr == "50:00") {
                     TimerCalculateController.updateCompanyData()
+                }
+
+                // 告警定时器
+                if (minuteTimeStr.substring(2) == ":00") {
+                    oneMinuteCount++
+                    await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
                 }
 
                 // 凌晨0点01分开始创建当天的数据库表

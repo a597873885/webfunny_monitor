@@ -576,6 +576,35 @@ const Utils = {
       return protocolRes
     }
   },
+  // 深拷贝方法. 注意: 如果对象里边包含function, 则对function的拷贝依然是浅拷贝
+  deepCopy(o) {
+    if (o instanceof Array) {
+      const n = []
+      for (let i = 0; i < o.length; ++i) {
+        n[i] = this.deepCopy(o[i])
+      }
+      return n
+    } else if (o instanceof Object) {
+      const n = {}
+      for (const i in o) {
+        n[i] = this.deepCopy(o[i])
+      }
+      return n
+    }
+    return o
+  },
+  // 内部通信
+  async ajaxInside(method = "post", url, param) {
+    // const methodName = method === "post" ? "post" : "postJson"
+    
+    // 如果用户指定了协议
+    const result = await Utils[method](url, param).catch((e) => {
+      if (typeof e === "object") {
+        log.printError(`url ->` + JSON.stringify(e))
+      }
+    })
+    return result
+  },
   /**
    * sha1加密
    */

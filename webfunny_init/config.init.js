@@ -129,6 +129,7 @@ const otherConfig = {
   "registerEntry": true,        // 是否允许注册
   "resetPwdEntry": true,        // 是否允许重置密码
   "ssoCheckUrl": "",            // SSO校验URL
+  "invoiceHookForDingding": "", // 开票钉钉的hook地址
   "activationRequired": false,  // 注册用户是否需要管理员激活
   "emailNeeded": {
     "need": true,               // 注册时，是否需要邮箱

@@ -14,6 +14,7 @@ const User = function (sequelize, DataTypes) {
     companyId: {
       type: DataTypes.STRING(50),
       allowNull: true,
+      defaultValue: '1',
       field: 'companyId'
     },
     // 用户唯一标识
@@ -63,6 +64,12 @@ const User = function (sequelize, DataTypes) {
       type: DataTypes.STRING(100),
       allowNull: true,
       field: 'groupId'
+    },
+    // 微信扫码的openid
+    openid: {
+      type: DataTypes.STRING(100),
+      allowNull: true,
+      field: 'openid'
     },
     // 注册状态 0 / 1
     registerStatus: {

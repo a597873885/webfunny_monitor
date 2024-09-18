@@ -6,8 +6,13 @@ const teamRouter = require('./team')
 const userRouter = require('./user')
 const userTokenRouter = require('./userToken')
 const ProductRouter = require('./product')
-const OrderRouter = require('./order')
+// const OrderRouter = require('./order')
 const ssoRouter = require('./sso')
+const alarmListRouter = require('./alarmList')
+const noticeTemplateRouter = require('./noticeTemplate')
+const alarmRuleRouter = require('./alarmRule')
+const alarmOverviewRouter = require('./alarmOverview')
+const orderInfoRouter = require('./orderInfo')
 
 const createRouter = (router) => {
   applicationConfigRouter(router)
@@ -18,8 +23,13 @@ const createRouter = (router) => {
   userRouter(router)
   userTokenRouter(router)
   ProductRouter(router)
-  OrderRouter(router)
+  // OrderRouter(router)
   ssoRouter(router)
+  alarmListRouter(router)
+  noticeTemplateRouter(router)
+  alarmRuleRouter(router)
+  alarmOverviewRouter(router)
+  orderInfoRouter(router)
 }
 
 module.exports = {

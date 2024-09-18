@@ -5,4 +5,5 @@ module.exports = (router) => {
   router.post('/upEvent', CommonUpLog.upEvent);
   router.post('/upEvents', CommonUpLog.upEvents);
   router.post('/upMyEvents', CommonUpLog.upMyEvents);
+  router.post('/queryClientUsers', CommonUpLog.queryClientUsers);
 }
