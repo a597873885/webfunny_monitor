@@ -52,10 +52,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         Common.consoleInfo()
         Common.createTable(0)
 
-        if (process.env.LOGNAME === "jeffery") {
-            console.log("=====本地服务，不再启动定时器====")
-            return
-        }
+        // if (process.env.LOGNAME === "jeffery") {
+        //     console.log("=====本地服务，不再启动定时器====")
+        //     return
+        // }
 
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
