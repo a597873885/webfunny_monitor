@@ -1,4 +1,5 @@
 const Koa = require('koa')
+const ReWriteConsole = require('./utils/rewriteConsole')
 // 路由
 const bodyParser = require('koa-bodyparser')
 const centerRoute = require('./servers/center/router')
@@ -20,6 +21,9 @@ const app = new Koa()
 //     serviceInstance: 'webfunny_server_instance_name',
 //     collectorAddress: '61.132.92.90:11800',
 // });
+
+// 重写 console.log
+ReWriteConsole()
 
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")

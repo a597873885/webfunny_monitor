@@ -19,6 +19,9 @@ const Utils = {
   isObject(obj) {
     return (Object.prototype.toString.call(obj) == '[object Object]');
   },
+  log: function() {
+    console.log()
+  },
   guid: function() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
       var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);

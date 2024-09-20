@@ -115,7 +115,7 @@ const otherConfig = {
   "messageQueue": false,     // 是否开启消息队列
   "openMonitor": true,       // 是否开启可视化页面的监控
   "uploadServerErrorToWebfunny": true, // 是否上报后端错误日志至logger服务（推荐开启，便于排查问题）
-  "logSaveDays": 366,          // 日志存储周期
+  "logSaveDays": 30,          // 日志存储周期
   "isOpenTodayStatistic": true, // 
   "business": {
     "batchInsert": {
@@ -126,6 +126,12 @@ const otherConfig = {
       "max": 100000
     }
   },
+  "printSql": {                 // 是否打印sql
+    "center": false,
+    "monitor": false,
+    "event": false
+  },
+  "printConsole": false,        // 是否显示console打印日志
   "registerEntry": true,        // 是否允许注册
   "resetPwdEntry": true,        // 是否允许重置密码
   "ssoCheckUrl": "",            // SSO校验URL

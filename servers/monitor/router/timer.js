@@ -71,7 +71,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
         // })
 
     }, 20000)
-    Common.consoleLogo()
+    // Common.consoleLogo()
 
     setTimeout(() => {
         Common.consoleInfo()
@@ -229,6 +229,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 Common.startClearInvalidTable()
             }
         })
-    }, 6000)
+    }, 7000)
    
 }

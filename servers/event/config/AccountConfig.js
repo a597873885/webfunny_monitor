@@ -34,6 +34,9 @@ const accountInfo = {
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,
     emailPassword: otherConfig.email.emailPassword,
+
+    printSql: otherConfig.printSql,  // 是否打印sql配置
+    printConsole: otherConfig.printConsole,  // 是否打印console
 }
 
 module.exports = {

@@ -30,10 +30,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     /**
      * 2秒后开始进行第一次分析
      * */
-    setTimeout(() => {
+    // setTimeout(() => {
 
-    }, 20000)
-    Common.consoleLogo()
+    // }, 20000)
+    // Common.consoleLogo()
     
     /** * 定时任务  开始 */
     setTimeout(() => {

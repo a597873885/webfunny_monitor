@@ -21,6 +21,7 @@ module.exports = async () => {
      * 3、删除以前的表
      * */
      setTimeout(() => {
+        Common.consoleInfo()
         // 同步数据库里的token
         ConfigController.refreshTokenList()
 
@@ -42,12 +43,12 @@ module.exports = async () => {
         //     log.printError(e)
         // });
         
-        setTimeout(() => {
-            //创建项目和初始化五个卡片
-            CommonInitDataController.initData().catch((e)=>{
-                log.printError("创建项目和初始化卡片",e)
-            });
-        }, 5000)
+        // setTimeout(() => {
+        //     //创建项目和初始化五个卡片
+        //     CommonInitDataController.initData().catch((e)=>{
+        //         log.printError("创建项目和初始化卡片",e)
+        //     });
+        // }, 5000)
 
         setTimeout(() => {
             // 更新流量上限信息
@@ -184,5 +185,5 @@ module.exports = async () => {
             setTimeout(fixed, nextTime);
         }
         setTimeout(fixed, 1000);
-    }, 6000);
+    }, 5000);
 }

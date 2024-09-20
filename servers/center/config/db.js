@@ -13,7 +13,9 @@ const configList = {
   port: write.port,
   logging: (sql) => {
     // 这里处理sql的日志，暂时不打印
-    // console.log(sql)
+    if (accountInfo.printSql && accountInfo.printSql.center === true) {
+      console.log(sql)
+    }
   },
   dialect: 'mysql',
   // operatorsAliases: false,

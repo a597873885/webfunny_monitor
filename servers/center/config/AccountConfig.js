@@ -45,6 +45,8 @@ const accountInfo = {
     phoneNeeded: otherConfig.phoneNeeded,  // 注册是否需要手机号
     defaultCompanyId: otherConfig.defaultCompanyId || "1", // 默认公司ID, 用于飞书登录
     invoiceHookForDingding: otherConfig.invoiceHookForDingding, // 钉钉的发票hook地址
+    printSql: otherConfig.printSql,  // 是否打印sql配置
+    printConsole: otherConfig.printConsole,  // 是否打印console
 }
 
 module.exports = {
