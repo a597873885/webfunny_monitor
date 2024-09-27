@@ -140,7 +140,7 @@ module.exports = [
         "pageId":279,
         "name": "页面访问Top10",
         "type": 4,
-        "calcRule":"[{\"calcName\":\"访问量\",\"unit\":\"次\",\"alarmId\":\"\",\"prePoint\":{\"calcField\":{\"fieldName\":\"weAccessAddress\",\"isRepeat\":\"0\"},\"pointId\":\"257\",\"queryCriteria\":[]},\"calcNameKey\":\"fangwenliang20240918035650\"}]",
+        "calcRule":"[{\"calcName\":\"访问量\",\"unit\":\"次\",\"alarmId\":\"\",\"prePoint\":{\"calcField\":{\"fieldName\":\"weAccessAddress\",\"isRepeat\":\"4\"},\"pointId\":\"257\",\"queryCriteria\":[]},\"calcNameKey\":\"fangwenliang20240918035650\"}]",
         "sort": 28,
         "conversionCycle": 0,
         "groupByFlag": 1,

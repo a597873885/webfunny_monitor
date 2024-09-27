@@ -1,6 +1,8 @@
 const { Common } = require("../../controllers/controllers.js")
 
 module.exports = (router) => {
+  // 初始化接口
+  router.post('/initCf', Common.initCf);
  // 用户上传日志（h5）
  router.post('/upLog', Common.upLog);
  router.post('/upLogs', Common.upLogs);

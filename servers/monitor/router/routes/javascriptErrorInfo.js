@@ -69,6 +69,7 @@ module.exports = (router) => {
   router.post('/startAnalysisSourceCode', JavascriptErrorInfoController.startAnalysisSourceCode);
   // 上传map文件
   router.post('/uploadMapFile', JavascriptErrorInfoController.uploadMapFile);
+  router.post('/uploadSourceMap', JavascriptErrorInfoController.uploadSourceMap);
   // 根据版本号获取JS错误数量
   router.post('/getJsErrorCountByVersion', JavascriptErrorInfoController.getJsErrorCountByVersion);
   // 根据版本号获取JS错误数量,的相关详情

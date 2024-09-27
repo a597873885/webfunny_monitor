@@ -150,6 +150,14 @@ for (let i = 0; i < pathList.length; i ++) {
 }
 
 setTimeout(() => {
+  // 创建sourceMap目录
+  fs.mkdir(`${originPath}/views/wf_source_map`, function(err){
+    if ( err ) { 
+      console.log(`= 文件夹 /views/wf_source_map 已经存在`)
+    } else {
+      console.log(`= 创建文件夹 /views/wf_source_map`)
+    }
+  });
 
   for (let i = 0; i < pathList.length; i ++) {
     let tempPath = pathList[i]

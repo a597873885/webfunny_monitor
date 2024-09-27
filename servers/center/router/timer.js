@@ -19,7 +19,7 @@ module.exports = async () => {
         console.warn("  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝".cyan)
         console.warn(" ")
         console.warn(" ")
-        console.warn("webfunny基座应用启动成功！".yellow)
+        console.warn("应用中心启动成功...".yellow)
         console.warn("")
 
         setTimeout(() => {

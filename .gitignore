@@ -26,6 +26,7 @@ views/wf_center
 views/wf_monitor
 views/wf_event
 views/wf_logger
+views/wf_source_map
 schema_temp/
 alarm/
 sso/

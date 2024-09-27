@@ -171,6 +171,8 @@ const CENTER_API = {
 
 const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.centerServerPort}`
 
+const LOCAL_MONITOR_ASSETS = `http://127.0.0.1:${accountInfo.localAssetsPort}`
+
 const PROJECT_CONFIG = JSON.stringify({
     s: true,
     ia: [""], // 停止所有的监控
@@ -222,5 +224,6 @@ module.exports = {
     PROJECT_CONFIG,
     FLOW_TYPE,
     UP_LOG_TYPE,
-    LOCAL_SERVER
+    LOCAL_SERVER,
+    LOCAL_MONITOR_ASSETS
 }

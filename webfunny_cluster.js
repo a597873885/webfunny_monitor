@@ -70,7 +70,7 @@ const options = {
 /* gzip压缩配置 end */
 
 // 1.主页静态网页 把静态页统一放到public中管理
-const publicServer = server(path.resolve(__dirname, '') + '/views');
+const publicServer = server({dir: path.resolve(__dirname, '') + '/views', dynamic: true});
 // 2.重定向判断
 const redirect = ctx => {
   ctx.response.redirect('/wf_center/main.html')
