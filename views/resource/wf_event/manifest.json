@@ -1,0 +1,16 @@
+{
+  "app.css": "./app.d709d5f5ec8933f2bad4.css",
+  "app.js": "app.bcb94738.js",
+  "index.html": "index.html",
+  "src/assets/img/customer/index.scss": "src/assets/img/customer/customer_header_bg.webp",
+  "src/assets/img/dataView/animation.png": "src/assets/img/dataView/animation.png",
+  "src/assets/img/dataView/hotPer.png": "src/assets/img/dataView/hotPer.png",
+  "src/assets/img/dataView/hotValue.png": "src/assets/img/dataView/hotValue.png",
+  "src/assets/img/dataView/index.scss": "src/assets/img/dataView/warning.png",
+  "src/assets/img/task/no-task.png": "src/assets/img/task/no-task.png",
+  "src/modules/dataView/image/earth-chart.png": "src/modules/dataView/image/earth-chart.png",
+  "src/modules/dataView/image/heat-chart.png": "src/modules/dataView/image/heat-chart.png",
+  "src/modules/dataView/image/index.scss": "src/modules/dataView/image/no-card.png",
+  "src/modules/dataView/image/number-chart.png": "src/modules/dataView/image/number-chart.png",
+  "src/modules/dataView/image/words-chart.png": "src/modules/dataView/image/words-chart.png"
+}

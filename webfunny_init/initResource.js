@@ -182,7 +182,8 @@ setTimeout(() => {
     
     setTimeout(function() {
       console.log(`正在配置${tempPath}目录的域名，请稍等...`)
-      let jsPath = `${originPath}/views/${tempPath}/js`;
+      // let jsPath = `${originPath}/views/${tempPath}/js`;
+      let jsPath = `${originPath}/views/${tempPath}`;
       let files = fs.readdirSync(jsPath);
       for(let i = 0; i < files.length; i++){
         if ( !(files[i].indexOf(".js") >= 0 || files[i].indexOf(".html") >= 0) ) {

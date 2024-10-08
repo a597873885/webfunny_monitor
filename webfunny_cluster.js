@@ -61,19 +61,22 @@ function onListening() {
 const KoaStatic = require('koa');
 const appStatic = new KoaStatic();
 const server = require('koa-static-cache');
+const send = require('koa-send'); 
 /* gzip压缩配置 start */
 const compress = require('koa-compress');
 const path = require('path')
+const fs = require('fs')
 const options = { 
     threshold: 1024 //数据超过1kb时压缩
 };
 /* gzip压缩配置 end */
 
 // 1.主页静态网页 把静态页统一放到public中管理
-const publicServer = server({dir: path.resolve(__dirname, '') + '/views', dynamic: true});
+const originPath = path.resolve(__dirname, '') + '/views'
+const publicServer = server({dir: originPath, dynamic: true});
 // 2.重定向判断
-const redirect = ctx => {
-  ctx.response.redirect('/wf_center/main.html')
+const redirect = async(ctx) => {
+  ctx.response.redirect('/wf_center/main')
 };
 appStatic.use(async (ctx, next) => {
   ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
@@ -92,11 +95,26 @@ appStatic.use(async (ctx, next) => {
 // 3.分配路由
 appStatic.use(compress(options))
 appStatic.use(async (ctx, next) => {
-  if (ctx.url === '/' || ctx.url === '/wf_center/' || ctx.url === '/wf_event/' || ctx.url === '/wf_monitor/') {
+  if (ctx.url === '/' || ctx.url === '/wf_center/' || ctx.url === '/wf_event/' || ctx.url === '/wf_monitor/' || ctx.url === '/wf_logger/') {
     redirect(ctx)
-  } else {
-    await next()
   }
+
+  let templateHtml = '/wf_center/index.html'
+  if (ctx.url.startsWith("/wf_center/")) {
+    templateHtml = '/wf_center/index.html'
+  } else if (ctx.url.startsWith("/wf_event/")) {
+    templateHtml = '/wf_event/index.html'
+  } else if (ctx.url.startsWith("/wf_monitor/")) {
+    templateHtml = '/wf_monitor/index.html'
+  } else if (ctx.url.startsWith("/wf_logger/")) {
+    templateHtml = '/wf_logger/index.html'
+  }
+
+  if (!ctx.url.endsWith('/') && !ctx.url.match(/\.(js|css|png|jpg|jpeg|gif|svg|eot|ttf|woff|woff2)$/)) {  
+    ctx.type = 'html'; // 设置响应类型为 html  
+    ctx.body = fs.createReadStream(path.join(originPath, templateHtml));
+  }
+  await next()
 });
 appStatic.use(publicServer);
 appStatic.listen(fe);
