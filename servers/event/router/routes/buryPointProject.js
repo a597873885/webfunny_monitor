@@ -22,6 +22,7 @@ module.exports = (router) => {
   router.post('/buryPointProject/templateExport', BuryPointProjectController.exportTemplate);
   router.post('/buryPointProject/existTemplate', BuryPointProjectController.existTemplate);
   router.post('/buryPointProject/createWePointData', BuryPointProjectController.createWePointData);
+  router.post('/buryPointProject/saveNewProjectName', BuryPointProjectController.saveNewProjectName);
 
   // 查询项目流量开启状态
   router.post('/getFlowSwitch', BuryPointProjectController.getFlowSwitch)
