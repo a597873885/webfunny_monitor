@@ -111,8 +111,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                         monitorMasterUuidInDb = uuidRes[0].configValue
                     }
                 })
-                
+                console.log("准备发起告警", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
+                    console.log("将发起告警", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
                     // 检查警报规则是否出发
                     AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
                     // 更新webMonitorId到缓存中
