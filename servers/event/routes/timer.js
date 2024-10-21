@@ -70,6 +70,12 @@ module.exports = async () => {
                         }
                     })
                 }
+
+                // 每隔5分钟，清理一次接口缓存
+                if (minuteTimeStr.substring(1) == "0:00" || minuteTimeStr.substring(1) == "5:00") {
+                    console.log("定时器，清理接口缓存")
+                    global.eventInfo.apiDataCache = {}
+                }
                 
                 // 每小时的结束前，重新选举master
                 if (minuteTimeStr == "59:50") { 

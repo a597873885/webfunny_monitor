@@ -8,7 +8,11 @@ const statusCode = require('./utils/status-code')
 const auth = require('./middlreware/auth')
 const logger = require('./middlreware/logger')
 const sqlCheck = require('./middlreware/sqlCheck')
-const cacheData = require('./middlreware/cacheData')
+// const cacheData = require('./middlreware/cacheData')
+
+const apiCache = require('./servers/event/middlreware/apiCache')
+const apiCacheClean = require('./servers/event/middlreware/apiCacheClean')
+
 const loggerUpload = require('./middlreware/loggerUpload')
 const WebfunnyConfig = require('./webfunny.config')
 const { headers } = WebfunnyConfig.otherConfig.extraCors
@@ -41,8 +45,14 @@ app.use(bodyParser({
 // 防sql注入
 app.use(sqlCheck())
 
-// 缓存数据拦截
-app.use(cacheData())
+// // 缓存数据拦截
+// app.use(cacheData())
+
+// 缓存清理判断
+app.use(apiCacheClean())
+
+//公共缓存接口调用
+app.use(apiCache())
 
 // 错误日志拦截和上报
 app.use(logger())

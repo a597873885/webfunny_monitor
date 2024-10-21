@@ -6,6 +6,8 @@ const log = require("./config/log")
 let WebSocket = require("koa-websocket")
 const statusCode = require('./util/status-code')
 const auth = require('./middlreware/auth')
+const apiCache = require('./middlreware/apiCache')
+const apiCacheClean = require('./middlreware/apiCacheClean')
 const sqlCheck = require('./middlreware/sqlCheck')
 const app = WebSocket(new Koa())
 
@@ -49,6 +51,12 @@ app.use(async (ctx, next) => {
         ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
     }
 })
+
+// 缓存清理判断
+app.use(apiCacheClean())
+
+//公共缓存接口调用
+app.use(apiCache())
 
 // routes
 app.use(httpRoute.routes(), httpRoute.allowedMethods())
