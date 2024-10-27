@@ -10,9 +10,9 @@
   <a href="#开源协议"><img alt="GitHub" src="https://img.shields.io/github/license/a597873885/webfunny_monitor"></a>
 </p>
 
-<p style="text-align: center;"><a href="https://www.webfunny.com">官网地址</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.webfunny.com/des?desPath=guide/quickStart">文档地址</a></p>
-
 > Webfunny是一款集前端监控和埋点于一体的大数据分析系统。监控系统主要帮助开发者、测试工程师排查和解决线上的疑难杂症问题；埋点系统主要用于帮助分析师、产品经理分析业务数据，提高企业转化率。一个面向技术、一个面向业务，两者配合使用，效果最好。
+
+<p style="text-align: center;"><a href="https://www.webfunny.com">官网地址</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.webfunny.com/des?desPath=guide/quickStart">文档地址</a></p>
 
 ### Webfunny前端监控系统
 主要面向技术方向，帮助开发者、测试工程师、技术Leader了解应用的健康情况，优化应用的性能，以及排查和解决线上的疑难杂症问题；
