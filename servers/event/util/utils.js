@@ -731,6 +731,17 @@ const Utils = {
   },
 
   /**
+   * 判断是否为系统字段
+   */
+  checkIsSystemField(fieldName) {
+    const fieldParams = ["id", "wefirststepday_1", "wefirststepday_2", "wefirststepday_3", "wefirststepday_4",
+      "wefirstStepday_5", "wefirststepday_6", "wefirstStepday_7", "wefirststepday_8", "wefirstStepday_9", "wefirststepday_10",
+      "wecustomerkey", "weuserid", "weip", "weos", "wepath", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", "wecountry", "weprovince", "wecity", "createdat"]
+    const fieldNameConvert = fieldName.toString().toLowerCase()
+    return fieldParams.indexOf(fieldNameConvert) !== -1;
+  },
+
+  /**
    * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
    */
   // sendEmail: (email, subject, html, user, pass) => {

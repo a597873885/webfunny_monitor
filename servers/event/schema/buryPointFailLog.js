@@ -22,6 +22,12 @@ const Columns = {
       allowNull: true,
       field: 'projectId'
     },
+    // 2警告；-1异常
+    failType: {
+      type: DataTypes.INT(8),
+      allowNull: false,
+      field: 'failType'
+    },
     // 点位名称
     pointName: {
       type: DataTypes.STRING,
@@ -70,7 +76,7 @@ const Columns = {
   // 数据模型
   dataModel: "",
   // 指定分区Key
-  partition: "",
+  partition: "PARTITION BY toYYYYMMDD(createdAt)",
   // 排序规则
   orderBy: "ORDER BY (createdAt)",
   // 设置表属性

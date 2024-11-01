@@ -7,6 +7,8 @@ module.exports = (router) => {
   router.post('/buryPointTest/page', BuryPointTestController.getPageList);
   // 查询失败的
   router.post('/buryPointTest/page/error', BuryPointTestController.failList);
+  // 查询失败的
+  router.post('/buryPointTest/page/failOverView', BuryPointTestController.failOverView);
   // 点位查询
   router.post('/buryPointTest/search', BuryPointTestController.search);
   // api导出数据
