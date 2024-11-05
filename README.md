@@ -10,24 +10,45 @@
   <a href="#开源协议"><img alt="GitHub" src="https://img.shields.io/github/license/a597873885/webfunny_monitor"></a>
 </p>
 
-> Webfunny是一款集前端监控和埋点于一体的大数据分析系统。监控系统主要帮助开发者、测试工程师排查和解决线上的疑难杂症问题；埋点系统主要用于帮助分析师、产品经理分析业务数据，提高企业转化率。一个面向技术、一个面向业务，两者配合使用，效果最好。
+> Webfunny是一款集前端监控和埋点于一体的系统，非常轻量易用，纯私有化部署，只需要简单几步就可以搭建一套自己的监控埋点系统。
 
-<p style="text-align: center;"><a href="https://www.webfunny.com">官网地址</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.webfunny.com/des?desPath=guide/quickStart">文档地址</a></p>
-
-### Webfunny前端监控系统
-主要面向技术方向，帮助开发者、测试工程师、技术Leader了解应用的健康情况，优化应用的性能，以及排查和解决线上的疑难杂症问题；
+#### [Webfunny前端监控系统](https://www.webfunny.cn/webfunnyMonitor) 
+实时大屏、运营数据分析、前端错误分析、页面性能分析、接口性能分析、用户细查、用户连线。
 
 <p>
     <img width=800 src="https://www.webfunny.cn/resource/webfunny_home.png"/>
 </p>
 
-### Webfunny埋点系统
-主要面向业务方向，帮助分析师、产品经理、运营人员集采集、存储、分析、可视化于一体，快速分析业务数据，提高企业转化率。
+#### [Webfunny埋点系统](https://www.webfunny.cn/webfunnyEvent) 
+业务数据分析、多样的可视化看板、高度自由的字段和点位设计、SDK发布。数据分析、留存分析、转化率分析、漏斗分析。
 
 <p>
     <img width=800 src="https://www.webfunny.cn/resource/event_home.png?t=1"/>
 </p>
 
+
+### 本地安装
+
+1. 克隆到本地：`git clone https://github.com/a597873885/webfunny_monitor.git`
+
+2. 安装依赖包：`npm install && npm run bootstrap`
+
+3. 安装pm2(已有，请忽略)：`npm install pm2 -g`
+
+4. 运行程序：`npm run prd`
+
+5. 访问页面：`http://localhost:8008/webfunny_center/main.html`
+
+### 服务器安装
+[【私有化部署教程】](https://www.webfunny.com/desMonitor)
+
+### Docker 安装
+[【docker部署教程】](https://www.webfunny.com/desMonitor?blogUrl=128&menuKey=menu2&blogKey=2-0)
+
+### 历史版本  
+[【版本】](https://www.webfunny.com/version)
+ 
+   
 ### 官方客服微信
 
    微信号：webfunny2

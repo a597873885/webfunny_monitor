@@ -13,6 +13,7 @@ const noticeTemplateRouter = require('./noticeTemplate')
 const alarmRuleRouter = require('./alarmRule')
 const alarmOverviewRouter = require('./alarmOverview')
 const orderInfoRouter = require('./orderInfo')
+const menuPermissionsRouter = require('./menuPermissions')
 
 const createRouter = (router) => {
   applicationConfigRouter(router)
@@ -30,6 +31,7 @@ const createRouter = (router) => {
   alarmRuleRouter(router)
   alarmOverviewRouter(router)
   orderInfoRouter(router)
+  menuPermissionsRouter(router)
 }
 
 module.exports = {
