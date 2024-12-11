@@ -54,7 +54,7 @@ module.exports = function () {
 
                     // 如果内存中有数据，并且参数相同，则直接返回内存中结果
                     if (global.eventInfo.apiDataCache[apiCacheKey] && global.eventInfo.apiDataCache[apiCacheKey].param === Utils.b64EncodeUnicode(paramStr)) {
-                        console.log("取出缓存结果：")
+                        console.log("取出缓存结果：", global.eventInfo.apiDataCache[apiCacheKey].data)
                         ctx.response.status = 200;
                         ctx.body = statusCode.SUCCESS_200('success', global.eventInfo.apiDataCache[apiCacheKey].data)
                         return

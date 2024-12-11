@@ -116,4 +116,23 @@ module.exports = [
         "groupByFlag": 1,
         "weType": 1
     },
+    {
+        "fieldName": "weHappenHour",
+        "fieldAlias": "发生小时",
+        "fieldType": "VARCHAR",
+        "fieldLength": 4,
+        "fieldDesc": "发生小时",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weHappenMinute",
+        "fieldAlias": "发生分钟",
+        "fieldType": "VARCHAR",
+        "fieldLength": 4,
+        "fieldDesc": "发生分钟",
+        "groupByFlag": 1,
+        "weType": 1
+    },
 ]
+

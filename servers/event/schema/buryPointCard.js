@@ -88,12 +88,13 @@ const BuryPointCard = function (sequelize, DataTypes) {
     allowNull: true,
     field: 'alarmStatus'
    },
-  // 卡片是否T+1分析：0-否，1-是:默认1
-  tradePlusOneFlag: {
+   // 卡片是否T+1分析：0-否，1-是:默认1
+   tradePlusOneFlag: {
     type: DataTypes.INTEGER(1),
     allowNull: false,
+    defaultValue: '1',
     field: 'tradePlusOneFlag'
-  },
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING(200),

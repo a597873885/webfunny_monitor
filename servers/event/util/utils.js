@@ -33,13 +33,7 @@ const Utils = {
     }
     return macAddress
   },
-  postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
-    const method = "POST"
-    const body = JSON.stringify(params)
-    const fetchParams = Object.assign({}, { method, body}, this.getHeadersJson())
-    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
-  },
-  handleDateResult: function(result, scope = 30) {
+  handleDateResult: function(result, scope = 30, endDate = new Date().Format("yyyy-MM-dd 00:00:00")) {
     function addDate(date, days) {
       var d=new Date(date);
       d.setDate(d.getDate()+days);
@@ -52,18 +46,71 @@ const Utils = {
     }
     var newResult = [];
     for (var i = 0; i < scope; i ++) {
-      var tempDate = addDate(new Date(), -i);
-      var tempObj = {day: tempDate.substring(5, 10), count: 0, loadTime: 0};
+      var tempDate = addDate(new Date(endDate), -i);
+      var tempObj = {day: tempDate.substring(5, 10), count: 0, loadTime: 0, date: tempDate};
       for (var j = 0; j < result.length; j ++) {
         if (tempDate === result[j].day) {
           tempObj.count = result[j].count;
           tempObj.loadTime = result[j].loadTime ? result[j].loadTime : 0;
-          continue;
+          break;
         }
       }
       newResult.push(tempObj);
     }
     return newResult.reverse();
+  },
+  handleHourResult: function(result, day = 0) {
+    const dayStr = Utils.addDays(0 - day).substring(5)
+    const newResult = []
+    for (let i = 0; i < 24; i ++) {
+      let hourStr = ""
+      if (i < 10) {
+        hourStr = "0" + i
+      } else {
+        hourStr = "" + i
+      }
+      const tempHour = dayStr + " " + hourStr
+      const resArray = result.filter((item) => {
+        return item.hour === tempHour
+      })
+      if (resArray.length && tempHour === resArray[0].hour) {
+        const hourStr = resArray[0].hour.split(" ")[1] + ":00"
+        newResult.push({
+          hour: hourStr,
+          count: resArray[0].count
+        })
+      } else {
+        const hourStr = tempHour.split(" ")[1] + ":00"
+        newResult.push({
+          hour: hourStr,
+          count: 0
+        })
+      }
+    }
+    
+    return newResult
+  },
+  handleMinuteResult: function(result, hourName) {
+    const newResult = []
+    for (let i = 0; i < 60; i ++) {
+      const tempMinute = hourName + ":" + (i < 10 ? "0" + i : i + "")
+      const resArray = result.filter((item) => {
+        return item.minutes === tempMinute
+      })
+      if (resArray.length && tempMinute === resArray[0].minutes) {
+        newResult.push({
+          minutes: resArray[0].minutes.substring(11, 16),
+          count: resArray[0].count
+        })
+      } else {
+        newResult.push({
+          minutes: tempMinute.substring(11, 16),
+          count: 0
+        })
+      }
+    }
+    
+    return newResult
   },
   addDays: function(dayIn) {
     var CurrentDate
@@ -150,6 +197,9 @@ const Utils = {
   },
   b64EncodeUnicode: function(tempStr) {
     const str = encodeURIComponent(tempStr)
+    // return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+    //   return String.fromCharCode("0x" + p1)
+    // }))
     return base64encode(str)
   },
   b64DecodeUnicode: function(str) {
@@ -188,8 +238,8 @@ const Utils = {
       return encryptString
     }
   },
-  setTableName(name, day) {
-    return name + new Date(new Date().getTime() + (86400000 * (day))).Format("yyyyMMdd")
+  setTableName(name) {
+    return name + new Date().Format("yyyyMMdd")
   },
   setTableNameList(name) {
     const timeStamp = new Date().getTime()
@@ -264,6 +314,12 @@ const Utils = {
     const method = "POST"
     const body = JSON.stringify(params)
     const fetchParams = Object.assign({}, { method, body }, this.getHeadersJson())
+    return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
+  },
+  postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
+    const method = "POST"
+    const body = JSON.stringify(params)
+    const fetchParams = Object.assign({}, { method, body}, this.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
   handleFetchData(fetchUrl, fetchParams, httpCustomerOperation) {
@@ -349,20 +405,36 @@ const Utils = {
     return Object.assign({}, { headers })
   },
   /**
+   * img上报日志转JOSN
+   *
+   */
+  logParseImgData(queryStr) {
+    if (!queryStr) return []
+    const tempLogArray = queryStr.split("$$$")
+    const logArray = []
+    tempLogArray.forEach((item) => {
+      if (item) {
+        try {
+          logArray.push(item)
+        } catch(e) {
+        }
+      }
+    })
+    return logArray
+  },
+  /**
    * 日志转JOSN
    *
    */
-  logParseJson(dataStr) {
-    // 如果数据为空，或者已经是对象，则原路返回
-    if (!dataStr || typeof dataStr === "object") return dataStr
-    let finalRes = ""
-    try {
-      finalRes = JSON.parse(dataStr)
-    } catch(e) {
-      log.printError(e)
-      finalRes = dataStr
+  logParseJson(data) {
+    if (!data) return []
+    const paramStr = data.replace(/": Script error\./g, "script error").replace(/undefined\{/g, "{")
+    const param = JSON.parse(paramStr)
+    const { logInfo } = param
+    if (!logInfo) {
+      return []
     }
-    return finalRes
+    return logInfo.split("$$$")
   },
 
   /**
@@ -428,265 +500,58 @@ const Utils = {
     }
     return temp;
   },
-
   /**
-   * 时间按照每天每隔切分，返回时间list
-   * 开始时间：startDate
-   * 结束时间：endDate
-   * 分钟：amount
+   * 获取一天所有的分钟
    */
-  splitDate(startDate, endDate) {
-    var startTime = new Date(startDate),
-     endTime = new Date(endDate);
-    var difftime = (endTime - startTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
-    var temp = [];
-    for (var i = 0; i < days; i++) {
-      startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
-      temp[i] = new Date(startTime.getTime());
-      temp[i] = temp[i].Format("MM-dd")  //分割天
-      // console.log(temp[i].format('hh:mm'))
+  getAllMinutesForDay(day) {
+    let minutes = []
+    let start = new Date(day + " 00:00:00").getTime()
+    for (let i = 0; i < 1440; i ++) {
+      minutes.push(new Date(start + i * 60 * 1000).Format("hh:mm"))
     }
-    return temp;
+    return minutes;
   },
-
-   /**
-   * 时间按照每天每隔切分，返回时间倒序list
-   * 开始时间：startDate
-   * 结束时间：endDate
-   * 分钟：amount
+  /**
+   * 获取时间范围内所有的小时
    */
-   splitDescDate(startDate, endDate) {
-    var endTime= new Date(startDate),
-    startTime = new Date(endDate);
-    var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
-    startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000)
-    var temp = [];
-    for (var i = 0; i < days; i++) {
-      startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
-      temp[i] = new Date(startTime.getTime());
-      temp[i] = temp[i].Format("MM-dd")  //分割天
-      // console.log(temp[i].format('hh:mm'))
+  getAllHoursForDay(startTime, endTime) {
+    const hourCount = (endTime - startTime) / (3600 * 1000)
+    let hours = []
+    for (let i = 0; i <= hourCount; i ++) {
+      hours.push(new Date(startTime + i * 3600 * 1000).Format("yyyy-MM-dd hh"))
     }
-    return temp;
+    return hours;
+  },
+  /**
+   * 获取时间范围内所有的日期
+   */
+  getAllDayForScope(startDate, endDate) {
+    if (startDate === endDate) return [startDate]
+    if (startDate > endDate) return []
+    let days = []
+    let tempStartDate = startDate
+    while(tempStartDate <= endDate) {
+      days.push(tempStartDate)
+      tempStartDate = new Date(new Date(tempStartDate).getTime() + 24 * 3600 * 1000).Format("yyyy-MM-dd")
+    }
+    return days;
   },
 
   /**
-   * 中文转符号
-   * 大于等于转 >=
+   * 通过webfunny系统发送邮件
    */
-  convertOper(str) {
-    let newStr;
-    switch(str) {
-      // case "有值":
-      //   newStr = "is not null"
-      // break 
-      // case "没值":
-      //   newStr = "is null"
-      // break
-      case "为空":
-        newStr = "is null"
-      break
-      case "不为空":
-        newStr = "is not null"
-      break
-      case "包含":
-        newStr = "in"
-      break
-      case "不包含":
-        newStr = "not in"
-      break
-      case "区间":
-        newStr = ""
-      break
-      case "大于":
-        newStr = ">"
-      break
-      case "大于等于":
-        newStr = ">="
-      break
-      case "小于":
-        newStr = "<"
-      break
-      case "小于等于":
-        newStr = "<="
-      break
-      case "等于":
-        newStr = "="
-      break
-      case "不等于":
-        newStr = "!="
-      break
-      case "归类":
-        newStr = "group by"
-      break
-      default:
-        break
-    }
-    return newStr;
-  },
- /**
-   * 中文转符号，生成sql
-   * 大于等于转 >=
-   */
- convertOperationSql(fieldName, rule, valueStr) {
-  let str = rule
-    let tempValueStr = ""
-    if (rule === "包含" || rule === "不包含" ) {
-      let valArray = valueStr.split(",")
-      let valInStr = ""
-      valArray.forEach((val) => {
-        if(rule === "包含"){
-          valInStr += ` ${fieldName} like '%${val}%' or `
-        }else if(rule === "不包含"){
-          valInStr += ` ${fieldName} not like '%${val}%' and`
+  sendWfEmail: (email, title, content) => {
+    fetch("http://www.webfunny.cn/config/sendEmail",
+      {
+        method: "POST", 
+        body: JSON.stringify({email, title, content}),
+        headers: {
+            "Content-Type": "application/json;charset=utf-8"
         }
-      })
-      if (valInStr.length > 0) {
-        valInStr = valInStr.substring(0, valInStr.length - 3)//去掉最后一个or或者and
-      }
-      tempValueStr = ` (${valInStr}) `
-    } else {
-        tempValueStr = "'" + valueStr + "' "
-    }
-    let valueStrSql = valueStr ? tempValueStr : ""
-
-    let newStr;
-    let sql = ""
-    switch(str) {
-      case "为空":
-        newStr = " is null "
-        sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
-      break
-      case "不为空":
-        newStr = " is not null "
-        sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
-      break
-      case "包含":
-        // newStr = " like "
-        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-        sql = ` ${valueStrSql}`
-      break
-      case "不包含":
-        // newStr = " not like "
-        // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-        sql = ` ${valueStrSql}`
-      break
-      case "区间":
-        newStr = ""
-      break
-      case "大于":
-        newStr = ">"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "大于等于":
-        newStr = ">="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "小于":
-        newStr = "<"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "小于等于":
-        newStr = "<="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "等于":
-        newStr = "="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "不等于":
-        newStr = "!="
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "归类":
-        newStr = "group by"
-        sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
-      case "模糊匹配":
-        newStr = "like"
-        sql = ` ${fieldName} ${newStr} %${valueStrSql}%`
-      break
-      default:
-        break
-    }
-    return sql
-},
-
-  /**
-   * 字段类型转换
-   * String , Number
-   */
-  convertFieldType(str) {
-    let newStr;
-    switch(str) {
-      case "VARCHAR":
-      case "varchar":
-        newStr = "String"
-        break
-      case "INT":
-      case "int":
-      case "BIGINT":
-      case "bigint":
-      case "FLOAT":
-      case "float":
-        newStr = "Number"
-        break
-      default:
-        break
-    }
-    return newStr;
+    }).catch((e) => {
+      console.log(e)
+    })
   },
-
-   /**
-   * 且或转换
-   * String , Number
-   */
-  convertAndOr(str) {
-    let newStr;
-    switch(str) {
-      case "a":
-        newStr = "and"
-        break
-      case "o":
-        newStr = "or"
-        break
-      default:
-        newStr = "and"
-        break
-    }
-    return newStr;
-  },
-  checkFieldNameValid(fieldName){
-    const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
-    "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
-    "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
-    const fieldNameConvert = fieldName.toString().toLowerCase()
-    //存在一样的返回false
-    return fieldParams.indexOf(fieldNameConvert)===-1;
-  },
-
-  /**
-   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
-   */
-  // sendEmail: (email, subject, html, user, pass) => {
-  //   const company = "webfunny.cn"
-  //   let transporter = nodemailer.createTransport({
-  //     host: "smtp.163.com",
-  //     port: 465,
-  //     secure: true, // true for 465, false for other ports
-  //     auth: { user,pass }
-  //   });
-  //   // send mail with defined transport object
-  //   transporter.sendMail({
-  //     from: "'" + company + "' <" + user + ">", // sender address
-  //     to: email, // list of receivers
-  //     subject: subject, // Subject line
-  //     text: html, // plain text body
-  //     html: html // html body
-  //   });
-  // },
   getUuid() {
     return uuid.v1()
   },
@@ -706,35 +571,6 @@ const Utils = {
     }).catch(error => {
       console.log(error.msg)
     })
-  },
-  pinYinToHump(pinyin){
-    let fieldName = '';
-    //TODO 如果是含有数字1、2这种，转成英文数字one、two...
-    //1、"用户id"转成拼音yong_hu_id;
-    //如果是英文，就会全都转成小写了，例如输入userName变成了username
-    //如果是英文，就直接返回，不处理
-    if((/^[A-Za-z]+$/.test(pinyin))){
-      return pinyin;
-    }
-    let fieldNamePinyin = slugify(pinyin);
-    if (fieldNamePinyin === 'show' || fieldNamePinyin === 'SHOW' ){
-      fieldName = 'newShow';
-      return fieldName; 
-    }
-    //2、按-分割
-    let fieldNameArr = fieldNamePinyin.split("-");
-    if(fieldNameArr.length > 1){
-        fieldName = fieldName + fieldNameArr[0];
-        for(let i=1;i<fieldNameArr.length;i++){
-            //3、找到第一个字母转大写，然后拼接上
-            let firstNameInfo = fieldNameArr[i].substr(0,1).toUpperCase();
-            let secondNameInfo = fieldNameArr[i].substr(1,fieldNameArr[i].length);
-            fieldName = fieldName + firstNameInfo + secondNameInfo;
-        }
-    }else {
-        fieldName = fieldNamePinyin;
-    }
-    return fieldName;
   },
   // 获取双协议结果
   async requestForTwoProtocol(method = "post", url, param) {
@@ -767,56 +603,6 @@ const Utils = {
       }
       return protocolRes
     }
-  },
-  equalsObj(oldData,newData){
-    // 类型为基本类型时,如果相同,则返回true
-    if(oldData === newData) return true;
-    if(this.isObject(oldData)&&this.isObject(newData)&&Object.keys(oldData).length === Object.keys(newData).length){
-        // 类型为对象并且元素个数相同
-
-        // 遍历所有对象中所有属性,判断元素是否相同
-        for (const key in oldData) {
-            if (oldData.hasOwnProperty(key)) {
-                if(!this.equalsObj(oldData[key],newData[key]))
-                    // 对象中具有不相同属性 返回false
-                    return false;
-            }
-        }
-    }else if(this.isArray(oldData)&&this.isArray(oldData)&&oldData.length===newData.length){
-        // 类型为数组并且数组长度相同
-
-        for (let i = 0,length=oldData.length; i <length; i++) {
-            if(!this.equalsObj(oldData[i],newData[i]))
-            // 如果数组元素中具有不相同元素,返回false
-            return false;
-        }
-    }else{
-        // 其它类型,均返回false
-        return false;
-    }
-    // 走到这里,说明数组或者对象中所有元素都相同,返回true
-    return true;
-  },
-  //比较list
-  getArrDifference : (arr1, arr2) => {
-    return arr1.concat(arr2).filter((v, i, arr) => {
-      return arr.indexOf(v) === arr.lastIndexOf(v);
-    })
-  },
-   /**
-   * 通过webfunny系统发送邮件
-   */
-   sendWfEmail: (email, title, content) => {
-    fetch("http://www.webfunny.cn/config/sendEmail",
-      {
-        method: "POST", 
-        body: JSON.stringify({email, title, content}),
-        headers: {
-            "Content-Type": "application/json;charset=utf-8"
-        }
-    }).catch((e) => {
-      console.log(e)
-    })
   },
 }
 

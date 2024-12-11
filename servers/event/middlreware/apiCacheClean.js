@@ -15,6 +15,7 @@ const apiPaths = [
 module.exports = function () {
     return async function (ctx, next) {
         try {
+
             const { url, request } = ctx
 
             let isClearCache = false
