@@ -15,41 +15,23 @@ const Columns = {
       allowNull: true,
       field: 'happenDate'
     },
-    // 项目ID
-    projectId: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      field: 'projectId'
-    },
-    // url 访问地址
-    url: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      field: 'url'
-    },
-    // 追踪id
-    traceId: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      field: 'traceId'
-    },
     // 用户ID
     userId: {
       type: DataTypes.STRING,
       allowNull: true,
       field: 'userId'
     },
-    // 标签信息
-    tags: {
+    // 第二特征id
+    secondId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'tags'
+      field: 'secondId'
     },
-    // 其他信息
-    others: {
+    // 第三特征信息
+    thirdInfo: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'others'
+      field: 'thirdInfo'
     },
     /**
      * 日志级别
@@ -62,10 +44,10 @@ const Columns = {
      * fatal - 严重错误，导致程序中断或者无法运行
      * off - 用于关闭所有日志记录
      */
-    level: {
+    logLevel: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'level'
+      field: 'logLevel'
     },
     // 日志缩略信息
     message: {
@@ -73,14 +55,20 @@ const Columns = {
       allowNull: true,
       field: 'message'
     },
+    // 标签信息
+    tags: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'tags'
+    },
     // 日志内容
     content: {
       type: DataTypes.STRING,
       allowNull: true,
       field: 'content'
     },
-    // 用户的IP
-    monitorIp: {
+     // 用户的IP
+     monitorIp: {
       type: DataTypes.STRING,
       allowNull: true,
       field: 'monitorIp'

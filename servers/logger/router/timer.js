@@ -1,5 +1,5 @@
 // const Common = require('../controllers/common')
-const { Common } = require("../controllers/controllers")
+const { Common, LogProjectController } = require("../controllers/controllers")
 const TimerUtil = require("../util/timer")
 // const log = require("../config/log");
 const AccountConfig = require("../config/AccountConfig");
@@ -30,9 +30,10 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     /**
      * 2秒后开始进行第一次分析
      * */
-    // setTimeout(() => {
-
-    // }, 20000)
+    setTimeout(() => {
+        // 检查是否有系统日志项目
+        LogProjectController.checkSysProject()
+    }, 20000)
     // Common.consoleLogo()
     
     /** * 定时任务  开始 */

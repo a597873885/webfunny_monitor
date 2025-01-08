@@ -7,8 +7,8 @@ const Columns = {
     id: {
       type: DataTypes.UUID,
       allowNull: false,
-      field: 'id',
-      defaultValue: DataTypes.UUIDV4
+      field: 'id'
+      // defaultValue: DataTypes.UUIDV4
     },
     // 项目id
     projectId: {
@@ -23,16 +23,16 @@ const Columns = {
       field: 'pointId'
     },
     // 来源点位
-    sourcePointId: {
+    weRelationPointId: {
       type: DataTypes.STRING,
       allowNull: false,
-      field: 'sourcePointId'
+      field: 'weRelationPointId'
     },
      // 来源点位统计
-     sourcePointCount: {
+     weRelationPointCount: {
       type: DataTypes.INT(64),
       allowNull: false,
-      field: 'sourcePointCount'
+      field: 'weRelationPointCount'
     },
     // 创建时间
     createdAt: {
@@ -58,17 +58,17 @@ const Columns = {
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true
   },
-  engine: "ENGINE SummingMergeTree(projectId,pointId,sourcePointId)",
+  engine: "ENGINE SummingMergeTree((weRelationPointCount))",
   // 创建索引Sql
   indexSql: "",
   // 数据模型
   dataModel: "",
   // 指定分区Key
-  partition: "",
+  partition: "PARTITION BY toYYYYMMDD(createdAt)",
   // 排序规则
-  orderBy: "ORDER BY (ID)",
+  orderBy: "ORDER BY (pointId,weRelationPointId)",
   // 设置表属性
-  properties: "SUMMING COLUMN(sourcePointCount)"
+  // properties: "SUMMING COLUMN(sourcePointCount)"
 }
 const DefineTable = function (sequelize) {
   return sequelize.define(Columns.tableName, Columns.structure, Columns.index)

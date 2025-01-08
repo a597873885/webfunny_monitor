@@ -29,7 +29,8 @@ module.exports = function () {
           let errorRes = ""
           let errorMsg = "服务器异常，请检查 logs/error 目录下日志文件"
           if (otherConfig.uploadServerErrorToWebfunny === true) {
-            loggerUpload({
+            loggerUpload.trace({
+              projectId: "webfunny_log_sys",
               url,
               error,
               traceId: wfTraceId

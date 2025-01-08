@@ -116,4 +116,59 @@ module.exports = [
         "groupByFlag": 1,
         "weType": 1
     },
+    {
+        "fieldName": "weHappenTime",
+        "fieldAlias": "发生时间",
+        "fieldType": "VARCHAR",
+        "fieldLength": 20,
+        "fieldDesc": "点位发生的时间，格式：yyyy-mm-dd hh:mm:ss",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weHappenDate",
+        "fieldAlias": "发生天",
+        "fieldType": "VARCHAR",
+        "fieldLength": 20,
+        "fieldDesc": "点位发生的日期，格式：yyyy-mm-dd",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weHappenHour",
+        "fieldAlias": "发生小时",
+        "fieldType": "VARCHAR",
+        "fieldLength": 20,
+        "fieldDesc": "点位发生的小时，格式：hh",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weHappenMinute",
+        "fieldAlias": "发生分钟",
+        "fieldType": "VARCHAR",
+        "fieldLength": 20,
+        "fieldDesc": "点位发生的分钟，格式：hh:mm",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weRelationPointId",
+        "fieldAlias": "来源点位",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "来源点位",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weRelationField",
+        "fieldAlias": "来源字段",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "来源字段",
+        "groupByFlag": 1,
+        "weType": 1
+    },
 ]
+

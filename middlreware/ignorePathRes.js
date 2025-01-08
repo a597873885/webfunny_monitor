@@ -23,6 +23,11 @@ module.exports = [
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
     "/buryPointCard/getHeatMapPerData", "/wfMonitor/getLogCountInfoByDay", "/buryPointVisualTracking/create",
 
+    // logger
+    "/wfLog/upLogs", "/wfLog/upErrLogs",
+
     // walkingfunny 过滤登录校验
     "/walkingfunnyWithoutLogin/",
+
+
 ]

@@ -1,6 +1,9 @@
 {
-  "app.css": "./app.e10609a8dc42fa87aa63.css",
-  "app.js": "app.4c9b5139.js",
+  "app.css": "./app.44fbfb70d8db1cda8fc0.css",
+  "app.js": "app.708f79a5.js",
   "index.html": "index.html",
-  "src/assets/img/customer/index.scss": "src/assets/img/customer/customer_header_bg.webp"
+  "src/assets/img/customer/index.scss": "src/assets/img/customer/customer_header_bg.webp",
+  "src/assets/img/logo/apm_logo.png": "src/assets/img/logo/apm_logo.png",
+  "src/assets/img/logo/apm_logo_dark.png": "src/assets/img/logo/apm_logo_dark.png",
+  "src/assets/img/logo/oneApm_logo.png": "src/assets/img/logo/oneApm_logo.png"
 }

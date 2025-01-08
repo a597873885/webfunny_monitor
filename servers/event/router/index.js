@@ -33,6 +33,7 @@ global.eventInfo = {
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
     logInfoQueue: {}, // 存放日志队列的对象
+    relationQueue: {}, // 点位关系队列
     tokenListInMemory: {}, //内存中的token列表 
     calculateFlowData: {}, // 存储流量数据
     pointAndFields: [], // 存放点位下的字段信息

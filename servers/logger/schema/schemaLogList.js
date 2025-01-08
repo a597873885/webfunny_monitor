@@ -1,4 +1,4 @@
 module.exports = [
-    "../schema/logInfos",
+    "../schema/traceData",
     "../schema/logData",
 ]

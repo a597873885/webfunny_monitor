@@ -12,6 +12,7 @@ module.exports = (router) => {
   router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
   router.post('/buryPointCard/update', BuryPointCardController.update);
   router.get('/buryPointCard/detail', BuryPointCardController.detail);
+  router.get('/buryPointCard/getCardQuery', BuryPointCardController.getCardQuery);
   router.post('/buryPointCard/sort', BuryPointCardController.sort);
   router.post('/buryPointCard/order', BuryPointCardController.order);
   router.post('/buryPointCard/refresh', BuryPointCardController.refresh);

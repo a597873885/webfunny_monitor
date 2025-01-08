@@ -18,17 +18,17 @@ const Utils = {
   isObject(obj) {
     return (Object.prototype.toString.call(obj) == '[object Object]');
   },
-  guid: function() {
+  guid: function () {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
-      var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
       return v.toString(16);
     });
   },
-  getMac: function() {
+  getMac: function () {
     let macAddress = ""
     try {
       macAddress = getmac.default()
-    } catch(e) {
+    } catch (e) {
       macAddress = "unknown"
     }
     return macAddress
@@ -36,25 +36,25 @@ const Utils = {
   postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "POST"
     const body = JSON.stringify(params)
-    const fetchParams = Object.assign({}, { method, body}, Utils.getHeadersJson())
+    const fetchParams = Object.assign({}, { method, body }, Utils.getHeadersJson())
     return Utils.handleFetchData(url, fetchParams, httpCustomerOperation)
   },
-  handleDateResult: function(result, scope = 30) {
+  handleDateResult: function (result, scope = 30) {
     function addDate(date, days) {
-      var d=new Date(date);
-      d.setDate(d.getDate()+days);
-      var month = d.getMonth()+1;
-      var m= month >= 10 ? month : '0' + month;
+      var d = new Date(date);
+      d.setDate(d.getDate() + days);
+      var month = d.getMonth() + 1;
+      var m = month >= 10 ? month : '0' + month;
       var day = d.getDate();
       var dayValue = day >= 10 ? day : '0' + day;
       // return d.getFullYear() + '-' + m + '-' + dayValue;
       return d.getFullYear() + '-' + m + '-' + dayValue;
     }
     var newResult = [];
-    for (var i = 0; i < scope; i ++) {
+    for (var i = 0; i < scope; i++) {
       var tempDate = addDate(new Date(), -i);
-      var tempObj = {day: tempDate.substring(5, 10), count: 0, loadTime: 0};
-      for (var j = 0; j < result.length; j ++) {
+      var tempObj = { day: tempDate.substring(5, 10), count: 0, loadTime: 0 };
+      for (var j = 0; j < result.length; j++) {
         if (tempDate === result[j].day) {
           tempObj.count = result[j].count;
           tempObj.loadTime = result[j].loadTime ? result[j].loadTime : 0;
@@ -65,7 +65,7 @@ const Utils = {
     }
     return newResult.reverse();
   },
-  addDays: function(dayIn) {
+  addDays: function (dayIn) {
     var CurrentDate
     var date = new Date();
     var myDate = new Date(date.getTime() + dayIn * 24 * 60 * 60 * 1000);
@@ -112,7 +112,7 @@ const Utils = {
     const result = {}
     if (index === -1) return result
     const arr = s.substr(index + 1).split("&")
-    arr.forEach(function(item) {
+    arr.forEach(function (item) {
       const equals = item.split("=")
       let key = decodeURIComponent(equals[0])
       const val = decodeURIComponent(equals[1] || "")
@@ -141,27 +141,27 @@ const Utils = {
     const tempStr = s.replace(/ /g, "")
     const sArr = tempStr.split(";")
     const tempObj = {}
-    for (let i = 0; i < sArr.length; i ++) {
+    for (let i = 0; i < sArr.length; i++) {
       const key = sArr[i].split("=")[0]
       const value = sArr[i].split("=")[1]
       tempObj[key] = value
     }
     return tempObj
   },
-  b64EncodeUnicode: function(tempStr) {
+  b64EncodeUnicode: function (tempStr) {
     const str = encodeURIComponent(tempStr)
     return base64encode(str)
   },
-  b64DecodeUnicode: function(str) {
+  b64DecodeUnicode: function (str) {
     try {
-      return decodeURIComponent(decodeURIComponent(myAtob(str).split('').map(function(c) {
+      return decodeURIComponent(decodeURIComponent(myAtob(str).split('').map(function (c) {
         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
       }).join('')));
     } catch (e) {
       return str
     }
   },
-  md5Encrypt: function(encryptString) {
+  md5Encrypt: function (encryptString) {
     // try {
     //   let hash = crypto.createHash('md5');
     //   return hash.update(encryptString).digest('base64');
@@ -170,20 +170,20 @@ const Utils = {
     // }
     return encryptString
   },
-  md5: function(encryptString) {
+  md5: function (encryptString) {
     try {
       let hash = crypto.createHash('md5');
       return hash.update(encryptString).digest('base64');
-    } catch(e) {
+    } catch (e) {
       console.log(e)
       return encryptString
     }
   },
-  md5Hex: function(encryptString) {
+  md5Hex: function (encryptString) {
     try {
       let hash = crypto.createHash('md5');
       return hash.update(encryptString).digest('hex');
-    } catch(e) {
+    } catch (e) {
       console.log(e)
       return encryptString
     }
@@ -196,29 +196,29 @@ const Utils = {
     return name + timeStamp
   },
   quickSortForObject(arr, key, begin, end) {
-    if(begin > end) return
+    if (begin > end) return
 
     let tempValue = arr[begin][key]
     let tmp = arr[begin]
     let i = begin
     let j = end
-    while(i != j){
-        while(arr[j][key] >= tempValue && j > i) {
-          j--
-        }
-        while(arr[i][key] <= tempValue && j > i) {
-          i++
-        }
-        if(j > i){
-            let t = arr[i];
-            arr[i] = arr[j];
-            arr[j] = t;
-        }
+    while (i != j) {
+      while (arr[j][key] >= tempValue && j > i) {
+        j--
+      }
+      while (arr[i][key] <= tempValue && j > i) {
+        i++
+      }
+      if (j > i) {
+        let t = arr[i];
+        arr[i] = arr[j];
+        arr[j] = t;
+      }
     }
     arr[begin] = arr[i];
     arr[i] = tmp;
-    Utils.quickSortForObject(arr, key, begin, i-1);
-    Utils.quickSortForObject(arr, key, i+1, end);
+    Utils.quickSortForObject(arr, key, begin, i - 1);
+    Utils.quickSortForObject(arr, key, i + 1, end);
   },
   toFixed(tempNum, s) {
     let num = tempNum
@@ -358,8 +358,8 @@ const Utils = {
     let finalRes = ""
     try {
       finalRes = JSON.parse(dataStr)
-    } catch(e) {
-      log.printError("上报日志转JSON报错",e)
+    } catch (e) {
+      log.printError("上报日志转JSON报错", e)
       finalRes = dataStr
     }
     return finalRes
@@ -417,8 +417,8 @@ const Utils = {
    */
   splitTime(startDate, endDate, amount) {
     var startTime = new Date(startDate),
-	   endTime = new Date(endDate),
-    gap = (endTime - startTime) / amount;
+      endTime = new Date(endDate),
+      gap = (endTime - startTime) / amount;
     var temp = [];
     for (var i = 0; i < amount; i++) {
       startTime.setMilliseconds(startTime.getMilliseconds() + gap);
@@ -437,9 +437,9 @@ const Utils = {
    */
   splitDate(startDate, endDate) {
     var startTime = new Date(startDate),
-     endTime = new Date(endDate);
-    var difftime = (endTime - startTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+      endTime = new Date(endDate);
+    var difftime = (endTime - startTime) / 1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime / 86400); // 天  24*60*60*1000
     var temp = [];
     for (var i = 0; i < days; i++) {
       startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
@@ -459,14 +459,14 @@ const Utils = {
    */
   splitYMDDate(startDate, endDate) {
     var startTime = new Date(startDate),
-     endTime = new Date(endDate);
-    var difftime = (endTime - startTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+      endTime = new Date(endDate).getTime() + 24 * 60 * 60 * 1000
+    var difftime = (endTime - startTime) / 1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime / 86400); // 天  24*60*60*1000
     var temp = [];
     for (var i = 0; i < days; i++) {
-      startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
       temp[i] = new Date(startTime.getTime());
       temp[i] = temp[i].Format("yyyy-MM-dd")  //分割天
+      startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
     }
     return temp;
   },
@@ -479,10 +479,10 @@ const Utils = {
    * 返回：['04-15','04-14']
    */
   splitDescDate(startDate, endDate) {
-    var endTime= new Date(startDate),
-    startTime = new Date(endDate);
-    var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
-    var days = parseInt(difftime/86400); // 天  24*60*60*1000
+    var endTime = new Date(startDate),
+      startTime = new Date(endDate);
+    var difftime = (startTime - endTime) / 1000; //计算时间差,并把毫秒转换成秒
+    var days = parseInt(difftime / 86400); // 天  24*60*60*1000
     startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
     var temp = [];
     for (var i = 0; i < days; i++) {
@@ -500,7 +500,7 @@ const Utils = {
    */
   convertOper(str) {
     let newStr;
-    switch(str) {
+    switch (str) {
       // case "有值":
       //   newStr = "is not null"
       // break 
@@ -509,40 +509,40 @@ const Utils = {
       // break
       case "为空":
         newStr = "is null"
-      break
+        break
       case "不为空":
         newStr = "is not null"
-      break
+        break
       case "包含":
         newStr = "in"
-      break
+        break
       case "不包含":
         newStr = "not in"
-      break
+        break
       case "区间":
-        newStr = ""
-      break
+        newStr = "区间"
+        break
       case "大于":
         newStr = ">"
-      break
+        break
       case "大于等于":
         newStr = ">="
-      break
+        break
       case "小于":
         newStr = "<"
-      break
+        break
       case "小于等于":
         newStr = "<="
-      break
+        break
       case "等于":
         newStr = "="
-      break
+        break
       case "不等于":
         newStr = "!="
-      break
+        break
       case "归类":
         newStr = "group by"
-      break
+        break
       default:
         break
     }
@@ -556,13 +556,13 @@ const Utils = {
   convertOperationSql(fieldName, rule, valueStr) {
     let str = rule
     let tempValueStr = ""
-    if (rule === "包含" || rule === "不包含" ) {
+    if (rule === "包含" || rule === "不包含") {
       let valArray = valueStr.split(",")
       let valInStr = ""
       valArray.forEach((val) => {
-        if(rule === "包含"){
+        if (rule === "包含") {
           valInStr += ` ${fieldName} like '%${val}%' or `
-        }else if(rule === "不包含"){
+        } else if (rule === "不包含") {
           valInStr += ` ${fieldName} not like '%${val}%' and`
         }
       })
@@ -570,71 +570,76 @@ const Utils = {
         valInStr = valInStr.substring(0, valInStr.length - 3)//去掉最后一个or或者and
       }
       tempValueStr = ` (${valInStr}) `
+    } else if (rule === "区间") {
+      let valArray = valueStr.split(",")
+      let valInStr = ` ${fieldName} >= '%${valArray[0]}%' and ` + ` ${fieldName} <= '${valArray[1]}'  `
+      tempValueStr = ` (${valInStr}) `
     } else {
-        tempValueStr = "'" + valueStr + "' "
+      tempValueStr = "'" + valueStr + "' "
     }
     let valueStrSql = valueStr ? tempValueStr : ""
 
     let newStr;
     let sql = ""
-    switch(str) {
+    switch (str) {
       case "为空":
         newStr = " is null "
         sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
-      break
+        break
       case "不为空":
         newStr = " is not null "
         sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
-      break
+        break
       case "包含":
         // newStr = " like "
         // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
         sql = ` ${valueStrSql}`
-      break
+        break
       case "不包含":
         // newStr = " not like "
         // sql = ` ${fieldName} ${newStr} ${valueStrSql}`
         sql = ` ${valueStrSql}`
-      break
+        break
       case "区间":
-        newStr = ""
+        // newStr = ""
+        sql = ` ${valueStrSql}`
       break
       case "大于":
         newStr = ">"
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "大于等于":
         newStr = ">="
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "小于":
         newStr = "<"
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "小于等于":
         newStr = "<="
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "等于":
         newStr = "="
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "不等于":
         newStr = "!="
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "归类":
         newStr = "group by"
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
-      break
+        break
       case "模糊匹配":
         newStr = "like"
         sql = ` ${fieldName} ${newStr} %${valueStrSql}%`
-      break
+        break
       default:
         break
     }
-    console.log(sql)
+    // console.log(sql)
     return sql
   },
 
@@ -644,7 +649,7 @@ const Utils = {
    */
   convertFieldType(str) {
     let newStr;
-    switch(str) {
+    switch (str) {
       case "VARCHAR":
       case "varchar":
         newStr = "String"
@@ -663,13 +668,13 @@ const Utils = {
     return newStr;
   },
 
-   /**
-   * 字段类型转换
-   * String , Number
-   */
+  /**
+  * 字段类型转换
+  * String , Number
+  */
   convertFieldTypeToChinese(str) {
     let newStr;
-    switch(str) {
+    switch (str) {
       case "VARCHAR":
       case "varchar":
         newStr = "文本"
@@ -690,13 +695,13 @@ const Utils = {
     return newStr;
   },
 
-   /**
-   * 且或转换
-   * String , Number
-   */
+  /**
+  * 且或转换
+  * String , Number
+  */
   convertAndOr(str) {
     let newStr;
-    switch(str) {
+    switch (str) {
       case "a":
         newStr = "and"
         break
@@ -709,19 +714,20 @@ const Utils = {
     }
     return newStr;
   },
-  checkFieldNameValid(fieldName){
+  checkFieldNameValid(fieldName) {
     // let goOnFlag = true;
-   //通用字段：id,weFirstStepDay,weHapppenHour,weHapppenMinute,weCustomerKey,weUserId,weSysVersion,weCity,weCountry,weSimpleUrl,weBrowser,weOs,weDeviceSize,createdAt
-   //通用字段：id,weCustomerKey,weUserId,weSimpleUrl,createdAt
-   //weFirstStepDay_1,weFirstStepDay_2,weFirstStepDay_3,weFirstStepDay_4,
-   //weFirstStepDay_5,weFirstStepDay_6,weFirstStepDay_7,weFirstStepDay_8,
-   //weFirstStepDay_9,weFirstStepDay_10
-    const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
-    "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
-    "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
+    //通用字段：id,weFirstStepDay,weHapppenHour,weHapppenMinute,weCustomerKey,weUserId,weSysVersion,weCity,weCountry,weSimpleUrl,weBrowser,weOs,weDeviceSize,createdAt
+    //通用字段：id,weCustomerKey,weUserId,weSimpleUrl,createdAt
+    //weFirstStepDay_1,weFirstStepDay_2,weFirstStepDay_3,weFirstStepDay_4,
+    //weFirstStepDay_5,weFirstStepDay_6,weFirstStepDay_7,weFirstStepDay_8,
+    //weFirstStepDay_9,weFirstStepDay_10
+    const fieldParams = ["id", "wefirststepday_1", "wefirststepday_2", "wefirststepday_3", "wefirststepday_4",
+      "wefirstStepday_5", "wefirststepday_6", "wefirstStepday_7", "wefirststepday_8", "wefirstStepday_9", "wefirststepday_10",
+      "wecustomerkey", "weuserid", "weip", "weos", "wepath", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", "wecountry", "weprovince", 
+      "wecity", "wehappenhour", "wehappenminute", "createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     //存在一样的返回false
-    return fieldParams.indexOf(fieldNameConvert)===-1;
+    return fieldParams.indexOf(fieldNameConvert) === -1;
     // fieldParams.forEach((item) => {
     //     if (fieldNameConvert === item) {
     //         goOnFlag = false
@@ -781,39 +787,41 @@ const Utils = {
       console.log(error.msg)
     })
   },
-  pinYinToHump(pinyin){
+  pinYinToHump(pinyin) {
     let fieldName = '';
     //TODO 如果是含有数字1、2这种，转成英文数字one、two...
     //1、"用户id"转成拼音yong_hu_id;
     //如果是英文，就会全都转成小写了，例如输入userName变成了username
     //如果是英文，就直接返回，不处理
-    if((/^[A-Za-z]+$/.test(pinyin))){
+    if ((/^[A-Za-z]+$/.test(pinyin))) {
       return pinyin;
     }
     let fieldNamePinyin = slugify(pinyin);
-    if (fieldNamePinyin === 'show' || fieldNamePinyin === 'SHOW' ){
+    if (fieldNamePinyin === 'show' || fieldNamePinyin === 'SHOW') {
       fieldName = 'newShow';
-      return fieldName; 
+      return fieldName;
     }
     //2、按-分割
     let fieldNameArr = fieldNamePinyin.split("-");
-    if(fieldNameArr.length > 1){
-        fieldName = fieldName + fieldNameArr[0];
-        for(let i=1;i<fieldNameArr.length;i++){
-            //3、找到第一个字母转大写，然后拼接上
-            let firstNameInfo = fieldNameArr[i].substr(0,1).toUpperCase();
-            let secondNameInfo = fieldNameArr[i].substr(1,fieldNameArr[i].length);
-            fieldName = fieldName + firstNameInfo + secondNameInfo;
-        }
-    }else {
-        fieldName = fieldNamePinyin;
+    if (fieldNameArr.length > 1) {
+      fieldName = fieldName + fieldNameArr[0];
+      for (let i = 1; i < fieldNameArr.length; i++) {
+        //3、找到第一个字母转大写，然后拼接上
+        let firstNameInfo = fieldNameArr[i].substr(0, 1).toUpperCase();
+        let secondNameInfo = fieldNameArr[i].substr(1, fieldNameArr[i].length);
+        fieldName = fieldName + firstNameInfo + secondNameInfo;
+      }
+    } else {
+      fieldName = fieldNamePinyin;
     }
     return fieldName;
   },
   // 获取双协议结果
-  async requestForTwoProtocol(method = "post", url, param) {
+  async requestForTwoProtocol(method = "post", originUrl, param) {
+    // 先将url中的协议去掉
+    const url = originUrl.replace("https://", "").replace("http://", "")
     const methodName = method === "post" ? "postJson" : ""
-    
+
     if (accountInfo.protocol) {
       let reqProtocol = `${accountInfo.protocol}://`
       // 如果用户指定了协议
@@ -828,10 +836,10 @@ const Utils = {
       let protocolRes = null
       protocolRes = await Utils[methodName](`http://${url}`, param).catch((e) => {
         if (typeof e === "object") {
-            log.printError(`http://${url} ->` + JSON.stringify(e))
+          log.printError(`http://${url} ->` + JSON.stringify(e))
         }
       })
-      
+
       if (!protocolRes) {
         protocolRes = await Utils[methodName](`https://${url}`, param).catch((e) => {
           if (typeof e === "object") {
@@ -842,37 +850,37 @@ const Utils = {
       return protocolRes
     }
   },
-  equalsObj(oldData,newData){
+  equalsObj(oldData, newData) {
     // 类型为基本类型时,如果相同,则返回true
-    if(oldData === newData) return true;
-    if(Utils.isObject(oldData)&&Utils.isObject(newData)&&Object.keys(oldData).length === Object.keys(newData).length){
-        // 类型为对象并且元素个数相同
+    if (oldData === newData) return true;
+    if (Utils.isObject(oldData) && Utils.isObject(newData) && Object.keys(oldData).length === Object.keys(newData).length) {
+      // 类型为对象并且元素个数相同
 
-        // 遍历所有对象中所有属性,判断元素是否相同
-        for (const key in oldData) {
-            if (oldData.hasOwnProperty(key)) {
-                if(!Utils.equalsObj(oldData[key],newData[key]))
-                    // 对象中具有不相同属性 返回false
-                    return false;
-            }
-        }
-    }else if(Utils.isArray(oldData)&&Utils.isArray(oldData)&&oldData.length===newData.length){
-        // 类型为数组并且数组长度相同
-
-        for (let i = 0,length=oldData.length; i <length; i++) {
-            if(!Utils.equalsObj(oldData[i],newData[i]))
-            // 如果数组元素中具有不相同元素,返回false
+      // 遍历所有对象中所有属性,判断元素是否相同
+      for (const key in oldData) {
+        if (oldData.hasOwnProperty(key)) {
+          if (!Utils.equalsObj(oldData[key], newData[key]))
+            // 对象中具有不相同属性 返回false
             return false;
         }
-    }else{
-        // 其它类型,均返回false
-        return false;
+      }
+    } else if (Utils.isArray(oldData) && Utils.isArray(oldData) && oldData.length === newData.length) {
+      // 类型为数组并且数组长度相同
+
+      for (let i = 0, length = oldData.length; i < length; i++) {
+        if (!Utils.equalsObj(oldData[i], newData[i]))
+          // 如果数组元素中具有不相同元素,返回false
+          return false;
+      }
+    } else {
+      // 其它类型,均返回false
+      return false;
     }
     // 走到这里,说明数组或者对象中所有元素都相同,返回true
     return true;
   },
   //比较list
-  getArrDifference : (arr1, arr2) => {
+  getArrDifference: (arr1, arr2) => {
     return arr1.concat(arr2).filter((v, i, arr) => {
       return arr.indexOf(v) === arr.lastIndexOf(v);
     })
@@ -883,14 +891,14 @@ const Utils = {
   sendWfEmail: (email, title, content) => {
     fetch("http://www.webfunny.cn/config/sendEmail",
       {
-        method: "POST", 
-        body: JSON.stringify({email, title, content}),
+        method: "POST",
+        body: JSON.stringify({ email, title, content }),
         headers: {
-            "Content-Type": "application/json;charset=utf-8"
+          "Content-Type": "application/json;charset=utf-8"
         }
-    }).catch((e) => {
-      console.log(e)
-    })
+      }).catch((e) => {
+        console.log(e)
+      })
   },
   /**
    * 设置内存中存储登录用户对象

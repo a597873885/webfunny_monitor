@@ -18,7 +18,8 @@ module.exports = function () {
             url.indexOf("upDLog") === -1 &&
             url.indexOf("upMog") === -1 &&
             url.indexOf("upEvent") === -1 &&
-            url.indexOf("upEvents") === -1
+            url.indexOf("upEvents") === -1 &&
+            url.indexOf("otel/trace") === -1
             ) {
             let goOnFlag = true
             const tempQuery = JSON.stringify(query).toLowerCase()

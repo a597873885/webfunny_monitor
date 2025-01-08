@@ -1,13 +1,15 @@
 const commonRouter = require('./common')
 const configRouter = require('./config')
-const logInfosRouter = require('./logInfos')
 const logDataRouter = require('./logData')
+const traceDataRouter = require('./traceData')
+const projectRouter = require('./logProject')
 
 const createRouter = (router) => {
   commonRouter(router)
   configRouter(router)
-  logInfosRouter(router)
+  traceDataRouter(router)
   logDataRouter(router)
+  projectRouter(router)
 }
 
 module.exports = {

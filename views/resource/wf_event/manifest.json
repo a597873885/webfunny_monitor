@@ -1,6 +1,6 @@
 {
-  "app.css": "./app.9ad40791a1f696e16633.css",
-  "app.js": "app.dcbf5f5a.js",
+  "app.css": "./app.34a7f697857109e4113f.css",
+  "app.js": "app.dd070d85.js",
   "index.html": "index.html",
   "src/assets/img/customer/index.scss": "src/assets/img/customer/customer_header_bg.webp",
   "src/assets/img/dataView/animation.png": "src/assets/img/dataView/animation.png",
@@ -12,5 +12,6 @@
   "src/modules/dataView/image/heat-chart.png": "src/modules/dataView/image/heat-chart.png",
   "src/modules/dataView/image/index.scss": "src/modules/dataView/image/no-card.png",
   "src/modules/dataView/image/number-chart.png": "src/modules/dataView/image/number-chart.png",
+  "src/modules/dataView/image/path-analysis.png": "src/modules/dataView/image/path-analysis.png",
   "src/modules/dataView/image/words-chart.png": "src/modules/dataView/image/words-chart.png"
 }

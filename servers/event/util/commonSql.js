@@ -54,7 +54,11 @@ module.exports = {
               }
               valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('and'));
               criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
-          }else {
+          } else if (rule === '区间') {//[{"fieldName":"weNewStatus","rule":"区间","value":"1,2"}]
+              let valueArray = value.split(",");
+              let valueListStr = fieldName + " >=" + valueArray[0] + " and " + fieldName + " <=" + valueArray[1];
+              criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
+          } else {
               criteriaSql = " " + criteriaSql + `${tableName}.${fieldName}` + " " + rule + " '" + value + "'" + " " + andOr + " ";
           }
       }

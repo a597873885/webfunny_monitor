@@ -15,6 +15,7 @@ const timerStatisticRouter = require('./timerStatistic')
 const weHandleDataRouter = require('./weHandleData')
 const buryPointCircleSelectRouter = require('./buryPointCircleSelect')
 const buryPointVisualTrackingRouter = require('./buryPointVisualTracking')
+const buryPointUserBehaviorRelationRouter = require('./buryPointUserBehaviorRelation')
 
 const createRouter = (router) => {
   buryPointFieldRouter(router)
@@ -34,6 +35,7 @@ const createRouter = (router) => {
   buryPointTemplateRouter(router)
   buryPointCircleSelectRouter(router)
   buryPointVisualTrackingRouter(router)
+  buryPointUserBehaviorRelationRouter(router)
 }
 
 module.exports = {
