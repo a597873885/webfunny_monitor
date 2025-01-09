@@ -85,6 +85,8 @@ module.exports = (router) => {
  router.get('/pf', Common.projectConfig);
  // 获取日志服务所有相关信息
  router.get('/getSysInfo', Common.getSysInfo);
+ // 获取应用的使用信息
+ router.get('/getApplicationInfo', Common.getApplicationInfo);
 
  /**
   * mysql状态
