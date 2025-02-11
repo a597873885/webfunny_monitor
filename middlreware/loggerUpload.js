@@ -19,7 +19,7 @@ module.exports = {
     }
     const { version } = Utils.getJsonData()
 
-    fetch(`http://127.0.0.1:${domainConfig.port.be}/wfLog/upTraceLogs`,
+    fetch(`http://${domainConfig.host.be}/wfLog/upTraceLogs`,
     {
         method: "POST", 
         body: JSON.stringify([{
@@ -50,7 +50,7 @@ module.exports = {
 
     if (!projectId) return
     const { version } = Utils.getJsonData()
-    fetch(`http://127.0.0.1:${domainConfig.port.be}/wfLog/upLogs`,
+    fetch(`http://${domainConfig.host.be}/wfLog/upLogs`,
     {
         method: "POST", 
         body: JSON.stringify([{

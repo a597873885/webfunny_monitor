@@ -6,4 +6,9 @@ module.exports = (router) => {
   router.get("/getSignatureForFeiShu", ApplicationConfigController.getSignatureForFeiShu)
   // 飞书获取用于信息
   router.get("/getAccessTokenByCodeForFeiShu", ApplicationConfigController.getAccessTokenByCodeForFeiShu)
+
+  // 获取ids的token
+  router.get("/getAccessTokenByCodeForIds", ApplicationConfigController.getAccessTokenByCodeForIds)
+  // 获取ids的notice
+  router.post("/apiIdsNotice", ApplicationConfigController.apiIdsNotice)
 }
