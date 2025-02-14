@@ -34,12 +34,12 @@ var ssoFileArray = [
     },
   }`,
   `module.exports = {
-    clientSecret: "",
-    clientId: "",
-    redirectUri: "", 
+    clientSecret: "应用secret",
+    clientId: "应用id",
+    redirectUri: "回调地址",
     getAccessTokenConfig: {
       method: "get",
-      url: ""
+      url: "获取token的地址"
     }
   }`,
   `const feiShuConfig = require('./feishu')
