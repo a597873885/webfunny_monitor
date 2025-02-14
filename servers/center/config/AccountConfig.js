@@ -37,6 +37,7 @@ const accountInfo = {
     emailUser: otherConfig.email.emailUser,
     emailPassword: otherConfig.email.emailPassword,
 
+    thirdLoginConfig: otherConfig.thirdLoginConfig, // 第三方登录配置
     registerEntry: typeof otherConfig.registerEntry === "boolean" ? otherConfig.registerEntry : true,  // 是否显示注册入口
     resetPwdEntry: typeof otherConfig.resetPwdEntry === "boolean" ? otherConfig.resetPwdEntry : true,  // 是否显示忘记密码入口
     ssoCheckUrl: otherConfig.ssoCheckUrl,  // sso的token验证接口
