@@ -104,7 +104,8 @@ const mysqlConfig = {
 * 配置更改后，需重启
 */
 const otherConfig = {
-  isCloud: false,            // 云服务模式
+  "isCloud": false,           // 云服务模式，仅VIP版本生效
+  "isCustomer": false,        // 客户模式，客户模式下，不使用Webfunny相关的信息，仅VIP版本生效
   "email": {
     "useCusEmailSys": false, // 是否使用用户自己公司的邮箱系统
     "emailUser": "",         // 邮箱
@@ -135,8 +136,9 @@ const otherConfig = {
   "registerEntry": true,        // 是否允许注册
   "resetPwdEntry": true,        // 是否允许重置密码
   "thirdLoginConfig": {
+    "enable": false,            // true 直接跳转到第三方登录页面，false 显示第三方登录入口
     "text": "第三方登录",         // 第三方登录链接名称
-    "link": "",                 // 第三方登录链接
+    "link": "",                 // 第三方登录链接，如果是空，则不显示第三方入口；如果有内容，则显示第三方入口;
     "logoutLink": ""            // 第三方登出链接
   },
   "ssoCheckUrl": "",            // SSO校验URL
