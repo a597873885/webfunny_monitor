@@ -601,9 +601,8 @@ const Utils = {
         sql = ` ${valueStrSql}`
         break
       case "区间":
-        // newStr = ""
         sql = ` ${valueStrSql}`
-      break
+        break
       case "大于":
         newStr = ">"
         sql = ` ${fieldName} ${newStr} ${valueStrSql}`
@@ -724,7 +723,7 @@ const Utils = {
     const fieldParams = ["id", "wefirststepday_1", "wefirststepday_2", "wefirststepday_3", "wefirststepday_4",
       "wefirstStepday_5", "wefirststepday_6", "wefirstStepday_7", "wefirststepday_8", "wefirstStepday_9", "wefirststepday_10",
       "wecustomerkey", "weuserid", "weip", "weos", "wepath", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", "wecountry", "weprovince", 
-      "wecity", "wehappenhour", "wehappenminute", "createdat"]
+      "wecity", "wehappenhour", "wehappenminute", "werelationpointId", "werelationfield", "weusertype","weuserlabel","weremark","createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     //存在一样的返回false
     return fieldParams.indexOf(fieldNameConvert) === -1;
