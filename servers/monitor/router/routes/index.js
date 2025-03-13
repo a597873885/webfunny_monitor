@@ -18,6 +18,10 @@ const messageRouter = require('./message')
 const pageLoadInfoRouter = require('./pageLoadInfo')
 const projectRouter = require('./project')
 const resourceLoadInfoRouter = require('./resourceLoadInfo')
+const videoLogRouter = require('./videoLog')
+const videosRouter = require('./videos')
+const customerStatusRouter = require('./customerStatus')
+const localLogRouter = require('./localLog')
 
 // walkingfunny相关接口，统一管理
 const walkingfunnyRouter = require('./walkingfunny')
@@ -43,8 +47,11 @@ const createRouter = (router) => {
   pageLoadInfoRouter(router)
   projectRouter(router)
   resourceLoadInfoRouter(router)
-  
+  videoLogRouter(router)
+  videosRouter(router)
+  customerStatusRouter(router)
   walkingfunnyRouter(router)
+  localLogRouter(router)
 }
 
 module.exports = {

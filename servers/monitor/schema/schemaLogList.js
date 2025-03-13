@@ -19,4 +19,5 @@ module.exports = [
     "../schema/jsErrorHandleList",
     "../schema/httpErrorHandleList",
     "../schema/loadTimeInfoByHour",
+    "../schema/videoLog",
 ]

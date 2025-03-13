@@ -82,8 +82,7 @@ app.use(loggerRoute.routes(), loggerRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
-    console.error('server error', err, ctx)
-    loggerUpload({ err })
+    console.log("server error", err)
 });
 
 module.exports = app

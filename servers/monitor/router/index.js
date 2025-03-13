@@ -15,6 +15,7 @@ global.monitorInfo = {
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
     userIdArray: [],
+    debugOnlineForUserIdArray: {connect: [], vconsole: [], videos: []},      // 存放每个用户的连线状态，vconsole开启状态，videos开启状态
     tempDebugInfoArray: {},
     debugInfoArray: [],
     debugInfoTimer: {},
@@ -35,6 +36,7 @@ global.monitorInfo = {
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
     logInfoQueue: {}, // 存放日志队列的对象
+    realTimeLogQueue: {}, // 实时日志队列
     segmentQueue: [], // segment日志队列
     tokenListInMemory: {}, //内存中的token列表 
     calculateDataInMemory: [], //流式计算相关信息

@@ -48,7 +48,21 @@ module.exports = {
   // 日志
   log: ({projectId = "", userId = Utils.getMac(), message = "", content = "", otherInfo = ""}) => {
 
+    // 如果projectId为空，则不进行上报
     if (!projectId) return
+    // 如果content和message都为空，则不进行上报
+    if (!content && !message) return
+
+    let finalContent = content
+    if (typeof content === "object") {
+      finalContent = JSON.stringify(content)
+    }
+
+    let finalMessage = ""
+    if (!message) {
+      finalMessage = finalContent.length > 200 ? finalContent.substring(0,200) : finalContent
+    }
+    
     const { version } = Utils.getJsonData()
     fetch(`http://127.0.0.1:${domainConfig.port.be}/wfLog/upLogs`,
     {
@@ -59,8 +73,8 @@ module.exports = {
           userId,
           version,
           happenTime: new Date().getTime(),
-          message,
-          content,
+          message: finalMessage,
+          content: finalContent,
           tags: "",
           thirdInfo: otherInfo,
           logLevel: "log",

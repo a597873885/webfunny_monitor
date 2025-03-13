@@ -483,18 +483,25 @@ const Utils = {
    * 处理time scope Sql
    */
   handleTimeScopeSql(timeSize, scope) {
+    let startFormat = "yyyy-MM-dd 00:00:00"
+    let endFormat = "yyyy-MM-dd 23:59:59"
+    if (timeSize === 0) {
+      startFormat = "yyyy-MM-dd hh:00:00"
+      endFormat = "yyyy-MM-dd hh:59:59"
+    }
+
     const oneDayTime = 24 * 3600 * 1000
     timeSize = parseInt(timeSize, 10)
     scope = parseInt(scope, 10)
     const nowTime = new Date().getTime() - scope * oneDayTime
     const startTime = nowTime + (timeSize - 1) * oneDayTime
     const endTime = nowTime + timeSize * oneDayTime
-    let startHour = new Date(startTime).Format("yyyy-MM-dd hh:00:00")
-    let endHour = new Date(endTime).Format("yyyy-MM-dd hh:59:59")
+    let startHour = new Date(startTime).Format(startFormat)
+    let endHour = new Date(endTime).Format(endFormat)
     let timeSql = " happenDate>='" + startHour + "' and happenDate<='" + endHour + "' "
     if (timeSize > 0) {
-      const startHour = new Date(startTime + oneDayTime).Format("yyyy-MM-dd hh:00:00")
-      const endHour = new Date(endTime + oneDayTime).Format("yyyy-MM-dd hh:59:59")
+      const startHour = new Date(startTime + oneDayTime).Format(startFormat)
+      const endHour = new Date(endTime + oneDayTime).Format(endFormat)
       timeSql = " happenDate>='" + startHour + "' and happenDate<='" + endHour + "' "
     }
     return timeSql
@@ -667,6 +674,24 @@ const Utils = {
     }
     return finalIpInfo
   },
+  // base64解码日志
+  base64DecodeForLog(logInfo) {
+    for (const key in logInfo) {
+      if (logInfo[key]) {
+        switch (key) {
+          case 'happenTime':
+          case 'webMonitorId':
+          case 'completeUrl':
+          case 'simpleUrl':
+            break
+          default:
+            logInfo[key] = Utils.b64DecodeUnicode(logInfo[key])
+            break
+        }
+      }
+    }
+    return logInfo
+  }
 }
 
 module.exports = Utils

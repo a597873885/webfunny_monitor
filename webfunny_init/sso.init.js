@@ -5,7 +5,7 @@ const rootPath = path.resolve(__dirname, "..")
 /**
  * 初始化sso目录
  */
-var ssoPathArray = [rootPath + "/sso/feishu.js", rootPath + "/sso/index.js"]
+var ssoPathArray = [rootPath + "/sso/feishu.js", rootPath + "/sso/ids.js", rootPath + "/sso/index.js"]
 var ssoFileArray = [
   `module.exports = {
     appId: "",
@@ -31,6 +31,19 @@ var ssoFileArray = [
     getUserInfoConfig: {
       method: "get",
       url: "https://open.feishu.cn/open-apis/authen/v1/user_info"
+    },
+  }`,
+  `module.exports = {
+    clientSecret: "",
+    clientId: "",
+    redirectUri: "",
+    getAccessTokenConfig: {
+      method: "get",
+      url: ""
+    },
+    getNoticeConfig: {
+      method: "get",
+      url: ""
     },
   }`,
   `const feiShuConfig = require('./feishu')

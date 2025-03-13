@@ -56,6 +56,8 @@ module.exports = (router) => {
  router.post('/getSimpleUrlCountOrderByCount', CustomerPVController.getSimpleUrlCountOrderByCount);
  // 查询用户的访问列表，分页
  router.post('/getPvListByPage', CustomerPVController.getPvListByPage);
+ // 获取简单的访问列表，分页
+ router.post('/getSimplePvList', CustomerPVController.getSimplePvList);
  // 获取七天留存数量
  router.post('/getSevenDaysLeftCount', CustomerPVController.getSevenDaysLeftCount);
  // 次日留存率
