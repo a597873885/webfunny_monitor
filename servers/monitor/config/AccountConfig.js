@@ -40,6 +40,8 @@ const accountInfo = {
 
     printSql: otherConfig.printSql,  // 是否打印sql配置
     printConsole: otherConfig.printConsole,  // 是否打印console
+
+    signature: otherConfig.signature,
 }
 
 module.exports = {

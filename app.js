@@ -28,7 +28,7 @@ ReWriteConsole()
 app.use(async (ctx, next) => {
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
-    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t,wf-user-info,sw8")
+    ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t,wf-user-info,wf-signature,sw8")
     ctx.set("Access-Control-Allow-Credentials", true)
     ctx.set("X-Powered-By", "3.2.1")
     ctx.set("Content-Type", "application/json;charset=utf-8")
@@ -82,8 +82,7 @@ app.use(loggerRoute.routes(), loggerRoute.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
-    console.error('server error', err, ctx)
-    loggerUpload({ err })
+    console.log("server error", err)
 });
 
 module.exports = app

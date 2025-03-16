@@ -170,5 +170,31 @@ module.exports = [
         "groupByFlag": 1,
         "weType": 1
     },
+    {
+        "fieldName": "weUserType",
+        "fieldAlias": "用户类型",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "用户类型",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weUserLabel",
+        "fieldAlias": "用户标签",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "用户标签",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weRemark",
+        "fieldAlias": "备注",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "备注",
+        "groupByFlag": 1,
+        "weType": 1
+    },
 ]
-

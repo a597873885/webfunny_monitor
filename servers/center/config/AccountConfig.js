@@ -47,6 +47,8 @@ const accountInfo = {
     invoiceHookForDingding: otherConfig.invoiceHookForDingding, // 钉钉的发票hook地址
     printSql: otherConfig.printSql,  // 是否打印sql配置
     printConsole: otherConfig.printConsole,  // 是否打印console
+
+    thirdLoginConfig: otherConfig.thirdLoginConfig, // 第三方登录配置
 }
 
 module.exports = {

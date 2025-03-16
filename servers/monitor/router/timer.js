@@ -75,10 +75,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
     setTimeout(() => {
         Common.consoleInfo()
-        if (process.env.LOGNAME !== "jeffery") {
-            Common.createTable(0)
-        }
-        
+        Common.createTable(0)
+        TimerCalculateController.setMonitorSecretList()
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
@@ -110,8 +108,11 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 Common.handleLogInfoQueue()
                 // 更新内存中的token
                 ConfigController.refreshTokenList()
-
             }
+
+            // 每隔1秒钟，取实时日志队列里的日志，执行入库操作
+            Common.handleRealTimeLogInfoQueue()
+
             // 每小时最后，重新选举master
             if (minuteTimeStr == "59:50") { 
                 // 生成monitor-master-uuid，主服务的判断标识
@@ -142,6 +143,11 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                     ProjectController.cacheWebMonitorId()
                     // 更新登录缓存到数据库，供从服务器使用
                 }
+
+                // 更新每个用户的连线状态到内存中
+                TimerCalculateController.updateCustomerStatusIntoMemory()
+                // 每隔1分钟，生成一个动态的secret
+                TimerCalculateController.setMonitorSecretList()
             }
             // 每分钟的最后一秒执行, 开发完成后移除
             // if (minuteTimeStr.substring(3) == "59") {
