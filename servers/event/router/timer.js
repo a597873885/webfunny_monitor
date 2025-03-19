@@ -24,6 +24,7 @@ module.exports = async () => {
         Common.consoleInfo()
         // 同步数据库里的token
         ConfigController.refreshTokenList()
+        TimerCalculateController.setEventSecretList()
 
         // 数据库里存放的event-master-uuid
         let eventMasterUuidInDb = ""
@@ -85,6 +86,7 @@ module.exports = async () => {
                             eventMasterUuidInDb = uuidRes[0].configValue
                         }
                     })
+                    TimerCalculateController.setEventSecretList()
                 }
                 
                 // 每小时的结束前，重新选举master

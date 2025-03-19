@@ -41,6 +41,7 @@ global.monitorInfo = {
     tokenListInMemory: {}, //内存中的token列表 
     calculateDataInMemory: [], //流式计算相关信息
     calculateFlowData: {}, // 存储流量数据
+    monitorSecretList: [], // 监控签名秘钥列表
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

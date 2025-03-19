@@ -76,7 +76,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     setTimeout(() => {
         Common.consoleInfo()
         Common.createTable(0)
-        
+        TimerCalculateController.setMonitorSecretList()
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
@@ -146,6 +146,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
 
                 // 更新每个用户的连线状态到内存中
                 TimerCalculateController.updateCustomerStatusIntoMemory()
+                // 每隔1分钟，生成一个动态的secret
+                TimerCalculateController.setMonitorSecretList()
             }
             // 每分钟的最后一秒执行, 开发完成后移除
             // if (minuteTimeStr.substring(3) == "59") {

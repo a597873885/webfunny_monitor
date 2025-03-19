@@ -131,6 +131,9 @@ const otherConfig = {
     "monitor": false,
     "event": false
   },
+  "signature": {
+    "enable": false,            // 是否开启签名
+  },
   "printConsole": false,        // 是否显示console打印日志
   "registerEntry": true,        // 是否允许注册
   "resetPwdEntry": true,        // 是否允许重置密码
