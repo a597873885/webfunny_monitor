@@ -683,6 +683,7 @@ const Utils = {
           case 'webMonitorId':
           case 'completeUrl':
           case 'simpleUrl':
+          case 'uploadType':
             break
           default:
             logInfo[key] = Utils.b64DecodeUnicode(logInfo[key])
