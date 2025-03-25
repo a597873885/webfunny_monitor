@@ -150,22 +150,6 @@ const run = async () => {
     userName: "root",
     password: "123456"
   }
-  // 获取数据库配置信息
-  await fetch("http://blog.webfunny.cn:8030/webfunny_manage/api/db/create")
-  .then(response => response.text())
-  .then((res) => {
-    const resObj = JSON.parse(res)
-    if (resObj.data) {
-    //   setVariableInfo(resObj.data)
-      databaseInfo = resObj.data
-    } else {
-      console.log("测试数据库生成失败，请自行填写数据库配置")
-    //   setVariableInfo(databaseInfo)
-    }
-  }).catch((e) => {
-    console.log("测试数据库生成失败，请自行填写数据库配置")
-    // setVariableInfo(databaseInfo)
-  })
   
   let inputPurchaseCode = ""
   await fetch("http://www.webfunny.cn/config/initPurchaseCode", {webfunnyVersion: 1})
