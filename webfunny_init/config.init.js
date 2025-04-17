@@ -146,6 +146,7 @@ const otherConfig = {
   "ssoCheckUrl": "",            // SSO校验URL
   "invoiceHookForDingding": "", // 开票钉钉的hook地址
   "activationRequired": false,  // 注册用户是否需要管理员激活
+  "showEndTime": true,  // 是否显示到期时间
   "emailNeeded": {
     "need": true,               // 注册时，是否需要邮箱
     "requireVerify": true       // 注册时，是否需要验证邮箱的有效性

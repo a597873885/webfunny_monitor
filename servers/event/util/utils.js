@@ -722,11 +722,12 @@ const Utils = {
     //weFirstStepDay_9,weFirstStepDay_10
     const fieldParams = ["id", "wefirststepday_1", "wefirststepday_2", "wefirststepday_3", "wefirststepday_4",
       "wefirstStepday_5", "wefirststepday_6", "wefirstStepday_7", "wefirststepday_8", "wefirstStepday_9", "wefirststepday_10",
-      "wecustomerkey", "weuserid", "weip", "weos", "wepath", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", "wecountry", "weprovince", 
-      "wecity", "wehappenhour", "wehappenminute", "werelationpointId", "werelationfield", "weusertype","weuserlabel","weremark","createdat"]
+      "wecustomerkey", "weip", "weos", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", 
+      "wecountry", "weprovince","wecity", "wehappenhour", "wehappenminute", "createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     //存在一样的返回false
-    return fieldParams.indexOf(fieldNameConvert) === -1;
+    let flag = fieldParams.indexOf(fieldNameConvert) === -1;
+    return flag;
     // fieldParams.forEach((item) => {
     //     if (fieldNameConvert === item) {
     //         goOnFlag = false

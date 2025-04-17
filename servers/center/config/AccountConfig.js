@@ -41,6 +41,7 @@ const accountInfo = {
     resetPwdEntry: typeof otherConfig.resetPwdEntry === "boolean" ? otherConfig.resetPwdEntry : true,  // 是否显示忘记密码入口
     ssoCheckUrl: otherConfig.ssoCheckUrl,  // sso的token验证接口
     activationRequired: otherConfig.activationRequired,  // 是否需要激活
+    showEndTime: otherConfig.showEndTime,  // 是否需要显示结束时间
     emailNeeded: otherConfig.emailNeeded,  // 注册是否需要email
     phoneNeeded: otherConfig.phoneNeeded,  // 注册是否需要手机号
     defaultCompanyId: otherConfig.defaultCompanyId || "1", // 默认公司ID, 用于飞书登录

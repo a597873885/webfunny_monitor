@@ -13,7 +13,8 @@ module.exports = [
     "/checkSsoToken", "/getUserTokenFromNetworkByToken", "/getSysConfigInfo",
     "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi", 
     "/getTeams", "/getTeamListWithoutToken", "/getTeamDetail", "/updateTeam", "/createFlowData",
-    "/getUserInfo", "/getSignatureForFeiShu", "/getAccessTokenByCodeForFeiShu", "/getCompanyList", "/checkUserByOpenid",
+    "/getUserInfo", "/getSignatureForFeiShu", "/getAccessTokenByCodeForFeiShu", "/getAccessTokenByCodeForIds", "/apiIdsNotice",
+    "/getCompanyList", "/checkUserByOpenid",
 
     //event
     "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",

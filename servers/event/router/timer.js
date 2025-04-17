@@ -1,4 +1,4 @@
-const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController } = require("../controllers/controllers")
+const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController, TimerStatisticController } = require("../controllers/controllers")
 const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, mysqlConfig } = AccountConfig
@@ -180,6 +180,13 @@ module.exports = async () => {
                         log.printError("定时执行更新圈选用户是否过期异常",e)
                     });
                 }
+
+                // 每个小时第00分钟的执行一次告警分析
+                // if (minuteTimeStr == "00:00") {
+                //     TimerStatisticController.handleAlarm().catch((e)=>{
+                //         log.printError("定时执行告警异常",e)
+                //     });
+                // }
 
             } catch(e) {
                 log.printError("定时器执行报错：", e)
