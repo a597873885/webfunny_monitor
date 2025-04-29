@@ -5,9 +5,10 @@ const timerTask = require("./timer")
 const NodeClickHouse = require('../config/node_clickhouse')
 const Config = new NodeClickHouse("../schema/config")
 
-
+global.EventCacheDataList = {}
 global.eventInfo = {
     invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
+    unLimitCountForFreeProduct: true,
     
     purchaseCodeCardCount: 10,
     webfunnyTokenList: [],
@@ -40,6 +41,7 @@ global.eventInfo = {
     points: [], // 存放点位信息
     funnelCardAndPointRelations: {}, // 存放漏斗卡片关系数据
     eventSecretList: [], // 埋点签名秘钥列表
+    exportRandomNumber: {}  // 下载时需要用到的随机数
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

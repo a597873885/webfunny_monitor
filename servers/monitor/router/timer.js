@@ -30,6 +30,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     setTimeout(() => {
         // 更新流量上限信息
         TimerCalculateController.checkLimitForCloud()
+        TimerCalculateController.checkCommonProduct()
     }, 25 * 1000)
     /**
      * 2秒后开始进行第一次分析
@@ -100,6 +101,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             // 每隔10分钟，判断是否流量已达上限
             if (minuteTimeStr.substring(1) == "0:00") {
                 TimerCalculateController.checkLimitForCloud()
+                TimerCalculateController.checkCommonProduct()
             }
 
             // 每隔10秒钟，取日志队列里的日志，执行入库操作
@@ -108,6 +110,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 Common.handleLogInfoQueue()
                 // 更新内存中的token
                 ConfigController.refreshTokenList()
+
+                // 检查导出随机码是否过期
+                TimerCalculateController.checkExportCode()
             }
 
             // 每隔1秒钟，取实时日志队列里的日志，执行入库操作

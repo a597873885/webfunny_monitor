@@ -52,8 +52,8 @@ module.exports = async () => {
         // }, 5000)
 
         setTimeout(() => {
-            // 更新流量上限信息
-            // TimerCalculateController.checkLimitForCloud()
+            TimerCalculateController.checkLimitForCloud()
+            TimerCalculateController.checkCommonProduct()
         }, 25 * 1000)
 
         // 创建系统模板和系统项目
@@ -74,9 +74,9 @@ module.exports = async () => {
             const hourTimeStr = tempDate.Format("hh:mm:ss")
             const minuteTimeStr = tempDate.Format("mm:ss")
             try {
-                // 每隔10分钟，判断是否流量已达上限
                 if (minuteTimeStr.substring(1) == "0:00") {
                     TimerCalculateController.checkLimitForCloud()
+                    TimerCalculateController.checkCommonProduct()
                 }
 
                 // 每隔1分钟执行
@@ -165,6 +165,9 @@ module.exports = async () => {
                     CommonUpLog.handleLogInfoQueue()
                     // 更新内存中的token
                     ConfigController.refreshTokenList()
+
+                    // 检查导出的随机码
+                    TimerCalculateController.checkExportCode()
                 }
             
                 // 每个小时的最后一秒执行

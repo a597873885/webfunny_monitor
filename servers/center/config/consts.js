@@ -49,6 +49,7 @@ const PROJECT_API = {
     EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/projectSimpleListByWebmonitorIds`,
     EVENT_ADD_VIEWERS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/addViewers`,
     GET_EVENT_LOG_COUNT_INFO_BY_DAY: `${global.EVENT_PUBLISH_PREFIX}/getLogCountInfoByDay`,
+    GET_EVENT_SYS_INFO: `${global.EVENT_PUBLISH_PREFIX}/sysInfo`,
 
     SAAS_PRODUCT_INFO: "/webfunny_manage/api/productInfo/get",
 }

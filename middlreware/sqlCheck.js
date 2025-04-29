@@ -3,6 +3,7 @@
  */
 const statusCode = require('../utils/status-code')
 const dangerParams = [//";", "'", "<", ">", "(", ")", 
+                    "'",
                     " select ", " union ", " and ", " or ", " from ", " insert ", " update ",
                     " delete ", " database ", " drop ", " truncate ", " create ", " like "]
 module.exports = function () {
@@ -11,7 +12,7 @@ module.exports = function () {
         const { body } = ctx.request
         // 过滤掉一些接口
         if ( 
-            url.indexOf("/wfLog/") === -1 &&
+            // url.indexOf("/wfLog/") === -1 &&
             url.indexOf("upLog") === -1 &&
             url.indexOf("upLogs") === -1 &&
             url.indexOf("upMyLog") === -1 &&

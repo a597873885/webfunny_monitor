@@ -36,6 +36,7 @@ const accountInfo = {
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,
     emailPassword: otherConfig.email.emailPassword,
+    showEndTime: otherConfig.showEndTime,  // 是否显示到期时间
 
     registerEntry: typeof otherConfig.registerEntry === "boolean" ? otherConfig.registerEntry : true,  // 是否显示注册入口
     resetPwdEntry: typeof otherConfig.resetPwdEntry === "boolean" ? otherConfig.resetPwdEntry : true,  // 是否显示忘记密码入口

@@ -1,6 +1,7 @@
 module.exports = [
     // monitor
-    "/getSysInfo", "/getValidateCode", "/refreshValidateCode", "/login", "/register",
+    "/getSysInfo",
+    "/getValidateCode", "/refreshValidateCode", "/login", "/register",
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
     "/projectSimpleListByWebmonitorIds", "/addViewers", "/otel/trace", "/project/list/all", "/getAllProjectWithCompanyId",
@@ -17,8 +18,9 @@ module.exports = [
     "/getCompanyList", "/checkUserByOpenid",
 
     //event
-    "/sysInfo", "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",
-    "/export", "/sdkRelease/downLoad", "/getSysInfo", "/getValidateCode",
+    "/sysInfo", "/getSysInfo",
+    "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",
+    "/export", "/sdkRelease/downLoad", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",

@@ -8,26 +8,27 @@ const Config = new NodeClickHouse("../schema/config")
 
 
 global.monitorInfo = {
-    invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
-
+    invalidProjectIdForCloud: [],
+    unLimitCountForFreeProduct: false,
+    purchaseCodeType: 1,
     purchaseCodeProjectCount: 3,
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
     userIdArray: [],
-    debugOnlineForUserIdArray: {connect: [], vconsole: [], videos: []},      // 存放每个用户的连线状态，vconsole开启状态，videos开启状态
+    debugOnlineForUserIdArray: {connect: [], vconsole: [], videos: []},
     tempDebugInfoArray: {},
     debugInfoArray: [],
     debugInfoTimer: {},
     debugTimer: null,
     debugInfo: {},
-    debugClearLocalInfo: [], // 记录将要清理本地缓存的userId
-    logServerStatus: true, // 日志服务状态
-    cacheWebMonitorIdList: [], // 开启上报服务的项目列表
-    waitCounts: 40,   // 日志等待上报的时间间隔，可以调整日志上报的密度（40代表8s上报一次）
-    logCountInMinute: 0, // 每分钟的日志量
-    logCountInMinuteList: [], // 每分钟日志量数组
-    projectLogCountList: {}, // 每个项目当天的日志总量
+    debugClearLocalInfo: [],
+    logServerStatus: true,
+    cacheWebMonitorIdList: [],
+    waitCounts: 40,
+    logCountInMinute: 0,
+    logCountInMinuteList: [],
+    projectLogCountList: {},
     aliveCountForProjectIn5Minutes: [], // 内存中记录每个项目5分钟内的活跃量
     errorLogListForLast200: [],  // 存放最近200条报错日志
     purchaseCodeValid: false,
@@ -42,6 +43,7 @@ global.monitorInfo = {
     calculateDataInMemory: [], //流式计算相关信息
     calculateFlowData: {}, // 存储流量数据
     monitorSecretList: [], // 监控签名秘钥列表
+    exportRandomNumber: {}  // 下载时需要用到的随机数
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

@@ -676,6 +676,7 @@ const Utils = {
   },
   // base64解码日志
   base64DecodeForLog(logInfo) {
+    let finalData = {}
     for (const key in logInfo) {
       if (logInfo[key]) {
         switch (key) {
@@ -683,14 +684,17 @@ const Utils = {
           case 'webMonitorId':
           case 'completeUrl':
           case 'simpleUrl':
+            finalData[key] = logInfo[key]
             break
           default:
-            logInfo[key] = Utils.b64DecodeUnicode(logInfo[key])
+            finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
             break
         }
       }
     }
-    return logInfo
+    console.log("logInfo", logInfo)
+    console.log("finalData", finalData)
+    return finalData
   }
 }
 

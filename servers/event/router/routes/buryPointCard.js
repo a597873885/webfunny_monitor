@@ -27,4 +27,7 @@ module.exports = (router) => {
   router.post('/buryPointCard/getHeatMapValueTimeSlotData', BuryPointCardController.getHeatMapValueTimeSlotStatisticData);
   router.post('/buryPointCard/getFunnelEveryDay', BuryPointCardController.getFunnelEveryDayStatisticList);
   router.post('/buryPointCard/getRealOnlineCount', BuryPointCardController.getRealOnlineCount);
+  router.post('/buryPointCard/getDataPreview', BuryPointCardController.getDataPreview);
+  router.post('/buryPointCard/getCardList', BuryPointCardController.getCardList);//先返回不带分析数据的list
+  router.post('/buryPointCard/getCardListByIds', BuryPointCardController.getCardListByIds);//根据卡片ids得到分析数据list
 }

@@ -12,4 +12,6 @@ module.exports = (router) => {
     router.get('/getFlowListByCompanyIdAndProjectIds', FlowDataInfoByDayController.getFlowListByCompanyIdAndProjectIds);
     // 获取流量耗尽的公司id
     router.get('/getLimitCompanyIdForCloud', FlowDataInfoByDayController.getLimitCompanyIdForCloud);
+    // 获取今天的流量总量
+    router.get('/getTotalFlowCountByCompanyForDay', FlowDataInfoByDayController.getTotalFlowCountByCompanyForDay);
 }

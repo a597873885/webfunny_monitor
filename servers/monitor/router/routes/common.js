@@ -59,6 +59,7 @@ module.exports = (router) => {
  router.get('/getDebugInfos', Common.getDebugInfos)
  router.get('/getHistoryDebugInfos', Common.getHistoryDebugInfos)
  router.get('/getDebugInfosForPage', Common.getDebugInfosForPage)
+ router.post('/getExportCode', Common.getExportCode)
 
  /**
   * 推送信息相关
