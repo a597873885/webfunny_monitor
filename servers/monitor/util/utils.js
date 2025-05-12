@@ -684,6 +684,8 @@ const Utils = {
           case 'webMonitorId':
           case 'completeUrl':
           case 'simpleUrl':
+          case 'uploadType':
+          case 'logContent':
             finalData[key] = logInfo[key]
             break
           default:

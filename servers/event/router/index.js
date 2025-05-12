@@ -7,8 +7,8 @@ const Config = new NodeClickHouse("../schema/config")
 
 global.EventCacheDataList = {}
 global.eventInfo = {
-    invalidProjectIdForCloud: [],  // 流量用尽的项目（云服务开启后生效）
-    unLimitCountForFreeProduct: true,
+    invalidProjectIdForCloud: [],
+    unLimitCountForFreeProduct: false,
     
     purchaseCodeCardCount: 10,
     webfunnyTokenList: [],
@@ -21,27 +21,27 @@ global.eventInfo = {
     debugInfoTimer: {},
     debugTimer: null,
     debugInfo: {},
-    debugClearLocalInfo: [], // 记录将要清理本地缓存的userId
-    logServerStatus: true, // 日志服务状态
-    stopWebMonitorIdList: [], // 停止上报服务的项目列表
-    waitCounts: 40,   // 日志等待上报的时间间隔，可以调整日志上报的密度（40代表8s上报一次）
-    logCountInMinute: 0, // 每分钟的日志量
-    logCountInMinuteList: [], // 每分钟日志量数组
-    errorLogListForLast200: [],  // 存放最近200条报错日志
+    debugClearLocalInfo: [],
+    logServerStatus: true,
+    stopWebMonitorIdList: [],
+    waitCounts: 40,
+    logCountInMinute: 0,
+    logCountInMinuteList: [],
+    errorLogListForLast200: [],
     purchaseCodeValid: false,
     warningMessageList: [],
     loginValidateCode: "",
-    projectConfigs: {}, // 携带每个项目的配置信息
-    alarmInfoList: {}, // 警报信息暂存
-    logInfoQueue: {}, // 存放日志队列的对象
-    relationQueue: {}, // 点位关系队列
-    tokenListInMemory: {}, //内存中的token列表 
-    calculateFlowData: {}, // 存储流量数据
-    pointAndFields: [], // 存放点位下的字段信息
-    points: [], // 存放点位信息
-    funnelCardAndPointRelations: {}, // 存放漏斗卡片关系数据
-    eventSecretList: [], // 埋点签名秘钥列表
-    exportRandomNumber: {}  // 下载时需要用到的随机数
+    projectConfigs: {},
+    alarmInfoList: {},
+    logInfoQueue: {},
+    relationQueue: {},
+    tokenListInMemory: {},
+    calculateFlowData: {},
+    pointAndFields: [],
+    points: [],
+    funnelCardAndPointRelations: {},
+    eventSecretList: [],
+    exportRandomNumber: {}
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

@@ -22,7 +22,7 @@ module.exports = [
     "/getConcurrencyByMinuteInHour", "/initCf", "/upEvent", "/upEvents",
     "/export", "/sdkRelease/downLoad", "/getValidateCode",
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
-    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
+    "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds", "screenShot/upload",
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
     "/buryPointCard/getHeatMapPerData", "/wfMonitor/getLogCountInfoByDay", "/buryPointVisualTracking/create",
 

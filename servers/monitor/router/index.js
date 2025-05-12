@@ -9,9 +9,6 @@ const Config = new NodeClickHouse("../schema/config")
 
 global.monitorInfo = {
     invalidProjectIdForCloud: [],
-    unLimitCountForFreeProduct: false,
-    purchaseCodeType: 1,
-    purchaseCodeProjectCount: 3,
     registerEmailCode: {},
     registerEmailCodeCheckError: {},
     webMonitorIdList: [],
@@ -29,7 +26,7 @@ global.monitorInfo = {
     logCountInMinute: 0,
     logCountInMinuteList: [],
     projectLogCountList: {},
-    aliveCountForProjectIn5Minutes: [], // 内存中记录每个项目5分钟内的活跃量
+    aliveCountForProjectIn5Minutes: [],
     errorLogListForLast200: [],  // 存放最近200条报错日志
     purchaseCodeValid: false,
     warningMessageList: [],

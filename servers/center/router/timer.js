@@ -1,5 +1,5 @@
 require("colors")
-const { UserController, CommonTableController, AlarmListController, TimerCalculateController } = require("../controllers/controllers.js")
+const { UserController, CommonTableController, AlarmListController, TimerCalculateController, ApplicationConfigController } = require("../controllers/controllers.js")
 const Utils = require('../util/utils');
 const log = require("../../../config/log");
 const weekDays = [0,1,2,3,4,5,6];
@@ -11,31 +11,22 @@ module.exports = async () => {
         UserController.setValidateCode()
     }, 5 * 60 * 1000)
     setTimeout(() => {
-        console.warn(" ██╗    ██╗ ███████╗ ██████╗  ███████╗ ██╗   ██╗ ███╗   ██╗ ███╗   ██╗ ██╗   ██╗".cyan)
-        console.warn(" ██║    ██║ ██╔════╝ ██╔══██╗ ██╔════╝ ██║   ██║ ████╗  ██║ ████╗  ██║ ╚██╗ ██╔╝".cyan)
-        console.warn(" ██║ █╗ ██║ █████╗   ██████╔╝ █████╗   ██║   ██║ ██╔██╗ ██║ ██╔██╗ ██║  ╚████╔╝".cyan)
-        console.warn(" ██║███╗██║ ██╔══╝   ██╔══██╗ ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║╚██╗██║   ╚██╔╝".cyan)
-        console.warn(" ╚███╔███╔╝ ███████╗ ██████╔╝ ██║      ╚██████╔╝ ██║ ╚████║ ██║ ╚████║    ██║".cyan)
-        console.warn("  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝".cyan)
-        console.warn(" ")
-        console.warn(" ")
-        console.warn("应用中心启动成功...".yellow)
-        console.warn("")
+        console.warn("╔═════════════════════════════════════启动成功════════════════════════════════════╗".cyan)
+        console.warn("║                                                                                 ║".cyan)
+        console.warn("║ ██╗    ██╗ ███████╗ ██████╗  ███████╗ ██╗   ██╗ ███╗   ██╗ ███╗   ██╗ ██╗   ██╗ ║".cyan)
+        console.warn("║ ██║    ██║ ██╔════╝ ██╔══██╗ ██╔════╝ ██║   ██║ ████╗  ██║ ████╗  ██║ ╚██╗ ██╔╝ ║".cyan)
+        console.warn("║ ██║ █╗ ██║ █████╗   ██████╔╝ █████╗   ██║   ██║ ██╔██╗ ██║ ██╔██╗ ██║  ╚████╔╝  ║".cyan)
+        console.warn("║ ██║███╗██║ ██╔══╝   ██╔══██╗ ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║╚██╗██║   ╚██╔╝   ║".cyan)
+        console.warn("║ ╚███╔███╔╝ ███████╗ ██████╔╝ ██║      ╚██████╔╝ ██║ ╚████║ ██║ ╚████║    ██║    ║".cyan)
+        console.warn("║  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝    ║".cyan)
+        console.warn("║                                                                                 ║".cyan)
+        console.warn("║".cyan + " 1. Webfunny应用中心启动成功...                                                  ".yellow + "║".cyan)
 
         setTimeout(() => {
-            // 更新流量上限信息
             TimerCalculateController.updateCompanyData()
+            ApplicationConfigController.getMachineFingerprint()
         }, 20 * 1000)
 
-        // 服务器启动记录打点
-        // Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
-        //     pointId: "11",
-        //     projectId: "event1029",
-        //     yong_hu_id: Utils.getMac(),
-        //     shouQuanMaId: "apply-center",
-        // })}).then((res) => {}).catch((e) => {})
-
-        // 初始化登录验证码
         UserController.setValidateCode()
         
 
@@ -58,22 +49,18 @@ module.exports = async () => {
             const weekDay = weekDays[day]
             try {
 
-                // 每个小时更新两次流量信息
                 if (minuteTimeStr == "20:00" || minuteTimeStr == "50:00") {
                     TimerCalculateController.updateCompanyData()
                 }
 
-                // 告警定时器
                 if (minuteTimeStr.substring(2) == ":00") {
                     oneMinuteCount++
                     await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
                 }
 
-                // 凌晨0点01分开始创建当天的数据库表
                 if (hourTimeStr == "00:00:01") {
                     CommonTableController.createTable(0)
                 } 
-                // 晚上11点55分开始创建第二天的数据库表
                 if (hourTimeStr == "23:55:01") {
                     CommonTableController.createTable(1)
                 } 

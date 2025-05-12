@@ -906,20 +906,19 @@ const Utils = {
    * @param {Object} user 存储的用户信息 {userId, nickname}
    * @param {Number} maxLen 数组最大长度，默认100
    */
-  setFixedLengthQueue(projectId, user, maxLen = 100) {
+  setFixedLengthQueue(projectId, user, maxLen = 300) {
     if (!global.clientUsers) {
       global.clientUsers = {}
     }
     if (global.clientUsers[projectId]) {
-      //判断数组中是否存在，存在就不添加
-      const hasOne = global.clientUsers[projectId].some(item => item.userId === user.userId)
-      if (!hasOne) {
-        //判断是否超出长度，
-        if (global.clientUsers[projectId].length >= maxLen) {
-          global.clientUsers[projectId].shift(); // 移除队列的第一个元素
-        }
-        global.clientUsers[projectId].push(user); // 添加新元素到队列的末尾
+      //判断数组中是否存在，存在就就先删除，再添加，保持最新的信息
+      const tempList = global.clientUsers[projectId].filter(item => item.userId !== user.userId)
+      tempList.push(user)
+      //判断是否超出长度，
+      if (tempList.length >= maxLen) {
+        tempList.shift(); // 移除队列的第一个元素
       }
+      global.clientUsers[projectId] = tempList; // 添加新元素到队列的末尾
     } else {
       global.clientUsers[projectId] = [user]
     }

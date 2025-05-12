@@ -38,6 +38,7 @@ const accountInfo = {
     printSql: otherConfig.printSql,  // 是否打印sql配置
     printConsole: otherConfig.printConsole,  // 是否打印console
 
+    cacheDataTime: otherConfig.cacheDataTime, // 接口缓存时间
     signature: otherConfig.signature,  // 签名配置
 }
 

@@ -1,6 +1,7 @@
 var fs = require('fs');
 const fetch = require('node-fetch')
 const path = require('path')
+require('colors')
 const rootPath = path.resolve(__dirname, "..")
 // 初始化bin目录
 const setVariableInfo = (databaseInfo, clickHouseDatabaseInfo, inputPurchaseCode) => {
@@ -201,8 +202,19 @@ const run = async () => {
   }).catch((e) => {
     console.log("webfunny启动失败了，原因可能有两种：".red)
     console.log("1. 网络异常，执行重启命令试一下$: npm run restart".red)
-    console.log("2. 贵公司的环境无法访问外部网络，无法获取授权码，请联系我们解决，微信号：webfunny2".red)
+    console.log("2. 贵公司的环境无法访问外部网络，可在官网（www.webfunny.com）扫码联系客服获取".red)
   })
+
+  const box = `
+╔════════════════════════════════════════════初始化提示═════════════════════════════════════════════╗
+║                                                                                                   ║
+║ 【授权码】Webfunny私有化部署需要授权码（License），可在官网（www.webfunny.com）扫码联系客服获取。 ║
+║                                                                                                   ║
+║ 【数据库】系统运行需要 Mysql 数据、Clickhouse 数据库，需要提前准备好数据库连接参数！              ║
+║                                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝
+`;
+console.log(box.red);
 
   fs.mkdir( rootPath + "/webfunny.config", function(err){
     if ( err ) { 

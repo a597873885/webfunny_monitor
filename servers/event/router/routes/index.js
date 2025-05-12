@@ -15,6 +15,7 @@ const timerStatisticRouter = require('./timerStatistic')
 const weHandleDataRouter = require('./weHandleData')
 const buryPointCircleSelectRouter = require('./buryPointCircleSelect')
 const buryPointVisualTrackingRouter = require('./buryPointVisualTracking')
+const buryPointScreenShotRouter = require('./buryPointScreenShot')
 const buryPointUserBehaviorRelationRouter = require('./buryPointUserBehaviorRelation')
 
 const createRouter = (router) => {
@@ -35,6 +36,7 @@ const createRouter = (router) => {
   buryPointTemplateRouter(router)
   buryPointCircleSelectRouter(router)
   buryPointVisualTrackingRouter(router)
+  buryPointScreenShotRouter(router)
   buryPointUserBehaviorRelationRouter(router)
 }
 
