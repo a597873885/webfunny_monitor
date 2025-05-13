@@ -684,9 +684,15 @@ const Utils = {
           case 'webMonitorId':
           case 'completeUrl':
           case 'simpleUrl':
-          case 'uploadType':
           case 'logContent':
             finalData[key] = logInfo[key]
+            break
+          case 'uploadType':
+            if (logInfo[key].indexOf("_") !== -1) {
+              finalData[key] = logInfo[key]
+            } else {
+              finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
+            }
             break
           default:
             finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
@@ -694,8 +700,6 @@ const Utils = {
         }
       }
     }
-    console.log("logInfo", logInfo)
-    console.log("finalData", finalData)
     return finalData
   }
 }
