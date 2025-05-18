@@ -5,6 +5,6 @@ module.exports = (router) => {
   router.post('/alarm/createNoticeTemplate', NoticeTemplateController.createNoticeTemplate)
   router.get('/alarm/getNoticeTemplateById', NoticeTemplateController.getNoticeTemplateById)
   router.get('/alarm/deleteNoticeTemplate', NoticeTemplateController.deleteNoticeTemplate)
-  router.put('/alarm/updateNoticeTemplate', NoticeTemplateController.updateNoticeTemplate)
+  router.post('/alarm/updateNoticeTemplate', NoticeTemplateController.updateNoticeTemplate)
   router.get('/alarm/getAllNoticeTemplate', NoticeTemplateController.getAllNoticeTemplate)
 }

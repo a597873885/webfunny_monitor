@@ -22,10 +22,10 @@ module.exports = function () {
         }
 
         // 如果日志服务的接口，也不校验登录
-        if ( !(url.indexOf("/wfLog") === -1)) {
-            await next();
-            return
-        }
+        // if ( !(url.indexOf("/wfLog") === -1)) {
+        //     await next();
+        //     return
+        // }
 
         // 如果是上报接口，直接通过
         if ( !(url.indexOf("upLog") === -1 &&
