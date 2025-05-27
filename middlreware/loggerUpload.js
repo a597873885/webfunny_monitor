@@ -46,22 +46,40 @@ module.exports = {
   },
 
   // 日志
-  log: ({projectId = "", userId = Utils.getMac(), message = "", content = "", otherInfo = ""}) => {
+  log: ({projectId = "", userId = "", secondId = "", message = "", content = "", otherInfo = ""}) => {
 
     // 如果projectId为空，则不进行上报
     if (!projectId) return
     // 如果content和message都为空，则不进行上报
     if (!content && !message) return
 
-    let finalContent = content
-    if (typeof content === "object") {
-      finalContent = JSON.stringify(content)
+    let finalMessage = ""
+    if (typeof message === "object") {
+      finalMessage = Utils.b64EncodeUnicode(JSON.stringify(message))
+    } else if (typeof message === "string") {
+      finalMessage = Utils.b64EncodeUnicode(message)
+    } else {
+      finalMessage = message
     }
 
-    let finalMessage = ""
-    if (!message) {
-      finalMessage = finalContent.length > 200 ? finalContent.substring(0,200) : finalContent
+    let finalContent = ""
+    if (typeof content === "object") {
+      finalContent = Utils.b64EncodeUnicode(JSON.stringify(content))
+    } else if (typeof content === "string") {
+      finalContent = Utils.b64EncodeUnicode(content)
+    } else {
+      finalContent = content
     }
+
+    let finalOtherInfo = ""
+    if (typeof otherInfo === "object") {
+      finalOtherInfo = Utils.b64EncodeUnicode(JSON.stringify(otherInfo))
+    } else if (typeof otherInfo === "string") {
+      finalOtherInfo = Utils.b64EncodeUnicode(otherInfo)
+    } else {
+      finalOtherInfo = otherInfo
+    }
+
     
     const { version } = Utils.getJsonData()
     fetch(`http://127.0.0.1:${domainConfig.port.be}/wfLog/upLogs`,
@@ -71,12 +89,13 @@ module.exports = {
           logType: "logs",
           webMonitorId: projectId,
           userId,
+          secondId,
           version,
           happenTime: new Date().getTime(),
           message: finalMessage,
           content: finalContent,
           tags: "",
-          thirdInfo: otherInfo,
+          thirdInfo: finalOtherInfo,
           logLevel: "log",
         }]),
         headers: {

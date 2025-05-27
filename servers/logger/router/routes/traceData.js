@@ -1,9 +1,9 @@
 const { TraceDataController } = require("../../controllers/controllers")
 
 module.exports = (router) => {
-  router.post('/getLogCountByDay', TraceDataController.getLogCountByDay);
-  router.post('/getLogListGroupByMsg', TraceDataController.getLogListGroupByMsg);
-  router.post('/getLogDataList', TraceDataController.getTraceDataList);
+  router.post('/getTraceLogCountByDay', TraceDataController.getLogCountByDay);
+  router.post('/getTraceLogListGroupByMsg', TraceDataController.getLogListGroupByMsg);
+  router.post('/getTraceLogDataList', TraceDataController.getTraceDataList);
   // 查询日志详情
-  router.post('/getLogDataBySearch', TraceDataController.getTraceDataBySearch);
+  router.post('/getTraceLogDataBySearch', TraceDataController.getTraceDataBySearch);
 }

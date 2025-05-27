@@ -24,7 +24,7 @@ const accountInfo = {
     messageQueue: otherConfig.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     openMonitor: otherConfig.openMonitor,                    // 开启系统监控
 
-    saveDays: otherConfig.logSaveDays,                       // 日志保存周期
+    saveDays: otherConfig.logSaveDays.monitor || 30,                       // 日志保存周期
 
     stayTimeScope: otherConfig.business.userStayTimeScope,                  // 用户停留时间范围
     batchInsert: otherConfig.business.batchInsert,

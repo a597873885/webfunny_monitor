@@ -21,7 +21,7 @@ const accountInfo = {
     messageQueue: otherConfig.messageQueue,                   // 消息队列默认关闭，需手动开启。 前提：安装RabbitMq;
     batchInsert: otherConfig.business.batchInsert,
 
-    saveDays: otherConfig.logSaveDays,                       // 日志保存周期
+    saveDays: otherConfig.logSaveDays.logger || 3,                       // 日志保存周期
     mysqlConfig: mysqlConfig.logger,
 }
 
