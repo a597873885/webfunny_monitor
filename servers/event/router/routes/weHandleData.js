@@ -9,5 +9,6 @@ module.exports = (router) => {
   router.get('/initWeTemplateData', WeHandleDataController.initWeTemplateData);
   /**升级2.0版本 */
   router.get('/upgradeVersion', WeHandleDataController.upgradeVersion_2_0);
+  router.get('/checkWeFieldData', WeHandleDataController.checkWeFieldData);
   router.get('/createDemoTemplateData', WeHandleDataController.createDemoTemplateData);
 }

@@ -12,7 +12,7 @@ module.exports = [
         "fieldName": "weUserId",
         "fieldAlias": "用户标识",
         "fieldType": "VARCHAR",
-        "fieldLength": 60,
+        "fieldLength": 200,
         "fieldDesc": "由用户主动传入的唯一性标识，一般是userId，手机号，身份证号等",
         "groupByFlag": 0,
         "weType": 1
@@ -21,7 +21,7 @@ module.exports = [
         "fieldName": "wePath",
         "fieldAlias": "页面地址",
         "fieldType": "VARCHAR",
-        "fieldLength": 200,
+        "fieldLength": 2000,
         "fieldDesc": "我们将会自动获取页面地址，路由等",
         "groupByFlag": 1,
         "weType": 1
@@ -30,7 +30,7 @@ module.exports = [
         "fieldName": "weDeviceName",
         "fieldAlias": "设备名称",
         "fieldType": "VARCHAR",
-        "fieldLength": 50,
+        "fieldLength": 1000,
         "fieldDesc": "设备名称",
         "groupByFlag": 1,
         "weType": 1
@@ -39,7 +39,7 @@ module.exports = [
         "fieldName": "wePlatform",
         "fieldAlias": "平台",
         "fieldType": "VARCHAR",
-        "fieldLength": 50,
+        "fieldLength": 1000,
         "fieldDesc": "平台",
         "groupByFlag": 1,
         "weType": 1
@@ -48,7 +48,7 @@ module.exports = [
         "fieldName": "weSystem",
         "fieldAlias": "系统和版本号",
         "fieldType": "VARCHAR",
-        "fieldLength": 50,
+        "fieldLength": 200,
         "fieldDesc": "系统和版本号",
         "groupByFlag": 1,
         "weType": 1
@@ -57,7 +57,7 @@ module.exports = [
         "fieldName": "weOs",
         "fieldAlias": "系统",
         "fieldType": "VARCHAR",
-        "fieldLength": 50,
+        "fieldLength": 200,
         "fieldDesc": "系统",
         "groupByFlag": 1,
         "weType": 1
@@ -66,7 +66,7 @@ module.exports = [
         "fieldName": "weBrowserName",
         "fieldAlias": "浏览器",
         "fieldType": "VARCHAR",
-        "fieldLength": 50,
+        "fieldLength": 500,
         "fieldDesc": "浏览器",
         "groupByFlag": 1,
         "weType": 1
@@ -165,7 +165,7 @@ module.exports = [
         "fieldName": "weRelationField",
         "fieldAlias": "来源字段",
         "fieldType": "VARCHAR",
-        "fieldLength": 100,
+        "fieldLength": 200,
         "fieldDesc": "来源字段",
         "groupByFlag": 1,
         "weType": 1
@@ -174,7 +174,7 @@ module.exports = [
         "fieldName": "weUserType",
         "fieldAlias": "用户类型",
         "fieldType": "VARCHAR",
-        "fieldLength": 200,
+        "fieldLength": 2000,
         "fieldDesc": "用户类型",
         "groupByFlag": 1,
         "weType": 1
@@ -183,7 +183,7 @@ module.exports = [
         "fieldName": "weUserLabel",
         "fieldAlias": "用户标签",
         "fieldType": "VARCHAR",
-        "fieldLength": 200,
+        "fieldLength": 2000,
         "fieldDesc": "用户标签",
         "groupByFlag": 1,
         "weType": 1
@@ -192,7 +192,7 @@ module.exports = [
         "fieldName": "weRemark",
         "fieldAlias": "备注",
         "fieldType": "VARCHAR",
-        "fieldLength": 200,
+        "fieldLength": 2000,
         "fieldDesc": "备注",
         "groupByFlag": 1,
         "weType": 1

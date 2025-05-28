@@ -24,7 +24,8 @@ module.exports = [
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds", "screenShot/upload",
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
-    "/buryPointCard/getHeatMapPerData", "/wfMonitor/getLogCountInfoByDay", "/buryPointVisualTracking/create",
+    "/buryPointCard/getHeatMapPerData", "/buryPointVisualTracking/create", "/wfEvent/checkWeFieldData",
+    "/getExportCode",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",
