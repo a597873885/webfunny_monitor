@@ -26,6 +26,15 @@ const app = new Koa()
 ReWriteConsole()
 
 app.use(async (ctx, next) => {
+    // const originReg = /^https?:\/\/([a-zA-Z0-9-]+\.)*xxx-data\.cn(?::\d+)?$/;
+    // const origin = ctx.headers.origin;
+    // if (origin && originReg.test(origin)) {
+    //     ctx.set('Access-Control-Allow-Origin', origin);
+    // }
+
+    // 当ctx.headers.origin包含xxx.com时，允许访问
+    
+
     ctx.set("Access-Control-Allow-Origin", ctx.header.origin || "*")
     ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
     ctx.set("Access-Control-Allow-Headers", "access-token,webfunny-secret-code,x-requested-with,Content-Type,wf-t,wf-user-info,wf-signature,sw8")

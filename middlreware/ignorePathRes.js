@@ -9,12 +9,13 @@ module.exports = [
     , "/wfMonitor/checkAlarmResult", "/uploadSourceMap",
     
     // center
+    // "/getUserInfo", 
     "/hasSuperAdminAccount", "/getValidateCode", "/refreshValidateCode", "/login", "/register", "/wfCenter/getUserByPhone",
     "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
     "/checkSsoToken", "/getUserTokenFromNetworkByToken", "/getSysConfigInfo",
     "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi", 
     "/getTeams", "/getTeamListWithoutToken", "/getTeamDetail", "/updateTeam", "/createFlowData",
-    "/getUserInfo", "/getSignatureForFeiShu", "/getAccessTokenByCodeForFeiShu", "/getAccessTokenByCodeForIds", "/apiIdsNotice",
+    "/getSignatureForFeiShu", "/getAccessTokenByCodeForFeiShu", "/getAccessTokenByCodeForIds", "/apiIdsNotice",
     "/getCompanyList", "/checkUserByOpenid",
 
     //event
