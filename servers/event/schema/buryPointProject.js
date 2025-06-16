@@ -33,6 +33,11 @@ const Columns = {
       type: DataTypes.STRING,
       allowNull: false,
       field: 'name'
+    },// 环境dev,sit,stag,prd
+    env: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'env'
     },
     // 级别:1-项目，2-分组，3-看板
     type: {

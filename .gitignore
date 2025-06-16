@@ -35,3 +35,4 @@ util_cus/
 lib/*.map
 H5SdkReleaseScript*.js
 webfunny.config
+servers/event/lib/uploads

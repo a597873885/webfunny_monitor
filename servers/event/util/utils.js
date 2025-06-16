@@ -930,7 +930,17 @@ const Utils = {
   getFixedLengthQueue(projectId) {
     if (!global.clientUsers) global.clientUsers = {}
     return global.clientUsers[projectId] ? global.clientUsers[projectId] : []
-  }
+  },
+  //首字母大写
+  capitalizeFirstLetter(str) {
+    if (!str) return str; // 处理空字符串
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  },
+  isLooseNumber(value) {
+    // 先转换为数字，再检查是否为有效数字
+    const num = Number(value);
+    return !isNaN(num) && !isNaN(parseFloat(value));
+  },
 }
 
 module.exports = Utils

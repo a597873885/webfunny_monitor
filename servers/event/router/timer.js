@@ -1,4 +1,4 @@
-const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController, TimerStatisticController } = require("../controllers/controllers")
+const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointProjectController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController, TimerStatisticController } = require("../controllers/controllers")
 const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, mysqlConfig } = AccountConfig
@@ -25,6 +25,7 @@ module.exports = async () => {
         // 同步数据库里的token
         ConfigController.refreshTokenList()
         TimerCalculateController.setEventSecretList()
+        BuryPointProjectController.checkProjectEnv()
 
         // 数据库里存放的event-master-uuid
         let eventMasterUuidInDb = ""
@@ -56,10 +57,10 @@ module.exports = async () => {
             TimerCalculateController.checkCommonProduct()
         }, 25 * 1000)
 
-        // 创建系统模板和系统项目
-        WeHandleDataController.createWeTemplateData().catch((e)=>{
-            log.printError("创建系统模板和系统项目",e)
-        });
+        // // 创建系统模板和系统项目
+        // WeHandleDataController.createWeTemplateData().catch((e)=>{
+        //     log.printError("创建系统模板和系统项目",e)
+        // });
 
         const startTime = new Date().getTime();
         let count = 0;

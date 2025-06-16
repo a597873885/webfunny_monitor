@@ -14,7 +14,12 @@ const ignorePaths = [
     "/refreshValidateCode", "/login", "/register", "/registerForAdmin",
     "/sendRegisterEmail", "/resetPwd", "/projectSimpleListByWebmonitorIds",
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
-    "/buryPointCard/getHeatMapPerData"
+    "/buryPointCard/getHeatMapPerData",
+    "/buryPointWarehouse/downloadExcel",
+    "/buryPointWarehouse/downloadTemplate",
+    "/buryPointWarehouse/downFileByName",
+    "/buryPointTemplate/download",
+     "/checkWeFieldData"
 ]
 module.exports = function () {
     return async function (ctx, next) {

@@ -11,7 +11,7 @@ module.exports = [
     // center
     // "/getUserInfo", 
     "/hasSuperAdminAccount", "/getValidateCode", "/refreshValidateCode", "/login", "/register", "/wfCenter/getUserByPhone",
-    "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile",
+    "/registerForAdmin", "/sendRegisterEmail", "/resetPwd", "/upBp", "/uploadMapFile", "/health",
     "/checkSsoToken", "/getUserTokenFromNetworkByToken", "/getSysConfigInfo",
     "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi", 
     "/getTeams", "/getTeamListWithoutToken", "/getTeamDetail", "/updateTeam", "/createFlowData",
@@ -27,6 +27,10 @@ module.exports = [
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
     "/buryPointCard/getHeatMapPerData", "/buryPointVisualTracking/create", "/wfEvent/checkWeFieldData",
     "/getExportCode",
+    "/buryPointWarehouse/downloadExcel",
+    "/buryPointWarehouse/downloadTemplate",
+    "/buryPointWarehouse/downFileByName",
+    "/buryPointTemplate/download",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",
