@@ -5,7 +5,7 @@ const upload = multer({
   storage: multer.diskStorage({
     destination: (req, file, cb) => {
       //线上
-      cb(null, path.join("servers/event/lib", 'uploads'));
+      cb(null, path.join("servers/event/lib", 'dataTempUploads'));
     },
     filename: (req, file, cb) => {
       file.originalname = Buffer.from(file.originalname, 'latin1').toString('utf-8');
