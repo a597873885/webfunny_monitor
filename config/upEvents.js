@@ -60,5 +60,15 @@ module.exports = {
           "Content-Type": "application/json;charset=utf-8"
         }
     })
+  },
+  apiRecord: (params) => {
+    fetch("http://staging.webfunny.cn/wfEvent/upEvents",
+    {
+        method: "POST", 
+        body: JSON.stringify(params),
+        headers: {
+          "Content-Type": "application/json;charset=utf-8"
+        }
+    })
   }
 }

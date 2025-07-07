@@ -55,40 +55,45 @@ log.errorDetail = function(param, err) {
 
 //格式化请求日志
 var formatReqLog = function(ctx, resTime) {
-  var req = ctx.req
-  var res = ctx.res
-  var body = ctx.request.body
-  let getClientIp = function (req) {
-    return  req.headers['x-forwarded-for'] ||
-      req.connection.remoteAddress ||
-      req.socket.remoteAddress ||
-      req.connection.socket.remoteAddress;
-  };
-  let ip = getClientIp(req);
+  let logText = ""
+  try {
+    var req = ctx.req
+    var res = ctx.res
+    var body = ctx.request.body
+    let getClientIp = function (req) {
+      return  req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+    };
+    let ip = getClientIp(req);
 
-  var logText = new String();
-  //访问方法
-  var method = req.method;
-  logText += "method: " + method + "\n";
-  //请求原始地址
+    //访问方法
+    var method = req.method;
+    logText += "method: " + method + "\n";
+    //请求原始地址
 
-  logText += "originalUrl:  " + req.url + "\n";
-  //客户端ip
-  logText += "client ip:  " + ip + "\n";
+    logText += "originalUrl:  " + req.url + "\n";
+    //客户端ip
+    logText += "client ip:  " + ip + "\n";
 
-  //请求参数
-  if (method === "GET") {
-    logText += "query:  " + JSON.stringify(req.query) + "\n";
-  } else {
-    if (typeof body === "string") {
-      logText += "body: " + "\n" + body + "\n";
+    //请求参数
+    if (method === "GET") {
+      logText += "query:  " + JSON.stringify(req.query) + "\n";
     } else {
-      logText += "body: " + "\n" + JSON.stringify(body) + "\n";
+      if (typeof body === "string") {
+        logText += "body: " + "\n" + body + "\n";
+      } else {
+        logText += "body: " + "\n" + JSON.stringify(body) + "\n";
+      }
     }
-  }
 
-  //服务器响应时间
-  logText += "response time: " + resTime + "\n";
+    //服务器响应时间
+    logText += "response time: " + resTime + "\n";
+  } catch (error) {
+    console.error("formatReqLog error:", error)
+  }
+  
 
   return logText;
 };

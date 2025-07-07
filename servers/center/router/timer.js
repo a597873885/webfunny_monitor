@@ -23,9 +23,13 @@ module.exports = async () => {
         console.warn("║".cyan + " 1. Webfunny应用中心启动成功...                                                  ".yellow + "║".cyan)
 
         setTimeout(() => {
-            TimerCalculateController.updateCompanyData()
+            TimerCalculateController.updateCompanyDataForEvent()
             ApplicationConfigController.getMachineFingerprint()
         }, 20 * 1000)
+
+        setTimeout(() => {
+            // TimerCalculateController.updateCompanyDataForMonitor()
+        }, 60 * 1000)
 
         UserController.setValidateCode()
         
@@ -49,8 +53,11 @@ module.exports = async () => {
             const weekDay = weekDays[day]
             try {
 
-                if (minuteTimeStr == "20:00" || minuteTimeStr == "50:00") {
-                    TimerCalculateController.updateCompanyData()
+                if (minuteTimeStr == "00:00" || minuteTimeStr == "30:00") {
+                    TimerCalculateController.updateCompanyDataForMonitor()
+                }
+                if (minuteTimeStr == "15:00" || minuteTimeStr == "45:00") {
+                    TimerCalculateController.updateCompanyDataForEvent()
                 }
 
                 if (minuteTimeStr.substring(2) == ":00") {

@@ -18,8 +18,8 @@ const app = new Koa()
 // import skAgent from 'skywalking-backend-js'
 // skAgent.start({
 //     serviceName: 'Webfunny服务端',
-//     serviceInstance: 'webfunny_server_instance_name',
-//     collectorAddress: '61.132.92.90:11800',
+//     serviceInstance: 'webfunny-cloud-global',
+//     collectorAddress: 'localhost:9011',
 // });
 
 // 重写 console.log

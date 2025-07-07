@@ -787,6 +787,11 @@ const Utils = {
       console.log(error.msg)
     })
   },
+  isLooseNumber(value) {
+    // 先转换为数字，再检查是否为有效数字
+    const num = Number(value);
+    return !isNaN(num) && !isNaN(parseFloat(value));
+  },  
   pinYinToHump(pinyin) {
     let fieldName = '';
     //TODO 如果是含有数字1、2这种，转成英文数字one、two...
@@ -906,19 +911,20 @@ const Utils = {
    * @param {Object} user 存储的用户信息 {userId, nickname}
    * @param {Number} maxLen 数组最大长度，默认100
    */
-  setFixedLengthQueue(projectId, user, maxLen = 300) {
+  setFixedLengthQueue(projectId, user, maxLen = 100) {
     if (!global.clientUsers) {
       global.clientUsers = {}
     }
     if (global.clientUsers[projectId]) {
-      //判断数组中是否存在，存在就就先删除，再添加，保持最新的信息
-      const tempList = global.clientUsers[projectId].filter(item => item.userId !== user.userId)
-      tempList.push(user)
-      //判断是否超出长度，
-      if (tempList.length >= maxLen) {
-        tempList.shift(); // 移除队列的第一个元素
+      //判断数组中是否存在，存在就不添加
+      const hasOne = global.clientUsers[projectId].some(item => item.userId === user.userId)
+      if (!hasOne) {
+        //判断是否超出长度，
+        if (global.clientUsers[projectId].length >= maxLen) {
+          global.clientUsers[projectId].shift(); // 移除队列的第一个元素
+        }
+        global.clientUsers[projectId].push(user); // 添加新元素到队列的末尾
       }
-      global.clientUsers[projectId] = tempList; // 添加新元素到队列的末尾
     } else {
       global.clientUsers[projectId] = [user]
     }
@@ -936,11 +942,33 @@ const Utils = {
     if (!str) return str; // 处理空字符串
     return str.charAt(0).toUpperCase() + str.slice(1);
   },
-  isLooseNumber(value) {
-    // 先转换为数字，再检查是否为有效数字
-    const num = Number(value);
-    return !isNaN(num) && !isNaN(parseFloat(value));
-  },
+  isTimeDifferenceMoreThan10Minutes(timeStr1, timeStr2) {
+    // 解析时间字符串为 Date 对象
+    const date1 = new Date(timeStr1);
+    const date2 = new Date(timeStr2);
+
+    // 计算时间差（毫秒）
+    const diffMilliseconds = Math.abs(date1 - date2);
+
+    // 转换为分钟（1 分钟 = 60,000 毫秒）
+    const diffMinutes = diffMilliseconds / (1000 * 60);
+
+    // 判断是否超过 11 分钟
+    return diffMinutes > 11;
+   },//判断对象数组，是否包含特定值的方法
+   isValueInFieldName(value, list) {
+      // 检查参数有效性
+      if (!Array.isArray(list)) {
+        return false;
+      }
+      
+      // 检查list中是否有任何对象的fileName字段等于value
+      return list.some(item => 
+        item && 
+        typeof item === 'object' && 
+        item.fieldName === value
+      );
+    },
 }
 
 module.exports = Utils
