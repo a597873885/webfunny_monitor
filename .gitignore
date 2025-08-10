@@ -22,6 +22,7 @@ bin/*
 interceptor
 config/db.js
 temp.min.js.map
+*.map
 views/wf_center
 views/wf_monitor
 views/wf_event
