@@ -44,6 +44,8 @@ module.exports = (router) => {
   router.post('/deleteProject', ProjectController.delete);
   // 检查项目个数
   router.get('/checkProjectCount', ProjectController.checkProjectCount);
+  // 根据公司ID获取项目数量
+  router.post('/getProjectCountByCompanyId', ProjectController.getProjectCountByCompanyId);
   // 获取userTags
   router.post('/getUserTags', ProjectController.getUserTags)
   // 保存userTags

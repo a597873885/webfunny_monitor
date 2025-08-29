@@ -62,7 +62,7 @@ module.exports = {
     })
   },
   apiRecord: (params) => {
-    fetch("http://staging.webfunny.cn/wfEvent/upEvents",
+    fetch("http://172.19.117.121:9011/wfEvent/upEvents",
     {
         method: "POST", 
         body: JSON.stringify(params),

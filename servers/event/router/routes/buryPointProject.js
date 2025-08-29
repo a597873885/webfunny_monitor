@@ -23,6 +23,8 @@ module.exports = (router) => {
   router.post('/buryPointProject/existTemplate', BuryPointProjectController.existTemplate);
   router.post('/buryPointProject/createWePointData', BuryPointProjectController.createWePointData);
   router.post('/buryPointProject/saveNewProjectName', BuryPointProjectController.saveNewProjectName);
+  // 根据公司ID获取项目数量
+  router.post('/buryPointProject/getProjectCountByCompanyId', BuryPointProjectController.getProjectCountByCompanyId);
 
   // 查询项目流量开启状态
   router.post('/getFlowSwitch', BuryPointProjectController.getFlowSwitch)

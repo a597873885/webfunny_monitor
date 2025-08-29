@@ -74,6 +74,8 @@ module.exports = function () {
           if (
             otherConfig.isCloud === true &&
             url.indexOf("wfMonitor/upLogs") === -1 &&
+            url.indexOf("wfMonitor/upMog") === -1 &&
+            url.indexOf("wfMonitor/upMyLog") === -1 &&
             url.indexOf("wfMonitor/initCf") === -1 &&
             url.indexOf("wfEvent/upEvents") === -1 &&
             url.indexOf("wfEvent/initCf") === -1 &&

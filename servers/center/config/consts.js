@@ -45,11 +45,13 @@ const PROJECT_API = {
     CHECK_ALARM_RESULT: `${global.MONITOR_PUBLISH_PREFIX}/checkAlarmResult`,
     GET_LOG_COUNT_INFO_BY_DAY: `${global.MONITOR_PUBLISH_PREFIX}/getLogCountInfoByDay`,
     GET_PROJECT_LIST_ALL: `${global.MONITOR_PUBLISH_PREFIX}/project/list/all`,
+    GET_MONITOR_PROJECT_COUNT_BY_COMPANY_ID: `${global.MONITOR_PUBLISH_PREFIX}/getProjectCountByCompanyId`,
 
     EVENT_PROJECT_SIMPLE_LIST_BY_WEBMONITOR_IDS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/projectSimpleListByWebmonitorIds`,
     EVENT_ADD_VIEWERS: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/addViewers`,
     GET_EVENT_LOG_COUNT_INFO_BY_DAY: `${global.EVENT_PUBLISH_PREFIX}/getLogCountInfoByDay`,
     GET_EVENT_SYS_INFO: `${global.EVENT_PUBLISH_PREFIX}/sysInfo`,
+    GET_EVENT_PROJECT_COUNT_BY_COMPANY_ID: `${global.EVENT_PUBLISH_PREFIX}/buryPointProject/getProjectCountByCompanyId`,
 
     SAAS_PRODUCT_INFO: "/webfunny_manage/api/productInfo/get",
 }

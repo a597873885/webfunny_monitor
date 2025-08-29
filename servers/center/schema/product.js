@@ -28,6 +28,18 @@ const Product = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'productType'
     },
+    // 是否支持数据导出功能(true/false)
+    enableDataExport: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'enableDataExport'
+    },
+    // 保存周期天数(30/90/180)
+    saveDays: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'saveDays'
+    },
     // 已消耗流量
     usedFlowCount: {
       type: DataTypes.BIGINT,

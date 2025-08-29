@@ -40,6 +40,18 @@ const OrderInfo = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'maxFlowCount'
     },
+    // 是否支持数据导出功能(true/false)
+    enableDataExport: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'enableDataExport'
+    },
+    // 保存周期天数(30/90/180)
+    saveDays: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'saveDays'
+    },
     // 项目个数
     projectCount: {
       type: DataTypes.INTEGER,
