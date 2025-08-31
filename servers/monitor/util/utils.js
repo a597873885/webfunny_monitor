@@ -685,6 +685,7 @@ const Utils = {
           case 'completeUrl':
           case 'simpleUrl':
           case 'logContent':
+          case 'loadTime':
             finalData[key] = logInfo[key]
             break
           case 'uploadType':
