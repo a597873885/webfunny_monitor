@@ -117,8 +117,8 @@ const otherConfig = {
   "openMonitor": true,       // 是否开启可视化页面的监控
   "uploadServerErrorToWebfunny": true, // 是否上报后端错误日志至logger服务（推荐开启，便于排查问题）
   "logSaveDays": {           // 日志存储周期
-    "monitor": 30,
-    "event": 30,
+    "monitor": 366,
+    "event": 366,
     "logger": 3
   },
   "isOpenTodayStatistic": true, // 是否开启统计今天的数据（每小时分析一次，true：开启，false：不开启，默认开启）

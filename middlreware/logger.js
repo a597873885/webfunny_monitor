@@ -31,7 +31,6 @@ function batchReport() {
     
     // 批量上报
     UpEvents.apiRecord(dataToSend)
-    console.log(`批量上报API调用记录，数量: ${dataToSend.length}`)
   }
 }
 
