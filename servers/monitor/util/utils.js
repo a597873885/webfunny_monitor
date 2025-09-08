@@ -678,7 +678,7 @@ const Utils = {
   base64DecodeForLog(logInfo) {
     let finalData = {}
     for (const key in logInfo) {
-      if (logInfo[key]) {
+      if (logInfo[key] && typeof logInfo[key] === "string") {
         switch (key) {
           case 'happenTime':
           case 'webMonitorId':
@@ -699,6 +699,8 @@ const Utils = {
             finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
             break
         }
+      } else {
+        finalData[key] = logInfo[key]
       }
     }
     return finalData

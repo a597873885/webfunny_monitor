@@ -4,6 +4,7 @@ const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
 const getmac = require('getmac')
+const path = require('path')
 const { base64encode, base64decode } = require('nodejs-base64');
 const nodemailer = require('nodemailer')
 const {slugify } = require('transliteration');
@@ -32,6 +33,21 @@ const Utils = {
       macAddress = "unknown"
     }
     return macAddress
+  },
+  /**
+   * 解析json文件
+   */
+  getJsonData() {
+    const basePath = path.resolve(__dirname, "../")
+    const file = basePath + '/package.json'
+    let conf = {}
+    try {
+      conf = jsonfile.readFileSync(file);
+    } catch (error) {
+        console.log('read json config err:', error);
+        throw new Error('解析package.json失败')
+    }
+    return conf
   },
   postPoint(url, params = {}, httpCustomerOperation = { isHandleResult: true }) {
     const method = "POST"
