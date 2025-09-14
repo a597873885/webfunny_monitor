@@ -57,9 +57,9 @@ const handleResult = () => {
     timerTask(customerWarningCallback, global.serverType)
 
     // 3秒后开始消费消息
-    setTimeout(() => {
-        Common.startReceiveMsg()
-    }, 3000)
+    // setTimeout(() => {
+    //     Common.startReceiveMsg()
+    // }, 3000)
 }
 
 Config.createTable().then(() => {

@@ -1,5 +1,5 @@
 const WebfunnyConfig = require("../../../webfunny.config")
-const { domainConfig, licenseConfig, mysqlConfig, otherConfig } = WebfunnyConfig
+const { domainConfig, licenseConfig, mysqlConfig, otherConfig, rabbitMqConfig } = WebfunnyConfig
 
 
 const accountInfo = {
@@ -30,6 +30,7 @@ const accountInfo = {
     batchInsert: otherConfig.business.batchInsert,
 
     mysqlConfig: mysqlConfig.monitor,
+    rabbitMqConfig: rabbitMqConfig,
     
     segmentUrl: otherConfig.segmentUrl,                      // segment上报地址，跟skyWalking进行接入
 

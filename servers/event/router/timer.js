@@ -9,6 +9,15 @@ const masterUuidKey = "event-master-uuid"
  * 定时任务
  */
 module.exports = async () => {
+    /**
+     * 3秒后开始接收消息队列里的数据
+     * */
+    setTimeout(() => {
+        if (accountInfo.messageQueue.enable === true) {
+            // 开始接收消息队列的消息
+            Common.startReceiveMsg()
+        }
+    }, 3000)
 
     /**
      * 1、每天凌晨生成今天和明天的表
@@ -191,7 +200,15 @@ module.exports = async () => {
                 //         log.printError("定时执行告警异常",e)
                 //     });
                 // }
-
+                // 每分钟的执行一次执行点位缓存更新
+                if (minuteTimeStr.substring(3) == "00") {
+                    try {
+                        console.log('开始执行点位缓存更新定时任务...');
+                        await Common.refreshBaseCacheTimer();
+                    } catch (error) {
+                        console.error('点位缓存更新定时任务执行失败:', error);
+                    }
+                }
             } catch(e) {
                 log.printError("定时器执行报错：", e)
             }

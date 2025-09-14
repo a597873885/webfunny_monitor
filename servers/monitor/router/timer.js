@@ -13,7 +13,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
      * 3秒后开始接收消息队列里的数据
      * */
     setTimeout(() => {
-        if (accountInfo.messageQueue === true) {
+        if (accountInfo.messageQueue.enable === true) {
             // 开始接收消息队列的消息
             Common.startReceiveMsg()
             Common.startReceiveMsgForMog()
@@ -149,8 +149,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                     // 更新登录缓存到数据库，供从服务器使用
                 }
 
-                // 更新每个用户的连线状态到内存中
-                TimerCalculateController.updateCustomerStatusIntoMemory()
                 // 每隔1分钟，生成一个动态的secret
                 TimerCalculateController.setMonitorSecretList()
             }
@@ -176,6 +174,13 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 每分钟更新活跃流量信息
                 TimerCalculateController.updateAliveCountInfo()
             }
+
+            // 每隔30s执行一次
+            if (minuteTimeStr.substring(3) == "00" || minuteTimeStr.substring(3) == "30") {
+                // 更新每个用户的连线状态到内存中
+                TimerCalculateController.updateCustomerStatusIntoMemory()
+            }
+            
 
             // 每隔1分钟的第5秒执行
             // if (minuteTimeStr.substring(3) == "05") {

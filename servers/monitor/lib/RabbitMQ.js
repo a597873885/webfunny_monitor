@@ -1,23 +1,26 @@
 let amqp = require('amqplib');
+const AccountConfig = require('../config/AccountConfig')
+const { accountInfo } = AccountConfig
 
 
 module.exports = class RabbitMQ {
   constructor() {
-    this.hosts = ["amqp://name:password@ip:port"];
-    this.index = 0;
-    this.length = this.hosts.length;
-    // this.open = amqp.connect(this.hosts[this.index]);
-    this.mqConfig = {
-      protocol: 'amqp',
-      hostname: 'localhost',
-      port: 5672,
-      username: 'webfunny',
-      password: '123456',
-      locale: 'en_US',
-      frameMax: 0,
-      heartbeat: 0,
-      vhost: '/',
-    };
+    // this.hosts = ["amqp://name:password@ip:port"];
+    // this.index = 0;
+    // this.length = this.hosts.length;
+    // // this.open = amqp.connect(this.hosts[this.index]);
+    // this.mqConfig = {
+    //   protocol: 'amqp',
+    //   hostname: 'localhost',
+    //   port: 5672,
+    //   username: 'webfunny',
+    //   password: '123456',
+    //   locale: 'en_US',
+    //   frameMax: 0,
+    //   heartbeat: 0,
+    //   vhost: '/',
+    // };
+    this.mqConfig = accountInfo.rabbitMqConfig
     this.open = amqp.connect(this.mqConfig);
   }
 
@@ -60,7 +63,8 @@ module.exports = class RabbitMQ {
       })
       .then(function (channel) {
         return channel.assertQueue(queueName).then(function (ok) {
-            channel.prefetch(10, false);
+            const prefetchCount = accountInfo.messageQueue.prefetchCount
+            channel.prefetch(prefetchCount, false);
             return channel.consume(queueName, function (msg) {
               if (msg !== null) {
                 let data = msg.content.toString();

@@ -1,12 +1,17 @@
 let amqp = require('amqplib');
+const AccountConfig = require('../config/AccountConfig')
+const { accountInfo } = AccountConfig
 
 
 module.exports = class RabbitMQ {
   constructor() {
-    this.hosts = ["amqp://localhost"];
-    this.index = 0;
-    this.length = this.hosts.length;
-    this.open = amqp.connect(this.hosts[this.index]);
+    // this.hosts = ["amqp://localhost"];
+    // this.index = 0;
+    // this.length = this.hosts.length;
+    // this.open = amqp.connect(this.hosts[this.index]);
+
+    this.mqConfig = accountInfo.rabbitMqConfig
+    this.open = amqp.connect(this.mqConfig);
   }
 
   sendQueueMsg(queueName, msg, successCallback, errorCallBack) {
@@ -48,7 +53,8 @@ module.exports = class RabbitMQ {
       })
       .then(function (channel) {
         return channel.assertQueue(queueName).then(function (ok) {
-            channel.prefetch(10, false);
+            const prefetchCount = accountInfo.messageQueue.prefetchCount
+            channel.prefetch(prefetchCount, false);
             return channel.consume(queueName, function (msg) {
               if (msg !== null) {
                 let data = msg.content.toString();

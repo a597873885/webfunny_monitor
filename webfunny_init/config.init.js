@@ -100,6 +100,19 @@ const mysqlConfig = {
   }
 }
 
+// RabbitMq消息队列配置
+const rabbitMqConfig = {
+  protocol: 'amqp',
+  hostname: 'xx.xxx.xxx.xxx',
+  port: 5672,
+  username: 'RabbitUsername',
+  password: 'RabbitPassword',
+  locale: 'en_US',
+  frameMax: 0,
+  heartbeat: 0,
+  vhost: '/',
+}
+
 /**
 * 其他相关设置
 * 配置更改后，需重启
@@ -113,7 +126,11 @@ const otherConfig = {
   },
   "protocol": "",            // 内部通讯协议（一般用不上）
   "segmentUrl": "",          // segment 上报地址，对接skyWalking
-  "messageQueue": false,     // 是否开启消息队列
+  "messageQueue": {
+      "enable": false,        // 是否开启消息队列
+      "prefetchCount": 100,   // 预取数量
+      "consumerCount": 2      // 消费者数量
+  },
   "openMonitor": true,       // 是否开启可视化页面的监控
   "uploadServerErrorToWebfunny": true, // 是否上报后端错误日志至logger服务（推荐开启，便于排查问题）
   "logSaveDays": {           // 日志存储周期
@@ -168,7 +185,7 @@ const otherConfig = {
   "isIpCovert": false,          // 是否开启ip地址转换，用于接口获取地理位置
 }
 module.exports = {
-  licenseConfig, domainConfig, mysqlConfig, otherConfig
+  licenseConfig, domainConfig, mysqlConfig, rabbitMqConfig, otherConfig
 }`
         fs.writeFile(variableJsonPath, variableJsonFile, (err) => {
             if (err) throw err;

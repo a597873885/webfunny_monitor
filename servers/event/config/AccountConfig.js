@@ -1,5 +1,5 @@
 const WebfunnyConfig = require("../../../webfunny.config")
-const { domainConfig, licenseConfig, mysqlConfig, otherConfig } = WebfunnyConfig
+const { domainConfig, licenseConfig, mysqlConfig, otherConfig, rabbitMqConfig } = WebfunnyConfig
 
 const accountInfo = {
     isCloud: otherConfig.isCloud,              // 云服务模式
@@ -30,6 +30,7 @@ const accountInfo = {
     batchInsert: otherConfig.business.batchInsert,
 
     mysqlConfig: mysqlConfig.event,
+    rabbitMqConfig: rabbitMqConfig,
 
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,
