@@ -91,45 +91,45 @@ module.exports = async () => {
                         // 每隔10秒钟
                         if (minuteTimeStr.substring(4) == "0") {
                             // 取日志队列批量插入
-                            CommonUpLog.handleLogInfoQueue()
+                            await CommonUpLog.handleLogInfoQueue()
                             // 批量处理失败点位日志队列
-                            CommonUpLog.handleFailLogQueue()
+                            await CommonUpLog.handleFailLogQueue()
                         }
                         break
                     case 20:
                         // 每隔20秒钟
                         if (["00", "20", "40"].includes(minuteTimeStr.substring(3))) {
                             // 取日志队列批量插入
-                            CommonUpLog.handleLogInfoQueue()
+                            await CommonUpLog.handleLogInfoQueue()
                             // 批量处理失败点位日志队列
-                            CommonUpLog.handleFailLogQueue()
+                            await CommonUpLog.handleFailLogQueue()
                         }
                         break
                     case 30:
                         // 每隔30秒钟
                         if (["00", "30"].includes(minuteTimeStr.substring(3))) {
                             // 取日志队列批量插入
-                            CommonUpLog.handleLogInfoQueue()
+                            await CommonUpLog.handleLogInfoQueue()
                             // 批量处理失败点位日志队列
-                            CommonUpLog.handleFailLogQueue()
+                            await CommonUpLog.handleFailLogQueue()
                         }
                         break
                     case 60:
-                        // 每隔30秒钟
+                        // 每隔60秒钟
                         if (["00"].includes(minuteTimeStr.substring(3))) {
                             // 取日志队列批量插入
-                            CommonUpLog.handleLogInfoQueue()
+                            await CommonUpLog.handleLogInfoQueue()
                             // 批量处理失败点位日志队列
-                            CommonUpLog.handleFailLogQueue()
+                            await CommonUpLog.handleFailLogQueue()
                         }
                         break
                     default:
                         // 每隔10秒钟
                         if (minuteTimeStr.substring(4) == "0") {
                             // 取日志队列批量插入
-                            CommonUpLog.handleLogInfoQueue()
+                            await CommonUpLog.handleLogInfoQueue()
                             // 批量处理失败点位日志队列
-                            CommonUpLog.handleFailLogQueue()
+                            await CommonUpLog.handleFailLogQueue()
                         }
                         break
                 }
@@ -243,9 +243,11 @@ module.exports = async () => {
 
                 // 每个小时第00分钟的执行一次告警分析
                 if (minuteTimeStr == "00:00") {
-                    TimerStatisticController.handleAlarm().catch((e)=>{
-                        log.printError("定时执行告警异常",e)
-                    });
+                   if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
+                        TimerStatisticController.handleAlarm().catch((e)=>{
+                            log.printError("定时执行告警异常",e)
+                        });
+                    }
                 }
                 // 每分钟的执行一次执行点位缓存更新
                 if (minuteTimeStr.substring(3) == "00") {

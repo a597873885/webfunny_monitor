@@ -143,7 +143,8 @@ const otherConfig = {
   "business": {
     "batchInsert": {
       "loopGap": 10, // 注意：间隔会影响实时性数据（如在线人数）；日志队列里的数据进行入库的频率，默认10s一次；可以设置：10、20、30、60; 
-      "limitQueueLength": 1000  // 一次批量插入最大数量
+      "limitQueueLength": 1000,  // 一次批量插入最大数量
+      "concurrencyLimit": 50    // 并发数量控制
     },
     "userStayTimeScope": {      // 记录停留时间范围（即将废弃）
       "min": 100,
