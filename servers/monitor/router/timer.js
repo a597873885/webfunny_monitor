@@ -190,22 +190,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // 每隔1分钟，生成一个动态的secret
                 TimerCalculateController.setMonitorSecretList()
             }
-            // 每分钟的最后一秒执行, 开发完成后移除
-            // if (minuteTimeStr.substring(3) == "59") {
-            //     const dayName = tempDate.Format("yyyy-MM-dd")
-            //     const hourName = tempDate.Format("yyyy-MM-dd hh")
-            //     // 每分钟更新流量信息
-            //     TimerCalculateController.saveFlowDataByHour(dayName, hourName)
-            // }
-
-
-            // 每个小时的最后一秒执行
-            // if (minuteTimeStr == "59:00") {
-            //     const dayName = tempDate.Format("yyyy-MM-dd")
-            //     const hourName = tempDate.Format("yyyy-MM-dd hh")
-            //     // 每分钟更新流量信息
-            //     TimerCalculateController.saveFlowDataByHour(dayName, hourName)
-            // }
 
             // 每隔1分钟
             if (minuteTimeStr.substring(3) == "00") {
@@ -219,33 +203,14 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 TimerCalculateController.updateCustomerStatusIntoMemory()
             }
             
-
-            // 每隔1分钟的第5秒执行
-            // if (minuteTimeStr.substring(3) == "05") {
-            //     if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-            //         TimerCalculateController.calculateCountByMinute(prevHourMinuteStr, 0)
-            //         prevHourMinuteStr = hourMinuteStr
-            //     }
-            // }
-
-            // 如果是凌晨，则计算上一天的分析数据
-            if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                // console.log("第二天的分析判断开始：", monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
-                if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
+            // 判断是否是主节点
+            if (global.masterElection && global.masterElection.isMasterNode()) {
+                // 如果是凌晨，则计算上一天的分析数据
+                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
                     TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
                 }
-            } else if (minuteTimeStr > "06:00" && minuteTimeStr < "12:00") {
-                // if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-                //     TimerCalculateController.calculateCountByDay(minuteTimeStr, 0)
-                // }
             }
-            // console.log(minuteTimeStr, monitorMasterUuidInDb, global.monitorInfo.monitorMasterUuid)
-            // 每小时的前6分钟，会计算小时数据
-            // if (minuteTimeStr > "00:00" && minuteTimeStr < "06:00") {
-            //     if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-            //         TimerCalculateController.calculateCountByHour(minuteTimeStr, 1, customerWarningCallback)
-            //     }
-            // }
+            
             // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0
             if (minuteTimeStr.substring(3) == "00") {
                 global.monitorInfo.logCountInMinuteList.push(global.monitorInfo.logCountInMinute)
@@ -260,28 +225,8 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             }
             // 凌晨0点01分开始创建当天的数据库表
             if (hourTimeStr == "00:00:01") {
-                // if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-                //     Common.createTable(0)
-                // }
                 global.monitorInfo.projectLogCountList = {}
             } 
-            // // 晚上11点55分开始创建第二天的数据库表
-            // if (hourTimeStr == "23:55:01") {
-            //     if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-            //         Common.createTable(1)
-            //     }
-            // } 
-            // // 凌晨2点开始删除过期的数据库表
-            // if (hourTimeStr == "02:00:00") {
-            //     if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
-            //         Common.startDelete()
-            //     }
-            // }
-            
-            // 凌晨2点20分开始删除无效的数据库表
-            if (hourTimeStr == "02:20:00") {
-                Common.startClearInvalidTable()
-            }
         })
     }, 7000)
    
