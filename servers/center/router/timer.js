@@ -3,6 +3,22 @@ const { UserController, CommonTableController, AlarmListController, TimerCalcula
 const Utils = require('../util/utils');
 const log = require("../../../config/log");
 const weekDays = [0,1,2,3,4,5,6];
+const MasterElection = require('../util/masterElection');
+// 创建 Master 选举实例
+const masterElection = new MasterElection({
+    lockKey: 'center-master-lock',
+    lockTimeout: 30,  // 锁超时30秒
+    renewInterval: 10, // 每10秒续约一次
+    onBecomeMaster: () => {
+        console.log('🎉 当前节点成为 Master，开始执行主节点任务'.yellow)
+    },
+    onLoseMaster: () => {
+        console.log('⚠️  当前节点失去 Master 身份，停止执行主节点任务'.red)
+    }
+});
+
+// 将实例挂载到全局，方便其他模块使用
+global.masterElection = masterElection;
 /**
  * 定时任务
  */
@@ -22,6 +38,11 @@ module.exports = async () => {
         console.warn("║                                                                                 ║".cyan)
         console.warn("║".cyan + " 1. Webfunny应用中心启动成功...                                                  ".yellow + "║".cyan)
 
+        
+        // 启动 Master 选举心跳机制
+        masterElection.startHeartbeat()
+
+        
         setTimeout(() => {
             TimerCalculateController.updateCompanyDataForEvent()
             ApplicationConfigController.getMachineFingerprint()
@@ -53,16 +74,19 @@ module.exports = async () => {
             const weekDay = weekDays[day]
             try {
 
-                if (minuteTimeStr == "00:00" || minuteTimeStr == "30:00") {
-                    TimerCalculateController.updateCompanyDataForMonitor()
-                }
-                if (minuteTimeStr == "15:00" || minuteTimeStr == "45:00") {
-                    TimerCalculateController.updateCompanyDataForEvent()
-                }
-
-                if (minuteTimeStr.substring(2) == ":00") {
-                    oneMinuteCount++
-                    await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
+                // 只在 Master 节点执行的任务
+                if (masterElection.isMasterNode()) {
+                    if (minuteTimeStr == "00:00" || minuteTimeStr == "30:00") {
+                        TimerCalculateController.updateCompanyDataForMonitor()
+                    }
+                    if (minuteTimeStr == "15:00" || minuteTimeStr == "45:00") {
+                        TimerCalculateController.updateCompanyDataForEvent()
+                    }
+    
+                    if (minuteTimeStr.substring(2) == ":00") {
+                        oneMinuteCount++
+                        await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
+                    }
                 }
 
                 if (hourTimeStr == "00:00:01") {

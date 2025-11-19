@@ -15,11 +15,11 @@ const logger = require('./middlreware/logger')
 const loggerUpload = require('./middlreware/loggerUpload')
 const app = new Koa()
 
-// import skAgent from 'skywalking-backend-js'
+// const skAgent = require('skywalking-backend-js').default || require('skywalking-backend-js')
 // skAgent.start({
-//     serviceName: 'Webfunny服务端',
-//     serviceInstance: 'webfunny-cloud-global',
-//     collectorAddress: 'localhost:9011',
+//     serviceName: 'Webfunny服务端-staging',
+//     serviceInstance: 'webfunny_20251101_164448_pro',
+//     collectorAddress: 'dev.webfunny.cn:11800',  // gRPC端口（不是HTTP端口8027）
 // });
 
 // 重写 console.log
