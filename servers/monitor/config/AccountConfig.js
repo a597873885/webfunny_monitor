@@ -18,6 +18,12 @@ const accountInfo = {
     centerAssetsDomain: domainConfig.host.fe,   // 数据可视化服务域名
     centerAssetsPort: domainConfig.port.be,     // 可视化系统端口号
 
+    fileServerDomain: domainConfig.host.be,   // 文件服务域名 
+    fileServerPort: domainConfig.port.be,     // 文件服务端口号
+    fileAssetsDomain: domainConfig.host.fe,   // 文件服务域名
+    fileAssetsPort: domainConfig.port.fe,     // 文件服务端口号
+
+
     purchaseCode: licenseConfig.monitor.purchaseCode,                   // 激活码
     secretCode: licenseConfig.monitor.secretCode,                     // 解码
     protocol: otherConfig.protocol,                   // 服务器之间通信采用的协议;
@@ -33,6 +39,7 @@ const accountInfo = {
     rabbitMqConfig: rabbitMqConfig,
     
     segmentUrl: otherConfig.segmentUrl,                      // segment上报地址，跟skyWalking进行接入
+    selfMonitor: otherConfig.selfMonitor,                      // 自监控配置
 
     useCusEmailSys: otherConfig.email.useCusEmailSys,                 // 是否开启自定义邮件系统
     emailUser: otherConfig.email.emailUser,

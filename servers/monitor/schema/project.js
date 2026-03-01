@@ -9,6 +9,12 @@ const Columns = {
       allowNull: true,
       field: 'dataId'
     },
+    // 项目编码
+    projectCode: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'projectCode'
+    },
     // 监控ID
     webMonitorId: {
       type: DataTypes.STRING,

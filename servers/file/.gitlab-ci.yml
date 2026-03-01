@@ -1,0 +1,266 @@
+# GitLab CI/CD 配置文件 - 后端项目
+# file_server_clickhouse
+
+stages:
+  - deploy       # 部署
+
+# 全局变量
+variables:
+  NODE_VERSION: "16"
+  DEPLOY_PATH: "/www/webfunny/backend/file_server_clickhouse"
+  BACKUP_PATH: "/www/webfunny/backups/backend"
+  PM2_APP_NAME: "file_server"
+
+# ==================== 开发环境 ====================
+deploy:dev:
+  stage: deploy
+  only:
+    - dev
+  before_script:
+    - echo "🔐 配置 SSH"
+    - mkdir -p ~/.ssh
+    - cp $SSH_PRIVATE_KEY ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_DEV >> ~/.ssh/known_hosts
+  script:
+    - echo "🚀 部署到开发服务器"
+    - echo "服务器 $DEPLOY_SERVER_HOST_DEV"
+    - echo "用户 $DEPLOY_SERVER_USER_DEV"
+    - echo "路径 $DEPLOY_PATH"
+    - ssh $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV "mkdir -p $BACKUP_PATH"
+    - ssh $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV "if [ -d $DEPLOY_PATH ]; then BACKUP_DIR=$BACKUP_PATH/\$(date +%Y%m%d_%H%M%S); mkdir -p \$BACKUP_DIR; rsync -a --exclude='node_modules' --exclude='logs' $DEPLOY_PATH/ \$BACKUP_DIR/; fi"
+    - echo "📤 上传代码"
+    - rsync -avz --delete --exclude='node_modules' --exclude='logs' --exclude='.git' ./ $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV:$DEPLOY_PATH/
+    - echo "📦 安装依赖"
+    - ssh $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV "cd $DEPLOY_PATH && npm config set registry https://registry.npmmirror.com && npm install --production && chown -R root:root $DEPLOY_PATH"
+    - echo "🔄 重启服务"
+    - ssh $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV "source ~/.bashrc 2>/dev/null || true; cd $DEPLOY_PATH && pm2 delete $PM2_APP_NAME 2>/dev/null || true && NODE_ENV=dev pm2 start config/file_server.js --name $PM2_APP_NAME --update-env && pm2 save"
+    - echo "⏳ 等待服务启动"
+    - sleep 5
+    - ssh $DEPLOY_SERVER_USER_DEV@$DEPLOY_SERVER_HOST_DEV "source ~/.bashrc 2>/dev/null || true; pm2 list | grep $PM2_APP_NAME"
+    - echo "✅ 部署完成"
+  after_script:
+    - rm -f ~/.ssh/id_rsa
+  environment:
+    name: development
+    url: http://$DEPLOY_SERVER_HOST_DEV:3000
+
+# ==================== 测试环境 ====================
+deploy:test:
+  stage: deploy
+  only:
+    - test
+  before_script:
+    - mkdir -p ~/.ssh
+    - cp $SSH_PRIVATE_KEY ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_TEST >> ~/.ssh/known_hosts
+  script:
+    - echo "🚀 部署到测试服务器"
+    - echo "服务器 $DEPLOY_SERVER_HOST_TEST"
+    - echo "用户 $DEPLOY_SERVER_USER_TEST"
+    
+    # 备份
+    - |
+      ssh $DEPLOY_SERVER_USER_TEST@$DEPLOY_SERVER_HOST_TEST "
+        BACKUP_DIR=$BACKUP_PATH/\$(date +%Y%m%d_%H%M%S)
+        mkdir -p \$BACKUP_DIR
+        if [ -d $DEPLOY_PATH ]; then
+          rsync -a --exclude='node_modules' --exclude='logs' $DEPLOY_PATH/ \$BACKUP_DIR/
+        fi
+      "
+    
+    # 部署
+    - |
+      rsync -avz --delete \
+        --exclude='node_modules' \
+        --exclude='logs' \
+        --exclude='dist' \
+        --exclude='.git' \
+        ./ $DEPLOY_SERVER_USER_TEST@$DEPLOY_SERVER_HOST_TEST:$DEPLOY_PATH/
+    
+    # 重启服务
+    - |
+      ssh $DEPLOY_SERVER_USER_TEST@$DEPLOY_SERVER_HOST_TEST "
+        source ~/.bashrc 2>/dev/null || true
+        cd $DEPLOY_PATH
+        npm install --production
+        chown -R root:root $DEPLOY_PATH
+        pm2 delete $PM2_APP_NAME 2>/dev/null || true
+        NODE_ENV=test pm2 start config/file_server.js --name $PM2_APP_NAME --update-env
+        pm2 save
+        sleep 5
+        pm2 list
+      "
+  after_script:
+    - rm -f ~/.ssh/id_rsa
+  environment:
+    name: testing
+    url: http://$DEPLOY_SERVER_HOST_TEST:3000
+
+# ==================== Staging 环境 ====================
+deploy:staging:
+  stage: deploy
+  only:
+    - master
+    - main
+  when: manual  # Staging 环境需要手动触发
+  before_script:
+    - mkdir -p ~/.ssh
+    - cp $SSH_PRIVATE_KEY ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_STAGING >> ~/.ssh/known_hosts
+  script:
+    - echo "🚀 部署到 Staging 服务器"
+    - echo "⚠️  Staging 环境部署，请确认！"
+    
+    # 健康检查脚本
+    - |
+      cat > /tmp/health_check.sh << 'EOF'
+      #!/bin/bash
+      MAX_RETRY=30
+      RETRY_INTERVAL=2
+      
+      for i in $(seq 1 $MAX_RETRY); do
+        if pm2 list | grep -q "online.*$PM2_APP_NAME"; then
+          echo "✅ 服务健康检查通过 (尝试 $i/$MAX_RETRY)"
+          exit 0
+        fi
+        echo "⏳ 等待服务启动... (尝试 $i/$MAX_RETRY)"
+        sleep $RETRY_INTERVAL
+      done
+      
+      echo "❌ 服务健康检查失败"
+      exit 1
+      EOF
+      chmod +x /tmp/health_check.sh
+    
+    # 创建完整备份
+    - |
+      ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING "
+        BACKUP_DIR=$BACKUP_PATH/\$(date +%Y%m%d_%H%M%S)
+        echo '📦 创建完整备份到: '\$BACKUP_DIR
+        mkdir -p \$BACKUP_DIR
+        
+        if [ -d $DEPLOY_PATH ]; then
+          rsync -a --exclude='node_modules' --exclude='logs' $DEPLOY_PATH/ \$BACKUP_DIR/
+          echo '备份完成'
+          
+          # 只保留最近5个备份
+          cd $BACKUP_PATH
+          ls -t | tail -n +6 | xargs -r rm -rf
+        fi
+      "
+    
+    # 部署新版本
+    - echo "📤 上传代码到 Staging 服务器"
+    - |
+      rsync -avz --delete \
+        --exclude='node_modules' \
+        --exclude='logs' \
+        --exclude='dist' \
+        --exclude='.git' \
+        --exclude='.gitlab-ci.yml' \
+        ./ $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING:$DEPLOY_PATH/
+    
+    # 上传健康检查脚本
+    - scp /tmp/health_check.sh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING:/tmp/
+    
+    # 安装依赖并重启
+    - |
+      ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING "
+        source ~/.bashrc 2>/dev/null || true
+        cd $DEPLOY_PATH
+        
+        echo '📦 安装生产依赖'
+        npm config set registry https://registry.npmmirror.com
+        npm install --production
+        chown -R root:root $DEPLOY_PATH
+        
+        echo '💾 保存当前 PM2 状态'
+        pm2 save
+        
+        echo '🔄 重启服务 (零停机)'
+        pm2 delete $PM2_APP_NAME 2>/dev/null || true
+        NODE_ENV=staging pm2 start config/file_server.js --name $PM2_APP_NAME --update-env
+        
+        echo '🏥 健康检查'
+        export PM2_APP_NAME=$PM2_APP_NAME
+        bash /tmp/health_check.sh
+        
+        if [ \$? -eq 0 ]; then
+          echo '✅ Staging 环境部署成功！'
+          echo '服务信息:'
+          pm2 info $PM2_APP_NAME
+          echo '最近日志:'
+          pm2 logs $PM2_APP_NAME --lines 20 --nostream
+        else
+          echo '❌ 部署失败，开始回滚...'
+          LATEST_BACKUP=\$(ls -t $BACKUP_PATH | head -1)
+          if [ -n \"\$LATEST_BACKUP\" ]; then
+            echo \"回滚到: \$LATEST_BACKUP\"
+            rsync -a --delete $BACKUP_PATH/\$LATEST_BACKUP/ $DEPLOY_PATH/
+            pm2 restart $PM2_APP_NAME
+            sleep 5
+            pm2 logs $PM2_APP_NAME --lines 50 --nostream
+          fi
+          exit 1
+        fi
+      "
+    
+    - echo "🎉 后端服务部署完成"
+  after_script:
+    - rm -f ~/.ssh/id_rsa
+    - rm -f /tmp/health_check.sh
+  environment:
+    name: staging
+    url: https://$DEPLOY_SERVER_HOST_STAGING:3000
+
+# ==================== 回滚任务 ====================
+rollback:
+  stage: deploy
+  when: manual
+  only:
+    - master
+    - main
+  before_script:
+    - mkdir -p ~/.ssh
+    - cp $SSH_PRIVATE_KEY ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_STAGING >> ~/.ssh/known_hosts
+  script:
+    - echo "⏮️  执行回滚操作"
+    - |
+      ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING "
+        source ~/.bashrc 2>/dev/null || true
+        echo '查看可用的备份:'
+        ls -lht $BACKUP_PATH | head -10
+        
+        LATEST_BACKUP=\$(ls -t $BACKUP_PATH | head -1)
+        if [ -z \"\$LATEST_BACKUP\" ]; then
+          echo '❌ 没有找到备份文件'
+          exit 1
+        fi
+        
+        echo \"回滚到最新备份: \$LATEST_BACKUP\"
+        rsync -a --delete $BACKUP_PATH/\$LATEST_BACKUP/ $DEPLOY_PATH/
+        
+        cd $DEPLOY_PATH
+        npm install --production
+        chown -R root:root $DEPLOY_PATH
+        pm2 delete $PM2_APP_NAME 2>/dev/null || true
+        NODE_ENV=staging pm2 start config/file_server.js --name $PM2_APP_NAME --update-env
+        sleep 5
+        
+        if pm2 list | grep -q 'online.*$PM2_APP_NAME'; then
+          echo '✅ 回滚成功'
+          pm2 info $PM2_APP_NAME
+        else
+          echo '❌ 回滚后服务未正常启动'
+          pm2 logs $PM2_APP_NAME --lines 50 --nostream
+          exit 1
+        fi
+      "
+  after_script:
+    - rm -f ~/.ssh/id_rsa
+

@@ -36,7 +36,7 @@ global.web_monitor_version = "1.0.0"
 global.BUILD_ENV = process.argv[3]
 global.MONITOR_PUBLISH_PREFIX = "/wfMonitor" // 监控系统，请求前缀
 global.EVENT_PUBLISH_PREFIX = "/wfEvent" // 埋点系统，请求前缀
-
+global.APM_PUBLISH_PREFIX = "/wfApm" // APM系统，请求前缀
 // 解析ip信息到内存中(供监控和埋点使用)
 UtilCus.storeIpList()
 

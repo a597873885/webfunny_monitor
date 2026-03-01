@@ -10,6 +10,12 @@ const Columns = {
       field: 'id',
       // defaultValue: DataTypes.UUIDV4
     },
+    // 项目编码
+    projectCode: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'projectCode'
+    },
     // 项目ID event1001开始
     projectId: {
       type: DataTypes.STRING,

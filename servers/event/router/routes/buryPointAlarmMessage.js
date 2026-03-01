@@ -6,6 +6,7 @@ module.exports = (router) => {
   router.post('/buryPointAlarmMessage/list', BuryPointAlarmMessageController.list);
   router.get('/buryPointAlarmMessage/detail', BuryPointAlarmMessageController.detail);
   router.post('/buryPointAlarmMessage/delete', BuryPointAlarmMessageController.delete);
+  router.post('/buryPointAlarmMessage/getAlarmStatsForLast7Days', BuryPointAlarmMessageController.getAlarmStatsForLast7Days);
   
   router.post('/buryPointAlarmMessage/test', BuryPointAlarmMessageController.testSendNotice);
 }

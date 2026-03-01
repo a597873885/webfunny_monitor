@@ -34,11 +34,35 @@ const OrderInfo = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'productType'
     },
+    // 产品详细类型：1-前端监控，2-埋点系统，6-APM后端监控
+    productDetailType: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'productDetailType'
+    },
     // 流量上限（每天）
     maxFlowCount: {
       type: DataTypes.BIGINT,
       allowNull: true,
       field: 'maxFlowCount'
+    },
+    // 项目个数
+    projectCount: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'projectCount'
+    },
+    // 用户席位
+    userSeats: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'userSeats'
+    },
+    // 点位数量
+    pointCount: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'pointCount'
     },
     // 是否支持数据导出功能(true/false)
     enableDataExport: {
@@ -51,12 +75,6 @@ const OrderInfo = function (sequelize, DataTypes) {
       type: DataTypes.INTEGER,
       allowNull: true,
       field: 'saveDays'
-    },
-    // 项目个数
-    projectCount: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      field: 'projectCount'
     },
     // 联系电话
     phone: {
@@ -82,6 +100,7 @@ const OrderInfo = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'year'
     },
+
     // 是否支付了 0未支付，1支付
     isPay: {
       type: DataTypes.INTEGER,

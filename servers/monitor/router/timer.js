@@ -1,5 +1,5 @@
-const { Common, AlarmController, MessageController, ProjectController, TimerCalculateController, ConfigController } = require("../controllers/controllers.js")
-const Utils = require("../util/utils")
+const { Common, AlarmController, MessageController, ProjectController, TimerCalculateController, ConfigController, CommonUtil } = require("../controllers/controllers.js")
+const Utils = require("../util/utils");
 const log = require("../../../config/log");
 const timerUtil = require("../../../utils/timer.js")
 const AccountConfig = require("../config/AccountConfig");
@@ -19,9 +19,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             Common.startReceiveMsgForMog()
         }
         // 将每个项目的配置放入全局变量中
-        Common.setProjectConfigList()
+        ProjectController.setProjectConfigList()
         setTimeout(() => {
-            console.log("启动监控项目列表：", JSON.stringify(global.monitorInfo.cacheWebMonitorIdList))
+            log.printInfo("启动监控项目列表：", JSON.stringify(global.monitorInfo.cacheWebMonitorIdList))
         }, 10000)
         // 将项目的webMonitorId列表放入全局变量，并放入bin/webMonitorIdList.js文件中
         // Common.setStopWebMonitorIdList()
@@ -30,7 +30,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     setTimeout(() => {
         // 更新流量上限信息
         TimerCalculateController.checkLimitForCloud()
-        TimerCalculateController.checkCommonProduct()
     }, 25 * 1000)
     /**
      * 2秒后开始进行第一次分析
@@ -77,7 +76,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
     setTimeout(() => {
         Common.consoleInfo()
         Common.createTable(0)
-        TimerCalculateController.setMonitorSecretList()
+        CommonUtil.setMonitorSecretList()
         // 数据库里存放的monitor-master-uuid
         let monitorMasterUuidInDb = ""
         // 生成monitor-master-uuid，主服务的判断标识
@@ -141,7 +140,6 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             // 每隔10分钟
             if (minuteTimeStr.substring(1) == "0:00") {
                 TimerCalculateController.checkLimitForCloud()
-                TimerCalculateController.checkCommonProduct()
             }
 
 
@@ -188,7 +186,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 }
 
                 // 每隔1分钟，生成一个动态的secret
-                TimerCalculateController.setMonitorSecretList()
+                CommonUtil.setMonitorSecretList()
             }
 
             // 每隔1分钟
@@ -203,14 +201,16 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 TimerCalculateController.updateCustomerStatusIntoMemory()
             }
             
-            // 判断是否是主节点
-            if (global.masterElection && global.masterElection.isMasterNode()) {
-                // 如果是凌晨，则计算上一天的分析数据
-                if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                    TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+            if (!Utils.isLocalEnvironment(accountInfo)) {
+                // 判断是否是主节点
+                if (global.masterElection && global.masterElection.isMasterNode()) {
+                    // 如果是凌晨，则计算上一天的分析数据
+                    if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
+                        TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+                    }
                 }
             }
-            
+
             // 每隔1分钟，取出全局变量global.monitorInfo.logCountInMinute的值，并清0
             if (minuteTimeStr.substring(3) == "00") {
                 global.monitorInfo.logCountInMinuteList.push(global.monitorInfo.logCountInMinute)

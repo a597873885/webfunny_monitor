@@ -12,6 +12,7 @@ module.exports = [
     "../schema/screenShotInfo",
     "../schema/pageLoadInfoByMinute",
     "../schema/resourceLoadInfo",
+    "../schema/resourcePerfInfo",
     "../schema/infoCountByDay",
     "../schema/infoCountByHour",
     "../schema/deviceInfoCountByDay",
@@ -20,4 +21,8 @@ module.exports = [
     "../schema/httpErrorHandleList",
     "../schema/loadTimeInfoByHour",
     "../schema/videoLog",
+    "../schema/localLog",
+    // 移动端性能监控表
+    "../schema/mobilePerformanceLog",
+    "../schema/mobileErrorLog",
 ]

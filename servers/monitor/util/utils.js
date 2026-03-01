@@ -11,6 +11,32 @@ const AccountConfig = require('../config/AccountConfig')
 const { accountInfo } = AccountConfig
 const timeout = 300000
 const Utils = {
+  /**
+   * 带超时控制的 fetch 封装
+   * @param {string} url - 请求URL
+   * @param {number} timeoutMs - 超时时间（毫秒），默认5秒
+   * @param {object} options - fetch 的其他选项
+   * @returns {Promise<Response>}
+   */
+  async fetchWithTimeout(url, timeoutMs = 5000, options = {}) {
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs)
+    
+    try {
+      const response = await fetch(url, { 
+        ...options,
+        signal: controller.signal 
+      })
+      clearTimeout(timeoutId)
+      return response
+    } catch (error) {
+      clearTimeout(timeoutId)
+      if (error.name === 'AbortError') {
+        throw new Error(`请求超时（${timeoutMs}ms）: ${url}`)
+      }
+      throw error
+    }
+  },
   isArray(object) {
     return Object.prototype.toString.call(object) === "[object Array]"
   },
@@ -679,39 +705,180 @@ const Utils = {
     let finalData = {}
     for (const key in logInfo) {
       if (logInfo[key] && typeof logInfo[key] === "string") {
-        switch (key) {
-          case 'happenTime':
-          case 'webMonitorId':
-          case 'completeUrl':
-          case 'simpleUrl':
-          case 'logContent':
-            finalData[key] = logInfo[key]
-            break
-          case 'loadTime':
-            if (typeof logInfo[key] === "string") {
-              let temp = Utils.b64DecodeUnicode(logInfo[key])
-              finalData[key] = temp * 1
-            } else {
+
+        if (/^\d+(\.\d+)?$/.test(logInfo[key]) && !isNaN(logInfo[key] * 1)) {
+          // 如果是数字，就不用再加那么多判断了。
+          finalData[key] = logInfo[key]
+        } else {
+          switch (key) {
+            case 'happenTime':
+            case 'webMonitorId':
+            case 'completeUrl':
+            case 'simpleUrl':
+            case 'logContent':
+            case 'method':
               finalData[key] = logInfo[key]
-            }
-            break
-          case 'uploadType':
-            if (logInfo[key].indexOf("_") !== -1) {
-              finalData[key] = logInfo[key]
-            } else {
+              break
+            case 'loadTime':
+              if (typeof logInfo[key] === "string") {
+                let temp = Utils.b64DecodeUnicode(logInfo[key])
+                finalData[key] = temp * 1
+              } else {
+                finalData[key] = logInfo[key]
+              }
+              break
+            case 'uploadType':
+              if (logInfo[key].indexOf("_") !== -1) {
+                finalData[key] = logInfo[key]
+              } else {
+                finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
+              }
+              break
+            default:
               finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
-            }
-            break
-          default:
-            finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
-            break
+              break
+          }
         }
+        
       } else {
         finalData[key] = logInfo[key]
       }
     }
     return finalData
-  }
+  },
+  /**
+   * 从 file_server 获取 SourceMap 文件内容
+   * @param {string} projectId - 项目ID (webMonitorId)
+   * @param {string} fileName - 文件名 (如: app.js.map)
+   * @param {string} release - 版本号（可选，如果没有则获取最新）
+   * @returns {Promise<string|null>} 返回 SourceMap JSON 字符串，失败返回 null
+   */
+  async getSourceMapFromFileServer(projectId, fileName, release = null) {
+    const axios = require('axios');
+    const baseURL = `http://${accountInfo.fileServerDomain}` || 'http://localhost:8033';
+    const apiPrefix = '/wfFile/api/sourceMapFile';
+    
+    try {
+      // 1. 查询文件列表
+      const listParams = {
+        project_id: projectId,
+        file_name: fileName,
+        page: 1,
+        pageSize: 1
+      };
+      
+      if (release) {
+        listParams.release = release;
+      }
+
+      const requestUrl = `${baseURL}${apiPrefix}/list`;
+
+      const listResponse = await axios.get(requestUrl, {
+        params: listParams,
+        timeout: 5000  // 5秒超时
+      });
+
+      if (!listResponse.data || 
+          !listResponse.data.data || 
+          !listResponse.data.data.list || 
+          listResponse.data.data.list.length === 0) {
+        console.log(`[SourceMap] file_server 未找到文件: ${projectId}/${fileName}${release ? ', release: ' + release : ''}`);
+        return null;
+      }
+
+      const fileInfo = listResponse.data.data.list[0];
+      console.log(`[SourceMap] 找到文件: ${fileInfo.id}, release: ${fileInfo.release}`);
+      
+      // 2. 获取文件详情（包含内容）
+      const detailResponse = await axios.get(`${baseURL}${apiPrefix}/detail/${fileInfo.id}`, {
+        timeout: 10000  // 10秒超时
+      });
+      
+      if (!detailResponse.data || 
+          !detailResponse.data.data || 
+          !detailResponse.data.data.file_content) {
+        console.log(`[SourceMap] file_server 文件内容为空: ${fileInfo.id}`);
+        return null;
+      }
+
+      // 3. file_server 已经解压缩了，直接返回内容
+      const sourceMapContent = detailResponse.data.data.file_content;
+      
+      console.log(`[SourceMap] 加载成功, 大小: ${sourceMapContent.length} bytes`);
+      return sourceMapContent;
+      
+    } catch (error) {
+      // 不抛出异常，返回 null，让调用方降级到旧逻辑
+      console.log(`[SourceMap] file_server 获取失败: ${error.message}`);
+      return null;
+    }
+  },
+
+  /**
+   * 检查 file_server 是否可用
+   * @returns {Promise<boolean>}
+   */
+  async checkFileServerAvailable() {
+    const axios = require('axios');
+    const baseURL = `http://${accountInfo.fileServerDomain}` || 'http://localhost:8033';
+    const apiPrefix = '/wfFile/api/sourceMapFile';
+    
+    try {
+      const response = await axios.get(`${baseURL}${apiPrefix}/allProjects`, {
+        timeout: 3000
+      });
+      return response.status === 200;
+    } catch (error) {
+      return false;
+    }
+  },
+  /**
+   * 判断是否是本地运行环境
+   * @param {Object} accountInfo - 可选的账户配置信息，如果不提供则从 WebfunnyConfig 中获取
+   * @returns {boolean} true表示本地运行，false表示服务器运行
+   */
+  isLocalEnvironment(accountInfo = null) {
+    const os = require("os")
+    
+    // 方法1: 通过 NODE_ENV 环境变量判断（最可靠）
+    const nodeEnv = process.env.NODE_ENV || process.env.BUILD_ENV || '';
+    if (nodeEnv === 'local' || nodeEnv === 'development' || nodeEnv === 'dev') {
+      return true;
+    }
+    if (nodeEnv === 'production' || nodeEnv === 'pro' || nodeEnv === 'staging' || nodeEnv === 'stag') {
+      return false;
+    }
+    
+    // 方法2: 通过域名配置判断（如果域名包含 localhost 或 127.0.0.1，则认为是本地）
+    let serverDomain = '';
+    let assetsDomain = '';
+    
+    if (accountInfo) {
+      // 如果传入了 accountInfo，使用传入的配置
+      serverDomain = accountInfo.localServerDomain || '';
+      assetsDomain = accountInfo.localAssetsDomain || '';
+    } else {
+      // 否则从 WebfunnyConfig 中获取域名配置
+      const { domainConfig } = WebfunnyConfig;
+      serverDomain = domainConfig.host.be || '';
+      assetsDomain = domainConfig.host.fe || '';
+    }
+    
+    if (serverDomain.includes('localhost') || serverDomain.includes('127.0.0.1') ||
+        assetsDomain.includes('localhost') || assetsDomain.includes('127.0.0.1')) {
+      return true;
+    }
+    
+    // 方法3: 通过主机名判断（作为补充判断，不够准确）
+    const hostname = os.hostname().toLowerCase();
+    if (hostname.includes('local') || hostname === 'localhost') {
+      // 注意：内网IP可能是服务器，所以这个方法不够准确，仅作为补充判断
+      return true;
+    }
+    
+    // 默认情况：如果 NODE_ENV 未设置且域名不是 localhost，则认为是服务器环境
+    return false;
+  },
 }
 
 module.exports = Utils

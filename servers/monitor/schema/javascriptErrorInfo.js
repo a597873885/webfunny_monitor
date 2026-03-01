@@ -9,91 +9,113 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },
-    // 用户标识ID
+    // 页面标识ID
     pageKey: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'pageKey'
+      field: 'pageKey',
+      fieldTitle: '页面标识ID'
     },
     // 设备名称
     deviceName: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'deviceName'
+      field: 'deviceName',
+      fieldTitle: '设备名称'
     },
     // 系统信息
     os: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'os'
+      field: 'os',
+      fieldTitle: '系统信息'
+    },
+    // 平台信息
+    platform: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'platform',
+      fieldTitle: '平台信息'
     },
     // 浏览器名称
     browserName: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserName'
+      field: 'browserName',
+      fieldTitle: '浏览器名称'
     },
     // 浏览器版本号
     browserVersion: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserVersion'
+      field: 'browserVersion',
+      fieldTitle: '浏览器版本号'
     },
     // 用户的IP
     monitorIp: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'monitorIp'
+      field: 'monitorIp',
+      fieldTitle: '用户的IP'
     },
     // 国家
     country: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'country'
+      field: 'country',
+      fieldTitle: '国家'
     },
     // 省份
     province: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'province'
+      field: 'province',
+      fieldTitle: '省份'
     },
     // 城市
     city: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'city'
+      field: 'city',
+      fieldTitle: '城市'
     },
     // 信息类型
     infoType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'infoType'
+      field: 'infoType',
+      fieldTitle: '信息类型'
     },
     // JS报错的简易信息
     simpleErrorMessage: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'simpleErrorMessage'
+      field: 'simpleErrorMessage',
+      fieldTitle: 'JS报错的简易信息'
     },
     // JS报错信息
     errorMessage: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'errorMessage'
+      field: 'errorMessage',
+      fieldTitle: 'JS报错信息'
     },
     // JS报错堆栈
     errorStack: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'errorStack'
+      field: 'errorStack',
+      fieldTitle: 'JS报错堆栈'
     },
     // 浏览器信息
     browserInfo: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserInfo'
+      field: 'browserInfo',
+      fieldTitle: '浏览器信息'
     }
   },
   // 创建索引

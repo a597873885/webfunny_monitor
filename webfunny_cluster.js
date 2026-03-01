@@ -7,7 +7,7 @@ const { domainConfig } = WebfunnyConfig
 global.serverType = "master"
 const { be, fe } = domainConfig.port
 var port = normalizePort(process.env.PORT || be);
-app.listen(port);
+const httpServer = app.listen(port);
 
 function normalizePort(val) {
   var port = parseInt(val, 10);
@@ -50,7 +50,7 @@ function onError(error) {
 }
 
 function onListening() {
-  var addr = server.address();
+  var addr = httpServer.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
@@ -60,7 +60,7 @@ function onListening() {
 // 启动静态文件服务器
 const KoaStatic = require('koa');
 const appStatic = new KoaStatic();
-const server = require('koa-static-cache');
+const staticCache = require('koa-static-cache');
 const send = require('koa-send'); 
 /* gzip压缩配置 start */
 const compress = require('koa-compress');
@@ -73,7 +73,7 @@ const options = {
 
 // 1.主页静态网页 把静态页统一放到public中管理
 const originPath = path.resolve(__dirname, '') + '/views'
-const publicServer = server({dir: originPath, dynamic: true});
+const publicServer = staticCache({dir: originPath, dynamic: true});
 // 2.重定向判断
 const redirect = async(ctx) => {
   ctx.response.redirect('/wf_center/main')
@@ -95,7 +95,7 @@ appStatic.use(async (ctx, next) => {
 // 3.分配路由
 appStatic.use(compress(options))
 appStatic.use(async (ctx, next) => {
-  if (ctx.url === '/' || ctx.url === '/wf_center/' || ctx.url === '/wf_event/' || ctx.url === '/wf_monitor/' || ctx.url === '/wf_logger/') {
+  if (ctx.url === '/' || ctx.url === '/wf_center/' || ctx.url === '/wf_event/' || ctx.url === '/wf_monitor/' || ctx.url === '/wf_apm/' || ctx.url === '/wf_logger/' || ctx.url === '/wf_file/') {
     redirect(ctx)
   }
 
@@ -106,8 +106,12 @@ appStatic.use(async (ctx, next) => {
     templateHtml = '/wf_event/index.html'
   } else if (ctx.url.startsWith("/wf_monitor/")) {
     templateHtml = '/wf_monitor/index.html'
+  } else if (ctx.url.startsWith("/wf_apm/")) {
+    templateHtml = '/wf_apm/index.html'
   } else if (ctx.url.startsWith("/wf_logger/")) {
     templateHtml = '/wf_logger/index.html'
+  } else if (ctx.url.startsWith("/wf_file/")) {
+    templateHtml = '/wf_file/index.html'
   }
 
   if (!ctx.url.endsWith('/') && !ctx.url.match(/\.(js|css|png|jpg|jpeg|gif|svg|eot|ttf|woff|woff2)$/)) {  
@@ -117,4 +121,80 @@ appStatic.use(async (ctx, next) => {
   await next()
 });
 appStatic.use(publicServer);
-appStatic.listen(fe);
+const staticFileServer = appStatic.listen(fe);
+
+/**
+ * 启动 APM 队列管理器
+ * 用于批量插入数据到 ClickHouse，减少 parts 数量
+ * 注意：这是数据入库的关键组件，必须启动
+ */
+const { queueManager } = require('./servers/apm/lib/apmQueueManager')
+queueManager.startFlushTimer()
+
+/**
+ * 启动 OTEL gRPC 服务
+ * 用于接收 OpenTelemetry 数据上报
+ */
+const { grpcServerManager } = require('./servers/apm/config/grpcServerConfig')
+
+// 启动 OTEL gRPC 服务
+grpcServerManager.startOTEL().then(otelServer => {
+  // OTEL 服务启动成功
+}).catch(err => {
+  console.error('❌ OTEL gRPC 服务启动失败:', err)
+})
+
+/**
+ * 优雅退出：关闭所有服务器连接
+ */
+let isShuttingDown = false;
+
+const gracefulShutdown = async (signal) => {
+  // 防止重复关闭
+  if (isShuttingDown) return;
+  isShuttingDown = true;
+  
+  console.log(`\n🔄 收到 ${signal} 信号，正在关闭服务...`)
+  
+  try {
+    // 1. 先关闭 gRPC 服务器（强制关闭，立即释放端口）
+    if (grpcServerManager && grpcServerManager.otelGrpcServer) {
+      await grpcServerManager.otelGrpcServer.stop()
+      console.log('✅ OTEL gRPC 服务已关闭')
+    }
+    
+    // 2. 关闭静态文件服务器
+    if (staticFileServer && staticFileServer.close) {
+      await new Promise((resolve) => {
+        staticFileServer.close(() => {
+          console.log('✅ 静态文件服务器已关闭')
+          resolve()
+        })
+        setTimeout(resolve, 1000)
+      })
+    }
+    
+    // 3. 关闭 HTTP 服务器
+    if (httpServer && httpServer.close) {
+      await new Promise((resolve) => {
+        httpServer.close(() => {
+          console.log('✅ HTTP 服务器已关闭')
+          resolve()
+        })
+        setTimeout(resolve, 1000)
+      })
+    }
+    
+    console.log('👋 服务已完全关闭')
+  } catch (err) {
+    console.error('关闭服务时出错:', err)
+  }
+  
+  process.exit(0)
+}
+
+// 监听退出信号
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'))
+process.on('SIGINT', () => gracefulShutdown('SIGINT'))
+// nodemon 使用 SIGUSR2 信号重启
+process.once('SIGUSR2', () => gracefulShutdown('SIGUSR2'))

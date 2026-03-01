@@ -7,7 +7,6 @@ const statusCode = require('../utils/status-code')
 const loggerUpload = require("./loggerUpload")
 const log = require("../config/log")
 const Utils = require("../utils/utils")
-const UpEvents = require("../config/upEvents")
 
 // 批量上报配置
 const BATCH_CONFIG = {
@@ -29,8 +28,6 @@ function batchReport() {
       BATCH_CONFIG.timer = null
     }
     
-    // 批量上报
-    UpEvents.apiRecord(dataToSend)
   }
 }
 

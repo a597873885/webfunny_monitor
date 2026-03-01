@@ -24,6 +24,7 @@ const MANAGE_API = {
     GET_TEAM_DETAIL: `${accountInfo.centerServerDomain}/wfCenter/getTeamDetail`,
     UPDATE_TEAM: `${accountInfo.centerServerDomain}/wfCenter/updateTeam`,
     GET_USERS_BY_USERIDS: `${accountInfo.centerServerDomain}/wfCenter/getUsersByUserIds`,
+    GET_FUNCTION_LIST_FROM_MEMORY: `http://${accountInfo.centerServerDomain}/wfCenter/getFunctionListFromMemory`,
 }
 
 const CENTER_API = {
@@ -69,9 +70,13 @@ const LOSS_TIME_FORMAT_TYPE = {
 
 // 留存计算的日期列表
 const RETENTION_CALC_INFO = {
-    defaultFourItems: [0, 1, 7, 30],
+    defaultFourItems: [0, 1, 7, 14, 30],
     secondItems: [0, 1],
     sevenItems: [0, 1, 2, 3, 4, 5, 6, 7],
+    fourteenItems: [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+        10, 11, 12, 13, 14
+    ],
     thirtyItems: [
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
         10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
@@ -84,6 +89,32 @@ const WEEK_NAME = ['日', '一', '二', '三', '四', '五', '六']
 
 const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.centerServerPort}`
 
+//卡片分析数据按时间归类
+const CARD_STATISTIC_DATE_TYPE = {
+    day: "toDate", // 
+    week: "toStartOfWeek", // 
+    month: "toMonth", // 
+    year: "toYear", // 
+    hour: "toStartOfHour", // 
+}
+
+//卡片分析数据按时间归类
+const CARD_STATISTIC_DATE_TYPE_GROUP_BY = {
+    day: "yyyy-MM-dd", // 
+    week: "", // 
+    month: "yyyy-MM-01", // 
+    year: "yyyy", // 
+    hour: "yyyy-MM-dd hh:mm:ss", // 
+}
+
+//总次数，用户数，人均次数,人均停留时间
+const CALCULATE_FIELD_TYPE = {
+    allCount: "总次数", //内置ID不去重
+    userCount: "用户数", //内置ID去重
+    averageCount: "人均次数", //总次数/用户数
+    averageStayTime: "人均停留时间" //停留时间总和/用户数
+}
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
@@ -94,5 +125,8 @@ module.exports = {
     DANGER_SQL_PARAMS,
     LOCAL_SERVER,
     RETENTION_CALC_INFO,
-    WEEK_NAME
+    WEEK_NAME,
+    CALCULATE_FIELD_TYPE,
+    CARD_STATISTIC_DATE_TYPE,
+    CARD_STATISTIC_DATE_TYPE_GROUP_BY
 }

@@ -17,8 +17,13 @@ const buryPointCircleSelectRouter = require('./buryPointCircleSelect')
 const buryPointVisualTrackingRouter = require('./buryPointVisualTracking')
 const buryPointScreenShotRouter = require('./buryPointScreenShot')
 const buryPointUserBehaviorRelationRouter = require('./buryPointUserBehaviorRelation')
+const thirdPartyRouter = require('./thirdParty')
+const dataOverviewForCenterRouter = require('./dataOverviewForCenter')
+
 
 const createRouter = (router) => {
+  thirdPartyRouter(router)
+  dataOverviewForCenterRouter(router)
   buryPointFieldRouter(router)
   buryPointWarehouseRouter(router)
   buryPointAlarmRouter(router)

@@ -9,109 +9,176 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },
     // 请求方法
     method: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'method'
+      field: 'method',
+      fieldTitle: '请求方法'
     },
     // 接口请求的完整URL
     httpUrl: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'httpUrl'
+      field: 'httpUrl',
+      fieldTitle: '接口请求的完整URL'
     },
     // 接口请求的简洁URL
     simpleHttpUrl: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'simpleHttpUrl'
+      field: 'simpleHttpUrl',
+      fieldTitle: '接口请求的简洁URL'
     },
     // traceId
     traceId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'traceId'
+      field: 'traceId',
+      fieldTitle: 'traceId'
     },
     // 接口耗时（ms）
     loadTime: {
       type: DataTypes.INT(64),
       allowNull: true,
-      field: 'loadTime'
+      field: 'loadTime',
+      fieldTitle: '接口耗时（ms）'
     },
     // 接口耗时(s)，向上取整，1.5s -> 2s
     loadTimeForSecond: {
       type: DataTypes.INT(64),
       allowNull: true,
-      field: 'loadTimeForSecond'
+      field: 'loadTimeForSecond',
+      fieldTitle: '接口耗时(s)，向上取整，1.5s -> 2s'
     },
     // 接口状态
     status: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'status'
+      field: 'status',
+      fieldTitle: '接口状态'
     },
     // 接口状态描述
     statusText: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'statusText'
+      field: 'statusText',
+      fieldTitle: '接口状态描述'
     },
     // 接口结果状态
     statusResult: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'statusResult'
+      field: 'statusResult',
+      fieldTitle: '接口结果状态'
     },
     // 接口请求头
     headerText: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'headerText'
+      field: 'headerText',
+      fieldTitle: '接口请求头'
     },
     // 接口请求的参数
     requestText: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'requestText'
+      field: 'requestText',
+      fieldTitle: '接口请求的参数'
     },
     // 接口的返回结果
     responseText: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'responseText'
+      field: 'responseText',
+      fieldTitle: '接口的返回结果'
     },
     // 用户的IP
     monitorIp: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'monitorIp'
+      field: 'monitorIp',
+      fieldTitle: '用户的IP'
+    },
+    // 设备名称
+    deviceName: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'deviceName',
+      fieldTitle: '设备名称'
+    },
+    // 系统信息
+    os: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'os',
+      fieldTitle: '系统信息'
+    },
+    // 平台信息
+    platform: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'platform',
+      fieldTitle: '平台信息'
+    },
+    // 浏览器名称
+    browserName: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'browserName',
+      fieldTitle: '浏览器名称'
+    },
+    // 浏览器版本号
+    browserVersion: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'browserVersion',
+      fieldTitle: '浏览器版本号'
+    },
+    // 浏览器版信息
+    browserInfo: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'browserInfo',
+      fieldTitle: '浏览器版信息'
     },
     // 国家
     country: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'country'
+      field: 'country',
+      fieldTitle: '国家'
     },
     // 省份
     province: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'province'
+      field: 'province',
+      fieldTitle: '省份'
     },
     // 城市
     city: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'city'
+      field: 'city',
+      fieldTitle: '城市'
     },
     // 运营商
     operators: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'operators'
+      field: 'operators',
+      fieldTitle: '运营商'
+    },
+    // 请求域名或IP
+    domain: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'domain',
+      fieldTitle: '请求域名或IP'
     }
   },
   // 创建索引

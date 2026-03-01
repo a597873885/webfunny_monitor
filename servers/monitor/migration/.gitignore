@@ -1,0 +1,6 @@
+# 忽略实际的配置文件（包含敏感信息）
+migration.config.js
+
+# 保留示例配置文件
+!migration.config.example.js
+

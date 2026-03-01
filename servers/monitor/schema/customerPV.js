@@ -9,121 +9,155 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '数据ID'
     },
-    // 用户标识ID
+    // 页面标识ID
     pageKey: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'pageKey'
+      field: 'pageKey',
+      fieldTitle: '页面标识ID'
     },
     // 页面title
     pageTitle: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'pageTitle'
+      field: 'pageTitle',
+      fieldTitle: '页面title'
+    },
+    // 设备品牌
+    deviceBrand: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'deviceBrand',
+      fieldTitle: '设备品牌'
     },
     // 设备名称
     deviceName: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'deviceName'
+      field: 'deviceName',
+      fieldTitle: '设备名称'
     },
     // 设备尺寸，物理尺寸
     deviceSize: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'deviceSize'
+      field: 'deviceSize',
+      fieldTitle: '设备尺寸，物理尺寸'
     },
     // 系统信息
     os: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'os'
+      field: 'os',
+      fieldTitle: '系统信息'
+    },
+    // 系统版本号
+    osVersion: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'osVersion',
+      fieldTitle: '系统版本号'
     },
     // 浏览器名称
     browserName: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserName'
+      field: 'browserName',
+      fieldTitle: '浏览器名称'
     },
     // 浏览器版本号
     browserVersion: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserVersion'
+      field: 'browserVersion',
+      fieldTitle: '浏览器版本号'
     },
     // 浏览器版信息
     browserInfo: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'browserInfo'
+      field: 'browserInfo',
+      fieldTitle: '浏览器版信息'
     },
     // 用户的IP
     monitorIp: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'monitorIp'
+      field: 'monitorIp',
+      fieldTitle: '用户的IP'
     },
     // 国家
     country: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'country'
+      field: 'country',
+      fieldTitle: '国家'
     },
     // 省份
     province: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'province'
+      field: 'province',
+      fieldTitle: '省份'
     },
     // 城市
     city: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'city'
+      field: 'city',
+      fieldTitle: '城市'
     },
     // 运营商
     operators: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'operators'
+      field: 'operators',
+      fieldTitle: '运营商'
     },
     // 上报类型
     uploadType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'uploadType'
+      field: 'uploadType',
+      fieldTitle: '上报类型'
     },
     // 加载类型(首次加载或是reload)
     loadType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'loadType'
+      field: 'loadType',
+      fieldTitle: '加载类型(首次加载或是reload)'
     },
     // 加载加载时间(首次加载或是reload)
     loadTime: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'loadTime'
+      field: 'loadTime',
+      fieldTitle: '加载加载时间(首次加载或是reload)'
     },
     // 判断是否为新用户 "new/old"
     newStatus: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'newStatus'
+      field: 'newStatus',
+      fieldTitle: '判断是否为新用户 "new/old"'
     },
     // 来源页面的URL
     referrer: {
       type: DataTypes.STRING,
         allowNull: true,
-        field: 'referrer'
+        field: 'referrer',
+        fieldTitle: '来源页面的URL'
     },
     // 创建日期，用于查询留存数据
     customerKeyCreatedDate: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'customerKeyCreatedDate'
+      field: 'customerKeyCreatedDate',
+      fieldTitle: '创建日期，用于查询留存数据'
     }
   },
   // 创建索引

@@ -41,7 +41,10 @@ global.eventInfo = {
     points: [],
     funnelCardAndPointRelations: {},
     eventSecretList: [],
-    exportRandomNumber: {}
+    exportRandomNumber: {},
+    pointListForProjectCode: "", // 存放点位列表，根据projectCode进行归类
+    pointListForProjectId: "", // 存放点位列表，根据projectId进行归类
+    projectCompanyMap: "",
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

@@ -18,11 +18,17 @@ const messageRouter = require('./message')
 const pageLoadInfoRouter = require('./pageLoadInfo')
 const projectRouter = require('./project')
 const resourceLoadInfoRouter = require('./resourceLoadInfo')
+const resourcePerfInfoRouter = require('./resourcePerfInfo')
 const videoLogRouter = require('./videoLog')
 const videosRouter = require('./videos')
 const customerStatusRouter = require('./customerStatus')
 const localLogRouter = require('./localLog')
-
+const thirdPartyRouter = require('./thirdParty')
+const dataOverviewForCenterRouter = require('./dataOverviewForCenter')
+const overviewNewRouter = require('./overviewNew')
+const schemaSyncRouter = require('./schemaSync')
+const logSearchRouter = require('./logSearch')
+const topologyRouter = require('./topology')
 // walkingfunny相关接口，统一管理
 const walkingfunnyRouter = require('./walkingfunny')
 
@@ -47,11 +53,18 @@ const createRouter = (router) => {
   pageLoadInfoRouter(router)
   projectRouter(router)
   resourceLoadInfoRouter(router)
+  resourcePerfInfoRouter(router)
   videoLogRouter(router)
   videosRouter(router)
   customerStatusRouter(router)
   walkingfunnyRouter(router)
   localLogRouter(router)
+  thirdPartyRouter(router)
+  dataOverviewForCenterRouter(router)
+  overviewNewRouter(router)
+  logSearchRouter(router)
+  schemaSyncRouter(router)
+  topologyRouter(router)
 }
 
 module.exports = {

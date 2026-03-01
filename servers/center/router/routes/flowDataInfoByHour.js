@@ -6,4 +6,6 @@ module.exports = (router) => {
     router.post('/createFlowData', FlowDataInfoByHourController.createFlowDataInfoByHour);
     // 获取流量列表数据
     router.get('/getHourFlowTrendData', FlowDataInfoByHourController.getHourFlowTrendData);
+    // 获取今天每小时的总流量趋势数据
+    router.get('/getTodayHourFlowTrend', FlowDataInfoByHourController.getTodayHourFlowTrend);
 }

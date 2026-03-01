@@ -7,36 +7,42 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },    
     // 视频记录ID（1个id的有效期是10分钟）
     videoId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'videoId'
+      field: 'videoId',
+      fieldTitle: '视频记录ID（1个id的有效期是10分钟）'
     },
     // 视频日志内容
     logContent: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'logContent'
+      field: 'logContent',
+      fieldTitle: '视频日志内容'
     },
     // 发生时间戳
     happenTime: {
       type: DataTypes.INT(64),
       allowNull: true,
-      field: 'happenTime'
+      field: 'happenTime',
+      fieldTitle: '发生时间戳'
     },
     // 发生时间
     happenDate: {
       type: DataTypes.DATE_TIME,
       allowNull: true,
-      field: 'happenDate'
+      field: 'happenDate',
+      fieldTitle: '发生时间'
     },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE_TIME,
       field: "createdAt",
+      fieldTitle: '创建时间',
       get() {
         return moment().format('YYYY-MM-DD HH:mm:ss');
       }
@@ -45,6 +51,7 @@ const Columns = {
     updatedAt: {
       type: DataTypes.DATE_TIME,
       field: "updatedAt",
+      fieldTitle: '更新时间',
       get() {
         return moment().format('YYYY-MM-DD HH:mm:ss');
       }

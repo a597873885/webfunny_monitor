@@ -1,6 +1,8 @@
 require("colors")
-const { UserController, CommonTableController, AlarmListController, TimerCalculateController, ApplicationConfigController } = require("../controllers/controllers.js")
+const { UserController, CommonTableController, AlarmListController, TimerCalculateController, ApplicationConfigController, ReportGeneratorServiceController } = require("../controllers/controllers.js")
 const Utils = require('../util/utils');
+const AccountConfig = require("../config/AccountConfig");
+const { accountInfo } = AccountConfig;
 const log = require("../../../config/log");
 const weekDays = [0,1,2,3,4,5,6];
 const MasterElection = require('../util/masterElection');
@@ -28,15 +30,15 @@ module.exports = async () => {
     }, 5 * 60 * 1000)
     setTimeout(() => {
         console.warn("╔═════════════════════════════════════启动成功════════════════════════════════════╗".cyan)
-        console.warn("║                                                                                 ║".cyan)
-        console.warn("║ ██╗    ██╗ ███████╗ ██████╗  ███████╗ ██╗   ██╗ ███╗   ██╗ ███╗   ██╗ ██╗   ██╗ ║".cyan)
-        console.warn("║ ██║    ██║ ██╔════╝ ██╔══██╗ ██╔════╝ ██║   ██║ ████╗  ██║ ████╗  ██║ ╚██╗ ██╔╝ ║".cyan)
-        console.warn("║ ██║ █╗ ██║ █████╗   ██████╔╝ █████╗   ██║   ██║ ██╔██╗ ██║ ██╔██╗ ██║  ╚████╔╝  ║".cyan)
-        console.warn("║ ██║███╗██║ ██╔══╝   ██╔══██╗ ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║╚██╗██║   ╚██╔╝   ║".cyan)
-        console.warn("║ ╚███╔███╔╝ ███████╗ ██████╔╝ ██║      ╚██████╔╝ ██║ ╚████║ ██║ ╚████║    ██║    ║".cyan)
-        console.warn("║  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝    ║".cyan)
-        console.warn("║                                                                                 ║".cyan)
-        console.warn("║".cyan + " 1. Webfunny应用中心启动成功...                                                  ".yellow + "║".cyan)
+        console.warn("                                                                                 ".cyan)
+        console.warn(" ██╗    ██╗ ███████╗ ██████╗  ███████╗ ██╗   ██╗ ███╗   ██╗ ███╗   ██╗ ██╗   ██╗ ".cyan)
+        console.warn(" ██║    ██║ ██╔════╝ ██╔══██╗ ██╔════╝ ██║   ██║ ████╗  ██║ ████╗  ██║ ╚██╗ ██╔╝ ".cyan)
+        console.warn(" ██║ █╗ ██║ █████╗   ██████╔╝ █████╗   ██║   ██║ ██╔██╗ ██║ ██╔██╗ ██║  ╚████╔╝   ".cyan)
+        console.warn(" ██║███╗██║ ██╔══╝   ██╔══██╗ ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║╚██╗██║   ╚██╔╝    ".cyan)
+        console.warn(" ╚███╔███╔╝ ███████╗ ██████╔╝ ██║      ╚██████╔╝ ██║ ╚████║ ██║ ╚████║    ██║     ".cyan)
+        console.warn("  ╚══╝╚══╝  ╚══════╝ ╚═════╝  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═══╝    ╚═╝     ".cyan)
+        console.warn("                                                                                  ".cyan)
+        console.warn(" 1. 应用中心-服务启动成功...                                                  ".yellow)
 
         
         // 启动 Master 选举心跳机制
@@ -44,13 +46,14 @@ module.exports = async () => {
 
         
         setTimeout(() => {
-            TimerCalculateController.updateCompanyDataForEvent()
             ApplicationConfigController.getMachineFingerprint()
         }, 20 * 1000)
 
         setTimeout(() => {
             // TimerCalculateController.updateCompanyDataForMonitor()
-        }, 60 * 1000)
+            // TimerCalculateController.updateCompanyDataForApm()
+            // TimerCalculateController.updateCompanyDataForEvent()
+        }, 30 * 1000)
 
         UserController.setValidateCode()
         
@@ -76,16 +79,38 @@ module.exports = async () => {
 
                 // 只在 Master 节点执行的任务
                 if (masterElection.isMasterNode()) {
-                    if (minuteTimeStr == "00:00" || minuteTimeStr == "30:00") {
-                        TimerCalculateController.updateCompanyDataForMonitor()
+                    if (minuteTimeStr == "00:00") {
+                        console.log('[Master任务] 执行更新监控系统公司数据'.cyan)
+                        TimerCalculateController.updateCompanyDataForMonitor(minuteTimeStr)
                     }
-                    if (minuteTimeStr == "15:00" || minuteTimeStr == "45:00") {
-                        TimerCalculateController.updateCompanyDataForEvent()
+                    if (minuteTimeStr == "20:00") {
+                        console.log('[Master任务] 执行更新APM系统公司数据'.cyan)
+                        TimerCalculateController.updateCompanyDataForApm(minuteTimeStr)
+                    }
+                    if (minuteTimeStr == "40:00") {
+                        console.log('[Master任务] 执行更新埋点系统公司数据'.cyan)
+                        TimerCalculateController.updateCompanyDataForEvent(minuteTimeStr)
                     }
     
-                    if (minuteTimeStr.substring(2) == ":00") {
-                        oneMinuteCount++
-                        await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
+
+                    // 本地环境不执行以下操作：告警定时器、报表分析数据定时器、报表发送时间定时器
+                    if (!Utils.isLocalEnvironment(accountInfo)) {
+                        if (minuteTimeStr.substring(2) == ":00") {
+                            oneMinuteCount++
+                            await AlarmListController.calculateAlarm(oneMinuteCount, weekDay, hourTimeStr)
+                        }
+    
+                         // 报表分析数据定时器，（0点到2点半之间分析）按公司来分析
+                        if (hourTimeStr == "00:05:00") {
+                            // 启动按公司分批处理的报表生成服务
+                            ReportGeneratorServiceController.startByCompany();
+                            log.info('Report generator service started successfully');
+                        }
+                        // 报表发送时间定时器，每天十点后，每分钟执行一次
+                        if (hourMinuteStr >= "04:00" && minuteTimeStr.substring(2) == ":00") {
+                                ReportGeneratorServiceController.startSendReport(1); // 每分钟检查一次
+                                log.info('Report send service send successfully');
+                        }
                     }
                 }
 

@@ -18,4 +18,14 @@ module.exports = (router) => {
      */
     router.post('/updateTableBySql', CommonTableController.updateTableBySql);
     router.post('/updateFieldBySql', CommonTableController.updateFieldBySql);
+
+
+    /**
+     * 批量操作表结构
+     */
+    // 批量添加字段
+    router.post('/addColumnByWebMonitorIds', CommonTableController.addColumnByWebMonitorIds);
+    // 批量更新字段
+    // router.post('/updateColumnByWebMonitorIds', CommonTableController.updateColumnByWebMonitorIds);
+
 }

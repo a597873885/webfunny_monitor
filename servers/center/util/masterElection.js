@@ -153,7 +153,7 @@ class MasterElection {
             }
         }, 60 * 1000) // 每分钟清理一次
         
-        console.log(`[MasterElection] 心跳机制已启动，续约间隔: ${this.renewInterval}秒`.green)
+        // console.log(`[MasterElection] 心跳机制已启动，续约间隔: ${this.renewInterval}秒`.green)
     }
 
     /**

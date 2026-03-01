@@ -9,7 +9,7 @@ const { UserTokenController } = require("../servers/center/controllers/controlle
  * 判断token是否可用
  */
 module.exports = function () {
-    return async function (ctx, next) {
+    return async function authMiddleware(ctx, next) {
         const login_error = "登录已失效，请重新登录"
         const token = ctx.header['access-token'] || ""  // 获取jwt
         let { url } = ctx

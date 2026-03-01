@@ -40,14 +40,14 @@ module.exports = async () => {
         let eventMasterUuidInDb = ""
         // 生成event-master-uuid，主服务的判断标识
         global.eventInfo.eventMasterUuid = Utils.getUuid()
-        ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
-        setTimeout(() => {
-            ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
-                if (uuidRes && uuidRes.length) {
-                    eventMasterUuidInDb = uuidRes[0].configValue
-                }
-            })
-        }, Math.floor(Math.random() * 1000))
+        // ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
+        // setTimeout(() => {
+        //     ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+        //         if (uuidRes && uuidRes.length) {
+        //             eventMasterUuidInDb = uuidRes[0].configValue
+        //         }
+        //     })
+        // }, Math.floor(Math.random() * 1000))
 
         //创建今天的日志表
         // SdkReleaseController.timerCreateTableByDay(0).catch((e)=>{
@@ -137,15 +137,16 @@ module.exports = async () => {
                 if (minuteTimeStr.substring(1) == "0:00") {
                     TimerCalculateController.checkLimitForCloud()
                     TimerCalculateController.checkCommonProduct()
+                    TimerCalculateController.getPointCountForCloud()
                 }
 
                 // 每隔1分钟执行
                 if (minuteTimeStr.substring(3) == "00") {
-                    ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
-                        if (uuidRes && uuidRes.length) {
-                            eventMasterUuidInDb = uuidRes[0].configValue
-                        }
-                    })
+                    // ConfigController.getConfig(masterUuidKey).then((uuidRes) => {
+                    //     if (uuidRes && uuidRes.length) {
+                    //         eventMasterUuidInDb = uuidRes[0].configValue
+                    //     }
+                    // })
                     TimerCalculateController.setEventSecretList()
                 }
                 
@@ -153,9 +154,9 @@ module.exports = async () => {
                 if (minuteTimeStr == "59:50") { 
                     // 生成event-master-uuid，主服务的判断标识
                     global.eventInfo.eventMasterUuid = Utils.getUuid()
-                    setTimeout(() => {
-                        ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
-                    }, Math.floor(Math.random() * 1000))
+                    // setTimeout(() => {
+                    //     ConfigController.updateConfig(masterUuidKey, {configValue: global.eventInfo.eventMasterUuid})
+                    // }, Math.floor(Math.random() * 1000))
                 }
 
                 // 每天的0点05分，定时执行生成今天的表
@@ -241,14 +242,20 @@ module.exports = async () => {
                     });
                 }
 
-                // 每个小时第00分钟的执行一次告警分析
-                if (minuteTimeStr == "00:00") {
-                   if (eventMasterUuidInDb === global.eventInfo.eventMasterUuid) {
-                        TimerStatisticController.handleAlarm().catch((e)=>{
-                            log.printError("定时执行告警异常",e)
-                        });
+                // 本地环境不执行以下操作
+                if (!Utils.isLocalEnvironment(accountInfo)) {
+                    // 判断是否是主节点
+                    if (global.masterElection && global.masterElection.isMasterNode()) {
+                        // 每个小时第05分钟的执行一次告警分析
+                        if (minuteTimeStr == "05:00") {
+                            TimerStatisticController.handleAlarm().catch((e)=>{
+                                log.printError("定时执行告警异常",e)
+                            });
+                        }
                     }
                 }
+                
+
                 // 每分钟的执行一次执行点位缓存更新
                 if (minuteTimeStr.substring(3) == "00") {
                     try {
@@ -256,6 +263,14 @@ module.exports = async () => {
                         await Common.refreshBaseCacheTimer();
                     } catch (error) {
                         console.error('点位缓存更新定时任务执行失败:', error);
+                    }
+                }
+                // 每隔5分钟，清理过期的导出验证码（数据库版本，支持多节点部署）
+                if (minuteTimeStr.substring(3) == "00" || minuteTimeStr.substring(3) == "05") {
+                    try {
+                        await TimerCalculateController.cleanExpiredVerificationCodes()
+                    } catch (e) {
+                        log.printError("清理过期验证码异常:", e)
                     }
                 }
             } catch(e) {

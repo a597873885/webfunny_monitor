@@ -10,7 +10,9 @@ const handleDataTypeForSql = (dataType, val) => {
     case DataTypes.DATE_TIME:
     case DataTypes.DATE_TIME_64:
       if (val != undefined) {
-        finalRes = "'" + val + "'"
+        // 对字符串中的单引号进行转义，防止 SQL 注入和解析错误
+        const escapedVal = String(val).replace(/'/g, "''")
+        finalRes = "'" + escapedVal + "'"
       } else {
         finalRes = "''"
       }
@@ -102,14 +104,18 @@ module.exports = {
         if (index == keyArray.length - 1) {
           let val = data[key]
           if (val != undefined) {
-            values += "'" + val + "'"
+            // 对字符串中的单引号进行转义
+            const escapedVal = String(val).replace(/'/g, "''")
+            values += "'" + escapedVal + "'"
           } else {
             values += "DEFAULT"
           }
         } else {
           let val = data[key]
           if (val != undefined) {
-            values += "'" + val + "', "
+            // 对字符串中的单引号进行转义
+            const escapedVal = String(val).replace(/'/g, "''")
+            values += "'" + escapedVal + "', "
           } else {
             values += "DEFAULT, "
           }

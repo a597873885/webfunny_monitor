@@ -13,16 +13,23 @@ const setVariableInfo = (databaseInfo, clickHouseDatabaseInfo, inputPurchaseCode
 * 授权码设置
 * monitor：前端监控
 * event: 埋点系统
+* apm: APM后端监控
+* screen: 大屏系统
+* logger: 日志系统
 * 配置更改后，需重启
 */
 const licenseConfig = {
   "monitor": {
     "purchaseCode": "${inputPurchaseCode}", // 监控系统授权码
-    "secretCode": ""  // 解码（没有可不填）
+    "secretCode": ""  // 解码
   },
   "event": {
     "purchaseCode": "${inputPurchaseCode}", // 埋点系统授权码
-    "secretCode": ""  // 解码（没有可不填）
+    "secretCode": ""  // 解码
+  },
+  "apm": {
+    "purchaseCode": "${inputPurchaseCode}", // APM系统授权码
+    "secretCode": ""  // 解码
   }
 }
 
@@ -43,6 +50,9 @@ const domainConfig = {
     "monitor": "", // 指定监控系统上报域名
     "event": ""    // 指定埋点系统上报域名
   },
+  "grpc": {
+    "otelPort": 9013, // apm的grpc端口
+  }
 }
 
 /**
@@ -74,7 +84,80 @@ const mysqlConfig = {
       "userName": "${clickHouseDatabaseInfo.userName}",
       "password": "${clickHouseDatabaseInfo.password}"
     },
-    "read": []
+    "read": [],
+    // 集群版配置
+    "cluster": {
+      "enabled": false, // 是否启用集群版配置
+      "nodes": [
+        {
+          "id": "replica1",
+          "name": "ClickHouse-Replica-1",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_monitor_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "write"
+        },
+        {
+          "id": "replica2", 
+          "name": "ClickHouse-Replica-2",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_monitor_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "read" 
+        }
+      ],
+      "config": {
+        "timeout": 30000,
+        "healthCheckInterval": 10000,
+        "maxRetries": 2
+      }
+    }
+  },
+  // APM（Clickhouse）
+  "apm": {
+    "write": {
+      "ip": "${clickHouseDatabaseInfo.ip}",
+      "port": "${clickHouseDatabaseInfo.port}",
+      "dataBaseName": "${clickHouseDatabaseInfo.dataBaseName}",
+      "userName": "${clickHouseDatabaseInfo.userName}",
+      "password": "${clickHouseDatabaseInfo.password}"
+    },
+    "read": [],
+    // 集群版配置
+    "cluster": {
+      "enabled": false, // 是否启用集群版配置
+      "nodes": [
+        {
+          "id": "replica1",
+          "name": "ClickHouse-Replica-1",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_apm_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "write"
+        },
+        {
+          "id": "replica2", 
+          "name": "ClickHouse-Replica-2",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_apm_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "read" 
+        }
+      ],
+      "config": {
+        "timeout": 30000,
+        "healthCheckInterval": 10000,
+        "maxRetries": 2
+      }
+    }
   },
   // 埋点（Clickhouse）
   "event": {
@@ -85,9 +168,51 @@ const mysqlConfig = {
       "userName": "${clickHouseDatabaseInfo.userName}",
       "password": "${clickHouseDatabaseInfo.password}"
     },
-    "read": []
+    "read": [],
+    // 集群版配置
+    "cluster": {
+      "enabled": false, // 是否启用集群版配置
+      "nodes": [
+        {
+          "id": "replica1",
+          "name": "ClickHouse-Replica-1",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_event_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "write"
+        },
+        {
+          "id": "replica2", 
+          "name": "ClickHouse-Replica-2",
+          "ip": "8.xxx.xxx.xx",
+          "port": "8123",
+          "dataBaseName": "webfunny_event_db_cluster",
+          "userName": "xxxx_user",
+          "password": "xxxxxx",
+          "preferred": "read" 
+        }
+      ],
+      "config": {
+        "timeout": 30000,
+        "healthCheckInterval": 10000,
+        "maxRetries": 2
+      }
+    }
   },
   // 日志（Clickhouse）
+  "logger": {
+    "write": {
+      "ip": "${clickHouseDatabaseInfo.ip}",
+      "port": "${clickHouseDatabaseInfo.port}",
+      "dataBaseName": "${clickHouseDatabaseInfo.dataBaseName}",
+      "userName": "${clickHouseDatabaseInfo.userName}",
+      "password": "${clickHouseDatabaseInfo.password}"
+    },
+    "read": []
+  },
+  // 文件（Clickhouse）
   "logger": {
     "write": {
       "ip": "${clickHouseDatabaseInfo.ip}",
@@ -125,7 +250,7 @@ const otherConfig = {
     "emailPassword": ""      // 密码
   },
   "protocol": "",            // 内部通讯协议（一般用不上）
-  "segmentUrl": "",          // segment 上报地址，对接skyWalking
+  "segmentUrl": "",          // segment 上报地址，对接服务端
   "messageQueue": {
       "enable": false,        // 是否开启消息队列
       "prefetchCount": 100,   // 预取数量
@@ -168,6 +293,18 @@ const otherConfig = {
     "link": "",                 // 第三方登录链接，如果是空，则不显示第三方入口；如果有内容，则显示第三方入口;
     "logoutLink": ""            // 第三方登出链接
   },
+  "thirdExtraConfig": {   // 第三方额外配置
+    // 获取项目列表
+    "getProjectList": "",
+    // 功能列表
+    "getFunctionList": "",
+    // 获取第三方token
+    "getThirdToken": "",
+    // 同步用户token
+    "getThirdUserToken": "",
+    // 同步用户列表
+    "getUserList": ""
+  },
   "ssoCheckUrl": "",            // SSO校验URL
   "invoiceHookForDingding": "", // 开票钉钉的hook地址
   "activationRequired": false,  // 注册用户是否需要管理员激活
@@ -183,6 +320,7 @@ const otherConfig = {
   "extraCors": {                // 额外的cors配置
     "headers": ""
   },
+  "selfMonitor": require('./selfMonitor'), // webfunny自监控配置
   "defaultCompanyId": "1",      // 默认公司Id，用于飞书登录
   "isIpCovert": false,          // 是否开启ip地址转换，用于接口获取地理位置
 }
@@ -209,7 +347,7 @@ const run = async () => {
   }
   let clickHouseDatabaseInfo = {
     ip: "localhost",
-    port: "3306",
+    port: "8123",
     dataBaseName: "clickhouse_demo_db",
     userName: "root",
     password: "123456"

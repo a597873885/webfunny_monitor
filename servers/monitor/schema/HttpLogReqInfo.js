@@ -29,6 +29,12 @@ const Columns = {
       allowNull: true,
       field: 'simpleHttpUrl'
     },
+    // traceId
+    traceId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'traceId'
+    },
     // 接口耗时
     loadTime: {
       type: DataTypes.INT(64),

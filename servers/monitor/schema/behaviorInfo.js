@@ -9,43 +9,50 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },
     // 行为类型
     behaviorType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'behaviorType'
+      field: 'behaviorType',
+      fieldTitle: '行为类型'
     },
     // 元素的类名
     className: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'className'
+      field: 'className',
+      fieldTitle: '元素的类名'
     },
     // Input 框的placeholder
     placeholder: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'placeholder'
+      field: 'placeholder',
+      fieldTitle: 'Input 框的placeholder'
     },
     // 输入的内容
     inputValue: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'inputValue'
+      field: 'inputValue',
+      fieldTitle: '输入的内容'
     },
     // 输入的内容
     tagName: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'tagName'
+      field: 'tagName',
+      fieldTitle: '输入的内容'
     },
     // 元素包含的内容
     innerText: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'innerText'
+      field: 'innerText',
+      fieldTitle: '元素包含的内容'
     }
   },
   // 创建索引

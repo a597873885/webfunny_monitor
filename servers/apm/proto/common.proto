@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package skywalking.v3;
+
+option java_multiple_files = true;
+option java_package = "org.apache.skywalking.apm.network.common.v3";
+
+message KeyStringValuePair {
+    string key = 1;
+    string value = 2;
+}
+
+message KeyIntValuePair {
+    string key = 1;
+    int32 value = 2;
+}
+
+enum RefType {
+    CrossProcess = 0;
+    CrossThread = 1;
+}
+
+message SegmentReference {
+    RefType refType = 1;
+    string traceId = 2;
+    string parentTraceSegmentId = 3;
+    int32 parentSpanId = 4;
+    string parentService = 5;
+    string parentServiceInstance = 6;
+    string parentEndpoint = 7;
+    string networkAddressUsedAtPeer = 8;
+}
+
+enum SpanType {
+    Entry = 0;
+    Exit = 1;
+    Local = 2;
+}
+
+enum SpanLayer {
+    Unknown = 0;
+    Database = 1;
+    RPCFramework = 2;
+    Http = 3;
+    MQ = 4;
+    Cache = 5;
+}
+
+message Log {
+    int64 time = 1;
+    repeated KeyStringValuePair data = 2;
+}
+
+message Commands {
+    repeated Command commands = 1;
+}
+
+message Command {
+    string command = 1;
+    repeated KeyStringValuePair args = 2;
+}
+

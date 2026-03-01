@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.apache.skywalking.apm.network.logging.v3";
+
+package skywalking.v3;
+
+import "common.proto";
+
+service LogReportService {
+    rpc collect (stream LogData) returns (Commands) {}
+}
+
+message LogData {
+    int64 timestamp = 1;
+    string service = 2;
+    string serviceInstance = 3;
+    string endpoint = 4;
+    LogDataBody body = 5;
+    TraceContext traceContext = 6;
+    LogTags tags = 7;
+    string layer = 8;
+}
+
+message LogDataBody {
+    string type = 1;
+    oneof content {
+        TextLog text = 2;
+        JSONLog json = 3;
+        YAMLLog yaml = 4;
+    }
+}
+
+message TextLog {
+    string text = 1;
+}
+
+message JSONLog {
+    string json = 1;
+}
+
+message YAMLLog {
+    string yaml = 1;
+}
+
+message TraceContext {
+    string traceId = 1;
+    string traceSegmentId = 2;
+    int32 spanId = 3;
+}
+
+message LogTags {
+    repeated KeyStringValuePair data = 1;
+}
+

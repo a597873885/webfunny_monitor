@@ -7,66 +7,77 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },    
     // 应用ID
     webMonitorId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'webMonitorId'
+      field: 'webMonitorId',
+      fieldTitle: '应用ID'
     }, 
     // 用户ID
     userId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'userId'
+      field: 'userId',
+      fieldTitle: '用户ID'
     },
     // 内置ID
     customerKey: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'customerKey'
+      field: 'customerKey',
+      fieldTitle: '内置ID'
     },
     // 日志类型
     uploadType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'uploadType'
+      field: 'uploadType',
+      fieldTitle: '日志类型'
     },
     // 完整URL
     completeUrl: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'completeUrl'
+      field: 'completeUrl',
+      fieldTitle: '完整URL'
     },
     // 简单URL
     simpleUrl: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'simpleUrl'
+      field: 'simpleUrl',
+      fieldTitle: '简单URL'
     },
     // 日志内容
     content: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'content'
+      field: 'content',
+      fieldTitle: '日志内容'
     },
     // 发生时间戳
     happenTime: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'happenTime'
+      field: 'happenTime',
+      fieldTitle: '发生时间戳'
     },
     // 发生时间
     happenDate: {
       type: DataTypes.DATE_TIME,
       allowNull: true,
-      field: 'happenDate'
+      field: 'happenDate',
+      fieldTitle: '发生时间'
     },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE_TIME,
       field: "createdAt",
+      fieldTitle: '创建时间',
       get() {
         return moment().format('YYYY-MM-DD HH:mm:ss');
       }
@@ -75,6 +86,7 @@ const Columns = {
     updatedAt: {
       type: DataTypes.DATE_TIME,
       field: "updatedAt",
+      fieldTitle: '更新时间',
       get() {
         return moment().format('YYYY-MM-DD HH:mm:ss');
       }

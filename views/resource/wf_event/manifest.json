@@ -1,7 +1,11 @@
 {
-  "app.css": "./app.94396f23bb6e0b55dc52.css",
-  "app.js": "app.194a4e49.js",
+  "app.css": "./app.e01873f893cbb8081e3c.css",
+  "app.js": "app.805cdeeb.js",
   "index.html": "index.html",
+  "logos/favicon.ico": "logos/favicon.ico",
+  "logos/logo.png": "logos/logo.png",
+  "logos/logo2.png": "logos/logo2.png",
+  "logos/logoForLogin.png": "logos/logoForLogin.png",
   "src/assets/img/customer/index.scss": "src/assets/img/customer/customer_header_bg.webp",
   "src/assets/img/dataView/animation.png": "src/assets/img/dataView/animation.png",
   "src/assets/img/dataView/hotPer.png": "src/assets/img/dataView/hotPer.png",
@@ -10,10 +14,17 @@
   "src/assets/img/eventFields/excel-fail.png": "src/assets/img/eventFields/excel-fail.png",
   "src/assets/img/eventFields/excel-success.png": "src/assets/img/eventFields/excel-success.png",
   "src/assets/img/task/no-task.png": "src/assets/img/task/no-task.png",
+  "src/assets/img/upperBigScreen/dataOverview.scss": "src/assets/img/upperBigScreen/view_bg.png",
+  "src/assets/img/upperBigScreen/app_icon.png": "src/assets/img/upperBigScreen/app_icon.png",
+  "src/assets/img/upperBigScreen/new_app_icon.png": "src/assets/img/upperBigScreen/new_app_icon.png",
+  "src/assets/img/upperBigScreen/new_fun_icon.png": "src/assets/img/upperBigScreen/new_fun_icon.png",
+  "src/assets/img/upperBigScreen/users_icon.png": "src/assets/img/upperBigScreen/users_icon.png",
+  "src/assets/img/upperBigScreen/view_icon.png": "src/assets/img/upperBigScreen/view_icon.png",
   "src/modules/dataView/image/earth-chart.png": "src/modules/dataView/image/earth-chart.png",
   "src/modules/dataView/image/heat-chart.png": "src/modules/dataView/image/heat-chart.png",
   "src/modules/dataView/image/index.scss": "src/modules/dataView/image/no-card.png",
   "src/modules/dataView/image/number-chart.png": "src/modules/dataView/image/number-chart.png",
   "src/modules/dataView/image/path-analysis.png": "src/modules/dataView/image/path-analysis.png",
-  "src/modules/dataView/image/words-chart.png": "src/modules/dataView/image/words-chart.png"
+  "src/modules/dataView/image/words-chart.png": "src/modules/dataView/image/words-chart.png",
+  "src/modules/upperBigScreen/logo.png": "src/modules/upperBigScreen/logo.png"
 }

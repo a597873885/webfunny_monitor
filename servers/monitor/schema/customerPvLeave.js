@@ -9,43 +9,50 @@ const Columns = {
     dataId: {
       type: DataTypes.UUID,
       allowNull: true,
-      field: 'dataId'
+      field: 'dataId',
+      fieldTitle: '分析数据id'
     },
     // 监控ID
     webMonitorId: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'webMonitorId'
+      field: 'webMonitorId',
+      fieldTitle: '监控ID'
     },
-    // 用户标识ID
+    // 用户内置ID
     customerKey: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'customerKey'
+      field: 'customerKey',
+      fieldTitle: '用户内置ID'
     },
     // 日志类型
     uploadType: {
       type: DataTypes.STRING,
       allowNull: true,
-      field: 'uploadType'
+      field: 'uploadType',
+      fieldTitle: '日志类型'
     },
     // 发生的页面URL
     simpleUrl: {
       type: DataTypes.STRING,
         allowNull: true,
-        field: 'simpleUrl'
+        field: 'simpleUrl',
+        fieldTitle: '发生的页面URL'
     },
     // 离开类型(是否访问单页就离开了, 1 仅浏览一个页面就离开了，2 浏览多个页面后离开)
     leaveType: {
       type: DataTypes.INT(32),
       allowNull: true,
-      field: 'leaveType'
+      field: 'leaveType',
+      fieldTitle: '离开类型(是否访问单页就离开了, 1 仅浏览一个页面就离开了，2 浏览多个页面后离开)'
     },
     // 发生时间字符串
     happenDate: {
       type: DataTypes.DATE_TIME,
       allowNull: true,
-      field: 'happenDate'
+      field: 'happenDate',
+      fieldTitle: '发生时间字符串'
     }
   },
   // 创建索引

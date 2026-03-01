@@ -26,6 +26,7 @@ const Company = function (sequelize, DataTypes) {
     companyName: {
       type: DataTypes.STRING(100),
       allowNull: true,
+      defaultValue: 'webfunny',
       field: 'companyName'
     },
     // 税号
@@ -64,6 +65,12 @@ const Company = function (sequelize, DataTypes) {
       allowNull: true,
       default: 0,
       field: 'isComplete'
+    },
+    // 用户席位
+    userSeats: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'userSeats'
     },
     // 创建时间
     createdAt: {

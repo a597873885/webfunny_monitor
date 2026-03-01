@@ -488,6 +488,144 @@ const Utils = {
   },
 
   /**
+   * 按照不同时间单位切分时间，返回时间list
+   * @param {String} startDate 开始时间，格式：yyyy-MM-dd
+   * @param {String} endDate 结束时间，格式：yyyy-MM-dd
+   * @param {String} unit 时间单位：'day'|'week'|'month'|'year'|'hour'
+   * @returns {Array} 时间列表
+   */
+  splitTimeByUnit(startDate, endDate, unit) {
+    var startTime = new Date(startDate);
+    var endTime = new Date(endDate);
+    var temp = [];
+
+    switch (unit) {
+      case 'day':
+        // 按天切分
+        var difftime = (endTime - startTime) / 1000;
+        var days = parseInt(difftime / 86400) + 1; // 包含结束日期
+        for (var i = 0; i < days; i++) {
+          var currentDate = new Date(startTime.getTime() + i * 24 * 60 * 60 * 1000);
+          temp.push(currentDate.Format("yyyy-MM-dd"));
+        }
+        break;
+
+      case 'week':
+        // 按周切分，返回每周周一的日期，格式为yyyy-MM-dd
+        // 匹配 ClickHouse 的 addDays(toStartOfWeek(happenTime), 1) 逻辑
+        // toStartOfWeek 返回本周的周日，addDays(..., 1) 加1天得到下周一
+        
+        // 1. 计算开始日期所在周的周日（toStartOfWeek）
+        var startWeekSunday = new Date(startTime);
+        startWeekSunday.setHours(0, 0, 0, 0);
+        var startDayOfWeek = startWeekSunday.getDay(); // 0=周日, 1=周一, ..., 6=周六
+        // 调整到本周日：如果当前是周日，不变；否则减去对应的天数回到本周日
+        if (startDayOfWeek !== 0) {
+          startWeekSunday.setDate(startWeekSunday.getDate() - startDayOfWeek);
+        }
+        
+        // 2. 加1天得到下周一（addDays(..., 1)）
+        var firstMonday = new Date(startWeekSunday);
+        firstMonday.setDate(firstMonday.getDate() + 1);
+        
+        // 3. 如果这个周一在开始日期之前或等于开始日期，则从下一个周一开始
+        if (firstMonday <= startTime) {
+          firstMonday.setDate(firstMonday.getDate() + 7);
+        }
+        
+        // 4. 计算结束日期所在周的周日（toStartOfWeek）
+        var endWeekSunday = new Date(endTime);
+        endWeekSunday.setHours(0, 0, 0, 0);
+        var endDayOfWeek = endWeekSunday.getDay();
+        // 调整到本周日
+        if (endDayOfWeek !== 0) {
+          endWeekSunday.setDate(endWeekSunday.getDate() - endDayOfWeek);
+        }
+        
+        // 5. 加1天得到下周一（addDays(..., 1)）
+        var lastMonday = new Date(endWeekSunday);
+        lastMonday.setDate(lastMonday.getDate() + 1);
+        
+        // 6. 从 firstMonday 开始，每周加7天，直到包含 lastMonday
+        var weekDate = new Date(firstMonday);
+        var lastMondayStr = lastMonday.getFullYear() + '-' + 
+          String(lastMonday.getMonth() + 1).padStart(2, '0') + '-' + 
+          String(lastMonday.getDate()).padStart(2, '0');
+        
+        while (true) {
+          var year = weekDate.getFullYear();
+          var month = (weekDate.getMonth() + 1).toString().padStart(2, '0');
+          var day = weekDate.getDate().toString().padStart(2, '0');
+          var weekDateStr = year + '-' + month + '-' + day;
+          
+          temp.push(weekDateStr);
+          
+          // 如果当前已经是 lastMonday 或之后，则退出循环
+          if (weekDateStr >= lastMondayStr) {
+            break;
+          }
+          
+          weekDate.setDate(weekDate.getDate() + 7);
+        }
+        break;
+
+      case 'month':
+        // 按月切分，返回yyyy-MM格式
+        var currentMonth = new Date(startTime.getFullYear(), startTime.getMonth(), 1);
+        var endMonth = new Date(endTime.getFullYear(), endTime.getMonth(), 1);
+        
+        while (currentMonth <= endMonth) {
+          var year = currentMonth.getFullYear();
+          var month = (currentMonth.getMonth() + 1).toString().padStart(2, '0');
+          temp.push(year + '-' + month);
+          currentMonth.setMonth(currentMonth.getMonth() + 1);
+        }
+        break;
+
+      case 'year':
+        // 按年切分，返回yyyy格式
+        var currentYear = new Date(startTime.getFullYear(), 0, 1);
+        var endYear = new Date(endTime.getFullYear(), 0, 1);
+        
+        while (currentYear <= endYear) {
+          temp.push(currentYear.getFullYear().toString());
+          currentYear.setFullYear(currentYear.getFullYear() + 1);
+        }
+        break;
+
+      case 'hour':
+        // 按小时切分，支持跨天，返回yyyy-MM-dd HH:mm:ss格式
+        var startHour = new Date(startTime);
+        var endHour = new Date(endTime);
+        // 调整开始时间到当天的00:00:00
+        startHour.setHours(0, 0, 0, 0);
+        // 调整结束时间到当天的23:59:59
+        endHour.setHours(23, 59, 59, 999);
+        
+        var currentHour = new Date(startHour);
+        // 调整到整点
+        currentHour.setMinutes(0, 0, 0);
+        
+        while (currentHour <= endHour) {
+          var year = currentHour.getFullYear();
+          var month = (currentHour.getMonth() + 1).toString().padStart(2, '0');
+          var day = currentHour.getDate().toString().padStart(2, '0');
+          var hour = currentHour.getHours().toString().padStart(2, '0');
+          temp.push(year + '-' + month + '-' + day + ' ' + hour + ':00:00');
+          
+          // 增加1小时
+          currentHour.setHours(currentHour.getHours() + 1);
+        }
+        break;
+
+      default:
+        throw new Error('不支持的时间单位，请使用：day, week, month, year, hour');
+    }
+
+    return temp;
+  },
+
+  /**
    * 时间按照每天每隔切分，返回时间倒序list
    * 开始时间：startDate 2024-04-13
    * 结束时间：endDate 2024-04-15
@@ -971,7 +1109,97 @@ const Utils = {
 
     // 判断是否超过 11 分钟
     return diffMinutes > 11;
-   },//判断对象数组，是否包含特定值的方法
+   },
+
+  isTimeDifferenceMoreThan1Days(timeStr1, timeStr2) {
+    // 解析时间字符串为 Date 对象
+    const date1 = new Date(timeStr1);
+    const date2 = new Date(timeStr2);
+
+    // 计算时间差（毫秒）
+    const diffMilliseconds = Math.abs(date1 - date2);
+
+    // 转换为分钟（1 分钟 = 60,000 毫秒）
+    const diffMinutes = diffMilliseconds / (1000 * 60);
+
+    // 判断是否超过 1天
+    return diffMinutes < 1440;
+   },
+   /**
+ * 填充24小时数据的公共方法
+ * @param {Array} projectList 项目列表数组
+ * @returns {Array} 处理后的项目列表数组
+ */
+fillHourlyData(projectList, options = {}) {
+  // 检查输入是否为数组
+  if (!Array.isArray(projectList)) {
+    throw new Error('Input must be an array of projects');
+  }
+  
+  // 获取当前时间，如果提供了currentTime参数则使用它，否则使用系统当前时间
+  const currentTime = options.currentTime ? new Date(options.currentTime) : new Date();
+  
+  // 克隆原始数据以避免修改原始对象
+  const result = JSON.parse(JSON.stringify(projectList));
+  
+  // 生成过去24小时的小时列表（从当前时间往前推24小时）
+  const hoursList = [];
+  for (let i = 0; i < 24; i++) {
+    // 计算当前时间往前推i小时的时间
+    const time = new Date(currentTime);
+    time.setHours(time.getHours() - i);
+    
+    // 提取小时部分并格式化为两位数
+    const hour = time.getHours().toString().padStart(2, '0');
+    hoursList.unshift(hour); // 添加到列表开头，这样最终列表是从最早到最近排序
+  }
+  
+  // 遍历每个项目
+  result.forEach(project => {
+    // 创建一个映射，用于快速查找已有的小时数据
+    const hourMap = {};
+    
+    // 将现有的小时数据添加到映射中
+    if (project.items && Array.isArray(project.items)) {
+      project.items.forEach(item => {
+        hourMap[item.weHappenHour] = item;
+      });
+    } else {
+      // 如果项目没有items数组，初始化一个
+      project.items = [];
+    }
+    
+    // 创建一个新的items数组，按照过去24小时的顺序包含所有小时的数据
+    const newItems = [];
+    
+    // 遍历生成的小时列表
+    hoursList.forEach(hourStr => {
+      // 如果该小时已有数据，使用现有数据；否则创建新的数据项
+      if (hourMap[hourStr]) {
+        newItems.push(hourMap[hourStr]);
+      } else {
+        newItems.push({
+          totalCount: "0",
+          weHappenHour: hourStr
+        });
+      }
+    });
+    
+    // 用新的items数组替换原来的数组
+    project.items = newItems;
+    
+    // 添加额外信息，帮助前端理解数据顺序
+    // project.timeInfo = {
+    //   startHour: hoursList[0],
+    //   endHour: hoursList[hoursList.length - 1],
+    //   currentTime: currentTime.toISOString(),
+    //   hoursSequence: hoursList
+    // };
+  });
+
+   return result;
+  },
+  //判断对象数组，是否包含特定值的方法
    isValueInFieldName(value, list) {
       // 检查参数有效性
       if (!Array.isArray(list)) {
@@ -985,6 +1213,308 @@ const Utils = {
         item.fieldName === value
       );
     },
+    isTimeDifferenceMoreThan1Days(timeStr1, timeStr2) {
+      // 解析时间字符串为 Date 对象
+      const date1 = new Date(timeStr1);
+      const date2 = new Date(timeStr2);
+  
+      // 计算时间差（毫秒）
+      const diffMilliseconds = Math.abs(date1 - date2);
+  
+      // 转换为分钟（1 分钟 = 60,000 毫秒）
+      const diffMinutes = diffMilliseconds / (1000 * 60);
+  
+      // 判断是否超过 1天
+      return diffMinutes < 1440;
+     },
+     /**
+   * 填充24小时数据的公共方法
+   * @param {Array} projectList 项目列表数组
+   * @returns {Array} 处理后的项目列表数组
+   */
+  fillHourlyData(projectList, options = {}) {
+    // 检查输入是否为数组
+    if (!Array.isArray(projectList)) {
+      throw new Error('Input must be an array of projects');
+    }
+    
+    // 获取当前时间，如果提供了currentTime参数则使用它，否则使用系统当前时间
+    const currentTime = options.currentTime ? new Date(options.currentTime) : new Date();
+    
+    // 克隆原始数据以避免修改原始对象
+    const result = JSON.parse(JSON.stringify(projectList));
+    
+    // 生成过去24小时的小时列表（从当前时间往前推24小时）
+    const hoursList = [];
+    for (let i = 0; i < 24; i++) {
+      // 计算当前时间往前推i小时的时间
+      const time = new Date(currentTime);
+      time.setHours(time.getHours() - i);
+      
+      // 提取小时部分并格式化为两位数
+      const hour = time.getHours().toString().padStart(2, '0');
+      hoursList.unshift(hour); // 添加到列表开头，这样最终列表是从最早到最近排序
+    }
+    
+    // 遍历每个项目
+    result.forEach(project => {
+      // 创建一个映射，用于快速查找已有的小时数据
+      const hourMap = {};
+      
+      // 将现有的小时数据添加到映射中
+      if (project.items && Array.isArray(project.items)) {
+        project.items.forEach(item => {
+          hourMap[item.weHappenHour] = item;
+        });
+      } else {
+        // 如果项目没有items数组，初始化一个
+        project.items = [];
+      }
+      
+      // 创建一个新的items数组，按照过去24小时的顺序包含所有小时的数据
+      const newItems = [];
+      
+      // 遍历生成的小时列表
+      hoursList.forEach(hourStr => {
+        // 如果该小时已有数据，使用现有数据；否则创建新的数据项
+        if (hourMap[hourStr]) {
+          newItems.push(hourMap[hourStr]);
+        } else {
+          newItems.push({
+            totalCount: "0",
+            weHappenHour: hourStr
+          });
+        }
+      });
+      
+      // 用新的items数组替换原来的数组
+      project.items = newItems;
+      
+      // 添加额外信息，帮助前端理解数据顺序
+      // project.timeInfo = {
+      //   startHour: hoursList[0],
+      //   endHour: hoursList[hoursList.length - 1],
+      //   currentTime: currentTime.toISOString(),
+      //   hoursSequence: hoursList
+      // };
+    });
+  
+     return result;
+    },
+  
+    /**
+     * 填充每日数据的公共方法
+     * @param {Array} projectList 项目列表数组
+     * @param {String} startTime 开始时间
+     * @param {String} endTime 结束时间
+     * @returns {Array} 处理后的项目列表数组
+     */
+    fillDailyData(projectList, startTime, endTime) {
+      // 检查输入是否为数组
+      if (!Array.isArray(projectList)) {
+        throw new Error('Input must be an array of projects');
+      }
+      
+      // 克隆原始数据以避免修改原始对象
+      const result = JSON.parse(JSON.stringify(projectList));
+      
+      // 生成时间范围内的日期列表
+      const startDate = new Date(startTime.split(' ')[0]); // 取日期部分
+      const endDate = new Date(endTime.split(' ')[0]);     // 取日期部分
+      const datesList = [];
+      
+      const currentDate = new Date(startDate);
+      while (currentDate <= endDate) {
+        // 格式化为 YYYY-MM-DD 格式
+        const dateStr = currentDate.toISOString().split('T')[0];
+        datesList.push(dateStr);
+        currentDate.setDate(currentDate.getDate() + 1);
+      }
+      
+      // 遍历每个项目
+      result.forEach(project => {
+        // 创建一个映射，用于快速查找已有的日期数据
+        const dateMap = {};
+        
+        // 将现有的日期数据添加到映射中
+        if (project.items && Array.isArray(project.items)) {
+          project.items.forEach(item => {
+            // 处理日期格式，可能是 Date 对象或字符串
+            let dateKey = item.weHappenDay;
+            if (dateKey instanceof Date) {
+              dateKey = dateKey.toISOString().split('T')[0];
+            } else if (typeof dateKey === 'string') {
+              dateKey = dateKey.split('T')[0]; // 去掉时间部分，只保留日期
+            }
+            dateMap[dateKey] = item;
+          });
+        } else {
+          // 如果项目没有items数组，初始化一个
+          project.items = [];
+        }
+        
+        // 创建一个新的items数组，按照日期范围包含所有日期的数据
+        const newItems = [];
+        
+        // 遍历生成的日期列表
+        datesList.forEach(dateStr => {
+          // 如果该日期已有数据，使用现有数据；否则创建新的数据项
+          if (dateMap[dateStr]) {
+            // 确保数据格式正确
+            const existingItem = dateMap[dateStr];
+            newItems.push({
+              totalCount: existingItem.totalCount || "0",
+              weHappenDay: dateStr
+            });
+          } else {
+            newItems.push({
+              totalCount: "0",
+              weHappenDay: dateStr
+            });
+          }
+        });
+        
+        // 用新的items数组替换原来的数组
+        project.items = newItems;
+      });
+  
+      return result;
+    },
+  
+    /**
+     * 填充按天数据但保持小时格式的公共方法
+     * @param {Array} projectList 项目列表数组
+     * @param {String} startTime 开始时间
+     * @param {String} endTime 结束时间
+     * @returns {Array} 处理后的项目列表数组
+     */
+    fillDailyDataWithHourFormat(projectList, startTime, endTime) {
+      // 检查输入是否为数组
+      if (!Array.isArray(projectList)) {
+        throw new Error('Input must be an array of projects');
+      }
+      
+      // 克隆原始数据以避免修改原始对象
+      const result = JSON.parse(JSON.stringify(projectList));
+      
+      // 生成时间范围内的日期列表
+      const startDate = new Date(startTime.split(' ')[0]); // 取日期部分
+      const endDate = new Date(endTime.split(' ')[0]);     // 取日期部分
+      const datesList = [];
+      
+      const currentDate = new Date(startDate);
+      let dayOffset = 0;
+      while (currentDate <= endDate) {
+        // 格式化为 YYYY-MM-DD 格式
+        const dateStr = currentDate.toISOString().split('T')[0];
+        datesList.push({
+          date: dateStr,
+          hourRepresentation: dayOffset.toString()
+        });
+        currentDate.setDate(currentDate.getDate() + 1);
+        dayOffset++;
+      }
+      
+      // 遍历每个项目
+      result.forEach(project => {
+        // 创建一个映射，用于快速查找已有的数据
+        const dataMap = {};
+        
+        // 将现有的数据添加到映射中
+        if (project.items && Array.isArray(project.items)) {
+          project.items.forEach(item => {
+            // 使用 weHappenDay 作为键
+            if (item.weHappenDay) {
+              let dateKey = item.weHappenDay;
+              if (dateKey instanceof Date) {
+                dateKey = dateKey.toISOString().split('T')[0];
+              } else if (typeof dateKey === 'string') {
+                dateKey = dateKey.split('T')[0]; // 去掉时间部分，只保留日期
+              }
+              dataMap[dateKey] = item;
+            }
+          });
+        } else {
+          // 如果项目没有items数组，初始化一个
+          project.items = [];
+        }
+        
+        // 创建一个新的items数组，按照日期范围包含所有日期的数据
+        const newItems = [];
+        
+        // 遍历生成的日期列表
+        datesList.forEach(dateInfo => {
+          // 如果该日期已有数据，使用现有数据；否则创建新的数据项
+          if (dataMap[dateInfo.date]) {
+            // 确保数据格式正确，同时保持 weHappenHour 字段
+            const existingItem = dataMap[dateInfo.date];
+            newItems.push({
+              totalCount: existingItem.totalCount || "0",
+              weHappenHour: dateInfo.hourRepresentation,
+              weHappenDay: dateInfo.date
+            });
+          } else {
+            newItems.push({
+              totalCount: "0",
+              weHappenHour: dateInfo.hourRepresentation,
+              weHappenDay: dateInfo.date
+            });
+          }
+        });
+        
+        // 用新的items数组替换原来的数组
+        project.items = newItems;
+      });
+  
+      return result;
+    },
+  /**
+   * 判断是否是本地运行环境
+   * @param {Object} accountInfo - 可选的账户配置信息，如果不提供则从 WebfunnyConfig 中获取
+   * @returns {boolean} true表示本地运行，false表示服务器运行
+   */
+  isLocalEnvironment(accountInfo = null) {
+    const os = require("os")
+    
+    // 方法1: 通过 NODE_ENV 环境变量判断（最可靠）
+    const nodeEnv = process.env.NODE_ENV || process.env.BUILD_ENV || '';
+    if (nodeEnv === 'local' || nodeEnv === 'development' || nodeEnv === 'dev') {
+      return true;
+    }
+    if (nodeEnv === 'production' || nodeEnv === 'pro' || nodeEnv === 'staging' || nodeEnv === 'stag') {
+      return false;
+    }
+    
+    // 方法2: 通过域名配置判断（如果域名包含 localhost 或 127.0.0.1，则认为是本地）
+    let serverDomain = '';
+    let assetsDomain = '';
+    
+    if (accountInfo) {
+      // 如果传入了 accountInfo，使用传入的配置
+      serverDomain = accountInfo.localServerDomain || '';
+      assetsDomain = accountInfo.localAssetsDomain || '';
+    } else {
+      // 否则从 WebfunnyConfig 中获取域名配置
+      const { domainConfig } = WebfunnyConfig;
+      serverDomain = domainConfig.host.be || '';
+      assetsDomain = domainConfig.host.fe || '';
+    }
+    
+    if (serverDomain.includes('localhost') || serverDomain.includes('127.0.0.1') ||
+        assetsDomain.includes('localhost') || assetsDomain.includes('127.0.0.1')) {
+      return true;
+    }
+    
+    // 方法3: 通过主机名判断（作为补充判断，不够准确）
+    const hostname = os.hostname().toLowerCase();
+    if (hostname.includes('local') || hostname === 'localhost') {
+      // 注意：内网IP可能是服务器，所以这个方法不够准确，仅作为补充判断
+      return true;
+    }
+    
+    // 默认情况：如果 NODE_ENV 未设置且域名不是 localhost，则认为是服务器环境
+    return false;
+  },
 }
 
 module.exports = Utils

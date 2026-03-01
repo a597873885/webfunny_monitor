@@ -20,6 +20,8 @@ const accountInfo = {
     monitorAssetsDomain: domainConfig.host.fe,   // 监控数据可视化服务域名
     eventServerDomain: domainConfig.host.be,   // 埋点日志服务域名 
     eventAssetsDomain: domainConfig.host.fe,   // 埋点数据可视化服务域名
+    apmServerDomain: domainConfig.host.be,   // APM日志服务域名 
+    apmAssetsDomain: domainConfig.host.fe,   // APM数据可视化服务域名
 
     purchaseCode: licenseConfig.monitor.purchaseCode,                   // 激活码
     secretCode: licenseConfig.monitor.secretCode,                     // 解码
@@ -51,6 +53,7 @@ const accountInfo = {
     printSql: otherConfig.printSql,  // 是否打印sql配置
     printConsole: otherConfig.printConsole,  // 是否打印console
 
+    thirdExtraConfig: otherConfig.thirdExtraConfig, // 第三方额外配置
     thirdLoginConfig: otherConfig.thirdLoginConfig, // 第三方登录配置
 }
 

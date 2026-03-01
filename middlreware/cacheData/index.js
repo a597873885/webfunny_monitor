@@ -71,7 +71,7 @@ const apiPaths = [
  * 判断是否使用缓存数据
  */
 module.exports = function () {
-    return async function (ctx, next) {
+    return async function cacheDataMiddleware(ctx, next) {
       try {
         let finalProjectId = ""
         let finalApiPath = ""
@@ -119,7 +119,7 @@ module.exports = function () {
         await next();
       } catch(e) {
         console.error(e)
-        await next()
+        // await next()
       }
     }
 }

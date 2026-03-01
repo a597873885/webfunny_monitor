@@ -22,23 +22,11 @@ const Product = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'orderId'
     },
-    // 产品类型：1 流量套餐，2 流量包
+    // 产品类型：1 前端监控，2 埋点系统，6 Apm后端监控
     productType: {
       type: DataTypes.INTEGER,
       allowNull: true,
       field: 'productType'
-    },
-    // 是否支持数据导出功能(true/false)
-    enableDataExport: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      field: 'enableDataExport'
-    },
-    // 保存周期天数(30/90/180)
-    saveDays: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      field: 'saveDays'
     },
     // 已消耗流量
     usedFlowCount: {
@@ -57,6 +45,24 @@ const Product = function (sequelize, DataTypes) {
       type: DataTypes.INTEGER,
       allowNull: true,
       field: 'projectCount'
+    },
+    // 点位数量
+    pointCount: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'pointCount'
+    },
+    // 是否支持数据导出功能(1/0)
+    enableDataExport: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'enableDataExport'
+    },
+    // 保存周期天数(30/90/180)
+    saveDays: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      field: 'saveDays'
     },
     // 月份  2023-07
     month: {

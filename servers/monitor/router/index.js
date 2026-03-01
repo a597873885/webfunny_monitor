@@ -31,16 +31,19 @@ global.monitorInfo = {
     purchaseCodeValid: false,
     warningMessageList: [],
     loginValidateCode: "",
-    projectConfigs: {}, // 携带每个项目的配置信息
-    alarmInfoList: {}, // 警报信息暂存
-    logInfoQueue: {}, // 存放日志队列的对象
-    realTimeLogQueue: {}, // 实时日志队列
-    segmentQueue: [], // segment日志队列
-    tokenListInMemory: {}, //内存中的token列表 
-    calculateDataInMemory: [], //流式计算相关信息
-    calculateFlowData: {}, // 存储流量数据
-    monitorSecretList: [], // 监控签名秘钥列表
-    exportRandomNumber: {}  // 下载时需要用到的随机数
+    projectConfigs: {},
+    alarmInfoList: {},
+    logInfoQueue: {},
+    realTimeLogQueue: {},
+    segmentQueue: [],
+    tokenListInMemory: {},
+    calculateDataInMemory: [],
+    calculateFlowData: {},
+    monitorSecretList: [],
+    exportRandomNumber: {},  // 下载时需要用到的随机数
+    simpleProjectListInMemory: {}, // 内存中存放的简单项目列表
+    projectListForProjectCode: "", // 根据项目编码存放的项目列表
+    projectCompanyMap: {},
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

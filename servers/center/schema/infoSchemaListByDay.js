@@ -3,16 +3,10 @@
  */
 const { DataTypes } = require("sequelize");
 
-const FlowDataInfoByHourSchema = require('./flowDataInfoByHour')
-const FlowDataInfoByHourConfig = FlowDataInfoByHourSchema(DataTypes)
-
+// FlowDataInfoByHour 已移至 infoSchemaListByYear.js 按年建表
 
 const schemaList = [
-    {
-        name: "FlowDataInfoByHour",
-        fields: FlowDataInfoByHourConfig.fields,
-        index: FlowDataInfoByHourConfig.fieldIndex
-    },
+    // 目前没有按天建表的表
 ]
 //exports//
 module.exports = schemaList

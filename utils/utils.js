@@ -702,6 +702,53 @@ const Utils = {
     }
     return o
   },
+  /**
+   * 判断是否是本地运行环境
+   * @param {Object} accountInfo - 可选的账户配置信息，如果不提供则从 WebfunnyConfig 中获取
+   * @returns {boolean} true表示本地运行，false表示服务器运行
+   */
+  isLocalEnvironment(accountInfo = null) {
+    const os = require("os")
+    
+    // 方法1: 通过 NODE_ENV 环境变量判断（最可靠）
+    const nodeEnv = process.env.NODE_ENV || process.env.BUILD_ENV || '';
+    if (nodeEnv === 'local' || nodeEnv === 'development' || nodeEnv === 'dev') {
+      return true;
+    }
+    if (nodeEnv === 'production' || nodeEnv === 'pro' || nodeEnv === 'staging' || nodeEnv === 'stag') {
+      return false;
+    }
+    
+    // 方法2: 通过域名配置判断（如果域名包含 localhost 或 127.0.0.1，则认为是本地）
+    let serverDomain = '';
+    let assetsDomain = '';
+    
+    if (accountInfo) {
+      // 如果传入了 accountInfo，使用传入的配置
+      serverDomain = accountInfo.localServerDomain || '';
+      assetsDomain = accountInfo.localAssetsDomain || '';
+    } else {
+      // 否则从 WebfunnyConfig 中获取域名配置
+      const { domainConfig } = WebfunnyConfig;
+      serverDomain = domainConfig.host.be || '';
+      assetsDomain = domainConfig.host.fe || '';
+    }
+    
+    if (serverDomain.includes('localhost') || serverDomain.includes('127.0.0.1') ||
+        assetsDomain.includes('localhost') || assetsDomain.includes('127.0.0.1')) {
+      return true;
+    }
+    
+    // 方法3: 通过主机名判断（作为补充判断，不够准确）
+    const hostname = os.hostname().toLowerCase();
+    if (hostname.includes('local') || hostname === 'localhost') {
+      // 注意：内网IP可能是服务器，所以这个方法不够准确，仅作为补充判断
+      return true;
+    }
+    
+    // 默认情况：如果 NODE_ENV 未设置且域名不是 localhost，则认为是服务器环境
+    return false;
+  },
 }
 
 module.exports = Utils

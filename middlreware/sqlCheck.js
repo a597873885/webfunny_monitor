@@ -3,11 +3,11 @@
  */
 const statusCode = require('../utils/status-code')
 const dangerParams = [//";", "'", "<", ">", "(", ")", 
-                    "'",
+                    // "'",
                     " select ", " union ", " and ", " or ", " from ", " insert ", " update ",
                     " delete ", " database ", " drop ", " truncate ", " create ", " like "]
 module.exports = function () {
-    return async function (ctx, next) {
+    return async function sqlCheckMiddleware(ctx, next) {
         const { url, query } = ctx
         const { body } = ctx.request
         // 过滤掉一些接口
@@ -20,6 +20,7 @@ module.exports = function () {
             url.indexOf("upMog") === -1 &&
             url.indexOf("upEvent") === -1 &&
             url.indexOf("upEvents") === -1 &&
+            url.indexOf("upMyEvents") === -1 &&
             url.indexOf("otel/trace") === -1
             ) {
             let goOnFlag = true

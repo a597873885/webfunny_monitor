@@ -26,7 +26,10 @@ temp.min.js.map
 views/wf_center
 views/wf_monitor
 views/wf_event
+views/wf_apm
+views/wf_file
 views/wf_logger
+views/wf_assets
 views/wf_source_map
 schema_temp/
 alarm/
@@ -37,3 +40,4 @@ lib/*.map
 H5SdkReleaseScript*.js
 webfunny.config
 servers/event/lib/dataTempUploads
+package-lock.json

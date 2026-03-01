@@ -9,9 +9,10 @@ module.exports = (router) => {
     // 获取流量列表数据
     router.get('/getFlowTableListData', FlowDataInfoByDayController.getFlowTableListData);
     // 获取流量列表数据
-    router.get('/getFlowListByCompanyIdAndProjectIds', FlowDataInfoByDayController.getFlowListByCompanyIdAndProjectIds);
+    router.post('/getFlowListByCompanyIdAndProjectIds', FlowDataInfoByDayController.getFlowListByCompanyIdAndProjectIds);
     // 获取流量耗尽的公司id
     router.get('/getLimitCompanyIdForCloud', FlowDataInfoByDayController.getLimitCompanyIdForCloud);
-    // 获取今天的流量总量
+    router.post('/getLimitCompanyIdForCloud', FlowDataInfoByDayController.getLimitCompanyIdForCloud);
+    // 获取流量耗尽的公司id
     router.get('/getTotalFlowCountByCompanyForDay', FlowDataInfoByDayController.getTotalFlowCountByCompanyForDay);
 }

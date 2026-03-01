@@ -7,8 +7,8 @@ var stat = fs.stat;
 const { feiShuConfig } = require('../sso')
 
 const WebfunnyConfig = require("../webfunny.config")
-const { domainConfig } = WebfunnyConfig
-const UpEvents = require("../config/upEvents")
+const { domainConfig, otherConfig } = WebfunnyConfig
+const { selfMonitor } = otherConfig
 
 const mainDomain = ""
 const localServerDomain = domainConfig.host.be
@@ -42,6 +42,8 @@ const default_center_server_url = "//" + domainConfig.host.be
 const default_api_server_url = "//" + domainConfig.host.be
 const default_monitor_server_url = "//" + domainConfig.host.be
 const default_event_server_url = "//" + domainConfig.host.be
+const default_apm_server_url = "//" + domainConfig.host.be
+const default_file_server_url = "//" + domainConfig.host.be
 
 /**
   * 配置可视化平台的域名!!!
@@ -140,7 +142,7 @@ function handleSsoFile() {
 }
 
 
-var pathList = ["wf_center", "wf_monitor", "wf_event", "wf_logger"]
+var pathList = ["wf_center", "wf_monitor", "wf_apm", "wf_event", "wf_logger", "wf_file"]
 
 var originPath = path.resolve(__dirname, '..')
 
@@ -150,14 +152,6 @@ for (let i = 0; i < pathList.length; i ++) {
 }
 
 setTimeout(() => {
-  // 创建sourceMap目录
-  fs.mkdir(`${originPath}/views/wf_source_map`, function(err){
-    if ( err ) { 
-      console.log(`= 文件夹 /views/wf_source_map 已经存在`)
-    } else {
-      console.log(`= 创建文件夹 /views/wf_source_map`)
-    }
-  });
 
   for (let i = 0; i < pathList.length; i ++) {
     let tempPath = pathList[i]
@@ -191,7 +185,22 @@ setTimeout(() => {
         }
         fs.readFile(`${jsPath}/${files[i]}`,function(err, data){
             if (data.indexOf("default_api_server_url") >= 0 || data.indexOf("default_assets_url") >= 0 ) {
-              let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url).replace(/default_center_server_url/g, default_center_server_url).replace(/default_monitor_server_url/g, default_monitor_server_url).replace(/default_event_server_url/g, default_event_server_url).replace(/default_assets_url/g, default_assets_url).replace(/default_api_server_port/g, localServerPort) // .replace(/webfunny_secret_code/g, secretCode)
+              let newString = data.toString().replace(/default_api_server_url/g, default_api_server_url)
+              .replace(/default_center_server_url/g, default_center_server_url)
+              .replace(/default_monitor_server_url/g, default_monitor_server_url)
+              .replace(/default_event_server_url/g, default_event_server_url)
+              .replace(/default_apm_server_url/g, default_apm_server_url)
+              .replace(/default_file_server_url/g, default_file_server_url)
+              .replace(/default_assets_url/g, default_assets_url)
+              .replace(/default_api_server_port/g, localServerPort)
+
+              // 如果自监控开启，则执行
+              if (selfMonitor.enabled === true && selfMonitor.feMonitor.enabled === true) {
+                console.log("= 自监控开启，执行自监控配置")
+                newString = newString.replace(/webfunny_self_monitor_status/g, "selfMonitorStart")
+                newString = newString.replace(/webfunny_self_monitor_upload_domain/g, selfMonitor.feMonitor.uploadDomain)
+                newString = newString.replace(/webfunny_self_web_monitor_id/g, selfMonitor.feMonitor.webMonitorId)
+              }
               fs.writeFile(`${jsPath}/${files[i]}`, newString, (err) => {
                 if (err) throw err;
                 console.log("= " + files[i] + "  接口域名配置成功！");
@@ -220,6 +229,3 @@ setTimeout(() => {
 setTimeout(() => {
   handleSsoFile()
 }, 15 * 1000)
-
-// 执行启动点位
-UpEvents.prd()

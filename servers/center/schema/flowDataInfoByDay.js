@@ -46,9 +46,9 @@ const getTableProperty = (DataTypes) => {
       allowNull: true,
       field: 'flowOrigin'
     },
-    // 产品类型, 监控-monitor，埋点-event
+    // 产品类型, 监控-monitor，埋点-event, Apm-apm
     productType: {
-      type: DataTypes.STRING(12),
+      type: DataTypes.STRING(20),
       allowNull: true,
       field: 'productType'
     },

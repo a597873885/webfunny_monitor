@@ -22,6 +22,8 @@ module.exports = (router) => {
   router.get('/project/updateMonitorCode', ProjectController.updateMonitorCode);
   // 获取所有应用列表
   router.get('/project/list/all', ProjectController.getAllProjectList);
+  // 获取所有应用的webMonitorId列表
+  router.get('/getProjectWebMonitorIdList', ProjectController.getAllProjectWebMonitorIdList);
   // 获取公司下所有应用列表
   router.get('/getAllProjectWithCompanyId', ProjectController.getAllProjectWithCompanyId);
   // 根据公司ID, 获取所有应用列表, 健康分排序
@@ -30,6 +32,8 @@ module.exports = (router) => {
   router.get('/project/detailList', ProjectController.getProjectDetailList);
   // 根据webmonitorId获取所有应用列表详情
   router.post('/projectSimpleListByWebmonitorIds', ProjectController.projectSimpleListByWebmonitorIds);
+  // 根据webmonitorId获取所有应用列表详情（带分页）
+  router.post('/projectSimpleListByWebmonitorIdsWithPagination', ProjectController.projectSimpleListByWebmonitorIdsWithPagination);
   // 查询所有项目的实时UV信息
   router.get('/project/getProjectInfoInRealTime', ProjectController.getProjectInfoInRealTime);
   // 查询所有项目的实时UV信息

@@ -57,39 +57,43 @@ log.errorDetail = function(param, err) {
 var formatReqLog = function(ctx, resTime) {
   let logText = ""
   try {
-    var req = ctx.req
-    var res = ctx.res
-    var body = ctx.request.body
-    let getClientIp = function (req) {
-      return  req.headers['x-forwarded-for'] ||
-        req.connection.remoteAddress ||
-        req.socket.remoteAddress ||
-        req.connection.socket.remoteAddress;
-    };
-    let ip = getClientIp(req);
-
-    //访问方法
-    var method = req.method;
-    logText += "method: " + method + "\n";
-    //请求原始地址
-
-    logText += "originalUrl:  " + req.url + "\n";
-    //客户端ip
-    logText += "client ip:  " + ip + "\n";
-
-    //请求参数
-    if (method === "GET") {
-      logText += "query:  " + JSON.stringify(req.query) + "\n";
-    } else {
-      if (typeof body === "string") {
-        logText += "body: " + "\n" + body + "\n";
+    if (ctx && ctx.req) {
+      var req = ctx.req
+      var res = ctx.res
+      var body = ctx?.request?.body
+      let getClientIp = function (req) {
+        return  req.headers['x-forwarded-for'] ||
+          req.connection.remoteAddress ||
+          req.socket.remoteAddress ||
+          req.connection.socket.remoteAddress;
+      };
+      let ip = getClientIp(req);
+  
+      //访问方法
+      var method = req.method;
+      logText += "method: " + method + "\n";
+      //请求原始地址
+  
+      logText += "originalUrl:  " + req.url + "\n";
+      //客户端ip
+      logText += "client ip:  " + ip + "\n";
+  
+      //请求参数
+      if (method === "GET") {
+        logText += "query:  " + JSON.stringify(req.query) + "\n";
       } else {
-        logText += "body: " + "\n" + JSON.stringify(body) + "\n";
+        if (typeof body === "string") {
+          logText += "body: " + "\n" + body + "\n";
+        } else {
+          logText += "body: " + "\n" + JSON.stringify(body) + "\n";
+        }
       }
+  
+      //服务器响应时间
+      logText += "response time: " + resTime + "\n";
+    } else {
+      logText = typeof ctx === "string" ? ctx : "ctx: " + JSON.stringify(ctx) + "\n";
     }
-
-    //服务器响应时间
-    logText += "response time: " + resTime + "\n";
   } catch (error) {
     console.error("formatReqLog error:", error)
   }
