@@ -27,7 +27,7 @@
 
 | 方式 | 链接 | 说明 |
 |---|---|---|
-| **SaaS 云服务** | [国内服务](https://cloud.webfunny.com/wf_center/main) [海外服务](https://global.webfunny.com/wf_center/main) | 注册后免费体验 |
+| **SaaS 云服务** | [国内服务](https://cloud.webfunny.com/wf_center/main) [海外服务](https://global.webfunny.com/wf_center/main) | 免费体验 |
 | **私有化部署** | [查看部署文档](https://www.webfunny.com/desMonitor) | 支持 Docker 一键部署 |
 | **官网** | [www.webfunny.com](https://www.webfunny.com) | 价格 / 文档 / 案例 |
 
@@ -35,7 +35,7 @@
 
 ## ✨ 为什么选择 Webfunny
 
-- **全链路监控 + 埋点三合一**：前端监控、APM 后端监控、业务埋点三套系统合一，从用户浏览器到后端服务到数据库，从技术到业务，全栈可观测；
+- **全链路监控 + 埋点三合一**：前端监控、APM 后端监控、业务埋点三套系统合一，从用户浏览器到后端服务到数据库，全栈可观测；技术和业务方向全面覆盖；
 - **一键私有化部署**：仅需 Node.js 环境，支持 Docker，10 分钟完成部署，运维成本极低
 - **无代码入侵**：引入一段探针代码，自动采集错误、性能、用户行为，无需修改业务逻辑
 - **支持亿级日活**：底层针对大流量场景优化，支持集群版，高可用场景，不怕业务规模扩张
@@ -111,9 +111,8 @@
 | APM 后端监控 | ✅ 链路追踪、慢SQL、JVM | 🟡 基础 | ❌ |
 | 用户行为细查 | ✅ 超全面 | 🟡 仅错误相关 | ✅ |
 | 业务埋点 & 漏斗 | ✅ | ❌ | ✅ |
-| 私有化部署 | ✅ 一键部署 | 🟡 复杂、硬件要求高 | 🟡 价格极高 |
+| 私有化部署 | ✅ 一键部署 | 🟡 复杂、硬件要求高 | 🟡 价格偏高 |
 | 源码购买 | ✅ | ❌ | ❌ |
-| 价格（私有化） | 💰 数千元起 | 💰💰💰 国外定价 | 💰💰💰 数十万起 |
 
 ---
 
@@ -126,7 +125,7 @@
 docker-compose up -d
 ```
 
-[👉 查看完整 Docker 部署文档](https://www.webfunny.com/desMonitor?blogUrl=128&menuKey=menu2&blogKey=2-0)
+[👉 查看完整 Docker 部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~docker%e5%ae%b9%e5%99%a8%e5%8c%96%e9%83%a8%e7%bd%b2)
 
 ### 本地安装
 
@@ -136,16 +135,20 @@ cd webfunny_monitor
 npm install && npm run bootstrap
 npm install pm2 -g  # 已安装可跳过
 npm run prd
-# 访问 http://localhost:8008/webfunny_center/main.html
+# 本地访问 http://localhost:9010/wf_center/main
 ```
 
-[👉 查看服务器部署文档](https://www.webfunny.com/desMonitor)　　[👉 查看历史版本](https://www.webfunny.com/version)
+[👉 查看服务器部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~%e4%bb%a3%e7%a0%81%e9%83%a8%e7%bd%b2)　　[👉 查看历史版本](https://www.webfunny.com/version_cluster)
 
 ---
 
 ## 🏢 部分企业用户
 
 > 已服务 200+ 企业，覆盖互联网、金融、教育、国企等多个行业
+
+<p>
+  <img width="800" src="https://www.webfunny.cn/resource/company_sales.png"/>
+</p>
 
 ---
 
