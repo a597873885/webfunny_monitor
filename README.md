@@ -19,7 +19,7 @@
 
 ## 🚀 立刻体验
 
-> 🖥️ **在线 Demo**（无需注册）→ [点击直接体验](https://www.webfunny.cn/wf_center/main)　纯demo数据，即刻体验
+> 🖥️ **在线 Demo**（无需注册）→ [点击直接体验](https://www.webfunny.cn/wf_center/main?accessChannel=github)　纯demo数据，即刻体验
 >
 > 🎁 **免费社区版**（个人/小团队首选）→ [免费申请](https://webfunny.com/price?showFreeModal=community)　填写信息即可获取，免费私有化部署
 >
