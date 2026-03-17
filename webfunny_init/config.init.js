@@ -213,7 +213,7 @@ const mysqlConfig = {
     "read": []
   },
   // 文件（Clickhouse）
-  "logger": {
+  "file": {
     "write": {
       "ip": "${clickHouseDatabaseInfo.ip}",
       "port": "${clickHouseDatabaseInfo.port}",
