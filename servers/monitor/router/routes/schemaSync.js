@@ -9,6 +9,9 @@ module.exports = (router) => {
   /**
    * 同步所有项目的表结构（直接执行）
    * POST /wfMonitor/schemaSync/syncAll
+   * Body: {
+   *   webMonitorId: string  // 可选，指定项目 ID。如果传入，则只同步该项目的表；如果不传入，则同步所有项目
+   * }
    * 
    * 注意：此接口会直接执行同步，请先调用 checkAll 预览差异
    * 
@@ -30,7 +33,8 @@ module.exports = (router) => {
    * 检查所有项目的表结构差异（只检查，不执行）
    * POST /wfMonitor/schemaSync/checkAll
    * Body: {
-   *   tableType: string  // 可选，指定表类型
+   *   webMonitorId: string, // 可选，指定项目 ID。如果传入，则只检查该项目的表；如果不传入，则检查所有项目
+   *   tableType: string     // 可选，指定表类型
    * }
    * 
    * 返回示例:

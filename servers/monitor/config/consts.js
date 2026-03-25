@@ -215,6 +215,11 @@ const PROJECT_CONFIG = JSON.stringify({
     }
 })
 
+const OPEN_RATE_THRESHOLD_WHITE_LIST = [1000, 2000, 3000, 5000]
+
+const NON_API_SUFFIX_PATTERN = "\\.(js|mjs|cjs|css|less|scss|map|png|jpg|jpeg|gif|webp|svg|ico|bmp|woff|woff2|ttf|otf|eot|json|xml|txt|pdf|mp4|webm|mp3)$"
+
+
 module.exports = {
     UPLOAD_TYPE,
     USER_INFO,
@@ -225,5 +230,7 @@ module.exports = {
     FLOW_TYPE,
     UP_LOG_TYPE,
     LOCAL_SERVER,
-    LOCAL_MONITOR_ASSETS
+    LOCAL_MONITOR_ASSETS,
+    OPEN_RATE_THRESHOLD_WHITE_LIST,
+    NON_API_SUFFIX_PATTERN 
 }

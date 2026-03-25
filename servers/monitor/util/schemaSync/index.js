@@ -4,7 +4,6 @@
  */
 
 const path = require('path')
-const pLimit = require('p-limit')
 const NodeClickHouse = require('../../config/node_clickhouse')
 const schemaLogList = require('../../schema/schemaLogList')
 const { ProjectModel } = require('../../modules/models.js')

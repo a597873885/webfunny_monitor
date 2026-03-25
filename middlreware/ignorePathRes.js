@@ -27,7 +27,7 @@ module.exports = [
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
     "/buryPointCard/getHeatMapPerData", "/buryPointVisualTracking/create", "/wfEvent/checkWeFieldData",
     "/getExportCode", "/buryPointProject/getProjectCountByCompanyId", "/wfEvent/getLogCountInfoByDay",
-    "/buryPointWarehouse/downloadExcel",
+    "/buryPointWarehouse/downloadExcel", "/sdkRelease/downloadJavaJar",
     "/buryPointWarehouse/downloadTemplate",
     "/buryPointWarehouse/downFileByName",
     "/buryPointTemplate/download",
@@ -39,7 +39,7 @@ module.exports = [
     "/wfFile/api/sourceMapFile/upload", "/wfFile/api/sourceMapFile",
 
     // apm
-    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo", "/wfApm/getProjectCountByCompanyId",
+    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo",
 
     // walkingfunny 过滤登录校验
     "/walkingfunnyWithoutLogin/",

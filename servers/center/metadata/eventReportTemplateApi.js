@@ -66,7 +66,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "次数"
+                    "name": "次数",
+                    "unit": ""
                 }
             ]
         },
@@ -115,7 +116,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "人数"
+                    "name": "人数",
+                    "unit": ""
                 }
             ]
         },
@@ -217,7 +219,8 @@ module.exports = [
                     ],
                     "dataKey": "userCount",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -266,7 +269,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -315,7 +319,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -364,7 +369,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -433,7 +439,8 @@ module.exports = [
                     ],
                     "dataKey": "newUserCount",
                     "labelKey": "projectName",
-                    "name": "应用"
+                    "name": "应用",
+                    "unit": ""
                 }
             ]
         },
@@ -477,8 +484,8 @@ module.exports = [
                     "key": "projectName"
                 },
                 {
-                    "title": "访问次数",
-                    "key": "clickCount"
+                    "title": "人均点击量",
+                    "key": "avgClickPerUser"
                 }
             ],
             "tableList": [
@@ -515,9 +522,10 @@ module.exports = [
                             "avgClickPerUser": 0
                         }
                     ],
-                    "dataKey": "clickCount",
+                    "dataKey": "avgClickPerUser",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -594,7 +602,8 @@ module.exports = [
                     ],
                     "dataKey": "avgStayTimePerUser",
                     "labelKey": "projectName",
-                    "name": "功能名称"
+                    "name": "功能名称",
+                    "unit": "s"
                 }
             ]
         },
@@ -657,9 +666,10 @@ module.exports = [
                             "percent": "0"
                         }
                     ],
-                    "dataKey": "percent",
+                    "dataKey": "visitCount",
                     "labelKey": "sourceName",
-                    "name": "占比"
+                    "name": "占比",
+                    "unit": "%"
                 }
             ]
         },
@@ -727,7 +737,8 @@ module.exports = [
                     ],
                     "dataKey": "visitCount",
                     "labelKey": "province",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -803,7 +814,8 @@ module.exports = [
                     ],
                     "dataKey": "clickCount",
                     "labelKey": "pagePath",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         },
@@ -872,7 +884,8 @@ module.exports = [
                     ],
                     "dataKey": "avgStayTime",
                     "labelKey": "pagePath",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": "s"
                 }
             ]
         },

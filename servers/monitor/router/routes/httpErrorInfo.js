@@ -24,4 +24,5 @@ module.exports = (router) => {
     router.post('/getHttpErrorListByUrl', HttpErrorInfoController.getHttpErrorListByUrl);
     // 根据错误码计算数据
     router.post('/getErrorCodeForGroup', HttpErrorInfoController.getErrorCodeForGroup);
+    router.post('/getErrorCodeForGroupByTimeRange', HttpErrorInfoController.getErrorCodeForGroupByTimeRange);
 }

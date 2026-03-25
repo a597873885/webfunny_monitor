@@ -3,6 +3,9 @@ const crypto = require("crypto")
 const myAtob = require("atob")
 const fetch = require('node-fetch')
 const uuid = require('node-uuid')
+const IP2Region = require('ip2region').default;
+// 创建 IP2Region 实例（支持 IPv4 和 IPv6）
+const ip2regionQuery = new IP2Region();
 const searcher = require('node-ip2region').create();
 const { base64encode, base64decode } = require('nodejs-base64');
 const getmac = require('getmac')
@@ -669,7 +672,25 @@ const Utils = {
       return protocolRes
     }
   },
-  // 根据ip获取地理位置
+  // 检查是否是私有/内网 IP
+  isPrivateIp(ip) {
+    if (!ip) return true
+    // 私有 IP 范围
+    const privateRanges = [
+      /^10\./,                          // 10.0.0.0 - 10.255.255.255
+      /^172\.(1[6-9]|2[0-9]|3[0-1])\./,  // 172.16.0.0 - 172.31.255.255
+      /^192\.168\./,                     // 192.168.0.0 - 192.168.255.255
+      /^127\./,                          // 127.0.0.0 - 127.255.255.255 (本地回环)
+      /^0\./,                            // 0.0.0.0 - 0.255.255.255
+      /^169\.254\./,                     // 169.254.0.0 - 169.254.255.255 (链路本地)
+      /^::1$/,                           // IPv6 本地回环
+      /^fc00:/i,                         // IPv6 私有地址
+      /^fe80:/i,                         // IPv6 链路本地
+    ]
+    return privateRanges.some(regex => regex.test(ip))
+  },
+  
+  // 根据ip获取地理位置 (使用 ip2region v2，支持 IPv4 和 IPv6)
   async analysisIp(monitorIp) {
     let ipInfo = {
       country: "未知",
@@ -679,26 +700,43 @@ const Utils = {
     }
     if (!monitorIp) return ipInfo;
     
-    let finalIpInfo = {}
+    // 跳过私有 IP，直接返回内网标记
+    if (Utils.isPrivateIp(monitorIp)) {
+      ipInfo.country = "内网"
+      ipInfo.province = "内网"
+      ipInfo.city = "内网"
+      return ipInfo
+    }
+    
     try {
-      const res = await searcher.btreeSearchSync(monitorIp)
+      // 使用 ip2region v2 进行查询（支持 IPv4 和 IPv6）
+      const res = ip2regionQuery.search(monitorIp)
       if (res) {
-          const { region } = res
-          const locationArray = region.split("|")
-          ipInfo.country = locationArray.length > 0 ? locationArray[0] || "未知" : "未知"
-          ipInfo.province = locationArray.length > 1 ? locationArray[2] || "未知" : "未知"
-          ipInfo.city = locationArray.length > 2 ? locationArray[3] || "未知" : "未知"
-          ipInfo.operators = locationArray.length > 3 ? locationArray[4] || "未知" : "未知"
-
-          finalIpInfo = ipInfo
+        // 新版返回格式: { country: '中国', province: '广东省', city: '深圳市', isp: '阿里云' }
+        ipInfo.country = res.country || "未知"
+        ipInfo.province = res.province || "未知"
+        ipInfo.city = res.city || "未知"
+        ipInfo.operators = res.isp || "未知"
+        
+        // 如果解析结果为空字符串，标记为未知
+        if (ipInfo.province === "" || ipInfo.province === "0") {
+          ipInfo.province = "未知"
+        }
+        if (ipInfo.city === "" || ipInfo.city === "0") {
+          ipInfo.city = "未知"
+        }
+        if (ipInfo.operators === "" || ipInfo.operators === "0") {
+          ipInfo.operators = "未知"
+        }
       }
     } catch(e) {
-      // log.printError("IP定位失败：", monitorIp)
-      if (global.WebfunnyIpStores) {
-        finalIpInfo = global.WebfunnyIpStores[monitorIp] || ipInfo
+      // log.printError("IP定位失败：", monitorIp, e)
+      // 降级使用缓存
+      if (global.WebfunnyIpStores && global.WebfunnyIpStores[monitorIp]) {
+        return global.WebfunnyIpStores[monitorIp]
       }
     }
-    return finalIpInfo
+    return ipInfo
   },
   // base64解码日志
   base64DecodeForLog(logInfo) {
@@ -712,6 +750,13 @@ const Utils = {
         } else {
           switch (key) {
             case 'happenTime':
+              if (logInfo[key] && !/^\d+$/.test(logInfo[key])) {
+                // 如果 happenTime 不是纯数字，尝试进行 base64 解码，兼容某些版本的 SDK 可能对时间进行了加密
+                finalData[key] = Utils.b64DecodeUnicode(logInfo[key])
+              } else {
+                finalData[key] = logInfo[key]
+              }
+              break
             case 'webMonitorId':
             case 'completeUrl':
             case 'simpleUrl':
@@ -746,6 +791,7 @@ const Utils = {
     }
     return finalData
   },
+
   /**
    * 从 file_server 获取 SourceMap 文件内容
    * @param {string} projectId - 项目ID (webMonitorId)

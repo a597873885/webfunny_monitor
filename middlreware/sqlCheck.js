@@ -3,7 +3,7 @@
  */
 const statusCode = require('../utils/status-code')
 const dangerParams = [//";", "'", "<", ">", "(", ")", 
-                    // "'",
+                    "'",
                     " select ", " union ", " and ", " or ", " from ", " insert ", " update ",
                     " delete ", " database ", " drop ", " truncate ", " create ", " like "]
 module.exports = function () {

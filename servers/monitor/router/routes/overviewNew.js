@@ -17,4 +17,8 @@ module.exports = function (router) {
   router.post('/overviewNew/getDistribution', OverviewNewController.getDistribution)
   // 获取地域分布
   router.post('/overviewNew/getGeoData', OverviewNewController.getGeoData)
+  // 获取健康评分配置
+  router.post('/overviewNew/getHealthScoreConfig', OverviewNewController.getHealthScoreConfig)
+  // 保存健康评分配置
+  router.post('/overviewNew/saveHealthScoreConfig', OverviewNewController.saveHealthScoreConfig)
 }

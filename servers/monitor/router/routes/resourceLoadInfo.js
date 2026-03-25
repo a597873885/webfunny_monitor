@@ -16,6 +16,7 @@ module.exports = (router) => {
   // 获取静态资源错误分类
   router.get('/getResourceErrorCountByDay', ResourceLoadInfoController.getResourceErrorCountByDay);
   router.post('/getResourceLoadInfoListByDay', ResourceLoadInfoController.getResourceLoadInfoListByDay);
+  router.post('/getResourceLoadDetailListByUrl', ResourceLoadInfoController.getResourceLoadDetailListByUrl);
   // 获取最近24小时内，静态资源加载错误发生数量
   router.get('/getResourceErrorCountByHour', ResourceLoadInfoController.getResourceErrorCountByHour);
 }

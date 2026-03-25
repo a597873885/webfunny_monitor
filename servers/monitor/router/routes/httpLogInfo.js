@@ -30,10 +30,22 @@ module.exports = (router) => {
 
 
   router.post('/getHttpLoadOverview', HttpLogInfoController.getHttpLoadOverview);
+  router.post('/getHttpLoadOverviewByTimeRange', HttpLogInfoController.getHttpLoadOverviewByTimeRange);
   router.post('/getHttpLogDataForMinute', HttpLogInfoController.getHttpLogDataForMinute);
+  router.post('/getHttpLogDataByTimeRange', HttpLogInfoController.getHttpLogDataByTimeRange);
+  router.post('/getHttpSuccessRateDataByTimeRange', HttpLogInfoController.getHttpSuccessRateDataByTimeRange);
+  router.post('/getHttpPercentileDataByTimeRange', HttpLogInfoController.getHttpPercentileDataByTimeRange);
   router.post('/getHttpLogDataForUrlByDay', HttpLogInfoController.getHttpLogDataForUrlByDay);
+  router.post('/getHttpLogDataForUrlByTimeRange', HttpLogInfoController.getHttpLogDataForUrlByTimeRange);
+  router.post('/getHttpLogDataForUrlEnhancedByTimeRange', HttpLogInfoController.getHttpLogDataForUrlEnhancedByTimeRange);
+  router.post('/getHttpPerfDetailByUrlByTimeRange', HttpLogInfoController.getHttpPerfDetailByUrlByTimeRange);
+  router.post('/exportHttpPerfDataForUrlByTimeRange', HttpLogInfoController.exportHttpPerfDataForUrlByTimeRange);
   router.post('/getHttpPerfDataForMap', HttpLogInfoController.getHttpPerfDataForMap);
+  router.post('/getHttpPerfDataForMapByTimeRange', HttpLogInfoController.getHttpPerfDataForMapByTimeRange);
   router.post('/getHttpLoadTimeForGroup', HttpLogInfoController.getHttpLoadTimeForGroup);
+  router.post('/getHttpLoadTimeForGroupByTimeRange', HttpLogInfoController.getHttpLoadTimeForGroupByTimeRange);
   router.post('/getOperatorForGroup', HttpLogInfoController.getOperatorForGroup);
+  router.post('/getOperatorForGroupByTimeRange', HttpLogInfoController.getOperatorForGroupByTimeRange);
   router.post('/getMethodForGroup', HttpLogInfoController.getMethodForGroup);
+  router.post('/getMethodForGroupByTimeRange', HttpLogInfoController.getMethodForGroupByTimeRange);
 }

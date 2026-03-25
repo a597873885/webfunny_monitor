@@ -189,9 +189,9 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 CommonUtil.setMonitorSecretList()
             }
 
-            // 每隔1分钟
-            if (minuteTimeStr.substring(3) == "00") {
-                // 每分钟更新活跃流量信息
+            // 每隔10分钟（在 xx:00、xx:10、xx:20、xx:30、xx:40、xx:50）
+            if (minuteTimeStr.substring(1) == "0:00") {
+                // 更新活跃流量信息（按项目维度，每项目一次 UPDATE）
                 TimerCalculateController.updateAliveCountInfo()
             }
 

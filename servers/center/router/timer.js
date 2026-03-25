@@ -52,7 +52,7 @@ module.exports = async () => {
         setTimeout(() => {
             // TimerCalculateController.updateCompanyDataForMonitor()
             // TimerCalculateController.updateCompanyDataForApm()
-            // TimerCalculateController.updateCompanyDataForEvent()
+            TimerCalculateController.updateCompanyDataForEvent()
         }, 30 * 1000)
 
         UserController.setValidateCode()

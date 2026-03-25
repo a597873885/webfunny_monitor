@@ -15,6 +15,8 @@ module.exports = (router) => {
   router.post('/buryPointTest/apiExport', BuryPointTestController.apiExport);
   // 根据userId查询点位列表
   router.post('/buryPointTest/searchAllRecord', BuryPointTestController.searchAllRecord);
+  // 导出用户点位记录（GET请求）
+  router.get('/buryPointTest/exportUserPointRecords', BuryPointTestController.exportUserPointRecords);
   // 根据字段的key查询字段名称
   router.post('/buryPointTest/searchFieldName', BuryPointTestController.searchFieldName);
   // 点位查询导出

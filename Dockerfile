@@ -1,4 +1,4 @@
-FROM  node:16.20.2-slim
+FROM  node:16.20.0-slim
 RUN npm install pm2 -g
 COPY . /app
 WORKDIR /app

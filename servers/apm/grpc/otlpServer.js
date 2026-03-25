@@ -36,6 +36,7 @@ class OtlpGrpcServer {
         }
       }
 
+      console.log(`🧹 [OTLP] 去重 Map 清理完成，Spans: ${this.processedSpans.size}, Segments: ${this.processedSegments.size}`);
     }, 60 * 1000); // 每分钟清理一次
   }
 

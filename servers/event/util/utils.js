@@ -1515,6 +1515,93 @@ fillHourlyData(projectList, options = {}) {
     // 默认情况：如果 NODE_ENV 未设置且域名不是 localhost，则认为是服务器环境
     return false;
   },
+  /**
+   * 根据字段类型和长度映射到 ClickHouse 实际类型
+   * @param {String} fieldType - 字段类型：INT、BIGINT、FLOAT
+   * @param {Number} fieldLength - 字段长度
+   * @returns {String} ClickHouse 类型：Int8、Int16、Int32、Int64、Float32、Float64
+   */
+  mapToClickHouseType(fieldType, fieldLength) {
+    const length = parseInt(fieldLength) || 10;
+    
+    // 整数类型映射
+    if (fieldType === 'INT' || fieldType === 'int') {
+      if (length <= 3) {
+        // -128 ~ 127
+        return 'Int8';
+      } else if (length <= 5) {
+        // -32768 ~ 32767
+        return 'Int16';
+      } else if (length <= 10) {
+        // -2147483648 ~ 2147483647
+        return 'Int32';
+      } else {
+        // -9223372036854775808 ~ 9223372036854775807
+        return 'Int64';
+      }
+    }
+    
+    // 大整数类型映射（统一使用 Int64）
+    if (fieldType === 'BIGINT' || fieldType === 'bigint') {
+      return 'Int64';
+    }
+    
+    // 浮点数类型映射
+    if (fieldType === 'FLOAT' || fieldType === 'float') {
+      if (length <= 7) {
+        // 约7位有效数字
+        return 'Float32';
+      } else {
+        // 约16位有效数字
+        return 'Float64';
+      }
+    }
+    
+    // 字符串类型
+    if (fieldType === 'VARCHAR' || fieldType === 'varchar' || fieldType === 'STRING' || fieldType === 'string') {
+      return 'String';
+    }
+    
+    // 默认返回 String
+    return 'String';
+  },
+
+  /**
+   * 验证字段名称是否符合 ClickHouse 规范
+   * @param {string} fieldAlias - 用户输入的字段别名（可能包含中文）
+   * @returns {Object} - { valid: boolean, fieldName: string, message: string }
+   */
+  validateFieldName(fieldAlias) {
+    // 1. 先将中文转成拼音
+    const fieldName = Utils.pinYinToHump(fieldAlias);
+    
+    // 2. 长度验证（1-64字符）
+    if (!fieldName || fieldName.length < 1 || fieldName.length > 64) {
+      return { valid: false, fieldName, message: '字段名称长度必须在 1-64 个字符之间' };
+    }
+    
+    // 3. 必须以字母或下划线开头
+    if (!/^[a-zA-Z_]/.test(fieldName)) {
+      return { valid: false, fieldName, message: '字段名称必须以字母或下划线开头' };
+    }
+    
+    // 4. 只能包含字母、数字、下划线
+    if (!/^[a-zA-Z_][a-zA-Z0-9_]*$/.test(fieldName)) {
+      return { valid: false, fieldName, message: '字段名称只能包含字母、数字、下划线' };
+    }
+    
+    // 5. 不能是纯数字
+    if (/^\d+$/.test(fieldName)) {
+      return { valid: false, fieldName, message: '字段名称不能为纯数字' };
+    }
+    
+    // 6. 检查是否为系统保留字段
+    if (!Utils.checkFieldNameValid(fieldName)) {
+      return { valid: false, fieldName, message: '该字段名称为系统保留字段，请更换' };
+    }
+    
+    return { valid: true, fieldName, message: '' };
+  },
 }
 
 module.exports = Utils

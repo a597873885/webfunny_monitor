@@ -28,7 +28,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "次数"
+                    "name": "次数",
+                    "unit": ""
                 }
             ]
         }
@@ -61,19 +62,20 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "次数"
+                    "name": "次数",
+                    "unit": ""
                 }
             ]
         }
     },
     {
         id: "3",
-        title: "接口成功率",
-        description: "接口成功率",
+        title: "接口成功率 (%)",
+        description: "接口成功率 (%)",
         cardType: 1,
         supportCardTypes: [1],
         apis: {
-            name: "接口成功率",
+            name: "接口成功率 (%)",
             api: "wfMonitor/getOverviewStats",
             method: "POST",
             dataPath: "data.httpSuccessRate",
@@ -94,7 +96,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -127,7 +130,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -160,7 +164,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -193,7 +198,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "name",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -242,7 +248,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "projectName",
-                    "name": "采购管理"
+                    "name": "采购管理",
+                    "unit": ""
                 }
             ]
         }
@@ -289,7 +296,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "projectName",
-                    "name": "名称"
+                    "name": "名称",
+                    "unit": ""
                 }
             ]
         }
@@ -339,7 +347,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                  }                
             ]
         }
@@ -398,7 +407,8 @@ module.exports = [
                     ],
                     "dataKey": "avgLoadTime",
                     "labelKey": "projectName",
-                    "name": "耗时统计"
+                    "name": "耗时统计",
+                    "unit": ""
                 }
             ]
         }
@@ -453,7 +463,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -508,7 +519,8 @@ module.exports = [
                     ],
                     "dataKey": "count",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -565,7 +577,8 @@ module.exports = [
                     ],
                     "dataKey": "avgLoadTime",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "个数",
+                    "unit": ""
                 }
             ]
         }
@@ -614,7 +627,8 @@ module.exports = [
                     ],
                     "dataKey": "failRate",
                     "labelKey": "projectName",
-                    "name": "个数"
+                    "name": "失败率",
+                    "unit": "%"
                 }
             ]
         }
@@ -660,12 +674,12 @@ module.exports = [
                             "percentage": "0",
                         }
                     ],
-                    "dataKey": "percentage",
+                    "dataKey": "count",
                     "labelKey": "statusName",
-                    "name": "占比"
+                    "name": "占比",
+                    "unit": "%"
                 }
             ]
         }
     }
 ]
-
