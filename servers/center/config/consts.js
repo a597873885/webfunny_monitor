@@ -221,11 +221,17 @@ const EXTERNAL_API = {
 }
 
 
-const WEBFUNNY_CONFIG_URI = "http://localhost:8012" // "http://www.webfunny.cn"
+const WEBFUNNY_CONFIG_URI = "http://www.webfunny.com" // "http://www.webfunny.com"
 
 const START_YEAR = 2024
 
 const PRODUCT_INFO_URI = '139.224.102.107:8030'
+
+// const LOCAL_SERVER = `http://${accountInfo.localServerDomain}`
+// const MONITOR_LOCAL_SERVER = `http://${accountInfo.monitorServerDomain}`
+// const EVENT_LOCAL_SERVER = `http://${accountInfo.eventServerDomain}`
+// const APM_LOCAL_SERVER = `http://${accountInfo.apmServerDomain}`
+
 
 const LOCAL_SERVER = `http://127.0.0.1:${accountInfo.localServerPort}`
 const MONITOR_LOCAL_SERVER = `http://127.0.0.1:${accountInfo.localServerPort}`

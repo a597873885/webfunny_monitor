@@ -21,6 +21,7 @@ const reportTemplateRouter = require('./reportTemplate')
 const reportTaskRouter = require('./reportTask')
 const generatedReportRouter = require('./generatedReport')
 const schemaSyncRouter = require('./schemaSync')
+const configRouter = require('./config')
 const createRouter = (router) => {
   applicationConfigRouter(router)
   appManageRouter(router)
@@ -45,6 +46,7 @@ const createRouter = (router) => {
   reportTemplateRouter(router)
   generatedReportRouter(router)
   schemaSyncRouter(router)
+  configRouter(router)
 }
 module.exports = {
   createRouter

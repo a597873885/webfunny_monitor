@@ -1,0 +1,75 @@
+# GitLab CI/CD 配置文件
+# webfunny_monitor_cluster
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "api"'
+    - when: never
+
+stages:
+  - deploy
+
+variables:
+  NODE_VERSION: "16"
+  DEPLOY_PATH: "/www/webfunny/backend/webfunny_monitor_cluster"
+  BACKUP_PATH: "/www/webfunny/backups/backend"
+  PM2_APP_NAME: "webfunny_cluster"
+
+# ==================== Staging 环境（双机部署） ====================
+deploy:staging:
+  stage: deploy
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "api" && $CI_COMMIT_REF_NAME == "staging"'
+      when: always
+    - if: '$CI_COMMIT_REF_NAME == "staging"'
+      when: never
+  before_script:
+    - mkdir -p ~/.ssh
+    - tr -d '\r' < "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_STAGING_1 >> ~/.ssh/known_hosts
+    - ssh-keyscan -H $DEPLOY_SERVER_HOST_STAGING_2 >> ~/.ssh/known_hosts
+  script:
+    - echo "开始部署到 Staging 双机"
+
+    # ---------- 部署到服务器 1 ----------
+    - echo "==== 服务器 1 $DEPLOY_SERVER_HOST_STAGING_1 ===="
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "mkdir -p $BACKUP_PATH && mkdir -p $DEPLOY_PATH"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "if [ -d $DEPLOY_PATH ]; then BACKUP_DIR=$BACKUP_PATH/\$(date +%Y%m%d_%H%M%S); mkdir -p \$BACKUP_DIR; rsync -a --exclude='node_modules' --exclude='logs' $DEPLOY_PATH/ \$BACKUP_DIR/; fi"
+    - echo "上传代码到服务器 1"
+    - rsync -avz --delete --exclude='node_modules' --exclude='logs' --exclude='.git' ./ $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1:$DEPLOY_PATH/
+    - echo "安装依赖（服务器 1）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && npm config set registry https://registry.npmmirror.com && npm install --production && chown -R root:root $DEPLOY_PATH"
+    - echo "执行初始化（服务器 1）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && npm run bootstrap"
+    - echo "覆盖配置文件（服务器 1）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "cp -r /www/webfunny/webfunny.config/. $DEPLOY_PATH/webfunny.config/"
+    - echo "重启服务（服务器 1）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && export NODE_ENV=staging && if pm2 list | grep -q $PM2_APP_NAME; then npm run restart_staging; else npm run staging; fi"
+    - sleep 5
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_1 "source ~/.bashrc 2>/dev/null || true; pm2 list | grep $PM2_APP_NAME"
+    - echo "服务器 1 部署完成"
+
+    # ---------- 部署到服务器 2 ----------
+    - echo "==== 服务器 2 $DEPLOY_SERVER_HOST_STAGING_2 ===="
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "mkdir -p $BACKUP_PATH && mkdir -p $DEPLOY_PATH"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "if [ -d $DEPLOY_PATH ]; then BACKUP_DIR=$BACKUP_PATH/\$(date +%Y%m%d_%H%M%S); mkdir -p \$BACKUP_DIR; rsync -a --exclude='node_modules' --exclude='logs' $DEPLOY_PATH/ \$BACKUP_DIR/; fi"
+    - echo "上传代码到服务器 2"
+    - rsync -avz --delete --exclude='node_modules' --exclude='logs' --exclude='.git' ./ $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2:$DEPLOY_PATH/
+    - echo "安装依赖（服务器 2）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && npm config set registry https://registry.npmmirror.com && npm install --production && chown -R root:root $DEPLOY_PATH"
+    - echo "执行初始化（服务器 2）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && npm run bootstrap"
+    - echo "覆盖配置文件（服务器 2）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "cp -r /www/webfunny/webfunny.config/. $DEPLOY_PATH/webfunny.config/"
+    - echo "重启服务（服务器 2）"
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "source ~/.bashrc 2>/dev/null || true; source ~/.nvm/nvm.sh 2>/dev/null || true; cd $DEPLOY_PATH && export NODE_ENV=staging && if pm2 list | grep -q $PM2_APP_NAME; then npm run restart_staging; else npm run staging; fi"
+    - sleep 5
+    - ssh $DEPLOY_SERVER_USER_STAGING@$DEPLOY_SERVER_HOST_STAGING_2 "source ~/.bashrc 2>/dev/null || true; pm2 list | grep $PM2_APP_NAME"
+    - echo "服务器 2 部署完成"
+
+    - echo "Staging 双机部署全部完成"
+  after_script:
+    - rm -f ~/.ssh/id_rsa
+  environment:
+    name: staging

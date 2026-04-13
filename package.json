@@ -10,10 +10,14 @@
     "publish_monitor": "node publish.js --serverType monitor",
     "publish_event": "node publish.js --serverType event",
     "publish_logger": "node publish.js --serverType logger",
+    "publish_apm": "node publish.js --serverType apm",
+    "publish_file": "node publish.js --serverType file",
     "publish_single": "node publish_single.js",
-    "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 log webfunny_cluster",
-    "prd_test": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster_test.js && pm2 log webfunny_cluster_test",
+    "prd": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 save && pm2 logs webfunny_cluster",
+    "staging": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster.js && pm2 save",
+    "prd_test": "node ./webfunny_init/initResource.js && pm2 flush && pm2 start webfunny_cluster_test.js && pm2 save",
     "restart": "pm2 delete webfunny_cluster && pm2 flush && npm run prd",
+    "restart_staging": "pm2 delete webfunny_cluster && pm2 flush && npm run staging",
     "restart_test": "pm2 delete webfunny_cluster_test && pm2 flush && npm run prd_test"
   },
   "repository": {

@@ -323,6 +323,7 @@ const otherConfig = {
   "selfMonitor": require('./selfMonitor'), // webfunny自监控配置
   "defaultCompanyId": "1",      // 默认公司Id，用于飞书登录
   "isIpCovert": false,          // 是否开启ip地址转换，用于接口获取地理位置
+  "openExportFlag": false, // 是否开启数据导出验证：false-不开启，true-开启
 }
 module.exports = {
   licenseConfig, domainConfig, mysqlConfig, rabbitMqConfig, otherConfig

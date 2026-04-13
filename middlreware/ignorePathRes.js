@@ -39,7 +39,7 @@ module.exports = [
     "/wfFile/api/sourceMapFile/upload", "/wfFile/api/sourceMapFile",
 
     // apm
-    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo",
+    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo", "/wfApm/getProjectCountByCompanyId",
 
     // walkingfunny 过滤登录校验
     "/walkingfunnyWithoutLogin/",
