@@ -245,7 +245,7 @@ module.exports = async () => {
                 // 本地环境不执行以下操作
                 if (!Utils.isLocalEnvironment(accountInfo)) {
                     // 判断是否是主节点
-                    if (global.masterElection && global.masterElection.isMaster) {
+                    if (global.masterElection && global.masterElection.isMasterNode()) {
                         // 每个小时第05分钟的执行一次告警分析
                         if (minuteTimeStr == "05:00") {
                             TimerStatisticController.handleAlarm().catch((e)=>{

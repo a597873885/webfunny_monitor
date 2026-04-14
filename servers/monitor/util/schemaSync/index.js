@@ -4,11 +4,11 @@
  */
 
 const path = require('path')
+const pLimit = require('p-limit')
 const NodeClickHouse = require('../../config/node_clickhouse')
 const schemaLogList = require('../../schema/schemaLogList')
 const { ProjectModel } = require('../../modules/models.js')
 const log = require('../../../../config/log')
-const pLimit = require('p-limit');
 
 // 创建一个通用的 ClickHouse 实例用于执行查询
 const clickhouse = new NodeClickHouse()

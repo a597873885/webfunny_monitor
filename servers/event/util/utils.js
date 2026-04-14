@@ -12,6 +12,9 @@ const log = require("../../../config/log");
 const AccountConfig = require('../config/AccountConfig')
 const { accountInfo } = AccountConfig
 const timeout = 300000
+const IP2Region = require('ip2region').default;
+// 创建 IP2Region 实例（支持 IPv4 和 IPv6）
+const ip2regionQuery = new IP2Region();
 const Utils = {
   isArray(object) {
     return Object.prototype.toString.call(object) === "[object Array]"
@@ -1601,6 +1604,71 @@ fillHourlyData(projectList, options = {}) {
     }
     
     return { valid: true, fieldName, message: '' };
+  },
+   // 检查是否是私有/内网 IP
+  isPrivateIp(ip) {
+    if (!ip) return true
+    // 私有 IP 范围
+    const privateRanges = [
+      /^10\./,                          // 10.0.0.0 - 10.255.255.255
+      /^172\.(1[6-9]|2[0-9]|3[0-1])\./,  // 172.16.0.0 - 172.31.255.255
+      /^192\.168\./,                     // 192.168.0.0 - 192.168.255.255
+      /^127\./,                          // 127.0.0.0 - 127.255.255.255 (本地回环)
+      /^0\./,                            // 0.0.0.0 - 0.255.255.255
+      /^169\.254\./,                     // 169.254.0.0 - 169.254.255.255 (链路本地)
+      /^::1$/,                           // IPv6 本地回环
+      /^fc00:/i,                         // IPv6 私有地址
+      /^fe80:/i,                         // IPv6 链路本地
+    ]
+    return privateRanges.some(regex => regex.test(ip))
+  },
+  // 根据ip获取地理位置 (使用 ip2region v2，支持 IPv4 和 IPv6)
+  async analysisIp(eventIp) {
+    let ipInfo = {
+      country: "未知",
+      province: "未知",
+      city: "未知",
+      operators: "未知"
+    }
+    if (!eventIp) return ipInfo;
+    
+    // 跳过私有 IP，直接返回内网标记
+    if (Utils.isPrivateIp(eventIp)) {
+      ipInfo.country = "内网"
+      ipInfo.province = "内网"
+      ipInfo.city = "内网"
+      return ipInfo
+    }
+    
+    try {
+      // 使用 ip2region v2 进行查询（支持 IPv4 和 IPv6）
+      const res = ip2regionQuery.search(eventIp)
+      if (res) {
+        // 新版返回格式: { country: '中国', province: '广东省', city: '深圳市', isp: '阿里云' }
+        ipInfo.country = res.country || "未知"
+        ipInfo.province = res.province || "未知"
+        ipInfo.city = res.city || "未知"
+        ipInfo.operators = res.isp || "未知"
+        
+        // 如果解析结果为空字符串，标记为未知
+        if (ipInfo.province === "" || ipInfo.province === "0") {
+          ipInfo.province = "未知"
+        }
+        if (ipInfo.city === "" || ipInfo.city === "0") {
+          ipInfo.city = "未知"
+        }
+        if (ipInfo.operators === "" || ipInfo.operators === "0") {
+          ipInfo.operators = "未知"
+        }
+      }
+    } catch(e) {
+      // log.printError("IP定位失败：", eventIp, e)
+      // 降级使用缓存
+      if (global.WebfunnyIpStores && global.WebfunnyIpStores[eventIp]) {
+        return global.WebfunnyIpStores[eventIp]
+      }
+    }
+    return ipInfo
   },
 }
 
