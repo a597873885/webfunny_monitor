@@ -1,6 +1,8 @@
-FROM  node:16.20.2-slim
+FROM node:16.20.2-slim
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN echo "deb http://archive.debian.org/debian buster main" > /etc/apt/sources.list \
+  && echo "deb http://archive.debian.org/debian-security buster/updates main" >> /etc/apt/sources.list \
+  && apt-get update && apt-get install -y --no-install-recommends \
     iputils-ping \
     curl \
     telnet \
