@@ -7,7 +7,6 @@ RUN echo "deb [check-valid-until=no] http://archive.debian.org/debian buster mai
     telnet \
     lsof \
     net-tools \
-    procps \
     vim \
   && rm -rf /var/lib/apt/lists/*
 
