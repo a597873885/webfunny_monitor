@@ -18,7 +18,8 @@ class ClickHouseClusterManager {
         compression: {
           response: true,
           request: false
-        }
+        },
+        keep_alive: { enabled: false },
       }),
       status: {
         isHealthy: true,

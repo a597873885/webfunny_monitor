@@ -105,15 +105,15 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                 // TimerCalculateController.updateAliveCountInfo()
             }
             
-            if (!Utils.isLocalEnvironment(accountInfo)) {
-                // 判断是否是主节点
-                if (global.masterElection && global.masterElection.isMasterNode()) {
-                    // 如果是凌晨，则计算上一天的分析数据
-                    if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
-                        TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
-                    }
-                }
-            }
+            // if (!Utils.isLocalEnvironment(accountInfo)) {
+            //     // 判断是否是主节点
+            //     if (global.masterElection && global.masterElection.isMasterNode()) {
+            //         // 如果是凌晨，则计算上一天的分析数据
+            //         if (hourTimeStr > "00:06:00" && hourTimeStr < "00:12:00") {
+            //             TimerCalculateController.calculateCountByDay(minuteTimeStr, -1)
+            //         }
+            //     }
+            // }
 
             // 每隔1分钟，取出全局变量global.apmInfo.logCountInMinute的值，并清0
             if (minuteTimeStr.substring(3) == "00") {

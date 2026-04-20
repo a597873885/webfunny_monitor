@@ -57,7 +57,8 @@ const client = createClient({
   host: `http://${write.ip}:${write.port}`,
   username: write.userName,
   password: write.password,
-  database: write.dataBaseName
+  database: write.dataBaseName,
+  keep_alive: { enabled: false },
 })
 
 

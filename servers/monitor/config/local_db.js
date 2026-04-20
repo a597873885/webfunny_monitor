@@ -89,7 +89,8 @@ const createSmartClient = () => {
       host: `http://${write.ip}:${write.port}`,
       username: write.userName,
       password: write.password,
-      database: write.dataBaseName
+      database: write.dataBaseName,
+      keep_alive: { enabled: false },
     });
     
     // 直接添加集群状态方法（保持接口一致）
