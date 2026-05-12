@@ -167,10 +167,9 @@ class SkyWalkingParser {
    */
   tagsToJson(tags) {
     if (!Array.isArray(tags) || tags.length === 0) {
-      console.log('⚠️  [Parser] Tags is empty or not array:', tags)
       return '{}'
     }
-    
+
     const obj = {}
     tags.forEach(tag => {
       if (tag.key) {

@@ -26,6 +26,13 @@ const Columns = {
       field: 'pageTitle',
       fieldTitle: '页面title'
     },
+    // 用户昵称
+    nickname: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'nickname',
+      fieldTitle: '用户昵称'
+    },
     // 设备品牌
     deviceBrand: {
       type: DataTypes.STRING,

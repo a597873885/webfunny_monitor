@@ -46,7 +46,7 @@ startGrpcServer()
 gRPC 服务端口在 `config/AccountConfig.js` 中配置：
 
 ```javascript
-grpcPort: conf.grpc?.port || 11800
+grpcPort: conf.grpc?.port || 9018
 ```
 
 ## 依赖项

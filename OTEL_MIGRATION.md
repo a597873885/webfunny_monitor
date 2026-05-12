@@ -41,7 +41,7 @@ npm install @opentelemetry/api @opentelemetry/sdk-node @opentelemetry/auto-instr
 - 建议：升级到 Node.js 18+ 或 20+
 
 ### 2. 导出器地址
-- 默认：`http://localhost:11800`
+- 默认：`http://localhost:9018`
 - 可通过 `config/otelConfig.js` 修改
 - 或通过环境变量 `OTEL_EXPORTER_OTLP_ENDPOINT` 配置
 

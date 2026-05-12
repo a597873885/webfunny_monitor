@@ -685,7 +685,7 @@ module.exports = [
                             "percent": "0"
                         }
                     ],
-                    "dataKey": "userCount",
+                    "dataKey": "percent",
                     "labelKey": "browserName",
                     "name": "占比",
                     "unit": "%"
@@ -748,7 +748,7 @@ module.exports = [
                     "dataKey": "clickCount",
                     "labelKey": "pagePath",
                     "name": "个数",
-                    "unit": "%"
+                    "unit": ""
                 }
             ]
         }

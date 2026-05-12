@@ -28,4 +28,9 @@ module.exports = (router) => {
     // 批量更新字段
     // router.post('/updateColumnByWebMonitorIds', CommonTableController.updateColumnByWebMonitorIds);
 
+    /**
+     * 为单个项目创建表结构
+     */
+    router.post('/createTableByProject', CommonTableController.createTableByProject);
+
 }

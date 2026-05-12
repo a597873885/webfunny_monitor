@@ -9,4 +9,7 @@ module.exports = (router) => {
   router.post('/alarm/updateAlarmRuleStatus', AlarmRuleController.updateAlarmRuleStatus)
   router.post('/alarm/addRuleForApplication', AlarmRuleController.addRuleForApplication)
   router.post('/alarm/getRulesOfApplication', AlarmRuleController.getRulesOfApplication)
+  router.post('/alarm/bindApplicationToRule', AlarmRuleController.bindApplicationToRule)
+  router.post('/alarm/getApplicationOfRule', AlarmRuleController.getApplicationOfRule)
+
 }

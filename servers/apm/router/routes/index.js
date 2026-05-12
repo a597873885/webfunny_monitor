@@ -10,6 +10,7 @@ const errorsRouter = require('./errors')
 const topologyRouter = require('./topology')
 const databaseRouter = require('./database')
 const schemaSyncRouter = require('./schemaSync')
+const alarmRouter = require('./alarm')
 const createRouter = (router) => {
   commonRouter(router)
   commonTableRouter(router)
@@ -23,6 +24,7 @@ const createRouter = (router) => {
   topologyRouter(router)
   databaseRouter(router)
   schemaSyncRouter(router)
+  alarmRouter(router)
 }
 
 module.exports = {

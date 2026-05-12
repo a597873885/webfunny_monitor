@@ -21,7 +21,7 @@ class GrpcServerManager {
   async startAll() {
     try {
       // 1. 启动 SkyWalking gRPC 服务
-      const grpcPort = accountInfo.grpcPort || 11800
+      const grpcPort = accountInfo.grpcPort || 9018
       console.log(`🚀 正在启动 SkyWalking gRPC 服务，端口: ${grpcPort}`)
       this.skywalkingGrpcServer = startGrpcServer()
       
@@ -89,7 +89,7 @@ class GrpcServerManager {
    * 仅启动 SkyWalking gRPC 服务
    */
   startSkyWalking() {
-    const grpcPort = accountInfo.grpcPort || 11800
+    const grpcPort = accountInfo.grpcPort || 9018
     console.log(`🚀 正在启动 SkyWalking gRPC 服务，端口: ${grpcPort}`)
     this.skywalkingGrpcServer = startGrpcServer()
     

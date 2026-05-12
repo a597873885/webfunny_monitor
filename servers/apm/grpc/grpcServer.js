@@ -6,7 +6,7 @@ const protoLoader = require('@grpc/proto-loader')
 const path = require('path')
 const log = require('../config/log')
 const SkyWalkingParser = require('../lib/skywalkingParser')
-const ApmStorageModel = require('../modules/apmStorage')
+const { ApmStorageModel } = require('../modules/models')
 
 /**
  * 从 Buffer 中提取可读字符串
@@ -122,9 +122,9 @@ class GrpcServer {
 
   /**
    * 启动 gRPC 服务
-   * @param {number} port - gRPC 服务端口，默认 11800
+   * @param {number} port - gRPC 服务端口，默认 9018
    */
-  start(port = 11800) {
+  start(port = 9018) {
     try {
       // 创建 gRPC 服务器
       this.server = new grpc.Server()

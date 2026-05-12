@@ -219,6 +219,12 @@ const OPEN_RATE_THRESHOLD_WHITE_LIST = [1000, 2000, 3000, 5000]
 
 const NON_API_SUFFIX_PATTERN = "\\.(js|mjs|cjs|css|less|scss|map|png|jpg|jpeg|gif|webp|svg|ico|bmp|woff|woff2|ttf|otf|eot|json|xml|txt|pdf|mp4|webm|mp3)$"
 
+const API_EXPORT = {
+    API_EXPORT_PREVIEW_SCENE : 'api_export_preview',
+    API_EXPORT_PREVIEW_RATE_MAX : 20,
+    API_EXPORT_PREVIEW_WINDOW_MS: 60 * 1000
+}
+
 
 module.exports = {
     UPLOAD_TYPE,
@@ -232,5 +238,6 @@ module.exports = {
     LOCAL_SERVER,
     LOCAL_MONITOR_ASSETS,
     OPEN_RATE_THRESHOLD_WHITE_LIST,
-    NON_API_SUFFIX_PATTERN 
+    NON_API_SUFFIX_PATTERN,
+    API_EXPORT
 }

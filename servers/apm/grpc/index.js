@@ -20,7 +20,7 @@ function startGrpcServer() {
     // const GrpcServer = require('./grpcServer')
     // const grpcServer = new GrpcServer()
     
-    const grpcPort = accountInfo.grpcPort || 11800
+    const grpcPort = accountInfo.grpcPort || 9018
     
     // 可选：启用保存数据到文件（默认关闭，如需启用请取消下一行注释）
     // grpcServer.enableSaveToFile(true)
