@@ -40,6 +40,12 @@ const Columns = {
       allowNull: false,
       field: 'calcRule'
     },
+    // 全局筛选/用户筛选
+    globalFilter: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      field: 'globalFilter'
+    },
     // 排序
     sort: {
       type: DataTypes.INT(16),

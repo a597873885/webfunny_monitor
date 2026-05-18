@@ -39,4 +39,9 @@ router.post('/closeFlowSwitch', BuryPointProjectController.closeFlowSwitch)
 // 设置日志保存时间
 router.post('/buryPointProject/resetSaveDays', BuryPointProjectController.resetSaveDays);
 router.get('/buryPointProject/base64', BuryPointProjectController.base64JiaMi);
+// 初始化旧项目的用户表和预置用户属性
+  router.post('/buryPointProject/initOldProjectUserTable', BuryPointProjectController.initOldProjectUserTable);
+  // 批量初始化所有旧项目的用户表和预置用户属性
+  router.post('/buryPointProject/initAllOldProjectsUserTable', BuryPointProjectController.initAllOldProjectsUserTable);
+
 }

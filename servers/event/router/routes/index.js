@@ -19,6 +19,9 @@ const buryPointScreenShotRouter = require('./buryPointScreenShot')
 const buryPointUserBehaviorRelationRouter = require('./buryPointUserBehaviorRelation')
 const thirdPartyRouter = require('./thirdParty')
 const dataOverviewForCenterRouter = require('./dataOverviewForCenter')
+const buryPointSegmentRuleRouter = require('./buryPointSegmentRule')
+const buryPointUsersRouter = require('./buryPointUsers')
+const buryPointUserFieldRouter = require('./buryPointUserField')
 
 
 const createRouter = (router) => {
@@ -43,6 +46,9 @@ const createRouter = (router) => {
   buryPointVisualTrackingRouter(router)
   buryPointScreenShotRouter(router)
   buryPointUserBehaviorRelationRouter(router)
+  buryPointSegmentRuleRouter(router)
+  buryPointUserFieldRouter(router)
+  buryPointUsersRouter(router)
 }
 
 module.exports = {

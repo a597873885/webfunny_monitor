@@ -32,6 +32,10 @@ module.exports = [
     "/buryPointWarehouse/downloadTemplate",
     "/buryPointWarehouse/downFileByName",
     "/buryPointTemplate/download",
+    "/buryPointSegmentRule/downloadTemplate",
+    "/buryPointUserField/downloadTemplate",
+    "/buryPointUserField/downFileByName",
+    "/buryPointSegmentRule/downloadUsers",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",
