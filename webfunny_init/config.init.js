@@ -52,6 +52,7 @@ const domainConfig = {
   },
   "grpc": {
     "otelPort": 9013, // apm的grpc端口
+    "swPort": 9018,    // SkyWalking gRPC服务端口（用于接收SkyWalking SDK上报）
   }
 }
 

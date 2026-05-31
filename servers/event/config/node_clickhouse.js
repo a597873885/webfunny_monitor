@@ -221,7 +221,7 @@ class NodeClickhouse extends WebfunnyClickHouse {
       if (fieldDef.type === 'UUID') {
         defaultValue = ' DEFAULT generateUUIDv4()'
       } else if (fieldDef.defaultValue !== undefined) {
-        defaultValue = ` DEFAULT ${fieldDef.defaultValue}`
+        defaultValue = ' DEFAULT ' + (Array.isArray(fieldDef.defaultValue) ? '[' + fieldDef.defaultValue.map(v => "'" + v + "'").join(',') + ']' : fieldDef.defaultValue)
       }
       
       columns.push(`\`${fieldName}\` ${clickhouseType}${nullable}${defaultValue}`)
@@ -231,7 +231,7 @@ class NodeClickhouse extends WebfunnyClickHouse {
     sql += Columns.engine + '\n'
     
     if (Columns.partition) {
-      sql += `PARTITION BY ${Columns.partition}\n`
+      sql += `${Columns.partition}\n`
     }
     
     if (Columns.orderBy) {

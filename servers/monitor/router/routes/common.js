@@ -63,6 +63,8 @@ module.exports = (router) => {
 
     // 获取导出随机码
     router.post('/getExportCode', Common.getExportCode)
+    // 导出用户行为记录（GET，window.open 触发下载）
+    router.get('/exportBehaviorList', Common.exportBehaviorList)
     
     // 获取消费者状态，用于监控优化效果
     // router.get('/getConsumerStatus', Common.getConsumerStatus)

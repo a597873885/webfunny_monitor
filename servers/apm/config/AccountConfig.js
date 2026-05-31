@@ -13,7 +13,7 @@ const accountInfo = {
     localAssetsPort: domainConfig.port.fe,     // 数据可视化系统端口号
     mainDomain: "",  // 主域名
     otelGrpcPort: domainConfig.grpc?.otelPort || 9013, // OTLP gRPC服务端口（用于接收OpenTelemetry数据上报）
-    grpcPort: domainConfig.grpc?.port || 11800, // SkyWalking gRPC服务端口（用于接收SkyWalking SDK上报）
+    grpcPort: domainConfig.grpc?.swPort || 9018, // SkyWalking gRPC服务端口（用于接收SkyWalking SDK上报）
 
     centerServerDomain: domainConfig.host.be,   // 控制台后端服务域名 
     centerServerPort: domainConfig.port.be,     // 控制台后端端口号

@@ -125,6 +125,12 @@ const Columns = {
       allowNull: true,
       field: 'dbType'
     },
+    // HTTP相关 - URL路径（从 tags 中提取，用于搜索和显示）
+    urlPath: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'urlPath'
+    },
     // 数据库相关 - 数据库实例
     dbInstance: {
       type: DataTypes.STRING,

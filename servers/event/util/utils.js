@@ -700,17 +700,118 @@ const Utils = {
       case "归类":
         newStr = "group by"
         break
+         case "属于分群":
+      case "属于":
+        newStr = "属于分群"  // 保持原样，在 commonSql 中特殊处理
+        break
+      case "不属于分群":
+      case "不属于":
+        newStr = "不属于分群"  // 保持原样，在 commonSql 中特殊处理
+        break
       default:
         break
     }
     return newStr;
   },
 
+  
+  /**
+   * 判断字段类型是否为数值类型
+   * @param {string} fieldType 字段类型
+   * @returns {boolean} 是否为数值类型
+   */
+  isNumericFieldType(fieldType) {
+    if (!fieldType) return false;
+    const numericTypes = [
+      'INT', 'int', 'INTEGER', 'integer',
+      'BIGINT', 'bigint', 
+      'FLOAT', 'float', 'DOUBLE', 'double',
+      'Int8', 'Int16', 'Int32', 'Int64', 
+      'Float32', 'Float64',
+      'UInt8', 'UInt16', 'UInt32', 'UInt64',
+      'DECIMAL', 'decimal', 'NUMERIC', 'numeric'
+    ];
+    return numericTypes.includes(fieldType);
+  },
+
+  /**
+   * 判断字段类型是否为布尔类型
+   * @param {string} fieldType 字段类型
+   * @returns {boolean} 是否为布尔类型
+   */
+  isBooleanFieldType(fieldType) {
+    if (!fieldType) return false;
+    const booleanTypes = [
+      'BOOLEAN', 'boolean', 'BOOL', 'bool',
+      'UInt8', 'TINYINT', 'tinyint'  // ClickHouse 中布尔类型常用 UInt8 表示
+    ];
+    return booleanTypes.includes(fieldType);
+  },
+
+  /**
+   * 判断字段类型是否为时间类型
+   * @param {string} fieldType 字段类型
+   * @returns {boolean} 是否为时间类型
+   */
+  isDateTimeFieldType(fieldType) {
+    if (!fieldType) return false;
+    const dateTimeTypes = [
+      'DATE', 'date',
+      'DATETIME', 'datetime', 'TIMESTAMP', 'timestamp',
+      'DateTime', 'DateTime64',
+      'TIME', 'time'
+    ];
+    return dateTimeTypes.includes(fieldType);
+  },
+
+  /**
+   * 判断字段类型是否为数组类型
+   * @param {string} fieldType 字段类型
+   * @returns {boolean} 是否为数组类型
+   */
+  isArrayFieldType(fieldType) {
+    if (!fieldType) return false;
+    // ClickHouse 数组类型以 Array 开头，如 Array(String), Array(Int32)
+    return fieldType.toUpperCase().startsWith('ARRAY');
+  },
+
+  /**
+   * 判断字段类型是否为字符串类型
+   * @param {string} fieldType 字段类型
+   * @returns {boolean} 是否为字符串类型
+   */
+  isStringFieldType(fieldType) {
+    if (!fieldType) return false;
+    const stringTypes = [
+      'VARCHAR', 'varchar', 'CHAR', 'char',
+      'TEXT', 'text', 'STRING', 'string',
+      'String', 'FixedString', 'LOW_CARDINALITY'
+    ];
+    return stringTypes.includes(fieldType);
+  },
+
+  /**
+   * 获取字段类型的大类（数值、字符串、时间、布尔、数组）
+   * @param {string} fieldType 字段类型
+   * @returns {string} 类型大类：'numeric' | 'string' | 'datetime' | 'boolean' | 'array' | 'unknown'
+   */
+  getFieldCategory(fieldType) {
+    if (!fieldType) return 'unknown';
+    
+    if (this.isNumericFieldType(fieldType)) return 'numeric';
+    if (this.isBooleanFieldType(fieldType)) return 'boolean';
+    if (this.isDateTimeFieldType(fieldType)) return 'datetime';
+    if (this.isArrayFieldType(fieldType)) return 'array';
+    if (this.isStringFieldType(fieldType)) return 'string';
+    
+    return 'unknown';
+  },
+
   /**
    * 中文转符号，生成sql
    * 大于等于转 >=
    */
-  convertOperationSql(fieldName, rule, valueStr) {
+  convertOperationSql(fieldName, rule, valueStr, fieldType = 'VARCHAR') {
     let str = rule
     let tempValueStr = ""
     if (rule === "包含" || rule === "不包含") {
@@ -738,14 +839,27 @@ const Utils = {
 
     let newStr;
     let sql = ""
+    // 判断是否为字符串类型（只有字符串类型才支持 ='' / !=''）
+    const isStringType = this.isStringFieldType(fieldType);
+    
     switch (str) {
       case "为空":
         newStr = " is null "
-        sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
+        // 只有字符串类型才判断空字符串，其他类型（数值、布尔、时间、数组）只判断 IS NULL
+        if (isStringType) {
+          sql = ` (${fieldName} ${newStr} or ${fieldName}='') `
+        } else {
+          sql = ` (${fieldName} ${newStr}) `
+        }
         break
       case "不为空":
         newStr = " is not null "
-        sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
+        // 只有字符串类型才判断不为空字符串，其他类型只判断 IS NOT NULL
+        if (isStringType) {
+          sql = ` (${fieldName} ${newStr} and ${fieldName}!='') `
+        } else {
+          sql = ` (${fieldName} ${newStr}) `
+        }
         break
       case "包含":
         // newStr = " like "
@@ -1575,6 +1689,17 @@ fillHourlyData(projectList, options = {}) {
    * @returns {Object} - { valid: boolean, fieldName: string, message: string }
    */
   validateFieldName(fieldAlias) {
+    // 0. 先检查原始输入是否包含特殊字符（在转拼音之前）
+    if (fieldAlias) {
+      // 检查是否只包含中文、字母、数字、下划线、空格
+      // 如果不包含任何中文字符，且包含特殊字符（除了字母、数字、下划线、空格），则拒绝
+      const hasChinese = /[\u4e00-\u9fa5]/.test(fieldAlias);
+      const hasInvalidChars = /[^\u4e00-\u9fa5a-zA-Z0-9_\s]/.test(fieldAlias);
+      
+      if (!hasChinese && hasInvalidChars) {
+        return { valid: false, fieldName: '', message: '请输入有效的字段名称，只能包含中文、字母、数字、下划线' };
+      }
+    }
     // 1. 先将中文转成拼音
     const fieldName = Utils.pinYinToHump(fieldAlias);
     

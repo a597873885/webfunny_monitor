@@ -86,6 +86,12 @@ const AlarmRule = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'status'
     },
+    // 应用类型 monitor: 前端监控 apm: APM后端监控
+    projectType: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      field: 'projectType'
+    },
     // 最后修改时间
     lastModified: {
       type: DataTypes.DATE,

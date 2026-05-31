@@ -6,7 +6,7 @@ const protoLoader = require('@grpc/proto-loader')
 const path = require('path')
 const log = require('../config/log')
 const fs = require('fs')
-const ApmStorageModel = require('../modules/apmStorage')
+const { ApmStorageModel } = require('../modules/models')
 const SkyWalkingParser = require('../lib/skywalkingParser')
 
 class GrpcServerProtobuf {
@@ -90,9 +90,9 @@ class GrpcServerProtobuf {
 
   /**
    * 启动 gRPC 服务
-   * @param {number} port - gRPC 服务端口，默认 11800
+   * @param {number} port - gRPC 服务端口，默认 9018
    */
-  start(port = 11800) {
+  start(port = 9018) {
     try {
       console.log('正在加载 Protobuf 定义...')
       const proto = this.loadProto()
@@ -150,13 +150,20 @@ class GrpcServerProtobuf {
     try {
       const instanceProps = call.request
       
-      console.log('\n' + '='.repeat(70))
-      console.log('📋 SkyWalking 实例注册')
-      console.log('='.repeat(70))
-      console.log('🏷️  服务信息：')
-      console.log(`  服务名: ${instanceProps.service}`)
-      console.log(`  实例名: ${instanceProps.serviceInstance}`)
-      console.log(`  层级: ${instanceProps.layer || 'N/A'}`)
+      // 从 gRPC 连接中获取客户端 IP（即博客服务器的真实 IP）
+      let serverIp = ''
+      try {
+        const peer = call.getPeer()
+        if (peer) {
+          // peer 格式如：ipv4:192.168.1.100:12345 或 ipv6:[::1]:12345
+          const match = peer.match(/ipv[46]:([^:]+):/)
+          if (match) {
+            serverIp = match[1]
+          }
+        }
+      } catch (e) {
+        console.error('获取 gRPC peer 失败:', e)
+      }
       
       if (instanceProps.properties && instanceProps.properties.length > 0) {
         console.log('\n📝 实例属性：')
@@ -164,7 +171,15 @@ class GrpcServerProtobuf {
           console.log(`  ${prop.key}: ${prop.value}`)
         })
       }
-      console.log('='.repeat(70) + '\n')
+      
+      // 将服务器 IP 添加到 instanceProps 中
+      if (serverIp) {
+        // 添加 IP 到 properties 中，这样 saveServiceInstance 可以提取到
+        if (!instanceProps.properties) {
+          instanceProps.properties = []
+        }
+        instanceProps.properties.push({ key: 'ipv4', value: serverIp })
+      }
       
       // 保存到数据库
       this.apmStorage.saveServiceInstance(instanceProps).catch(err => {
@@ -185,10 +200,7 @@ class GrpcServerProtobuf {
   handleKeepAlive(call, callback) {
     try {
       const ping = call.request
-      console.log(`💓 心跳: ${ping.service} / ${ping.serviceInstance}`)
-      
-      log.printInfo('SkyWalking 心跳: ' + ping.service)
-      
+
       // 更新心跳
       this.apmStorage.updateHeartbeat(ping).catch(err => {
         log.printError('更新心跳失败:', err)
@@ -211,9 +223,8 @@ class GrpcServerProtobuf {
       segments.push(segment)
       this.processSegment(segment)
     })
-    
+
     call.on('end', () => {
-      console.log(`✅ 本次共接收 ${segments.length} 个 Trace Segment\n`)
       callback(null, { commands: [] })
     })
     
@@ -247,9 +258,8 @@ class GrpcServerProtobuf {
       logs.push(logData)
       this.processLog(logData)
     })
-    
+
     call.on('end', () => {
-      console.log(`✅ 本次共接收 ${logs.length} 条日志\n`)
       callback(null, { commands: [] })
     })
     
@@ -277,24 +287,6 @@ class GrpcServerProtobuf {
    * 处理单个日志
    */
   processLog(logData) {
-    console.log('\n' + '='.repeat(70))
-    console.log('📝 SkyWalking 日志')
-    console.log('='.repeat(70))
-    console.log(`  服务: ${logData.service}`)
-    console.log(`  实例: ${logData.serviceInstance}`)
-    console.log(`  端点: ${logData.endpoint || 'N/A'}`)
-    console.log(`  时间: ${new Date(parseInt(logData.timestamp)).toISOString()}`)
-    
-    if (logData.traceContext) {
-      console.log(`  Trace ID: ${logData.traceContext.traceId || 'N/A'}`)
-    }
-    
-    if (logData.body) {
-      console.log(`  内容: ${JSON.stringify(logData.body).substring(0, 200)}`)
-    }
-    
-    console.log('='.repeat(70) + '\n')
-    
     // 保存到数据库
     this.apmStorage.saveLog(logData).catch(err => {
       log.printError('保存日志失败:', err)
@@ -305,33 +297,6 @@ class GrpcServerProtobuf {
    * 处理指标数据
    */
   processMetrics(metricsCollection) {
-    console.log('\n' + '='.repeat(70))
-    console.log('📊 SkyWalking JVM 指标')
-    console.log('='.repeat(70))
-    console.log(`  服务: ${metricsCollection.service}`)
-    console.log(`  实例: ${metricsCollection.serviceInstance}`)
-    console.log(`  指标数量: ${metricsCollection.metrics ? metricsCollection.metrics.length : 0}`)
-    
-    if (metricsCollection.metrics && metricsCollection.metrics.length > 0) {
-      const metric = metricsCollection.metrics[0]
-      console.log(`\n  📈 最新指标:`)
-      console.log(`    时间: ${new Date(parseInt(metric.time)).toISOString()}`)
-      if (metric.cpu) {
-        console.log(`    CPU: ${metric.cpu.usagePercent.toFixed(2)}%`)
-      }
-      if (metric.memory) {
-        metric.memory.forEach(mem => {
-          const type = mem.isHeap ? 'Heap' : 'NonHeap'
-          console.log(`    ${type}: ${(mem.used / 1024 / 1024).toFixed(2)} MB / ${(mem.max / 1024 / 1024).toFixed(2)} MB`)
-        })
-      }
-      if (metric.thread) {
-        console.log(`    线程: ${metric.thread.liveCount} (活跃: ${metric.thread.runnableStateThreadCount})`)
-      }
-    }
-    
-    console.log('='.repeat(70) + '\n')
-    
     // 保存到数据库
     this.apmStorage.saveMetrics(metricsCollection).catch(err => {
       log.printError('保存指标失败:', err)
@@ -349,15 +314,11 @@ class GrpcServerProtobuf {
     const segmentKey = `${parsed.traceId}_${parsed.traceSegmentId}`
     
     if (this.processedSegments.has(segmentKey)) {
-      console.log(`⚠️  重复的 Segment，已跳过: ${segmentKey}`)
       return
     }
-    
+
     // 记录已处理
     this.processedSegments.set(segmentKey, Date.now())
-    
-    // 打印 Segment 基本信息
-    console.log(`📊 Segment 接收: Service=${parsed.service}, Instance=${parsed.serviceInstance}, TraceID=${parsed.traceId.substring(0, 16)}..., Spans=${parsed.spans ? parsed.spans.length : 0}`)
     
     // console.log('\n' + '='.repeat(70))
     // console.log('🔍 SkyWalking Trace Segment')

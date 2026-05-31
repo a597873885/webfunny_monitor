@@ -47,9 +47,9 @@ class GrpcServerProtobuf {
 
   /**
    * 启动 gRPC 服务
-   * @param {number} port - gRPC 服务端口，默认 11800
+   * @param {number} port - gRPC 服务端口，默认 9018
    */
-  start(port = 11800) {
+  start(port = 9018) {
     try {
       console.log('正在加载 Protobuf 定义...')
       const proto = this.loadProto()

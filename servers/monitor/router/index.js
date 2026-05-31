@@ -41,6 +41,8 @@ global.monitorInfo = {
     calculateFlowData: {},
     monitorSecretList: [],
     exportRandomNumber: {},  // 下载时需要用到的随机数
+    // Api 导出抽屉「请求内容」预览：按 userId 滑窗限频（见 controllers/logSearch）
+    getLogListApiExportPreviewRateLimit: {},
     simpleProjectListInMemory: {}, // 内存中存放的简单项目列表
     projectListForProjectCode: "", // 根据项目编码存放的项目列表
     projectCompanyMap: {},

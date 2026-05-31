@@ -8,10 +8,32 @@ const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumenta
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');
 const { resourceFromAttributes } = require('@opentelemetry/resources');
 const api = require('@opentelemetry/api');
-const { AlwaysOnSampler, AlwaysOffSampler, TraceIdRatioBasedSampler, ParentBasedSampler } = require('@opentelemetry/sdk-trace-base');
+const { AlwaysOnSampler } = require('@opentelemetry/sdk-trace-base');
+const os = require('os');
 
 // 存储运行时配置（供其他方法使用）
 let runtimeConfig = null;
+
+/**
+ * 获取本机 IP 地址
+ * @returns {string} 本机 IP 地址
+ */
+function getLocalIpAddress() {
+  try {
+    const interfaces = os.networkInterfaces();
+    for (const name of Object.keys(interfaces)) {
+      for (const iface of interfaces[name]) {
+        // 跳过内部地址和非 IPv4 地址
+        if (iface.family === 'IPv4' && !iface.internal) {
+          return iface.address;
+        }
+      }
+    }
+  } catch (e) {
+    console.error('[OTLP] 获取本机 IP 失败:', e.message);
+  }
+  return '127.0.0.1';
+}
 
 /**
  * 初始化 OpenTelemetry SDK
@@ -29,9 +51,6 @@ let runtimeConfig = null;
  * @param {Object} config.business - 业务方法追踪配置
  * @param {Object} config.performance - 性能阈值配置
  * @param {Object} config.debug - 调试配置
- * @param {Object} config.sampler - 采样器配置
- * @param {string} config.sampler.type - 采样器类型：'alwaysOn' | 'alwaysOff' | 'traceIdRatio' | 'parentBased'
- * @param {number} config.sampler.ratio - 采样率（0-1，仅用于 traceIdRatio 和 parentBased）
  * @returns {NodeSDK|null} SDK 实例
  */
 function initOtel(config = {}) {
@@ -50,7 +69,6 @@ function initOtel(config = {}) {
     business: config.business || { enabled: false },
     performance: config.performance || { slowQueryThreshold: 1000, warnDuration: 500 },
     debug: config.debug || { logSpanCreation: false, logErrors: true },
-    sampler: config.sampler || { type: 'alwaysOn', ratio: 1.0 },
   };
 
   // 存储运行时配置（供其他方法使用）
@@ -62,13 +80,17 @@ function initOtel(config = {}) {
   }
 
   // 配置服务资源信息
+  const localIp = getLocalIpAddress();
   const resource = resourceFromAttributes({
     'service.name': finalConfig.serviceName,
     'service.version': finalConfig.serviceVersion,
     'service.namespace': finalConfig.serviceNamespace,
     'service.instance.id': finalConfig.serviceInstanceId,
     'deployment.environment': finalConfig.deploymentEnvironment,
+    'host.ip': localIp,  // 自动获取服务器 IP
   });
+  
+  console.log(` 服务器 IP: ${localIp}`);
 
   // 配置 OTLP 导出器（连接到 APM 服务器的 gRPC 端口）
   // 注意：gRPC 导出器需要使用 http:// 前缀
@@ -220,42 +242,11 @@ function initOtel(config = {}) {
 
   const instrumentationsConfig = { ...defaultInstrumentations, ...(config.instrumentations || {}) };
 
-  // 配置采样器
-  let sampler;
-  const samplerType = finalConfig.sampler.type || 'alwaysOn';
-  const samplerRatio = finalConfig.sampler.ratio !== undefined ? finalConfig.sampler.ratio : 1.0;
-  
-  switch (samplerType) {
-    case 'alwaysOff':
-      sampler = new AlwaysOffSampler();
-      break;
-    case 'traceIdRatio':
-      // 采样率范围：0.0 - 1.0
-      const ratio = Math.max(0, Math.min(1, samplerRatio));
-      sampler = new TraceIdRatioBasedSampler(ratio);
-      break;
-    case 'parentBased':
-      // 基于父 Span 的采样器，如果父 Span 已采样则采样，否则根据 ratio 决定
-      const parentRatio = Math.max(0, Math.min(1, samplerRatio));
-      sampler = new ParentBasedSampler({
-        root: new TraceIdRatioBasedSampler(parentRatio),
-        remoteParentSampled: new AlwaysOnSampler(),
-        remoteParentNotSampled: new AlwaysOffSampler(),
-        localParentSampled: new AlwaysOnSampler(),
-        localParentNotSampled: new AlwaysOffSampler(),
-      });
-      break;
-    case 'alwaysOn':
-    default:
-      sampler = new AlwaysOnSampler();
-      break;
-  }
-
   // 创建 SDK 实例
   const sdk = new NodeSDK({
     resource,
     traceExporter,
-    sampler,
+    sampler: new AlwaysOnSampler(),  // 所有请求都采样
     instrumentations: [
       getNodeAutoInstrumentations(instrumentationsConfig),
     ],
@@ -267,26 +258,7 @@ function initOtel(config = {}) {
   console.log(`📡 服务名称: ${finalConfig.serviceName}`);
   console.log(`📡 实例 ID: ${finalConfig.serviceInstanceId}`);
   console.log(`📡 导出器地址: ${finalConfig.exporterEndpoint}`);
-  
-  // 打印采样器信息
-  let samplerInfo = '';
-  switch (samplerType) {
-    case 'alwaysOff':
-      samplerInfo = 'AlwaysOff (不采样)';
-      break;
-    case 'traceIdRatio':
-      samplerInfo = `TraceIdRatio (采样率: ${(samplerRatio * 100).toFixed(1)}%)`;
-      break;
-    case 'parentBased':
-      samplerInfo = `ParentBased (采样率: ${(samplerRatio * 100).toFixed(1)}%)`;
-      break;
-    case 'alwaysOn':
-    default:
-      samplerInfo = 'AlwaysOn (100% 采样)';
-      break;
-  }
-  console.log(`🎯 采样器: ${samplerInfo}`);
-  console.log(`🎯 采样器配置: type=${samplerType}, ratio=${samplerRatio}`);
+  console.log('🎯 采样器: AlwaysOn (所有请求都被采样)');
 
   // 处理进程退出
   process.on('SIGTERM', () => {

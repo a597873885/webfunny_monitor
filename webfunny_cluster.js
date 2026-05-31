@@ -144,6 +144,9 @@ grpcServerManager.startOTEL().then(otelServer => {
   console.error('❌ OTEL gRPC 服务启动失败:', err)
 })
 
+// 启动 SkyWalking gRPC 服务
+grpcServerManager.startSkyWalking()
+
 /**
  * 优雅退出：关闭所有服务器连接
  */
@@ -161,6 +164,10 @@ const gracefulShutdown = async (signal) => {
     if (grpcServerManager && grpcServerManager.otelGrpcServer) {
       await grpcServerManager.otelGrpcServer.stop()
       console.log('✅ OTEL gRPC 服务已关闭')
+    }
+    if (grpcServerManager && grpcServerManager.skywalkingGrpcServer) {
+      grpcServerManager.skywalkingGrpcServer.stop()
+      console.log('✅ SkyWalking gRPC 服务已关闭')
     }
     
     // 2. 关闭静态文件服务器

@@ -9,9 +9,31 @@ const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc')
 const { resourceFromAttributes } = require('@opentelemetry/resources');
 const api = require('@opentelemetry/api');
 const { AlwaysOnSampler } = require('@opentelemetry/sdk-trace-base');
+const os = require('os');
 
 // 存储运行时配置（供其他方法使用）
 let runtimeConfig = null;
+
+/**
+ * 获取本机 IP 地址
+ * @returns {string} 本机 IP 地址
+ */
+function getLocalIpAddress() {
+  try {
+    const interfaces = os.networkInterfaces();
+    for (const name of Object.keys(interfaces)) {
+      for (const iface of interfaces[name]) {
+        // 跳过内部地址和非 IPv4 地址
+        if (iface.family === 'IPv4' && !iface.internal) {
+          return iface.address;
+        }
+      }
+    }
+  } catch (e) {
+    console.error('[OTLP] 获取本机 IP 失败:', e.message);
+  }
+  return '127.0.0.1';
+}
 
 /**
  * 初始化 OpenTelemetry SDK
@@ -21,7 +43,7 @@ let runtimeConfig = null;
  * @param {string} config.serviceInstanceId - 服务实例 ID
  * @param {string} config.serviceNamespace - 服务命名空间
  * @param {string} config.deploymentEnvironment - 部署环境
- * @param {string} config.exporterEndpoint - OTLP 导出器地址（如 localhost:9013
+ * @param {string} config.exporterEndpoint - OTLP 导出器地址（如 localhost:4317）
  * @param {boolean} config.enabled - 是否启用追踪
  * @param {Array} config.ignoreUrls - 忽略追踪的 URL 列表
  * @param {Array} config.ignoreOutgoingUrls - 忽略的出站请求 URL 列表
@@ -39,7 +61,7 @@ function initOtel(config = {}) {
     serviceInstanceId: config.serviceInstanceId || `instance-${Date.now()}`,
     serviceNamespace: config.serviceNamespace || 'default',
     deploymentEnvironment: config.deploymentEnvironment || 'production',
-    exporterEndpoint: config.exporterEndpoint || 'localhost:9013',
+    exporterEndpoint: config.exporterEndpoint || 'localhost:4317',
     enabled: config.enabled !== undefined ? config.enabled : false,
     ignoreUrls: config.ignoreUrls || ['/health', '/ping'],
     ignoreOutgoingUrls: config.ignoreOutgoingUrls || [],
@@ -58,13 +80,17 @@ function initOtel(config = {}) {
   }
 
   // 配置服务资源信息
+  const localIp = getLocalIpAddress();
   const resource = resourceFromAttributes({
     'service.name': finalConfig.serviceName,
     'service.version': finalConfig.serviceVersion,
     'service.namespace': finalConfig.serviceNamespace,
     'service.instance.id': finalConfig.serviceInstanceId,
     'deployment.environment': finalConfig.deploymentEnvironment,
+    'host.ip': localIp,  // 自动获取服务器 IP
   });
+  
+  console.log(` 服务器 IP: ${localIp}`);
 
   // 配置 OTLP 导出器（连接到 APM 服务器的 gRPC 端口）
   // 注意：gRPC 导出器需要使用 http:// 前缀

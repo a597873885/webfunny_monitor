@@ -6,7 +6,8 @@ module.exports = [
     "/checkSsoToken", "/loginForApi", "/registerForApi", "/createNewTeamForApi", "/createNewProjectForApi",
     "/projectSimpleListByWebmonitorIds", "/addViewers", "/otel/trace", "/project/list/all", "/getAllProjectWithCompanyId",
     "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource", "/wfMonitor/getLogCountInfoByDay",
-    , "/wfMonitor/checkAlarmResult", "/uploadSourceMap", "/wfMonitor/getProjectCountByCompanyId", "/wfMonitor/topology/getFrontendApps",
+    "/wfMonitor/checkAlarmResult", "/uploadSourceMap", "/wfMonitor/getProjectCountByCompanyId", "/wfMonitor/topology/getFrontendApps",
+    "exportHttpTop10CostList", "exportHttpRequestDetailList", "exportAllProjectHttpAvgCostList", "exportPageLoadTop10List", "exportPageLoadDetailList", "exportLogList", "exportBehaviorList",
     
     // center
     // "/getUserInfo", 
@@ -31,6 +32,10 @@ module.exports = [
     "/buryPointWarehouse/downloadTemplate",
     "/buryPointWarehouse/downFileByName",
     "/buryPointTemplate/download",
+    "/buryPointSegmentRule/downloadTemplate",
+    "/buryPointUserField/downloadTemplate",
+    "/buryPointUserField/downFileByName",
+    "/buryPointSegmentRule/downloadUsers",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",
@@ -39,7 +44,7 @@ module.exports = [
     "/wfFile/api/sourceMapFile/upload", "/wfFile/api/sourceMapFile",
 
     // apm
-    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo", "/wfApm/getProjectCountByCompanyId",
+    "/wfApm/downloadTracerFile", "/wfApm/getLogCountInfoByDay", "/wfApm/apmBaseInfo", "/wfApm/getProjectCountByCompanyId", "/project/list/all",
 
     // walkingfunny 过滤登录校验
     "/walkingfunnyWithoutLogin/",

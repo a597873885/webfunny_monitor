@@ -112,7 +112,15 @@ const ALARM_INDEX_ENUM = {
     resourceErrorCount: "静态资源错误量",
     resourceErrorPer: "静态资源错误率",
     httpErrorCount: "接口错误量",
-    httpErrorPer: "接口错误率"
+    httpErrorPer: "接口错误率",
+    // APM 后端监控指标
+    apmTotalRequests: "总请求量",
+    apmAvgResponseTime: "平均响应时间",
+    apmP99ResponseTime: "P99响应时间",
+    apmP95ResponseTime: "P95响应时间",
+    apmErrorRate: "错误率",
+    apmSlowCallCount: "慢调用数量",
+    apmSlowSqlCount: "慢SQL数量"
 }
 
 global.MONITOR_PUBLISH_PREFIX = "/wfMonitor"
@@ -137,8 +145,11 @@ const PROJECT_API = {
     GET_EVENT_PROJECT_PV_UV_FOR_LOCAL: `${global.EVENT_PUBLISH_PREFIX}/thirdParty/getProjectPVAndUVForLocal`,
 
     APM_BASE_INFO: `${global.APM_PUBLISH_PREFIX}/apmBaseInfo`,
+    GET_APM_PROJECT_LIST_ALL: `${global.APM_PUBLISH_PREFIX}/project/list/all`,
     GET_APM_PROJECT_COUNT_BY_COMPANY_ID: `${global.APM_PUBLISH_PREFIX}/getProjectCountByCompanyId`,
     GET_APM_LOG_COUNT_INFO_BY_DAY: `${global.APM_PUBLISH_PREFIX}/getLogCountInfoByDay`,
+    APM_CHECK_ALARM_RESULT: `${global.APM_PUBLISH_PREFIX}/alarm/checkAlarmResult`,
+
 
     SAAS_PRODUCT_INFO: "/webfunny_manage/api/productInfo/get",
 }

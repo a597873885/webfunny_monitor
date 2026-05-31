@@ -2,9 +2,8 @@ const grpc = require('@grpc/grpc-js');
 const protoLoader = require('@grpc/proto-loader');
 const path = require('path');
 const { CommonUpLog } = require('../controllers/controllers');
-
 class OtlpGrpcServer {
-  constructor(port = 9013) {
+  constructor(port = 4317) {
     this.port = port;
     this.server = null;
     
@@ -118,8 +117,6 @@ class OtlpGrpcServer {
               return;
             }
 
-            // 已移除 this.server.start() - 新版本 @grpc/grpc-js 会自动启动
-            console.log(`✅ [OTLP] gRPC 服务已启动，监听端口: ${port}`);
             resolve();
           }
         );

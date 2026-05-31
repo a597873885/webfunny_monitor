@@ -50,6 +50,8 @@ const accountInfo = {
     printConsole: otherConfig.printConsole,  // 是否打印console
 
     signature: otherConfig.signature,
+
+    openExportFlag: otherConfig.openExportFlag, // 是否开启数据导出验证：false-不开启，true-开启
 }
 
 module.exports = {

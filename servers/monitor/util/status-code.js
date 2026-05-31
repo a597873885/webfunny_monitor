@@ -32,7 +32,13 @@ const statusCode = {
             msg
         }
     },
-
+    //请求过频，冷却期未到
+    ERROR_429: (msg) => {
+        return {
+            code: 429,
+            msg
+        }
+    },
     ERROR_413: (msg) => {
         return {
             code: 413,
