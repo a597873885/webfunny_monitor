@@ -359,7 +359,7 @@ const Utils = {
     try {
       finalRes = JSON.parse(dataStr)
     } catch(e) {
-      log.printError("上报日志转JSON报错",e)
+      log.printError(e)
       finalRes = dataStr
     }
     return finalRes
@@ -424,6 +424,7 @@ const Utils = {
       startTime.setMilliseconds(startTime.getMilliseconds() + gap);
       temp[i] = new Date(startTime.getTime());
       temp[i] = temp[i].Format('hh:mm') //分割小时
+      // console.log(temp[i].format('hh:mm'))
     }
     return temp;
   },
@@ -444,17 +445,18 @@ const Utils = {
       startTime.setMilliseconds(startTime.getMilliseconds() + 24 * 60 * 60 * 1000);
       temp[i] = new Date(startTime.getTime());
       temp[i] = temp[i].Format("MM-dd")  //分割天
+      // console.log(temp[i].format('hh:mm'))
     }
     return temp;
   },
 
-  /**
+   /**
    * 时间按照每天每隔切分，返回时间倒序list
    * 开始时间：startDate
    * 结束时间：endDate
    * 分钟：amount
    */
-  splitDescDate(startDate, endDate) {
+   splitDescDate(startDate, endDate) {
     var endTime= new Date(startDate),
     startTime = new Date(endDate);
     var difftime = (startTime - endTime)/1000; //计算时间差,并把毫秒转换成秒
@@ -465,6 +467,7 @@ const Utils = {
       startTime.setMilliseconds(startTime.getMilliseconds() - 24 * 60 * 60 * 1000);
       temp[i] = new Date(startTime.getTime());
       temp[i] = temp[i].Format("MM-dd")  //分割天
+      // console.log(temp[i].format('hh:mm'))
     }
     return temp;
   },
@@ -518,21 +521,17 @@ const Utils = {
       case "归类":
         newStr = "group by"
       break
-      case "模糊匹配":
-        newStr = "like"
-      break
       default:
         break
     }
     return newStr;
   },
-
-  /**
+ /**
    * 中文转符号，生成sql
    * 大于等于转 >=
    */
-  convertOperationSql(fieldName, rule, valueStr) {
-    let str = rule
+ convertOperationSql(fieldName, rule, valueStr) {
+  let str = rule
     let tempValueStr = ""
     if (rule === "包含" || rule === "不包含" ) {
       let valArray = valueStr.split(",")
@@ -613,7 +612,7 @@ const Utils = {
         break
     }
     return sql
-  },
+},
 
   /**
    * 字段类型转换
@@ -641,33 +640,6 @@ const Utils = {
   },
 
    /**
-   * 字段类型转换
-   * String , Number
-   */
-  convertFieldTypeToChinese(str) {
-    let newStr;
-    switch(str) {
-      case "VARCHAR":
-      case "varchar":
-        newStr = "文本"
-        break
-      case "INT":
-      case "int":
-      case "BIGINT":
-      case "bigint":
-        newStr = "整数"
-        break
-      case "FLOAT":
-      case "float":
-        newStr = "小数"
-        break
-      default:
-        break
-    }
-    return newStr;
-  },
-
-   /**
    * 且或转换
    * String , Number
    */
@@ -687,25 +659,12 @@ const Utils = {
     return newStr;
   },
   checkFieldNameValid(fieldName){
-    // let goOnFlag = true;
-   //通用字段：id,weFirstStepDay,weHapppenHour,weHapppenMinute,weCustomerKey,weUserId,weSysVersion,weCity,weCountry,weSimpleUrl,weBrowser,weOs,weDeviceSize,createdAt
-   //通用字段：id,weCustomerKey,weUserId,weSimpleUrl,createdAt
-   //weFirstStepDay_1,weFirstStepDay_2,weFirstStepDay_3,weFirstStepDay_4,
-   //weFirstStepDay_5,weFirstStepDay_6,weFirstStepDay_7,weFirstStepDay_8,
-   //weFirstStepDay_9,weFirstStepDay_10
-    const fieldParams = ["id","wefirststepday","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
+    const fieldParams = ["id","wefirststepday_1","wefirststepday_2","wefirststepday_3","wefirststepday_4",
     "wefirstStepday_5","wefirststepday_6","wefirstStepday_7","wefirststepday_8","wefirstStepday_9","wefirststepday_10",
-    "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince",
-    "wecity", "wehappenhour", "wehappenminute","createdat"]
+    "wecustomerkey","weuserid","weip","weos","wepath","wedevicename","weplatform","wesystem","webrowsername","wenewstatus","wecountry","weprovince","wecity","createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     //存在一样的返回false
     return fieldParams.indexOf(fieldNameConvert)===-1;
-    // fieldParams.forEach((item) => {
-    //     if (fieldNameConvert === item) {
-    //         goOnFlag = false
-    //     }
-    // })
-    // return goOnFlag;
   },
 
   /**
@@ -844,11 +803,10 @@ const Utils = {
       return arr.indexOf(v) === arr.lastIndexOf(v);
     })
   },
-
-  /**
+   /**
    * 通过webfunny系统发送邮件
    */
-  sendWfEmail: (email, title, content) => {
+   sendWfEmail: (email, title, content) => {
     fetch("http://www.webfunny.cn/config/sendEmail",
       {
         method: "POST", 

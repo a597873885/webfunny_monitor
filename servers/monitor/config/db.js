@@ -14,6 +14,7 @@ const replication = {
   read: readArray,
   write: { host: write.ip, port: write.port, username: write.userName, password: write.password }
 }
+
 const configList = {
   host: write.ip,
   port: write.port,

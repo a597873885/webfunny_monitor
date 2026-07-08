@@ -111,6 +111,7 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
                         monitorMasterUuidInDb = uuidRes[0].configValue
                     }
                 })
+                
                 if (monitorMasterUuidInDb === global.monitorInfo.monitorMasterUuid) {
                     // 检查警报规则是否出发
                     AlarmController.checkAlarm(hourTimeStr, minuteTimeStr)
