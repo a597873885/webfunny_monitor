@@ -230,12 +230,20 @@ class NodeClickhouse extends WebfunnyClickHouse {
     let sql = `CREATE TABLE IF NOT EXISTS ${tableName} (\n  ${columns.join(',\n  ')}\n)\n`
     sql += Columns.engine + '\n'
     
-    if (Columns.partition) {
-      sql += `${Columns.partition}\n`
+   if (Columns.partition) {
+      // 检查 partition 是否已经包含 PARTITION BY，避免重复
+      const partitionSql = Columns.partition.toUpperCase().includes('PARTITION BY') 
+        ? Columns.partition 
+        : `PARTITION BY ${Columns.partition}`
+      sql += `${partitionSql}\n`
     }
     
     if (Columns.orderBy) {
-      sql += `${Columns.orderBy}\n`
+      // 检查 orderBy 是否已经包含 ORDER BY，避免重复
+      const orderBySql = Columns.orderBy.toUpperCase().includes('ORDER BY') 
+        ? Columns.orderBy 
+        : `ORDER BY ${Columns.orderBy}`
+      sql += `${orderBySql}\n`
     } else if (Columns.order) {
       sql += `ORDER BY ${Columns.order}\n`
     }

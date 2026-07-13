@@ -15,6 +15,20 @@ const timeout = 300000
 const IP2Region = require('ip2region').default;
 // 创建 IP2Region 实例（支持 IPv4 和 IPv6）
 const ip2regionQuery = new IP2Region();
+const provinces = require('../config/province');
+// 国家名称 → 代码映射
+const COUNTRY_NAME_TO_ID = {
+  '中国': 'CN', '美国': 'US', '日本': 'JP', '韩国': 'KR',
+  '英国': 'GB', '法国': 'FR', '德国': 'DE', '俄罗斯': 'RU',
+  '澳大利亚': 'AU', '加拿大': 'CA', '印度': 'IN', '巴西': 'BR',
+  '新加坡': 'SG', '马来西亚': 'MY', '泰国': 'TH', '越南': 'VN',
+  '印度尼西亚': 'ID', '菲律宾': 'PH'
+};
+// 省份代码 → 名称 逆映射（去除"省""市"后缀后匹配原始短名称）
+const REVERSE_PROVINCE = {};
+for (const [code, name] of Object.entries(provinces)) {
+  REVERSE_PROVINCE[name] = code;
+}
 const Utils = {
   isArray(object) {
     return Object.prototype.toString.call(object) === "[object Array]"
@@ -515,45 +529,36 @@ const Utils = {
 
       case 'week':
         // 按周切分，返回每周周一的日期，格式为yyyy-MM-dd
-        // 匹配 ClickHouse 的 addDays(toStartOfWeek(happenTime), 1) 逻辑
-        // toStartOfWeek 返回本周的周日，addDays(..., 1) 加1天得到下周一
+        // 匹配 ClickHouse 的 toStartOfWeek(happenTime, 1) 逻辑
+        // mode=1：周一作为一周的第一天（ISO 标准，符合中国习惯）
         
-        // 1. 计算开始日期所在周的周日（toStartOfWeek）
-        var startWeekSunday = new Date(startTime);
-        startWeekSunday.setHours(0, 0, 0, 0);
-        var startDayOfWeek = startWeekSunday.getDay(); // 0=周日, 1=周一, ..., 6=周六
-        // 调整到本周日：如果当前是周日，不变；否则减去对应的天数回到本周日
-        if (startDayOfWeek !== 0) {
-          startWeekSunday.setDate(startWeekSunday.getDate() - startDayOfWeek);
+        // 1. 计算开始日期所在周的周一（toStartOfWeek with mode=1）
+        var startWeekMonday = new Date(startTime);
+        startWeekMonday.setHours(0, 0, 0, 0);
+        var startDayOfWeek = startWeekMonday.getDay(); // 0=周日, 1=周一, ..., 6=周六
+        // 调整到本周一：如果当前是周日，减去6天；否则减去 (dayOfWeek - 1) 天
+        if (startDayOfWeek === 0) {
+          startWeekMonday.setDate(startWeekMonday.getDate() - 6);
+        } else if (startDayOfWeek !== 1) {
+          startWeekMonday.setDate(startWeekMonday.getDate() - (startDayOfWeek - 1));
         }
         
-        // 2. 加1天得到下周一（addDays(..., 1)）
-        var firstMonday = new Date(startWeekSunday);
-        firstMonday.setDate(firstMonday.getDate() + 1);
-        
-        // 3. 如果这个周一在开始日期之前或等于开始日期，则从下一个周一开始
-        if (firstMonday <= startTime) {
-          firstMonday.setDate(firstMonday.getDate() + 7);
+        // 2. 计算结束日期所在周的周一（toStartOfWeek with mode=1）
+        var endWeekMonday = new Date(endTime);
+        endWeekMonday.setHours(0, 0, 0, 0);
+        var endDayOfWeek = endWeekMonday.getDay();
+        // 调整到本周一
+        if (endDayOfWeek === 0) {
+          endWeekMonday.setDate(endWeekMonday.getDate() - 6);
+        } else if (endDayOfWeek !== 1) {
+          endWeekMonday.setDate(endWeekMonday.getDate() - (endDayOfWeek - 1));
         }
         
-        // 4. 计算结束日期所在周的周日（toStartOfWeek）
-        var endWeekSunday = new Date(endTime);
-        endWeekSunday.setHours(0, 0, 0, 0);
-        var endDayOfWeek = endWeekSunday.getDay();
-        // 调整到本周日
-        if (endDayOfWeek !== 0) {
-          endWeekSunday.setDate(endWeekSunday.getDate() - endDayOfWeek);
-        }
-        
-        // 5. 加1天得到下周一（addDays(..., 1)）
-        var lastMonday = new Date(endWeekSunday);
-        lastMonday.setDate(lastMonday.getDate() + 1);
-        
-        // 6. 从 firstMonday 开始，每周加7天，直到包含 lastMonday
-        var weekDate = new Date(firstMonday);
-        var lastMondayStr = lastMonday.getFullYear() + '-' + 
-          String(lastMonday.getMonth() + 1).padStart(2, '0') + '-' + 
-          String(lastMonday.getDate()).padStart(2, '0');
+        // 3. 从 startWeekMonday 开始，每周加7天，直到包含 endWeekMonday
+        var weekDate = new Date(startWeekMonday);
+        var endMondayStr = endWeekMonday.getFullYear() + '-' + 
+          String(endWeekMonday.getMonth() + 1).padStart(2, '0') + '-' + 
+          String(endWeekMonday.getDate()).padStart(2, '0');
         
         while (true) {
           var year = weekDate.getFullYear();
@@ -563,8 +568,8 @@ const Utils = {
           
           temp.push(weekDateStr);
           
-          // 如果当前已经是 lastMonday 或之后，则退出循环
-          if (weekDateStr >= lastMondayStr) {
+          // 如果当前已经是 endWeekMonday 或之后，则退出循环
+          if (weekDateStr >= endMondayStr) {
             break;
           }
           
@@ -1016,6 +1021,42 @@ const Utils = {
       "wecustomerkey", "weuserid", "weip", "weos", "wepath", "wedevicename", "weplatform", "wesystem", "webrowsername", "wenewstatus", "wecountry", "weprovince", "wecity", "createdat"]
     const fieldNameConvert = fieldName.toString().toLowerCase()
     return fieldParams.indexOf(fieldNameConvert) !== -1;
+  },
+
+  /**
+   * 检查是否为 ClickHouse 保留关键词
+   * ClickHouse SQL 保留关键词不能用作字段名，否则建表时会报语法错误
+   */
+  checkIsClickHouseKeyword(fieldName) {
+    // ClickHouse 常用保留关键词（不区分大小写）
+    const clickhouseKeywords = [
+      // DDL 关键词
+      'add', 'after', 'alias', 'all', 'alter', 'and', 'anti', 'any', 'as', 'asc', 'ascending', 'ast',
+      'attach', 'before', 'between', 'both', 'by',
+      'case', 'cast', 'check', 'clear', 'cluster', 'codec', 'collate', 'column', 'columns', 'comment', 'constraint', 'create', 'cross', 'current',
+      'database', 'databases', 'deduplicate', 'default', 'delay', 'delete', 'describe', 'desc', 'descending', 'detach', 'dict', 'dictionary', 'disk', 'distinct', 'drop',
+      'each', 'else', 'end', 'engine', 'events', 'exists', 'explain',
+      'fetches', 'final', 'first', 'flush', 'for', 'format', 'from', 'full', 'function',
+      'global', 'grant', 'group',
+      'having', 'hierarchical', 'host',
+      'id', 'if', 'ilike', 'in', 'index', 'inner', 'insert', 'interval', 'into', 'is',
+      'join',
+      'key', 'kill',
+      'layout', 'leading', 'left', 'lifetime', 'like', 'limit', 'live', 'local',
+      'materialized', 'max', 'merges', 'min', 'modify', 'move', 'mutation',
+      'no', 'not', 'null', 'nullable',
+      'offset', 'on', 'optimize', 'or', 'order', 'outer', 'out', 'over',
+      'partition', 'populates', 'prewhere', 'primary', 'processlist', 'projection',
+      'range', 'reload', 'rename', 'replace', 'replica', 'replicated', 'right', 'rollup', 'row', 'rows',
+      'sample', 'select', 'semi', 'set', 'settings', 'show', 'signed', 'source', 'start', 'stop', 'substring', 'sync', 'syntax', 'system',
+      'table', 'tables', 'temporary', 'test', 'then', 'throw', 'tie', 'timeout', 'timestamp', 'to', 'top', 'total', 'trailing', 'trim', 'truncate', 'ttl', 'type',
+      'union', 'update', 'use', 'using', 'uuid',
+      'values', 'view',
+      'watch', 'when', 'where', 'with', 'writes'
+    ];
+    
+    const fieldNameLower = fieldName.toString().toLowerCase();
+    return clickhouseKeywords.includes(fieldNameLower);
   },
 
   /**
@@ -1723,7 +1764,12 @@ fillHourlyData(projectList, options = {}) {
       return { valid: false, fieldName, message: '字段名称不能为纯数字' };
     }
     
-    // 6. 检查是否为系统保留字段
+    // 6. 检查是否为 ClickHouse 保留关键词
+    if (Utils.checkIsClickHouseKeyword(fieldName)) {
+      return { valid: false, fieldName, message: '该字段名称为数据库保留关键词，请更换' };
+    }
+    
+    // 7. 检查是否为系统保留字段
     if (!Utils.checkFieldNameValid(fieldName)) {
       return { valid: false, fieldName, message: '该字段名称为系统保留字段，请更换' };
     }
@@ -1753,7 +1799,12 @@ fillHourlyData(projectList, options = {}) {
       country: "未知",
       province: "未知",
       city: "未知",
-      operators: "未知"
+      county: "未知",
+      operators: "未知",
+      countryId: "",
+      provinceId: "",
+      cityId: "",
+      countyId: ""
     }
     if (!eventIp) return ipInfo;
     
@@ -1766,14 +1817,28 @@ fillHourlyData(projectList, options = {}) {
     }
     
     try {
-      // 使用 ip2region v2 进行查询（支持 IPv4 和 IPv6）
-      const res = ip2regionQuery.search(eventIp)
+      // 使用 ip2region v2 的 searchRaw 获取完整数据（含城市ID）
+      const res = ip2regionQuery.searchRaw(eventIp)
       if (res) {
-        // 新版返回格式: { country: '中国', province: '广东省', city: '深圳市', isp: '阿里云' }
+        // searchRaw 返回: { id, country, region, province, city, isp }
         ipInfo.country = res.country || "未知"
         ipInfo.province = res.province || "未知"
         ipInfo.city = res.city || "未知"
+        ipInfo.county = res.region || "未知"
         ipInfo.operators = res.isp || "未知"
+        // 城市ID（数据库中的 uint32，转为字符串）
+        if (res.id !== undefined && res.id !== null && res.id !== 0) {
+          ipInfo.cityId = String(res.id)
+        }
+        // 国家ID：名称 → 代码映射
+        if (ipInfo.country && ipInfo.country !== '未知') {
+          ipInfo.countryId = COUNTRY_NAME_TO_ID[ipInfo.country] || ''
+        }
+        // 省份ID：去除"省""市""自治区"后缀后匹配逆映射表
+        if (ipInfo.province && ipInfo.province !== '未知') {
+          const shortName = ipInfo.province.replace(/(省|市|自治区|特别行政区|壮族自治区|维吾尔自治区|回族自治区)$/, '')
+          ipInfo.provinceId = REVERSE_PROVINCE[shortName] || ''
+        }
         
         // 如果解析结果为空字符串，标记为未知
         if (ipInfo.province === "" || ipInfo.province === "0") {
@@ -1781,6 +1846,9 @@ fillHourlyData(projectList, options = {}) {
         }
         if (ipInfo.city === "" || ipInfo.city === "0") {
           ipInfo.city = "未知"
+        }
+        if (ipInfo.county === "" || ipInfo.county === "0") {
+          ipInfo.county = "未知"
         }
         if (ipInfo.operators === "" || ipInfo.operators === "0") {
           ipInfo.operators = "未知"
@@ -1794,6 +1862,41 @@ fillHourlyData(projectList, options = {}) {
       }
     }
     return ipInfo
+  },
+  /**
+   * ClickHouse SQL 字符串转义：转义单引号和反斜杠，防止 SQL 注入
+   * @param {string} str - 需要转义的字符串
+   * @returns {string} 转义后的字符串
+   */
+  escapeClickHouseString(str) {
+    if (str === undefined || str === null) return '';
+    return String(str).replace(/\\/g, '\\\\').replace(/'/g, "''");
+  },
+  /**
+   * 递归标准化 calcRule 中的时间字段：startTime/endTime 只保留日期部分 YYYY-MM-DD
+   * @param {Object|Array} obj - calcRule 对象或数组
+   * @returns {Object|Array} 处理后的对象
+   */
+  normalizeCalcRuleTime(obj) {
+    if (!obj || typeof obj !== 'object') return obj;
+    if (Array.isArray(obj)) {
+      obj.forEach(item => Utils.normalizeCalcRuleTime(item));
+      return obj;
+    }
+    // 标准化 startTime 和 endTime
+    if (obj.startTime && typeof obj.startTime === 'string') {
+      obj.startTime = obj.startTime.substring(0, 10);
+    }
+    if (obj.endTime && typeof obj.endTime === 'string') {
+      obj.endTime = obj.endTime.substring(0, 10);
+    }
+    // 递归处理子对象
+    for (const key of Object.keys(obj)) {
+      if (typeof obj[key] === 'object' && obj[key] !== null) {
+        Utils.normalizeCalcRuleTime(obj[key]);
+      }
+    }
+    return obj;
   },
 }
 

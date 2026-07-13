@@ -1,5 +1,5 @@
 require("colors")
-const { UserController, CommonTableController, AlarmListController, TimerCalculateController, ApplicationConfigController, ReportGeneratorServiceController } = require("../controllers/controllers.js")
+const { UserController, CommonTableController, AlarmListController, TimerCalculateController, ApplicationConfigController, ReportGeneratorServiceController, ConfigController } = require("../controllers/controllers.js")
 const Utils = require('../util/utils');
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo } = AccountConfig;
@@ -112,6 +112,11 @@ module.exports = async () => {
                                 log.info('Report send service send successfully');
                         }
                     }
+                }
+
+                // 每1分钟执行一次
+                if (minuteTimeStr.substring(3) == "15") {
+                    await ConfigController.refreshSelfReportLog()
                 }
 
                 if (hourTimeStr == "00:00:01") {

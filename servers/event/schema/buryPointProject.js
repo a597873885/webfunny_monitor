@@ -93,6 +93,13 @@ const Columns = {
       allowNull: true,
       field: 'flowSwitch'
     },
+    //计算ID：默认weCustomerKey，也可以是weUserId等
+    //"calculateId":"weCustomerKey"
+    calculateId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'calculateId'
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING,

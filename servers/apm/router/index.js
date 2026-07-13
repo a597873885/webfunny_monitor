@@ -19,6 +19,8 @@ global.apmInfo = {
     userIdArray: [],
     logServerStatus: true, // 日志服务状态
     cacheWebMonitorIdList: [], // 开启上报服务的项目列表
+    validWebMonitorIdSet: new Set(), // 有效项目ID集合，用于O(1)校验
+    warnedInvalidProjectIds: new Set(), // 已告警过的无效项目ID，避免日志刷屏
     logCountInMinute: 0, // 每分钟的日志量
     logCountInMinuteList: [], // 每分钟日志量数组
     projectLogCountList: {}, // 每个项目当天的日志总量

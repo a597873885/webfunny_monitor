@@ -1,6 +1,6 @@
 {
   "name": "webfunny_monitor_cluster",
-  "version": "0.0.1",
+  "version": "2.0",
   "description": "这是webfunny_cluster的安装包",
   "main": "app.js",
   "scripts": {

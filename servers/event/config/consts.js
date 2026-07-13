@@ -30,6 +30,7 @@ const MANAGE_API = {
 const CENTER_API = {
     GET_USER_INFO: "/wfCenter/getUserInfo",
     CREATE_FLOW_DATA: "/wfCenter/createFlowData",
+    CREATE_NOTIFICATION_MESSAGE: "/wfCenter/notification/createMessage",
 }
 
 // 流量数据类型

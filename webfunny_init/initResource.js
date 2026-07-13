@@ -142,7 +142,7 @@ function handleSsoFile() {
 }
 
 
-var pathList = ["wf_center", "wf_monitor", "wf_apm", "wf_event", "wf_logger", "wf_file"]
+var pathList = ["wf_center", "wf_monitor", "wf_apm", "wf_event", "wf_logger", "wf_file", "wf_assets"]
 
 var originPath = path.resolve(__dirname, '..')
 
