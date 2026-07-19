@@ -371,6 +371,75 @@ class NodeClickhouse extends WebfunnyClickHouse {
   }
   
   /**
+   * 执行动态生成的建表 SQL（支持集群模式）
+   * 用于非 schema 驱动的动态建表场景（如点位日志表、用户表、分群结果表等）
+   * @param {string} rawSql - 原始建表 SQL
+   * @param {string} tableName - 表名（用于生成 ZooKeeper 路径）
+   * @returns {Promise}
+   */
+  async executeCreateTableSql(rawSql, tableName) {
+    // 检测是否为集群模式
+    const isCluster = this.client && this.client.isCluster
+    
+    if (!isCluster) {
+      // 单节点模式：直接执行
+      return await this.execSql(rawSql)
+    }
+    
+    
+    const clusterManager = this.client._clusterManager
+    if (!clusterManager) {
+      console.warn('[NodeClickhouse] ⚠️ 集群管理器不存在，降级为单节点模式')
+      return await this.execSql(rawSql)
+    }
+    
+    // 提取 SQL 中的引擎定义并转换为集群版
+    // 匹配格式: ENGINE MergeTree() 或 ENGINE = MergeTree() 或 ENGINE ReplacingMergeTree(updatedAt) 等
+    let finalSql = rawSql
+    const engineMatch = rawSql.match(/ENGINE\s*[=]?\s*\w+\([^)]*\)/i)
+    
+    if (engineMatch) {
+      const originalEngine = engineMatch[0]
+      const databaseName = clusterManager.nodes[0]?.dataBaseName || 'default_db'
+      
+      const clusterEngine = EngineHelper.convertEngine(originalEngine, {
+        isCluster: true,
+        tableName,
+        databaseName
+      })
+      finalSql = finalSql.replace(originalEngine, clusterEngine)
+    } else {
+      console.warn(`[NodeClickhouse] ⚠️ 无法从 SQL 中提取引擎，使用原始 SQL`)
+    }
+    
+    // 在所有节点上执行
+    const results = await Promise.all(
+      clusterManager.nodes.map(async (node) => {
+        try {
+          await node.client.command({ query: finalSql })
+          return { node: node.name, success: true }
+        } catch (err) {
+          if (err.message && err.message.includes('already exists')) {
+            return { node: node.name, success: true, existed: true }
+          }
+          console.error(`[NodeClickhouse] ❌ 节点 ${node.name} 动态建表失败:`, err.message)
+          return { node: node.name, success: false, error: err.message }
+        }
+      })
+    )
+    
+    const failed = results.filter(r => !r.success)
+    if (failed.length > 0) {
+      console.warn(`[NodeClickhouse] ⚠️ ${failed.length}/${results.length} 个节点动态建表失败`)
+      failed.forEach(f => console.warn(`  - ${f.node}: ${f.error}`))
+    } else {
+      return results
+    }
+    
+    return results
+  }
+  
+  /**
    * 删除表（支持集群模式）
    */
   async dropTable(options = {}) {

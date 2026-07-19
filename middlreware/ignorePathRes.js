@@ -36,7 +36,7 @@ module.exports = [
     "/buryPointUserField/downloadTemplate",
     "/buryPointUserField/downFileByName",
     "/buryPointSegmentRule/downloadUsers",
-    "/sdkRelease/downloadAndroidJar",
+    "/sdkRelease/downloadAndroidJar",  "/sdkRelease/downloadIosJar", "/sdkRelease/downloadHarmonyJar",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",
