@@ -4,7 +4,7 @@ const { domainConfig, licenseConfig, mysqlConfig, otherConfig, rabbitMqConfig } 
 const accountInfo = {
     isCloud: otherConfig.isCloud,              // 云服务模式
     
-    uploadServerDomain: domainConfig.uploadDomain.monitor, // 上报域名
+    uploadServerDomain: domainConfig.uploadDomain.event, // 上报域名
     
     localServerDomain: domainConfig.host.be,   // 监控系统后端服务域名 
     localServerPort: domainConfig.port.be,     // 监控系统后端服务端口号

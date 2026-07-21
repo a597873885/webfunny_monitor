@@ -74,6 +74,7 @@ Config.createTable().then(() => {
     })
 })
 
-createRouter(router)
+// 注意：createRouter 已在 handleResult() 中调用，不要重复调用
+// createRouter(router)
 
 module.exports = router
