@@ -193,7 +193,7 @@
             ]
         },
         {
-            "pointName": "浏览量",
+            "pointName": "页面浏览",
             "pointDesc": "统计每个页面浏览数据",
             "weType": 0,
             "replacePointIdKey": "PageViewPointId",
@@ -208,11 +208,11 @@
                     "weType": 0
                 },
                 {
-                    "fieldName": "behaviorType",
-                    "fieldAlias": "行为类型",
+                    "fieldName": "pageTitle",
+                    "fieldAlias": "页面标题",
                     "fieldType": "VARCHAR",
                     "fieldLength": 50,
-                    "fieldDesc": "表示行为的类型：如：点击, 停留等",
+                    "fieldDesc": "标识页面的标题",
                     "groupByFlag": 1,
                     "weType": 0
                 },
