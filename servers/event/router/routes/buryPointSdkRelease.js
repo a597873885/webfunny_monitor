@@ -14,4 +14,8 @@ module.exports = (router) => {
   router.get('/sdkRelease/AllList', SdkReleaseController.getAllList);
   router.post('/sdkRelease/createReleaseScript', SdkReleaseController.createReleaseScript);
   router.get('/sdkRelease/downLoad', SdkReleaseController.downloadScript);
+  router.get('/sdkRelease/downloadJavaJar', SdkReleaseController.downloadJavaJar);
+  router.get('/sdkRelease/downloadAndroidJar', SdkReleaseController.downloadAndroidJar);
+  router.get('/sdkRelease/downloadIosJar', SdkReleaseController.downloadIosJar);
+  router.get('/sdkRelease/downloadHarmonyJar', SdkReleaseController.downloadHarmonyJar);
 }

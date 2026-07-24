@@ -58,7 +58,7 @@ const Columns = {
     // 如果指定的表名称本就是复数形式则不变
     freezeTableName: true
   },
-  engine: "ENGINE SummingMergeTree((weRelationPointCount))",
+  engine: "ENGINE SummingMergeTree(weRelationPointCount)",
   // 创建索引Sql
   indexSql: "",
   // 数据模型

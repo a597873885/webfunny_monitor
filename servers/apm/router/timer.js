@@ -16,12 +16,22 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             // 开始接收消息队列的消息
             Common.startReceiveMsg()
         }
+
+        // 将每个项目的配置放入全局变量中
+        Common.setProjectConfigList()
+        // 加载有效项目ID到内存，用于日志接收时过滤无效projectId
+        ProjectController.cacheWebMonitorId()
+        setTimeout(() => {
+            console.log("启动APM项目列表：", JSON.stringify(global.apmInfo.cacheWebMonitorIdList))
+        }, 10000)
     }, 3000)
 
     setTimeout(() => {
         // 更新流量上限信息
         TimerCalculateController.checkLimitForCloud()
         TimerCalculateController.checkCommonProduct()
+
+         console.log("启动APM项目列表：", JSON.stringify(global.apmInfo.cacheWebMonitorIdList))
     }, 25 * 1000)
 
     setTimeout(() => {
@@ -93,10 +103,12 @@ module.exports = async (customerWarningCallback, serverType = "master") => {
             Common.handleRealTimeLogInfoQueue()
 
             
-            // 每隔1分钟执行
-            if (minuteTimeStr.substring(3) == "00") {
-                // 每隔1分钟，生成一个动态的secret
-                // CommonUtil.setMonitorSecretList()
+            // 每隔1分钟的第10s执行
+            if (minuteTimeStr.substring(3) == "10") {
+                // 每60秒刷新一次有效项目ID列表，应对项目的新增、删除、关闭上报
+                ProjectController.cacheWebMonitorId().catch((e) => {
+                    log.printError("刷新有效项目ID列表失败:", e)
+                })
             }
 
             // 每隔1分钟

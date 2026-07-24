@@ -1,5 +1,22 @@
 const utils = require("./utils")
 module.exports = {
+  /**
+   * 生成分群 Bitmap 过滤 SQL 片段
+   * @param {string} projectId - 项目ID
+   * @param {string} segmentId - 分群ID
+   * @param {string} weUserIdRef - weUserId 的 SQL 引用（如 'u.weUserId' 或 't0.weUserId'）
+   * @param {string} operator - 'include'（属于分群）或 'exclude'（不属于分群）
+   * @returns {string} SQL 片段
+   */
+  getSegmentFilterSql: function(projectId, segmentId, weUserIdRef, operator = 'include') {
+    const tableName = `${projectId}_segment_results`;
+    const subquery = `SELECT arrayJoin(bitmapToArray(userBitmap)) FROM ${tableName} WHERE segmentId = '${segmentId}'`;
+    if (operator === 'include') {
+      return `cityHash64(${weUserIdRef}) IN (${subquery})`;
+    } else {
+      return `cityHash64(${weUserIdRef}) NOT IN (${subquery})`;
+    }
+  },
   createTimeScopeSql: function (day) {
     const startTime = utils.addDays(0 - day) + " 00:00:00"
     const endTime = utils.addDays(0 - day + 1) + " 00:00:00"
@@ -31,7 +48,7 @@ module.exports = {
       }
       
       // 获取选项
-      const { needJoinUserTable = false, userTableName = '' } = options;
+      const { needJoinUserTable = false, userTableName = '', projectId = null } = options;
       
       var criteriaSql = ''
       for (let j = 0; j < queryCriteria.length; j++) {
@@ -47,24 +64,20 @@ module.exports = {
           
           // 根据 weType 决定使用哪个表名作为前缀
           let tablePrefix = tableName; // 默认使用日志表
-          if (needJoinUserTable && (weType === 3 || weType === 4 || weType === '3' || weType === '4')) {
-            // 用户属性（预置或自定义）使用用户表别名 u
+          if (needJoinUserTable && (weType === 3 || weType === 4 || weType === 5 || weType === '3' || weType === '4' || weType === '5')) {
+            // 用户属性（预置或自定义）和分群字段使用用户表别名 u
             tablePrefix = 'u';
-          } else if (needJoinUserTable && (weType === 5 || weType === '5')) {
-            // 用户分群使用用户表别名 u，并使用 has() 函数
-            tablePrefix = 'u';
-            rule = '属于分群'; // 强制设置为分群规则
           }
           
-          // 处理 calcField 的 weType（针对 isRepeat=9/10 的分群操作）
+          // 处理 calcField 的 weType（针对 isRepeat=9/10 的分群操作，使用 Bitmap 分群结果表）
           let calcFieldWeType = calcField.weType;
           if (calcField.isRepeat === '9' || calcField.isRepeat === '10') {
-            // 属于分群/不属于分群，使用用户表
-            if (needJoinUserTable) {
-              tablePrefix = 'u';
-              fieldName = 'segmentIds'; // 分群字段
-              rule = calcField.isRepeat === '9' ? '属于分群' : '不属于分群';
-              value = calcField.fieldName; // 值是分群ID
+            // 属于分群/不属于分群，使用 Bitmap
+            if (projectId) {
+              const filterOp = calcField.isRepeat === '9' ? 'include' : 'exclude';
+              const segmentId = calcField.fieldName;
+              const tableRef = needJoinUserTable ? 'u' : tableName;
+              criteriaSql = " " + criteriaSql + this.getSegmentFilterSql(projectId, segmentId, `${tableRef}.weUserId`, filterOp) + " " + andOr + " ";
             }
           }
           
@@ -93,14 +106,19 @@ module.exports = {
             let valueListStr = `${tablePrefix}.${fieldName}` + " >=" + valueArray[0] + " and " + `${tablePrefix}.${fieldName}` + " <=" + valueArray[1];
             criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " ";
           } else if (rule === '属于分群' || rule === '属于') {
-            // 使用 ClickHouse 的 has() 函数检查数组
-            // 分群ID优先取 value，如果 value 为空则取 fieldName
+            // 使用 Bitmap 分群结果表，不再依赖用户表 segmentIds 字段
             const segmentId = value || fieldName;
-            criteriaSql = " " + criteriaSql + "has(" + `${tablePrefix}.segmentIds` + ", '" + segmentId + "') " + andOr + " ";
+            if (projectId && tablePrefix) {
+              const segmentFilterSql = this.getSegmentFilterSql(projectId, segmentId, `${tablePrefix}.weUserId`, 'include');
+              criteriaSql = " " + criteriaSql + segmentFilterSql + " " + andOr + " ";
+            }
           } else if (rule === '不属于分群' || rule === '不属于') {
-            // 使用 ClickHouse 的 NOT has() 函数
+            // 使用 Bitmap 分群结果表，不再依赖用户表 segmentIds 字段
             const segmentId = value || fieldName;
-            criteriaSql = " " + criteriaSql + "NOT has(" + `${tablePrefix}.segmentIds` + ", '" + segmentId + "') " + andOr + " ";
+            if (projectId && tablePrefix) {
+              const segmentFilterSql = this.getSegmentFilterSql(projectId, segmentId, `${tablePrefix}.weUserId`, 'exclude');
+              criteriaSql = " " + criteriaSql + segmentFilterSql + " " + andOr + " ";
+            }
           } else {
               criteriaSql = " " + criteriaSql + `${tablePrefix}.${fieldName}` + " " + rule + " '" + value + "'" + " " + andOr + " ";
           }
@@ -132,7 +150,7 @@ module.exports = {
   
     const { combineType = 'a', queryCriteria = [] } = globalFilter;
     const andOr = combineType === 'o' ? 'or' : 'and';
-    const { needJoinUserTable = false, userTableName = '' } = options;
+    const { needJoinUserTable = false, userTableName = '', projectId = null } = options;
       
     let criteriaSql = '';
       
@@ -157,30 +175,25 @@ module.exports = {
         
         // 根据 weType 决定使用哪个表名作为前缀
         let tablePrefix = tableName;
-        if (needJoinUserTable && (weType === 3 || weType === 4 || weType === '3' || weType === '4')) {
-          // 用户属性（预置或自定义）使用用户表别名 u
+        if (needJoinUserTable && (weType === 3 || weType === 4 || weType === 5 || weType === '3' || weType === '4' || weType === '5')) {
+          // 用户属性（预置或自定义）和分群字段使用用户表别名 u
           tablePrefix = 'u';
         }
           
-        // 处理"属于分群"和"不属于分群"
+        // 处理"属于分群"和"不属于分群"（使用 Bitmap 分群结果表）
         if (rule === '属于分群' || rule === '属于') {
           // 分群ID优先取 value，如果 value 为空则取 fieldName
           const segmentId = value || fieldName;
-          // 检查 segmentIds 字段在哪个表
-          // 如果 userTableName 存在，说明需要关联用户表
-          if (needJoinUserTable && userTableName) {
-            // 用户表别名固定为 u
-            criteriaSql += " has(u.segmentIds, '" + segmentId + "') " + andOr + " ";
-          } else {
-            // 单表查询，假设 segmentIds 在当前表
-            criteriaSql += " has(" + `${tableName}.segmentIds` + ", '" + segmentId + "') " + andOr + " ";
+          if (projectId) {
+            // 分群过滤基于用户表的 weUserId（通过 cityHash64 匹配 Bitmap）
+            const tableRef = needJoinUserTable && userTableName ? 'u' : tableName;
+            criteriaSql += " " + this.getSegmentFilterSql(projectId, segmentId, `${tableRef}.weUserId`, 'include') + " " + andOr + " ";
           }
         } else if (rule === '不属于分群' || rule === '不属于') {
           const segmentId = value || fieldName;
-          if (needJoinUserTable && userTableName) {
-            criteriaSql += " NOT has(u.segmentIds, '" + segmentId + "') " + andOr + " ";
-          } else {
-            criteriaSql += " NOT has(" + `${tableName}.segmentIds` + ", '" + segmentId + "') " + andOr + " ";
+          if (projectId) {
+            const tableRef = needJoinUserTable && userTableName ? 'u' : tableName;
+            criteriaSql += " " + this.getSegmentFilterSql(projectId, segmentId, `${tableRef}.weUserId`, 'exclude') + " " + andOr + " ";
           }
         } else if (rule === 'is null') {
           criteriaSql += " (" + `${tablePrefix}.${fieldName}` + " is null or " + `${tablePrefix}.${fieldName}` + "='') " + andOr + " ";

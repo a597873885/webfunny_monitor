@@ -30,6 +30,7 @@ global.centerInfo = {
     projectConfigs: {}, // 携带每个项目的配置信息
     alarmInfoList: {}, // 警报信息暂存
     logInfoQueue: {}, // 存放日志队列的对象
+    selfReportLog: false, // 是否调用loggerLoad
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

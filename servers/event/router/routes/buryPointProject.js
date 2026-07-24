@@ -43,5 +43,7 @@ router.get('/buryPointProject/base64', BuryPointProjectController.base64JiaMi);
   router.post('/buryPointProject/initOldProjectUserTable', BuryPointProjectController.initOldProjectUserTable);
   // 批量初始化所有旧项目的用户表和预置用户属性
   router.post('/buryPointProject/initAllOldProjectsUserTable', BuryPointProjectController.initAllOldProjectsUserTable);
+  // 更新项目的计算ID（同时更新项目表和卡片表）
+  router.post('/buryPointProject/updateProject', BuryPointProjectController.updateProject);
 
 }

@@ -90,9 +90,9 @@ class GrpcServerProtobuf {
 
   /**
    * 启动 gRPC 服务
-   * @param {number} port - gRPC 服务端口，默认 9018
+   * @param {number} port - gRPC 服务端口，默认 11800
    */
-  start(port = 9018) {
+  start(port = 11800) {
     try {
       console.log('正在加载 Protobuf 定义...')
       const proto = this.loadProto()
@@ -149,7 +149,19 @@ class GrpcServerProtobuf {
   handleInstanceProperties(call, callback) {
     try {
       const instanceProps = call.request
-      
+
+      // 校验 serviceInstance 是否为有效项目 ID
+      const validSet = global.apmInfo.validWebMonitorIdSet
+      if (!validSet.has(instanceProps.serviceInstance)) {
+        const warnedSet = global.apmInfo.warnedInvalidProjectIds
+        if (!warnedSet.has(instanceProps.serviceInstance)) {
+          warnedSet.add(instanceProps.serviceInstance)
+          log.printError("SkyWalking 实例注册 serviceInstance 不在有效项目列表中: " + instanceProps.serviceInstance)
+        }
+        callback(null, { commands: [] })
+        return
+      }
+
       // 从 gRPC 连接中获取客户端 IP（即博客服务器的真实 IP）
       let serverIp = ''
       try {
@@ -287,6 +299,16 @@ class GrpcServerProtobuf {
    * 处理单个日志
    */
   processLog(logData) {
+    // 校验 serviceInstance 是否为有效项目 ID
+    const validSet = global.apmInfo.validWebMonitorIdSet
+    if (!validSet.has(logData.serviceInstance)) {
+      const warnedSet = global.apmInfo.warnedInvalidProjectIds
+      if (!warnedSet.has(logData.serviceInstance)) {
+        warnedSet.add(logData.serviceInstance)
+        log.printError("SkyWalking Log serviceInstance 不在有效项目列表中: " + logData.serviceInstance)
+      }
+      return
+    }
     // 保存到数据库
     this.apmStorage.saveLog(logData).catch(err => {
       log.printError('保存日志失败:', err)
@@ -297,6 +319,16 @@ class GrpcServerProtobuf {
    * 处理指标数据
    */
   processMetrics(metricsCollection) {
+    // 校验 serviceInstance 是否为有效项目 ID
+    const validSet = global.apmInfo.validWebMonitorIdSet
+    if (!validSet.has(metricsCollection.serviceInstance)) {
+      const warnedSet = global.apmInfo.warnedInvalidProjectIds
+      if (!warnedSet.has(metricsCollection.serviceInstance)) {
+        warnedSet.add(metricsCollection.serviceInstance)
+        log.printError("SkyWalking Metrics serviceInstance 不在有效项目列表中: " + metricsCollection.serviceInstance)
+      }
+      return
+    }
     // 保存到数据库
     this.apmStorage.saveMetrics(metricsCollection).catch(err => {
       log.printError('保存指标失败:', err)
@@ -309,7 +341,18 @@ class GrpcServerProtobuf {
   async processSegment(segment) {
     // 使用 parser 解析 Segment（提取 tags 等详细信息）
     const parsed = this.parser.parseTraceSegment(segment)
-    
+
+    // 校验 serviceInstance 是否为有效项目 ID
+    const validSet = global.apmInfo.validWebMonitorIdSet
+    if (!validSet.has(parsed.serviceInstance)) {
+      const warnedSet = global.apmInfo.warnedInvalidProjectIds
+      if (!warnedSet.has(parsed.serviceInstance)) {
+        warnedSet.add(parsed.serviceInstance)
+        log.printError("SkyWalking Trace serviceInstance 不在有效项目列表中: " + parsed.serviceInstance)
+      }
+      return
+    }
+
     // Segment 级别去重
     const segmentKey = `${parsed.traceId}_${parsed.traceSegmentId}`
     
@@ -526,4 +569,3 @@ class GrpcServerProtobuf {
 }
 
 module.exports = GrpcServerProtobuf
-

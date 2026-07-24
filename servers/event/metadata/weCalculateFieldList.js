@@ -4,16 +4,16 @@ module.exports = [
         "fieldName": "allCount", //名称为空
         "fieldAlias": "总次数",
         "fieldType": "INT",
-        "fieldDesc": "内置ID不去重",
+        "fieldDesc": "内置ID/用户ID不去重",
         "groupByFlag": 0,
         "weType": -1
     },
     {
         "id": "-2", //id -1
         "fieldName": "userCount", //名称为空
-        "fieldAlias": "用户数",
+        "fieldAlias": "总人数",
         "fieldType": "INT",
-        "fieldDesc": "内置ID去重",
+        "fieldDesc": "内置ID/用户ID去重",
         "groupByFlag": 0,
         "weType": -1
     },

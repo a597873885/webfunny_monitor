@@ -47,6 +47,11 @@ module.exports = {
 
   // 日志
   log: ({projectId = "", userId = "", secondId = "", message = "", content = "", otherInfo = ""}) => {
+    console.log("日志状态：", global?.centerInfo?.selfReportLog)
+
+    if (global?.centerInfo?.selfReportLog === false) {
+      return
+    }
 
     // 如果projectId为空，则不进行上报
     if (!projectId) return
@@ -80,7 +85,7 @@ module.exports = {
       finalOtherInfo = otherInfo
     }
 
-    
+    console.log("日志上报")
     const { version } = Utils.getJsonData()
     fetch(`http://127.0.0.1:${domainConfig.port.be}/wfLog/upLogs`,
     {

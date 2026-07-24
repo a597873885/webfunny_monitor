@@ -74,9 +74,9 @@ module.exports = {
     INSERT INTO MasterLock (lockKey, nodeId, nodeIp, expireTime, createdAt, updatedAt)
     VALUES (:lockKey, :nodeId, :nodeIp, :expireTime, :now, :now)
     ON DUPLICATE KEY UPDATE
-      nodeId     = IF(expireTime < :now, :nodeId,     nodeId),
-      nodeIp     = IF(expireTime < :now, :nodeIp,     nodeIp),
-      expireTime = IF(expireTime < :now, :expireTime, expireTime),
-      updatedAt  = IF(expireTime < :now, :now,        updatedAt)
+      nodeId     = IF(MasterLock.expireTime < :now, :nodeId,     MasterLock.nodeId),
+      nodeIp     = IF(MasterLock.expireTime < :now, :nodeIp,     MasterLock.nodeIp),
+      expireTime = IF(MasterLock.expireTime < :now, :expireTime, MasterLock.expireTime),
+      updatedAt  = IF(MasterLock.expireTime < :now, :now,        MasterLock.updatedAt)
   `
 }

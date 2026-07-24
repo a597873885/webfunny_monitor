@@ -28,7 +28,7 @@ module.exports = [
     "/eventBaseInfo", "/storeTokenToMemory", "/upgradeVersion", "buryPointTest/searchExport",
     "/buryPointCard/getHeatMapPerData", "/buryPointVisualTracking/create", "/wfEvent/checkWeFieldData",
     "/getExportCode", "/buryPointProject/getProjectCountByCompanyId", "/wfEvent/getLogCountInfoByDay",
-    "/buryPointWarehouse/downloadExcel", "/sdkRelease/downloadJavaJar",
+    "/buryPointWarehouse/downloadExcel", "/sdkRelease/downloadJavaJar", "/wfEvent/buryPointCard/getHeatMapStatisticData",
     "/buryPointWarehouse/downloadTemplate",
     "/buryPointWarehouse/downFileByName",
     "/buryPointTemplate/download",
@@ -36,6 +36,7 @@ module.exports = [
     "/buryPointUserField/downloadTemplate",
     "/buryPointUserField/downFileByName",
     "/buryPointSegmentRule/downloadUsers",
+    "/sdkRelease/downloadAndroidJar",  "/sdkRelease/downloadIosJar", "/sdkRelease/downloadHarmonyJar",
 
     // logger
     "/wfLog/upLogs", "/wfLog/upErrLogs",

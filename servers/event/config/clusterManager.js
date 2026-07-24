@@ -15,11 +15,11 @@ class ClickHouseClusterManager {
         password: node.password,
         database: node.dataBaseName,
         request_timeout: config.timeout || 30000,
+        max_open_connections: config.maxOpenConnections || 10,
         compression: {
           response: true,
           request: false
-        },
-        keep_alive: { enabled: false },
+        }
       }),
       status: {
         isHealthy: true,

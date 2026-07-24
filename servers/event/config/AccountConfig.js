@@ -4,7 +4,7 @@ const { domainConfig, licenseConfig, mysqlConfig, otherConfig, rabbitMqConfig } 
 const accountInfo = {
     isCloud: otherConfig.isCloud,              // 云服务模式
     
-    uploadServerDomain: domainConfig.uploadDomain.monitor, // 上报域名
+    uploadServerDomain: domainConfig.uploadDomain.event, // 上报域名
     
     localServerDomain: domainConfig.host.be,   // 监控系统后端服务域名 
     localServerPort: domainConfig.port.be,     // 监控系统后端服务端口号
@@ -45,6 +45,7 @@ const accountInfo = {
     defaultCompanyId: otherConfig.defaultCompanyId || "1", // 默认公司ID, 用于飞书登录
     defaultTeamId: otherConfig.defaultTeamId || "1", // 默认团队ID, 用于批量创建项目
     openExportFlag: otherConfig.openExportFlag, //是否开启点位细查数据导出验证：false-不开启，true-开启
+    upEventsWeArgsFlag: otherConfig.upEventsWeArgsFlag || false, // 是否上传事件数据到weCommonArgs和weEventArgs
 }
 
 module.exports = {

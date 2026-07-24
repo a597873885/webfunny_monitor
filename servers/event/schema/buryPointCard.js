@@ -133,6 +133,20 @@ const Columns = {
     allowNull: true,
     field: 'tableShowType'
   },
+  //计算ID：默认weCustomerKey，也可以是weUserId等
+  //"calculateId":"weCustomerKey"
+  calculateId: {
+    type: DataTypes.STRING,
+    allowNull: true,
+    field: 'calculateId'
+  },
+  //Top几：”1“-top10，“2“-top30，“3“-top50
+  //"topValue":"1"
+  topValue: {
+    type: DataTypes.STRING,
+    allowNull: true,
+    field: 'topValue'
+  },
   //是否显示实时在线人数：0不显示（默认）， 1显示
   isShowOnlineCount: {
     type: DataTypes.INT(8),

@@ -46,6 +46,7 @@ global.monitorInfo = {
     simpleProjectListInMemory: {}, // 内存中存放的简单项目列表
     projectListForProjectCode: "", // 根据项目编码存放的项目列表
     projectCompanyMap: {},
+    aliveCache: {},  // 内存中缓存每个项目的实时活跃量
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

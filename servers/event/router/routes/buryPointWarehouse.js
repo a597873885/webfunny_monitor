@@ -48,6 +48,7 @@ module.exports = (router) => {
   router.post('/buryPointWarehouse/page', BuryPointWarehouseController.getPageList);
   router.post('/buryPointWarehouse/list', BuryPointWarehouseController.getList);
   router.post('/buryPointWarehouse/getProjectAndWeList', BuryPointWarehouseController.getAllPointList);
+  router.post('/buryPointWarehouse/getProjectPointList', BuryPointWarehouseController.getProjectPointList);
   router.post('/buryPointWarehouse/getSdkPointAndWePointList', BuryPointWarehouseController.getSdkPointAndWePointList);
   router.post('/buryPointWarehouse/getProjectAndOldList', BuryPointWarehouseController.getProjectAndOldList);
   router.get('/buryPointWarehouse/AllList', BuryPointWarehouseController.getAllList);

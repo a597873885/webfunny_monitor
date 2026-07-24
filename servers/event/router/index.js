@@ -45,6 +45,7 @@ global.eventInfo = {
     pointListForProjectCode: "", // 存放点位列表，根据projectCode进行归类
     pointListForProjectId: "", // 存放点位列表，根据projectId进行归类
     projectCompanyMap: "",
+    userFieldsCache: {}  // 自定义用户字段缓存 { projectId: { fields: [fieldName1, ...], timestamp: Date.now() } }
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"
@@ -73,6 +74,7 @@ Config.createTable().then(() => {
     })
 })
 
-createRouter(router)
+// 注意：createRouter 已在 handleResult() 中调用，不要重复调用
+// createRouter(router)
 
 module.exports = router

@@ -11,6 +11,7 @@ module.exports = (router) => {
   router.post('/buryPointCard/list', BuryPointCardController.getList);
   router.post('/buryPointCard/getList', BuryPointCardController.getListByPageIdAndName);
   router.post('/buryPointCard/update', BuryPointCardController.update);
+  router.post('/buryPointCard/updateAlarmConfig', BuryPointCardController.updateAlarmConfig);
   router.get('/buryPointCard/detail', BuryPointCardController.detail);
   router.get('/buryPointCard/getCardQuery', BuryPointCardController.getCardQuery);
   router.post('/buryPointCard/sort', BuryPointCardController.sort);
@@ -30,4 +31,5 @@ module.exports = (router) => {
   router.post('/buryPointCard/getDataPreview', BuryPointCardController.getDataPreview);
   router.post('/buryPointCard/getCardList', BuryPointCardController.getCardList);//先返回不带分析数据的list
   router.post('/buryPointCard/getCardListByIds', BuryPointCardController.getCardListByIds);//根据卡片ids得到分析数据list
+  router.post('/buryPointCard/getHeatMapStatisticData', BuryPointCardController.getHeatMapStatisticData);//查询热力图统计数据
 }
