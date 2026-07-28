@@ -416,4 +416,80 @@ module.exports = [
         "groupByFlag": 1,
         "weType": 1
     },
+    
+
+    // 2026年07月22日新增，客户特定场景，可以移除
+    {
+        "fieldName": "weResourceId",
+        "fieldAlias": "资源位ID",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "资源 ID（运营位/卡片/图标唯一 ID）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weSearchSiteId",
+        "fieldAlias": "搜索站点ID",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "搜索场景的站点 ID（区分不同搜索入口）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weCardId",
+        "fieldAlias": "区块ID",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "区块 ID（首页/列表页卡片的唯一标识）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weCardName",
+        "fieldAlias": "区块名称",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "区块名称（人类可读）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weCardIndex",
+        "fieldAlias": "坑位编号",
+        "fieldType": "VARCHAR",
+        "fieldLength": 50,
+        "fieldDesc": "卡片坑位编号（在列表中的顺序）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weElementId",
+        "fieldAlias": "元素编号",
+        "fieldType": "VARCHAR",
+        "fieldLength": 100,
+        "fieldDesc": "元素编号",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weElementName",
+        "fieldAlias": "元素名称",
+        "fieldType": "VARCHAR",
+        "fieldLength": 200,
+        "fieldDesc": "元素名称",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+    {
+        "fieldName": "weElementType",
+        "fieldAlias": "元素类型",
+        "fieldType": "VARCHAR",
+        "fieldLength": 50,
+        "fieldDesc": "元素类型（MATTER:事项；APP:应用；MESSAGE:消息；NEWS:新闻；NOTICE:公告；PAGE:页面；button:按钮；policy:政策；ecard:卡证；video:视频；search_keywords:关键词；category:目录）",
+        "groupByFlag": 1,
+        "weType": 1
+    },
+
 ]

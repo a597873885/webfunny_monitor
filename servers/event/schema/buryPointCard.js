@@ -153,6 +153,12 @@ const Columns = {
     allowNull: true,
     field: 'isShowOnlineCount'
    },
+   //查询时间
+  queryTime: {
+    type: DataTypes.STRING,
+    allowNull: true,
+    field: 'queryTime'
+   },
     // 创建人
     createBy: {
       type: DataTypes.STRING,
