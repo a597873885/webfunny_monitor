@@ -12,12 +12,12 @@ module.exports = async () => {
     }, 5 * 60 * 1000)
     setTimeout(() => {
         // 服务器启动记录打点
-        Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
-            pointId: "11",
-            projectId: "event1029",
-            yong_hu_id: Utils.getMac(),
-            shouQuanMaId: "apply-center",
-        })}).then((res) => {}).catch((e) => {})
+        // Utils.postPoint("http://monitor.webfunny.cn/tracker/upEvent", { data: JSON.stringify({
+        //     pointId: "11",
+        //     projectId: "event1029",
+        //     yong_hu_id: Utils.getMac(),
+        //     shouQuanMaId: "apply-center",
+        // })}).then((res) => {}).catch((e) => {})
 
         // 初始化登录验证码
         UserController.setValidateCode()

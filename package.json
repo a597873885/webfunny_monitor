@@ -38,7 +38,6 @@
     "geoip-lite": "^1.3.7",
     "getmac": "^5.20.0",
     "ip": "^1.1.5",
-    "ip2region": "^2.3.0",
     "jsonfile": "^6.0.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",

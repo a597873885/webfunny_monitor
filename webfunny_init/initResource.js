@@ -120,7 +120,7 @@ var exists = function( src, dst, callback ){
 };
 
 
-var pathList = ["webfunny", "webfunny_center", "webfunny_event"]
+var pathList = ["webfunny", "webfunny_center", "webfunny_event", "wf_assets"]
 
 var originPath = path.resolve(__dirname, '..')
 
@@ -150,7 +150,9 @@ for (let i = 0; i < pathList.length; i ++) {
 
 for (let p = 0; p < pathList.length; p ++) {
   let tempPath = pathList[p]
-  
+  if (tempPath === "wf_assets") {
+    continue
+  }
   setTimeout(function() {
     console.log(`正在配置${tempPath}目录的域名，请稍等...`)
     let jsPath = `${originPath}/views/${tempPath}/js`;
