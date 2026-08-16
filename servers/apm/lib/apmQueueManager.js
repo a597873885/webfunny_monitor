@@ -10,7 +10,7 @@ const log = require('../config/log')
 // 配置参数
 const CONFIG = {
   // 队列长度上限，超过立即刷新
-  QUEUE_LENGTH_LIMIT: 1000,
+  QUEUE_LENGTH_LIMIT: 5000,
   // 定时刷新间隔（毫秒）
   FLUSH_INTERVAL_MS: 10000,
   // 表类型

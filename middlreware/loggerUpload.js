@@ -47,7 +47,6 @@ module.exports = {
 
   // 日志
   log: ({projectId = "", userId = "", secondId = "", message = "", content = "", otherInfo = ""}) => {
-    console.log("日志状态：", global?.centerInfo?.selfReportLog)
 
     if (global?.centerInfo?.selfReportLog === false) {
       return
