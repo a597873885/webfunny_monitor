@@ -82,4 +82,12 @@ module.exports = (router) => {
   router.post('/saveNewProjectName', ProjectController.saveNewProjectName);
   // 设置日志保存时间
   router.post('/project/resetSaveDays', ProjectController.resetSaveDays);
+
+  /** SDK 下载相关 */
+  // 下载 Android SDK zip 包
+  router.get("/sdkDownload/android", ProjectController.downloadAndroidJar)
+  // 下载 iOS SDK zip 包
+  router.get("/sdkDownload/ios", ProjectController.downloadIosJar)
+  // 下载 HarmonyOS SDK zip 包
+  router.get("/sdkDownload/harmony", ProjectController.downloadHarmonyJar)
 }

@@ -8,6 +8,7 @@ module.exports = [
     "/monitorBaseInfo", "/storeTokenToMemory", "getJavascriptErrorStackCodeForSource", "/wfMonitor/getLogCountInfoByDay",
     "/wfMonitor/checkAlarmResult", "/uploadSourceMap", "/wfMonitor/getProjectCountByCompanyId", "/wfMonitor/topology/getFrontendApps",
     "exportHttpTop10CostList", "exportHttpRequestDetailList", "exportAllProjectHttpAvgCostList", "exportPageLoadTop10List", "exportPageLoadDetailList", "exportLogList", "exportBehaviorList",
+    "/wfMonitor/sdkDownload/android", "/wfMonitor/sdkDownload/ios", "/wfMonitor/sdkDownload/harmony",
     
     // center
     // "/getUserInfo", 
