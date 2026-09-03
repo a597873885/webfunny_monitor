@@ -263,5 +263,127 @@ module.exports = {
     }
       
     return false;
-  }
+  },
+    /**
+   * 生成 eventData 版点位级筛选条件（扁平结构，字段从流水表 eventData JSON 提取）
+   * 字段引用统一为 visitParamExtractString(eventData, 'fieldName')，数值规则走 toFloat64OrNull 转换
+   * @param {Object} calcField 计数属性 { andOr: 'a'|'o' }，组内条件关系
+   * @param {Array} queryCriteria 筛选条件数组 [{ fieldName, rule, value, weType }]
+   * @param {Object} options 选项 { projectId }
+   * @returns {string} 括号包裹的条件片段，无有效条件时返回空字符串
+   */
+  handleEventDataCriteriaSql: function(calcField, queryCriteria, options = {}) {
+    const { projectId = null } = options
+    if (!queryCriteria || queryCriteria.length === 0) return ""
+
+    // 获取“且”-and 还是“或”-or
+    let andOr = calcField && calcField.andOr ? utils.convertAndOr(calcField.andOr) : "and"
+
+    let criteriaSql = ""
+    for (let j = 0; j < queryCriteria.length; j++) {
+      const { fieldName, rule: ruleCn, value = "" } = queryCriteria[j] || {}
+      // 跳过空的 rule；分群规则仅依赖 value（分群ID），允许 fieldName 为空
+      if (!ruleCn) continue
+      if (!fieldName && ruleCn !== "属于分群" && ruleCn !== "不属于分群") continue
+      const rule = utils.convertOper(ruleCn)
+      const fieldRef = "visitParamExtractString(eventData, '" + utils.escapeClickHouseString(fieldName) + "')"
+      const numRef = "toFloat64OrNull(" + fieldRef + ")"
+
+      // 属于分群/不属于分群：复用 Bitmap 分群结果表（weUserId 为流水表原生列）
+      if (rule === '属于分群' || rule === '不属于分群') {
+        const segmentId = utils.escapeClickHouseString(String(value || fieldName))
+        if (projectId && segmentId) {
+          const op = rule === '属于分群' ? 'include' : 'exclude'
+          criteriaSql = " " + criteriaSql + this.getSegmentFilterSql(projectId, segmentId, "weUserId", op) + " " + andOr + " "
+        }
+      } else if (rule === 'is null') {
+        // visitParamExtractString 对不存在的 key / null 值均返回空串，为空语义天然一致
+        criteriaSql = " " + criteriaSql + "(" + fieldRef + " = '') " + andOr + " "
+      } else if (rule === 'is not null') {
+        criteriaSql = " " + criteriaSql + "(" + fieldRef + " != '') " + andOr + " "
+      } else if (rule === 'in') {
+        let valueArray = String(value).split(",")
+        let valueListStr = ''
+        for (let k = 0; k < valueArray.length; k++) {
+          valueListStr += fieldRef + " like '%" + utils.escapeClickHouseString(valueArray[k]) + "%' " + " or "
+        }
+        valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('or'))
+        criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " "
+      } else if (rule === 'not in') {
+        let valueArray = String(value).split(",")
+        let valueListStr = ''
+        for (let k = 0; k < valueArray.length; k++) {
+          valueListStr += fieldRef + " not like '%" + utils.escapeClickHouseString(valueArray[k]) + "%' " + " and "
+        }
+        valueListStr = valueListStr.substring(0, valueListStr.lastIndexOf('and'))
+        criteriaSql = criteriaSql + " (" + valueListStr + ")" + " " + andOr + " "
+      } else if (rule === '区间') {
+        let valueArray = String(value).split(",")
+        if (valueArray.length >= 2) {
+          const minVal = parseFloat(valueArray[0])
+          const maxVal = parseFloat(valueArray[1])
+          if (!isNaN(minVal) && !isNaN(maxVal)) {
+            criteriaSql = criteriaSql + " (" + numRef + " >= " + minVal + " and " + numRef + " <= " + maxVal + ") " + andOr + " "
+          }
+        }
+      } else if (rule === '>' || rule === '>=' || rule === '<' || rule === '<=') {
+        const numVal = parseFloat(value)
+        if (!isNaN(numVal)) {
+          criteriaSql = " " + criteriaSql + numRef + " " + rule + " " + numVal + " " + andOr + " "
+        }
+      } else if (rule === '=' || rule === '!=') {
+        criteriaSql = " " + criteriaSql + fieldRef + " " + rule + " '" + utils.escapeClickHouseString(String(value)) + "' " + andOr + " "
+      }
+      // 其余未识别规则（如“归类”）不生成条件，避免无效 SQL
+    }
+    if (criteriaSql && criteriaSql.trim()) {
+      criteriaSql = criteriaSql.substring(0, criteriaSql.lastIndexOf(andOr))
+      return " (" + criteriaSql.trim() + ") "
+    }
+    return ""
+  },
+  /**
+   * 生成 eventData 版全局筛选条件（两级嵌套结构，支持 combineType 递归）
+   * @param {Object} globalFilter 全局筛选 { combineType: 'a'|'o', queryCriteria: [...] }
+   * @param {Object} options 选项 { projectId }
+   * @returns {string} 括号包裹的条件片段，无有效条件时返回空字符串
+   */
+  handleEventDataGlobalFilterSql: function(globalFilter, options = {}) {
+    if (!globalFilter || !globalFilter.queryCriteria || globalFilter.queryCriteria.length === 0) {
+      return ""
+    }
+
+    const { combineType = 'a', queryCriteria = [] } = globalFilter
+    const andOr = combineType === 'o' ? 'or' : 'and'
+
+    let criteriaSql = ''
+
+    for (let i = 0; i < queryCriteria.length; i++) {
+      const item = queryCriteria[i]
+
+      // 嵌套条件组：递归处理
+      if (item && item.combineType && item.queryCriteria) {
+        const nestedSql = this.handleEventDataGlobalFilterSql(item, options)
+        if (nestedSql.trim()) {
+          const trimmedSql = nestedSql.trim().replace(/^\(/, '').replace(/\)\s*$/, '')
+          criteriaSql += " (" + trimmedSql + ") " + andOr + " "
+        }
+      }
+      // 单层条件：复用点位级生成器（分群规则允许 fieldName 为空）
+      else if (item && item.rule && (item.fieldName || item.rule === "属于分群" || item.rule === "不属于分群" || item.rule === "属于" || item.rule === "不属于")) {
+        const singleSql = this.handleEventDataCriteriaSql({ andOr: 'a' }, [item], options)
+        if (singleSql.trim()) {
+          const trimmedSql = singleSql.trim().replace(/^\(/, '').replace(/\)\s*$/, '')
+          criteriaSql += " (" + trimmedSql + ") " + andOr + " "
+        }
+      }
+    }
+
+    // 移除最后一个 andOr
+    if (criteriaSql.endsWith(andOr + " ")) {
+      criteriaSql = criteriaSql.substring(0, criteriaSql.length - andOr.length - 1)
+    }
+
+    return criteriaSql.trim() ? " (" + criteriaSql.trim() + ") " : ""
+  },
 }

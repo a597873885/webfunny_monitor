@@ -63,6 +63,13 @@ const Columns = {
       field: 'hasData',
       defaultValue: 0
     },
+    // 是否显示用户列表：1-显示，0-不显示
+    isShowUserList: {
+      type: DataTypes.INT(8),
+      allowNull: true,
+      field: 'isShowUserList',
+      defaultValue: 0
+    },
     // 创建人
     createBy: {
       type: DataTypes.STRING,

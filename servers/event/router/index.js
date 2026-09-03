@@ -45,7 +45,8 @@ global.eventInfo = {
     pointListForProjectCode: "", // 存放点位列表，根据projectCode进行归类
     pointListForProjectId: "", // 存放点位列表，根据projectId进行归类
     projectCompanyMap: "",
-    userFieldsCache: {}  // 自定义用户字段缓存 { projectId: { fields: [fieldName1, ...], timestamp: Date.now() } }
+    userFieldsCache: {},  // 自定义用户字段缓存 { projectId: { fields: [fieldName1, ...], timestamp: Date.now() } }
+    alarmConsecutiveMap: {}  // 内存中记录每条规则的连续触发计数 { alarmId: count }
 }
 global.tableTimeStamp = new Date().Format("yyyyMMdd")
 global.web_monitor_version = "1.0.0"

@@ -22,7 +22,8 @@ const dataOverviewForCenterRouter = require('./dataOverviewForCenter')
 const buryPointSegmentRuleRouter = require('./buryPointSegmentRule')
 const buryPointUsersRouter = require('./buryPointUsers')
 const buryPointUserFieldRouter = require('./buryPointUserField')
-
+const buryPointEventStreamRouter = require('./buryPointEventStream')
+const buryPointAlarmRulesRouter = require('./buryPointAlarmRules')
 
 const createRouter = (router) => {
   thirdPartyRouter(router)
@@ -49,6 +50,8 @@ const createRouter = (router) => {
   buryPointSegmentRuleRouter(router)
   buryPointUserFieldRouter(router)
   buryPointUsersRouter(router)
+  buryPointEventStreamRouter(router)
+  buryPointAlarmRulesRouter(router)
 }
 
 module.exports = {

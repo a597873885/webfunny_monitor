@@ -55,4 +55,5 @@ module.exports = (router) => {
     .get('/buryPointUserField/getPresetFields', BuryPointUserFieldController.getPresetFields)
     .get('/buryPointUserField/getCustomFields', BuryPointUserFieldController.getCustomFields)
     .post('/buryPointUserField/queryCommonFields', BuryPointUserFieldController.queryCommonFields)
+    .post('/buryPointUserField/batchUpdateShowUserList', BuryPointUserFieldController.batchUpdateShowUserList)
 }

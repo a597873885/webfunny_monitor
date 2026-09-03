@@ -1898,6 +1898,133 @@ fillHourlyData(projectList, options = {}) {
     }
     return obj;
   },
+  /**
+   * 解析卡片 queryTime JSON，返回 { startDate, endDate } 或 null
+   * 支持三种模式：quick / static / dynamic
+   * @param {string} queryTimeStr - JSON 字符串
+   * @returns {{ startDate: string, endDate: string } | null}
+   */
+  resolveQueryTime(queryTimeStr) {
+    if (!queryTimeStr || queryTimeStr === 'null' || queryTimeStr === 'undefined') {
+      return null;
+    }
+    let config;
+    try {
+      config = typeof queryTimeStr === 'string' ? JSON.parse(queryTimeStr) : queryTimeStr;
+    } catch (e) {
+      return null;
+    }
+    if (!config || !config.mode) return null;
+
+
+    const fmt = (d) => d.Format('yyyy-MM-dd');
+    const today = new Date();
+    const todayStr = fmt(today);
+
+
+    if (config.mode === 'static') {
+      if (config.staticStart && config.staticEnd) {
+        return { startDate: config.staticStart, endDate: config.staticEnd };
+      }
+      return null;
+    }
+
+
+    if (config.mode === 'quick') {
+      const key = config.quickKey;
+      if (!key) return null;
+      const now = new Date();
+      const day = now.getDay(); // 0=Sun, 1=Mon...
+
+
+      switch (key) {
+        case 'today':
+          return { startDate: todayStr, endDate: todayStr };
+        case 'yesterday': {
+          const d = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+          const s = fmt(d);
+          return { startDate: s, endDate: s };
+        }
+        case 'thisWeek': {
+          const offset = day === 0 ? 6 : day - 1; // Mon=0
+          const mon = new Date(now.getTime() - offset * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(mon), endDate: todayStr };
+        }
+        case 'lastWeek': {
+          const offset = day === 0 ? 6 : day - 1;
+          const thisMon = new Date(now.getTime() - offset * 24 * 60 * 60 * 1000);
+          const lastMon = new Date(thisMon.getTime() - 7 * 24 * 60 * 60 * 1000);
+          const lastSun = new Date(thisMon.getTime() - 24 * 60 * 60 * 1000);
+          return { startDate: fmt(lastMon), endDate: fmt(lastSun) };
+        }
+        case 'thisMonth': {
+          const first = new Date(now.getFullYear(), now.getMonth(), 1);
+          return { startDate: fmt(first), endDate: todayStr };
+        }
+        case 'lastMonth': {
+          const first = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+          const last = new Date(now.getFullYear(), now.getMonth(), 0);
+          return { startDate: fmt(first), endDate: fmt(last) };
+        }
+        case 'recent7Days': {
+          // 最近7天：包含今天 [today-6, today]
+          const d = new Date(now.getTime() - 6 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(d), endDate: todayStr };
+        }
+        case 'past7Days': {
+          // 过去7天：不包含今天 [today-7, today-1]
+          const start = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+          const end = new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(start), endDate: fmt(end) };
+        }
+        case 'recent30Days': {
+          // 最近30天：包含今天 [today-29, today]
+          const d = new Date(now.getTime() - 29 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(d), endDate: todayStr };
+        }
+        case 'past30Days': {
+          // 过去30天：不包含今天 [today-30, today-1]
+          const start = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+          const end = new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(start), endDate: fmt(end) };
+        }
+        case 'recent90Days': {
+          // 最近90天：包含今天 [today-89, today]
+          const d = new Date(now.getTime() - 89 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(d), endDate: todayStr };
+        }
+        case 'past90Days': {
+          // 过去90天：不包含今天 [today-90, today-1]
+          const start = new Date(now.getTime() - 90 * 24 * 60 * 60 * 1000);
+          const end = new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000);
+          return { startDate: fmt(start), endDate: fmt(end) };
+        }
+        default:
+          return null;
+      }
+    }
+
+
+    if (config.mode === 'dynamic') {
+      const resolveEndpoint = (ep) => {
+        if (!ep) return null;
+        const now = new Date();
+        switch (ep.type) {
+          case 'today': return now;
+          case 'yesterday': return new Date(now.getTime() - 24 * 60 * 60 * 1000);
+          case 'pastNDays': return new Date(now.getTime() - (ep.n || 0) * 24 * 60 * 60 * 1000);
+          default: return null;
+        }
+      };
+      const start = resolveEndpoint(config.dynamicStart);
+      const end = resolveEndpoint(config.dynamicEnd);
+      if (!start || !end) return null;
+      return { startDate: fmt(start), endDate: fmt(end) };
+    }
+
+
+    return null;
+  },
 }
 
 module.exports = Utils
