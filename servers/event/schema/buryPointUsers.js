@@ -48,8 +48,8 @@ const Columns = {
   properties: ""
 }
 
-const DefineTable = function (sequelize) {
-  return sequelize.define(Columns.tableName, Columns.structure, Columns.index)
+const DefineTable = function (sequelize, projectId) {
+  return sequelize.define(Columns.getTableName(projectId), Columns.structure, Columns.index)
 }
 
 module.exports = {

@@ -1,7 +1,13 @@
 const { DataTypes } = require("../node_clickhouse/consts")
 const moment = require("moment")
+
+/**
+ * 用户路径流水表结构定义（动态创建，每个项目一个表）
+ * 表名格式: {projectId}_BuryPointEventStream
+ * 建表 SQL 由 modules/buryPointEventStream.js 的 generateCreateTableSql 生成
+ */
 const Columns = {
-  tableName: "BuryPointEventStream",
+  getTableName: (projectId) => `${projectId}_BuryPointEventStream`,
   structure: {
     // ID 主键
     id: {
@@ -78,8 +84,8 @@ const Columns = {
   // 设置表属性
   properties: ""
 }
-const DefineTable = function (sequelize) {
-  return sequelize.define(Columns.tableName, Columns.structure, Columns.index)
+const DefineTable = function (sequelize, projectId) {
+  return sequelize.define(Columns.getTableName(projectId), Columns.structure, Columns.index)
 }
 
 module.exports = {
