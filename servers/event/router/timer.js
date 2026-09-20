@@ -1,10 +1,9 @@
-const { Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointProjectController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController, TimerStatisticController } = require("../controllers/controllers")
+const { AlarmScheduler, BuryPointSegmentRuleController, Common, CommonUpLog, CommonInitDataController,SdkReleaseController, BuryPointProjectController, BuryPointCircleSelectController, WeHandleDataController, ConfigController, TimerCalculateController, TimerStatisticController } = require("../controllers/controllers")
 const log = require("../../../config/log");
 const AccountConfig = require("../config/AccountConfig");
 const { accountInfo, mysqlConfig } = AccountConfig
 const Utils = require("../util/utils")
 const masterUuidKey = "event-master-uuid"
-
 /**
  * 定时任务
  */
@@ -250,6 +249,12 @@ module.exports = async () => {
                         if (minuteTimeStr == "05:00") {
                             TimerStatisticController.handleAlarm().catch((e)=>{
                                 log.printError("定时执行告警异常",e)
+                            });
+                        }
+                        // 每天凌晨2点15分，刷新动态时间分群（queryTime mode: dynamic/quick），重算用户并覆盖写入 segment_results 的 userBitmap
+                        if (hourTimeStr == "02:15:00") {
+                            BuryPointSegmentRuleController.scheduledRefreshDynamicSegments().catch((e)=>{
+                                log.printError("定时执行刷新动态时间分群异常",e)
                             });
                         }
                     }

@@ -115,6 +115,48 @@ const CALCULATE_FIELD_TYPE = {
     averageCount: "人均次数", //总次数/用户数
     averageStayTime: "人均停留时间" //停留时间总和/用户数
 }
+// 应用中心通知模板配置（先写死）
+const NOTICE_TEMPLATE_ID = '3e8a3bb0-d326-11f0-b96b-714cd889455c'
+const WEB_MONITOR_ID = 'webfunny_20251205_213900_pro'
+
+
+/**
+ * 阈值类型枚举
+ * absolute:   绝对值变化（当前值与基准值的差值 vs 阈值）
+ * percentage: 百分比变化（当前值与基准值的变化率 vs 阈值）
+ */
+const THRESHOLD_TYPE = {
+    ABSOLUTE: 'absolute',
+    PERCENTAGE: 'percentage'
+}
+
+
+/**
+ * 比较类型枚举
+ * lessThanAndEqual:      低于
+ * greaterThanAndEqual:   高于
+ * between:               区间在
+ * notBetween:            区间不在
+ */
+const COMPARE_TYPE = {
+    LTE: 'lessThanAndEqual',
+    GTE: 'greaterThanAndEqual',
+    BETWEEN: 'between',
+    NOT_BETWEEN: 'notBetween'
+}
+
+
+/**
+ * 对比周期枚举
+ * lastHour:      上一个小时
+ * lastPeriod:    昨天同期
+ * specialValue:  特定值（当前值直接与阈值比较）
+ */
+const COMPARE_PERIOD = {
+    LAST_HOUR: 'lastHour',
+    LAST_PERIOD: 'lastPeriod',
+    SPECIAL_VALUE: 'specialValue'
+}
 
 module.exports = {
     UPLOAD_TYPE,
@@ -129,5 +171,10 @@ module.exports = {
     WEEK_NAME,
     CALCULATE_FIELD_TYPE,
     CARD_STATISTIC_DATE_TYPE,
-    CARD_STATISTIC_DATE_TYPE_GROUP_BY
+    CARD_STATISTIC_DATE_TYPE_GROUP_BY,
+    COMPARE_PERIOD,
+    NOTICE_TEMPLATE_ID,
+    WEB_MONITOR_ID,
+    THRESHOLD_TYPE,
+    COMPARE_TYPE,
 }

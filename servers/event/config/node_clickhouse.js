@@ -1,24 +1,20 @@
 const { client } = require('../config/db')
 const path = require("path")
 const WebfunnyClickHouse = require("webfunny-clickhouse")
+const WhereBuilder = require('webfunny-clickhouse/src/WhereBuilder')
+const SqlSanitizer = require('webfunny-clickhouse/src/utils/sqlSanitizer')
 const EngineHelper = require('./engineHelper')
 const crypto = require('crypto')
 const uuid = require('node-uuid')
 const moment = require('moment')
 
-// 引入 OpenTelemetry 追踪工具（可插拔）
-const { wrapClickHouseQuery } = require('../../../utils/webfunnyOtelTracer')
-
 const showSql = false  // 是否打印sql
 
 class NodeClickhouse extends WebfunnyClickHouse {
-  constructor(schemaPath = "") {
-    super({schemaPath: schemaPath ? path.resolve(__dirname, schemaPath) : "", client, showSql})
+  constructor(schemaPath) {
+    super({schemaPath: path.resolve(__dirname, schemaPath), client, showSql})
     
-    // 包装 query 方法，添加 OpenTelemetry 追踪（受配置控制）
-    wrapClickHouseQuery(this, { serviceName: 'event' })
-    
-    // 保存 schema 引用用于后续操作 
+    // 保存 schema 引用用于后续操作
     if (schemaPath) {
       try {
         this.schema = require(path.resolve(__dirname, schemaPath))
@@ -164,6 +160,100 @@ class NodeClickhouse extends WebfunnyClickHouse {
   }
   
   /**
+   * 将值转义为 ClickHouse 字符串字面量（防注入）
+   */
+  _escapeLiteral(value) {
+    if (value === null || value === undefined) {
+      return 'NULL'
+    }
+    if (typeof value === 'number') {
+      return Number.isFinite(value) ? String(value) : 'NULL'
+    }
+    if (typeof value === 'boolean') {
+      return value ? '1' : '0'
+    }
+    if (value instanceof Date) {
+      return `'${moment(value).format('YYYY-MM-DD HH:mm:ss')}'`
+    }
+    const escaped = String(value).replace(/\\/g, '\\\\').replace(/'/g, "\\'")
+    return `'${escaped}'`
+  }
+
+  /**
+   * 重写 update：将值转义后内联进 SQL，整条 SQL 走 POST body 发送
+   * 原因：父类把参数放进 URL query 参数（?param_xxx=），单个参数值超过 128KB 时会被
+   * ClickHouse 的 http_max_field_value_size 拦截（HTML Form Exception: Field value too long），
+   * 导致 detail、templatePoint 等大 JSON 字段更新失败。内联后大值不再经过 URL。
+   */
+  async update(data, options = {}) {
+    const { where = {}, tableName = this.tableName } = options
+
+    if (!tableName) {
+      throw new Error('Table name is required')
+    }
+    if (!data || Object.keys(data).length === 0) {
+      throw new Error('Update data is required')
+    }
+
+    SqlSanitizer.validateTableName(tableName)
+
+    // SET 子句：字段名走校验，值转义后内联（字段名不会出现在 URL 里，不受 128KB 限制）
+    // undefined 表示未提供该字段，跳过（Sequelize 语义），避免误写成 NULL 打非空列
+    const setClauses = Object.entries(data)
+      .filter(([, value]) => value !== undefined)
+      .map(([field, value]) => {
+        SqlSanitizer.validateFieldName(field)
+        return `${field} = ${this._escapeLiteral(value)}`
+      })
+
+    if (setClauses.length === 0) {
+      throw new Error('Update data has no effective fields (all undefined)')
+    }
+
+    let sql = `ALTER TABLE ${tableName} UPDATE ${setClauses.join(', ')}`
+
+    // WHERE 条件：复用 WhereBuilder，再把 :param_N 占位符替换为内联字面量（WHERE 值都是 id 等小值）
+    const whereBuilder = new WhereBuilder()
+    const { sql: whereSql, params } = whereBuilder.build(where)
+    if (whereSql) {
+      sql += ' ' + whereSql.replace(/:([a-zA-Z0-9_]+)/g, (match, paramName) => {
+        if (!Object.prototype.hasOwnProperty.call(params, paramName)) {
+          throw new Error(`Parameter :${paramName} not found in where params`)
+        }
+        return this._escapeLiteral(params[paramName])
+      })
+    }
+
+    if (this.showSql) {
+      console.log('[NodeClickhouse UPDATE]', sql.substring(0, 200) + (sql.length > 200 ? `...(共${sql.length}字符)` : ''))
+    }
+
+    try {
+      // max_query_size：整条 SQL 走 body，默认 256KB 不够，提升到 64MB（会话级小参数，不受限制）
+      // mutations_sync=1：等 mutation 执行完再返回，避免 update 后立即查询读不到新值；
+      // 配置表数据量小，同步等待开销可忽略；失败时回退为异步重试，保证不劣于原有行为
+      await this.client.command({
+        query: sql,
+        clickhouse_settings: { max_query_size: 67108864, mutations_sync: 1 }
+      })
+      return { affectedRows: 1 }
+    } catch (err) {
+      const msg = err.message || ''
+      if (msg.includes('mutations_sync') || msg.includes('Unknown setting')) {
+        console.warn('[NodeClickhouse] mutations_sync 不受支持，回退为异步 mutation:', msg)
+        await this.client.command({
+          query: sql,
+          clickhouse_settings: { max_query_size: 67108864 }
+        })
+        return { affectedRows: 1 }
+      }
+      console.error('[NodeClickhouse] Update error:', msg)
+      console.error('SQL length:', sql.length)
+      throw err
+    }
+  }
+
+  /**
    * 兼容 webfunny-node-clickhouse 的 updateWithRes 方法
    * @param {Object} data - 要更新的数据
    * @param {Object} options - 更新选项（包含 where 条件）
@@ -230,7 +320,7 @@ class NodeClickhouse extends WebfunnyClickHouse {
     let sql = `CREATE TABLE IF NOT EXISTS ${tableName} (\n  ${columns.join(',\n  ')}\n)\n`
     sql += Columns.engine + '\n'
     
-   if (Columns.partition) {
+    if (Columns.partition) {
       // 检查 partition 是否已经包含 PARTITION BY，避免重复
       const partitionSql = Columns.partition.toUpperCase().includes('PARTITION BY') 
         ? Columns.partition 
@@ -293,8 +383,6 @@ class NodeClickhouse extends WebfunnyClickHouse {
     const isCluster = this.client && this.client.isCluster
     
     if (isCluster) {
-      // console.log(`[NodeClickhouse] 📡 集群模式: 在所有节点创建表 "${tableName}"`)
-      
       // 获取集群管理器
       const clusterManager = this.client._clusterManager
       if (!clusterManager) {
@@ -308,7 +396,6 @@ class NodeClickhouse extends WebfunnyClickHouse {
       // 1. 替换动态表名（如果传入了自定义表名）
       if (this.schema.Columns && this.schema.Columns.tableName && tableName !== this.schema.Columns.tableName) {
         finalSql = finalSql.replace(new RegExp(this.schema.Columns.tableName, 'g'), tableName)
-        // console.log(`[NodeClickhouse] 📝 表名替换: ${this.schema.Columns.tableName} → ${tableName}`)
       }
       
       // 2. 确保使用 IF NOT EXISTS
@@ -322,7 +409,6 @@ class NodeClickhouse extends WebfunnyClickHouse {
         
         // 从集群节点获取数据库名
         const databaseName = clusterManager.nodes[0]?.dataBaseName || 'default_db'
-        // console.log(`[NodeClickhouse] 📌 数据库名: ${databaseName}`)
         
         const clusterEngine = EngineHelper.convertEngine(originalEngine, {
           isCluster: true,
@@ -331,20 +417,15 @@ class NodeClickhouse extends WebfunnyClickHouse {
           zkPath
         })
         finalSql = finalSql.replace(originalEngine, clusterEngine)
-        // console.log(`[NodeClickhouse] 🔧 引擎转换: ${originalEngine} → ${clusterEngine}`)
       }
       
       // 在所有节点上创建表
       const createPromises = clusterManager.nodes.map(async (node) => {
         try {
-          // console.log(`[NodeClickhouse] 📝 在节点 ${node.name} 创建表...`)
           await node.client.command({ query: finalSql })
-          // console.log(`[NodeClickhouse] ✅ 节点 ${node.name} 创建表成功`)
           return { node: node.name, success: true }
         } catch (err) {
-          // 表已存在不算错误
           if (err.message && err.message.includes('already exists')) {
-            console.log(`[NodeClickhouse] ℹ️  节点 ${node.name} 表已存在`)
             return { node: node.name, success: true, existed: true }
           }
           console.error(`[NodeClickhouse] ❌ 节点 ${node.name} 创建表失败:`, err.message)
@@ -360,7 +441,7 @@ class NodeClickhouse extends WebfunnyClickHouse {
         console.warn(`[NodeClickhouse] ⚠️  ${failed.length}/${results.length} 个节点创建表失败`)
         failed.forEach(f => console.warn(`  - ${f.node}: ${f.error}`))
       } else {
-        // console.log(`[NodeClickhouse] ✅ 所有节点 (${results.length}) 创建表成功`)
+        return results
       }
       
       return results
@@ -453,7 +534,7 @@ class NodeClickhouse extends WebfunnyClickHouse {
     const isCluster = this.client && this.client.isCluster
     
     if (isCluster) {
-      // console.log(`[NodeClickhouse] 🗑️  集群模式: 从所有节点删除表 "${tableName}"`)
+      console.log(`[NodeClickhouse] 🗑️  集群模式: 从所有节点删除表 "${tableName}"`)
       
       // 获取集群管理器
       const clusterManager = this.client._clusterManager

@@ -52,6 +52,37 @@ const Columns = {
       allowNull: false,
       field: 'notifyUsers'
     },
+    // ===== 新增字段（告警管理重构） =====
+    // 触发时指标值（最近告警值）
+    triggerValue: {
+      type: DataTypes.FLOAT(64),
+      allowNull: true,
+      field: 'triggerValue'
+    },
+    // 变化率（如 20.7 表示 ↑20.7%，-20.7 表示 ↓20.7%）
+    changeRate: {
+      type: DataTypes.FLOAT(64),
+      allowNull: true,
+      field: 'changeRate'
+    },
+    // 告警时段开始
+    triggerTimeStart: {
+      type: DataTypes.DATE_TIME,
+      allowNull: true,
+      field: 'triggerTimeStart'
+    },
+    // 告警时段结束
+    triggerTimeEnd: {
+      type: DataTypes.DATE_TIME,
+      allowNull: true,
+      field: 'triggerTimeEnd'
+    },
+    // 使用的通知模板ID
+    templateId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      field: 'templateId'
+    },
     // 创建时间
     createdAt: {
       type: DataTypes.DATE_TIME,
